@@ -1,0 +1,6 @@
+[submodule "git-novice"]
+	path = git-novice
+	url = https://github.com/swcarpentry-i18n/git-novice.git
+[submodule "shell-novice"]
+	path = shell-novice
+	url = https://github.com/swcarpentry-i18n/shell-novice.git
