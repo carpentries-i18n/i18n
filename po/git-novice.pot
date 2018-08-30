@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2018-03-28 00:55:36+0100\n"
+"POT-Creation-Date: 2018-08-18 17:46:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,71 +15,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: git-novice/CONDUCT.md:1
+#: git-novice/CODE_OF_CONDUCT.md:1
 # Front Matter
 msgid "---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
-"permalink: /conduct/\n"
 "---"
 msgstr ""
 
-#: git-novice/CONDUCT.md:6
+#: git-novice/CODE_OF_CONDUCT.md:5
 msgid "As contributors and maintainers of this project,\n"
-"we pledge to respect all people who contribute through reporting issues,\n"
-"posting feature requests,\n"
-"updating documentation,\n"
-"submitting pull requests or patches,\n"
-"and other activities."
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
 
-#: git-novice/CONDUCT.md:13
-msgid "We are committed to making participation in this project a harassment-free experience for everyone,\n"
-"regardless of level of experience,\n"
-"gender,\n"
-"gender identity and expression,\n"
-"sexual orientation,\n"
-"disability,\n"
-"personal appearance,\n"
-"body size,\n"
-"race,\n"
-"ethnicity,\n"
-"age,\n"
-"or religion."
-msgstr ""
-
-#: git-novice/CONDUCT.md:26
-msgid "Examples of unacceptable behavior by participants include the use of sexual language or imagery,\n"
-"derogatory comments or personal attacks,\n"
-"trolling,\n"
-"public or private harassment,\n"
-"insults,\n"
-"or other unprofessional conduct."
-msgstr ""
-
-#: git-novice/CONDUCT.md:33
-msgid "Project maintainers have the right and responsibility to remove, edit, or reject\n"
-"comments, commits, code, wiki edits, issues, and other contributions\n"
-"that are not aligned to our [Code of Conduct][coc].\n"
-"Project maintainers who do not follow the Code of Conduct may be removed from the project team."
-msgstr ""
-
-#: git-novice/CONDUCT.md:38
+#: git-novice/CODE_OF_CONDUCT.md:8
 msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
 
-#: git-novice/CONDUCT.md:42
-# unordered list
-msgid "- [Software and Data Carpentry Code of Conduct][coc]"
-msgstr ""
-
-#: git-novice/CONDUCT.md:43
-# unordered list
-msgid "- [Code of Conduct Reporting Guide][coc-reporting]"
-msgstr ""
-
-#: git-novice/CONDUCT.md:45
+#: git-novice/CODE_OF_CONDUCT.md:11
 msgid "{% include links.md %}"
 msgstr ""
 
@@ -109,7 +63,7 @@ msgid "By contributing,\n"
 "we will address your issues and/or assess your change proposal as promptly as we can,\n"
 "and help you become a member of our community.\n"
 "Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
-"agrees to abide by our [code of conduct](CONDUCT.md)."
+"agrees to abide by our [code of conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)."
 msgstr ""
 
 #: git-novice/CONTRIBUTING.md:20
@@ -182,9 +136,9 @@ msgid "2.  If you wish to change the example lesson,"
 msgstr ""
 
 #: git-novice/CONTRIBUTING.md:53
-msgid "    please work in <https://github.com/swcarpentry/lesson-example>,\n"
+msgid "    please work in <https://github.com/carpentries/lesson-example>,\n"
 "    which documents the format of our lessons\n"
-"    and can be viewed at <https://swcarpentry.github.io/lesson-example>."
+"    and can be viewed at <https://carpentries.github.io/lesson-example>."
 msgstr ""
 
 #: git-novice/CONTRIBUTING.md:57
@@ -193,9 +147,9 @@ msgid "3.  If you wish to change the template used for workshop websites,"
 msgstr ""
 
 #: git-novice/CONTRIBUTING.md:58
-msgid "    please work in <https://github.com/swcarpentry/workshop-template>.\n"
+msgid "    please work in <https://github.com/carpentries/workshop-template>.\n"
 "    The home page of that repository explains how to set up workshop websites,\n"
-"    while the extra pages in <https://swcarpentry.github.io/workshop-template>\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
 "    provide more background on our design choices."
 msgstr ""
 
@@ -206,7 +160,7 @@ msgstr ""
 
 #: git-novice/CONTRIBUTING.md:64
 msgid "    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
-"    please work in <https://github.com/swcarpentry/styles>."
+"    please work in <https://github.com/carpentries/styles>."
 msgstr ""
 
 #: git-novice/CONTRIBUTING.md:67
@@ -319,11 +273,11 @@ msgid "General discussion of [Software Carpentry][swc-site] and [Data Carpentry]
 msgstr ""
 
 #: git-novice/CONTRIBUTING.md:138
-msgid "[contact]: mailto:admin@software-carpentry.org\n"
+msgid "[contact]: mailto:team@carpentries.org\n"
 "[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
 "[dc-lessons]: http://datacarpentry.org/lessons/\n"
 "[dc-site]: http://datacarpentry.org/\n"
-"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[discuss-list]: https://carpentries.topicbox.com/groups/discuss\n"
 "[github]: https://github.com\n"
 "[github-flow]: https://guides.github.com/introduction/flow/\n"
 "[github-join]: https://github.com/join\n"
@@ -341,7 +295,7 @@ msgstr ""
 msgid "---\n"
 "layout: page\n"
 "title: \"Licenses\"\n"
-"permalink: /license/\n"
+"root: .\n"
 "---"
 msgstr ""
 
@@ -473,17 +427,22 @@ msgstr ""
 #: git-novice/LICENSE.md:79
 msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
 "[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
-"[mit-license]: http://opensource.org/licenses/mit-license.html\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
 "[ci]: http://communityin.org/\n"
-"[osi]: http://opensource.org"
+"[osi]: https://opensource.org"
 msgstr ""
 
 #: git-novice/README.md:1
+msgid "[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--git-E01563.svg)](https://swcarpentry.slack.com/messages/C91JS49HD) "
+msgstr ""
+
+#: git-novice/README.md:4
 msgid "git-novice\n"
 "=========="
 msgstr ""
 
-#: git-novice/README.md:4
+#: git-novice/README.md:7
 msgid "An introduction to version control for novices using Git.\n"
 "Please see <https://swcarpentry.github.io/git-novice/> for a rendered version of this material,\n"
 "[the lesson template documentation][lesson-example]\n"
@@ -491,35 +450,41 @@ msgid "An introduction to version control for novices using Git.\n"
 "or run `make` in this directory for a list of helpful commands."
 msgstr ""
 
-#: git-novice/README.md:10
-msgid "Maintainers:"
-msgstr ""
-
-#: git-novice/README.md:12
-# unordered list
-msgid "* [Ivan Gonzalez][gonzalez_ivan]: [@iglpdc](https://github.com/iglpdc)"
-msgstr ""
-
 #: git-novice/README.md:13
-# unordered list
-msgid "* [Daisie Huang][huang_daisie]: [@daisieh](https://github.com/daisieh)"
-msgstr ""
-
-#: git-novice/README.md:14
-# unordered list
-msgid "* [Nima Hejazi][hejazi_nima]: [@nhejazi](https://github.com/nhejazi)"
+msgid "Maintainers:"
 msgstr ""
 
 #: git-novice/README.md:15
 # unordered list
-msgid "* [Kat Koziar][koziar_kat]: [@kekoziar](https://github.com/kekoziar)"
+msgid "* [Ivan Gonzalez][gonzalez_ivan]: [@iglpdc](https://github.com/iglpdc)"
+msgstr ""
+
+#: git-novice/README.md:16
+# unordered list
+msgid "* [Nima Hejazi][hejazi_nima]: [@nhejazi](https://github.com/nhejazi)"
 msgstr ""
 
 #: git-novice/README.md:17
+# unordered list
+msgid "* [Daisie Huang][huang_daisie]: [@daisieh](https://github.com/daisieh)"
+msgstr ""
+
+#: git-novice/README.md:18
+# unordered list
+msgid "* [Kat Koziar][koziar_kat]: [@kekoziar](https://github.com/kekoziar)"
+msgstr ""
+
+#: git-novice/README.md:19
+# unordered list
+msgid "* [Madicken Munk][munk_madicken]: [@munkm](https://github.com/munkm)"
+msgstr ""
+
+#: git-novice/README.md:21
 msgid "[gonzalez_ivan]: https://software-carpentry.org/team/#gonzalez_ivan\n"
-"[huang_daisie]: https://software-carpentry.org/team/#huang_daisie\n"
 "[hejazi_nima]: https://software-carpentry.org/team/#hejazi_nima\n"
+"[huang_daisie]: https://software-carpentry.org/team/#huang_daisie\n"
 "[koziar_kat]: https://software-carpentry.org/team/#koziar_kat\n"
+"[munk_madicken]: https://software-carpentry.org/team/#munk_madicken\n"
 "[lesson-example]: https://swcarpentry.github.io/lesson-example"
 msgstr ""
 
@@ -598,9 +563,9 @@ msgstr ""
 msgid "A version control system is a tool that keeps track of these changes for us,\n"
 "effectively creating different versions of our files. It allows us to\n"
 "decide which changes will be made to the next version (each record of these changes is called a\n"
-"[commit]({{ page.root }}/reference/#commit)), and keeps useful metadata about them. The\n"
+"[commit]({{ page.root }}/reference#commit)), and keeps useful metadata about them. The\n"
 "complete history of commits for a particular project and their metadata make up\n"
-"a [repository]({{ page.root }}/reference/#repository). Repositories can be kept in sync\n"
+"a [repository]({{ page.root }}/reference#repository). Repositories can be kept in sync\n"
 "across different computers, facilitating collaboration among different people."
 msgstr ""
 
@@ -621,26 +586,26 @@ msgid ">\n"
 msgstr ""
 
 #: git-novice/_episodes/01-basics.md:66
-#: git-novice/_episodes/02-setup.md:72
-#: git-novice/_episodes/02-setup.md:101
-#: git-novice/_episodes/02-setup.md:135
-#: git-novice/_episodes/02-setup.md:146
-#: git-novice/_episodes/04-changes.md:209
-#: git-novice/_episodes/04-changes.md:361
-#: git-novice/_episodes/04-changes.md:500
-#: git-novice/_episodes/04-changes.md:513
-#: git-novice/_episodes/04-changes.md:563
-#: git-novice/_episodes/04-changes.md:595
-#: git-novice/_episodes/05-history.md:294
-#: git-novice/_episodes/05-history.md:327
+#: git-novice/_episodes/02-setup.md:70
+#: git-novice/_episodes/02-setup.md:100
+#: git-novice/_episodes/02-setup.md:134
+#: git-novice/_episodes/02-setup.md:145
+#: git-novice/_episodes/04-changes.md:208
+#: git-novice/_episodes/04-changes.md:360
+#: git-novice/_episodes/04-changes.md:499
+#: git-novice/_episodes/04-changes.md:514
+#: git-novice/_episodes/04-changes.md:564
+#: git-novice/_episodes/04-changes.md:596
+#: git-novice/_episodes/05-history.md:291
+#: git-novice/_episodes/05-history.md:324
 #: git-novice/_episodes/07-github.md:76
 #: git-novice/_episodes/07-github.md:147
 #: git-novice/_episodes/07-github.md:170
 #: git-novice/_episodes/07-github.md:183
-#: git-novice/_episodes/08-collab.md:25
-#: git-novice/_episodes/08-collab.md:142
+#: git-novice/_episodes/08-collab.md:26
+#: git-novice/_episodes/08-collab.md:143
 #: git-novice/_episodes/10-open.md:101
-#: git-novice/_episodes/13-hosting.md:72
+#: git-novice/_episodes/13-hosting.md:67
 #: git-novice/_episodes/14-supplemental-rstudio.md:44
 #: git-novice/_episodes/14-supplemental-rstudio.md:90
 #: git-novice/_episodes/14-supplemental-rstudio.md:108
@@ -665,19 +630,19 @@ msgid ">\n"
 msgstr ""
 
 #: git-novice/_episodes/01-basics.md:76
-#: git-novice/_episodes/03-create.md:124
-#: git-novice/_episodes/03-create.md:144
-#: git-novice/_episodes/04-changes.md:618
-#: git-novice/_episodes/04-changes.md:642
-#: git-novice/_episodes/04-changes.md:702
-#: git-novice/_episodes/04-changes.md:756
-#: git-novice/_episodes/04-changes.md:809
-#: git-novice/_episodes/05-history.md:357
-#: git-novice/_episodes/05-history.md:380
-#: git-novice/_episodes/05-history.md:472
-#: git-novice/_episodes/05-history.md:482
-#: git-novice/_episodes/05-history.md:490
-#: git-novice/_episodes/05-history.md:529
+#: git-novice/_episodes/03-create.md:127
+#: git-novice/_episodes/03-create.md:148
+#: git-novice/_episodes/04-changes.md:619
+#: git-novice/_episodes/04-changes.md:643
+#: git-novice/_episodes/04-changes.md:703
+#: git-novice/_episodes/04-changes.md:757
+#: git-novice/_episodes/04-changes.md:818
+#: git-novice/_episodes/05-history.md:354
+#: git-novice/_episodes/05-history.md:377
+#: git-novice/_episodes/05-history.md:430
+#: git-novice/_episodes/05-history.md:440
+#: git-novice/_episodes/05-history.md:448
+#: git-novice/_episodes/05-history.md:487
 #: git-novice/_episodes/06-ignore.md:175
 #: git-novice/_episodes/06-ignore.md:195
 #: git-novice/_episodes/06-ignore.md:218
@@ -688,19 +653,19 @@ msgstr ""
 #: git-novice/_episodes/07-github.md:241
 #: git-novice/_episodes/07-github.md:263
 #: git-novice/_episodes/07-github.md:274
-#: git-novice/_episodes/08-collab.md:147
-#: git-novice/_episodes/08-collab.md:170
-#: git-novice/_episodes/08-collab.md:181
-#: git-novice/_episodes/08-collab.md:188
-#: git-novice/_episodes/09-conflict.md:329
-#: git-novice/_episodes/09-conflict.md:498
-#: git-novice/_episodes/09-conflict.md:540
+#: git-novice/_episodes/08-collab.md:148
+#: git-novice/_episodes/08-collab.md:171
+#: git-novice/_episodes/08-collab.md:182
+#: git-novice/_episodes/08-collab.md:189
+#: git-novice/_episodes/09-conflict.md:325
+#: git-novice/_episodes/09-conflict.md:495
+#: git-novice/_episodes/09-conflict.md:537
 #: git-novice/_episodes/10-open.md:109
 #: git-novice/_episodes/10-open.md:121
 #: git-novice/_episodes/11-licensing.md:65
 #: git-novice/_episodes/11-licensing.md:78
-#: git-novice/_episodes/13-hosting.md:80
-#: git-novice/_episodes/13-hosting.md:87
+#: git-novice/_episodes/13-hosting.md:75
+#: git-novice/_episodes/13-hosting.md:82
 #: git-novice/_episodes/14-supplemental-rstudio.md:127
 # SC/DC Template label
 msgid "{: .challenge}"
@@ -735,78 +700,72 @@ msgstr ""
 
 #: git-novice/_episodes/02-setup.md:19
 # unordered list
-msgid "*   to colorize our output,"
+msgid "*   what our preferred text editor is,"
 msgstr ""
 
 #: git-novice/_episodes/02-setup.md:20
 # unordered list
-msgid "*   what our preferred text editor is,"
+msgid "*   and that we want to use these settings globally (i.e. for every project)."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:21
-# unordered list
-msgid "*   and that we want to use these settings globally (i.e. for every project)"
-msgstr ""
-
-#: git-novice/_episodes/02-setup.md:23
+#: git-novice/_episodes/02-setup.md:22
 msgid "On a command line, Git commands are written as `git verb`,\n"
 "where `verb` is what we actually want to do. So here is how\n"
 "Dracula sets up his new laptop:"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:27
+#: git-novice/_episodes/02-setup.md:26
 # code block
 msgid "~~~\n"
 "$ git config --global user.name \"Vlad Dracula\"\n"
 "$ git config --global user.email \"vlad@tran.sylvan.ia\"\n"
-"$ git config --global color.ui \"auto\"\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:32
-#: git-novice/_episodes/02-setup.md:111
-#: git-novice/_episodes/03-create.md:22
-#: git-novice/_episodes/03-create.md:30
-#: git-novice/_episodes/03-create.md:38
-#: git-novice/_episodes/03-create.md:46
-#: git-novice/_episodes/03-create.md:64
+#: git-novice/_episodes/02-setup.md:30
+#: git-novice/_episodes/02-setup.md:110
+#: git-novice/_episodes/03-create.md:24
+#: git-novice/_episodes/03-create.md:32
+#: git-novice/_episodes/03-create.md:40
+#: git-novice/_episodes/03-create.md:48
+#: git-novice/_episodes/03-create.md:66
 #: git-novice/_episodes/04-changes.md:27
 #: git-novice/_episodes/04-changes.md:34
 #: git-novice/_episodes/04-changes.md:47
-#: git-novice/_episodes/04-changes.md:61
-#: git-novice/_episodes/04-changes.md:71
-#: git-novice/_episodes/04-changes.md:84
-#: git-novice/_episodes/04-changes.md:106
-#: git-novice/_episodes/04-changes.md:113
-#: git-novice/_episodes/04-changes.md:136
-#: git-novice/_episodes/04-changes.md:167
-#: git-novice/_episodes/04-changes.md:182
-#: git-novice/_episodes/04-changes.md:219
-#: git-novice/_episodes/04-changes.md:233
-#: git-novice/_episodes/04-changes.md:261
-#: git-novice/_episodes/04-changes.md:296
-#: git-novice/_episodes/04-changes.md:318
-#: git-novice/_episodes/04-changes.md:375
-#: git-novice/_episodes/04-changes.md:387
-#: git-novice/_episodes/04-changes.md:411
-#: git-novice/_episodes/04-changes.md:423
-#: git-novice/_episodes/04-changes.md:445
-#: git-novice/_episodes/04-changes.md:458
-#: git-novice/_episodes/04-changes.md:471
+#: git-novice/_episodes/04-changes.md:60
+#: git-novice/_episodes/04-changes.md:70
+#: git-novice/_episodes/04-changes.md:83
+#: git-novice/_episodes/04-changes.md:105
+#: git-novice/_episodes/04-changes.md:112
+#: git-novice/_episodes/04-changes.md:135
+#: git-novice/_episodes/04-changes.md:166
+#: git-novice/_episodes/04-changes.md:181
+#: git-novice/_episodes/04-changes.md:218
+#: git-novice/_episodes/04-changes.md:232
+#: git-novice/_episodes/04-changes.md:260
+#: git-novice/_episodes/04-changes.md:295
+#: git-novice/_episodes/04-changes.md:317
+#: git-novice/_episodes/04-changes.md:374
+#: git-novice/_episodes/04-changes.md:386
+#: git-novice/_episodes/04-changes.md:410
+#: git-novice/_episodes/04-changes.md:422
+#: git-novice/_episodes/04-changes.md:444
+#: git-novice/_episodes/04-changes.md:457
+#: git-novice/_episodes/04-changes.md:470
 #: git-novice/_episodes/05-history.md:31
-#: git-novice/_episodes/05-history.md:46
+#: git-novice/_episodes/05-history.md:45
 #: git-novice/_episodes/05-history.md:68
 #: git-novice/_episodes/05-history.md:77
-#: git-novice/_episodes/05-history.md:97
-#: git-novice/_episodes/05-history.md:138
-#: git-novice/_episodes/05-history.md:160
-#: git-novice/_episodes/05-history.md:184
-#: git-novice/_episodes/05-history.md:197
-#: git-novice/_episodes/05-history.md:218
-#: git-novice/_episodes/05-history.md:238
-#: git-novice/_episodes/05-history.md:243
-#: git-novice/_episodes/05-history.md:253
-#: git-novice/_episodes/05-history.md:276
+#: git-novice/_episodes/05-history.md:96
+#: git-novice/_episodes/05-history.md:137
+#: git-novice/_episodes/05-history.md:158
+#: git-novice/_episodes/05-history.md:181
+#: git-novice/_episodes/05-history.md:194
+#: git-novice/_episodes/05-history.md:215
+#: git-novice/_episodes/05-history.md:235
+#: git-novice/_episodes/05-history.md:240
+#: git-novice/_episodes/05-history.md:250
+#: git-novice/_episodes/05-history.md:273
 #: git-novice/_episodes/06-ignore.md:23
 #: git-novice/_episodes/06-ignore.md:30
 #: git-novice/_episodes/06-ignore.md:56
@@ -819,11 +778,11 @@ msgstr ""
 #: git-novice/_episodes/07-github.md:96
 #: git-novice/_episodes/07-github.md:113
 #: git-novice/_episodes/07-github.md:190
-#: git-novice/_episodes/08-collab.md:44
-#: git-novice/_episodes/08-collab.md:58
-#: git-novice/_episodes/08-collab.md:69
-#: git-novice/_episodes/08-collab.md:82
-#: git-novice/_episodes/08-collab.md:108
+#: git-novice/_episodes/08-collab.md:45
+#: git-novice/_episodes/08-collab.md:59
+#: git-novice/_episodes/08-collab.md:70
+#: git-novice/_episodes/08-collab.md:83
+#: git-novice/_episodes/08-collab.md:109
 #: git-novice/_episodes/09-conflict.md:29
 #: git-novice/_episodes/09-conflict.md:44
 #: git-novice/_episodes/09-conflict.md:60
@@ -832,13 +791,13 @@ msgstr ""
 #: git-novice/_episodes/09-conflict.md:108
 #: git-novice/_episodes/09-conflict.md:121
 #: git-novice/_episodes/09-conflict.md:146
-#: git-novice/_episodes/09-conflict.md:171
-#: git-novice/_episodes/09-conflict.md:201
-#: git-novice/_episodes/09-conflict.md:219
-#: git-novice/_episodes/09-conflict.md:236
-#: git-novice/_episodes/09-conflict.md:248
-#: git-novice/_episodes/09-conflict.md:268
-#: git-novice/_episodes/09-conflict.md:289
+#: git-novice/_episodes/09-conflict.md:167
+#: git-novice/_episodes/09-conflict.md:197
+#: git-novice/_episodes/09-conflict.md:215
+#: git-novice/_episodes/09-conflict.md:232
+#: git-novice/_episodes/09-conflict.md:244
+#: git-novice/_episodes/09-conflict.md:264
+#: git-novice/_episodes/09-conflict.md:285
 #: git-novice/_extras/discuss.md:24
 #: git-novice/_extras/discuss.md:48
 #: git-novice/_extras/discuss.md:58
@@ -865,12 +824,11 @@ msgstr ""
 #: git-novice/_extras/discuss.md:409
 #: git-novice/_extras/discuss.md:437
 #: git-novice/_extras/discuss.md:457
-#: git-novice/setup.md:16
-# SC/DC Template label
-msgid "{: .bash}"
+#: git-novice/setup.md:15
+msgid "{: .language-bash}"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:34
+#: git-novice/_episodes/02-setup.md:32
 msgid "Please use your own name and email address instead of Dracula's. This user name and email will be associated with your subsequent Git activity,\n"
 "which means that any changes pushed to\n"
 "[GitHub](https://github.com/),\n"
@@ -880,102 +838,59 @@ msgid "Please use your own name and email address instead of Dracula's. This use
 "in a later lesson will include this information."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:42
+#: git-novice/_episodes/02-setup.md:40
 # blockquote, which can be cascaded
 msgid "> ## Line Endings"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:43
+#: git-novice/_episodes/02-setup.md:41
 msgid ">\n"
-"> As with other keys, when you hit the 'return' key on your keyboard, \n"
-"> your computer encodes this input as a character. \n"
+"> As with other keys, when you hit <kbd>Return</kbd> on your keyboard,\n"
+"> your computer encodes this input as a character.\n"
 "> For reasons that are long to explain, different operating systems\n"
-"> use different character(s) to represent the end of a line. \n"
+"> use different character(s) to represent the end of a line.\n"
 "> (You may also hear these referred to as newlines or line breaks.)\n"
-"> Because git uses these characters to compare files, \n"
-"> it may cause unexpected issues when editing a file on different machines. \n"
-"> \n"
-"> You can change the way git recognizes and encodes line endings\n"
+"> Because Git uses these characters to compare files,\n"
+"> it may cause unexpected issues when editing a file on different machines.\n"
+">\n"
+"> You can change the way Git recognizes and encodes line endings\n"
 "> using the `core.autocrlf` command to `git config`.\n"
 "> The following settings are recommended:\n"
 ">\n"
-"> On OS X and Linux:\n"
+"> On macOS and Linux:\n"
 ">\n"
 "> ~~~\n"
 "> $ git config --global core.autocrlf input\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/02-setup.md:61
-#: git-novice/_episodes/02-setup.md:68
-#: git-novice/_episodes/02-setup.md:126
-#: git-novice/_episodes/02-setup.md:134
-#: git-novice/_episodes/02-setup.md:145
-#: git-novice/_episodes/03-create.md:94
-#: git-novice/_episodes/04-changes.md:525
-#: git-novice/_episodes/04-changes.md:542
-#: git-novice/_episodes/04-changes.md:556
-#: git-novice/_episodes/04-changes.md:578
-#: git-novice/_episodes/04-changes.md:594
-#: git-novice/_episodes/04-changes.md:768
-#: git-novice/_episodes/04-changes.md:775
-#: git-novice/_episodes/05-history.md:285
-#: git-novice/_episodes/05-history.md:319
-#: git-novice/_episodes/05-history.md:395
-#: git-novice/_episodes/05-history.md:508
-#: git-novice/_episodes/05-history.md:519
-#: git-novice/_episodes/05-history.md:528
-#: git-novice/_episodes/06-ignore.md:152
-#: git-novice/_episodes/06-ignore.md:208
-#: git-novice/_episodes/06-ignore.md:228
-#: git-novice/_episodes/07-github.md:137
-#: git-novice/_episodes/07-github.md:146
-#: git-novice/_episodes/07-github.md:160
-#: git-novice/_episodes/07-github.md:252
-# SC/DC Template label
-msgid "> {: .bash}"
-msgstr ""
-
-#: git-novice/_episodes/02-setup.md:62
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> And on Windows:\n"
 ">\n"
 "> ~~~\n"
 "> $ git config --global core.autocrlf true\n"
-"> ~~~"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> \n"
+"> You can read more about this issue \n"
+"> [on this GitHub page](https://help.github.com/articles/dealing-with-line-endings/)."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:69
-# blockquote, which can be cascaded
-msgid "> "
-msgstr ""
-
-#: git-novice/_episodes/02-setup.md:70
-# blockquote, which can be cascaded
-msgid "> You can read more about this issue "
-msgstr ""
-
-#: git-novice/_episodes/02-setup.md:71
-# blockquote, which can be cascaded
-msgid "> [on this GitHub page](https://help.github.com/articles/dealing-with-line-endings/)."
-msgstr ""
-
-#: git-novice/_episodes/02-setup.md:74
+#: git-novice/_episodes/02-setup.md:72
 msgid "For these lessons, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy]. \n"
 "If you elect to use a private email address with GitHub, then use that same email address for the `user.email` value, e.g. `username@users.noreply.github.com` replacing `username` with your GitHub one. You can change the email address later on by using the `git config` command again."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:77
+#: git-novice/_episodes/02-setup.md:75
 msgid "Dracula also has to set his favorite text editor, following this table:"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:79
+#: git-novice/_episodes/02-setup.md:77
 msgid "| Editor             | Configuration command                            |\n"
 "|:-------------------|:-------------------------------------------------|\n"
 "| Atom | `$ git config --global core.editor \"atom --wait\"`|\n"
 "| nano               | `$ git config --global core.editor \"nano -w\"`    |\n"
 "| BBEdit (Mac, with command line tools) | `$ git config --global core.editor \"bbedit -w\"`    |\n"
-"| Sublime Text (Mac) | `$ git config --global core.editor \"subl -n -w\"` |\n"
+"| Sublime Text (Mac) | `$ git config --global core.editor \"/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w\"` |\n"
 "| Sublime Text (Win, 32-bit install) | `$ git config --global core.editor \"'c:/program files (x86)/sublime text 3/sublime_text.exe' -w\"` |\n"
 "| Sublime Text (Win, 64-bit install) | `$ git config --global core.editor \"'c:/program files/sublime text 3/sublime_text.exe' -w\"` |\n"
 "| Notepad++ (Win, 32-bit install)    | `$ git config --global core.editor \"'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin\"`|\n"
@@ -983,53 +898,54 @@ msgid "| Editor             | Configuration command                            |
 "| Kate (Linux)       | `$ git config --global core.editor \"kate\"`       |\n"
 "| Gedit (Linux)      | `$ git config --global core.editor \"gedit --wait --new-window\"`   |\n"
 "| Scratch (Linux)       | `$ git config --global core.editor \"scratch-text-editor\"`  |\n"
-"| emacs              | `$ git config --global core.editor \"emacs\"`   |\n"
-"| vim                | `$ git config --global core.editor \"vim\"`   |"
+"| Emacs              | `$ git config --global core.editor \"emacs\"`   |\n"
+"| Vim                | `$ git config --global core.editor \"vim\"`   |"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:95
+#: git-novice/_episodes/02-setup.md:93
 msgid "It is possible to reconfigure the text editor for Git whenever you want to change it."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:97
+#: git-novice/_episodes/02-setup.md:95
 # blockquote, which can be cascaded
 msgid "> ## Exiting Vim"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:98
+#: git-novice/_episodes/02-setup.md:96
 msgid ">\n"
-"> Note that `vim` is the default editor for many programs. If you haven't used `vim` before and wish to exit a session without saving\n"
-"your changes, type `Esc` then `:q!` and `Enter`. If you want to save your changes and quit, type `Esc` then `:wq` and `Enter`."
+"> Note that Vim is the default editor for many programs. If you haven't used Vim before and wish to exit a session without saving\n"
+"your changes, press <kbd>Esc</kbd> then type `:q!` and hit <kbd>Return</kbd>.\n"
+"> If you want to save your changes and quit, press <kbd>Esc</kbd> then type `:wq` and hit <kbd>Return</kbd>."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:103
+#: git-novice/_episodes/02-setup.md:102
 msgid "The four commands we just ran above only need to be run once: the flag `--global` tells Git\n"
 "to use the settings for every project, in your user account, on this computer."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:106
+#: git-novice/_episodes/02-setup.md:105
 msgid "You can check your settings at any time:"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:108
+#: git-novice/_episodes/02-setup.md:107
 # code block
 msgid "~~~\n"
 "$ git config --list\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:113
+#: git-novice/_episodes/02-setup.md:112
 msgid "You can change your configuration as many times as you want: just use the\n"
 "same commands to choose another editor or update your email address."
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:116
+#: git-novice/_episodes/02-setup.md:115
 #: git-novice/_episodes/07-github.md:127
 # blockquote, which can be cascaded
 msgid "> ## Proxy"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:117
+#: git-novice/_episodes/02-setup.md:116
 msgid ">\n"
 "> In some networks you need to use a\n"
 "> [proxy](https://en.wikipedia.org/wiki/Proxy_server). If this is the case, you\n"
@@ -1038,35 +954,35 @@ msgid ">\n"
 "> ~~~\n"
 "> $ git config --global http.proxy proxy-url\n"
 "> $ git config --global https.proxy proxy-url\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/02-setup.md:127
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> To disable the proxy, use\n"
 ">\n"
 "> ~~~\n"
 "> $ git config --global --unset http.proxy\n"
 "> $ git config --global --unset https.proxy\n"
-"> ~~~"
+"> ~~~\n"
+"> {: .language-bash}"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:137
+#: git-novice/_episodes/02-setup.md:136
 # blockquote, which can be cascaded
 msgid "> ## Git Help and Manual"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:138
+#: git-novice/_episodes/02-setup.md:137
 msgid ">\n"
 "> Always remember that if you forget a `git` command, you can access the list of commands by using `-h` and access the Git manual by using `--help` :\n"
 ">\n"
 "> ~~~\n"
 "> $ git config -h\n"
 "> $ git config --help\n"
-"> ~~~"
+"> ~~~\n"
+"> {: .language-bash}"
 msgstr ""
 
-#: git-novice/_episodes/02-setup.md:148
+#: git-novice/_episodes/02-setup.md:147
 msgid "[git-privacy]: https://help.github.com/articles/keeping-your-email-address-private/"
 msgstr ""
 
@@ -1088,94 +1004,97 @@ msgstr ""
 
 #: git-novice/_episodes/03-create.md:14
 msgid "Once Git is configured,\n"
-"we can start using it.\n"
-"Let's create a directory for our work and then move into that directory:"
+"we can start using it."
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:18
+#: git-novice/_episodes/03-create.md:17
+msgid "First, let's create a directory in `Desktop` folder for our work and then move into that directory:"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:19
 # code block
 msgid "~~~\n"
+"$ cd ~/Desktop\n"
 "$ mkdir planets\n"
 "$ cd planets\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:24
-msgid "Then we tell Git to make `planets` a [repository]({{ page.root }}/reference/#repository)—a place where\n"
+#: git-novice/_episodes/03-create.md:26
+msgid "Then we tell Git to make `planets` a [repository]({{ page.root }}/reference#repository)—a place where\n"
 "Git can store versions of our files:"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:27
+#: git-novice/_episodes/03-create.md:29
 # code block
 msgid "~~~\n"
 "$ git init\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:32
+#: git-novice/_episodes/03-create.md:34
 msgid "If we use `ls` to show the directory's contents,\n"
 "it appears that nothing has changed:"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:35
-#: git-novice/_episodes/04-changes.md:58
+#: git-novice/_episodes/03-create.md:37
+#: git-novice/_episodes/04-changes.md:57
 # code block
 msgid "~~~\n"
 "$ ls\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:40
+#: git-novice/_episodes/03-create.md:42
 msgid "But if we add the `-a` flag to show everything,\n"
 "we can see that Git has created a hidden directory within `planets` called `.git`:"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:43
+#: git-novice/_episodes/03-create.md:45
 # code block
 msgid "~~~\n"
 "$ ls -a\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:48
+#: git-novice/_episodes/03-create.md:50
 # code block
 msgid "~~~\n"
 ".	..	.git\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:51
-#: git-novice/_episodes/03-create.md:76
-#: git-novice/_episodes/04-changes.md:54
-#: git-novice/_episodes/04-changes.md:66
-#: git-novice/_episodes/04-changes.md:76
-#: git-novice/_episodes/04-changes.md:97
-#: git-novice/_episodes/04-changes.md:126
-#: git-novice/_episodes/04-changes.md:143
-#: git-novice/_episodes/04-changes.md:173
-#: git-novice/_episodes/04-changes.md:191
-#: git-novice/_episodes/04-changes.md:225
-#: git-novice/_episodes/04-changes.md:245
-#: git-novice/_episodes/04-changes.md:272
-#: git-novice/_episodes/04-changes.md:308
-#: git-novice/_episodes/04-changes.md:324
-#: git-novice/_episodes/04-changes.md:382
-#: git-novice/_episodes/04-changes.md:399
-#: git-novice/_episodes/04-changes.md:435
-#: git-novice/_episodes/04-changes.md:451
-#: git-novice/_episodes/04-changes.md:464
-#: git-novice/_episodes/04-changes.md:492
-#: git-novice/_episodes/05-history.md:39
-#: git-novice/_episodes/05-history.md:59
-#: git-novice/_episodes/05-history.md:90
-#: git-novice/_episodes/05-history.md:114
-#: git-novice/_episodes/05-history.md:151
-#: git-novice/_episodes/05-history.md:173
-#: git-novice/_episodes/05-history.md:189
-#: git-novice/_episodes/05-history.md:209
-#: git-novice/_episodes/05-history.md:225
-#: git-novice/_episodes/05-history.md:248
-#: git-novice/_episodes/05-history.md:267
+#: git-novice/_episodes/03-create.md:53
+#: git-novice/_episodes/03-create.md:78
+#: git-novice/_episodes/04-changes.md:65
+#: git-novice/_episodes/04-changes.md:75
+#: git-novice/_episodes/04-changes.md:96
+#: git-novice/_episodes/04-changes.md:125
+#: git-novice/_episodes/04-changes.md:142
+#: git-novice/_episodes/04-changes.md:172
+#: git-novice/_episodes/04-changes.md:190
+#: git-novice/_episodes/04-changes.md:224
+#: git-novice/_episodes/04-changes.md:244
+#: git-novice/_episodes/04-changes.md:271
+#: git-novice/_episodes/04-changes.md:307
+#: git-novice/_episodes/04-changes.md:323
+#: git-novice/_episodes/04-changes.md:381
+#: git-novice/_episodes/04-changes.md:398
+#: git-novice/_episodes/04-changes.md:434
+#: git-novice/_episodes/04-changes.md:450
+#: git-novice/_episodes/04-changes.md:463
+#: git-novice/_episodes/04-changes.md:491
+#: git-novice/_episodes/05-history.md:38
+#: git-novice/_episodes/05-history.md:57
+#: git-novice/_episodes/05-history.md:89
+#: git-novice/_episodes/05-history.md:113
+#: git-novice/_episodes/05-history.md:149
+#: git-novice/_episodes/05-history.md:170
+#: git-novice/_episodes/05-history.md:186
+#: git-novice/_episodes/05-history.md:206
+#: git-novice/_episodes/05-history.md:222
+#: git-novice/_episodes/05-history.md:245
+#: git-novice/_episodes/05-history.md:264
 #: git-novice/_episodes/06-ignore.md:43
 #: git-novice/_episodes/06-ignore.md:62
 #: git-novice/_episodes/06-ignore.md:85
@@ -1185,10 +1104,10 @@ msgstr ""
 #: git-novice/_episodes/07-github.md:102
 #: git-novice/_episodes/07-github.md:125
 #: git-novice/_episodes/07-github.md:197
-#: git-novice/_episodes/08-collab.md:63
-#: git-novice/_episodes/08-collab.md:75
-#: git-novice/_episodes/08-collab.md:93
-#: git-novice/_episodes/08-collab.md:123
+#: git-novice/_episodes/08-collab.md:64
+#: git-novice/_episodes/08-collab.md:76
+#: git-novice/_episodes/08-collab.md:94
+#: git-novice/_episodes/08-collab.md:124
 #: git-novice/_episodes/09-conflict.md:36
 #: git-novice/_episodes/09-conflict.md:52
 #: git-novice/_episodes/09-conflict.md:66
@@ -1197,13 +1116,13 @@ msgstr ""
 #: git-novice/_episodes/09-conflict.md:114
 #: git-novice/_episodes/09-conflict.md:132
 #: git-novice/_episodes/09-conflict.md:159
-#: git-novice/_episodes/09-conflict.md:183
-#: git-novice/_episodes/09-conflict.md:209
-#: git-novice/_episodes/09-conflict.md:231
-#: git-novice/_episodes/09-conflict.md:241
-#: git-novice/_episodes/09-conflict.md:259
-#: git-novice/_episodes/09-conflict.md:282
-#: git-novice/_episodes/09-conflict.md:297
+#: git-novice/_episodes/09-conflict.md:179
+#: git-novice/_episodes/09-conflict.md:205
+#: git-novice/_episodes/09-conflict.md:227
+#: git-novice/_episodes/09-conflict.md:237
+#: git-novice/_episodes/09-conflict.md:255
+#: git-novice/_episodes/09-conflict.md:278
+#: git-novice/_episodes/09-conflict.md:293
 #: git-novice/_extras/discuss.md:35
 #: git-novice/_extras/discuss.md:157
 #: git-novice/_extras/discuss.md:175
@@ -1220,26 +1139,26 @@ msgstr ""
 msgid "{: .output}"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:53
+#: git-novice/_episodes/03-create.md:55
 msgid "Git uses this special sub-directory to store all the information about the project, \n"
 "including all files and sub-directories located within the project's directory.\n"
 "If we ever delete the `.git` sub-directory,\n"
 "we will lose the project's history."
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:58
+#: git-novice/_episodes/03-create.md:60
 msgid "We can check that everything is set up correctly\n"
 "by asking Git to tell us the status of our project:"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:61
-#: git-novice/_episodes/04-changes.md:81
-#: git-novice/_episodes/04-changes.md:110
-#: git-novice/_episodes/04-changes.md:164
-#: git-novice/_episodes/04-changes.md:230
-#: git-novice/_episodes/04-changes.md:455
-#: git-novice/_episodes/05-history.md:194
-#: git-novice/_episodes/05-history.md:250
+#: git-novice/_episodes/03-create.md:63
+#: git-novice/_episodes/04-changes.md:80
+#: git-novice/_episodes/04-changes.md:109
+#: git-novice/_episodes/04-changes.md:163
+#: git-novice/_episodes/04-changes.md:229
+#: git-novice/_episodes/04-changes.md:454
+#: git-novice/_episodes/05-history.md:191
+#: git-novice/_episodes/05-history.md:247
 #: git-novice/_episodes/06-ignore.md:27
 #: git-novice/_episodes/06-ignore.md:72
 # code block
@@ -1248,12 +1167,12 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:66
-msgid "If you are using a different version of git than I am, then then the exact\n"
+#: git-novice/_episodes/03-create.md:68
+msgid "If you are using a different version of `git`, the exact\n"
 "wording of the output might be slightly different."
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:69
+#: git-novice/_episodes/03-create.md:71
 # code block
 msgid "~~~\n"
 "# On branch master\n"
@@ -1264,12 +1183,12 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:78
+#: git-novice/_episodes/03-create.md:80
 # blockquote, which can be cascaded
 msgid "> ## Places to Create Git Repositories"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:79
+#: git-novice/_episodes/03-create.md:81
 msgid ">\n"
 "> Along with tracking information about planets (the project we have already created), \n"
 "> Dracula would also like to track information about moons.\n"
@@ -1277,18 +1196,16 @@ msgid ">\n"
 "> project with the following sequence of commands:\n"
 ">\n"
 "> ~~~\n"
-"> $ cd             # return to home directory\n"
+"> $ cd ~/Desktop   # return to Desktop directory\n"
 "> $ cd planets     # go into planets directory, which is already a Git repository\n"
 "> $ ls -a          # ensure the .git sub-directory is still present in the planets directory\n"
 "> $ mkdir moons    # make a sub-directory planets/moons\n"
 "> $ cd moons       # go into moons sub-directory\n"
 "> $ git init       # make the moons sub-directory a Git repository\n"
 "> $ ls -a          # ensure the .git sub-directory is present indicating we have created a new Git repository\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/03-create.md:95
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> Is the `git init` command, run inside the `moons` sub-directory, required for \n"
 "> tracking files stored in the `moons` sub-directory?\n"
 "> \n"
@@ -1300,8 +1217,8 @@ msgid ">\n"
 "> > all information about moons, Dracula only needed to add the `moons` sub-directory\n"
 "> > to the `planets` directory.\n"
 "> > \n"
-"> > Additionally, Git repositories can interfere with each other if they are \"nested\" in the\n"
-"> > directory of another: the outer repository will try to version-control\n"
+"> > Additionally, Git repositories can interfere with each other if they are \"nested\":\n"
+"> > the outer repository will try to version-control\n"
 "> > the inner repository. Therefore, it's best to create each new Git\n"
 "> > repository in a separate directory. To be sure that there is no conflicting\n"
 "> > repository in the directory, check the output of `git status`. If it looks\n"
@@ -1311,21 +1228,22 @@ msgid ">\n"
 "> > ~~~\n"
 "> > $ git status\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
+"> >\n"
 "> > ~~~\n"
 "> > fatal: Not a git repository (or any of the parent directories): .git\n"
 "> > ~~~\n"
 "> > {: .output}"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:123
-#: git-novice/_episodes/03-create.md:143
-#: git-novice/_episodes/04-changes.md:617
-#: git-novice/_episodes/04-changes.md:641
-#: git-novice/_episodes/04-changes.md:701
-#: git-novice/_episodes/04-changes.md:755
-#: git-novice/_episodes/04-changes.md:808
-#: git-novice/_episodes/05-history.md:471
+#: git-novice/_episodes/03-create.md:126
+#: git-novice/_episodes/03-create.md:147
+#: git-novice/_episodes/04-changes.md:618
+#: git-novice/_episodes/04-changes.md:642
+#: git-novice/_episodes/04-changes.md:702
+#: git-novice/_episodes/04-changes.md:756
+#: git-novice/_episodes/04-changes.md:817
+#: git-novice/_episodes/05-history.md:429
 #: git-novice/_episodes/06-ignore.md:174
 #: git-novice/_episodes/06-ignore.md:194
 #: git-novice/_episodes/06-ignore.md:217
@@ -1336,48 +1254,48 @@ msgstr ""
 #: git-novice/_episodes/07-github.md:240
 #: git-novice/_episodes/07-github.md:262
 #: git-novice/_episodes/07-github.md:273
-#: git-novice/_episodes/08-collab.md:169
-#: git-novice/_episodes/09-conflict.md:497
-#: git-novice/_episodes/09-conflict.md:539
+#: git-novice/_episodes/08-collab.md:170
+#: git-novice/_episodes/09-conflict.md:494
+#: git-novice/_episodes/09-conflict.md:536
 #: git-novice/_episodes/14-supplemental-rstudio.md:126
 # SC/DC Template label
 msgid "> {: .solution}"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:125
+#: git-novice/_episodes/03-create.md:129
 # blockquote, which can be cascaded
 msgid "> ## Correcting `git init` Mistakes"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:126
+#: git-novice/_episodes/03-create.md:130
 # blockquote, which can be cascaded
 msgid "> Wolfman explains to Dracula how a nested repository is redundant and may cause confusion"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:127
+#: git-novice/_episodes/03-create.md:131
 # blockquote, which can be cascaded
 msgid "> down the road. Dracula would like to remove the nested repository. How can Dracula undo "
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:128
+#: git-novice/_episodes/03-create.md:132
 # blockquote, which can be cascaded
 msgid "> his last `git init` in the `moons` sub-directory?"
 msgstr ""
 
-#: git-novice/_episodes/03-create.md:129
+#: git-novice/_episodes/03-create.md:133
 msgid ">\n"
 "> > ## Solution -- USE WITH CAUTION!\n"
 "> >\n"
 "> > To recover from this little mistake, Dracula can just remove the `.git`\n"
-"> > folder in the moons subdirectory by running the following command from inside the 'planets' directory:\n"
+"> > folder in the moons subdirectory by running the following command from inside the `planets` directory:\n"
 "> >\n"
 "> > ~~~\n"
 "> > $ rm -rf moons/.git\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > But be careful! Running this command in the wrong directory, will remove\n"
-"> > the entire git-history of a project you might want to keep. Therefore, always check your current directory using the\n"
+"> > the entire Git history of a project you might want to keep. Therefore, always check your current directory using the\n"
 "> > command `pwd`."
 msgstr ""
 
@@ -1400,7 +1318,7 @@ msgid "---\n"
 "- \"Files can be stored in a project's working directory (which users see), the staging area (where the next commit is being built up) and the local repository (where commits are permanently recorded).\"\n"
 "- \"`git add` puts files in the staging area.\"\n"
 "- \"`git commit` saves the staged content as a new commit in the local repository.\"\n"
-"- \"Always write a log message when committing changes.\"\n"
+"- \"Write a commit message that accurately describes your changes.\"\n"
 "---"
 msgstr ""
 
@@ -1417,7 +1335,7 @@ msgid "~~~\n"
 msgstr ""
 
 #: git-novice/_episodes/04-changes.md:29
-msgid "If you are still in `moons` navigate back up to `planets`"
+msgid "If you are still in `moons`, navigate back up to `planets`"
 msgstr ""
 
 #: git-novice/_episodes/04-changes.md:31
@@ -1433,7 +1351,7 @@ msgid "Let's create a file called `mars.txt` that contains some notes\n"
 "We'll use `nano` to edit the file;\n"
 "you can use whatever editor you like.\n"
 "In particular, this does not have to be the `core.editor` you set globally earlier. \n"
-"But remember, the bash command to create or edit a new file will depend on the editor you choose (it might not be `nano`). \n"
+"But remember, the.language-bash command to create or edit a new file will depend on the editor you choose (it might not be `nano`). \n"
 "For a refresher on text editors, check out [\"Which Editor?\"](https://swcarpentry.github.io/shell-novice/03-create/) in [The Unix Shell](https://swcarpentry.github.io/shell-novice/) lesson."
 msgstr ""
 
@@ -1449,8 +1367,8 @@ msgid "Type the text below into the `mars.txt` file:"
 msgstr ""
 
 #: git-novice/_episodes/04-changes.md:51
-#: git-novice/_episodes/04-changes.md:73
-#: git-novice/_episodes/05-history.md:245
+#: git-novice/_episodes/04-changes.md:72
+#: git-novice/_episodes/05-history.md:242
 #: git-novice/_extras/discuss.md:154
 # code block
 msgid "~~~\n"
@@ -1458,35 +1376,35 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:56
+#: git-novice/_episodes/04-changes.md:55
 msgid "`mars.txt` now contains a single line, which we can see by running:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:63
+#: git-novice/_episodes/04-changes.md:62
 # code block
 msgid "~~~\n"
 "mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:68
-#: git-novice/_episodes/05-history.md:240
+#: git-novice/_episodes/04-changes.md:67
+#: git-novice/_episodes/05-history.md:237
 #: git-novice/_episodes/09-conflict.md:26
-#: git-novice/_episodes/09-conflict.md:168
-#: git-novice/_episodes/09-conflict.md:198
-#: git-novice/_episodes/09-conflict.md:286
+#: git-novice/_episodes/09-conflict.md:164
+#: git-novice/_episodes/09-conflict.md:194
+#: git-novice/_episodes/09-conflict.md:282
 # code block
 msgid "~~~\n"
 "$ cat mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:78
+#: git-novice/_episodes/04-changes.md:77
 msgid "If we check the status of our project again,\n"
 "Git tells us that it's noticed the new file:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:86
+#: git-novice/_episodes/04-changes.md:85
 # code block
 msgid "~~~\n"
 "On branch master\n"
@@ -1501,24 +1419,24 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:99
+#: git-novice/_episodes/04-changes.md:98
 msgid "The \"untracked files\" message means that there's a file in the directory\n"
 "that Git isn't keeping track of.\n"
 "We can tell Git to track a file using `git add`:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:103
+#: git-novice/_episodes/04-changes.md:102
 # code block
 msgid "~~~\n"
 "$ git add mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:108
+#: git-novice/_episodes/04-changes.md:107
 msgid "and then check that the right thing happened:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:115
+#: git-novice/_episodes/04-changes.md:114
 # code block
 msgid "~~~\n"
 "On branch master\n"
@@ -1533,21 +1451,21 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:128
+#: git-novice/_episodes/04-changes.md:127
 msgid "Git now knows that it's supposed to keep track of `mars.txt`,\n"
 "but it hasn't recorded these changes as a commit yet.\n"
 "To get it to do that,\n"
 "we need to run one more command:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:133
+#: git-novice/_episodes/04-changes.md:132
 # code block
 msgid "~~~\n"
 "$ git commit -m \"Start notes on Mars as a base\"\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:138
+#: git-novice/_episodes/04-changes.md:137
 # code block
 msgid "~~~\n"
 "[master (root-commit) f22b25e] Start notes on Mars as a base\n"
@@ -1556,16 +1474,16 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:145
+#: git-novice/_episodes/04-changes.md:144
 msgid "When we run `git commit`,\n"
 "Git takes everything we have told it to save by using `git add`\n"
 "and stores a copy permanently inside the special `.git` directory.\n"
-"This permanent copy is called a [commit]({{ page.root }}/reference/#commit)\n"
-"(or [revision]({{ page.root }}/reference/#revision)) and its short identifier is `f22b25e`\n"
-"(Your commit may have another identifier.)"
+"This permanent copy is called a [commit]({{ page.root }}/reference#commit)\n"
+"(or [revision]({{ page.root }}/reference#revision)) and its short identifier is `f22b25e`.\n"
+"Your commit may have another identifier."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:152
+#: git-novice/_episodes/04-changes.md:151
 msgid "We use the `-m` flag (for \"message\")\n"
 "to record a short, descriptive, and specific comment that will help us remember later on what we did and why.\n"
 "If we just run `git commit` without the `-m` option,\n"
@@ -1573,18 +1491,18 @@ msgid "We use the `-m` flag (for \"message\")\n"
 "so that we can write a longer message."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:158
-msgid "[Good commit messages][commit-messages] start with a brief (<50 characters) summary of\n"
-"changes made in the commit.  If you want to go into more detail, add\n"
-"a blank line between the summary line and your additional notes."
+#: git-novice/_episodes/04-changes.md:157
+msgid "[Good commit messages][commit-messages] start with a brief (<50 characters) statement about the\n"
+"changes made in the commit. Generally, the message should complete the sentence \"If applied, this commit will\" <commit message here>.\n"
+"If you want to go into more detail, add a blank line between the summary line and your additional notes. Use this additional space to explain why you made changes and/or what their impact will be."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:162
+#: git-novice/_episodes/04-changes.md:161
 msgid "If we run `git status` now:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:169
-#: git-novice/_episodes/04-changes.md:460
+#: git-novice/_episodes/04-changes.md:168
+#: git-novice/_episodes/04-changes.md:459
 #: git-novice/_extras/discuss.md:244
 # code block
 msgid "~~~\n"
@@ -1593,21 +1511,21 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:175
+#: git-novice/_episodes/04-changes.md:174
 msgid "it tells us everything is up to date.\n"
 "If we want to know what we've done recently,\n"
 "we can ask Git to show us the project's history using `git log`:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:179
-#: git-novice/_episodes/04-changes.md:468
+#: git-novice/_episodes/04-changes.md:178
+#: git-novice/_episodes/04-changes.md:467
 # code block
 msgid "~~~\n"
 "$ git log\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:184
+#: git-novice/_episodes/04-changes.md:183
 # code block
 msgid "~~~\n"
 "commit f22b25e3233b4645dabd0d81e651fe074bd8e73b\n"
@@ -1618,7 +1536,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:193
+#: git-novice/_episodes/04-changes.md:192
 msgid "`git log` lists all commits  made to a repository in reverse chronological order.\n"
 "The listing for each commit includes\n"
 "the commit's full identifier\n"
@@ -1629,12 +1547,12 @@ msgid "`git log` lists all commits  made to a repository in reverse chronologica
 "and the log message Git was given when the commit was created."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:202
+#: git-novice/_episodes/04-changes.md:201
 # blockquote, which can be cascaded
 msgid "> ## Where Are My Changes?"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:203
+#: git-novice/_episodes/04-changes.md:202
 msgid ">\n"
 "> If we run `ls` at this point, we will still see just one file called `mars.txt`.\n"
 "> That's because Git saves information about files' history\n"
@@ -1643,16 +1561,16 @@ msgid ">\n"
 "> (and so that we can't accidentally edit or delete an old version)."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:211
+#: git-novice/_episodes/04-changes.md:210
 msgid "Now suppose Dracula adds more information to the file.\n"
 "(Again, we'll edit with `nano` and then `cat` the file to show its contents;\n"
 "you may use a different editor, and don't need to `cat`.)"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:215
-#: git-novice/_episodes/04-changes.md:371
+#: git-novice/_episodes/04-changes.md:214
+#: git-novice/_episodes/04-changes.md:370
 #: git-novice/_episodes/05-history.md:27
-#: git-novice/_episodes/05-history.md:180
+#: git-novice/_episodes/05-history.md:177
 #: git-novice/_episodes/09-conflict.md:40
 #: git-novice/_episodes/09-conflict.md:88
 # code block
@@ -1662,7 +1580,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:221
+#: git-novice/_episodes/04-changes.md:220
 #: git-novice/_extras/discuss.md:171
 # code block
 msgid "~~~\n"
@@ -1671,14 +1589,14 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:227
+#: git-novice/_episodes/04-changes.md:226
 msgid "When we run `git status` now,\n"
 "it tells us that a file it already knows about has been modified:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:235
-#: git-novice/_episodes/04-changes.md:298
-#: git-novice/_episodes/05-history.md:199
+#: git-novice/_episodes/04-changes.md:234
+#: git-novice/_episodes/04-changes.md:297
+#: git-novice/_episodes/05-history.md:196
 # code block
 msgid "~~~\n"
 "On branch master\n"
@@ -1692,7 +1610,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:247
+#: git-novice/_episodes/04-changes.md:246
 msgid "The last line is the key phrase:\n"
 "\"no changes added to commit\".\n"
 "We have changed this file,\n"
@@ -1705,8 +1623,8 @@ msgid "The last line is the key phrase:\n"
 "of the file and the most recently saved version:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:258
-#: git-novice/_episodes/04-changes.md:384
+#: git-novice/_episodes/04-changes.md:257
+#: git-novice/_episodes/04-changes.md:383
 #: git-novice/_extras/discuss.md:180
 # code block
 msgid "~~~\n"
@@ -1714,7 +1632,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:263
+#: git-novice/_episodes/04-changes.md:262
 #: git-novice/_extras/discuss.md:194
 # code block
 msgid "~~~\n"
@@ -1728,19 +1646,19 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:274
+#: git-novice/_episodes/04-changes.md:273
 msgid "The output is cryptic because\n"
 "it is actually a series of commands for tools like editors and `patch`\n"
 "telling them how to reconstruct one file given the other.\n"
 "If we break it down into pieces:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:279
+#: git-novice/_episodes/04-changes.md:278
 # ordered list
 msgid "1.  The first line tells us that Git is producing output similar to the Unix `diff` command"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:280
+#: git-novice/_episodes/04-changes.md:279
 msgid "    comparing the old and new versions of the file.\n"
 "2.  The second line tells exactly which versions of the file\n"
 "    Git is comparing;\n"
@@ -1752,11 +1670,11 @@ msgid "    comparing the old and new versions of the file.\n"
 "    the `+` marker in the first column shows where we added a line."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:290
+#: git-novice/_episodes/04-changes.md:289
 msgid "After reviewing our change, it's time to commit it:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:292
+#: git-novice/_episodes/04-changes.md:291
 # code block
 msgid "~~~\n"
 "$ git commit -m \"Add concerns about effects of Mars' moons on Wolfman\"\n"
@@ -1764,13 +1682,13 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:310
+#: git-novice/_episodes/04-changes.md:309
 msgid "Whoops:\n"
 "Git won't commit because we didn't use `git add` first.\n"
 "Let's fix that:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:314
+#: git-novice/_episodes/04-changes.md:313
 # code block
 msgid "~~~\n"
 "$ git add mars.txt\n"
@@ -1778,7 +1696,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:320
+#: git-novice/_episodes/04-changes.md:319
 # code block
 msgid "~~~\n"
 "[master 34961b1] Add concerns about effects of Mars' moons on Wolfman\n"
@@ -1786,7 +1704,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:326
+#: git-novice/_episodes/04-changes.md:325
 msgid "Git insists that we add files to the set we want to commit\n"
 "before actually committing anything. This allows us to commit our\n"
 "changes in stages and capture changes in logical portions rather than\n"
@@ -1799,20 +1717,20 @@ msgid "Git insists that we add files to the set we want to commit\n"
 "(which we haven't finished yet)."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:337
+#: git-novice/_episodes/04-changes.md:336
 msgid "To allow for this,\n"
 "Git has a special *staging area*\n"
 "where it keeps track of things that have been added to\n"
-"the current [changeset]({{ page.root }}/reference/#changeset)\n"
+"the current [changeset]({{ page.root }}/reference#changeset)\n"
 "but not yet committed."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:343
+#: git-novice/_episodes/04-changes.md:342
 # blockquote, which can be cascaded
 msgid "> ## Staging Area"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:344
+#: git-novice/_episodes/04-changes.md:343
 msgid ">\n"
 "> If you think of Git as taking snapshots of changes over the life of a project,\n"
 "> `git add` specifies *what* will go in a snapshot\n"
@@ -1832,11 +1750,11 @@ msgid ">\n"
 "> than you would like!"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:363
+#: git-novice/_episodes/04-changes.md:362
 msgid "![The Git Staging Area](../fig/git-staging-area.svg)"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:365
+#: git-novice/_episodes/04-changes.md:364
 msgid "Let's watch as our changes to a file move from our editor\n"
 "to the staging area\n"
 "and into long-term storage.\n"
@@ -1844,8 +1762,9 @@ msgid "Let's watch as our changes to a file move from our editor\n"
 "we'll add another line to the file:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:377
-#: git-novice/_episodes/05-history.md:220
+#: git-novice/_episodes/04-changes.md:376
+#: git-novice/_episodes/05-history.md:33
+#: git-novice/_episodes/05-history.md:217
 #: git-novice/_episodes/09-conflict.md:31
 # code block
 msgid "~~~\n"
@@ -1855,8 +1774,8 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:389
-#: git-novice/_episodes/04-changes.md:425
+#: git-novice/_episodes/04-changes.md:388
+#: git-novice/_episodes/04-changes.md:424
 # code block
 msgid "~~~\n"
 "diff --git a/mars.txt b/mars.txt\n"
@@ -1870,7 +1789,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:401
+#: git-novice/_episodes/04-changes.md:400
 msgid "So far, so good:\n"
 "we've added one line to the end of the file\n"
 "(shown with a `+` in the first column).\n"
@@ -1878,7 +1797,7 @@ msgid "So far, so good:\n"
 "and see what `git diff` reports:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:407
+#: git-novice/_episodes/04-changes.md:406
 # code block
 msgid "~~~\n"
 "$ git add mars.txt\n"
@@ -1886,7 +1805,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:413
+#: git-novice/_episodes/04-changes.md:412
 msgid "There is no output:\n"
 "as far as Git can tell,\n"
 "there's no difference between what it's been asked to save permanently\n"
@@ -1895,28 +1814,28 @@ msgid "There is no output:\n"
 "if we do this:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:420
+#: git-novice/_episodes/04-changes.md:419
 # code block
 msgid "~~~\n"
 "$ git diff --staged\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:437
+#: git-novice/_episodes/04-changes.md:436
 msgid "it shows us the difference between\n"
 "the last committed change\n"
 "and what's in the staging area.\n"
 "Let's save our changes:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:442
+#: git-novice/_episodes/04-changes.md:441
 # code block
 msgid "~~~\n"
 "$ git commit -m \"Discuss concerns about Mars' climate for Mummy\"\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:447
+#: git-novice/_episodes/04-changes.md:446
 # code block
 msgid "~~~\n"
 "[master 005937f] Discuss concerns about Mars' climate for Mummy\n"
@@ -1924,15 +1843,15 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:453
+#: git-novice/_episodes/04-changes.md:452
 msgid "check our status:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:466
+#: git-novice/_episodes/04-changes.md:465
 msgid "and look at the history of what we've done so far:"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:473
+#: git-novice/_episodes/04-changes.md:472
 # code block
 msgid "~~~\n"
 "commit 005937fbe2a98fb83f0ade869025dc2636b4dad5\n"
@@ -1955,12 +1874,12 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:494
+#: git-novice/_episodes/04-changes.md:493
 # blockquote, which can be cascaded
 msgid "> ## Word-based diffing"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:495
+#: git-novice/_episodes/04-changes.md:494
 msgid ">\n"
 "> Sometimes, e.g. in the case of the text documents a line-wise\n"
 "> diff is too coarse. That is where the `--color-words` option of\n"
@@ -1968,30 +1887,32 @@ msgid ">\n"
 "> words using colors."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:502
+#: git-novice/_episodes/04-changes.md:501
 # blockquote, which can be cascaded
 msgid "> ## Paging the Log"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:503
+#: git-novice/_episodes/04-changes.md:502
 msgid ">\n"
 "> When the output of `git log` is too long to fit in your screen,\n"
 "> `git` uses a program to split it into pages of the size of your screen.\n"
 "> When this \"pager\" is called, you will notice that the last line in your\n"
 "> screen is a `:`, instead of your usual prompt.\n"
 ">\n"
-"> *   To get out of the pager, press `q`.\n"
-"> *   To move to the next page, press the space bar.\n"
-"> *   To search for `some_word` in all pages, type `/some_word`\n"
-">     and navigate through matches pressing `n`."
+"> *   To get out of the pager, press <kbd>Q</kbd>.\n"
+"> *   To move to the next page, press <kbd>Spacebar</kbd>.\n"
+"> *   To search for `some_word` in all pages,\n"
+">     press <kbd>/</kbd>\n"
+">     and type `some_word`.\n"
+">     Navigate through matches pressing <kbd>N</kbd>."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:515
+#: git-novice/_episodes/04-changes.md:516
 # blockquote, which can be cascaded
 msgid "> ## Limit Log Size"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:516
+#: git-novice/_episodes/04-changes.md:517
 msgid ">\n"
 "> To avoid having `git log` cover your entire terminal screen, you can limit the\n"
 "> number of commits that Git lists by using `-N`, where `N` is the number of\n"
@@ -2000,11 +1921,9 @@ msgid ">\n"
 ">\n"
 "> ~~~\n"
 "> $ git log -1\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:526
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> ~~~\n"
 "> commit 005937fbe2a98fb83f0ade869025dc2636b4dad5\n"
 "> Author: Vlad Dracula <vlad@tran.sylvan.ia>\n"
@@ -2014,122 +1933,103 @@ msgid ">\n"
 "> ~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:534
-#: git-novice/_episodes/04-changes.md:548
-#: git-novice/_episodes/04-changes.md:562
-#: git-novice/_episodes/05-history.md:402
-#: git-novice/_episodes/05-history.md:409
-#: git-novice/_episodes/05-history.md:417
-#: git-novice/_episodes/05-history.md:424
+#: git-novice/_episodes/04-changes.md:535
+#: git-novice/_episodes/04-changes.md:549
+#: git-novice/_episodes/04-changes.md:563
+#: git-novice/_episodes/05-history.md:399
+#: git-novice/_episodes/05-history.md:406
+#: git-novice/_episodes/05-history.md:414
+#: git-novice/_episodes/05-history.md:421
 # SC/DC Template label
 msgid "> {: .output}"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:535
+#: git-novice/_episodes/04-changes.md:536
 msgid ">\n"
 "> You can also reduce the quantity of information using the\n"
 "> `--oneline` option:\n"
 ">\n"
 "> ~~~\n"
 "> $ git log --oneline\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> ~~~\n"
+"> * 005937f Discuss concerns about Mars' climate for Mummy\n"
+"> * 34961b1 Add concerns about effects of Mars' moons on Wolfman\n"
+"> * f22b25e Start notes on Mars as a base\n"
 "> ~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:543
-#: git-novice/_episodes/04-changes.md:547
-#: git-novice/_episodes/04-changes.md:557
-#: git-novice/_episodes/04-changes.md:561
-# blockquote, which can be cascaded
-msgid "> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:544
-# blockquote, which can be cascaded
-msgid "> * 005937f Discuss concerns about Mars' climate for Mummy"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:545
-#: git-novice/_episodes/04-changes.md:559
-# blockquote, which can be cascaded
-msgid "> * 34961b1 Add concerns about effects of Mars' moons on Wolfman"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:546
-#: git-novice/_episodes/04-changes.md:560
-# blockquote, which can be cascaded
-msgid "> * f22b25e Start notes on Mars as a base"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:549
+#: git-novice/_episodes/04-changes.md:550
 msgid ">\n"
 "> You can also combine the `--oneline` options with others. One useful\n"
 "> combination is:\n"
 ">\n"
 "> ~~~\n"
 "> $ git log --oneline --graph --all --decorate\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> ~~~\n"
+"> * 005937f Discuss concerns about Mars' climate for Mummy (HEAD, master)\n"
+"> * 34961b1 Add concerns about effects of Mars' moons on Wolfman\n"
+"> * f22b25e Start notes on Mars as a base\n"
 "> ~~~"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:558
-# blockquote, which can be cascaded
-msgid "> * 005937f Discuss concerns about Mars' climate for Mummy (HEAD, master)"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:565
+#: git-novice/_episodes/04-changes.md:566
 # blockquote, which can be cascaded
 msgid "> ## Directories"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:566
+#: git-novice/_episodes/04-changes.md:567
 msgid ">\n"
 "> Two important facts you should know about directories in Git.\n"
 ">\n"
 "> 1. Git does not track directories on their own, only files within them.\n"
-"> Try it for yourself:\n"
+">    Try it for yourself:\n"
 ">\n"
-"> ~~~\n"
-"> $ mkdir directory\n"
-"> $ git status\n"
-"> $ git add directory\n"
-"> $ git status\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:579
-msgid ">\n"
-"> Note, our newly created empty directory `directory` does not appear in\n"
-"> the list of untracked files even if we explicitly add it (_via_ `git add`) to our\n"
-"> repository. This is the reason why you will sometimes see `.gitkeep` files\n"
-"> in otherwise empty directories. Unlike `.gitignore`, these files are not special\n"
-"> and their sole purpose is to populate a directory so that Git adds it to\n"
-"> the repository. In fact, you can name such files anything you like.\n"
+">    ~~~\n"
+">    $ mkdir directory\n"
+">    $ git status\n"
+">    $ git add directory\n"
+">    $ git status\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+">\n"
+">    Note, our newly created empty directory `directory` does not appear in\n"
+">    the list of untracked files even if we explicitly add it (_via_ `git add`) to our\n"
+">    repository. This is the reason why you will sometimes see `.gitkeep` files\n"
+">    in otherwise empty directories. Unlike `.gitignore`, these files are not special\n"
+">    and their sole purpose is to populate a directory so that Git adds it to\n"
+">    the repository. In fact, you can name such files anything you like.\n"
 ">\n"
 "> {:start=\"2\"}\n"
 "> 2. If you create a directory in your Git repository and populate it with files,\n"
-"> you can add all files in the directory at once by:\n"
+">    you can add all files in the directory at once by:\n"
 ">\n"
-"> ~~~\n"
-"> git add <directory-with-files>\n"
-"> ~~~"
+">    ~~~\n"
+">    git add <directory-with-files>\n"
+">    ~~~\n"
+">    {: .language-bash}"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:597
+#: git-novice/_episodes/04-changes.md:598
 msgid "To recap, when we want to add changes to our repository,\n"
 "we first need to add the changed files to the staging area\n"
 "(`git add`) and then commit the staged changes to the\n"
 "repository (`git commit`):"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:602
+#: git-novice/_episodes/04-changes.md:603
 msgid "![The Git Commit Workflow](../fig/git-committing.svg)"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:604
+#: git-novice/_episodes/04-changes.md:605
 # blockquote, which can be cascaded
 msgid "> ## Choosing a Commit Message"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:605
+#: git-novice/_episodes/04-changes.md:606
 msgid ">\n"
 "> Which of the following commit messages would be most appropriate for the\n"
 "> last commit made to `mars.txt`?\n"
@@ -2139,17 +2039,17 @@ msgid ">\n"
 "> 3. \"Discuss effects of Mars' climate on the Mummy\"\n"
 ">\n"
 "> > ## Solution\n"
-"> > Answer 1 is not descriptive enough,\n"
-"> > and answer 2 is too descriptive and redundant,\n"
-"> > but answer 3 is good: short but descriptive."
+"> > Answer 1 is not descriptive enough, and the purpose of the commit is unclear;\n"
+"> > and answer 2 is redundant to using \"git diff\" to see what changed in this commit;\n"
+"> > but answer 3 is good: short, descriptive, and imperative."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:620
+#: git-novice/_episodes/04-changes.md:621
 # blockquote, which can be cascaded
 msgid "> ## Committing Changes to Git"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:621
+#: git-novice/_episodes/04-changes.md:622
 msgid ">\n"
 "> Which command(s) below would save the changes of `myfile.txt`\n"
 "> to my local Git repository?\n"
@@ -2157,7 +2057,7 @@ msgid ">\n"
 "> 1. `$ git commit -m \"my recent changes\"`\n"
 ">\n"
 "> 2. `$ git init myfile.txt`\n"
-">    `$ git commit -m \"my recent changes\"`\n"
+">    `git commit -m \"my recent changes\"`\n"
 ">\n"
 "> 3. `$ git add myfile.txt`\n"
 ">    `$ git commit -m \"my recent changes\"`\n"
@@ -2172,12 +2072,12 @@ msgid ">\n"
 "> > 4. Would try to commit a file \"my recent changes\" with the message myfile.txt."
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:644
+#: git-novice/_episodes/04-changes.md:645
 # blockquote, which can be cascaded
 msgid "> ## Committing Multiple Files"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:645
+#: git-novice/_episodes/04-changes.md:646
 msgid ">\n"
 "> The staging area can hold changes from any number of files\n"
 "> that you want to commit as a single snapshot.\n"
@@ -2196,7 +2096,7 @@ msgid ">\n"
 "> > $ nano mars.txt\n"
 "> > $ cat mars.txt\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> > ~~~\n"
 "> > Maybe I should start with a base on Venus.\n"
 "> > ~~~\n"
@@ -2205,7 +2105,7 @@ msgid ">\n"
 "> > $ nano venus.txt\n"
 "> > $ cat venus.txt\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> > ~~~\n"
 "> > Venus is a nice planet and I definitely should consider it as a base.\n"
 "> > ~~~\n"
@@ -2215,18 +2115,18 @@ msgid ">\n"
 "> > ~~~\n"
 "> > $ git add mars.txt venus.txt\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> > Or with multiple commands:\n"
 "> > ~~~\n"
 "> > $ git add mars.txt\n"
 "> > $ git add venus.txt\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> > Now the files are ready to commit. You can check that using `git status`. If you are ready to commit use:\n"
 "> > ~~~\n"
 "> > $ git commit -m \"Write plans to start a base on Venus\"\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> > ~~~\n"
 "> > [master cc127c2]\n"
 "> >  Write plans to start a base on Venus\n"
@@ -2236,12 +2136,12 @@ msgid ">\n"
 "> > {: .output}"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:704
-# header
-msgid "## `bio` Repository"
+#: git-novice/_episodes/04-changes.md:705
+# blockquote, which can be cascaded
+msgid "> ## `bio` Repository"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:705
+#: git-novice/_episodes/04-changes.md:706
 msgid ">\n"
 "> * Create a new Git repository on your computer called `bio`.\n"
 "> * Write a three-line biography for yourself in a file called `me.txt`,\n"
@@ -2257,7 +2157,7 @@ msgid ">\n"
 "> > ~~~\n"
 "> > $ cd ..\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > Create a new folder called `bio` and 'move' into it:\n"
 "> >\n"
@@ -2265,14 +2165,14 @@ msgid ">\n"
 "> > $ mkdir bio\n"
 "> > $ cd bio\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > Initialise git:\n"
 "> >\n"
 "> > ~~~\n"
 "> > $ git init\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > Create your biography file `me.txt` using `nano` or another text editor.\n"
 "> > Once in place, add and commit it to the repository:\n"
@@ -2281,7 +2181,7 @@ msgid ">\n"
 "> > $ git add me.txt\n"
 "> > $ git commit -m'Adding biography file'\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > Modify the file as described (modify one line, add a fourth line).\n"
 "> > To display the differences\n"
@@ -2290,16 +2190,16 @@ msgid ">\n"
 "> > ~~~\n"
 "> > $ git diff me.txt\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:758
+#: git-novice/_episodes/04-changes.md:759
 # blockquote, which can be cascaded
 msgid "> ## Author and Committer"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:759
+#: git-novice/_episodes/04-changes.md:760
 msgid ">\n"
 "> For each of the commits you have done, Git stored your name twice.\n"
 "> You are named as the author and as the committer. You can observe\n"
@@ -2308,20 +2208,16 @@ msgid ">\n"
 ">\n"
 "> ~~~\n"
 "> $ git log --format=full\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:769
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> When committing you can name someone else as the author:\n"
 ">\n"
 "> ~~~\n"
 "> $ git commit --author=\"Vlad Dracula <vlad@tran.sylvan.ia>\"\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/04-changes.md:776
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> Create a new repository and create two commits: one without the\n"
 "> `--author` option and one by naming a colleague of yours as the\n"
 "> author. Run `git log` and `git log --format=full`. Think about ways\n"
@@ -2333,13 +2229,21 @@ msgid ">\n"
 "> > $ git add me.txt\n"
 "> > $ git commit -m \"Update Vlad's bio.\" --author=\"Frank N. Stein <franky@monster.com>\"\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
+"> >\n"
 "> > ~~~\n"
 "> > [master 4162a51] Update Vlad's bio.\n"
 "> > Author: Frank N. Stein <franky@monster.com>\n"
 "> > 1 file changed, 2 insertions(+), 2 deletions(-)\n"
+"> > ~~~\n"
+"> > {: .output}\n"
 "> >\n"
+"> > ~~~\n"
 "> > $ git log --format=full\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
 "> > commit 4162a51b273ba799a9d395dd70c45d96dba4e2ff\n"
 "> > Author: Frank N. Stein <franky@monster.com>\n"
 "> > Commit: Vlad Dracula <vlad@tran.sylvan.ia>\n"
@@ -2355,7 +2259,7 @@ msgid ">\n"
 "> > {: .output}"
 msgstr ""
 
-#: git-novice/_episodes/04-changes.md:811
+#: git-novice/_episodes/04-changes.md:820
 msgid "[commit-messages]: https://chris.beams.io/posts/git-commit/"
 msgstr ""
 
@@ -2392,28 +2296,18 @@ msgid "We've been adding one line at a time to `mars.txt`, so it's easy to track
 "let's make a change to `mars.txt`."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:33
-# code block
-msgid "~~~\n"
-"Cold and dry, but everything is my favorite color\n"
-"The two moons may be a problem for Wolfman\n"
-"But the Mummy will appreciate the lack of humidity\n"
-"An ill-considered change\n"
-"~~~"
-msgstr ""
-
-#: git-novice/_episodes/05-history.md:41
+#: git-novice/_episodes/05-history.md:40
 msgid "Now, let's see what we get."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:43
+#: git-novice/_episodes/05-history.md:42
 # code block
 msgid "~~~\n"
 "$ git diff HEAD mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:48
+#: git-novice/_episodes/05-history.md:47
 # code block
 msgid "~~~\n"
 "diff --git a/mars.txt b/mars.txt\n"
@@ -2424,14 +2318,15 @@ msgid "~~~\n"
 " Cold and dry, but everything is my favorite color\n"
 " The two moons may be a problem for Wolfman\n"
 " But the Mummy will appreciate the lack of humidity\n"
-"+An ill-considered change.\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:61
+#: git-novice/_episodes/05-history.md:59
 msgid "which is the same as what you would get if you leave out `HEAD` (try it).  The\n"
 "real goodness in all this is when you can refer to previous commits.  We do\n"
-"that by adding `~1` to refer to the commit one before `HEAD`."
+"that by adding `~1` \n"
+"(where \"~\" is \"tilde\", pronounced [**til**-d*uh*]) \n"
+"to refer to the commit one before `HEAD`."
 msgstr ""
 
 #: git-novice/_episodes/05-history.md:65
@@ -2464,22 +2359,21 @@ msgid "~~~\n"
 " Cold and dry, but everything is my favorite color\n"
 "+The two moons may be a problem for Wolfman\n"
 "+But the Mummy will appreciate the lack of humidity\n"
-"+An ill-considered change\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:92
+#: git-novice/_episodes/05-history.md:91
 msgid "We could also use `git show` which shows us what changes we made at an older commit as well as the commit message, rather than the _differences_ between a commit and our working directory that we see by using `git diff`."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:94
+#: git-novice/_episodes/05-history.md:93
 # code block
 msgid "~~~\n"
 "$ git show HEAD~2 mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:99
+#: git-novice/_episodes/05-history.md:98
 # code block
 msgid "~~~\n"
 "commit 34961b159c27df3b475cfe4415d94a6d1fcd064d\n"
@@ -2498,17 +2392,17 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:116
+#: git-novice/_episodes/05-history.md:115
 msgid "In this way,\n"
 "we can build up a chain of commits.\n"
 "The most recent end of the chain is referred to as `HEAD`;\n"
 "we can refer to previous commits using the `~` notation,\n"
-"so `HEAD~1` (pronounced \"head minus one\")\n"
+"so `HEAD~1`\n"
 "means \"the previous commit\",\n"
 "while `HEAD~123` goes back 123 commits from where we are now."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:124
+#: git-novice/_episodes/05-history.md:123
 msgid "We can also refer to commits using\n"
 "those long strings of digits and letters\n"
 "that `git log` displays.\n"
@@ -2521,15 +2415,15 @@ msgid "We can also refer to commits using\n"
 "so let's try this:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:135
+#: git-novice/_episodes/05-history.md:134
 # code block
 msgid "~~~\n"
 "$ git diff f22b25e3233b4645dabd0d81e651fe074bd8e73b mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:140
-#: git-novice/_episodes/05-history.md:162
+#: git-novice/_episodes/05-history.md:139
+#: git-novice/_episodes/05-history.md:160
 # code block
 msgid "~~~\n"
 "diff --git a/mars.txt b/mars.txt\n"
@@ -2540,48 +2434,47 @@ msgid "~~~\n"
 " Cold and dry, but everything is my favorite color\n"
 "+The two moons may be a problem for Wolfman\n"
 "+But the Mummy will appreciate the lack of humidity\n"
-"+An ill-considered change\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:153
+#: git-novice/_episodes/05-history.md:151
 msgid "That's the right answer,\n"
 "but typing out random 40-character strings is annoying,\n"
 "so Git lets us use just the first few characters:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:157
+#: git-novice/_episodes/05-history.md:155
 # code block
 msgid "~~~\n"
 "$ git diff f22b25e mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:175
+#: git-novice/_episodes/05-history.md:172
 msgid "All right! So\n"
 "we can save changes to files and see what we've changed—now how\n"
 "can we restore older versions of things?\n"
 "Let's suppose we accidentally overwrite our file:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:186
+#: git-novice/_episodes/05-history.md:183
 # code block
 msgid "~~~\n"
 "We will need to manufacture our own oxygen\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:191
+#: git-novice/_episodes/05-history.md:188
 msgid "`git status` now tells us that the file has been changed,\n"
 "but those changes haven't been staged:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:211
+#: git-novice/_episodes/05-history.md:208
 msgid "We can put things back the way they were\n"
 "by using `git checkout`:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:214
+#: git-novice/_episodes/05-history.md:211
 # code block
 msgid "~~~\n"
 "$ git checkout HEAD mars.txt\n"
@@ -2589,7 +2482,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:227
+#: git-novice/_episodes/05-history.md:224
 msgid "As you might guess from its name,\n"
 "`git checkout` checks out (i.e., restores) an old version of a file.\n"
 "In this case,\n"
@@ -2599,7 +2492,7 @@ msgid "As you might guess from its name,\n"
 "we can use a commit identifier instead:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:235
+#: git-novice/_episodes/05-history.md:232
 #: git-novice/_extras/discuss.md:62
 # code block
 msgid "~~~\n"
@@ -2607,7 +2500,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:255
+#: git-novice/_episodes/05-history.md:252
 # code block
 msgid "~~~\n"
 "# On branch master\n"
@@ -2623,45 +2516,43 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:269
+#: git-novice/_episodes/05-history.md:266
 msgid "Notice that the changes are on the staged area.\n"
 "Again, we can put things back the way they were\n"
 "by using `git checkout`:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:273
+#: git-novice/_episodes/05-history.md:270
 # code block
 msgid "~~~\n"
-"$ git checkout HEAD mars.txt\n"
+"$ git checkout -f master mars.txt\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:278
+#: git-novice/_episodes/05-history.md:275
 # blockquote, which can be cascaded
 msgid "> ## Don't Lose Your HEAD"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:279
+#: git-novice/_episodes/05-history.md:276
 msgid ">\n"
 "> Above we used\n"
 ">\n"
 "> ~~~\n"
 "> $ git checkout f22b25e mars.txt\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/05-history.md:286
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> to revert `mars.txt` to its state after the commit `f22b25e`. But be careful! \n"
 "> The command `checkout` has other important functionalities and Git will misunderstand\n"
 "> your intentions if you are not accurate with the typing. For example, \n"
-"> if you forget `mars.txt` in that command, Git will tell you that \"You are in\n"
-"> 'detached HEAD' state.\" It's \"look, but don't touch\" here, so you shouldn't\n"
-"> make any changes in this state.\n"
-"> After investigating your repo's past state, reattach your HEAD with ``git checkout master``"
+"> if you forget `mars.txt` in the previous command.\n"
+"> The \"detached HEAD\" is like \"look, but don't touch\" here,\n"
+"> so you shouldn't make any changes in this state.\n"
+"> After investigating your repo's past state, reattach your `HEAD` with `git checkout master`."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:296
+#: git-novice/_episodes/05-history.md:293
 msgid "It's important to remember that\n"
 "we must use the commit number that identifies the state of the repository\n"
 "*before* the change we're trying to undo.\n"
@@ -2671,36 +2562,34 @@ msgid "It's important to remember that\n"
 "recent commit (`HEAD~1`), which is commit `f22b25e`:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:304
+#: git-novice/_episodes/05-history.md:301
 msgid "![Git Checkout](../fig/git-checkout.svg)"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:306
+#: git-novice/_episodes/05-history.md:303
 msgid "So, to put it all together,\n"
 "here's how Git works in cartoon form:"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:309
+#: git-novice/_episodes/05-history.md:306
 msgid "![https://figshare.com/articles/How_Git_works_a_cartoon/1328266](../fig/git_staging.svg)"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:311
+#: git-novice/_episodes/05-history.md:308
 # blockquote, which can be cascaded
 msgid "> ## Simplifying the Common Case"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:312
+#: git-novice/_episodes/05-history.md:309
 msgid ">\n"
 "> If you read the output of `git status` carefully,\n"
 "> you'll see that it includes this hint:\n"
 ">\n"
 "> ~~~\n"
 "> (use \"git checkout -- <file>...\" to discard changes in working directory)\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/05-history.md:320
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> As it says,\n"
 "> `git checkout` without a version identifier restores files to the state saved in `HEAD`.\n"
 "> The double dash `--` is needed to separate the names of the files being recovered\n"
@@ -2709,7 +2598,7 @@ msgid ">\n"
 "> Git would try to use the name of the file as the commit identifier."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:329
+#: git-novice/_episodes/05-history.md:326
 msgid "The fact that files can be reverted one by one\n"
 "tends to change the way people organize their work.\n"
 "If everything is in one large document,\n"
@@ -2720,12 +2609,12 @@ msgid "The fact that files can be reverted one by one\n"
 "moving backward and forward in time becomes much easier."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:338
+#: git-novice/_episodes/05-history.md:335
 # blockquote, which can be cascaded
 msgid "> ## Recovering Older Versions of a File"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:339
+#: git-novice/_episodes/05-history.md:336
 msgid ">\n"
 "> Jennifer has made changes to the Python script that she has been working on for weeks, and the\n"
 "> modifications she made this morning \"broke\" the script and it no longer runs. She has spent\n"
@@ -2746,12 +2635,12 @@ msgid ">\n"
 "> 5. Both 2 and 4"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:359
+#: git-novice/_episodes/05-history.md:356
 # blockquote, which can be cascaded
 msgid "> ## Reverting a Commit"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:360
+#: git-novice/_episodes/05-history.md:357
 msgid ">\n"
 "> Jennifer is collaborating on her Python script with her colleagues and\n"
 "> realizes her last commit to the group repository is wrong and wants to\n"
@@ -2763,7 +2652,7 @@ msgid ">\n"
 "> group repository.  Below are the right steps and explanations for\n"
 "> Jennifer to use `git revert`, what is the missing command?\n"
 ">\n"
-"> 1. ________ # Look at the git history of the project to find the commit ID\n"
+"> 1. `________ # Look at the git history of the project to find the commit ID`\n"
 ">\n"
 "> 2. Copy the ID (the first few characters of the ID, e.g. 0b1d055).\n"
 ">\n"
@@ -2774,36 +2663,34 @@ msgid ">\n"
 "> 5. Save and close"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:382
+#: git-novice/_episodes/05-history.md:379
 # blockquote, which can be cascaded
 msgid "> ## Understanding Workflow and History"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:383
+#: git-novice/_episodes/05-history.md:380
 msgid ">\n"
-"> What is the output of cat venus.txt at the end of this set of commands?\n"
+"> What is the output of the last command in\n"
 ">\n"
 "> ~~~\n"
 "> $ cd planets\n"
-"> $ nano venus.txt #input the following text: Venus is beautiful and full of love\n"
+"> $ echo \"Venus is beautiful and full of love\" > venus.txt\n"
 "> $ git add venus.txt\n"
-"> $ nano venus.txt #add the following text: Venus is too hot to be suitable as a base\n"
+"> $ echo \"Venus is too hot to be suitable as a base\" >> venus.txt\n"
 "> $ git commit -m \"Comment on Venus as an unsuitable base\"\n"
 "> $ git checkout HEAD venus.txt\n"
 "> $ cat venus.txt #this will print the contents of venus.txt to the screen\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/05-history.md:396
-msgid ">\n"
-"> 1.\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> 1. \n"
 ">\n"
 "> ~~~\n"
 "> Venus is too hot to be suitable as a base\n"
 "> ~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:403
+#: git-novice/_episodes/05-history.md:400
 msgid ">\n"
 "> 2.\n"
 ">\n"
@@ -2812,7 +2699,7 @@ msgid ">\n"
 "> ~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:410
+#: git-novice/_episodes/05-history.md:407
 msgid ">\n"
 "> 3.\n"
 ">\n"
@@ -2822,7 +2709,7 @@ msgid ">\n"
 "> ~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:418
+#: git-novice/_episodes/05-history.md:415
 msgid ">\n"
 "> 4.\n"
 ">\n"
@@ -2831,61 +2718,22 @@ msgid ">\n"
 "> ~~~"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:425
+#: git-novice/_episodes/05-history.md:422
 msgid ">\n"
 "> > ## Solution\n"
 "> >\n"
-"> > Line by line:\n"
-"> > ~~~\n"
-"> > $ cd planets\n"
-"> > ~~~\n"
-"> > {: .bash}\n"
-"> > Enters into the 'planets' directory\n"
-"> >\n"
-"> > ~~~\n"
-"> > $ nano venus.txt #input the following text: Venus is beautiful and full of love\n"
-"> > ~~~\n"
-"> > {: .bash}\n"
-"> > We created a new file and wrote a sentence in it, but the file is not tracked by git.  \n"
-"> >\n"
-"> > ~~~\n"
-"> > $ git add venus.txt\n"
-"> > ~~~\n"
-"> > {: .bash}\n"
-"> > Now the file is staged. The changes that have been made to the file until now will be committed in the next commit.\n"
-"> >\n"
-"> > ~~~\n"
-"> > $ nano venus.txt #add the following text: Venus is too hot to be suitable as a base\n"
-"> > ~~~\n"
-"> > {: .bash}\n"
-"> > The file has been modified. The new changes are not staged because we have not added the file.\n"
-"> >\n"
-"> > ~~~\n"
-"> > $ git commit -m \"Comment on Venus as an unsuitable base\"\n"
-"> > ~~~\n"
-"> > {: .bash}\n"
-"> > The changes that were staged (Venus is beautiful and full of love) have been committed. The changes that were not staged (Venus is too hot to be suitable as a base) have not. Our local working copy is different than the copy in our local repository.\n"
-"> >\n"
-"> > ~~~\n"
-"> > $ git checkout HEAD venus.txt\n"
-"> > ~~~\n"
-"> > {: .bash}\n"
-"> > With checkout we discard the changes in the working directory so that our local copy is exactly the same as our HEAD, the most recent commit.\n"
-"> >\n"
-"> > ~~~\n"
-"> > $ cat venus.txt #this will print the contents of venus.txt to the screen\n"
-"> > ~~~\n"
-"> > {: .bash}\n"
-"> > If we print venus.txt we will get answer 2.\n"
-"> >"
+"> > The answer is 2 because `git add venus.txt` was used only before add the line\n"
+"> > `Venus is too hot to be suitable as a base`\n"
+"> > which was lost when `git checkout` was executed.\n"
+"> > Using the flag `-a` with `git commit` would have prevented the lost."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:474
+#: git-novice/_episodes/05-history.md:432
 # blockquote, which can be cascaded
 msgid "> ## Checking Understanding of `git diff`"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:475
+#: git-novice/_episodes/05-history.md:433
 msgid ">\n"
 "> Consider this command: `git diff HEAD~3 mars.txt`. What do you predict this command\n"
 "> will do if you execute it? What happens when you do execute it? Why?\n"
@@ -2895,12 +2743,12 @@ msgid ">\n"
 "> and what does happen?"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:484
+#: git-novice/_episodes/05-history.md:442
 # blockquote, which can be cascaded
 msgid "> ## Getting Rid of Staged Changes"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:485
+#: git-novice/_episodes/05-history.md:443
 msgid ">\n"
 "> `git checkout` can be used to restore a previous commit when unstaged changes have\n"
 "> been made, but will it also work for changes that have been staged but not committed?\n"
@@ -2908,12 +2756,12 @@ msgid ">\n"
 "> you can remove your change."
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:492
+#: git-novice/_episodes/05-history.md:450
 # blockquote, which can be cascaded
 msgid "> ## Explore and Summarize Histories"
 msgstr ""
 
-#: git-novice/_episodes/05-history.md:493
+#: git-novice/_episodes/05-history.md:451
 msgid ">\n"
 "> Exploring history is an important part of git, often it is a challenge to find\n"
 "> the right commit ID, especially if the commit is from several months ago.\n"
@@ -2928,11 +2776,9 @@ msgid ">\n"
 ">\n"
 "> ~~~\n"
 "> $ git log mars.txt\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/05-history.md:509
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> Unfortunately some of these commit messages are very ambiguous e.g. `update files`.\n"
 "> How can you search through these files?\n"
 ">\n"
@@ -2941,18 +2787,17 @@ msgid ">\n"
 ">\n"
 "> ~~~\n"
 "> $ git log --patch mars.txt\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/05-history.md:520
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> You should get a long list of output, and you should be able to see both commit messages and the difference between each commit.\n"
 ">\n"
 "> Question: What does the following command do?\n"
 ">\n"
 "> ~~~\n"
 "> $ git log --patch HEAD~3 *.txt\n"
-"> ~~~"
+"> ~~~\n"
+"> {: .language-bash}"
 msgstr ""
 
 #: git-novice/_episodes/06-ignore.md:1
@@ -3068,7 +2913,7 @@ msgstr ""
 # code block
 msgid "~~~\n"
 "$ git add .gitignore\n"
-"$ git commit -m \"Add the ignore file\"\n"
+"$ git commit -m \"Ignore data files and the results folder.\"\n"
 "$ git status\n"
 "~~~"
 msgstr ""
@@ -3143,11 +2988,9 @@ msgid ">\n"
 "> ~~~\n"
 "> results/data\n"
 "> results/plots\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/06-ignore.md:153
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> How would you ignore only `results/plots` and not `results/data`?\n"
 ">\n"
 "> > ## Solution\n"
@@ -3209,11 +3052,9 @@ msgid ">\n"
 "> results/data/position/gps/c.data\n"
 "> results/data/position/gps/info.txt\n"
 "> results/plots\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/06-ignore.md:209
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> What's the shortest `.gitignore` rule you could write to ignore all `.data`\n"
 "> files in `result/data/position/gps`? Do not ignore the `info.txt`.\n"
 ">\n"
@@ -3235,11 +3076,9 @@ msgid ">\n"
 "> ~~~\n"
 "> *.data\n"
 "> !*.data\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/06-ignore.md:229
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> What will be the result?\n"
 ">\n"
 "> > ## Solution\n"
@@ -3349,8 +3188,8 @@ msgid "~~~\n"
 msgstr ""
 
 #: git-novice/_episodes/07-github.md:52
-msgid "Our local repository still contains our earlier work on `mars.txt`, but the\n"
-"remote repository on GitHub doesn't contain any files yet:"
+msgid "Note that our local repository still contains our earlier work on `mars.txt`, but the\n"
+"remote repository on GitHub appears empty as it doesn't contain any files yet."
 msgstr ""
 
 #: git-novice/_episodes/07-github.md:55
@@ -3359,7 +3198,7 @@ msgstr ""
 
 #: git-novice/_episodes/07-github.md:57
 msgid "The next step is to connect the two repositories.  We do this by making the\n"
-"GitHub repository a [remote]({{ page.root }}/reference/#remote) for the local repository.\n"
+"GitHub repository a [remote]({{ page.root }}/reference#remote) for the local repository.\n"
 "The home page of the repository on GitHub includes the string we need to\n"
 "identify it:"
 msgstr ""
@@ -3369,7 +3208,7 @@ msgid "![Where to Find Repository URL on GitHub](../fig/github-find-repo-string.
 msgstr ""
 
 #: git-novice/_episodes/07-github.md:64
-msgid "Click on the 'HTTPS' link to change the [protocol]({{ page.root }}/reference/#protocol) from\n"
+msgid "Click on the 'HTTPS' link to change the [protocol]({{ page.root }}/reference#protocol) from\n"
 "SSH to HTTPS."
 msgstr ""
 
@@ -3440,10 +3279,10 @@ msgid "Once the nickname `origin` is set up, this command will push the changes 
 msgstr ""
 
 #: git-novice/_episodes/07-github.md:110
-#: git-novice/_episodes/08-collab.md:79
+#: git-novice/_episodes/08-collab.md:80
 #: git-novice/_episodes/09-conflict.md:68
 #: git-novice/_episodes/09-conflict.md:118
-#: git-novice/_episodes/09-conflict.md:245
+#: git-novice/_episodes/09-conflict.md:241
 # code block
 msgid "~~~\n"
 "$ git push origin master\n"
@@ -3473,18 +3312,17 @@ msgid ">\n"
 "> ~~~\n"
 "> $ git config --global http.proxy http://user:password@proxy.url\n"
 "> $ git config --global https.proxy http://user:password@proxy.url\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/07-github.md:138
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> When you connect to another network that doesn't use a proxy, you will need to\n"
 "> tell Git to disable the proxy using:\n"
 ">\n"
 "> ~~~\n"
 "> $ git config --global --unset http.proxy\n"
 "> $ git config --global --unset https.proxy\n"
-"> ~~~"
+"> ~~~\n"
+"> {: .language-bash}"
 msgstr ""
 
 #: git-novice/_episodes/07-github.md:149
@@ -3502,18 +3340,16 @@ msgid ">\n"
 ">\n"
 "> ~~~\n"
 "> $ unset SSH_ASKPASS\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/07-github.md:161
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> in the terminal, before you run `git push`.  Despite the name, [git uses\n"
 "> `SSH_ASKPASS` for all credential\n"
 "> entry](https://git-scm.com/docs/gitcredentials#_requesting_credentials), so\n"
 "> you may want to unset `SSH_ASKPASS` whether you are using git via SSH or\n"
 "> https.\n"
 ">\n"
-"> You may also want to add `unset SSH_ASKPASS` at the end of your `~/.bashrc`\n"
+"> You may also want to add `unset SSH_ASKPASS` at the end of your `~/.language-bashrc`\n"
 "> to make git default to using the terminal for usernames and passwords."
 msgstr ""
 
@@ -3544,9 +3380,9 @@ msgid "We can pull changes from the remote repository to the local one as well:"
 msgstr ""
 
 #: git-novice/_episodes/07-github.md:187
-#: git-novice/_episodes/08-collab.md:105
+#: git-novice/_episodes/08-collab.md:106
 #: git-novice/_episodes/09-conflict.md:143
-#: git-novice/_episodes/09-conflict.md:265
+#: git-novice/_episodes/09-conflict.md:261
 # code block
 msgid "~~~\n"
 "$ git pull origin master\n"
@@ -3599,7 +3435,7 @@ msgid ">\n"
 "> Create a remote repository on GitHub.  Push the contents of your local\n"
 "> repository to the remote.  Make changes to your local repository and push\n"
 "> these changes.  Go to the repo you just created on GitHub and check the\n"
-"> [timestamps]({{ page.root }}/reference/#timestamp) of the files.  How does GitHub record\n"
+"> [timestamps]({{ page.root }}/reference#timestamp) of the files.  How does GitHub record\n"
 "> times, and why?\n"
 ">\n"
 "> > ## Solution\n"
@@ -3633,11 +3469,9 @@ msgid ">\n"
 ">\n"
 "> ~~~\n"
 "> git remote add broken https://github.com/this/url/is/invalid\n"
-"> ~~~"
-msgstr ""
-
-#: git-novice/_episodes/07-github.md:253
-msgid ">\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
 "> Do you get an error when adding the remote? Can you think of a\n"
 "> command that would make it obvious that your remote URL was not\n"
 "> valid? Can you figure out how to fix the URL (tip: use `git remote\n"
@@ -3674,24 +3508,25 @@ msgid "---\n"
 "objectives:\n"
 "- \"Clone a remote repository.\"\n"
 "- \"Collaborate pushing to a common repository.\"\n"
+"- \"Describe the basic collaborative workflow.\"\n"
 "keypoints:\n"
 "- \"`git clone` copies a remote repository to create a local repository with a remote called `origin` automatically set up.\"\n"
 "---"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:14
+#: git-novice/_episodes/08-collab.md:15
 msgid "For the next step, get into pairs.  One person will be the \"Owner\" and the other\n"
 "will be the \"Collaborator\". The goal is that the Collaborator add changes into\n"
 "the Owner's repository. We will switch roles at the end, so both persons will\n"
 "play Owner and Collaborator."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:19
+#: git-novice/_episodes/08-collab.md:20
 # blockquote, which can be cascaded
 msgid "> ## Practicing By Yourself"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:20
+#: git-novice/_episodes/08-collab.md:21
 msgid ">\n"
 "> If you're working through this lesson on your own, you can carry on by opening\n"
 "> a second terminal window.\n"
@@ -3699,49 +3534,49 @@ msgid ">\n"
 "> won't need to give anyone access on GitHub, because both 'partners' are you."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:27
+#: git-novice/_episodes/08-collab.md:28
 msgid "The Owner needs to give the Collaborator access.\n"
 "On GitHub, click the settings button on the right,\n"
 "then select Collaborators, and enter your partner's username."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:31
+#: git-novice/_episodes/08-collab.md:32
 msgid "![Adding Collaborators on GitHub](../fig/github-add-collaborators.png)"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:33
+#: git-novice/_episodes/08-collab.md:34
 msgid "To accept access to the Owner's repo, the Collaborator\n"
 "needs to go to [https://github.com/notifications](https://github.com/notifications).\n"
 "Once there she can accept access to the Owner's repo."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:37
+#: git-novice/_episodes/08-collab.md:38
 msgid "Next, the Collaborator needs to download a copy of the Owner's repository to her\n"
 " machine. This is called \"cloning a repo\". To clone the Owner's repo into\n"
 "her `Desktop` folder, the Collaborator enters:"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:41
+#: git-novice/_episodes/08-collab.md:42
 # code block
 msgid "~~~\n"
 "$ git clone https://github.com/vlad/planets.git ~/Desktop/vlad-planets\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:46
+#: git-novice/_episodes/08-collab.md:47
 msgid "Replace 'vlad' with the Owner's username."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:48
+#: git-novice/_episodes/08-collab.md:49
 msgid "![After Creating Clone of Repository](../fig/github-collaboration.svg)"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:50
+#: git-novice/_episodes/08-collab.md:51
 msgid "The Collaborator can now make a change in her clone of the Owner's repository,\n"
 "exactly the same way as we've been doing before:"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:53
+#: git-novice/_episodes/08-collab.md:54
 # code block
 msgid "~~~\n"
 "$ cd ~/Desktop/vlad-planets\n"
@@ -3750,14 +3585,14 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:60
+#: git-novice/_episodes/08-collab.md:61
 # code block
 msgid "~~~\n"
 "It is so a planet!\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:65
+#: git-novice/_episodes/08-collab.md:66
 # code block
 msgid "~~~\n"
 "$ git add pluto.txt\n"
@@ -3765,7 +3600,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:71
+#: git-novice/_episodes/08-collab.md:72
 # code block
 msgid "~~~\n"
 " 1 file changed, 1 insertion(+)\n"
@@ -3773,11 +3608,11 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:77
+#: git-novice/_episodes/08-collab.md:78
 msgid "Then push the change to the *Owner's repository* on GitHub:"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:84
+#: git-novice/_episodes/08-collab.md:85
 # code block
 msgid "~~~\n"
 "Counting objects: 4, done.\n"
@@ -3790,23 +3625,23 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:95
+#: git-novice/_episodes/08-collab.md:96
 msgid "Note that we didn't have to create a remote called `origin`: Git uses this\n"
 "name by default when we clone a repository.  (This is why `origin` was a\n"
 "sensible choice earlier when we were setting up remotes by hand.)"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:99
+#: git-novice/_episodes/08-collab.md:100
 msgid "Take a look to the Owner's repository on its GitHub website now (maybe you need\n"
 "to refresh your browser.) You should be able to see the new commit made by the\n"
 "Collaborator."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:103
+#: git-novice/_episodes/08-collab.md:104
 msgid "To download the Collaborator's changes from GitHub, the Owner now enters:"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:110
+#: git-novice/_episodes/08-collab.md:111
 # code block
 msgid "~~~\n"
 "remote: Counting objects: 4, done.\n"
@@ -3823,17 +3658,17 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:125
+#: git-novice/_episodes/08-collab.md:126
 msgid "Now the three repositories (Owner's local, Collaborator's local, and Owner's on\n"
 "GitHub) are back in sync."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:128
+#: git-novice/_episodes/08-collab.md:129
 # blockquote, which can be cascaded
 msgid "> ## A Basic Collaborative Workflow"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:129
+#: git-novice/_episodes/08-collab.md:130
 msgid ">\n"
 "> In practice, it is good to be sure that you have an updated version of the\n"
 "> repository you are collaborating on, so you should `git pull` before making\n"
@@ -3849,22 +3684,22 @@ msgid ">\n"
 "> read and review."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:144
+#: git-novice/_episodes/08-collab.md:145
 # blockquote, which can be cascaded
 msgid "> ## Switch Roles and Repeat"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:145
+#: git-novice/_episodes/08-collab.md:146
 msgid ">\n"
 "> Switch roles and repeat the whole process."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:149
+#: git-novice/_episodes/08-collab.md:150
 # blockquote, which can be cascaded
 msgid "> ## Review Changes"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:150
+#: git-novice/_episodes/08-collab.md:151
 msgid ">\n"
 "> The Owner pushed commits to the repository without giving any information\n"
 "> to the Collaborator. How can the Collaborator find out what has changed with\n"
@@ -3886,12 +3721,12 @@ msgid ">\n"
 "> > that are different."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:172
+#: git-novice/_episodes/08-collab.md:173
 # blockquote, which can be cascaded
 msgid "> ## Comment Changes in GitHub"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:173
+#: git-novice/_episodes/08-collab.md:174
 msgid ">\n"
 "> The Collaborator has some questions about one line change made by the Owner and\n"
 "> has some suggestions to propose.\n"
@@ -3902,12 +3737,12 @@ msgid ">\n"
 "> The Collaborator posts its comments and suggestions using GitHub interface."
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:183
+#: git-novice/_episodes/08-collab.md:184
 # blockquote, which can be cascaded
 msgid "> ## Version History, Backup, and Version Control"
 msgstr ""
 
-#: git-novice/_episodes/08-collab.md:184
+#: git-novice/_episodes/08-collab.md:185
 msgid ">\n"
 "> Some backup software can keep a history of the versions of your files. They also\n"
 "> allows you to recover specific versions. How is this functionality different from version control?\n"
@@ -3936,8 +3771,8 @@ msgid "As soon as people can work in parallel, they'll likely step on each other
 "toes.  This will even happen with a single person: if we are working on\n"
 "a piece of software on both our laptop and a server in the lab, we could make\n"
 "different changes to each copy.  Version control helps us manage these\n"
-"[conflicts]({{ page.root }}/reference/#conflicts) by giving us tools to\n"
-"[resolve]({{ page.root }}/reference/#resolve) overlapping changes."
+"[conflicts]({{ page.root }}/reference#conflicts) by giving us tools to\n"
+"[resolve]({{ page.root }}/reference#resolve) overlapping changes."
 msgstr ""
 
 #: git-novice/_episodes/09-conflict.md:22
@@ -4054,7 +3889,7 @@ msgstr ""
 msgid "Git rejects the push because it detects that the remote repository has new updates that have not been\n"
 "incorporated into the local branch.\n"
 "What we have to do is pull the changes from GitHub,\n"
-"[merge]({{ page.root }}/reference/#merge) them into the copy we're currently working in,\n"
+"[merge]({{ page.root }}/reference#merge) them into the copy we're currently working in,\n"
 "and then push that.\n"
 "Let's start by pulling:"
 msgstr ""
@@ -4075,15 +3910,11 @@ msgid "~~~\n"
 msgstr ""
 
 #: git-novice/_episodes/09-conflict.md:161
-msgid "The `git pull` command updates the local repository to include those\n"
-"changes already included in the remote repository.\n"
-"After the changes from remote branch have been fetched, Git detects that changes made to the local copy \n"
-"overlap with those made to the remote repository, and therefore refuses to merge the two versions to\n"
-"stop us from trampling on our previous work. The conflict is marked in\n"
-"in the affected file:"
+msgid "The `git pull` detects a conflict.\n"
+"The conflict is marked in the affected file:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:173
+#: git-novice/_episodes/09-conflict.md:169
 # code block
 msgid "~~~\n"
 "Cold and dry, but everything is my favorite color\n"
@@ -4097,7 +3928,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:185
+#: git-novice/_episodes/09-conflict.md:181
 msgid "Our change is preceded by `<<<<<<< HEAD`.\n"
 "Git has then inserted `=======` as a separator between the conflicting changes\n"
 "and marked the end of the content downloaded from GitHub with `>>>>>>>`.\n"
@@ -4105,7 +3936,7 @@ msgid "Our change is preceded by `<<<<<<< HEAD`.\n"
 "identifies the commit we've just downloaded.)"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:191
+#: git-novice/_episodes/09-conflict.md:187
 msgid "It is now up to us to edit this file to remove these markers\n"
 "and reconcile the changes.\n"
 "We can do anything we want: keep the change made in the local repository, keep\n"
@@ -4114,8 +3945,8 @@ msgid "It is now up to us to edit this file to remove these markers\n"
 "Let's replace both so that the file looks like this:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:203
-#: git-novice/_episodes/09-conflict.md:291
+#: git-novice/_episodes/09-conflict.md:199
+#: git-novice/_episodes/09-conflict.md:287
 # code block
 msgid "~~~\n"
 "Cold and dry, but everything is my favorite color\n"
@@ -4125,13 +3956,13 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:211
+#: git-novice/_episodes/09-conflict.md:207
 msgid "To finish merging,\n"
 "we add `mars.txt` to the changes being made by the merge\n"
 "and then commit:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:215
+#: git-novice/_episodes/09-conflict.md:211
 # code block
 msgid "~~~\n"
 "$ git add mars.txt\n"
@@ -4139,7 +3970,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:221
+#: git-novice/_episodes/09-conflict.md:217
 # code block
 msgid "~~~\n"
 "On branch master\n"
@@ -4153,25 +3984,25 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:233
+#: git-novice/_episodes/09-conflict.md:229
 # code block
 msgid "~~~\n"
 "$ git commit -m \"Merge changes from GitHub\"\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:238
+#: git-novice/_episodes/09-conflict.md:234
 # code block
 msgid "~~~\n"
 "[master 2abf2b1] Merge changes from GitHub\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:243
+#: git-novice/_episodes/09-conflict.md:239
 msgid "Now we can push our changes to GitHub:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:250
+#: git-novice/_episodes/09-conflict.md:246
 # code block
 msgid "~~~\n"
 "Counting objects: 10, done.\n"
@@ -4184,13 +4015,13 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:261
+#: git-novice/_episodes/09-conflict.md:257
 msgid "Git keeps track of what we've merged with what,\n"
 "so we don't have to fix things by hand again\n"
 "when the collaborator who made the first change pulls again:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:270
+#: git-novice/_episodes/09-conflict.md:266
 # code block
 msgid "~~~\n"
 "remote: Counting objects: 10, done.\n"
@@ -4206,72 +4037,72 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:284
+#: git-novice/_episodes/09-conflict.md:280
 msgid "We get the merged file:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:299
+#: git-novice/_episodes/09-conflict.md:295
 msgid "We don't need to merge again because Git knows someone has already done that."
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:301
+#: git-novice/_episodes/09-conflict.md:297
 msgid "Git's ability to resolve conflicts is very useful, but conflict resolution\n"
 "costs time and effort, and can introduce errors if conflicts are not resolved\n"
 "correctly. If you find yourself resolving a lot of conflicts in a project,\n"
 "consider these technical approaches to reducing them:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:306
+#: git-novice/_episodes/09-conflict.md:302
 # unordered list
 msgid "- Pull from upstream more frequently, especially before starting new work"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:307
+#: git-novice/_episodes/09-conflict.md:303
 # unordered list
 msgid "- Use topic branches to segregate work, merging to master when complete"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:308
+#: git-novice/_episodes/09-conflict.md:304
 # unordered list
 msgid "- Make smaller more atomic commits"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:309
+#: git-novice/_episodes/09-conflict.md:305
 # unordered list
 msgid "- Where logically appropriate, break large files into smaller ones so that it is"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:310
+#: git-novice/_episodes/09-conflict.md:306
 msgid "  less likely that two authors will alter the same file simultaneously"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:312
+#: git-novice/_episodes/09-conflict.md:308
 msgid "Conflicts can also be minimized with project management strategies:"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:314
+#: git-novice/_episodes/09-conflict.md:310
 # unordered list
 msgid "- Clarify who is responsible for what areas with your collaborators"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:315
+#: git-novice/_episodes/09-conflict.md:311
 # unordered list
 msgid "- Discuss what order tasks should be carried out in with your collaborators so"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:316
+#: git-novice/_episodes/09-conflict.md:312
 msgid "  that tasks expected to change the same lines won't be worked on simultaneously\n"
 "- If the conflicts are stylistic churn (e.g. tabs vs. spaces), establish a\n"
 "  project convention that is governing and use code style tools (e.g.\n"
 "  `htmltidy`, `perltidy`, `rubocop`, etc.) to enforce, if necessary"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:321
+#: git-novice/_episodes/09-conflict.md:317
 # blockquote, which can be cascaded
 msgid "> ## Solving Conflicts that You Create"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:322
+#: git-novice/_episodes/09-conflict.md:318
 msgid ">\n"
 "> Clone the repository created by your instructor.\n"
 "> Add a new file to it,\n"
@@ -4281,12 +4112,12 @@ msgid ">\n"
 "> then resolve it."
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:331
+#: git-novice/_episodes/09-conflict.md:327
 # blockquote, which can be cascaded
 msgid "> ## Conflicts on Non-textual files"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:332
+#: git-novice/_episodes/09-conflict.md:328
 msgid ">\n"
 "> What does Git do\n"
 "> when there is a conflict in an image or some other non-textual file\n"
@@ -4304,7 +4135,7 @@ msgid ">\n"
 "> > $ head --bytes 1024 /dev/urandom > mars.jpg\n"
 "> > $ ls -lh mars.jpg\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > ~~~\n"
 "> > -rw-r--r-- 1 vlad 57095 1.0K Mar  8 20:24 mars.jpg\n"
@@ -4320,7 +4151,7 @@ msgid ">\n"
 "> > $ git add mars.jpg\n"
 "> > $ git commit -m \"Add picture of Martian surface\"\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > ~~~\n"
 "> > [master 8e4115c] Add picture of Martian surface\n"
@@ -4336,7 +4167,7 @@ msgid ">\n"
 "> > ~~~\n"
 "> > $ git push origin master\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > ~~~\n"
 "> > To https://github.com/vlad/planets.git\n"
@@ -4355,7 +4186,7 @@ msgid ">\n"
 "> > ~~~\n"
 "> > $ git pull origin master\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > When there is a conflict on an image or other binary file, git prints\n"
 "> > a message like this:\n"
@@ -4382,6 +4213,7 @@ msgid ">\n"
 "> > ~~~\n"
 "> > warning: Cannot merge binary files: mars.jpg (HEAD vs. 439dc8c08869c342438f6dc4a2b615b05b93c76e)\n"
 "> > ~~~\n"
+"> > {: .output}\n"
 "> >\n"
 "> > Git cannot automatically insert conflict markers into an image as it does\n"
 "> > for text files. So, instead of editing the image file, we must check out\n"
@@ -4397,7 +4229,7 @@ msgid ">\n"
 "> > $ git add mars.jpg\n"
 "> > $ git commit -m \"Use image of surface instead of sky\"\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > ~~~\n"
 "> > [master 21032c3] Use image of surface instead of sky\n"
@@ -4412,7 +4244,7 @@ msgid ">\n"
 "> > $ git add mars.jpg\n"
 "> > $ git commit -m \"Use image of sky instead of surface\"\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > ~~~\n"
 "> > [master da21b34] Use image of sky instead of surface\n"
@@ -4430,7 +4262,7 @@ msgid ">\n"
 "> > $ git checkout 439dc8c0 mars.jpg\n"
 "> > $ mv mars.jpg mars-sky.jpg\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > Then, remove the old `mars.jpg` and add the two new files:\n"
 "> >\n"
@@ -4440,7 +4272,7 @@ msgid ">\n"
 "> > $ git add mars-sky.jpg\n"
 "> > $ git commit -m \"Use two images: surface and sky\"\n"
 "> > ~~~\n"
-"> > {: .bash}\n"
+"> > {: .language-bash}\n"
 "> >\n"
 "> > ~~~\n"
 "> > [master 94ae08c] Use two images: surface and sky\n"
@@ -4454,12 +4286,12 @@ msgid ">\n"
 "> > no longer exists."
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:500
+#: git-novice/_episodes/09-conflict.md:497
 # blockquote, which can be cascaded
 msgid "> ## A Typical Work Session"
 msgstr ""
 
-#: git-novice/_episodes/09-conflict.md:501
+#: git-novice/_episodes/09-conflict.md:498
 msgid ">\n"
 "> You sit down at your computer to work on a shared project that is tracked in a\n"
 "> remote Git repository. During your work session, you take the following\n"
@@ -4747,7 +4579,7 @@ msgid "Choosing a license that is in common use makes life easier for\n"
 msgstr ""
 
 #: git-novice/_episodes/11-licensing.md:48
-msgid "[This article][software-licensing] provides an excellent overview of\n"
+msgid "[This article](https://doi.org/10.1371/journal.pcbi.1002598) provides an excellent overview of\n"
 "licensing and licensing options from the perspective of scientists who\n"
 "also write code."
 msgstr ""
@@ -4790,10 +4622,6 @@ msgid ">\n"
 "> - [CPython](https://github.com/python/cpython), the standard implementation of the Python language\n"
 "> - [Jupyter](https://github.com/jupyter), the project behind the web-based Python notebooks we'll be using\n"
 "> - [EtherPad](https://github.com/ether/etherpad-lite), a real-time collaborative editor"
-msgstr ""
-
-#: git-novice/_episodes/11-licensing.md:80
-msgid "[software-licensing]: https://doi.org/10.1371/journal.pcbi.1002598"
 msgstr ""
 
 #: git-novice/_episodes/12-citation.md:1
@@ -4936,13 +4764,6 @@ msgid "As an example, Software Carpentry [is on\n"
 msgstr ""
 
 #: git-novice/_episodes/13-hosting.md:48
-msgid "GitHub repositories can also be assigned DOIs, [by connecting its releases to\n"
-"Zenodo](https://guides.github.com/activities/citable-code/). For example,\n"
-"[`10.5281/zenodo.57467`](https://zenodo.org/record/57467) is the DOI that has\n"
-"been \"minted\" for this introduction to Git."
-msgstr ""
-
-#: git-novice/_episodes/13-hosting.md:53
 msgid "Using large, well-established services can also help you quickly take advantage\n"
 "of powerful tools.  One such tool, continuous integration (CI), can\n"
 "automatically run software builds and tests whenever code is committed or pull\n"
@@ -4954,12 +4775,12 @@ msgid "Using large, well-established services can also help you quickly take adv
 "open source projects, and are also available for private repositories for a fee."
 msgstr ""
 
-#: git-novice/_episodes/13-hosting.md:63
+#: git-novice/_episodes/13-hosting.md:58
 # blockquote, which can be cascaded
 msgid "> ## Institutional Barriers"
 msgstr ""
 
-#: git-novice/_episodes/13-hosting.md:64
+#: git-novice/_episodes/13-hosting.md:59
 msgid ">\n"
 "> Sharing is the ideal for science,\n"
 "> but many institutions place restrictions on sharing,\n"
@@ -4970,12 +4791,12 @@ msgid ">\n"
 "> or to push more broadly for institutional reform to support more open science."
 msgstr ""
 
-#: git-novice/_episodes/13-hosting.md:74
+#: git-novice/_episodes/13-hosting.md:69
 # blockquote, which can be cascaded
 msgid "> ## Can My Work Be Public?"
 msgstr ""
 
-#: git-novice/_episodes/13-hosting.md:75
+#: git-novice/_episodes/13-hosting.md:70
 msgid ">\n"
 "> Find out whether you are allowed to host your work openly on a public forge.\n"
 "> Can you do this unilaterally,\n"
@@ -4983,12 +4804,12 @@ msgid ">\n"
 "> If so, who?"
 msgstr ""
 
-#: git-novice/_episodes/13-hosting.md:82
+#: git-novice/_episodes/13-hosting.md:77
 # blockquote, which can be cascaded
 msgid "> ## Where Can I Share My Work?"
 msgstr ""
 
-#: git-novice/_episodes/13-hosting.md:83
+#: git-novice/_episodes/13-hosting.md:78
 msgid ">\n"
 "> Does your institution have a repository or repositories that you can\n"
 "> use to share your papers, data and software? How do institutional repositories\n"
@@ -5013,7 +4834,7 @@ msgstr ""
 #: git-novice/_episodes/14-supplemental-rstudio.md:13
 msgid "Version control can be very useful when developing data analysis scripts. For\n"
 "that reason, the popular development environment\n"
-"[RStudio][rstudio] for the R programming language has built-in\n"
+"RStudio for the R programming language has built-in\n"
 "integration with Git. While some advanced Git features still require the\n"
 "command-line, RStudio has a nice interface for many common Git operations."
 msgstr ""
@@ -5192,9 +5013,8 @@ msgid "There are many more features in the RStudio Git menu, but these should be
 "enough to get you started!"
 msgstr ""
 
-#: git-novice/_episodes/14-supplemental-rstudio.md:133
-msgid "[rstudio]: https://www.rstudio.com/\n"
-"[rstudio-projects]: https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects"
+#: git-novice/_episodes/14-supplemental-rstudio.md:132
+msgid "[rstudio-projects]: https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects"
 msgstr ""
 
 #: git-novice/_extras/about.md:1
@@ -5931,7 +5751,7 @@ msgstr ""
 
 #: git-novice/_extras/guide.md:40
 # unordered list
-msgid "*   Resources for \"splitting\" your shell so that recent commands remain in view: https://github.com/rgaiacs/swc-shell-split-window."
+msgid "*   You can \"split\" your shell so that recent commands remain in view using [this](https://github.com/rgaiacs/swc-shell-split-window) script."
 msgstr ""
 
 #: git-novice/_extras/guide.md:42
@@ -6132,14 +5952,8 @@ msgstr ""
 msgid "    ~~~\n"
 "    $ mv .git temp_git\n"
 "    $ rm -rf  temp_git\n"
-"    ~~~"
-msgstr ""
-
-#: git-novice/_extras/guide.md:131
-#: git-novice/_extras/guide.md:215
-#: git-novice/_extras/guide.md:233
-# SC/DC Template label
-msgid "    {: .bash}"
+"    ~~~\n"
+"    {: .language-bash}"
 msgstr ""
 
 #: git-novice/_extras/guide.md:133
@@ -6312,7 +6126,8 @@ msgstr ""
 #: git-novice/_extras/guide.md:212
 msgid "    ~~~\n"
 "    $ git clone https://github.com/vlad/planets.git planets-at-work\n"
-"    ~~~"
+"    ~~~\n"
+"    {: .language-bash}"
 msgstr ""
 
 #: git-novice/_extras/guide.md:217
@@ -6349,7 +6164,8 @@ msgstr ""
 #: git-novice/_extras/guide.md:230
 msgid "    ~~~\n"
 "    $ git clone https://github.com/vlad/planets.git vlad-planet\n"
-"    ~~~"
+"    ~~~\n"
+"    {: .language-bash}"
 msgstr ""
 
 #: git-novice/_extras/guide.md:235
@@ -6480,44 +6296,6 @@ msgid "[code-school]: https://www.codeschool.com/\n"
 "[try-git]: https://try.github.io"
 msgstr ""
 
-#: git-novice/_includes/links.md:1
-msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
-"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
-"[concept-maps]: https://swcarpentry.github.io/instructor-training/08-memory/\n"
-"[contact]: mailto:lessons@software-carpentry.org\n"
-"[contrib-covenant]: https://contributor-covenant.org/\n"
-"[contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING.md\n"
-"[cran-checkpoint]: https://cran.r-project.org/web/packages/checkpoint/index.html\n"
-"[cran-knitr]: https://cran.r-project.org/web/packages/knitr/index.html\n"
-"[cran-stringr]: https://cran.r-project.org/web/packages/stringr/index.html\n"
-"[github-importer]: https://import.github.com/\n"
-"[importer]: https://import.github.com/new\n"
-"[jekyll-collection]: https://jekyllrb.com/docs/collections/\n"
-"[jekyll-install]: https://jekyllrb.com/docs/installation/\n"
-"[jekyll-windows]: http://jekyll-windows.juthilo.com/\n"
-"[jekyll]: https://jekyllrb.com/\n"
-"[jupyter]: https://jupyter.org/\n"
-"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
-"[morea]: https://morea-framework.github.io/\n"
-"[numfocus]: https://numfocus.org/\n"
-"[osi]: https://opensource.org\n"
-"[pandoc]: https://pandoc.org/\n"
-"[paper-now]: https://github.com/PeerJ/paper-now\n"
-"[python-gapminder]: https://swcarpentry.github.io/python-novice-gapminder/\n"
-"[pyyaml]: https://pypi.python.org/pypi/PyYAML\n"
-"[r-markdown]: https://rmarkdown.rstudio.com/\n"
-"[rstudio]: https://www.rstudio.com/\n"
-"[ruby-install-guide]: https://www.ruby-lang.org/en/downloads/\n"
-"[ruby-installer]: https://rubyinstaller.org/\n"
-"[rubygems]: https://rubygems.org/pages/download/\n"
-"[styles]: https://github.com/swcarpentry/styles/\n"
-"[training]: https://swcarpentry.github.io/instructor-training/\n"
-"[workshop-repo]: {{ site.workshop_repo }}\n"
-"[yaml]: http://yaml.org/\n"
-"[coc]: https://software-carpentry.org/conduct/\n"
-"[coc-reporting]: https://software-carpentry.org/CoC-reporting/"
-msgstr ""
-
 #: git-novice/aio.md:1
 # Front Matter
 msgid "---\n"
@@ -6585,7 +6363,7 @@ msgid "Wolfman and Dracula have been hired by Universal Missions (a space\n"
 msgstr ""
 
 #: git-novice/index.md:15
-msgid "A colleague suggests using [version control]({{ page.root }}/reference/#version-control) to\n"
+msgid "A colleague suggests using [version control]({{ page.root }}/reference#version-control) to\n"
 "manage their work. Version control is better than mailing files back and forth:"
 msgstr ""
 
@@ -6661,7 +6439,7 @@ msgstr ""
 # Front Matter
 msgid "---\n"
 "layout: reference\n"
-"permalink: /reference/\n"
+"\n"
 "---"
 msgstr ""
 
@@ -6679,13 +6457,13 @@ msgstr ""
 msgid "[GitHub training website](https://services.github.com/resources/).\n"
 "*   An [interactive one-page visualisation](http://ndpsoftware.com/git-cheatsheet.html)\n"
 "    about the relationships between workspace, staging area, local repository, upstream repository, and the commands associated with each (with explanations).\n"
-"*   Both resources are also available in other languages e.g. Spanish, French, and more\n"
+"*   Both resources are also available in other languages (e.g. Spanish, French, and more).\n"
 "* \"[Happy Git and GitHub for the useR](http://happygitwithr.com)\" is an accessible, free online book by Jenny Bryan on how to setup and use git and GitHub with specific references on the integration of git with RStudio and working with git in R."
 msgstr ""
 
 #: git-novice/reference.md:15
 # header
-msgid "## Glossary "
+msgid "## Glossary"
 msgstr ""
 
 #: git-novice/reference.md:17
@@ -6787,20 +6565,19 @@ msgstr ""
 msgid "---\n"
 "layout: page\n"
 "title: Setup\n"
-"permalink: /setup/\n"
 "---"
 msgstr ""
 
-#: git-novice/setup.md:7
+#: git-novice/setup.md:6
 msgid "Please see [this section of the workshop template][workshop-setup]\n"
 "for instructions on installing Git."
 msgstr ""
 
-#: git-novice/setup.md:10
+#: git-novice/setup.md:9
 msgid "We'll do our work in the `Desktop` folder so make sure you change your working directory to it with:"
 msgstr ""
 
-#: git-novice/setup.md:12
+#: git-novice/setup.md:11
 # code block
 msgid "~~~\n"
 "$ cd\n"
@@ -6808,7 +6585,7 @@ msgid "~~~\n"
 "~~~"
 msgstr ""
 
-#: git-novice/setup.md:18
-msgid "[workshop-setup]: https://swcarpentry.github.io/workshop-template/#git"
+#: git-novice/setup.md:17
+msgid "[workshop-setup]: https://carpentries.github.io/workshop-template/#git"
 msgstr ""
 
