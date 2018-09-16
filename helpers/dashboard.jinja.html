@@ -1,0 +1,34 @@
+<html>
+  <head></head>
+
+  <body>
+
+      {% for repository in repositories['repository'].unique() -%}
+          <div> {{ repository }} </div>
+          <table>
+              <tr>
+                  <td> language </td> <td> Translated Messages</td><td> Translated Source Words</td><td> Translated Target Words</td><td> Fuzzy Messages</td><td> Fuzzy Source Words</td><td> Untranslated Messages</td><td> Untranslated Source Words</td><td> Total Message</td><td> Total Source Words</td><td> Review Messages</td><td> Review Source Words</td>
+              </tr>
+          {% for index, language in repositories[ repositories['repository'] == repository].iterrows() -%}
+              <tr>
+                  <td> {{ language['language'] }} </td>
+                  <td> {{ language['Translated Messages'] }} </td>
+                  <td> {{ language['Translated Source Words'] }} </td>
+                  <td> {{ language['Translated Target Words'] }} </td>
+                  <td> {{ language['Fuzzy Messages'] }} </td>
+                  <td> {{ language['Fuzzy Source Words'] }} </td>
+                  <td> {{ language['Untranslated Messages'] }} </td>
+                  <td> {{ language['Untranslated Source Words'] }} </td>
+                  <td> {{ language['Total Message'] }} </td>
+                  <td> {{ language['Total Source Words'] }} </td>
+                  <td> {{ language['Review Messages'] }} </td>
+                  <td> {{ language['Review Source Words'] }} </td>
+              </tr>
+
+          {% endfor %}
+          </table>
+      {% endfor %}
+
+
+  </body>
+</html>
