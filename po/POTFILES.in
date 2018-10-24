@@ -132,6 +132,7 @@ locale/ja/git-novice/aio.md
 locale/ja/git-novice/index.md
 locale/ja/git-novice/reference.md
 locale/ja/git-novice/setup.md
+po4gitbook/README.md
 python-novice-gapminder/CODE_OF_CONDUCT.md
 python-novice-gapminder/CONTRIBUTING.md
 python-novice-gapminder/LICENSE.md

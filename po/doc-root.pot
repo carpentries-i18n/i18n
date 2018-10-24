@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2018-03-28 00:55:36+0100\n"
+"POT-Creation-Date: 2018-10-24 20:40:07+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,5 +28,82 @@ msgstr ""
 #: README.md:5
 # ordered list
 msgid "1. Add a submodule for the lessons that you want to translate"
+msgstr ""
+
+#: README.md:6
+# ordered list
+msgid "1. Run `po4gitbook/update.sh` - That creates/updates the `po` directory with the `.pot` files to use in translations."
+msgstr ""
+
+#: README.md:7
+# ordered list
+msgid "1. Create a `po` file and start translating!"
+msgstr ""
+
+#: README.md:8
+# unordered list
+msgid " - copy `<file>.pot` to `<file>.<lang>.po`. e.g.,"
+msgstr ""
+
+#: README.md:9
+# code block
+msgid " ```bash\n"
+" cd po\n"
+" cp shell-novice.pot shell-novice.es.po\n"
+" ```"
+msgstr ""
+
+#: README.md:13
+# unordered list
+msgid " - Edit the file with your favourite po editor ([PoEdit](http://www.poedit.net),"
+msgstr ""
+
+#: README.md:14
+msgid " [GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize), ...)\n"
+"   Note:\n"
+"    - \"`Language`\" field is needed to add to the header (at least with gtranslator), the rest is put by the tool.\n"
+"    - \"`Language-Team:`\" needs the first letter in upper case (e.g., `Es`)\n"
+" - Create `po/LINGUAS`\n"
+" - run `po4gitbook/compile.sh` - This creates a `locale/<lang>/<lesson>` tree directory"
+msgstr ""
+
+#: lang.md:1
+# Front Matter
+msgid "---\n"
+"index: \"ホームへ\"\n"
+"CoC: \"行動規範\"\n"
+"setup:  \"セットアップ\"\n"
+"episodes: \"エピソード\"\n"
+"extras: \"エキストラ\"\n"
+"LICENSE: \"ライセンス\"\n"
+"improve: \"このページを改善します\"\n"
+"reference: \"参照\"\n"
+"aio: \"オールインワン\"\n"
+"schedule: \"計画\"\n"
+"search: \"検索\"\n"
+"edit: \"GitHubで編集します\"\n"
+"contribute: \"貢献します\"\n"
+"source: \"ソース\"\n"
+"cite: \"引用します\"\n"
+"contact: \"連絡します\"\n"
+"keypoints: \"キーポイント\"\n"
+"overview: \"概要\"\n"
+"break: \"休止\"\n"
+"previous: \"前に\"\n"
+"next: \"次へ\"\n"
+"episode: \"エピソード\"\n"
+"lessonHome: \"レッスンのホーム\"\n"
+"teaching: \"教えります\"\n"
+"exercises: \"練習\"\n"
+"min: \"分\"\n"
+"questions: \"質問\"\n"
+"objectives: \"目的\"\n"
+"downloadLesson: \"レッスンの必要なファイルをダウンロードします\"\n"
+"finish: \"仕上がり\"\n"
+"scheduleDisclaimer: \"実際のスケジュールは、インストラクターが選択したトピックや演習によって若干異なる場合があります.\"\n"
+"instructors: \"インストラクター\"\n"
+"helpers: \"ヘルパー\"\n"
+"tba: \"すぐに発表される予定です\"\n"
+"---"
 msgstr ""
 
