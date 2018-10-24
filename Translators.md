@@ -5,12 +5,15 @@ Team lead (co-ordinator)
 
 Members
 
-* [GivenName FamilyName][family_given]: [@GitHubUser](https://github.com/GitHubUser)
+* [Riku Takei][takei_riku]: [@rikutakei](https://github.com/rikutakei)
 * [GivenName FamilyName][family_given]: [@GitHubUser](https://github.com/GitHubUser)
 
 
 Please add yourself (unless you wish to remain anonymous).
 Please include your GitHub account and any other detail that you wish to be public.
 
+* [Riku Takei][takei_riku]: Assistant Research Fellow (University of Otago, Dunedin, New Zealand)
+  * GitHub: [@rikutakei](https://github.com/rikutakei)
+  * Twitter: [@rikutakei](http://twitter.com/rikutakei)
 * [GivenName FamilyName][family_given]: Job title (Affiliation, location)
   [@GitHubUser](https://github.com/GitHubUser)
