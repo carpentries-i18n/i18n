@@ -19,3 +19,6 @@
 [submodule "sql-novice-survey"]
 	path = sql-novice-survey
 	url = https://github.com/swcarpentry/sql-novice-survey.git
+[submodule "po4gitbook"]
+	path = po4gitbook
+	url = https://github.com/swcarpentry-i18n/po4gitbook.git
