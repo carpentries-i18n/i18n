@@ -12,6 +12,9 @@ for lang in $( ls locale );  do
         msgfmt --statistics --check po/${lesson}.${lang}.po &>> gh-pages/index.html
     done
 done
+# pocount --full po/${lesson}.${lang}.po  would work too and give more details
+#       or --csv
+
 
 git add gh-pages/*
 git commit -m  "update from $(date)"
