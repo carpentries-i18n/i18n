@@ -26,6 +26,11 @@ git merge-file git-novice.pot git-novice.pot.ancestor git-novice.ja.po
 
 ### Guide for Translators
 
+Fork this repository on GitHub and clone it to your local machine:
+```bash
+git clone git@github.com:swcarpentry-ja/i18n.git
+```
+
 Some of the above procedure has been performed for some lessons already.
 These scripts can be used to initialise translation of a new lesson
 or update a translation of a lesson in progress.
