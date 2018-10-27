@@ -42,6 +42,11 @@ or update a translation of a lesson in progress.
 3. translate sections (or check translations) and commit changes
 
 4. push or your personal repo and send pull request to organisation repository
+    a. clone the swcarpentry-ja lesson with "lesson-name-ja" or create a new lesson repo to (if one does not exist already) to host the translated lessons. 
+You can push commit changes to the submodule of the lesson before translation or create a fresh repository with the translated files.
+    b. copy changes from from automatically generated lessons `rsync -u i18n/locale/ja/git-novice/ git-novice-ja`
+    c. commit changes and push to GitHub
+    d. create a Pull Request from your repo to `swcarpentry-ja` for the translated lesson repo AND the updated PO files in `i18n`. Please reference your lesson pull request #Number when creating a pull request to i18n.   
 
 5. please commit often and discuss issues on github to ensure that we are not repeating each other
 
