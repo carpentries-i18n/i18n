@@ -26,6 +26,9 @@ git merge-file git-novice.pot .git-novice.pot.ancestor git-novice.ja.po
 
 ## Guide for Translators
 
+This assumes that you are familiar with using Git and GitHub. We are translating (and keeping up-to-date) the Software Carpentry notes.
+If you notice an issue with the lesson materials themselves, please send an issue for pull request to the English lesson materials.
+
 ### To contribute to lesson materials
 
 Fork this repository on GitHub and clone it to your local machine:
