@@ -57,3 +57,57 @@ ChangeLog.md is to track progress and goals. CultureNotes.md is a share record o
 7. add your name to the translation team if you wish (unless you want to remain anonymous)
 
 Thank you for all your help. Even seemingly minor contributions will be appreciated!
+
+### To update the GitHub pages lessons with Jekyll
+
+1. run `po4gitbook/compile.sh` on updated PO files (commit and push changes to PO files to i18n)
+
+`git add -u po/*ja.po`
+
+`git commit -m "update PO files"`
+
+`git push origin ja`	
+
+2. clone the translated lesson repo (to a directory outside the i18n repository)
+
+`git clone https://github.com/swcarpentry-ja/git-novice-ja.git`
+
+Or pull to your copy of this repo
+
+`git pull origin master"
+
+3. move updated translated files to the cloned translated lesson
+
+`rsync -ru i18n/locale/ja/git-novice/* git-novice-ja`
+
+4. commit and push changes to the translated lesson
+
+`git add -u *`
+
+`git commit -m "update lesson files"`
+
+`git push origin master`
+
+6. clone or pull a copy of the original lesson repo (again outside any existing git repos)
+
+`git clone https://github.com/swcarpentry-ja/git-novice.git`
+
+Or pull to your copy of this repo
+
+`git pull origin gh-pages"
+
+6. sync changes to (master branch of) the pushed submodule files to the original lesson repository
+
+`git submodule foreach git pull origin master`
+
+7. commit changes to the submodule to the original lesson
+
+`git add -u`
+
+`git commit -m "update Japanese lessons"
+
+8. Push to the lesson repo (or send a pull request)
+
+`git push origin gh-pages`
+
+Jekyll will update the "github.io" webpages once a new commit is pushed (but it will not see new commits to submodules unless these are pulled and committed)
