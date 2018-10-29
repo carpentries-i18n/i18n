@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: \n"
+"Last-Translator: Riku Takei <riku.takei@otago.ac.nz\n"
 "Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
 "Language: ja\n"
 "X-Generator: Poedit 2.2\n"
@@ -38,16 +38,16 @@ msgid ""
 "As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
-"このプロジェクトの貢献者と契約者ですから、\n"
-"[カーペントリーの行動規範][coc]に従うことを約束します."
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: git-novice/CODE_OF_CONDUCT.md:9 git-novice/_locale/es/CODE_OF_CONDUCT.md:9
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
-"虐待、嫌がらせ、または他の方法で容認できない行為の例\n"
-"我々の[報告ガイドライン] [coc-reporting]に従って報告することができます。"
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: git-novice/CODE_OF_CONDUCT.md:12 git-novice/_locale/es/CODE_OF_CONDUCT.md:12
 msgid "{% include links.md %}"
@@ -56,7 +56,7 @@ msgstr "{% include links.md %}"
 # header
 #: git-novice/CONTRIBUTING.md:1
 msgid "# Contributing"
-msgstr "# 貢献しています"
+msgstr "# プロジェクトに貢献する"
 
 #: git-novice/CONTRIBUTING.md:3
 msgid ""
@@ -67,15 +67,17 @@ msgid ""
 "bug reports,\n"
 "and reviews of proposed changes are all welcome."
 msgstr ""
-"[Software Carpentry] [swc-site]と[Data Carpentry] [dc-site]は\n"
-"オープンソースのプロジェクトであり、あらゆる種類の貢献を歓迎します：\n"
-"新しいレッスン、既存の資料への修正、\n"
-"バグレポート、提案された変更のレビューは大歓迎です。"
+"[SoftwareCarpentry][swc-site]と[DataCarpentry][dc-site]はオープンソースのプロジェクトです。\n"
+"コミュニティーからの資料提供・ご協力、例えば、\n"
+"新しいレッスン、\n"
+"既存の資料の修正、\n"
+"バグレポート、\n"
+"変更点のレビューなど、どんなに些細な変更も歓迎いたします。"
 
 # header
 #: git-novice/CONTRIBUTING.md:10
 msgid "## Contributor Agreement"
-msgstr "## 貢献者の協定"
+msgstr "## 貢献者の規約"
 
 #: git-novice/CONTRIBUTING.md:12
 msgid ""
@@ -87,8 +89,13 @@ msgid ""
 "Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
 "agrees to abide by our [code of conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)."
 msgstr ""
-"貢献することにより、あなたは[私たちの免許]（LICENSE.md）に基づいてあなたの仕事を再配布することに同意します。 引き換えに、\n"
-"私たちはあなたの問題に対処し、あなたの変更提案をできるだけ早く評価し、あなたが私たちのコミュニティの一員になるのを手伝います。 [Software Carpentry] [swc-site]と[Data Carpentry] [dc-site]に関わる全員が、私たちの[行動規範](https://docs.carpentries.org/topic_folders/policies/code-of -conduct.html)を遵守することに同意します。"
+"このプロジェクトに貢献することにより、\n"
+"自身が提供したコンテンツを[私達のライセンス](License.md)に基づき配布する事に同意するものとします。\n"
+"ご協力と引き換えに、\n"
+"私達はあなたが提供する変更点・問題点などを検討し、\n"
+"できるだけ早くコミュニティーの一員になれるよう尽力いたします。\n"
+"[Software Carpentry][swc-site]と[Data Carpentry][dc-site]の一員になられた際には、\n"
+"私達の[行動規範](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)を遵守する事に同意していただきます。"
 
 # header
 #: git-novice/CONTRIBUTING.md:20
@@ -104,15 +111,17 @@ msgid ""
 "This is a good way to introduce yourself\n"
 "and to meet some of our community members."
 msgstr ""
-"始める最も簡単な方法は、スペルミス、不愉快な言葉遣い、\n"
-"または事実の誤りについて私たちに知らせるために問題を提出することです。\n"
-" これはあなた自身を紹介し、コミュニティメンバーの\n"
-"一部と出会うための良い方法です。"
+"一番簡単に貢献する方法は、\n"
+"誤字、言葉遣い、\n"
+"間違った内容などを\n"
+"issue(イシュー)で報告する事です。\n"
+"Issueを報告することによって、自分をコミュニティーに紹介し、\n"
+"また、コミュニティーのメンバーと出会う良い機会にもなります。"
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:29
 msgid "1.  If you do not have a [GitHub][github] account,"
-msgstr "1. [GitHub] [github]アカウントをお持たなかったら、"
+msgstr "1. [GitHub][github]アカウントをお持ちでない場合、"
 
 #: git-novice/CONTRIBUTING.md:30
 msgid ""
