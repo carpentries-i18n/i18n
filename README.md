@@ -74,6 +74,12 @@ Thank you for all your help. Even seemingly minor contributions will be apprecia
 ### To update the GitHub pages lessons with Jekyll
 
 1. Run `po4gitbook/compile.sh` on updated PO files (commit and push changes to PO files to i18n)
+
+Note that in order for the lessons to compile the Credit line in the PO files HEADER
+ "# FULL NAME <EMAIL@ADDRESS>, YEAR." must match the contact details of the "Last-Translator".
+Please fill in your details or keep these consistent in order to build the new translated lessons.
+ 
+
 ```
 git add -u po/*ja.po
 git commit -m "update PO files"
