@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-09-15 22:59:57+0900\n"
-"PO-Revision-Date: 2018-09-15 23:49+0900\n"
+"PO-Revision-Date: 2018-10-24 21:38+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -470,7 +470,7 @@ msgstr ""
 
 #: git-novice/LICENSE.md:14
 msgid "You are free:"
-msgstr "You are free:"
+msgstr "自由です:"
 
 # unordered list
 #: git-novice/LICENSE.md:16
@@ -1403,7 +1403,7 @@ msgstr "It is possible to reconfigure the text editor for Git whenever you want 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/02-setup.md:95
 msgid "> ## Exiting Vim"
-msgstr "> ## Exiting Vim"
+msgstr "> ## Vimを出ます"
 
 #: git-novice/_episodes/02-setup.md:96
 msgid ""
@@ -17248,7 +17248,7 @@ msgid ""
 "on their own copies and email changes back and forth things will be\n"
 "lost, overwritten, or duplicated."
 msgstr ""
-"どドラえもんとのび太はユニバーサル・ミッションズ（ユーフォーリック州立大学の\n"
+"ドラえもんとのび太はユニバーサル・ミッションズ（ユーフォーリック州立大学の\n"
 "スピンオフ宇宙サービス）に雇われ、次の惑星着陸機を送って次の惑星着陸機を\n"
 "火星に送ることができるかどうかを調査しました。 彼らは同時に計画でも働くことが\n"
 "できるようにしたい、彼らが問題を抱えている場合、彼らは過去にあります。私たちは\n"

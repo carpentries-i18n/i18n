@@ -1,7 +1,7 @@
 # Japanese translation of the Software Carpentry Git Lesson
 # Copyright (C) 2018 Software Carpentry Foundation; Japanese Translation Team
 # This file is distributed under the same license as the gitbook package.
-# Tom Kelly <tom.kelly@riken.jp>, 2018.
+# Tom Kelly <tom.kelly@riken.jp>, 2018, 2018.
 #
 msgid ""
 msgstr ""
@@ -14,8 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Last-Translator: \n"
-"Language-Team: Japanese_Test\n"
-"Language: ja\n"
+"Language-Team: Ja <tom.kelly@riken.jp>\n"
+"Language: Ja\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
 # Front Matter
