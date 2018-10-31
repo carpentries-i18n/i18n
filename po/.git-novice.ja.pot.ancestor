@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-09-15 22:59:57+0900\n"
-"PO-Revision-Date: 2018-09-15 23:49+0900\n"
+"PO-Revision-Date: 2018-09-18 00:09+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Last-Translator: \n"
-"Language-Team: Japanese_Test\n"
-"Language: ja_JP\n"
+"Language-Team: Japanese-Team <https://github.com/swcarpentry-ja/i18n/issues>\n"
+"Language: ja\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
 # Front Matter
@@ -67,12 +67,10 @@ msgid ""
 "bug reports,\n"
 "and reviews of proposed changes are all welcome."
 msgstr ""
-"[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,\n"
-"and we welcome contributions of all kinds:\n"
-"new lessons,\n"
-"fixes to existing material,\n"
-"bug reports,\n"
-"and reviews of proposed changes are all welcome."
+"[Software Carpentry] [swc-site]と[Data Carpentry] [dc-site]は\n"
+"オープンソースのプロジェクトであり、あらゆる種類の貢献を歓迎します：\n"
+"新しいレッスン、既存の資料への修正、\n"
+"バグレポート、提案された変更のレビューは大歓迎です。"
 
 # header
 #: git-novice/CONTRIBUTING.md:10
@@ -89,13 +87,8 @@ msgid ""
 "Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
 "agrees to abide by our [code of conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)."
 msgstr ""
-"By contributing,\n"
-"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
-"In exchange,\n"
-"we will address your issues and/or assess your change proposal as promptly as we can,\n"
-"and help you become a member of our community.\n"
-"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
-"agrees to abide by our [code of conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)."
+"貢献することにより、あなたは[私たちの免許]（LICENSE.md）に基づいてあなたの仕事を再配布することに同意します。 引き換えに、\n"
+"私たちはあなたの問題に対処し、あなたの変更提案をできるだけ早く評価し、あなたが私たちのコミュニティの一員になるのを手伝います。 [Software Carpentry] [swc-site]と[Data Carpentry] [dc-site]に関わる全員が、私たちの[行動規範](https://docs.carpentries.org/topic_folders/policies/code-of -conduct.html)を遵守することに同意します。"
 
 # header
 #: git-novice/CONTRIBUTING.md:20
@@ -111,17 +104,15 @@ msgid ""
 "This is a good way to introduce yourself\n"
 "and to meet some of our community members."
 msgstr ""
-"The easiest way to get started is to file an issue\n"
-"to tell us about a spelling mistake,\n"
-"some awkward wording,\n"
-"or a factual error.\n"
-"This is a good way to introduce yourself\n"
-"and to meet some of our community members."
+"始める最も簡単な方法は、スペルミス、不愉快な言葉遣い、\n"
+"または事実の誤りについて私たちに知らせるために問題を提出することです。\n"
+" これはあなた自身を紹介し、コミュニティメンバーの\n"
+"一部と出会うための良い方法です。"
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:29
 msgid "1.  If you do not have a [GitHub][github] account,"
-msgstr "1.  If you do not have a [GitHub][github] account,"
+msgstr "1. [GitHub] [github]アカウントをお持たなかったら、"
 
 #: git-novice/CONTRIBUTING.md:30
 msgid ""
@@ -129,14 +120,13 @@ msgid ""
 "    However,\n"
 "    we will be able to respond more quickly if you use one of the other methods described below."
 msgstr ""
-"    you can [send us comments by email][contact].\n"
-"    However,\n"
-"    we will be able to respond more quickly if you use one of the other methods described below."
+"あなたは[私たちにメールでコメントを送る] [連絡先]をすることができます。\n"
+"でも、以下のいずれかの方法を使用すると、より迅速に対応することができます。"
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:34
 msgid "2.  If you have a [GitHub][github] account,"
-msgstr "2.  If you have a [GitHub][github] account,"
+msgstr "2. [GitHub] [github]アカウントを持っているかを[作たい][gitub-join]だったら、"
 
 #: git-novice/CONTRIBUTING.md:35
 msgid ""
@@ -146,16 +136,16 @@ msgid ""
 "    This allows us to assign the item to someone\n"
 "    and to respond to it in a threaded discussion."
 msgstr ""
-"    or are willing to [create one][github-join],\n"
-"    but do not know how to use Git,\n"
-"    you can report problems or suggest improvements by [creating an issue][new-issue].\n"
-"    This allows us to assign the item to someone\n"
-"    and to respond to it in a threaded discussion."
+"Gitの使い方がしらなくて、\n"
+"[issueを発行] [new-issue]で問題を報告するか\n"
+"改善を提案することができます。 誰かにアイテムを\n"
+"割り当て、スレッド化したディスカッションでそれに\n"
+"応答するのは私たちのためです。"
 
 # ordered list
 #: git-novice/CONTRIBUTING.md:41
 msgid "3.  If you are comfortable with Git,"
-msgstr "3.  If you are comfortable with Git,"
+msgstr "3. Gitを使いやすく、マテリアルを追加または変更したいだったら、"
 
 #: git-novice/CONTRIBUTING.md:42
 msgid ""
@@ -163,9 +153,9 @@ msgid ""
 "    you can submit a pull request (PR).\n"
 "    Instructions for doing this are [included below](#using-github)."
 msgstr ""
-"    and would like to add or change material,\n"
-"    you can submit a pull request (PR).\n"
-"    Instructions for doing this are [included below](#using-github)."
+"資料を追加または変更したいとき、\n"
+"プルリクエスト(PR)を提出できます。\n"
+" これを行うための手順は[以下のとお](#using-github)。"
 
 # header
 #: git-novice/CONTRIBUTING.md:46
