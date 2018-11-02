@@ -1403,7 +1403,7 @@ msgstr "It is possible to reconfigure the text editor for Git whenever you want 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/02-setup.md:95
 msgid "> ## Exiting Vim"
-msgstr "> ## Vimで出っています"
+msgstr "> ## Vimの終了の仕方"
 
 #: git-novice/_episodes/02-setup.md:96
 msgid ""
