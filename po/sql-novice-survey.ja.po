@@ -1228,8 +1228,8 @@ msgid ""
 "> you can use either `.quit` or `.exit`."
 msgstr ""
 ">\n"
-"> To exit SQLite and return to the shell command line,\n"
-"> you can use either `.quit` or `.exit`."
+"> SQLiteを終了して、コマンドラインシェルに戻るには、\n"
+"> `.quit` または `.exit` を入力します。"
 
 #: sql-novice-survey/_episodes/01-select.md:206
 msgid ""
