@@ -850,7 +850,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: git-novice/_episodes/01-basics.md:57
 msgid "> ## The Long History of Version Control Systems"
-msgstr "> ## The Long History of Version Control Systems"
+msgstr "> ## バージョンコントールシステムの長い歴史"
 
 #: git-novice/_episodes/01-basics.md:58
 msgid ""
