@@ -1258,12 +1258,12 @@ msgstr "> {: .language-bash}"
 # blockquote, which can be cascaded
 #: shell-novice/_episodes/01-intro.md:143
 msgid "> Usually this means that you have mis-typed the command - in this case we omitted"
-msgstr "> Usually this means that you have mis-typed the command - in this case we omitted"
+msgstr "> 通常これは、あなたがコマンドをタイプミスしたことを意味します。このケースでは"
 
 # blockquote, which can be cascaded
 #: shell-novice/_episodes/01-intro.md:144
 msgid "> the space between `ls` and `-F`. "
-msgstr "> the space between `ls` and `-F`. "
+msgstr "> `ls` と `-F` の間に空白を忘れています。"
 
 # SC/DC Template label
 #: shell-novice/_episodes/01-intro.md:145
