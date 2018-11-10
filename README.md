@@ -156,7 +156,8 @@ cd po
 ls git-novice.ja.po
 ```
 
-3.
+3. Add and edit translations to the PO files.
+
  - Edit the file with your favourite po editor ([PoEdit](http://www.poedit.net),
  [GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize), ...)
    Note:
@@ -252,7 +253,7 @@ git merge-file git-novice.pot .git-novice.pot.ancestor git-novice.ja.po
 
 5. This creates an updated `po` file with updated sections ready to translate.
 
-```
+
  - Edit the file with your favourite po editor ([PoEdit](http://www.poedit.net),
  [GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize), ...)
    Note:
