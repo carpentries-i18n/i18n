@@ -75,18 +75,7 @@ git submodule add https://github.com/swcarpentry/git-novice.git
 
 4. Run `po4gitbook/update.sh` - That creates/updates the `po` directory with the `.pot` files to use in translations.
 
-5. Archive a copy of the raw pot files.
-
-```
-cd po
-cp git-novice.pot .git-novice.po.ancestor
-git add .git-novice.po.ancestor 
-git commit -m "archive ancestor file for git-novice lesson"
-```
-
-Please **do not delete** these files.
-
-6. Create a `po` file and start translating!
+5. Create a `po` file and start translating!
  - copy `<file>.pot` to `<file>.<lang>.po`. e.g.,
  ```bash
  cd po
@@ -204,30 +193,7 @@ git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
 git pull swc-ja ja
 ```
 
-3. Check the previous (untranslated PO files) lesson is archived.
-
-Please check the PO file for the originally translated English lesson exists (from before translations).
-It should be names in the format `.<lesson-name>.<lang>.po.ancestor`
-
-```
-ls -a .git-novice.po.ancestor
-```
-
-- Archive previous version.
-If it does not exist. You need to create a blank version of the PO file for the previous version
-  of the lesson **BEFORE** updating the submodule for the new version of the lesson.
-       - Run `po4gitbook/update.sh` - That creates/updates the `po` directory with the `.pot` files to use in translations.
-       - Archive a copy of the raw pot files.
-
-```
-cd po
-cp git-novice.pot .git-novice.po.ancestor
-git add .git-novice.po.ancestor
-git commit -m "archive ancestor file for git-novice lesson"
-cd ..
-```
-
-4. Import the current version of the main English lessons.
+3. Import the current version of the main English lessons.
 
 Update the submodule for the lesson that you want to translate
 
@@ -241,14 +207,14 @@ Alternatively, you can update the submodules for every lesson:
 git submodule foreach git pull origin master
 ```
 
-5. Create translation files for the updated version of the lessons
+4. Create translation files for the updated version of the lessons
 
 Run `po4gitbook/update.sh` - That creates/updates the `po` directory with the `.pot` files to use in translations.
 
-For an update: merge existing translations into updated file.
+For an update: existing translations will be merged into an updated file.
 ```bash
 cd po
-git merge-file git-novice.pot .git-novice.pot.ancestor git-novice.ja.po
+ls git-novice.ja.po
 ```
 
 5. This creates an updated `po` file with updated sections ready to translate.
