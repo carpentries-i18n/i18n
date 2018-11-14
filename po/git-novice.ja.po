@@ -17267,7 +17267,7 @@ msgstr ""
 # unordered list
 #: git-novice/index.md:18
 msgid "*   Nothing that is committed to version control is ever lost, unless"
-msgstr "*   バージョン管理にコミットされているものは失われることはありません, "
+msgstr "*   本当に消そうとしない限り、バージョン管理にコミットされているものは"
 
 #: git-novice/index.md:19
 msgid ""
@@ -17276,22 +17276,23 @@ msgid ""
 "    exactly who wrote what on a particular day, or what version of a\n"
 "    program was used to generate a particular set of results."
 msgstr ""
-"    本当に、本当にこき使いでもしない限り。古いバージョンのファイルはすべて保存されているので、\n"
-"    特定の日に誰が何を書き込んだのか、特定の結果セットを生成するためにどのバージョンのプログラムを使用したのかを\n"
-"    正確に確認するために状態を復元することは常に可能です。"
+"    失われることはありません。古いバージョンのファイルは\n"
+"    すべて保存されているため、特定の日に誰が何を書き込んだのか、\n"
+"    特定の結果を生成するためにどのバージョンのプログラムが使用されたのかなど、\n"
+"    正確に確認することが可能です。"
 
 # unordered list
 #: git-novice/index.md:24
 msgid "*   As we have this record of who made what changes when, we know who to ask"
-msgstr "*   誰が何をいつ変更したのかというこの記録を持っているので、"
+msgstr "*   誰が何をいつ変更したのかという記録があるため、後に問題が"
 
 #: git-novice/index.md:25
 msgid ""
 "    if we have questions later on, and, if needed, revert to a previous\n"
 "    version, much like the \"undo\" feature in an editor."
 msgstr ""
-"    後に問いが生じた場合に尋ねるべき人がわかり、\n"
-"    必要に応じてエディタの \"元に戻す\"機能と同じように、以前のバージョンに戻します。"
+"    生じた場合、連絡するべき人が分かる上に必要に応じて\n"
+"    \"元に戻す\"機能のように、以前のバージョンに戻すことができます。"
 
 # unordered list
 #: git-novice/index.md:28
@@ -17305,7 +17306,7 @@ msgid ""
 "    person's work and another's."
 msgstr ""
 "    間違って誰かの変更を見落としたり上書きしたりする可能性があります。\n"
-"    バージョン管理システムは、ある人の仕事と別の人の仕事との間に不一致がある場合、\n"
+"    バージョン管理システムは、二つの変更点の間に不一致がある場合、\n"
 "    自動的にユーザーに知らせてくれます。"
 
 #: git-novice/index.md:33
@@ -17316,10 +17317,11 @@ msgid ""
 "ever need to come back to the project later on (e.g., a year later,\n"
 "when memory has faded)."
 msgstr ""
-"チームのみがバージョン管理の恩恵を受けるわけではありません: 孤独な\n"
-"研究者は莫大な利益を得ることができます。何が、いつ、何故変わったのかを記録しておくことは、\n"
-"後でプロジェクトに復帰する必要が出た場合（例えば、1年後、記憶が衰えた場合など）、\n"
-"すべての研究者にとって非常に有益です。"
+"バージョン管理を使うことによって得をするのはチームだけではありません: 個人で作業をしている\n"
+"研究者にもメリットがあります。何が、いつ、何故変わったのかを\n"
+"記録しておくことは、後で昔のプロジェクトを見返すことになった場合などに\n"
+"（例えば、1年後、プロジェクトの詳細を忘れてしまった時などに）、\n"
+"非常に便利です。"
 
 # blockquote, which can be cascaded
 #: git-novice/index.md:47
