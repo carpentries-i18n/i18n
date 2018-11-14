@@ -11,27 +11,27 @@ This is a very quick run-down of the [README](README.md) file.
 ## Setting up Git and contributing
 
 1. Install Git for your OS
-1. Fork this repo to your GitHub account via the Fork button on the top right corner
-1. Clone the forked repo to your computer:
+2. Fork this repo to your GitHub account via the Fork button on the top right corner
+3. Clone the forked repo to your computer:
 ```
 git clone git@github.com:<github_username>/i18n.git
 ```
-1. Add remote so you can pull changes from original repo:
+4. Add remote so you can pull changes from original repo:
 ```
 git remote add ja git@github.com:swcarpentry-ja/i18n.git
 ```
-1. Make changes to your local repo - make sure to commit often:
+5. Make changes to your local repo - make sure to commit often:
 ```
 git add *
 git commit -m "<replace this commit message with something sensible>"
 ```
-1. When you're ready to submit changes, pull all the changes from the `swcarpentry-ja` repo and push to **your** remote:
+6. When you're ready to submit changes, pull all the changes from the `swcarpentry-ja` repo and push to **your** remote:
 ```
 git pull ja ja
 git pull # This is to pull changes from your remote
 git push # This is to push changes to your remote
 ```
-1. In GitHub, submit a Pull Request to the `swcarpentry-ja` repo
+7. In GitHub, submit a Pull Request to the `swcarpentry-ja` repo
 
 ## Guide for Translators
 
