@@ -1,5 +1,9 @@
 # Internationalisation of carpentry lessons
 
+Please take a look at the [quickstart guide](quickstart.md) if you wish to make small contribution(s).
+
+If you wish to contribute by translating some of the material, please make sure you comply with the [Guideline for Translators](TranslatorGuidelines.md).
+
 ## Purpose of this repository
 
 The repository is intended to host the files and tools need to facilitate translations of the Software Carpentry lessons 
