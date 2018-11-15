@@ -22,7 +22,7 @@ git remote add ja git@github.com:swcarpentry-ja/i18n.git
 ```
 5. Make changes to your local repo - make sure to commit often:
 ```
-git add *
+git add -u
 git commit -m "<replace this commit message with something sensible>"
 ```
 6. When you're ready to submit changes, pull all the changes from the `swcarpentry-ja` repo and push to **your** remote:
