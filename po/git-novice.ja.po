@@ -17267,7 +17267,7 @@ msgstr ""
 # unordered list
 #: git-novice/index.md:18
 msgid "*   Nothing that is committed to version control is ever lost, unless"
-msgstr "*   Nothing that is committed to version control is ever lost, unless"
+msgstr "*   本当に消そうとしない限り、バージョン管理にコミットされているものは"
 
 #: git-novice/index.md:19
 msgid ""
@@ -17276,28 +17276,28 @@ msgid ""
 "    exactly who wrote what on a particular day, or what version of a\n"
 "    program was used to generate a particular set of results."
 msgstr ""
-"    you work really, really hard at it. Since all old versions of\n"
-"    files are saved, it's always possible to go back in time to see\n"
-"    exactly who wrote what on a particular day, or what version of a\n"
-"    program was used to generate a particular set of results."
+"    失われることはありません。古いバージョンのファイルは\n"
+"    すべて保存されているため、特定の日に誰が何を書き込んだのか、\n"
+"    特定の結果を生成するためにどのバージョンのプログラムが使用されたのかなど、\n"
+"    正確に確認することが可能です。"
 
 # unordered list
 #: git-novice/index.md:24
 msgid "*   As we have this record of who made what changes when, we know who to ask"
-msgstr "*   As we have this record of who made what changes when, we know who to ask"
+msgstr "*   誰が何をいつ変更したのかという記録があるため、後に問題が"
 
 #: git-novice/index.md:25
 msgid ""
 "    if we have questions later on, and, if needed, revert to a previous\n"
 "    version, much like the \"undo\" feature in an editor."
 msgstr ""
-"    if we have questions later on, and, if needed, revert to a previous\n"
-"    version, much like the \"undo\" feature in an editor."
+"    生じた場合、連絡するべき人が分かる上に必要に応じて\n"
+"    \"元に戻す\"機能のように、以前のバージョンに戻すことができます。"
 
 # unordered list
 #: git-novice/index.md:28
 msgid "*   When several people collaborate in the same project, it's possible to"
-msgstr "*   When several people collaborate in the same project, it's possible to"
+msgstr "*   同じプロジェクトで複数の人が協力し合う場合、"
 
 #: git-novice/index.md:29
 msgid ""
@@ -17305,9 +17305,9 @@ msgid ""
 "    system automatically notifies users whenever there's a conflict between one\n"
 "    person's work and another's."
 msgstr ""
-"    accidentally overlook or overwrite someone's changes. The version control\n"
-"    system automatically notifies users whenever there's a conflict between one\n"
-"    person's work and another's."
+"    間違って誰かの変更を見落としたり上書きしたりする可能性があります。\n"
+"    バージョン管理システムは、二つの変更点の間に不一致がある場合、\n"
+"    自動的にユーザーに知らせてくれます。"
 
 #: git-novice/index.md:33
 msgid ""
@@ -17317,11 +17317,11 @@ msgid ""
 "ever need to come back to the project later on (e.g., a year later,\n"
 "when memory has faded)."
 msgstr ""
-"Teams are not the only ones to benefit from version control: lone\n"
-"researchers can benefit immensely.  Keeping a record of what was\n"
-"changed, when, and why is extremely useful for all researchers if they\n"
-"ever need to come back to the project later on (e.g., a year later,\n"
-"when memory has faded)."
+"バージョン管理を使うことによって得をするのはチームだけではありません: 個人で作業をしている\n"
+"研究者にもメリットがあります。何が、いつ、何故変わったのかを\n"
+"記録しておくことは、後で昔のプロジェクトを見返すことになった場合などに\n"
+"（例えば、1年後、プロジェクトの詳細を忘れてしまった時などに）、\n"
+"非常に便利です。"
 
 # blockquote, which can be cascaded
 #: git-novice/index.md:47
