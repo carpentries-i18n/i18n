@@ -20,18 +20,42 @@ git clone git@github.com:<github_username>/i18n.git
 ```
 git remote add ja git@github.com:swcarpentry-ja/i18n.git
 ```
-5. Make changes to your local repo - make sure to commit often:
+5. Create new branch for your edit (separate editing branch will make things easier for Pull Request):
+```
+git checkout -b <username or other descriptive word>-edit
+
+# Examples:
+git checkout -b rikutakei-edit
+git checkout -b git-edit2
+git checkout -b readme-edit
+```
+6. Make changes to your local repo - make sure to commit often:
 ```
 git add -u
 git commit -m "<replace this commit message with something sensible>"
 ```
-6. When you're ready to submit changes, pull all the changes from the `swcarpentry-ja` repo and push to **your** remote:
+7. When you're ready to submit changes, first pull all the changes from the `swcarpentry-ja` repo using the `--rebase` option.
+The `--rebase` option is used to make sure your edit is *in addition* to the changes made in the `swcarpentry-ja` repo, as well as to prevent unnecessary merge commits.
 ```
-git pull ja ja
-git pull # This is to pull changes from your remote
-git push # This is to push changes to your remote
+git pull --rebase ja ja
 ```
-7. In GitHub, submit a Pull Request to the `swcarpentry-ja` repo
+8. Now push your editing branch to your remote repo (note that your editing branch will not be on the remote when you made it, so you need to push first):
+```
+# Pushing for the first time:
+git push -u origin <branch name>
+
+# Updating for the subsequent changes:
+git pull
+git push
+```
+9. In GitHub, submit a Pull Request with your editing branch to the `swcarpentry-ja` repo.
+10. When additional changes are requested, repeat steps 6 and 8 in your editing branch - Pull Request will be updated automatically:
+```
+git add -u
+git commit -m "<replace this commit message with something sensible>"
+git pull
+git push
+```
 
 ## Guide for Translators
 
