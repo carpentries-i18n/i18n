@@ -39,6 +39,8 @@ git push # This is to push changes to your remote
 
 Please refer to the [Guideline for Translators](TranslatorGuidelines.md) and make sure your translation style is consistent with the guideline.
 
+Please use the [Glossary](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms) when translating technical terms. Standard translations for technical terms should be added here as they are encountered.
+
 ### Common files between lessons
 
 Please note that there are files shared between lesson repositories:
