@@ -464,8 +464,8 @@ msgid ""
 msgstr ""
 "全てのSoftware Carpentry と Data Carpentry の教材は\n"
 "[クリエイティブ・コモンズ・ライセンス（CC BY ライセンス）][cc-by-human]に基づいて\n"
-"提供されています。以下文は、省略された[CC ライセンス][cc-by-legal]の内容です。\n"
-"（省略された内容はオリジナルの[CC BY ライセンス 4.0][cc-by-legal]の内容\n"
+"提供されています。以下の文章は[CC ライセンス][cc-by-legal]の概要です。\n"
+"（概要の内容は元の[CC BY ライセンス 4.0][cc-by-legal]の内容\n"
 "の代わりではないので、ご注意下さい。）"
 
 #: git-novice/LICENSE.md:14
