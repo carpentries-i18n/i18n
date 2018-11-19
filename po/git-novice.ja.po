@@ -475,7 +475,7 @@ msgstr "あなたは以下の行動が許されます："
 # unordered list
 #: git-novice/LICENSE.md:16
 msgid "* to **Share**---copy and redistribute the material in any medium or format"
-msgstr "* 教材内容を複製、そして配布・共有する事"
+msgstr "* 教材内容を複製、配布・共有、そして別の形式に変換する事"
 
 # unordered list
 #: git-novice/LICENSE.md:17
@@ -492,7 +492,7 @@ msgid ""
 "license terms."
 msgstr ""
 "以上の行動は、ライセンスの条件を満たしていれば\n"
-"誰にでも自由に行使する権利があります。"
+"誰にでも自由に行使する権利があり、著作者・ライセンサーはその権利を取り消すことができません。"
 
 #: git-novice/LICENSE.md:24
 msgid "Under the following terms:"
