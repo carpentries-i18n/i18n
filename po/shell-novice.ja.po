@@ -898,15 +898,15 @@ msgid ""
 "2. Executes (or \"evaluates\" it)\n"
 "3. Prints the output"
 msgstr ""
-"The heart of a command-line interface is a **read-evaluate-print loop**, or REPL, called\n"
-"so because when you type a command and press the Enter (or Return) key, the shell:\n"
-"1. Reads it\n"
-"2. Executes (or \"evaluates\" it)\n"
-"3. Prints the output"
+"コマンドラインインターフェースの核は、REPL (read-evaluate-print-loop)と呼ばれています。\n"
+"これは、シェルにコマンドを入力し、Enter(または Return)キーを押した時に起こる動作:\n"
+"1. コマンドを読み込む(Read)\n"
+"2. コマンドを実行する (または \"評価する\" - Evaluate)\n"
+"3. 結果を出力する (Print)"
 
 #: shell-novice/_episodes/01-intro.md:52
 msgid "and then prints the prompt and waits for you to enter another command."
-msgstr "and then prints the prompt and waits for you to enter another command."
+msgstr "そして、プロンプトで次のコマンドの入力を待ち、1〜3の動作を繰り返す(Loop)ことから、頭文字を取ってREPLと呼ばれています。"
 
 # header
 #: shell-novice/_episodes/01-intro.md:54
