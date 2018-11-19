@@ -19,7 +19,7 @@
 ### 専門用語
 
 DC/SWCのレッスンは専門用語がかなり多く、複数のレッスンで同じ専門用語が使われていることがあります。
-統一するために単語リストを必ず使ってください。
+統一するために[単語リスト](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms)を必ず使ってください。
 
 頭字語の場合は、そのまま使ってもいいですが、最初に出る時に言葉の意味を一つ一つ説明をするようにしましょう（[issue 21](https://github.com/swcarpentry-ja/i18n/issues/21)を参照）。
 
