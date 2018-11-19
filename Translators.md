@@ -7,7 +7,7 @@ Team lead (co-ordinator)
 Members
 
 * [Riku Takei][takei_riku]: Assistant Research Fellow (University of Otago, Dunedin, New Zealand)
-  * Lesson organiser (Git)
+  * Lesson organiser and reviewer (Git)
   * GitHub: [@rikutakei](https://github.com/rikutakei)
   * Twitter: [@rikutakei](http://twitter.com/rikutakei)
   
@@ -48,7 +48,6 @@ Members
 
 * [Koki Mimura][mimura_koki]: Postdoctoral Researcher (Tokyo University of Agriculture and Technology, Tokyo, Japan)
   * Translation contributor and reviewer
-  * GitHub: [@manabuishii](https://github.com/manabuishii)
   * Twitter: [@kilometer00](http://twitter.com/kilometer00)
 
 Please include your GitHub account and any other detail that you wish to be public.
