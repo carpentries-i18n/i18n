@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-09-15 22:59:57+0900\n"
-"PO-Revision-Date: 2018-11-10 13:28+0900\n"
+"PO-Revision-Date: 2018-11-26 18:01+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -874,41 +874,41 @@ msgid ""
 "By the end of these lessons you will be able to do things like plot the populations\n"
 "for all of these countries in under a minute!"
 msgstr ""
-"Science is a multi-step process: once you've designed an experiment and collected\n"
-"data, the real fun begins! This lesson will teach you how to start this process using\n"
-"R and RStudio. We will begin with raw data, perform exploratory analyses, and learn\n"
-"how to plot results graphically. This example starts with a dataset from\n"
-"[gapminder.org](https://www.gapminder.org) containing population information for many\n"
-"countries through time. Can you read the data into R? Can you plot the population for\n"
-"Senegal? Can you calculate the average income for countries on the continent of Asia?\n"
-"By the end of these lessons you will be able to do things like plot the populations\n"
-"for all of these countries in under a minute!"
+"科学は複数の段階からなる作業です：実験を計画したら、データを収集し、\n"
+"そこから本当の楽しみが始まります！このレッスンでは、その過程をRとRStudioを使って\n"
+"どう進めるのかをお伝えします。まず生のデータから、予備解析をし、結果をどう\n"
+"グラフ上にプロットするかを学びます。ここでの例は[gapminder.org](https://www.gapminder.org)\n"
+"のデータセットを使います。このデータセットには、多くの国の人口の時系列データが入っています。\n"
+"データをRに読み込むことができますか？セネガルの人口をプロットできますか？\n"
+"アジア大陸にある国の平均所得を計算できますか？\n"
+"これらのレッスンの終わるまでに、これらの全ての国の人口をプロットしたりするようなことが\n"
+"一分足らずでできるようになるでしょう！"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:46
 msgid "## Before Starting The Workshop"
-msgstr "## Before Starting The Workshop"
+msgstr "## ワークショップを始める前に"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:48
 msgid "Please ensure you have the latest version of R and RStudio installed on your machine. This is important, as some packages used in the workshop may not install correctly (or at all) if R is not up to date."
-msgstr "Please ensure you have the latest version of R and RStudio installed on your machine. This is important, as some packages used in the workshop may not install correctly (or at all) if R is not up to date."
+msgstr "RとRStudioの最新バージョンが、自分のコンピューターにインストールされているか確認してください。最新バージョンであることが重要である理由は、ワークショップで使うパッケージには、Rが最新でないと、正常に（または全く）インストールされないものがあるからです。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:50
 msgid ""
 "[Download and install the latest version of R here](https://www.r-project.org/)\n"
 "[Download and install RStudio here](https://www.rstudio.com/)"
 msgstr ""
-"[Download and install the latest version of R here](https://www.r-project.org/)\n"
-"[Download and install RStudio here](https://www.rstudio.com/)"
+"[ここからRの最新バージョンをダウンロード及びインストール下さい](https://www.r-project.org/)\n"
+"[ここからRStudioをダウンロード及びインストール下さい](https://www.rstudio.com/)"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:53
 msgid "## Introduction to RStudio"
-msgstr "## Introduction to RStudio"
+msgstr "## RStudio入門"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:55
 msgid "Welcome to the R portion of the Software Carpentry workshop."
-msgstr "Welcome to the R portion of the Software Carpentry workshop."
+msgstr "Software CarpentryのR部分のワークショップへようこそ。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:57
 msgid ""
@@ -916,9 +916,8 @@ msgid ""
 "the R language as well as some best practices for organizing code for\n"
 "scientific projects that will make your life easier."
 msgstr ""
-"Throughout this lesson, we're going to teach you some of the fundamentals of\n"
-"the R language as well as some best practices for organizing code for\n"
-"scientific projects that will make your life easier."
+"このレッスンでは、R言語の基礎と、知っていると後々かなり楽になる科学的プロジェクトのために\n"
+"コードを整える最適な方法をお教えしようと思います。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:61
 msgid ""
@@ -927,63 +926,61 @@ msgid ""
 "on servers) and provides many advantages such as integration with version\n"
 "control and project management."
 msgstr ""
-"We'll be using RStudio: a free, open source R integrated development\n"
-"environment. It provides a built in editor, works on all platforms (including\n"
-"on servers) and provides many advantages such as integration with version\n"
-"control and project management."
+"このレッスンではRStudioを使います。RStudioは、無料であり、Rを組み込んだオープンソースの\n"
+"開発環境です。RStudioには、全てのプラットフォーム（サーバーも含む）で起動できるエディタ\n"
+"が入っていて、プロジェクト管理やバージョン管理にも対応しているなど、良いところが\n"
+"いっぱいがあります。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:68
 msgid "**Basic layout**"
-msgstr "**Basic layout**"
+msgstr "**基本的なレイアウト**"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:70
 msgid "When you first open RStudio, you will be greeted by three panels:"
-msgstr "When you first open RStudio, you will be greeted by three panels:"
+msgstr "最初にRStudioを開くと、３つのパネルが現れます："
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:72
 msgid "  * The interactive R console (entire left)"
-msgstr "  * The interactive R console (entire left)"
+msgstr "  * インタラクティブなRコンソール（左側全部）"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:73
 msgid "  * Environment/History (tabbed in upper right)"
-msgstr "  * Environment/History (tabbed in upper right)"
+msgstr "  * 環境／履歴（右上のタブ形式）"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:74
 msgid "  * Files/Plots/Packages/Help/Viewer (tabbed in lower right)"
-msgstr "  * Files/Plots/Packages/Help/Viewer (tabbed in lower right)"
+msgstr "  * ファイル／プロット／パッケージ／ヘルプ／ビューワー（右下のタブ形式）"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:76
 msgid "![RStudio layout](../fig/01-rstudio.png)"
-msgstr "![RStudio layout](../fig/01-rstudio.png)"
+msgstr "![RStudioレイアウト](../fig/01-rstudio.png)"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:78
 msgid ""
 "Once you open files, such as R scripts, an editor panel will also open\n"
 "in the top left."
-msgstr ""
-"Once you open files, such as R scripts, an editor panel will also open\n"
-"in the top left."
+msgstr "Rスクリプトなどのファイルを開くと、左上にエディタパネルも開きます。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:81
 msgid "![RStudio layout with .R file open](../fig/01-rstudio-script.png)"
-msgstr "![RStudio layout with .R file open](../fig/01-rstudio-script.png)"
+msgstr "![拡張子.Rのファイルを開いたときのRStudioレイアウト](../fig/01-rstudio-script.png)"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:84
 msgid "## Work flow within RStudio"
-msgstr "## Work flow within RStudio"
+msgstr "## RStudioでの作業の流れ"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:85
 msgid "There are two main ways one can work within RStudio."
-msgstr "There are two main ways one can work within RStudio."
+msgstr "RStudioで作業する２つの主な方法："
 
 # ordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:87
 msgid "1. Test and play within the interactive R console then copy code into"
-msgstr "1. Test and play within the interactive R console then copy code into"
+msgstr "1. インタラクティブなRコンソールで試したり、確認したりした後、コードを"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:88
 msgid ""
@@ -997,20 +994,18 @@ msgid ""
 "   * You will be able to run the file you create from within RStudio\n"
 "   or using R's `source()`  function."
 msgstr ""
-"a .R file to run later.\n"
-"   *  This works well when doing small tests and initially starting off.\n"
-"   *  It quickly becomes laborious\n"
-"2. Start writing in an .R file and use RStudio's short cut keys for the Run command\n"
-"to push the current line, selected lines or modified lines to the\n"
-"interactive R console.\n"
-"   * This is a great way to start; all your code is saved for later\n"
-"   * You will be able to run the file you create from within RStudio\n"
-"   or using R's `source()`  function."
+"後で走らせる.Rファイルにコピーする。\n"
+"   *  まず始めてみるときや、小規模なテストをするのに適している。\n"
+"   *  すぐ面倒になる。\n"
+"2. まず.Rファイルに書き、インタラクティブなRコンソールへ、現在の行、選択した行、\n"
+"修正した行を送るコマンドを走らせるために、RStudioのショートカットキーを使う。\n"
+"   * 始めるのによい方法。全てのコードが後々のために保存される。\n"
+"   * 作ったファイルを、RStudioから又は\"source()\"関数を使って走らせることができる。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:98
 msgid "> ## Tip: Running segments of your code"
-msgstr "> ## Tip: Running segments of your code"
+msgstr "> ## ヒント：ひとかたまりのコードを走らせる"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:99
 msgid ""
@@ -1030,19 +1025,19 @@ msgid ""
 "> including the modifications you have made."
 msgstr ""
 ">\n"
-"> RStudio offers you great flexibility in running code from within the editor\n"
-"> window. There are buttons, menu choices, and keyboard shortcuts. To run the\n"
-"> current line, you can \n"
-"> 1. click on the `Run` button above the editor panel, or \n"
-"> 2. select \"Run Lines\" from the \"Code\" menu, or \n"
-"> 3. hit <kbd>Ctrl</kbd>+<kbd>Return</kbd> in Windows or Linux \n"
-"> or <kbd>&#8984;</kbd>+<kbd>Return</kbd> on OS X.\n"
-"> (This shortcut can also be seen by hovering\n"
-"> the mouse over the button). To run a block of code, select it and then `Run`.\n"
-"> If you have modified a line of code within a block of code you have just run,\n"
-"> there is no need to reselct the section and `Run`, you can use the next button\n"
-"> along, `Re-run the previous region`. This will run the previous code block\n"
-"> including the modifications you have made."
+"> RStudioには、エディタからコードを走らせる色々な方法があります。\n"
+"> ボタン、メニュー選択、そしてキーボードのショートカットがあります。\n"
+"> 現在の行を走らせるには、\n"
+"> 1. エディタパネルの`Run`のボタンをクリックする\n"
+"> 2. 「Code」メニューから「Run Lines」を選択する \n"
+"> 3. WindowsかLinuxなら、<kbd>Ctrl</kbd>+<kbd>Return</kbd>を押す\n"
+"> または、OS Xなら、<kbd>&#8984;</kbd>+<kbd>Return</kbd>。\n"
+"> （このショートカットはボタンの上にマウスを合わせると表示される）\n"
+"> コードのかたまりを走らせるには、まずその部分を選択してから `Run`を押します。\n"
+"> もし、コードのかたまりを走らせた後で、その一部を修正した場合、\n"
+"> その部分を選択して`Run`する必要はありません。その場合は次の\n"
+"> `Re-run the previous region`ボタンが使えます。これは、前のコードのかたまりを\n"
+"> 修正を行った部分を含めて走らせます。"
 
 # SC/DC Template label
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:113
@@ -1086,7 +1081,7 @@ msgstr "{: .callout}"
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:115
 msgid "## Introduction to R"
-msgstr "## Introduction to R"
+msgstr "## R入門"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:117
 msgid ""
@@ -1096,11 +1091,10 @@ msgid ""
 "file. This console in RStudio is the same as the one you would get if\n"
 "you typed in `R` in your command-line environment."
 msgstr ""
-"Much of your time in R will be spent in the R interactive\n"
-"console. This is where you will run all of your code, and can be a\n"
-"useful environment to try out ideas before adding them to an R script\n"
-"file. This console in RStudio is the same as the one you would get if\n"
-"you typed in `R` in your command-line environment."
+"Rを使う時間のほとんどは、Rのインタラクティブコンソールでの作業となるでしょう。\n"
+"ここが、全てのコードを走らせる、また、.Rファイルにコードを加える前にアイディアを\n"
+"試してみるのに使える環境となります。\n"
+"このRStudioのコンソールが、コマンドライン環境に`R` と入力するのと同じ環境になります。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:123
 msgid ""
@@ -1111,21 +1105,20 @@ msgid ""
 "print loop\": you type in commands, R tries to execute them, and then\n"
 "returns a result."
 msgstr ""
-"The first thing you will see in the R interactive session is a bunch\n"
-"of information, followed by a \">\" and a blinking cursor. In many ways\n"
-"this is similar to the shell environment you learned about during the\n"
-"shell lessons: it operates on the same idea of a \"Read, evaluate,\n"
-"print loop\": you type in commands, R tries to execute them, and then\n"
-"returns a result."
+"Rインタラクティブセッションでまず目に入ってくるのは、ひとかたまりの情報と\n"
+"その後に続く、「>」と点滅するカーソルです。これは多くの観点で、\n"
+"シェルのレッスンで学んだシェル環境と似ています。\n"
+"つまり、「読み、実行し、出力するループ」の考えと同じように動くので、\n"
+"コマンドを入力すれば、Rは、それを実行しようとし、そして結果を返すのです。"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:130
 msgid "## Using R as a calculator"
-msgstr "## Using R as a calculator"
+msgstr "## Rを計算機として使う"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:132
 msgid "The simplest thing you could do with R is do arithmetic:"
-msgstr "The simplest thing you could do with R is do arithmetic:"
+msgstr "一番単純なRの使い方は、演算です："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:135
@@ -1670,16 +1663,14 @@ msgid ""
 "And R will print out the answer, with a preceding \"[1]\". Don't worry about this\n"
 "for now, we'll explain that later. For now think of it as indicating output."
 msgstr ""
-"And R will print out the answer, with a preceding \"[1]\". Don't worry about this\n"
-"for now, we'll explain that later. For now think of it as indicating output."
+"するとRは、「[1]」の後に回答を表示します。詳しくは後で説明するので、\n"
+"今は気にしなくても大丈夫です。今のところ、出力されたものを示すものだと思ってください。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:150
 msgid ""
 "Like bash, if you type in an incomplete command, R will wait for you to\n"
 "complete it:"
-msgstr ""
-"Like bash, if you type in an incomplete command, R will wait for you to\n"
-"complete it:"
+msgstr "バッシュのように、Rは、不完全なコマンドが入力されると、それが完成されるまで待ちます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:153
@@ -1715,15 +1706,14 @@ msgid ""
 "a command you can simply hit \"Esc\" and RStudio will give you back the \">\"\n"
 "prompt."
 msgstr ""
-"Any time you hit return and the R session shows a \"+\" instead of a \">\", it\n"
-"means it's waiting for you to complete the command. If you want to cancel\n"
-"a command you can simply hit \"Esc\" and RStudio will give you back the \">\"\n"
-"prompt."
+"Rセッションで改行キーを押す度に、「>」の代わりに「+」が出力される場合、\n"
+"コマンドが完成されるのを待っていることを示しています。そのコマンドを取り消したい\n"
+"場合は、単純に「Esc」を押せば、RStudioは「>」を返します。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:168
 msgid "> ## Tip: Cancelling commands"
-msgstr "> ## Tip: Cancelling commands"
+msgstr "> ## ヒント：コマンドの取り消し"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:169
 msgid ""
@@ -1739,14 +1729,14 @@ msgid ""
 ">"
 msgstr ""
 ">\n"
-"> If you're using R from the commandline instead of from within RStudio,\n"
-"> you need to use <kbd>Ctrl</kbd>+<kbd>C</kbd> instead of <kbd>Esc</kbd>\n"
-"> to cancel the command. This applies to Mac users as well!\n"
+"> RStudioではなく、コマンドラインからRを使う場合、\n"
+"> コマンドを取り消す場合、<kbd>Esc</kbd>の代わりに<kbd>Ctrl</kbd>+<kbd>C</kbd>\n"
+"> を使う必要があります。これは、Macユーザーも同じです！\n"
 ">\n"
-"> Cancelling a command isn't only useful for killing incomplete commands:\n"
-"> you can also use it to tell R to stop running code (for example if it's\n"
-"> taking much longer than you expect), or to get rid of the code you're\n"
-"> currently writing.\n"
+"> コマンドの取り消しは、不完全なコマンドを消す他にも使えます。\n"
+"> 走っているコードを止めてとRに伝えるにも使え（例えば、予想よりも\n"
+"> かなり長くかかっている場合）、その他にも、今書いているコードを\n"
+"> 消去するにも使えます。\n"
 ">"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:181
@@ -1754,42 +1744,42 @@ msgid ""
 "When using R as a calculator, the order of operations is the same as you\n"
 "would have learned back in school."
 msgstr ""
-"When using R as a calculator, the order of operations is the same as you\n"
-"would have learned back in school."
+"Rを計算機として使う場合、演算の順番は、学校で学んだだろうものと\n"
+"同じです。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:184
 msgid "From highest to lowest precedence:"
-msgstr "From highest to lowest precedence:"
+msgstr "一番先に行われる処理から一番後に行われる処理："
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:186
 msgid " * Parentheses: `(`, `)`"
-msgstr " * Parentheses: `(`, `)`"
+msgstr " * 括弧： `(`、`)`"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:187
 msgid " * Exponents: `^` or `**`"
-msgstr " * Exponents: `^` or `**`"
+msgstr " * 累乗：`^`か`**`"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:188
 msgid " * Divide: `/`"
-msgstr " * Divide: `/`"
+msgstr " * 割る：`/`"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:189
 msgid " * Multiply: `*`"
-msgstr " * Multiply: `*`"
+msgstr " * 掛ける：`*`"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:190
 msgid " * Add: `+`"
-msgstr " * Add: `+`"
+msgstr " * 加える：`+`"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:191
 msgid " * Subtract: `-`"
-msgstr " * Subtract: `-`"
+msgstr " * 引く：`-`"
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:194
@@ -1819,9 +1809,8 @@ msgid ""
 "evaluation if it differs from the default, or to make clear what you\n"
 "intend."
 msgstr ""
-"Use parentheses to group operations in order to force the order of\n"
-"evaluation if it differs from the default, or to make clear what you\n"
-"intend."
+"デフォルトと違う順番で計算させたい場合や、意図を明確にしたい場合は、\n"
+"演算をまとめるために、括弧を使いましょう。"
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:211
@@ -1850,8 +1839,9 @@ msgid ""
 "This can get unwieldy when not needed, but  clarifies your intentions.\n"
 "Remember that others may later read your code."
 msgstr ""
-"This can get unwieldy when not needed, but  clarifies your intentions.\n"
-"Remember that others may later read your code."
+"括弧をつける必要ではないときは、面倒かもしれませんが、そうすることで自分の意図\n"
+"するところがはっきり伝わります。\n"
+"自分が書いたコードを、後々他の人が読むことになるかもしれないことを忘れないように。"
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:227
@@ -1863,9 +1853,9 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"(3 + (5 * (2 ^ 2))) # hard to read\n"
-"3 + 5 * 2 ^ 2       # clear, if you remember the rules\n"
-"3 + 5 * (2 ^ 2)     # if you forget some rules, this might help\n"
+"(3 + (5 * (2 ^ 2))) # 読みづらい\n"
+"3 + 5 * 2 ^ 2       # ルールを覚えている人には明確\n"
+"3 + 5 * (2 ^ 2)     # ルールを忘れている人にも伝わるはず\n"
 "~~~"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:235
@@ -1874,13 +1864,12 @@ msgid ""
 "\"comment\". Anything that follows after the hash (or octothorpe) symbol\n"
 "`#` is ignored by R when it executes code."
 msgstr ""
-"The text after each line of code is called a\n"
-"\"comment\". Anything that follows after the hash (or octothorpe) symbol\n"
-"`#` is ignored by R when it executes code."
+"コードの後の文は、「コメント」と呼ばれます。\n"
+"シャープ（ナンバー）記号`#` の後に来るものは、Rがコードを実行する際は無視されます。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:239
 msgid "Really small or large numbers get a scientific notation:"
-msgstr "Really small or large numbers get a scientific notation:"
+msgstr "とても大きい、又は小さい数には、指数表記が使われます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:242
@@ -1909,12 +1898,12 @@ msgid ""
 "Which is shorthand for \"multiplied by `10^XX`\". So `2e-4`\n"
 "is shorthand for `2 * 10^(-4)`."
 msgstr ""
-"Which is shorthand for \"multiplied by `10^XX`\". So `2e-4`\n"
-"is shorthand for `2 * 10^(-4)`."
+"これは、「`10^XX`で掛けたもの」を略したものです。つまり`2e-4`は、\n"
+"`2 * 10^(-4)`の略です。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:257
 msgid "You can write numbers in scientific notation too:"
-msgstr "You can write numbers in scientific notation too:"
+msgstr "数を指数記号で書くこともできます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:260
@@ -1924,7 +1913,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"5e3  # Note the lack of minus here\n"
+"5e3  # マイナスがないことに注意\n"
 "~~~"
 
 # code block
@@ -1941,7 +1930,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:272
 msgid "## Mathematical functions"
-msgstr "## Mathematical functions"
+msgstr "## 数学関数"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:274
 msgid ""
@@ -1950,10 +1939,9 @@ msgid ""
 "Anything we type inside the parentheses is called the function's\n"
 "arguments:"
 msgstr ""
-"R has many built in mathematical functions. To call a function,\n"
-"we simply type its name, followed by  open and closing parentheses.\n"
-"Anything we type inside the parentheses is called the function's\n"
-"arguments:"
+"Rには、多くの数学関数が備え付けられています。関数を呼び出すには、\n"
+"関数名と始め括弧と終わり括弧を書きます。\n"
+"括弧の中に書いたものが、関数の引数となります："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:280
@@ -1963,7 +1951,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"sin(1)  # trigonometry functions\n"
+"sin(1)  # 三角関数\n"
 "~~~"
 
 # code block
@@ -1985,7 +1973,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"log(1)  # natural logarithm\n"
+"log(1)  # 自然対数\n"
 "~~~"
 
 # code block
@@ -2007,7 +1995,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"log10(10) # base-10 logarithm\n"
+"log10(10) # 10を底とする対数\n"
 "~~~"
 
 # code block
@@ -2049,9 +2037,9 @@ msgid ""
 "can simply look them up on Google, or if you can remember the\n"
 "start of the function's name, use the tab completion in RStudio."
 msgstr ""
-"Don't worry about trying to remember every function in R. You\n"
-"can simply look them up on Google, or if you can remember the\n"
-"start of the function's name, use the tab completion in RStudio."
+"Rにある全ての関数を覚えようとして心配する必要はありません。\n"
+"Googleで検索すればいいですし、関数の始まりさえ覚えていれば\n"
+"RStudioのタブ入力補完機能が使えます。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:335
 msgid ""
@@ -2060,10 +2048,9 @@ msgid ""
 "look up functions, their arguments, and the values that they\n"
 "take."
 msgstr ""
-"This is one advantage that RStudio has over R on its own, it\n"
-"has auto-completion abilities that allow you to more easily\n"
-"look up functions, their arguments, and the values that they\n"
-"take."
+"これがRStudioが、Rそのものを使うよりもいい理由のひとつです。\n"
+"RStudioには、自動補完機能があり、関数、その引数、その取りうる値を\n"
+"より簡単に見つけることができます。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:340
 msgid ""
@@ -2073,20 +2060,19 @@ msgid ""
 "help page will usually show a collection of code examples which\n"
 "illustrate command usage. We'll go through an example later."
 msgstr ""
-"Typing a `?` before the name of a command will open the help page\n"
-"for that command. As well as providing a detailed description of\n"
-"the command and how it works, scrolling to the bottom of the\n"
-"help page will usually show a collection of code examples which\n"
-"illustrate command usage. We'll go through an example later."
+"コマンド名の前に、`?` を付けることで、そのコマンドのヘルプのページを開くことができます。\n"
+"そのコマンドの詳細についての説明やそれがどう動くかだけではなく、ヘルプページの最後まで\n"
+"スクロールすると、通常、コマンドの使い方を伝えるコードを用いた事例集が参照できます。\n"
+"これについては、後ほど、例で見てみることにしましょう。"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:346
 msgid "## Comparing things"
-msgstr "## Comparing things"
+msgstr "## 何かを比較する"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:348
 msgid "We can also do comparison in R:"
-msgstr "We can also do comparison in R:"
+msgstr "Rを使って比較をすることもできます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:351
@@ -2096,7 +2082,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"1 == 1  # equality (note two equals signs, read as \"is equal to\")\n"
+"1 == 1  # 等価（イコールが二つあることに注意。「は、～と等しい」と読む）\n"
 "~~~"
 
 # code block
@@ -2125,7 +2111,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"1 != 2  # inequality (read as \"is not equal to\")\n"
+"1 != 2  # 不等価（「は、～と等しくない」と読む）\n"
 "~~~"
 
 # code block
@@ -2136,7 +2122,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"1 < 2  # less than\n"
+"1 < 2  # より少ない\n"
 "~~~"
 
 # code block
@@ -2147,7 +2133,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"1 <= 1  # less than or equal to\n"
+"1 <= 1  # より少ない、又は等しい\n"
 "~~~"
 
 # code block
@@ -2158,7 +2144,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"1 > 0  # greater than\n"
+"1 > 0  # より大きい\n"
 "~~~"
 
 # code block
@@ -2169,13 +2155,13 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"1 >= -9 # greater than or equal to\n"
+"1 >= -9 # より大きい、又は等しい\n"
 "~~~"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:428
 msgid "> ## Tip: Comparing Numbers"
-msgstr "> ## Tip: Comparing Numbers"
+msgstr "> ##ヒント： 数の比較"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:429
 msgid ""
@@ -2198,31 +2184,27 @@ msgid ""
 ">"
 msgstr ""
 ">\n"
-"> A word of warning about comparing numbers: you should\n"
-"> never use `==` to compare two numbers unless they are\n"
-"> integers (a data type which can specifically represent\n"
-"> only whole numbers).\n"
+"> 数を比較するときの注意： 整数型（整数のみを表すデータ型）\n"
+"> 以外では、２数の比較に決して `==` を使わないこと。\n"
 ">\n"
-"> Computers may only represent decimal numbers with a\n"
-"> certain degree of precision, so two numbers which look\n"
-"> the same when printed out by R, may actually have\n"
-"> different underlying representations and therefore be\n"
-"> different by a small margin of error (called Machine\n"
-"> numeric tolerance).\n"
+"> コンピュータは、小数点以下の数を限られた精度でしか示せない\n"
+"> かもしれません。すると、二つの数がRで同じように表示されても\n"
+"> 実際は、その背後で異なる形で表されており、したがって\n"
+"> ごくわずかな誤差（機械の数値許容範囲）があるかもしれません。\n"
 ">\n"
-"> Instead you should use the `all.equal` function.\n"
+"> 代わりに、`all.equal` 関数を使うといいでしょう。\n"
 ">\n"
-"> Further reading: [http://floating-point-gui.de/](http://floating-point-gui.de/)\n"
+"> 詳しくは： [http://floating-point-gui.de/](http://floating-point-gui.de/)\n"
 ">"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:448
 msgid "## Variables and assignment"
-msgstr "## Variables and assignment"
+msgstr "## 変数及び代入"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:450
 msgid "We can store values in variables using the assignment operator `<-`, like this:"
-msgstr "We can store values in variables using the assignment operator `<-`, like this:"
+msgstr "代入演算子`<-`を用いて、次のように値を変数に入れることができます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:453
@@ -2240,8 +2222,8 @@ msgid ""
 "Notice that assignment does not print a value. Instead, we stored it for later\n"
 "in something called a **variable**. `x` now contains the **value** `0.025`:"
 msgstr ""
-"Notice that assignment does not print a value. Instead, we stored it for later\n"
-"in something called a **variable**. `x` now contains the **value** `0.025`:"
+"お気づきのように、代入では値は表示されません。代わりに、後々のために\n"
+"**変数**と呼ばれるものに、値を入れます。`x` は、今、**値** `0.025`を持っています："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:462
@@ -2270,16 +2252,16 @@ msgid ""
 "More precisely, the stored value is a *decimal approximation* of\n"
 "this fraction called a [floating point number](http://en.wikipedia.org/wiki/Floating_point)."
 msgstr ""
-"More precisely, the stored value is a *decimal approximation* of\n"
-"this fraction called a [floating point number](http://en.wikipedia.org/wiki/Floating_point)."
+"より正確には、記録された値は、[浮動小数点数](http://en.wikipedia.org/wiki/Floating_point)\n"
+"と呼ばれる*小数近似 (decimal approximation)*です。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:477
 msgid ""
 "Look for the `Environment` tab in one of the panes of RStudio, and you will see that `x` and its value\n"
 "have appeared. Our variable `x` can be used in place of a number in any calculation that expects a number:"
 msgstr ""
-"Look for the `Environment` tab in one of the panes of RStudio, and you will see that `x` and its value\n"
-"have appeared. Our variable `x` can be used in place of a number in any calculation that expects a number:"
+"RStudioのパネルの中のひとつ、`Environment` （環境）タブで、`x`とその値が表示されている\n"
+"ところを見て下さい。変数`x`は、数を出す演算で数の代わりに使うことができます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:481
@@ -2305,7 +2287,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:493
 msgid "Notice also that variables can be reassigned:"
-msgstr "Notice also that variables can be reassigned:"
+msgstr "変数は、再度、代入することもできます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:496
@@ -2320,11 +2302,11 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:501
 msgid "`x` used to contain the value 0.025 and and now it has the value 100."
-msgstr "`x` used to contain the value 0.025 and and now it has the value 100."
+msgstr "`x`は、0.025という値でしたが、今は、100になりました。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:503
 msgid "Assignment values can contain the variable being assigned to:"
-msgstr "Assignment values can contain the variable being assigned to:"
+msgstr "代入する値は、既に代入されている変数でもいいです："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:506
@@ -2335,7 +2317,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"x <- x + 1 #notice how RStudio updates its description of x on the top right tab\n"
+"x <- x + 1 #RStudioが、右上のタブにあるxの詳細をどう更新したかにも御留意下さい\n"
 "y <- x * 2\n"
 "~~~"
 
@@ -2344,8 +2326,8 @@ msgid ""
 "The right hand side of the assignment can be any valid R expression.\n"
 "The right hand side is *fully evaluated* before the assignment occurs."
 msgstr ""
-"The right hand side of the assignment can be any valid R expression.\n"
-"The right hand side is *fully evaluated* before the assignment occurs."
+"代入の右側については、Rで使える表現であれば何でも大丈夫です。\n"
+"右側については、代入される前に、*計算が完全に実施*されます。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:515
 msgid ""
@@ -2353,32 +2335,32 @@ msgid ""
 "cannot start with a number nor contain spaces at all. Different people use\n"
 "different conventions for long variable names, these include"
 msgstr ""
-"Variable names can contain letters, numbers, underscores and periods. They\n"
-"cannot start with a number nor contain spaces at all. Different people use\n"
-"different conventions for long variable names, these include"
+"変数名には、文字、数字、下線、ピリオドを含むことができます。\n"
+"数から始まることはできず、空白を含むことはできません。\n"
+"長い変数名のつけ方は様々です。例えば、"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:519
 msgid "  * periods.between.words"
-msgstr "  * periods.between.words"
+msgstr "  * ピリオドを.単語の.間に入れる"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:520
 msgid "  * underscores\\_between_words"
-msgstr "  * underscores\\_between_words"
+msgstr "  * 下線を\\_単語の_間に入れる"
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:521
 msgid "  * camelCaseToSeparateWords"
-msgstr "  * camelCaseToSeparateWords"
+msgstr "  * 単語の始まりを大文字にする（camelCaseToSeparateWords）"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:523
 msgid "What you use is up to you, but **be consistent**."
-msgstr "What you use is up to you, but **be consistent**."
+msgstr "何を使うかは書き手次第ですが、**一貫性を持たせる**ようにしましょう。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:525
 msgid "It is also possible to use the `=` operator for assignment:"
-msgstr "It is also possible to use the `=` operator for assignment:"
+msgstr "代入の演算子として、`=`を使うこともできます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:528
@@ -2398,10 +2380,11 @@ msgid ""
 "where it is less confusing to use `<-` than `=`, and it is the most common\n"
 "symbol used in the community. So the recommendation is to use `<-`."
 msgstr ""
-"But this is much less common among R users.  The most important thing is to\n"
-"**be consistent** with the operator you use. There are occasionally places\n"
-"where it is less confusing to use `<-` than `=`, and it is the most common\n"
-"symbol used in the community. So the recommendation is to use `<-`."
+"しかし、これはRユーザーでは、あまり使われていません。重要なのは、\n"
+"使用する演算子に**一貫性を持たせる**ことです。場合によっては、\n"
+"`=`を使うよりも`<-`を用いる方が誤解が少ないこともあります。\n"
+"Rコミュニティーの中で、最もよく使われている方法でもあるので、\n"
+"`<-`を使うのがおすすめです。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:538
@@ -2419,7 +2402,7 @@ msgstr ""
 #: r-novice-gapminder/_episodes/13-dplyr.md:154
 #: r-novice-gapminder/_episodes/14-tidyr.md:88
 msgid "> ## Challenge 1"
-msgstr "> ## Challenge 1"
+msgstr "> ## チャレンジ１"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:539
 msgid ""
@@ -2467,7 +2450,7 @@ msgid ""
 "> > {: .language-r}"
 msgstr ""
 ">\n"
-"> Which of the following are valid R variable names?\n"
+"> 次のうちどれがRの変数名として使えますか？\n"
 "> \n"
 "> ~~~\n"
 "> min_height\n"
@@ -2481,9 +2464,9 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-r}\n"
 ">\n"
-"> > ## Solution to challenge 1\n"
+"> > ## チャレンジ１の解答\n"
 "> >\n"
-"> > The following can be used as R variables:\n"
+"> > Rの変数として使えるものは次のとおりです：\n"
 "> > \n"
 "> > ~~~\n"
 "> > min_height\n"
@@ -2493,14 +2476,14 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .language-r}\n"
 "> >\n"
-"> > The following creates a hidden variable:\n"
+"> > 次のものは、隠れ変数を作ります：\n"
 "> > \n"
 "> > ~~~\n"
 "> > .mass\n"
 "> > ~~~\n"
 "> > {: .language-r}\n"
 "> >\n"
-"> > The following will not be able to be used to create a variable\n"
+"> > 次のものは、変数を作るために使えません：\n"
 "> > \n"
 "> > ~~~\n"
 "> > _age\n"
@@ -2643,7 +2626,7 @@ msgstr "{: .challenge}"
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:584
 msgid "## Vectorization"
-msgstr "## Vectorization"
+msgstr "## ベクトル化"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:586
 msgid ""
@@ -2652,10 +2635,9 @@ msgid ""
 "mathematics, a vector in R describes a set of values in a certain order of the \n"
 "same data type. For example"
 msgstr ""
-"One final thing to be aware of is that R is *vectorized*, meaning that\n"
-"variables and functions can have vectors as values. In contrast to physics and\n"
-"mathematics, a vector in R describes a set of values in a certain order of the \n"
-"same data type. For example"
+"留意すべきことの最後のひとつは、 Rは*ベクトル化している*ということで、つまり、\n"
+"変数と関数が値をベクトルとすることができます。 物理や数学とは対照的に、\n"
+"Rのベクトルは、同じデータ型のある順番を持つ値の集合として示されます。例えば："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:592
@@ -2719,26 +2701,22 @@ msgstr ""
 msgid ""
 "This is incredibly powerful; we will discuss this further in an\n"
 "upcoming lesson."
-msgstr ""
-"This is incredibly powerful; we will discuss this further in an\n"
-"upcoming lesson."
+msgstr "これは、とても使えるのですが、詳しくは後続のレッスンで述べることにします。"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:637
 msgid "## Managing your environment"
-msgstr "## Managing your environment"
+msgstr "## 環境を管理する"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:639
 msgid "There are a few useful commands you can use to interact with the R session."
-msgstr "There are a few useful commands you can use to interact with the R session."
+msgstr "Rセッションで使えるコマンドがいくつかあります。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:641
 msgid ""
 "`ls` will list all of the variables and functions stored in the global environment\n"
 "(your working R session):"
-msgstr ""
-"`ls` will list all of the variables and functions stored in the global environment\n"
-"(your working R session):"
+msgstr "`ls`は、グローバル環境（作業中のRセッション）にある全ての変数と関数をリスト化します："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:645
@@ -2765,7 +2743,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:657
 msgid "> ## Tip: hidden objects"
-msgstr "> ## Tip: hidden objects"
+msgstr "> ## ヒント：隠れたオブジェクト"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:658
 msgid ""
@@ -2776,9 +2754,8 @@ msgid ""
 ">"
 msgstr ""
 ">\n"
-"> Like in the shell, `ls` will hide any variables or functions starting\n"
-"> with a \".\" by default. To list all objects, type `ls(all.names=TRUE)`\n"
-"> instead\n"
+"> シェルのように、`ls`はデフォルトでは、\".\"で始まる変数と関数を表示しません。\n"
+"> 全てのオブジェクトをリスト化するには、代わりに`ls(all.names=TRUE)`と書きます\n"
 ">"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:665
@@ -2786,12 +2763,12 @@ msgid ""
 "Note here that we didn't give any arguments to `ls`, but we still\n"
 "needed to give the parentheses to tell R to call the function."
 msgstr ""
-"Note here that we didn't give any arguments to `ls`, but we still\n"
-"needed to give the parentheses to tell R to call the function."
+"ここでは、`ls`に特に引数を与えませんでしたが、それでもRに関数を\n"
+"呼び出していることを伝えるために括弧は必要です。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:668
 msgid "If we type `ls` by itself, R will print out the source code for that function!"
-msgstr "If we type `ls` by itself, R will print out the source code for that function!"
+msgstr "もし`ls`だけを入力すると、Rは、その関数のソースコードを表示してしまいます！"
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:671
@@ -2881,7 +2858,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:715
 msgid "You can use `rm` to delete objects you no longer need:"
-msgstr "You can use `rm` to delete objects you no longer need:"
+msgstr "もう必要ないオブジェクトを消去するには、`rm`が使えます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:718
@@ -2899,8 +2876,8 @@ msgid ""
 "If you have lots of things in your environment and want to delete all of them,\n"
 "you can pass the results of `ls` to the `rm` function:"
 msgstr ""
-"If you have lots of things in your environment and want to delete all of them,\n"
-"you can pass the results of `ls` to the `rm` function:"
+"もし、環境に、色々なものがいっぱいあって、それらを全て消去したい場合、\n"
+"`ls`の結果を`rm`関数に渡すことで対応できます。："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:727
@@ -2918,8 +2895,8 @@ msgid ""
 "In this case we've combined the two. Like the order of operations, anything\n"
 "inside the innermost parentheses is evaluated first, and so on."
 msgstr ""
-"In this case we've combined the two. Like the order of operations, anything\n"
-"inside the innermost parentheses is evaluated first, and so on."
+"ここでは、二つを組み合わせました。演算の順番のように、一番内側の括弧の中のものが、\n"
+"まず最初に実行され、実行が続きます。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:735
 msgid ""
@@ -2927,13 +2904,12 @@ msgid ""
 "`list` argument in `rm`. When assigning values to arguments by name, you *must*\n"
 "use the `=` operator!!"
 msgstr ""
-"In this case we've specified that the results of `ls` should be used for the\n"
-"`list` argument in `rm`. When assigning values to arguments by name, you *must*\n"
-"use the `=` operator!!"
+"ここでは、`ls`の結果を`rm`の引数のリストとして用いるべしと設定しました。\n"
+"名前で引数の値を定めるときは、演算子`=`を*必ず*使わなければなりません！"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:739
 msgid "If instead we use `<-`, there will be unintended side effects, or you may get an error message:"
-msgstr "If instead we use `<-`, there will be unintended side effects, or you may get an error message:"
+msgstr "もし代わりに`<-`を使うと、意図しない副作用が現れるか、エラーメッセージが現れます："
 
 # code block
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:742
@@ -2979,7 +2955,7 @@ msgstr "{: .error}"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:754
 msgid "> ## Tip: Warnings vs. Errors"
-msgstr "> ## Tip: Warnings vs. Errors"
+msgstr "> ## ヒント：警告かエラーか"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:755
 msgid ""
@@ -2994,19 +2970,19 @@ msgid ""
 ">"
 msgstr ""
 ">\n"
-"> Pay attention when R does something unexpected! Errors, like above,\n"
-"> are thrown when R cannot proceed with a calculation. Warnings on the\n"
-"> other hand usually mean that the function has run, but it probably\n"
-"> hasn't worked as expected.\n"
+"> Rが予期しないことをした場合、注意が必要です！上記のようなエラーは、\n"
+"> Rが演算できない場合に出力されます。一方、警告は、通常、\n"
+"> 関数は走ったけれど、予期した形で実行されなかったかもしれない\n"
+"> ことを示します。\n"
 ">\n"
-"> In both cases, the message that R prints out usually give you clues\n"
-"> how to fix a problem.\n"
+"> 両方の場合、Rが表示するメッセージは、問題をどう修正すればよいのか\n"
+"> という糸口を通常与えてくれます。\n"
 ">"
 
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:766
 msgid "## R Packages"
-msgstr "## R Packages"
+msgstr "## Rパッケージ"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:768
 msgid ""
@@ -3015,15 +2991,14 @@ msgid ""
 "are over 10,000 packages available on CRAN (the comprehensive R archive\n"
 "network). R and RStudio have functionality for managing packages:"
 msgstr ""
-"It is possible to add functions to R by writing a package, or by\n"
-"obtaining a package written by someone else. As of this writing, there\n"
-"are over 10,000 packages available on CRAN (the comprehensive R archive\n"
-"network). R and RStudio have functionality for managing packages:"
+"パッケージを書くか、誰かが書いたパッケージを使って、Rに関数を加えることができます。\n"
+"これについて、CRAN (the comprehensive R archive network)上にある\n"
+"10,000 を越えるパッケージが使用可能です。RとRStudioには、パッケージを管理する機能があります："
 
 # unordered list
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:773
 msgid "* You can see what packages are installed by typing"
-msgstr "* You can see what packages are installed by typing"
+msgstr "* インストールされているパッケージを以下を入力することで見ることができます。"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:774
 msgid ""
@@ -3035,11 +3010,11 @@ msgid ""
 "* You can make a package available for use with `library(packagename)`"
 msgstr ""
 "  `installed.packages()`\n"
-"* You can install packages by typing `install.packages(\"packagename\")`,\n"
-"  where `packagename` is the package name, in quotes.\n"
-"* You can update installed packages by typing `update.packages()`\n"
-"* You can remove a package with `remove.packages(\"packagename\")`\n"
-"* You can make a package available for use with `library(packagename)`"
+"* パッケージをインストールするには、`install.packages(\"packagename\")`を入力します\n"
+"  ここで、`packagename`は、用いるパッケージ名です。\n"
+"* インストールしたパッケージの更新には、`update.packages()`を入力します。\n"
+"* パッケージの削除には、`remove.packages(\"packagename\")`を入力します。\n"
+"* 使用できるパッケージを用いるには、`library(packagename)`を入力します。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:781
@@ -3056,7 +3031,7 @@ msgstr ""
 #: r-novice-gapminder/_episodes/13-dplyr.md:281
 #: r-novice-gapminder/_episodes/14-tidyr.md:263
 msgid "> ## Challenge 2"
-msgstr "> ## Challenge 2"
+msgstr "> ## チャレンジ２"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:782
 msgid ""
@@ -3106,8 +3081,8 @@ msgid ""
 "> > of 102 to the variable age."
 msgstr ""
 ">\n"
-"> What will be the value of each  variable  after each\n"
-"> statement in the following program?\n"
+"> 次のプログラムのそれぞれの宣言の後、それぞれの変数の値は\n"
+"> 何になるでしょうか？\n"
 ">\n"
 "> \n"
 "> ~~~\n"
@@ -3118,37 +3093,37 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-r}\n"
 ">\n"
-"> > ## Solution to challenge 2\n"
+"> > ## チャレンジ２の解答\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
 "> > mass <- 47.5\n"
 "> > ~~~\n"
 "> > {: .language-r}\n"
-"> > This will give a value of 47.5 for the variable mass\n"
+"> > これは、変数massに、47.5の値を与えます\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
 "> > age <- 122\n"
 "> > ~~~\n"
 "> > {: .language-r}\n"
-"> > This will give a value of 122 for the variable age\n"
+"> > これは、変数ageに122の値を与えます\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
 "> > mass <- mass * 2.3\n"
 "> > ~~~\n"
 "> > {: .language-r}\n"
-"> > This will multiply the existing value of 47.5 by 2.3 to give a new value of\n"
-"> > 109.25 to the variable mass.\n"
+"> > これは、既存の値47.5に2.3を掛けた新しい値\n"
+"> > 109.25を変数massに与えます。\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
 "> > age <- age - 20\n"
 "> > ~~~\n"
 "> > {: .language-r}\n"
-"> > This will subtract 20 from the existing value of 122 to give a new value\n"
-"> > of 102 to the variable age."
+"> > これは、既存の値の122から20を引いた新しい値\n"
+"> > 102を変数ageに与えます。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:830
@@ -3162,7 +3137,7 @@ msgstr ""
 #: r-novice-gapminder/_episodes/10-functions.md:302
 #: r-novice-gapminder/_episodes/14-tidyr.md:551
 msgid "> ## Challenge 3"
-msgstr "> ## Challenge 3"
+msgstr "> ## チャレンジ３"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:831
 msgid ""
@@ -3188,12 +3163,12 @@ msgid ""
 "> > This should yield a boolean value of TRUE since 109.25 is greater than 102."
 msgstr ""
 ">\n"
-"> Run the code from the previous challenge, and write a command to\n"
-"> compare mass to age. Is mass larger than age?\n"
+"> チャレンジ２のコードを走らせ、massとageを比較するコマンドを書いて下さい。\n"
+"> massはageよりも大きいでしょうか？\n"
 ">\n"
-"> > ## Solution to challenge 3\n"
+"> > ## チャレンジ３の解答\n"
 "> >\n"
-"> > One way of answering this question in R is to use the `>` to set up the following:\n"
+"> > Rを使ってこの質問に回答する方法のひとつは、 次のように`>`を用いることです：\n"
 "> > \n"
 "> > ~~~\n"
 "> > mass > age\n"
@@ -3206,7 +3181,7 @@ msgstr ""
 "> > [1] TRUE\n"
 "> > ~~~\n"
 "> > {: .output}\n"
-"> > This should yield a boolean value of TRUE since 109.25 is greater than 102."
+"> > 109.25は102よりも大きいため、これは、論理型の値、TRUEとなる。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:855
@@ -3217,7 +3192,7 @@ msgstr ""
 #: r-novice-gapminder/_episodes/09-vectorization.md:354
 #: r-novice-gapminder/_episodes/10-functions.md:554
 msgid "> ## Challenge 4"
-msgstr "> ## Challenge 4"
+msgstr "> ## チャレンジ４"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:856
 msgid ""
@@ -3235,12 +3210,11 @@ msgid ""
 "> > {: .language-r}"
 msgstr ""
 ">\n"
-"> Clean up your working environment by deleting the mass and age\n"
-"> variables.\n"
+"> massとageの変数を消去し、作業環境をきれいにしよう。\n"
 ">\n"
-"> > ## Solution to challenge 4\n"
+"> > ## チャレンジ４の解答\n"
 "> >\n"
-"> > We can use the `rm` command to accomplish this task\n"
+"> > これを行うには、`rm`コマンドを使います。\n"
 "> > \n"
 "> > ~~~\n"
 "> > rm(age, mass)\n"
@@ -3255,7 +3229,7 @@ msgstr ""
 #: r-novice-gapminder/_episodes/08-plot-ggplot2.md:463
 #: r-novice-gapminder/_episodes/10-functions.md:573
 msgid "> ## Challenge 5"
-msgstr "> ## Challenge 5"
+msgstr "> ## チャレンジ５"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:872
 msgid ""
@@ -3274,11 +3248,11 @@ msgid ""
 "> > {: .language-r}"
 msgstr ""
 ">\n"
-"> Install the following packages: `ggplot2`, `plyr`, `gapminder`\n"
+"> 次のパッケージをインストールしよう： `ggplot2`, `plyr`, `gapminder`\n"
 ">\n"
-"> > ## Solution to challenge 5\n"
+"> > ## チャレンジ５の解答\n"
 "> >\n"
-"> > We can use the `install.packages()` command to install the required packages.\n"
+"> > 求められているパッケージをインストールするには、コマンド`install.packages()`が使えます。\n"
 "> > \n"
 "> > ~~~\n"
 "> > install.packages(\"ggplot2\")\n"
@@ -21366,7 +21340,7 @@ msgstr ""
 
 #: r-novice-gapminder/index.md:6
 msgid "Introduction to R for non-programmers using gapminder data."
-msgstr "gapminderデータを使用する非プログラマのためのR入門。"
+msgstr "ブログラマーでない人のためのgapminderデータ用いたR入門。"
 
 #: r-novice-gapminder/index.md:17
 msgid ""
