@@ -315,6 +315,16 @@ This assumes that you are familiar with using Git and GitHub.
 We are translating (and keeping up-to-date) the Software Carpentry notes.
 If you notice an issue with the lesson materials themselves, please send an issue for pull request to the English lesson materials.
 
+### Resources for translations
+
+Please follow the following Guidelines for translators when editing the lessons:
+
+https://github.com/swcarpentry-ja/i18n/blob/ja/TranslatorGuidelines.md
+
+There is a list of technical terms to refer to for ensuring that terms are consistently used between lessons, please update and refer to this as needed:
+
+https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms
+
 ### To contribute to lesson materials
 
 Fork this repository on GitHub and clone the **forked repo** to your local machine:
