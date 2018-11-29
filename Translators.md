@@ -21,7 +21,7 @@ Members
   * Lesson organiser (R gapminder)
   * GitHub: [@rkkmk](https://github.com/rkkmk)
 
-* [Daichi Saito][arakaki_maki]
+* [Daichi Saito][saito_daichi]
   * Lesson contributor (R gapminder)
   * GitHub: [@DaichiSaitoAF](https://github.com/DaichiSaitoAF)
   * Twitter: [@daichibaa](http://githut.com/daichibaa)
