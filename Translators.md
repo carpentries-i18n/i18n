@@ -23,7 +23,7 @@ Members
 
 * [Daichi Saito][arakaki_maki]
   * Lesson contributor (R gapminder)
-  * GitHub: [@rkkmk](https://github.com/DaichiSaitoAF)
+  * GitHub: [@DaichiSaitoAF](https://github.com/DaichiSaitoAF)
   * Twitter: [@daichibaa](http://githut.com/daichibaa)
 
 * [Tomohiro Egawa][egawa_tomohiro]
