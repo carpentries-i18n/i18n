@@ -2992,7 +2992,7 @@ msgid ""
 "network). R and RStudio have functionality for managing packages:"
 msgstr ""
 "パッケージを書くか、誰かが書いたパッケージを使って、Rに関数を加えることができます。\n"
-"これについて、CRAN (the comprehensive R archive network)上にある\n"
+"今現在CRAN (the comprehensive R archive network)上にある\n"
 "10,000 を越えるパッケージが使用可能です。RとRStudioには、パッケージを管理する機能があります："
 
 # unordered list
