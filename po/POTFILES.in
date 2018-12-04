@@ -1,8 +1,10 @@
 ChangeLog.md
 CultureNotes.md
 README.md
+TranslatorGuidelines.md
 Translators.md
 lang.md
+quickstart.md
 git-novice/CODE_OF_CONDUCT.md
 git-novice/CONTRIBUTING.md
 git-novice/LICENSE.md
@@ -263,3 +265,4 @@ sql-novice-survey/bin/boilerplate/setup.md
 sql-novice-survey/index.md
 sql-novice-survey/reference.md
 sql-novice-survey/setup.md
+team_notes/20181110_minutes.md
