@@ -26,10 +26,10 @@ Members
   * GitHub: [@DaichiSaitoAF](https://github.com/DaichiSaitoAF)
   * Twitter: [@daichibaa](http://githut.com/daichibaa)
 
-* [Tomohiro Egawa][egawa_tomohiro]
+* [Atsushi Yamamoto][yamamoto_atsushi]
   * Lesson contributor (R gapminder)
-  * GitHub: [@](https://github.com/)
-  * Twitter: [@bakamyudatri](http://twitter.com/bakamyudatri)
+  * GitHub: [@atsusy](https://github.com/atusy)
+  * Twitter: [@Atsushi776](http://githut.com/Atsushi776)
 
 * [Kyoko Matsumura][matsumura_kyoko]
   * Lesson organiser (Shell)
@@ -46,11 +46,10 @@ Members
   * GitHub: [@manabuishii](https://github.com/manabuishii)
   * Twitter: [@manabuishiirb](http://twitter.com/manabuishiirb)
 
-* [Koki Mimura][mimura_koki]: Postdoctoral Researcher (Tokyo University of Agriculture and Technology, Tokyo, Japan)
-  * Translation contributor and reviewer
-  * Twitter: [@kilometer00](http://twitter.com/kilometer00)
-
 Please include your GitHub account and any other detail that you wish to be public.
 
 * [GivenName FamilyName][family_given]: Job title (Affiliation, location)
-  [@GitHubUser](https://github.com/GitHubUser)
+  * Role
+  * GitHub: [@GitHubUser](https://github.com/GitHubUser)
+  * Twitter: [@handle](http://twitter.com/handle)
+
