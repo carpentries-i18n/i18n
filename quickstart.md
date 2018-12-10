@@ -18,9 +18,49 @@ git clone git@github.com:<github_username>/i18n.git
 ```
 4. Add remote so you can pull changes from original repo:
 ```
-git remote add ja git@github.com:swcarpentry-ja/i18n.git
+git remote add upstream git@github.com:swcarpentry-ja/i18n.git
 ```
-5. Create new branch for your edit (separate editing branch will make things easier for Pull Request):
+5. Make changes to your local repo - make sure to commit often:
+```
+git add -u
+git commit -m "<replace this commit message with something sensible>"
+```
+6. When you're ready to submit changes, first pull all the changes from the `swcarpentry-ja` repo:
+```
+git pull upstream ja
+```
+7. Fix any conflicts that arise when pulling and merging changes from the `swcarpentry-ja` repo.
+8. Now push your changes to your remote repo :
+```
+git push
+```
+9. In GitHub, submit a Pull Request with your changes to the `swcarpentry-ja` repo.
+10. When additional changes are requested, repeat steps 5 and 8 in your repo - Pull Request will be updated automatically:
+```
+git add -u
+git commit -m "<replace this commit message with something sensible>"
+git pull
+git push
+```
+
+## Tips and recommendations for a better workflow (intermediate Git user)
+
+These are some tips and recommendations to make your workflow more smooth and easier for you to work on multiple edits.
+If you intend to follow these steps, here are the sequence of steps to follow (in order):
+
+* Steps 1-4 as above
+* Step 1 as below
+* Step 5 as above
+* Step 2 as below, instead of step 6 as above
+* Step 7 as above
+* Step 3 as below, instead of step 8 as above
+* Step 4 as below, instead of step 9 as above
+* Step 10 as above
+
+### Steps
+
+1. When you are starting a new edit, create a new branch for your edit (separate editing branch will make things easier for Pull Request as well).
+Creating a branch will allow you to edit files without messing up changes that are being made on other branches.
 ```
 git checkout -b <username or other descriptive word>-edit
 
@@ -29,32 +69,33 @@ git checkout -b rikutakei-edit
 git checkout -b git-edit2
 git checkout -b readme-edit
 ```
-6. Make changes to your local repo - make sure to commit often:
+2. Use the `--rebase` option when you are pulling from the `swcarpentry-ja` repo.
+The `--rebase` option is used to make sure your edit is *in addition* to the changes made in the `swcarpentry-ja` repo, and also allows you to prevent unnecessary merge commits, if possible.
+Take a look at this [article](http://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commits-in-git/) and this [article](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/) for more explanation.
 ```
-git add -u
-git commit -m "<replace this commit message with something sensible>"
+git pull --rebase upstream ja
 ```
-7. When you're ready to submit changes, first pull all the changes from the `swcarpentry-ja` repo using the `--rebase` option.
-The `--rebase` option is used to make sure your edit is *in addition* to the changes made in the `swcarpentry-ja` repo, as well as to prevent unnecessary merge commits.
+3. When you are pushing your editing branch for the first time, make sure to set the upstream of the branch to the same name (note that your editing branch will not be on the remote repo when you made it, so you need to push to your remote **and** create that branch):
 ```
-git pull --rebase ja ja
-```
-8. Now push your editing branch to your remote repo (note that your editing branch will not be on the remote when you made it, so you need to push first):
-```
-# Pushing for the first time:
-git push -u origin <branch name>
+# Pushing the editing branch for the first time
+git push -u origin <your branch name>
 
 # Updating for the subsequent changes:
 git pull
 git push
 ```
-9. In GitHub, submit a Pull Request with your editing branch to the `swcarpentry-ja` repo.
-10. When additional changes are requested, repeat steps 6 and 8 in your editing branch - Pull Request will be updated automatically:
+4. When you are making a Pull Request, use your editing branch for it.
+This allows you to edit other files (on a different branch) without adding commits/changes that are not related to your Pull Request.
+For example, if you want to work on different files, either create a new branch or move to a different branch:
 ```
-git add -u
-git commit -m "<replace this commit message with something sensible>"
-git pull
-git push
+# List all branches:
+git branch
+
+# Create another branch to edit a different file:
+git checkout -b <new branch name>
+
+# Go to a diferent branch to work on different edits:
+git checkout <branch name>
 ```
 
 ## Guide for Translators
