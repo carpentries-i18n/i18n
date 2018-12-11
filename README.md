@@ -347,7 +347,7 @@ or update a translation of a lesson in progress.
     a. Clone the swcarpentry-ja lesson with "lesson-name-ja" or create a new lesson repo to (if one does not exist already) to host the translated lessons.
 You can push commit changes to the submodule of the lesson before translation or create a fresh repository with the translated files.
 
-    b. Copy changes from from automatically generated lessons `rsync -u i18n/locale/ja/git-novice/ git-novice-ja`
+    b. Copy changes from from automatically generated lessons `rsync -ur i18n/locale/ja/git-novice/ git-novice-ja`
 
     c. Commit changes and push to GitHub
 
