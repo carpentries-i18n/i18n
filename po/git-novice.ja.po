@@ -810,10 +810,10 @@ msgid ""
 "resulting in different versions of that document. For example, two users can make independent\n"
 "sets of changes on the same document. "
 msgstr ""
-"Once you think of changes as separate from the document itself, you\n"
-"can then think about \"playing back\" different sets of changes on the base document, ultimately\n"
-"resulting in different versions of that document. For example, two users can make independent\n"
-"sets of changes on the same document. "
+"「変更点」と「ドキュメント」を別々の物として見てみると、基礎となるドキュメントに\n"
+"異なる変更点を「再生」する事によって、結果的に違ったバージョンのドキュメントを\n"
+"作る事が可能だという事が分かります。例えば、下の図のように二人のユーザーが同じドキュメントに\n"
+"違った編集を加えた場合です。"
 
 #: git-novice/_episodes/01-basics.md:43
 #: git-novice/_locale/es/_episodes/01-basics.md:37
@@ -822,7 +822,7 @@ msgstr "![Different Versions Can be Saved](../fig/versions.svg)"
 
 #: git-novice/_episodes/01-basics.md:45
 msgid "Unless there are conflicts, you can even incorporate two sets of changes into the same base document."
-msgstr "Unless there are conflicts, you can even incorporate two sets of changes into the same base document."
+msgstr "変更点の衝突（コンフリクト）が無ければ、二つ以上の違った変更点を基礎ドキュメントに加えることができます。"
 
 #: git-novice/_episodes/01-basics.md:47
 #: git-novice/_locale/es/_episodes/01-basics.md:41
@@ -839,18 +839,18 @@ msgid ""
 "a [repository]({{ page.root }}/reference#repository). Repositories can be kept in sync\n"
 "across different computers, facilitating collaboration among different people."
 msgstr ""
-"A version control system is a tool that keeps track of these changes for us,\n"
-"effectively creating different versions of our files. It allows us to\n"
-"decide which changes will be made to the next version (each record of these changes is called a\n"
-"[commit]({{ page.root }}/reference#commit)), and keeps useful metadata about them. The\n"
-"complete history of commits for a particular project and their metadata make up\n"
-"a [repository]({{ page.root }}/reference#repository). Repositories can be kept in sync\n"
-"across different computers, facilitating collaboration among different people."
+"バージョン管理システムは、ユーザーがドキュメントに加えた変更点を記録するツールであり、\n"
+"結果的にドキュメントの違ったバージョンを作成する事ができます。このツールを活用\n"
+"する事によって、次のバージョンに加える変更点（個々の変更点は\n"
+"[「commit（コミット）」]({{ page.root }}/reference#commit)と呼びます）を決める事ができ、変更点に関するメタデータも一緒に保存する事ができます。\n"
+"特定のプロジェクトのコミット履歴とそれに関するメタデータを総じて\n"
+"[「repository（レポジトリ）」]({{ page.root }}/reference#repository)と呼びます。レポジトリは\n"
+"別々のコンピュータと同期させる事が出来るので、他人との共同作業を潤滑に進めることが可能になります。"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/01-basics.md:57
 msgid "> ## The Long History of Version Control Systems"
-msgstr "> ## バージョンコントールシステムの長い歴史"
+msgstr "> ## バージョン管理システムの長い歴史"
 
 #: git-novice/_episodes/01-basics.md:58
 msgid ""
@@ -864,13 +864,13 @@ msgid ""
 "> the same files concurrently."
 msgstr ""
 ">\n"
-"> Automated version control systems are nothing new.\n"
-"> Tools like RCS, CVS, or Subversion have been around since the early 1980s and are used by many large companies.\n"
-"> However, many of these are now considered legacy systems (i.e., outdated) due to various limitations in their capabilities.\n"
-"> More modern systems, such as Git and [Mercurial](https://swcarpentry.github.io/hg-novice/),\n"
-"> are *distributed*, meaning that they do not need a centralized server to host the repository.\n"
-"> These modern systems also include powerful merging tools that make it possible for multiple authors to work on\n"
-"> the same files concurrently."
+"> 自動化されたバージョン管理システムは最近発明されたものではありません。\n"
+"> RCS、CVS、Subversionなどのツールは1980年前半から存在しており、多くの会社に使われていました。\n"
+"> しかし、これらのツールでは出来る事に制限があり、多くはもう時代遅れとされています。\n"
+"> 現代使われているシステム、例えばGitや[Mercurial](https://swcarpentry.github.io/hg-novice/)、は\n"
+"> *分散*されています。というのは、特定のサーバーを必要とせずにシステムをホストする事が出来るという事です。\n"
+"> 現代のシステムには大変便利で効果的な「merge（マージ）」機能が備われており、同じファイルを\n"
+"> 複数人で作業する事が可能になりました。"
 
 # SC/DC Template label
 #: git-novice/_episodes/01-basics.md:66 git-novice/_episodes/02-setup.md:70
@@ -922,7 +922,7 @@ msgstr "{: .callout}"
 # blockquote, which can be cascaded
 #: git-novice/_episodes/01-basics.md:68
 msgid "> ## Paper Writing"
-msgstr "> ## Paper Writing"
+msgstr "> ## 論文を書くにあたって"
 
 #: git-novice/_episodes/01-basics.md:69
 msgid ""
@@ -935,12 +935,12 @@ msgid ""
 ">     `Track Changes` option? Do you have a history of those changes?"
 msgstr ""
 ">\n"
-"> *   Imagine you drafted an excellent paragraph for a paper you are writing, but later ruin it. How would you retrieve\n"
-">     the *excellent* version of your conclusion? Is it even possible?\n"
+"> *   例えば、論文のために数百行書いたとします。しばらくして、間違えてその文章を悪く編集してしまいます。\n"
+">     どうしたら以前書いた文章を取り戻すことができるのでしょう？そもそも、可能なのでしょうか？\n"
 ">\n"
-"> *   Imagine you have 5 co-authors. How would you manage the changes and comments they make to your paper?\n"
-">     If you use LibreOffice Writer or Microsoft Word, what happens if you accept changes made using the\n"
-">     `Track Changes` option? Do you have a history of those changes?"
+"> *   五人の共著者がいるとします。どうやって全員の変更やコメントを管理すれば良いのでしょう？\n"
+">     LibreOffice WriterやMicrosoft Wordの場合、こういった変更やコメントを変更履歴機能で受け入れると\n"
+">     どうなるのでしょう？変更点は記録されるのでしょうか？"
 
 # SC/DC Template label
 #: git-novice/_episodes/01-basics.md:76 git-novice/_episodes/03-create.md:127
