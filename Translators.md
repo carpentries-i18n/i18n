@@ -21,9 +21,9 @@ Members
   * Lesson organiser (R gapminder)
   * GitHub: [@rkkmk](https://github.com/rkkmk)
 
-* [Daichi Saito][arakaki_maki]
+* [Daichi Saito][saito_daichi
   * Lesson contributor (R gapminder)
-  * GitHub: [@rkkmk](https://github.com/DaichiSaitoAF)
+  * GitHub: [@DaichiSaitoAF](https://github.com/DaichiSaitoAF)
   * Twitter: [@daichibaa](http://githut.com/daichibaa)
 
 * [Tomohiro Egawa][egawa_tomohiro]
@@ -48,6 +48,7 @@ Members
 
 * [Koki Mimura][mimura_koki]: Postdoctoral Researcher (Tokyo University of Agriculture and Technology, Tokyo, Japan)
   * Translation contributor and reviewer
+  * GitHub: [@kilometer0101](https://github.com/kilometer0101)
   * Twitter: [@kilometer00](http://twitter.com/kilometer00)
 
 Please include your GitHub account and any other detail that you wish to be public.
