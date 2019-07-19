@@ -22,3 +22,6 @@
 [submodule "po4gitbook"]
 	path = po4gitbook
 	url = https://github.com/swcarpentry-i18n/po4gitbook.git
+[submodule "po/git-novice"]
+	path = po/git-novice
+	url = https://github.com/swcarpentry/git-novice.git
