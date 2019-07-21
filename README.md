@@ -12,18 +12,16 @@ in English and Spanish. We plan for these to be compatible to be hosted along wi
 Software Carpentry website and to maintain updated copies of the Japanese lessons with new releases of the
 English lessons.
 
-## How does this work?
-
-This assumes that you are familiar with using Git and GitHub.
-
 We are translating (and keeping up-to-date) the Software Carpentry lessons, not revising original lesson material.
 If you notice an issue with the lesson materials themselves, please send an issue for pull request to the English lesson materials.
 
-### Installing git
+## About git
+
+This assumes that you are familiar with using Git and GitHub.
 
 If you need help installing git, please see the [guide on installing git](git.md).
 
-### About PO files
+## About PO files
 
 We use [PO files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) for translation, rather than translating the text of each lesson directly. A PO file is a plain text file consisting of multiple entries, where each entry contains a short portion of the original text and its translation. There is one PO file for each original lesson. For example, the [Software Carpentry 'git novice' lesson](https://github.com/swcarpentry/git-novice), which consists of multiple markdown documents, has a single PO file called `git-novice.ja.po` for translating into Japanese.
 
@@ -32,11 +30,11 @@ This way, we can keep track of the original text and know exactly what needs to 
 There are a number of free PO editors: [PoEdit](http://www.poedit.net),
 [GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize), to name a few. We recommend using one of these to edit the PO files.
 
-### Importing a lesson for the first time
+## Importing a lesson for the first time
 
 Lessons are imported as submodules. This only needs to happen once per lesson, so most translators will not need to do this. If you want to import a new lesson, please see the [guide on importing](importing.md).
 
-### Contributing to a translation of an existing lesson
+## Contributing to a translation of an existing lesson
 
 This is the task that we need the most help with from translators!
 
@@ -84,9 +82,9 @@ A few notes:
 
 Editing the PO file will not generate the translated website. That is left to the maintainers, as described in the [guide for maintainers and administrators](admin.md).
 
-If you want to see a translated MD file, run `bash po4gitbook/compile.sh`. This generates a translated version of the lesson with your changes, which you can find at `locale/<lang>/<lesson>`, e.g., `locale/ja/git-novice`.
+If you want to see a translated MD file after editing the PO file, run `bash po4gitbook/compile.sh`. This generates a translated version of the lesson with your changes, which you can find at `locale/<lang>/<lesson>`, e.g., `locale/ja/git-novice`.
 
-### Contributing to translation of an updated lesson with a new release of the main English lessons
+## Contributing to translation of an updated lesson with a new release of the main English lessons
 
 If there is an existing (complete) translation of the lesson but
   there has a new release of the main English lessons, the updated version
@@ -94,7 +92,7 @@ If there is an existing (complete) translation of the lesson but
 
 Please see the [guide on updating lessons](updating.md).
 
-### Resources for translations
+## Resources for translations
 
 Please follow [guidelines for translators](TranslatorGuidelines.md) when editing the lessons.
 
@@ -104,7 +102,7 @@ Please see the [culture notes](CultureNotes.md) for a standardized treatment of 
 
 We have a [change log](ChangeLog.md) to track progress and goals.
 
-### Guide for Maintainers and Administrators
+## Guide for maintainers and administrators
 
 Please see the [guide for maintainers and administrators](admin.md)
 
