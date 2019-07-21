@@ -2,54 +2,35 @@
 
 Please take a look at the [quickstart guide](quickstart.md) if you wish to make small contribution(s).
 
-If you wish to contribute by translating some of the material, please make sure you comply with the [Guideline for Translators](TranslatorGuidelines.md).
+Before translating any material, please make sure you comply with the [Guidelines for Translators](TranslatorGuidelines.md) and read the [Rules of Conduct](rules.md).
 
-## Purpose of this repository
+## Purpose
 
-The repository is intended to host the files and tools need to facilitate translations of the Software Carpentry lessons
-from English into other languages. This repository is intended to merge with the Multi-lingual versions of the lessons
+The repository is intended to host the files and tools need to facilitate translations of the [Software Carpentry](https://software-carpentry.org/) lessons
+from English into other languages (currently we are working on Japanese). This repository is intended to merge with the Multi-lingual versions of the lessons
 in English and Spanish. We plan for these to be compatible to be hosted along with other languages on the main
 Software Carpentry website and to maintain updated copies of the Japanese lessons with new releases of the
-English lessons. Therefore:
-
-* Please do not remove the files for other languages (currently Spanish) from the repository.
-These need to be retained to merge the lessons with the main i18n repository and existing lessons.
-
-* Please do not delete the archived files for translation of previous versions of the English lessons.
-  These will be needed to merge translations with updated English files for future releases of the
-  main Software Carpentry lessons. This means that we will only need to translate updated sections and
-  translations to sections that have not been updated will be migrated to new releases.
-
-* Please only submit changes specific to Japanese language translations to this repository as Pull Requests.
- Please submit issues specific to the English lessons to the main lesson repository. If you have a suggestion
- for a change to the content or examples, we cannot change these in the Japanese lesson and the main lessons
- need to be updated in English. We ask that these changes be raised as an Issue in Japanese rather than a
- Pull Request if you prefer not to submit an Issue or Pull Request in English.
-
-* Please contact us if you wish to join the core translation team. Any contributions to the Japanese lessons
-  are welcome as Pull Requests but please make sure you understand the English version of the lesson if
-  you are able to.
-
-* Please commit and push changes to a fork of the reposiory on your personal GitHub account and
-  submit a Pull Request. In this way, suggested changes can be reviewed and discussed. Please raise
-  any matters that you are unsure of or want help with when submitting a Pull Request.
-
-* Please track changes to all files needed to generate the translated lessons. This way we can combine
-  all changes from contributors and track our progress. All contributions will be attributed to each
-  contributor.
-
-* Please contact us via an Issue if anything is unclear in the guides to set up or use the
-  translation tools in this repository so we can update the README and guides.
-
-* Please commit often and discuss issues on github to ensure that we are not repeating each other.
-
-* Add your name to the translation team if you wish (unless you want to remain anonymous).
+English lessons.
 
 ## How does this work?
 
-### Using git
+This assumes that you are familiar with using Git and GitHub.
+
+We are translating (and keeping up-to-date) the Software Carpentry lessons, not revising original lesson material.
+If you notice an issue with the lesson materials themselves, please send an issue for pull request to the English lesson materials.
+
+### Installing git
 
 If you need help installing git, please see the [guide on installing git](git.md).
+
+### About PO files
+
+We use [PO files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) for translation, rather than translating the text of each lesson directly. A PO file is a plain text file consisting of multiple entries, where each entry contains a short portion of the original text and its translation. There is one PO file for each original lesson. For example, the [Software Carpentry 'git novice' lesson](https://github.com/swcarpentry/git-novice), which consists of multiple markdown documents, has a single PO file called `git-novice.ja.po` for translating into Japanese.
+
+This way, we can keep track of the original text and know exactly what needs to be changed when the original lessons are updated, instead of manually tracking changes.
+
+There are a number of free PO editors: [PoEdit](http://www.poedit.net),
+[GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize), to name a few. We recommend using one of these to edit the PO files.
 
 ### Importing a lesson for the first time
 
@@ -57,10 +38,9 @@ Lessons are imported as submodules. This only needs to happen once per lesson, s
 
 ### Contributing to a translation of an existing lesson
 
-Please see these instructions if you wish to contribute to a translation in progress
-  on the current version the main English lessons. This is for updating or translating
-  sections to a translation in progress. To import updates from a new release of
-  the main English lessons, please see the instructions below.
+This is the task that we need the most help with from translators!
+
+This assumes that the lesson has already been added to the `swcarpentry-ja/i18n` as a submodule as described in the [guide on importing](importing.md), and you would like to contribute translations for that lesson.
 
 1. Create a "Fork" for this repository on your personal GitHub account. (Click "Fork" in the top right
   corner of the `https://github.com/swcarpentry-ja/i18n` webpage)
@@ -74,8 +54,23 @@ git clone git@github.com:GitHubUser/i18n.git
 cd i18n
 ```
 
-If you already have a fork of translation repository, please pull changes for the current
-   version from the organisation repository:
+3. Populate submodules.
+
+```
+git submodule init
+git submodule update
+```
+
+This repository should already contain a translation file for the lesson that you wish to contribute to in the `po` directory `<lesson-name>.<lang>.po` such as `git-novice.ja.po`
+
+```bash
+cd po
+ls git-novice.ja.po
+```
+
+4. Edit the PO files. [As per the guidelines](rules.md), please commit your changes frequently and submit a pull request when you are satisfied with your work.
+
+5. Your PR will be reviewed for accuracy. You may need to make edits so it can pass review. When doing so, always be sure to pull changes from the organisation repository first:
 
 ```
 git checkout ja
@@ -83,31 +78,13 @@ git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
 git pull swc-ja ja
 ```
 
-This repository should already contain a translation file for the lesson that you wish to contribute to
-  in the `po` directory <lesson-name>.<lang>.po such as `git-novice.ja.po`
+Repeat steps 4 and 5 until the PR passes review.
 
-```bash
-cd po
-ls git-novice.ja.po
-```
+A few notes:
 
-3. Add and edit translations to the PO files.
+Editing the PO file will not generate the translated website. That is left to the maintainers, as described in the [guide for maintainers and administrators](admin.md).
 
- - Edit the file with your favourite po editor ([PoEdit](http://www.poedit.net),
- [GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize), ...)
-   Note:
-    - "`Language`" field is needed to add to the header (at least with gtranslator), the rest is put by the tool.
-    - "`Language-Team:`" needs the first letter in upper case (e.g., `Es`)
- - Create `po/LINGUAS`
- - Run `po4gitbook/compile.sh` - This creates a `locale/<lang>/<lesson>` tree directory
-
-This generates a translated version of the lessons with your changes. You can add and commit
-  changes to the PO files and submit changes as a Pull Request on GitHub as described in the
-  "Guide for Translators".
-
- Please do not create a git repository within this repository. You can copy these files to another repository
- as described in the "Guide for Maintainers and Administrators" and submit changes to translated
- lesson repository to update the webpages hosted on GitHub.
+If you want to see a translated MD file, run `bash po4gitbook/compile.sh`. This generates a translated version of the lesson with your changes, which you can find at `locale/<lang>/<lesson>`, e.g., `locale/ja/git-novice`.
 
 ### Contributing to translation of an updated lesson with a new release of the main English lessons
 
@@ -119,15 +96,13 @@ Please see the [guide on updating lessons](updating.md).
 
 ### Resources for translations
 
-Please follow the following Guidelines for translators when editing the lessons:
+Please follow [guidelines for translators](TranslatorGuidelines.md) when editing the lessons.
 
-https://github.com/swcarpentry-ja/i18n/blob/ja/TranslatorGuidelines.md
+There is a [list of technical terms](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms) to refer to for ensuring that terms are consistently used between lessons. Please update and refer to this as needed.
 
-There is a list of technical terms to refer to for ensuring that terms are consistently used between lessons, please update and refer to this as needed:
+Please see the [culture notes](CultureNotes.md) for a standardized treatment of concepts that don't translate literally into Japanese to ensure consistency.
 
-https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms
-
-ChangeLog.md is to track progress and goals. CultureNotes.md is a share record of non-literal translations to ensure consistency.
+We have a [change log](ChangeLog.md) to track progress and goals.
 
 ### Guide for Maintainers and Administrators
 
