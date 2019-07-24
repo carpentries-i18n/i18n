@@ -24,12 +24,12 @@ Members
 * [Daichi Saito][saito_daichi] (Tokyo, Japan)
   * Lesson contributor (R gapminder)
   * GitHub: [@DaichiSaitoAF](https://github.com/DaichiSaitoAF)
-  * Twitter: [@daichibaa](http://githut.com/daichibaa)
+  * Twitter: [@daichibaa](http://github.com/daichibaa)
 
-* [Atsushi Yamamoto][yamamoto_atsushi] (Tokyo, Japan)
+* [Atsushi Yamamoto][yamamoto_atsushi] (Okayama, Japan)
   * Lesson contributor (R gapminder)
-  * GitHub: [@atsusy](https://github.com/atusy)
-  * Twitter: [@Atsushi776](http://githut.com/Atsushi776)
+  * GitHub: [@atusy](https://github.com/atusy)
+  * Twitter: [@Atsushi776](http://github.com/Atsushi776)
 
 * [Kyoko Matsumura][matsumura_kyoko] (Tokyo, Japan)
   * Lesson organiser and moderator (Shell)
