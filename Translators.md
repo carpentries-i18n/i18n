@@ -46,6 +46,11 @@ Members
   * GitHub: [@manabuishii](https://github.com/manabuishii)
   * Twitter: [@manabuishiirb](http://twitter.com/manabuishiirb)
 
+* [Koki Mimura][mimura_koki]: Postdoctoral Researcher (Tokyo University of Agriculture and Technology, Tokyo, Japan)
+  * Advisor on organising events
+  * GitHub: [@kilometer0101](https://github.com/kilometer0101)
+  * Twitter: [@kilometer00](http://twitter.com/kilometer00)
+
 Please include your GitHub account and any other detail that you wish to be public.
 
 * [GivenName FamilyName][family_given]: Job title (Affiliation, location)
