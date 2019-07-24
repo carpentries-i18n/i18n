@@ -4,6 +4,8 @@ Please take a look at the [quickstart guide](quickstart.md) if you wish to make 
 
 Before translating any material, please make sure you comply with the [Guidelines for Translators](TranslatorGuidelines.md) and read the [Rules of Conduct](rules.md).
 
+We encourage translators to [join our slack channel](https://r-wakalang.herokuapp.com/), #swcarpentry in the Tokyo.R workspace. This is a great place to ask any questions you may have about the workflow.
+
 ## Purpose
 
 The repository is intended to host the files and tools need to facilitate translations of the [Software Carpentry](https://software-carpentry.org/) lessons
@@ -36,7 +38,7 @@ Lessons are imported as submodules. This only needs to happen once per lesson, s
 
 ## Contributing to a translation of an existing lesson
 
-This is the task that we need the most help with from translators!
+**This is the task that we need the most help with from translators!**
 
 This assumes that the lesson has already been added to the `swcarpentry-ja/i18n` as a submodule as described in the [guide on importing](importing.md), and you would like to contribute translations for that lesson.
 
