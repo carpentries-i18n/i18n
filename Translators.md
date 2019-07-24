@@ -7,37 +7,37 @@ Team lead (co-ordinator)
 Members
 
 * [Riku Takei][takei_riku]: Assistant Research Fellow (University of Otago, Dunedin, New Zealand)
-  * Lesson organiser and reviewer (Git)
+  * Lesson organiser and moderator (Git)
   * GitHub: [@rikutakei](https://github.com/rikutakei)
   * Twitter: [@rikutakei](http://twitter.com/rikutakei)
   
-* [Joel Nitta][nitta_joel]: Postdoctoral Researcher (National Museum of Nature and Science, Tsukuba, Japan)
-  * Reviewer and technical support
+* [Joel Nitta][nitta_joel]: Postdoctoral Researcher (Smithsonian National Museum of Natural History, Washington DC, USA)
+  * Reveiwer and technical support
   * GitHub: [@joelnitta](https://github.com/joelnitta)
   * Twitter: [@joel_nitta](http://twitter.com/joel_nitta)  
   * [Homepage](https://joelnitta.com)  
 
-* [Maki Arakaki][arakaki_maki]
-  * Lesson organiser (R gapminder)
+* [Maki Arakaki][arakaki_maki] (Tokyo, Japan)
+  * Lesson organiser and moderator (R gapminder)
   * GitHub: [@rkkmk](https://github.com/rkkmk)
 
-* [Daichi Saito][saito_daichi]
+* [Daichi Saito][saito_daichi] (Tokyo, Japan)
   * Lesson contributor (R gapminder)
   * GitHub: [@DaichiSaitoAF](https://github.com/DaichiSaitoAF)
   * Twitter: [@daichibaa](http://githut.com/daichibaa)
 
-* [Atsushi Yamamoto][yamamoto_atsushi]
+* [Atsushi Yamamoto][yamamoto_atsushi] (Tokyo, Japan)
   * Lesson contributor (R gapminder)
   * GitHub: [@atsusy](https://github.com/atusy)
   * Twitter: [@Atsushi776](http://githut.com/Atsushi776)
 
-* [Kyoko Matsumura][matsumura_kyoko]
-  * Lesson organiser (Shell)
+* [Kyoko Matsumura][matsumura_kyoko] (Tokyo, Japan)
+  * Lesson organiser and moderator (Shell)
   * GitHub: [@kyyonko](https://github.com/kyyonko)
   * Twitter: [@kyyonko](http://twitter.com/kyyonko)
 
 * [Kozo Nishida][nishida_kozo]: Technical Scientist (RIKEN BDR, Osaka, Japan) 
-  * Lesson organiser (Python)
+  * Lesson organiser and moderator (Python)
   * GitHub: [@kozo2](https://github.com/kozo2)
   * Twitter: [@kozo2](http://twitter.com/kozo2)
 
@@ -45,7 +45,12 @@ Members
   * Translation contributor and reviewer
   * GitHub: [@manabuishii](https://github.com/manabuishii)
   * Twitter: [@manabuishiirb](http://twitter.com/manabuishiirb)
-
+  
+* [Satoshi Yokota][yokota_sotashi]: Postdoctoral Scholar (Stanford University, School of Medicine, California, USA)
+  * Translation contributor and reviewer
+  * GitHub: [@megane0-0](https://github.com/megane0-0)
+  * Twitter: [@megane0-0](http://twitter.com/megane0-0)
+  
 * [Koki Mimura][mimura_koki]: Postdoctoral Researcher (Tokyo University of Agriculture and Technology, Tokyo, Japan)
   * Advisor on organising events
   * GitHub: [@kilometer0101](https://github.com/kilometer0101)
