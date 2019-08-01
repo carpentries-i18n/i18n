@@ -735,17 +735,17 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"title: バージョン管理システムの自動化\n"
+"title: 自動的なバージョン管理\n"
 "teaching: 5\n"
 "exercises: 0\n"
 "疑問:\n"
 "- \"バージョン管理って何？なんで必要なの？\"\n"
 "目的:\n"
-"- \"自動化されたバージョン管理システムの利点を理解する。\"\n"
+"- \"自動的なバージョン管理システムの利点を理解する。\"\n"
 "- \"Gitの基本を理解する。\"\n"
 "まとめ:\n"
-"- \"バージョン管理とは制限の無い「元に戻す」機能。\"\n"
-"- \"バージョン管理があれば複数人と共同作業ができる。\"\n"
+"- \"バージョン管理とは、制限無く「元に戻す」ことができる機能。\"\n"
+"- \"バージョン管理を使えば、複数の人と同時進行で作業をする事が出来る。\"\n"
 "---"
 
 #: git-novice/_episodes/01-basics.md:15
@@ -757,8 +757,8 @@ msgid ""
 msgstr ""
 "それではまず、どのようにしてバージョン管理システムが\n"
 "「いつ」、「何」を、「誰」が編集したのかを記録・管理しているかを見ていきましょう。\n"
-"他の人と共同作業をしない方でも、\n"
-"自動化されたバージョン管理は以下の状況よりもだいぶ良いはずです："
+"他の人と共同作業をしていなくても、\n"
+"以下の状況に陥るより、自動的なバージョン管理を使うほうが大分良いはずです："
 
 #: git-novice/_episodes/01-basics.md:20
 #: git-novice/_locale/es/_episodes/01-basics.md:20
@@ -768,7 +768,7 @@ msgstr "[![Piled Higher and Deeper by Jorge Cham, http://www.phdcomics.com/comic
 #: git-novice/_episodes/01-basics.md:22
 #: git-novice/_locale/es/_episodes/01-basics.md:22
 msgid "\"Piled Higher and Deeper\" by Jorge Cham, http://www.phdcomics.com"
-msgstr "「高く、深く積み上がる」Jorge Cham 作、http://www.phdcomics.com"
+msgstr "「高く、深く積み上げる」Jorge Cham 作、http://www.phdcomics.com"
 
 #: git-novice/_episodes/01-basics.md:24
 msgid ""
@@ -778,11 +778,11 @@ msgid ""
 "Word's [Track Changes](https://support.office.com/en-us/article/Track-changes-in-Word-197ba630-0f5f-4a8e-9a77-3712475e806a), Google Docs' [version\n"
 "history](https://support.google.com/docs/answer/190843?hl=en), or LibreOffice's [Recording and Displaying Changes](https://help.libreoffice.org/Common/Recording_and_Displaying_Changes)."
 msgstr ""
-"皆さんもこのような経験をされたことがあるはずです。複数の、それもほとんど\n"
-"内容が同じの資料のコピーを保存するのは馬鹿げています。一部のワードプロセッサー、\n"
+"皆さんもこんな経験をされたことがあるはずです。複数の、（それもほとんど\n"
+"内容が同じの）文書のコピーを保存しておくのは馬鹿げたことです。文書作成ソフトの中には、\n"
 "例えばMicrosoft Wordの[変更履歴](https://support.office.com/en-us/article/Track-changes-in-Word-197ba630-0f5f-4a8e-9a77-3712475e806a)、Google Docsの[バージョン履歴]"
-"(https://support.google.com/docs/answer/190843?hl=en)、LibreOfficeの[変更の記録・表示](https://help.libreoffice.org/Common/Recording_and_Displaying_Changes)などは、\n"
-"こういった状況にある程度対応できます。"
+"(https://support.google.com/docs/answer/190843?hl=en)、LibreOfficeの[変更の記録・表示](https://help.libreoffice.org/Common/Recording_and_Displaying_Changes)、\n"
+"こういった状況にある程度うまく対応できるものもあります。"
 
 #: git-novice/_episodes/01-basics.md:30
 msgid ""
@@ -795,8 +795,7 @@ msgstr ""
 "バージョン管理システムは、基礎となるドキュメントを元に、\n"
 "加えられた全ての変更点を記録していきます。ドキュメントの\n"
 "進歩を記録していると考えてもらって構いません。変更点を最初の状況まで\n"
-"巻き戻し、変更点を一つずつ繰り返して一番\n"
-"新しいバージョンまで戻すことも可能です。"
+"戻してから、最新版になるまでの変更を一つずつ再現していくことができます。"
 
 #: git-novice/_episodes/01-basics.md:36
 #: git-novice/_locale/es/_episodes/01-basics.md:33
@@ -810,8 +809,8 @@ msgid ""
 "resulting in different versions of that document. For example, two users can make independent\n"
 "sets of changes on the same document. "
 msgstr ""
-"「変更点」と「ドキュメント」を別々の物として見てみると、基礎となるドキュメントに\n"
-"異なる変更点を「再生」する事によって、結果的に違ったバージョンのドキュメントを\n"
+"「変更点」と「ドキュメント」を別々の物として考えてみると、基礎となるドキュメントに\n"
+"異なる変更点を「再現」する事によって、結果的に違ったバージョンのドキュメントを\n"
 "作る事が可能だという事が分かります。例えば、下の図のように二人のユーザーが同じドキュメントに\n"
 "違った編集を加えた場合です。"
 
@@ -822,7 +821,7 @@ msgstr "![Different Versions Can be Saved](../fig/versions.svg)"
 
 #: git-novice/_episodes/01-basics.md:45
 msgid "Unless there are conflicts, you can even incorporate two sets of changes into the same base document."
-msgstr "変更点の衝突（コンフリクト）が無ければ、二つ以上の違った変更点を基礎ドキュメントに加えることができます。"
+msgstr "変更点の衝突（コンフリクト）が無ければ、二つ以上の違った変更点を基礎ドキュメントに加えることさえできます。"
 
 #: git-novice/_episodes/01-basics.md:47
 #: git-novice/_locale/es/_episodes/01-basics.md:41
@@ -935,7 +934,7 @@ msgid ""
 ">     `Track Changes` option? Do you have a history of those changes?"
 msgstr ""
 ">\n"
-"> *   例えば、論文のために数百行書いたとします。しばらくして、間違えてその文章を悪く編集してしまいます。\n"
+"> *   例えば、論文のために数百行書いたとします。しばらくして、間違えてその文章を編集してしまいます。\n"
 ">     どうしたら以前書いた文章を取り戻すことができるのでしょう？そもそも、可能なのでしょうか？\n"
 ">\n"
 "> *   五人の共著者がいるとします。どうやって全員の変更やコメントを管理すれば良いのでしょう？\n"
