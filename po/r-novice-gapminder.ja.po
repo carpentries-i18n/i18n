@@ -3646,7 +3646,7 @@ msgstr "> データセットをよりよく理解しておくと、データセ�
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:159
 msgid "> will come in handy when making decisions on how to load it in R. Use the command-line"
-msgstr "> 次の疑問に回答するために、シェルのコマンドラインを使いましょう："
+msgstr "> シェルのコマンドラインを使って、次の問題に答えて下さい："
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:160
