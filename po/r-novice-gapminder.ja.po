@@ -3641,7 +3641,7 @@ msgstr "> Rに読み込む前に、コマンドラインから直接、データ
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:158
 msgid "> command line, before loading it into R. Understanding the dataset better"
-msgstr "> データセットをよりよく理解しておくと、データセットをどうRに読み込むか決める際にそれが役に立ちます。"
+msgstr "> データセットをよりよく理解しておくと、データセットをどうRに読み込むか決める際に役に立ちます。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:159
