@@ -3615,7 +3615,7 @@ msgstr "よいディレクトリ構造ができた後は、データファイル
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:147
 msgid "> Download the gapminder data from [here](https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_wide.csv)."
-msgstr "> ギャップマインダーのデータを[ここ](https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_wide.csv)ここからダウンロードしましょう"
+msgstr "> ギャップマインダーのデータを[ここから](https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/gh-pages/_episodes_rmd/data/gapminder_wide.csv)ダウンロードしましょう"
 
 #: r-novice-gapminder/_episodes/02-project-intro.md:148
 msgid ""
