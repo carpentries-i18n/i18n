@@ -3631,7 +3631,7 @@ msgstr ""
 "> 2. 確実に `gapminder_data.csv` という名前で保存しましょう\n"
 "> 3. プロジェクトの中にある `data/` フォルダに保存しましょう\n"
 ">\n"
-"> このデータを後で読み込んで色々見てみます"
+"> このデータは後で読み込んで色々調べます"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:157
