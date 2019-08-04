@@ -3869,7 +3869,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/03-seeking-help.md:33
 msgid "This will load up a help page in RStudio (or as plain text in R by itself)."
-msgstr "これで、RStudioのヘルプページ（Rの場合は、画面に簡素なテキスト）が表示されます"
+msgstr "これで、RStudioにヘルプページ（Rの場合は、画面に簡素なテキスト）が表示されます"
 
 #: r-novice-gapminder/_episodes/03-seeking-help.md:35
 msgid "Each help page is broken down into sections:"
