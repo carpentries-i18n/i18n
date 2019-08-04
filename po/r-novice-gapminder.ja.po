@@ -8,7 +8,9 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-09-15 22:59:57+0900\n"
-"PO-Revision-Date: 2019-08-04 19:19+0900\n"
+<<<<<<< HEAD
+=======
+>>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -926,9 +928,15 @@ msgid ""
 "control and project management."
 msgstr ""
 "このレッスンではRStudioを使います。RStudioは、無料であり、Rを組み込んだオープンソースの\n"
+<<<<<<< HEAD
 "総合開発環境（IDE: Integrated Development Environment）です。RStudioは、全てのプラットフォーム（サーバーも含む）で起動できること、\n"
 "エディタが組み込まれていることや、プロジェクト管理やバージョン管理にも対応しているなど、\n"
 "良いところがいっぱいがあります。"
+=======
+"開発環境です。RStudioには、全てのプラットフォーム（サーバーも含む）で起動できるエディタ\n"
+"エディタが組み込まれていることや、プロジェクト管理やバージョン管理にも対応しているなど、\n"
+"良いところがいっぱいあります。"
+>>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:68
 msgid "**Basic layout**"
@@ -2187,7 +2195,11 @@ msgstr ""
 "> 以外では、２数の比較に決して `==` を使わないこと。\n"
 ">\n"
 "> コンピュータは、小数点以下の数を限られた精度でしか示せません。\n"
+<<<<<<< HEAD
 "> なので、二つの数がRで同じように表示されても\n"
+=======
+"> かもしれません。すると、二つの数がRで同じように表示されても\n"
+>>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 "> 実際は、その背後で異なる形で表されており、したがって\n"
 "> ごくわずかな誤差（機械の数値許容範囲）があるかもしれません。\n"
 ">\n"
@@ -2991,7 +3003,11 @@ msgid ""
 "network). R and RStudio have functionality for managing packages:"
 msgstr ""
 "パッケージを書くか、誰かが書いたパッケージを使って、Rに関数を加えることができます。\n"
+<<<<<<< HEAD
 "今現在CRAN  (the comprehensive R archive network)上にある\n"
+=======
+"今現在CRAN (the comprehensive R archive network)上にある\n"
+>>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 "10,000 を越えるパッケージが使用可能です。RとRStudioには、パッケージを管理する機能があります："
 
 # unordered list
@@ -3010,10 +3026,17 @@ msgid ""
 msgstr ""
 "  `installed.packages()`\n"
 "* パッケージをインストールするには、`install.packages(\"packagename\")`を入力します\n"
+<<<<<<< HEAD
 "  ここで、`packagename`は、用いる引用符付きのパッケージ名です\n"
 "* インストールしたパッケージの更新には、`update.packages()`を入力します\n"
 "* パッケージの削除には、`remove.packages(\"packagename\")`を入力します\n"
 "* 使用できるパッケージを用いるには、`library(packagename)`を入力します"
+=======
+"  ここで、`packagename`は、用いる引用符付きのパッケージ名です。\n"
+"* インストールしたパッケージの更新には、`update.packages()`を入力します。\n"
+"* パッケージの削除には、`remove.packages(\"packagename\")`を入力します。\n"
+"* 使用できるパッケージを用いるには、`library(packagename)`を入力します。"
+>>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:781
