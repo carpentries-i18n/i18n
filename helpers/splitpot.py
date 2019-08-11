@@ -1,6 +1,9 @@
 from argparse import ArgumentParser
+import configparser
 import glob
 from pathlib import Path
+
+# from txclib.commands import _set_source_file
 
 # Input the lesson file that we want to split: splitplot.py lessonX.pot
 
@@ -60,8 +63,8 @@ class Pofiles:
         if not split_directory.is_dir():
             split_directory.mkdir(parents=True)
         # Create a directory for this lessons
-        lesson_directory = split_directory / self.lesson
-        lesson_directory.mkdir()
+        lesson_directory = split_directory / self.lesson / 'pot'
+        lesson_directory.mkdir(parents=True)
         first_blank = self.pot_content.index('\n')
         self.header = self.pot_content[:first_blank + 1]
         all_files = {} # To contain filename: [content]
@@ -83,10 +86,23 @@ class Pofiles:
             with open(lesson_directory / f"{order_file:02d}__{file_sect}.pot", 'w') as section:
                 section.writelines(content_sect)
 
+        # Generate transifex config file
+        tx_dir = lesson_directory.parent / '.tx'
+        tx_dir.mkdir()
+        config = configparser.ConfigParser()
+        config['main'] = {"host": "https://www.transifex.com"}
+        with open(tx_dir / 'config', 'w') as txconf:
+            config.write(txconf)
+        # TODO generate them directly
+        # for pot in pots:
+        #     _set_source_file(tx_dir, self.lesson, 'en', pot)
+
+
+
     def join(self, source_dir, language):
         # TODO check that filenames are there to be joint
         # get all the files on source_dir/*.language.po
-        list_translations = glob.glob(f"{source_dir}/*.{language}.po")
+        list_translations = glob.glob(f"{source_dir}/{language}/*.po")
         list_translations.sort()
         # read them all and join them with a single header # NOTE should we join the header info too? (eg., authors)
         all_content = []
@@ -100,7 +116,7 @@ class Pofiles:
         # path from the original filename
         path_filename = Path(self.filename).parent
         # Write file next to original with the language key.
-        with open(path_filename / f"{self.lesson}.es.po", 'w') as full_translation:
+        with open(path_filename / f"{self.lesson}.{language}.po", 'w') as full_translation:
             full_translation.writelines(all_content)
 
 if __name__ == "__main__":
