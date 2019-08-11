@@ -29,7 +29,7 @@ def main(project):
 
     # Clean repository
     # what's provided by theme
-    dir_remove = ['_layouts', '_includes', '_episodes_rmd', 'assets', 'bin', 'code', 'files']
+    dir_remove = ['_layouts', '_includes', '_episodes_rmd', 'assets', 'bin', 'code'] #, 'files']
     for entry in os.listdir(clone.working_dir):
         if entry in dir_remove and os.path.isdir(os.path.join(clone.working_dir, entry)):
             shutil.rmtree(os.path.join(clone.working_dir, entry))
@@ -75,7 +75,7 @@ def main(project):
     for i, line in enumerate(to_add):
         if line not in contents:
             contents.insert(i+1, line)
-            contents = "".join(contents)
+    contents = "".join(contents)
 
     with open(clone.working_dir + "/aio.md", "w") as f:
         f.write(contents)
@@ -93,11 +93,13 @@ def main(project):
     clone.git.push("topush")
     print(f"Check {myfork.html_url}/settings to see whether page is building OK")
 
+    # TODO remove the repository cloned on /tmp/
+
 
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Cleanup of repository according translation template")
-    parser.add_argument('project', description='org/repo that you want to fork and theme from the carpentries')
+    parser.add_argument('project', help='org/repo that you want to fork and theme from the carpentries')
     arguments = parser.parse_args()
 
     main(arguments.project)
