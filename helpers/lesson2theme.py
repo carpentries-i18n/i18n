@@ -164,9 +164,7 @@ def main(project):
 
     parent.git.add(update=True)
     parent.index.commit(f"Updates {project} to include theme.")
-
-    # TODO remove the repository cloned on /tmp/
-
+    parent.git.push("origin", f"{project}")
 
 
 if __name__ == "__main__":
