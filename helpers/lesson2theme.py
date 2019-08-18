@@ -1,13 +1,22 @@
 from argparse import ArgumentParser
+import glob
 import os
+from pathlib import Path
 import shutil
+import tempfile
 
 from git import Repo
 from github import Github
 from ruamel.yaml import YAML
 
 
-def main(project):
+def clone_repo_as_submodule(org, project, tmpdir='/tmp'):
+    '''
+    org: swcarpentry
+    project: git-novice
+    '''
+
+    tmpdir = Path(tmpdir)
     if os.environ['gh_access_token']:
         g = Github(os.environ['gh_access_token'])
     else:
@@ -17,19 +26,62 @@ def main(project):
     github_user = g.get_user()
 
     # from carpentries URL git repo to new Repo in swc-i18n
-    repo = g.get_repo(project)
+    repo = g.get_repo(f'{org}/{project}')
     # Fork repository
-    sw18n_org = [n for n in github_user.get_orgs() if "i18n" in n.login][0]
-    # doesn't create it if it exists...
-    myfork = sw18n_org.create_fork(repo)
+    carp_18n_org = [n for n in github_user.get_orgs() if "i18n" in n.login][0]
+    # it doesn't create it if it exists.
+    carp_i18n_fork = carp_18n_org.create_fork(repo)
+
+    i18n_local = Repo(".") # FIXME How should I pass the directory?
 
 
+    sm_exists = any(filter(lambda x: f"{project}" in x.name, i18n_local.submodules))
+
+    if sm_exists:
+        return i18n_local, Repo(f"{project}"), carp_i18n_fork, github_user
+
+    # Creates a new branch for keep this lesson changes
+    project_branch = i18n_local.create_head(project)
+    i18n_local.head.reference = project_branch
+    project_sm = i18n_local.create_submodule(project, project, url=carp_i18n_fork.clone_url)
+    project_sm.update()
     # Clone repository
-    clone = Repo.clone_from(myfork.html_url, f'/tmp/{myfork.name}')
+    i18n_local.index.commit(f"Adds {project} submodule.")
+    return i18n_local, Repo(f"{project}"), carp_i18n_fork, github_user
+
+
+def clean_wrong_format(directory):
+
+    files = glob.glob(f"{directory}/**/*md")
+    changes = 0
+    for f in files:
+        with open(f, 'r') as mdfile:
+            all_lines = mdfile.readlines()
+            bad_lines = []
+            for i, line in enumerate(all_lines):
+                if "{:" in line:
+                    # This is to cover whether the line starts with {: or with > {:
+                    if set(all_lines[i-1].split()) == set('>'):
+                           bad_lines.append(i-1)
+        if bad_lines:
+            changes += 1
+            bad_lines.reverse()
+            with open(f, 'w') as mdfile:
+                for bad_line in bad_lines:
+                    all_lines.pop(bad_line)
+                mdfile.writelines(all_lines)
+
+    return changes
+
+
+def themetise_lesson(clone):
+
+    branch_ghpages = clone.create_head("gh_pages_theme")
+    clone.head.reference = branch_ghpages
 
     # Clean repository
     # what's provided by theme
-    dir_remove = ['_layouts', '_includes', '_episodes_rmd', 'assets', 'bin', 'code'] #, 'files']
+    dir_remove = ['_layouts', '_includes', '_episodes_rmd', 'assets', 'bin', 'code', 'css'] #, 'files']
     for entry in os.listdir(clone.working_dir):
         if entry in dir_remove and os.path.isdir(os.path.join(clone.working_dir, entry)):
             shutil.rmtree(os.path.join(clone.working_dir, entry))
@@ -39,7 +91,7 @@ def main(project):
     with open(clone.working_dir + '/_config.yml') as mm:
         config = yaml.load(mm)
 
-    config.insert(1, 'remote_theme', "swcarpentry-i18n/carp-theme", comment="Theme URL")
+    config.insert(1, 'remote_theme', "carpentries-i18n/carp-theme", comment="Theme URL")
 
     elem_remove = ['amy_site', 'carpentries_github', 'carpentries_pages', 'carpentries_site',
                    'dc_site', 'example_repo', 'example_site', 'lc_site', 'swc_github',
@@ -80,18 +132,38 @@ def main(project):
     with open(clone.working_dir + "/aio.md", "w") as f:
         f.write(contents)
 
-
     clone.git.add(update=True)
     clone.index.commit('add bits to _config.yml to allow translations.')
 
 
-    # push repository
-    # add new remote with token
-    new_url = myfork.html_url.replace('://',
-                                      f"://{github_user.login}:{os.environ['gh_access_token']}@")
+def main(project):
+
+    org, project = project.split('/')
+    parent, clone, fork, github_user = clone_repo_as_submodule(org, project)
+    # add new remote with token so we can push
+    new_url = fork.html_url.replace('://',
+                                    f"://{github_user.login}:{os.environ['gh_access_token']}@")
     clone.create_remote("topush", url=new_url)
-    clone.git.push("topush")
-    print(f"Check {myfork.html_url}/settings to see whether page is building OK")
+
+    changes = clean_wrong_format(clone.working_dir)
+    if changes:
+        branch_format = clone.create_head("update_format")
+        clone.head.reference = branch_format
+        clone.git.add(update=True)
+        clone.index.commit(f"[translations] Fixed format that affects translations on {changes} file(s).")
+        clone.git.push("topush", "update_format")
+
+
+    #TODO  Test if builds cleanly.
+
+    themetise_lesson(clone)
+
+    # push repository
+    clone.git.push("topush", "gh_pages_theme:gh-pages")
+    print(f"Check {fork.html_url}/settings to see whether page is building OK")
+
+    parent.git.add(update=True)
+    parent.index.commit(f"Updates {project} to include theme.")
 
     # TODO remove the repository cloned on /tmp/
 
