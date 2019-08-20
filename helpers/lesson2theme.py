@@ -48,7 +48,7 @@ def clone_repo_as_submodule(org, project, tmpdir='/tmp'):
     project_sm.update()
     # Clone repository
     i18n_local.index.commit(f"Adds {project} submodule.")
-    return i18n_local, Repo(f"{project}"), carp_i18n_fork, github_user
+    return i18n_local, Repo(f"{project}"), repo, carp_i18n_fork, project_sm, github_user
 
 
 def clean_wrong_format(directory):
@@ -140,7 +140,7 @@ def themetise_lesson(clone):
 def main(project):
 
     org, project = project.split('/')
-    parent, clone, fork, github_user = clone_repo_as_submodule(org, project)
+    parent, clone, upstream, fork, submod, github_user = clone_repo_as_submodule(org, project)
     # add new remote with token so we can push
     new_url = fork.html_url.replace('://',
                                     f"://{github_user.login}:{os.environ['gh_access_token']}@")
@@ -153,20 +153,27 @@ def main(project):
         clone.git.add(update=True)
         clone.index.commit(f"[translations] Fixed format that affects translations on {changes} file(s).")
         clone.git.push("topush", "update_format")
-
+        # Create PR
+        upstream.create_pull("[translations] Clean lessons to create po files",
+                             "The `po` files are the tokenised version of the lessons. The [tool we are using](https://github.com/carpentries-i18n/po4gitbook) complains if the following *typos* or empty lines at the end of sections are not fixed.",
+                             'gh-pages',
+                             'carpentries-i18n:update_format',
+                             True)
 
     #TODO  Test if builds cleanly.
-
     themetise_lesson(clone)
 
     # push repository
     clone.git.push("topush", "gh_pages_theme:gh-pages")
     print(f"Check {fork.html_url}/settings to see whether page is building OK")
 
-    parent.index.add([project])
+    submod.binsha = submod.module().head.commit.binsha
+    parent.index.add([submod])
     parent.index.commit(f"Updates {project} to include theme.")
     parent.git.push("origin", f"{project}")
 
+    # TODO:
+    # - Create PR with the formatting changes
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="Cleanup of repository according translation template")
@@ -174,3 +181,15 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
 
     main(arguments.project)
+
+    project = project.split('/')[1]
+    print("If successful, run the following:")
+    print(f"1. Generate the po with po4gitbook/update.sh")
+    print(f"2. Break the file into chunks with python helpers/splitpot.py po/{project}.pot")
+    print(f"3. Create a language directory on the transifex lesson directory: e.g., mkdir -p transifex/{project}")
+    print(f"4. Build the transifex lesson: ")
+    print(f"       - cd transifex/{project}/es")
+    print(f"       - tx config mapping-bulk -p {project} --source-language en --type PO -f '.pot' \ ")
+    print("                   --source-file-dir pot --expression \"<lang>/{filename}.po\" --execute ")
+    print(f"5. Create the project {project} in transifex: https://www.transifex.com/carpentries-i18n/add/")
+    print(f"6. Push the project to transifex: tx push -s --parallel")
