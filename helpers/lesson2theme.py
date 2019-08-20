@@ -31,6 +31,7 @@ def clone_repo_as_submodule(org, project, tmpdir='/tmp'):
     carp_18n_org = [n for n in github_user.get_orgs() if "i18n" in n.login][0]
     # it doesn't create it if it exists.
     carp_i18n_fork = carp_18n_org.create_fork(repo)
+    carp_i18n_fork.edit(homepage=f"https://carpentries-i18n.github.io/{project}/")
 
     i18n_local = Repo(".") # FIXME How should I pass the directory?
 
