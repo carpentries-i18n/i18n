@@ -162,7 +162,7 @@ def main(project):
     clone.git.push("topush", "gh_pages_theme:gh-pages")
     print(f"Check {fork.html_url}/settings to see whether page is building OK")
 
-    parent.git.add(update=True)
+    parent.index.add([project])
     parent.index.commit(f"Updates {project} to include theme.")
     parent.git.push("origin", f"{project}")
 
