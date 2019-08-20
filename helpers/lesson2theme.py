@@ -154,6 +154,7 @@ def main(project):
         clone.index.commit(f"[translations] Fixed format that affects translations on {changes} file(s).")
         clone.git.push("topush", "update_format")
         # Create PR
+        # NOTE - this only seem to work on repositories where I have permission.
         upstream.create_pull("[translations] Clean lessons to create po files",
                              "The `po` files are the tokenised version of the lessons. The [tool we are using](https://github.com/carpentries-i18n/po4gitbook) complains if the following *typos* or empty lines at the end of sections are not fixed.",
                              'gh-pages',
@@ -182,13 +183,13 @@ if __name__ == "__main__":
 
     main(arguments.project)
 
-    project = project.split('/')[1]
+    project = arguments.project.split('/')[1]
     print("If successful, run the following:")
     print(f"1. Generate the po with po4gitbook/update.sh")
     print(f"2. Break the file into chunks with python helpers/splitpot.py po/{project}.pot")
-    print(f"3. Create a language directory on the transifex lesson directory: e.g., mkdir -p transifex/{project}")
+    print(f"3. Create a language directory on the transifex lesson directory: e.g., mkdir -p transifex/{project}/es")
     print(f"4. Build the transifex lesson: ")
-    print(f"       - cd transifex/{project}/es")
+    print(f"       - cd transifex/{project}")
     print(f"       - tx config mapping-bulk -p {project} --source-language en --type PO -f '.pot' \ ")
     print("                   --source-file-dir pot --expression \"<lang>/{filename}.po\" --execute ")
     print(f"5. Create the project {project} in transifex: https://www.transifex.com/carpentries-i18n/add/")
