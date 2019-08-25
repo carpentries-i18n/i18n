@@ -6131,7 +6131,7 @@ msgid ""
 "is simpler in some ways than the other types, because you can put anything you\n"
 "want in it:"
 msgstr ""
-"小技袋に入れておきたいと思うはずのもう一つのデータ構造は、 `list` です。\n"
+"覚えておきたいもう一つのデータ構造は、 `list` です。\n"
 "リストは、他の種類よりも、ある意味シンプルです。その理由は、入れたいものを、\n"
 "なんでも入れることができるからです："
 
