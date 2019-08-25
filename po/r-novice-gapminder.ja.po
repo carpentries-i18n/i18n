@@ -3986,7 +3986,7 @@ msgid ""
 msgstr ""
 "関数やパッケージが分からない場合、分野ごとにまとめられたパッケージリストがまとめられている\n"
 "[CRAN Task Views](http://cran.at.r-project.org/web/views)を使うべきです。\n"
-"ここから始めてみましょう。"
+"このページから探し始めるといいかもしれません。"
 
 # header
 #: r-novice-gapminder/_episodes/03-seeking-help.md:92
