@@ -4564,7 +4564,7 @@ msgstr ""
 msgid ""
 "We can begin exploring our dataset right away, pulling out columns by specifying\n"
 "them using the `$` operator:"
-msgstr "演算子 `$` を使って列を指定することで、列を抜き出し、すぐにデータセットを探索し始めることができます："
+msgstr "演算子 `$` を使って列を指定し、列を抜き出すことで、すぐにデータセットの探索を始めることができます："
 
 # code block
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:86
