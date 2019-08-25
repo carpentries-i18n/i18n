@@ -3827,7 +3827,7 @@ msgid ""
 "function, \"function_name\", from a specific function that is in a package loaded into your\n"
 "namespace (your interactive R session):"
 msgstr ""
-"Rには、他のパッケージでもそうですが、関数についてヘルプファイルが用意されています。\n"
+"R、そしてその他のパッケージには、関数のヘルプファイルが用意されています。\n"
 "一般的に関数のヘルプを検索する構文は、（インタラクティブなRセッションで）自分の名前空間に読み込まれた\n"
 "パッケージに存在する特定の関数名、「function_name」を以下のように使って下さい："
 
