@@ -3446,7 +3446,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/02-project-intro.md:81
 msgid "### Treat data as read only"
-msgstr "### データは読み込むだけにしましょう"
+msgstr "### データは読み込み専用にしましょう"
 
 #: r-novice-gapminder/_episodes/02-project-intro.md:83
 msgid ""
