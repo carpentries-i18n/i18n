@@ -3633,7 +3633,7 @@ msgstr ">"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:161
 msgid "> 1. What is the size of the file?"
-msgstr "> 1. ファイルのサイズは何か"
+msgstr "> 1. ファイルのサイズは何ですか？"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:162
