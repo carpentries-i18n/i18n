@@ -4503,7 +4503,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:52
 msgid "We can load this into R via the following:"
-msgstr "これを、以下を使ってRへ読み込ませる："
+msgstr "以下を使って作ったデータをRへ読み込ませることができます："
 
 # code block
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:55
