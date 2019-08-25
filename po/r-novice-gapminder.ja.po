@@ -4933,7 +4933,7 @@ msgid ""
 "Oh no, our weights aren't the double type anymore! If we try to do the same math\n"
 "we did on them before, we run into trouble:"
 msgstr ""
-"なんと。この weight は、double型ではありません。 前にしたのと同じ計算をしようとすると、\n"
+"なんと、この weight はdouble型ではないじゃありませんか！ 前と同じように計算をしようとすると、\n"
 "やっかいなことになります："
 
 # code block
