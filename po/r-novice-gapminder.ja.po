@@ -3768,7 +3768,7 @@ msgid ""
 "> You can quickly open up a shell in RStudio using the **Tools -> Shell...** menu item."
 msgstr ""
 ">\n"
-"> RStudioでは、メニュー項目の**Tools -> Shell...**を使って、シェルを素早く開くことができる。"
+"> RStudioでは、メニュー項目の**Tools -> Shell...**を使って、シェルを素早く開くことができます。"
 
 # header
 #: r-novice-gapminder/_episodes/02-project-intro.md:226
