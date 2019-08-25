@@ -4499,7 +4499,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> あるいは、テキストエディタ（Nano）またはをRStudioのメニューから**File -> New File -> Text File**を使って\n"
-"> `data/feline-data.csv` を作成する。"
+"> `data/feline-data.csv` を作成することができます。"
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:52
 msgid "We can load this into R via the following:"
