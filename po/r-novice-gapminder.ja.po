@@ -4358,7 +4358,7 @@ msgstr "> > `read.table(file, sep=\"\\t\")` を使うことができます。`re
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:262
 msgid "> > separator for `read.table()`, although you may have to change"
-msgstr "> > *デフォルト*となっていますが、`comment.char` の引数を変更する必要があることもあります。"
+msgstr "> > *デフォルト*となっていますが、データにハッシュ（#）の文字がある場合などは、`comment.char` の引数を変更する必要があることもあります。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:263
