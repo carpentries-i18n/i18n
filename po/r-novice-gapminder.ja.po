@@ -5200,7 +5200,7 @@ msgid ""
 msgstr ""
 "ここで`cats$weight` もまたベクトルであることが分かります。 \n"
 "*Rのデータフレームに読み込まれたデータの列は全てベクトル*で、\n"
-"なぜRが、全ての列を同じ基本データ型にするのかの原因です。"
+"Rが全ての列を同じ基本データ型にする理由です。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:447
