@@ -4010,7 +4010,7 @@ msgid ""
 "help you ask a question from your peers:"
 msgstr ""
 "もし答えが見つからない場合、人に質問をする際に\n"
-"使える関数がいくつかあります："
+"役に立つ関数がいくつかあります："
 
 # code block
 #: r-novice-gapminder/_episodes/03-seeking-help.md:103
