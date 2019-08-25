@@ -8179,7 +8179,7 @@ msgid ""
 "Once we're happy that the data types and structures seem reasonable, it's time\n"
 "to start digging into our data proper. Check out the first few lines:"
 msgstr ""
-"データ型と構造は納得できると満足することができたら、データをちゃんと見てみる時間が始まります。\n"
+"データ型と構造に満足することができたら、データを詳しく見始めることができます。\n"
 "最初のいくつかの行を見てみましょう："
 
 # code block
