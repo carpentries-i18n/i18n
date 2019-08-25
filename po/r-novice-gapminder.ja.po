@@ -5811,7 +5811,7 @@ msgstr "## データフレーム"
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:817
 msgid "We said that columns in data.frames were vectors:"
-msgstr "先ほど、お伝えしたとおり、data.framesの列はベクトルです："
+msgstr "先ほどお伝えしたとおり、データフレームの列はベクトルです："
 
 # code block
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:834
