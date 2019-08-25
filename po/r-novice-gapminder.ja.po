@@ -5019,7 +5019,7 @@ msgid ""
 "from our cats data and reload it, while we investigate this behavior further:"
 msgstr ""
 "データをうまくRで使うためには、何が基礎的なデータ構造か、それがどうふるまうか\n"
-"を理解する必要があります。とりあえず、このことを掘り下げるために、あの猫のデータから\n"
+"を理解する必要があります。より理解を深めるために、とりあえず猫のデータから\n"
 "追加した１行を削除し、再読み込みしましょう。"
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:350
