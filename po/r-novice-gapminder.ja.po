@@ -3638,7 +3638,7 @@ msgstr "> 1. ファイルのサイズは何ですか？"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:162
 msgid "> 2. How many rows of data does it contain?"
-msgstr "> 2. 列がいくつあるデータを持っているのか"
+msgstr "> 2. データは何列入っていますか？"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:163
