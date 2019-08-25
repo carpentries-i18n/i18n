@@ -3991,7 +3991,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/03-seeking-help.md:92
 msgid "## When your code doesn't work: seeking help from your peers"
-msgstr "## コードがうまく動かない、つまり人の助けが必要なとき"
+msgstr "## コードがうまく動作しない：人の助けが必要な場合"
 
 #: r-novice-gapminder/_episodes/03-seeking-help.md:94
 msgid ""
