@@ -3643,7 +3643,7 @@ msgstr "> 2. データは何列入っていますか？"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/02-project-intro.md:163
 msgid "> 3. What kinds of values are stored in this file?"
-msgstr "> 3. このファイルには、どのような値が保存されているか"
+msgstr "> 3. ファイルには、どのような値が保存されていますか？"
 
 #: r-novice-gapminder/_episodes/02-project-intro.md:164
 msgid ""
