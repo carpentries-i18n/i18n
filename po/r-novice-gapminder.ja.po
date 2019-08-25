@@ -4097,7 +4097,7 @@ msgid ""
 "have loaded. This can be useful for others to help reproduce and debug\n"
 "your issue."
 msgstr ""
-"これは、現在使っている R のバージョンを、読み込んでいるパッケージと共に表示させるものです。\n"
+"これは、現在使っている R のバージョン、そして読み込まれている全てのパッケージを表示させる関数です。\n"
 "他の人が問題点を再現し、バグを見つける際に、この情報が役立つこともあります。"
 
 #: r-novice-gapminder/_episodes/03-seeking-help.md:148
