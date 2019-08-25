@@ -5131,7 +5131,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:409
 msgid "You can check if something is a vector:"
-msgstr "ベクトルかどうかは："
+msgstr "以下を使えばベクトルかどうかを確かめられます："
 
 # code block
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:412
