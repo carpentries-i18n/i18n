@@ -6219,7 +6219,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1069
 msgid "We can now understand something a bit surprising in our data.frame; what happens if we run:"
-msgstr "ここで、我々のdata.frameの少し驚くことが分かります。もし以下を走らせたらどうなるでしょう："
+msgstr "これで、data.frameの驚くべき特徴を理解することができます。もし以下を走らせたらどうなるでしょう："
 
 # code block
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1072
