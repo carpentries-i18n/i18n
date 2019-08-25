@@ -5199,7 +5199,7 @@ msgid ""
 "a column to be the same basic data type."
 msgstr ""
 "ここで`cats$weight` もまたベクトルであることが分かります。 \n"
-"*Rに読み込んだデータの列data.framesは全てベクトル*で、\n"
+"*Rのデータフレームに読み込まれたデータの列は全てベクトル*で、\n"
 "なぜRが、全ての列を同じ基本データ型にするのかの原因です。"
 
 # blockquote, which can be cascaded
