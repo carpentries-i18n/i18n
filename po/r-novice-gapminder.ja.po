@@ -4009,7 +4009,7 @@ msgid ""
 "If you can't find the answer, there are a few useful functions to\n"
 "help you ask a question from your peers:"
 msgstr ""
-"もし答えが見つからない場合、人に質問するのを助けるときに\n"
+"もし答えが見つからない場合、人に質問をする際に\n"
 "使える関数がいくつかあります："
 
 # code block
