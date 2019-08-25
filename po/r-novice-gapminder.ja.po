@@ -3433,7 +3433,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/02-project-intro.md:76
 msgid "## Best practices for project organization"
-msgstr "## プロジェクト整理の最適なやり方"
+msgstr "## プロジェクト管理の最適なやり方"
 
 #: r-novice-gapminder/_episodes/02-project-intro.md:78
 msgid ""
