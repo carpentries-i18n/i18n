@@ -4028,7 +4028,7 @@ msgid ""
 "Will dump the data you're working with into a format so that it can\n"
 "be copy and pasted by anyone else into their R session."
 msgstr ""
-"これで、使っているデータを誰でもコピー・アンド・ペーストしてRセッションで使える\n"
+"これで、あなたが使っているデータを誰にでもコピー・アンド・ペーストしてRセッションで使える\n"
 "形式に落とすことができます。"
 
 # code block
