@@ -4313,7 +4313,7 @@ msgstr "> 国によって小数点を表す記号（コンマかピリオドか�
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:253
 msgid "> separator is important, especially if you are working with international"
-msgstr "> 特に様々な国の人達と作業をする場合、重要です。"
+msgstr "> 小数点以下を分けている記号をチェックするのは、"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:254
