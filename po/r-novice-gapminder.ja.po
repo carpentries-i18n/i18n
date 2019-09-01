@@ -4318,7 +4318,7 @@ msgstr "> 小数点以下を分けている記号をチェックするのは、"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:254
 msgid "> colleagues, because different countries have different conventions for the"
-msgstr "> その理由は、国によって小数点を表す記号が違う"
+msgstr "> 様々な国の人達と作業をする際など、特に重要になります。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:255
