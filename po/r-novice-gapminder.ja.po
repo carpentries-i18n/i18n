@@ -4557,7 +4557,7 @@ msgstr ""
 "ひとつは、データがコンマで分けられているファイルのための `read.csv` 、\n"
 "データがタブで分けられているファイルのための `read.delim` です。\n"
 "これら３つの関数のうち、`read.csv` が最も広く使われています。\n"
-"必要があれば、 `read.csv` と `read.delim` の両方で、\n"
+"必要であれば、 `read.csv` と `read.delim`、両方の\n"
 "デフォルトの句読記号を置き換えることができます。"
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:82
