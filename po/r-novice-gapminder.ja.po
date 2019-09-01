@@ -4308,7 +4308,7 @@ msgstr "> csv fileファイルからデータを読み込むもので、列が�
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:252
 msgid "> (tab) and the decimal point is a \".\" (period). This check for decimal"
-msgstr "> 小数点は、「.」（ピリオド）となる関数です。この小数点以下を分けてる記号は、"
+msgstr "> 国によって小数点を表す記号（コンマかピリオドか）が違うため、"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:253
