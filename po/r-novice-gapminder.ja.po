@@ -3885,7 +3885,7 @@ msgstr " - See Also（ついでにこっちも）：他に役立ちそうな関�
 # unordered list
 #: r-novice-gapminder/_episodes/03-seeking-help.md:43
 msgid " - Examples: Some examples for how to use the function."
-msgstr " - Examples（例）：関数をどうやって使うかの例"
+msgstr " - Examples（例）：関数の使い方の例"
 
 #: r-novice-gapminder/_episodes/03-seeking-help.md:45
 msgid "Different functions might have different sections, but these are the main ones you should be aware of."
