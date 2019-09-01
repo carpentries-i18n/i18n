@@ -5018,7 +5018,7 @@ msgid ""
 "data structures are, and how they behave. For now, let's remove that extra line\n"
 "from our cats data and reload it, while we investigate this behavior further:"
 msgstr ""
-"データをうまくRで使うためには、何が基礎的なデータ構造か、それがどうふるまうか\n"
+"データをうまくRで使うためには、基礎的なデータ構造、そしてその構造がどう作用するか\n"
 "を理解する必要があります。より理解を深めるために、とりあえず猫のデータから\n"
 "追加した１行を削除し、再読み込みしましょう。"
 
