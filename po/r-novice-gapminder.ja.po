@@ -3985,7 +3985,7 @@ msgid ""
 "fields. This can be a good starting point."
 msgstr ""
 "関数やパッケージが分からない場合、[CRAN Task Views](http://cran.at.r-project.org/web/views)という\n"
-"[CRAN Task Views](http://cran.at.r-project.org/web/views)というページがあります。\n"
+"分野ごとにまとめられたパッケージのリストがあります。\n"
 "このページから探し始めるといいかもしれません。"
 
 # header
