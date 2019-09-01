@@ -4298,7 +4298,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:250
 msgid "> Use help to find a function (and its associated parameters) that you could"
-msgstr "> ある関数（及び関連する母数を）を見つけるために、ヘルプを使いましょう。"
+msgstr "> ヘルプを使って、列が「\t」（タブ）で区切られ、小数点が「．」（ピリオド）で分けられているcsvファイルを読み込む関数（及び関連する母数）を見つけて下さい。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/03-seeking-help.md:251
