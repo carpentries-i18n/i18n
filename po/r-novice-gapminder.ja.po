@@ -5067,7 +5067,7 @@ msgstr "## ベクトル及び型強制"
 msgid ""
 "To better understand this behavior, let's meet another of the data structures:\n"
 "the *vector*."
-msgstr "このふるまいをより理解するために、もう一つのデータ構造*ベクトル*を紹介します。"
+msgstr "この動作をより理解するために、もう一つのデータ構造*ベクトル*を紹介します。"
 
 # code block
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:376
