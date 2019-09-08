@@ -10653,7 +10653,7 @@ msgid ""
 "element corresponds to a column. The resulting object will be a data frame:"
 msgstr ""
 "1つの引数しかない `[` は、リストと同じような働きがあり、それぞれのリストの要素が列に対応します。\n"
-"その結果のオブジェクトは、データフレームになるものです："
+"その結果、返されるオブジェクトはデータフレームになります："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1272
