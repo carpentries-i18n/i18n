@@ -7687,7 +7687,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:368
 msgid "## Appending to a data frame"
-msgstr "## データフレームの追加"
+msgstr "## データフレームへの追加"
 
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:370
 msgid ""
