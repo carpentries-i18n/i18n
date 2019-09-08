@@ -9613,7 +9613,7 @@ msgid ""
 msgstr ""
 "この場合、Rは `c(\"a\", \"c\")` を `names(x)` に合わせるのに必要な分だけ**繰り返します**。つまり、`c(\"a\",\"c\",\"a\",\"c\",\"a\")`となります。\n"
 "再利用された`\"a\"` は、 `names(x)` の３番目の要素と一致しないため、 `!=` の値は、`TRUE` なのです。\n"
-"この場合、長い方のベクトルの長さ（５）は、短い方のベクトルの長さ（２）と一致しないので、Rは、警告メッセージを出力しました。もし、不運なことに、`names(x)` が、６つの要素を持っていたならば、Rは、*ひっそり* 間違った（意図していなかった）ことを行っていたでしょう。この再利用のルールは、見つけるのがとても難しく、とらえがたいバグをもたらすことがあります！"
+"この場合、長い方のベクトルの長さ（５）は、短い方のベクトルの長さ（２）と一致しないので、Rは、警告メッセージを出力しました。もしも運悪く`names(x)` が６つの要素を持っていた場合、Rは*警告せずに* 間違った（意図していなかった）ことを行っていたでしょう。この再利用のルールは、見つけるのがとても難しく、とらえがたいバグをもたらすことがあります！"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:707
 msgid "The way to get R to do what we really want (match *each* element of the left argument with *all* of the elements of the right argument) it to use the `%in%` operator. The `%in%` operator goes through each element of its left argument, in this case the names of `x`, and asks, \"Does this element occur in the second argument?\". Here, since we want to *exclude* values, we also need a `!` operator to change \"in\" to \"not in\":"
