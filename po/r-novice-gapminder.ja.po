@@ -10652,7 +10652,7 @@ msgid ""
 "`[` with one argument will act the same way as for lists, where each list\n"
 "element corresponds to a column. The resulting object will be a data frame:"
 msgstr ""
-"1つの引数しかない `[` は、リストと同じような働きがあります、つまり、それぞれのリストの要素が列に対応します。\n"
+"1つの引数しかない `[` は、リストと同じような働きがあり、それぞれのリストの要素が列に対応します。\n"
 "その結果のオブジェクトは、データフレームになるものです："
 
 # code block
