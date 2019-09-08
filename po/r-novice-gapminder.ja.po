@@ -8473,7 +8473,7 @@ msgstr "## 要素番号で要素を使う"
 msgid ""
 "To extract elements of a vector we can give their corresponding index, starting\n"
 "from one:"
-msgstr "ベクトルの要素を抽出するためには、対応する１から始まる要素番号が使えます："
+msgstr "ベクトルの要素を抽出するためには、対応する１から始まる要素番号を使います："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:62
