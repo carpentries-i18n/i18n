@@ -11144,7 +11144,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/07-control-flow.md:44
 msgid "Say, for example, that we want R to print a message if a variable `x` has a particular value:"
-msgstr "例えば、Rに、もし変数 `x` が、特定の値を持っていた場合、メッセージを表示させたいとします。"
+msgstr "例えばRに、もし変数 `x` が特定の値を持っていた場合、メッセージを表示させたいとします。"
 
 # code block
 #: r-novice-gapminder/_episodes/07-control-flow.md:47
