@@ -9765,7 +9765,7 @@ msgid ""
 msgstr ""
 " * これと同じことを `NaN` 及び `Inf` にするのが `is.nan` 及び `is.infinite` です\n"
 " * `is.finite` は、ベクトル、行列、データフレームで、 全ての`NA`, `NaN` または `Inf`を含まない位置を返します\n"
-" * `na.omit` は、ベクトルから欠損値をフィルターし除きます"
+" * `na.omit` は、ベクトルから欠損値をフィルターし、除きます"
 
 # header
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:785
