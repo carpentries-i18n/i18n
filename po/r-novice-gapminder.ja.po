@@ -9161,7 +9161,7 @@ msgid ""
 "a logical vector `c(FALSE, FALSE, TRUE, FALSE, TRUE)`, and then\n"
 "selects the elements of `x` corresponding to the `TRUE` values."
 msgstr ""
-"分割することで、この宣言は、最初に `x>7` を計算し、論理ベクトル\n"
+"分割すると、この宣言は、最初に `x>7` を計算し、論理ベクトル\n"
 "`c(FALSE, FALSE, TRUE, FALSE, TRUE)` を作ります。それから、\n"
 "`TRUE` の値に対応する `x` 要素を選択します。"
 
