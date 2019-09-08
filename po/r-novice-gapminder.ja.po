@@ -11422,7 +11422,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/07-control-flow.md:196
 msgid "Did anyone get a warning message like this?"
-msgstr "次のようなメッセージをもらった人はいますか。"
+msgstr "次のような警告メッセージをもらった人はいますか？"
 
 # code block
 #: r-novice-gapminder/_episodes/07-control-flow.md:199
