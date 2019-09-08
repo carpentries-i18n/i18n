@@ -10743,7 +10743,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1320
 msgid "With two arguments, `[` behaves the same way as for matrices:"
-msgstr "２つの引数で、 `[` は、行列と同じような働きをします："
+msgstr "２つの引数を使えば、 `[` は、行列と同じような働きをします："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1323
