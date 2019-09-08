@@ -6265,7 +6265,7 @@ msgid ""
 "In our `cats` example, we have an integer, a double and a logical variable. As\n"
 "we have seen already, each column of data.frame is a vector."
 msgstr ""
-"我々の `cats` の例では、整数、浮動小数、論理変数があります。\n"
+"我々の `cats` の例では、整数型（integer）、浮動小数型（double）、論理型（logical）の変数があります。\n"
 "既に見たように、data.frame のそれぞれの列はベクトルです。"
 
 # code block
