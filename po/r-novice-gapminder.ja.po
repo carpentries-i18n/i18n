@@ -11444,7 +11444,7 @@ msgid ""
 "element. Here you need to make sure your condition is of length 1."
 msgstr ""
 "もし、１つ以上の要素を持つベクトルを評価する条件の場合、\n"
-"関数 `if()` は、走りますが、最初の要素の条件だけを評価するでしょう。\n"
+"関数 `if()` は走るのですが、最初の要素の条件しか評価しません。\n"
 "ここでは、確実に条件の長さは１であるようにする必要があります。"
 
 # blockquote, which can be cascaded
