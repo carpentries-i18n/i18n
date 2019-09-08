@@ -6921,7 +6921,7 @@ msgstr "> ## チャレンジ６"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1501
 msgid ">  Create a list of length two containing a character vector for each of the sections in this part of the workshop:"
-msgstr ">  ワークショップのこのあたりで、それぞれのセクションのための文字型ベクトルを含む長さ２のリストを作ってみましょう："
+msgstr ">  ワークショップの現パート、それぞれのセクションのために、二つの文字型ベクトルが含まれるリストを作って下さい："
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1502
 msgid ""
