@@ -8738,7 +8738,7 @@ msgid ""
 "If we use a negative number as the index of a vector, R will return\n"
 "every element *except* for the one specified:"
 msgstr ""
-"もし、負の番号をベクトルの要素番号として使った場合、Rは、指定された番号\n"
+"もし、負の番号をベクトルの要素番号として使った場合、Rは指定された番号\n"
 " *以外の* 全ての要素を返します："
 
 # code block
