@@ -11267,7 +11267,7 @@ msgid ""
 "headaches for beginners. For example:"
 msgstr ""
 "**重要：** Rが `if()` 宣言の中の条件を計算する際、論理要素（ `TRUE` or `FALSE` ）を探します。\n"
-"これが、初心者にとって頭の痛いことをもららすこともあります。例えば："
+"初心者には複雑なので、混乱してしまうかもしれません。例えば："
 
 # code block
 #: r-novice-gapminder/_episodes/07-control-flow.md:114
