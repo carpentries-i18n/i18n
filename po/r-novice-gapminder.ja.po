@@ -11109,7 +11109,7 @@ msgid ""
 "For conditional statements, the most commonly used approaches are the constructs:"
 msgstr ""
 "Rでは、流れを制御する方法がいくつかあります。\n"
-"条件付きの宣言で、最もよく使われる方法は、設計です："
+"条件付きの宣言で、最もよく使われるのが「構文（constructs）」です："
 
 # code block
 #: r-novice-gapminder/_episodes/07-control-flow.md:29
