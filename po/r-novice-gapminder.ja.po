@@ -10141,7 +10141,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:992
 msgid "If you wish to populate the matrix by row, use `byrow=TRUE`:"
-msgstr "もし、行列を、行の順番で埋めていきたい場合は、 `byrow=TRUE` が使えます："
+msgstr "もし、行列を、行の順番で埋めていきたい場合は、 `byrow=TRUE` を使います："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:995
