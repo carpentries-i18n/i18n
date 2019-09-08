@@ -6118,7 +6118,7 @@ msgid ""
 "results of statistical models!"
 msgstr ""
 "ここでは、 \"control\" は１、\"case\" は2で表されるべきであるとRにはっきり示しています。\n"
-"この指定が、統計モデルの結果を解釈する際、とても重要になりえます。"
+"この指定が、統計モデルの結果を解釈する際、とても重要になります。"
 
 # header
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1017
