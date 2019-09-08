@@ -9108,7 +9108,7 @@ msgstr "## 他の論理演算子を使って部分集合を作る"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:404
 msgid "We can also use any logical vector to subset:"
-msgstr "論理ベクトルならどれでも部分集合を作ることができます："
+msgstr "どんな論理ベクトルでも部分集合を作ることができます："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:407
