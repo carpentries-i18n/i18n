@@ -10645,7 +10645,7 @@ msgid ""
 "apply. However they are also two dimensional objects:"
 msgstr ""
 "データフレームの中身は実はリストなので、同じようなルールがあてはまることを覚えておきましょう。\n"
-"しかし、データフレームは、２次元のオブジェクトでもあります。"
+"しかし、データフレームは２次元のオブジェクトでもあります。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1268
 msgid ""
