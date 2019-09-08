@@ -8028,7 +8028,7 @@ msgid ""
 msgstr ""
 "データフレームの次元について見てみることもできます。\n"
 " `str(gapminder)` が、gapminderには、6変数について1704の標本があると言っていたことを念頭に置き、\n"
-"以下から何が出てくると思いますか。それはなぜですか。"
+"以下から何が出てくると思いますか？それはなぜですか？"
 
 # code block
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:560
