@@ -6644,7 +6644,7 @@ msgstr "## 行列"
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1336
 msgid "Last but not least is the matrix. We can declare a matrix full of zeros:"
-msgstr "最後に、重要な、行列を紹介します。全てが０の行列を宣言することができます："
+msgstr "最後に、行列を紹介します。全てが０の行列を宣言できます："
 
 # code block
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1339
