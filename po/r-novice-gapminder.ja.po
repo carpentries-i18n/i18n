@@ -8462,7 +8462,7 @@ msgstr ""
 msgid ""
 "So now that we've created a dummy vector to play with, how do we get at its\n"
 "contents?"
-msgstr "ちょっと触ってみるためのダミーベクトルを作ることができましたので、この中身をどういじってみましょうか。"
+msgstr "ちょっと触ってみるためのダミーベクトルを作ることができたのですが、どうやってベクトルの中身を使うのでしょう？"
 
 # header
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:56
