@@ -8403,7 +8403,7 @@ msgid ""
 "easily perform complex operations on any kind of dataset."
 msgstr ""
 "Rには、かなり使える部分集合の演算子があります。もし、それをマスターできたら、\n"
-"どんなデータセットで複雑な演算をすることも簡単になります。"
+"どんなデータセットにも複雑な演算を簡単にすることができます。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:27
 msgid ""
