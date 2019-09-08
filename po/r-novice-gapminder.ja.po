@@ -11182,7 +11182,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/07-control-flow.md:65
 msgid "The print statement does not appear in the console because x is not greater than 10. To print a different message for numbers less than 10, we can add an `else` statement."
-msgstr "xは、10より大きくないため、表示された宣言は、コンソール上に表示されません。10より小さい場合に、違ったメッセージを表示させるためには、 `else` 宣言をいれなければなりません。"
+msgstr "xは、10より大きくないため、表示された宣言はコンソール上に表示されません。10より小さい場合に違ったメッセージを表示させるためには、 `else` 宣言を追加しなければなりません。"
 
 # code block
 #: r-novice-gapminder/_episodes/07-control-flow.md:68
