@@ -7591,7 +7591,7 @@ msgstr "コンマの後に何もないのは、４番目の行の全部を削除
 msgid ""
 "Note: we could also remove both new rows at once by putting the row numbers\n"
 "inside of a vector: `cats[c(-4,-5), ]`"
-msgstr "注意：ベクトルの中に行番号を入れれば、新しく追加した行の両方を削除することもできました：`cats[c(-4,-5), ]`"
+msgstr "注意：ベクトルの中に行番号を入れれば、新しく追加した行を両方削除することもできす：`cats[c(-4,-5), ]`"
 
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:298
 msgid "Alternatively, we can drop all rows with `NA` values:"
