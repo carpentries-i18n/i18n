@@ -7933,7 +7933,7 @@ msgid ""
 "out what the data looks like with `str`:"
 msgstr ""
 "gapminderを少し見てみましょう。いつも、まずしなければいけないことは、\n"
-"データがどうなっている`str`で見てみることです："
+"データがどうなっているかを`str`で見てみることです："
 
 # code block
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:494
