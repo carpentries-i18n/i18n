@@ -9171,7 +9171,7 @@ msgid ""
 "(remember you have to use `==` rather than `=` for comparisons):"
 msgstr ""
 "名前で特定するという既出の方法を真似するため、 `==` を使うこともできます。\n"
-"（比較には、 `=` ではなく、 `==` を使わないといけなかったですよね）："
+"（比較には、 `=` ではなく、 `==` を使わないといけません）："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:446
