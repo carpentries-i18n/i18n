@@ -10110,7 +10110,7 @@ msgid ""
 "are laid out in *column-major format* by default. That is the elements of the\n"
 "vector are arranged column-wise:"
 msgstr ""
-"これは、普通、役に立たず、読むのがわずらわしいです。しかし、行列は *列順序（column-major format）* で\n"
+"これは、普段使うには役に立たず、読むときにも混乱を招きます。ですが、行列は *列順序（column-major format）* で\n"
 "デフォルトは配置されることに注意しておくといいでしょう。つまり、ベクトルの要素は、列にある順番で配置されています。"
 
 # code block
