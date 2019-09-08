@@ -7742,7 +7742,7 @@ msgstr ""
 msgid ""
 "But now the row names are unnecessarily complicated. We can remove the rownames,\n"
 "and R will automatically re-name them sequentially:"
-msgstr "しかし、いまや行の名前は必要以上に複雑です。この列名を削除することができ、そうするとRは自動的に連続する名称をつけます。"
+msgstr "しかし、いまや行の名前は必要以上に複雑です。この列名は削除することができます。削除すると、Rは自動的に連続する名称をつけます。"
 
 # code block
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:399
