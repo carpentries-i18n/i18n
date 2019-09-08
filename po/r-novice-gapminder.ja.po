@@ -8047,7 +8047,7 @@ msgid ""
 "number of rows it has (1704), but this is not the case; remember, a data frame\n"
 "is a *list of vectors and factors*:"
 msgstr ""
-"うまい予想は、データフレームの長さは行数（1704）だとするものですが、実はそうではありません。\n"
+"予想としては、データフレームの長さは行数（1704）だと思うものですが、実はそうではありません。\n"
 "データフレームは、*ベクトルと順序なし因子型のリストである*ということを思い出しましょう："
 
 # code block
