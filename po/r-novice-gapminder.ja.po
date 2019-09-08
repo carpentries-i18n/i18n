@@ -11099,7 +11099,7 @@ msgid ""
 "by setting actions to occur only if a condition or a set of conditions are met.\n"
 "Alternatively, we can also set an action to occur a particular number of times."
 msgstr ""
-"コードを書くとき、実行の流れを制御したくなります。\n"
+"コードを書く際、実行の流れを制御する必要がよくあります。\n"
 "これは、ある条件、または一連の条件が満たされたときに、実行されるようにすればできます。\n"
 "あるいは、決まった回数実行されるよう設定することもできます。"
 
