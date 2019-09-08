@@ -9617,7 +9617,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:707
 msgid "The way to get R to do what we really want (match *each* element of the left argument with *all* of the elements of the right argument) it to use the `%in%` operator. The `%in%` operator goes through each element of its left argument, in this case the names of `x`, and asks, \"Does this element occur in the second argument?\". Here, since we want to *exclude* values, we also need a `!` operator to change \"in\" to \"not in\":"
-msgstr "Rに本当にやってもらいたいこと（左の引数の *それぞれの* 要素を、右の引数の要素の *全て* にマッチさせこと）を、してもらうには、 `%in%` 演算子を使う必要があります。`%in%` 演算子は、左の引数のそれぞれの要素、ここでは `x` の名前にひとつづつ 「この要素は、２番目の引数にあるかな」と尋ねていきます。ここで、値を *除く* ため、「中にある（in）」を「中にない（not in）」に変える `!` 演算子が必要です。"
+msgstr "Rに本当にやってもらいたいこと（左の引数の *それぞれの* 要素を、右の引数の要素の *全て* にマッチさせこと）をしてもらうには、 `%in%` 演算子を使う必要があります。`%in%` 演算子は、左の引数のそれぞれの要素、ここでは `x` の名前にひとつづつ 「この要素は、２番目の引数にあるかな」と尋ねていきます。ここで、値を *除く* ため、「中にある（in）」を「中にない（not in）」に変える `!` 演算子が必要です。"
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:710
