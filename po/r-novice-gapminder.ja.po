@@ -11568,7 +11568,7 @@ msgstr " `1:10` の部分は、ベクトルをその場で作るもので、他�
 msgid ""
 "We can use a `for()` loop nested within another `for()` loop to iterate over two things at\n"
 "once."
-msgstr " `for()` ループを、もうひとつの `for()` ループと入れ子となる形にして、２つのことを同時に繰り返すこともできます。"
+msgstr " `for()` ループを、もうひとつの `for()` ループと入れ子となる形にすれば、２つのことを同時に繰り返すこともできます。"
 
 # code block
 #: r-novice-gapminder/_episodes/07-control-flow.md:271
