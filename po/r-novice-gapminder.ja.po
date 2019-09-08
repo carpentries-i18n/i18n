@@ -9098,7 +9098,7 @@ msgid ""
 "subsetting operations, but the names will always remain the same!"
 msgstr ""
 "オブジェクトの部分集合を作るには、この方法の方が確実なやり方です：要素の場所は、\n"
-"部分集合の演算子を繋いで使うことで、よく変わります。\n"
+"部分集合の演算子を繋いで使うことでよく変わるのですが。\n"
 "でも、名前はいつも同じです！"
 
 # header
