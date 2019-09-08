@@ -7513,7 +7513,7 @@ msgid ""
 "first attempt to add a \"tortoiseshell\" cat to the data frame we have accidentally\n"
 "added a garbage row:"
 msgstr ""
-"Rのデータフレームに行列を加える方法は分かりましたが、「錆」猫データフレームに加える最初の試みで、\n"
+"Rのデータフレームに行列を加える方法は分かりましたが、猫データフレームに\"tortoiseshell\"を加える最初の試みで、\n"
 "うっかり不要な行を加えてしまいました。"
 
 # code block
