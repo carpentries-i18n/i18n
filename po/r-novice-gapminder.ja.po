@@ -9516,7 +9516,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:639
 msgid "Skipping multiple named indices is a little bit harder still. Suppose we want to drop the `\"a\"` and `\"c\"` elements, so we try this:"
-msgstr "複数の名前のある要素番号を飛ばすことは、それでも少し難しくなります。`\"a\"` と`\"c\"` の要素を削除したいとき、これを試してみます："
+msgstr "複数の名前のある要素番号を飛ばすことは、少しですが、さらに難しくなります。`\"a\"` と`\"c\"` の要素を削除したいとき、以下を試したとしましょう："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:642
