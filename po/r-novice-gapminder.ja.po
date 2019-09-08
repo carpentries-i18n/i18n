@@ -7157,7 +7157,7 @@ msgid ""
 "new column, we can start by making a new vector:"
 msgstr ""
 "既に学んだとおり、データフレームの列はベクトルですから、列にあるデータには一貫性があります。\n"
-"ですので、新しい列を加えたい場合は、新しいベクトルを作ることあら始めることになります："
+"ですので、新しい列を加えたい場合は、新しいベクトルを作ることから始めることになります："
 
 # code block
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:44
