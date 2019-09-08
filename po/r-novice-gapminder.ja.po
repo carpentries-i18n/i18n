@@ -11471,7 +11471,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/07-control-flow.md:218
 msgid "## Repeating operations"
-msgstr "## 繰り返し処理"
+msgstr "## 繰り返し行う処理"
 
 #: r-novice-gapminder/_episodes/07-control-flow.md:220
 msgid ""
