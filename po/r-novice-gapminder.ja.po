@@ -7695,7 +7695,7 @@ msgid ""
 "vectors and rows are lists.* We can also glue two data frames\n"
 "together with `rbind`:"
 msgstr ""
-"データフレームんデータを加えるときに覚えておくべき重要なことは、*列は、ベクトルで、行はリスト* であることです。\n"
+"データフレームにデータを加えるときに覚えておくべき重要なことは、*列はベクトルで、行はリスト* であることです。\n"
 "２つのデータフレームを `rbind` を使ってくっつけることもできます："
 
 # code block
