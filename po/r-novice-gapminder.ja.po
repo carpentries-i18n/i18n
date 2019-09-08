@@ -9549,7 +9549,7 @@ msgstr "Rは *何か* をしたのですが、私達が注目しなければな�
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:665
 msgid "So what does `!=` actually do in this case? That's an excellent question."
-msgstr "ではいったい、 `!=` は、ここで実際に何をしたのでしょう。これは非常に素晴らしい質問です。"
+msgstr "ではいったい、 `!=` は、ここで実際に何をしたのでしょう。これは素晴らしい質問です。"
 
 # header
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:667
