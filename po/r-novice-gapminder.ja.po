@@ -10779,7 +10779,7 @@ msgid ""
 "the elements are mixed types):"
 msgstr ""
 "もし、１つの行を部分集合する場合、結果はデータフレームになります\n"
-"（理由は、要素には色々な型があるからです）："
+"（理由は、要素には色々なデータ型が混ざっているからです）："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1342
