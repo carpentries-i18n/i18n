@@ -9591,7 +9591,7 @@ msgid ""
 msgstr ""
 "Rは、`names(x)[3] != \"c\"` が明らかに間違いであるときに、このベクトルの３番目の要素として、なぜ`TRUE` にしたのでしょうか。\n"
 "`!=` を使うとき、Rは、左側の引数のそれぞれの要素を、右側のそれぞれの要素と比較しようとします。\n"
-"違う長さのベクトルを比較しようとすると、何が起こるでしょうか？"
+"違う長さのベクトルを比較しようとすると、何が起こるのでしょう？"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:697
 msgid "![Inequality testing](../fig/06-rmd-inequality.1.png)"
