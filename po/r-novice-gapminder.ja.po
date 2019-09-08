@@ -10778,7 +10778,7 @@ msgid ""
 "If we subset a single row, the result will be a data frame (because\n"
 "the elements are mixed types):"
 msgstr ""
-"もし、１つの行を部分集合とする場合、結果は、データフレームになります\n"
+"もし、１つの行を部分集合する場合、結果はデータフレームになります\n"
 "（理由は、要素には色々な型があるからです）："
 
 # code block
