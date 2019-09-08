@@ -8026,7 +8026,7 @@ msgid ""
 "remembering that `str(gapminder)` said there were 1704 observations of 6\n"
 "variables in gapminder, what do you think the following will produce, and why?"
 msgstr ""
-"データフレームを、その次元についての情報のために、色々見てみることもできます。\n"
+"データフレームの次元について見てみることもできます。\n"
 " `str(gapminder)` が、gapminderには、6変数について1704の標本があると言っていたことを念頭に置き、\n"
 "以下から何が出てくると思いますか。それはなぜですか。"
 
