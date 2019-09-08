@@ -11650,7 +11650,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/07-control-flow.md:311
 msgid "Rather than printing the results, we could write the loop output to a new object."
-msgstr "結果を表示させずに、ループの結果を新しいオブジェクトとして書くこともできました。"
+msgstr "結果を表示させずに、ループの結果を新しいオブジェクトとして書くこともできます。"
 
 # code block
 #: r-novice-gapminder/_episodes/07-control-flow.md:314
