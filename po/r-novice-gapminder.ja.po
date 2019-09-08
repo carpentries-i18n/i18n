@@ -11466,7 +11466,7 @@ msgstr ""
 "> そうでない場合は、 `FALSE` を返します。\n"
 "> これは、 `%in%` 演算子でも同様に使えます。\n"
 "> 関数 `all()` は、その名前が示唆しているように、ベクトル内の全ての値が `TRUE` である時のみ、\n"
-"> ベクトルは `TRUE` となります。"
+"> `TRUE` となります。"
 
 # header
 #: r-novice-gapminder/_episodes/07-control-flow.md:218
