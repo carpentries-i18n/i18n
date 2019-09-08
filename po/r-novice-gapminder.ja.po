@@ -11700,7 +11700,7 @@ msgid ""
 msgstr ""
 "このアプローチが役に立つこともありますが、'結果を太らせる' （結果のオブジェクトを\n"
 "段々積み上げる）と、演算する上で非効率になります。\n"
-"ゆえに、多くの値の間、繰り返すときは、避けましょう。"
+"ゆえに、多くの値の間を繰り返すときは避けましょう。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/07-control-flow.md:339
