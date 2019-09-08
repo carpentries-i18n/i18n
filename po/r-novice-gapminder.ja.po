@@ -8456,7 +8456,7 @@ msgid ""
 "> In R, simple vectors containing character strings, numbers, or logical values are called *atomic* vectors because they can't be further simplified."
 msgstr ""
 ">\n"
-"> Rでは、文字列、数値、論理値を含む単純なベクトルは、*原子（atomic）* ベクトルと呼ばれています。その理由は、それ以上、単純化できないベクトルだからです。"
+"> Rでは、文字列、数値、論理値を含む単純なベクトルは、*原子（atomic）* ベクトルと呼ばれています。その理由は、原子ベクトルはそれ以上単純化できないからです。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:53
 msgid ""
