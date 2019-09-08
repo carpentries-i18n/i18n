@@ -6859,7 +6859,7 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}\n"
 "> >\n"
-"> > 行列は、属性の次元が追加されたベクトルですから、`length`は、\n"
+"> > 行列は、次元が追加されたベクトルですので、`length`は\n"
 "> > 行列の総要素数を教えてくれます。"
 
 #: r-novice-gapminder/_episodes/04-data-structures-part1.md:1473
