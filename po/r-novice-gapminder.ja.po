@@ -9599,7 +9599,7 @@ msgstr "![Inequality testing](../fig/06-rmd-inequality.1.png)"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:699
 msgid "When one vector is shorter than the other, it gets *recycled*:"
-msgstr "もし、もう一つのベクトルよりも短いベクトルがあったとき、そのベクトルは、*再利用されます*："
+msgstr "もし、もう一つのベクトルよりも短いベクトルがあったとき、そのベクトルは*再利用されます*："
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:701
 msgid "![Inequality testing: results of recycling](../fig/06-rmd-inequality.2.png)"
