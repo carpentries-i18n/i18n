@@ -7486,7 +7486,7 @@ msgstr "> 2. `human_age`を順序なし因子型に変換しましょう"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:241
 msgid "> 3. Convert `human_age` back to a numeric vector using the `as.numeric()` function. Now divide it by 7 to get the original ages back. Explain what happened."
-msgstr "> 3. `human_age` を、`as.numeric()` 関数を用いて、数値型に戻しましょう。そして、もともとの年に戻すために７で割りましょう。何が起こるでしょうか。"
+msgstr "> 3. `human_age` を、`as.numeric()` 関数を用いて、数値型に戻しましょう。そして、もともとの年に戻すために７で割りましょう。何が起こったか説明して下さい。"
 
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:242
 msgid ""
