@@ -7630,7 +7630,7 @@ msgstr "## 列の削除  "
 
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:327
 msgid "We can also remove columns in our data frame. What if we want to remove the column \"age\". We can remove it in two ways, by variable number or by index.  "
-msgstr "データフレームの中で、列を削除することもできます。列「age」を削除したい場合はどうなるでしょう。この場合、要素番号か見出しを使う２つの方法があります。"
+msgstr "データフレームから列を削除することもできます。列「age」を削除したい場合、どうすれば削除できるのでしょう。この場合、要素番号か見出しを使う２つの方法があります。"
 
 # code block
 #: r-novice-gapminder/_episodes/05-data-structures-part2.md:330
