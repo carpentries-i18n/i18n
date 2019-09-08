@@ -9545,7 +9545,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:663
 msgid "R did *something*, but it gave us a warning that we ought to pay attention to - and it apparently *gave us the wrong answer* (the `\"c\"` element is still included in the vector)!"
-msgstr "Rは *何か* をしましたが、注意しなければいけないという警告を出し、その結果はどうやら、*間違った回答*（`\"c\"` の要素が、ベクトルに含まれている）のようです！"
+msgstr "Rは *何か* をしたのですが、私達が注目しなければならない警告も出しました。結果としては、どうやら *間違った回答* が帰ってきたみたいです（`\"c\"` の要素が、ベクトルに含まれています）！"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:665
 msgid "So what does `!=` actually do in this case? That's an excellent question."
