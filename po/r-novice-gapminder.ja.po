@@ -20025,12 +20025,12 @@ msgstr "## プロジェクトフォルダーを構造化する"
 
 #: r-novice-gapminder/_episodes/16-wrap-up.md:24
 msgid "Keep your project folder structured, organized and tidy, by creating subfolders for your code files, manuals, data, binaries, output plots, etc. It can be done completely manually, or with the help of RStudio's `New Project` functionality, or a desginated package, such as `ProjectTemplate`."
-msgstr "プロジェクトフォルダーを、コードファイル、マニュアル、データ、バイナリー、プロットの出力などのサブフォルダーを作ることで、構造化し、整理し、片づいた形にしておきましょう。全部、手作業でできますが、RStudioの `New Project` 機能、または、`ProjectTemplate` のように、その目的で作られたパッケージの助けを借りることもできます。"
+msgstr "プロジェクトフォルダーを、コードファイル、マニュアル、データ、バイナリー、プロットの出力などのサブフォルダーを作ることで、構造化し、整理し、片づけておきましょう。全部手作業でできますが、RStudioの `New Project` 機能、または、`ProjectTemplate` のように、その目的で作られたパッケージの助けを借りることもできます。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/16-wrap-up.md:26
 msgid "> ## Tip: ProjectTemplate - a possible solution"
-msgstr "> ## ヒント：ProjectTemplateという使える解決策"
+msgstr "> ## ヒント：解決策の一つ：ProjectTemplate"
 
 #: r-novice-gapminder/_episodes/16-wrap-up.md:27
 msgid ""
@@ -20056,10 +20056,10 @@ msgid ""
 "> home page [ProjectTemplate](http://projecttemplate.net/index.html)"
 msgstr ""
 ">\n"
-"> プロジェクトの管理を自動化する方法のひとつは、第三者パッケージである `ProjectTemplate` をインストールする方法です。\n"
+"> プロジェクトの管理を自動化する方法のひとつは、第三者パッケージである `ProjectTemplate` をインストールすることです。\n"
 "> このパッケージは、プロジェクト管理に理想的なディレクトリ構造を作成します。\n"
 "> 自分の分析パイプライン（またはワークフロー）が整理、構造化されるので、これはとても役に立ちます。\n"
-"> RStudioのデフォルトプロジェクト機能とGitでも、自分の作業の履歴を保存し、他の共同作業者と作ったものをシェアできます。\n"
+"> RStudioのデフォルトプロジェクト機能とGitと組み合わせれば、自分の作業の履歴を保存し、他の共同作業者とシェアすることもできます。\n"
 ">\n"
 "> 1. `ProjectTemplate` をダウンロードする\n"
 "> 2. ライブラリを読み込む\n"
@@ -20072,8 +20072,8 @@ msgstr ""
 "> create.project(\"../my_project\", merge.strategy = \"allow.non.conflict\")\n"
 "> ```\n"
 ">\n"
-"> ProjectTemplate及びその機能についてのについての更なる情報は、\n"
-"> 次のホームページから入手可能です [ProjectTemplate](http://projecttemplate.net/index.html)"
+"> ProjectTemplate及びその機能についての更なる情報は、\n"
+"> 次のホームページから入手可能です： [ProjectTemplate](http://projecttemplate.net/index.html)"
 
 # header
 #: r-novice-gapminder/_episodes/16-wrap-up.md:50
@@ -20087,15 +20087,15 @@ msgid ""
 "what it does: more often than not this someone will be you 6 months down the line,\n"
 "who will otherwise be cursing past-self."
 msgstr ""
-"コードを書く際に一番重要なのが、それが読めて理解できるようにすることです。\n"
-"他の誰が自分のコードを取り上げ、何をするものか理解してほしいと思うでしょう。\n"
-"多くの場合、この誰かさんは、6か月後の自分で、もしコードが読めない、\n"
+"コードを書く際に一番重要なのが、読みやすくて理解のしやすくすることです。\n"
+"他の誰が自分のコードを取り上げ、何をするものかを理解してもらわなければなりません。\n"
+"多くの場合、この誰かさんは、6か月後の自分なので、もしコードが読めない、\n"
 "理解できない場合は、昔の自分に悪態をつくことになるでしょう。"
 
 # header
 #: r-novice-gapminder/_episodes/16-wrap-up.md:57
 msgid "## Documentation: tell us what and why, not how"
-msgstr "## 文書化：何、なぜ、どのようにを伝えて下さい"
+msgstr "## 文書化：「どうやって」ではなく「なぜ」を伝えて下さい"
 
 #: r-novice-gapminder/_episodes/16-wrap-up.md:59
 msgid ""
@@ -20107,11 +20107,11 @@ msgid ""
 "that is. The *how* can come after that: it's an implementation detail you ideally\n"
 "shouldn't have to worry about."
 msgstr ""
-"初めて始めたばかりのころは、コメントには、そのコマンドが何をするかを記したものが多いです。\n"
+"初めのころは、コメントにそのコマンドが何をするかを記したものが多いはずです。\n"
 "なぜならば、学び始めたばかりで、概念をはっきりさせるのに役立ち、後で思い出せるからです。\n"
 "しかしながら、後々、それらのコメントは、コードがどんな問題を解決しようとしていたのかを思い出そうと\n"
-"する際、そんなに役に立ちません。 自分は*何* の問題を、 *なぜ* 解こうとしているのかも、コメントに含めるようにしましょう。\n"
-"*どのように* については、その後の話です。導入の詳細は、理想的にはそこまで心配する必要はありません。"
+"する際には役に立ちません。 自分は*何* の問題を、 *なぜ* 解こうとしているのかを、コメントに含めるようにしましょう。\n"
+"*どうやって* 問題を解いたのかについては、その後の話です。導入の詳細は、理想的にはそこまで心配する必要はありません。"
 
 # header
 #: r-novice-gapminder/_episodes/16-wrap-up.md:67
@@ -20127,11 +20127,11 @@ msgid ""
 "loaded into any analysis script in your project. It also lets you group related\n"
 "functions together easily."
 msgstr ""
-"おすすめは、関数を分析スクリプトと分けておｋ、別のファイルに保存しておき、\n"
-"プロジェクトでRのセッションを開いたときに、 `source` することです。\n"
-"このアプローチを取ると、分析スクリプトがちらからず、プロジェクトにある、どの分析スクリプトでも\n"
-"使える関数の貯蔵庫ができるので、良いと思います。\n"
-"また、同じような関数をまとめるが簡単になります。"
+"関数を分析スクリプトと分けて、別のファイルに保存しておき、\n"
+"プロジェクトでRのセッションを開いたときに、 `source` することをオススメします。\n"
+"このアプローチを取ると、分析スクリプトに無駄がなくなり、プロジェクト内のどの分析スクリプトでも\n"
+"使える関数をストックする場所ができるので、便利です。\n"
+"また、同じような関数をまとめるのが簡単になります。"
 
 # header
 #: r-novice-gapminder/_episodes/16-wrap-up.md:76
@@ -20146,25 +20146,25 @@ msgid ""
 "keep breaking down the problem into smaller and smaller functions until you\n"
 "reach a point where you can code a solution, and build back up from there."
 msgstr ""
-"初めて始めたときは、問題解決と関数の記述は、気が滅入るタスクで、\n"
-"コードの経験不足から分けることができないと思うかもしれません。問題を消化できる塊に分け、\n"
-"導入の詳細についての心配は、後回しにしましょう：\n"
-"問題を、解決方法をコード化できるまで、どんどん小さい関数に分けていきしましょう。\n"
-"そして、そこからまた積み上げるのです。"
+"初めは、問題解決と関数の記述は気が滅入るタスクで、\n"
+"コードの経験不足とは別の問題として分けることができないと思うかもしれません。問題を消化できる塊に分け、\n"
+"導入の詳細についての心配は後回しにしましょう：\n"
+"問題をコードで解決できるまで、どんどん小さい関数に分けていきしましょう。\n"
+"そして、解決されたものを積み上げていけば、問題を解決できるでしょう。"
 
 # header
 #: r-novice-gapminder/_episodes/16-wrap-up.md:84
 msgid "## Know that your code is doing the right thing"
-msgstr "## コードが正しいことをしていること知りましょう"
+msgstr "## コードが正しいことをしているか確かめましょう"
 
 #: r-novice-gapminder/_episodes/16-wrap-up.md:86
 msgid "Make sure to test your functions!"
-msgstr "関数をテストすることを、くれぐれも忘れないように。"
+msgstr "関数をテストすることを、くれぐれも忘れないように！"
 
 # header
 #: r-novice-gapminder/_episodes/16-wrap-up.md:88
 msgid "## Don't repeat yourself"
-msgstr "## 同じことを繰り返さないようにしましょう！"
+msgstr "## 同じことを繰り返さないようにしましょう"
 
 #: r-novice-gapminder/_episodes/16-wrap-up.md:90
 msgid ""
@@ -20172,8 +20172,8 @@ msgid ""
 "lines of code through your project, those are usually candidates for being\n"
 "moved into functions."
 msgstr ""
-"関数は、プロジェクトの中で簡単に再利用できます。もし、プロジェクトで、同じようなコードの行の塊を\n"
-"見つけたら、大抵、それが関数に移す候補たちです。"
+"関数は、プロジェクトの中で簡単に再利用できます。もし、プロジェクトで同じようなコードの行の塊を\n"
+"見つけたら、それらを関数に移す候補にしましょう。"
 
 #: r-novice-gapminder/_episodes/16-wrap-up.md:94
 msgid ""
@@ -20181,8 +20181,8 @@ msgid ""
 "project becomes more modular and easier to change. This is especially the case\n"
 "for which a particular input always gives a particular output."
 msgstr ""
-"もし、計算が、一連の関数で行われていた場合、プロジェクトは、よりモジュール化され、変更するのが簡単になります。\n"
-"これは、特定のインプットが必ず特定のアウトプットを返す場合に特にあてはまります。"
+"もし、計算が一連の関数で行われていた場合、プロジェクトはよりモジュール化され、変更するのが簡単になります。\n"
+"これは、特定のインプットが必ず特定のアウトプットを返す場合など、特にそうです。"
 
 # header
 #: r-novice-gapminder/_episodes/16-wrap-up.md:98
