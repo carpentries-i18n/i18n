@@ -19212,7 +19212,7 @@ msgid ""
 msgstr ""
 "私が始めたばかりの頃は、全ての仕事についてRスクリプトを書いて、\n"
 "結果を説明し、様々なグラフを添付したメールを協力者に送信していました。\n"
-"結果を議論する際、どれがどのグラフが混乱してしまうこともよくありました。"
+"結果を議論する際、どのグラフについて話しているのか混乱してしまうことがよくありました。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:37
 msgid ""
@@ -19220,9 +19220,9 @@ msgid ""
 "spend a lot of time getting the figures to look right. Mostly, the\n"
 "concern is about page breaks."
 msgstr ""
-"WordやLaTeXで正式な報告を書く段階に移りましたが、図が正しく見えるように\n"
-"するために、かなり多くの時間を費やしました。大抵の場合、ページ分けが、\n"
-"悩ましかったです。"
+"WordやLaTeXで正式な報告を書く様になったのですが、図を正しく表示\n"
+"するためにかなり多くの時間を費やしました。大抵の場合、ページ分けで\n"
+"つまずきました。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:41
 msgid ""
@@ -19230,9 +19230,9 @@ msgid ""
 "file). It can be one long stream, so I can use tall figures that\n"
 "wouldn't ordinary fit on one page. Scrolling is your friend."
 msgstr ""
-"今では、ウェブページ（htmlファイル）を作るようになり全てが簡単になりました。\n"
-"ひとつの長くつづくページなりますので、普通の１ページに収まらないような高さがある図\n"
-"でも全て入れることができます。味方は、スクロールですね。"
+"今では、ウェブページ（htmlファイル）を作るようになり全てが楽になりました。\n"
+"ひとつの長いページなるので、普通ではひとつのページに収まらないような高さの図\n"
+"でもはみ出さずに入れることができます。「スクロールは友達」ですね。"
 
 # header
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:46
@@ -19248,10 +19248,10 @@ msgid ""
 "a Word document, and further hand-edit various detailed results)."
 msgstr ""
 "分析報告書のようなものは、_再現できる_ 文書であることが理想です。つまり、\n"
-"エラーが見つかった場合や、データに追加があった場合、単に報告書を\n"
-"再コンパイルすれば、新しい、または正しい結果が得られるという形です。\n"
-"（その反対は、図を再作成し、Word文書に貼り付け、更に手作業で\n"
-"様々な詳細結果に手を加えなえればならないという形です）"
+"エラーが見つかった場合や、データに追加があった場合など、単に報告書を\n"
+"再コンパイルすることで、新しい、または正しい結果が得られるという形です\n"
+"（再現できない文書の場合、図を再作成し、Word文書に貼り付け、更に手作業で\n"
+"様々な詳細結果に手を加えなえればなりません）。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:54
 msgid ""
@@ -19261,13 +19261,13 @@ msgid ""
 "be executed, and graphs or other results inserted."
 msgstr ""
 "Rでカギとなるツールは [knitr](http://yihui.name/knitr/) です。これは、\n"
-"コードの塊と文章が混ざった文書を作成してくれるものです。\n"
-"文書が、knitrで処理される際に、Rコードの塊が実行され、\n"
-"グラフと他の結果が挿入されます。"
+"コードと文章が混ざった文書を作成してくれるものです。\n"
+"文書がknitrで処理される際にRコードが実行され、\n"
+"グラフや他の結果が文書に挿入されます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:59
 msgid "This sort of idea has been called \"literate programming\"."
-msgstr "こういうものを「読み書きできるプログラミン（literate programming）」と呼びます。"
+msgstr "こういうものを「読み書きできるプログラミング（literate programming）」と呼びます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:61
 msgid ""
@@ -19276,9 +19276,9 @@ msgid ""
 "with R. Markdown is a light-weight mark-up language for creating web\n"
 "pages."
 msgstr ""
-"knitrは、基本的にどんなテキストでも、どんなコードでも、一緒に使えますが、\n"
-"お勧めは、RにMarkdownを合体させた、R Markdownです。\n"
-"Markdownは、ウェブページを作るための軽いマークアップ言語です。"
+"knitrは、基本的にどんなテキストやコードでも組み合わせられるのですが、\n"
+"RにMarkdownを合体させた、R Markdownがお勧めです。\n"
+"Markdownは、ウェブページを作るための軽量なマークアップ言語です。"
 
 # header
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:67
@@ -19344,16 +19344,16 @@ msgid ""
 "They're mostly needed if you want to include a colon in the title."
 msgstr ""
 "入れたくなければ、これらのフィールドのいずれも消すことができます。\n"
-"この場合、この二重引用符は、厳密には _必須_ ではありません。\n"
-"必要になる時は、大抵、タイトルにコロンを含めたいというときです。"
+"二重引用符は、厳密には _必須_ ではありません。\n"
+"大抵は、タイトルにコロンを含めたいときに使います。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:96
 msgid ""
 "RStudio creates the document with some example text to get you\n"
 "started. Note below that there are chunks like"
 msgstr ""
-"RStudioは、始めやすいように、テキストの例の文書を作成します。\n"
-"以下にあるように、塊はこんな感じです："
+"RStudioは、始めやすいように、例がいくつか入れられてある文書を作成します。\n"
+"以下のような「チャンク（chunk）」がすでにあるかと思います："
 
 # inline html
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:99
@@ -19375,7 +19375,7 @@ msgid ""
 "These are chunks of R code that will be executed by knitr and replaced\n"
 "by their results. More on this later."
 msgstr ""
-"knitrが実行するRコードの塊があり、それは結果に置き換えられます。\n"
+"これらはRコードの「チャンク」（塊）で、knitrによってコードが実行され、結果に置き換えられます。\n"
 "また後ほど、詳しくお伝えします。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:108
@@ -19384,8 +19384,8 @@ msgid ""
 "well as the double-asterisks in `**Knit**`. This is\n"
 "[Markdown](http://daringfireball.net/projects/markdown/syntax)."
 msgstr ""
-"`**Knit**` の中にある、二重アスタリスクと、かぎ括弧（ `< >` ）の間に置かれているウェブアドレスが\n"
-"あるのが分かるでしょう。これが、[Markdown](http://daringfireball.net/projects/markdown/syntax)なのです。"
+"`**Knit**` の中にある、二重アスタリスクとかぎ括弧（ `< >` ）の間に置かれているウェブアドレスが\n"
+"あるのが分かるでしょうか。これが、[Markdown](http://daringfireball.net/projects/markdown/syntax)なのです。"
 
 # header
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:112
@@ -19399,8 +19399,8 @@ msgid ""
 "text gets _converted_ to html, replacing the marks with the proper\n"
 "html code."
 msgstr ""
-"Markdownは、htmlコードを書くというよりも、メールを書くときにするような形で、\n"
-"テキストに印をつけていきながらウェブページを書く体系のひとつです。印がつけられた（marked-up）\n"
+"Markdownは、メールを書くような感覚でテキストに印をつけていきながら、htmlコードを使わずに\n"
+"ウェブページを書くための言語です。印がつけられた（marked-up）\n"
 "テキストは、マークが指し示す正しいhtmlコードに置き換えられながら、htmlに _変換_ されます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:119
@@ -19416,7 +19416,7 @@ msgid ""
 "`_italics_`."
 msgstr ""
 "二重アスタリスクを使って、 **太字** に（例 `**bold**`）、\n"
-"下線を使って、 _斜体_ にすることもできます（例 `_italics_`）。"
+"下線を使って、 _斜体_ にすることができます（例 `_italics_`）。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:126
 msgid ""
@@ -19554,10 +19554,10 @@ msgid ""
 "Reference\" (with the Markdown syntax) as well to the RStudio\n"
 "documentation on R Markdown."
 msgstr ""
-"左上にある「Knit HTML」をクリックすることで、R Markdown文書を、html ウェブサイトへ _コンパイル_ する\n"
+"左上にある「Knit HTML」をクリックすることで、R Markdown文書をhtml ウェブサイトへ _コンパイル_ する\n"
 "ことができます。その隣に、小さな疑問符があるのが分かると思います。その疑問符をクリックしてみると、\n"
 "R MarkdownについてのRStudio文書と、「Markdown Quick Reference」（Markdownのシンタックス付き）\n"
-"が出てくることでしょう。"
+"が出てきます。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:182
@@ -19577,7 +19577,7 @@ msgid ""
 "> Convert the document to a webpage."
 msgstr ""
 ">\n"
-"> 新しいR Markdown文書を作りましょう。Rコードの塊を全て消して、\n"
+"> 新しいR Markdown文書を作りましょう。Rコードのチャンクを全て消して、\n"
 "> Markdown（いくつかの文節、斜体テキスト、箇条書き）\n"
 "> を書いてみましょう。\n"
 ">\n"
@@ -19604,7 +19604,7 @@ msgstr "このようなイメージを含めることもできます：`![captio
 msgid ""
 "You can do subscripts (e.g., F~2~) with `F~2` and superscripts (e.g.,\n"
 "F^2^) with `F^2^`."
-msgstr "下付き文字 （例 F~2~）も `F~2` で、上付き文字（例 F^2^）も `F^2^` でできます。"
+msgstr "下付き文字 （例 F~2~）は `F~2` で、上付き文字（例 F^2^）は `F^2^` でできます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:202
 msgid ""
@@ -19613,8 +19613,8 @@ msgid ""
 "you can use `$ $` and `$$ $$` to insert math equations, like\n"
 "`$E = mc^2$` and"
 msgstr ""
-"もし、[LaTeX](http://www.latex-project.org/)の等式の書き方を知っていれば、\n"
-"`$ $` と `$$ $$` が数式を挿入するのに使えると知って嬉しいことでしょう。\n"
+"[LaTeX](http://www.latex-project.org/)の等式の書き方を知っていれば、\n"
+"`$ $` と `$$ $$` で数式を挿入することができます。\n"
 "例えば、 `$E = mc^2$` や、"
 
 # code block
@@ -19631,7 +19631,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:213
 msgid "## R code chunks"
-msgstr "## Rコードの塊"
+msgstr "## Rコードの「チャンク（塊）」"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:215
 msgid ""
@@ -19640,12 +19640,12 @@ msgid ""
 "processed, the R code will be executed; if they produce figures, the\n"
 "figures will be inserted in the final document."
 msgstr ""
-"Markdownは、面白く役に立つものですが、ミソは、Rコードの塊とMarkdownが混ぜられることなのです。\n"
-"それが、R Markdownですね。処理すると、Rコードが実行され、図が作られ、最終的な文書に挿入されます。"
+"Markdownは役に立つし、興味深くもあるのですが、一番重要な機能は、RコードとMarkdownを組み合わせられることなのです。\n"
+"それが、R Markdownです。処理すると、Rコードが実行され、図が作られ、最終的な文書に挿入されます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:220
 msgid "The main code chunks look like this:"
-msgstr "メインコードの塊は、こんな感じです："
+msgstr "メインのコードチャンクは、こんな感じです："
 
 # inline html
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:222
@@ -19670,9 +19670,9 @@ msgid ""
 "produced, the file names are based on the name of the code chunk that\n"
 "produced them."
 msgstr ""
-"つまり、Rコードの塊を<code>&#96;&#96;&#96;{r chunk_name}</code>\n"
-"と<code>&#96;&#96;&#96;</code>の間に置くのです。それぞれの重複しない名前を付けておくといいでしょう。\n"
-"そうすると、エラーを修正するときに役立ちますし、グラフのファイル名は、それが生成されたコードの塊の名前に基づいて付けられるからです。"
+"つまり、Rコードを<code>&#96;&#96;&#96;{r chunk_name}</code>\n"
+"と<code>&#96;&#96;&#96;</code>の間に置くことでコードの「チャンク（chunk・塊）」を作ります。それぞれのチャンクに重複しない名前を付けておくといいでしょう。\n"
+"そうすると、エラーを修正するときに役立ちますし、グラフのファイル名は、生成されたコードのチャンクの名前に基づいて付けられるからです。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:235
 msgid ""
@@ -19684,7 +19684,7 @@ msgid ""
 "> - Create a plot"
 msgstr ""
 ">\n"
-"> 以下を行うコードの塊を加えましょう\n"
+"> 以下を行うコードチャンクを加えましょう\n"
 ">\n"
 "> - ggplot2 パッケージの読み込み\n"
 "> - gapminder データの読み込み\n"
@@ -19703,9 +19703,9 @@ msgid ""
 "and replaced by both the input and the output; if figures are\n"
 "produced, links to those figures are included."
 msgstr ""
-"「Knit HTML」ボタンを押すと、R Markdown文書は、[knitr](http://yihui.name/knitr)\n"
+"「Knit HTML」ボタンを押すと、R Markdown文書は[knitr](http://yihui.name/knitr)\n"
 "によって処理され、単純なMarkdown文書が（一連の図のファイルと共に）生成されます。\n"
-"Rコードは、実行され、入力と出力に置き換わります。図が生成された場合、\n"
+"Rコードは実行され、入力と出力に置き換えられます。図が生成された場合、\n"
 "これらの図へのリンクが挿入されます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:251
@@ -19715,7 +19715,7 @@ msgid ""
 "html file, with the figures embedded."
 msgstr ""
 "Markdownと図の文書は、[pandoc](http://pandoc.org/) というツールで処理され、\n"
-"Markdownファイルが、図が埋め込まれたhtmlファイルに変換されます。"
+"Markdownファイルは、図の埋め込まれたhtmlファイルに変換されます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:255
 msgid "<img src=\"../fig/rmd-15-rmd_to_html_fig-1.png\" title=\"plot of chunk rmd_to_html_fig\" alt=\"plot of chunk rmd_to_html_fig\" style=\"display: block; margin: auto auto auto 0;\" />"
@@ -19724,13 +19724,13 @@ msgstr "<img src=\"../fig/rmd-15-rmd_to_html_fig-1.png\" title=\"plot of chunk r
 # header
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:260
 msgid "## Chunk options"
-msgstr "## 塊のオプション"
+msgstr "## チャンクのオプション"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:262
 msgid ""
 "There are a variety of options to affect how the code chunks are\n"
 "treated."
-msgstr "コードの塊がどう扱われるかに関して色々なオプションがあります。"
+msgstr "コードのチャンクがどう扱われるかは、様々なオプションによって決められます。"
 
 # unordered list
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:265
@@ -19750,7 +19750,7 @@ msgstr "- コードを演算せず表示するためには、 `eval=FALSE` を�
 # unordered list
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:268
 msgid "- Use `warning=FALSE` and `message=FALSE` to hide any warnings or"
-msgstr "- 警告メッセージが出た場合、隠す場合は、 `warning=FALSE` と `message=FALSE` を使います"
+msgstr "- 警告やメッセージを隠す場合は、 `warning=FALSE` と `message=FALSE` を使います"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:269
 msgid ""
@@ -19785,8 +19785,8 @@ msgid ""
 "Often there will be particular options that you'll want to use\n"
 "repeatedly; for this, you can set _global_ chunk options, like so:"
 msgstr ""
-"よくあることですが、何度も使いたいオプションが出てくることあることでしょう。\n"
-"その際は、 _global_options_ を使います。例えば："
+"使いたいオプションを別のチャンクでも使いたい場合は、\n"
+" _global_options_ を使います。例えば："
 
 # inline html
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:285
@@ -19811,9 +19811,9 @@ msgid ""
 "here is really important; without it, the figures would be saved in\n"
 "the standard place but just with names that begin with `Figs`."
 msgstr ""
-" `fig.path` オプションは、図がどこに保存されるかを定義します。\n"
-"ここで、 `/` は、とても重要で、もしこれがなければ、図は標準的な場所に\n"
-"保存されますが、 `Figs` で始まる名前だけになります。"
+" `fig.path` オプションは、図のファイルがどこに保存されるかを定義します。\n"
+"ここでの `/` はとても重要で、もしこれがなければ、図は標準的な場所に\n"
+"保存されますが、 `Figs` で始まる名前のファイルだけになります。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:296
 msgid ""
@@ -19822,8 +19822,9 @@ msgid ""
 "names, like `fig.path=\"Figs/cleaning-\"` and `fig.path=\"Figs/analysis-\"`."
 msgstr ""
 "共有ディレクトリにR Markdownファイルが複数ある場合は、\n"
-" `fig.path` を図のファイル名に異なる接頭語を付けるために使うといいかもしれません。\n"
-"例えば、`fig.path=\"Figs/cleaning-\"` and `fig.path=\"Figs/analysis-\"` のように。"
+" `fig.path` を図のファイル名と異なる接頭語を付けるために使うといいかもしれません。\n"
+"例えば、`fig.path=\"Figs/cleaning-\"` と `fig.path=\"Figs/analysis-\"` とすれば、\n"
+"それぞれ `\"cleaning-\"` と `\"analysis-\"` で始まる図のファイルが `\"Figs/\"` ディレクトリに保存されます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:302
 msgid ""
@@ -19832,7 +19833,7 @@ msgid ""
 "> code."
 msgstr ""
 ">\n"
-"> 図の大きさを管理し、コードを隠す塊のオプションを使ってみましょう。"
+"> 図の大きさを管理し、コードを隠すチャンクのオプションを使ってみましょう。"
 
 # header
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:308
@@ -19846,14 +19847,14 @@ msgid ""
 "like so: <code>&#96;r round(some_value, 2)&#96;</code>. The code will be\n"
 "executed and replaced with the _value_ of the result."
 msgstr ""
-"報告書にある、_それぞれの_ 数を再現可能なものにすることができます。\n"
-"<code>&#96;r</code> と <code>&#96;</code> を文中のコードの塊に使ってみましょう。\n"
-"例えば： <code>&#96;r round(some_value, 2)&#96;</code>。コードは、\n"
+"報告書にある、_全て_ の数を再現可能なものにすることができます。\n"
+"<code>&#96;r</code> と <code>&#96;</code> を文中のコードのチャンクに入れてみましょう。\n"
+"例えば、 <code>&#96;r round(some_value, 2)&#96;</code>。このコードはコンパイル時に\n"
 "実行され、結果の _値_ に置き換えられます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:315
 msgid "Don't let these in-line chunks get split across lines."
-msgstr "この文中の塊を、複数の行に分けて入れないようにしましょう。"
+msgstr "この文中のチャンクを、複数の行に分けて入れないようにしましょう。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:317
 msgid ""
@@ -19861,16 +19862,17 @@ msgid ""
 "calculations and defines things, with `include=FALSE` for that larger\n"
 "chunk (which is the same as `echo=FALSE` and `results=\"hide\"`)."
 msgstr ""
-"パラグラフの前には、 おそらく、`include=FALSE` と設定された（これは `echo=FALSE` と `results=\"hide\"` と同じ）\n"
-"より大きな物事の定義や演算を行うコードの塊があるはずです。"
+"こういう場合は、パラグラフの前に`include=FALSE`\n"
+"（ `echo=FALSE` と `results=\"hide\"` の組み合わせと同じ）のオプションを設定した、\n"
+"定義や演算を行うコードチャンクを作っておきましょう。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:321
 msgid ""
 "I'm very particular about rounding in such situations. I may want\n"
 "`2.0`, but `round(2.03, 1)` will give just `2`."
 msgstr ""
-"このような場合、出力された数の丸め方によって違いがでることがあります。\n"
-"`2.0` が欲しくても、`round(2.03, 1)` では、ただの `2` が出てきてしまいます。"
+"私は四捨五入に関しては、神経質になりがちです。\n"
+"`2.0` が欲しくても、`round(2.03, 1)` ではただの `2` が出てきてしまいます。"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:324
 msgid ""
@@ -19894,7 +19896,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:335
 msgid "## Other output options"
-msgstr "## 他の出力オプション"
+msgstr "## その他の出力オプション"
 
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:337
 msgid ""
@@ -19905,7 +19907,7 @@ msgid ""
 msgstr ""
 "R MarkdownをPDFやWord文書に変換することもできます。\n"
 "ドロップダウンメニューを表示させるために、「Knit HTML」の横にある小さい三角をクリックしましょう。\n"
-"または、 `pdf_document` や `word_document` をファイルの最初のヘッダーに入れておくこともできます。"
+"または、 `pdf_document` や `word_document` をファイルの最初のヘッダー（header）に入れておくこともできます。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/15-knitr-markdown.md:342
@@ -19922,8 +19924,8 @@ msgid ""
 "> - [TeX installers for macOS](https://tug.org/mactex)."
 msgstr ""
 ">\n"
-"> .pdf文書を作成するためには、いくつかソフトウェアをインストールしなければいけないかもしれません。\n"
-"> もし、必要な場合、エラーメッセージの中に詳細が述べられています。\n"
+"> `.pdf` 文書を作成するためには、いくつかソフトウェアをインストールしなければいけないかもしれません。\n"
+"> これらのソフトが必要な場合は、エラーメッセージの中に詳細が述べられています。\n"
 ">\n"
 "> - [Windows向けのTeXインストーラー](https://miktex.org/2.9/setup).\n"
 "> - [macOS向けのTeXインストーラー](https://tug.org/mactex)."
