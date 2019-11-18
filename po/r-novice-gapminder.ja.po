@@ -21924,7 +21924,7 @@ msgstr "  - `?\"function\"`"
 # unordered list
 #: r-novice-gapminder/reference.md:198
 msgid "  - Put code whose parameters change frequently in a function, then call it with"
-msgstr "  - 何度のパラメータを変えながら実行するコードを関数にし、"
+msgstr "  - 何度もパラメータを変えながら実行するコードを関数にし、"
 
 #: r-novice-gapminder/reference.md:199
 msgid ""
