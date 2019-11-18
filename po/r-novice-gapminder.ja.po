@@ -15250,7 +15250,7 @@ msgstr " * ある年とある国の組み合わせ"
 msgid ""
 "By using `%in%` instead, we can also give multiple years or countries to those\n"
 "arguments."
-msgstr "代わりに `%in%` を使うと、`year` と `country` に複数の値を指定できるようになります。"
+msgstr "代わりに `%in%` を使うことによって、`year` と `country` に複数の値を指定できるようになっています。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/10-functions.md:518
