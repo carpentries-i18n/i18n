@@ -14752,7 +14752,7 @@ msgid ""
 "Let's try out defensive programming with `stopifnot()` by adding assertions to\n"
 "check the input to our function `fahr_to_kelvin()`."
 msgstr ""
-"`stopifnot()` を用いて `fahr_to_kelvin()` に入力を検査するアサーションを追加し、\n"
+"`stopifnot()` を用いて `fahr_to_kelvin()` に入力を検査するアサーション文を追加し、\n"
 "防衛的プログラミングに挑戦しましょう。"
 
 #: r-novice-gapminder/_episodes/10-functions.md:257
