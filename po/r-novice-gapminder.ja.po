@@ -14455,7 +14455,7 @@ msgid ""
 "whoever asked for it."
 msgstr ""
 "関数を呼び出す時、引数に指定した値は関数内で用いられる変数に与えられます。\n"
-"関数の中では関数を呼び出した相手に結果を遅るために [return\n"
+"関数の中では関数を呼び出した相手に結果を送るために [return\n"
 "文]({{ page.root }}/reference/#return-statement) を用います。"
 
 #: r-novice-gapminder/_episodes/10-functions.md:93
