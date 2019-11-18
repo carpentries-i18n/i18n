@@ -14339,7 +14339,7 @@ msgstr "この講義では関数の書き方を学ぶことで、同じ操作を
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/10-functions.md:36
 msgid "> ## What is a function?"
-msgstr "> ## 関数とは何でしょうか？"
+msgstr "> ## 関数とは何でしょう？"
 
 #: r-novice-gapminder/_episodes/10-functions.md:37
 msgid ""
