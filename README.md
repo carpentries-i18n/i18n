@@ -73,9 +73,9 @@ cd po
 ls git-novice.ja.po
 ```
 
-4. Edit the PO files. [As per the guidelines](rules.md), please commit your changes frequently and submit a pull request when you are satisfied with your work.
+4. POファイルを編集します。[ガイドラインに従って](rules.md), 頻繁に変更をコミットし、十分だとおもったらpull request を投稿してください。
 
-5. Your PR will be reviewed for accuracy. You may need to make edits so it can pass review. When doing so, always be sure to pull changes from the organisation repository first:
+5. 正確を期すために、あなたのPRについて、レビューが行われます。レビューがパスするまで、編集を続けます。そのようなときは、まずはじめに、組織のレポジトリに対する変更を pull してください。
 
 ```
 git checkout ja
@@ -83,7 +83,7 @@ git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
 git pull swc-ja ja
 ```
 
-Repeat steps 4 and 5 until the PR passes review.
+PRがレビューをパスするまでステップ4と5を繰り返します
 
 A few notes:
 
@@ -91,23 +91,22 @@ Editing the PO file will not generate the translated website. That is left to th
 
 If you want to see a translated MD file after editing the PO file, run `bash po4gitbook/compile.sh`. This generates a translated version of the lesson with your changes, which you can find at `locale/<lang>/<lesson>`, e.g., `locale/ja/git-novice`.
 
-## Contributing to translation of an updated lesson with a new release of the main English lessons
+## メインの英語のレッスンが新しくリリースされたら、レッスンを更新するのに貢献する
 
-If there is an existing (complete) translation of the lesson but
-  there has a new release of the main English lessons, the updated version
-  of the English lessons needs to be merged with the current translated one.
+レッスンの(完全な)翻訳が存在しても、メインの英語のレッスンが新しくリリースされることがあります。
+更新されたバージョンの英語のレッスンは、現在の翻訳されたものにマージされる必要があります。
 
-Please see the [guide on updating lessons](updating.md).
+[レッスン更新時のガイド](updating.md)を見てください。
 
 ## 翻訳のためのリソース
 
-Please follow [guidelines for translators](TranslatorGuidelines.md) when editing the lessons.
+レッスンを編集するときには[翻訳者のためのガイドライン](TranslatorGuidelines.md)に従ってください。
 
 There is a [list of technical terms](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms) to refer to for ensuring that terms are consistently used between lessons. Please update and refer to this as needed.
 
 Please see the [culture notes](CultureNotes.md) for a standardized treatment of concepts that don't translate literally into Japanese to ensure consistency.
 
-We have a [change log](ChangeLog.md) to track progress and goals.
+進捗と、ゴールを記録するために[変更履歴](ChangeLog.md)を持っています。
 
 ## メンテナーと管理者のガイド
 
