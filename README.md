@@ -1,12 +1,17 @@
-# Internationalisation of carpentry lessons
+# カーペントリーのレッスンの国際化
 
-Please take a look at the [quickstart guide](quickstart.md) if you wish to make small contribution(s).
+小さな貢献をしたい場合は、[クイックスタートガイド](quickstart.md)を読んでみてください。
 
 Before translating any material, please make sure you comply with the [Guidelines for Translators](TranslatorGuidelines.md) and read the [Rules of Conduct](rules.md).
 
+資料を翻訳する前に、[翻訳者のガイドライン](TranslatorGuidelines.md)と、[行動規則](rules.md)を、読んでください
+
 We encourage translators to [join our slack channel](https://r-wakalang.herokuapp.com/), #swcarpentry in the Tokyo.R workspace. This is a great place to ask any questions you may have about the workflow.
 
-## Purpose
+また、[Slackチャンネル](https://r-wakalang.herokuapp.com/), Tokyo R ワークスペースの #swcarpentry
+ に参加することをおすすめします。ここは、翻訳を進める上で発生する疑問に関して質問するのに最適の場所です。
+
+## 目的
 
 The repository is intended to host the files and tools need to facilitate translations of the [Software Carpentry](https://software-carpentry.org/) lessons
 from English into other languages (currently we are working on Japanese). This repository is intended to merge with the Multi-lingual versions of the lessons
@@ -17,11 +22,11 @@ English lessons.
 We are translating (and keeping up-to-date) the Software Carpentry lessons, not revising original lesson material.
 If you notice an issue with the lesson materials themselves, please send an issue for pull request to the English lesson materials.
 
-## About git
+## gitについて
 
-This assumes that you are familiar with using Git and GitHub.
+ここでは、あなたが、GitとGitHubについて知っているという仮定をしています。
 
-If you need help installing git, please see the [guide on installing git](git.md).
+もし、gitをインストールするのに手助けが必要ならば、[gitのインストールガイド](git.md)を読んでみてください
 
 ## About PO files
 
@@ -54,14 +59,14 @@ git clone git@github.com:GitHubUser/i18n.git
 cd i18n
 ```
 
-3. Populate submodules.
+3. サブモジュールを使えるようにする.
 
 ```
 git submodule init
 git submodule update
 ```
 
-This repository should already contain a translation file for the lesson that you wish to contribute to in the `po` directory `<lesson-name>.<lang>.po` such as `git-novice.ja.po`
+このレポジトリはすでに、レッスンの翻訳ファイルが含まれています。翻訳に貢献したいときには、 `po` ディレクトリの中の `<レッスン名>.<言語>.po` 、例えば `git-novice.ja.po` に貢献することができます。
 
 ```bash
 cd po
@@ -94,7 +99,7 @@ If there is an existing (complete) translation of the lesson but
 
 Please see the [guide on updating lessons](updating.md).
 
-## Resources for translations
+## 翻訳のためのリソース
 
 Please follow [guidelines for translators](TranslatorGuidelines.md) when editing the lessons.
 
@@ -104,8 +109,8 @@ Please see the [culture notes](CultureNotes.md) for a standardized treatment of 
 
 We have a [change log](ChangeLog.md) to track progress and goals.
 
-## Guide for maintainers and administrators
+## メンテナーと管理者のガイド
 
-Please see the [guide for maintainers and administrators](admin.md)
+[メンテナーと管理者のガイド](admin.md) を見てください
 
-Thank you for all your help. Even seemingly minor contributions will be appreciated!
+ご協力いただきありがとうございます。たとえ小さな貢献であっても、大歓迎です。
