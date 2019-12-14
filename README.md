@@ -1,5 +1,9 @@
 # カーペントリーのレッスンの国際化
 
+# Internationalisation of carpentry lessons
+
+## [English README](README_en.md)
+
 小さな貢献をしたい場合は、[クイックスタートガイド](quickstart.md)を読んでみてください。
 
 資料を翻訳する前に、[翻訳者のガイドライン](TranslatorGuidelines.md)と、[行動規則](rules.md)を、読んでください
