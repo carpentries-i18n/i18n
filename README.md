@@ -1,6 +1,4 @@
-# カーペントリーのレッスンの国際化
-
-# Internationalisation of carpentry lessons
+# Internationalisation of carpentry lessons（カーペントリーのレッスンの国際化）
 
 ## [English README](README_en.md)
 
