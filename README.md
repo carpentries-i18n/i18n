@@ -2,25 +2,20 @@
 
 小さな貢献をしたい場合は、[クイックスタートガイド](quickstart.md)を読んでみてください。
 
-Before translating any material, please make sure you comply with the [Guidelines for Translators](TranslatorGuidelines.md) and read the [Rules of Conduct](rules.md).
-
 資料を翻訳する前に、[翻訳者のガイドライン](TranslatorGuidelines.md)と、[行動規則](rules.md)を、読んでください
-
-We encourage translators to [join our slack channel](https://r-wakalang.herokuapp.com/), #swcarpentry in the Tokyo.R workspace. This is a great place to ask any questions you may have about the workflow.
 
 また、[Slackチャンネル](https://r-wakalang.herokuapp.com/), Tokyo R ワークスペースの #swcarpentry
  に参加することをおすすめします。ここは、翻訳を進める上で発生する疑問に関して質問するのに最適の場所です。
 
 ## 目的
 
-The repository is intended to host the files and tools need to facilitate translations of the [Software Carpentry](https://software-carpentry.org/) lessons
-from English into other languages (currently we are working on Japanese). This repository is intended to merge with the Multi-lingual versions of the lessons
-in English and Spanish. We plan for these to be compatible to be hosted along with other languages on the main
-Software Carpentry website and to maintain updated copies of the Japanese lessons with new releases of the
-English lessons.
+レポジトリは、[ソフトウェアカーペントリー](https://software-carpentry.org/)のレッスンを英語から他の言語(現在日本語に取り組んでいます)へ翻訳するのを容易にするために必要なファイルやツールをホストするためにあります。また、英語とスペイン語のレッスンの多言語化をしてマージするためでもあります。
 
-We are translating (and keeping up-to-date) the Software Carpentry lessons, not revising original lesson material.
-If you notice an issue with the lesson materials themselves, please send an issue for pull request to the English lesson materials.
+ソフトウェアカーペントリーのメインのウェブサイトが他の言語と一緒にホストされ互換性があり、英語のレッスンの新しいリリースに合わせて日本語のレッスンも最新に維持するように計画しています。
+
+私達は、ソフトウェアカーペントリーのオリジナルのレッスンを改定するのではなく、レッスを翻訳（そして最新の状態に維持）をしています。
+
+もしあなたが、レッスン自体の問題に気づいたら、英語のレッスンに対して、issueをたてたり、プルリクエストを送ってください。
 
 ## gitについて
 
@@ -30,28 +25,24 @@ If you notice an issue with the lesson materials themselves, please send an issu
 
 ## About PO files
 
-We use [PO files](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html) for translation, rather than translating the text of each lesson directly. A PO file is a plain text file consisting of multiple entries, where each entry contains a short portion of the original text and its translation. There is one PO file for each original lesson. For example, the [Software Carpentry 'git novice' lesson](https://github.com/swcarpentry/git-novice), which consists of multiple markdown documents, has a single PO file called `git-novice.ja.po` for translating into Japanese.
+各レッスンのテキストを直接翻訳するのではなく、翻訳には、[PO ファイル](https://www.gnu.org/software/gettext/manual/html_node/PO-Files.html)を使います。
 
-This way, we can keep track of the original text and know exactly what needs to be changed when the original lessons are updated, instead of manually tracking changes.
+POファイルは、複数のエントリで構成されるテキスト形式のファイルです。各エントリーは、元のテキストと、その翻訳の短い部分が含まれています。オリジナルのレッスンごとに、１つのPOファイルがあります。例えば、[Software Carpentry 'git novice' lesson](https://github.com/swcarpentry/git-novice)は、複数の markdown形式のドキュメントで構成され、日本語の翻訳に関しては１つの `git-novice.ja.po` というPOファイルがあります。これにより、手動ではなく、オリジナルのテキストの追跡を行うことができ、オリジナルのレッスンが更新されたときに、変更され翻訳が必要とされる部分を正確に把握することができます。無料のPOエディタは、いくつかあります: [PoEdit](http://www.poedit.net),[GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize). これらのいずれかを使用して、POファイルを翻訳することをお勧めします。
 
-There are a number of free PO editors: [PoEdit](http://www.poedit.net),
-[GTranslator](https://wiki.gnome.org/Apps/Gtranslator), [Lokalize](https://userbase.kde.org/Lokalize), to name a few. We recommend using one of these to edit the PO files.
+## 初めてレッスンをインポートするとき
 
-## Importing a lesson for the first time
+レッスンはサブモジュールとしてインポートされます。この作業はレッスンにつき１度だけ行われ、ほとんどの翻訳者はこれを行う必要はありません。もし、あなたが新しいレッスンをインポートしたいときには、[インポートのガイド](importing.md)を参照してください。
 
-Lessons are imported as submodules. This only needs to happen once per lesson, so most translators will not need to do this. If you want to import a new lesson, please see the [guide on importing](importing.md).
+## 既存のレッスンの翻訳へ貢献する
 
-## Contributing to a translation of an existing lesson
+**これは、翻訳者からの手助けが最も必要なタスクです!**
 
-**This is the task that we need the most help with from translators!**
+これは、[インポートのガイド](importing.md)で説明されているように、`swcarpentry-ja/i18n`がサブモジュールとして既に追加されていることを前提としています。あなたは、そのレッスンの翻訳に貢献したいとします。
 
-This assumes that the lesson has already been added to the `swcarpentry-ja/i18n` as a submodule as described in the [guide on importing](importing.md), and you would like to contribute translations for that lesson.
-
-1. Create a "Fork" for this repository on your personal GitHub account. (Click "Fork" in the top right
+1. 個人のGitHubアカウントで、このレポジトリの"フォーク"を作成します。 (`https://github.com/swcarpentry-ja/i18n`の右上の"フォーク(fork)"をクリックします。
   corner of the `https://github.com/swcarpentry-ja/i18n` webpage)
 
-2. Clone this repository from your personal account (e.g., GitHubUser). This is your local copy to manage your version of
- the translation files.
+2. 個人のアカウント(GitHubUserなど)で、このレポジトリをクローンします。これは、翻訳ファイルのバージョン管理するためのローカルコピーです
 
 ```
 cd directory
@@ -85,11 +76,11 @@ git pull swc-ja ja
 
 PRがレビューをパスするまでステップ4と5を繰り返します
 
-A few notes:
+いくつかのメモ:
 
-Editing the PO file will not generate the translated website. That is left to the maintainers, as described in the [guide for maintainers and administrators](admin.md).
+POファイルを編集しても、翻訳されたWebサイトができあがるわけではありません。[メンテナーと管理者ガイド](admin.md)で述べられているように、これはメンテナーに任されています。
 
-If you want to see a translated MD file after editing the PO file, run `bash po4gitbook/compile.sh`. This generates a translated version of the lesson with your changes, which you can find at `locale/<lang>/<lesson>`, e.g., `locale/ja/git-novice`.
+POファイルを編集したあと、翻訳された Markdown ファイルを見たいときには、 `bash po4gitbook/compile.sh` を実行します。これは、あなたの変更を含めた翻訳されたバージョンを生成します。これは、`locale/<lang>/<lesson>`, 例, `locale/ja/git-novice`で見つけることができます。
 
 ## メインの英語のレッスンが新しくリリースされたら、レッスンを更新するのに貢献する
 
@@ -102,9 +93,9 @@ If you want to see a translated MD file after editing the PO file, run `bash po4
 
 レッスンを編集するときには[翻訳者のためのガイドライン](TranslatorGuidelines.md)に従ってください。
 
-There is a [list of technical terms](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms) to refer to for ensuring that terms are consistently used between lessons. Please update and refer to this as needed.
+レッスン間で用語が一貫して使われていることを確認するために [技術用語のリスト](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms) があります。必要に応じてこれを参照したり更新したりしてください。
 
-Please see the [culture notes](CultureNotes.md) for a standardized treatment of concepts that don't translate literally into Japanese to ensure consistency.
+一貫性を担保するために、日本語に翻訳されない概念などの標準化された取り扱いについては、 [カルチャーノート](CultureNotes.md) を参照してください。
 
 進捗と、ゴールを記録するために[変更履歴](ChangeLog.md)を持っています。
 
