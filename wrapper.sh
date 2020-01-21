@@ -60,6 +60,44 @@ for op in "$@"; do
     esac
 done
 
+if [[ update == true ]]; then
+    if [[ create == true ]]; then
+        echo "Warning: it is not recommended to --create and --update at the same time" 
+    fi
+    create=$create
+fi
+
+if [[ update == true ]] || [[ create == true ]]; then
+    if [[ -z $repo ]]; then
+        echo all available repos to update: $all_repos
+    else
+        echo repo to create or update: $repo
+    fi
+fi
+
+
 echo create ${repo} : $create
-echo create ${update} : $update
+echo update ${repo} : $update
 echo render webpages : $render
+
+if [[ create == true ]];then
+    if [[ -d i18n ]]; then
+        cd i18n
+    fi
+    wd = "${PWD##*/}"
+    echo $wd
+    if [[ $wd != "i18n" ]]; then  
+    echo "create i18n directory"
+    git clone https://github.com/${git_user}/i18n.git
+    cd i18n
+    fi
+    
+   echo "update local submodules"
+   git submodule update --recursive --remote --merge
+
+fi
+
+if [[ update == true ]]; then
+   echo "update local submodules"
+   git submodule update --recursive --remote --merge 
+fi
