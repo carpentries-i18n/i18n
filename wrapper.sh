@@ -30,23 +30,13 @@ for op in "$@"; do
             ;;
         -c|--create)
         shift
-            if [[ $1 != "" ]]; then
-                create=true
-                next=true
-            else
-                create=false
-                next=true
-            fi
+            create=false
+            next=true
             ;;
         -u|--update)
         shift
-            if [[ $1 != "" ]]; then
-                update=true       
-                next=true
-            else
-                update=false
-                next=true
-            fi
+            update=true       
+            next=true
             ;;
         -r|--repo)
         shift
@@ -60,13 +50,8 @@ for op in "$@"; do
             ;;
        -w|--webpages)
         shift
-            if [[ $1 != "" ]]; then
-                render=true
-                next=true
-            else
-                render=false
-                next=true
-            fi
+            render=true
+            next=true
             ;;
         -*)
             echo "Error: Invalid option: $op"
