@@ -80,6 +80,21 @@ echo create ${repo} : $create
 echo update ${repo} : $update
 echo render webpages : $render
 
+#check if remote i18n repo exists
+root_dir=`git ls-remote https://github.com/$git_user/i18n.git | grep "ja" | wc -l`
+echo i18 repo: $root_dir
+if [ $root_dir -eq 1 ]; then
+    echo "remote found:  https://github.com/$git_user/i18n.git"
+elif [ $root_dir -eq 0 ]; then
+    echo remote not found for user repo:  https://github.com/$git_user/i18n.git \n please create a fork
+    exit 1
+else
+    echo ambiguous repo:
+    git ls-remote https://github.com/$git_user/i18n.git
+    exit 1
+fi
+
+
 if [[ create == true ]];then
     if [[ -d i18n ]]; then
         cd i18n
