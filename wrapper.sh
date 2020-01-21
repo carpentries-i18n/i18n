@@ -1,5 +1,8 @@
 #! /bin/bash
 
+### example
+# sh wrapper.sh --repo make-novice --create
+
 pc_user=`whoami`
 echo $pc_user account for pc `hostname`
 git_user=`git config user.name`
