@@ -133,15 +133,15 @@ if [[ $create == true ]]; then
         fi
     fi
     if [[ -z $repo ]];then
-        echo "warning $repo not found, specify --repo <lesson name>"
+        echo "warning $repo not found, specify --repo <lesson name> --create"
         exit 1
     fi
 
     echo "run update on po4gitbook"
     po4gitbook/update.sh > /dev/null 2>&1
     echo "upated PO files exported"
-    if [[ -f ${repo}.ja.po ]]; then
-        echo "Warning: file ${repo}.ja.po already exists: check for conflicts and update"
+    if [[ -f po/${repo}.ja.po ]]; then
+        echo "Warning: file po/${repo}.ja.po already exists: check for conflicts and update"
         exit 1
     else
         echo "creating PO file for $repo"
@@ -168,6 +168,50 @@ if [[ $create == true ]]; then
 fi
 
 if [[ $update == true ]]; then
-   echo "update local submodules"
-   git submodule update --recursive --remote --merge 
+    echo "runnning"
+    if [[ -d i18n ]]; then
+        cd i18n
+    fi
+    #check if current working directory is i18n
+    wd="${PWD##*/}"
+    echo $wd
+
+    if [[ $wd != "i18n" ]]; then  
+    echo "create i18n directory"
+    git clone https://github.com/${git_user}/i18n.git
+    cd i18n
+    fi
+
+    #checkout Japanese branch
+    git checkout ja
+    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
+    git pull swc-ja ja
+   
+    #import submodules
+    git submodule init
+    git submodule update
+ 
+    echo "update local submodules"
+    git submodule update --recursive --remote --merge
+
+    if [[ ! -z $repo ]]; then
+        if [[ -d $repo ]]; then
+            echo "lesson repo found: ${repo} found"
+        else
+            echo "lesson repo ${repo} not found, run:\n sh wrapper.sh --repo ${repo} --create"
+        fi
+    fi
+    if [[ -z $repo ]];then
+        echo "warning $repo not found, specify --repo <lesson name> --update"
+        exit 1
+    fi
+
+    if [[ -f po/${repo}.ja.po ]]; then
+        echo "Warning: file po/${repo}.ja.po exists: please edit file and submit pull request"
+        exit 0
+    else
+        echo "Warning: file po/${repo}.ja.po not found, run:\n sh wrapper.sh --repo ${repo} --create"
+        exit 1
+    fi   
 fi
+
