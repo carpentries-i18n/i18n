@@ -3,6 +3,12 @@
 ### example
 # sh wrapper.sh --repo make-novice --create
 
+# create (implemented):      subroutine to create new PO files from an English lesson not currently being translated
+# import (testing):          subroutine to pull a lesson being translated from remote to make changes locally
+# render (work-in-progress): subroutine to render webpages from current PO files and export Japanese lessons to remote repos
+# update (to-do later):      subroutine to pull updates from remote English lesson and merge based on archived ancestor (only new sections need to be translated)
+
+
 pc_user=`whoami`
 echo $pc_user account for pc `hostname`
 git_user=`git config user.name`
@@ -10,7 +16,7 @@ git_email=`git config user.email`
 echo $git_user \<${git_email}\> account detected for git
 next=false
 create=false
-update=false
+import=false
 render=false
 for op in "$@"; do
     if $next; then
@@ -37,9 +43,9 @@ for op in "$@"; do
             create=true
             next=true
             ;;
-        -u|--update)
+        -i|--import)
         shift
-            update=true       
+            import=true       
             next=true
             ;;
         -r|--repo)
@@ -57,6 +63,10 @@ for op in "$@"; do
             render=true
             next=true
             ;;
+        -u|--update)
+        shift
+            import=true
+            next=
         -*)
             echo "Error: Invalid option: $op"
             exit 1
@@ -64,24 +74,24 @@ for op in "$@"; do
     esac
 done
 
-if [[ $update == true ]]; then
+if [[ $import == true ]]; then
     if [[ $create == true ]]; then
-        echo "Warning: it is not recommended to --create and --update at the same time" 
+        echo "Warning: it is not recommended to --create and --import at the same time" 
     fi
     create=$create
 fi
 
-if [[ $update == true ]] || [[ $create == true ]]; then
+if [[ $import == true ]] || [[ $create == true ]]; then
     if [[ -z $repo ]]; then
-        echo all available repos to update: $all_repos
+        echo all available repos to import: $all_repos
     else
-        echo repo to create or update: $repo
+        echo repo to create or import: $repo
     fi
 fi
 
 
 echo create ${repo} : $create
-echo update ${repo} : $update
+echo import ${repo} : $import
 echo render webpages : $render
 
 #check if remote i18n repo exists
@@ -120,10 +130,10 @@ if [[ $create == true ]]; then
    
     #import submodules
     git submodule init
-    git submodule update
+    git submodule import
  
-    echo "update local submodules"
-    git submodule update --recursive --remote --merge
+    echo "import local submodules"
+    git submodule import --recursive --remote --merge
 
     if [[ ! -z $repo ]]; then
         if [[ -d $repo ]]; then
@@ -137,11 +147,11 @@ if [[ $create == true ]]; then
         exit 1
     fi
 
-    echo "run update on po4gitbook"
-    po4gitbook/update.sh > /dev/null 2>&1
+    echo "run import on po4gitbook"
+    po4gitbook/import.sh > /dev/null 2>&1
     echo "upated PO files exported"
     if [[ -f po/${repo}.ja.po ]]; then
-        echo "Warning: file po/${repo}.ja.po already exists: check for conflicts and update"
+        echo "Warning: file po/${repo}.ja.po already exists: check for conflicts and import"
         exit 1
     else
         echo "creating PO file for $repo"
@@ -167,7 +177,7 @@ if [[ $create == true ]]; then
     echo lesson $repo created in locale/ja/$repo
 fi
 
-if [[ $update == true ]]; then
+if [[ $import == true ]]; then
     echo "runnning"
     if [[ -d i18n ]]; then
         cd i18n
@@ -189,10 +199,10 @@ if [[ $update == true ]]; then
    
     #import submodules
     git submodule init
-    git submodule update
+    git submodule import
  
-    echo "update local submodules"
-    git submodule update --recursive --remote --merge
+    echo "import local submodules"
+    git submodule import --recursive --remote --merge
 
     if [[ ! -z $repo ]]; then
         if [[ -d $repo ]]; then
@@ -202,7 +212,7 @@ if [[ $update == true ]]; then
         fi
     fi
     if [[ -z $repo ]];then
-        echo "warning $repo not found, specify --repo <lesson name> --update"
+        echo "warning $repo not found, specify --repo <lesson name> --import"
         exit 1
     fi
 
