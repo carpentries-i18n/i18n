@@ -237,3 +237,118 @@ if [[ $import == true ]]; then
     fi   
 fi
 
+if [[ $import == true ]]; then
+    echo "runnning"
+    if [[ -d i18n ]]; then
+        cd i18n
+    fi
+    #check if current working directory is i18n
+    wd="${PWD##*/}"
+    echo $wd
+
+    if [[ $wd != "i18n" ]]; then
+    echo "create i18n directory"
+    git clone https://github.com/${git_user}/i18n.git
+    cd i18n
+    fi
+
+    #checkout Japanese branch
+    git checkout ja
+    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
+    git pull swc-ja ja
+
+    #import submodules
+    git submodule init
+    git submodule import
+
+    echo "import local submodules"
+    git submodule import --recursive --remote --merge
+
+    if [[ ! -z $repo ]]; then
+        if [[ -d $repo ]]; then
+            echo "lesson repo found: ${repo} found"
+        else
+            echo "lesson repo ${repo} not found, run:\n sh wrapper.sh --repo ${repo} --create"
+        fi
+    fi
+    if [[ -z $repo ]];then
+        echo "warning $repo not found, specify --repo <lesson name> --import"
+        exit 1
+    fi
+
+    if [[ -f po/${repo}.ja.po ]]; then
+        echo "File po/${repo}.ja.po exists: exporting translated lesson"
+    else
+        echo "Warning: file po/${repo}.ja.po not found, run:\n sh wrapper.sh --repo ${repo} --create"
+        exit 1
+    fi   
+
+    #correct dates in headers
+    year=`date +%Y`
+    past_year=$(( $year-1 ))
+    #replace past year with current year
+    sed -i '2s/$past_year/$year/g" po/*.po
+    # append current year if different to previous year
+    sed -i "4s/, ${past_year}\./, ${past_year}, ${year}./g" po/*po
+
+    #create all Japanese lessons
+    echo "run compile on po4gitbook"
+    po4gitbook/compile.sh > /dev/null 2>&1
+
+    #commite updates to source PO files
+    git add -u po/*ja.po
+    git commit -m "update PO files"
+    git push swc-ja ja
+
+    echo "translated lessons from  po/${repo}.ja.po  exported to locale/ja/$repo"
+
+    #check if remote translated lesson exists 
+    lesson_dir=`git ls-remote https://github.com/${git_user}/${repo}-ja.git | grep "master" | wc -l`
+    echo ${repo}-ja repo: $lesson_dir
+    if [ $lesson_dir -eq 1 ]; then
+        echo "remote found:  https://github.com/${git_user}/${repo}-ja.git"
+    elif [ $root_dir -eq 0 ]; then
+        echo remote not found for user repo:  https://github.com/${git_user}/${repo}-ja.git please create a new empty repo
+        exit 1
+    else
+        echo ambiguous repo:
+        git ls-remote https://github.com/${git_user}/${repo}-ja.git
+        exit 1
+    fi
+   
+   #create as submodule
+   ##git submodule add https://github.com/${git_user}/${repo}-ja.git locale/ja/$repo
+   ##git submodule absorbgitdirs <path>
+
+   #move to external repo
+   mkdir -p ../${repo}-ja
+   rsync -ru locale/ja/${repo}/* ../${repo}-ja
+
+   #add update lessons to remote
+   cd ../${repo}-ja
+   git init
+   remotes=`git remote | grep "swc" | wc -l`
+   if [[ remotes -le 0 ]]; then
+       git remote add swc https://github.com/$git_user/$repo-ja.git 
+    fi
+   git pull swc master
+   git add *
+   git commit -m "update lesson files"
+   git push swc master
+
+   #update original lesson to import translated content
+   cd ../i18n # or English lesson
+   git submodule foreach git pull origin master
+
+#####################################
+# to do : create locale submodule   #
+# in original lesson if none exists #
+###############$#####################
+   
+  cd ${repo}
+  git add -u
+  git commit -m "update Japanese lessons"
+  git push origin gh-pages
+
+  cd ..
+fi
