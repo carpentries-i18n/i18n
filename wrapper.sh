@@ -156,6 +156,17 @@ if [[ $create == true ]]; then
     else
         echo "creating PO file for $repo"
         cp po/${repo}.pot po/${repo}.ja.po 
+        git add  po/${repo}.ja.po
+        #archive PO file from English lessons for merging updates
+        if [[ -f po/.ancestors/.${repo}.jp.po.ancestor ]]; then
+            echo "Warning file po/${repo}.ja.po already archived in po/.ancestors"
+       else
+            echo "archiving PO file for $repo"
+            mkdir -p po/.ancestors
+            cp po/${repo}.pot po/.ancestors/.${repo}.ja.po.ancestor
+            git add po/.ancestors/.${repo}.ja.po.ancestor
+       fi
+
         #fill in missing information for Japanese
         year=`date +%Y`
         sed -i '1s/# SOME DESCRIPTIVE TITLE./# Japanese translation of the Software Carpentry ${repo} Lesson/g' po/${repo}.ja.po
@@ -170,6 +181,7 @@ if [[ $create == true ]]; then
         #add Japanese to LINGUAS
         sed -i '1s/$/ ja/g' po/LINGUAS 
     fi   
+    git add  po/${repo}.ja.po
     echo "removing extraneous PO files"
     rm po/*.pot
     echo "run compile on po4gitbook to create new lessson"
