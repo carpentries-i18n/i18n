@@ -1,7 +1,7 @@
 # Japanese translation of the Software Carpentry Plotting and Programming in Python Lesson
 # Copyright (C) 2019 Software Carpentry Foundation; Japanese Translation Team
 # This file is distributed under the same license as the PACKAGE package.
-# Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019.
+# Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020.
 #
 msgid ""
 msgstr ""

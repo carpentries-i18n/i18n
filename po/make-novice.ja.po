@@ -1,8 +1,9 @@
-# Japanese translation of the Software Carpentry ${repo} Lesson
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the git4pobook package.
-# ${git_user} <${git_email}>, ${year}.
-# 
+
+# Japanese translation of the Software Carpentry Automation and Make Lesson
+# Copyright (C) 2019 Software Carpentry Foundation; Japanese Translation Team
+# This file is distributed under the same license as the PACKAGE package.
+# Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
