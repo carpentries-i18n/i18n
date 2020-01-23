@@ -66,7 +66,8 @@ for op in "$@"; do
         -u|--update)
         shift
             import=true
-            next=
+            next=true
+            ;;
         -*)
             echo "Error: Invalid option: $op"
             exit 1
