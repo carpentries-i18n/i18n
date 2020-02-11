@@ -309,6 +309,7 @@ if [[ $import == true ]]; then
 
     #create all Japanese lessons
     echo "run compile on po4gitbook"
+find
     po4gitbook/compile.sh > /dev/null 2>&1
 
     #commite updates to source PO files
@@ -348,6 +349,11 @@ if [[ $import == true ]]; then
        git remote add swc https://github.com/$remote_user/$repo-ja.git 
     fi
    git pull swc master
+
+   # remove files provided by template
+   rm -rf bin/boilerplate
+   rm -rf _layouts _includes _episodes_rmd assets bin code 
+
    git add *
    git commit -m "update lesson files"
    git push swc master
