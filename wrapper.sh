@@ -2,10 +2,13 @@
 
 ### example
 # sh wrapper.sh --repo make-novice --create
+# sh wrapper.sh --repo make-novice --import
+# sh wrapper.sh --repo make-novice --account GitHubUser --import
+
 
 # create (implemented):      subroutine to create new PO files from an English lesson not currently being translated
 # import (testing):          subroutine to pull a lesson being translated from remote to make changes locally
-# render (work-in-progress): subroutine to render webpages from current PO files and export Japanese lessons to remote repos
+# webpages (work-in-progress): subroutine to render webpages from current PO files and export Japanese lessons to remote repos
 # update (to-do later):      subroutine to pull updates from remote English lesson and merge based on archived ancestor (only new sections need to be translated)
 
 
@@ -13,6 +16,7 @@ pc_user=`whoami`
 echo $pc_user account for pc `hostname`
 git_user=`git config user.name`
 git_email=`git config user.email`                                                            
+remote_account=$git_user
 echo $git_user \<${git_email}\> account detected for git
 next=false
 create=false
@@ -48,10 +52,21 @@ for op in "$@"; do
             import=true       
             next=true
             ;;
+        -a|--account)
+        shift
+            if [[ $1 != "" ]]; then
+                remote_user="${1/%\//}"       
+                next=true
+            else
+                echo("specify remote account for: $git_user")
+                remote_user=$git_user
+                next=true
+            fi
+            ;;
         -r|--repo)
         shift
             if [[ $1 != "" ]]; then
-                repo="${1/%\//}"       
+                repo="${1/%\//}"
                 next=true
             else
                 all_repo=true
@@ -96,16 +111,16 @@ echo import ${repo} : $import
 echo render webpages : $render
 
 #check if remote i18n repo exists
-root_dir=`git ls-remote https://github.com/$git_user/i18n.git | grep "ja" | wc -l`
+root_dir=`git ls-remote https://github.com/$remote_user/i18n.git | grep "ja" | wc -l`
 echo i18 repo: $root_dir
 if [ $root_dir -eq 1 ]; then
-    echo "remote found:  https://github.com/$git_user/i18n.git"
+    echo "remote found:  https://github.com/$remote_user/i18n.git"
 elif [ $root_dir -eq 0 ]; then
-    echo remote not found for user repo:  https://github.com/$git_user/i18n.git \n please create a fork
+    echo remote not found for user repo:  https://github.com/$remote_user/i18n.git \n please create a fork
     exit 1
 else
     echo ambiguous repo:
-    git ls-remote https://github.com/$git_user/i18n.git
+    git ls-remote https://github.com/$remote_user/i18n.git
     exit 1
 fi
 
@@ -330,7 +345,7 @@ if [[ $import == true ]]; then
    git init
    remotes=`git remote | grep "swc" | wc -l`
    if [[ remotes -le 0 ]]; then
-       git remote add swc https://github.com/$git_user/$repo-ja.git 
+       git remote add swc https://github.com/$remote_user/$repo-ja.git 
     fi
    git pull swc master
    git add *
