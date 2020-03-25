@@ -15875,7 +15875,7 @@ msgstr ""
 msgid ""
 "Let's look at the help file to work out how to change this\n"
 "behaviour."
-msgstr "ヘルプファイルを見てこの挙動の変更を試みましょう。"
+msgstr "ヘルプファイルを見てこの動作を変更しましょう。"
 
 # code block
 #: r-novice-gapminder/_episodes/11-writing-data.md:141
