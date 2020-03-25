@@ -15726,9 +15726,14 @@ msgid ""
 "quotation marks come from? Also the row numbers are\n"
 "meaningless."
 msgstr ""
+<<<<<<< HEAD
 "Hmm, that's not quite what we wanted. Where did all these\n"
 "quotation marks come from? Also the row numbers are\n"
 "meaningless."
+=======
+"どうやら望んだ通りに出力されていません。引用符はどこから来たのでしょうか。\n"
+"また、行番号には意味がありません。"
+>>>>>>> 8a5df49... Update po/r-novice-gapminder.ja.po
 
 #: r-novice-gapminder/_episodes/11-writing-data.md:137
 msgid ""
