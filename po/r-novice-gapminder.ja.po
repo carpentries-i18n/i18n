@@ -15727,7 +15727,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/11-writing-data.md:59
 msgid "Open up this document and have a look."
-msgstr "このドキュメントを開いて内容を確認して見て下さい。"
+msgstr "このドキュメントを開いて内容を確認してみましょう。"
 
 #: r-novice-gapminder/_episodes/11-writing-data.md:62
 msgid ""
