@@ -15922,7 +15922,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/11-writing-data.md:162
 msgid "Now lets look at the data again using our shell skills:"
-msgstr "もう一度シェルの技術を使ってデータを確認してみましょう。"
+msgstr "もう一度シェルを使ってデータを確認してみましょう。"
 
 # code block
 #: r-novice-gapminder/_episodes/11-writing-data.md:173
