@@ -15869,7 +15869,7 @@ msgid ""
 "meaningless."
 msgstr ""
 "どうやら望んだ通りに出力されていません。引用符はどこから来たのでしょうか。\n"
-"また、無意味な行番号があります。"
+"また、行番号には意味がありません。"
 
 #: r-novice-gapminder/_episodes/11-writing-data.md:137
 msgid ""
