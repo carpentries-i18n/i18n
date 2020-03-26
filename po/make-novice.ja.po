@@ -1,0 +1,5668 @@
+
+# Japanese translation of the Software Carpentry Automation and Make Lesson
+# Copyright (C) 2019 Software Carpentry Foundation; Japanese Translation Team
+# This file is distributed under the same license as the PACKAGE package.
+# Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-01-22 00:16:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ja
+"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: make-novice/CODE_OF_CONDUCT.md:1
+#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Contributor Code of Conduct\"\n"
+"---"
+msgstr ""
+
+#: make-novice/CODE_OF_CONDUCT.md:5
+#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:5
+msgid "As contributors and maintainers of this project,\n"
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
+msgstr ""
+
+#: make-novice/CODE_OF_CONDUCT.md:8
+#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:8
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+
+#: make-novice/CODE_OF_CONDUCT.md:11
+#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:11
+#: make-novice/bin/boilerplate/_episodes/01-introduction.md:14
+#: make-novice/bin/boilerplate/_extras/discuss.md:6
+#: make-novice/bin/boilerplate/_extras/figures.md:40
+#: make-novice/bin/boilerplate/_extras/guide.md:6
+#: make-novice/bin/boilerplate/index.md:13
+#: make-novice/bin/boilerplate/reference.md:9
+#: make-novice/bin/boilerplate/setup.md:7
+msgid "{% include links.md %}"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:1
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:1
+# header
+msgid "# Contributing"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:3
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:3
+msgid "[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,\n"
+"and we welcome contributions of all kinds:\n"
+"new lessons,\n"
+"fixes to existing material,\n"
+"bug reports,\n"
+"and reviews of proposed changes are all welcome."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:10
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:10
+# header
+msgid "## Contributor Agreement"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:12
+msgid "By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+"and help you become a member of our community.\n"
+"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"agrees to abide by our [code of conduct](CONDUCT.md)."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:20
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:20
+# header
+msgid "## How to Contribute"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:22
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:22
+msgid "The easiest way to get started is to file an issue\n"
+"to tell us about a spelling mistake,\n"
+"some awkward wording,\n"
+"or a factual error.\n"
+"This is a good way to introduce yourself\n"
+"and to meet some of our community members."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:29
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:29
+# ordered list
+msgid "1.  If you do not have a [GitHub][github] account,"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:30
+msgid "    you can [send us comments by email][contact].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other methods described below."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:34
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:34
+# ordered list
+msgid "2.  If you have a [GitHub][github] account,"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:35
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:35
+msgid "    or are willing to [create one][github-join],\n"
+"    but do not know how to use Git,\n"
+"    you can report problems or suggest improvements by [creating an issue][issues].\n"
+"    This allows us to assign the item to someone\n"
+"    and to respond to it in a threaded discussion."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:41
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:41
+# ordered list
+msgid "3.  If you are comfortable with Git,"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:42
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:42
+msgid "    and would like to add or change material,\n"
+"    you can submit a pull request (PR).\n"
+"    Instructions for doing this are [included below](#using-github)."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:46
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:46
+# header
+msgid "## Where to Contribute"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:48
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:48
+# ordered list
+msgid "1.  If you wish to change this lesson,"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:49
+msgid "    please work in <https://github.com/swcarpentry/make-novice>,\n"
+"    which can be viewed at <https://swcarpentry.github.io/make-novice>."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:52
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:52
+# ordered list
+msgid "2.  If you wish to change the example lesson,"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:53
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:53
+msgid "    please work in <https://github.com/carpentries/lesson-example>,\n"
+"    which documents the format of our lessons\n"
+"    and can be viewed at <https://carpentries.github.io/lesson-example>."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:57
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:57
+# ordered list
+msgid "3.  If you wish to change the template used for workshop websites,"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:58
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:58
+msgid "    please work in <https://github.com/carpentries/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
+"    provide more background on our design choices."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:63
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:63
+# ordered list
+msgid "4.  If you wish to change CSS style files, tools,"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:64
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:64
+msgid "    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+"    please work in <https://github.com/carpentries/styles>."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:67
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:67
+# header
+msgid "## What to Contribute"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:69
+msgid "There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas,\n"
+"please see [the list of issues for this repository][issues],\n"
+"or the issues for [Data Carpentry][dc-issues]\n"
+"and [Software Carpentry][swc-issues] projects."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:79
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:79
+msgid "Comments on issues and reviews of pull requests are just as welcome:\n"
+"we are smarter together than we are on our own.\n"
+"Reviews from novices and newcomers are particularly valuable:\n"
+"it's easy for people who have been using these lessons for a while\n"
+"to forget how impenetrable some of this material can be,\n"
+"so fresh eyes are always welcome."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:86
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:86
+# header
+msgid "## What *Not* to Contribute"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:88
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:88
+msgid "Our lessons already contain more material than we can cover in a typical workshop,\n"
+"so we are usually *not* looking for more concepts or tools to add to them.\n"
+"As a rule,\n"
+"if you want to introduce a new idea,\n"
+"you must (a) estimate how long it will take to teach\n"
+"and (b) explain what you would take out to make room for it.\n"
+"The first encourages contributors to be honest about requirements;\n"
+"the second, to think hard about priorities."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:97
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:97
+msgid "We are also not looking for exercises or other material that only run on one platform.\n"
+"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux users;\n"
+"in order to be usable,\n"
+"our lessons must run equally well on all three."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:102
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:102
+# header
+msgid "## Using GitHub"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:104
+msgid "If you choose to contribute via GitHub,\n"
+"you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"In brief:"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:109
+# ordered list
+msgid "1.  The published copy of the lesson is in the `gh-pages` branch of the repository"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:110
+msgid "    (so that GitHub will regenerate it automatically).\n"
+"    Please create all branches from that,\n"
+"    and merge the [master repository][repo]'s `gh-pages` branch into your `gh-pages` branch\n"
+"    before starting work.\n"
+"    Please do *not* work directly in your `gh-pages` branch,\n"
+"    since that will make it difficult for you to work on other contributions."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:117
+# ordered list
+msgid "2.  We use [GitHub flow][github-flow] to manage changes:"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:118
+msgid "    1.  Create a new branch in your desktop copy of this repository for each significant change.\n"
+"    2.  Commit the change in that branch.\n"
+"    3.  Push that branch to your fork of this repository on GitHub.\n"
+"    4.  Submit a pull request from that branch to the [master repository][repo].\n"
+"    5.  If you receive feedback,\n"
+"        make changes on your desktop and push to your branch on GitHub:\n"
+"        the pull request will update automatically."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:126
+msgid "Each lesson has two maintainers who review issues and pull requests\n"
+"or encourage others to do so.\n"
+"The maintainers are community volunteers,\n"
+"and have final say over what gets merged into the lesson."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:131
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:129
+# header
+msgid "## Other Resources"
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:133
+msgid "General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][contact]."
+msgstr ""
+
+#: make-novice/CONTRIBUTING.md:138
+msgid "[contact]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[github]: http://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[issues]: https://github.com/swcarpentry/make-novice/issues/\n"
+"[repo]: https://github.com/swcarpentry/make-novice/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: http://software-carpentry.org/lessons/\n"
+"[swc-site]: http://software-carpentry.org/"
+msgstr ""
+
+#: make-novice/LICENSE.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Licenses\"\n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: make-novice/LICENSE.md:6
+# header
+msgid "## Instructional Material"
+msgstr ""
+
+#: make-novice/LICENSE.md:8
+msgid "All Software Carpentry and Data Carpentry instructional material is\n"
+"made available under the [Creative Commons Attribution\n"
+"license][cc-by-human]. The following is a human-readable summary of\n"
+"(and not a substitute for) the [full legal text of the CC BY 4.0\n"
+"license][cc-by-legal]."
+msgstr ""
+
+#: make-novice/LICENSE.md:14
+msgid "You are free:"
+msgstr ""
+
+#: make-novice/LICENSE.md:16
+# unordered list
+msgid "* to **Share**---copy and redistribute the material in any medium or format"
+msgstr ""
+
+#: make-novice/LICENSE.md:17
+# unordered list
+msgid "* to **Adapt**---remix, transform, and build upon the material"
+msgstr ""
+
+#: make-novice/LICENSE.md:19
+msgid "for any purpose, even commercially."
+msgstr ""
+
+#: make-novice/LICENSE.md:21
+msgid "The licensor cannot revoke these freedoms as long as you follow the\n"
+"license terms."
+msgstr ""
+
+#: make-novice/LICENSE.md:24
+msgid "Under the following terms:"
+msgstr ""
+
+#: make-novice/LICENSE.md:26
+# unordered list
+msgid "* **Attribution**---You must give appropriate credit (mentioning that"
+msgstr ""
+
+#: make-novice/LICENSE.md:27
+msgid "  your work is derived from work that is Copyright © Software\n"
+"  Carpentry and, where practical, linking to\n"
+"  http://software-carpentry.org/), provide a [link to the\n"
+"  license][cc-by-human], and indicate if changes were made. You may do\n"
+"  so in any reasonable manner, but not in any way that suggests the\n"
+"  licensor endorses you or your use."
+msgstr ""
+
+#: make-novice/LICENSE.md:34
+msgid "**No additional restrictions**---You may not apply legal terms or\n"
+"technological measures that legally restrict others from doing\n"
+"anything the license permits.  With the understanding that:"
+msgstr ""
+
+#: make-novice/LICENSE.md:38
+msgid "Notices:"
+msgstr ""
+
+#: make-novice/LICENSE.md:40
+# unordered list
+msgid "* You do not have to comply with the license for elements of the"
+msgstr ""
+
+#: make-novice/LICENSE.md:41
+msgid "  material in the public domain or where your use is permitted by an\n"
+"  applicable exception or limitation.\n"
+"* No warranties are given. The license may not give you all of the\n"
+"  permissions necessary for your intended use. For example, other\n"
+"  rights such as publicity, privacy, or moral rights may limit how you\n"
+"  use the material."
+msgstr ""
+
+#: make-novice/LICENSE.md:48
+#: make-novice/setup.md:33
+# header
+msgid "## Software"
+msgstr ""
+
+#: make-novice/LICENSE.md:50
+msgid "Except where otherwise noted, the example programs and other software\n"
+"provided by Software Carpentry and Data Carpentry are made available under the\n"
+"[OSI][osi]-approved\n"
+"[MIT license][mit-license]."
+msgstr ""
+
+#: make-novice/LICENSE.md:55
+msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:"
+msgstr ""
+
+#: make-novice/LICENSE.md:63
+msgid "The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software."
+msgstr ""
+
+#: make-novice/LICENSE.md:66
+msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
+"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
+"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
+"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: make-novice/LICENSE.md:74
+# header
+msgid "## Trademark"
+msgstr ""
+
+#: make-novice/LICENSE.md:76
+msgid "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+"are registered trademarks of [Community Initiatives][CI]."
+msgstr ""
+
+#: make-novice/LICENSE.md:79
+msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org"
+msgstr ""
+
+#: make-novice/README.md:1
+msgid "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265286.svg)](https://doi.org/10.5281/zenodo.3265286)\n"
+"[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--make-E01563.svg)](https://swcarpentry.slack.com/messages/C9X2YCPT5) "
+msgstr ""
+
+#: make-novice/README.md:5
+msgid "make-novice\n"
+"==========="
+msgstr ""
+
+#: make-novice/README.md:8
+msgid "An introduction to Make using reproducible papers as a motivating example.\n"
+"Please see <https://swcarpentry.github.io/make-novice/> for a rendered version of this material,\n"
+"[the lesson template documentation][lesson-example]\n"
+"for instructions on formatting, building, and submitting material,\n"
+"or run `make` in this directory for a list of helpful commands."
+msgstr ""
+
+#: make-novice/README.md:14
+msgid "Maintainer(s):"
+msgstr ""
+
+#: make-novice/README.md:16
+# unordered list
+msgid "* [Gerard Capes][capes-gerard]"
+msgstr ""
+
+#: make-novice/README.md:18
+msgid "[capes-gerard]: http://software-carpentry.org/team/#capes_gerard\n"
+"[lesson-example]: https://swcarpentry.github.com/lesson-example/"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Introduction\"\n"
+"teaching: 25\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How can I make my results easier to reproduce?\"\n"
+"objectives:\n"
+"- \"Explain what Make is for.\"\n"
+"- \"Explain why Make differs from shell scripts.\"\n"
+"- \"Name other popular build tools.\"\n"
+"keypoints:\n"
+"- \"Make allows us to specify what depends on what and how to update things that are out of date.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:15
+msgid "Let's imagine that we're interested in\n"
+"testing Zipf's Law in some of our favorite books."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:18
+# blockquote, which can be cascaded
+msgid "> ## Zipf's Law"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:19
+msgid ">\n"
+"> The most frequently-occurring word occurs approximately twice as\n"
+"> often as the second most frequent word. This is [Zipf's Law][zipfs-law]."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:22
+#: make-novice/_episodes/01-intro.md:302
+#: make-novice/_episodes/02-makefiles.md:120
+#: make-novice/_episodes/02-makefiles.md:183
+#: make-novice/_episodes/02-makefiles.md:255
+#: make-novice/_episodes/02-makefiles.md:361
+#: make-novice/_episodes/03-variables.md:59
+#: make-novice/_episodes/04-dependencies.md:104
+#: make-novice/_episodes/04-dependencies.md:119
+#: make-novice/_episodes/04-dependencies.md:237
+#: make-novice/_episodes/05-patterns.md:73
+#: make-novice/_episodes/05-patterns.md:100
+#: make-novice/_episodes/06-variables.md:117
+#: make-novice/_episodes/07-functions.md:65
+#: make-novice/_episodes/07-functions.md:263
+#: make-novice/_episodes/08-self-doc.md:130
+# SC/DC Template label
+msgid "{: .callout}"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:24
+msgid "We've compiled our raw data i.e. the books we want to analyze\n"
+"and have prepared several Python scripts that together make up our\n"
+"analysis pipeline."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:28
+msgid "Let's take quick look at one of the books using the command `head books/isles.txt`."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:30
+msgid "Our directory has the Python scripts and data files we will be working with:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:32
+# code block
+msgid "~~~\n"
+"|- books\n"
+"|  |- abyss.txt\n"
+"|  |- isles.txt\n"
+"|  |- last.txt\n"
+"|  |- LICENSE_TEXTS.md\n"
+"|  |- sierra.txt\n"
+"|- plotcounts.py\n"
+"|- countwords.py\n"
+"|- testzipf.py\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:43
+#: make-novice/_episodes/01-intro.md:68
+#: make-novice/_episodes/01-intro.md:90
+#: make-novice/_episodes/01-intro.md:113
+#: make-novice/_episodes/01-intro.md:143
+#: make-novice/_episodes/02-makefiles.md:85
+#: make-novice/_episodes/02-makefiles.md:127
+#: make-novice/_episodes/02-makefiles.md:154
+#: make-novice/_episodes/02-makefiles.md:168
+#: make-novice/_episodes/02-makefiles.md:205
+#: make-novice/_episodes/02-makefiles.md:223
+#: make-novice/_episodes/02-makefiles.md:284
+#: make-novice/_episodes/02-makefiles.md:304
+#: make-novice/_episodes/02-makefiles.md:333
+#: make-novice/_episodes/02-makefiles.md:379
+#: make-novice/_episodes/02-makefiles.md:392
+#: make-novice/_episodes/03-variables.md:113
+#: make-novice/_episodes/04-dependencies.md:90
+#: make-novice/_episodes/04-dependencies.md:140
+#: make-novice/_episodes/05-patterns.md:50
+#: make-novice/_episodes/05-patterns.md:65
+#: make-novice/_episodes/07-functions.md:79
+#: make-novice/_episodes/07-functions.md:118
+#: make-novice/_episodes/07-functions.md:159
+#: make-novice/_episodes/07-functions.md:186
+#: make-novice/_episodes/07-functions.md:202
+#: make-novice/_episodes/08-self-doc.md:32
+#: make-novice/_episodes/08-self-doc.md:117
+#: make-novice/_extras/guide.md:100
+#: make-novice/_extras/guide.md:112
+#: make-novice/_extras/guide.md:129
+#: make-novice/_extras/guide.md:161
+#: make-novice/reference.md:37
+# SC/DC Template label
+msgid "{: .output}"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:45
+msgid "The first step is to count the frequency of each word in a book."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:47
+# code block
+msgid "~~~\n"
+"$ python countwords.py books/isles.txt isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:50
+#: make-novice/_episodes/01-intro.md:57
+#: make-novice/_episodes/01-intro.md:81
+#: make-novice/_episodes/01-intro.md:99
+#: make-novice/_episodes/01-intro.md:120
+#: make-novice/_episodes/01-intro.md:129
+#: make-novice/_episodes/01-intro.md:136
+#: make-novice/_episodes/01-intro.md:184
+#: make-novice/_episodes/01-intro.md:192
+#: make-novice/_episodes/01-intro.md:228
+#: make-novice/_episodes/01-intro.md:252
+#: make-novice/_episodes/02-makefiles.md:70
+#: make-novice/_episodes/02-makefiles.md:78
+#: make-novice/_episodes/02-makefiles.md:102
+#: make-novice/_episodes/02-makefiles.md:138
+#: make-novice/_episodes/02-makefiles.md:145
+#: make-novice/_episodes/02-makefiles.md:161
+#: make-novice/_episodes/02-makefiles.md:198
+#: make-novice/_episodes/02-makefiles.md:216
+#: make-novice/_episodes/02-makefiles.md:277
+#: make-novice/_episodes/02-makefiles.md:297
+#: make-novice/_episodes/02-makefiles.md:326
+#: make-novice/_episodes/02-makefiles.md:371
+#: make-novice/_episodes/03-variables.md:103
+#: make-novice/_episodes/04-dependencies.md:54
+#: make-novice/_episodes/04-dependencies.md:81
+#: make-novice/_episodes/04-dependencies.md:130
+#: make-novice/_episodes/05-patterns.md:41
+#: make-novice/_episodes/05-patterns.md:58
+#: make-novice/_episodes/06-variables.md:103
+#: make-novice/_episodes/07-functions.md:72
+#: make-novice/_episodes/07-functions.md:110
+#: make-novice/_episodes/07-functions.md:149
+#: make-novice/_episodes/07-functions.md:175
+#: make-novice/_episodes/07-functions.md:193
+#: make-novice/_episodes/08-self-doc.md:25
+#: make-novice/_episodes/08-self-doc.md:107
+msgid "{: .language-bash}"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:52
+msgid "Let's take a quick peek at the result."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:54
+# code block
+msgid "~~~\n"
+"$ head -5 isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:59
+msgid "This shows us the top 5 lines in the output file:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:61
+# code block
+msgid "~~~\n"
+"the 3822 6.7371760973\n"
+"of 2460 4.33632998414\n"
+"and 1723 3.03719372466\n"
+"to 1479 2.60708619778\n"
+"a 1308 2.30565838181\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:70
+msgid "We can see that the file consists of one row per word.\n"
+"Each row shows the word itself, the number of occurrences of that\n"
+"word, and the number of occurrences as a percentage of the total\n"
+"number of words in the text file."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:75
+msgid "We can do the same thing for a different book:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:77
+# code block
+msgid "~~~\n"
+"$ python countwords.py books/abyss.txt abyss.dat\n"
+"$ head -5 abyss.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:83
+# code block
+msgid "~~~\n"
+"the 4044 6.35449402891\n"
+"and 2807 4.41074795726\n"
+"of 1907 2.99654305468\n"
+"a 1594 2.50471401634\n"
+"to 1515 2.38057825267\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:92
+msgid "Let's visualize the results.\n"
+"The script `plotcounts.py` reads in a data file and plots the 10 most\n"
+"frequently occurring words as a text-based bar plot:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:96
+# code block
+msgid "~~~\n"
+"$ python plotcounts.py isles.dat ascii\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:101
+# code block
+msgid "~~~\n"
+"the   ########################################################################\n"
+"of    ##############################################\n"
+"and   ################################\n"
+"to    ############################\n"
+"a     #########################\n"
+"in    ###################\n"
+"is    #################\n"
+"that  ############\n"
+"by    ###########\n"
+"it    ###########\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:115
+msgid "`plotcounts.py` can also show the plot graphically:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:117
+# code block
+msgid "~~~\n"
+"$ python plotcounts.py isles.dat show\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:122
+msgid "Close the window to exit the plot."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:124
+msgid "`plotcounts.py` can also create the plot as an image file (e.g. a PNG file):"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:126
+# code block
+msgid "~~~\n"
+"$ python plotcounts.py isles.dat isles.png\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:131
+msgid "Finally, let's test Zipf's law for these books:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:133
+# code block
+msgid "~~~\n"
+"$ python testzipf.py abyss.dat isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:138
+# code block
+msgid "~~~\n"
+"Book	First	Second	Ratio\n"
+"abyss	4044	2807	1.44\n"
+"isles	3822	2460	1.55\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:145
+msgid "So we're not too far off from Zipf's law."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:147
+msgid "Together these scripts implement a common workflow:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:149
+# ordered list
+msgid "1. Read a data file."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:150
+# ordered list
+msgid "2. Perform an analysis on this data file."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:151
+# ordered list
+msgid "3. Write the analysis results to a new file."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:152
+# ordered list
+msgid "4. Plot a graph of the analysis results."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:153
+# ordered list
+msgid "5. Save the graph as an image, so we can put it in a paper."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:154
+# ordered list
+msgid "6. Make a summary table of the analyses"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:156
+msgid "Running `countwords.py` and `plotcounts.py` at the shell prompt, as we\n"
+"have been doing, is fine for one or two files. If, however, we had 5\n"
+"or 10 or 20 text files,\n"
+"or if the number of steps in the pipeline were to expand, this could turn into\n"
+"a lot of work.\n"
+"Plus, no one wants to sit and wait for a command to finish, even just for 30\n"
+"seconds."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:164
+msgid "The most common solution to the tedium of data processing is to write\n"
+"a shell script that runs the whole pipeline from start to finish."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:167
+msgid "Using your text editor of choice (e.g. nano), add the following to a new file named\n"
+"`run_pipeline.sh`."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:170
+# code block
+msgid "~~~\n"
+"# USAGE: bash run_pipeline.sh\n"
+"# to produce plots for isles and abyss\n"
+"# and the summary table for the Zipf's law tests\n"
+"\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"\n"
+"python plotcounts.py isles.dat isles.png\n"
+"python plotcounts.py abyss.dat abyss.png\n"
+"\n"
+"# Generate summary table\n"
+"python testzipf.py abyss.dat isles.dat > results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:186
+msgid "Run the script and check that the output is the same as before:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:188
+# code block
+msgid "~~~\n"
+"$ bash run_pipeline.sh\n"
+"$ cat results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:194
+msgid "This shell script solves several problems in computational reproducibility:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:196
+# ordered list
+msgid "1.  It explicitly documents our pipeline,"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:197
+msgid "    making communication with colleagues (and our future selves) more efficient.\n"
+"2.  It allows us to type a single command, `bash run_pipeline.sh`, to\n"
+"    reproduce the full analysis.\n"
+"3.  It prevents us from _repeating_ typos or mistakes.\n"
+"    You might not get it right the first time, but once you fix something\n"
+"    it'll stay fixed."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:204
+msgid "Despite these benefits it has a few shortcomings."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:206
+msgid "Let's adjust the width of the bars in our plot produced by `plotcounts.py`."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:208
+msgid "Edit `plotcounts.py` so that the bars are 0.8 units wide instead of 1 unit.\n"
+"(Hint: replace `width = 1.0` with `width = 0.8` in the definition of\n"
+"`plot_word_counts`.)"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:212
+msgid "Now we want to recreate our figures.\n"
+"We _could_ just `bash run_pipeline.sh` again.\n"
+"That would work, but it could also be a big pain if counting words takes\n"
+"more than a few seconds.\n"
+"The word counting routine hasn't changed; we shouldn't need to recreate\n"
+"those files."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:219
+msgid "Alternatively, we could manually rerun the plotting for each word-count file.\n"
+"(Experienced shell scripters can make this easier on themselves using a\n"
+"for-loop.)"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:223
+# code block
+msgid "~~~\n"
+"for book in abyss isles; do\n"
+"    python plotcounts.py $book.dat $book.png\n"
+"done\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:230
+msgid "With this approach, however,\n"
+"we don't get many of the benefits of having a shell script in the first place."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:233
+msgid "Another popular option is to comment out a subset of the lines in\n"
+"`run_pipeline.sh`:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:236
+# code block
+msgid "~~~\n"
+"# USAGE: bash run_pipeline.sh\n"
+"# to produce plots for isles and abyss\n"
+"# and the summary table for the Zipf's law tests.\n"
+"\n"
+"# These lines are commented out because they don't need to be rerun.\n"
+"#python countwords.py books/isles.txt isles.dat\n"
+"#python countwords.py books/abyss.txt abyss.dat\n"
+"\n"
+"python plotcounts.py isles.dat isles.png\n"
+"python plotcounts.py abyss.dat abyss.png\n"
+"\n"
+"# Generate summary table\n"
+"# This line is also commented out because it doesn't need to be rerun.\n"
+"#python testzipf.py abyss.dat isles.dat > results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:254
+msgid "Then, we would run our modified shell script using `bash run_pipeline.sh`."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:256
+msgid "But commenting out these lines, and subsequently uncommenting them,\n"
+"can be a hassle and source of errors in complicated pipelines."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:259
+msgid "What we really want is an executable _description_ of our pipeline that\n"
+"allows software to do the tricky part for us:\n"
+"figuring out what steps need to be rerun."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:263
+msgid "Make was developed by\n"
+"Stuart Feldman in 1977 as a Bell Labs summer intern, and remains in\n"
+"widespread use today. Make can execute the commands needed to run our\n"
+"analysis and plot our results. Like shell scripts it allows us to\n"
+"execute complex sequences of commands via a single shell\n"
+"command. Unlike shell scripts it explicitly records the dependencies\n"
+"between files - what files are needed to create what other files -\n"
+"and so can determine when to recreate our data files or\n"
+"image files, if our text files change. Make can be used for any\n"
+"commands that follow the general pattern of processing files to create\n"
+"new files, for example:"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:275
+# unordered list
+msgid "* Run analysis scripts on raw data files to get data files that"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:276
+msgid "  summarize the raw data (e.g. creating files with word counts from book text).\n"
+"* Run visualization scripts on data files to produce plots\n"
+"  (e.g. creating images of word counts).\n"
+"* Parse and combine text files and plots to create papers.\n"
+"* Compile source code into executable programs or libraries."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:282
+msgid "There are now many build tools available, for example [Apache\n"
+"ANT][apache-ant], [doit][doit], and [nmake][nmake] for Windows. There\n"
+"are also build tools that build scripts for use with these build tools\n"
+"and others e.g. [GNU Autoconf][autoconf] and [CMake][cmake]. Which is\n"
+"best for you depends on your requirements, intended usage, and\n"
+"operating system. However, they all share the same fundamental\n"
+"concepts as Make."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:290
+# blockquote, which can be cascaded
+msgid "> ## Why Use Make if it is Almost 40 Years Old?"
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:291
+msgid ">\n"
+"> Today, researchers working with legacy codes in C or FORTRAN, which\n"
+"> are very common in high-performance computing, will, very likely\n"
+"> encounter Make.\n"
+">\n"
+"> Researchers are also finding Make of use in implementing\n"
+"> reproducible research workflows, automating data analysis and\n"
+"> visualisation (using Python or R) and combining tables and plots\n"
+"> with text to produce reports and papers for publication.\n"
+">\n"
+"> Make's fundamental concepts are common across build tools."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:304
+msgid "[GNU Make][gnu-make] is a free, fast, well-documented, and very popular\n"
+"Make implementation. From now on, we will focus on it, and when we say\n"
+"Make, we mean GNU Make."
+msgstr ""
+
+#: make-novice/_episodes/01-intro.md:308
+msgid "[autoconf]: http://www.gnu.org/software/autoconf/autoconf.html\n"
+"[apache-ant]: http://ant.apache.org/\n"
+"[cmake]: http://www.cmake.org/\n"
+"[doit]: http://pydoit.org/\n"
+"[gnu-make]: http://www.gnu.org/software/make/\n"
+"[nmake]: https://msdn.microsoft.com/en-us/library/dd9y37ha.aspx\n"
+"[zipfs-law]: http://en.wikipedia.org/wiki/Zipf%27s_law"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Makefiles\"\n"
+"teaching: 30\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How do I write a simple Makefile?\"\n"
+"objectives:\n"
+"- \"Recognize the key parts of a Makefile, rules, targets, dependencies and actions.\"\n"
+"- \"Write a simple Makefile.\"\n"
+"- \"Run Make from the shell.\"\n"
+"- \"Explain when and why to mark targets as `.PHONY`.\"\n"
+"- \"Explain constraints on dependencies.\"\n"
+"keypoints:\n"
+"- \"Use `#` for comments in Makefiles.\"\n"
+"- \"Write rules as `target: dependencies`.\"\n"
+"- \"Specify update actions in a tab-indented block under the rule.\"\n"
+"- \"Use `.PHONY` to mark targets that don't correspond to files.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:20
+msgid "Create a file, called `Makefile`, with the following content:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:22
+# code block
+msgid "~~~\n"
+"# Count words.\n"
+"isles.dat : books/isles.txt\n"
+"	python countwords.py books/isles.txt isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:27
+#: make-novice/_episodes/02-makefiles.md:191
+#: make-novice/_episodes/02-makefiles.md:267
+#: make-novice/_episodes/02-makefiles.md:319
+#: make-novice/_episodes/02-makefiles.md:344
+#: make-novice/_episodes/02-makefiles.md:412
+#: make-novice/_episodes/03-variables.md:41
+#: make-novice/_episodes/03-variables.md:70
+#: make-novice/_episodes/03-variables.md:79
+#: make-novice/_episodes/03-variables.md:91
+#: make-novice/_episodes/04-dependencies.md:40
+#: make-novice/_episodes/04-dependencies.md:73
+#: make-novice/_episodes/04-dependencies.md:231
+#: make-novice/_episodes/05-patterns.md:24
+#: make-novice/_episodes/05-patterns.md:94
+#: make-novice/_episodes/05-patterns.md:112
+#: make-novice/_episodes/06-variables.md:26
+#: make-novice/_episodes/06-variables.md:39
+#: make-novice/_episodes/06-variables.md:87
+#: make-novice/_episodes/06-variables.md:94
+#: make-novice/_episodes/07-functions.md:36
+#: make-novice/_episodes/07-functions.md:48
+#: make-novice/_episodes/07-functions.md:57
+#: make-novice/_episodes/07-functions.md:93
+#: make-novice/_episodes/07-functions.md:103
+#: make-novice/_episodes/07-functions.md:133
+#: make-novice/_episodes/07-functions.md:141
+#: make-novice/_episodes/07-functions.md:167
+#: make-novice/_episodes/07-functions.md:236
+#: make-novice/_episodes/07-functions.md:250
+#: make-novice/_episodes/08-self-doc.md:43
+#: make-novice/_episodes/08-self-doc.md:83
+#: make-novice/_episodes/08-self-doc.md:96
+msgid "{: .language-make}"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:29
+msgid "This is a [build file]({{ page.root }}/reference#build-file), which for\n"
+"Make is called a [Makefile]({{ page.root }}/reference#makefile) - a file executed\n"
+"by Make. Note how it resembles one of the lines from our shell script."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:33
+msgid "Let us go through each line in turn:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:35
+# unordered list
+msgid "* `#` denotes a *comment*. Any text from `#` to the end of the line is"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:36
+msgid "  ignored by Make.\n"
+"* `isles.dat` is a [target]({{ page.root }}/reference#target), a file to be\n"
+"  created, or built.\n"
+"* `books/isles.txt` is a [dependency]({{ page.root }}/reference#dependency), a\n"
+"  file that is needed to build or update the target. Targets can have\n"
+"  zero or more dependencies.\n"
+"* A colon, `:`, separates targets from dependencies.\n"
+"* `python countwords.py books/isles.txt isles.dat` is an\n"
+"  [action]({{ page.root }}/reference#action), a command to run to build or update\n"
+"  the target using the dependencies. Targets can have zero or more\n"
+"  actions. These actions form a recipe to build the target\n"
+"  from its dependencies and can be considered to be\n"
+"  a shell script.\n"
+"* Actions are indented using a single TAB character, *not* 8 spaces. This\n"
+"  is a legacy of Make's 1970's origins. If the difference between\n"
+"  spaces and a TAB character isn’t obvious in your editor, try moving\n"
+"  your cursor from one side of the TAB to the other. It should jump\n"
+"  four or more spaces.\n"
+"* Together, the target, dependencies, and actions form a\n"
+"  [rule]({{ page.root }}/reference#rule)."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:57
+msgid "Our rule above describes how to build the target `isles.dat` using the\n"
+"action `python countwords.py` and the dependency `books/isles.txt`."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:60
+msgid "Information that was implicit in our shell script - that we are\n"
+"generating a file called `isles.dat` and that creating this file\n"
+"requires `books/isles.txt` - is now made explicit by Make's syntax."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:64
+msgid "Let's first ensure we start from scratch and delete the `.dat` and `.png`\n"
+"files we created earlier:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:67
+# code block
+msgid "~~~\n"
+"$ rm *.dat *.png\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:72
+msgid "By default, Make looks for a Makefile, called `Makefile`, and we can\n"
+"run Make as follows:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:75
+#: make-novice/_episodes/02-makefiles.md:158
+#: make-novice/_episodes/02-makefiles.md:195
+#: make-novice/reference.md:10
+# code block
+msgid "~~~\n"
+"$ make\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:80
+msgid "By default, Make prints out the actions it executes:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:82
+#: make-novice/_episodes/02-makefiles.md:165
+# code block
+msgid "~~~\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:87
+msgid "If we see,"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:89
+#: make-novice/reference.md:58
+# code block
+msgid "~~~\n"
+"Makefile:3: *** missing separator.  Stop.\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:92
+#: make-novice/reference.md:61
+#: make-novice/reference.md:72
+# SC/DC Template label
+msgid "{: .error}"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:94
+msgid "then we have used a space instead of a TAB characters to indent one of\n"
+"our actions."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:97
+msgid "Let's see if we got what we expected."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:99
+# code block
+msgid "~~~\n"
+"head -5 isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:104
+msgid "The first 5 lines of `isles.dat` should look exactly like before."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:106
+# blockquote, which can be cascaded
+msgid "> ## Makefiles Do Not Have to be Called `Makefile`"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:107
+msgid ">\n"
+"> We don't have to call our Makefile `Makefile`. However, if we call it\n"
+"> something else we need to tell Make where to find it. This we can do\n"
+"> using `-f` flag. For example, if our Makefile is named `MyOtherMakefile`:\n"
+">\n"
+"> ~~~\n"
+"> $ make -f MyOtherMakefile\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+">\n"
+"> Sometimes, the suffix `.mk` will be used to identify Makefiles that\n"
+"> are not called `Makefile` e.g. `install.mk`, `common.mk` etc."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:122
+msgid "When we re-run our Makefile, Make now informs us that:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:124
+#: make-novice/_episodes/02-makefiles.md:202
+#: make-novice/reference.md:34
+# code block
+msgid "~~~\n"
+"make: `isles.dat' is up to date.\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:129
+msgid "This is because our target, `isles.dat`, has now been created, and\n"
+"Make will not create it again. To see how this works, let's pretend to\n"
+"update one of the text files. Rather than opening the file in an\n"
+"editor, we can use the shell `touch` command to update its timestamp\n"
+"(which would happen if we did edit the file):"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:135
+# code block
+msgid "~~~\n"
+"$ touch books/isles.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:140
+msgid "If we compare the timestamps of `books/isles.txt` and `isles.dat`,"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:142
+# code block
+msgid "~~~\n"
+"$ ls -l books/isles.txt isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:147
+msgid "then we see that `isles.dat`, the target, is now older\n"
+"than`books/isles.txt`, its dependency:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:150
+# code block
+msgid "~~~\n"
+"-rw-r--r--    1 mjj      Administ   323972 Jun 12 10:35 books/isles.txt\n"
+"-rw-r--r--    1 mjj      Administ   182273 Jun 12 09:58 isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:156
+msgid "If we run Make again,"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:163
+msgid "then it recreates `isles.dat`:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:170
+msgid "When it is asked to build a target, Make checks the 'last modification\n"
+"time' of both the target and its dependencies. If any dependency has\n"
+"been updated since the target, then the actions are re-run to update\n"
+"the target. Using this approach, Make knows to only rebuild the files\n"
+"that, either directly or indirectly, depend on the file that\n"
+"changed. This is called an [incremental\n"
+"build]({{ page.root }}/reference#incremental-build)."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:178
+# blockquote, which can be cascaded
+msgid "> ## Makefiles as Documentation"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:179
+msgid ">\n"
+"> By explicitly recording the inputs to and outputs from steps in our\n"
+"> analysis and the dependencies between files, Makefiles act as a type\n"
+"> of documentation, reducing the number of things we have to remember."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:185
+msgid "Let's add another rule to the end of `Makefile`:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:187
+# code block
+msgid "~~~\n"
+"abyss.dat : books/abyss.txt\n"
+"	python countwords.py books/abyss.txt abyss.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:193
+#: make-novice/_episodes/02-makefiles.md:321
+#: make-novice/_episodes/07-functions.md:105
+msgid "If we run Make,"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:200
+#: make-novice/_episodes/02-makefiles.md:279
+#: make-novice/_episodes/02-makefiles.md:328
+#: make-novice/_episodes/04-dependencies.md:83
+#: make-novice/_episodes/04-dependencies.md:132
+#: make-novice/_episodes/05-patterns.md:43
+#: make-novice/_episodes/07-functions.md:112
+msgid "then we get:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:207
+msgid "Nothing happens because Make attempts to build the first target it\n"
+"finds in the Makefile, the [default\n"
+"target]({{ page.root }}/reference#default-target), which is `isles.dat` which is\n"
+"already up-to-date. We need to explicitly tell Make we want to build\n"
+"`abyss.dat`:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:213
+# code block
+msgid "~~~\n"
+"$ make abyss.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:218
+msgid "Now, we get:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:220
+# code block
+msgid "~~~\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:225
+# blockquote, which can be cascaded
+msgid "> ## \"Up to Date\" Versus \"Nothing to be Done\""
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:226
+msgid ">\n"
+"> If we ask Make to build a file that already exists and is up to\n"
+"> date, then Make informs us that:\n"
+">\n"
+"> ~~~\n"
+"> make: `isles.dat' is up to date.\n"
+"> ~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:233
+#: make-novice/_episodes/02-makefiles.md:246
+# SC/DC Template label
+msgid "> {: .output}"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:234
+msgid ">\n"
+"> If we ask Make to build a file that exists but for which there is\n"
+"> no rule in our Makefile, then we get message like:\n"
+">\n"
+"> ~~~\n"
+"> $ make countwords.py\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> ~~~\n"
+"> make: Nothing to be done for `countwords.py'.\n"
+"> ~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:247
+msgid ">\n"
+"> `up to date` means that the Makefile has a rule with one or more actions\n"
+"> whose target is the name of a file (or directory) and the file is up to date.\n"
+">\n"
+"> `Nothing to be done` means that\n"
+"> the file exists but either :\n"
+"> - the Makefile has no rule for it, or\n"
+"> - the Makefile has a rule for it, but that rule has no actions"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:258
+msgid "We may want to remove all our data files so we can explicitly recreate\n"
+"them all. We can introduce a new target, and associated rule, to do\n"
+"this. We will call it `clean`, as this is a common name for rules that\n"
+"delete auto-generated files, like our `.dat` files:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:263
+# code block
+msgid "~~~\n"
+"clean :\n"
+"	rm -f *.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:269
+msgid "This is an example of a rule that has no dependencies. `clean` has no\n"
+"dependencies on any `.dat` file as it makes no sense to create these\n"
+"just to remove them. We just want to remove the data files whether or\n"
+"not they exist. If we run Make and specify this target,"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:274
+#: make-novice/_episodes/02-makefiles.md:323
+# code block
+msgid "~~~\n"
+"$ make clean\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:281
+#: make-novice/_episodes/02-makefiles.md:330
+# code block
+msgid "~~~\n"
+"rm -f *.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:286
+msgid "There is no actual thing built called `clean`. Rather, it is a\n"
+"short-hand that we can use to execute a useful sequence of\n"
+"actions. Such targets, though very useful, can lead to problems. For\n"
+"example, let us recreate our data files, create a directory called\n"
+"`clean`, then run Make:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:292
+# code block
+msgid "~~~\n"
+"$ make isles.dat abyss.dat\n"
+"$ mkdir clean\n"
+"$ make clean\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:299
+#: make-novice/_episodes/03-variables.md:105
+#: make-novice/_episodes/07-functions.md:74
+#: make-novice/_episodes/07-functions.md:151
+#: make-novice/_episodes/07-functions.md:177
+msgid "We get:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:301
+# code block
+msgid "~~~\n"
+"make: `clean' is up to date.\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:306
+msgid "Make finds a file (or directory) called `clean` and, as its `clean`\n"
+"rule has no dependencies, assumes that `clean` has been built and is\n"
+"up-to-date and so does not execute the rule's actions. As we are using\n"
+"`clean` as a short-hand, we need to tell Make to always execute this\n"
+"rule if we run `make clean`, by telling Make that this is a\n"
+"[phony target]({{ page.root }}/reference#phony-target), that it does not build\n"
+"anything. This we do by marking the target as `.PHONY`:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:314
+# code block
+msgid "~~~\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f *.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:335
+msgid "We can add a similar command to create all the data files. We can put\n"
+"this at the top of our Makefile so that it is the [default\n"
+"target]({{ page.root }}/reference#default-target), which is executed by default\n"
+"if no target is given to the `make` command:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:340
+# code block
+msgid "~~~\n"
+".PHONY : dats\n"
+"dats : isles.dat abyss.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:346
+msgid "This is an example of a rule that has dependencies that are targets of\n"
+"other rules. When Make runs, it will check to see if the dependencies\n"
+"exist and, if not, will see if rules are available that will create\n"
+"these. If such rules exist it will invoke these first, otherwise\n"
+"Make will raise an error."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:352
+# blockquote, which can be cascaded
+msgid "> ## Dependencies"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:353
+msgid ">\n"
+"> The order of rebuilding dependencies is arbitrary. You should not\n"
+"> assume that they will be built in the order in which they are\n"
+"> listed.\n"
+">\n"
+"> Dependencies must form a directed acyclic graph. A target cannot\n"
+"> depend on a dependency which itself, or one of its dependencies,\n"
+"> depends on that target."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:363
+msgid "This rule is also an example of a rule that has no actions. It is used\n"
+"purely to trigger the build of its dependencies, if needed."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:366
+msgid "If we run,"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:368
+# code block
+msgid "~~~\n"
+"$ make dats\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:373
+msgid "then Make creates the data files:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:375
+# code block
+msgid "~~~\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:381
+msgid "If we run `dats` again, then Make will see that the dependencies (isles.dat\n"
+"and abyss.dat) are already up to date. \n"
+"Given the target `dats` has no actions, there is `nothing to be done`:\n"
+"~~~\n"
+"$ make dats\n"
+"~~~\n"
+"{: .language-bash}"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:389
+# code block
+msgid "~~~\n"
+"make: Nothing to be done for `dats'.\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:395
+#: make-novice/_episodes/04-dependencies.md:15
+msgid "Our Makefile now looks like this:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:397
+# code block
+msgid "~~~\n"
+"# Count words.\n"
+".PHONY : dats\n"
+"dats : isles.dat abyss.dat\n"
+"\n"
+"isles.dat : books/isles.txt\n"
+"	python countwords.py books/isles.txt isles.dat\n"
+"\n"
+"abyss.dat : books/abyss.txt\n"
+"	python countwords.py books/abyss.txt abyss.dat\n"
+"\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f *.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:414
+msgid "The following figure shows a graph of the dependencies embodied within\n"
+"our Makefile, involved in building the `dats` target:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:417
+msgid "![Dependencies represented within the Makefile](../fig/02-makefile.png \"Dependencies represented within the Makefile\")"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:419
+# blockquote, which can be cascaded
+msgid "> ## Write Two New Rules"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:420
+msgid ">\n"
+"> 1. Write a new rule for `last.dat`, created from `books/last.txt`.\n"
+"> 2. Update the `dats` rule with this target.\n"
+"> 3. Write a new rule for `results.txt`, which creates the summary\n"
+">    table. The rule needs to:\n"
+">    * Depend upon each of the three `.dat` files.\n"
+">    * Invoke the action `python testzipf.py abyss.dat isles.dat last.dat > results.txt`.\n"
+"> 4. Put this rule at the top of the Makefile so that it is the default target.\n"
+"> 5. Update `clean` so that it removes `results.txt`.\n"
+">\n"
+"> The starting Makefile is [here]({{ page.root }}/code/02-makefile/Makefile).\n"
+">\n"
+"> > ## Solution\n"
+"> > See [this file]({{ page.root }}/code/02-makefile-challenge/Makefile) for a solution."
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:434
+#: make-novice/_episodes/03-variables.md:146
+#: make-novice/_episodes/03-variables.md:174
+#: make-novice/_episodes/04-dependencies.md:171
+#: make-novice/_episodes/04-dependencies.md:216
+#: make-novice/_episodes/06-variables.md:69
+#: make-novice/_episodes/09-conclusion.md:51
+#: make-novice/_episodes/09-conclusion.md:99
+#: make-novice/_episodes/09-conclusion.md:115
+#: make-novice/_episodes/09-conclusion.md:130
+# SC/DC Template label
+msgid "> {: .solution}"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:435
+#: make-novice/_episodes/03-variables.md:147
+#: make-novice/_episodes/03-variables.md:175
+#: make-novice/_episodes/04-dependencies.md:172
+#: make-novice/_episodes/04-dependencies.md:217
+#: make-novice/_episodes/06-variables.md:70
+#: make-novice/_episodes/07-functions.md:282
+#: make-novice/_episodes/09-conclusion.md:52
+#: make-novice/_episodes/09-conclusion.md:100
+#: make-novice/_episodes/09-conclusion.md:116
+#: make-novice/_episodes/09-conclusion.md:131
+# SC/DC Template label
+msgid "{: .challenge}"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:437
+msgid "The following figure shows the dependencies embodied within our\n"
+"Makefile, involved in building the `results.txt` target:"
+msgstr ""
+
+#: make-novice/_episodes/02-makefiles.md:440
+msgid "![results.txt dependencies represented within the Makefile](../fig/02-makefile-challenge.png \"results.txt dependencies represented within the Makefile\")"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Automatic Variables\"\n"
+"teaching: 10\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How can I abbreviate the rules in my Makefiles?\"\n"
+"objectives:\n"
+"- \"Use Make automatic variables to remove duplication in a Makefile.\"\n"
+"- \"Explain why shell wildcards in dependencies can cause problems.\"\n"
+"keypoints:\n"
+"- \"Use `$@` to refer to the target of the current rule.\"\n"
+"- \"Use `$^` to refer to the dependencies of the current rule.\"\n"
+"- \"Use `$<` to refer to the first dependency of the current rule.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:16
+msgid "After the exercise at the end of the previous episode, our Makefile looked like this:"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:18
+# code block
+msgid "~~~\n"
+"# Generate summary table.\n"
+"results.txt : isles.dat abyss.dat last.dat\n"
+"	python testzipf.py abyss.dat isles.dat last.dat > results.txt\n"
+"\n"
+"# Count words.\n"
+".PHONY : dats\n"
+"dats : isles.dat abyss.dat last.dat\n"
+"\n"
+"isles.dat : books/isles.txt\n"
+"	python countwords.py books/isles.txt isles.dat\n"
+"\n"
+"abyss.dat : books/abyss.txt\n"
+"	python countwords.py books/abyss.txt abyss.dat\n"
+"\n"
+"last.dat : books/last.txt\n"
+"	python countwords.py books/last.txt last.dat\n"
+"\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f *.dat\n"
+"	rm -f results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:43
+msgid "Our Makefile has a lot of duplication. For example, the names of text\n"
+"files and data files are repeated in many places throughout the\n"
+"Makefile. Makefiles are a form of code and, in any code, repeated code\n"
+"can lead to problems e.g. we rename a data file in one part of the\n"
+"Makefile but forget to rename it elsewhere."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:49
+# blockquote, which can be cascaded
+msgid "> ## D.R.Y. (Don't Repeat Yourself)"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:50
+msgid ">\n"
+"> In many programming languages, the bulk of the language features are\n"
+"> there to allow the programmer to describe long-winded computational\n"
+"> routines as short, expressive, beautiful code.  Features in Python\n"
+"> or R or Java, such as user-defined variables and functions are useful in\n"
+"> part because they mean we don't have to write out (or think about)\n"
+"> all of the details over and over again.  This good habit of writing\n"
+"> things out only once is known as the \"Don't Repeat Yourself\"\n"
+"> principle or D.R.Y."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:61
+msgid "Let us set about removing some of the repetition from our Makefile."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:63
+msgid "In our `results.txt` rule we duplicate the data file names and the\n"
+"name of the results file name:"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:66
+# code block
+msgid "~~~\n"
+"results.txt : isles.dat abyss.dat last.dat\n"
+"	python testzipf.py abyss.dat isles.dat last.dat > results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:72
+msgid "Looking at the results file name first, we can replace it in the action\n"
+"with `$@`:"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:75
+# code block
+msgid "~~~\n"
+"results.txt : isles.dat abyss.dat last.dat\n"
+"	python testzipf.py abyss.dat isles.dat last.dat > $@\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:81
+msgid "`$@` is a Make [automatic variable]({{ page.root }}/reference#automatic-variable)\n"
+"which means 'the target of the current rule'. When Make is run it will\n"
+"replace this variable with the target name."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:85
+msgid "We can replace the dependencies in the action with `$^`:"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:87
+# code block
+msgid "~~~\n"
+"results.txt : isles.dat abyss.dat last.dat\n"
+"	python testzipf.py $^ > $@\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:93
+msgid "`$^` is another automatic variable which means 'all the dependencies\n"
+"of the current rule'. Again, when Make is run it will replace this\n"
+"variable with the dependencies."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:97
+msgid "Let's update our text files and re-run our rule:"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:99
+# code block
+msgid "~~~\n"
+"$ touch books/*.txt\n"
+"$ make results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:107
+# code block
+msgid "~~~\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"python countwords.py books/last.txt last.dat\n"
+"python testzipf.py isles.dat abyss.dat last.dat > results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:116
+# blockquote, which can be cascaded
+msgid "> ## Update Dependencies"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:117
+msgid ">\n"
+"> What will happen if you now execute:\n"
+">\n"
+"> ~~~\n"
+"> $ touch *.dat\n"
+"> $ make results.txt\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> 1. nothing\n"
+"> 2. all files recreated\n"
+"> 3. only `.dat` files recreated\n"
+"> 4. only `results.txt` recreated\n"
+">\n"
+"> > ## Solution\n"
+"> > `4.` Only `results.txt` recreated.\n"
+"> >\n"
+"> > The rules for `*.dat` are not executed because their corresponding `.txt` files\n"
+"> > haven't been modified.\n"
+"> >\n"
+"> > If you run:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ touch books/*.txt\n"
+"> > $ make results.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > you will find that the `.dat` files as well as `results.txt` are recreated."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:149
+msgid "As we saw, `$^` means 'all the dependencies of the current rule'. This\n"
+"works well for `results.txt` as its action treats all the dependencies\n"
+"the same - as the input for the `testzipf.py` script."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:153
+msgid "However, for some rules, we may want to treat the first dependency\n"
+"differently. For example, our rules for `.dat` use their first (and\n"
+"only) dependency specifically as the input file to `countwords.py`. If\n"
+"we add additional dependencies (as we will soon do) then we don't want\n"
+"these being passed as input files to `countwords.py` as it expects only\n"
+"one input file to be named when it is invoked."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:160
+msgid "Make provides an automatic variable for this, `$<` which means 'the\n"
+"first dependency of the current rule'."
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:163
+# blockquote, which can be cascaded
+msgid "> ## Rewrite `.dat` Rules to Use Automatic Variables"
+msgstr ""
+
+#: make-novice/_episodes/03-variables.md:164
+msgid ">\n"
+"> Rewrite each `.dat` rule to use the automatic variables `$@` ('the\n"
+"> target of the current rule') and `$<` ('the first dependency of the\n"
+"> current rule').\n"
+"> [This file]({{ page.root }}/code/03-variables/Makefile) contains\n"
+"> the Makefile immediately before the challenge.\n"
+">\n"
+"> > ## Solution\n"
+"> > See [this file]({{ page.root }}/code/03-variables-challenge/Makefile)\n"
+"> > for a solution to this challenge."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Dependencies on Data and Code\"\n"
+"teaching: 15\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How can I write a Makefile to update things when my scripts have changed rather than my input files?\"\n"
+"objectives:\n"
+"- \"Output files are a product not only of input files but of the scripts or code that created the output files.\"\n"
+"- \"Recognize and avoid false dependencies.\"\n"
+"keypoints:\n"
+"- \"Make results depend on processing scripts as well as data files.\"\n"
+"- \"Dependencies are transitive: if A depends on B and B depends on C, a change to C will indirectly trigger an update to A.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:17
+# code block
+msgid "~~~\n"
+"# Generate summary table.\n"
+"results.txt : isles.dat abyss.dat last.dat\n"
+"	python testzipf.py $^ > $@\n"
+"\n"
+"# Count words.\n"
+".PHONY : dats\n"
+"dats : isles.dat abyss.dat last.dat\n"
+"\n"
+"isles.dat : books/isles.txt\n"
+"	python countwords.py $< $@\n"
+"\n"
+"abyss.dat : books/abyss.txt\n"
+"	python countwords.py $< $@\n"
+"\n"
+"last.dat : books/last.txt\n"
+"	python countwords.py $< $@\n"
+"\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f *.dat\n"
+"	rm -f results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:42
+msgid "Our data files are a product not only of our text files but the\n"
+"script, `countwords.py`, that processes the text files and creates the\n"
+"data files. A change to `countwords.py` (e.g. to add a new column of\n"
+"summary data or remove an existing one) results in changes to the\n"
+"`.dat` files it outputs. So, let's pretend to edit `countwords.py`,\n"
+"using `touch`, and re-run Make:"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:49
+# code block
+msgid "~~~\n"
+"$ make dats\n"
+"$ touch countwords.py\n"
+"$ make dats\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:56
+msgid "Nothing happens! Though we've updated `countwords.py` our data files\n"
+"are not updated because our rules for creating `.dat` files don't\n"
+"record any dependencies on `countwords.py`."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:60
+msgid "We need to add `countwords.py` as a dependency of each of our\n"
+"data files also:"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:63
+# code block
+msgid "~~~\n"
+"isles.dat : books/isles.txt countwords.py\n"
+"	python countwords.py $< $@\n"
+"\n"
+"abyss.dat : books/abyss.txt countwords.py\n"
+"	python countwords.py $< $@\n"
+"\n"
+"last.dat : books/last.txt countwords.py\n"
+"	python countwords.py $< $@\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:75
+msgid "If we pretend to edit `countwords.py` and re-run Make,"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:77
+# code block
+msgid "~~~\n"
+"$ touch countwords.py\n"
+"$ make dats\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:85
+#: make-novice/_episodes/05-patterns.md:45
+# code block
+msgid "~~~\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"python countwords.py books/last.txt last.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:92
+# blockquote, which can be cascaded
+msgid "> ## Dry run"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:93
+msgid ">\n"
+"> `make` can show the commands it will execute without actually running them if we pass the `-n` flag:\n"
+">\n"
+"> ~~~\n"
+"> $ touch countwords.py\n"
+"> $ make -n dats\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> This gives the same output to the screen as without the `-n` flag, but the commands are not actually run. Using this 'dry-run' mode is a good way to check that you have set up your Makefile properly before actually running the commands in it.\n"
+">"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:106
+msgid "The following figure shows the dependencies embodied within our\n"
+"Makefile, involved in building the `results.txt` target, after adding\n"
+"`countwords.py` and `testzipf.py` as dependencies to their respective target files\n"
+"(i.e. how the Makefile should look after completing the rest of the exercises\n"
+"in this episode)."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:112
+msgid "![results.txt dependencies after adding countwords.py and testzipf.py as dependencies](../fig/04-dependencies.png \"results.txt dependencies after adding countwords.py and testzipf.py as dependencies\")"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:114
+# blockquote, which can be cascaded
+msgid "> ## Why Don't the `.txt` Files Depend on `countwords.py`?"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:115
+msgid ">\n"
+"> `.txt` files are input files and have no dependencies. To make these\n"
+"> depend on `countwords.py` would introduce a [false\n"
+"> dependency]({{ page.root }}/reference#false-dependency)."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:121
+msgid "Intuitively, we should also add `countwords.py` as dependency for\n"
+"`results.txt`, as the final table should be rebuilt as we remake the\n"
+"`.dat` files. However, it turns out we don't have to! Let's see what\n"
+"happens to `results.txt` when we update `countwords.py`:"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:126
+# code block
+msgid "~~~\n"
+"$ touch countwords.py\n"
+"$ make results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:134
+# code block
+msgid "~~~\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"python countwords.py books/last.txt last.dat\n"
+"python testzipf.py abyss.dat isles.dat last.dat > results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:142
+msgid "The whole pipeline is triggered, even the creation of the\n"
+"`results.txt` file! To understand this, note that according to the\n"
+"dependency figure, `results.txt` depends on the `.dat` files. The\n"
+"update of `countwords.py` triggers an update of the `*.dat`\n"
+"files. Thus, `make` sees that the dependencies (the `.dat` files) are\n"
+"newer than the target file (`results.txt`) and thus it recreates\n"
+"`results.txt`. This is an example of the power of `make`: updating a\n"
+"subset of the files in the pipeline triggers rerunning the appropriate\n"
+"downstream steps."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:152
+# blockquote, which can be cascaded
+msgid "> ## Updating One Input File"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:153
+msgid ">\n"
+"> What will happen if you now execute:\n"
+">\n"
+"> ~~~\n"
+"> $ touch books/last.txt\n"
+"> $ make results.txt\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> 1. only `last.dat` is recreated\n"
+"> 2. all `.dat` files are recreated\n"
+"> 3. only `last.dat` and `results.txt` are recreated\n"
+"> 4. all `.dat` and `results.txt` are recreated\n"
+">\n"
+"> > ## Solution\n"
+"> > `3.` only `last.dat` and `results.txt` are recreated.\n"
+"> >\n"
+"> > Follow the dependency tree to understand the answer(s)."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:174
+# blockquote, which can be cascaded
+msgid "> ## `testzipf.py` as a Dependency of `results.txt`."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:175
+msgid ">\n"
+"> What would happen if you added `testzipf.py` as dependency of `results.txt`, and why?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > If you change the rule for the `results.txt` file like this:\n"
+"> >\n"
+"> > ~~~\n"
+"> > results.txt : isles.dat abyss.dat last.dat testzipf.py\n"
+"> >         python testzipf.py $^ > $@\n"
+"> > ~~~\n"
+"> > {: .language-make}\n"
+"> >\n"
+"> > `testzipf.py` becomes a part of `$^`, thus the command becomes\n"
+"> >\n"
+"> > ~~~\n"
+"> > python testzipf.py abyss.dat isles.dat last.dat testzipf.py > results.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > This results in an error from `testzipf.py` as it tries to parse the\n"
+"> > script as if it were a `.dat` file. Try this by running:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ make results.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > You'll get\n"
+"> >\n"
+"> > ~~~\n"
+"> > python testzipf.py abyss.dat isles.dat last.dat testzipf.py > results.txt\n"
+"> > Traceback (most recent call last):\n"
+"> >   File \"testzipf.py\", line 19, in <module>\n"
+"> >     counts = load_word_counts(input_file)\n"
+"> >   File \"path/to/testzipf.py\", line 39, in load_word_counts\n"
+"> >     counts.append((fields[0], int(fields[1]), float(fields[2])))\n"
+"> > IndexError: list index out of range\n"
+"> > make: *** [results.txt] Error 1\n"
+"> > ~~~\n"
+"> > {: .error}"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:219
+msgid "We still have to add the `testzipf.py` script as dependency to\n"
+"`results.txt`. Given the answer to the challenge above, we cannot use\n"
+"`$^` in the rule.  \n"
+"We can however move `testzipf.py` to be the\n"
+"first dependency and then use `$<` to refer to it. \n"
+"In order to refer to the `.dat` files, we can just use `*.dat` for now (we will\n"
+"cover a better solution later on)."
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:227
+# code block
+msgid "~~~\n"
+"results.txt : testzipf.py isles.dat abyss.dat last.dat\n"
+"	python $< *.dat > $@\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:233
+#: make-novice/_episodes/05-patterns.md:96
+#: make-novice/_episodes/06-variables.md:112
+#: make-novice/_episodes/07-functions.md:258
+#: make-novice/_episodes/08-self-doc.md:125
+# blockquote, which can be cascaded
+msgid "> ## Where We Are"
+msgstr ""
+
+#: make-novice/_episodes/04-dependencies.md:234
+msgid ">\n"
+"> [This Makefile]({{ page.root }}/code/04-dependencies/Makefile)\n"
+"> contains everything done so far in this topic."
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Pattern Rules\"\n"
+"teaching: 10\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How can I define rules to operate on similar files?\"\n"
+"objectives:\n"
+"- \"Write Make pattern rules.\"\n"
+"keypoints:\n"
+"- \"Use the wildcard `%` as a placeholder in targets and dependencies.\"\n"
+"- \"Use the special variable `$*` to refer to matching sets of files in actions.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:14
+msgid "Our Makefile still has repeated content. The rules for each `.dat`\n"
+"file are identical apart from the text and data file names. We can\n"
+"replace these rules with a single [pattern\n"
+"rule]({{ page.root }}/reference#pattern-rule) which can be used to build any\n"
+"`.dat` file from a `.txt` file in `books/`:"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:20
+# code block
+msgid "~~~\n"
+"%.dat : books/%.txt countwords.py\n"
+"	python countwords.py $< $*.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:26
+msgid "`%` is a Make [wildcard]({{ page.root }}/reference#wildcard).  `$*` is a special\n"
+"variable which gets replaced by the [stem]({{ page.root }}/reference#stem) with\n"
+"which the rule matched."
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:30
+msgid "This rule can be interpreted as:\n"
+"\"In order to build a file named `[something].dat` (the target)\n"
+"find a file named `books/[that same something].txt` (the dependency)\n"
+"and run `countwords.py [the dependency] [the target]`.\""
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:35
+msgid "If we re-run Make,"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:37
+#: make-novice/_episodes/07-functions.md:145
+# code block
+msgid "~~~\n"
+"$ make clean\n"
+"$ make dats\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:52
+msgid "Note that we can still use Make to build individual `.dat` targets as before,\n"
+"and that our new rule will work no matter what stem is being matched."
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:55
+# code block
+msgid "```\n"
+"$ make sierra.dat\n"
+"```"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:60
+msgid "which gives the output below:"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:62
+# code block
+msgid "```\n"
+"python countwords.py books/sierra.txt sierra.dat\n"
+"```"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:67
+# blockquote, which can be cascaded
+msgid "> ## Using Make Wildcards"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:68
+msgid ">\n"
+"> The Make `%` wildcard can only be used in a target and in its\n"
+"> dependencies. It cannot be used in actions. In actions, you may\n"
+"> however use `$*`, which will be replaced by the stem with which\n"
+"> the rule matched."
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:75
+msgid "Our Makefile is now much shorter and cleaner:"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:77
+# code block
+msgid "~~~\n"
+"# Generate summary table.\n"
+"results.txt : testzipf.py isles.dat abyss.dat last.dat\n"
+"	python $< *.dat > $@\n"
+"\n"
+"# Count words.\n"
+".PHONY : dats\n"
+"dats : isles.dat abyss.dat last.dat\n"
+"\n"
+"%.dat : books/%.txt countwords.py\n"
+"	python countwords.py $< $*.dat\n"
+"\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f *.dat\n"
+"	rm -f results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:97
+msgid ">\n"
+"> [This Makefile]({{ page.root }}/code/05-patterns/Makefile)\n"
+"> contains all of our work so far."
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:102
+msgid "This episode has introduced pattern rules, and used the `$*` variable\n"
+"in the `dat` rule in order to explain how to use it.\n"
+"Arguably, a neater solution would have been to use `$@` to refer to\n"
+"the target of the current rule (see below),\n"
+"but then we wouldn't have learned about `$*`."
+msgstr ""
+
+#: make-novice/_episodes/05-patterns.md:108
+# code block
+msgid "```\n"
+"%.dat : books/%.txt countwords.py\n"
+"	python countwords.py $< $@\n"
+"```"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Variables\"\n"
+"teaching: 15\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How can I eliminate redundancy in my Makefiles?\"\n"
+"objectives:\n"
+"- \"Use variables in a Makefile.\"\n"
+"- \"Explain the benefits of decoupling configuration from computation.\"\n"
+"keypoints:\n"
+"- \"Define variables by assigning values to names.\"\n"
+"- \"Reference variables using `$(...)`.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:15
+msgid "Despite our efforts, our Makefile still has repeated content, i.e.\n"
+"the name of our script -- `countwords.py`, and the program we use to run it -- `python`.\n"
+"If we renamed our script we'd have to update our Makefile in multiple places."
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:19
+msgid "We can introduce a Make [variable]({{ page.root }}/reference#variable) (called a\n"
+"[macro]({{ page.root }}/reference#macro) in some versions of Make) to hold our\n"
+"script name:"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:23
+# code block
+msgid "~~~\n"
+"COUNT_SRC=countwords.py\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:28
+msgid "This is a variable [assignment]({{ page.root }}/reference#assignment) -\n"
+"`COUNT_SRC` is assigned the value `countwords.py`."
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:31
+msgid "`countwords.py` is our script and it is invoked by passing it to\n"
+"`python`. We can introduce another couple of variables to represent this\n"
+"execution:"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:35
+# code block
+msgid "~~~\n"
+"LANGUAGE=python\n"
+"COUNT_EXE=$(LANGUAGE) $(COUNT_SRC)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:41
+msgid "`$(...)` tells Make to replace a variable with its value when Make\n"
+"is run. This is a variable [reference]({{ page.root }}/reference#reference). At\n"
+"any place where we want to use the value of a variable we have to\n"
+"write it, or reference it, in this way."
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:46
+msgid "Here we reference the variables `LANGUAGE` and `COUNT_SRC`. This tells Make to\n"
+"replace the variable `LANGUAGE` with its value `python`,\n"
+"and to replace the variable `COUNT_SRC` with its value `countwords.py`. When\n"
+"Make is run it will assign to `COUNT_EXE` the value `python\n"
+"countwords.py`."
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:52
+msgid "Defining the variable `COUNT_EXE` in this way avoids repeating `python` in our \n"
+"Makefile, and allows us to easily\n"
+"change how our script is run (e.g. we might want to use a different\n"
+"version of Python and need to change `python` to `python2` -- or we might want to\n"
+"rewrite the script using another language (e.g. switch from Python to R))."
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:58
+# blockquote, which can be cascaded
+msgid "> ## Use Variables"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:59
+msgid ">\n"
+"> Update `Makefile` so that the `%.dat` rule\n"
+"> references the variables `COUNT_SRC` and `COUNT_EXE`.\n"
+"> Then do the same for the `testzipf.py` script\n"
+"> and the `results.txt` rule,\n"
+"> using `ZIPF_SRC` and `ZIPF_EXE` as variable names\n"
+">\n"
+"> > ## Solution\n"
+"> > [This Makefile]({{ page.root }}/code/06-variables-challenge/Makefile)\n"
+"> > contains a solution to this challenge."
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:72
+msgid "We place variables at the top of a Makefile so they are easy to\n"
+"find and modify. Alternatively, we can pull them out into a new\n"
+"file that just holds variable definitions (i.e. delete them from\n"
+"the original makefile). Let us create `config.mk`:"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:77
+#: make-novice/_episodes/07-functions.md:240
+# code block
+msgid "~~~\n"
+"# Count words script.\n"
+"LANGUAGE=python\n"
+"COUNT_SRC=countwords.py\n"
+"COUNT_EXE=$(LANGUAGE) $(COUNT_SRC)\n"
+"\n"
+"# Test Zipf's rule\n"
+"ZIPF_SRC=testzipf.py\n"
+"ZIPF_EXE=$(LANGUAGE) $(ZIPF_SRC)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:89
+msgid "We can then import `config.mk` into `Makefile` using:"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:91
+#: make-novice/reference.md:193
+# code block
+msgid "~~~\n"
+"include config.mk\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:96
+msgid "We can re-run Make to see that everything still works:"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:98
+# code block
+msgid "~~~\n"
+"$ make clean\n"
+"$ make dats\n"
+"$ make results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:105
+msgid "We have separated the configuration of our Makefile from its rules,\n"
+"the parts that do all the work. If we want to change our script name\n"
+"or how it is executed we just need to edit our configuration file, not\n"
+"our source code in `Makefile`. Decoupling code from configuration in\n"
+"this way is good programming practice, as it promotes more modular,\n"
+"flexible and reusable code."
+msgstr ""
+
+#: make-novice/_episodes/06-variables.md:113
+msgid ">\n"
+"> [This Makefile]({{ page.root }}/code/06-variables/Makefile)\n"
+"> and [its accompanying `config.mk`]({{ page.root }}/code/06-variables/config.mk)\n"
+"> contain all of our work so far."
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Functions\"\n"
+"teaching: 20\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How *else* can I eliminate redundancy in my Makefiles?\"\n"
+"objectives:\n"
+"- \"Write Makefiles that use functions to match and transform sets of files.\"\n"
+"keypoints:\n"
+"- \"Make is actually a small programming language with many built-in functions.\"\n"
+"- \"Use `wildcard` function to get lists of files matching a pattern.\"\n"
+"- \"Use `patsubst` function to rewrite file names.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:15
+msgid "At this point, we have the following Makefile:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:17
+# code block
+msgid "~~~\n"
+"include config.mk\n"
+"\n"
+"# Generate summary table.\n"
+"results.txt : $(ZIPF_SRC) isles.dat abyss.dat last.dat\n"
+"	$(ZIPF_EXE) *.dat > $@\n"
+"\n"
+"# Count words.\n"
+".PHONY : dats\n"
+"dats : isles.dat abyss.dat last.dat\n"
+"\n"
+"%.dat : books/%.txt $(COUNT_SRC)\n"
+"	$(COUNT_EXE) $< $*.dat\n"
+"\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f *.dat\n"
+"	rm -f results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:38
+msgid "Make has many [functions]({{ page.root }}/reference#function) which can be used to\n"
+"write more complex rules. One example is `wildcard`. `wildcard` gets a\n"
+"list of files matching some pattern, which we can then save in a\n"
+"variable. So, for example, we can get a list of all our text files\n"
+"(files ending in `.txt`) and save these in a variable by adding this at\n"
+"the beginning of our makefile:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:45
+#: make-novice/reference.md:200
+# code block
+msgid "~~~\n"
+"TXT_FILES=$(wildcard books/*.txt)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:50
+msgid "We can add a `.PHONY` target and rule to show the variable's value:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:52
+# code block
+msgid "~~~\n"
+".PHONY : variables\n"
+"variables:\n"
+"	@echo TXT_FILES: $(TXT_FILES)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:59
+# blockquote, which can be cascaded
+msgid "> ## @echo"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:60
+msgid ">\n"
+"> Make prints actions as it executes them. Using `@` at the start of\n"
+"> an action tells Make not to print this action. So, by using `@echo`\n"
+"> instead of `echo`, we can see the result of `echo` (the variable's\n"
+"> value being printed) but not the `echo` command itself."
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:67
+msgid "If we run Make:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:69
+#: make-novice/_episodes/07-functions.md:107
+# code block
+msgid "~~~\n"
+"$ make variables\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:76
+# code block
+msgid "~~~\n"
+"TXT_FILES: books/abyss.txt books/isles.txt books/last.txt books/sierra.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:81
+msgid "Note how `sierra.txt` is now included too."
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:83
+msgid "`patsubst` ('pattern substitution') takes a pattern, a replacement string and a\n"
+"list of names in that order; each name in the list that matches the pattern is\n"
+"replaced by the replacement string. Again, we can save the result in a\n"
+"variable. So, for example, we can rewrite our list of text files into\n"
+"a list of data files (files ending in `.dat`) and save these in a\n"
+"variable:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:90
+#: make-novice/reference.md:212
+# code block
+msgid "~~~\n"
+"DAT_FILES=$(patsubst books/%.txt, %.dat, $(TXT_FILES))\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:95
+msgid "We can extend `variables` to show the value of `DAT_FILES` too:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:97
+# code block
+msgid "~~~\n"
+".PHONY : variables\n"
+"variables:\n"
+"	@echo TXT_FILES: $(TXT_FILES)\n"
+"	@echo DAT_FILES: $(DAT_FILES)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:114
+# code block
+msgid "~~~\n"
+"TXT_FILES: books/abyss.txt books/isles.txt books/last.txt books/sierra.txt\n"
+"DAT_FILES: abyss.dat isles.dat last.dat sierra.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:120
+msgid "Now, `sierra.txt` is processed too."
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:122
+msgid "With these we can rewrite `clean` and `dats`:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:124
+# code block
+msgid "~~~\n"
+".PHONY : dats\n"
+"dats : $(DAT_FILES)\n"
+"\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f $(DAT_FILES)\n"
+"	rm -f results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:135
+msgid "Let's also tidy up the `%.dat` rule by using the automatic variable `$@` instead of `$*.dat`:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:137
+# code block
+msgid "```\n"
+"%.dat : books/%.txt $(COUNT_SRC)\n"
+"	$(COUNT_EXE) $< $@\n"
+"```"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:143
+msgid "Let's check:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:153
+# code block
+msgid "~~~\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"python countwords.py books/last.txt last.dat\n"
+"python countwords.py books/sierra.txt sierra.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:161
+msgid "We can also rewrite `results.txt`:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:163
+# code block
+msgid "~~~\n"
+"results.txt : $(ZIPF_SRC) $(DAT_FILES)\n"
+"	$(ZIPF_EXE) $(DAT_FILES) > $@\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:169
+msgid "If we re-run Make:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:171
+# code block
+msgid "~~~\n"
+"$ make clean\n"
+"$ make results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:179
+# code block
+msgid "~~~\n"
+"python countwords.py books/abyss.txt abyss.dat\n"
+"python countwords.py books/isles.txt isles.dat\n"
+"python countwords.py books/last.txt last.dat\n"
+"python countwords.py books/sierra.txt sierra.dat\n"
+"python testzipf.py  last.dat  isles.dat  abyss.dat  sierra.dat > results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:188
+msgid "Let's check the `results.txt` file:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:190
+# code block
+msgid "~~~\n"
+"$ cat results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:195
+# code block
+msgid "~~~\n"
+"Book	First	Second	Ratio\n"
+"abyss	4044	2807	1.44\n"
+"isles	3822	2460	1.55\n"
+"last	12244	5566	2.20\n"
+"sierra	4242	2469	1.72\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:204
+msgid "So the range of the ratios of occurrences of the two most frequent\n"
+"words in our books is indeed around 2, as predicted by Zipf's Law,\n"
+"i.e., the most frequently-occurring word occurs approximately twice as\n"
+"often as the second most frequent word.  Here is our final Makefile:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:209
+# code block
+msgid "~~~\n"
+"include config.mk\n"
+"\n"
+"TXT_FILES=$(wildcard books/*.txt)\n"
+"DAT_FILES=$(patsubst books/%.txt, %.dat, $(TXT_FILES))\n"
+"\n"
+"# Generate summary table.\n"
+"results.txt : $(ZIPF_SRC) $(DAT_FILES)\n"
+"	$(ZIPF_EXE) $(DAT_FILES) > $@\n"
+"\n"
+"# Count words.\n"
+".PHONY : dats\n"
+"dats : $(DAT_FILES)\n"
+"\n"
+"%.dat : books/%.txt $(COUNT_SRC)\n"
+"	$(COUNT_EXE) $< $@\n"
+"\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f $(DAT_FILES)\n"
+"	rm -f results.txt\n"
+"\n"
+".PHONY : variables\n"
+"variables:\n"
+"	@echo TXT_FILES: $(TXT_FILES)\n"
+"	@echo DAT_FILES: $(DAT_FILES)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:238
+msgid "Remember, the `config.mk` file contains:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:252
+msgid "The following figure shows the dependencies embodied within our Makefile,\n"
+"involved in building the `results.txt` target,\n"
+"now we have introduced our function:"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:256
+msgid "![results.txt dependencies after introducing a function](../fig/07-functions.png \"results.txt dependencies after introducing a function\")"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:259
+msgid ">\n"
+"> [This Makefile]({{ page.root }}/code/07-functions/Makefile)\n"
+"> and [its accompanying `config.mk`]({{ page.root }}/code/07-functions/config.mk)\n"
+"> contain all of our work so far."
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:265
+# blockquote, which can be cascaded
+msgid "> ## Adding more books"
+msgstr ""
+
+#: make-novice/_episodes/07-functions.md:266
+msgid ">\n"
+"> We can now do a better job at testing Zipf's rule by adding more books.\n"
+"> The books we have used come from the [Project Gutenberg](http://www.gutenberg.org/) website.\n"
+"> Project Gutenberg offers thousands of free ebooks to download.\n"
+">\n"
+">  **Exercise instructions:**\n"
+">\n"
+"> * go to [Project Gutenberg](http://www.gutenberg.org/) and use the search box to find another book,\n"
+"> for example ['The Picture of Dorian Gray'](https://www.gutenberg.org/ebooks/174) from Oscar Wilde.\n"
+"> * download the 'Plain Text UTF-8' version and save it to the `books` folder;\n"
+"> choose a short name for the file (**that doesn't include spaces**) e.g. \"dorian_gray.txt\"\n"
+"> because the filename is going to be used in the `results.txt` file\n"
+"> * optionally, open the file in a text editor and remove extraneous text at the beginning and end\n"
+"> (look for the phrase `End of Project Gutenberg's [title], by [author]`)\n"
+"> * run `make` and check that the correct commands are run, given the dependency tree\n"
+"> * check the results.txt file to see how this book compares to the others"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Self-Documenting Makefiles\"\n"
+"teaching: 10\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How should I document a Makefile?\"\n"
+"objectives:\n"
+"- \"Write self-documenting Makefiles with built-in help.\"\n"
+"keypoints:\n"
+"- \"Document Makefiles by adding specially-formatted comments and a target to extract and format them.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:13
+msgid "Many bash commands, and programs that people have written that can be\n"
+"run from within bash, support a `--help` flag to display more\n"
+"information on how to use the commands or programs. In this spirit, it\n"
+"can be useful, both for ourselves and for others, to provide a `help`\n"
+"target in our Makefiles. This can provide a summary of the names of\n"
+"the key targets and what they do, so we don't need to look at the\n"
+"Makefile itself unless we want to. For our Makefile, running a `help`\n"
+"target might print:"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:22
+#: make-novice/_episodes/08-self-doc.md:104
+# code block
+msgid "~~~\n"
+"$ make help\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:27
+# code block
+msgid "~~~\n"
+"results.txt : Generate Zipf summary table.\n"
+"dats        : Count words in text files.\n"
+"clean       : Remove auto-generated files.\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:34
+msgid "So, how would we implement this? We could write a rule like:"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:36
+# code block
+msgid "~~~\n"
+".PHONY : help\n"
+"help :\n"
+"	@echo \"results.txt : Generate Zipf summary table.\"\n"
+"	@echo \"dats        : Count words in text files.\"\n"
+"	@echo \"clean       : Remove auto-generated files.\"\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:45
+msgid "But every time we add or remove a rule, or change the description of a\n"
+"rule, we would have to update this rule too. It would be better if we\n"
+"could keep the descriptions of the rules by the rules themselves and\n"
+"extract these descriptions automatically."
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:50
+msgid "The bash shell can help us here. It provides a command called\n"
+"[sed][sed-docs] which stands for 'stream editor'. `sed` reads in some\n"
+"text, does some filtering, and writes out the filtered text."
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:54
+msgid "So, we could write comments for our rules, and mark them up in a way\n"
+"which `sed` can detect. Since Make uses `#` for comments, we can use\n"
+"`##` for comments that describe what a rule does and that we want\n"
+"`sed` to detect. For example:"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:59
+# code block
+msgid "~~~\n"
+"## results.txt : Generate Zipf summary table.\n"
+"results.txt : $(ZIPF_SRC) $(DAT_FILES)\n"
+"	$(ZIPF_EXE) $(DAT_FILES) > $@\n"
+"\n"
+"## dats        : Count words in text files.\n"
+".PHONY : dats\n"
+"dats : $(DAT_FILES)\n"
+"\n"
+"%.dat : books/%.txt $(COUNT_SRC)\n"
+"	$(COUNT_EXE) $< $@\n"
+"\n"
+"## clean       : Remove auto-generated files.\n"
+".PHONY : clean\n"
+"clean :\n"
+"	rm -f $(DAT_FILES)\n"
+"	rm -f results.txt\n"
+"\n"
+"## variables   : Print variables.\n"
+".PHONY : variables\n"
+"variables:\n"
+"	@echo TXT_FILES: $(TXT_FILES)\n"
+"	@echo DAT_FILES: $(DAT_FILES)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:85
+msgid "We use `##` so we can distinguish between comments that we want `sed`\n"
+"to automatically filter, and other comments that may describe what\n"
+"other rules do, or that describe variables."
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:89
+msgid "We can then write a `help` target that applies `sed` to our `Makefile`:"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:91
+# code block
+msgid "~~~\n"
+".PHONY : help\n"
+"help : Makefile\n"
+"	@sed -n 's/^##//p' $<\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:98
+msgid "This rule depends upon the Makefile itself. It runs `sed` on the first\n"
+"dependency of the rule, which is our Makefile, and tells `sed` to get\n"
+"all the lines that begin with `##`, which `sed` then prints for us."
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:102
+msgid "If we now run"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:109
+msgid "we get:"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:111
+# code block
+msgid "~~~\n"
+" results.txt : Generate Zipf summary table.\n"
+" dats        : Count words in text files.\n"
+" clean       : Remove auto-generated files.\n"
+" variables   : Print variables.\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:119
+msgid "If we add, change or remove a target or rule, we now only need to\n"
+"remember to add, update or remove a comment next to the rule. So long\n"
+"as we respect our convention of using `##` for such comments, then our\n"
+"`help` rule will take care of detecting these comments and printing\n"
+"them for us."
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:126
+msgid ">\n"
+"> [This Makefile]({{ page.root }}/code/08-self-doc/Makefile)\n"
+"> and [its accompanying `config.mk`]({{ page.root }}/code/08-self-doc/config.mk)\n"
+"> contain all of our work so far."
+msgstr ""
+
+#: make-novice/_episodes/08-self-doc.md:132
+msgid "[sed-docs]: https://www.gnu.org/software/sed/"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Conclusion\"\n"
+"teaching: 5\n"
+"exercises: 30\n"
+"questions:\n"
+"- \"What are the advantages and disadvantages of using tools like Make?\"\n"
+"objectives:\n"
+"- \"Understand advantages of automated build tools such as Make.\"\n"
+"keypoints:\n"
+"- \"Makefiles save time by automating repetitive work, and save thinking by documenting how to reproduce results.\"\n"
+"---"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:13
+msgid "Automated build tools such as Make can help us in a number of\n"
+"ways. They help us to automate repetitive commands, hence saving us\n"
+"time and reducing the likelihood of errors compared with running\n"
+"these commands manually."
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:18
+msgid "They can also save time by ensuring that automatically-generated\n"
+"artifacts (such as data files or plots) are only recreated when the\n"
+"files that were used to create these have changed in some way."
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:22
+msgid "Through their notion of targets, dependencies, and actions, they serve\n"
+"as a form of documentation, recording dependencies between code,\n"
+"scripts, tools, configurations, raw data, derived data, plots, and\n"
+"papers."
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:27
+# blockquote, which can be cascaded
+msgid "> ## Creating PNGs"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:28
+msgid ">\n"
+"> Add new rules, update existing rules, and add new variables to:\n"
+">\n"
+"> * Create `.png` files from `.dat` files using `plotcounts.py`.\n"
+"> * Remove all auto-generated files (`.dat`, `.png`,\n"
+">   `results.txt`).\n"
+">\n"
+"> Finally, many Makefiles define a default [phony\n"
+"> target]({{ page.root }}/reference#phony-target) called `all` as first target,\n"
+"> that will build what the Makefile has been written to build (e.g. in\n"
+"> our case, the `.png` files and the `results.txt` file). As others\n"
+"> may assume your Makefile conforms to convention and supports an\n"
+"> `all` target, add an `all` target to your Makefile (Hint: this rule\n"
+"> has the `results.txt` file and the `.png` files as dependencies, but\n"
+"> no actions).  With that in place, instead of running `make\n"
+"> results.txt`, you should now run `make all`, or just simply\n"
+"> `make`. By default, `make` runs the first target it finds in the\n"
+"> Makefile, in this case your new `all` target.\n"
+">\n"
+"> > ## Solution\n"
+"> > [This Makefile]({{ page.root }}/code/09-conclusion-challenge-1/Makefile)\n"
+"> > and [this `config.mk`]({{ page.root }}/code/09-conclusion-challenge-1/config.mk)\n"
+"> > contain a solution to this challenge."
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:54
+msgid "The following figure shows the dependencies involved in building the `all` target, once we've added support for images:"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:56
+msgid "![results.txt dependencies once images have been added](../fig/09-conclusion-challenge-1.png \"results.txt dependencies once images have been added\")"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:58
+# blockquote, which can be cascaded
+msgid "> ## Creating an Archive"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:59
+msgid ">\n"
+"> Often it is useful to create an archive file of your project that includes all data, code\n"
+"> and results. An archive file can package many files into a single file that can easily be\n"
+"> downloaded and shared with collaborators. We can add steps to create the archive file inside\n"
+"> the Makefile itself so it's easy to update our archive file as the project changes.\n"
+">\n"
+">\n"
+"> Edit the Makefile to create an archive file of your project.  Add new rules, update existing\n"
+"> rules and add new variables to:\n"
+">\n"
+"> * Create a new directory called `zipf_analysis` in the project directory.\n"
+"> * Copy all our code, data, plots, the Zipf summary table, the Makefile and config.mk\n"
+">   to this directory.\n"
+">   The `cp -r` command can be used to copy files and directories\n"
+">   into the new `zipf_analysis` directory:\n"
+">\n"
+">   ~~~\n"
+">   $ cp -r [files and directories to copy] zipf_analysis/\n"
+">   ~~~\n"
+">   {: .language-bash}\n"
+">\n"
+"> * Hint: create a new variable for the `books` directory so that it can be\n"
+">   copied to the new `zipf_analysis` directory\n"
+"> * Create an archive, `zipf_analysis.tar.gz`, of this directory. The\n"
+">   bash command `tar` can be used, as follows:\n"
+">\n"
+">   ~~~\n"
+">   $ tar -czf zipf_analysis.tar.gz zipf_analysis\n"
+">   ~~~\n"
+">   {: .language-bash}\n"
+">\n"
+"> * Update the target `all` so that it creates `zipf_analysis.tar.gz`.\n"
+"> * Remove `zipf_analysis.tar.gz` when `make clean` is called.\n"
+"> * Print the values of any additional variables you have defined when\n"
+">   `make variables` is called.\n"
+">\n"
+"> > ## Solution\n"
+"> > [This Makefile]({{ page.root }}/code/09-conclusion-challenge-2/Makefile)\n"
+"> > and [this `config.mk`]({{ page.root }}/code/09-conclusion-challenge-2/config.mk)\n"
+"> > contain a solution to this challenge."
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:102
+# blockquote, which can be cascaded
+msgid "> ## Archiving the Makefile"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:103
+msgid ">\n"
+"> Why does the Makefile rule for the archive directory add the Makefile to our archive of code,\n"
+"> data, plots and Zipf summary table?\n"
+">\n"
+"> > ## Solution\n"
+"> > Our code files (`countwords.py`, `plotcounts.py`, `testzipf.py`) implement\n"
+"> > the individual parts of our workflow. They allow us to create `.dat`\n"
+"> > files from `.txt` files, and `results.txt` and `.png` files from `.dat` files.\n"
+"> > Our Makefile, however, documents dependencies between\n"
+"> > our code, raw data, derived data, and plots, as well as implementing\n"
+"> > our workflow as a whole. `config.mk` contains configuration information\n"
+"> > for our Makefile, so it must be archived too."
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:118
+# blockquote, which can be cascaded
+msgid "> ## `touch` the Archive Directory"
+msgstr ""
+
+#: make-novice/_episodes/09-conclusion.md:119
+msgid ">\n"
+"> Why does the Makefile rule for the archive directory `touch` the archive directory after moving our code, data, plots and summary table into it?\n"
+">\n"
+"> > ## Solution\n"
+"> > A directory's timestamp is not automatically updated when files are copied into it.\n"
+"> > If the code, data, plots, and summary table are updated and copied into the\n"
+"> > archive directory, the archive directory's timestamp must be updated with `touch`\n"
+"> > so that the rule that makes `zipf_analysis.tar.gz` knows to run again;\n"
+"> > without this `touch`, `zipf_analysis.tar.gz` will only be created the first time\n"
+"> > the rule is run and will not be updated on subsequent runs even if the contents\n"
+"> > of the archive directory have changed."
+msgstr ""
+
+#: make-novice/_extras/about.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: About\n"
+"permalink: /about/\n"
+"---"
+msgstr ""
+
+#: make-novice/_extras/about.md:6
+msgid "{% include carpentries.html %}"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: Discussion\n"
+"---"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:6
+# header
+msgid "## Parallel Execution"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:8
+msgid "Make can build dependencies in _parallel_ sub-processes, via its `--jobs`\n"
+"flag (or its `-j` abbreviation) which specifies the number of sub-processes to use e.g."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:11
+# code block
+msgid "~~~\n"
+"$ make --jobs 4 results.txt\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:14
+#: make-novice/_extras/guide.md:75
+#: make-novice/_extras/guide.md:96
+#: make-novice/_extras/guide.md:108
+#: make-novice/_extras/guide.md:125
+#: make-novice/_extras/guide.md:136
+#: make-novice/_extras/guide.md:148
+#: make-novice/_extras/guide.md:171
+#: make-novice/reference.md:13
+#: make-novice/reference.md:23
+#: make-novice/reference.md:30
+#: make-novice/reference.md:45
+#: make-novice/reference.md:52
+# SC/DC Template label
+msgid "{: .bash}"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:16
+msgid "If we have independent dependencies then these can be built at the\n"
+"same time. For example, `abyss.dat` and `isles.dat` are mutually\n"
+"independent and can both be built at the same time. Likewise for\n"
+"`abyss.png` and `isles.png`. If you've got a bunch of independent\n"
+"branches in your analysis, this can greatly speed up your build\n"
+"process."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:23
+msgid "For more information see the GNU Make manual chapter on [Parallel\n"
+"Execution][gnu-make-parallel]."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:26
+# header
+msgid "## Different Types of Assignment"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:28
+msgid "Some Makefiles may contain `:=` instead of `=`. Your Makefile may\n"
+"behave differently depending upon which you use and how you use it:"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:31
+# unordered list
+msgid "* A variable defined using `=` is a _recursively expanded"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:32
+msgid "  variable_. Its value is calculated only when its value is\n"
+"  requested. If the value assigned to the variable itself contains\n"
+"  variables (e.g. `A = $(B)`) then these variables' values are only\n"
+"  calculated when the variable's value is requested (e.g. the value of\n"
+"  `B` is only calculated when the value of `A` is requested via\n"
+"  `$(A)`. This can be termed _lazy setting_."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:39
+# unordered list
+msgid "* A variable defined using `:=` is a _simply expanded variable_. Its"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:40
+msgid "  value is calculated when it is declared. If the value assigned to\n"
+"  the variable contains variables (e.g. `A = $(B)`) then these\n"
+"  variables' values are also calculated when the variable is declared\n"
+"  (e.g. the value of `B` is calculated when `A` is assigned\n"
+"  above). This can be termed _immediate setting_."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:46
+msgid "For a detailed explanation, see:"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:48
+# unordered list
+msgid "* StackOverflow [Makefile variable assignment][makefile-variable]"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:49
+# unordered list
+msgid "* GNU Make [The Two Flavors of Variables][gnu-make-variables]"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:51
+# header
+msgid "## Make and Version Control"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:53
+msgid "Imagine that we manage our Makefiles using a version control \n"
+"system such as Git."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:56
+msgid "Let's say we'd like to run the workflow developed in this lesson\n"
+"for three different word counting scripts, in order to compare their\n"
+"speed (e.g. `wordcount.py`, `wordcount2.py`, `wordcount3.py`)."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:60
+msgid "To do this we could edit `config.mk` each time by replacing\n"
+"`COUNT_SRC=wordcount.py` with `COUNT_SRC=wordcount2.py` or\n"
+"`COUNT_SRC=wordcount3.py`,\n"
+"but this would be detected as a change by the version control system.\n"
+"This is a minor configuration change, rather than a change to the \n"
+"workflow, and so we probably would rather avoid committing this change\n"
+"to our repository each time we decide to test a different counting script."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:68
+msgid "An alternative is to leave `config.mk` untouched, by overwriting the value \n"
+"of `COUNT_SRC` at the command line instead:"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:71
+# code block
+msgid "```\n"
+"$ make variables COUNT_SRC=wordcount2.py\n"
+"```"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:75
+msgid "The configuration file then simply contains the default values for the \n"
+"workflow, and by overwriting the defaults at the command line you can\n"
+"maintain a neater and more meaningful version control history."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:79
+# header
+msgid "## Make Variables and Shell Variables"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:81
+msgid "Makefiles embed shell scripts within them, as the actions that are\n"
+"executed to update an object. More complex actions could well include\n"
+"shell variables.  There are several ways in which make variables and\n"
+"shell variables can be confused and can be in conflict."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:86
+# unordered list
+msgid "* Make actually accepts three different syntaxes for variables: `$N`,"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:87
+msgid "  `$(NAME)`, or `${NAME}`."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:89
+msgid "  The single character variable names are most commonly used for\n"
+"  automatic variables, and there are many of them.  But if you happen\n"
+"  upon a character that isn't pre-defined as an automatic variable,\n"
+"  make will treat it as a user variable."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:94
+msgid "  The `${NAME}` syntax is also used by the unix shell in cases where\n"
+"  there might be ambiguity in interpreting variable names, or for\n"
+"  certain pattern substitution operations.  Since there are only\n"
+"  certain situations in which the unix shell requires this syntax,\n"
+"  instead of the more common `$NAME`, it is not familiar to many users."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:100
+# unordered list
+msgid "* Make does variable substitution on actions before they are passed to"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:101
+msgid "  the shell for execution.  That means that anything that looks like a\n"
+"  variable to make will get replaced with the appropriate value.  (In\n"
+"  make, an uninitialized variable has a null value.)  To protect a\n"
+"  variable you intend to be interpreted by the shell rather than make,\n"
+"  you need to \"quote\" the dollar sign by doubling it (`$$`). (This the\n"
+"  same principle as escaping special characters in the unix shell\n"
+"  using the backslash (`\\`) character.)  In\n"
+"  short: make variables have a single dollar sign, shell variables\n"
+"  have a double dollar sign.  This applies to anything that looks like\n"
+"  a variable and needs to be interpreted by the shell rather than\n"
+"  make, including awk positional parameters (e.g., `awk '{print $$1}'`\n"
+"  instead of `awk '{print $1}'`) or accessing environment variables\n"
+"  (e.g., `$$HOME`)."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:115
+# blockquote, which can be cascaded
+msgid "> ## Detailed Example of Shell Variable Quoting"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:116
+#: make-novice/_extras/discuss.md:119
+#: make-novice/_extras/discuss.md:122
+#: make-novice/_extras/discuss.md:128
+#: make-novice/_extras/discuss.md:130
+#: make-novice/_extras/discuss.md:135
+#: make-novice/_extras/discuss.md:141
+#: make-novice/_extras/discuss.md:144
+#: make-novice/_extras/discuss.md:147
+#: make-novice/_extras/discuss.md:153
+#: make-novice/_extras/discuss.md:155
+# blockquote, which can be cascaded
+msgid "> "
+msgstr ""
+
+#: make-novice/_extras/discuss.md:117
+# blockquote, which can be cascaded
+msgid "> Say we had the following `Makefile` (and the .dat files had already"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:118
+# blockquote, which can be cascaded
+msgid "> been created):"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:120
+#: make-novice/_extras/discuss.md:131
+#: make-novice/_extras/discuss.md:133
+#: make-novice/_extras/discuss.md:145
+#: make-novice/_extras/discuss.md:156
+#: make-novice/_extras/discuss.md:158
+# blockquote, which can be cascaded
+msgid "> ~~~"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:121
+#: make-novice/_extras/discuss.md:146
+# blockquote, which can be cascaded
+msgid "> BOOKS = abyss isles"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:123
+#: make-novice/_extras/discuss.md:148
+# blockquote, which can be cascaded
+msgid "> .PHONY: plots"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:124
+#: make-novice/_extras/discuss.md:149
+# blockquote, which can be cascaded
+msgid "> plots:"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:125
+# blockquote, which can be cascaded
+msgid "> 	for book in $(BOOKS); do python plotcount.py $book.dat $book.png; done"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:126
+#: make-novice/_extras/discuss.md:151
+# blockquote, which can be cascaded
+msgid "> ~~~	"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:127
+#: make-novice/_extras/discuss.md:152
+# SC/DC Template label
+msgid "> {: .make}"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:129
+# blockquote, which can be cascaded
+msgid "> the action that would be passed to the shell to execute would be:"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:132
+# blockquote, which can be cascaded
+msgid "> for book in abyss isles; do python plotcount.py ook.dat ook.png; done"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:134
+#: make-novice/_extras/discuss.md:159
+# SC/DC Template label
+msgid "> {: .bash}"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:136
+# blockquote, which can be cascaded
+msgid "> Notice that make substituted `$(BOOKS)`, as expected, but it also"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:137
+# blockquote, which can be cascaded
+msgid "> substituted `$book`, even though we intended it to be a shell variable."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:138
+# blockquote, which can be cascaded
+msgid "> Moreover, because we didn't use `$(NAME)` (or `${NAME}`) syntax, make"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:139
+# blockquote, which can be cascaded
+msgid "> interpreted it as the single character variable `$b` (which we haven't"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:140
+# blockquote, which can be cascaded
+msgid "> defined, so it has a null value) followed by the text \"ook\"."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:142
+# blockquote, which can be cascaded
+msgid "> In order to get the desired behavior, we have to write `$$book` instead"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:143
+# blockquote, which can be cascaded
+msgid "> of `$book`: "
+msgstr ""
+
+#: make-novice/_extras/discuss.md:150
+# blockquote, which can be cascaded
+msgid "> 	for book in $(BOOKS); do python plotcount.py $$book.dat $$book.png; done"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:154
+# blockquote, which can be cascaded
+msgid "> which produces the correct shell command:"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:157
+# blockquote, which can be cascaded
+msgid "> for book in abyss isles; do python plotcount.py $book.dat $book.png; done"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:160
+# SC/DC Template label
+msgid "{: .discussion}"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:162
+# header
+msgid "## Make and Reproducible Research"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:164
+msgid "Blog articles, papers, and tutorials on automating commonly\n"
+"occurring research activities using Make:"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:167
+# unordered list
+msgid "* [minimal make][minimal-make] by Karl Broman. A minimal tutorial on"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:168
+msgid "  using Make with R and LaTeX to automate data analysis, visualization\n"
+"  and paper preparation. This page has links to Makefiles for many of\n"
+"  his papers."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:172
+# unordered list
+msgid "* [Why Use Make][why-use-make] by Mike Bostock. An example of using"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:173
+msgid "  Make to download and convert data."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:175
+# unordered list
+msgid "* [Makefiles for R/LaTeX projects][makefiles-for-r-latex] by Rob"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:176
+msgid "  Hyndman. Another example of using Make with R and LaTeX."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:178
+# unordered list
+msgid "* [GNU Make for Reproducible Data Analysis][make-reproducible-research]"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:179
+msgid "  by Zachary Jones. Using Make with Python and LaTeX."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:181
+# unordered list
+msgid "* Shaun Jackman's [Using Make to Increase Automation &"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:182
+msgid "  Reproducibility][increase-automation] video lesson, and accompanying\n"
+"  [example][increase-automation-example]."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:185
+# unordered list
+msgid "* Lars Yencken's [Driving experiments with"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:186
+msgid "  make][driving-experiments]. Using Make to sandbox Python\n"
+"  dependencies and pull down data sets from Amazon S3."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:189
+# unordered list
+msgid "* Askren MK, McAllister-Day TK, Koh N, Mestre Z, Dines JN, Korman BA,"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:190
+msgid "  Melhorn SJ, Peterson DJ, Peverill M, Qin X, Rane SD, Reilly MA,\n"
+"  Reiter MA, Sambrook KA, Woelfer KA, Grabowski TJ and Madhyastha TM\n"
+"  (2016) [Using Make for Reproducible and Parallel Neuroimaging\n"
+"  Workflow and\n"
+"  Quality-Assurance][make-neuroscience]. Front. Neuroinform. 10:2. doi:\n"
+"  10.3389/fninf.2016.00002"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:197
+# unordered list
+msgid "* Li Haoyi's [What's in a Build Tool?][whats-a-build-tool] A review of"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:198
+msgid "  popular build tools (including Make) in terms of their strengths and\n"
+"  weaknesses for common build-related use cases in software\n"
+"  development."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:202
+msgid "[driving-experiments]: http://lifesum.github.io/posts/2016/01/14/make-experiments/\n"
+"[gnu-make-parallel]: https://www.gnu.org/software/make/manual/html_node/Parallel.html\n"
+"[gnu-make-variables]: https://www.gnu.org/software/make/manual/html_node/Flavors.html#Flavors\n"
+"[increase-automation]: https://www.youtube.com/watch?v=_F5f0qi-aEc\n"
+"[increase-automation-example]: https://github.com/sjackman/makefile-example\n"
+"[make-neuroscience]: http://journal.frontiersin.org/article/10.3389/fninf.2016.00002/full\n"
+"[make-reproducible-research]: http://zmjones.com/make/\n"
+"[makefile-variable]: http://stackoverflow.com/questions/448910/makefile-variable-assignment\n"
+"[makefiles-for-r-latex]: http://robjhyndman.com/hyndsight/makefiles/\n"
+"[minimal-make]: http://kbroman.org/minimal_make/\n"
+"[whats-a-build-tool]: http://www.lihaoyi.com/post/WhatsinaBuildTool.html\n"
+"[why-use-make]: http://bost.ocks.org/mike/make/"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:215
+# header
+msgid "## Return messages and `.PHONY` target behaviour"
+msgstr ""
+
+#: make-novice/_extras/discuss.md:216
+msgid "`Up to date` vs `Nothing to be done` is discussed in [episode 2]({{page.root}}/02-makefiles/)."
+msgstr ""
+
+#: make-novice/_extras/discuss.md:218
+msgid "A more detailed discussion can be read on [issue 98](https://github.com/swcarpentry/make-novice/issues/98#issuecomment-307361751)."
+msgstr ""
+
+#: make-novice/_extras/guide.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"permalink: /guide/\n"
+"---"
+msgstr ""
+
+#: make-novice/_extras/guide.md:7
+msgid "Make is a popular tool for automating the building of software -\n"
+"compiling source code into executable programs."
+msgstr ""
+
+#: make-novice/_extras/guide.md:10
+msgid "Though Make is nearly 40 years old, and there are many other build\n"
+"tools available, its fundamental concepts are common across build\n"
+"tools."
+msgstr ""
+
+#: make-novice/_extras/guide.md:14
+msgid "Today, researchers working with legacy codes in C or FORTRAN, which\n"
+"are very common in high-performance computing, will, very likely\n"
+"encounter Make."
+msgstr ""
+
+#: make-novice/_extras/guide.md:18
+msgid "Researchers are also finding Make of use in implementing reproducible\n"
+"research workflows, automating data analysis and visualization (using\n"
+"Python or R) and combining tables and plots with text to produce\n"
+"reports and papers for publication."
+msgstr ""
+
+#: make-novice/_extras/guide.md:23
+# header
+msgid "## Overall"
+msgstr ""
+
+#: make-novice/_extras/guide.md:25
+msgid "The overall lesson can be done in 3.5 hours."
+msgstr ""
+
+#: make-novice/_extras/guide.md:27
+msgid "Solutions for challenges are used in subsequent topics."
+msgstr ""
+
+#: make-novice/_extras/guide.md:29
+msgid "A number of example Makefiles, including sample solutions to challenges,\n"
+"are in subdirectories of `code` for the corresponding episodes."
+msgstr ""
+
+#: make-novice/_extras/guide.md:32
+msgid "It can be useful to use two windows during the lesson, one with the terminal where you run the `make` commands, the other with the Makefile opened in a text editor all the time. This makes it possible to refer to the Makefile while explaining the output from the commandline, for example. Make sure, though, that the text in both windows is readable from the back of the room."
+msgstr ""
+
+#: make-novice/_extras/guide.md:34
+# header
+msgid "## Setting up Make"
+msgstr ""
+
+#: make-novice/_extras/guide.md:36
+msgid "Recommend instructors and students use `nano` as the text editor for\n"
+"this lesson because"
+msgstr ""
+
+#: make-novice/_extras/guide.md:39
+# unordered list
+msgid "* it runs in all three major operating systems,"
+msgstr ""
+
+#: make-novice/_extras/guide.md:40
+# unordered list
+msgid "* it runs inside the shell (switching windows can be confusing to"
+msgstr ""
+
+#: make-novice/_extras/guide.md:41
+msgid "  students), and\n"
+"* it has shortcut help at the bottom of the window."
+msgstr ""
+
+#: make-novice/_extras/guide.md:44
+msgid "Please point out to students during setup that they can and should use\n"
+"another text editor if they're already familiar with it."
+msgstr ""
+
+#: make-novice/_extras/guide.md:47
+msgid "Instructors and students should use two shell windows: one for running\n"
+"nano, and one for running Make."
+msgstr ""
+
+#: make-novice/_extras/guide.md:50
+msgid "Check that all attendees have Make installed and that it runs\n"
+"correctly, before beginning the session."
+msgstr ""
+
+#: make-novice/_extras/guide.md:53
+# header
+msgid "## Code and Data Files"
+msgstr ""
+
+#: make-novice/_extras/guide.md:55
+msgid "Python scripts to be invoked by Make are in `code/`."
+msgstr ""
+
+#: make-novice/_extras/guide.md:57
+msgid "Data files are in `data/books`."
+msgstr ""
+
+#: make-novice/_extras/guide.md:59
+msgid "You can either create a simple Git repository for students to clone\n"
+"which contains:"
+msgstr ""
+
+#: make-novice/_extras/guide.md:62
+# unordered list
+msgid "* `countwords.py`"
+msgstr ""
+
+#: make-novice/_extras/guide.md:63
+# unordered list
+msgid "* `plotcounts.py`"
+msgstr ""
+
+#: make-novice/_extras/guide.md:64
+# unordered list
+msgid "* `testzipf.py`"
+msgstr ""
+
+#: make-novice/_extras/guide.md:65
+# unordered list
+msgid "* `books/`"
+msgstr ""
+
+#: make-novice/_extras/guide.md:67
+msgid "Or, ask students to download\n"
+"[make-lesson.zip][zipfile] from this repository."
+msgstr ""
+
+#: make-novice/_extras/guide.md:70
+msgid "To recreate `make-lesson.zip`, run:"
+msgstr ""
+
+#: make-novice/_extras/guide.md:72
+# code block
+msgid "~~~\n"
+"$ make make-lesson.zip\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:77
+# header
+msgid "## Beware of Spaces!"
+msgstr ""
+
+#: make-novice/_extras/guide.md:79
+msgid "The single most commonly occurring problem will be students using\n"
+"spaces instead of TABs when indenting actions."
+msgstr ""
+
+#: make-novice/_extras/guide.md:82
+# header
+msgid "## Makefile Dependency Images"
+msgstr ""
+
+#: make-novice/_extras/guide.md:84
+msgid "Some of these pages use images of Makefile dependencies, in the `fig` directory."
+msgstr ""
+
+#: make-novice/_extras/guide.md:86
+msgid "These are created using [makefile2graph][makefile2graph],\n"
+"which is assumed to be in the `PATH`.\n"
+"This tool, in turn, needs the `dot` tool, part of [GraphViz][graphviz]."
+msgstr ""
+
+#: make-novice/_extras/guide.md:90
+msgid "To install GraphViz on Scientific Linux 6:"
+msgstr ""
+
+#: make-novice/_extras/guide.md:92
+# code block
+msgid "~~~\n"
+"$ sudo yum install graphviz\n"
+"$ dot -V\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:97
+# code block
+msgid "~~~\n"
+"dot - graphviz version 2.26.0 (20091210.2329)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:102
+msgid "To install GraphViz on Ubuntu 14.04.3 and 15.10:"
+msgstr ""
+
+#: make-novice/_extras/guide.md:104
+# code block
+msgid "~~~\n"
+"$ sudo apt-get install graphviz\n"
+"$ dot -V\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:109
+# code block
+msgid "~~~\n"
+"dot - graphviz version 2.38.0 (20140413.2041)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:114
+msgid "To download and build makefile2graph on Linux:"
+msgstr ""
+
+#: make-novice/_extras/guide.md:116
+# code block
+msgid "~~~\n"
+"$ cd\n"
+"$ git clone https://github.com/lindenb/makefile2graph\n"
+"$ cd makefile2graph/\n"
+"$ make\n"
+"$ export PATH=~/makefile2graph/:$PATH\n"
+"$ cd\n"
+"$ which makefile2graph\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:126
+# code block
+msgid "~~~\n"
+"/home/ubuntu/makefile2graph/makefile2graph\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:131
+msgid "To create the image files for the lesson:"
+msgstr ""
+
+#: make-novice/_extras/guide.md:133
+# code block
+msgid "~~~\n"
+"$ make diagrams\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:138
+msgid "See `commands.mk`'s `diagrams` target."
+msgstr ""
+
+#: make-novice/_extras/guide.md:140
+# header
+msgid "## UnicodeDecodeError troubleshooting"
+msgstr ""
+
+#: make-novice/_extras/guide.md:142
+msgid "When processing `books/last.txt` with Python 3 and vanilla shell environment on Arch Linux\n"
+"the following error has appeared:"
+msgstr ""
+
+#: make-novice/_extras/guide.md:145
+# code block
+msgid "~~~\n"
+"$ python wordcount.py books/last.txt last.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:149
+# code block
+msgid "~~~\n"
+"Traceback (most recent call last):\n"
+"  File \"wordcount.py\", line 131, in <module>\n"
+"    word_count(input_file, output_file, min_length)\n"
+"  File \"wordcount.py\", line 118, in word_count\n"
+"    lines = load_text(input_file)\n"
+"  File \"wordcount.py\", line 14, in load_text\n"
+"    lines = input_fd.read().splitlines()\n"
+"  File \"/usr/lib/python3.6/encodings/ascii.py\", line 26, in decode\n"
+"    return codecs.ascii_decode(input, self.errors)[0]\n"
+"UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 6862: ordinal not in range(128)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:163
+msgid "The workaround was to define encoding for the terminal session (this can be either done at the command line\n"
+"or placed in the `.bashrc` or equivalent):"
+msgstr ""
+
+#: make-novice/_extras/guide.md:166
+# code block
+msgid "~~~\n"
+"$ export LC_ALL=en_US.UTF-8\n"
+"$ export LANG=en_US.UTF-8\n"
+"$ export LANGUAGE=en_US.UTF-8\n"
+"~~~"
+msgstr ""
+
+#: make-novice/_extras/guide.md:173
+# header
+msgid "## Beware of different Make implementations!"
+msgstr ""
+
+#: make-novice/_extras/guide.md:175
+msgid "The lesson is based on GNU Make. Although it is very rare, on some systems (e.g. AIX) \n"
+"you might find `make` not pointing to GNU Make and `gmake` needs to be used instead. "
+msgstr ""
+
+#: make-novice/_extras/guide.md:178
+msgid "[graphviz]: http://www.graphviz.org/\n"
+"[lesson-example]: https://github.com/carpentries/lesson-example/\n"
+"[makefile2graph]: https://github.com/lindenb/makefile2graph\n"
+"[zipfile]: {{ page.root }}/files/make-lesson.zip"
+msgstr ""
+
+#: make-novice/_includes/links.md:1
+msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[ci]: http://communityin.org/\n"
+"[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html#reporting-guidelines\n"
+"[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html\n"
+"[concept-maps]: https://carpentries.github.io/instructor-training/05-memory/\n"
+"[contrib-covenant]: https://contributor-covenant.org/\n"
+"[contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING.md\n"
+"[cran-checkpoint]: https://cran.r-project.org/package=checkpoint\n"
+"[cran-knitr]: https://cran.r-project.org/package=knitr\n"
+"[cran-stringr]: https://cran.r-project.org/package=stringr\n"
+"[email]: mailto:team@carpentries.org\n"
+"[github-importer]: https://import.github.com/\n"
+"[importer]: https://github.com/new/import\n"
+"[jekyll-collection]: https://jekyllrb.com/docs/collections/\n"
+"[jekyll-install]: https://jekyllrb.com/docs/installation/\n"
+"[jekyll-windows]: http://jekyll-windows.juthilo.com/\n"
+"[jekyll]: https://jekyllrb.com/\n"
+"[jupyter]: https://jupyter.org/\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example/\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[morea]: https://morea-framework.github.io/\n"
+"[numfocus]: https://numfocus.org/\n"
+"[osi]: https://opensource.org\n"
+"[pandoc]: https://pandoc.org/\n"
+"[paper-now]: https://github.com/PeerJ/paper-now\n"
+"[python-gapminder]: https://swcarpentry.github.io/python-novice-gapminder/\n"
+"[pyyaml]: https://pypi.python.org/pypi/PyYAML\n"
+"[r-markdown]: https://rmarkdown.rstudio.com/\n"
+"[rstudio]: https://www.rstudio.com/\n"
+"[ruby-install-guide]: https://www.ruby-lang.org/en/downloads/\n"
+"[ruby-installer]: https://rubyinstaller.org/\n"
+"[rubygems]: https://rubygems.org/pages/download/\n"
+"[styles]: https://github.com/carpentries/styles/\n"
+"[swc-releases]: https://github.com/swcarpentry/swc-releases\n"
+"[workshop-repo]: {{ site.workshop_repo }}\n"
+"[yaml]: http://yaml.org/"
+msgstr ""
+
+#: make-novice/aio.md:1
+# Front Matter
+msgid "---\n"
+"layout: page \n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: make-novice/aio.md:5
+#: make-novice/bin/boilerplate/aio.md:3
+# inline html
+msgid "<script>\n"
+"  window.onload = function() {\n"
+"    var lesson_episodes = [\n"
+"    {% for episode in site.episodes %}\n"
+"    \"{{ episode.url}}\"{% unless forloop.last %},{% endunless %}\n"
+"    {% endfor %}\n"
+"    ];\n"
+"    var xmlHttp = [];  /* Required since we are going to query every episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. */\n"
+"      xmlHttp[i].onreadystatechange = function() {\n"
+"      if (this.readyState == 4 && this.status == 200) {\n"
+"        var article_here = document.getElementById(this.episode);\n"
+"        var parser = new DOMParser();\n"
+"        var htmlDoc = parser.parseFromString(this.responseText,\"text/html\");\n"
+"        var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+"        article_here.innerHTML = htmlDocArticle.innerHTML;\n"
+"        }\n"
+"      }\n"
+"      episode_url = \"{{ page.root }}\" + lesson_episodes[i];\n"
+"      xmlHttp[i].open(\"GET\", episode_url);\n"
+"      xmlHttp[i].send(null);\n"
+"    }\n"
+"  }\n"
+"</script>"
+msgstr ""
+
+#: make-novice/aio.md:31
+#: make-novice/bin/boilerplate/_extras/figures.md:33
+#: make-novice/bin/boilerplate/aio.md:29
+msgid "{% comment %}\n"
+"Create anchor for each one of the episodes.\n"
+"{% endcomment %}\n"
+"{% for episode in site.episodes %}\n"
+"<article id=\"{{ episode.url }}\"></article>\n"
+"{% endfor %}"
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:12
+msgid "By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+"and help you become a member of our community.\n"
+"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md)."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:30
+msgid "    you can [send us comments by email][email].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other methods described below."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:49
+msgid "    please work in <https://github.com/swcarpentry/FIXME>,\n"
+"    which can be viewed at <https://swcarpentry.github.io/FIXME>."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:69
+msgid "There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas, please see the 'Issues' tab for\n"
+"a list of issues associated with this repository,\n"
+"or you may also look at the issues for [Data Carpentry][dc-issues]\n"
+"and [Software Carpentry][swc-issues] projects."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:104
+msgid "If you choose to contribute via GitHub, you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"To manage changes, we follow [GitHub flow][github-flow].\n"
+"Each lesson has two maintainers who review issues and pull requests or encourage others to do so.\n"
+"The maintainers are community volunteers and have final say over what gets merged into the lesson.\n"
+"To use the web interface for contributing to a lesson:"
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:111
+# ordered list
+msgid "1.  Fork the originating repository to your GitHub profile."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:112
+# ordered list
+msgid "2.  Within your version of the forked repository, move to the `gh-pages` branch and"
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:113
+msgid "create a new branch for each significant change being made.\n"
+"3.  Navigate to the file(s) you wish to change within the new branches and make revisions as required.\n"
+"4.  Commit all changed files within the appropriate branches.\n"
+"5.  Create individual pull requests from each of your changed branches\n"
+"to the `gh-pages` branch within the originating repository.\n"
+"6.  If you receive feedback, make changes using your issue-specific branches of the forked\n"
+"repository and the pull requests will update automatically.\n"
+"7.  Repeat as needed until all feedback has been addressed."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:122
+msgid "When starting work, please make sure your clone of the originating `gh-pages` branch is up-to-date\n"
+"before creating your own revision-specific branch(es) from there.\n"
+"Additionally, please only work from your newly-created branch(es) and *not*\n"
+"your clone of the originating `gh-pages` branch.\n"
+"Lastly, published copies of all the lessons are available in the `gh-pages` branch of the originating\n"
+"repository for reference while revising."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:131
+msgid "General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][email]."
+msgstr ""
+
+#: make-novice/bin/boilerplate/CONTRIBUTING.md:136
+msgid "[email]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[github]: https://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[issues]: https://guides.github.com/features/issues/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:1
+# header
+msgid "# FIXME Lesson title"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:3
+msgid "[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:5
+#: make-novice/bin/boilerplate/_episodes/01-introduction.md:12
+#: make-novice/bin/boilerplate/_extras/discuss.md:4
+#: make-novice/bin/boilerplate/_extras/guide.md:4
+#: make-novice/bin/boilerplate/reference.md:7
+#: make-novice/bin/boilerplate/setup.md:4
+msgid "FIXME"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:7
+# header
+msgid "## Contributing"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:9
+msgid "We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any\n"
+"questions, concerns, or experience any difficulties along the way."
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:12
+msgid "We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at\n"
+"the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even\n"
+"how to write new episodes."
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:16
+# header
+msgid "## Maintainer(s)"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:18
+# unordered list
+msgid "* FIXME"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:20
+# header
+msgid "## Authors"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:22
+msgid "A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:24
+# header
+msgid "## Citation"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:26
+msgid "To cite this lesson, please consult with [CITATION](CITATION)"
+msgstr ""
+
+#: make-novice/bin/boilerplate/README.md:28
+msgid "[lesson-example]: https://carpentries.github.io/lesson-example"
+msgstr ""
+
+#: make-novice/bin/boilerplate/_episodes/01-introduction.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Introduction\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Key question (FIXME)\"\n"
+"objectives:\n"
+"- \"First objective. (FIXME)\"\n"
+"keypoints:\n"
+"- \"First key point. (FIXME)\"\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/_extras/about.md:1
+# Front Matter
+msgid "---\n"
+"title: About\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/_extras/about.md:4
+msgid "{% include carpentries.html %}\n"
+"{% include links.md %}"
+msgstr ""
+
+#: make-novice/bin/boilerplate/_extras/discuss.md:1
+# Front Matter
+msgid "---\n"
+"title: Discussion\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/_extras/figures.md:1
+# Front Matter
+msgid "---\n"
+"title: Figures\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/_extras/figures.md:4
+# inline html
+msgid "<script>\n"
+"  window.onload = function() {\n"
+"    var lesson_episodes = [\n"
+"    {% for episode in site.episodes %}\n"
+"    \"{{ episode.url}}\"{% unless forloop.last %},{% endunless %}\n"
+"    {% endfor %}\n"
+"    ];\n"
+"    var xmlHttp = [];  /* Required since we are going to query every episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. */\n"
+"      xmlHttp[i].onreadystatechange = function() {\n"
+"        if (this.readyState == 4 && this.status == 200) {\n"
+"          var article_here = document.getElementById(this.episode);\n"
+"          var parser = new DOMParser();\n"
+"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html\");\n"
+"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+"          article_here.appendChild(htmlDocArticle.getElementsByTagName(\"h1\")[0]);\n"
+"          for (let image of htmlDocArticle.getElementsByTagName(\"img\")) {\n"
+"            article_here.appendChild(image);\n"
+"          }\n"
+"        }\n"
+"      }\n"
+"      episode_url = \"{{ page.root }}\" + lesson_episodes[i];\n"
+"      xmlHttp[i].open(\"GET\", episode_url);\n"
+"      xmlHttp[i].send(null);\n"
+"    }\n"
+"  }\n"
+"</script>"
+msgstr ""
+
+#: make-novice/bin/boilerplate/_extras/guide.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/aio.md:1
+# Front Matter
+msgid "---\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/index.md:1
+# Front Matter
+msgid "---\n"
+"layout: lesson\n"
+"root: .  # Is the only page that don't follow the partner /:path/index.html\n"
+"permalink: index.html  # Is the only page that don't follow the partner /:path/index.html\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/index.md:6
+msgid "FIXME: home page introduction"
+msgstr ""
+
+#: make-novice/bin/boilerplate/index.md:8
+#: make-novice/index.md:29
+# blockquote, which can be cascaded
+msgid "> ## Prerequisites"
+msgstr ""
+
+#: make-novice/bin/boilerplate/index.md:9
+msgid ">\n"
+"> FIXME"
+msgstr ""
+
+#: make-novice/bin/boilerplate/index.md:11
+#: make-novice/index.md:35
+#: make-novice/index.md:40
+# SC/DC Template label
+msgid "{: .prereq}"
+msgstr ""
+
+#: make-novice/bin/boilerplate/reference.md:1
+# Front Matter
+msgid "---\n"
+"layout: reference\n"
+"---"
+msgstr ""
+
+#: make-novice/bin/boilerplate/reference.md:5
+#: make-novice/reference.md:244
+# header
+msgid "## Glossary"
+msgstr ""
+
+#: make-novice/bin/boilerplate/setup.md:1
+# Front Matter
+msgid "---\n"
+"title: Setup\n"
+"---"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:1
+msgid "A Note on the Texts' Licensing\n"
+"=============================="
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:4
+msgid "Each text is from [Project Gutenberg](http://www.gutenberg.org/)."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:6
+msgid "Headers and footers have been removed for the purposes of this\n"
+"exercise. All the texts are governed by The Full Project Gutenberg\n"
+"License reproduced below."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:10
+msgid "The texts and originating URLs are:"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:12
+# unordered list
+msgid "* [A Journey to the Western Islands of Scotland by Samuel Johnson](http://www.gutenberg.org/cache/epub/2064/pg2064.txt)"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:13
+# unordered list
+msgid "* [The People of the Abyss by Jack London](http://www.gutenberg.org/ebooks/1688)"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:14
+# unordered list
+msgid "* [My First Summer in the Sierra by John Muir](http://www.gutenberg.org/cache/epub/32540/pg32540.txt)"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:15
+# unordered list
+msgid "* [Scott's Last Expedition Volume I by Robert Falcon Scott](http://www.gutenberg.org/ebooks/11579)"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:17
+msgid "*** START: FULL LICENSE ***"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:19
+msgid "THE FULL PROJECT GUTENBERG LICENSE\n"
+"PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:22
+msgid "To protect the Project Gutenberg-tm mission of promoting the free\n"
+"distribution of electronic works, by using or distributing this work\n"
+"(or any other work associated in any way with the phrase \"Project\n"
+"Gutenberg\"), you agree to comply with all the terms of the Full Project\n"
+"Gutenberg-tm License (available with this file or online at\n"
+"http://gutenberg.net/license)."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:29
+msgid "Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm\n"
+"electronic works"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:32
+msgid "1.A.  By reading or using any part of this Project Gutenberg-tm\n"
+"electronic work, you indicate that you have read, understand, agree to\n"
+"and accept all the terms of this license and intellectual property\n"
+"(trademark/copyright) agreement.  If you do not agree to abide by all\n"
+"the terms of this agreement, you must cease using and return or destroy\n"
+"all copies of Project Gutenberg-tm electronic works in your possession.\n"
+"If you paid a fee for obtaining a copy of or access to a Project\n"
+"Gutenberg-tm electronic work and you do not agree to be bound by the\n"
+"terms of this agreement, you may obtain a refund from the person or\n"
+"entity to whom you paid the fee as set forth in paragraph 1.E.8."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:43
+msgid "1.B.  \"Project Gutenberg\" is a registered trademark.  It may only be\n"
+"used on or associated in any way with an electronic work by people who\n"
+"agree to be bound by the terms of this agreement.  There are a few\n"
+"things that you can do with most Project Gutenberg-tm electronic works\n"
+"even without complying with the full terms of this agreement.  See\n"
+"paragraph 1.C below.  There are a lot of things you can do with Project\n"
+"Gutenberg-tm electronic works if you follow the terms of this agreement\n"
+"and help preserve free future access to Project Gutenberg-tm electronic\n"
+"works.  See paragraph 1.E below."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:53
+msgid "1.C.  The Project Gutenberg Literary Archive Foundation (\"the Foundation\"\n"
+"or PGLAF), owns a compilation copyright in the collection of Project\n"
+"Gutenberg-tm electronic works.  Nearly all the individual works in the\n"
+"collection are in the public domain in the United States.  If an\n"
+"individual work is in the public domain in the United States and you are\n"
+"located in the United States, we do not claim a right to prevent you from\n"
+"copying, distributing, performing, displaying or creating derivative\n"
+"works based on the work as long as all references to Project Gutenberg\n"
+"are removed.  Of course, we hope that you will support the Project\n"
+"Gutenberg-tm mission of promoting free access to electronic works by\n"
+"freely sharing Project Gutenberg-tm works in compliance with the terms of\n"
+"this agreement for keeping the Project Gutenberg-tm name associated with\n"
+"the work.  You can easily comply with the terms of this agreement by\n"
+"keeping this work in the same format with its attached full Project\n"
+"Gutenberg-tm License when you share it without charge with others."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:69
+msgid "1.D.  The copyright laws of the place where you are located also govern\n"
+"what you can do with this work.  Copyright laws in most countries are in\n"
+"a constant state of change.  If you are outside the United States, check\n"
+"the laws of your country in addition to the terms of this agreement\n"
+"before downloading, copying, displaying, performing, distributing or\n"
+"creating derivative works based on this work or any other Project\n"
+"Gutenberg-tm work.  The Foundation makes no representations concerning\n"
+"the copyright status of any work in any country outside the United\n"
+"States."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:79
+msgid "1.E.  Unless you have removed all references to Project Gutenberg:"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:81
+msgid "1.E.1.  The following sentence, with active links to, or other immediate\n"
+"access to, the full Project Gutenberg-tm License must appear prominently\n"
+"whenever any copy of a Project Gutenberg-tm work (any work on which the\n"
+"phrase \"Project Gutenberg\" appears, or with which the phrase \"Project\n"
+"Gutenberg\" is associated) is accessed, displayed, performed, viewed,\n"
+"copied or distributed:"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:88
+msgid "This eBook is for the use of anyone anywhere at no cost and with\n"
+"almost no restrictions whatsoever.  You may copy it, give it away or\n"
+"re-use it under the terms of the Project Gutenberg License included\n"
+"with this eBook or online at www.gutenberg.net"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:93
+msgid "1.E.2.  If an individual Project Gutenberg-tm electronic work is derived\n"
+"from the public domain (does not contain a notice indicating that it is\n"
+"posted with permission of the copyright holder), the work can be copied\n"
+"and distributed to anyone in the United States without paying any fees\n"
+"or charges.  If you are redistributing or providing access to a work\n"
+"with the phrase \"Project Gutenberg\" associated with or appearing on the\n"
+"work, you must comply either with the requirements of paragraphs 1.E.1\n"
+"through 1.E.7 or obtain permission for the use of the work and the\n"
+"Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or\n"
+"1.E.9."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:104
+msgid "1.E.3.  If an individual Project Gutenberg-tm electronic work is posted\n"
+"with the permission of the copyright holder, your use and distribution\n"
+"must comply with both paragraphs 1.E.1 through 1.E.7 and any additional\n"
+"terms imposed by the copyright holder.  Additional terms will be linked\n"
+"to the Project Gutenberg-tm License for all works posted with the\n"
+"permission of the copyright holder found at the beginning of this work."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:111
+msgid "1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm\n"
+"License terms from this work, or any files containing a part of this\n"
+"work or any other work associated with Project Gutenberg-tm."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:115
+msgid "1.E.5.  Do not copy, display, perform, distribute or redistribute this\n"
+"electronic work, or any part of this electronic work, without\n"
+"prominently displaying the sentence set forth in paragraph 1.E.1 with\n"
+"active links or immediate access to the full terms of the Project\n"
+"Gutenberg-tm License."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:121
+msgid "1.E.6.  You may convert to and distribute this work in any binary,\n"
+"compressed, marked up, nonproprietary or proprietary form, including any\n"
+"word processing or hypertext form.  However, if you provide access to or\n"
+"distribute copies of a Project Gutenberg-tm work in a format other than\n"
+"\"Plain Vanilla ASCII\" or other format used in the official version\n"
+"posted on the official Project Gutenberg-tm web site (www.gutenberg.net),\n"
+"you must, at no additional cost, fee or expense to the user, provide a\n"
+"copy, a means of exporting a copy, or a means of obtaining a copy upon\n"
+"request, of the work in its original \"Plain Vanilla ASCII\" or other\n"
+"form.  Any alternate format must include the full Project Gutenberg-tm\n"
+"License as specified in paragraph 1.E.1."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:133
+msgid "1.E.7.  Do not charge a fee for access to, viewing, displaying,\n"
+"performing, copying or distributing any Project Gutenberg-tm works\n"
+"unless you comply with paragraph 1.E.8 or 1.E.9."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:137
+msgid "1.E.8.  You may charge a reasonable fee for copies of or providing\n"
+"access to or distributing Project Gutenberg-tm electronic works provided\n"
+"that"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:141
+# unordered list
+msgid "-   You pay a royalty fee of 20% of the gross profits you derive from"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:142
+msgid "    the use of Project Gutenberg-tm works calculated using the method\n"
+"    you already use to calculate your applicable taxes.  The fee is\n"
+"    owed to the owner of the Project Gutenberg-tm trademark, but he\n"
+"    has agreed to donate royalties under this paragraph to the\n"
+"    Project Gutenberg Literary Archive Foundation.  Royalty payments\n"
+"    must be paid within 60 days following each date on which you\n"
+"    prepare (or are legally required to prepare) your periodic tax\n"
+"    returns.  Royalty payments should be clearly marked as such and\n"
+"    sent to the Project Gutenberg Literary Archive Foundation at the\n"
+"    address specified in Section 4, \"Information about donations to\n"
+"    the Project Gutenberg Literary Archive Foundation.\""
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:154
+# unordered list
+msgid "-   You provide a full refund of any money paid by a user who notifies"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:155
+msgid "    you in writing (or by e-mail) within 30 days of receipt that s/he\n"
+"    does not agree to the terms of the full Project Gutenberg-tm\n"
+"    License.  You must require such a user to return or\n"
+"    destroy all copies of the works possessed in a physical medium\n"
+"    and discontinue all use of and all access to other copies of\n"
+"    Project Gutenberg-tm works."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:162
+# unordered list
+msgid "-   You provide, in accordance with paragraph 1.F.3, a full refund of any"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:163
+msgid "    money paid for a work or a replacement copy, if a defect in the\n"
+"    electronic work is discovered and reported to you within 90 days\n"
+"    of receipt of the work."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:167
+# unordered list
+msgid "-   You comply with all other terms of this agreement for free"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:168
+msgid "    distribution of Project Gutenberg-tm works."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:170
+msgid "1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm\n"
+"electronic work or group of works on different terms than are set\n"
+"forth in this agreement, you must obtain permission in writing from\n"
+"both the Project Gutenberg Literary Archive Foundation and Michael\n"
+"Hart, the owner of the Project Gutenberg-tm trademark.  Contact the\n"
+"Foundation as set forth in Section 3 below."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:177
+msgid "1.F."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:179
+msgid "1.F.1.  Project Gutenberg volunteers and employees expend considerable\n"
+"effort to identify, do copyright research on, transcribe and proofread\n"
+"public domain works in creating the Project Gutenberg-tm\n"
+"collection.  Despite these efforts, Project Gutenberg-tm electronic\n"
+"works, and the medium on which they may be stored, may contain\n"
+"\"Defects,\" such as, but not limited to, incomplete, inaccurate or\n"
+"corrupt data, transcription errors, a copyright or other intellectual\n"
+"property infringement, a defective or damaged disk or other medium, a\n"
+"computer virus, or computer codes that damage or cannot be read by\n"
+"your equipment."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:190
+msgid "1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the \"Right\n"
+"of Replacement or Refund\" described in paragraph 1.F.3, the Project\n"
+"Gutenberg Literary Archive Foundation, the owner of the Project\n"
+"Gutenberg-tm trademark, and any other party distributing a Project\n"
+"Gutenberg-tm electronic work under this agreement, disclaim all\n"
+"liability to you for damages, costs and expenses, including legal\n"
+"fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT\n"
+"LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE\n"
+"PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE\n"
+"TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE\n"
+"LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR\n"
+"INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH\n"
+"DAMAGE."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:204
+msgid "1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a\n"
+"defect in this electronic work within 90 days of receiving it, you can\n"
+"receive a refund of the money (if any) you paid for it by sending a\n"
+"written explanation to the person you received the work from.  If you\n"
+"received the work on a physical medium, you must return the medium with\n"
+"your written explanation.  The person or entity that provided you with\n"
+"the defective work may elect to provide a replacement copy in lieu of a\n"
+"refund.  If you received the work electronically, the person or entity\n"
+"providing it to you may choose to give you a second opportunity to\n"
+"receive the work electronically in lieu of a refund.  If the second copy\n"
+"is also defective, you may demand a refund in writing without further\n"
+"opportunities to fix the problem."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:217
+msgid "1.F.4.  Except for the limited right of replacement or refund set forth\n"
+"in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER\n"
+"WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO\n"
+"WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:222
+msgid "1.F.5.  Some states do not allow disclaimers of certain implied\n"
+"warranties or the exclusion or limitation of certain types of damages.\n"
+"If any disclaimer or limitation set forth in this agreement violates the\n"
+"law of the state applicable to this agreement, the agreement shall be\n"
+"interpreted to make the maximum disclaimer or limitation permitted by\n"
+"the applicable state law.  The invalidity or unenforceability of any\n"
+"provision of this agreement shall not void the remaining provisions."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:230
+msgid "1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the\n"
+"trademark owner, any agent or employee of the Foundation, anyone\n"
+"providing copies of Project Gutenberg-tm electronic works in accordance\n"
+"with this agreement, and any volunteers associated with the production,\n"
+"promotion and distribution of Project Gutenberg-tm electronic works,\n"
+"harmless from all liability, costs and expenses, including legal fees,\n"
+"that arise directly or indirectly from any of the following which you do\n"
+"or cause to occur: (a) distribution of this or any Project Gutenberg-tm\n"
+"work, (b) alteration, modification, or additions or deletions to any\n"
+"Project Gutenberg-tm work, and (c) any Defect you cause."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:241
+msgid "Section  2.  Information about the Mission of Project Gutenberg-tm"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:243
+msgid "Project Gutenberg-tm is synonymous with the free distribution of\n"
+"electronic works in formats readable by the widest variety of computers\n"
+"including obsolete, old, middle-aged and new computers.  It exists\n"
+"because of the efforts of hundreds of volunteers and donations from\n"
+"people in all walks of life."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:249
+msgid "Volunteers and financial support to provide volunteers with the\n"
+"assistance they need, is critical to reaching Project Gutenberg-tm's\n"
+"goals and ensuring that the Project Gutenberg-tm collection will\n"
+"remain freely available for generations to come.  In 2001, the Project\n"
+"Gutenberg Literary Archive Foundation was created to provide a secure\n"
+"and permanent future for Project Gutenberg-tm and future generations.\n"
+"To learn more about the Project Gutenberg Literary Archive Foundation\n"
+"and how your efforts and donations can help, see Sections 3 and 4\n"
+"and the Foundation web page at http://www.pglaf.org."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:259
+msgid "Section 3.  Information about the Project Gutenberg Literary Archive\n"
+"Foundation"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:262
+msgid "The Project Gutenberg Literary Archive Foundation is a non profit\n"
+"501(c)(3) educational corporation organized under the laws of the\n"
+"state of Mississippi and granted tax exempt status by the Internal\n"
+"Revenue Service.  The Foundation's EIN or federal tax identification\n"
+"number is 64-6221541.  Its 501(c)(3) letter is posted at\n"
+"http://pglaf.org/fundraising.  Contributions to the Project Gutenberg\n"
+"Literary Archive Foundation are tax deductible to the full extent\n"
+"permitted by U.S. federal laws and your state's laws."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:271
+msgid "The Foundation's principal office is located at 4557 Melan Dr. S.\n"
+"Fairbanks, AK, 99712., but its volunteers and employees are scattered\n"
+"throughout numerous locations.  Its business office is located at\n"
+"809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email\n"
+"business@pglaf.org.  Email contact links and up to date contact\n"
+"information can be found at the Foundation's web site and official\n"
+"page at http://pglaf.org"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:279
+msgid "For additional contact information:\n"
+"     Dr. Gregory B. Newby\n"
+"     Chief Executive and Director\n"
+"     gbnewby@pglaf.org"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:284
+msgid "Section 4.  Information about Donations to the Project Gutenberg\n"
+"Literary Archive Foundation"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:287
+msgid "Project Gutenberg-tm depends upon and cannot survive without wide\n"
+"spread public support and donations to carry out its mission of\n"
+"increasing the number of public domain and licensed works that can be\n"
+"freely distributed in machine readable form accessible by the widest\n"
+"array of equipment including outdated equipment.  Many small donations\n"
+"($1 to $5,000) are particularly important to maintaining tax exempt\n"
+"status with the IRS."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:295
+msgid "The Foundation is committed to complying with the laws regulating\n"
+"charities and charitable donations in all 50 states of the United\n"
+"States.  Compliance requirements are not uniform and it takes a\n"
+"considerable effort, much paperwork and many fees to meet and keep up\n"
+"with these requirements.  We do not solicit donations in locations\n"
+"where we have not received written confirmation of compliance.  To\n"
+"SEND DONATIONS or determine the status of compliance for any\n"
+"particular state visit http://pglaf.org"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:304
+msgid "While we cannot and do not solicit contributions from states where we\n"
+"have not met the solicitation requirements, we know of no prohibition\n"
+"against accepting unsolicited donations from donors in such states who\n"
+"approach us with offers to donate."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:309
+msgid "International donations are gratefully accepted, but we cannot make\n"
+"any statements concerning tax treatment of donations received from\n"
+"outside the United States.  U.S. laws alone swamp our small staff."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:313
+msgid "Please check the Project Gutenberg Web pages for current donation\n"
+"methods and addresses.  Donations are accepted in a number of other\n"
+"ways including including checks, online payments and credit card\n"
+"donations.  To donate, please visit: http://pglaf.org/donate"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:318
+msgid "Section 5.  General Information About Project Gutenberg-tm electronic\n"
+"works."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:321
+msgid "Professor Michael S. Hart is the originator of the Project Gutenberg-tm\n"
+"concept of a library of electronic works that could be freely shared\n"
+"with anyone.  For thirty years, he produced and distributed Project\n"
+"Gutenberg-tm eBooks with only a loose network of volunteer support."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:326
+msgid "Project Gutenberg-tm eBooks are often created from several printed\n"
+"editions, all of which are confirmed as Public Domain in the U.S.\n"
+"unless a copyright notice is included.  Thus, we do not necessarily\n"
+"keep eBooks in compliance with any particular paper edition."
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:331
+msgid "Most people start at our Web site which has the main PG search facility:"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:333
+msgid "     http://www.gutenberg.net"
+msgstr ""
+
+#: make-novice/data/books/LICENSE_TEXTS.md:335
+msgid "This Web site includes information about Project Gutenberg-tm,\n"
+"including how to make donations to the Project Gutenberg Literary\n"
+"Archive Foundation, how to help produce our new eBooks, and how to\n"
+"subscribe to our email newsletter to hear about new eBooks"
+msgstr ""
+
+#: make-novice/index.md:1
+# Front Matter
+msgid "---\n"
+"layout: lesson\n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: make-novice/index.md:6
+msgid "Make is a tool which can run commands to read files, process these\n"
+"files in some way, and write out the processed files. For example,\n"
+"in software development, Make is used to compile source code\n"
+"into executable programs or libraries, but Make can also be used\n"
+"to:"
+msgstr ""
+
+#: make-novice/index.md:12
+# unordered list
+msgid "* run analysis scripts on raw data files to get data files that"
+msgstr ""
+
+#: make-novice/index.md:13
+msgid "  summarize the raw data;\n"
+"* run visualization scripts on data files to produce plots; and to\n"
+"* parse and combine text files and plots to create papers."
+msgstr ""
+
+#: make-novice/index.md:17
+msgid "Make is called a build tool - it builds data files, plots, papers,\n"
+"programs or libraries. It can also update existing files if\n"
+"desired."
+msgstr ""
+
+#: make-novice/index.md:21
+msgid "Make tracks the dependencies between the files it creates and the\n"
+"files used to create these. If one of the original files (e.g. a data\n"
+"file) is changed, then Make knows to recreate, or update, the files\n"
+"that depend upon this file (e.g. a plot)."
+msgstr ""
+
+#: make-novice/index.md:26
+msgid "There are now many build tools available, all of which are based on\n"
+"the same concepts as Make."
+msgstr ""
+
+#: make-novice/index.md:30
+msgid ">\n"
+"> In this lesson we use `make` from the Unix Shell. Some previous\n"
+"> experience with using the shell to list directories, create, copy,\n"
+"> remove and list files and directories, and run simple scripts is\n"
+"> necessary."
+msgstr ""
+
+#: make-novice/index.md:37
+# blockquote, which can be cascaded
+msgid "> ## Setup"
+msgstr ""
+
+#: make-novice/index.md:38
+# blockquote, which can be cascaded
+msgid "> In order to follow this lesson, you will need to download some files."
+msgstr ""
+
+#: make-novice/index.md:39
+# blockquote, which can be cascaded
+msgid "> Please follow instructions on the [setup]({{ page.root }}/setup) page."
+msgstr ""
+
+#: make-novice/reference.md:1
+# Front Matter
+msgid "---\n"
+"layout: reference\n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: make-novice/reference.md:6
+# header
+msgid "## Running Make"
+msgstr ""
+
+#: make-novice/reference.md:8
+msgid "To run Make:"
+msgstr ""
+
+#: make-novice/reference.md:15
+msgid "Make will look for a Makefile called `Makefile` and will build the\n"
+"default target, the first target in the Makefile."
+msgstr ""
+
+#: make-novice/reference.md:18
+msgid "To use a Makefile with a different name, use the `-f` flag e.g."
+msgstr ""
+
+#: make-novice/reference.md:20
+# code block
+msgid "~~~\n"
+"$ make -f build-files/analyze.mk\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:25
+msgid "To build a specific target, provide it as an argument e.g."
+msgstr ""
+
+#: make-novice/reference.md:27
+# code block
+msgid "~~~\n"
+"$ make isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:32
+msgid "If the target is up-to-date, Make will print a message like:"
+msgstr ""
+
+#: make-novice/reference.md:39
+msgid "To see the actions Make will run when building a target, without\n"
+"running the actions, use the `--dry-run` flag e.g."
+msgstr ""
+
+#: make-novice/reference.md:42
+# code block
+msgid "~~~\n"
+"$ make --dry-run isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:47
+msgid "Alternatively, use the abbreviation `-n`."
+msgstr ""
+
+#: make-novice/reference.md:49
+# code block
+msgid "~~~\n"
+"$ make -n isles.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:54
+# header
+msgid "## Trouble Shooting"
+msgstr ""
+
+#: make-novice/reference.md:56
+#: make-novice/reference.md:66
+msgid "If Make prints a message like,"
+msgstr ""
+
+#: make-novice/reference.md:63
+msgid "then check that all the actions are indented by TAB characters and not\n"
+"spaces."
+msgstr ""
+
+#: make-novice/reference.md:68
+# code block
+msgid "~~~\n"
+"No such file or directory: 'books/%.txt'\n"
+"make: *** [isles.dat] Error 1\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:74
+msgid "then you may have used the Make wildcard, `%`, in an action in a\n"
+"pattern rule. Make wildcards cannot be used in actions."
+msgstr ""
+
+#: make-novice/reference.md:77
+# header
+msgid "## Makefiles"
+msgstr ""
+
+#: make-novice/reference.md:79
+msgid "Rules:"
+msgstr ""
+
+#: make-novice/reference.md:81
+# code block
+msgid "~~~\n"
+"target : dependency1 dependency2 ...\n"
+"	action1\n"
+"	action2\n"
+"        ...\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:87
+#: make-novice/reference.md:113
+#: make-novice/reference.md:122
+#: make-novice/reference.md:139
+#: make-novice/reference.md:158
+#: make-novice/reference.md:173
+#: make-novice/reference.md:187
+#: make-novice/reference.md:196
+#: make-novice/reference.md:203
+#: make-novice/reference.md:215
+#: make-novice/reference.md:233
+# SC/DC Template label
+msgid "{: .make}"
+msgstr ""
+
+#: make-novice/reference.md:89
+# unordered list
+msgid "* Each rule has a target, a file to be created, or built."
+msgstr ""
+
+#: make-novice/reference.md:90
+# unordered list
+msgid "* Each rule has zero or more dependencies, files that are needed to"
+msgstr ""
+
+#: make-novice/reference.md:91
+msgid "  build the target.\n"
+"* `:` separates the target and the dependencies.\n"
+"* Dependencies are separated by spaces.\n"
+"* Each rule has zero or more actions, commands to run to build the\n"
+"  target using the dependencies.\n"
+"* Actions are indented using the TAB character, not 8 spaces."
+msgstr ""
+
+#: make-novice/reference.md:98
+msgid "Dependencies:"
+msgstr ""
+
+#: make-novice/reference.md:100
+# unordered list
+msgid "* If any dependency does not exist then Make will look for a rule to"
+msgstr ""
+
+#: make-novice/reference.md:101
+msgid "  build it.\n"
+"* The order of rebuilding dependencies is arbitrary. You should not\n"
+"  assume that they will be built in the order in which they are listed.\n"
+"* Dependencies must form a directed acyclic graph. A target cannot\n"
+"  depend on a dependency which, in turn depends upon, or has a\n"
+"  dependency which depends upon, that target."
+msgstr ""
+
+#: make-novice/reference.md:108
+msgid "Comments:"
+msgstr ""
+
+#: make-novice/reference.md:110
+# code block
+msgid "~~~\n"
+"# This is a Make comment.\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:115
+msgid "Line continuation character:"
+msgstr ""
+
+#: make-novice/reference.md:117
+# code block
+msgid "~~~\n"
+"ARCHIVE = isles.dat isles.png \\\n"
+"          abyss.dat abyss.png \\\n"
+"          sierra.dat sierra.png\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:124
+# unordered list
+msgid "* If a list of dependencies or an action is too long, a Makefile can"
+msgstr ""
+
+#: make-novice/reference.md:125
+msgid "  become more difficult to read.\n"
+"* Backslash,`\\`, the line continuation character, allows you to split\n"
+"  up a list of dependencies or an action over multiple lines, to make\n"
+"  them easier to read.\n"
+"* Make will combine the multiple lines into a single list of dependencies\n"
+"  or action."
+msgstr ""
+
+#: make-novice/reference.md:132
+msgid "Phony targets:"
+msgstr ""
+
+#: make-novice/reference.md:134
+# code block
+msgid "~~~\n"
+".PHONY : clean\n"
+"clean :\n"
+"       rm -f *.dat\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:141
+# unordered list
+msgid "* Phony targets are a short-hand for sequences of actions."
+msgstr ""
+
+#: make-novice/reference.md:142
+# unordered list
+msgid "* No file with the target name is built when a rule with a phony"
+msgstr ""
+
+#: make-novice/reference.md:143
+msgid "  target is run."
+msgstr ""
+
+#: make-novice/reference.md:145
+msgid "Automatic variables:"
+msgstr ""
+
+#: make-novice/reference.md:147
+# unordered list
+msgid "* `$<` denotes 'the first dependency of the current rule'."
+msgstr ""
+
+#: make-novice/reference.md:148
+# unordered list
+msgid "* `$@` denotes 'the target of the current rule'."
+msgstr ""
+
+#: make-novice/reference.md:149
+# unordered list
+msgid "* `$^` denotes 'the dependencies of the current rule'."
+msgstr ""
+
+#: make-novice/reference.md:150
+# unordered list
+msgid "* `$*` denotes 'the stem with which the pattern of the current rule matched'."
+msgstr ""
+
+#: make-novice/reference.md:152
+msgid "Pattern rules:"
+msgstr ""
+
+#: make-novice/reference.md:154
+# code block
+msgid "~~~\n"
+"%.dat : books/%.txt $(COUNT_SRC)\n"
+"        $(COUNT_EXE) $< $@\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:160
+# unordered list
+msgid "* The Make wildcard, `%`, specifies a pattern."
+msgstr ""
+
+#: make-novice/reference.md:161
+# unordered list
+msgid "* If Make finds a dependency matching the pattern, then the pattern is"
+msgstr ""
+
+#: make-novice/reference.md:162
+msgid "  substituted into the target.\n"
+"* The Make wildcard can only be used in targets and dependencies.\n"
+"* e.g. if Make found a file called `books/abyss.txt`, it would set the\n"
+"  target to be `abyss.dat`."
+msgstr ""
+
+#: make-novice/reference.md:167
+msgid "Defining and using variables:"
+msgstr ""
+
+#: make-novice/reference.md:169
+# code block
+msgid "~~~\n"
+"COUNT_SRC=wordcount.py\n"
+"COUNT_EXE=python $(COUNT_SRC)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:175
+# unordered list
+msgid "* A variable is assigned a value. For example, `COUNT_SRC`"
+msgstr ""
+
+#: make-novice/reference.md:176
+msgid "  is assigned the value `wordcount.py`.\n"
+"* `$(...)` is a reference to a variable. It requests that\n"
+"  Make substitutes the name of a variable for its value."
+msgstr ""
+
+#: make-novice/reference.md:180
+msgid "Suppress printing of actions:"
+msgstr ""
+
+#: make-novice/reference.md:182
+# code block
+msgid "~~~\n"
+".PHONY : variables\n"
+"variables:\n"
+"        @echo TXT_FILES: $(TXT_FILES)\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:189
+# unordered list
+msgid "* Prefix an action by `@` to instruct Make not to print that action."
+msgstr ""
+
+#: make-novice/reference.md:191
+msgid "Include the contents of a Makefile in another Makefile:"
+msgstr ""
+
+#: make-novice/reference.md:198
+msgid "wildcard function:"
+msgstr ""
+
+#: make-novice/reference.md:205
+# unordered list
+msgid "* Looks for all files matching a pattern e.g. `books/*.txt`, and"
+msgstr ""
+
+#: make-novice/reference.md:206
+msgid "  return these in a list.\n"
+"* e.g. `TXT_FILES` is set to `books/abyss.txt books/isles.txt\n"
+"  books/last.txt books/sierra.txt`."
+msgstr ""
+
+#: make-novice/reference.md:210
+msgid "patsubst ('path substitution') function:"
+msgstr ""
+
+#: make-novice/reference.md:217
+# unordered list
+msgid "* Every string that matches `books/%.txt` in `$(TXT_FILES)` is"
+msgstr ""
+
+#: make-novice/reference.md:218
+msgid "  replaced by `%.dat` and the strings are returned in a list.\n"
+"* e.g. if `TXT_FILES` is `books/abyss.txt books/isles.txt\n"
+"  books/last.txt books/sierra.txt` this sets `DAT_FILES` to `abyss.dat\n"
+"  isles.dat last.dat sierra.dat`."
+msgstr ""
+
+#: make-novice/reference.md:223
+msgid "Default targets:"
+msgstr ""
+
+#: make-novice/reference.md:225
+# unordered list
+msgid "* In Make version 3.79 the default target is the first target in the"
+msgstr ""
+
+#: make-novice/reference.md:226
+msgid "  Makefile.\n"
+"* In Make 3.81, the default target can be explicitly set using the\n"
+"  special variable `.DEFAULT_GOAL` e.g."
+msgstr ""
+
+#: make-novice/reference.md:230
+# code block
+msgid "~~~\n"
+".DEFAULT_GOAL := all\n"
+"~~~"
+msgstr ""
+
+#: make-novice/reference.md:235
+# header
+msgid "## Manuals"
+msgstr ""
+
+#: make-novice/reference.md:237
+msgid "[GNU Make Manual][gnu-make-manual]. Reference sections include:"
+msgstr ""
+
+#: make-novice/reference.md:239
+# unordered list
+msgid "* [Summary of Options][options-summary] for the `make` command."
+msgstr ""
+
+#: make-novice/reference.md:240
+# unordered list
+msgid "* [Quick Reference][quick-reference] of Make directives, text manipulation functions, and special variables."
+msgstr ""
+
+#: make-novice/reference.md:241
+# unordered list
+msgid "* [Automatic Variables][automatic-variables]."
+msgstr ""
+
+#: make-novice/reference.md:242
+# unordered list
+msgid "* [Special Built-in Target Names][special-targets]"
+msgstr ""
+
+#: make-novice/reference.md:246
+msgid "{:auto_ids}\n"
+"action\n"
+":   The steps a [build manager](#build-manager) must take to create or\n"
+"    update a file or other object."
+msgstr ""
+
+#: make-novice/reference.md:251
+msgid "assignment\n"
+":   A request that [Make](#make) stores something in a\n"
+"    [variable](#variable)."
+msgstr ""
+
+#: make-novice/reference.md:255
+msgid "automatic variable\n"
+":   A variable whose value is automatically redefined for each\n"
+"    [rule](#rule). [Make](#make)'s automatic variables include `$@`,\n"
+"    which holds the rule's [target](#target), `$^`, which holds its\n"
+"    [dependencies](#dependency), and, `$<`, which holds the first of\n"
+"    its dependencies, and `$*`, which holds the [stem](#stem) with which\n"
+"    the pattern was matched. Automatic variables are typically used in\n"
+"    [pattern rules](#pattern-rule)."
+msgstr ""
+
+#: make-novice/reference.md:264
+msgid "build file\n"
+":   A description of [dependencies](#dependency) and [rules](#rule)\n"
+"    for a [build manager](#build-manager)."
+msgstr ""
+
+#: make-novice/reference.md:268
+msgid "build manager\n"
+":   A program, such as [Make](#make), whose main purpose is to build or\n"
+"    update software, documentation, web sites, data files, images, and\n"
+"    other things."
+msgstr ""
+
+#: make-novice/reference.md:273
+msgid "default rule\n"
+":   The [rule](#rule) that is executed if no [target](#target) is\n"
+"    specified when a [build manager](#build-manager) is run."
+msgstr ""
+
+#: make-novice/reference.md:277
+msgid "default target\n"
+":   The [target](#target) of the [default rule](#default-rule)."
+msgstr ""
+
+#: make-novice/reference.md:280
+msgid "dependency\n"
+":   A file that a [target](#target) depends on. If any of a target's\n"
+"    [dependencies](#dependency) are newer than the target itself, the\n"
+"    target needs to be updated. A target's dependencies are also\n"
+"    called its prerequisites. If a target's dependencies do not exist,\n"
+"    then they need to be built first."
+msgstr ""
+
+#: make-novice/reference.md:287
+msgid "false dependency\n"
+":   This can refer to a [dependency](#dependency) that is artificial.\n"
+"    e.g. a false dependency is introduced if a data analysis script\n"
+"    is added as a dependency to the data files that the script\n"
+"    analyses."
+msgstr ""
+
+#: make-novice/reference.md:293
+msgid "function\n"
+":   A built-in [Make](#make) utility that performs some operation, for\n"
+"    example gets a list of files matching a pattern."
+msgstr ""
+
+#: make-novice/reference.md:297
+msgid "incremental build\n"
+":   The feature of a [build manager](#build-manager) by\n"
+"    which it only rebuilds files that, either directory\n"
+"    or indirectly, depend on a file that was changed."
+msgstr ""
+
+#: make-novice/reference.md:302
+msgid "macro\n"
+":   Used as a synonym for [variable](#variable) in certain versions of\n"
+"    [Make](#make)."
+msgstr ""
+
+#: make-novice/reference.md:306
+msgid "Make\n"
+":   A popular [build manager](#build-manager), from GNU, created in 1977."
+msgstr ""
+
+#: make-novice/reference.md:309
+msgid "Makefile\n"
+":   A [build file](#build-file) used by [Make](#make), which, by\n"
+"    default, are named `Makefile`."
+msgstr ""
+
+#: make-novice/reference.md:313
+msgid "pattern rule\n"
+":   A [rule](#rule) that specifies a general way to build or update an\n"
+"    entire class of files that can be managed the same way. For\n"
+"    example, a pattern rule can specify how to compile any C file\n"
+"    rather than a single, specific C file, or, to analyze any data\n"
+"    file rather than a single, specific data file. Pattern rules\n"
+"    typically make use of [automatic variables](#automatic-variable)\n"
+"    and [wildcards](#wildcard)."
+msgstr ""
+
+#: make-novice/reference.md:322
+msgid "phony target\n"
+":   A [target](#target) that does not correspond to a file or other\n"
+"    object. Phony targets are usually symbolic names for sequences of\n"
+"    [actions](#action)."
+msgstr ""
+
+#: make-novice/reference.md:327
+msgid "prerequisite\n"
+":   A synonym for [dependency](#dependency)."
+msgstr ""
+
+#: make-novice/reference.md:330
+msgid "reference\n"
+":   A request that [Make](#make) substitutes the name of a\n"
+"    [variable](#variable) for its value."
+msgstr ""
+
+#: make-novice/reference.md:334
+msgid "rule\n"
+":   A specification of a [target](#target)'s\n"
+"    [dependencies](#dependency) and what [actions](#action) need to be\n"
+"    executed to build or update the target."
+msgstr ""
+
+#: make-novice/reference.md:339
+msgid "stem\n"
+":   The part of the target that was matched by the pattern rule. If\n"
+"    the target is `file.dat` and the target pattern was `%.dat`, then\n"
+"    the stem `$*` is `file`."
+msgstr ""
+
+#: make-novice/reference.md:344
+msgid "target\n"
+":   A thing to be created or updated, for example a file. Targets can\n"
+"    have [dependencies](#dependency) that must exist, and be\n"
+"    up-to-date, before the target itself can be built or updated."
+msgstr ""
+
+#: make-novice/reference.md:349
+msgid "variable\n"
+":   A symbolic name for something in a [Makefile](#makefile)."
+msgstr ""
+
+#: make-novice/reference.md:352
+msgid "wildcard\n"
+":   A pattern that can be specified in [dependencies](#dependency) and\n"
+"    [targets](#target). If [Make](#make) finds a dependency matching\n"
+"    the pattern, then the pattern is substituted into the\n"
+"    target. wildcards are often used in [pattern\n"
+"    rules](#pattern-rule). The Make wildcard is `%`."
+msgstr ""
+
+#: make-novice/reference.md:359
+msgid "[automatic-variables]: https://www.gnu.org/software/make/manual/html_node/Automatic-Variables.html\n"
+"[gnu-make-manual]: https://www.gnu.org/software/make/manual/\n"
+"[options-summary]: https://www.gnu.org/software/make/manual/html_node/Options-Summary.html\n"
+"[quick-reference]: https://www.gnu.org/software/make/manual/html_node/Quick-Reference.html\n"
+"[special-targets]: https://www.gnu.org/software/make/manual/html_node/Special-Targets.html"
+msgstr ""
+
+#: make-novice/setup.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Setup\"\n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: make-novice/setup.md:7
+# header
+msgid "## Files"
+msgstr ""
+
+#: make-novice/setup.md:9
+msgid "You need to download some files to follow this lesson:"
+msgstr ""
+
+#: make-novice/setup.md:11
+# ordered list
+msgid "1. Download [make-lesson.zip][zip-file]."
+msgstr ""
+
+#: make-novice/setup.md:13
+# ordered list
+msgid "2. Move `make-lesson.zip` into a directory which you can access via your bash shell."
+msgstr ""
+
+#: make-novice/setup.md:15
+# ordered list
+msgid "3. Open a Bash shell window."
+msgstr ""
+
+#: make-novice/setup.md:17
+# ordered list
+msgid "4. Navigate to the directory where you downloaded the file."
+msgstr ""
+
+#: make-novice/setup.md:19
+# ordered list
+msgid "5. Unpack `make-lesson.zip`:"
+msgstr ""
+
+#: make-novice/setup.md:21
+msgid "   ~~~\n"
+"   $ unzip make-lesson.zip\n"
+"   ~~~"
+msgstr ""
+
+#: make-novice/setup.md:24
+#: make-novice/setup.md:31
+# SC/DC Template label
+msgid "   {: .source}"
+msgstr ""
+
+#: make-novice/setup.md:26
+# ordered list
+msgid "6. Change into the `make-lesson` directory:"
+msgstr ""
+
+#: make-novice/setup.md:28
+msgid "   ~~~\n"
+"   $ cd make-lesson\n"
+"   ~~~"
+msgstr ""
+
+#: make-novice/setup.md:35
+msgid "You also need to have the following software installed on your computer to\n"
+"follow this lesson:"
+msgstr ""
+
+#: make-novice/setup.md:38
+# header
+msgid "### GNU Make"
+msgstr ""
+
+#: make-novice/setup.md:40
+# header
+msgid "#### Linux"
+msgstr ""
+
+#: make-novice/setup.md:42
+msgid "Make is a standard tool on most Linux systems and should already be available.\n"
+"Check if you already have Make installed by typing `make -v` into a terminal."
+msgstr ""
+
+#: make-novice/setup.md:45
+msgid "One exception is Debian, and you should install Make from the terminal using\n"
+"`sudo apt-get install make`."
+msgstr ""
+
+#: make-novice/setup.md:48
+# header
+msgid "#### OSX"
+msgstr ""
+
+#: make-novice/setup.md:50
+msgid "You will need to have Xcode installed (download from the\n"
+"[Apple website](https://developer.apple.com/xcode/)).\n"
+"Check if you already have Make installed by typing `make -v` into a terminal. "
+msgstr ""
+
+#: make-novice/setup.md:54
+# header
+msgid "#### Windows"
+msgstr ""
+
+#: make-novice/setup.md:55
+msgid "Use the Software Carpentry [Windows installer](https://github.com/swcarpentry/windows-installer)."
+msgstr ""
+
+#: make-novice/setup.md:57
+# header
+msgid "### Python"
+msgstr ""
+
+#: make-novice/setup.md:59
+msgid "Python2 or Python3, Numpy and Matplotlib are required.\n"
+"They can be installed separately, but the easiest approach is to install \n"
+"[Anaconda](https://www.anaconda.com/distribution/) which includes all of the\n"
+"necessary python software."
+msgstr ""
+
+#: make-novice/setup.md:64
+msgid "[zip-file]: {{ page.root }}/files/make-lesson.zip"
+msgstr ""
+
