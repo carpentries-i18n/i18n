@@ -8402,20 +8402,20 @@ msgid ""
 "R has many powerful subset operators. Mastering them will allow you to\n"
 "easily perform complex operations on any kind of dataset."
 msgstr ""
-"Rには、かなり使える部分集合の演算子があります。もし、それをマスターできたら、\n"
-"どんなデータセットにも複雑な演算を簡単にすることができます。"
+"Rには便利な部分集合の演算子が多く含まれています。これらをマスターできれば、\n"
+"どんなデータセットにも複雑な演算を楽に行えます。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:27
 msgid ""
 "There are six different ways we can subset any kind of object, and three\n"
 "different subsetting operators for the different data structures."
 msgstr ""
-"There are six different ways we can subset any kind of object, and three\n"
-"different subsetting operators for the different data structures."
+"オブジェクトを部分集合する方法は６つあり、データ構造を\n"
+"部分集合する方法は３つあります。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:30
 msgid "Let's start with the workhorse of R: a simple numeric vector."
-msgstr "Rの働き頭から始めましょう：簡単な数値ベクトル"
+msgstr "Rの働き頭、数値ベクトルから始めましょう。"
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:33
@@ -8462,7 +8462,7 @@ msgstr ""
 msgid ""
 "So now that we've created a dummy vector to play with, how do we get at its\n"
 "contents?"
-msgstr "ちょっと触ってみるためのダミーベクトルを作ることができたのですが、どうやってベクトルの中身を使うのでしょう？"
+msgstr "練習用のベクトルを作ることができたのですが、どうやってベクトルの中身を使うのでしょう？"
 
 # header
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:56
@@ -8529,7 +8529,7 @@ msgid ""
 "It may look different, but the square brackets operator is a function. For vectors\n"
 "(and matrices), it means \"get me the nth element\"."
 msgstr ""
-"違うふうに見えるかもしれませんが、各括弧の演算子は、関数なのです。ベクトル（及び行列）の場合は、\n"
+"違うふうに見えるかもしれませんが、各括弧の演算子は関数です。ベクトル（及び行列）の場合は、\n"
 "「n番目の要素をちょうだい」ということを意味しています。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:92
@@ -8591,7 +8591,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:124
 msgid "the `:` operator creates a sequence of numbers from the left element to the right."
-msgstr "この演算子 `:` は、左から右の要素の一連番号を作ります。"
+msgstr "この `:` 演算子は、左から右の要素の一連番号を作ります。"
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:126
@@ -8657,7 +8657,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:169
 msgid "If we ask for an index beyond the length of the vector, R will return a missing value:"
-msgstr "もしベクトルの長さ以上の要素番号を頼んだ場合、Rは、欠測値を返します："
+msgstr "もしベクトルの長さ以上の要素番号を頼んだ場合、Rは欠測値を返します："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:171
@@ -8726,7 +8726,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> 多くのプログラミング言語（例えば、C、Python）では、ベクトルの最初の\n"
-"> 要素の要素番号は０です。Rでは、最初の要素番号は１なのです。"
+"> 要素の要素番号は０です。Rでは、最初の要素番号は１です。"
 
 # header
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:207
@@ -8819,8 +8819,8 @@ msgid ""
 "> ~~~"
 msgstr ""
 ">\n"
-"> 初心者のよくある失敗は、ベクトルのスライスを飛ばしてしまうことです。\n"
-"> 数列に負の符号を付けようとするとき、次のようにすることはありがちです：\n"
+"> 初心者によく見られるのが、ベクトルのスライスを飛ばそうとする時に起こる間違いです。\n"
+"> 数列をベクトルから削除しようとする場合、次のようにして削除しようとします：\n"
 ">\n"
 "> \n"
 "> ~~~\n"
@@ -8828,7 +8828,7 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-r}\n"
 ">\n"
-"> This gives a somewhat cryptic error:\n"
+"> すると、なんだか複雑なエラーが返ってきます：\n"
 ">\n"
 "> \n"
 "> ~~~\n"
@@ -8864,8 +8864,8 @@ msgid ""
 "> ~~~"
 msgstr ""
 ">\n"
-"> でも、演算の順番を思い出してみて下さい。`:` は、実際には、関数なのです。\n"
-"> 最初の引数を-1、次のを3として認識し、次のような数列を生成します。\n"
+"> 演算の順番を思い出してみましょう。`:` は、実際には関数なのです。\n"
+"> 最初の引数を-1、次の引数を3として認識し、次のような数列を生成します。\n"
 "> `c(-1, 0, 1, 2, 3)`\n"
 ">\n"
 "> 正解は、関数を呼ぶ部分を括弧で囲むことです。\n"
@@ -8967,7 +8967,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 ">\n"
-"> 以下のアウトプットを得るために、少なくとも２つの異なるコマンドを考えてください：\n"
+"> 以下の出力を得るために、少なくとも２つの異なるコマンドを考えてください：\n"
 ">\n"
 "> \n"
 "> ~~~\n"
@@ -9097,9 +9097,9 @@ msgid ""
 "position of various elements can often change when chaining together\n"
 "subsetting operations, but the names will always remain the same!"
 msgstr ""
-"オブジェクトの部分集合を作るには、この方法の方が確実なやり方です：要素の場所は、\n"
-"部分集合の演算子を繋いで使うことでよく変わるのですが。\n"
-"名前は変わらないのです！"
+"オブジェクトの部分集合を作るには、この方法の方が確実です：要素の場所は、\n"
+"部分集合の演算子を繋いで使うことでよく変わるのですが、\n"
+"名前は絶対に変わりません。"
 
 # header
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:402
@@ -9141,7 +9141,8 @@ msgid ""
 "use them to succinctly subset vectors: the following statement gives\n"
 "the same result as the previous one."
 msgstr ""
-"比較演算子（例えば、 `>`、`<`、 `==`）は、その結果が論理ベクトルになるので、簡潔にベクトルの部分集合を作ることができます。\n"
+"比較演算子（例えば、 `>`、`<`、 `==`）は、その結果が論理ベクトルになるので、\n"
+"簡潔にベクトルの部分集合を作ることができます。\n"
 "つまり、以下の宣言は、前と同じ結果を返します。"
 
 # code block
@@ -9161,9 +9162,9 @@ msgid ""
 "a logical vector `c(FALSE, FALSE, TRUE, FALSE, TRUE)`, and then\n"
 "selects the elements of `x` corresponding to the `TRUE` values."
 msgstr ""
-"分割すると、この宣言は、最初に `x>7` を計算し、論理ベクトル\n"
+"分割すると、この宣言は最初に `x>7` を計算し、論理ベクトル\n"
 "`c(FALSE, FALSE, TRUE, FALSE, TRUE)` を作ります。それから、\n"
-"`TRUE` の値に対応する `x` 要素を選択します。"
+"`TRUE` の値に対応する要素を `x` から選択しています。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:442
 msgid ""
@@ -9220,7 +9221,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> 複数の論理基準を組み合わせたい場合はよくあります。\n"
-"> 例えば、アジア**または** ヨーロッパに位置し、なお**かつ** ある一定の範囲の平均余命\n"
+"> 例えば、アジア**または** ヨーロッパに位置し、**なおかつ** ある一定の範囲の平均余命\n"
 "> の国を見つけたいとします。\n"
 "> Rにが論理ベクトルを複数組み合わせる演算子があります：\n"
 ">\n"
@@ -9229,7 +9230,7 @@ msgstr ""
 ">\n"
 "> `&` 及び `|` の代わりに、 `&&` 及び `||` を見かけることもあるでしょう。\n"
 "> この二重になっている演算子は、それぞれのベクトルの最初の要素だけを見て、残りを無視するものです。\n"
-"> 一般的に、この二重になっている演算子は、データ分析では使わずに、\n"
+"> 一般的に、この二重になっている演算子はデータ分析では使わずに、\n"
 "> プログラミングの際に（つまり、ある宣言を実行するかどうかを決める際に）\n"
 "> 使うことをおすすめします。\n"
 ">\n"
@@ -9313,7 +9314,7 @@ msgstr ""
 ">\n"
 "> ベクトルの中の要素に、同じ名前を持つものがあるかもしれないということを知っておく必要があります。\n"
 "> （データフレームでは、--- Rは避けようとしますが --- 列に同じ名前を付けることもできます。\n"
-"> 一方で、行の名前は、全て違う必要があります）\n"
+"> 一方で、行の名前は全て違う必要があります）\n"
 "> これらの例を考えてみましょう：\n"
 ">\n"
 ">\n"
@@ -9392,7 +9393,7 @@ msgstr ""
 ">\n"
 ">\n"
 ">~~~\n"
-"> x['a']  # only returns first value\n"
+"> x['a']  # 最初の値しか返さない\n"
 ">~~~\n"
 ">{: .language-r}\n"
 ">\n"
@@ -9470,7 +9471,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"x <- c(a=5.4, b=6.2, c=7.1, d=4.8, e=7.5) # まず、ベクトルにその場で名前を付けることから、また始めます\n"
+"x <- c(a=5.4, b=6.2, c=7.1, d=4.8, e=7.5) # まず、ベクトルにその場で名前を付けることから始めます\n"
 "x[-\"a\"]\n"
 "~~~"
 
@@ -9589,8 +9590,8 @@ msgid ""
 "of the left argument with the corresponding element of its right\n"
 "argument. What happens when you compare vectors of different lengths?"
 msgstr ""
-"Rは、`names(x)[3] != \"c\"` が明らかに間違いであるときに、このベクトルの３番目の要素として、なぜ`TRUE` にしたのでしょうか。\n"
-"`!=` を使うとき、Rは、左側の引数のそれぞれの要素を、右側のそれぞれの要素と比較しようとします。\n"
+"Rは、`names(x)[3] != \"c\"` が明らかに間違いであるときに、このベクトルの３番目の要素をなぜ`TRUE` にしたのでしょうか。\n"
+"`!=` を使うとき、Rは左側の引数のそれぞれの要素を右側のそれぞれの要素と比較しようとします。\n"
 "違う長さのベクトルを比較しようとすると、何が起こるのでしょう？"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:697
@@ -9617,7 +9618,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:707
 msgid "The way to get R to do what we really want (match *each* element of the left argument with *all* of the elements of the right argument) it to use the `%in%` operator. The `%in%` operator goes through each element of its left argument, in this case the names of `x`, and asks, \"Does this element occur in the second argument?\". Here, since we want to *exclude* values, we also need a `!` operator to change \"in\" to \"not in\":"
-msgstr "Rに本当にやってもらいたいこと（左の引数の *それぞれの* 要素を、右の引数の要素の *全て* にマッチさせこと）をしてもらうには、 `%in%` 演算子を使う必要があります。`%in%` 演算子は、左の引数のそれぞれの要素、ここでは `x` の名前にひとつづつ 「この要素は、２番目の引数にあるかな」と尋ねていきます。ここで、値を *除く* ため、「中にある（in）」を「中にない（not in）」に変える `!` 演算子が必要です。"
+msgstr "Rに本当にやってもらいたいこと（左の引数の *それぞれの* 要素を、右の引数の要素の *全て* にマッチさせること）をしてもらうには、 `%in%` 演算子を使う必要があります。`%in%` 演算子は、左の引数のそれぞれの要素、ここでは `x` の名前にひとつずつ 「この要素は、２番目の引数にあるかな」と尋ねていきます。ここで、値を *除く* ため、「中にある（in）」を「中にない（not in）」に変える `!` 演算子が必要です。"
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:710
@@ -9753,7 +9754,7 @@ msgstr "データをフィルターするために使える特別な関数がい
 # unordered list
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:778
 msgid " * `is.na` will return all positions in a vector, matrix, or data.frame"
-msgstr " * `is.na` は、ベクトル、行列、データフレームで、 全ての`NA` （または `NaN` ）を含む位置を返します"
+msgstr " * `is.na` は、ベクトル、行列、データフレームで、"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:779
 msgid ""
@@ -9763,8 +9764,10 @@ msgid ""
 "   that do not contain `NA`, `NaN` or `Inf`.\n"
 " * `na.omit` will filter out all missing values from a vector"
 msgstr ""
+"   全ての`NA` （または `NaN` ）を含む位置を返します\n"
 " * これと同じことを `NaN` 及び `Inf` にするのが `is.nan` 及び `is.infinite` です\n"
-" * `is.finite` は、ベクトル、行列、データフレームで、 全ての`NA`, `NaN` または `Inf`を含まない位置を返します\n"
+" * `is.finite` は、ベクトル、行列、データフレームで、\n"
+"   全ての`NA`, `NaN` または `Inf`を含まない位置を返します\n"
 " * `na.omit` は、ベクトルから欠損値をフィルターし、除きます"
 
 # header
@@ -9776,7 +9779,9 @@ msgstr "## 順序のない因子の部分集合を作る"
 msgid ""
 "Now that we've explored the different ways to subset vectors, how\n"
 "do we subset the other data structures?"
-msgstr "これまで部分集合ベクトルを作る色々な方法をやってみましたが、他のデータ構造の部分集合を作るにはどうすればいいでしょう。"
+msgstr ""
+"これまで部分集合ベクトルを作る色々な方法をやってみましたが、\n"
+"他のデータ構造の部分集合を作るにはどうすればいいでしょう。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:790
 msgid "Factor subsetting works the same way as vector subsetting."
@@ -9934,7 +9939,7 @@ msgstr ""
 msgid ""
 "You can leave the first or second arguments blank to retrieve all the\n"
 "rows or columns respectively:"
-msgstr "それぞれ全ての列または行を取ってくるために、この最初または２番目の引数を空のままにしておくこともできます："
+msgstr "それぞれ全ての列または行を取ってくるためには、最初または２番目の引数を空のままにしておきましょう："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:881
@@ -9974,7 +9979,7 @@ msgstr ""
 msgid ""
 "If we only access one row or column, R will automatically convert the result\n"
 "to a vector:"
-msgstr "１つの列または行にアクセスした場合、Rは、結果を自動的にベクトルに変換します："
+msgstr "１つの列または行にアクセスした場合、Rは結果を自動的にベクトルに変換します："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:903
@@ -10034,7 +10039,7 @@ msgstr ""
 msgid ""
 "Unlike vectors, if we try to access a row or column outside of the matrix,\n"
 "R will throw an error:"
-msgstr "ベクトルと違って、行列の外の行や列にアクセスしようとしたとき、Rはエラーを返します："
+msgstr "ベクトルと違って、行列の外の行や列にアクセスしようとすると、Rはエラーを返します："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:936
@@ -10080,7 +10085,7 @@ msgstr ""
 msgid ""
 "Because matrices are vectors, we can\n"
 "also subset using only one argument:"
-msgstr "行列は、ベクトルなので、１つの引数だけを使って部分集合を作ることもできます："
+msgstr "行列はベクトルなので、１つの引数だけを使って部分集合を作ることもできます："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:960
@@ -10141,7 +10146,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:992
 msgid "If you wish to populate the matrix by row, use `byrow=TRUE`:"
-msgstr "もし、行列を、行の順番で埋めていきたい場合は、 `byrow=TRUE` を使います："
+msgstr "もし、行列を行の順番で埋めていきたい場合は、 `byrow=TRUE` を使います："
 
 # code block
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:995
@@ -10197,7 +10202,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 ">\n"
-"> 以下のコードがあるとしましょう：\n"
+"> 以下のコードがあるとします：\n"
 ">\n"
 "> \n"
 "> ~~~\n"
@@ -10257,7 +10262,7 @@ msgid ""
 "Now we'll introduce some new subsetting operators. There are three functions\n"
 "used to subset lists. We've already seen these when learning about atomic vectors and matrices:  `[`, `[[`, and `$`."
 msgstr ""
-"ここで新しい部分集合を作る演算子を御紹介しましょう。リストの部分集合を作る関数は３つあります。\n"
+"ここで新しい部分集合を作る演算子を紹介します。リストの部分集合を作る関数は３つあります。\n"
 "原子ベクトルと行列について学んだ時に、既に見たものです： `[` 、 `[[` 、`$`"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1055
@@ -10306,7 +10311,7 @@ msgid ""
 "in each element of the list, not the individual elements within those\n"
 "data structures."
 msgstr ""
-"`[` を使い原子ベクトルを作ったのと全く同じ方法で、リストの要素から部分集合を作ることができます。\n"
+"`[` を使って原子ベクトルを作ったのと全く同じ方法で、リストの要素から部分集合を作ることができます。\n"
 "しかし、比較処理は反復的ではないため、使えません。比較処理は、リストのそれぞれの要素のデータ構造にある、個々の要素ではなく、\n"
 "データ構造に条件付けをしようとするからです。"
 
@@ -10481,7 +10486,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1183
 msgid "> Given the following list:"
-msgstr "> 以下のリストがあるとしましょう："
+msgstr "> 以下のリストがあるとします："
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1184
 msgid ""
@@ -10586,7 +10591,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1237
 msgid "> Given a linear model:"
-msgstr "> 線形モデルを考えてみましょう："
+msgstr "> 以下のような線形モデルあるとします："
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1238
 msgid ""
@@ -10644,7 +10649,7 @@ msgid ""
 "Remember the data frames are lists underneath the hood, so similar rules\n"
 "apply. However they are also two dimensional objects:"
 msgstr ""
-"データフレームの中身は実はリストなので、同じようなルールがあてはまることを覚えておきましょう。\n"
+"データフレームの中身は実はリストなので、リストと同じようなルールがあてはまることを覚えておきましょう。\n"
 "しかし、データフレームは２次元のオブジェクトでもあります。"
 
 #: r-novice-gapminder/_episodes/06-data-subsetting.md:1268
