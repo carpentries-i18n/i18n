@@ -21814,7 +21814,6 @@ msgstr "## [データの出力]({{ page.root }}/11-writing-data/)"
 #: r-novice-gapminder/reference.md:206
 msgid " - `write.table` to write out objects in regular format"
 msgstr " - `write.table` を使ってオブジェクトを一般的な形式に出力しましょう。"
-/
 # unordered list
 #: r-novice-gapminder/reference.md:207
 msgid " - set `quote=FALSE` so that text isn't wrapped in `\"` marks"
