@@ -15494,7 +15494,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/11-writing-data.md:20
 msgid "## Saving plots"
-msgstr "## 図を保存する"
+## 図の保存
 
 #: r-novice-gapminder/_episodes/11-writing-data.md:22
 msgid ""
