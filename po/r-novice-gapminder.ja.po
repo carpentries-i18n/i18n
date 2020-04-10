@@ -8,9 +8,7 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-09-15 22:59:57+0900\n"
-<<<<<<< HEAD
-=======
->>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
+"PO-Revision-Date: 2020-04-10 22:00+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -928,15 +926,9 @@ msgid ""
 "control and project management."
 msgstr ""
 "このレッスンではRStudioを使います。RStudioは、無料であり、Rを組み込んだオープンソースの\n"
-<<<<<<< HEAD
 "総合開発環境（IDE: Integrated Development Environment）です。RStudioは、全てのプラットフォーム（サーバーも含む）で起動できること、\n"
 "エディタが組み込まれていることや、プロジェクト管理やバージョン管理にも対応しているなど、\n"
 "良いところがいっぱいがあります。"
-=======
-"開発環境です。RStudioには、全てのプラットフォーム（サーバーも含む）で起動できるエディタ\n"
-"エディタが組み込まれていることや、プロジェクト管理やバージョン管理にも対応しているなど、\n"
-"良いところがいっぱいあります。"
->>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:68
 msgid "**Basic layout**"
@@ -2195,11 +2187,7 @@ msgstr ""
 "> 以外では、２数の比較に決して `==` を使わないこと。\n"
 ">\n"
 "> コンピュータは、小数点以下の数を限られた精度でしか示せません。\n"
-<<<<<<< HEAD
 "> なので、二つの数がRで同じように表示されても\n"
-=======
-"> かもしれません。すると、二つの数がRで同じように表示されても\n"
->>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 "> 実際は、その背後で異なる形で表されており、したがって\n"
 "> ごくわずかな誤差（機械の数値許容範囲）があるかもしれません。\n"
 ">\n"
@@ -3003,11 +2991,7 @@ msgid ""
 "network). R and RStudio have functionality for managing packages:"
 msgstr ""
 "パッケージを書くか、誰かが書いたパッケージを使って、Rに関数を加えることができます。\n"
-<<<<<<< HEAD
 "今現在CRAN  (the comprehensive R archive network)上にある\n"
-=======
-"今現在CRAN (the comprehensive R archive network)上にある\n"
->>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 "10,000 を越えるパッケージが使用可能です。RとRStudioには、パッケージを管理する機能があります："
 
 # unordered list
@@ -3026,17 +3010,10 @@ msgid ""
 msgstr ""
 "  `installed.packages()`\n"
 "* パッケージをインストールするには、`install.packages(\"packagename\")`を入力します\n"
-<<<<<<< HEAD
 "  ここで、`packagename`は、用いる引用符付きのパッケージ名です\n"
 "* インストールしたパッケージの更新には、`update.packages()`を入力します\n"
 "* パッケージの削除には、`remove.packages(\"packagename\")`を入力します\n"
 "* 使用できるパッケージを用いるには、`library(packagename)`を入力します"
-=======
-"  ここで、`packagename`は、用いる引用符付きのパッケージ名です。\n"
-"* インストールしたパッケージの更新には、`update.packages()`を入力します。\n"
-"* パッケージの削除には、`remove.packages(\"packagename\")`を入力します。\n"
-"* 使用できるパッケージを用いるには、`library(packagename)`を入力します。"
->>>>>>> 718efdcf948e4ee569b48dfaf2f2b4a078ffa0a5
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:781
@@ -15986,10 +15963,10 @@ msgid ""
 "and multiplies the population and GDP per capita column. We also defined\n"
 "additional arguments so we could filter by `year` and `country`:"
 msgstr ""
-"Previously we looked at how you can use functions to simplify your code.\n"
-"We defined the `calcGDP` function, which takes the gapminder dataset,\n"
-"and multiplies the population and GDP per capita column. We also defined\n"
-"additional arguments so we could filter by `year` and `country`:"
+"ここまでに、関数がコードをシンプルにするために使えるということをお伝えしました。\n"
+"gapminder データセットを使って、人口の列と１人当たりのGDPの列を掛ける\n"
+"関数 `calcGDP` を定義し、更に、\n"
+"`year` と `country` でフィルターできる引数を追加で、定義しましたよね。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:42
 msgid ""
@@ -15998,14 +15975,13 @@ msgid ""
 "simply calculating the GDP by multiplying two columns together. But what if\n"
 "we wanted to calculated the mean GDP per continent?"
 msgstr ""
-"A common task you'll encounter when working with data, is that you'll want to\n"
-"run calculations on different groups within the data. In the above, we were\n"
-"simply calculating the GDP by multiplying two columns together. But what if\n"
-"we wanted to calculated the mean GDP per continent?"
+"データを使うときに、データにあるグループごとに計算を実行してみたいと思うことが、よくあります。\n"
+"先ほどの例では、単純に二つの列を掛け合わせることでGDPを計算しました。\n"
+"では、大陸ごとに平均GDPを計算したいときは、どうすればよいでしょうか。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:47
 msgid "We could run `calcGDP` and then take the mean of each continent:"
-msgstr "We could run `calcGDP` and then take the mean of each continent:"
+msgstr "`calcGDP` を実行してから、それぞれの大陸の平均をとることもできます："
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:50
@@ -16082,22 +16058,22 @@ msgid ""
 "repetition. Repeating yourself will cost you time, both now and later, and\n"
 "potentially introduce some nasty bugs."
 msgstr ""
-"But this isn't very *nice*. Yes, by using a function, you have reduced a\n"
-"substantial amount of repetition. That **is** nice. But there is still\n"
-"repetition. Repeating yourself will cost you time, both now and later, and\n"
-"potentially introduce some nasty bugs."
+"でも、これはあまり*おススメ*ではありません。そうです。ある関数を使えば、\n"
+"いくつもの繰り返し作業を減らすことができます。それ **は**、おススメです。\n"
+"それでも、繰り返し作業はあります。繰り返し作業は、その時点だけでなく\n"
+"その後も、時間を食います。そして、嫌なバグを起こる原因にもなりえます。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:96
 msgid ""
 "We could write a new function that is flexible like `calcGDP`, but this\n"
 "also takes a substantial amount of effort and testing to get right."
 msgstr ""
-"We could write a new function that is flexible like `calcGDP`, but this\n"
-"also takes a substantial amount of effort and testing to get right."
+"`calcGDP` のような、新しい関数を書くこともできます。\n"
+"でも、ちゃんとしたものを作るには、かなりの労力と確認が必要になるでしょう。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:99
 msgid "The abstract problem we're encountering here is know as \"split-apply-combine\":"
-msgstr "The abstract problem we're encountering here is know as \"split-apply-combine\":"
+msgstr "ここで直面している抽象的な問題は、 「split-apply-combine（分けてー適用してーまとめる）」ものとしてよく知られています："
 
 #: r-novice-gapminder/_episodes/12-plyr.md:101
 msgid "![Split apply combine](../fig/12-plyr-fig1.png)"
@@ -16109,14 +16085,13 @@ msgid ""
 "some calculations on that group, then optionally *combine* the results\n"
 "together afterwards."
 msgstr ""
-"We want to *split* our data into groups, in this case continents, *apply*\n"
-"some calculations on that group, then optionally *combine* the results\n"
-"together afterwards."
+"データを（この例では大陸別に）グループ *分け* し、そのグループへある計算を\n"
+" *適用*し、できればその後に、結果を *まとめ* たいのです。"
 
 # header
 #: r-novice-gapminder/_episodes/12-plyr.md:107
 msgid "## The `plyr` package"
-msgstr "## The `plyr` package"
+msgstr "## `plyr` パッケージ"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:109
 msgid ""
@@ -16126,15 +16101,15 @@ msgid ""
 "problem. The [plyr](http://had.co.nz/plyr/) package provides a set of\n"
 "functions that we find more user friendly for solving this problem."
 msgstr ""
-"For those of you who have used R before, you might be familiar with the\n"
-"`apply` family of functions. While R's built in functions do work, we're\n"
-"going to introduce you to another method for solving the \"split-apply-combine\"\n"
-"problem. The [plyr](http://had.co.nz/plyr/) package provides a set of\n"
-"functions that we find more user friendly for solving this problem."
+"Rを使ったことがある人なら、`apply`系の関数は、既にご存知かもしれません。\n"
+"Rに元々ある関数でもよいのですが、この「split-apply-combine」問題を解決する\n"
+"他の方法を紹介しましょう。\n"
+"[plyr](http://had.co.nz/plyr/) パッケージには、よりお手軽に、\n"
+"この問題を解決できる関数たちがあります。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:115
 msgid "We installed this package in an earlier challenge. Let's load it now:"
-msgstr "We installed this package in an earlier challenge. Let's load it now:"
+msgstr "このパッケージを、以前のチャレンジの中で、インストールしているので、ここでロードしてみましょう："
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:118
@@ -16152,23 +16127,23 @@ msgid ""
 "Plyr has functions for operating on `lists`, `data.frames` and `arrays`\n"
 "(matrices, or n-dimensional vectors). Each function performs:"
 msgstr ""
-"Plyr has functions for operating on `lists`, `data.frames` and `arrays`\n"
-"(matrices, or n-dimensional vectors). Each function performs:"
+"Plyrには、`lists（リスト）`、`data.frames（データフレーム）` 及び `arrays（列）`（行列またはn-次元のベクトル）\n"
+"に実行できる関数があります。それぞれの関数は以下を実行します："
 
 # ordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:126
 msgid "1. A **split**ting operation"
-msgstr "1. A **split**ting operation"
+msgstr "1. **分ける** 作業"
 
 # ordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:127
 msgid "2. **Apply** a function on each split in turn."
-msgstr "2. **Apply** a function on each split in turn."
+msgstr "2. 分割したそれぞれへの関数の **適用**"
 
 # ordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:128
 msgid "3. Re**combine** output data as a single data object."
-msgstr "3. Re**combine** output data as a single data object."
+msgstr "3. 出力データを再度ひとつのデータオブジェクトとして**まとめる**"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:130
 msgid ""
@@ -16178,11 +16153,9 @@ msgid ""
 "the second letter to the output data structure, and then the rest of the\n"
 "function is named \"ply\"."
 msgstr ""
-"The functions are named based on the data structure they expect as input,\n"
-"and the data structure you want returned as output: [a]rray, [l]ist, or\n"
-"[d]ata.frame. The first letter corresponds to the input data structure,\n"
-"the second letter to the output data structure, and then the rest of the\n"
-"function is named \"ply\"."
+"関数は、入力されるだろうデータ構造と出力予定のデータ構造に基づき名付けられています。\n"
+"つまり、[a]rray、[l]ist、または[d]ata.frameのことです。最初の文字が、入力データ構造、\n"
+"次の文字が出力データ構造、そして、残りが「ply」と名付けられた関数です。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:136
 msgid ""
@@ -16191,18 +16164,17 @@ msgid ""
 "They're named by their input data type and represent null output by a `_` (see\n"
 "table)"
 msgstr ""
-"This gives us 9 core functions **ply.  There are an additional three functions\n"
-"which will only perform the split and apply steps, and not any combine step.\n"
-"They're named by their input data type and represent null output by a `_` (see\n"
-"table)"
+"これが **plyの９つの中心的な関数です。加えて、分けて適用することだけで、まとめを実行しない\n"
+"関数が３つあります。それらは、入力データ型と出力データがないことを示す\n"
+" `_` から名付けられています（表参照）。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:141
 msgid ""
 "Note here that plyr's use of \"array\" is different to R's,\n"
 "an array in ply can include a vector or matrix."
 msgstr ""
-"Note here that plyr's use of \"array\" is different to R's,\n"
-"an array in ply can include a vector or matrix."
+"ここで、plyrの「array」の使用法は、Rの使用法を違うことに気をつけましょう。\n"
+"plyのarrayは、ベクトルや行列も含めます。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:144
 msgid "![Full apply suite](../fig/12-plyr-fig2.png)"
@@ -16213,8 +16185,8 @@ msgid ""
 "Each of the xxply functions (`daply`, `ddply`, `llply`, `laply`, ...) has the\n"
 "same structure and has 4 key features and structure:"
 msgstr ""
-"Each of the xxply functions (`daply`, `ddply`, `llply`, `laply`, ...) has the\n"
-"same structure and has 4 key features and structure:"
+"xxply関数（`daply` 、 `ddply` 、 `llply` 、 `laply`、などなど）は、\n"
+"同じ構造で、４つの重要な特徴と構造を持っています："
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:151
@@ -16230,26 +16202,26 @@ msgstr ""
 # unordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:156
 msgid "* The first letter of the function name gives the input type and the second gives the output type."
-msgstr "* The first letter of the function name gives the input type and the second gives the output type."
+msgstr "* 関数の最初の文字が、入力型、次の文字が出力型を示します。"
 
 # unordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:157
 msgid "* .data - gives the data object to be processed"
-msgstr "* .data - gives the data object to be processed"
+msgstr "* .data －処理されるデータオブジェクトを示します。"
 
 # unordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:158
 msgid "* .variables - identifies the splitting variables"
-msgstr "* .variables - identifies the splitting variables"
+msgstr "* .variables－分割する変数を指定します。"
 
 # unordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:159
 msgid "* .fun - gives the function to be called on each piece"
-msgstr "* .fun - gives the function to be called on each piece"
+msgstr "* .fun－それぞれに適用する関数を示します。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:161
 msgid "Now we can quickly calculate the mean GDP per continent:"
-msgstr "Now we can quickly calculate the mean GDP per continent:"
+msgstr "それでは、大陸別の平均GDPを計算してみましょう："
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:164
@@ -16293,12 +16265,12 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/12-plyr.md:185
 msgid "Let's walk through the previous code:"
-msgstr "Let's walk through the previous code:"
+msgstr "このコードを、ひとつずつ見てみましょう："
 
 # unordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:187
 msgid "- The `ddply` function feeds in a `data.frame` (function starts with **d**) and"
-msgstr "- The `ddply` function feeds in a `data.frame` (function starts with **d**) and"
+msgstr "- `ddply` 関数は、`data.frame` を使い（関数は、**d**から始まりますね）、"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:188
 msgid ""
@@ -16315,18 +16287,15 @@ msgid ""
 "  function: we haven't defined it elsewhere, and it has no name. It only exists\n"
 "  in the scope of our call to `ddply`."
 msgstr ""
-"returns another `data.frame` (2nd letter is a **d**) i\n"
-"- the first argument we gave was the data.frame we wanted to operate on: in this\n"
-"  case the gapminder data. We called `calcGDP` on it first so that it would have\n"
-"  the additional `gdp` column added to it.\n"
-"- The second argument indicated our split criteria: in this case the \"continent\"\n"
-"  column. Note that we gave the name of the column, not the values of the column like we had done previously with subsetting. Plyr takes care of these\n"
-"  implementation details for you.\n"
-"- The third argument is the function we want to apply to each grouping of the\n"
-"  data. We had to define our own short function here: each subset of the data\n"
-"  gets stored in `x`, the first argument of our function. This is an anonymous\n"
-"  function: we haven't defined it elsewhere, and it has no name. It only exists\n"
-"  in the scope of our call to `ddply`."
+"もうひとつの`data.frame`を出力します（２番目の文字は、**d**ですね）\n"
+"- 最初の引数は、使いたいdata.frameでしたね。つまり、ここでは、\n"
+"gapminderデータです。そこに、`gdp` の列を加えるために、まず `calcGDP` を使いましょう。\n"
+"- 次の引数は、分割基準を、つまり、ここでは「continent（大陸）」列です。\n"
+"   以前、分部集合に分けるときに使った値の名前ではなく、ここでは列の名前を使うことに気を付けましょう。Plyrが細かい実行上の詳細を、代わりに処理してくれますので。\n"
+"- ３番目の引数は、データのそれぞれのグループに当てはめる関数です。\n"
+"  ここで、自分で短い関数を定義しておかなければなりません。\n"
+"  データのそれぞれの部分集合が、その関数の最初の引数の`x` に保存されます。\n"
+"  これは、名前のない関数です。つまり、他のところで定義していないもので、名前がないものです。それは、 `ddply` が呼び出されている間だけ、存在します。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:202
 msgid ""
