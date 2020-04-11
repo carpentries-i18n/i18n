@@ -16303,12 +16303,12 @@ msgid ""
 "> Which had the shortest?"
 msgstr ""
 ">\n"
-"> Calculate the average life expectancy per continent. Which has the longest?\n"
-"> Which had the shortest?"
+"> 大陸別の平均余命を計算してみましょう。一番長いのはどこでしょうか。\n"
+"> 一番短いのはどこでしょうか。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:207
 msgid "What if we want a different type of output data structure?:"
-msgstr "What if we want a different type of output data structure?:"
+msgstr "他のデータ構造型が良い場合は、どうすればよいでしょうか。"
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:210
@@ -16391,12 +16391,12 @@ msgid ""
 "We called the same function again, but changed the second letter to an `l`, so\n"
 "the output was returned as a list."
 msgstr ""
-"We called the same function again, but changed the second letter to an `l`, so\n"
-"the output was returned as a list."
+"また同じ関数を呼び出しましたが、２番目の文字を `l` に変えたので、\n"
+"出力されたのは、リストでした。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:252
 msgid "We can specify multiple columns to group by:"
-msgstr "We can specify multiple columns to group by:"
+msgstr "以下で、グループにまとめる列を指定します："
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:255
@@ -16624,9 +16624,8 @@ msgid ""
 "do so).\n"
 "To replace a for loop, put the code that was in the body of the `for` loop inside an anonymous function."
 msgstr ""
-"You can use these functions in place of `for` loops (and its usually faster to\n"
-"do so).\n"
-"To replace a for loop, put the code that was in the body of the `for` loop inside an anonymous function."
+"これらの関数は `for` ループの代わりに使えます（その方が、普通は早いです）。\n"
+"forループを置き換えるために、 `for` ループの本体の中にあった名無し関数のコードを置きましょう。"
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:373
@@ -16681,7 +16680,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/12-plyr.md:399
 msgid "> ## Tip: printing numbers"
-msgstr "> ## Tip: printing numbers"
+msgstr "> ## ヒント：数を出力する"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:400
 msgid ""
@@ -16690,8 +16689,8 @@ msgid ""
 "> values \"pretty\" for printing out in messages."
 msgstr ""
 ">\n"
-"> The `format` function can be used to make numeric\n"
-"> values \"pretty\" for printing out in messages."
+"> `format` 関数を使えば、数値をメッセージの中で「いい感じ」に\n"
+"> 出力できます。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:407
 msgid ""
@@ -16701,15 +16700,15 @@ msgid ""
 "> and 2007?"
 msgstr ""
 ">\n"
-"> Calculate the average life expectancy per continent and year. Which had the\n"
-"> longest and shortest in 2007? Which had the greatest change in between 1952\n"
-"> and 2007?"
+"> 年次の大陸別平均余命を計算しましょう。2007年に\n"
+"> 一番長かったのは、短かったのは、どこでしょうか。\n"
+"> 1952年から2007にかけて変化が一番大きかったのはどこでしょうか。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/12-plyr.md:414
 #: r-novice-gapminder/_episodes/13-dplyr.md:572
 msgid "> ## Advanced Challenge"
-msgstr "> ## Advanced Challenge"
+msgstr "> ## 上級チャレンジ"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:415
 msgid ""
@@ -16719,14 +16718,13 @@ msgid ""
 "> using one of the `plyr` functions."
 msgstr ""
 ">\n"
-"> Calculate the difference in mean life expectancy between\n"
-"> the years 1952 and 2007 from the output of challenge 2\n"
-"> using one of the `plyr` functions."
+"> `plyr` 関数のひとつを使って、チャレンジ２の出力から、\n"
+"> 2007年と1952年の平均余命の差を計算しましょう。"
 
 # blockquote, which can be cascaded
 #: r-novice-gapminder/_episodes/12-plyr.md:421
 msgid "> ## Alternate Challenge if class seems lost"
-msgstr "> ## Alternate Challenge if class seems lost"
+msgstr "> ## チャレンジの別バージョン（クラスがなくなっていた場合）"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:422
 msgid ""
@@ -16786,8 +16784,8 @@ msgid ""
 ">"
 msgstr ""
 ">\n"
-"> Without running them, which of the following will calculate the average\n"
-"> life expectancy per continent:\n"
+"> 実行せずに、以下の中から、大陸別の平均余命を計算するものを選んでみましょう。\n"
+"> ：\n"
 ">\n"
 "> 1.\n"
 "> \n"
