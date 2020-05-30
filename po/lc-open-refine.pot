@@ -2086,7 +2086,8 @@ msgstr ""
 #: lc-open-refine/_extras/guide.md:6
 #: lc-open-refine/_extras/guide.md:9
 #: lc-open-refine/_extras/guide.md:18
-# horizontal rule. just copy and paste from the msgidmsgid "____"
+# horizontal rule. just copy and paste from the msgid
+msgid "____"
 msgstr ""
 
 #: lc-open-refine/_extras/guide.md:7
