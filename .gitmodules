@@ -22,4 +22,3 @@
 [submodule "po4gitbook"]
 	path = po4gitbook
 	url = https://github.com/swcarpentry-i18n/po4gitbook.git
-	url = https://github.com/swcarpentry/git-novice.git
