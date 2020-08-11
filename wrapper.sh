@@ -400,7 +400,7 @@ if [[ $render == true ]]; then
     year=`date +%Y`
     past_year=$(( $year-1 ))
     #replace past year with current year
-    sed -i '2s/$past_year/$year/g" po/*.po
+    sed -i "2s/$past_year/$year/g" po/*.po
     # append current year if different to previous year
     sed -i "4s/, ${past_year}\./, ${past_year}, ${year}./g" po/*po
 
