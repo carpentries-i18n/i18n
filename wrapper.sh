@@ -4,7 +4,7 @@
 # sh wrapper.sh --repo make-novice --create
 # sh wrapper.sh --repo make-novice --import
 # sh wrapper.sh --repo make-novice --account GitHubUser --import
-# sh wrapper.sh --repo r-novice-gapmnder --account swcarpentry-ja --import --webpages
+# sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --import --webpages
 
 # create (implemented):      subroutine to create new PO files from an English lesson not currently being translated
 # import (testing):          subroutine to pull a lesson being translated from remote to make changes locally
@@ -63,6 +63,7 @@ for op in "$@"; do
                 remote_user=$git_user
                 next=true
             fi
+         shift
             ;;
         -r|--repo)
         shift
@@ -73,6 +74,7 @@ for op in "$@"; do
                 all_repo=true
                 next=true
             fi
+        shift
             ;;
        -w|--webpages)
         shift
@@ -113,7 +115,7 @@ echo render webpages : $render
 
 #check if remote i18n repo exists
 root_dir=`git ls-remote https://github.com/${remote_user}/i18n.git | grep "ja" | wc -l`
-echo i18 repo: $root_dir
+echo i18n repo: $root_dir
 if [ $root_dir -eq 1 ]; then
     echo "remote found:  https://github.com/${remote_user}/i18n.git"
 elif [ $root_dir -eq 0 ]; then
@@ -126,8 +128,8 @@ else
 fi
 
 #check if remote repo exists
-root_dir=`git ls-remote https://github.com/${remote_user}/${repo}.git | grep "ja" | wc -l`
-echo i18 repo: $root_dir
+root_dir=`git ls-remote https://github.com/${remote_user}/${repo}.git | grep "gh-pages" | wc -l`
+echo $repo repo: $root_dir
 if [ $root_dir -eq 1 ]; then
     echo "remote found:  https://github.com/${remote_user}/${repo}.git"
 elif [ $root_dir -eq 0 ]; then
@@ -288,6 +290,7 @@ if [[ $import == true ]]; then
    
     #import submodules
     git submodule init
+    git submodule foreach 'git pull swc-ja'       
     git submodule import
  
     echo "update local submodules"
