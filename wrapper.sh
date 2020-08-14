@@ -253,7 +253,7 @@ if [[ $create == true ]]; then
     rm po/*.pot
     echo "run compile on po4gitbook to create new lessson"
     po4gitbook/compile.sh  > /dev/null 2>&1
-    echo lesson $repo created in locale/ja/$repo
+    echo lesson $repo created in _locale/ja/$repo
 
     #restore _locale directory (only translate English lessons)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -294,7 +294,7 @@ if [[ $import == true ]]; then
     git submodule add git@github.com:${git_user}/${repo}
  
     echo "update local submodules"
-    git submodule update -f --recursive --remote --merge
+    git submodule update -f --recursive
 
     #remove _locale directory (only translate English lessons)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -375,7 +375,7 @@ if [[ $render == true ]]; then
     git submodule add git@github.com:${git_user}/${repo}
 
     echo "import local submodules"
-    git submodule update -f --recursive --remote --merge
+    git submodule update -f --recursive
 
     if [[ ! -z $repo ]]; then
         if [[ -d $repo ]]; then
@@ -413,7 +413,7 @@ if [[ $render == true ]]; then
     git commit -m "update PO files"
     git push swc-ja ja
 
-    echo "translated lessons from  po/${repo}.ja.po  exported to locale/ja/$repo"
+    echo "translated lessons from  po/${repo}.ja.po  exported to _locale/ja/$repo"
 
     #check if remote translated lesson exists 
     lesson_dir=`git ls-remote https://github.com/${git_user}/${repo}-ja.git | grep "master" | wc -l`
@@ -430,12 +430,12 @@ if [[ $render == true ]]; then
     fi
    
     #create as submodule
-    ##git submodule add https://github.com/${git_user}/${repo}-ja.git locale/ja/$repo
+    #git submodule add https://github.com/${git_user}/${repo}-ja.git _locale/ja/$repo
     ##git submodule absorbgitdirs <path>
 
     #move to external repo
     mkdir -p ../${repo}-ja
-    rsync -ru locale/ja/${repo}/* ../${repo}-ja
+    rsync -ru _locale/ja/${repo}/* ../${repo}-ja
 
     #add update lessons to remote
     cd ../${repo}-ja
@@ -461,12 +461,13 @@ if [[ $render == true ]]; then
     # import changes from org repo
     git submodule foreach 'case $name in po4gitbook) ;; *) git pull -f swc-ja gh-pages ;; esac'
 
-    #restore locale lessons (only English lessons translated)
+    #restore _locale lessons (only English lessons translated)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
       do
       if [ -d $dir ] 
         then
         cd $dir
+        git checkout gh-pages
         git reset --hard  
         cd ..
       fi
@@ -475,22 +476,32 @@ if [[ $render == true ]]; then
    cd ${repo}
    git add -u
 
-   #create lesson in locale if not existing or update
-   if [ -d ./locale/ja ]
+   #create lesson in _locale if not existing or update
+   if [ -d ./_locale/ja ]
      then
-     cd locale/ja
+     cd _locale/ja
+     git add -u
+     git commit -m "update Japanese lessons"
      git pull origin master
      cd ../..
    else
-     mkdir -p locale
-     url="https://github.com/$remote_user/${repo}-ja.git"
-     git submodule add $url ./locale/ja
+     mkdir -p _locale
+     url="https://github.com/${remote_user}/${repo}-ja.git"
+     git submodule add $url ./_locale/ja
    fi
 
-   #push updated locale lessons to English lesson
+   cd _locale/ja
+   remotes=`git remote | grep "swc-ja" | wc -l`
+   if [[ remotes -le 0 ]]; then
+       git remote add swc-ja https://github.com/${remote_user}/$repo-ja.git
+   fi
+   git pull swc-ja master
+   cd ../..
+ 
+   #push updated _locale lessons to English lesson
    git add -u
    git commit -m "update Japanese lessons"
-    git push swc-ja gh-pages
+   git push swc-ja gh-pages
 
    cd ..
 fi
