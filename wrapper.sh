@@ -167,7 +167,7 @@ if [[ $create == true ]]; then
     git submodule add git@github.com:${git_user}/${repo}
  
     echo "update local submodules"
-    git submodule update -f --recursive --merge $repo
+    git submodule update -f --recursive $repo
 
     #remove _locale directory (only translate English lessons)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -435,11 +435,12 @@ if [[ $render == true ]]; then
 
     #move to external repo
     mkdir -p ../${repo}-ja
-    rsync -ru _locale/ja/${repo}/* ../${repo}-ja
+    rsync -ru locale/ja/${repo}/* ../${repo}-ja
 
     #add update lessons to remote
     cd ../${repo}-ja
     git init
+    git remote remove swc-ja
     remotes=`git remote | grep "swc-ja" | wc -l`
     if [[ remotes -le 0 ]]; then
         git remote add swc-ja https://github.com/$remote_user/$repo-ja.git 
@@ -459,7 +460,7 @@ if [[ $render == true ]]; then
     # restore to version from remote
     git submodule update -f --recursive
     # import changes from org repo
-    git submodule foreach 'case $name in po4gitbook) ;; *) git pull -f swc-ja gh-pages ;; esac'
+    git submodule foreach 'case $name in po4gitbook) ;; *) git checkout gh-pages; git pull -f swc-ja gh-pages ;; esac'
 
     #restore _locale lessons (only English lessons translated)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -468,7 +469,11 @@ if [[ $render == true ]]; then
         then
         cd $dir
         git checkout gh-pages
-        git reset --hard  
+        remotes=`git remote | grep "swc-ja" | wc -l`
+        if [[ remotes -le 0 ]]; then
+           git remote add swc-ja https://github.com/$remote_user/$repo-ja.git
+        fi
+        git pull swc-ja gh-pages
         cd ..
       fi
     done  
