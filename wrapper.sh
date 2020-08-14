@@ -504,4 +504,5 @@ if [[ $render == true ]]; then
    git push swc-ja gh-pages
 
    cd ..
+git submodule update -f --recursive  
 fi
