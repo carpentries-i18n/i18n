@@ -57,7 +57,8 @@ git pull origin gh-pages
 
 6. Sync changes to (master branch of) the pushed submodule files to the original lesson repository
 ```
-git submodule foreach git pull origin master
+git submodule foreach 'case $name in po4gitbook) ;; *) git pull swc-ja gh-pages ;; esac'
+git submodule update --recursive
 ```
 
 7. Commit changes to the submodule to the original lesson
