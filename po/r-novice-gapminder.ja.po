@@ -1112,7 +1112,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:130
 msgid "## Using R as a calculator"
-msgstr "## Rを計算機として使う"
+msgstr "## Rを計算機としての使用"
 
 #: r-novice-gapminder/_episodes/01-rstudio-intro.md:132
 msgid "The simplest thing you could do with R is do arithmetic:"
@@ -8026,7 +8026,7 @@ msgid ""
 "variables in gapminder, what do you think the following will produce, and why?"
 msgstr ""
 "データフレームの次元について見てみることもできます。\n"
-" `str(gapminder)` が、gapminderには、6変数について1704の標本があると言っていたことを念頭に置き、\n"
+" `str(gapminder)` が、gapminderには、6変数について1704の観測値があると言っていたことを念頭に置き、\n"
 "以下から何が出てくると思いますか？それはなぜですか？"
 
 # code block
@@ -10919,7 +10919,7 @@ msgstr ""
 ">\n"
 "> 以下の一般的なデータフレームの部分集合を作る際のエラーを修正しましょう：\n"
 ">\n"
-"> 1. 1957年に集められた標本を抜き出す\n"
+"> 1. 1957年に集められた観測値を抜き出す\n"
 ">\n"
 ">    \n"
 ">    ~~~\n"
@@ -10965,7 +10965,7 @@ msgstr ""
 "> > 以下の一般的なデータフレームの部分集合を作る際のエラーを修正しましょう：\n"
 "\n"
 "> >\n"
-"> > 1. 1957年に集められた標本を抜き出す\n"
+"> > 1. 1957年に集められた観測値を抜き出す\n"
 "\n"
 "> >\n"
 "> >    \n"
@@ -15915,7 +15915,7 @@ msgid ""
 "additional arguments so we could filter by `year` and `country`:"
 msgstr ""
 "ここまでに、関数がコードをシンプルにするために使えるということをお伝えしました。\n"
-"gapminder データセットを使って、人口の列と１人当たりのGDPの列を掛ける\n"
+"gapminder データセットを使って、人口の列と１人当たりのGDP(国内総生産)の列を掛ける\n"
 "関数 `calcGDP` を定義し、更に、\n"
 "`year` と `country` でフィルターできる引数を追加で、定義しましたよね。"
 
@@ -16060,7 +16060,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/12-plyr.md:115
 msgid "We installed this package in an earlier challenge. Let's load it now:"
-msgstr "このパッケージを、以前のチャレンジの中で、インストールしているので、ここでロードしてみましょう："
+msgstr "このパッケージを、以前のチャレンジで、インストールしましたので、ここでロードしてみましょう："
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:118
@@ -16124,7 +16124,7 @@ msgid ""
 "Note here that plyr's use of \"array\" is different to R's,\n"
 "an array in ply can include a vector or matrix."
 msgstr ""
-"ここで、plyrの「array」の使用法は、Rの使用法を違うことに気をつけましょう。\n"
+"ここで、plyrの「array」の使用法は、Rの使用法と違うことに気をつけましょう。\n"
 "plyのarrayは、ベクトルや行列も含めます。"
 
 #: r-novice-gapminder/_episodes/12-plyr.md:144
@@ -16153,7 +16153,7 @@ msgstr ""
 # unordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:156
 msgid "* The first letter of the function name gives the input type and the second gives the output type."
-msgstr "* 関数の最初の文字が、入力型、次の文字が出力型を示します。"
+msgstr "* 関数名の最初の文字が、入力型、次の文字が出力型を示します。"
 
 # unordered list
 #: r-novice-gapminder/_episodes/12-plyr.md:157
@@ -16240,8 +16240,8 @@ msgid ""
 msgstr ""
 "もうひとつの`data.frame`を出力します（２番目の文字は、**d**ですね）\n"
 "- 最初の引数は、使いたいdata.frameでしたね。つまり、ここでは、\n"
-"gapminderデータです。そこに、`gdp` の列を加えるために、まず `calcGDP` を使いましょう。\n"
-"- 次の引数は、分割基準を、つまり、ここでは「continent（大陸）」列です。\n"
+"gapminderデータです。そこに、`gdp`（国内総生産） の列を加えるために、まず `calcGDP` を使いましょう。\n"
+"- 次の引数は、分割基準を、つまり、ここでは「continent」（大陸）列です。\n"
 "   以前、分部集合に分けるときに使った値の名前ではなく、ここでは列の名前を使うことに気を付けましょう。Plyrが細かい実行上の詳細を、代わりに処理してくれますので。\n"
 "- ３番目の引数は、データのそれぞれのグループに当てはめる関数です。\n"
 "  ここで、自分で短い関数を定義しておかなければなりません。\n"
@@ -16260,7 +16260,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/12-plyr.md:207
 msgid "What if we want a different type of output data structure?:"
-msgstr "他のデータ構造型が良い場合は、どうすればよいでしょうか。"
+msgstr "他のデータ構造型での出力が良い場合は、どうすればよいでしょうか。"
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:210
@@ -16577,7 +16577,7 @@ msgid ""
 "To replace a for loop, put the code that was in the body of the `for` loop inside an anonymous function."
 msgstr ""
 "これらの関数は `for` ループの代わりに使えます（その方が、普通は早いです）。\n"
-"forループを置き換えるために、 `for` ループの本体の中にあった名無し関数のコードを置きましょう。"
+"そうするには、`for` ループの本体の中にあったコードを名無し関数に入れましょう。"
 
 # code block
 #: r-novice-gapminder/_episodes/12-plyr.md:373
@@ -16843,7 +16843,7 @@ msgid ""
 "do these operations using the normal base R operations:"
 msgstr ""
 "多くの研究者にとって、データフレームの操作は、多くのことを意味します。\n"
-"よくあるのは、特定の標本（行）もしくは変数（列）の選択、 特定の変数でのデータのグループ化、\n"
+"よくあるのは、特定の観測値（行）もしくは変数（列）の選択、 特定の変数でのデータのグループ化、\n"
 "更には要約する統計値の計算です。\n"
 "これらは、普通のRの基本操作で実行できます："
 
@@ -16936,8 +16936,8 @@ msgid ""
 "even find the `dplyr` grammar easier to read."
 msgstr ""
 "嬉しいことに、[`dplyr`](https://cran.r-project.org/web/packages/dplyr/dplyr.pdf)\n"
-"パッケージには、データフレーム操作に、かなり使える関数がいくつもあります。\n"
-"それを使うと、先ほどお伝えしたような繰り返しを減らし、エラーを起こす確率を減らし、\n"
+"パッケージには、データフレーム操作に非常に役立つ関数がいくつもあります。\n"
+"それを使うと、先ほどみたような繰り返しを減らし、エラーを起こす確率を減らし、\n"
 "タイピングする必要性さえも恐らく減らせます。\n"
 "更には、`dplyr` の書き方は、とても分かりやすいかもしれません。"
 
@@ -17008,7 +17008,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/13-dplyr.md:107
 msgid "## Using select()"
-msgstr "## select() を使う"
+msgstr "## select() の使用"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:109
 msgid ""
@@ -17044,7 +17044,7 @@ msgid ""
 "using pipes."
 msgstr ""
 "もし `year_country_gdp` を開いたら、year、country 及び gdpPercap しかないでしょう。\n"
-"上では、 '普通の' 書き方を使いましたが、`dplyr` の強みは、複数の関数を\n"
+"これまでは、 '普通の' 書き方を使いましたが、`dplyr` の強みは、複数の関数を\n"
 "パイプを使って、組み合わせられることです。\n"
 "パイプの書き方は、これまでRで見てきたものとは、\n"
 "全く違いますので、上記でしたことをパイプを使って、やってみましょう。"
@@ -17070,7 +17070,7 @@ msgid ""
 "encountered pipes before in the shell. In R, a pipe symbol is `%>%` while in the\n"
 "shell it is `|` but the concept is the same!"
 msgstr ""
-"こう書いた理由を、お分かりいただくために、ひとつずつ御説明します。\n"
+"こう書いた理由を理解しやすくするために、ひとつずつ見ていきましょう。\n"
 "始めに、gapminder データフレームを呼び出し、パイプの記号`%>%` を使って、\n"
 "次の `select()` 関数を使うステップに引き渡します。どのデータオブジェクトを\n"
 "`select()` 関数で使うかについては、前のパイプから分かるため、ここでは指定しません。\n"
@@ -17080,7 +17080,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/13-dplyr.md:141
 msgid "## Using filter()"
-msgstr "## filter() を使う"
+msgstr "## filter() の使用"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:143
 msgid ""
@@ -17121,7 +17121,7 @@ msgid ""
 "> >{: .language-r}"
 msgstr ""
 ">\n"
-"> アフリカの`lifeExp`、 `country` 及び `year` を持ち、他の国を含まないデータフレームを\n"
+"> アフリカの`lifeExp`、 `country` 及び `year` を持ち、他の大陸を含まないデータフレームを\n"
 "> 作るコマンドをひとつ書いてみましょう（複数の行になっても、パイプを使っても大丈夫です）\n"
 "> データフレームには、何行ありますか。なぜそうなるのでしょうか。\n"
 ">\n"
@@ -17142,7 +17142,7 @@ msgid ""
 "case. If we used 'select' first, filter would not be able to find the variable\n"
 "continent since we would have removed it in the previous step."
 msgstr ""
-"その前に行ったように、gapminder データフレームを `filter()` 関数に引き渡し、\n"
+"以前行ったように、gapminder データフレームを `filter()` 関数に引き渡し、\n"
 "フィルターされた バージョンのgapminder データフレームを、 `select()` 関数に引き渡します。\n"
 "**注意：** ここでは、操作手順がとても重要です。\n"
 "まず 'select' を使うと、その前のステップで、大陸の変数が削除されているため、\n"
@@ -17151,7 +17151,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/13-dplyr.md:178
 msgid "## Using group_by() and summarize()"
-msgstr "## group_by() と summarize() を使う"
+msgstr "## group_by() と summarize() の使用"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:180
 msgid ""
@@ -17163,9 +17163,9 @@ msgid ""
 "could have used in filter."
 msgstr ""
 "ここでは、Rの基本的な機能を用いたエラーが起こりやすい繰り返し作業を減らすはずでした。\n"
-"でも、まだそれが達成できていません。上記では、それぞれの大陸で繰り返さなければならないですね。\n"
-"（上記の `continent==\"Europe\"` のように）条件にあった標本のみを引き渡す `filter()` の代わりに、\n"
-"filterでも使える、それぞれの一意の条件を用いることが必須となる `group_by()` を使うこともできます。"
+"でも、まだそれが達成できていません。上記では、それぞれの大陸ごとに同じことを繰り返さなければならないからです。\n"
+"繰り返しを無くすために、（上記の `continent==\"Europe\"` のように）条件にあったデータのみを引き渡す `filter()` の代わりに、\n"
+"filterでも使える、それぞれの一意の条件を元に一気にデータを分ける `group_by()` を使うこともできます。"
 
 # code block
 #: r-novice-gapminder/_episodes/13-dplyr.md:208
@@ -17249,7 +17249,7 @@ msgstr "![](../fig/13-dplyr-fig2.png)"
 # header
 #: r-novice-gapminder/_episodes/13-dplyr.md:247
 msgid "## Using summarize()"
-msgstr "## summarize() を使う"
+msgstr "## summarize() の使用"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:249
 msgid ""
@@ -17477,7 +17477,7 @@ msgstr ""
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:363
 msgid "That is already quite powerful, but it gets even better! You're not limited to defining 1 new variable in `summarize()`."
-msgstr "これでも、かなり役に立ちますが、更にすごいのです。`summarize()` の中で新しく定義できる変数は、１つに限らないのです。"
+msgstr "これでも、かなり役に立ちますが、更にすごいことに、`summarize()` の中で新しく定義できる変数は、１つに限らないのです。"
 
 # code block
 #: r-novice-gapminder/_episodes/13-dplyr.md:366
@@ -17510,8 +17510,8 @@ msgid ""
 "A very common operation is to count the number of observations for each\n"
 "group. The `dplyr` package comes with two related functions that help with this."
 msgstr ""
-"よくありがちな操作は、各グループの標本数の数を数えることです。\n"
-"これに役立つ２つの関数が `dplyr` パッケージにあります。"
+"よくありがちな操作は、各グループの観測値の数を数えることですが、\n"
+"'dplyr' パッケージには、これに役立つ関数が２つあります。"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:381
 msgid ""
@@ -17520,7 +17520,7 @@ msgid ""
 "of one or more columns that contain the groups we are interested in, and we can\n"
 "optionally sort the results in descending order by adding `sort=TRUE`:"
 msgstr ""
-"例えば、2002年のデータセットにある国数を確認したい場合、 `count()` 関数が使えます。\n"
+"例えば、2002年のデータセットにある国の数を確認したい場合、 `count()` 関数が使えます。\n"
 "興味のあるグループのひとつかいくつかの行の名前を取り、\n"
 " `sort=TRUE` を加えることで、結果を降順に並べることもできます："
 
@@ -17570,7 +17570,7 @@ msgid ""
 "is useful. For instance, if we wanted to get the standard error of the life\n"
 "expectency per continent:"
 msgstr ""
-"演算の際、標本数が必要な場合 `n()` 関数が使えます。\n"
+"演算の際の観測値の数が必要な場合 `n()` 関数が使えます。\n"
 "例えば、大陸別平均余命の標準誤差を得たいとします："
 
 # code block
@@ -17668,7 +17668,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/13-dplyr.md:462
 msgid "## Using mutate()"
-msgstr "## mutate() を使う"
+msgstr "## mutate() の使用"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:464
 msgid "We can also create new variables prior to (or even after) summarizing information using `mutate()`."
@@ -17704,7 +17704,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/13-dplyr.md:480
 msgid "## Connect mutate with logical filtering: ifelse"
-msgstr "## 論理フィルター ifelse とmutate をつなげる"
+msgstr "## 論理フィルター ifelse とmutate の併用"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:482
 msgid ""
@@ -17713,11 +17713,11 @@ msgid ""
 "This easy-to-read statement is a fast and powerful way of discarding certain data (even though the overall dimension\n"
 "of the data frame will not change) or for updating values depending on this given condition."
 msgstr ""
-"新しい変数を作る時、これに論理条件に付けることができます。\n"
+"新しい変数を作る時、論理条件を付けることができます。\n"
 "似たような組み合わせの `mutate()` と `ifelse()` は、まさに必要な場面、つまり\n"
 "新しいものを作る時に、フィルターすることができます。\n"
-"この簡単に読める宣言が、（データフレーム全体の次元を変えずに）あるデータを\n"
-"捨てるための早くて役に立つ方法であり、\n"
+"この簡単に読めるコードが、（データフレーム全体の次元を変えずに）あるデータを\n"
+"排除するための早くて役に立つ方法であり、\n"
 "与えられた条件によって値を更新する方法なのです。"
 
 # code block
@@ -17770,7 +17770,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/13-dplyr.md:511
 msgid "## Combining `dplyr` and `ggplot2`"
-msgstr "## `dplyr` と `ggplot2` を組み合わせる"
+msgstr "## `dplyr` と `ggplot2` の併用"
 
 #: r-novice-gapminder/_episodes/13-dplyr.md:513
 msgid ""
@@ -17778,9 +17778,9 @@ msgid ""
 "a layer of facet panels using `ggplot2`. Here is the code we used (with some\n"
 "extra comments):"
 msgstr ""
-"プロットのレッスンでは、 `ggplot2` を使って、小面パネルの層を加えることで、\n"
+"プロットのレッスンでは、 `ggplot2` を使って、ファセットパネルの層を加えることで、\n"
 "複数パネルの図を示す方法を見ました。\n"
-"次が、（いくつかコメントを付けた）使ったコードです："
+"以下が、（いくつかコメントを足してありますが）使用したコードです："
 
 # code block
 #: r-novice-gapminder/_episodes/13-dplyr.md:518
@@ -17821,7 +17821,7 @@ msgid ""
 msgstr ""
 "このコードは、正しいプロットを作りますが、他に使い道のない、変数（`starts.with`\n"
 "及び `az.countries`）も作ります。 `dplyr` 関数のチェーンで、 `%>%` を使って、\n"
-"データをパイプ流したように、 `ggplot()` へデータを引き渡すこともできます。\n"
+"データをパイプしたように、 `ggplot()` へデータを引き渡すこともできます。\n"
 "なぜならば `%>%` は、関数の最初の引数を置き換えるため、\n"
 " `ggplot()` 関数の中の、 `data =` 因数を指定する必要がありません。\n"
 " `dplyr` と `ggplot2` 関数を組み合わせることで、同じ図を、新しい変数を作ったり、\n"
@@ -17935,7 +17935,7 @@ msgstr ""
 #: r-novice-gapminder/_episodes/13-dplyr.md:593
 #: r-novice-gapminder/_episodes/14-tidyr.md:645
 msgid "## Other great resources"
-msgstr "## その他の素晴らしい資料"
+msgstr "## その他役に立つ資料"
 
 # unordered list
 #: r-novice-gapminder/_episodes/13-dplyr.md:595
@@ -18012,13 +18012,13 @@ msgstr " - 各列が変数"
 # unordered list
 #: r-novice-gapminder/_episodes/14-tidyr.md:24
 msgid " - each row is an observation"
-msgstr " - 各行が標本"
+msgstr " - 各行が観測値"
 
 #: r-novice-gapminder/_episodes/14-tidyr.md:26
 msgid ""
 "In the 'long' format, you usually have 1 column for the observed variable and\n"
 "the other columns are ID variables."
-msgstr "「縦長」形式では、ふつう観測値は１列で、残りはIDの変数の列になります。"
+msgstr "「縦長」形式では、普通、観測値は１列で、残りの列はIDの変数になります。"
 
 #: r-novice-gapminder/_episodes/14-tidyr.md:30
 msgid ""
@@ -18033,7 +18033,7 @@ msgstr ""
 "「横長」形式は、それぞれの行には、場所／主題／患者があり、同じようなデータ型の\n"
 "複数の観測変数があります。 時間を変えて繰り返し観測した値や、\n"
 "複数の観測変数（又は、その両方）が、これに該当します。\n"
-"データ入力がより単純と感じたり、「幅長」形式の方が良いという\n"
+"データ入力がより単純と感じたり、「縦長」形式の方が良いという\n"
 "アプリケーションもあるでしょうが、「R」の関数の多くは、\n"
 "「縦長」形式データを前提として作られています。ここでは、\n"
 "元々の形式に関係なくデータを効率的に変換する方法を学びましょう。"
@@ -18066,7 +18066,7 @@ msgid ""
 "installed dplyr in the previous lesson):"
 msgstr ""
 "まず、パッケージをインストールしましょう、もしまだやっていなければですが\n"
-"（おそらく、前の dplyr のレッスン、インストールしているかと思います）："
+"（おそらく、前の dplyr のレッスンで、インストールしているかと思います）："
 
 # code block
 #: r-novice-gapminder/_episodes/14-tidyr.md:52
@@ -18163,7 +18163,7 @@ msgstr ""
 "３つの「ID variables」（`continent`, `country`, `year`）と、３つの「観測変数」\n"
 "（`pop`,`lifeExp`,`gdpPercap`）がありますね。３つの観測変数が、全ての違う\n"
 "単位であり、全ての変数が１列になってはいませんが、個人的には、自分のデータを、\n"
-"この中間形式にしたいと思うことが多いです。このデータフレームをより縦長に広げたい\n"
+"この中間形式にしたいと思うことが多いです。このデータフレームをより縦に広げたい\n"
 "（つまり、４つの ID 変数と１観測変数にしたい）というときに使える操作は、\n"
 "ほとんどありません。"
 
@@ -18217,7 +18217,7 @@ msgid ""
 "`read.csv()` to disable that."
 msgstr ""
 "データファイルをロードして見てみましょう。  注：大陸と国の列は、因子型にはしたくありません。\n"
-"そこで、そうならないように、stringsAsFactors 引数を `read.csv()` 使いましょう。"
+"そこで、そうならないように、`read.csv()`に stringsAsFactors 引数を使いましょう。"
 
 # code block
 #: r-novice-gapminder/_episodes/14-tidyr.md:134
@@ -18511,7 +18511,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> `gap_long` を使って、各大陸の平均余命、人口及びgdpPercapを計算しましょう。\n"
-">**ヒント：** `dplyr` で習った `group_by()` と `summarize()` 変数を使いましょう。\n"
+">**ヒント：** `dplyr` で習った `group_by()` と `summarize()` 関数を使いましょう。\n"
 ">\n"
 "> > ## チャレンジ２の解答\n"
 "> >\n"
