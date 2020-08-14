@@ -159,7 +159,7 @@ if [[ $create == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
+    git remote add swc-ja git@github.com:${git_user}/i18n.git
     git pull swc-ja ja
    
     #import submodules
@@ -180,7 +180,7 @@ if [[ $create == true ]]; then
                 git remote remove swc-ja
             fi
             #reset all repos to remote
-            url=https://github.com/swcarpentry-ja/${dir}.git
+            url=https://github.com/${git_user}/${dir}.git
             git remote add swc-ja $url
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
@@ -285,7 +285,7 @@ if [[ $import == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
+    git remote add swc-ja git@github.com:${git_user}/i18n.git
     git pull swc-ja ja
    
     #import submodules
@@ -307,7 +307,7 @@ if [[ $import == true ]]; then
                 git remote remove swc-ja
             fi
             #reset all repos to remote
-            url=https://github.com/swcarpentry-ja/${dir}.git
+            url=https://github.com/${git_user}/${dir}.git
             git remote add swc-ja $url                                          
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
@@ -367,7 +367,7 @@ if [[ $render == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
+    git remote add swc-ja git@github.com:${git_user}/i18n.git
     git pull swc-ja ja
 
     #import submodules
