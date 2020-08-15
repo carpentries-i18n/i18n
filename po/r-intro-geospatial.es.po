@@ -10,6 +10,7 @@
 # Jesica Formoso <jesica.formoso@gmail.com>, 2020.
 # Jesús Hernández Serda <jesus.hernandez@im.unam.mx>, 2020.
 # Juan Jose Garcia Mesa <juanjosegarciamesa@gmail.com>, 2020.
+# Laurie Baker <l-baker@dfid.gov.uk>, 2020.
 # Maggie Suero <maggie.suero@gmail.com>, 2020.
 # Monica Alonso <monicalonso2000@yahoo.com.ar>, 2020.
 # Natalia Morandeira <nmorandeira@unsam.edu.ar>, 2020.
@@ -18,6 +19,7 @@
 # Priscilla Minotti <priscilla.minotti@gmail.com>, 2020.
 # Raquel Pérez-Suárez <raquelgc11@gmail.com>, 2020.
 # Rayna M Harris <rayna.harris@utexas.edu>, 2020.
+# Silvia <sp.canelon@pm.me>, 2020.
 # Silvia Rodriguez Pires <silvia.rguezpires@gmail.com>, 2020.
 # Veronica Jimenez-Jacinto <vjimenez.jacinto@gmail.com>, 2020.
 # Virginia Andrea García Alonso <garciaalonso.v.a@gmail.com>, 2020.
@@ -30,7 +32,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-07-18 17:19:47+0100\n"
 "PO-Revision-Date: 2020-07-18 16:29+0000\n"
-"Last-Translator: David PS <dps.helio@gmail.com>, 2020\n"
+"Last-Translator: nicoguaro <nicoguarin@gmail.com>, 2020\n"
 "Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -838,7 +840,7 @@ msgstr ""
 "- \"¿Cómo encontrar lo que buscas en RStudio?\"\n"
 "- \"¿Cómo interactuar con R?\"\n"
 "- \"¿Cómo instalar paquetes?\"\n"
-"objetives:\n"
+"objectives:\n"
 "- \"Describe el propósito y el uso de cada panel en el IDE RStudio\"\n"
 "- \"Localiza botones y opciones en el IDE RStudio\"\n"
 "- \"Define una variable\"\n"
@@ -924,7 +926,7 @@ msgid ""
 "scientific projects that will make your life easier."
 msgstr ""
 "A lo largo de esta lección, te enseñaremos algunos de los fundamentos\n"
-"del languaje R así como algunas de las mejores prácticas para organizar el código para\n"
+"del lenguaje R así como algunas de las mejores prácticas para organizar el código para\n"
 "proyectos científicos, lo que te hará la vida más fácil."
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:56
@@ -934,7 +936,7 @@ msgid ""
 "servers) and provides many advantages such as integration with version control\n"
 "and project management."
 msgstr ""
-"Estaremos utilizando RStudio: un entorno de desarrollo integrado (IDE por su nombre en inglés) gratuito y de código abierto.\n"
+"Usaremos RStudio: un entorno de desarrollo integrado (IDE por su nombre en inglés) gratuito y de código abierto.\n"
 "RStudio provee un editor incorporado, funciona en todas las plataformas (incluyendo servidores)\n"
 "y provee muchas ventajas como el hecho de integrarse con control de versiones y manejo de proyectos."
 
@@ -1015,7 +1017,7 @@ msgstr ""
 "   *  Esto funciona bien cuando se hacen pequeñas pruebas y al inicio del trabajo.\n"
 "   *  Rápidamente se transforma en un método laborioso\n"
 "2. Comenzar escribiendo en un archivo .R y usar los atajos de teclado de RStudio para el comando Ejecutar\n"
-"de modo de llevar la línea actual, las línes seleccionadas o líneas modificadas a la consola interactiva de R.\n"
+"para llevar la línea actual, las líneas seleccionadas o líneas modificadas a la consola interactiva de R.\n"
 "   * Esta es una manera genial de comenzar; todo tu código es guardado para más tarde\n"
 "   * Podrás correr el archivo que has creado dentro de RStudio\n"
 "o usando la función R's `source()`."
@@ -1047,10 +1049,10 @@ msgid ""
 msgstr ""
 ">\n"
 "> RStudio te ofrece una gran flexibilidad para correr código dentro de la ventana del editor.\n"
-"> Hay botones, menués de elección y atajos de teclado. Para correr la\n"
+"> Hay botones, menúes de elección y atajos de teclado. Para correr la\n"
 "> línea actual, puedes \n"
 ">\n"
-"> 1. hacer click en el botón `Run` arriba del panel de edición, o\n"
+"> 1. hacer clic en el botón `Run` arriba del panel de edición, o\n"
 "> 2. seleccionar \"Run Lines\" del menú \"Code\", o \n"
 "> 3. presionar <kbd>Ctrl</kbd>+<kbd>Enter</kbd> en Windows,\n"
 "> <kbd>Ctrl</kbd>+<kbd>Enter</kbd> en Linux, \n"
@@ -1500,7 +1502,7 @@ msgid ""
 "> taking much longer than you expect), or to get rid of the code you're\n"
 "> currently writing."
 msgstr ""
-"> Si estás utilizando R desde la línea de comando en lugar de desde RStudio,\n"
+"> Si estás utilizando R desde la línea de comando en lugar de RStudio,\n"
 "> necesitas usar  <kbd>Ctrl</kbd>+<kbd>C</kbd>en lugar de <kbd>Esc</kbd>\n"
 "> para cancelar el comando. ¡Esto también se aplica a los usuarios de Mac!\n"
 ">\n"
@@ -1623,7 +1625,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"(3 + (5 * (2 ^ 2))) # dificil de leer\n"
+"(3 + (5 * (2 ^ 2))) # difícil de leer\n"
 "3 + 5 * 2 ^ 2       # claro, si recuerdas las reglas\n"
 "3 + 5 * (2 ^ 2)     # si no recuerdas algunas reglas, esto puede ayudar\n"
 "~~~"
@@ -1674,7 +1676,7 @@ msgstr ""
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:255
 msgid "You can write numbers in scientific notation too:"
-msgstr ""
+msgstr "También puedes escribir número en notación científica:"
 
 # code block
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:258
@@ -1683,6 +1685,9 @@ msgid ""
 "5e3  # Note the lack of minus here\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"5e3  # Note la falta de menos aquí\n"
+"~~~"
 
 # code block
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:265
@@ -1701,6 +1706,9 @@ msgid ""
 "on Google, or if you can remember the start of the function's name, use the tab\n"
 "completion in RStudio."
 msgstr ""
+"No te preocupes por tratar de recordar cada función en R. Puedes buscarlas\n"
+"en Google, o si puedes recordar el comienzo del nombre de la función, usa completar con \n"
+"Tab en RStudio."
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:274
 msgid ""
@@ -1841,17 +1849,35 @@ msgid ""
 ">\n"
 "> Further reading: [http://floating-point-gui.de/](http://floating-point-gui.de/)"
 msgstr ""
+">\n"
+"> Una advertencia sobre la comparación de los números: nunca\n"
+"> deberías usar `==` para comparar dos números a menos que sean\n"
+"> **integers** (un tipo de datos que representa específicamente\n"
+"> solo números enteros).\n"
+">\n"
+"> Las computadoras sólo pueden representar números decimales con un\n"
+"> cierto grado de precisión, por lo que dos números que parecen\n"
+">iguales al imprimirlos en R, pueden en realidad tener\n"
+"> diferentes representaciones subyacentes y, por lo tanto, pueden\n"
+"> diferir por un pequeño margen de error (llamado \n"
+"> Machine numeric tolerance).\n"
+">\n"
+"> En lugar de eso, deberías usar la función  `all.equal`.\n"
+">\n"
+"> Leer más en: [http://floating-point-gui.de/](http://floating-point-gui.de/)"
 
 # header
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:385
 msgid "## Variables and assignment"
-msgstr ""
+msgstr "## Variables y asignación"
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:387
 msgid ""
 "We can store values in variables using the assignment operator `<-`, like "
 "this:"
 msgstr ""
+"Podemos almacenar valores en variables usando el operador de asignación "
+"`<-`, así:"
 
 # code block
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:390
@@ -1860,6 +1886,9 @@ msgid ""
 "x <- 1/40\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"x <- 1/40\n"
+"~~~"
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:395
 msgid ""
@@ -1867,7 +1896,7 @@ msgid ""
 "in something called a **variable**. `x` now contains the **value** `0.025`:"
 msgstr ""
 "Observa que la asignación no imprime un valor. En cambio, lo almacenamos para más\n"
-"tarde en algo llamado ** variable **. `x` ahora contiene el valor ** **` 0.025`:"
+"tarde en algo llamado **variable**. `x` ahora contiene el **valor**` 0.025`:"
 
 # code block
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:399
@@ -1896,8 +1925,8 @@ msgid ""
 "More precisely, the stored value is a *decimal approximation* of\n"
 "this fraction called a [floating point number](http://en.wikipedia.org/wiki/Floating_point)."
 msgstr ""
-"Más precisamente, el valor almacenado es una * aproximación decimal * de "
-"esta fracción llamada [número de coma "
+"Más precisamente, el valor almacenado es una *aproximación decimal* de esta "
+"fracción llamada [número de coma "
 "flotante](http://en.wikipedia.org/wiki/Floating_point)."
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:414
@@ -1905,6 +1934,8 @@ msgid ""
 "Look for the `Environment` tab in one of the panes of RStudio, and you will see that `x` and its value\n"
 "have appeared. Our variable `x` can be used in place of a number in any calculation that expects a number:"
 msgstr ""
+"Busca la pestaña `Environment` en uno de los paneles de RStudio, y verás que ` x` y su valor\n"
+"han aparecido. Nuestra variable `x` puede usarse en lugar de un número en cualquier cálculo que espere un número:"
 
 # code block
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:418
@@ -1983,7 +2014,7 @@ msgstr ""
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:98
 #: r-intro-geospatial/_episodes/08-writing-data.md:49
 msgid "> ## Challenge 1"
-msgstr ""
+msgstr "> ## Desafío 1"
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:453
 msgid ""
@@ -2032,6 +2063,50 @@ msgid ""
 "> > This will subtract 20 from the existing value of 122 to give a new value\n"
 "> > of 102 to the variable age."
 msgstr ""
+">\n"
+"> ¿Cuál será el valor de cada variable después de cada\n"
+"> declaración en el siguiente programa?\n"
+">\n"
+"> \n"
+"> ~~~\n"
+"> mass (masa) <- 47.5\n"
+"> age (edad) <- 122\n"
+"> mass (masa) <- mass * 2.3\n"
+"> age (edad) <- age - 20\n"
+"> ~~~\n"
+"> {: .language-r}\n"
+">\n"
+"> > ## Solución  al desafío 1\n"
+"> >\n"
+"> > \n"
+"> > ~~~\n"
+"> > mass (masa) <- 47.5\n"
+"> > ~~~\n"
+"> > {: .language-r}\n"
+"> > Esto dará un valor de 47.5 para la variable mass (masa)\n"
+"> >\n"
+"> > \n"
+"> > ~~~\n"
+"> > age (edad) <- 122\n"
+"> > ~~~\n"
+"> > {: .language-r}\n"
+"> > Esto dará un valor de 122 para la variable age (edad)\n"
+"> >\n"
+"> > \n"
+"> > ~~~\n"
+"> > mass (masa) <- mass * 2.3\n"
+"> > ~~~\n"
+"> > {: .language-r}\n"
+"> > Esto multiplicará el valor existente de 47.5 by 2.3 para dar un nuevo valor de\n"
+"> > 109.25 para la variable mass (masa).\n"
+"> >\n"
+"> > \n"
+"> > ~~~\n"
+"> > age (edad) <- age - 20\n"
+"> > ~~~\n"
+"> > {: .language-r}\n"
+"> > Esto restará 20 del valor existente de 122 para dar un nuevo valor\n"
+"> > de 102 a la variable age (edad)."
 
 # SC/DC Template label
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:497
@@ -2057,7 +2132,7 @@ msgstr ""
 #: r-intro-geospatial/_episodes/08-writing-data.md:71
 #: r-intro-geospatial/_episodes/08-writing-data.md:147
 msgid "> {: .solution}"
-msgstr ""
+msgstr "> {: .solution}"
 
 # SC/DC Template label
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:498
@@ -2085,7 +2160,7 @@ msgstr ""
 #: r-intro-geospatial/_episodes/08-writing-data.md:72
 #: r-intro-geospatial/_episodes/08-writing-data.md:148
 msgid "{: .challenge}"
-msgstr ""
+msgstr "{: .challenge}"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:501
@@ -2097,7 +2172,7 @@ msgstr ""
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:169
 #: r-intro-geospatial/_episodes/08-writing-data.md:130
 msgid "> ## Challenge 2"
-msgstr ""
+msgstr "> ## Desafío 2"
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:502
 msgid ""
@@ -2122,6 +2197,26 @@ msgid ""
 "> > {: .output}\n"
 "> > This should yield a boolean value of TRUE since 109.25 is greater than 102."
 msgstr ""
+">\n"
+"> Ejecuta el código del desafío anterior y escribe un comando para\n"
+"> comparar la masa con la edad. ¿La masa es mayor que la edad?\n"
+">\n"
+"> > ## Solución al desafío 2\n"
+"> >\n"
+"> > Una forma de responder a esta pregunta en R es usar el `>` para configurar lo siguiente:\n"
+"> > \n"
+"> > ~~~\n"
+"> > mass > age\n"
+"> > ~~~\n"
+"> > {: .language-r}\n"
+"> > \n"
+"> > \n"
+"> > \n"
+"> > ~~~\n"
+"> > [1] TRUE\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > Esto debería producir un valor booleano de VERDADERO (TRUE) ya que  109.25 es más grande que 102."
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:526
 msgid ""
@@ -2129,29 +2224,32 @@ msgid ""
 "cannot start with a number nor contain spaces at all. Different people use\n"
 "different conventions for long variable names, these include"
 msgstr ""
+"Los nombres de las variables pueden contener letras, números, guiones bajos y puntos. Ellos\n"
+"no puede comenzar con un número ni contener espacios en absoluto. Diferentes personas usan\n"
+"diferentes convenciones para nombres de variables largos, estas incluyen"
 
 # unordered list
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:530
 msgid "  * periods.between.words"
-msgstr ""
+msgstr "  * puntos.entre.palabras"
 
 # unordered list
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:531
 msgid "  * underscores\\_between_words"
-msgstr ""
+msgstr "  * guiones_ bajos\\ _entre_palabras"
 
 # unordered list
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:532
 msgid "  * camelCaseToSeparateWords"
-msgstr ""
+msgstr "  * CamelCaseParaSepararPalabras"
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:534
 msgid "What you use is up to you, but **be consistent**."
-msgstr ""
+msgstr "Lo que uses depende de ti, pero **debes ser consistente**."
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:536
 msgid "It is also possible to use the `=` operator for assignment:"
-msgstr ""
+msgstr "También es posible utilizar el operador `=` para la asignación:"
 
 # code block
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:539
@@ -2160,6 +2258,9 @@ msgid ""
 "x = 1/40\n"
 "~~~"
 msgstr ""
+"~~~\n"
+"x = 1/40\n"
+"~~~"
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:544
 msgid ""
@@ -2168,6 +2269,10 @@ msgid ""
 "where it is less confusing to use `<-` than `=`, and it is the most common\n"
 "symbol used in the community. So the recommendation is to use `<-`."
 msgstr ""
+"Pero esto es mucho menos común entre los usuarios de R. Lo mas importante es\n"
+"**Ser consistennte** con el operador que uses. Ocasionalmente hay lugares\n"
+"donde es menos confuso usar `<-` que` = `, y este es el símbolo más común\n"
+"en la comunidad. Entonces la recomendación es usar `<-`. "
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:549
@@ -2175,7 +2280,7 @@ msgstr ""
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:646
 #: r-intro-geospatial/_episodes/05-data-subsetting.md:658
 msgid "> ## Challenge 3"
-msgstr ""
+msgstr "> ## Desafío 3"
 
 #: r-intro-geospatial/_episodes/01-rstudio-intro.md:550
 msgid ""
@@ -2225,6 +2330,51 @@ msgid ""
 "> > ~~~\n"
 "> > {: .language-r}"
 msgstr ""
+">\n"
+"> ¿Cuáles de los siguientes son nombres de variables válidos en R?\n"
+"> \n"
+"> ~~~\n"
+"> min_height\n"
+"> max.height\n"
+"> _age\n"
+"> .mass\n"
+"> MaxLength\n"
+"> min-length\n"
+"> 2widths\n"
+"> celsius2kelvin\n"
+"> ~~~\n"
+"> {: .language-r}\n"
+">\n"
+"> > ## Solución al desafío 3\n"
+"> >\n"
+"> > Los siguientes nombres pueden estar usados para variables en R:\n"
+"> > \n"
+"> > ~~~\n"
+"> > min_height\n"
+"> > max.height\n"
+"> > MaxLength\n"
+"> > celsius2kelvin\n"
+"> > ~~~\n"
+"> > {: .language-r}\n"
+"> >\n"
+"> > Lo siguiente crea una variable oculta:\n"
+"> > \n"
+"> > ~~~\n"
+"> > .mass\n"
+"> > ~~~\n"
+"> > {: .language-r}\n"
+"> >\n"
+"> > No discutiremos las variables ocultas en esta lección. Recomendamos no utilizar un punto en el\n"
+"> > comienzo de los nombres de las variables a menos que desee ocultar sus variables.\n"
+"> >\n"
+"> > Los siguientes nombres no se podrán utilizar para crear una variable\n"
+"> > \n"
+"> > ~~~\n"
+"> > _age\n"
+"> > min-length\n"
+"> > 2widths\n"
+"> > ~~~\n"
+"> > {: .language-r}"
 
 # Front Matter
 #: r-intro-geospatial/_episodes/02-project-intro.md:1
@@ -2779,8 +2929,8 @@ msgid ""
 "---"
 msgstr ""
 "---\n"
-"# Please do not edit this file directly; it is auto generated.\n"
-"# Instead, please edit 03-data-structures-part1.md in _episodes_rmd/\n"
+"# Por favor no edites este archivo directamente; este se genera automáticamente.\n"
+"# en su lugar, por favor edita 03-data-structures-part1.md in _episodes_rmd/\n"
 "title: \"Estructura de datos\"\n"
 "teaching: 40\n"
 "exercises: 15\n"
@@ -2790,11 +2940,11 @@ msgstr ""
 "- \"¿Cómo puedo representar información categórica en R?\"\n"
 "objectives:\n"
 "- \"Conocer los distintos tipos de datos.\"\n"
-"- \"Iniciar a explorar data frames y entender como están relacionados con vectores, factores y listas.\"\n"
-"- \"Ser capaz de preguntar a R sobre el tipo, la clase y la estructura de un objeto.\"\n"
+"- \"Iniciar a explorar data frames, y entender como están relacionados con los vectores, factores y listas.\"\n"
+"- \"Ser capaz de hacerle preguntas a R sobre el tipo, la clase y la estructura de un objeto.\"\n"
 "keypoints:\n"
 "- \"Usar `read.csv` para leer datos tabulados desde R.\"\n"
-"- \"Los tipos de datos fundamentales en R son dobles, enteros, complejos, lógicos y carácter.\"\n"
+"- \"Los tipos de datos fundamentales en R son dobles, enteros, complejos, lógicos y caracteres.\"\n"
 "- \"Usar factores para representar categorías en R.\"\n"
 "source: Rmd\n"
 "---"
@@ -2809,7 +2959,8 @@ msgstr ""
 "Uno de las características más poderosas de R es su capacidad de manejar datos tabulados - \n"
 "como los que tal vez ya tengas en una hoja de cálculo o un archivo CSV.\n"
 "Empecemos por\n"
-"descargar y leer en R el archivo `nordic-data.csv`. Cargaremos estos datos como un objeto llamado `nordic`:"
+"descargar y leer un archivo `nordic-data.csv`. \n"
+"Guardaremos estos datos como un objeto llamado `nordic`:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:30
@@ -2834,20 +2985,22 @@ msgid ""
 "the most commonly used.  If needed it is possible to override the default\n"
 "delimiting punctuation marks for both `read.csv` and `read.delim`."
 msgstr ""
-"La función `read.table` se usa para leer datos tabulados guardados en un fichero de\n"
+"La función `read.table` se usa para leer datos tabulados guardados en un archivo de\n"
 "texto donde las columnas de los datos están separadas por\n"
 "caracteres de puntuación como sucede en\n"
 "los archivos CSV (csv = valores separados por comas). Tabuladores y comas son los caracteres más usados para separar o delimitar datos en archivos csv.\n"
 "Por comodidad R provee dos otras versiones de `read.table`. Esas son: `read.csv`\n"
-"para archivos donde los datos están separados por comas y\n"
-"`read.delim` para archivos con datos separados por tabuladores. De esas tres funciones `read.csv` es la más usada. Si es necesario, es posible cambiar las el carácter por defecto usado para delimitar tanto en `read.csv` y `read.delim`."
+"para archivos donde los datos están separados por comas y `read.delim` para archivos\n"
+"donde los datos están separados por tabuladores. De esas tres funciones `read.csv` es\n"
+" la más usada. Si es necesario, es posible cambiar las el carácter por defecto\n"
+" delimitando las marcas de puntuación  para ambos `read.csv` y `read.delim`."
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:45
 msgid ""
 "We can begin exploring our dataset right away, pulling out columns by specifying\n"
 "them using the `$` operator:"
 msgstr ""
-"Podemos empezar explorando nuestro conjunto de datos extrayendo columnas especificándolas\n"
+"Podemos empezar explorando nuestro conjunto de datos de inmediato, extrayendo columnas especificándolas\n"
 "usando el operador `$`:"
 
 # code block
@@ -2902,8 +3055,8 @@ msgid ""
 "We can do other operations on the columns. For example, if we discovered "
 "that the life expectancy is two years higher: "
 msgstr ""
-"Podemos hacer otras operaciones a las columnas. Por ejemplo, si descubrimos "
-"que la esperanza de vida es dos años más alta:"
+"Podemos hacer otras operaciones en las columnas. Por ejemplo, si descubrimos"
+" que la esperanza de vida es dos años más alta:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:78
@@ -2929,7 +3082,7 @@ msgstr ""
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:90
 msgid "But what about:"
-msgstr "Pero qué si hacemos:"
+msgstr "Pero qué pasa:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:93
@@ -2964,7 +3117,8 @@ msgstr "{: .error}"
 msgid ""
 "Understanding what happened here is key to successfully analyzing data in R."
 msgstr ""
-"Understanding what happened here is key to successfully analyzing data in R."
+"Entender lo que sucedió aquí es clave para analizar con éxito los datos en "
+"R."
 
 # header
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:107
@@ -2979,7 +3133,8 @@ msgid ""
 "data something is:"
 msgstr ""
 "Si pensaste que el último comando resultaría en un error porque  `77.2` más `\"Denmark\"` no tiene sentido, entonces acertaste - y ya tienes una intuición para un\n"
-"concepto importante en programación llamado *clases de datos*. Podemos preguntar a R qué clase de datos es algo:"
+"concepto importante en programación llamado *clases de datos*. Podemos preguntar qué clase de\n"
+" datos es algo:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:115
@@ -3147,8 +3302,10 @@ msgid ""
 "complicated our analyses become, all data in R is interpreted a specific \n"
 "data class. This strictness has some really important consequences."
 msgstr ""
-"No importa cuan complicado sea nuestro análisis, todos los datos en R se convierten a una \n"
-"clase de datos específica. Esta rigurosidad tiene algunas consecuencias realmente importantes."
+"No importa cuan\n"
+" complicado sea nuestro análisis, todos los datos en R se convierten a una \n"
+"clase \n"
+"de datos específica. Este rigor tiene algunas consecuencias realmente importantes."
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:216
 msgid ""
@@ -3163,7 +3320,7 @@ msgid ""
 "Load the new nordic data as `nordic_2`, and check what class of data we find in the\n"
 "`lifeExp` column:"
 msgstr ""
-"Carga los datos nuevos como `nordic_2` y comprubeba  de que clase es la columna\n"
+"Carga los datos nórdicos nuevos como `nordic_2`, y comprueba que clase de datos encontramos en la columna\n"
 "`lifeExp`:"
 
 # code block
@@ -3184,8 +3341,9 @@ msgid ""
 "Oh no, our life expectancy lifeExp aren't the numeric type anymore! If we try to do the same math\n"
 "we did on them before, we run into trouble:"
 msgstr ""
-"¡Oh no, nuestra esperanza de vida lifeExp ya no es de tipo numérico! Si intentamos realizar las mismas operaciones\n"
-"que hicimos en la columna como hicimos antes, nos encontraremos con problemas:"
+"¡Oh no, nuestra esperanza de vida lifeExp ya no es de tipo numérico! Si "
+"intentamos hacer los mismos cálculos matemáticos que hicimos con ellos "
+"antes, nos metemos en problemas:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:240
@@ -3220,7 +3378,8 @@ msgid ""
 msgstr ""
 "¿Qué ha sucedido? Cuando R lee un archivo csv en una de esas tablas, R insiste que\n"
 "todo en una columna sea de la misma clase. Si R no puede entender\n"
-"*todo* en una columna como numérico, entonces a *nada* en la columna se le asigna el tipo numérico. La tabla en la que R cargó nuestros datos nórdicos es algo conocido como marco de datos, y es nuestro primer ejemplo de lo que se conoce como una *estructura de datos* - es decir, una estructura que R sabe como construir partiendo de tipo de datos fundamentales."
+"*todo* en una columna como numérico, entonces a *nada* en la columna se le asigna el tipo numérico. La tabla en la que R cargó nuestros datos nórdicos es algo conocido como marco de datos (dataframe), y es nuestro primer ejemplo de lo que se conoce como una *estructura\n"
+" de datos* - es decir, una estructura que R sabe como construir partiendo de tipo de datos básicos."
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:259
 msgid ""
@@ -3264,13 +3423,15 @@ msgstr ""
 # header
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:277
 msgid "## Vectors and Type Coercion"
-msgstr ""
+msgstr "## Vectores y Tipo de Coerción"
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:279
 msgid ""
 "To better understand this behavior, let's meet another of the data structures:\n"
 "the vector."
 msgstr ""
+"Para mejor entender este comportamiento, conozcamos otra de las estructuras de datos:\n"
+"el vector."
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:283
@@ -3303,6 +3464,10 @@ msgid ""
 "you don't choose the data type, it'll default to `logical`; or, you can declare\n"
 "an empty vector of whatever type you like."
 msgstr ""
+"Un vector en R es esencialmente un lista de cosas ordenadas, con la condición \n"
+"especial de que todo en el vector tiene que ser del mismo tipo de dato. Si\n"
+"no eliges el tipo de dato, por defecto será `lógico`; o, puedes declarar\n"
+"un vector vacío del tipo que quieras."
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:302
@@ -3330,7 +3495,7 @@ msgstr ""
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:315
 msgid "You can check if something is a vector:"
-msgstr ""
+msgstr "Puedes revisar si algo es un vector:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:318
@@ -3362,6 +3527,11 @@ msgid ""
 "case `[1:3]`; and a few examples of what's actually in the vector - in this case\n"
 "empty character strings. If we similarly do"
 msgstr ""
+"El resultado un poco críptico de este comando indica el tipo básico de dato\n"
+"encontrado en este vector - en este caso `chr`, carácter; una indicación del\n"
+"numero de cosas en el vector - en realidad, los índices del vector, en este\n"
+"caso `[1:3]`; y unos ejemplos de lo que está realmente en el vector - en este caso\n"
+"cadenas de caracteres vacíos. Si lo hacemos de manera similar"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:337
@@ -3393,11 +3563,14 @@ msgid ""
 "data frames are all vectors, and that's the root of why R forces everything in\n"
 "a column to be the same basic data type."
 msgstr ""
+"vemos que `nordic$lifeExp` también es un vector - las columnas de datos que cargamos en los \n"
+"data frames en R, son todas vectores, y es por eso que R obliga que todo en\n"
+"una columna para ser del mismo tipo de dato básico."
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:353
 msgid "> ## Discussion 1"
-msgstr ""
+msgstr "> ## Discusión 1"
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:354
 msgid ""
@@ -3414,6 +3587,18 @@ msgid ""
 "> > *clean data*; in the long run, strict consistency goes a long way to making\n"
 "> > our lives easier in R."
 msgstr ""
+">\n"
+"> ¿Por qué R es tan dogmático con los datos que ponemos en nuestras columnas?\n"
+"> ¿Cómo esto nos ayuda?\n"
+">\n"
+"> > ## Discusión 1\n"
+"> >\n"
+"> > Manteniendo todo en una columna igual , nos permitimos hacer simples supuestos\n"
+"> >  sobre nuestros datos; si puedes interpretar una entrada en una columna como un \n"
+"> > número, entonces puedes interpretar *todas* ellas como números, así no tenemos que\n"
+"> > verificar todo el tiempo. Esta consistencia es a lo que se refieren las personas cuando hablan\n"
+"> > de *datos limpios*; a la larga, la estricta consistencia contribuye considerablemente a hacer\n"
+"> > nuestras vidas más fáciles en R."
 
 # SC/DC Template label
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:367
@@ -3424,6 +3609,8 @@ msgstr "{: .discussion}"
 msgid ""
 "You can also make vectors with explicit contents with the combine function:"
 msgstr ""
+"También puedes crear vectores con contenido explícito usando la función "
+"combine:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:372
@@ -3454,6 +3641,8 @@ msgid ""
 "Given what we've learned so far, what do you think the following will "
 "produce?"
 msgstr ""
+"Dado lo que aprendimos hasta ahora, ¿qué crees que va a resultar de lo "
+"siguente?"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:388
@@ -3474,6 +3663,10 @@ msgid ""
 "be combined into a single vector, it will force them all to be the same\n"
 "type. Consider:"
 msgstr ""
+"Esto es algo llamado *tipo coerción*, y es la fuente de muchas sorpresas\n"
+"y la razón por la que debemos conocer los tipos de dato básicos y cómo R\n"
+"los interpreta. Cuando R consigue una mezcla de tipos (aquí numéricos y de caracteres) para\n"
+"combinarlos en un sólo vector, los obligará a todos ser del mismo tipo. Considera:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:400
@@ -3529,6 +3722,9 @@ msgid ""
 "`character`, where -> can be read as *are transformed into*. You can try to\n"
 "force coercion against this flow using the `as.` functions:"
 msgstr ""
+"Las reglas de coerción son: `logical` -> `integer` -> `numeric` -> `complex` ->\n"
+"`character`, donde -> puede ser leído como *se transfoman en*. Puedes intentar\n"
+"forzar la coerción contra este flujo usando las funciones `as.`:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:433
@@ -3610,27 +3806,34 @@ msgid ""
 "may well be to blame; make sure everything is the same type in your vectors and\n"
 "your columns of data frames, or you will get nasty surprises!"
 msgstr ""
+"Como puedes ver, ¡algunas cosas sorprendentes pueden ocurrir cuando R fuerza un tipo de datos básico\n"
+"en otro! Dejando de lado la cuestión de la coerción de tipo, el punto es: si tus\n"
+"datos no se parecen a lo que pensabas que iban a ser , la coerción de tipo\n"
+"bien puede ser la culpable; asegúrate que todo sea del mismo tipo en tus vectores y\n"
+"en tus columnas del data frame , o ¡tendrás sorpresas desagradables!"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:484
 msgid "> Given what you now know about type conversion, look at the class of"
 msgstr ""
+"> Dado lo que sabe ahora sobre la conversión de tipos, observe la clase de"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:485
 msgid ""
 "> data in `nordic_2$lifeExp` and compare it with `nordic$lifeExp`. Why are"
 msgstr ""
+"> datos en `nordic_2$lifeExp` y compáralo con `nordic$lifeExp`. ¿Por qué"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:486
 msgid "> these columns different classes? "
-msgstr ""
+msgstr "> estas columnas son de diferentes clases?"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:488
 msgid "> > ## Solution"
-msgstr ""
+msgstr "> > ## Solución"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:489
@@ -3694,26 +3897,34 @@ msgstr "> >  num [1:3] 77.2 80 79"
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:515
 msgid "> > The data in `nordic_2$lifeExp` is stored as factors rather than "
 msgstr ""
+"> > Los datos en `nordic_2$lifeExp` son almacenados como factor en lugar de"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:516
 msgid "> > numeric. This is because of the \"or\" character string in the third "
 msgstr ""
+"> > numérico. Esto es por el caracter tipo texto  (*string*) \"or\" en la "
+"tercer"
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:517
 msgid "> > data point. \"Factor\" is R's special term for categorical data. "
 msgstr ""
+"> > punto de datos. \"Factor\" es el término especial de R para los datos "
+"categóricos."
 
 # blockquote, which can be cascaded
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:518
 msgid "> > We will be working more with factor data later in this workshop."
 msgstr ""
+"> > Trabajaremos más con datos de factores más adelante en este taller."
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:522
 msgid ""
 "The combine function, `c()`, will also append things to an existing vector:"
 msgstr ""
+"La función de combinación, `c()`, también agregará cosas a un vector "
+"existente:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:525
@@ -3765,7 +3976,7 @@ msgstr ""
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:553
 msgid "You can also make series of numbers:"
-msgstr ""
+msgstr "También puedes hacer series de números:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:556
@@ -3839,7 +4050,7 @@ msgstr ""
 
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:603
 msgid "We can ask a few questions about vectors:"
-msgstr ""
+msgstr "Puedes hacer algunas preguntas sobre vectores:"
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:606
@@ -4073,8 +4284,11 @@ msgid ""
 "study:"
 msgstr ""
 "Otra estructura de datos importante se llama factor. \n"
-"Los factores se parecen a los datos de tipo carácter, pero se usan para representar información categórica. \n"
-"Por ejemplo, hagamos un vector de tipo **string** etiquetando los países nórdicos para todos los países de nuestro estudio. "
+"Los factores se parecen a los datos de tipo carácter, \n"
+"pero son usados para representar información categórica. \n"
+"Por ejemplo, hagamos \n"
+"un vector de tipo **string** (cadena de caracteres) etiquetando los países nórdicos para todos los países de nuestro\n"
+" estudio. "
 
 # code block
 #: r-intro-geospatial/_episodes/03-data-structures-part1.md:764
@@ -4169,8 +4383,8 @@ msgid ""
 "with numbered indices under the hood, this is necessary as many statistical\n"
 "calculations utilise such numerical representations for categorical data:"
 msgstr ""
-"Ahora R identificó que hay 5 categorías posibles en nuestra data - pero también realizó algo sorprendente; \n"
-"en vez de mostrar la secuencia de caracteres que le dimos, tenemos un montón de números en su lugar. \n"
+"Ahora R identificó que hay 5 categorías posibles en nuestros datos - pero también realizó algo sorprendente; \n"
+"en vez de imprimir la secuencia de caracteres que le dimos, tenemos un montón de números en su lugar. \n"
 "R remplazó nuestras categorías legibles para humanos con índices numerados por detrás, \n"
 "esto es necesario ya que muchos cálculos estadísticos utilizan esta representación numérica para datos categóricos. "
 
@@ -4251,7 +4465,7 @@ msgid ""
 "> > even if they aren't sure."
 msgstr ""
 ">\n"
-"> ¿Hay un factor en nuestro **dataframe** `nordic`? Trata de usar\n"
+"> ¿Hay un factor en nuestro **dataframe** `nordic`? ¿Cual es su nombre? Trata de usar\n"
 "> `?read.csv` para deducir como mantener las columnas de texto como vectores de caracteres\n"
 "> en vez de factores; luego escribe un comando o dos para mostrar que el factor en\n"
 "> `nordic` es en realidad un vector de caracteres cuando está cargado de esta manera .\n"
@@ -4338,7 +4552,7 @@ msgid ""
 "is simpler in some ways than the other types, because you can put anything you\n"
 "want in it:"
 msgstr ""
-"Otra estructura de datos que querrás tener en tu bolsa de trucos es la `lista`. \n"
+"Otra estructura de datos que querrás tener en tu bolsa de trucos es la `list`. \n"
 "Una lista es en de algún modo más simple que otros tipos, porque\n"
 "puedes poner lo quieras dentro: "
 
@@ -4769,7 +4983,7 @@ msgstr ""
 "> - `nordic[, 1]`\n"
 "> - `nordic[1, ]`\n"
 ">\n"
-"> Prueba estos ejemplos y explica que se devuelve en cada uno.\n"
+"> Prueba estos ejemplos y explica que se regresa en cada uno.\n"
 ">\n"
 "> *Sugerencia:* Usa la función `class()` para examinar que se devuelve en cada caso.\n"
 ">\n"
@@ -4791,7 +5005,7 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}\n"
 "> >\n"
-"> > Podemos pensar al **dataframe** como una lista de vectores. El corchete único `[1]`\n"
+"> > Podemos pensar en un **dataframe** como una lista de vectores. El corchete simple `[1]`\n"
 "> > devuelve la primer parte de la lista, como otra lista. En este caso es la\n"
 "> > primer columna del **dataframe**.\n"
 "> >\n"
@@ -4808,8 +5022,8 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}\n"
 "> >\n"
-"> > El corchete doble `[[1]]`  devuelve el contenido del ítem listado. En este caso\n"
-"> >  es el contenido de la primer columna, un *vector* del tipo * factor*.\n"
+"> > El corchete doble `[[1]]`  regresa el contenido del elemento de la lista. En este caso\n"
+"> >  es el contenido de la primer columna, un_vector_del tipo _factor_.\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
@@ -4824,8 +5038,8 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}\n"
 "> >\n"
-"> > Este ejemplo use el carácter `$` para dirigirse a items por su nombre. _country_ es la\n"
-"> > primer columna del **dataframe**, de nuevo un  *vector* de tipo *factor*.\n"
+"> > Este ejemplo use el carácter `$` para dirigirse a elementos por su nombre. _coat_ es la\n"
+"> > primer columna del **dataframe**, de nuevo un  _vector_ de tipo _factor_.\n"
 "> X\n"
 "> > \n"
 "> > ~~~\n"
@@ -4842,8 +5056,8 @@ msgstr ""
 "> > 3  Norway\n"
 "> > ~~~\n"
 "> > {: .output}\n"
-"> > Aquí usamos un corchete único `[\"country\"]` remplazando el índice numérico\n"
-"> > con el nombre de la columna. Como en el ejemplo 1, el objeto devuelto es una *lista*.\n"
+"> > Aquí usamos un corchete sencillo `[\"country\"]` remplazando el índice numérico\n"
+"> > con el nombre de la columna. Como en el ejemplo 1, el objeto devuelto es una _lista_.\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
@@ -4858,10 +5072,10 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}\n"
 "> >\n"
-"> > Este ejemplo usa un corchete único, pero esta vez brindamos las coordenadas\n"
+"> > Este ejemplo usa un corchete sencillo, pero esta vez brindamos las coordenadas\n"
 "> de fila y columna. El objeto devuelto es el valor en la fila 1, columna 1. El objeto\n"
-"> es una  *integer* pero al ser parte de un *vector* de tipo *factor*, R\n"
-"> muestra la etiqueta \"Denmark\" asociada con el valor del **integer**.\n"
+"> un _integer_ pero debido a que es parte de un _vector_ de tipo _factor_, R\n"
+"> muestra la etiqueta \"Denmark\" asociada con el valor entero (**integer**).\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
@@ -4876,9 +5090,9 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}\n"
 "> >\n"
-"> > Como los ejemplos previos, usamos el corchete único y brindamos las coordenadas de\n"
+"> > Como los ejemplos previos, usamos el corchete sencillos y brindamos las coordenadas de\n"
 "> > fila y columna. La coordenada de fila no está especificada, R interpreta este valor\n"
-"> > faltante como todos los elementos en esta *columna* *vector*.\n"
+"> > faltante como todos los elementos en esta _columna_ _vector_\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
@@ -4894,7 +5108,7 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}\n"
 "> >\n"
-"> > Otra vez usamos el corchete único con las coordenadas de fila y columna. La coordenada de\n"
+"> > Otra vez usamos el corchete sencillo con las coordenadas de fila y columna. La coordenada de\n"
 "> > columna no está especificada. El valor devuelto es una *lista* que contiene todos los\n"
 "> > valores en la primer fila."
 
@@ -4946,11 +5160,11 @@ msgstr ""
 "- \"Usar `rbind()` para agregar una nueva fila a un dataframe.\"\n"
 "- \"Eliminar filas de un dataframe.\"\n"
 "- \"Usar `na.omit()` para eliminar filas de un dataframe con valores `NA`. \"\n"
-"- \"Usar `levels()` y `as.character()` para explorar y manipular **factores**.\"\n"
+"- \"Usar `levels()` y `as.character()` para explorar y manipular `factores`.\"\n"
 "- \"Usar `str()`, `nrow()`, `ncol()`, `dim()`, `colnames()`, `rownames()`, `head()` y `typeof()` para comprender la estructura de un dataframe.\"\n"
 "- \"Leer en un archivo csv usando `read.csv()`.\"\n"
-"- \"Comprender qué representa `length()` de un dataframe.\"\n"
-"fuente: Rmd\n"
+"- \"Comprender quE representa`length()` en un dataframe.\"\n"
+"source: Rmd\n"
 "---"
 
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:29
@@ -4961,9 +5175,9 @@ msgid ""
 "about working with data frames."
 msgstr ""
 "Hasta aquí, lo has visto todo: en la última lección, hemos recorrido todos \n"
-"los tipos de datos y estructuras básicas en R.  Todo lo que harás será una\n"
-"manipulación de esas herramientas. Pero la mayor parte del tiempo, \n"
-"la estrella del show es el data.frame—la tabla que hemos creado cargando la información desde un archivo csv. En esta lección aprenderemos algunas cosas más sobre el trabajo con data.frames. "
+"los tipos de datos y estructuras básicas en R.  Todo lo que harás será \n"
+"utilizar esas herramientas. Pero la mayor parte del tiempo, \n"
+"la estrella del show es el data.frame—la tabla que hemos creado cargando la información desde un archivo csv. En esta lección aprenderemos algunas cosas más sobre el trabajo con `data.frames`. "
 
 # header
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:34
@@ -4977,7 +5191,7 @@ msgid ""
 "So far, you have seen the basics of manipulating data frames with our nordic data; now let’s use those skills to digest a more extensive dataset. Let’s read in the gapminder dataset that we downloaded previously:"
 msgstr ""
 "Ya hemos aprendido que las columnas de un dataframe son vectores, que permiten\n"
-"que nuestros datos sean consistentes en tipo en todas las columnas.  \n"
+"que nuestros datos sean consistentes con su tipo de datos en cada columna.  \n"
 "Hasta ahora, haz visto los fundamentos de la manipulación de dataframes con nuestros datos nórdicos; \n"
 "ahora usaremos esas habilidades para procesar un conjunto de datos más extenso. Leamos en R el conjunto de datos de gapminder que hemos descargado anteriormente:"
 
@@ -5021,7 +5235,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> * Otro tipo de archivos que puedes encontrar son los archivos de valores separados\n"
-" por tabulaciones (.tsv). Para especificar una pestaña como separador, usa `\"\\\\t\"` o `read.delim()`.\n"
+" por tabulaciones (.tsv). Para especificar una pestaña como separador, usa `\"\\\\t\"` o `read.delim`.\n"
 "> \n"
 "> * Los archivos también pueden ser descargados directamente de Internet a una carpeta local \n"
 "de tu elección en tu computadora usando la función `download.file`. \n"
@@ -5038,7 +5252,7 @@ msgstr ""
 ">\n"
 "> * Alternativamente, también puedes leer archivos de Internet \n"
 "directamente en R reemplazando en `read.csv` la ruta del archivo por su dirección web. \n"
-"Hay que tener en cuenta que al hacer esto no se guardará primero una copia local del archivo csv en tu ordenador.  Por ejemplo,\n"
+"Hay que tener en cuenta que al hacer esto no se guardará primero una copia local del archivo csv en tu computadora. Por ejemplo,\n"
 "> \n"
 "> \n"
 "> ~~~\n"
@@ -5173,7 +5387,7 @@ msgid ""
 "number of rows it has (1704), but this is not the case; it gives us the number of columns."
 msgstr ""
 "Una buena suposición diría que la longitud de un dataframe sería el\n"
-"número de filas que tiene (1704), pero no es éste el caso; nos da el número de columnas."
+"número de filas que tiene (1704), pero no, en éste el caso nos da el número de columnas."
 
 # code block
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:154
@@ -5269,8 +5483,8 @@ msgid ""
 "We'll also likely want to know what the titles of all the columns are, so we can\n"
 "ask for them later:"
 msgstr ""
-"También es probable que queramos saber cuáles son los nombres de todas las columnas, para que más tarde\n"
-"podamos consultar usándolos:"
+"También es probable que queramos saber cuáles son los nombres de todas las "
+"columnas, para que más tarde podamos consultar por nombre:"
 
 # code block
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:214
@@ -5305,7 +5519,7 @@ msgid ""
 msgstr ""
 "En esta etapa, es importante preguntarnos si la estructura R que está informando \n"
 "coincide con nuestra intuición o expectativas; ¿los tipos de datos básicos informados para cada columna \n"
-"tienen sentido? Si no es así, tenemos que resolver  cualquier problema ahora, antes de que se convierta \n"
+"tienen sentido? Si no es así, tenemos que resolver cualquier problema ahora, antes de que se convierta \n"
 "en una mala sorpresa, usando lo que hemos aprendido sobre cómo R \n"
 "interpreta los datos, y la importancia de la *consistencia estricta* en la forma en que registramos nuestros datos."
 
@@ -5314,8 +5528,9 @@ msgid ""
 "Once we're happy that the data types and structures seem reasonable, it's time\n"
 "to start digging into our data proper. Check out the first few lines:"
 msgstr ""
-"Una vez que estamos contentas de que los tipos y estructuras de datos se ven razonables, es hora de\n"
-"empezar a explorar apropiadamente nuestros datos. Mira las primeras líneas:"
+"Una vez que estamos contentas de que los tipos y estructuras de datos se ven"
+" razonables, es hora de empezar a explorar apropiadamente nuestros datos. "
+"Mira las primeras líneas:"
 
 # code block
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:237
@@ -5419,14 +5634,14 @@ msgstr ""
 "> > Hay varias maneras de lograr esto.\n"
 "> >\n"
 "> > La solución que se muestra aquí presenta una forma que utiliza funciones anidadas, es decir, una función que\n"
-"> > pasa otra función como argumento. Esto podría parecer  un concepto nuevo\n"
+"> > pasa su resultado a otra función como argumento. Esto podría parecer  un concepto nuevo\n"
 "> > pero de hecho ya lo estás usando.\n"
 "> >\n"
 "> > Recuerda que `my_dataframe[rows, cols]` va a imprimir en pantalla tu dataframe\n"
 "> con el número de filas y columnas que le pediste (aunque podrías \n"
 "> > haber pedido un rango de columnas, por ejemplo). ¿Cómo obtendrías la\n"
 "> > última fila si no sabes cuántas filas tiene tu dataframe? R tiene una\n"
-"> > función para esto. ¿Qué hay de obtener una muestra (pseudo-aleatoria)? R también tiene \n"
+"> > función para esto. ¿Cómo intentarías obtener una muestra (pseudo-aleatoria)? R también tiene una\n"
 "> > función para esto.\n"
 "> > \n"
 "> > \n"
@@ -5459,12 +5674,12 @@ msgstr ""
 "> significa. ¡Si hay alguna parte que no puedes interpretar, discútela con tus\n"
 "> vecinos!\n"
 ">\n"
-"> > ## Solución al Reto 2\n"
+"> > ## Solución al Desafío 2\n"
 "> >\n"
 "> > El objeto `gapminder` es un dataframe con columnas\n"
 "> >\n"
 "> > - `country` y `continent` como **factores**.\n"
-"> > - `year` es vector de enteros.\n"
+"> > - `year` es un vector de enteros.\n"
 "> > - `pop`, `lifeExp`, y `gdpPercap` son vectores numéricos."
 
 # header
@@ -5744,8 +5959,8 @@ msgid ""
 "`NA`."
 msgstr ""
 "Otra cosa que hay que tener en cuenta: en un `factor`, cada valor diferente\n"
-"representa lo que se llama un \"nivel\" o \"categoría\" ( `level`). En nuestro caso, el `factor` \"continente\" tiene 5\n"
-"niveles: \"África\", \"América\", \"Asia\", \"Europa\" y \"Oceanía\". R sólo aceptará\n"
+"representa lo que se llama un \"nivel\" o \"categoría\" (`level`). En nuestro caso, el `factor` \"continente\" tiene 5\n"
+"niveles: \"Africa\", \"Americas\", \"Asia\", \"Europa\" y \"Oceania\". R sólo aceptará\n"
 "valores que coincidan con alguno de los niveles. Si añades un nuevo valor, se convertirá en\n"
 "`NA`."
 
@@ -5760,14 +5975,14 @@ msgid ""
 "add a gapminder row with a \"Nordic\" *continent*, add \"Nordic\" as a *level* of\n"
 "the factor:"
 msgstr ""
-"La advertencia nos dice que agregamos \"nordic\" sin éxito a nuestro\n"
-"factor *continent*, pero 2016 (un numeric), 5000000 (un numeric), 80.3 (un numeric),\n"
-"49400.0 (un numeric) y `FALSE` (un logic) se agregaron con éxito a\n"
-"*país*, *año*, *pop*, *lifeExp*, *gdpPercap* y *below_average*\n"
+"La advertencia (warning) nos dice que agregamos \"nordic\" sin éxito a nuestro\n"
+"factor *continent*, pero 2016 (un dato de tipo numeric), 5000000 (otro numeric), 80.3 (otro numeric),\n"
+"49400.0 (otro numeric) y `FALSE` (un tipo de dato logic) se agregaron con éxito a\n"
+"*country*, *year*, *pop*, *lifeExp*, *gdpPercap* y *below_average*\n"
 "respectivamente, ya que esas variables no son **factores**. 'Norway' también fue\n"
 "agregado con éxito ya que corresponde a un nivel existente. Para agregar con\n"
-"éxita una fila gapminder con un *continente* \"nordic\", agregue \"nordic\" como *nivel* de\n"
-"el factor:"
+"éxito una nueva fila a gapminder con un *continent* \"Nordic\", necesitas agregar \"Nordic\" como *nivel* de\n"
+"factor en continent:"
 
 # code block
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:505
@@ -5864,9 +6079,9 @@ msgid ""
 "categories of the factor, but we can subsequently add any word we want to the\n"
 "column without babysitting the factor levels:"
 msgstr ""
-"Alternativamente, podemos cambiar un factor en un vector de caracteres; perdemos las prácticas\n"
-"categorías del factor, pero posteriormente podemos agregar cualquier palabra que queramos a la\n"
-"columna sin preocuparse por los niveles del factor:"
+"Alternativamente, podemos cambiar un factor a un vector de caracteres; perderemos\n"
+"categorías del factor que son tan prácticas, pero posteriormente podemos agregar cualquier palabra que queramos a la\n"
+"columna sin preocuparnos por los niveles del factor:"
 
 # code block
 #: r-intro-geospatial/_episodes/04-data-structures-part2.md:566
@@ -5945,7 +6160,7 @@ msgid ""
 "`rbind`:"
 msgstr ""
 "Cuando se agregan datos a un dataframe, la clave es recordar que las *columnas son\n"
-"vectores y filas son listas.* También podemos pegar dos dataframes juntos con\n"
+"vectores y filas son listas.* También podemos pegar dos dataframes con\n"
 "`rbind`:"
 
 # code block
@@ -5983,7 +6198,7 @@ msgid ""
 "But now the row names are unnecessarily complicated (not consecutive numbers).\n"
 "We can remove the rownames, and R will automatically re-name them sequentially:"
 msgstr ""
-"Pero ahora los nombres de las filas son innecesariamente complicados (no números consecutivos).\n"
+"Pero ahora los nombres de las filas son innecesariamente complicadas (no son números consecutivos).\n"
 "Podemos eliminar los nombres de las filas, y R automáticamente los renombrará secuencialmente:"
 
 # code block
@@ -6046,22 +6261,22 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-r}\n"
 ">\n"
-"> Crea un dataframe que tenga la información tuya:\n"
+"> Crea un dataframe que tenga ltu información:\n"
 ">\n"
 "> - nombre\n"
 "> - apellido\n"
 "> - número de la suerte\n"
 ">\n"
-"> Luego usa `rbind` para agregar una entrada para las personas que están detrás tuyo. Por último,\n"
+"> Luego usa `rbind` para agregar una entrada para las personas que están cerca tuyo. Por último,\n"
 "> usa `cbind` para agregar una columna con la respuesta de cada persona a la pregunta, \"¿Es\n"
 "> hora de ir por un café?\"\n"
 ">\n"
-"> > ## Solución al Reto 3\n"
+"> > ## Solución al Desafío 3\n"
 "> >\n"
 "> > \n"
 "> > ~~~\n"
 "> > df <- data.frame(first = c(\"Grace\"),\n"
-"> >                  last = c(\"Hopper\"),\n"
+"> >                  last = c(\"Rodriguez\"),\n"
 "> >                  lucky_number = c(0),\n"
 "> >                  stringsAsFactors = FALSE)\n"
 "> > df <- rbind(df, list(\"Marie\", \"Curie\", 238) )\n"
@@ -6097,15 +6312,15 @@ msgstr ""
 "# Please do not edit this file directly; it is auto generated.\n"
 "# Instead, please edit 05-data-subsetting.md in _episodes_rmd/\n"
 "title: Subconjunto de Datos\n"
-"enseñanza: 25\n"
-"ejercicios: 10\n"
-"preguntas:\n"
+"teaching: 25\n"
+"exercises: 10\n"
+"questions:\n"
 "- \"¿Cómo puedo trabajar con subconjuntos de datos en R?\"\n"
-"objetivos:\n"
+"objectives:\n"
 "- \"Para poder obtener subconjunos de vectores y data frames\"\n"
 "- \"Para poder extraer un elemento individual o multiples elementos: por índice, por nombre, usando operadores de comparación\"\n"
 "- \"Para poder saltear y eliminar elementos de varias estructuras de datos.\"\n"
-"Puntos clave:\n"
+"keypoints:\n"
 "- \"El indexado en R empieza en 1, no en 0.\"\n"
 "- \"Accedes a valores individuales por ubicación utilizando `[]`.\"\n"
 "- \"Accedes a porciones de datos utilizando `[bajo:alto]`.\"\n"
@@ -7564,6 +7779,26 @@ msgid ""
 "source: Rmd\n"
 "---"
 msgstr ""
+"---\n"
+"# Please do not edit this file directly; it is auto generated.\n"
+"# Instead, please edit 06-dplyr.md in _episodes_rmd/\n"
+"title: Manipulación de dataframes con dplyr\n"
+"teaching: 30\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"¿Cómo puedo manipular los dataframe sin repetirme?\"\n"
+"objectives:\n"
+"- \" Ser capaz de utilizar los 6 principales 'verbos'  para la manipulación de dataframes con pipes en `dplyr`.\"\n"
+"- \" Entender cómo `group_by()` y `summarize()` pueden combinarse para resumir datasets.\"\n"
+"- \" Ser capaz de analizar un subconjunto de datos usando filtros lógicos.\"\n"
+"keypoints:\n"
+"- \"Usar el paquete `dplyr` para manipular dataframes.\"\n"
+"- \"Usar `select()` para elegir variables dentro de un dataframe.\"\n"
+"- \"Usar `filter()` to elegir datos basados en valores.\"\n"
+"- \"Usar `group_by()` y `summarize()` para trabajar con subconjuntos de datos.\"\n"
+"- \"Usar `mutate()` para crear nuevas variables.\"\n"
+"source: Rmd\n"
+"---"
 
 #: r-intro-geospatial/_episodes/06-dplyr.md:24
 msgid ""
@@ -8153,6 +8388,89 @@ msgid ""
 "> >~~~\n"
 "> >{: .output}"
 msgstr ""
+">\n"
+">\n"
+"> Calcula la esperanza de vida media por país. ¿Qué país tiene la esperanza de vida más \n"
+"> larga and qué país tiene la esperanza de vida más corta?\n"
+">\n"
+"> > ## Solución al Desafío 2\n"
+"> >\n"
+"> >\n"
+"> >~~~\n"
+"> > lifeExp_bycountry <- gapminder %>%\n"
+"> >    group_by(country) %>%\n"
+"> >    summarize(mean_lifeExp=mean(lifeExp))\n"
+"> >~~~\n"
+"> >{: .language-r}\n"
+"> >\n"
+"> >\n"
+"> >\n"
+"> >~~~\n"
+"> >`summarise()` ungrouping output (override with `.groups` argument)\n"
+"> >~~~\n"
+"> >{: .output}\n"
+"> >\n"
+"> >\n"
+"> >\n"
+"> >~~~\n"
+"> > lifeExp_bycountry %>%\n"
+"> >    filter(mean_lifeExp == min(mean_lifeExp) | mean_lifeExp == max(mean_lifeExp))\n"
+"> >~~~\n"
+"> >{: .language-r}\n"
+"> >\n"
+"> >\n"
+"> >\n"
+"> >~~~\n"
+"> ># A tibble: 2 x 2\n"
+"> >  country      mean_lifeExp\n"
+"> >  <chr>               <dbl>\n"
+"> >1 Iceland              76.5\n"
+"> >2 Sierra Leone         36.8\n"
+"> >~~~\n"
+"> >{: .output}\n"
+"> >\n"
+"> > Otra manera de hacer esto, es usar del paquete `dplyr`  la función `arrange()`, que\n"
+"> > ordena las filas en  un data frame según el orden de una o más\n"
+"> > variables del data frame.  Tiene una sintaxis similar a otras funciones \n"
+"> > del paquete `dplyr` . Puedes usar `desc()` dentro de `arrange()` para ordenar en\n"
+"> > forma descendiente.\n"
+"> > \n"
+"> >\n"
+"> >~~~\n"
+"> >lifeExp_bycountry %>%\n"
+"> >    arrange(mean_lifeExp) %>%\n"
+"> >    head(1)\n"
+"> >~~~\n"
+"> >{: .language-r}\n"
+"> >\n"
+"> >\n"
+"> >\n"
+"> >~~~\n"
+"> ># A tibble: 1 x 2\n"
+"> >  country      mean_lifeExp\n"
+"> >  <chr>               <dbl>\n"
+"> >1 Sierra Leone         36.8\n"
+"> >~~~\n"
+"> >{: .output}\n"
+"> >\n"
+"> >\n"
+"> >\n"
+"> >~~~\n"
+"> >lifeExp_bycountry %>%\n"
+"> >    arrange(desc(mean_lifeExp)) %>%\n"
+"> >    head(1)\n"
+"> >~~~\n"
+"> >{: .language-r}\n"
+"> >\n"
+"> >\n"
+"> >\n"
+"> >~~~\n"
+"> ># A tibble: 1 x 2\n"
+"> >  country mean_lifeExp\n"
+"> >  <chr>          <dbl>\n"
+"> >1 Iceland         76.5\n"
+"> >~~~\n"
+"> >{: .output}"
 
 #: r-intro-geospatial/_episodes/06-dplyr.md:382
 msgid ""
@@ -8229,6 +8547,8 @@ msgid ""
 "A very common operation is to count the number of observations for each group.\n"
 "The `dplyr` package comes with two related functions that help with this."
 msgstr ""
+"Una operación muy común es contar el número de observaciones para cada grupo.\n"
+"El paquete `dplyr` tiene dos funciones relacionadas que ayudan con eso."
 
 #: r-intro-geospatial/_episodes/06-dplyr.md:425
 msgid ""
@@ -8237,6 +8557,10 @@ msgid ""
 "of one or more columns that contain the groups we are interested in, and we can\n"
 "optionally sort the results in descending order by adding `sort=TRUE`:"
 msgstr ""
+"Por ejemplo, si quisiésemos verificar el number de países incluidos en el\n"
+"dataset para el año 2002, podríamos usar la función `count()` . Toma los nombres \n"
+"de una o más columnas que contienen los grupos que nos interesan, y opcionalmente\n"
+"podemos ordenar de manera descendente los resultados al agregar `sort=TRUE`:"
 
 # code block
 #: r-intro-geospatial/_episodes/06-dplyr.md:431
@@ -8280,6 +8604,9 @@ msgid ""
 "is useful. For instance, if we wanted to get the standard error of the life\n"
 "expectancy per continent:"
 msgstr ""
+"Si necesitamos utilizar el número de observaciones en cálculos, la función `n()`\n"
+"es útil. Por ejemplo, si quisiésemos obtener el error estándar de la\n"
+"esperanza de vida por continente: "
 
 # code block
 #: r-intro-geospatial/_episodes/06-dplyr.md:455
@@ -8327,6 +8654,10 @@ msgid ""
 "calculating the `minimum`, `maximum`, `mean` and `se` of each continent's "
 "per-country life-expectancy:"
 msgstr ""
+"También puedes encadenar varias operaciones de resumen; en este caso "
+"calculando el `minimum`, `maximum`, `mean` and `se` (mínimo, máximo, "
+"promedio y error estándar) de la esperanza de vida por país para cada "
+"continente:"
 
 # code block
 #: r-intro-geospatial/_episodes/06-dplyr.md:486
@@ -8432,6 +8763,8 @@ msgid ""
 "* [Data Wrangling Cheat sheet](https://www.rstudio.com/wp-"
 "content/uploads/2015/02/data-wrangling-cheatsheet.pdf)"
 msgstr ""
+"* [Hoja de Referencia: Domar Datos ](https://rstudio.com/wp-"
+"content/uploads/2015/03/data-wrangling-spanish.pdf)"
 
 # unordered list
 #: r-intro-geospatial/_episodes/06-dplyr.md:547
@@ -8449,6 +8782,9 @@ msgid ""
 "RStudio](https://www.rstudio.com/resources/webinars/data-wrangling-with-r"
 "-and-rstudio/)"
 msgstr ""
+"* [Domar datos \"**data wrangling**\" con R y RStudio - Link en "
+"Inglés](https://www.rstudio.com/resources/webinars/data-wrangling-with-r"
+"-and-rstudio/)"
 
 # Front Matter
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:1
@@ -8478,9 +8814,9 @@ msgstr ""
 "teaching: 20\n"
 "exercises: 15\n"
 "questions:\n"
-"- \"¿Cuáles son los aspectos básico para crear gráficos en R?\"\n"
+"- \"¿Cuáles son los aspectos básicos para crear gráficos en R?\"\n"
 "objectives:\n"
-"- \"Ser capaz de usar ggplot2 para generar histogramas y gráficos de barras.\"\n"
+"- \"Ser capaz de usar `ggplot2` para generar histogramas y gráficos de barras.\"\n"
 "- \"Aplicar capas geométricas y estéticas a un gráfico de ggplot.\"\n"
 "- \"Manipular la estética de un gráfico usando diferentes colores y parámetros de posición.\"\n"
 "keypoints:\n"
@@ -8503,7 +8839,7 @@ msgid ""
 "start working with geospatial data in the [R for Raster and Vector\n"
 "Data](https://datacarpentry.org/r-raster-vector-geospatial/) lesson."
 msgstr ""
-"Graficar nuestros datos es una de las mejores formas de explorarlos de manera rápida y\n"
+"Graficar nuestros datos es una de las mejores formas de explorarlos de manera rápida y ver\n"
 "relaciones entre diferentes variables. Hay tres sistemas principales para gráficos en R, el\n"
 "[sistema base de gráficos](http://www.statmethods.net/graphs/), el\n"
 "paquete [lattice](http://www.statmethods.net/advgraphs/trellis.html), y el\n"
@@ -8527,9 +8863,9 @@ msgid ""
 "and learn how to customize our plots."
 msgstr ""
 "ggplot2 está basado en la gramática de gráficos, la idea de que cualquier gráfico se puede\n"
-"expresar a partir del mismo conjunto de componentes: un conjunto de **datos**, un **sistema coordenado**\n"
+"expresar a partir del mismo conjunto de componentes: un conjunto de **datos**, un **sistema de coordenadas**\n"
 ", y un conjunto de **geoms**--la representación visual de los puntos de datos. La\n"
-"clave para entender ggplot2 es pensar una figura como capas. Esta idea puede\n"
+"clave para entender ggplot2 es pensar una figura como un conjunto de capas. Esta idea puede\n"
 "ser familiar si has usado programas para edición de imágenes como Photoshop,\n"
 "Illustrator, o Inkscape. En este episodio nos concentraremos en dos geoms\n"
 "- histogramas y gráficos de barras. En la lección [R para Datos Ráster y Vectoriales](https://datacarpentry.org/r-raster-vector-geospatial/) usaremos otros tipos de geoms\n"
@@ -8563,8 +8899,7 @@ msgid ""
 msgstr ""
 "Pasaremos dos argumentos a `ggplot`. Primero, le diremos a\n"
 "`ggplot` qué datos\n"
-"queremos mostrar en nuestra figura, en este ejemplo utilizamos los datos de gapminder que leímos\n"
-"más temprano. Para el segundo argumento pasamos la función `aes ()`, la cual\n"
+"queremos mostrar en nuestra figura, en este ejemplo utilizamos los datos de gapminder que leímos antes. Para el segundo argumento pasamos la función `aes ()`, la cual\n"
 "le dice a `ggplot` cómo se mapean las propiedades estéticas con los datos de \n"
 "la figura. Aquí le diremos a `ggplot` que \n"
 "queremos graficar la columna \"lifeExp\" de la base de datos gapminder en el eje de las x. No necesitamos especificar un eje y \n"
@@ -8599,7 +8934,8 @@ msgstr ""
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:67
 msgid "By itself, the call to `ggplot` isn't enough to draw a figure:"
 msgstr ""
-"Por si misma, la llama a `ggplot` no es suficiente para graficar una figura:"
+"Por si misma, la llamada a `ggplot` no es suficiente para graficar una "
+"figura:"
 
 # code block
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:70
@@ -8631,7 +8967,7 @@ msgid ""
 msgstr ""
 "Necesitamos decirle a  `ggplot` cómo queremos representar visualmente los datos, lo cual \n"
 "hacemos al agregar capas de geom. En nuestro ejemplo, utilizamos `geom_histogram()`, la cual\n"
-"le dice a `ggplot` que queremos representar visualmente la distribución de una varialbe (en nuestro caso \"lifeExp\"):"
+"le dice a `ggplot` que queremos representar visualmente la distribución de una variable (en nuestro caso \"lifeExp\"):"
 
 # code block
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:83
@@ -8696,7 +9032,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> Modifica el ejemplo para que la figura muestre la\n"
-"> distribución del gdp per capita, en lugar de la expectativa \n"
+"> distribución del pib per capita, en lugar de la expectativa \n"
 "> de vida:\n"
 ">\n"
 "> > ## Solución al desafío 1\n"
@@ -8729,7 +9065,7 @@ msgid ""
 msgstr ""
 "Los histogramas son una herramienta útil para visualizar\n"
 "la distribución de una variable categórica. ¿Qué pasa si \n"
-"queremos comparar el pib per cápita de los países en \n"
+"queremos comparar el PIB per cápita de los países en \n"
 "nuestro conjunto de datos? Podemos usar un gráfico de barras (o columnas).\n"
 "Para simplificar nuestro gráfico, miremos datos del año más reciente y sólo de\n"
 "países en América."
@@ -8763,8 +9099,10 @@ msgid ""
 "  geom_col()\n"
 "~~~"
 msgstr ""
+"~~~\n"
 "ggplot(data = gapminder_small, aes(x = country, y = gdpPercap)) + \n"
-"geom_col()"
+"  geom_col()\n"
+"~~~"
 
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:149
 msgid ""
@@ -8772,9 +9110,9 @@ msgid ""
 " hist-subset-gapminder\" alt=\"plot of chunk hist-subset-gapminder\" "
 "width=\"612\" style=\"display: block; margin: auto;\" />"
 msgstr ""
-"<img src=\"{{ site.baseurl }}/fig/rmd-07-hist-subset-gapminder-1.png\" "
-"title=\"plot of chunk hist-subset-gapminder\" alt=\"plot of chunk hist-"
-"subset-gapminder\" style=\"display: block; margin: auto;\" width=\"612\"/>"
+"<img src=\"../fig/rmd-07-hist-subset-gapminder-1.png\" title=\"plot of chunk"
+" hist-subset-gapminder\" alt=\"plot of chunk hist-subset-gapminder\" "
+"width=\"612\" style=\"display: block; margin: auto;\" />"
 
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:151
 msgid ""
@@ -8807,10 +9145,9 @@ msgid ""
 "of chunk hist-subset-gapminder-flipped\" alt=\"plot of chunk hist-subset-"
 "gapminder-flipped\" width=\"612\" style=\"display: block; margin: auto;\" />"
 msgstr ""
-"<img src=\"{{ site.baseurl }}/fig/rmd-07-hist-subset-gapminder-"
-"flipped-1.png\" title=\"plot of chunk hist-subset-gapminder-flipped\" "
-"alt=\"plot of chunk hist-subset-gapminder-flipped\" style=\"display: block; "
-"margin: auto;\" width=\"612\"/>"
+"<img src=\"../fig/rmd-07-hist-subset-gapminder-flipped-1.png\" title=\"plot "
+"of chunk hist-subset-gapminder-flipped\" alt=\"plot of chunk hist-subset-"
+"gapminder-flipped\" width=\"612\" style=\"display: block; margin: auto;\" />"
 
 #: r-intro-geospatial/_episodes/07-plot-ggplot2.md:165
 msgid ""
@@ -8946,7 +9283,7 @@ msgid ""
 "blocks for working with the more complex graphic types and customizations we\n"
 "will be working with in that lesson."
 msgstr ""
-"Los ejemplos en los que hemos trabajado The examples we've worked a través de este episodio deberían darte las bases \n"
+"Los ejemplos en los que hemos trabajado en este episodio deberían darte las bases \n"
 "para trabajar con tipos de gráficos más complejos y personalizaciones \n"
 "con las que vamos a trabajar en esa lección."
 
@@ -9072,9 +9409,9 @@ msgid ""
 "> > {: .language-r}"
 msgstr ""
 ">\n"
-"> Re escribe tu comando 'pdf' para imprimir una segunda\n"
+"> Reescribe tu comando 'pdf' para imprimir una segunda\n"
 "> página en el pdf, mostrando el gráfico side-by-side bar\n"
-"> de gdp per capita en países de las Américas \n"
+"> de pib per cápita en países de las Américas \n"
 "> en los años 1952 y 2007  que creaste en el\n"
 "> episodio previo. \n"
 "> \n"
@@ -9427,7 +9764,7 @@ msgid ""
 "{% endfor %}"
 msgstr ""
 "{% comment %}\n"
-"Create anchor for each one of the episodes.\n"
+"Crear un ancla para cada uno de los episodios\n"
 "{% endcomment %}\n"
 "{% for episode in site.episodes %}\n"
 "<article id=\"{{ episode.url }}\" class=\"figures\"></article>\n"
@@ -9537,6 +9874,8 @@ msgid ""
 "#### [Project Management With RStudio]({{ relative_root_path }}/{% link "
 "_episodes/02-project-intro.md %})"
 msgstr ""
+"#### [Project Management With RStudio]({{ relative_root_path }}/{% link "
+"_episodes/02-project-intro.md %})"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:41
@@ -9549,7 +9888,7 @@ msgstr ""
 
 #: r-intro-geospatial/_extras/guide.md:42
 msgid "to their `data/` directory. "
-msgstr "a sú directorio `data/`"
+msgstr "a su directorio `data/`"
 
 # header
 #: r-intro-geospatial/_extras/guide.md:44
@@ -9557,11 +9896,15 @@ msgid ""
 "#### [Data Structures]({{ relative_root_path }}/{% link _episodes/03-data-"
 "structures-part1.md %})"
 msgstr ""
+"#### [Data Structures]({{ relative_root_path }}/{% link _episodes/03-data-"
+"structures-part1.md %})"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:46
 msgid "* Learners will work with factors in the following lesson. Be sure to "
 msgstr ""
+"* Los alumnos trabajarán con factores en la siguiente lección.\n"
+"Asegúrate de"
 
 #: r-intro-geospatial/_extras/guide.md:47
 msgid ""
@@ -9569,6 +9912,8 @@ msgid ""
 "* If needed for time reasons, you can skip the section on lists. The learners\n"
 "don't use lists in the rest of the workshop."
 msgstr ""
+"cubrir este concepto.\n"
+"* Si por razones de tiempo es necesario, puede saltearse la sección de listas. Las estudiantes no usan listas en el resto del taller."
 
 # header
 #: r-intro-geospatial/_extras/guide.md:51
@@ -9576,6 +9921,8 @@ msgid ""
 "#### [Exploring Data Frames]({{ relative_root_path }}/{% link _episodes/04"
 "-data-structures-part2.md %})"
 msgstr ""
+"#### [Exploring Data Frames]({{ relative_root_path }}/{% link _episodes/04"
+"-data-structures-part2.md %})"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:53
@@ -9583,6 +9930,8 @@ msgid ""
 "* Pay attention to and explain the errors and warnings generated from the "
 "examples in this episode."
 msgstr ""
+"* Presta atención y explica los errores y advertencias generados a partir de"
+" los ejemplos de este episodio."
 
 # header
 #: r-intro-geospatial/_extras/guide.md:55
@@ -9590,11 +9939,13 @@ msgid ""
 "#### [Subsetting Data]({{ relative_root_path }}/{% link _episodes/05-data-"
 "subsetting.md %})"
 msgstr ""
+"#### [Subsetting Data]({{ relative_root_path }}/{% link _episodes/05-data-"
+"subsetting.md %})"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:57
 msgid "* The episode after this one covers the `dplyr` package, which has an "
-msgstr ""
+msgstr "* El episodio siguiente cubre el paquete  `dplyr` , que tiene un"
 
 #: r-intro-geospatial/_extras/guide.md:58
 msgid ""
@@ -9602,6 +9953,9 @@ msgid ""
 "base R subsetting covered here, as `dplyr` won't work in all situations. However,\n"
 "the examples in the rest of the workshop focus on `dplyr` syntax."
 msgstr ""
+"mecanismo alternativo de extraer subconjuntos. Las estudiantes todavía tienen que aprender\n"
+"la extracción de subconjuntos de R base vista aquí, ya que `dplyr` no va a funcionar en todas las situaciones. Sin embargo,\n"
+"los ejemplos del resto del taller se centran en la sintaxis `dplyr`."
 
 # header
 #: r-intro-geospatial/_extras/guide.md:62
@@ -9609,12 +9963,15 @@ msgid ""
 "#### [Dataframe Manipulation with dplyr]({{ relative_root_path }}/{% link "
 "_episodes/06-dplyr.md %})"
 msgstr ""
+"#### [Dataframe Manipulation with dplyr]({{ relative_root_path }}/{% link "
+"_episodes/06-dplyr.md %})"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:64
 msgid ""
 "* Introduce the `dplyr` package as a simpler, more intuitive way of doing"
 msgstr ""
+"* Introduce el paquete `dplyr` como una forma más simple, más intuitiva de "
 
 #: r-intro-geospatial/_extras/guide.md:65
 msgid ""
@@ -9622,6 +9979,9 @@ msgid ""
 "* Unlike other SWC and DC R lessons, this lesson does **not** include data \n"
 "reshaping with `tidyr` as it isn't used in the rest of the workshop."
 msgstr ""
+"extraer subconjuntos. \n"
+"* A diferencia de otras lecciones de R de SWC y DC, esta lección no incluye \n"
+"modificación de datos con `tidyr` ya que no se usa en el resto del taller."
 
 # header
 #: r-intro-geospatial/_extras/guide.md:69
@@ -9629,6 +9989,8 @@ msgid ""
 "#### [Introduction to Visualization]({{ relative_root_path }}/{% link "
 "_episodes/07-plot-ggplot2.md %})"
 msgstr ""
+"#### [Introduction to Visualization]({{ relative_root_path }}/{% link "
+"_episodes/07-plot-ggplot2.md %})"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:71
@@ -9636,6 +9998,8 @@ msgid ""
 "* This episode introduces `geom_col` and `geom_histogram`. These geoms are "
 "used"
 msgstr ""
+"* Este episodio introduce `geom_col` y  `geom_histogram`. Estas geoms se "
+"usan"
 
 #: r-intro-geospatial/_extras/guide.md:72
 msgid ""
@@ -9643,6 +10007,9 @@ msgid ""
 "* Emphasize that we will go much deeper into visualization and creating\n"
 "publication-quality graphics later in the workshop."
 msgstr ""
+"en el resto del taller, junto con geoms específicas para datos geoespaciales.\n"
+"* Enfatiza que iremos mucho más profundo en la visualización y la creación\n"
+"de gráficos con calidad de publicación más tarde en el taller."
 
 # header
 #: r-intro-geospatial/_extras/guide.md:76
@@ -9650,29 +10017,36 @@ msgid ""
 "#### [Writing Data]({{ relative_root_path }}/{% link _episodes/08-writing-"
 "data.md %})"
 msgstr ""
+"#### [Writing Data]({{ relative_root_path }}/{% link _episodes/08-writing-"
+"data.md %})"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:78
 msgid ""
 "* Learners will need to have created the directory structure described in "
 msgstr ""
+"* Las alumnas necesitan haber creado la estructura de directorio descrita en"
+" "
 
 #: r-intro-geospatial/_extras/guide.md:79
 msgid ""
 "[Project Management With RStudio]({{ relative_root_path }}{% link _episodes/02-project-intro.md %}) in order for the code\n"
 "in this episode to work. "
 msgstr ""
+"[Project Management With RStudio]({{ relative_root_path }}{% link _episodes/02-project-intro.md %}) para que el código\n"
+"de este episodio funcione. "
 
 # header
 #: r-intro-geospatial/_extras/guide.md:82
 msgid "#### Concluding remarks"
-msgstr ""
+msgstr "#### Observaciones finales"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:84
 msgid ""
 "* Now that learners know the fundamentals of R, the rest of the workshop"
 msgstr ""
+"* Ahora que las alumnas conocen los fundamentos de R, en el resto del taller"
 
 #: r-intro-geospatial/_extras/guide.md:85
 msgid ""
@@ -9682,17 +10056,20 @@ msgid ""
 "* They will have lots of changes to practice applying and expanding these\n"
 "skills in the next lesson. "
 msgstr ""
+"aplicarán estos conceptos para trabajar con datos geoespaciales en R. \n"
+"* Los paquetes y funciones específicos para trabajar con datos geoespaciales serán el centro del resto del taller. \n"
+"* Tendrán muchos cambios para practicar aplicando y expandiendo esas habilidades en la siguiente lección."
 
 # header
 #: r-intro-geospatial/_extras/guide.md:91
 msgid "## Technical tips and tricks"
-msgstr ""
+msgstr "## Trucos y consejos técnicos"
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:93
 msgid ""
 "* Leave about 30 minutes at the start of each workshop and another 15 mins"
-msgstr ""
+msgstr "* Deje unos 30 minutos al comienzo de cada taller y otros 15 minutos."
 
 #: r-intro-geospatial/_extras/guide.md:94
 msgid ""
@@ -9700,39 +10077,50 @@ msgid ""
 "installing things (even if you asked students to install in advance, longer if\n"
 "not)."
 msgstr ""
+"al inicio de cada sesión por dificultades técnicas como WiFi o\n"
+"instalar cosas (incluso si les pediste a los estudiantes que lo instalaran con anticipación, más tiempo si\n"
+"no)."
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:98
 msgid ""
 "* Be sure to actually go through examples of an R help page: help files"
 msgstr ""
+"* Asegúrate de revisar ejemplos de una página de ayuda de R: archivos de "
+"ayuda"
 
 #: r-intro-geospatial/_extras/guide.md:99
 msgid ""
 "can be intimidating at first, but knowing how to read them is tremendously\n"
 "useful."
 msgstr ""
+"Puede resultar intimidante al principio, pero saber leerlos es tremendamente\n"
+"útil."
 
 # unordered list
 #: r-intro-geospatial/_extras/guide.md:102
 msgid ""
 "* Don't worry about being correct or knowing the material back-to-front. Use"
 msgstr ""
+"* No te preocupe por ser correcto o conocer el material al derecho y al "
+"revé. Úsalo"
 
 #: r-intro-geospatial/_extras/guide.md:103
 msgid ""
 "mistakes as teaching moments: the most vital skill you can impart is how to\n"
 "debug and recover from unexpected errors."
 msgstr ""
+"Errores como momentos de enseñanza: la habilidad más vital que puede impartir es cómo \n"
+"depurar y  recuperarse de errores inesperados."
 
 # header
 #: r-intro-geospatial/_extras/guide.md:106
 msgid "## Common problems"
-msgstr ""
+msgstr "## Problemas comunes"
 
 #: r-intro-geospatial/_extras/guide.md:108
 msgid "TBA - Instructors please add situations you encounter here."
-msgstr ""
+msgstr "TBA - Instructores, aquí agreguen situaciones que encuentren."
 
 # Front Matter
 #: r-intro-geospatial/aio.md:1
