@@ -2,9 +2,9 @@
 
 ## [日本語](README.md)
 
-Please take a look at the [quickstart guide](quickstart.md) if you wish to make small contribution(s).
+Please take a look at the [quickstart guide](docs/quickstart.md) if you wish to make small contribution(s).
 
-Before translating any material, please make sure you comply with the [Guidelines for Translators](TranslatorGuidelines.md) and read the [Rules of Conduct](rules.md).
+Before translating any material, please make sure you comply with the [Guidelines for Translators](docs/TranslatorGuidelines.md) and read the [Rules of Conduct](docs/rules.md).
 
 We encourage translators to [join our slack channel](https://r-wakalang.herokuapp.com/), #swcarpentry in the Tokyo.R workspace. This is a great place to ask any questions you may have about the workflow.
 
@@ -36,13 +36,13 @@ There are a number of free PO editors: [PoEdit](http://www.poedit.net),
 
 ## Importing a lesson for the first time
 
-Lessons are imported as submodules. This only needs to happen once per lesson, so most translators will not need to do this. If you want to import a new lesson, please see the [guide on importing](importing.md).
+Lessons are imported as submodules. This only needs to happen once per lesson, so most translators will not need to do this. If you want to import a new lesson, please see the [guide on importing](docs/importing.md).
 
 ## Contributing to a translation of an existing lesson
 
 **This is the task that we need the most help with from translators!**
 
-This assumes that the lesson has already been added to the `swcarpentry-ja/i18n` as a submodule as described in the [guide on importing](importing.md), and you would like to contribute translations for that lesson.
+This assumes that the lesson has already been added to the `swcarpentry-ja/i18n` as a submodule as described in the [guide on importing](docs/importing.md), and you would like to contribute translations for that lesson.
 
 1. Create a "Fork" for this repository on your personal GitHub account. (Click "Fork" in the top right
   corner of the `https://github.com/swcarpentry-ja/i18n` webpage)
@@ -70,7 +70,7 @@ cd po
 ls git-novice.ja.po
 ```
 
-4. Edit the PO files. [As per the guidelines](rules.md), please commit your changes frequently and submit a pull request when you are satisfied with your work.
+4. Edit the PO files. [As per the guidelines](docs/rules.md), please commit your changes frequently and submit a pull request when you are satisfied with your work.
 
 5. Your PR will be reviewed for accuracy. You may need to make edits so it can pass review. When doing so, always be sure to pull changes from the organisation repository first:
 
@@ -84,7 +84,7 @@ Repeat steps 4 and 5 until the PR passes review.
 
 A few notes:
 
-Editing the PO file will not generate the translated website. That is left to the maintainers, as described in the [guide for maintainers and administrators](admin.md).
+Editing the PO file will not generate the translated website. That is left to the maintainers, as described in the [guide for maintainers and administrators](docs/admin.md).
 
 If you want to see a translated MD file after editing the PO file, run `bash po4gitbook/compile.sh`. This generates a translated version of the lesson with your changes, which you can find at `locale/<lang>/<lesson>`, e.g., `locale/ja/git-novice`.
 
@@ -94,20 +94,20 @@ If there is an existing (complete) translation of the lesson but
   there has a new release of the main English lessons, the updated version
   of the English lessons needs to be merged with the current translated one.
 
-Please see the [guide on updating lessons](updating.md).
+Please see the [guide on updating lessons](docs/updating.md).
 
 ## Resources for translations
 
-Please follow [guidelines for translators](TranslatorGuidelines.md) when editing the lessons.
+Please follow [guidelines for translators](docs/TranslatorGuidelines.md) when editing the lessons.
 
 There is a [list of technical terms](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms) to refer to for ensuring that terms are consistently used between lessons. Please update and refer to this as needed.
 
-Please see the [culture notes](CultureNotes.md) for a standardized treatment of concepts that don't translate literally into Japanese to ensure consistency.
+Please see the [culture notes](docs/CultureNotes.md) for a standardized treatment of concepts that don't translate literally into Japanese to ensure consistency.
 
-We have a [change log](ChangeLog.md) to track progress and goals.
+We have a [change log](docs/ChangeLog.md) to track progress and goals.
 
 ## Guide for maintainers and administrators
 
-Please see the [guide for maintainers and administrators](admin.md)
+Please see the [guide for maintainers and administrators](docs/admin.md)
 
 Thank you for all your help. Even seemingly minor contributions will be appreciated!

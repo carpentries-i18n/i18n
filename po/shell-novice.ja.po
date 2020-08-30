@@ -1,5 +1,5 @@
 # Japanese translation of the Software Carpentry Unix Shell Lesson
-# Copyright (C) 2019 Software Carpentry Foundation; Japanese Translation Team
+# Copyright (C) 2020 Software Carpentry Foundation; Japanese Translation Team
 # This file is distributed under the same license as the PACKAGE package.
 # Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020.
 #
@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-09-15 22:59:57+0900\n"
-"PO-Revision-Date: 2018-10-27 17:18+0900\n"
+"PO-Revision-Date: 2020-05-13 09:57+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
 "Language: ja\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.3\n"
 
 # Front Matter
 #: shell-novice/CONDUCT.md:1
@@ -826,27 +826,27 @@ msgstr "### Background"
 
 #: shell-novice/_episodes/01-intro.md:22
 msgid "At a high level, computers do four things:"
-msgstr "At a high level, computers do four things:"
+msgstr "コンピューターは以下の４つのことを高度におこなっています。"
 
 # unordered list
 #: shell-novice/_episodes/01-intro.md:24
 msgid "-   run programs"
-msgstr "-   run programs"
+msgstr "- プログラムを実行する"
 
 # unordered list
 #: shell-novice/_episodes/01-intro.md:25
 msgid "-   store data"
-msgstr "-   store data"
+msgstr "-  データを保存する"
 
 # unordered list
 #: shell-novice/_episodes/01-intro.md:26
 msgid "-   communicate with each other, and"
-msgstr "-   communicate with each other, and"
+msgstr "-  他のコンピューターとやりとりをする"
 
 # unordered list
 #: shell-novice/_episodes/01-intro.md:27
 msgid "-   interact with us"
-msgstr "-   interact with us"
+msgstr "-   私たちとやりとりをする"
 
 #: shell-novice/_episodes/01-intro.md:29
 msgid ""
@@ -855,10 +855,10 @@ msgid ""
 "While such hardware interfaces are becoming more commonplace, most interaction is still\n"
 "done using screens, mice, touchpads and keyboards."
 msgstr ""
-"They can do the last of these in many different ways,\n"
-"including through a keyboard and mouse, or touch screen interfaces, or speech recognition using systems.\n"
-"While such hardware interfaces are becoming more commonplace, most interaction is still\n"
-"done using screens, mice, touchpads and keyboards."
+"私たちとのやりとりは様々な方法で行います。\n"
+"例えば、キーボードやマウスを使ったり、タッチスクリーンを使ったり、音声認識を使ったりです。\n"
+"このようなハードウェアインターフェイスは一般的になりつつありますが、ほとんどのやりとりはまだ\n"
+"画面とマウスやタッチパッドとキーボードを用いて行われます。"
 
 #: shell-novice/_episodes/01-intro.md:34
 msgid ""
@@ -867,10 +867,10 @@ msgid ""
 "\"click\" translates easily into \"do the thing I want\". But this magic relies on \n"
 "wanting a simple set of things, and having programs that can do exactly those things."
 msgstr ""
-"We are all familiar with **graphical user interfaces** (GUI - windows, icons and pointers). \n"
-"They are easy to learn and fantastic for simple tasks where a vocabulary consisting of\n"
-"\"click\" translates easily into \"do the thing I want\". But this magic relies on \n"
-"wanting a simple set of things, and having programs that can do exactly those things."
+"私たちは皆「グラフィカルユーザーインテーフェイス  (GUI)」とよばれる、ウインドウやアイコンやポインターで操作することに慣れています。\n"
+"それらは簡単になれることができ、単純なタスクをこなすのには適しています。\n"
+"「クリック」は「やりたいことをやってください」を意味します。 \n"
+"しかし、この魔法のような単純さは、やりたいことが単純で、それを行うプログラムが存在していなければなりません。"
 
 #: shell-novice/_episodes/01-intro.md:39
 msgid ""
