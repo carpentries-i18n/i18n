@@ -1556,7 +1556,7 @@ msgid ""
 "Once Git is configured,\n"
 "we can start using it."
 msgstr ""
-"Gitが設定されたら、\n"
+"Gitの設定ができたら、\n"
 "それを使い始めることができます。"
 
 #: git-novice/_episodes/03-create.md:17
