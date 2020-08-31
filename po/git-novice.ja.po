@@ -1590,7 +1590,7 @@ msgid ""
 msgstr ""
 "次に、Gitに`planets`を[リポジトリ]({{ page.root }}/"
 "reference#repository)—\n"
-"Gitがファイルのバージョンを保存できる場所:にするように伝えます。"
+"（Gitがファイルのバージョンを保存できる場所）にするように伝えます。"
 
 # code block
 #: git-novice/_episodes/03-create.md:29
