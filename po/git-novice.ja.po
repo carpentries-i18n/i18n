@@ -1757,7 +1757,7 @@ msgid ""
 "If you are using a different version of `git`, the exact\n"
 "wording of the output might be slightly different."
 msgstr ""
-"異なるバージョンの `git` を使用している場合、\n"
+"使用している`git`のバージョンによって、\n"
 "出力の正確な表現は少し異なっているかもしれません。"
 
 # code block
