@@ -1758,7 +1758,7 @@ msgid ""
 "wording of the output might be slightly different."
 msgstr ""
 "使用している`git`のバージョンによって、\n"
-"出力の正確な表現は少し異なっているかもしれません。"
+"出力の表現が少し異なるかもしれません。"
 
 # code block
 #: git-novice/_episodes/03-create.md:71
