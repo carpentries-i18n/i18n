@@ -3536,7 +3536,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/_episodes/02-project-intro.md:120
 msgid "### Separate function definition and application"
-msgstr "### 関数の定義と適応を分けましょう"
+msgstr "### 関数定義と適用は別々にしましょう"
 
 #: r-novice-gapminder/_episodes/02-project-intro.md:122
 msgid "One of the more effective ways to work with R is to start by writing the code you want to run directly in an .R script, and then running the selected lines (either using the keyboard shortcuts in RStudio or clicking the \"Run\" button) in the interactive R console."
