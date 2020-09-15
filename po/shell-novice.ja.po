@@ -12208,7 +12208,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: shell-novice/index.md:17
 msgid "> ## Prerequisites"
-msgstr "> ## Prerequisites"
+msgstr "> ## 前提条件"
 
 #: shell-novice/index.md:18
 msgid ""

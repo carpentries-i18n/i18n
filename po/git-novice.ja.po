@@ -11089,7 +11089,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: git-novice/index.md:47
 msgid "> ## Prerequisites"
-msgstr "> ## Prerequisites"
+msgstr "> ## 前提条件"
 
 #: git-novice/index.md:48
 msgid ""
