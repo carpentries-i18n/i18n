@@ -1,4 +1,4 @@
-# Japanese translation of the Software Carpentry R for Reproducible Scientific Analysis Lesson
+﻿# Japanese translation of the Software Carpentry R for Reproducible Scientific Analysis Lesson
 # Copyright (C) 2020 Software Carpentry Foundation; Japanese Translation Team
 # This file is distributed under the same license as the PACKAGE package.
 # Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020.
@@ -717,14 +717,13 @@ msgid ""
 "practices for scientific computing: breaking down analyses into modular units,\n"
 "task automation, and encapsulation."
 msgstr ""
-"The goal of this lesson is to teach novice programmers to write modular code\n"
-"and best practices for using R for data analysis. R is commonly used in many\n"
-"scientific disciplines for statistical analysis and its array of third-party\n"
-"packages. We find that many scientists who come to Software Carpentry workshops\n"
-"use R and want to learn more. The emphasis of these materials is to give\n"
-"attendees a strong foundation in the fundamentals of R, and to teach best\n"
-"practices for scientific computing: breaking down analyses into modular units,\n"
-"task automation, and encapsulation."
+"この講座の目的は、プログラム初心者に R を使ったデータ解析のためのモジュラーコードの書き方と、\n"
+"そのベストプラクティスを教えることです。R は多くの科学分野において、\n"
+"統計的解析とそれに伴うサードパーティーパッケージに使用されています。\n"
+"私たちは、ソフトウェアカーペントリーワークショップに参加した多くの科学者が、R を使用し、\n"
+"もっと学びたいと思っていると理解しています。この教材は、参加者に R の基本中の基本を\n"
+"理解してもらうこと、解析をモジュラーユニットに分割することやタスクの自動化、\n"
+"およびカプセル化など、科学的コンピューティングのベストプラクティスを教えることに主眼をおいています。"
 
 #: r-novice-gapminder/README.md:22
 msgid ""
@@ -21129,15 +21128,15 @@ msgstr ""
 
 #: r-novice-gapminder/index.md:6
 msgid "Introduction to R for non-programmers using gapminder data."
-msgstr "ブログラマーでない人のためのgapminderデータ用いたR入門。"
+msgstr "ブログラマーでない人のための gapminder データを用いた R 入門。"
 
 #: r-novice-gapminder/index.md:17
 msgid ""
 "Note that this workshop will focus on teaching the fundamentals of the\n"
 "programming language R, and will not teach statistical analysis."
 msgstr ""
-"このワークショップでは、プログラミング言語Rの基礎を教えることに焦点を当て、\n"
-"統計分析を教えることはないことに注意してください。"
+"このワークショップは、プログラミング言語 R の基礎を教えることが目的であり、\n"
+"統計分析を教えることは含まれていないことに注意してください。"
 
 #: r-novice-gapminder/index.md:22
 msgid ""
@@ -21147,8 +21146,8 @@ msgid ""
 "usability."
 msgstr ""
 "このワークショップでは、さまざまなサードパーティパッケージが使用されています。\n"
-"これらは必ずしも最高のものではなく、包括的でもありませんが、有用であり、\n"
-"使いやすさのために主に選ばれたパッケージです。"
+"これらは必ずしも最高だからという理由ではなく、汎用的という訳でもありませんが、有用であり、\n"
+"主に使いやすさという観点から選ばれたパッケージです。"
 
 #: r-novice-gapminder/index.md:28
 msgid ""
@@ -21158,9 +21157,9 @@ msgid ""
 "> Know how to access files not in the working directory by specifying the path."
 msgstr ""
 ">\n"
-"> コンピュータがデータと命令（プログラムやスクリプト）をファイルに保存することを理解する。\n"
-"> ファイルはディレクトリ（フォルダ）に編成されています。\n"
-"> パスを指定することによって、作業ディレクトリにないファイルにアクセスする方法を理解してください。"
+"> コンピュータがデータと命令（プログラムやスクリプト等）をファイルに保存することを理解していること。\n"
+"> ファイルはディレクトリ（フォルダ）によって構成されていることを理解していること。\n"
+"> パスを指定することによって、作業ディレクトリにないファイルにアクセスする方法を理解していること。"
 
 # Front Matter
 #: r-novice-gapminder/reference.md:1
