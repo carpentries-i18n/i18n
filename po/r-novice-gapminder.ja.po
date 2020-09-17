@@ -21070,7 +21070,7 @@ msgstr "FIXME: home page introduction"
 # blockquote, which can be cascaded
 #: r-novice-gapminder/bin/boilerplate/index.md:8 r-novice-gapminder/index.md:27
 msgid "> ## Prerequisites"
-msgstr "> ## 前提条件"
+msgstr "> ## 予備知識"
 
 #: r-novice-gapminder/bin/boilerplate/index.md:9
 msgid ""

@@ -8696,7 +8696,7 @@ msgstr "FIXME: home page introduction"
 # blockquote, which can be cascaded
 #: sql-novice-survey/bin/boilerplate/index.md:8 sql-novice-survey/index.md:32
 msgid "> ## Prerequisites"
-msgstr "> ## 前提条件"
+msgstr "> ## 予備知識"
 
 #: sql-novice-survey/bin/boilerplate/index.md:9
 msgid ""
