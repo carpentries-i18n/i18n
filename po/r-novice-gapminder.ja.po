@@ -774,8 +774,8 @@ msgstr "* [Riku Takei][rikutakei]"
 #: r-novice-gapminder/README.md:37
 msgid "* [Naupaka Zimmerman][zimmerman_naupaka]"
 msgstr ""
-" [Masami Yamaguchi][masamiy]\n"
-" [Maki Arakaki][rkkmk]"
+"* [Masami Yamaguchi][masamiy]\n"
+"* [Maki Arakaki][rkkmk]"
 
 #: r-novice-gapminder/README.md:39
 msgid ""
