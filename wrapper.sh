@@ -156,6 +156,7 @@ if [[ $create == true ]]; then
     git clone https://github.com/${git_user}/i18n.git
     cd i18n
     fi
+    git pull origin ja
 
     #checkout Japanese branch
     git checkout ja
@@ -420,7 +421,8 @@ if [[ $render == true ]]; then
     echo "run compile on po4gitbook"
     po4gitbook/compile.sh > /dev/null 2>&1
 
-    #commite updates to source PO files
+    #commit updates to source PO files
+    git pull remote-repo ja
     git add -u po/*ja.po
     git commit -m "update PO files"
     git push remote-repo ja
@@ -445,9 +447,8 @@ if [[ $render == true ]]; then
     #git submodule add https://github.com/${git_user}/${repo}-ja.git _locale/ja/$repo
     ##git submodule absorbgitdirs <path>
 
-    #move to external repo
+    #create external ja repo
     mkdir -p ../${repo}-ja
-    rsync -ru locale/ja/${repo}/* ../${repo}-ja
 
     #add update lessons to remote
     cd ../${repo}-ja
@@ -461,6 +462,9 @@ if [[ $render == true ]]; then
         git remote add remote-repo https://github.com/$remote_user/$repo-ja.git 
     fi
     git pull remote-repo master
+
+    #move files to external repo
+    rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
 
     # remove files provided by template
     rm -rf bin/boilerplate
@@ -497,51 +501,80 @@ if [[ $render == true ]]; then
       fi
     done  
 
-   cd ${repo}
-   git add -u
-   git checkout gh-pages
+    #create external repo
+    mkdir -p ../${repo}
 
-   #create lesson in _locale if not existing or update
-   if [ -d ./_locale/ja ]
-     then
-     cd _locale/ja
-     git add -u
-     git commit -m "update Japanese lessons"
-     git pull origin master
-     cd ../..
-   else
-     mkdir -p _locale
-     url="https://github.com/${remote_user}/${repo}-ja.git"
-     git submodule add $url ./_locale/ja
-   fi
-
-   cd _locale/ja
-   if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
-       then
-       git remote remove remote-repo
-   fi
-   remotes=`git remote | grep "remote-repo" | wc -l`
-   if [[ remotes -le 0 ]]; then
-       git remote add remote-repo https://github.com/${remote_user}/$repo-ja.git
-   fi
-   git checkout master
-   git pull remote-repo master
-   cd ../..
- 
-   #push updated _locale lessons to English lesson
-   git add -u
-   git commit -m "update Japanese lessons"
+    #add update lessons to remote
+    cd ../${repo}
+    git init
     if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
-       then
-       git remote remove remote-repo
-   fi
-   remotes=`git remote | grep "remote-repo" | wc -l`
-   if [[ remotes -le 0 ]]; then
-       git remote add remote-repo https://github.com/${remote_user}/$repo.git
-   fi
+        then
+        git remote remove remote-repo
+    fi
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo https://github.com/$remote_user/${repo}.git
+    fi
+    if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]; then
+        git checkout -b gh-pages
+    fi
+    git checkout gh-pages
+    git pull remote-repo gh-pages
+    git submodule update -f --recursive 
 
-   git push remote-repo gh-pages
+    #add changes
+    git add -u
 
-   cd ..
+    #create lesson in _locale if not existing or update
+    if [ -d ./_locale/ja ]
+        then
+        cd _locale/ja
+        git init
+        git checkout master
+        git add -u
+        git commit -m "update Japanese lessons"
+        remotes=`git remote | grep "origin" | wc -l`
+        if [[ remotes -le 0 ]]; then
+            git remote add origin https://github.com/$remote_user/${repo}-ja.git
+        fi
+        git pull origin master
+        pwd
+        cd ../..
+    else
+        mkdir -p _locale
+        url="https://github.com/${remote_user}/${repo}-ja.git"
+        git submodule add $url ./_locale/ja
+    fi
+
+    cd _locale/ja
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo https://github.com/${remote_user}/$repo-ja.git
+    fi
+    git checkout master
+    git pull remote-repo master
+    cd ../..
+ 
+    #push updated _locale lessons to English lesson
+    git checkout gh-pages
+    git pull remote-repo gh-pages
+    git add -u
+    git commit -m "update Japanese lessons"
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo https://github.com/${remote_user}/$repo.git
+    fi
+
+    git push remote-repo gh-pages
+
+    cd ../i18n
 git submodule update -f --recursive  
 fi
