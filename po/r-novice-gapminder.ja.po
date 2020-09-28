@@ -730,8 +730,8 @@ msgid ""
 "Note that this workshop focuses on the fundamentals of the programming\n"
 "language R, and not on statistical analysis."
 msgstr ""
-"Note that this workshop focuses on the fundamentals of the programming\n"
-"language R, and not on statistical analysis."
+"このワークショップは、プログラミング言語 R の基礎を教えることが目的であり、\n"
+"統計分析を教えることは含まれていないことに注意してください。"
 
 #: r-novice-gapminder/README.md:25 r-novice-gapminder/index.md:20
 msgid "The lesson contains more material than can be taught in a day.  The [instructor notes page]({{ page.root }}/guide) has some suggested lesson plans suitable for a one or half day workshop."
