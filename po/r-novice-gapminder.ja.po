@@ -703,8 +703,8 @@ msgstr ""
 "\n"
 "この資料のレンダリング版については、<https://swcarpentry.github.io/r-novice-gapminder>を参照してください。.\n"
 "[レッスンテンプレートのドキュメント][lesson-example]\n"
-"for instructions on formatting, building, and submitting material,\n"
-"or run `make` in this directory for a list of helpful commands."
+"資料のフォーマット、作成、追加するの手順については、\n"
+"このディレクトリでmakeを実行して、役立つコマンドのリストを確認してください。"
 
 #: r-novice-gapminder/README.md:13 r-novice-gapminder/index.md:8
 msgid ""
