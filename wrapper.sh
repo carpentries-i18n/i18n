@@ -473,6 +473,7 @@ if [[ $render == true ]]; then
     git add *
     git commit -m "update lesson files"
     git push remote-repo master
+    echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
 
     #update original lesson to import translated content
     cd ../i18n # or English lesson
@@ -574,7 +575,10 @@ if [[ $render == true ]]; then
     fi
 
     git push remote-repo gh-pages
+    echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
 
     cd ../i18n
 git submodule update -f --recursive  
 fi
+
+echo "run complete!"
