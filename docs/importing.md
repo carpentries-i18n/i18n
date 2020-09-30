@@ -1,4 +1,16 @@
-## Importing a lesson for the first time
+## Importing a lesson
+
+### Automation
+
+This is now automated with the script in the `i18n` repository (for your convenience). Clone or pull the repository and run the following command in the `i18n` directory.
+
+```
+git clone git@github.com:GitHubUser/i18n.git
+cd i18n
+sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --import
+```
+
+### To import a lesson for the first time
 
 If you wish to start a translation of a lesson that has not been translated in your language before,
 please follow these instructions. See the instructions below for if your lesson has an exisiting
