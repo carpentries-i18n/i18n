@@ -1,5 +1,13 @@
 ## Information for Maintainers and Administrators
 
+### Automation
+
+This is now automated with the script in the `i18n` repository. Clone or pull the repository and run the following command in the `i18n` directory.
+
+```
+sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --webpages
+```
+
 ### To update the GitHub pages lessons with Jekyll
 
 This assumes a high level of familiarity with Git, GitHub, and how these lessons have been configured. These tools can be used to
