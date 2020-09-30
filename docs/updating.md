@@ -12,9 +12,7 @@ Note: *this is a work in progress and may not work as expected*
 
 Please test this on a fork on your user account before doing it on the organisation repository.
 
-### To update the GitHub pages lessons with Jekyll
-
-### Contributing to translation of an updated lesson with a new release of the main English lessons
+### To contribute to translation of an updated lesson with a new release of the main English lessons
 
 If there is an existing (complete) translation of the lesson in your language but
   there has a new release of the main English lessons, the new updated version
