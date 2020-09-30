@@ -2,7 +2,7 @@
 
 ### Automation
 
-This will automated with the script in the `i18n` repository. Clone or pull the repository and run the following command in the `i18n` directory.
+This will be automated with the script in the `i18n` repository. Clone or pull the repository and run the following command in the `i18n` directory.
 
 ```
 sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --update
