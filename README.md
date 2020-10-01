@@ -7,11 +7,10 @@
 資料を翻訳する前に、[翻訳者のガイドライン](docs/TranslatorGuidelines.md)と、[行動規則](docs/rules.md)を、読んでください
 
 また、私たちの[Slackワークスペース](http://carpentries-ja.slack.com)に参加してください。
-[#swcarpentryのSlackチャンネル](https://r-wakalang.herokuapp.com/)もございます。
+[#swcarpentryのSlackチャンネル](https://r-wakalang.herokuapp.com/)もあります。
 ここは、翻訳を進める上で発生する疑問に関して質問するのに最適の場所です。
 
-更新の発表のように、私たちのツイッターのアカウント[swcarpentry-ja](https://twitter.com/swcarpentry_ja)を
-自由にフォローしてもらいませんか。
+ツイッターで[swcarpentry-ja](https://twitter.com/swcarpentry_ja)も更新の発表をやっています。ぜひフォローしてください。
 
 ## 目的
 
