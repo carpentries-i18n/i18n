@@ -647,15 +647,15 @@ msgstr ""
 # header
 #: r-novice-gapminder/LICENSE.md:74
 msgid "## Trademark"
-msgstr "## Trademark"
+msgstr "## 商標マーク"
 
 #: r-novice-gapminder/LICENSE.md:76
 msgid ""
 "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
-"\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
-"are registered trademarks of [Community Initiatives][CI]."
+"\"Software Carpentry\"と\"Data Carpentry\" およびそれぞれのロゴは\n"
+"[Community Initiatives][CI]における登録商標または商標です。"
 
 #: r-novice-gapminder/LICENSE.md:79
 msgid ""
@@ -669,7 +669,8 @@ msgstr ""
 "[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
 "[mit-license]: https://opensource.org/licenses/mit-license.html\n"
 "[ci]: http://communityin.org/\n"
-"[osi]: https://opensource.org"
+"[osi]: https://opensource.org\n"
+"[osg]: https://opensource.jp"
 
 #: r-novice-gapminder/README.md:1
 msgid ""
