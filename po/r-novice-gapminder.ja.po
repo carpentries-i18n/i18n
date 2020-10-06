@@ -495,39 +495,39 @@ msgid ""
 msgstr ""
 "All Software Carpentry and Data Carpentry instructional material is\n"
 "made available under the [Creative Commons Attribution\n"
-"license][cc-by-human]. The following is a human-readable summary of\n"
+"license](https://creativecommons.org/licenses/by/4.0/deed.ja). The following is a human-readable summary of\n"
 "(and not a substitute for) the [full legal text of the CC BY 4.0\n"
-"license][cc-by-legal]."
+"license](https://creativecommons.org/licenses/by/4.0/legalcode.ja)."
 
 #: r-novice-gapminder/LICENSE.md:14
 msgid "You are free:"
-msgstr "You are free:"
+msgstr "あなたは以下の条件に従う限り、自由に："
 
 # unordered list
 #: r-novice-gapminder/LICENSE.md:16
 msgid "* to **Share**---copy and redistribute the material in any medium or format"
-msgstr "* to **Share**---copy and redistribute the material in any medium or format"
+msgstr "* **共有**---どのようなメディアやフォーマットでも資料を複製したり、再配布できます"
 
 # unordered list
 #: r-novice-gapminder/LICENSE.md:17
 msgid "* to **Adapt**---remix, transform, and build upon the material"
-msgstr "* to **Adapt**---remix, transform, and build upon the material"
+msgstr "* **翻案**---マテリアルをリミックスしたり、改変したり、別の作品のベースにしたりできます\n"
 
 #: r-novice-gapminder/LICENSE.md:19
 msgid "for any purpose, even commercially."
-msgstr "for any purpose, even commercially."
+msgstr "営利目的も含め、どのような目的でも。"
 
 #: r-novice-gapminder/LICENSE.md:21
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the\n"
 "license terms."
 msgstr ""
-"The licensor cannot revoke these freedoms as long as you follow the\n"
-"license terms."
+"あなたがライセンスの条件に従っている限り、許諾者がこれらの自由を\n"
+"取り消すことはできません。"
 
 #: r-novice-gapminder/LICENSE.md:24
 msgid "Under the following terms:"
-msgstr "Under the following terms:"
+msgstr "あなたの従うべき条件は以下の通りです："
 
 # unordered list
 #: r-novice-gapminder/LICENSE.md:26
