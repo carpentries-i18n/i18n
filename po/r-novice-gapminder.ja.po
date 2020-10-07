@@ -483,7 +483,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/LICENSE.md:6
 msgid "## Instructional Material"
-msgstr "## 授業な材料"
+msgstr "## 教材"
 
 #: r-novice-gapminder/LICENSE.md:8
 msgid ""
@@ -647,7 +647,7 @@ msgstr ""
 # header
 #: r-novice-gapminder/LICENSE.md:74
 msgid "## Trademark"
-msgstr "## 商標マーク"
+msgstr "## 商標"
 
 #: r-novice-gapminder/LICENSE.md:76
 msgid ""
