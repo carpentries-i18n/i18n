@@ -1071,10 +1071,10 @@ msgstr ""
 "teaching: 5\n"
 "exercises: 0\n"
 "questions:\n"
-"- \"Git を使うために必要な設定は？\"\n"
+"- \"Git を使うために必要な設定は何ですか？\"\n"
 "objectives: \n"
-"- \"コンピュータで初めて `git` を使う時に行う設定。\"\n"
-"- \"`--global` 設定フラグの意味を理解する。\"\n"
+"- \"コンピュータで初めて `git` を使うための設定が出来るようになりましょう。\"\n"
+"- \"`--global` 設定フラグの意味を理解しましょう。\"\n"
 "keypoints:\n"
 "-   \"`git config` と `--global` オプションを使い、ユーザー名、メールアドレス、エディタ、その他の設定を行う。\"\n"
 "---"
@@ -1097,7 +1097,7 @@ msgstr "*   名前とメールアドレス、"
 # unordered list
 #: git-novice/_episodes/02-setup.md:19
 msgid "*   what our preferred text editor is,"
-msgstr "*   好みのテキストエディタ、"
+msgstr "*   使用したいテキストエディタ、"
 
 # unordered list
 #: git-novice/_episodes/02-setup.md:20
@@ -1110,9 +1110,9 @@ msgid ""
 "where `verb` is what we actually want to do. So here is how\n"
 "Dracula sets up his new laptop:"
 msgstr ""
-"コマンドラインでは、Git コマンドは `git 動詞` と入力します。\n"
-"ここでの「動詞」は、Git に何をさせたいのかを表します。ドラキュラの場合、\n"
-"このようにしてコンピュータを設定します："
+"コマンドラインでは、Git コマンドは `git <動詞>` と入力します。\n"
+"ここでの「動詞」は、Git に何をさせたいのかを表します。ドラキュラが新しいユーザーの場合、\n"
+"以下のようにコンピュータを設定します："
 
 # code block
 #: git-novice/_episodes/02-setup.md:26
@@ -1217,7 +1217,7 @@ msgstr ""
 "[BitBucket](https://bitbucket.org/)、\n"
 "[GitLab](https://gitlab.com/)、または\n"
 "その他の Git をホストするサーバーに\n"
-"変更箇所を「プッシュ」した際に、これらの情報が使われるからです。"
+"変更箇所を「プッシュ」した（送った）際に、これらの情報が使われるからです。"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/02-setup.md:40
@@ -1373,7 +1373,7 @@ msgid ""
 "`:wq` and hit <kbd>Return</kbd>."
 msgstr ""
 ">\n"
-"> 初期設定では、Vim がデフォルトのテキストエディタに設定されています。保存せずに Vim を終了するには、\n"
+"> 多くのソフトの初期設定では、Vim がデフォルトのテキストエディタに設定されています。保存せずに Vim を終了するには、\n"
 " <kbd>Esc</kbd> キーを押した後に `:q!` と入力してから <kbd>Return</kbd> キーを押してください。\n"
 "> 保存してから終了するには、 <kbd>Esc</kbd> キーを押してから `:wq` と入力して <kbd>Return</kbd> キーを押してください。"
 
@@ -1440,7 +1440,7 @@ msgstr ""
 ">\n"
 "> ネットワーク環境によっては\n"
 "> [プロキシ](https://en.wikipedia.org/wiki/Proxy_server) を使わなければならないかもしれません。\n"
-"> この場合、プロキシの設定もしなければなりません：\n"
+"> この場合、プロキシの設定が必要です：\n"
 ">\n"
 "> ~~~\n"
 "> $ git config --global http.proxy proxy-url\n"
