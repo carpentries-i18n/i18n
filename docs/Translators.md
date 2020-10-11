@@ -21,6 +21,11 @@ Members
   * Lesson organiser and moderator (R gapminder)
   * GitHub: [@rkkmk](https://github.com/rkkmk)
 
+* [Masami Yamaguchi][yamaguchi_masami] (Tokyo, Japan)
+  * Lesson contributor (R gapminder)
+  * GitHub: [@masamiy](https://github.com/masamiy)
+  * Twitter: [@Masami20532423](http://github.com/Masami20532423)
+
 * [Daichi Saito][saito_daichi] (Tokyo, Japan)
   * Lesson contributor (R gapminder)
   * GitHub: [@DaichiSaitoAF](https://github.com/DaichiSaitoAF)

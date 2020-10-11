@@ -1,4 +1,18 @@
-### Contributing to translation of an updated lesson with a new release of the main English lessons
+### Updated lessons to correspond to a new release of the main English lessons
+
+### Automation
+
+This will be automated with the script in the `i18n` repository. Clone or pull the repository and run the following command in the `i18n` directory.
+
+```
+sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --update
+```
+
+Note: *this is a work in progress and may not work as expected*
+
+Please test this on a fork on your user account before doing it on the organisation repository.
+
+### To contribute to translation of an updated lesson with a new release of the main English lessons
 
 If there is an existing (complete) translation of the lesson in your language but
   there has a new release of the main English lessons, the new updated version

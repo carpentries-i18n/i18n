@@ -156,18 +156,23 @@ if [[ $create == true ]]; then
     git clone https://github.com/${git_user}/i18n.git
     cd i18n
     fi
+    git pull origin ja
 
     #checkout Japanese branch
     git checkout ja
-    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
-    git pull swc-ja ja
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    git remote add remote-repo git@github.com:${git_user}/i18n.git
+    git pull remote-repo ja
    
     #import submodules
     git submodule init
-    git submodule import
+    git submodule add git@github.com:${git_user}/${repo}
  
     echo "update local submodules"
-    #git submodule update --recursive --merge
+    git submodule update -f --recursive $repo
 
     #remove _locale directory (only translate English lessons)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -175,24 +180,24 @@ if [[ $create == true ]]; then
         if [ -d $dir ]
             then
             cd $dir
-            if [ `git remote -v | grep "swc-ja" | wc -l` -ge 1 ]
+            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
                 then
-                git remote remove swc-ja
+                git remote remove remote-repo
             fi
             #reset all repos to remote
-            url=https://github.com/swcarpentry-ja/${dir}.git
-            git remote add swc-ja $url
+            url=https://github.com/${git_user}/${dir}.git
+            git remote add remote-repo $url
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
                 git pull master -f
             fi
-            git remote add swc-ja $url                                          
+            git remote add remote-repo $url                                          
             if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]
                 then
                 git branch -D gh-pages
             fi
             git checkout -b gh-pages  `git rev-list HEAD | tail -n 1`
-            git pull swc-ja gh-pages -f
+            git pull remote-repo gh-pages -f
             git add -u
             git commit -m "reset branch"
             git checkout HEAD
@@ -253,7 +258,7 @@ if [[ $create == true ]]; then
     rm po/*.pot
     echo "run compile on po4gitbook to create new lessson"
     po4gitbook/compile.sh  > /dev/null 2>&1
-    echo lesson $repo created in locale/ja/$repo
+    echo lesson $repo created in _locale/ja/$repo
 
     #restore _locale directory (only translate English lessons)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -285,16 +290,20 @@ if [[ $import == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
-    git pull swc-ja ja
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    git remote add remote-repo git@github.com:${git_user}/i18n.git
+    git pull remote-repo ja
    
     #import submodules
     git submodule init
-    git submodule foreach 'git pull swc-ja'       
-    git submodule import
+    git submodule foreach 'git pull remote-repo'       
+    git submodule add git@github.com:${git_user}/${repo}
  
     echo "update local submodules"
-    git submodule update --recursive --remote --merge
+    git submodule update -f --recursive
 
     #remove _locale directory (only translate English lessons)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -302,24 +311,24 @@ if [[ $import == true ]]; then
         if [ -d $dir ]
             then
             cd $dir
-            if [ `git remote -v | grep "swc-ja" | wc -l` -ge 1 ]
+            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
                 then
-                git remote remove swc-ja
+                git remote remove remote-repo
             fi
             #reset all repos to remote
-            url=https://github.com/swcarpentry-ja/${dir}.git
-            git remote add swc-ja $url                                          
+            url=https://github.com/${git_user}/${dir}.git
+            git remote add remote-repo $url                                          
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
                 git pull master -f      
             fi
-            git remote add swc-ja $url
+            git remote add remote-repo $url
             if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]
                 then
                 git branch -D gh-pages
             fi
             git checkout -b gh-pages  `git rev-list HEAD | tail -n 1`
-            git pull swc-ja gh-pages -f
+            git pull remote-repo gh-pages -f
             git add -u
             git commit -m "reset branch"
             git checkout HEAD
@@ -367,15 +376,19 @@ if [[ $render == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
-    git pull swc-ja ja
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    git remote add remote-repo git@github.com:${git_user}/i18n.git
+    git pull remote-repo ja
 
     #import submodules
     git submodule init
-    git submodule import
+    git submodule add git@github.com:${git_user}/${repo}
 
     echo "import local submodules"
-    git submodule import --recursive --remote --merge
+    git submodule update -f --recursive
 
     if [[ ! -z $repo ]]; then
         if [[ -d $repo ]]; then
@@ -408,12 +421,13 @@ if [[ $render == true ]]; then
     echo "run compile on po4gitbook"
     po4gitbook/compile.sh > /dev/null 2>&1
 
-    #commite updates to source PO files
+    #commit updates to source PO files
+    git pull remote-repo ja
     git add -u po/*ja.po
     git commit -m "update PO files"
-    git push swc-ja ja
+    git push remote-repo ja
 
-    echo "translated lessons from  po/${repo}.ja.po  exported to locale/ja/$repo"
+    echo "translated lessons from  po/${repo}.ja.po  exported to _locale/ja/$repo"
 
     #check if remote translated lesson exists 
     lesson_dir=`git ls-remote https://github.com/${git_user}/${repo}-ja.git | grep "master" | wc -l`
@@ -429,65 +443,142 @@ if [[ $render == true ]]; then
         exit 1
     fi
    
-   #create as submodule
-   ##git submodule add https://github.com/${git_user}/${repo}-ja.git locale/ja/$repo
-   ##git submodule absorbgitdirs <path>
+    #create as submodule
+    #git submodule add https://github.com/${git_user}/${repo}-ja.git _locale/ja/$repo
+    ##git submodule absorbgitdirs <path>
 
-   #move to external repo
-   mkdir -p ../${repo}-ja
-   rsync -ru locale/ja/${repo}/* ../${repo}-ja
+    #create external ja repo
+    mkdir -p ../${repo}-ja
 
-   #add update lessons to remote
-   cd ../${repo}-ja
-   git init
-   remotes=`git remote | grep "swc-ja" | wc -l`
-   if [[ remotes -le 0 ]]; then
-       git remote add swc-ja https://github.com/$remote_user/$repo-ja.git 
+    #add update lessons to remote
+    cd ../${repo}-ja
+    git init
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
     fi
-   git pull swc-ja master
-
-   # remove files provided by template
-   rm -rf bin/boilerplate
-   rm -rf _layouts _includes _episodes_rmd assets bin code 
-
-   git add *
-   git commit -m "update lesson files"
-   git push swc-ja master
-
-   #update original lesson to import translated content
-   cd ../i18n # or English lesson
-   git submodule foreach git pull origin master
-
-  #restore locale lessons (only English lessons translated)
-  for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
-    do
-    if [ -d $dir ] 
-      then
-      cd $dir
-      git reset --hard  
-      cd ..
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo https://github.com/$remote_user/$repo-ja.git 
     fi
-  done  
+    git pull remote-repo master
 
-  cd ${repo}
-  git add -u
+    #move files to external repo
+    rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
 
-  #create lesson in locale if not existing or update
-  if [ -d ./locale/ja ]
-    then
-    cd locale/ja
-    git pull origin master
+    # remove files provided by template
+    rm -rf bin/boilerplate
+    rm -rf _layouts _includes _episodes_rmd assets bin code 
+
+    git add *
+    git commit -m "update lesson files"
+    git push remote-repo master
+    echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
+
+    #update original lesson to import translated content
+    cd ../i18n # or English lesson
+    # restore to version from remote
+    git submodule update -f --recursive
+    # import changes from org repo
+    git submodule foreach 'case $name in po4gitbook) ;; *) git checkout gh-pages; git pull -f remote-repo gh-pages ;; esac'
+
+    #restore _locale lessons (only English lessons translated)
+    for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
+      do
+      if [ -d $dir ] 
+        then
+        cd $dir
+        git checkout gh-pages
+        if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+            then
+            git remote remove remote-repo
+        fi
+        remotes=`git remote | grep "remote-repo" | wc -l`
+        if [[ remotes -le 0 ]]; then
+           git remote add remote-repo https://github.com/$remote_user/${dir}.git
+        fi
+        git pull remote-repo gh-pages
+        cd ..
+      fi
+    done  
+
+    #create external repo
+    mkdir -p ../${repo}
+
+    #add update lessons to remote
+    cd ../${repo}
+    git init
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo https://github.com/$remote_user/${repo}.git
+    fi
+    if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]; then
+        git checkout -b gh-pages
+    fi
+    git checkout gh-pages
+    git pull remote-repo gh-pages
+    git submodule update -f --recursive 
+
+    #add changes
+    git add -u
+
+    #create lesson in _locale if not existing or update
+    if [ -d ./_locale/ja ]
+        then
+        cd _locale/ja
+        git init
+        git checkout master
+        git add -u
+        git commit -m "update Japanese lessons"
+        remotes=`git remote | grep "origin" | wc -l`
+        if [[ remotes -le 0 ]]; then
+            git remote add origin https://github.com/$remote_user/${repo}-ja.git
+        fi
+        git pull origin master
+        pwd
+        cd ../..
+    else
+        mkdir -p _locale
+        url="https://github.com/${remote_user}/${repo}-ja.git"
+        git submodule add $url ./_locale/ja
+    fi
+
+    cd _locale/ja
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo https://github.com/${remote_user}/$repo-ja.git
+    fi
+    git checkout master
+    git pull remote-repo master
     cd ../..
-  else
-    mkdir -p locale
-    url="https://github.com/$remote_user/${repo}-ja.git"
-    git submodule add $url ./locale/ja
-  fi
+ 
+    #push updated _locale lessons to English lesson
+    git checkout gh-pages
+    git pull remote-repo gh-pages
+    git add -u
+    git commit -m "update Japanese lessons"
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo https://github.com/${remote_user}/$repo.git
+    fi
 
-  #push updated locale lessons to English lesson
-  git add -u
-  git commit -m "update Japanese lessons"
-  git push swc-ja gh-pages
+    git push remote-repo gh-pages
+    echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
 
-  cd ..
+    cd ../i18n
+git submodule update -f --recursive  
 fi
+
+echo "run complete!"

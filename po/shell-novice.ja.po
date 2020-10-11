@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: Satoshi Yokota <yokota@stanford.edu>\n"
+"Last-Translator: \n"
 "Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
 "Language: ja\n"
 "X-Generator: Poedit 2.3\n"
@@ -12208,7 +12208,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: shell-novice/index.md:17
 msgid "> ## Prerequisites"
-msgstr "> ## Prerequisites"
+msgstr "> ## 予備知識"
 
 #: shell-novice/index.md:18
 msgid ""

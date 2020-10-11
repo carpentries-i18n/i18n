@@ -1,5 +1,13 @@
 ## Information for Maintainers and Administrators
 
+### Automation
+
+This is now automated with the script in the `i18n` repository. Clone or pull the repository and run the following command in the `i18n` directory.
+
+```
+sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --webpages
+```
+
 ### To update the GitHub pages lessons with Jekyll
 
 This assumes a high level of familiarity with Git, GitHub, and how these lessons have been configured. These tools can be used to
@@ -57,7 +65,8 @@ git pull origin gh-pages
 
 6. Sync changes to (master branch of) the pushed submodule files to the original lesson repository
 ```
-git submodule foreach git pull origin master
+git submodule foreach 'case $name in po4gitbook) ;; *) git pull swc-ja gh-pages ;; esac'
+git submodule update --recursive
 ```
 
 7. Commit changes to the submodule to the original lesson

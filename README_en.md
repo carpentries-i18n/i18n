@@ -6,7 +6,11 @@ Please take a look at the [quickstart guide](docs/quickstart.md) if you wish to 
 
 Before translating any material, please make sure you comply with the [Guidelines for Translators](docs/TranslatorGuidelines.md) and read the [Rules of Conduct](docs/rules.md).
 
-We encourage translators to [join our slack channel](https://r-wakalang.herokuapp.com/), #swcarpentry in the Tokyo.R workspace. This is a great place to ask any questions you may have about the workflow.
+We encourage translators to [join our slack workspace](https://carpentries-jp-en.herokuapp.com/).
+We also have a [#swcarpentry slack channel](https://r-wakalang.herokuapp.com/) in the Tokyo.R workspace.
+This is a great place to ask any questions you may have about the workflow.
+
+You can follow our [swcarpentry-ja](https://twitter.com/swcarpentry_ja) twitter account for updates.
 
 ## Purpose
 
