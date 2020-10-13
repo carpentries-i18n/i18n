@@ -4,19 +4,19 @@
 
 ## 始める前に
 
-* このレポジトリにあるファイルは削除しないようにして下さい
-* このプロジェクトに貢献したい場合、このレポジトリをフォーク（コピー）して、プルリクエストにて変更点を提出して下さい
+* このリポジトリにあるファイルは削除しないようにして下さい
+* このプロジェクトに貢献したい場合、このリポジトリをフォーク（コピー）して、プルリクエストにて変更点を提出して下さい
 * 問題点・質問などがあれば、イシュー（Issue）を開いて下さい
 
 ## Git の設定、及び貢献の仕方
 
 1. Gitの最新バージョンをダウンロード、そしてインストールして下さい
-2. 右上にあるフォーク（Fork）ボタンを使って、このレポジトリのコピーを自身のアカウントに作って下さい
-3. フォークしたレポジトリを自身のパソコンにダウンロードして下さい（この操作をクローン（clone）と呼びます）：
+2. 右上にあるフォーク（Fork）ボタンを使って、このリポジトリのコピーを自身のアカウントに作って下さい
+3. フォークしたリポジトリを自身のパソコンにダウンロードして下さい（この操作をクローン（clone）と呼びます）：
 ```
 git clone git@github.com:<github_username>/i18n.git
 ```
-4. オリジナルのレポジトリをリモート（remote）として追加して下さい：
+4. オリジナルのリポジトリをリモート（remote）として追加して下さい：
 ```
 git remote add upstream git@github.com:swcarpentry-ja/i18n.git
 ```
@@ -26,7 +26,7 @@ git remote add upstream git@github.com:swcarpentry-ja/i18n.git
 git add -u
 git commit -m "<replace this commit message with something sensible>"
 ```
-6. 変更点を提出する準備ができたら、オリジナルのレポジトリから最新のバージョンを「引き入れて」（プル（pull）して）下さい：
+6. 変更点を提出する準備ができたら、オリジナルのリポジトリから最新のバージョンを「引き入れて」（プル（pull）して）下さい：
 ```
 git pull upstream ja
 ```
@@ -36,7 +36,7 @@ git pull upstream ja
 git push
 ```
 9. 自身のGitHubからプルリクエストを`swcarpentry-ja`へ提出して下さい
-10. 新しい変更点を追加する場合は、ステップ５と８を自身のレポジトリで繰り返して下さい - 自動的にプルリクエストの内容が変更されます：
+10. 新しい変更点を追加する場合は、ステップ５と８を自身のリポジトリで繰り返して下さい - 自動的にプルリクエストの内容が変更されます：
 ```
 git add -u
 git commit -m "<replace this commit message with something sensible>"
@@ -70,8 +70,8 @@ git checkout -b rikutakei-edit
 git checkout -b git-edit2
 git checkout -b readme-edit
 ```
-2. `swcarpentry-ja`のレポジトリからプルする際に、`--rebase`オプションを使って下さい。
-`--rebase`を使うことによって、自身の変更点を`swcarpentry-ja`レポジトリにある変更点の*後に*持ってくることができます。
+2. `swcarpentry-ja`のリポジトリからプルする際に、`--rebase`オプションを使って下さい。
+`--rebase`を使うことによって、自身の変更点を`swcarpentry-ja`リポジトリにある変更点の*後に*持ってくることができます。
 これによって、マージ・コミット（merge commit；変更点を統合する時に使われるコミットの事）をできるだけ省くことができます。
 英文ですが、 [こちら](http://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commits-in-git/)と[こちら](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)の記事を参考にして下さい。
 ```
