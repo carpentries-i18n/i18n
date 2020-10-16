@@ -601,7 +601,7 @@ msgstr ""
 "provided by <ruby>Software Carpentry<rp>【</rp><rt>ソフトウェアカーペントリー</rt><rp>】</rp></ruby>と\n"
 "<ruby>Data Carpentry<rp>【</rp><rt>データーカーペントリー</rt><rp>】</rp></ruby>は\n"
 "[OSI][osi]の検定済みの\n"
-"[MIT license](https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license)の下で利用可能です。"
+"[MIT ライセンス](https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license)の下で利用可能です。"
 
 #: r-novice-gapminder/LICENSE.md:55
 msgid ""
