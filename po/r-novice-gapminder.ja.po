@@ -600,7 +600,7 @@ msgstr ""
 "特に記載がある場合を除いて、ソフトウェアカーペントリーおよびデータカーペントリーが提供しているサンプルプログラムやソフトウェア\n"
 は、
 "<ruby>Data Carpentry<rp>【</rp><rt>データーカーペントリー</rt><rp>】</rp></ruby>は\n"
-"[OSI][osi]の検定済みの\n"
+"[OSI][osi]が承認した\n"
 "[MIT ライセンス](https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license)の下で利用可能です。"
 
 #: r-novice-gapminder/LICENSE.md:55
