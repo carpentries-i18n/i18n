@@ -476,7 +476,7 @@ msgid ""
 msgstr ""
 "---\n"
 "layout: page\n"
-"title: \"Licenses\"\n"
+"title: \"ライセンス\"\n"
 "root: .\n"
 "---"
 
