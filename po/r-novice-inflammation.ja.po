@@ -334,107 +334,146 @@ msgid "[contact]: mailto:admin@software-carpentry.org\n"
 "[swc-site]: http://software-carpentry.org/"
 msgstr ""
 
-#: r-novice-inflammation/LICENSE.md:1
 # Front Matter
-msgid "---\n"
+#: r-novice-inflammation/LICENSE.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: \"Licenses\"\n"
 "root: .\n"
 "---"
 msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"ライセンス\"\n"
+"root: .\n"
+"---"
 
-#: r-novice-inflammation/LICENSE.md:6
 # header
+#: r-novice-inflammation/LICENSE.md:6
 msgid "## Instructional Material"
-msgstr ""
+msgstr "## 教材"
 
 #: r-novice-inflammation/LICENSE.md:8
-msgid "All Software Carpentry and Data Carpentry instructional material is\n"
+msgid ""
+"All Software Carpentry and Data Carpentry instructional material is\n"
 "made available under the [Creative Commons Attribution\n"
 "license][cc-by-human]. The following is a human-readable summary of\n"
 "(and not a substitute for) the [full legal text of the CC BY 4.0\n"
 "license][cc-by-legal]."
 msgstr ""
+"ソフトウェアカーペントリーとData Carpentryに関する全ての教材は\n"
+"[クリエイティブ・コモンズ 表示ライセンス](https://creativecommons.org/licenses/by/4.0/deed.ja)\n"
+"の下で利用可能です。以下は、\n"
+"[表示4.0 国際(CC BY 4.0)ライセンスの完全な法的テキスト](https://creativecommons.org/licenses/by/4.0/legalcode.ja)の\n"
+"人が読んでわかりやすいようにした要約です。(ライセンスの代わりになるものではありません。）"
 
 #: r-novice-inflammation/LICENSE.md:14
 msgid "You are free:"
-msgstr ""
+msgstr "あなたは以下の条件に従う限り、自由に："
 
+# unordered list
 #: r-novice-inflammation/LICENSE.md:16
-# unordered list
 msgid "* to **Share**---copy and redistribute the material in any medium or format"
-msgstr ""
+msgstr "* **共有**---どのようなメディアやフォーマットでも資料を複製したり、再配布できます"
 
-#: r-novice-inflammation/LICENSE.md:17
 # unordered list
+#: r-novice-inflammation/LICENSE.md:17
 msgid "* to **Adapt**---remix, transform, and build upon the material"
-msgstr ""
+msgstr "* **翻案**---マテリアルをリミックスしたり、改変したり、別の作品のベースにしたりできます\n"
 
 #: r-novice-inflammation/LICENSE.md:19
 msgid "for any purpose, even commercially."
-msgstr ""
+msgstr "営利目的も含め、どのような目的でも。"
 
 #: r-novice-inflammation/LICENSE.md:21
-msgid "The licensor cannot revoke these freedoms as long as you follow the\n"
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the\n"
 "license terms."
 msgstr ""
+"あなたがライセンスの条件に従っている限り、許諾者がこれらの自由を\n"
+"取り消すことはできません。"
 
 #: r-novice-inflammation/LICENSE.md:24
 msgid "Under the following terms:"
-msgstr ""
+msgstr "あなたの従うべき条件は以下の通りです："
 
-#: r-novice-inflammation/LICENSE.md:26
 # unordered list
+#: r-novice-inflammation/LICENSE.md:26
 msgid "* **Attribution**---You must give appropriate credit (mentioning that"
-msgstr ""
+msgstr "* **表示**---あなたは 適切なクレジットを表示し (あなたの作品が"
 
 #: r-novice-inflammation/LICENSE.md:27
-msgid "  your work is derived from work that is Copyright © Software\n"
+msgid ""
+"  your work is derived from work that is Copyright © Software\n"
 "  Carpentry and, where practical, linking to\n"
 "  http://software-carpentry.org/), provide a [link to the\n"
 "  license][cc-by-human], and indicate if changes were made. You may do\n"
 "  so in any reasonable manner, but not in any way that suggests the\n"
 "  licensor endorses you or your use."
 msgstr ""
+"  ソフトウェアカーペントリーの著作物 (Software Carpentry©) から派生していることを記載して、\n"
+"  そして適切な場合は[http://software-carpentry.org](http://software-carpentry.org)へのリンクを表示), \n"
+"  [ライセンスへのリンク](https://creativecommons.org/licenses/by/4.0/deed.ja)を\n"
+"  提供し、変更があったらその旨を示さなければなりません。\n"
+"  これらは合理的であればどのような方法で行っても構いませんが、\n"
+"  許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きます。"
 
 #: r-novice-inflammation/LICENSE.md:34
-msgid "**No additional restrictions**---You may not apply legal terms or\n"
+msgid ""
+"**No additional restrictions**---You may not apply legal terms or\n"
 "technological measures that legally restrict others from doing\n"
 "anything the license permits.  With the understanding that:"
 msgstr ""
+"**追加的な制約は課せません**---あなたは、このライセンスが他の者に\n"
+"許諾することを法的に制限するようないかなる法的規定も技術的手段も\n"
+"適用してはなりません："
 
 #: r-novice-inflammation/LICENSE.md:38
 msgid "Notices:"
-msgstr ""
+msgstr "ご注意："
 
-#: r-novice-inflammation/LICENSE.md:40
 # unordered list
+#: r-novice-inflammation/LICENSE.md:40
 msgid "* You do not have to comply with the license for elements of the"
-msgstr ""
+msgstr "* あなたは、資料の中でパブリック・ドメインに属している部分に関して、"
 
 #: r-novice-inflammation/LICENSE.md:41
-msgid "  material in the public domain or where your use is permitted by an\n"
+msgid ""
+"  material in the public domain or where your use is permitted by an\n"
 "  applicable exception or limitation.\n"
 "* No warranties are given. The license may not give you all of the\n"
 "  permissions necessary for your intended use. For example, other\n"
 "  rights such as publicity, privacy, or moral rights may limit how you\n"
 "  use the material."
 msgstr ""
+"  あるいはあなたの利用が著作権法上の権利制限規定にもとづく場合には、\n"
+"  ライセンスの規定に従う必要はありません。.\n"
+"* 保証は提供されていません。ライセンスはあなたの利用に\n"
+"  必要な全ての許諾を与えないかも知れません。例えば、パブリシティ権、\n"
+"  肖像権、人格権 などの他の諸権利はあなたがどのように資料を利用するかを\n"
+"制限することがあります。"
 
-#: r-novice-inflammation/LICENSE.md:48
 # header
+#: r-novice-inflammation/LICENSE.md:48
 msgid "## Software"
-msgstr ""
+msgstr "## ソフトウェア"
 
 #: r-novice-inflammation/LICENSE.md:50
-msgid "Except where otherwise noted, the example programs and other software\n"
+msgid ""
+"Except where otherwise noted, the example programs and other software\n"
 "provided by Software Carpentry and Data Carpentry are made available under the\n"
 "[OSI][osi]-approved\n"
 "[MIT license][mit-license]."
 msgstr ""
+"特に記載がある場合を除いて、ソフトウェアカーペントリーおよびデータカーペントリーが\n"
+"提供しているサンプルプログラムやソフトウェアは、\n"
+"[OSI][osi]が承認した\n"
+"[MITライセンス](https://ja.osdn.net/projects/opensource/wiki/licenses%2FMIT_license)の下で利用可能です。"
 
 #: r-novice-inflammation/LICENSE.md:55
-msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining\n"
 "a copy of this software and associated documentation files (the\n"
 "\"Software\"), to deal in the Software without restriction, including\n"
 "without limitation the rights to use, copy, modify, merge, publish,\n"
@@ -442,14 +481,23 @@ msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
 "permit persons to whom the Software is furnished to do so, subject to\n"
 "the following conditions:"
 msgstr ""
+"以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル\n"
+"（以下「ソフトウェア」）の複製を取得するすべての人に対し、ソフトウェアを\n"
+"無制限に扱うことを無償で許可します。これには、ソフトウェアの複製を使用、\n"
+"複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する権利、\n"
+"およびソフトウェアを提供する相手に同じことを許可する権利も無制限に含まれます。"
 
 #: r-novice-inflammation/LICENSE.md:63
-msgid "The above copyright notice and this permission notice shall be\n"
+msgid ""
+"The above copyright notice and this permission notice shall be\n"
 "included in all copies or substantial portions of the Software."
 msgstr ""
+"上記の著作権表示および本許諾表示を、ソフトウェアのすべての複製または\n"
+"重要な部分に記載するものとします。"
 
 #: r-novice-inflammation/LICENSE.md:66
-msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
 "EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
 "MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
 "NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
@@ -457,24 +505,41 @@ msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
 "OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
 "WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 msgstr ""
+"ソフトウェアは「現状のまま」で、明示であるか暗黙であるかを問わず、\n"
+"何らの保証もなく提供されます。ここでいう保証とは、商品性、\n"
+"特定の目的への適合性、および権利非侵害についての保証も含みますが、\n"
+"それに限定されるものではありません。 作者または著作権者は、契約行為、\n"
+"不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、\n"
+"あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、\n"
+"損害、その他の義務について何らの責任も負わないものとします。"
 
-#: r-novice-inflammation/LICENSE.md:74
 # header
+#: r-novice-inflammation/LICENSE.md:74
 msgid "## Trademark"
-msgstr ""
+msgstr "## 商標"
 
 #: r-novice-inflammation/LICENSE.md:76
-msgid "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+msgid ""
+"\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
+"\"Software Carpentry\"と\"Data Carpentry\"およびそれぞれのロゴは[Community\n"
+"Initiatives][CI]における登録商標または商標です。"
 
 #: r-novice-inflammation/LICENSE.md:79
-msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+msgid ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
 "[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
 "[mit-license]: https://opensource.org/licenses/mit-license.html\n"
 "[ci]: http://communityin.org/\n"
 "[osi]: https://opensource.org"
 msgstr ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org\n"
+"[osg]: https://opensource.jp"
 
 #: r-novice-inflammation/README.md:1
 msgid "[![Build Status](https://travis-ci.org/swcarpentry/r-novice-inflammation.svg?branch=master)](https://travis-ci.org/swcarpentry/r-novice-inflammation)\n"
