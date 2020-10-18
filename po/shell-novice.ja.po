@@ -9612,15 +9612,7 @@ msgid ""
 "keypoints:\n"
 "- \"`find` finds files with specific properties that match patterns.\"\n"
 "- \"`grep` selects lines in files that match patterns.\"\n"
-<<<<<<< HEAD
-<<<<<<< HEAD
 "- \"`--help` is a flag supported by many bash commands, and programs that can be run from within Bash,\n"
-=======
-"- \"`--help` is a flag supported by many bash commands, and programs that can be run from within Bash, \n"
->>>>>>> 2f062a7... update PO files
-=======
-"- \"`--help` is a flag supported by many bash commands, and programs that can be run from within Bash, \n"
->>>>>>> 2f062a75079ee7031c358d6ce31a17ba645c4fac
 "to display more information on how to use these commands or programs.\"\n"
 "- \"`man command` displays the manual page for a given command.\"\n"
 "- \"`$(command)` inserts a command's output in place.\"\n"
