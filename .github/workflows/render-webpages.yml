@@ -6,7 +6,7 @@ on: push
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  build-webpages
+  build-webpages:
     # Name the Job
     name: Update git lesson
     # Set the type of machine to run on

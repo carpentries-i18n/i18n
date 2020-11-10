@@ -35,10 +35,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Lint markdown files
+        uses: avto-dev/markdown-lint@v1
         with:
           args: './*.md'
 
       - name: Lint markdown docs
+        uses: avto-dev/markdown-lint@v1
         with:
           args: './docs/*md'
 
