@@ -422,11 +422,14 @@ if [[ $render == true ]]; then
     sed -i "4s/, ${past_year}\./, ${past_year}, ${year}./g" po/*po
 
     #create all Japanese lessons
+    mkdir -p _locale
+    mkdir -p _locale/ja    
     echo "run compile on po4gitbook"
     po4gitbook/compile.sh > /dev/null 2>&1
 ls
 ls locale/*
 ls _locale/*
+ls _locale/ja/*
     #commit updates to source PO files
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
