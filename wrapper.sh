@@ -424,9 +424,14 @@ if [[ $render == true ]]; then
     #create all Japanese lessons
     echo "run compile on po4gitbook"
     po4gitbook/compile.sh > /dev/null 2>&1
-
+ls
+ls locale/*
+ls _locale/*
     #commit updates to source PO files
-    git pull remote-repo ja
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -ge 1 ]]; then
+        git pull remote-repo ja
+    fi
     git add -u po/*ja.po
     git commit -m "update PO files"
     remotes=`git remote | grep "remote-repo" | wc -l`
