@@ -475,6 +475,12 @@ if [[ $render == true ]]; then
     fi
 
     #move files to external repo
+    pwd
+    echo "../i18n/locale/ja/"
+    ls ../i18n/locale/ja/*
+    echo "../i18n/locale"
+    ls -lthr ../i18n/locale
+exit 0
     rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
 
     # remove files provided by template
