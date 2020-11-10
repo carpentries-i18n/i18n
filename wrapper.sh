@@ -424,6 +424,7 @@ if [[ $render == true ]]; then
     #create all Japanese lessons
     mkdir -p locale
     mkdir -p locale/ja    
+ls -lhrt  po4gitbook
     echo "run compile on po4gitbook"
 pwd
     po4gitbook/compile.sh > /dev/null 2>&1
