@@ -153,23 +153,23 @@ if [[ $create == true ]]; then
 
     if [[ $wd != "i18n" ]]; then  
     echo "create i18n directory"
-    git clone https://github.com/${git_user}/i18n.git
+    git clone https://github.com/${remote_user}/i18n.git
     cd i18n
     fi
     git pull origin ja
 
     #checkout Japanese branch
     git checkout ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
-        then
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]; then
         git remote remove remote-repo
     fi
-    git remote add remote-repo git@github.com:${git_user}/i18n.git
+    url=https://github.com/${remote_user}/i18n.git
+    git remote add remote-repo $url
     git pull remote-repo ja
    
     #import submodules
     git submodule init
-    git submodule add git@github.com:${git_user}/${repo}
+    git submodule add git@github.com:${remote_user}/${repo}
  
     echo "update local submodules"
     git submodule update -f --recursive $repo
@@ -180,12 +180,12 @@ if [[ $create == true ]]; then
         if [ -d $dir ]
             then
             cd $dir
-            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
                 then
                 git remote remove remote-repo
             fi
             #reset all repos to remote
-            url=https://github.com/${git_user}/${dir}.git
+            url=https://github.com/${remote_user}/${dir}.git
             git remote add remote-repo $url
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
@@ -284,23 +284,23 @@ if [[ $import == true ]]; then
 
     if [[ $wd != "i18n" ]]; then  
     echo "create i18n directory"
-    git clone https://github.com/${git_user}/i18n.git
+    git clone https://github.com/${remote_user}/i18n.git
     cd i18n
     fi
 
     #checkout Japanese branch
     git checkout ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
         then
         git remote remove remote-repo
     fi
-    git remote add remote-repo git@github.com:${git_user}/i18n.git
+    git remote add remote-repo git@github.com:${remote_user}/i18n.git
     git pull remote-repo ja
    
     #import submodules
     git submodule init
     git submodule foreach 'git pull remote-repo'       
-    git submodule add git@github.com:${git_user}/${repo}
+    git submodule add git@github.com:${remote_user}/${repo}
  
     echo "update local submodules"
     git submodule update -f --recursive
@@ -311,12 +311,12 @@ if [[ $import == true ]]; then
         if [ -d $dir ]
             then
             cd $dir
-            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
                 then
                 git remote remove remote-repo
             fi
             #reset all repos to remote
-            url=https://github.com/${git_user}/${dir}.git
+            url=https://github.com/${remote_user}/${dir}.git
             git remote add remote-repo $url                                          
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
@@ -370,22 +370,23 @@ if [[ $render == true ]]; then
 
     if [[ $wd != "i18n" ]]; then
     echo "create i18n directory"
-    git clone https://github.com/${git_user}/i18n.git
+    git clone https://github.com/${remote_user}/i18n.git
     cd i18n
     fi
 
     #checkout Japanese branch
     git checkout ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
         then
         git remote remove remote-repo
     fi
-    git remote add remote-repo git@github.com:${git_user}/i18n.git
+    url=https://github.com/${remote_user}/i18n.git
+    git remote add remote-repo $url
     git pull remote-repo ja
 
     #import submodules
     git submodule init
-    git submodule add git@github.com:${git_user}/${repo}
+    git submodule add git@github.com:${remote_user}/${repo}
 
     echo "import local submodules"
     git submodule update -f --recursive
@@ -453,13 +454,14 @@ if [[ $render == true ]]; then
     #add update lessons to remote
     cd ../${repo}-ja
     git init
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
         then
         git remote remove remote-repo
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
-        git remote add remote-repo https://github.com/$remote_user/$repo-ja.git 
+        url=https://github.com/${remote_user}/${repo}-ja.git
+        git remote add remote-repo $url
     fi
     git pull remote-repo master
 
@@ -489,13 +491,14 @@ if [[ $render == true ]]; then
         then
         cd $dir
         git checkout gh-pages
-        if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
             then
             git remote remove remote-repo
         fi
         remotes=`git remote | grep "remote-repo" | wc -l`
         if [[ remotes -le 0 ]]; then
-           git remote add remote-repo https://github.com/$remote_user/${dir}.git
+            url=https://github.com/${remote_user}/${dir}.git
+            git remote add remote-repo $url
         fi
         git pull remote-repo gh-pages
         cd ..
@@ -508,13 +511,14 @@ if [[ $render == true ]]; then
     #add update lessons to remote
     cd ../${repo}
     git init
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
         then
         git remote remove remote-repo
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
-        git remote add remote-repo https://github.com/$remote_user/${repo}.git
+        url=https://github.com/${remote_user}/${repo}.git
+        git remote add remote-repo $url
     fi
     if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]; then
         git checkout -b gh-pages
@@ -548,7 +552,7 @@ if [[ $render == true ]]; then
     fi
 
     cd _locale/ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
         then
         git remote remove remote-repo
     fi
@@ -565,13 +569,14 @@ if [[ $render == true ]]; then
     git pull remote-repo gh-pages
     git add -u
     git commit -m "update Japanese lessons"
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
         then
         git remote remove remote-repo
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
-        git remote add remote-repo https://github.com/${remote_user}/$repo.git
+        url=https://github.com/${remote_user}/${repo}.git
+        git remote add remote-repo $url
     fi
 
     git push remote-repo gh-pages
