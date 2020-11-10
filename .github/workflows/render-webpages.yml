@@ -29,9 +29,6 @@ jobs:
       - name: install shell dependencies
         run: sudo apt-get install -y git
 
-      - name: install python dependencies
-        run: pip install glob os re time
-
       - name: test args
         run: ls
 
