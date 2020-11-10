@@ -4,7 +4,7 @@
 
 This is now automated with the script in the `i18n` repository (for your convenience). Clone or pull the repository and run the following command in the `i18n` directory.
 
-```
+```bash
 git clone git@github.com:GitHubUser/i18n.git
 cd i18n
 sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --import
@@ -22,7 +22,7 @@ translation and you wish to submit changes or an update.
 2. Clone this repository from your personal account (e.g., GitHubUser). This is your local copy to manage your version of
  the translation files.
 
-```
+```bash
 cd directory
 git clone git@github.com:GitHubUser/i18n.git
 cd i18n
@@ -31,7 +31,7 @@ cd i18n
 If you already have a fork of translation repository, please pull changes for the current
    version from the organisation repository:
 
-```
+```bash
 git checkout ja
 git remote add swc-ja git@github.com:swcarpentry-ja/i18n.git
 git pull swc-ja ja
@@ -40,7 +40,7 @@ git pull swc-ja ja
 
 3. Add a submodule for the lessons that you want to translate
 
-```
+```bash
 git submodule add https://github.com/swcarpentry/git-novice.git
 ```
 
@@ -65,7 +65,7 @@ This generates a translated version of the lessons. Please do not create a git r
   "Guide for Translators" and submit changes to the PO files via Pull Request to GitHub.
 
 Please note that there are files shared between lesson repositories:
-```
+```bash
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
 LICENSE.md

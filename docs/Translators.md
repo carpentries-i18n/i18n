@@ -1,3 +1,5 @@
+# Software Carpentry Japanese Team
+
 Team lead (co-ordinator)
 
 * [Tom Kelly][kelly_tom]: Postdoctoral Researcher (RIKEN IMS, Yokohama, Japan)
@@ -11,7 +13,7 @@ Members
   * GitHub: [@rikutakei](https://github.com/rikutakei)
   * Twitter: [@rikutakei](http://twitter.com/rikutakei)
   
-* [Joel Nitta][nitta_joel]: Postdoctoral Researcher (Smithsonian National Museum of Natural History, Washington DC, USA)
+* [Joel Nitta][nitta_joel]: Assistant Professor (Tokyo University, Tokyo, Japan)
   * Reveiwer and technical support
   * GitHub: [@joelnitta](https://github.com/joelnitta)
   * Twitter: [@joel_nitta](http://twitter.com/joel_nitta)  
@@ -21,7 +23,7 @@ Members
   * Lesson organiser and moderator (R gapminder)
   * GitHub: [@rkkmk](https://github.com/rkkmk)
 
-* [Masami Yamaguchi][yamaguchi_masami] (Tokyo, Japan)
+* [Masami Yamaguchi][yamaguchi_masami] (Brisbane, Australia)
   * Lesson contributor (R gapminder)
   * GitHub: [@masamiy](https://github.com/masamiy)
   * Twitter: [@Masami20532423](http://github.com/Masami20532423)

@@ -4,19 +4,19 @@ This repository uses the tool `git` via the command line. On Linux and Mas OS, t
 
 - Linux Ubuntu-based distros
 
-```
+```bash
 sudo apt-get install git
 ```
 
 - Linux Fedora
 
-```
+```bash
 yum install git
 ```
 
 or
 
-```
+```bash
 sudo dnf install git-all
 ```
 
@@ -26,7 +26,7 @@ Download the `.deb` file for your OS from here:
 
 https://pkgs.org/download/git
 
-```
+```bash
 dpkg -i git_2.11.0-3+deb9u4_amd64.deb
 ```
 
@@ -40,7 +40,7 @@ or
 
 https://mirrors.edge.kernel.org/pub/software/scm/git/
 
-```
+```bash
 tar -zxf git-2.0.0.tar.gz
 cd git-2.0.0
 make configure
@@ -63,6 +63,6 @@ https://git-scm.com/
 
 Install usiing homebrew (requires Xcode): https://docs.brew.sh/Installation
 
-```
+```bash
 brew install git
 ```

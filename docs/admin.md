@@ -4,7 +4,7 @@
 
 This is now automated with the script in the `i18n` repository. Clone or pull the repository and run the following command in the `i18n` directory.
 
-```
+```bash
 sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --webpages
 ```
 
@@ -26,57 +26,57 @@ Note that in order for the lessons to compile the Credit line in the PO files HE
 Please fill in your details or keep these consistent in order to build the new translated lessons.
 
 
-```
+```bash
 git add -u po/*ja.po
 git commit -m "update PO files"
 git push origin ja
 ```
 
 2. Clone the translated lesson repo (to a directory outside the i18n repository)
-```
+```bash
 git clone https://github.com/swcarpentry-ja/git-novice-ja.git
 ```
 Or pull to your copy of this repo
-```
+```bash
 git pull origin master
 ```
 
 3. Move updated translated files to the cloned translated lesson
-```
+```bash
 rsync -ru i18n/locale/ja/git-novice/* git-novice-ja
 ```
 
 4. Commit and push changes to the translated lesson
-```
+```bash
 git add -u *
 git commit -m "update lesson files"
 git push origin master
 ```
 
 6. Clone or pull a copy of the original lesson repo (again outside any existing git repos)
-```
+```bash
 git clone https://github.com/swcarpentry-ja/git-novice.git
 ```
 
 Or pull to your copy of this repo
-```
+```bash
 git pull origin gh-pages
 ```
 
 6. Sync changes to (master branch of) the pushed submodule files to the original lesson repository
-```
+```bash
 git submodule foreach 'case $name in po4gitbook) ;; *) git pull swc-ja gh-pages ;; esac'
 git submodule update --recursive
 ```
 
 7. Commit changes to the submodule to the original lesson
-```
+```bash
 git add -u
 git commit -m "update Japanese lessons"
 ```
 
 8. Push to the lesson repo (or send a pull request)
-```
+```bash
 git push origin gh-pages
 ```
 
