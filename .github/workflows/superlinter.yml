@@ -25,7 +25,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   lint-documentation:
-    name: Lint changelog file
+    name: Lint markdown documentation
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -45,7 +45,7 @@ jobs:
           args: './docs/*md'
 
   lint-scripts:
-    name: Lint changelog file
+    name: Lint shell scripts
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -56,6 +56,6 @@ jobs:
       - name: Check wrapper script
         uses: azohra/shell-linter@latest
         with:
-          path: "./wrappersetup.sh"
+          path: "./wrapper.sh"
       - name: Run shell check
         uses: azohra/shell-linter@latest

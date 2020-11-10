@@ -8,12 +8,14 @@ Team lead (co-ordinator)
 
 Members
 
-* [Riku Takei][takei_riku]: Assistant Research Fellow (University of Otago, Dunedin, New Zealand)
+* [Riku Takei][takei_riku]: Assistant Research Fellow
+  (University of Otago, Dunedin, New Zealand)
   * Lesson organiser and moderator (Git)
   * GitHub: [@rikutakei](https://github.com/rikutakei)
   * Twitter: [@rikutakei](http://twitter.com/rikutakei)
   
-* [Joel Nitta][nitta_joel]: Assistant Professor (Tokyo University, Tokyo, Japan)
+* [Joel Nitta][nitta_joel]: Assistant Professor
+  (Tokyo University, Tokyo, Japan)
   * Reveiwer and technical support
   * GitHub: [@joelnitta](https://github.com/joelnitta)
   * Twitter: [@joel_nitta](http://twitter.com/joel_nitta)  
@@ -53,17 +55,20 @@ Members
   * GitHub: [@manabuishii](https://github.com/manabuishii)
   * Twitter: [@manabuishiirb](http://twitter.com/manabuishiirb)
   
-* [Satoshi Yokota][yokota_sotashi]: Postdoctoral Scholar (Stanford University, School of Medicine, California, USA)
+* [Satoshi Yokota][yokota_sotashi]: Postdoctoral Scholar (Stanford University, 
+School of Medicine, California, USA)
   * Translation contributor and reviewer
   * GitHub: [@megane0-0](https://github.com/megane0-0)
   * Twitter: [@megane0-0](http://twitter.com/megane0-0)
   
-* [Koki Mimura][mimura_koki]: Postdoctoral Researcher (Tokyo University of Agriculture and Technology, Tokyo, Japan)
+* [Koki Mimura][mimura_koki]: Postdoctoral Researcher (Tokyo University of Agri
+culture and Technology, Tokyo, Japan)
   * Advisor on organising events
   * GitHub: [@kilometer0101](https://github.com/kilometer0101)
   * Twitter: [@kilometer00](http://twitter.com/kilometer00)
 
-Please include your GitHub account and any other detail that you wish to be public.
+Please include your GitHub account and any other detail that you wish to be pub
+lic.
 
 * [GivenName FamilyName][family_given]: Job title (Affiliation, location)
   * Role

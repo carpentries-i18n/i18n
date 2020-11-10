@@ -1,6 +1,8 @@
 ### Using git
 
-This repository uses the tool `git` via the command line. On Linux and Mas OS, the `bash` terminal should come pre-installed. `git` may be installed but if not it can be installed as follows:
+This repository uses the tool `git` via the command line. On Linux and Mas OS, 
+the `bash` terminal should come pre-installed. `git` may be installed but if
+not it can be installed as follows:
 
 - Linux Ubuntu-based distros
 

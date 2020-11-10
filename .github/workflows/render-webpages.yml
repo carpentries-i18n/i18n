@@ -32,25 +32,25 @@ jobs:
           args: './wrapper.sh'
 
       - name: Build shell lesson
-        run: sh wrapper.sh --repo shell-novice --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo shell-novice --account swcarpentry-ja --webpages
 
       - name: Build git lesson
-        run: sh wrapper.sh --repo git-novice --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo git-novice --account swcarpentry-ja --webpages
 
       - name: Build R gapminder lesson
-        run: sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --webpages
 
       - name: Build R inflammation lesson
-        run: sh wrapper.sh --repo r-novice-inflammation --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo r-novice-inflammation --account swcarpentry-ja --webpages
 
       - name: Build Python gapminder lesson
-        run: sh wrapper.sh --repo python-novice-gapminder --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo python-novice-gapminder --account swcarpentry-ja --webpages
 
       - name: Build Python inflammation lesson
-        run: sh wrapper.sh --repo python-novice-inflammation --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo python-novice-inflammation --account swcarpentry-ja --webpages
 
       - name: Build make lesson
-        run: sh wrapper.sh --repo make-novice --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo make-novice --account swcarpentry-ja --webpages
 
       - name: Build SQL lesson
-        run: sh wrapper.sh --repo sql-novice-survey --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo sql-novice-survey --account swcarpentry-ja --webpages

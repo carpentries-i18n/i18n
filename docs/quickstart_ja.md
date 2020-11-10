@@ -73,11 +73,13 @@ git checkout -b readme-edit
 2. `swcarpentry-ja`のリポジトリからプルする際に、`--rebase`オプションを使って下さい。
 `--rebase`を使うことによって、自身の変更点を`swcarpentry-ja`リポジトリにある変更点の*後に*持ってくることができます。
 これによって、マージ・コミット（merge commit；変更点を統合する時に使われるコミットの事）をできるだけ省くことができます。
-英文ですが、 [こちら](http://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commits-in-git/)と[こちら](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)の記事を参考にして下さい。
+英文ですが、 [こちら](http://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commit
+s-in-git/)と[こちら](https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/)の記事を参考にして下さい。
 ```bash
 git pull --rebase upstream ja
 ```
-3. 初めてブランチをリモートにプッシュする際は、ブランチのアップストリーム（upstream；「上流」）を同じ名前に設定することをオススメします（これは、リモートに表示されるブランチ名に反映されるからです）。
+3. 初めてブランチをリモートにプッシュする際は、ブランチのアップストリーム（upstream；「上流」）を同じ名前に設定することをオススメします（これは、リ
+モートに表示されるブランチ名に反映されるからです）。
 ```bash
 # 初めてリモートにプッシュする際：
 git push -u origin <your branch name>
@@ -106,8 +108,10 @@ git checkout <branch name>
 
 [翻訳ガイドライン](TranslatorGuidelines.md)を参考に、翻訳内容を統一して下さい。
 
-[単語リスト](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms)
-専門用語の翻訳は、統一性を維持するために[単語リスト](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-terms)を使ってください。
+[単語リスト](https://github.com/swcarpentry-ja/i18n/wiki/Glossary-for-technical-term
+s)
+専門用語の翻訳は、統一性を維持するために[単語リスト](https://github.com/swcarpentry-ja/i18n/wiki/Glossar
+y-for-technical-terms)を使ってください。
 記載されていない場合は随時追加して下さい。
 
 ### 全レッスン共通のファイル
