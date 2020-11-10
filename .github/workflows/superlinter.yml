@@ -1,6 +1,6 @@
 name: Super-Linter
 
-# Run this workflow every time a new commit pushed to your repository
+# Run this workflow every time a new commit pushed to your repository (includes merged PR)
 on: push
 
 jobs:
@@ -21,5 +21,37 @@ jobs:
       - name: Run Super-Linter
         uses: github/super-linter@v3
         env:
-          DEFAULT_BRANCH: master
+          DEFAULT_BRANCH: ja
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  lint-documentation:
+    name: Lint changelog file
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+        env:
+          DEFAULT_BRANCH: ja
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Lint changelog file
+        uses: avto-dev/markdown-lint@v1
+        with:
+          rules: '/lint/rules/changelog.js'
+          config: '/lint/config/changelog.yml'
+          args: './*.md' './docs/*md'
+
+  lint-scripts:
+    name: Lint changelog file
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+        env:
+          DEFAULT_BRANCH: ja
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Lint changelog file
+        uses: lafernando/github-action-bash/@maste
+        with:
+          args: './wrapper.sh'
