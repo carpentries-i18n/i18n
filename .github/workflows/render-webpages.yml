@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
+        lesson-repo: [shell-novice, git-novice, r-novice-gapminder, r-novice-inflammation python-novice-inflammation, python-novice-gapminder, sql-novice-survey, make-novice]
         python-version: [3.7]
-        lesson-repo: [shell-novice, git-novice, r-novice-gapminder, make-novice] #r-novice-inflammation python-novice-inflammation #python-novice-gapminder sql-novice-survey
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
