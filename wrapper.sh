@@ -480,19 +480,6 @@ if [[ $render == true ]]; then
     fi
 
     #move files to external repo
-    pwd
-    echo "ls"
-    ls
-    echo "ls ../*"
-    ls ../*
-    echo "../i18n/"
-    ls ../i18n/*
-    echo "../i18n/locale"
-    ls ../i18n/locale/*
-    echo "../i18n/locale/ja/"
-    ls ../i18n/locale/ja/*
-    echo "../i18n/locale"
-    ls -lthr ../i18n/locale
     rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
 
     # remove files provided by template
@@ -502,7 +489,15 @@ if [[ $render == true ]]; then
     git add *
     git commit -m "update lesson files"
     remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        url=https://github.com/${remote_user}/${repo}-ja.git
+echo hello    
+echo $url
+        git remote add remote-repo $url
+    fi
+    remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
+echo pushed actually
        git push remote-repo master
     fi
     echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
@@ -606,7 +601,7 @@ if [[ $render == true ]]; then
     #push updated _locale lessons to English lesson
     git checkout gh-pages
     git pull remote-repo gh-pages
-    git add -u
+    git add -u 
     git commit -m "update Japanese lessons"
     if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
         then
