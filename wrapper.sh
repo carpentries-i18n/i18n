@@ -389,7 +389,7 @@ if [[ $render == true ]]; then
 
     #import submodules
     git submodule init
-    git submodule add git@github.com:${remote_user}/${repo}
+    git submodule add https://github.com/${remote_user}/${repo}.git
 
     echo "import local submodules"
     git submodule update -f --recursive
@@ -425,10 +425,10 @@ if [[ $render == true ]]; then
     mkdir -p _locale
     mkdir -p _locale/ja    
     echo "run compile on po4gitbook"
+pwd
     po4gitbook/compile.sh > /dev/null 2>&1
-ls
-ls locale/*
 ls _locale/*
+ls _locale/ja
 ls _locale/ja/*
     #commit updates to source PO files
     remotes=`git remote | grep "remote-repo" | wc -l`
