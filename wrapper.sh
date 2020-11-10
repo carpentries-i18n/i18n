@@ -163,7 +163,11 @@ if [[ $create == true ]]; then
     if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]; then
         git remote remove remote-repo
     fi
-    url=https://github.com/${remote_user}/i18n.git
+    if [[ -z $GITHUB_TOKEN ]]; then
+        url=https://github.com/${remote_user}/i18n.git
+    else
+        url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
+    fi
     git remote add remote-repo $url
     git pull remote-repo ja
    
@@ -185,7 +189,11 @@ if [[ $create == true ]]; then
                 git remote remove remote-repo
             fi
             #reset all repos to remote
-            url=https://github.com/${remote_user}/${dir}.git
+            if [[ -z $GITHUB_TOKEN ]]; then
+                url=https://github.com/${remote_user}/${dir}.git
+            else
+                url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${dir}.git"
+            fi
             git remote add remote-repo $url
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
@@ -316,7 +324,11 @@ if [[ $import == true ]]; then
                 git remote remove remote-repo
             fi
             #reset all repos to remote
-            url=https://github.com/${remote_user}/${dir}.git
+            if [[ -z $GITHUB_TOKEN ]]; then
+                url=https://github.com/${remote_user}/${dir}.git
+            else
+                url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
+            fi
             git remote add remote-repo $url                                          
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
                 then
@@ -380,7 +392,11 @@ if [[ $render == true ]]; then
         then
         git remote remove remote-repo
     fi
-    url=https://github.com/${remote_user}/i18n.git
+    if [[ -z $GITHUB_TOKEN ]]; then
+        url=https://github.com/${remote_user}/i18n.git
+    else
+        url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
+    fi
     git remote add remote-repo $url
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
@@ -471,7 +487,11 @@ if [[ $render == true ]]; then
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
-        url=https://github.com/${remote_user}/${repo}-ja.git
+        if [[ -z $GITHUB_TOKEN ]]; then
+            url=https://github.com/${remote_user}/${repo}-ja.git
+        else
+            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+        fi
         git remote add remote-repo $url
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
@@ -490,7 +510,11 @@ if [[ $render == true ]]; then
     git commit -m "update lesson files"
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
-        url=https://github.com/${remote_user}/${repo}-ja.git
+        if [[ -z $GITHUB_TOKEN ]]; then
+            url=https://github.com/${remote_user}/${repo}-ja.git
+        else
+            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+        fi
         git remote add remote-repo $url
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
@@ -521,7 +545,11 @@ echo $remotes
         fi
         remotes=`git remote | grep "remote-repo" | wc -l`
         if [[ remotes -le 0 ]]; then
-            url=https://github.com/${remote_user}/${dir}.git
+            if [[ -z $GITHUB_TOKEN ]]; then
+                url=https://github.com/${remote_user}/${dir}.git
+            else
+                url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${dir}.git"
+            fi
             git remote add remote-repo $url
         fi
         remotes=`git remote | grep "remote-repo" | wc -l`
@@ -544,7 +572,11 @@ echo $remotes
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
-        url=https://github.com/${remote_user}/${repo}.git
+        if [[ -z $GITHUB_TOKEN ]]; then
+            url=https://github.com/${remote_user}/${repo}.git
+        else
+            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
+        fi
         git remote add remote-repo $url
     fi
     if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]; then
@@ -577,7 +609,11 @@ echo $remotes
         cd ../..
     else
         mkdir -p _locale
-        url="https://github.com/${remote_user}/${repo}-ja.git"
+        if [[ -z $GITHUB_TOKEN ]]; then
+            url=https://github.com/${remote_user}/${repo}-ja.git
+        else
+            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+        fi
         git submodule add $url ./_locale/ja
     fi
 
@@ -608,7 +644,11 @@ echo $remotes
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
-        url=https://github.com/${remote_user}/${repo}.git
+        if [[ -z $GITHUB_TOKEN ]]; then
+            url=https://github.com/${remote_user}/${repo}.git
+        else
+            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
+        fi
         git remote add remote-repo $url
     fi
 
