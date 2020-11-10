@@ -34,12 +34,13 @@ jobs:
           DEFAULT_BRANCH: ja
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Lint changelog file
-        uses: avto-dev/markdown-lint@v1
+      - name: Lint markdown files
         with:
-          rules: '/lint/rules/changelog.js'
-          config: '/lint/config/changelog.yml'
-          args: './*.md' './docs/*md'
+          args: './*.md'
+
+      - name: Lint markdown docs
+        with:
+          args: './docs/*md'
 
   lint-scripts:
     name: Lint changelog file
