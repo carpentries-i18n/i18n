@@ -476,6 +476,14 @@ if [[ $render == true ]]; then
 
     #move files to external repo
     pwd
+    echo "ls"
+    ls
+    echo "ls ../*"
+    ls ../*
+    echo "../i18n/"
+    ls ../i18n/*
+    echo "../i18n/locale"
+    ls ../i18n/locale/*
     echo "../i18n/locale/ja/"
     ls ../i18n/locale/ja/*
     echo "../i18n/locale"
