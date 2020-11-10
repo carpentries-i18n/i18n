@@ -424,13 +424,9 @@ if [[ $render == true ]]; then
     #create all Japanese lessons
     mkdir -p locale
     mkdir -p locale/ja    
-ls -lhrt  po4gitbook
     echo "run compile on po4gitbook"
-pwd
     po4gitbook/compile.sh > /dev/null 2>&1
-ls locale/*
-ls locale/ja
-ls locale/ja/*
+
     #commit updates to source PO files
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
@@ -498,7 +494,6 @@ ls locale/ja/*
     echo "../i18n/locale"
     ls -lthr ../i18n/locale
     rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
-exit 0
 
     # remove files provided by template
     rm -rf bin/boilerplate
