@@ -23,6 +23,11 @@ jobs:
       - name: where am i
         run: pwd
 
+      - name: configure git
+        run: export GITHUB_PAT="71a2ebd4be745cd3b36329378c863514534c79e9"
+        run: git config --global user.email "tomkellygenetics@gmail.com"
+        run: git config --global user.name "Tom Kelly"
+
       - name: who am i
         run: git config -l | cat 
 
