@@ -465,7 +465,7 @@ if [[ $render == true ]]; then
     #add update lessons to remote
     cd ../${repo}-ja
     git init
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
@@ -491,13 +491,11 @@ if [[ $render == true ]]; then
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
         url=https://github.com/${remote_user}/${repo}-ja.git
-echo hello    
-echo $url
         git remote add remote-repo $url
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
-echo pushed actually
+echo $remotes
        git push remote-repo master
     fi
     echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
