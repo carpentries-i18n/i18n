@@ -382,7 +382,10 @@ if [[ $render == true ]]; then
     fi
     url=https://github.com/${remote_user}/i18n.git
     git remote add remote-repo $url
-    git pull remote-repo ja
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git pull remote-repo ja
+    fi
 
     #import submodules
     git submodule init
@@ -426,7 +429,10 @@ if [[ $render == true ]]; then
     git pull remote-repo ja
     git add -u po/*ja.po
     git commit -m "update PO files"
-    git push remote-repo ja
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git push remote-repo ja
+    fi
 
     echo "translated lessons from  po/${repo}.ja.po  exported to _locale/ja/$repo"
 
@@ -463,7 +469,10 @@ if [[ $render == true ]]; then
         url=https://github.com/${remote_user}/${repo}-ja.git
         git remote add remote-repo $url
     fi
-    git pull remote-repo master
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git pull remote-repo master
+    fi
 
     #move files to external repo
     rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
@@ -474,7 +483,10 @@ if [[ $render == true ]]; then
 
     git add *
     git commit -m "update lesson files"
-    git push remote-repo master
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+       git push remote-repo master
+    fi
     echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
 
     #update original lesson to import translated content
@@ -500,8 +512,11 @@ if [[ $render == true ]]; then
             url=https://github.com/${remote_user}/${dir}.git
             git remote add remote-repo $url
         fi
-        git pull remote-repo gh-pages
-        cd ..
+        remotes=`git remote | grep "remote-repo" | wc -l`
+        if [[ remotes -le 0 ]]; then
+            git pull remote-repo gh-pages
+         fi
+         cd ..
       fi
     done  
 
@@ -524,8 +539,11 @@ if [[ $render == true ]]; then
         git checkout -b gh-pages
     fi
     git checkout gh-pages
-    git pull remote-repo gh-pages
-    git submodule update -f --recursive 
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git pull remote-repo gh-pages
+        git submodule update -f --recursive 
+    fi
 
     #add changes
     git add -u
@@ -561,7 +579,10 @@ if [[ $render == true ]]; then
         git remote add remote-repo https://github.com/${remote_user}/$repo-ja.git
     fi
     git checkout master
-    git pull remote-repo master
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git pull remote-repo master
+    fi
     cd ../..
  
     #push updated _locale lessons to English lesson
@@ -579,8 +600,11 @@ if [[ $render == true ]]; then
         git remote add remote-repo $url
     fi
 
-    git push remote-repo gh-pages
-    echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git push remote-repo gh-pages
+        echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
+    fi
 
     cd ../i18n
 git submodule update -f --recursive  
