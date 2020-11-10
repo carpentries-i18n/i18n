@@ -166,8 +166,10 @@ if [[ $create == true ]]; then
     if [[ -z $GITHUB_TOKEN ]]; then
         url=https://github.com/${remote_user}/i18n.git
     else
-        url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
+        url="https://${git_user}:${GITHUB_TOKEN}@github.com/${git_user}/i18n.git"
     fi
+echo $git_user
+exit 0
     git remote add remote-repo $url
     git pull remote-repo ja
    
@@ -192,7 +194,7 @@ if [[ $create == true ]]; then
             if [[ -z $GITHUB_TOKEN ]]; then
                 url=https://github.com/${remote_user}/${dir}.git
             else
-                url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${dir}.git"
+                url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${dir}.git"
             fi
             git remote add remote-repo $url
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
@@ -327,7 +329,7 @@ if [[ $import == true ]]; then
             if [[ -z $GITHUB_TOKEN ]]; then
                 url=https://github.com/${remote_user}/${dir}.git
             else
-                url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
+                url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
             fi
             git remote add remote-repo $url                                          
              if [[ `git branch -v | grep "master" | wc -l` -ge 1 ]]
@@ -395,7 +397,7 @@ if [[ $render == true ]]; then
     if [[ -z $GITHUB_TOKEN ]]; then
         url=https://github.com/${remote_user}/i18n.git
     else
-        url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
+        url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/i18n.git"
     fi
     git remote add remote-repo $url
     remotes=`git remote | grep "remote-repo" | wc -l`
@@ -490,7 +492,7 @@ if [[ $render == true ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
             url=https://github.com/${remote_user}/${repo}-ja.git
         else
-            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
         fi
         git remote add remote-repo $url
     fi
@@ -513,7 +515,7 @@ if [[ $render == true ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
             url=https://github.com/${remote_user}/${repo}-ja.git
         else
-            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
         fi
         git remote add remote-repo $url
     fi
@@ -548,7 +550,7 @@ echo $remotes
             if [[ -z $GITHUB_TOKEN ]]; then
                 url=https://github.com/${remote_user}/${dir}.git
             else
-                url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${dir}.git"
+                url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${dir}.git"
             fi
             git remote add remote-repo $url
         fi
@@ -575,7 +577,7 @@ echo $remotes
         if [[ -z $GITHUB_TOKEN ]]; then
             url=https://github.com/${remote_user}/${repo}.git
         else
-            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
         fi
         git remote add remote-repo $url
     fi
@@ -612,7 +614,7 @@ echo $remotes
         if [[ -z $GITHUB_TOKEN ]]; then
             url=https://github.com/${remote_user}/${repo}-ja.git
         else
-            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
         fi
         git submodule add $url ./_locale/ja
     fi
@@ -647,7 +649,7 @@ echo $remotes
         if [[ -z $GITHUB_TOKEN ]]; then
             url=https://github.com/${remote_user}/${repo}.git
         else
-            url="https://${remote_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
         fi
         git remote add remote-repo $url
     fi
