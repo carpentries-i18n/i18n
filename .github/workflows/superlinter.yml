@@ -22,7 +22,7 @@ jobs:
         uses: github/super-linter@v3
         env:
           DEFAULT_BRANCH: ja
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
 
   lint-documentation:
     name: Lint markdown documentation
@@ -32,7 +32,7 @@ jobs:
         uses: actions/checkout@v2
         env:
           DEFAULT_BRANCH: ja
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Lint markdown files
         uses: avto-dev/markdown-lint@v1
@@ -52,7 +52,7 @@ jobs:
         uses: actions/checkout@v2
         env:
           DEFAULT_BRANCH: ja
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
       - name: Check wrapper script
         uses: azohra/shell-linter@latest
         with:

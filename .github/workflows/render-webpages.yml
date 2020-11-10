@@ -44,7 +44,7 @@ jobs:
         run: pwd
 
       - name: configure git access
-        run: export GITHUB_PAT=${{ secrets.GITHUB_TOKEN }}
+        run: export GITHUB_TOKEN=${{ secrets.ACTIONS_TOKEN }}
       - name: configure git account
         run: git config --global user.email "tomkellygenetics@gmail.com"
       - name: configure git user
@@ -64,4 +64,4 @@ jobs:
         run: bash wrapper.sh --repo ${{ matrix.lesson-repo }} --account swcarpentry-ja --webpages
         env:
           DEFAULT_BRANCH: ja
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
