@@ -52,17 +52,17 @@ jobs:
       - name: Build R gapminder lesson
         run: bash wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --webpages
 
-      - name: Build R inflammation lesson
-        run: bash wrapper.sh --repo r-novice-inflammation --account swcarpentry-ja --webpages
-
-      - name: Build Python gapminder lesson
-        run: bash wrapper.sh --repo python-novice-gapminder --account swcarpentry-ja --webpages
-
-      - name: Build Python inflammation lesson
-        run: bash wrapper.sh --repo python-novice-inflammation --account swcarpentry-ja --webpages
-
-      - name: Build make lesson
-        run: bash wrapper.sh --repo make-novice --account swcarpentry-ja --webpages
-
-      - name: Build SQL lesson
-        run: bash wrapper.sh --repo sql-novice-survey --account swcarpentry-ja --webpages
+#      - name: Build R inflammation lesson
+#        run: bash wrapper.sh --repo r-novice-inflammation --account swcarpentry-ja --webpages
+#
+#      - name: Build Python gapminder lesson
+#        run: bash wrapper.sh --repo python-novice-gapminder --account swcarpentry-ja --webpages
+#
+#      - name: Build Python inflammation lesson
+#        run: bash wrapper.sh --repo python-novice-inflammation --account swcarpentry-ja --webpages
+#
+#      - name: Build make lesson
+#        run: bash wrapper.sh --repo make-novice --account swcarpentry-ja --webpages
+#
+#      - name: Build SQL lesson
+#        run: bash wrapper.sh --repo sql-novice-survey --account swcarpentry-ja --webpages
