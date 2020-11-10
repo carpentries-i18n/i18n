@@ -64,4 +64,6 @@ jobs:
         run: bash wrapper.sh --repo ${{ matrix.lesson-repo }} --account swcarpentry-ja --webpages
         env:
           DEFAULT_BRANCH: ja
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
+          GITHUB_TOKEN: aabbcc
+
+#          GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
