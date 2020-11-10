@@ -383,7 +383,7 @@ if [[ $render == true ]]; then
     url=https://github.com/${remote_user}/i18n.git
     git remote add remote-repo $url
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
         git pull remote-repo ja
     fi
 
@@ -430,7 +430,7 @@ if [[ $render == true ]]; then
     git add -u po/*ja.po
     git commit -m "update PO files"
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
         git push remote-repo ja
     fi
 
@@ -470,7 +470,7 @@ if [[ $render == true ]]; then
         git remote add remote-repo $url
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
         git pull remote-repo master
     fi
 
@@ -488,8 +488,8 @@ if [[ $render == true ]]; then
     ls ../i18n/locale/ja/*
     echo "../i18n/locale"
     ls -lthr ../i18n/locale
-exit 0
     rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
+exit 0
 
     # remove files provided by template
     rm -rf bin/boilerplate
@@ -498,7 +498,7 @@ exit 0
     git add *
     git commit -m "update lesson files"
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
        git push remote-repo master
     fi
     echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
@@ -527,7 +527,7 @@ exit 0
             git remote add remote-repo $url
         fi
         remotes=`git remote | grep "remote-repo" | wc -l`
-        if [[ remotes -le 0 ]]; then
+        if [[ remotes -ge 1 ]]; then
             git pull remote-repo gh-pages
          fi
          cd ..
@@ -545,7 +545,7 @@ exit 0
         git remote remove remote-repo
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
         url=https://github.com/${remote_user}/${repo}.git
         git remote add remote-repo $url
     fi
@@ -554,7 +554,7 @@ exit 0
     fi
     git checkout gh-pages
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
         git pull remote-repo gh-pages
         git submodule update -f --recursive 
     fi
@@ -594,7 +594,7 @@ exit 0
     fi
     git checkout master
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
         git pull remote-repo master
     fi
     cd ../..
@@ -615,7 +615,7 @@ exit 0
     fi
 
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
+    if [[ remotes -ge 1 ]]; then
         git push remote-repo gh-pages
         echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
     fi
