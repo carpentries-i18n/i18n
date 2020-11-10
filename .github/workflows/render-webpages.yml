@@ -32,6 +32,8 @@ jobs:
         run: git config --global user.email "tomkellygenetics@gmail.com"
       - name: configure git user
         run: git config --global user.name "Tom Kelly"
+      -name: configure git settings
+        run: git config pull.rebase false 
 
       - name: who am i
         run: git config -l | cat 
