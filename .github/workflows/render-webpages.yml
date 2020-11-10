@@ -8,12 +8,12 @@ jobs:
   # when a job name is not provided
   build-webpages:
     # Name the Job
-    name: Update git lesson
+    name: Update lessons
     # Set the type of machine to run on
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        lesson-repo: [shell-novice, git-novice, r-novice-gapminder, r-novice-inflammation python-novice-inflammation, python-novice-gapminder, sql-novice-survey, make-novice]
+        lesson-repo: [shell-novice, git-novice, r-novice-gapminder, r-novice-inflammation, python-novice-gapminder, python-novice-inflammation, sql-novice-survey, make-novice]
         python-version: [3.7]
 
     steps:
