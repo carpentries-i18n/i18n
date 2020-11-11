@@ -37,14 +37,14 @@ jobs:
       - name: install python dependencies
         run: pip install python-dateutil 
 
-      - name: set working directory
-        run: cd ..
-
       - name: where am i
         run: pwd
 
       - name: list files
         run: ls
+
+      - name: list parent files
+        run: ls ..
 
       - name: configure git access
         run: export GITHUB_TOKEN=${{ secrets.ACTIONS_TOKEN }}
