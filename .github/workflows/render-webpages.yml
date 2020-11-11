@@ -37,11 +37,14 @@ jobs:
       - name: install python dependencies
         run: pip install python-dateutil 
 
-      - name: test args
-        run: ls
+      - name: set working directory
+        run: ..
 
       - name: where am i
         run: pwd
+
+      - name: list files
+        run: ls
 
       - name: configure git access
         run: export GITHUB_TOKEN=${{ secrets.ACTIONS_TOKEN }}
@@ -54,11 +57,6 @@ jobs:
 
       - name: who am i
         run: git config -l | cat 
-
-      - name: Run wrapper
-        uses: lafernando/github-action-bash/@master
-        with:
-          args: './wrapper.sh'
 
       - name: Build ${{ matrix.lesson-repo }} lesson
         run: bash wrapper.sh --repo ${{ matrix.lesson-repo }} --account swcarpentry-ja --webpages

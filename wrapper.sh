@@ -521,8 +521,6 @@ if [[ $render == true ]]; then
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
-git remote -v
-echo $remotes
        git push remote-repo master
     fi
     echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
