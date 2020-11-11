@@ -603,22 +603,35 @@ if [[ $render == true ]]; then
     git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
 
     cd _locale/ja
-#    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
-#        then
-#        git remote remove remote-repo
-#    fi
-#    remotes=`git remote | grep "remote-repo" | wc -l`
-#    if [[ remotes -le 0 ]]; then
-#        git remote add remote-repo  https://github.com/${remote_user}/${repo}-ja.git
-#    fi
+pwd
+echo 1
+    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
+        then
+        git remote remove remote-repo
+    fi
+echo 2
+    remotes=`git remote | grep "remote-repo" | wc -l`
+    if [[ remotes -le 0 ]]; then
+        git remote add remote-repo  https://github.com/${remote_user}/${repo}-ja.git
+    fi
+echo 3
+git branch | cat
     if [[ `git branch -v | grep "master" | wc -l` -le 0 ]]; then
          git checkout -b master
     fi
+echo 4
     git checkout master
+echo 5
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
         git pull remote-repo master
     fi
+echo 6
+    if [[ `git branch -v | grep "master" | wc -l` -le 0 ]]; then
+         git checkout -b master
+    fi
+echo 6
+    git checkout master
     cd ../..
     #push updated _locale lessons to English lesson
     git checkout gh-pages
