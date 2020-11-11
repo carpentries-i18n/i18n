@@ -530,9 +530,9 @@ if [[ $render == true ]]; then
     # restore to version from remote
     git submodule update -f --recursive
     # import changes from org repo
-    git submodule foreach 'case $name in po4gitbook) ;; *) git checkout gh-pages; git pull -f remote-repo gh-pages ;; esac'
-
-    #restore _locale lessons (only English lessons translated)
+#    git submodule foreach 'case $name in po4gitbook) ;; *) git checkout gh-pages; git pull -f remote-repo gh-pages ;; esac'
+#
+#    #restore _locale lessons (only English lessons translated)
 #    for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
 #      do
 #      if [ -d $dir ] 
@@ -574,6 +574,7 @@ if [[ $render == true ]]; then
         else
             url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
         fi
+echo $url
         git remote add remote-repo $url
     fi
 echo 4
