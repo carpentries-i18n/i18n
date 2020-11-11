@@ -604,6 +604,8 @@ echo 5
     #add changes
     git add -u
 
+    git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
+
     #create lesson in _locale if not existing or update
     if [ -d ./_locale/ja ]
         then
