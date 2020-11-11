@@ -38,7 +38,7 @@ jobs:
         run: pip install python-dateutil 
 
       - name: set working directory
-        run: ..
+        run: cd ..
 
       - name: where am i
         run: pwd
