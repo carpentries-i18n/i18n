@@ -611,6 +611,9 @@ if [[ $render == true ]]; then
 #    if [[ remotes -le 0 ]]; then
 #        git remote add remote-repo  https://github.com/${remote_user}/${repo}-ja.git
 #    fi
+    if [[ `git branch -v | grep "master" | wc -l` -le 0 ]]; then
+         git checkout -b master
+    fi
     git checkout master
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
