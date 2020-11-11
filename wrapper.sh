@@ -310,7 +310,7 @@ if [[ $import == true ]]; then
     #import submodules
     git submodule init
     git submodule foreach 'git pull remote-repo'       
-    git submodule add git@github.com:${remote_user}/${repo}
+    git submodule add https://github.com/${remote_user}/${repo}.git
  
     echo "update local submodules"
     git submodule update -f --recursive
@@ -589,6 +589,7 @@ if [[ $render == true ]]; then
         git checkout HEAD _config.yml
         git add _config.yml
         git commit -m "merge conflicts"
+head -n 20 _config.yml
         git submodule update -f --recursive 
     fi
 
@@ -612,18 +613,18 @@ if [[ $render == true ]]; then
         cd ../..
     else
         mkdir -p _locale
-        git submodule add git@github.com:${remote_user}-ja/{repo}-ja.git ./_locale/ja
+        git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
     fi
 
     cd _locale/ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
-        then
-        git remote remove remote-repo
-    fi
-    remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -le 0 ]]; then
-        git remote add remote-repo https://github.com/${remote_user}/$repo-ja.git
-    fi
+#    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+#        then
+#        git remote remove remote-repo
+#    fi
+#    remotes=`git remote | grep "remote-repo" | wc -l`
+#    if [[ remotes -le 0 ]]; then
+#        git remote add remote-repo  https://github.com/${remote_user}/${repo}-ja.git
+#    fi
     git checkout master
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
