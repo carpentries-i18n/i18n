@@ -563,7 +563,7 @@ if [[ $render == true ]]; then
         else
             url=$(echo "https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git")
         fi
-        git clone -b gh-pages $url
+        git clone -b gh-pages $url ../${repo}
     fi
 
     #create external repo
