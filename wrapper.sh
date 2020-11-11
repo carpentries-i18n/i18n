@@ -221,7 +221,7 @@ exit 0
         if [[ -d $repo ]]; then
             echo submodule $repo found
         else
-            git submodule add https://github.com/swcarpentry/${repo}.git
+            git submodule add git@github.com:${remote_user}-ja/{repo}.git
         fi
     fi
     if [[ -z $repo ]];then
@@ -539,7 +539,7 @@ if [[ $render == true ]]; then
         then
         cd $dir
         git checkout gh-pages
-        if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+        if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
             then
             git remote remove remote-repo
         fi
@@ -566,7 +566,7 @@ if [[ $render == true ]]; then
     #add update lessons to remote
     cd ../${repo}
     git init
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
@@ -605,23 +605,18 @@ if [[ $render == true ]]; then
         git commit -m "update Japanese lessons"
         remotes=`git remote | grep "origin" | wc -l`
         if [[ remotes -le 0 ]]; then
-            git remote add origin https://github.com/$remote_user/${repo}-ja.git
+            git remote add origin https://github.com/${remote_user}/${repo}-ja.git
         fi
         git pull origin master
         pwd
         cd ../..
     else
         mkdir -p _locale
-        if [[ -z $GITHUB_TOKEN ]]; then
-            url=https://github.com/${remote_user}/${repo}-ja.git
-        else
-            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
-        fi
-        git submodule add $url ./_locale/ja
+        git submodule add git@github.com:${remote_user}-ja/{repo}-ja.git ./_locale/ja
     fi
 
     cd _locale/ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
@@ -641,7 +636,7 @@ if [[ $render == true ]]; then
     git pull remote-repo gh-pages
     git add -u 
     git commit -m "update Japanese lessons"
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
