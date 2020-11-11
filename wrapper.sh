@@ -530,14 +530,16 @@ if [[ $render == true ]]; then
     # restore to version from remote
     git submodule update -f --recursive
     # import changes from org repo
+echo 1
     git submodule foreach 'case $name in po4gitbook) ;; *) git checkout gh-pages; git pull -f remote-repo gh-pages ;; esac'
-
+echo 2
     #restore _locale lessons (only English lessons translated)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
       do
       if [ -d $dir ] 
         then
         cd $dir
+pwd
         git checkout gh-pages
         if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
             then
@@ -545,21 +547,17 @@ if [[ $render == true ]]; then
         fi
         remotes=`git remote | grep "remote-repo" | wc -l`
         if [[ remotes -le 0 ]]; then
-            if [[ -z $GITHUB_TOKEN ]]; then
-                url=https://github.com/${remote_user}/${dir}.git
-            else
-                url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${dir}.git"
-            fi
-            git remote add remote-repo $url
+            url=https://github.com/${remote_user}/${dir}.git
         fi
+        git remote add remote-repo $url
         remotes=`git remote | grep "remote-repo" | wc -l`
         if [[ remotes -ge 1 ]]; then
             git pull remote-repo gh-pages
-         fi
-         cd ..
+        fi
+        cd ..
       fi
     done  
-
+echo 3
     #create external repo
     mkdir -p ../${repo}
 
@@ -579,6 +577,8 @@ if [[ $render == true ]]; then
         fi
         git remote add remote-repo $url
     fi
+echo 4
+pwd
     if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]; then
         git checkout -b gh-pages
     fi
@@ -591,7 +591,7 @@ if [[ $render == true ]]; then
         git commit -m "merge conflicts"
         git submodule update -f --recursive 
     fi
-
+echo 5
     #add changes
     git add -u
 
@@ -614,7 +614,7 @@ if [[ $render == true ]]; then
         mkdir -p _locale
         git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
     fi
-
+echo 6
     cd _locale/ja
 #    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
 #        then
@@ -630,7 +630,7 @@ if [[ $render == true ]]; then
         git pull remote-repo master
     fi
     cd ../..
- 
+echo 7
     #push updated _locale lessons to English lesson
     git checkout gh-pages
     git pull remote-repo gh-pages
@@ -640,6 +640,7 @@ if [[ $render == true ]]; then
         then
         git remote remove remote-repo
     fi
+echo 8
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
@@ -649,13 +650,13 @@ if [[ $render == true ]]; then
         fi
         git remote add remote-repo $url
     fi
-
+echo 9
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
         git push remote-repo gh-pages
         echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
     fi
-
+echo 10
     cd ../i18n
 git submodule update -f --recursive  
 fi
