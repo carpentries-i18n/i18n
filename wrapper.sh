@@ -557,6 +557,15 @@ if [[ $render == true ]]; then
 #      fi
 #    done  
 
+    if [[ ! -d ../${repo} ]]; then
+        if [[ -z $GITHUB_TOKEN ]]; then
+            url=https://github.com/${remote_user}/${repo}.git
+        else
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
+        fi
+    fi
+
+
     #create external repo
     mkdir -p ../${repo}
 
