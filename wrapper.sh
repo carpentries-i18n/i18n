@@ -530,34 +530,33 @@ if [[ $render == true ]]; then
     # restore to version from remote
     git submodule update -f --recursive
     # import changes from org repo
-echo 1
     git submodule foreach 'case $name in po4gitbook) ;; *) git checkout gh-pages; git pull -f remote-repo gh-pages ;; esac'
-echo 2
+
     #restore _locale lessons (only English lessons translated)
-    for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
-      do
-      if [ -d $dir ] 
-        then
-        cd $dir
-pwd
-        git checkout gh-pages
-        if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
-            then
-            git remote remove remote-repo
-        fi
-        remotes=`git remote | grep "remote-repo" | wc -l`
-        if [[ remotes -le 0 ]]; then
-            url=https://github.com/${remote_user}/${dir}.git
-        fi
-        git remote add remote-repo $url
-        remotes=`git remote | grep "remote-repo" | wc -l`
-        if [[ remotes -ge 1 ]]; then
-            git pull remote-repo gh-pages
-        fi
-        cd ..
-      fi
-    done  
-echo 3
+#    for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
+#      do
+#      if [ -d $dir ] 
+#        then
+#        cd $dir
+#
+#        git checkout gh-pages
+#        if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
+#            then
+#            git remote remove remote-repo
+#        fi
+#        remotes=`git remote | grep "remote-repo" | wc -l`
+#        if [[ remotes -le 0 ]]; then
+#            url=https://github.com/${remote_user}/${dir}.git
+#        fi
+#        git remote add remote-repo $url
+#        remotes=`git remote | grep "remote-repo" | wc -l`
+#        if [[ remotes -ge 1 ]]; then
+#            git pull remote-repo gh-pages
+#        fi
+#        cd ..
+#      fi
+#    done  
+
     #create external repo
     mkdir -p ../${repo}
 
@@ -579,16 +578,13 @@ echo 3
     fi
 echo 4
 pwd
-    if [[ `git branch -v | grep "gh-pages" | wc -l` -ge 1 ]]; then
+    if [[ `git branch -v | grep "gh-pages" | wc -l` -le 0 ]]; then
         git checkout -b gh-pages
     fi
     git checkout gh-pages
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
         git pull remote-repo gh-pages
-        git checkout HEAD _config.yml
-        git add _config.yml
-        git commit -m "merge conflicts"
         git submodule update -f --recursive 
     fi
 echo 5
