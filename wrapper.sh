@@ -502,7 +502,9 @@ if [[ $render == true ]]; then
     fi
 
     #move files to external repo
-    rsync -r ../i18n/locale/ja/${repo}/*md ../i18n/locale/ja/${repo}/*/*md .
+    rsync -r ../i18n/locale/ja/${repo}/*md .
+    rsync -r ../i18n/locale/ja/${repo}/_episodes/*md _episodes
+    rsync -r ../i18n/locale/ja/${repo}/_extras/*md _extras
 
     # remove files provided by template
     rm -rf bin/boilerplate
