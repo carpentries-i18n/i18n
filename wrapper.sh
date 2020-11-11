@@ -160,7 +160,7 @@ if [[ $create == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]; then
+    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]; then
         git remote remove remote-repo
     fi
     if [[ -z $GITHUB_TOKEN ]]; then
@@ -186,7 +186,7 @@ exit 0
         if [ -d $dir ]
             then
             cd $dir
-            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+            if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
                 then
                 git remote remove remote-repo
             fi
@@ -300,11 +300,11 @@ if [[ $import == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
-    git remote add remote-repo git@github.com:${remote_user}/i18n.git
+    git remote add remote-repo https://github.com/${remote_user}/i18n.git
     git pull remote-repo ja
    
     #import submodules
@@ -321,7 +321,7 @@ if [[ $import == true ]]; then
         if [ -d $dir ]
             then
             cd $dir
-            if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+            if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
                 then
                 git remote remove remote-repo
             fi
@@ -390,7 +390,7 @@ if [[ $render == true ]]; then
 
     #checkout Japanese branch
     git checkout ja
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 3 ]
+    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
@@ -483,7 +483,7 @@ if [[ $render == true ]]; then
     #add update lessons to remote
     cd ../${repo}-ja
     git init
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
@@ -539,7 +539,7 @@ if [[ $render == true ]]; then
         then
         cd $dir
         git checkout gh-pages
-        if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+        if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
             then
             git remote remove remote-repo
         fi
@@ -566,7 +566,7 @@ if [[ $render == true ]]; then
     #add update lessons to remote
     cd ../${repo}
     git init
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
@@ -589,7 +589,6 @@ if [[ $render == true ]]; then
         git checkout HEAD _config.yml
         git add _config.yml
         git commit -m "merge conflicts"
-head -n 20 _config.yml
         git submodule update -f --recursive 
     fi
 
@@ -617,7 +616,7 @@ head -n 20 _config.yml
     fi
 
     cd _locale/ja
-#    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+#    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
 #        then
 #        git remote remove remote-repo
 #    fi
@@ -637,7 +636,7 @@ head -n 20 _config.yml
     git pull remote-repo gh-pages
     git add -u 
     git commit -m "update Japanese lessons"
-    if [ `git remote -v | grep "remote-repo" | wc -l` -ge 1 ]
+    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
