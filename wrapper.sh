@@ -563,6 +563,7 @@ if [[ $render == true ]]; then
         else
             url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
         fi
+        gi clone -b gh-pages $url
     fi
 
 
