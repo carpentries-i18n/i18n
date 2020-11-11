@@ -1063,7 +1063,7 @@ msgstr ""
 "- `--global` 設定フラグの意味を理解しましょう。\n"
 "keypoints:\n"
 "-   \"`git config` と `--global` オプションを使い、ユーザー名\n"
-"メールアドレス、エディタ、その他の設定を行う。"
+"メールアドレス、エディタ、その他の設定を行う。\n"
 "---"
 
 #: git-novice/_episodes/02-setup.md:14
