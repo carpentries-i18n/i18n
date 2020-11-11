@@ -583,14 +583,9 @@ if [[ $render == true ]]; then
         else
             url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
         fi
-echo $url
         git remote add remote-repo $url
     fi
-echo 4
-pwd
-git branch -v | cat
     if [[ `git branch -v | grep "gh-pages" | wc -l` -le 0 ]]; then
-echo test
          git checkout -b gh-pages
          #git checkout `git rev-list --max-parents=0 HEAD | tail -n 1` -b gh-pages
     fi
@@ -600,32 +595,11 @@ echo test
         git pull remote-repo gh-pages
         git submodule update -f --recursive 
     fi
-echo 5
     #add changes
     git add -u
 
     git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
 
-    #create lesson in _locale if not existing or update
-    if [ -d ./_locale/ja ]
-        then
-        cd _locale/ja
-        git init
-        git checkout master
-        git add -u
-        git commit -m "update Japanese lessons"
-        remotes=`git remote | grep "origin" | wc -l`
-        if [[ remotes -le 0 ]]; then
-            git remote add origin https://github.com/${remote_user}/${repo}-ja.git
-        fi
-        git pull origin master
-        pwd
-        cd ../..
-    else
-        mkdir -p _locale
-        git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
-    fi
-echo 6
     cd _locale/ja
 #    if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
 #        then
@@ -641,7 +615,6 @@ echo 6
         git pull remote-repo master
     fi
     cd ../..
-echo 7
     #push updated _locale lessons to English lesson
     git checkout gh-pages
     git pull remote-repo gh-pages
@@ -651,7 +624,6 @@ echo 7
         then
         git remote remove remote-repo
     fi
-echo 8
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
@@ -661,15 +633,17 @@ echo 8
         fi
         git remote add remote-repo $url
     fi
-echo 9
+
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
         git push remote-repo gh-pages
         echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
     fi
-echo 10
+
     cd ../i18n
+
 git submodule update -f --recursive  
+
 fi
 
 echo "run complete!"
