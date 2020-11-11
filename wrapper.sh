@@ -588,6 +588,7 @@ echo $url
     fi
 echo 4
 pwd
+git branch -v 
     if [[ `git branch -v | grep "gh-pages" | wc -l` -le 0 ]]; then
          git checkout -b gh-pages
          #git checkout `git rev-list --max-parents=0 HEAD | tail -n 1` -b gh-pages
