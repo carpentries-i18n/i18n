@@ -600,9 +600,11 @@ if [[ $render == true ]]; then
     #add changes
     git add -u
 
+    git submodule update -f --recursive
     git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
 
     cd _locale/ja
+    git init
 pwd
 echo 1
     if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
