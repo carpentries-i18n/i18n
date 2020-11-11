@@ -563,7 +563,7 @@ if [[ $render == true ]]; then
         else
             url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}.git"
         fi
-        gi clone -b gh-pages $url
+        git clone -b gh-pages $url
     fi
 
 
@@ -590,7 +590,8 @@ echo $url
 echo 4
 pwd
     if [[ `git branch -v | grep "gh-pages" | wc -l` -le 0 ]]; then
-        git checkout `git rev-list --max-parents=0 HEAD | tail -n 1` -b gh-pages
+         git checkout -b gh-pages
+         #git checkout `git rev-list --max-parents=0 HEAD | tail -n 1` -b gh-pages
     fi
     git checkout gh-pages
     remotes=`git remote | grep "remote-repo" | wc -l`
