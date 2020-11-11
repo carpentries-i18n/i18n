@@ -571,7 +571,7 @@ if [[ $render == true ]]; then
         git remote remove remote-repo
     fi
     remotes=`git remote | grep "remote-repo" | wc -l`
-    if [[ remotes -ge 1 ]]; then
+    if [[ remotes -le 0 ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
             url=https://github.com/${remote_user}/${repo}.git
         else
