@@ -586,6 +586,9 @@ if [[ $render == true ]]; then
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
         git pull remote-repo gh-pages
+        git checkout HEAD _config.yml
+        git add _config.yml
+        git commit -m "merge conflicts"
         git submodule update -f --recursive 
     fi
 
