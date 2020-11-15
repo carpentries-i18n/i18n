@@ -59,7 +59,7 @@ jobs:
         run: git config -l | cat 
 
       - name: Build ${{ matrix.lesson-repo }} lesson
-        run: bash wrapper.sh --repo ${{ matrix.lesson-repo }} --account swcarpentry-ja --webpages
+        run: bash wrapper.sh --repo ${{ matrix.lesson-repo }} --locale ja --account swcarpentry-ja --webpages
         env:
           DEFAULT_BRANCH: ja
           GITHUB_TOKEN: ${{ secrets.ACTIONS_TOKEN }}

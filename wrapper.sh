@@ -1,10 +1,10 @@
 #! /bin/bash
 
 ### example
-# sh wrapper.sh --repo make-novice --create
-# sh wrapper.sh --repo make-novice --import
-# sh wrapper.sh --repo make-novice --account GitHubUser --import
-# sh wrapper.sh --repo r-novice-gapminder --account swcarpentry-ja --import --webpages
+# sh wrapper.sh --repo make-novice --locale ja --create
+# sh wrapper.sh --repo make-novice --locale ja --import
+# sh wrapper.sh --repo make-novice --locale ja --account GitHubUser --import
+# sh wrapper.sh --repo r-novice-gapminder --locale ja --account swcarpentry-${locale} --import --webpages 
 
 # create (implemented):      subroutine to create new PO files from an English lesson not currently being translated
 # import (testing):          subroutine to pull a lesson being translated from remote to make changes locally
@@ -23,6 +23,7 @@ next=false
 create=false
 import=false
 render=false
+locale="default"
 for op in "$@"; do
     if $next; then
         next=false;
@@ -46,12 +47,10 @@ for op in "$@"; do
         -c|--create)
         shift
             create=true
-            next=true
             ;;
         -i|--import)
         shift
             import=true       
-            next=true
             ;;
         -a|--account)
         shift
@@ -76,15 +75,23 @@ for op in "$@"; do
             fi
         shift
             ;;
-       -w|--webpages)
+        -l|--locale)
+        shift
+            if [[ $1 != "" ]]; then
+                locale="${1/%\//}"
+                next=true
+                shift
+            else
+                next=true
+            fi
+            ;;
+        -w|--webpages)
         shift
             render=true
-            next=true
             ;;
         -u|--update)
         shift
             update=true
-            next=true
             ;;
         -*)
             echo "Error: Invalid option: $op"
@@ -98,6 +105,45 @@ if [[ $import == true ]]; then
         echo "Warning: it is not recommended to --create and --import at the same time" 
     fi
     create=$create
+fi
+
+if [[ -z $locale ]] || [[ ! ${#locale} -eq 2 ]] && [[ ! ${#locale} -eq 5 && $locale==*"_"* ]]; then
+    echo "must specify locale with \"--locale xx\" or \"--locale xx_YY\"  for example:
+          English(Great Britain) (en_GB),
+          Deutsche (de),
+          Español (es),
+          Français (fr),
+          हिन्द(hi_IN),
+          한국어(ko_KR),
+          日本語 (ja),
+          Nederlands (nl)
+          Português(Brasil) (pt_BR)
+          中文(中华人民共和国) (zh_CN)
+          中文(中華民國) (zh_TW)
+        See here for a full list: http://docs.wp-event-organiser.com/i18n/locale-codes/
+        Note that Endonyms are often used (not English names)." 
+    exit 1
+else
+    lang=$(echo $locale | cut -d"_" -f1 | tr '[:upper:]' '[:lower:]')
+    if [[ ${#locale} -eq 5 && $locale==*"_"* ]]; then
+         country=$(echo $locale | cut -d"_" -f2 | tr '[:lower:]' '[:upper:]')
+         locale=${lang}_${country}
+    else
+        locale=${lang}
+    fi    
+    if [[ $locale == "ja_JP" ]]; then
+        locale="ja"
+    fi
+    if [[ $locale == "en_US" ]]; then
+        locale="en"
+    fi
+    if [[ $locale == "es_LA" || $locale == "es_419" ]]; then
+        locale="es"
+    fi
+    if [[ $locale == "nl_NL" ]]; then
+        locale="nl"
+    fi
+    echo "locale: $locale"
 fi
 
 if [[ $import == true ]] || [[ $create == true ]]; then
@@ -114,12 +160,13 @@ echo import ${repo} : $import
 echo render webpages : $render
 
 #check if remote i18n repo exists
-root_dir=`git ls-remote https://github.com/${remote_user}/i18n.git | grep "ja$" | wc -l`
+echo https://github.com/${remote_user}/i18n.git 
+root_dir=`git ls-remote https://github.com/${remote_user}/i18n.git | grep "${locale}$" | wc -l`
 echo i18n repo: $root_dir
 if [ $root_dir -eq 1 ]; then
     echo "remote found:  https://github.com/${remote_user}/i18n.git"
 elif [ $root_dir -eq 0 ]; then
-    echo remote not found for user repo:  https://github.com/${remote_user}/i18n.git \n please create a fork
+    echo remote not found for user repo:  https://github.com/${remote_user}/i18n.git \n please create a fork and ${locale} branch
     exit 1
 else
     echo ambiguous repo:
@@ -156,10 +203,10 @@ if [[ $create == true ]]; then
     git clone https://github.com/${remote_user}/i18n.git
     cd i18n
     fi
-    git pull origin ja
+    git pull origin ${locale}
 
     #checkout Japanese branch
-    git checkout ja
+    git checkout ${locale}
     if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]; then
         git remote remove remote-repo
     fi
@@ -171,7 +218,7 @@ if [[ $create == true ]]; then
 echo $git_user
 exit 0
     git remote add remote-repo $url
-    git pull remote-repo ja
+    git pull remote-repo ${locale}
    
     #import submodules
     git submodule init
@@ -221,7 +268,7 @@ exit 0
         if [[ -d $repo ]]; then
             echo submodule $repo found
         else
-            git submodule add git@github.com:${remote_user}-ja/{repo}.git
+            git submodule add git@github.com:${remote_user}-${locale}/{repo}.git
         fi
     fi
     if [[ -z $repo ]];then
@@ -232,43 +279,43 @@ exit 0
     echo "run import on po4gitbook"
     po4gitbook/import.sh > /dev/null 2>&1
     echo "upated PO files exported"
-    if [[ -f po/${repo}.ja.po ]]; then
-        echo "Warning: file po/${repo}.ja.po already exists: check for conflicts and import"
+    if [[ -f po/${repo}.${locale}.po ]]; then
+        echo "Warning: file po/${repo}.${locale}.po already exists: check for conflicts and import"
         exit 1
     else
         echo "creating PO file for $repo"
-        cp po/${repo}.pot po/${repo}.ja.po 
-        git add  po/${repo}.ja.po
+        cp po/${repo}.pot po/${repo}.${locale}.po 
+        git add  po/${repo}.${locale}.po
         #archive PO file from English lessons for merging updates
         if [[ -f po/.ancestors/.${repo}.jp.po.ancestor ]]; then
-            echo "Warning file po/${repo}.ja.po already archived in po/.ancestors"
+            echo "Warning file po/${repo}.${locale}.po already archived in po/.ancestors"
        else
             echo "archiving PO file for $repo"
             mkdir -p po/.ancestors
-            cp po/${repo}.pot po/.ancestors/.${repo}.ja.po.ancestor
-            git add po/.ancestors/.${repo}.ja.po.ancestor
+            cp po/${repo}.pot po/.ancestors/.${repo}.${locale}.po.ancestor
+            git add po/.ancestors/.${repo}.${locale}.po.ancestor
        fi
 
         #fill in missing information for Japanese
         year=`date +%Y`
-        sed -i '1s/# SOME DESCRIPTIVE TITLE./# Japanese translation of the Software Carpentry ${repo} Lesson/g' po/${repo}.ja.po
-        sed -i "2s/# Copyright \(C\) YEAR THE PACKAGE\'S COPYRIGHT HOLDER/# Copyright \(C\) ${year} Software Carpentry Foundation; Japanese Translation Team/g" po/${repo}.ja.po
-        sed -i '3s/# This file is distributed under the same license as the PACKAGE package./# This file is distributed under the same license as the git4pobook package./g'  po/${repo}.ja.po
-        sed -i '4s/# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR./# ${git_user} <${git_email}>, ${year}./g' po/${repo}.ja.po
-        sed -i '12s/"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"/"Last-Translator: ${git_user} <${git_email}>\n"/g'  po/${repo}.ja.po
-        sed -i '13s/Language-Team: LANGUAGE <LL@li.org>\n/Language-Team: Japanese <tomkellygenetics@gmail.com>\n/g'  po/${repo}.ja.po
-        sed -i '14 i "Language: ja\n"' po/${repo}.ja.po
+        sed -i '1s/# SOME DESCRIPTIVE TITLE./# Japanese translation of the Software Carpentry ${repo} Lesson/g' po/${repo}.${locale}.po
+        sed -i "2s/# Copyright \(C\) YEAR THE PACKAGE\'S COPYRIGHT HOLDER/# Copyright \(C\) ${year} Software Carpentry Foundation; Japanese Translation Team/g" po/${repo}.${locale}.po
+        sed -i '3s/# This file is distributed under the same license as the PACKAGE package./# This file is distributed under the same license as the git4pobook package./g'  po/${repo}.${locale}.po
+        sed -i '4s/# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR./# ${git_user} <${git_email}>, ${year}./g' po/${repo}.${locale}.po
+        sed -i '12s/"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"/"Last-Translator: ${git_user} <${git_email}>\n"/g'  po/${repo}.${locale}.po
+        sed -i '13s/Language-Team: LANGUAGE <LL@li.org>\n/Language-Team: Japanese <tomkellygenetics@gmail.com>\n/g'  po/${repo}.${locale}.po
+        sed -i '14 i "Language: ${locale}\n"' po/${repo}.${locale}.po
         #remove Japanese from LINGUAS if already exists
-        sed -i '1s/ ja//g' po/LINGUAS
+        sed -i '1s/ ${locale}//g' po/LINGUAS
         #add Japanese to LINGUAS
-        sed -i '1s/$/ ja/g' po/LINGUAS 
+        sed -i '1s/$/ ${locale}/g' po/LINGUAS 
     fi   
-    git add  po/${repo}.ja.po
+    git add  po/${repo}.${locale}.po
     echo "removing extraneous PO files"
     rm po/*.pot
     echo "run compile on po4gitbook to create new lessson"
     po4gitbook/compile.sh  > /dev/null 2>&1
-    echo lesson $repo created in _locale/ja/$repo
+    echo lesson $repo created in _locale/${locale}/$repo
 
     #restore _locale directory (only translate English lessons)
     for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
@@ -299,13 +346,13 @@ if [[ $import == true ]]; then
     fi
 
     #checkout Japanese branch
-    git checkout ja
+    git checkout ${locale}
     if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
     git remote add remote-repo https://github.com/${remote_user}/i18n.git
-    git pull remote-repo ja
+    git pull remote-repo ${locale}
    
     #import submodules
     git submodule init
@@ -364,11 +411,11 @@ if [[ $import == true ]]; then
         exit 1
     fi
 
-    if [[ -f po/${repo}.ja.po ]]; then
-        echo "Warning: file po/${repo}.ja.po exists: please edit file and submit pull request"
+    if [[ -f po/${repo}.${locale}.po ]]; then
+        echo "Warning: file po/${repo}.${locale}.po exists: please edit file and submit pull request"
         exit 0
     else
-        echo "Warning: file po/${repo}.ja.po not found, run:\n sh wrapper.sh --repo ${repo} --create"
+        echo "Warning: file po/${repo}.${locale}.po not found, run:\n sh wrapper.sh --repo ${repo} --create"
         exit 1
     fi   
 fi
@@ -389,7 +436,7 @@ if [[ $render == true ]]; then
     fi
 
     #checkout Japanese branch
-    git checkout ja
+    git checkout ${locale}
     if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
@@ -402,7 +449,7 @@ if [[ $render == true ]]; then
     git remote add remote-repo $url
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
-        git pull remote-repo ja
+        git pull remote-repo ${locale}
     fi
 
     #import submodules
@@ -424,10 +471,10 @@ if [[ $render == true ]]; then
         exit 1
     fi
 
-    if [[ -f po/${repo}.ja.po ]]; then
-        echo "File po/${repo}.ja.po exists: exporting translated lesson"
+    if [[ -f po/${repo}.${locale}.po ]]; then
+        echo "File po/${repo}.${locale}.po exists: exporting translated lesson"
     else
-        echo "Warning: file po/${repo}.ja.po not found, run:\n sh wrapper.sh --repo ${repo} --create"
+        echo "Warning: file po/${repo}.${locale}.po not found, run:\n sh wrapper.sh --repo ${repo} --create"
         exit 1
     fi   
 
@@ -441,47 +488,47 @@ if [[ $render == true ]]; then
 
     #create all Japanese lessons
     mkdir -p locale
-    mkdir -p locale/ja    
+    mkdir -p locale/${locale}    
     echo "run compile on po4gitbook"
     po4gitbook/compile.sh > /dev/null 2>&1
 
     #commit updates to source PO files
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
-        git pull remote-repo ja
+        git pull remote-repo ${locale}
     fi
-    git add -u po/*ja.po
+    git add -u po/*${locale}.po
     git commit -m "update PO files"
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
-        git push remote-repo ja
+        git push remote-repo ${locale}
     fi
 
-    echo "translated lessons from  po/${repo}.ja.po  exported to _locale/ja/$repo"
+    echo "translated lessons from  po/${repo}.${locale}.po  exported to _locale/${locale}/$repo"
 
     #check if remote translated lesson exists 
-    lesson_dir=`git ls-remote https://github.com/${remote_user}/${repo}-ja.git | grep "master" | wc -l`
-    echo ${repo}-ja repo: $lesson_dir
+    lesson_dir=`git ls-remote https://github.com/${remote_user}/${repo}-${locale}.git | grep "master" | wc -l`
+    echo ${repo}-${locale} repo: $lesson_dir
     if [ $lesson_dir -eq 1 ]; then
-        echo "remote found:  https://github.com/${remote_user}/${repo}-ja.git"
+        echo "remote found:  https://github.com/${remote_user}/${repo}-${locale}.git"
     elif [ $root_dir -eq 0 ]; then
-        echo remote not found for user repo:  https://github.com/${remote_user}/${repo}-ja.git please create a new empty repo
+        echo remote not found for user repo:  https://github.com/${remote_user}/${repo}-${locale}.git please create a new empty repo
         exit 1
     else
         echo ambiguous repo:
-        git ls-remote https://github.com/${remote_user}/${repo}-ja.git
+        git ls-remote https://github.com/${remote_user}/${repo}-${locale}.git
         exit 1
     fi
    
     #create as submodule
-    #git submodule add https://github.com/${remote_user}/${repo}-ja.git _locale/ja/$repo
+    #git submodule add https://github.com/${remote_user}/${repo}-${locale}.git _locale/${locale}/$repo
     ##git submodule absorbgitdirs <path>
 
-    #create external ja repo
-    mkdir -p ../${repo}-ja
+    #create external ${locale} repo
+    mkdir -p ../${repo}-${locale}
 
     #add update lessons to remote
-    cd ../${repo}-ja
+    cd ../${repo}-${locale}
     git init
     if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
@@ -490,9 +537,9 @@ if [[ $render == true ]]; then
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
-            url=https://github.com/${remote_user}/${repo}-ja.git
+            url=https://github.com/${remote_user}/${repo}-${locale}.git
         else
-            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-${locale}.git"
         fi
         git remote add remote-repo $url
     fi
@@ -502,9 +549,9 @@ if [[ $render == true ]]; then
     fi
 
     #move files to external repo
-    rsync -r ../i18n/locale/ja/${repo}/*md .
-    rsync -r ../i18n/locale/ja/${repo}/_episodes/*md _episodes
-    rsync -r ../i18n/locale/ja/${repo}/_extras/*md _extras
+    rsync -r ../i18n/locale/${locale}/${repo}/*md .
+    rsync -r ../i18n/locale/${locale}/${repo}/_episodes/*md _episodes
+    rsync -r ../i18n/locale/${locale}/${repo}/_extras/*md _extras
 
     # remove files provided by template
     rm -rf bin/boilerplate
@@ -515,9 +562,9 @@ if [[ $render == true ]]; then
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
-            url=https://github.com/${remote_user}/${repo}-ja.git
+            url=https://github.com/${remote_user}/${repo}-${locale}.git
         else
-            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-ja.git"
+            url="https://${git_user}:${GITHUB_TOKEN}@github.com/${remote_user}/${repo}-${locale}.git"
         fi
         git remote add remote-repo $url
     fi
@@ -525,7 +572,7 @@ if [[ $render == true ]]; then
     if [[ remotes -ge 1 ]]; then
        git push remote-repo master
     fi
-    echo "lesson $repo-ja pushed to ${remote_user}/$repo-ja"
+    echo "lesson $repo-${locale} pushed to ${remote_user}/$repo-${locale}"
 
     #update original lesson to import translated content
     cd ../i18n # or English lesson
@@ -601,9 +648,9 @@ if [[ $render == true ]]; then
     git add -u
 
     git submodule update -f --recursive
-    git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/ja
+    git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/${locale}
 
-    cd _locale/ja
+    cd _locale/${locale}
     git init
 pwd
 echo 1
@@ -614,7 +661,7 @@ echo 1
 echo 2
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
-        git remote add remote-repo  https://github.com/${remote_user}/${repo}-ja.git
+        git remote add remote-repo  https://github.com/${remote_user}/${repo}-${locale}.git
     fi
 echo 3
 git branch | cat
@@ -657,7 +704,7 @@ echo 6
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
         git push remote-repo gh-pages
-        echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-ja"
+        echo "lesson $repo pushed to ${remote_user}/$repo with locale $repo-${locale}"
     fi
 
     cd ../i18n
