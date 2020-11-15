@@ -4,7 +4,7 @@
 # sh wrapper.sh --repo make-novice --locale ja --create
 # sh wrapper.sh --repo make-novice --locale ja --import
 # sh wrapper.sh --repo make-novice --locale ja --account GitHubUser --import
-# sh wrapper.sh --repo r-novice-gapminder --locale ja --account swcarpentry-${locale} --import --webpages 
+# sh wrapper.sh --repo r-novice-gapminder --locale ja --account swcarpentry-ja --import --webpages 
 
 # create (implemented):      subroutine to create new PO files from an English lesson not currently being translated
 # import (testing):          subroutine to pull a lesson being translated from remote to make changes locally
