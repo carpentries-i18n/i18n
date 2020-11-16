@@ -631,15 +631,23 @@ if [[ $render == true ]]; then
 
     #update links
     sed -i "s/root: \.$/root: ../\npermalink: \/LICENSE\//g" LICENSE.md
-    
-    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CODE_OF_CONDUCT.md
-    sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
-    sed -i "s/root: \.$/root: .  \# Is the only page that doesn't follow the pattern \/:path\/index.html\npermalink: index.html/g" index.md
-    sed -i "s/layout: reference\n---/layout: reference\nTitle: \"Reference\"\nroot: ..\permalink: \/reference\/\n---/g" reference.md
-    sed -i "s/layout: page\n---/layout: page\nTitle: \"Setup\"\nroot: ..\permalink: \/setup\/\n---/g" setup.md
-    sed -i "s/layout\: reference\nroot\: \.\n\-\-\-/layout: reference\nTitle: \"Reference\"\nroot: ..\permalink: \/reference\/\n---/g" reference.md
-    sed -i "s/layout: page\ntitle: Setup\nroot: \.\n---/layout: page\nTitle: \"Set Up\"\nroot: ..\permalink: \/setup\/\n---/g" setup.md
+    #sed -i "s/root: \.$/root: .  \# Is the only page that doesn't follow the pattern \/:path\/index.html\npermalink: index.html/g" index.md
 
+### corrections for new lessons
+
+#+root: .  # Is the only page that doesn't follow the pattern /:path/index.html
+#+permalink: index.html
+
+#+root: ..
+#+permalink: /LICENSE/
+
+#+Title: "Reference"
+#+root: ..
+#+permalink: /reference/
+
+#+title: "Setup"
+#+root: ..
+#+permalink: /setup/
 
     #add changes
     git add -u
