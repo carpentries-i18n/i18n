@@ -553,6 +553,17 @@ if [[ $render == true ]]; then
     rsync -r ../i18n/locale/${locale}/${repo}/_episodes/*md _episodes
     rsync -r ../i18n/locale/${locale}/${repo}/_extras/*md _extras
 
+    #correct links for locale
+    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CODE_OF_CONDUCT.md
+    sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
+    sed -i "s/root: \.$/root: \/${locale}\/\npermalink: \/${locale}\/index.html/g" index.md
+    sed -i "s/permalink: \/setup\//permalink: \/${locale}\/setup\//g" setup.md
+    sed -i "s/permalink: \/reference\//permalink: \/${locale}\/reference\//g" reference.md
+    sed -i "s/permalink: \/about\//permalink: \/${locale}\/about\//g " _extras/about.md
+    sed -i "s/permalink: \/discuss\//permalink: \/${locale}\/discuss\//g " _extras/discuss.md
+    sed -i "s/permalink: \/figures\//permalink: \/${locale}\/figures\//g " _extras/figures.md
+    sed -i "s/permalink: \/guide\//permalink: \/${locale}\/guide\//g " _extras/guide.md
+
     # remove files provided by template
     rm -rf bin/boilerplate
     rm -rf _layouts _includes _episodes_rmd assets bin code 
@@ -578,33 +589,6 @@ if [[ $render == true ]]; then
     cd ../i18n # or English lesson
     # restore to version from remote
     git submodule update -f --recursive
-    # import changes from org repo
-#    git submodule foreach 'case $name in po4gitbook) ;; *) git checkout gh-pages; git pull -f remote-repo gh-pages ;; esac'
-#
-#    #restore _locale lessons (only English lessons translated)
-#    for dir in `git submodule |  grep "^+"  | cut -d" " -f2`
-#      do
-#      if [ -d $dir ] 
-#        then
-#        cd $dir
-#
-#        git checkout gh-pages
-#        if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
-#            then
-#            git remote remove remote-repo
-#        fi
-#        remotes=`git remote | grep "remote-repo" | wc -l`
-#        if [[ remotes -le 0 ]]; then
-#            url=https://github.com/${remote_user}/${dir}.git
-#        fi
-#        git remote add remote-repo $url
-#        remotes=`git remote | grep "remote-repo" | wc -l`
-#        if [[ remotes -ge 1 ]]; then
-#            git pull remote-repo gh-pages
-#        fi
-#        cd ..
-#      fi
-#    done  
 
     if [[ ! -d ../${repo} ]]; then
         if [[ -z $GITHUB_TOKEN ]]; then
@@ -644,6 +628,19 @@ if [[ $render == true ]]; then
         git pull remote-repo gh-pages
         git submodule update -f --recursive 
     fi
+
+    #update links
+    sed -i "s/root: \.$/root: ../\npermalink: \/LICENSE\//g" LICENSE.md
+    
+    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CODE_OF_CONDUCT.md
+    sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
+    sed -i "s/root: \.$/root: .  \# Is the only page that doesn't follow the pattern \/:path\/index.html\npermalink: index.html/g" index.md
+    sed -i "s/layout: reference\n---/layout: reference\nTitle: \"Reference\"\nroot: ..\permalink: \/reference\/\n---/g" reference.md
+    sed -i "s/layout: page\n---/layout: page\nTitle: \"Setup\"\nroot: ..\permalink: \/setup\/\n---/g" setup.md
+    sed -i "s/layout\: reference\nroot\: \.\n\-\-\-/layout: reference\nTitle: \"Reference\"\nroot: ..\permalink: \/reference\/\n---/g" reference.md
+    sed -i "s/layout: page\ntitle: Setup\nroot: \.\n---/layout: page\nTitle: \"Set Up\"\nroot: ..\permalink: \/setup\/\n---/g" setup.md
+
+
     #add changes
     git add -u
 
@@ -652,34 +649,31 @@ if [[ $render == true ]]; then
 
     cd _locale/${locale}
     git init
-pwd
-echo 1
+
     if [ `git remote | grep "remote-repo" | wc -l` -ge 1 ]
         then
         git remote remove remote-repo
     fi
-echo 2
+
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
         git remote add remote-repo  https://github.com/${remote_user}/${repo}-${locale}.git
     fi
-echo 3
-git branch | cat
+
     if [[ `git branch -v | grep "master" | wc -l` -le 0 ]]; then
          git checkout -b master
     fi
-echo 4
     git checkout master
-echo 5
+
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -ge 1 ]]; then
         git pull remote-repo master
     fi
-echo 6
+
     if [[ `git branch -v | grep "master" | wc -l` -le 0 ]]; then
          git checkout -b master
     fi
-echo 6
+
     git checkout master
     cd ../..
     #push updated _locale lessons to English lesson
