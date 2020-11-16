@@ -242,3 +242,4 @@ msgstr ""
 
 ```
 
+See [Carpentries i18n Hanbook](https://carpentries-i18n-handbook.readthedocs.io/en/latest/guide/translator/01_format.html#yaml-front-matter-block) for details.
