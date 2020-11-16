@@ -215,8 +215,6 @@ if [[ $create == true ]]; then
     else
         url="https://${git_user}:${GITHUB_TOKEN}@github.com/${git_user}/i18n.git"
     fi
-echo $git_user
-exit 0
     git remote add remote-repo $url
     git pull remote-repo ${locale}
    
@@ -555,6 +553,7 @@ if [[ $render == true ]]; then
 
     #correct links for locale
     sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CODE_OF_CONDUCT.md
+    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CONDUCT.md
     sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
     sed -i "s/root: \.$/root: \/${locale}\/\npermalink: \/${locale}\/index.html/g" index.md
     sed -i "s/permalink: \/setup\//permalink: \/${locale}\/setup\//g" setup.md
