@@ -4506,7 +4506,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: git-novice/_episodes/05-history.md:432
 msgid "> ## Checking Understanding of `git diff`"
-msgstr "> ## Checking Understanding of `git diff`"
+msgstr "> ## `git diff` の理解のチェック"
 
 #: git-novice/_episodes/05-history.md:433
 msgid ""
@@ -4522,15 +4522,14 @@ msgid ""
 "> and what does happen?"
 msgstr ""
 ">\n"
-"> Consider this command: `git diff HEAD~3 mars.txt`. What do you predict "
-"this command\n"
-"> will do if you execute it? What happens when you do execute it? Why?\n"
+"> このコマンドをよく考えてみてください: `git diff HEAD~3 mars.txt`。 "
+"このコマンドを実行したら\n"
+"> どうなるだろうと予測しますか? 実行すると何が起こっていますか? またそれはなぜでしょうか?\n"
 ">\n"
-"> Try another command, `git diff [ID] mars.txt`, where [ID] is replaced "
-"with\n"
-"> the unique identifier for your most recent commit. What do you think will "
-"happen,\n"
-"> and what does happen?"
+"> 別のコマンド `git diff [ID] mars.txt` を試しましょう、ここでの [ID] は "
+"> 最新のコミットのユニークな識別子で置き換えられます。 "
+"あなたは何が起こるだろうと思いますか? \n"
+"> そして何が起こっていますか?"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/05-history.md:442
