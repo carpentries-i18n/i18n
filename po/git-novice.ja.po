@@ -4534,7 +4534,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: git-novice/_episodes/05-history.md:442
 msgid "> ## Getting Rid of Staged Changes"
-msgstr "> ## Getting Rid of Staged Changes"
+msgstr "> ## ステージされた変更の除去"
 
 #: git-novice/_episodes/05-history.md:443
 msgid ""
@@ -4548,13 +4548,12 @@ msgid ""
 "> you can remove your change."
 msgstr ""
 ">\n"
-"> `git checkout` can be used to restore a previous commit when unstaged "
-"changes have\n"
-"> been made, but will it also work for changes that have been staged but not "
-"committed?\n"
-"> Make a change to `mars.txt`, add that change, and use `git checkout` to "
-"see if\n"
-"> you can remove your change."
+"> `git checkout` は、ステージされていない変更が行われたときに "
+"以前のコミットを復元するために使用できます。\n"
+"> しかしそれはステージされているがコミットされていない変更に対しても機能する"
+"でしょうか?\n"
+"> `mars.txt` に変更を用意し、その変更を加え、`git checkout` を使い "
+"> 変更を取り除くことができるかどうか確かめましょう。"
 
 # blockquote, which can be cascaded
 #: git-novice/_episodes/05-history.md:450
