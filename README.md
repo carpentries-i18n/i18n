@@ -24,7 +24,7 @@
 [Transifex]() is a collaborative platform for translations. We can upload the
 `pot` files produced by the `update` command. However, to have a better user
 experience on that platform we suggest that the `lesson_file.pot` is broken into
-one per chapter. To do so you can use the helper script available in this repository
+one per episode. To do so you can use the helper script available in this repository
 
 ```bash
 $ lesson="TheSuperLesson"
@@ -33,7 +33,7 @@ $ python helpers/splitpot.py po/${lesson}.pot
 
 This, by default, will break `TheSuperLesson.pot` file and create a
 `TheSuperLesson` directory under `transifex` and fill it up with one file per
-chapter.
+episode.
 
 Now we will proceed to use the [transifex-client](https://docs.transifex.com/client/installing-the-client)
 to push the split files.
