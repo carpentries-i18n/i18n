@@ -25,11 +25,14 @@ msgid ""
 "---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
+"permalink: /conduct/\n"
 "---"
 msgstr ""
 "---\n"
 "layout: page\n"
-"title: \"Contributor Code of Conduct\"\n"
+"title: \"投稿者の行動規範\"\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
 "---"
 
 #: sql-novice-survey/CODE_OF_CONDUCT.md:5
@@ -38,8 +41,8 @@ msgid ""
 "As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
-"As contributors and maintainers of this project,\n"
-"we pledge to follow the [Carpentry Code of Conduct][coc]."
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: sql-novice-survey/CODE_OF_CONDUCT.md:8
 #: sql-novice-survey/bin/boilerplate/CODE_OF_CONDUCT.md:8
@@ -47,8 +50,8 @@ msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
-"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
-"may be reported by following our [reporting guidelines][coc-reporting]."
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: sql-novice-survey/CODE_OF_CONDUCT.md:11
 #: sql-novice-survey/bin/boilerplate/CODE_OF_CONDUCT.md:11
