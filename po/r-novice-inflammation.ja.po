@@ -19,35 +19,50 @@ msgstr ""
 
 # Front Matter
 #: r-novice-inflammation/CODE_OF_CONDUCT.md:1
+#: r-novice-inflammation/bin/boilerplate/CODE_OF_CONDUCT.md:1
 msgid ""
 "---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
+"permalink: /conduct/\n"
 "---"
 msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"投稿者の行動規範\"\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
+"---"
 
 #: r-novice-inflammation/CODE_OF_CONDUCT.md:5
+#: r-novice-inflammation/bin/boilerplate/CODE_OF_CONDUCT.md:5
 msgid ""
 "As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: r-novice-inflammation/CODE_OF_CONDUCT.md:8
+#: r-novice-inflammation/bin/boilerplate/CODE_OF_CONDUCT.md:8
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: r-novice-inflammation/CODE_OF_CONDUCT.md:11
+#: r-novice-inflammation/bin/boilerplate/CODE_OF_CONDUCT.md:11
 #: r-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md:14
 #: r-novice-inflammation/bin/boilerplate/_extras/discuss.md:6
-#: r-novice-inflammation/bin/boilerplate/_extras/figures.md:68
+#: r-novice-inflammation/bin/boilerplate/_extras/figures.md:40
 #: r-novice-inflammation/bin/boilerplate/_extras/guide.md:6
 #: r-novice-inflammation/bin/boilerplate/index.md:13
 #: r-novice-inflammation/bin/boilerplate/reference.md:9
 #: r-novice-inflammation/bin/boilerplate/setup.md:7
 msgid "{% include links.md %}"
-msgstr ""
+msgstr "{% include links.md %}"
 
 # header
 #: r-novice-inflammation/CONTRIBUTING.md:1
