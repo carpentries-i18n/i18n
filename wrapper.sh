@@ -559,9 +559,10 @@ if [[ $render == true ]]; then
     sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
     sed -i "s/root: \.$/root: \/${locale}\/\npermalink: \/${locale}\/index.html/g" index.md
     sed -i "4s/root: \.\.$/root\: \/${locale}\//g" reference.md setup.md
-    sed -i "4s/root: \.$/root\: \/${locale}\//g" aio.md LICENSE.md
+    sed -i "3s/root: \.$/root\: \/${locale}\//g" aio.md LICENSE.md
+    sed -i "4s/---/permalink: \/${locale}\/aio\/\n---/g" aio.md    
     sed -i "5s/permalink: \/LICENSE\//permalink: \/${locale}\/LICENSE\//g" LICENSE.md
-    sed -i "5s/---/permalink: \/${locale}\/LICENSE\/\n/g" LICENSE.md  
+    sed -i "5s/---/permalink: \/${locale}\/LICENSE\/\n---/g" LICENSE.md  
     sed -i "s/permalink: \/setup\//permalink: \/${locale}\/setup\//g" setup.md
     sed -i "s/permalink: \/reference\//permalink: \/${locale}\/reference\//g" reference.md
     sed -i "s/permalink: \/about\//permalink: \/${locale}\/about\//g " _extras/about.md
@@ -654,8 +655,8 @@ if [[ $render == true ]]; then
     sed -i "3s/root: \./Title: "Setup"\nroot: \./g" setup.md
 
     # add root if missing
-    sed -i "3s/---/root: \/\n---/g" index.md
-    sed -i "3s/root: \./root: \//g" index.md
+    sed -i "3s/---/root: \.\n---/g" index.md
+    sed -i "3s/root: \//root: \./g" index.md
     sed -i "4s/---/root: \.\n---/g" LICENSE.md CONDUCT.md 
     sed -i "4s/---/root: \.\.\n---/g" reference.md setup.md 
     sed -i "3s/---/root: \.\n---/g" LICENSE.md CONDUCT.md
