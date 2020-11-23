@@ -667,9 +667,9 @@ if [[ $render == true ]]; then
     sed -i "s/root\: \/\$/root\: \/\npermalink\: index.html/g" index.md
     sed -i "s/root\: \.\$/root\: \.\npermalink\: \/LICENSE\//g" LICENSE.md
     sed -i "s/root\: \.\$/root\: \.\npermalink\: \/conduct\//g"  CONDUCT.md
-    sed -i "s/root\: \.\.\$/root\: ..\npermalink\: \/reference\//g"  reference.md
-    sed -i "s/root\: \.\.\$/root\: ..\npermalink\: \/setup\//g"  setup.md
-    sed -i "s/root\: \.\.\$/root\: ..\npermalink\: \/aio\//g"  aio.md
+    sed -i "s/root\: \.\.\$/root\: \.\.\npermalink\: \/reference\//g"  reference.md
+    sed -i "s/root\: \.\.\$/root\: \.\.\npermalink\: \/setup\//g"  setup.md
+    sed -i "s/root\: \.\.\$/root\: \.\.\npermalink\: \/aio\//g"  aio.md
 
     # remove if appears twice
     sed -i '5{/permalink: index\.html/d;}' index.md
