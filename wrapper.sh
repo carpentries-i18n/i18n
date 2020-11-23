@@ -573,6 +573,10 @@ if [[ $render == true ]]; then
     rm -rf bin/boilerplate
     rm -rf _layouts _includes _episodes_rmd assets bin code 
 
+    #remove figures for now
+    rm -rf _extras/figures.md
+    git add  _extras/figures.md
+
     #add changes
     git add *
     git add index.md LICENSE.md reference.md setup.md aio.md
@@ -673,6 +677,10 @@ if [[ $render == true ]]; then
     sed -i '6{/permalink\: \/reference\//d;}' reference.md
     sed -i '6{/permalink\: \/setup\//d;}' setup.md
     sed -i '5{/permalink\: \/aio\//d;}' aio.md
+
+    #remove figures for now
+    rm -rf _extras/figures.md
+    git add  _extras/figures.md
 
     #add changes
     git add -u
