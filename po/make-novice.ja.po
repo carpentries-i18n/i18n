@@ -18,14 +18,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+# Front Matter
 #: make-novice/CODE_OF_CONDUCT.md:1
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:1
-# Front Matter
-msgid "---\n"
+msgid ""
+"---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
 "---"
 msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"投稿者の行動規範\"\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
+"---"
 
 #: make-novice/CODE_OF_CONDUCT.md:5
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:5

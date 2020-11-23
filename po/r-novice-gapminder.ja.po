@@ -34,7 +34,7 @@ msgstr ""
 "permalink: /ja/conduct/\n"
 "---"
 
-#: r-novice-gapminder/CODE_OF_CONDUCT.md:5
+#: r-novice-gapminder/CODE_OF_CONDUCT.md:6
 #: r-novice-gapminder/bin/boilerplate/CODE_OF_CONDUCT.md:5
 msgid ""
 "As contributors and maintainers of this project,\n"
@@ -43,7 +43,7 @@ msgstr ""
 "プロジェクト貢献者・保持者は、\n"
 "[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
-#: r-novice-gapminder/CODE_OF_CONDUCT.md:8
+#: r-novice-gapminder/CODE_OF_CONDUCT.md:9
 #: r-novice-gapminder/bin/boilerplate/CODE_OF_CONDUCT.md:8
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
@@ -52,10 +52,7 @@ msgstr ""
 "嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
 "カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
-"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
-"may be reported by following our [reporting guidelines][coc-reporting]."
-
-#: r-novice-gapminder/CODE_OF_CONDUCT.md:11
+#: r-novice-gapminder/CODE_OF_CONDUCT.md:12
 #: r-novice-gapminder/bin/boilerplate/CODE_OF_CONDUCT.md:11
 #: r-novice-gapminder/bin/boilerplate/_episodes/01-introduction.md:14
 #: r-novice-gapminder/bin/boilerplate/_extras/discuss.md:6
