@@ -30,7 +30,8 @@ msgstr ""
 "---\n"
 "layout: page\n"
 "title: \"投稿者の行動規範\"\n"
-"permalink: /conduct/\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
 "---"
 
 #: git-novice/CODE_OF_CONDUCT.md:6
