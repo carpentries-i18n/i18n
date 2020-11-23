@@ -548,17 +548,17 @@ if [[ $render == true ]]; then
 
     #move files to external repo
     rsync -r ../i18n/locale/${locale}/${repo}/*md .
-    if [ -f CODE_OF_CONDUCT.md ]; then
-        mv CODE_OF_CONDUCT.md CONDUCT.md
+    if [ -f CONDUCT.md ]; then
+        mv CONDUCT.md CODE_OF_CONDUCT.md
     fi
     rsync -r ../i18n/locale/${locale}/${repo}/_episodes/*md _episodes
     rsync -r ../i18n/locale/${locale}/${repo}/_extras/*md _extras
 
     #correct links for locale
-    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CONDUCT.md
+    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CODE_OF_CONDUCT.md
     sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
     sed -i "s/root: \.$/root: \/${locale}\/\npermalink: \/${locale}\/index.html/g" index.md
-    sed -i "4s/root: \.\.$/root\: \/${locale}\//g" reference.md setup.md
+    sed -i "4s/root: \.\.$/root\: \/${locale}\//g" reference.md setup.md LICENSE.md
     sed -i "3s/root: \.$/root\: \/${locale}\//g" aio.md LICENSE.md
     sed -i "4s/---/permalink: \/${locale}\/aio\/\n---/g" aio.md    
     sed -i "5s/permalink: \/LICENSE\//permalink: \/${locale}\/LICENSE\//g" LICENSE.md
@@ -643,30 +643,30 @@ if [[ $render == true ]]; then
     fi
 
     #rename code of conduct if needed
-    if [ -f CODE_OF_CONDUCT.md ]; then
-        mv CODE_OF_CONDUCT.md CONDUCT.md
+    if [ -f CONDUCT.md ]; then
+        mv CODUCT.md CODE_OF_CONDUCT.md
     fi
 
     #update links
     # add title if missing
     sed -i "3s/root: \./Title: "Licenses"\nroot: \./g" LICENSE.md
-    sed -i "3s/root: \./Title: "Contributor Code of Conduct"\nroot: \./g" CONDUCT.md
+    sed -i "3s/root: \./Title: "Contributor Code of Conduct"\nroot: \./g" CODE_OF_CONDUCT.md
     sed -i "3s/root: \./Title: "Reference"\nroot: \./g" reference.md
     sed -i "3s/root: \./Title: "Setup"\nroot: \./g" setup.md
 
     # add root if missing
     sed -i "3s/---/root: \.\n---/g" index.md
     sed -i "3s/root: \//root: \./g" index.md
-    sed -i "4s/---/root: \.\n---/g" LICENSE.md CONDUCT.md 
+    sed -i "4s/---/root: \.\n---/g" LICENSE.md CODE_OF_CONDUCT.md 
     sed -i "4s/---/root: \.\.\n---/g" reference.md setup.md 
-    sed -i "3s/---/root: \.\n---/g" LICENSE.md CONDUCT.md
+    sed -i "3s/---/root: \.\n---/g" LICENSE.md CODE_OF_CONDUCT.md
     sed -i "3s/---/root: \.\.\n---/g" reference.md setup.md
     sed -i "3s/---/root: \.\n---/g" aio.md 
 
     # add permlink if missing
     sed -i "s/root\: \/\$/root\: \/\npermalink\: index.html/g" index.md
     sed -i "s/root\: \.\$/root\: \.\npermalink\: \/LICENSE\//g" LICENSE.md
-    sed -i "s/root\: \.\$/root\: \.\npermalink\: \/conduct\//g"  CONDUCT.md
+    sed -i "s/root\: \.\$/root\: \.\npermalink\: \/conduct\//g"  CODE_OF_CONDUCT.md
     sed -i "s/root\: \.\.\$/root\: \.\.\npermalink\: \/reference\//g"  reference.md
     sed -i "s/root\: \.\.\$/root\: \.\.\npermalink\: \/setup\//g"  setup.md
     sed -i "s/root\: \.\.\$/root\: \.\.\npermalink\: \/aio\//g"  aio.md
@@ -674,15 +674,15 @@ if [[ $render == true ]]; then
     # remove if appears twice
     sed -i '5{/permalink: index\.html/d;}' index.md
     sed -i '6{/permalink\: \/LICENSE\//d;}' LICENSE.md
-    sed -i '6{/permalink\: \/conduct\//d;}' CONDUCT.md
+    sed -i '6{/permalink\: \/conduct\//d;}' CODE_OF_CONDUCT.md
     sed -i '6{/permalink\: \/reference\//d;}' reference.md
     sed -i '6{/permalink\: \/setup\//d;}' setup.md
     sed -i '5{/permalink\: \/aio\//d;}' aio.md
 
-    #remove figures for now
-    rm -rf _extras/figures.md
-    git add  _extras/figures.md
-
+    @ mask figures for now
+    echo "---\nlayout: page\ntitle: Figures\n---" > _extras/figures.md
+    ga _extras/figures.md
+ 
     #add changes
     git add -u
     git add index.md LICENSE.md reference.md setup.md aio.md
