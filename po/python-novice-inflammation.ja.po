@@ -28,40 +28,34 @@ msgid ""
 msgstr ""
 "---\n"
 "layout: page\n"
-"title: \"Contributor Code of Conduct\"\n"
+"title: \"投稿者の行動規範\"\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
 "---"
 
 #: python-novice-inflammation/CODE_OF_CONDUCT.md:5
+#: python-novice-inflammation/bin/boilerplate/CODE_OF_CONDUCT.md:5
 msgid ""
 "As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
-"As contributors and maintainers of this project,\n"
-"we pledge to follow the [Carpentry Code of Conduct][coc]."
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: python-novice-inflammation/CODE_OF_CONDUCT.md:8
+#: python-novice-inflammation/bin/boilerplate/CODE_OF_CONDUCT.md:8
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
-"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
-"may be reported by following our [reporting guidelines][coc-reporting]."
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: python-novice-inflammation/CODE_OF_CONDUCT.md:11
-#: python-novice-inflammation/_episodes/01-numpy.md:1281
-#: python-novice-inflammation/_episodes/02-loop.md:384
-#: python-novice-inflammation/_episodes/03-lists.md:544
-#: python-novice-inflammation/_episodes/04-files.md:193
-#: python-novice-inflammation/_episodes/05-cond.md:473
-#: python-novice-inflammation/_episodes/06-func.md:982
-#: python-novice-inflammation/_episodes/07-errors.md:581
-#: python-novice-inflammation/_episodes/08-defensive.md:552
-#: python-novice-inflammation/_episodes/09-debugging.md:286
-#: python-novice-inflammation/_episodes/10-cmdline.md:1026
-#: python-novice-inflammation/_extras/figures.md:68
+#: python-novice-inflammation/bin/boilerplate/CODE_OF_CONDUCT.md:11
 #: python-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md:14
 #: python-novice-inflammation/bin/boilerplate/_extras/discuss.md:6
-#: python-novice-inflammation/bin/boilerplate/_extras/figures.md:68
+#: python-novice-inflammation/bin/boilerplate/_extras/figures.md:40
 #: python-novice-inflammation/bin/boilerplate/_extras/guide.md:6
 #: python-novice-inflammation/bin/boilerplate/index.md:13
 #: python-novice-inflammation/bin/boilerplate/reference.md:9
