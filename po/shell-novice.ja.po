@@ -695,7 +695,7 @@ msgid ""
 "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
-"\"Software Carpentry\"と\"Data Carpentry\"およびそれぞれのロゴは[Community\n"
+"「Software Carpentry」と「Data Carpentry」およびそれぞれのロゴは[Community\n"
 "Initiatives][CI]における登録商標または商標です。"
 
 #: shell-novice/LICENSE.md:79
