@@ -548,14 +548,14 @@ if [[ $render == true ]]; then
 
     #move files to external repo
     rsync -r ../i18n/locale/${locale}/${repo}/*md .
-    if [ -f CONDUCT.md ]; then
-        mv CONDUCT.md CODE_OF_CONDUCT.md
+    if [ -f CODE_OF_CONDUCT.md ]; then
+        mv CODE_OF_CONDUCT.md CONDUCT.md
     fi
     rsync -r ../i18n/locale/${locale}/${repo}/_episodes/*md _episodes
     rsync -r ../i18n/locale/${locale}/${repo}/_extras/*md _extras
 
     #correct links for locale
-    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CODE_OF_CONDUCT.md
+    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CONDUCT.md
     sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
     sed -i "s/root: \.$/root: \/${locale}\/\npermalink: \/${locale}\/index.html/g" index.md
     sed -i "s/permalink: \/setup\//permalink: \/${locale}\/setup\//g" setup.md
@@ -634,16 +634,16 @@ if [[ $render == true ]]; then
     sed -i "s/root: \.$/root: ../\npermalink: \/LICENSE\//g" LICENSE.md
     #sed -i "s/root: \.$/root: .  \# Is the only page that doesn't follow the pattern \/:path\/index.html\npermalink: index.html/g" index.md
 
-    if [ -f CONDUCT.md ]; then
-        mv CONDUCT.md CODE_OF_CONDUCT.md           
+    if [ -f CODE_OF_CONDUCT.md ]; then
+        mv CODE_OF_CONDUCT.md CONDUCT.md          
     fi
     # add root if missing
-    sed -i "4s/---/root: \.\n---/g" CODE_OF_CONDUCT.md
+    sed -i "4s/---/root: \.\n---/g" CONDUCT.md
 
     # add permlink if missing
-    sed -i "s/root\: \.\$/root\: .\npermalink\: \/conduct\//g"  CODE_OF_CONDUCT.md
+    sed -i "s/root\: \.\$/root\: .\npermalink\: \/conduct\//g"  CONDUCT.md
     # remove if appears twice
-    sed -i '6{/permalink\: \/conduct\//d;}' CODE_OF_CONDUCT.md 
+    sed -i '6{/permalink\: \/conduct\//d;}' CONDUCT.md 
 
 
 ### corrections for new lessons
