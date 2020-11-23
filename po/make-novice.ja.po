@@ -18,26 +18,40 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+# Front Matter
 #: make-novice/CODE_OF_CONDUCT.md:1
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:1
-# Front Matter
-msgid "---\n"
+msgid ""
+"---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
+"permalink: /conduct/\n"
 "---"
 msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"投稿者の行動規範\"\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
+"---"
 
 #: make-novice/CODE_OF_CONDUCT.md:5
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:5
-msgid "As contributors and maintainers of this project,\n"
+msgid ""
+"As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: make-novice/CODE_OF_CONDUCT.md:8
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:8
-msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+msgid ""
+"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: make-novice/CODE_OF_CONDUCT.md:11
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:11
@@ -49,7 +63,7 @@ msgstr ""
 #: make-novice/bin/boilerplate/reference.md:9
 #: make-novice/bin/boilerplate/setup.md:7
 msgid "{% include links.md %}"
-msgstr ""
+msgstr "{% include links.md %}"
 
 #: make-novice/CONTRIBUTING.md:1
 #: make-novice/bin/boilerplate/CONTRIBUTING.md:1
@@ -327,6 +341,22 @@ msgid "[contact]: mailto:admin@software-carpentry.org\n"
 "[swc-lessons]: http://software-carpentry.org/lessons/\n"
 "[swc-site]: http://software-carpentry.org/"
 msgstr ""
+"[contact]: mailto:team@carpentries.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: https://carpentries.topicbox.com/groups/discuss\n"
+"[github]: https://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[new-issue]: https://github.com/swcarpentry/make-novice/issues/new\n"
+"[issues]: https://github.com/swcarpentry/make-novice/issues/\n"
+"[repo]: https://github.com/swcarpentry/make-novice/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/"
 
 # Front Matter
 #: make-novice/LICENSE.md:1
@@ -517,7 +547,7 @@ msgid ""
 "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
-"\"Software Carpentry\"と\"Data Carpentry\"およびそれぞれのロゴは[Community\n"
+"「Software Carpentry」と「Data Carpentry」およびそれぞれのロゴは[Community\n"
 "Initiatives][CI]における登録商標または商標です。"
 
 #: make-novice/LICENSE.md:79

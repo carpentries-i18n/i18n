@@ -30,7 +30,8 @@ msgstr ""
 "---\n"
 "layout: page\n"
 "title: \"投稿者の行動規範\"\n"
-"permalink: /conduct/\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
 "---"
 
 #: git-novice/CODE_OF_CONDUCT.md:6
@@ -47,8 +48,7 @@ msgid ""
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
 "嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
-"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきま"
-"す。"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: git-novice/CODE_OF_CONDUCT.md:12
 msgid "{% include links.md %}"
@@ -673,7 +673,7 @@ msgid ""
 "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
-"\"Software Carpentry\"と\"Data Carpentry\"およびそれぞれのロゴは[Community\n"
+"「Software Carpentry」と「Data Carpentry」およびそれぞれのロゴは[Community\n"
 "Initiatives][CI]における登録商標または商標です。"
 
 #: git-novice/LICENSE.md:79
