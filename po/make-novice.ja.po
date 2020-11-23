@@ -25,6 +25,7 @@ msgid ""
 "---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
+"permalink: /conduct/\n"
 "---"
 msgstr ""
 "---\n"
@@ -36,15 +37,21 @@ msgstr ""
 
 #: make-novice/CODE_OF_CONDUCT.md:5
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:5
-msgid "As contributors and maintainers of this project,\n"
+msgid ""
+"As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: make-novice/CODE_OF_CONDUCT.md:8
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:8
-msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+msgid ""
+"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: make-novice/CODE_OF_CONDUCT.md:11
 #: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:11
@@ -56,7 +63,7 @@ msgstr ""
 #: make-novice/bin/boilerplate/reference.md:9
 #: make-novice/bin/boilerplate/setup.md:7
 msgid "{% include links.md %}"
-msgstr ""
+msgstr "{% include links.md %}"
 
 #: make-novice/CONTRIBUTING.md:1
 #: make-novice/bin/boilerplate/CONTRIBUTING.md:1
