@@ -208,6 +208,7 @@ r-novice-gapminder/_extras/about.md
 r-novice-gapminder/_extras/discuss.md
 r-novice-gapminder/_extras/guide.md
 r-novice-gapminder/_includes/links.md
+r-novice-gapminder/_extras/figures.md
 r-novice-gapminder/aio.md
 r-novice-gapminder/bin/boilerplate/CODE_OF_CONDUCT.md
 r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md
@@ -248,7 +249,7 @@ r-novice-inflammation/bin/boilerplate/setup.md
 r-novice-inflammation/index.md
 r-novice-inflammation/reference.md
 r-novice-inflammation/setup.md
-shell-novice/CONDUCT.md
+shell-novice/CODE_OF_CONDUCT.md
 shell-novice/CONTRIBUTING.md
 shell-novice/LICENSE.md
 shell-novice/README.md
