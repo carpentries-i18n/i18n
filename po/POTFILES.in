@@ -32,7 +32,6 @@ git-novice/_episodes/13-hosting.md
 git-novice/_episodes/14-supplemental-rstudio.md
 git-novice/_extras/about.md
 git-novice/_extras/discuss.md
-git-novice/_extras/figures.md
 git-novice/_extras/guide.md
 git-novice/_locale/es/CODE_OF_CONDUCT.md
 git-novice/_locale/es/CONTRIBUTING.md
@@ -54,7 +53,6 @@ git-novice/_locale/es/_episodes/13-hosting.md
 git-novice/_locale/es/_episodes/14-supplemental-rstudio.md
 git-novice/_locale/es/_extras/about.md
 git-novice/_locale/es/_extras/discuss.md
-git-novice/_locale/es/_extras/figures.md
 git-novice/_locale/es/_extras/guide.md
 git-novice/_locale/es/aio.md
 git-novice/_locale/es/index.md
@@ -89,7 +87,6 @@ make-novice/bin/boilerplate/README.md
 make-novice/bin/boilerplate/_episodes/01-introduction.md
 make-novice/bin/boilerplate/_extras/about.md
 make-novice/bin/boilerplate/_extras/discuss.md
-make-novice/bin/boilerplate/_extras/figures.md
 make-novice/bin/boilerplate/_extras/guide.md
 make-novice/bin/boilerplate/aio.md
 make-novice/bin/boilerplate/index.md
@@ -128,7 +125,6 @@ python-novice-gapminder/_extras/about.md
 python-novice-gapminder/_extras/design.md
 python-novice-gapminder/_extras/discuss.md
 python-novice-gapminder/_extras/exercises.md
-python-novice-gapminder/_extras/figures.md
 python-novice-gapminder/_extras/guide.md
 python-novice-gapminder/_includes/links.md
 python-novice-gapminder/aio.md
@@ -138,7 +134,6 @@ python-novice-gapminder/bin/boilerplate/README.md
 python-novice-gapminder/bin/boilerplate/_episodes/01-introduction.md
 python-novice-gapminder/bin/boilerplate/_extras/about.md
 python-novice-gapminder/bin/boilerplate/_extras/discuss.md
-python-novice-gapminder/bin/boilerplate/_extras/figures.md
 python-novice-gapminder/bin/boilerplate/_extras/guide.md
 python-novice-gapminder/bin/boilerplate/aio.md
 python-novice-gapminder/bin/boilerplate/index.md
@@ -165,7 +160,6 @@ python-novice-inflammation/_extras/about.md
 python-novice-inflammation/_extras/additional_material.md
 python-novice-inflammation/_extras/discuss.md
 python-novice-inflammation/_extras/extra_exercises.md
-python-novice-inflammation/_extras/figures.md
 python-novice-inflammation/_extras/guide.md
 python-novice-inflammation/_includes/links.md
 python-novice-inflammation/aio.md
@@ -174,7 +168,6 @@ python-novice-inflammation/bin/boilerplate/README.md
 python-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md
 python-novice-inflammation/bin/boilerplate/_extras/about.md
 python-novice-inflammation/bin/boilerplate/_extras/discuss.md
-python-novice-inflammation/bin/boilerplate/_extras/figures.md
 python-novice-inflammation/bin/boilerplate/_extras/guide.md
 python-novice-inflammation/bin/boilerplate/aio.md
 python-novice-inflammation/bin/boilerplate/index.md
@@ -208,7 +201,6 @@ r-novice-gapminder/_extras/about.md
 r-novice-gapminder/_extras/discuss.md
 r-novice-gapminder/_extras/guide.md
 r-novice-gapminder/_includes/links.md
-r-novice-gapminder/_extras/figures.md
 r-novice-gapminder/aio.md
 r-novice-gapminder/bin/boilerplate/CODE_OF_CONDUCT.md
 r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md
@@ -216,7 +208,6 @@ r-novice-gapminder/bin/boilerplate/README.md
 r-novice-gapminder/bin/boilerplate/_episodes/01-introduction.md
 r-novice-gapminder/bin/boilerplate/_extras/about.md
 r-novice-gapminder/bin/boilerplate/_extras/discuss.md
-r-novice-gapminder/bin/boilerplate/_extras/figures.md
 r-novice-gapminder/bin/boilerplate/_extras/guide.md
 r-novice-gapminder/bin/boilerplate/aio.md
 r-novice-gapminder/bin/boilerplate/index.md
@@ -231,7 +222,6 @@ r-novice-inflammation/LICENSE.md
 r-novice-inflammation/README.md
 r-novice-inflammation/_extras/about.md
 r-novice-inflammation/_extras/discuss.md
-r-novice-inflammation/_extras/figures.md
 r-novice-inflammation/_extras/guide.md
 r-novice-inflammation/_includes/links.md
 r-novice-inflammation/aio.md
@@ -240,7 +230,6 @@ r-novice-inflammation/bin/boilerplate/README.md
 r-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md
 r-novice-inflammation/bin/boilerplate/_extras/about.md
 r-novice-inflammation/bin/boilerplate/_extras/discuss.md
-r-novice-inflammation/bin/boilerplate/_extras/figures.md
 r-novice-inflammation/bin/boilerplate/_extras/guide.md
 r-novice-inflammation/bin/boilerplate/aio.md
 r-novice-inflammation/bin/boilerplate/index.md
@@ -262,7 +251,6 @@ shell-novice/_episodes/06-script.md
 shell-novice/_episodes/07-find.md
 shell-novice/_extras/about.md
 shell-novice/_extras/discuss.md
-shell-novice/_extras/figures.md
 shell-novice/_extras/guide.md
 shell-novice/_includes/links.md
 shell-novice/aio.md
@@ -288,7 +276,6 @@ sql-novice-survey/_episodes/10-prog.md
 sql-novice-survey/_episodes/11-prog-R.md
 sql-novice-survey/_extras/about.md
 sql-novice-survey/_extras/discuss.md
-sql-novice-survey/_extras/figures.md
 sql-novice-survey/_extras/guide.md
 sql-novice-survey/_includes/links.md
 sql-novice-survey/aio.md
@@ -298,7 +285,6 @@ sql-novice-survey/bin/boilerplate/README.md
 sql-novice-survey/bin/boilerplate/_episodes/01-introduction.md
 sql-novice-survey/bin/boilerplate/_extras/about.md
 sql-novice-survey/bin/boilerplate/_extras/discuss.md
-sql-novice-survey/bin/boilerplate/_extras/figures.md
 sql-novice-survey/bin/boilerplate/_extras/guide.md
 sql-novice-survey/bin/boilerplate/aio.md
 sql-novice-survey/bin/boilerplate/index.md
