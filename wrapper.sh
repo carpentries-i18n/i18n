@@ -548,11 +548,13 @@ if [[ $render == true ]]; then
 
     #move files to external repo
     rsync -r ../i18n/locale/${locale}/${repo}/*md .
+    if [ -f CODE_OF_CONDUCT.md ]; then
+        mv CODE_OF_CONDUCT.md CONDUCT.md
+    fi
     rsync -r ../i18n/locale/${locale}/${repo}/_episodes/*md _episodes
     rsync -r ../i18n/locale/${locale}/${repo}/_extras/*md _extras
 
     #correct links for locale
-    sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CODE_OF_CONDUCT.md
     sed -i "s/permalink: \/conduct\//permalink: \/${locale}\/conduct\//g" CONDUCT.md
     sed -i "s/permalink: \/aio\//permalink: \/${locale}\/aio\//g" aio.md
     sed -i "s/root: \.$/root: \/${locale}\/\npermalink: \/${locale}\/index.html/g" index.md
