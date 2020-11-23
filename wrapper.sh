@@ -644,7 +644,7 @@ if [[ $render == true ]]; then
 
     #rename code of conduct if needed
     if [ -f CONDUCT.md ]; then
-        mv CODUCT.md CODE_OF_CONDUCT.md
+        mv CONDUCT.md CODE_OF_CONDUCT.md
     fi
 
     #update links
