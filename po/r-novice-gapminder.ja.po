@@ -28,7 +28,7 @@ msgid ""
 msgstr ""
 "---\n"
 "layout: page\n"
-"title: \"Contributor Code of Conduct\"\n"
+"title: \"投稿者の行動規範\"\n"
 "---"
 
 #: r-novice-gapminder/CODE_OF_CONDUCT.md:5
@@ -37,8 +37,8 @@ msgid ""
 "As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
-"As contributors and maintainers of this project,\n"
-"we pledge to follow the [Carpentry Code of Conduct][coc]."
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: r-novice-gapminder/CODE_OF_CONDUCT.md:8
 #: r-novice-gapminder/bin/boilerplate/CODE_OF_CONDUCT.md:8
@@ -46,6 +46,9 @@ msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
+
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 
@@ -65,7 +68,7 @@ msgstr "{% include links.md %}"
 #: r-novice-gapminder/CONTRIBUTING.md:1
 #: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:1
 msgid "# Contributing"
-msgstr "# Contributing"
+msgstr "# プロジェクトに貢献する"
 
 #: r-novice-gapminder/CONTRIBUTING.md:3
 #: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:3
@@ -77,18 +80,19 @@ msgid ""
 "bug reports,\n"
 "and reviews of proposed changes are all welcome."
 msgstr ""
-"[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,\n"
-"and we welcome contributions of all kinds:\n"
-"new lessons,\n"
-"fixes to existing material,\n"
-"bug reports,\n"
-"and reviews of proposed changes are all welcome."
+"[SoftwareCarpentry][swc-site]と[DataCarpentry][dc-site]はオープンソースのプロ"
+"ジェクトです。\n"
+"コミュニティーからの資料提供・ご協力、例えば、\n"
+"新しいレッスン、\n"
+"既存の資料の修正、\n"
+"バグレポート、\n"
+"変更点のレビューなど、どんなに些細な変更も歓迎いたします。"
 
 # header
 #: r-novice-gapminder/CONTRIBUTING.md:10
 #: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:10
 msgid "## Contributor Agreement"
-msgstr "## Contributor Agreement"
+msgstr "## 貢献する方法"
 
 #: r-novice-gapminder/CONTRIBUTING.md:12
 msgid ""
@@ -100,19 +104,22 @@ msgid ""
 "Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
 "agrees to abide by our [code of conduct](CONDUCT.md)."
 msgstr ""
-"By contributing,\n"
-"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
-"In exchange,\n"
-"we will address your issues and/or assess your change proposal as promptly as we can,\n"
-"and help you become a member of our community.\n"
-"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
-"agrees to abide by our [code of conduct](CONDUCT.md)."
+"このプロジェクトに貢献することにより、\n"
+"自身が提供したコンテンツを[私達のライセンス](License.md)に基づき配布する事に"
+"同意するものとします。\n"
+"ご協力と引き換えに、\n"
+"私達はあなたが提供する変更点・問題点などを検討し、\n"
+"できるだけ早くコミュニティーの一員になれるよう尽力いたします。\n"
+"[Software Carpentry][swc-site]と[Data Carpentry][dc-site]の一員になられた際に"
+"は、\n"
+"私達の[行動規範](https://docs.carpentries.org/topic_folders/policies/code-of-"
+"conduct.html)を遵守する事に同意していただきます。"
 
 # header
 #: r-novice-gapminder/CONTRIBUTING.md:20
 #: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:20
 msgid "## How to Contribute"
-msgstr "## How to Contribute"
+msgstr "## 貢献する方法"
 
 #: r-novice-gapminder/CONTRIBUTING.md:22
 #: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:22
@@ -124,168 +131,168 @@ msgid ""
 "This is a good way to introduce yourself\n"
 "and to meet some of our community members."
 msgstr ""
-"The easiest way to get started is to file an issue\n"
-"to tell us about a spelling mistake,\n"
-"some awkward wording,\n"
-"or a factual error.\n"
-"This is a good way to introduce yourself\n"
-"and to meet some of our community members."
+"一番簡単に貢献する方法は、\n"
+"誤字、言葉遣い、\n"
+"間違った内容などを\n"
+"issue(イシュー)で報告する事です。\n"
+"Issueを報告することによって、自分をコミュニティーに紹介し、\n"
+"また、コミュニティーのメンバーと出会う良い機会にもなります。"
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:29
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:29
 msgid "1.  If you do not have a [GitHub][github] account,"
-msgstr "1.  If you do not have a [GitHub][github] account,"
+msgstr "1. [GitHub][github]アカウントをお持ちでない場合、"
 
 #: r-novice-gapminder/CONTRIBUTING.md:30
 msgid ""
 "    you can [send us comments by email][contact].\n"
 "    However,\n"
-"    we will be able to respond more quickly if you use one of the other methods described below."
+"    we will be able to respond more quickly if you use one of the other "
+"methods described below."
 msgstr ""
-"    you can [send us comments by email][contact].\n"
-"    However,\n"
-"    we will be able to respond more quickly if you use one of the other methods described below."
+"    [メール][contact]にてご連絡して下さい。\n"
+"    ですが、\n"
+"    以下の方法であればメールよりも早急に対応できる場合がありますので、そちら"
+"をお勧め致します。"
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:34
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:34
 msgid "2.  If you have a [GitHub][github] account,"
-msgstr "2.  If you have a [GitHub][github] account,"
+msgstr "2. [GitHub][github]アカウントをすでにお持ちである方・"
 
 #: r-novice-gapminder/CONTRIBUTING.md:35
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:35
 msgid ""
 "    or are willing to [create one][github-join],\n"
 "    but do not know how to use Git,\n"
-"    you can report problems or suggest improvements by [creating an issue][issues].\n"
+"    you can report problems or suggest improvements by [creating an issue]"
+"[new-issue].\n"
 "    This allows us to assign the item to someone\n"
 "    and to respond to it in a threaded discussion."
 msgstr ""
-"    or are willing to [create one][github-join],\n"
-"    but do not know how to use Git,\n"
-"    you can report problems or suggest improvements by [creating an issue][issues].\n"
-"    This allows us to assign the item to someone\n"
-"    and to respond to it in a threaded discussion."
+"    またはアカウントを[新たに作る][github-join]気がある方で、\n"
+"    あまりGitに詳しくない・使い慣れていない方は、\n"
+"    質問・提案などを[新しいイシュー][new-issue]として開いて下さい。\n"
+"    イシューを開くことによって、コミュニティーから誰かをそのイシューに割り当"
+"て、\n"
+"    スレッド化したディスカッションとして質問・提案に応答させていただくことが"
+"できます。"
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:41
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:41
 msgid "3.  If you are comfortable with Git,"
-msgstr "3.  If you are comfortable with Git,"
+msgstr "3. Gitを使い慣れている方で、"
 
 #: r-novice-gapminder/CONTRIBUTING.md:42
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:42
 msgid ""
 "    and would like to add or change material,\n"
 "    you can submit a pull request (PR).\n"
 "    Instructions for doing this are [included below](#using-github)."
 msgstr ""
-"    and would like to add or change material,\n"
-"    you can submit a pull request (PR).\n"
-"    Instructions for doing this are [included below](#using-github)."
+"    既存の資料を変更、または追加したい方は、\n"
+"    プルリクエスト(Pull Request)にて変更点を提出して下さい。\n"
+"    プルリクエストを使った提出方法は、[下記に記載されています](#using-"
+"github)。"
 
 # header
 #: r-novice-gapminder/CONTRIBUTING.md:46
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:46
 msgid "## Where to Contribute"
-msgstr "## Where to Contribute"
+msgstr "## どこへ貢献するか"
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:48
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:48
 msgid "1.  If you wish to change this lesson,"
-msgstr "1.  If you wish to change this lesson,"
+msgstr "1.  このレッスンの内容を変更したい場合は、"
 
 #: r-novice-gapminder/CONTRIBUTING.md:49
 msgid ""
 "    please work in <https://github.com/swcarpentry/r-novice-gapminder>,\n"
 "    which can be viewed at <https://swcarpentry.github.io/r-novice-gapminder>."
 msgstr ""
-"    please work in <https://github.com/swcarpentry/r-novice-gapminder>,\n"
-"    which can be viewed at <https://swcarpentry.github.io/r-novice-gapminder>."
+"    <https://github.com/swcarpentry/r-novice-gapminder>から編集して下さい。\n"
+"    ウェブサイトはこちらから観覧いただけます：<https://swcarpentry.github.io/"
+"r-novice-gapminder>"
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:52
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:52
 msgid "2.  If you wish to change the example lesson,"
-msgstr "2.  If you wish to change the example lesson,"
+msgstr "2.  模範レッスンの内容を変更したい場合は、"
 
 #: r-novice-gapminder/CONTRIBUTING.md:53
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:53
 msgid ""
 "    please work in <https://github.com/carpentries/lesson-example>,\n"
 "    which documents the format of our lessons\n"
 "    and can be viewed at <https://carpentries.github.io/lesson-example>."
 msgstr ""
-"    please work in <https://github.com/carpentries/lesson-example>,\n"
-"    which documents the format of our lessons\n"
-"    and can be viewed at <https://carpentries.github.io/lesson-example>."
+"    <https://github.com/carpentries/lesson-example>から編集して下さい。\n"
+"    このリポジトリは模範レッスンの内容を記載しており、\n"
+"    こちらから観覧できます：<https://carpentries.github.io/lesson-example>."
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:57
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:57
 msgid "3.  If you wish to change the template used for workshop websites,"
-msgstr "3.  If you wish to change the template used for workshop websites,"
+msgstr ""
+"3.  ワークショップのウェブサイトに使われるテンプレートの内容を変更したい場合"
+"は、"
 
 #: r-novice-gapminder/CONTRIBUTING.md:58
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:58
 msgid ""
 "    please work in <https://github.com/carpentries/workshop-template>.\n"
-"    The home page of that repository explains how to set up workshop websites,\n"
-"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
+"    The home page of that repository explains how to set up workshop "
+"websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-"
+"template>\n"
 "    provide more background on our design choices."
 msgstr ""
-"    please work in <https://github.com/carpentries/workshop-template>.\n"
-"    The home page of that repository explains how to set up workshop websites,\n"
-"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
-"    provide more background on our design choices."
+"    <https://github.com/carpentries/workshop-template>から編集して下さい。\n"
+"    このリポジトリのホームページに、ワークショップに使うウェブサイトの設立方"
+"法が記載されており、\n"
+"    <https://carpentries.github.io/workshop-template>から\n"
+"    サイトの詳細なデザイン方針が観覧できます。"
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:63
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:63
 msgid "4.  If you wish to change CSS style files, tools,"
-msgstr "4.  If you wish to change CSS style files, tools,"
+msgstr ""
+"4.  `_includes`、または`_layouts`に保存されている、レッスンやワークショップの"
+"ためのCSSファイル、ツール、"
 
 #: r-novice-gapminder/CONTRIBUTING.md:64
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:64
 msgid ""
-"    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+"    or HTML boilerplate for lessons or workshops stored in `_includes` or "
+"`_layouts`,\n"
 "    please work in <https://github.com/carpentries/styles>."
 msgstr ""
-"    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
-"    please work in <https://github.com/carpentries/styles>."
+"    HTML boilerplateなどを編集したい場合は、\n"
+"    <https://github.com/carpentries/styles>から編集して下さい。"
 
 # header
 #: r-novice-gapminder/CONTRIBUTING.md:67
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:67
 msgid "## What to Contribute"
-msgstr "## What to Contribute"
+msgstr "## 貢献していただきたい個所"
 
 #: r-novice-gapminder/CONTRIBUTING.md:69
 msgid ""
 "There are many ways to contribute,\n"
 "from writing new exercises and improving existing ones\n"
 "to updating or filling in the documentation\n"
-"and submitting [bug reports][issues]\n"
+"and submitting [bug reports][new-issue]\n"
 "about things that don't work, aren't clear, or are missing.\n"
 "If you are looking for ideas,\n"
 "please see [the list of issues for this repository][issues],\n"
 "or the issues for [Data Carpentry][dc-issues]\n"
 "and [Software Carpentry][swc-issues] projects."
 msgstr ""
-"There are many ways to contribute,\n"
-"from writing new exercises and improving existing ones\n"
-"to updating or filling in the documentation\n"
-"and submitting [bug reports][issues]\n"
-"about things that don't work, aren't clear, or are missing.\n"
-"If you are looking for ideas,\n"
-"please see [the list of issues for this repository][issues],\n"
-"or the issues for [Data Carpentry][dc-issues]\n"
-"and [Software Carpentry][swc-issues] projects."
+"新しい例を書く、すでにある例の改善、\n"
+"ドキュメントのアップデート、\n"
+"不明瞭な点、欠点、「動作に不具合がある」といった\n"
+"[バグの報告][new-issue]など、\n"
+"様々な方法で貢献していただくことができます。\n"
+"どういったイシューを開いたら良いかわからない場合は、\n"
+"[このリポジトリのイシュー][issues]、\n"
+"[Data Carpentryのイシュー][dc-issues]、\n"
+"もしくは[Software Carpentryのイシュー][swc-issues]を見てみて下さい。"
 
 #: r-novice-gapminder/CONTRIBUTING.md:79
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:79
 msgid ""
 "Comments on issues and reviews of pull requests are just as welcome:\n"
 "we are smarter together than we are on our own.\n"
@@ -294,23 +301,24 @@ msgid ""
 "to forget how impenetrable some of this material can be,\n"
 "so fresh eyes are always welcome."
 msgstr ""
-"Comments on issues and reviews of pull requests are just as welcome:\n"
-"we are smarter together than we are on our own.\n"
-"Reviews from novices and newcomers are particularly valuable:\n"
-"it's easy for people who have been using these lessons for a while\n"
-"to forget how impenetrable some of this material can be,\n"
-"so fresh eyes are always welcome."
+"すでにあるイシューへのコメントや、プルリクエストのレビューなども歓迎いたしま"
+"す。\n"
+"皆さんで協力したほうが、良い結果につながります。\n"
+"また、新しく加入された方の意見やレビューなどは特に重要視しています。\n"
+"レッスンの資料を幾度となく見てきた方は特に見落としがちなのですが、\n"
+"私達が提供している資料・コンテンツは、初めて資料を見る方などには、理解するの"
+"に時間が掛かる場合があるので、\n"
+"通常とは違う視点からの意見は大変貴重なのです。"
 
 # header
 #: r-novice-gapminder/CONTRIBUTING.md:86
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:86
 msgid "## What *Not* to Contribute"
-msgstr "## What *Not* to Contribute"
+msgstr "## 貢献していただきたくない個所"
 
 #: r-novice-gapminder/CONTRIBUTING.md:88
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:88
 msgid ""
-"Our lessons already contain more material than we can cover in a typical workshop,\n"
+"Our lessons already contain more material than we can cover in a typical "
+"workshop,\n"
 "so we are usually *not* looking for more concepts or tools to add to them.\n"
 "As a rule,\n"
 "if you want to introduce a new idea,\n"
@@ -319,33 +327,36 @@ msgid ""
 "The first encourages contributors to be honest about requirements;\n"
 "the second, to think hard about priorities."
 msgstr ""
-"Our lessons already contain more material than we can cover in a typical workshop,\n"
-"so we are usually *not* looking for more concepts or tools to add to them.\n"
-"As a rule,\n"
-"if you want to introduce a new idea,\n"
-"you must (a) estimate how long it will take to teach\n"
-"and (b) explain what you would take out to make room for it.\n"
-"The first encourages contributors to be honest about requirements;\n"
-"the second, to think hard about priorities."
+"現在、通常のワークショップの時間内ではカバーしきれないほどの内容量がレッスン"
+"の資料に含まれています。\n"
+"ですので、新たにレッスンに含められる項目やツールなどは求めておりません。\n"
+"どうしても新しい内容を入れたい場合は、\n"
+"(a)新しい内容を教えるために掛かるおおよその時間、\n"
+"(b)新しい内容を入れる代わりにどの内容を取り出すか、\n"
+"そして、取り出す理由をご説明下さい。\n"
+"最初の点は、貢献する方々に可能かどうかを見極めていただくためです。\n"
+"二つ目の点は、どちらの内容を有線するべきかを考えていただくためです。"
 
 #: r-novice-gapminder/CONTRIBUTING.md:97
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:97
 msgid ""
-"We are also not looking for exercises or other material that only run on one platform.\n"
-"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux users;\n"
+"We are also not looking for exercises or other material that only run on one "
+"platform.\n"
+"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux "
+"users;\n"
 "in order to be usable,\n"
 "our lessons must run equally well on all three."
 msgstr ""
-"We are also not looking for exercises or other material that only run on one platform.\n"
-"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux users;\n"
-"in order to be usable,\n"
-"our lessons must run equally well on all three."
+"上記に加え、一つのプラットホーム・OSでしか使用ができないなどといったプログラ"
+"ムのレッスン内容・資料などは求めておりません。\n"
+"私達が提供するワークショップでは、Windows、Mac OS X、Linuxなど、違ったOSを使"
+"用するユーザーが来ることがあります。\n"
+"そのため、新しいレッスンを作る際には、\n"
+"先述の三つのOSに対応可能である必要があります。"
 
 # header
 #: r-novice-gapminder/CONTRIBUTING.md:102
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:102
 msgid "## Using GitHub"
-msgstr "## Using GitHub"
+msgstr "## GitHubの使い方"
 
 #: r-novice-gapminder/CONTRIBUTING.md:104
 msgid ""
@@ -354,54 +365,66 @@ msgid ""
 "[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
 "In brief:"
 msgstr ""
-"If you choose to contribute via GitHub,\n"
-"you may want to look at\n"
-"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
-"In brief:"
+"GitHubから資料を提供したい場合は、\n"
+"[GitHubでオープンソース・プロジェクトに貢献する方法][how-contribute]\n"
+"を参照して下さい。\n"
+"簡潔にまとめると："
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:109
-msgid "1.  The published copy of the lesson is in the `gh-pages` branch of the repository"
-msgstr "1.  The published copy of the lesson is in the `gh-pages` branch of the repository"
+msgid ""
+"1.  The published copy of the lesson is in the `gh-pages` branch of the "
+"repository"
+msgstr ""
+"1.  現在公開されているレッスン内容はリポジトリの`gh-pages`というブランチに保"
+"存されています"
 
 #: r-novice-gapminder/CONTRIBUTING.md:110
 msgid ""
 "    (so that GitHub will regenerate it automatically).\n"
 "    Please create all branches from that,\n"
-"    and merge the [master repository][repo]'s `gh-pages` branch into your `gh-pages` branch\n"
+"    and merge the [master repository][repo]'s `gh-pages` branch into your "
+"`gh-pages` branch\n"
 "    before starting work.\n"
 "    Please do *not* work directly in your `gh-pages` branch,\n"
 "    since that will make it difficult for you to work on other contributions."
 msgstr ""
-"    (so that GitHub will regenerate it automatically).\n"
-"    Please create all branches from that,\n"
-"    and merge the [master repository][repo]'s `gh-pages` branch into your `gh-pages` branch\n"
-"    before starting work.\n"
-"    Please do *not* work directly in your `gh-pages` branch,\n"
-"    since that will make it difficult for you to work on other contributions."
+"    (これはGitHubが自動的に変更点を公開させるためです)。\n"
+"    そのため、全てのブランチは`gh-pages`から分岐させ、\n"
+"    オリジナルの[リポジトリ][repo]の`gh-pages`を自身が分岐した`gh-pages`のブ"
+"ランチにマージ・合流させてから、\n"
+"    内容を変更してください。\n"
+"    他の内容・個所へ貢献することが難しくなるため、\n"
+"    *オリジナルの`gh-pages`から直接内容を変更することはお控え下さい。*"
 
 # ordered list
 #: r-novice-gapminder/CONTRIBUTING.md:117
 msgid "2.  We use [GitHub flow][github-flow] to manage changes:"
-msgstr "2.  We use [GitHub flow][github-flow] to manage changes:"
+msgstr ""
+"2.  私達は[GitHub flow][github-flow]を使って変更点などを管理しています："
 
 #: r-novice-gapminder/CONTRIBUTING.md:118
 msgid ""
-"    1.  Create a new branch in your desktop copy of this repository for each significant change.\n"
+"    1.  Create a new branch in your desktop copy of this repository for each "
+"significant change.\n"
 "    2.  Commit the change in that branch.\n"
 "    3.  Push that branch to your fork of this repository on GitHub.\n"
-"    4.  Submit a pull request from that branch to the [master repository][repo].\n"
+"    4.  Submit a pull request from that branch to the [master repository]"
+"[repo].\n"
 "    5.  If you receive feedback,\n"
 "        make changes on your desktop and push to your branch on GitHub:\n"
 "        the pull request will update automatically."
 msgstr ""
-"    1.  Create a new branch in your desktop copy of this repository for each significant change.\n"
-"    2.  Commit the change in that branch.\n"
-"    3.  Push that branch to your fork of this repository on GitHub.\n"
-"    4.  Submit a pull request from that branch to the [master repository][repo].\n"
-"    5.  If you receive feedback,\n"
-"        make changes on your desktop and push to your branch on GitHub:\n"
-"        the pull request will update automatically."
+"    1.  自身が持っているオリジナルのリポジトリのコピー(フォーク)に新しいブラ"
+"ンチを作り、そのブランチで内容を変更します。\n"
+"    2.  作ったブランチ内で変更点をコミットします。\n"
+"    3.  そのブランチをGitHubのフォークにプッシュします。\n"
+"    4.  自身のフォークからオリジナルの[リポジトリ][repo]へプルリクエストを提"
+"出します。\n"
+"    5.  頂いたコメントやレビューからの提案で、更に内容を変更する場合は、\n"
+"        自分のブランチで内容を変更し、GitHubのフォークにプッシュして下さ"
+"い：\n"
+"        自動的にプルリクエストの内容がアップデートされます。"
 
 #: r-novice-gapminder/CONTRIBUTING.md:126
 msgid ""
@@ -410,60 +433,66 @@ msgid ""
 "The maintainers are community volunteers,\n"
 "and have final say over what gets merged into the lesson."
 msgstr ""
-"Each lesson has two maintainers who review issues and pull requests\n"
-"or encourage others to do so.\n"
-"The maintainers are community volunteers,\n"
-"and have final say over what gets merged into the lesson."
+"全てのレッスンには二人のメインテイナーがおり、彼・彼女らがイシューやプルリク"
+"エストを管理・見直す、\n"
+"もしくはその他のメンバーに、一緒に見直すように声をかけます。\n"
+"メインテイナー達はコミュニティーのボランティアですので、\n"
+"最終的に何を変更するかの決定権は、メインテイナーに委ねられています。"
 
 # header
 #: r-novice-gapminder/CONTRIBUTING.md:131
-#: r-novice-gapminder/bin/boilerplate/CONTRIBUTING.md:129
 msgid "## Other Resources"
-msgstr "## Other Resources"
+msgstr "## その他の資料"
 
 #: r-novice-gapminder/CONTRIBUTING.md:133
 msgid ""
-"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
 "happens on the [discussion mailing list][discuss-list],\n"
 "which everyone is welcome to join.\n"
 "You can also [reach us by email][contact]."
 msgstr ""
-"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
-"happens on the [discussion mailing list][discuss-list],\n"
-"which everyone is welcome to join.\n"
-"You can also [reach us by email][contact]."
+"[Software Carpentry][swc-site]と[Data Carpentry][dc-site]についての一般的な"
+"ディスカッションは、\n"
+"[ディスカッション用のメーリングリスト][discuss-list]で行われ、\n"
+"どなたでも参加できます。\n"
+"また、[メール][contact]からでもご連絡いただけます。"
 
 #: r-novice-gapminder/CONTRIBUTING.md:138
 msgid ""
-"[contact]: mailto:admin@software-carpentry.org\n"
+"[contact]: mailto:team@carpentries.org\n"
 "[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
 "[dc-lessons]: http://datacarpentry.org/lessons/\n"
 "[dc-site]: http://datacarpentry.org/\n"
-"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
-"[github]: http://github.com\n"
+"[discuss-list]: https://carpentries.topicbox.com/groups/discuss\n"
+"[github]: https://github.com\n"
 "[github-flow]: https://guides.github.com/introduction/flow/\n"
 "[github-join]: https://github.com/join\n"
-"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
-"[issues]: https://github.com/swcarpentry/r-novice-gapminder/issues\n"
-"[repo]: https://github.com/swcarpentry/r-novice-gapminder\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[new-issue]: https://github.com/swcarpentry/r-novice-gapminder/issues/new\n"
+"[issues]: https://github.com/swcarpentry/r-novice-gapminder/issues/\n"
+"[repo]: https://github.com/swcarpentry/r-novice-gapminder/\n"
 "[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
-"[swc-lessons]: http://software-carpentry.org/lessons/\n"
-"[swc-site]: http://software-carpentry.org/"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/"
 msgstr ""
-"[contact]: mailto:admin@software-carpentry.org\n"
+"[contact]: mailto:team@carpentries.org\n"
 "[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
 "[dc-lessons]: http://datacarpentry.org/lessons/\n"
 "[dc-site]: http://datacarpentry.org/\n"
-"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
-"[github]: http://github.com\n"
+"[discuss-list]: https://carpentries.topicbox.com/groups/discuss\n"
+"[github]: https://github.com\n"
 "[github-flow]: https://guides.github.com/introduction/flow/\n"
 "[github-join]: https://github.com/join\n"
-"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
-"[issues]: https://github.com/swcarpentry/r-novice-gapminder/issues\n"
-"[repo]: https://github.com/swcarpentry/r-novice-gapminder\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[new-issue]: https://github.com/swcarpentry/r-novice-gapminder/issues/new\n"
+"[issues]: https://github.com/swcarpentry/r-novice-gapminder/issues/\n"
+"[repo]: https://github.com/swcarpentry/r-novice-gapminder/\n"
 "[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
-"[swc-lessons]: http://software-carpentry.org/lessons/\n"
-"[swc-site]: http://software-carpentry.org/"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/"
 
 # Front Matter
 #: r-novice-gapminder/LICENSE.md:1

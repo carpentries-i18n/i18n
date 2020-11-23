@@ -47,8 +47,7 @@ msgid ""
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
 "嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
-"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきま"
-"す。"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: git-novice/CODE_OF_CONDUCT.md:12
 msgid "{% include links.md %}"
