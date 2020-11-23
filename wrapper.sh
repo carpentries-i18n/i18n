@@ -549,7 +549,7 @@ if [[ $render == true ]]; then
     #move files to external repo
     rsync -r ../i18n/locale/${locale}/${repo}/*md .
     if [ -f CONDUCT.md ]; then
-        mv CONDUCT CODE_OF_CONDUCT.md
+        mv CONDUCT.md CODE_OF_CONDUCT.md
     fi
     rsync -r ../i18n/locale/${locale}/${repo}/_episodes/*md _episodes
     rsync -r ../i18n/locale/${locale}/${repo}/_extras/*md _extras
@@ -635,7 +635,7 @@ if [[ $render == true ]]; then
     #sed -i "s/root: \.$/root: .  \# Is the only page that doesn't follow the pattern \/:path\/index.html\npermalink: index.html/g" index.md
 
     if [ -f CONDUCT.md ]; then
-        mv CONDUCT CODE_OF_CONDUCT.md           
+        mv CONDUCT.md CODE_OF_CONDUCT.md           
     fi
     # add root if missing
     sed -i "4s/---/root: \.\n---/g" CODE_OF_CONDUCT.md
