@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "---\n"
 "layout: page\n"
-"title: \"Contributor Code of Conduct\"\n"
+"title: \"投稿者の行動規範\"\n"
 "permalink: /conduct/\n"
 "---"
 
@@ -38,14 +38,16 @@ msgid ""
 "As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
 
 #: shell-novice/CODE_OF_CONDUCT.md:9
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
-"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
-"may be reported by following our [reporting guidelines][coc-reporting]."
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
 
 #: shell-novice/CODE_OF_CONDUCT.md:12
 msgid "{% include links.md %}"
