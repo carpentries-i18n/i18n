@@ -630,40 +630,46 @@ if [[ $render == true ]]; then
         git submodule update -f --recursive 
     fi
 
-    #update links
-    sed -i "s/root: \.$/root: ../\npermalink: \/LICENSE\//g" LICENSE.md
-    #sed -i "s/root: \.$/root: .  \# Is the only page that doesn't follow the pattern \/:path\/index.html\npermalink: index.html/g" index.md
-
+    #rename code of conduct if needed
     if [ -f CODE_OF_CONDUCT.md ]; then
-        mv CODE_OF_CONDUCT.md CONDUCT.md          
+        mv CODE_OF_CONDUCT.md CONDUCT.md
     fi
+
+    #update links
+    # add title if missing
+    sed -i "3s/root: \./Title: "Licenses"\nroot: \./g" LICENSE.md
+    sed -i "3s/root: \./Title: "Contributor Code of Conduct"\nroot: \./g" CONDUCT.md
+    sed -i "3s/root: \./Title: "Reference"\nroot: \./g" reference.md
+    sed -i "3s/root: \./Title: "Setup"\nroot: \./g" setup.md
+
     # add root if missing
-    sed -i "4s/---/root: \.\n---/g" CONDUCT.md
+    sed -i "3s/---/root: \/\n---/g" index.md
+    sed -i "3s/root: \./root: \//g" index.md
+    sed -i "4s/---/root: \.\n---/g" LICENSE.md CONDUCT.md 
+    sed -i "4s/---/root: \.\.\n---/g" reference.md setup.md 
+    sed -i "3s/---/root: \.\n---/g" LICENSE.md CONDUCT.md
+    sed -i "3s/---/root: \.\.\n---/g" reference.md setup.md
+    sed -i "3s/---/root: \.\n---/g" aio.md 
 
     # add permlink if missing
-    sed -i "s/root\: \.\$/root\: .\npermalink\: \/conduct\//g"  CONDUCT.md
+    sed -i "s/root\: \/\$/root\: \/\npermalink\: index.html/g" index.md
+    sed -i "s/root\: \.\$/root\: \.\npermalink\: \/LICENSE\//g" LICENSE.md
+    sed -i "s/root\: \.\$/root\: \.\npermalink\: \/conduct\//g"  CONDUCT.md
+    sed -i "s/root\: \.\.\$/root\: ..\npermalink\: \/reference\//g"  reference.md
+    sed -i "s/root\: \.\.\$/root\: ..\npermalink\: \/setup\//g"  setup.md
+    sed -i "s/root\: \.\.\$/root\: ..\npermalink\: \/aio\//g"  aio.md
+
     # remove if appears twice
-    sed -i '6{/permalink\: \/conduct\//d;}' CONDUCT.md 
-
-
-### corrections for new lessons
-
-#+root: .  # Is the only page that doesn't follow the pattern /:path/index.html
-#+permalink: index.html
-
-#+root: ..
-#+permalink: /LICENSE/
-
-#+Title: "Reference"
-#+root: ..
-#+permalink: /reference/
-
-#+title: "Setup"
-#+root: ..
-#+permalink: /setup/
+    sed -i '5{/permalink: index\.html/d;}' index.md
+    sed -i '6{/permalink\: \/LICENSE\//d;}' LICENSE.md
+    sed -i '6{/permalink\: \/conduct\//d;}' CONDUCT.md
+    sed -i '6{/permalink\: \/reference\//d;}' reference.md
+    sed -i '6{/permalink\: \/setup\//d;}' setup.md
+    sed -i '5{/permalink\: \/aio\//d;}' aio.md
 
     #add changes
     git add -u
+    git add index.md CONDUCT.md LICENSE.md reference.md setup.md aio.md
 
     git submodule update -f --recursive
     git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/${locale}
