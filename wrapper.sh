@@ -569,7 +569,10 @@ if [[ $render == true ]]; then
     rm -rf bin/boilerplate
     rm -rf _layouts _includes _episodes_rmd assets bin code 
 
+    #add changes
     git add *
+    git add index.md LICENSE.md reference.md setup.md aio.md
+    git add CODE_OF_CONDUCT.md CONDUCT.md
     git commit -m "update lesson files"
     remotes=`git remote | grep "remote-repo" | wc -l`
     if [[ remotes -le 0 ]]; then
@@ -669,7 +672,8 @@ if [[ $render == true ]]; then
 
     #add changes
     git add -u
-    git add index.md CONDUCT.md LICENSE.md reference.md setup.md aio.md
+    git add index.md LICENSE.md reference.md setup.md aio.md
+    git add CODE_OF_CONDUCT.md CONDUCT.md
 
     git submodule update -f --recursive
     git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/${locale}
