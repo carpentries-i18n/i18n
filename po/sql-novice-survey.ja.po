@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-11-23 11:42:46+0900\n"
+"POT-Creation-Date: 2021-01-23 09:11:49+0900\n"
 "PO-Revision-Date: 2018-10-27 17:29+0900\n"
 "Last-Translator: \n"
 "Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
@@ -21,11 +21,11 @@ msgstr ""
 # Front Matter
 #: sql-novice-survey/CODE_OF_CONDUCT.md:1
 #: sql-novice-survey/bin/boilerplate/CODE_OF_CONDUCT.md:1
+#, fuzzy
 msgid ""
 "---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
-"permalink: /conduct/\n"
 "---"
 msgstr ""
 "---\n"
