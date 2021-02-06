@@ -673,6 +673,7 @@ if [[ $render == true ]]; then
 
     # remove if appears twice
     sed -i '5{/permalink: index\.html/d;}' index.md
+    sed -i "/^permalink\:/{x;s/^/n/;/^n\{2\}$/{x;d};x}" index.md
     sed -i '6{/permalink\: \/LICENSE\//d;}' LICENSE.md
     sed -i '6{/permalink\: \/conduct\//d;}' CODE_OF_CONDUCT.md
     sed -i '6{/permalink\: \/reference\//d;}' reference.md
