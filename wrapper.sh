@@ -275,7 +275,7 @@ if [[ $create == true ]]; then
     fi
 
     echo "run import on po4gitbook"
-    po4gitbook/import.sh > /dev/null 2>&1
+    po4gitbook/update.sh > /dev/null 2>&1
     echo "upated PO files exported"
     if [[ -f po/${repo}.${locale}.po ]]; then
         echo "Warning: file po/${repo}.${locale}.po already exists: check for conflicts and import"
