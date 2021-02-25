@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2021-01-23 09:11:47+0900\n"
+"POT-Creation-Date: 2021-02-25 11:53:32+0900\n"
 "PO-Revision-Date: 2018-10-27 17:23+0900\n"
 "Last-Translator: \n"
 "Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 2.2\n"
 
-# Front Matter
 #: python-novice-inflammation/CODE_OF_CONDUCT.md:1
 msgid ""
 "---\n"
@@ -76,7 +75,6 @@ msgstr ""
 msgid "{% include links.md %}"
 msgstr "{% include links.md %}"
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:1
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:1
 msgid "# Contributing"
@@ -102,7 +100,6 @@ msgstr ""
 "bug reports,\n"
 "and reviews of proposed changes are all welcome."
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:10
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:10
 msgid "## Contributor Agreement"
@@ -133,7 +130,6 @@ msgstr ""
 "site]\n"
 "agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md)."
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:20
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:20
 msgid "## How to Contribute"
@@ -215,7 +211,6 @@ msgstr ""
 "    you can submit a pull request (PR).\n"
 "    Instructions for doing this are [included below](#using-github)."
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:46
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:46
 msgid "## Where to Contribute"
@@ -296,7 +291,6 @@ msgstr ""
 "`_layouts`,\n"
 "    please work in <https://github.com/carpentries/styles>."
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:67
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:67
 msgid "## What to Contribute"
@@ -343,7 +337,6 @@ msgstr ""
 "to forget how impenetrable some of this material can be,\n"
 "so fresh eyes are always welcome."
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:86
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:86
 msgid "## What *Not* to Contribute"
@@ -389,7 +382,6 @@ msgstr ""
 "in order to be usable,\n"
 "our lessons must run equally well on all three."
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:102
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:102
 msgid "## Using GitHub"
@@ -478,7 +470,6 @@ msgstr ""
 "branch of the originating\n"
 "repository for reference while revising."
 
-# header
 #: python-novice-inflammation/CONTRIBUTING.md:129
 #: python-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:129
 msgid "## Other Resources"
@@ -536,7 +527,6 @@ msgstr ""
 "[swc-lessons]: https://software-carpentry.org/lessons/\n"
 "[swc-site]: https://software-carpentry.org/"
 
-# Front Matter
 #: python-novice-inflammation/LICENSE.md:1
 msgid ""
 "---\n"
@@ -551,7 +541,6 @@ msgstr ""
 "root: .\n"
 "---"
 
-# header
 #: python-novice-inflammation/LICENSE.md:6
 msgid "## Instructional Material"
 msgstr "## 教材"
@@ -670,7 +659,6 @@ msgstr ""
 "  肖像権、人格権 などの他の諸権利はあなたがどのように資料を利用するかを\n"
 "制限することがあります。"
 
-# header
 #: python-novice-inflammation/LICENSE.md:48
 msgid "## Software"
 msgstr "## ソフトウェア"
@@ -733,7 +721,6 @@ msgstr ""
 "あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、\n"
 "損害、その他の義務について何らの責任も負わないものとします。"
 
-# header
 #: python-novice-inflammation/LICENSE.md:74
 msgid "## Trademark"
 msgstr "## 商標"
@@ -761,7 +748,6 @@ msgstr ""
 "[osi]: https://opensource.org\n"
 "[osg]: https://opensource.jp"
 
-# header
 #: python-novice-inflammation/README.md:1
 msgid "# Programming with Python"
 msgstr "# Programming with Python"
@@ -777,7 +763,6 @@ msgstr ""
 msgid "An introduction to Python for non-programmers using inflammation data."
 msgstr "An introduction to Python for non-programmers using inflammation data."
 
-# header
 #: python-novice-inflammation/README.md:9
 #, fuzzy
 msgid "## About the Lesson"
@@ -819,7 +804,6 @@ msgstr ""
 msgid "This lesson is also available in [R][R] and [MATLAB][MATLAB]."
 msgstr ""
 
-# header
 #: python-novice-inflammation/README.md:27
 msgid "## Episodes"
 msgstr ""
@@ -855,7 +839,6 @@ msgid ""
 "programs that will work like Unix command-line tools? |"
 msgstr ""
 
-# header
 #: python-novice-inflammation/README.md:45
 #: python-novice-inflammation/bin/boilerplate/README.md:7
 msgid "## Contributing"
@@ -891,7 +874,6 @@ msgstr ""
 "formatting,\n"
 "ways to render the lesson locally, and even how to write new episodes!"
 
-# header
 #: python-novice-inflammation/README.md:56
 msgid "## Maintainers"
 msgstr "## Maintainers"
@@ -912,7 +894,6 @@ msgstr ""
 "Carpentry:\n"
 "[Greg Wilson][greg_wilson]"
 
-# header
 #: python-novice-inflammation/README.md:62
 #: python-novice-inflammation/bin/boilerplate/README.md:32
 msgid "## Authors"
@@ -925,7 +906,6 @@ msgid ""
 msgstr ""
 "A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)"
 
-# header
 #: python-novice-inflammation/README.md:65
 #, fuzzy
 msgid "## License"
@@ -942,7 +922,6 @@ msgid ""
 "(LICENSE.md)."
 msgstr ""
 
-# header
 #: python-novice-inflammation/README.md:71
 #: python-novice-inflammation/bin/boilerplate/README.md:36
 msgid "## Citation"
@@ -953,7 +932,6 @@ msgstr "## Citation"
 msgid "To cite this lesson, please consult with [CITATION](CITATION)."
 msgstr "To cite this lesson, please consult with [CITATION](CITATION)"
 
-# header
 #: python-novice-inflammation/README.md:74
 #, fuzzy
 msgid "## About Software Carpentry"
@@ -967,7 +945,6 @@ msgid ""
 "about]."
 msgstr ""
 
-# header
 #: python-novice-inflammation/README.md:79
 #, fuzzy
 msgid "## About The Carpentries"
@@ -1046,7 +1023,6 @@ msgid ""
 "[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode"
 msgstr ""
 
-# Front Matter
 #: python-novice-inflammation/_episodes/01-intro.md:1
 msgid ""
 "---\n"
@@ -1069,7 +1045,6 @@ msgid ""
 "---"
 msgstr ""
 
-# header
 #: python-novice-inflammation/_episodes/01-intro.md:18
 msgid "## Variables"
 msgstr "## Variables"
@@ -1415,7 +1390,6 @@ msgstr ""
 " - `weight0` is a valid variable name, whereas `0weight` is not\n"
 " - `weight` and `Weight` are different variables"
 
-# header
 #: python-novice-inflammation/_episodes/01-intro.md:54
 msgid "## Types of data"
 msgstr "## Types of data"
@@ -1478,7 +1452,6 @@ msgstr ""
 "weight_kg_text = 'weight in kilograms:'\n"
 "~~~"
 
-# header
 #: python-novice-inflammation/_episodes/01-intro.md:76
 msgid "## Using Variables in Python"
 msgstr "## Using Variables in Python"
@@ -1990,7 +1963,6 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .output}"
 
-# Front Matter
 #: python-novice-inflammation/_episodes/02-numpy.md:1
 #, fuzzy
 msgid ""
@@ -2076,7 +2048,6 @@ msgstr ""
 "[libraries]({{ page.root }}/reference/#library)\n"
 "that can be called upon when needed."
 
-# header
 #: python-novice-inflammation/_episodes/02-numpy.md:31
 msgid "## Loading data into Python"
 msgstr "## Loading data into Python"
@@ -2675,7 +2646,6 @@ msgstr ""
 "reason,\n"
 "> which can be confusing when plotting data."
 
-# header
 #: python-novice-inflammation/_episodes/02-numpy.md:258
 msgid "## Slicing data"
 msgstr "## Slicing data"
@@ -2834,7 +2804,6 @@ msgstr ""
 " [ 2.  2.  1.  1.]]\n"
 "~~~"
 
-# header
 #: python-novice-inflammation/_episodes/02-numpy.md:319
 #, fuzzy
 msgid "## Analyzing data"
@@ -3861,7 +3830,6 @@ msgstr ""
 "> > {: .language-python}\n"
 "> >"
 
-# Front Matter
 #: python-novice-inflammation/_episodes/03-matplotlib.md:1
 msgid ""
 "---\n"
@@ -3880,7 +3848,6 @@ msgid ""
 "---"
 msgstr ""
 
-# header
 #: python-novice-inflammation/_episodes/03-matplotlib.md:15
 msgid "## Visualizing data"
 msgstr "## Visualizing data"
@@ -4041,7 +4008,6 @@ msgstr ""
 "examining the numbers\n"
 "themselves without visualization tools."
 
-# header
 #: python-novice-inflammation/_episodes/03-matplotlib.md:70
 msgid "### Grouping plots"
 msgstr "### Grouping plots"
@@ -4474,7 +4440,6 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .language-python}"
 
-# Front Matter
 #: python-novice-inflammation/_episodes/04-loop.md:1
 msgid ""
 "---\n"
@@ -5424,7 +5389,6 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .language-python}"
 
-# Front Matter
 #: python-novice-inflammation/_episodes/05-lists.md:1
 #, fuzzy
 msgid ""
@@ -6741,7 +6705,6 @@ msgstr ""
 "[hadleywickham-tweet]: https://twitter.com/hadleywickham/"
 "status/643381054758363136"
 
-# Front Matter
 #: python-novice-inflammation/_episodes/06-files.md:1
 msgid ""
 "---\n"
@@ -7185,7 +7148,6 @@ msgstr ""
 msgid ">{: .solution}"
 msgstr ">{: .solution}"
 
-# Front Matter
 #: python-novice-inflammation/_episodes/07-cond.md:1
 #, fuzzy
 msgid ""
@@ -7254,7 +7216,6 @@ msgstr ""
 "write code that\n"
 "runs only when certain conditions are true."
 
-# header
 #: python-novice-inflammation/_episodes/07-cond.md:28
 msgid "## Conditionals"
 msgstr "## Conditionals"
@@ -7427,7 +7388,6 @@ msgstr ""
 "Note that to test for equality we use a double equals sign `==`\n"
 "rather than a single equals sign `=` which is used to assign values."
 
-# header
 #: python-novice-inflammation/_episodes/07-cond.md:101
 #, fuzzy
 msgid "> ## Comparing in Python"
@@ -7534,7 +7494,6 @@ msgstr "> which represent truth values. A statement such as `1 < 0` returns"
 msgid "> the value `False`, while `-1 < 0` returns the value `True`."
 msgstr "> the value `False`, while `-1 < 0` returns the value `True`."
 
-# header
 #: python-novice-inflammation/_episodes/07-cond.md:149
 msgid "## Checking our Data"
 msgstr "## Checking our Data"
@@ -8315,7 +8274,6 @@ msgstr ""
 msgid "[abs-function]: https://docs.python.org/3/library/functions.html#abs"
 msgstr ""
 
-# Front Matter
 #: python-novice-inflammation/_episodes/08-func.md:1
 #, fuzzy
 msgid ""
@@ -8554,7 +8512,6 @@ msgstr ""
 "We've successfully called the function that we defined,\n"
 "and we have access to the value that we returned."
 
-# header
 #: python-novice-inflammation/_episodes/08-func.md:99
 msgid "## Composing Functions"
 msgstr "## Composing Functions"
@@ -8663,7 +8620,6 @@ msgstr ""
 "to a few dozen lines --- but they shouldn't ever be much longer than that,\n"
 "or the next person who reads it won't be able to understand what's going on."
 
-# header
 #: python-novice-inflammation/_episodes/08-func.md:145
 msgid "## Tidying up"
 msgstr "## Tidying up"
@@ -8832,7 +8788,6 @@ msgstr ""
 "code again,\n"
 "we can do so in a single line."
 
-# header
 #: python-novice-inflammation/_episodes/08-func.md:217
 msgid "## Testing and Documenting"
 msgstr "## Testing and Documenting"
@@ -9266,7 +9221,6 @@ msgstr ""
 "    Example: offset_mean([1, 2, 3], 0) => [-1, 0, 1]\n"
 "~~~"
 
-# header
 #: python-novice-inflammation/_episodes/08-func.md:403
 msgid "## Defining Defaults"
 msgstr "## Defining Defaults"
@@ -9652,7 +9606,6 @@ msgstr ""
 "`delimiter` is not\n"
 "the second parameter in the list."
 
-# header
 #: python-novice-inflammation/_episodes/08-func.md:605
 msgid "## Readable functions"
 msgstr "## Readable functions"
@@ -10378,7 +10331,6 @@ msgstr ""
 "implementations\n"
 "> could be further improved to make them more readable."
 
-# Front Matter
 #: python-novice-inflammation/_episodes/09-errors.md:1
 #, fuzzy
 msgid ""
@@ -10710,7 +10662,6 @@ msgstr ""
 "hopefully the custom error message is informative enough to help you figure "
 "out what went wrong."
 
-# header
 #: python-novice-inflammation/_episodes/09-errors.md:130
 msgid "## Syntax Errors"
 msgstr "## Syntax Errors"
@@ -10949,7 +10900,6 @@ msgstr ""
 msgid "> {: .error}"
 msgstr "> {: .error}"
 
-# header
 #: python-novice-inflammation/_episodes/09-errors.md:226
 msgid "## Variable Name Errors"
 msgstr "## Variable Name Errors"
@@ -11184,7 +11134,6 @@ msgstr ""
 "NameError: name 'count' is not defined\n"
 "~~~"
 
-# header
 #: python-novice-inflammation/_episodes/09-errors.md:324
 msgid "## Index Errors"
 msgstr "## Index Errors"
@@ -11284,7 +11233,6 @@ msgstr ""
 "Python is telling us that there is an `IndexError` in our code,\n"
 "meaning we tried to access a list index that did not exist."
 
-# header
 #: python-novice-inflammation/_episodes/09-errors.md:367
 msgid "## File Errors"
 msgstr "## File Errors"
@@ -11793,7 +11741,6 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .language-python}"
 
-# Front Matter
 #: python-novice-inflammation/_episodes/10-defensive.md:1
 #, fuzzy
 msgid ""
@@ -11915,7 +11862,6 @@ msgstr ""
 "by measuring carefully before cutting a piece of wood\n"
 "is much greater than the time that measuring takes."
 
-# header
 #: python-novice-inflammation/_episodes/10-defensive.md:50
 msgid "## Assertions"
 msgstr "## Assertions"
@@ -12462,7 +12408,6 @@ msgstr ""
 "(including your future self)\n"
 "that this bit is tricky."
 
-# header
 #: python-novice-inflammation/_episodes/10-defensive.md:268
 msgid "## Test-Driven Development"
 msgstr "## Test-Driven Development"
@@ -13119,7 +13064,6 @@ msgstr ""
 "than 0.\n"
 "> >     Input such as `[-10, 2, 3]` will make it fail."
 
-# Front Matter
 #: python-novice-inflammation/_episodes/11-debugging.md:1
 #, fuzzy
 msgid ""
@@ -13181,7 +13125,6 @@ msgstr ""
 "the more systematically they debug,\n"
 "and most follow some variation on the rules explained below."
 
-# header
 #: python-novice-inflammation/_episodes/11-debugging.md:29
 msgid "## Know What It's Supposed to Do"
 msgstr "## Know What It's Supposed to Do"
@@ -13358,7 +13301,6 @@ msgstr ""
 "    though,\n"
 "    since it's very hard to compare two visualizations automatically."
 
-# header
 #: python-novice-inflammation/_episodes/11-debugging.md:96
 msgid "## Make It Fail Every Time"
 msgstr "## Make It Fail Every Time"
@@ -13413,7 +13355,6 @@ msgstr ""
 "which is one of the reasons late-night (or overnight) coding sessions\n"
 "are almost never worthwhile."
 
-# header
 #: python-novice-inflammation/_episodes/11-debugging.md:120
 msgid "## Make It Fail Fast"
 msgstr "## Make It Fail Fast"
@@ -13488,7 +13429,6 @@ msgstr ""
 "    so every line of code that *isn't* run as part of a test\n"
 "    means more than one thing we don't need to worry about."
 
-# header
 #: python-novice-inflammation/_episodes/11-debugging.md:147
 msgid "## Change One Thing at a Time, For a Reason"
 msgstr "## Change One Thing at a Time, For a Reason"
@@ -13540,7 +13480,6 @@ msgstr ""
 "more than half of fixes made to code introduce (or re-introduce) bugs,\n"
 "so re-running all of our tests tells us whether we have regressed."
 
-# header
 #: python-novice-inflammation/_episodes/11-debugging.md:170
 msgid "## Keep Track of What You've Done"
 msgstr "## Keep Track of What You've Done"
@@ -13618,7 +13557,6 @@ msgstr ""
 "> most version control systems have a `blame` command\n"
 "> that will show who last changed particular lines of code..."
 
-# header
 #: python-novice-inflammation/_episodes/11-debugging.md:204
 msgid "## Be Humble"
 msgstr "## Be Humble"
@@ -13817,7 +13755,6 @@ msgstr ""
 "> >   `calculate_bmi(...)`, the correct BMIs are 21.604938, 22.160665 and "
 "51.903114."
 
-# Front Matter
 #: python-novice-inflammation/_episodes/12-cmdline.md:1
 #, fuzzy
 msgid ""
@@ -14048,7 +13985,6 @@ msgstr ""
 "and how to get at standard input.\n"
 "We'll tackle these questions in turn below."
 
-# header
 #: python-novice-inflammation/_episodes/12-cmdline.md:80
 msgid "## Command-Line Arguments"
 msgstr "## Command-Line Arguments"
@@ -14579,7 +14515,6 @@ msgstr ""
 "> [Argparse tutorial](http://docs.python.org/dev/howto/argparse.html)\n"
 "> that is part of Python's Official Documentation."
 
-# header
 #: python-novice-inflammation/_episodes/12-cmdline.md:323
 msgid "## Handling Multiple Files"
 msgstr "## Handling Multiple Files"
@@ -14838,7 +14773,6 @@ msgstr ""
 "> though,\n"
 "> we need all the successive versions side by side."
 
-# header
 #: python-novice-inflammation/_episodes/12-cmdline.md:439
 msgid "## Handling Command-Line Flags"
 msgstr "## Handling Command-Line Flags"
@@ -15094,7 +15028,6 @@ msgstr ""
 "This is four lines longer than its predecessor,\n"
 "but broken into more digestible chunks of 8 and 12 lines."
 
-# header
 #: python-novice-inflammation/_episodes/12-cmdline.md:547
 msgid "## Handling Standard Input"
 msgstr "## Handling Standard Input"
@@ -16124,7 +16057,6 @@ msgstr ""
 "> Thanks for specifying arguments!\n"
 "> ~~~"
 
-# Front Matter
 #: python-novice-inflammation/_extras/about.md:1
 #: python-novice-inflammation/bin/boilerplate/_extras/about.md:1
 msgid ""
@@ -16140,7 +16072,6 @@ msgstr ""
 msgid "{% include carpentries.html %}"
 msgstr "{% include carpentries.html %}"
 
-# Front Matter
 #: python-novice-inflammation/_extras/additional_material.md:1
 #, fuzzy
 msgid ""
@@ -16161,7 +16092,6 @@ msgstr ""
 "A collection of facts about Python that do not fit into the main lesson "
 "either due to the scope or time constraints of the main lesson."
 
-# header
 #: python-novice-inflammation/_extras/additional_material.md:8
 msgid "## Jupyter Notebook/IPython: Who's Who in Memory"
 msgstr "## Jupyter Notebook/IPython: Who's Who in Memory"
@@ -16385,7 +16315,6 @@ msgstr ""
 "1\n"
 "~~~"
 
-# Front Matter
 #: python-novice-inflammation/_extras/discuss.md:1
 #: python-novice-inflammation/bin/boilerplate/_extras/discuss.md:1
 msgid ""
@@ -16397,7 +16326,6 @@ msgstr ""
 "title: Discussion\n"
 "---"
 
-# header
 #: python-novice-inflammation/_extras/discuss.md:4
 msgid "## Rules of Debugging"
 msgstr "## Rules of Debugging"
@@ -16455,7 +16383,6 @@ msgstr ""
 "And remember,\n"
 "a week of hard work can sometimes save you an hour of thought."
 
-# header
 #: python-novice-inflammation/_extras/discuss.md:19
 msgid "## The Call Stack"
 msgstr "## The Call Stack"
@@ -16854,7 +16781,6 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-python}"
 
-# header
 #: python-novice-inflammation/_extras/discuss.md:178
 msgid "## Image Grids"
 msgstr "## Image Grids"
@@ -17330,7 +17256,6 @@ msgstr ""
 "immediately?\n"
 "> Do you think this is a good or bad design choice?"
 
-# Front Matter
 #: python-novice-inflammation/_extras/extra_exercises.md:1
 #, fuzzy
 msgid ""
@@ -17499,7 +17424,6 @@ msgstr ""
 "> > ~~~\n"
 "> > {: .language-python}"
 
-# Front Matter
 #: python-novice-inflammation/_extras/figures.md:1
 #: python-novice-inflammation/bin/boilerplate/_extras/figures.md:1
 msgid ""
@@ -17681,7 +17605,6 @@ msgid ""
 "{% endfor %}"
 msgstr ""
 
-# Front Matter
 #: python-novice-inflammation/_extras/guide.md:1
 #: python-novice-inflammation/bin/boilerplate/_extras/guide.md:1
 msgid ""
@@ -17693,7 +17616,6 @@ msgstr ""
 "title: \"Instructor Notes\"\n"
 "---"
 
-# header
 #: python-novice-inflammation/_extras/guide.md:5
 msgid "## About the lesson"
 msgstr "## About the lesson"
@@ -17734,7 +17656,6 @@ msgstr ""
 msgid "4.  It is easier for novices to pick up than most other languages."
 msgstr "4.  It is easier for novices to pick up than most other languages."
 
-# header
 #: python-novice-inflammation/_extras/guide.md:16
 msgid "## Legend"
 msgstr "## Legend"
@@ -17761,7 +17682,6 @@ msgstr ""
 "because it is fabricated! The script used to generate the inflammation data\n"
 "is included as [`code/gen_inflammation.py`](../code/gen_inflammation.py)."
 
-# header
 #: python-novice-inflammation/_extras/guide.md:25
 msgid "## Overall"
 msgstr "## Overall"
@@ -17928,7 +17848,6 @@ msgstr ""
 "assumes that students understand standard I/O and building filters,\n"
 "which are covered in the lesson on the shell."
 
-# header
 #: python-novice-inflammation/_extras/guide.md:84
 msgid "## Frequently Argued Issues (FAI)"
 msgstr "## Frequently Argued Issues (FAI)"
@@ -18194,7 +18113,6 @@ msgstr ""
 "[workshop-repo]: {{ site.workshop_repo }}\n"
 "[yaml]: http://yaml.org/"
 
-# Front Matter
 #: python-novice-inflammation/aio.md:1
 msgid ""
 "---\n"
@@ -18243,7 +18161,6 @@ msgstr ""
 "or you may also look at the issues for [Data Carpentry][dc-issues]\n"
 "and [Software Carpentry][swc-issues] projects."
 
-# header
 #: python-novice-inflammation/bin/boilerplate/README.md:1
 msgid "# FIXME Lesson title"
 msgstr "# FIXME Lesson title"
@@ -18301,7 +18218,6 @@ msgid ""
 "a pull request fixing this issue.  "
 msgstr ""
 
-# header
 #: python-novice-inflammation/bin/boilerplate/README.md:23
 msgid "## Maintainer(s)"
 msgstr "## Maintainer(s)"
@@ -18330,7 +18246,6 @@ msgstr "To cite this lesson, please consult with [CITATION](CITATION)"
 msgid "[lesson-example]: https://carpentries.github.io/lesson-example"
 msgstr "[lesson-example]: https://carpentries.github.io/lesson-example"
 
-# Front Matter
 #: python-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md:1
 #, fuzzy
 msgid ""
@@ -18374,7 +18289,6 @@ msgstr ""
 "{% include carpentries.html %}\n"
 "{% include links.md %}"
 
-# Front Matter
 #: python-novice-inflammation/bin/boilerplate/index.md:1
 #, fuzzy
 msgid ""
@@ -18425,7 +18339,6 @@ msgstr ""
 msgid "{: .prereq}"
 msgstr "{: .prereq}"
 
-# Front Matter
 #: python-novice-inflammation/bin/boilerplate/reference.md:1
 msgid ""
 "---\n"
@@ -18436,13 +18349,11 @@ msgstr ""
 "layout: reference\n"
 "---"
 
-# header
 #: python-novice-inflammation/bin/boilerplate/reference.md:5
 #: python-novice-inflammation/reference.md:8
 msgid "## Glossary"
 msgstr "## Glossary"
 
-# Front Matter
 #: python-novice-inflammation/bin/boilerplate/setup.md:1
 msgid ""
 "---\n"
@@ -18483,7 +18394,6 @@ msgid ""
 "results in updating the entire file."
 msgstr ""
 
-# header
 #: python-novice-inflammation/fig/README.md:14
 #, fuzzy
 msgid "## Working with SVG figures"
@@ -18508,7 +18418,6 @@ msgid ""
 "in SVG files before submitting them to our repository."
 msgstr ""
 
-# header
 #: python-novice-inflammation/fig/README.md:24
 msgid "### Comments"
 msgstr ""
@@ -18530,7 +18439,6 @@ msgstr ""
 "Be sure to add them back in (with appropriate changes) after you finish "
 "editing the figure. "
 
-# header
 #: python-novice-inflammation/fig/README.md:30
 msgid "### General tips"
 msgstr ""
@@ -18694,7 +18602,6 @@ msgstr ""
 "- Remove `id` properties unless used to control elements (in interactive SVG "
 "figures)"
 
-# header
 #: python-novice-inflammation/fig/README.md:89
 msgid "## Fonts"
 msgstr "## Fonts"
@@ -18720,7 +18627,6 @@ msgstr ""
 "Ubuntu font can be downloaded for free from here:\n"
 "  <https://design.ubuntu.com/font/>"
 
-# header
 #: python-novice-inflammation/fig/README.md:97
 msgid "## Not an SVG expert"
 msgstr "## Not an SVG expert"
@@ -18743,7 +18649,6 @@ msgstr ""
 "submit\n"
 "your contribution."
 
-# Front Matter
 #: python-novice-inflammation/index.md:1
 #, fuzzy
 msgid ""
@@ -18769,7 +18674,6 @@ msgstr ""
 "それで、このPythonの紹介は一般的な科学的タスクから作ったことがあります:\n"
 "**データ解析**"
 
-# header
 #: python-novice-inflammation/index.md:11
 msgid "### Arthritis Inflammation"
 msgstr "### Arthritis Inflammation"
@@ -18876,7 +18780,6 @@ msgstr ""
 ">\n"
 "> The commands in this lesson pertain to **Python 3**."
 
-# header
 #: python-novice-inflammation/index.md:46
 msgid "### Getting Started"
 msgstr "### Getting Started"
@@ -18892,7 +18795,6 @@ msgstr ""
 "download data\n"
 "and install a Python interpreter."
 
-# Front Matter
 #: python-novice-inflammation/reference.md:1
 #, fuzzy
 msgid ""
@@ -19652,7 +19554,6 @@ msgstr ""
 ":   A loop that keeps executing as long as some condition is true.\n"
 "    See also: [for loop](#for-loop)."
 
-# Front Matter
 #: python-novice-inflammation/setup.md:1
 #, fuzzy
 msgid ""
@@ -19669,7 +19570,6 @@ msgstr ""
 "root: ..\n"
 "---"
 
-# header
 #: python-novice-inflammation/setup.md:7
 #, fuzzy
 msgid "## Overview"
@@ -19683,7 +19583,6 @@ msgid ""
 "and instructions on how to obtain them are provided below."
 msgstr ""
 
-# header
 #: python-novice-inflammation/setup.md:13
 msgid "## Install Python"
 msgstr ""
@@ -19702,7 +19601,6 @@ msgid ""
 "and in [Anaconda documentation][anaconda-install]."
 msgstr ""
 
-# header
 #: python-novice-inflammation/setup.md:23
 #, fuzzy
 msgid "## Obtain lesson materials"
@@ -19737,7 +19635,6 @@ msgstr ""
 "python` directory on your\n"
 "Desktop."
 
-# header
 #: python-novice-inflammation/setup.md:34
 msgid "## Launch Python interface"
 msgstr ""
@@ -19759,7 +19656,6 @@ msgstr ""
 "$ python\n"
 "~~~"
 
-# header
 #: python-novice-inflammation/setup.md:40
 #, fuzzy
 msgid "## Option A: Jupyter Notebook"
@@ -19810,7 +19706,6 @@ msgstr ""
 msgid "{: .solution}"
 msgstr ">{: .solution}"
 
-# header
 #: python-novice-inflammation/setup.md:62
 #, fuzzy
 msgid "> ## Command line (Terminal)"
@@ -19901,7 +19796,6 @@ msgstr ""
 msgid "&nbsp; <!-- vertical spacer -->"
 msgstr "&nbsp; <!-- vertical spacer -->"
 
-# header
 #: python-novice-inflammation/setup.md:109
 #, fuzzy
 msgid "## Option B: IPython interpreter"
@@ -19940,7 +19834,6 @@ msgstr ""
 "$ ipython\n"
 "~~~"
 
-# header
 #: python-novice-inflammation/setup.md:124
 #, fuzzy
 msgid "## Option C: plain-vanilla Python interpreter"
@@ -20678,7 +20571,6 @@ msgstr ""
 #~ "    array([ 2.,  4.])\n"
 #~ "~~~"
 
-# Front Matter
 #~ msgid ""
 #~ "---\n"
 #~ "layout: page\n"
@@ -20692,7 +20584,6 @@ msgstr ""
 #~ "permalink: /about/\n"
 #~ "---"
 
-# Front Matter
 #~ msgid ""
 #~ "---\n"
 #~ "layout: page\n"
@@ -20706,7 +20597,6 @@ msgstr ""
 #~ "permalink: /extra_material/\n"
 #~ "---"
 
-# Front Matter
 #~ msgid ""
 #~ "---\n"
 #~ "layout: page\n"
@@ -20720,7 +20610,6 @@ msgstr ""
 #~ "permalink: /discuss/\n"
 #~ "---"
 
-# Front Matter
 #~ msgid ""
 #~ "---\n"
 #~ "layout: page\n"
@@ -20749,7 +20638,6 @@ msgstr ""
 #~ "<article id=\"{{ episode.url }}\" class=\"figures\"></article>\n"
 #~ "{% endfor %}"
 
-# Front Matter
 #~ msgid ""
 #~ "---\n"
 #~ "layout: page\n"
@@ -20766,7 +20654,6 @@ msgstr ""
 #~ msgid "{% include gh_variables.html %}"
 #~ msgstr "{% include gh_variables.html %}"
 
-# Front Matter
 #~ msgid ""
 #~ "---\n"
 #~ "---"
@@ -20838,7 +20725,6 @@ msgstr ""
 #~ "  }\n"
 #~ "</script>"
 
-# header
 #~ msgid "## Using third-party SVG editors"
 #~ msgstr "## Using third-party SVG editors"
 
@@ -20865,7 +20751,6 @@ msgstr ""
 #~ ":   A group of instructions (i.e., lines of code) that transform\n"
 #~ "    some input [arguments](#argument) to some output."
 
-# header
 #~ msgid "### Navigate to the `data` folder"
 #~ msgstr "### Navigate to the `data` folder"
 
