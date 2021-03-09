@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2021-03-09 12:08:53+0900\n"
+"POT-Creation-Date: 2021-03-09 14:32:15+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Software-Carpentry Japanese-Team <tomkellygenetics@gmail."
 "com>, 2019, 2020, 2021.\n"
 "Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
-"Language: jaMIME-Version: 1.0\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 # Front Matter
 #: make-novice/CODE_OF_CONDUCT.md:1
-#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:1
 #, fuzzy
 msgid ""
 "---\n"
@@ -34,7 +34,6 @@ msgstr ""
 "---"
 
 #: make-novice/CODE_OF_CONDUCT.md:5
-#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:5
 msgid ""
 "As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
@@ -44,7 +43,6 @@ msgstr ""
 "topic_folders/policies/code-of-conduct.html)に基づき行動することを誓います。"
 
 #: make-novice/CODE_OF_CONDUCT.md:8
-#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:8
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
@@ -55,23 +53,15 @@ msgstr ""
 "だきます。"
 
 #: make-novice/CODE_OF_CONDUCT.md:11
-#: make-novice/bin/boilerplate/CODE_OF_CONDUCT.md:11
-#: make-novice/bin/boilerplate/_episodes/01-introduction.md:14
-#: make-novice/bin/boilerplate/_extras/discuss.md:6
-#: make-novice/bin/boilerplate/_extras/figures.md:40
-#: make-novice/bin/boilerplate/_extras/guide.md:6
-#: make-novice/bin/boilerplate/index.md:13
-#: make-novice/bin/boilerplate/reference.md:9
-#: make-novice/bin/boilerplate/setup.md:7
 msgid "{% include links.md %}"
 msgstr "{% include links.md %}"
 
 # header
-#: make-novice/CONTRIBUTING.md:1 make-novice/bin/boilerplate/CONTRIBUTING.md:1
+#: make-novice/CONTRIBUTING.md:1
 msgid "# Contributing"
 msgstr ""
 
-#: make-novice/CONTRIBUTING.md:3 make-novice/bin/boilerplate/CONTRIBUTING.md:3
+#: make-novice/CONTRIBUTING.md:3
 msgid ""
 "[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source "
 "projects,\n"
@@ -84,7 +74,6 @@ msgstr ""
 
 # header
 #: make-novice/CONTRIBUTING.md:10
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:10
 msgid "## Contributor Agreement"
 msgstr ""
 
@@ -104,12 +93,10 @@ msgstr ""
 
 # header
 #: make-novice/CONTRIBUTING.md:20
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:20
 msgid "## How to Contribute"
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:22
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:22
 msgid ""
 "The easiest way to get started is to file an issue\n"
 "to tell us about a spelling mistake,\n"
@@ -121,7 +108,6 @@ msgstr ""
 
 # ordered list
 #: make-novice/CONTRIBUTING.md:29
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:29
 msgid "1.  If you do not have a [GitHub][github] account,"
 msgstr ""
 
@@ -135,12 +121,10 @@ msgstr ""
 
 # ordered list
 #: make-novice/CONTRIBUTING.md:34
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:34
 msgid "2.  If you have a [GitHub][github] account,"
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:35
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:35
 msgid ""
 "    or are willing to [create one][github-join],\n"
 "    but do not know how to use Git,\n"
@@ -152,12 +136,10 @@ msgstr ""
 
 # ordered list
 #: make-novice/CONTRIBUTING.md:41
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:41
 msgid "3.  If you are comfortable with Git,"
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:42
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:42
 msgid ""
 "    and would like to add or change material,\n"
 "    you can submit a pull request (PR).\n"
@@ -166,13 +148,11 @@ msgstr ""
 
 # header
 #: make-novice/CONTRIBUTING.md:46
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:46
 msgid "## Where to Contribute"
 msgstr ""
 
 # ordered list
 #: make-novice/CONTRIBUTING.md:48
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:48
 msgid "1.  If you wish to change this lesson,"
 msgstr ""
 
@@ -184,12 +164,10 @@ msgstr ""
 
 # ordered list
 #: make-novice/CONTRIBUTING.md:52
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:52
 msgid "2.  If you wish to change the example lesson,"
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:53
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:53
 msgid ""
 "    please work in <https://github.com/carpentries/lesson-example>,\n"
 "    which documents the format of our lessons\n"
@@ -198,12 +176,10 @@ msgstr ""
 
 # ordered list
 #: make-novice/CONTRIBUTING.md:57
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:57
 msgid "3.  If you wish to change the template used for workshop websites,"
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:58
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:58
 msgid ""
 "    please work in <https://github.com/carpentries/workshop-template>.\n"
 "    The home page of that repository explains how to set up workshop "
@@ -215,12 +191,10 @@ msgstr ""
 
 # ordered list
 #: make-novice/CONTRIBUTING.md:63
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:63
 msgid "4.  If you wish to change CSS style files, tools,"
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:64
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:64
 msgid ""
 "    or HTML boilerplate for lessons or workshops stored in `_includes` or "
 "`_layouts`,\n"
@@ -229,7 +203,6 @@ msgstr ""
 
 # header
 #: make-novice/CONTRIBUTING.md:67
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:67
 msgid "## What to Contribute"
 msgstr ""
 
@@ -247,7 +220,6 @@ msgid ""
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:79
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:79
 msgid ""
 "Comments on issues and reviews of pull requests are just as welcome:\n"
 "we are smarter together than we are on our own.\n"
@@ -259,12 +231,10 @@ msgstr ""
 
 # header
 #: make-novice/CONTRIBUTING.md:86
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:86
 msgid "## What *Not* to Contribute"
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:88
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:88
 msgid ""
 "Our lessons already contain more material than we can cover in a typical "
 "workshop,\n"
@@ -278,7 +248,6 @@ msgid ""
 msgstr ""
 
 #: make-novice/CONTRIBUTING.md:97
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:97
 msgid ""
 "We are also not looking for exercises or other material that only run on one "
 "platform.\n"
@@ -290,7 +259,6 @@ msgstr ""
 
 # header
 #: make-novice/CONTRIBUTING.md:102
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:102
 msgid "## Using GitHub"
 msgstr ""
 
@@ -348,7 +316,6 @@ msgstr ""
 
 # header
 #: make-novice/CONTRIBUTING.md:131
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:129
 msgid "## Other Resources"
 msgstr ""
 
@@ -4551,51 +4518,6 @@ msgid ""
 "[zipfile]: {{ page.root }}/files/make-lesson.zip"
 msgstr ""
 
-#: make-novice/_includes/links.md:1
-msgid ""
-"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
-"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
-"[ci]: http://communityin.org/\n"
-"[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/code-of-"
-"conduct.html#reporting-guidelines\n"
-"[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct."
-"html\n"
-"[concept-maps]: https://carpentries.github.io/instructor-training/05-"
-"memory/\n"
-"[contrib-covenant]: https://contributor-covenant.org/\n"
-"[contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING."
-"md\n"
-"[cran-checkpoint]: https://cran.r-project.org/package=checkpoint\n"
-"[cran-knitr]: https://cran.r-project.org/package=knitr\n"
-"[cran-stringr]: https://cran.r-project.org/package=stringr\n"
-"[email]: mailto:team@carpentries.org\n"
-"[github-importer]: https://import.github.com/\n"
-"[importer]: https://github.com/new/import\n"
-"[jekyll-collection]: https://jekyllrb.com/docs/collections/\n"
-"[jekyll-install]: https://jekyllrb.com/docs/installation/\n"
-"[jekyll-windows]: http://jekyll-windows.juthilo.com/\n"
-"[jekyll]: https://jekyllrb.com/\n"
-"[jupyter]: https://jupyter.org/\n"
-"[lesson-example]: https://carpentries.github.io/lesson-example/\n"
-"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
-"[morea]: https://morea-framework.github.io/\n"
-"[numfocus]: https://numfocus.org/\n"
-"[osi]: https://opensource.org\n"
-"[pandoc]: https://pandoc.org/\n"
-"[paper-now]: https://github.com/PeerJ/paper-now\n"
-"[python-gapminder]: https://swcarpentry.github.io/python-novice-gapminder/\n"
-"[pyyaml]: https://pypi.python.org/pypi/PyYAML\n"
-"[r-markdown]: https://rmarkdown.rstudio.com/\n"
-"[rstudio]: https://www.rstudio.com/\n"
-"[ruby-install-guide]: https://www.ruby-lang.org/en/downloads/\n"
-"[ruby-installer]: https://rubyinstaller.org/\n"
-"[rubygems]: https://rubygems.org/pages/download/\n"
-"[styles]: https://github.com/carpentries/styles/\n"
-"[swc-releases]: https://github.com/swcarpentry/swc-releases\n"
-"[workshop-repo]: {{ site.workshop_repo }}\n"
-"[yaml]: http://yaml.org/"
-msgstr ""
-
 # Front Matter
 #: make-novice/aio.md:1
 msgid ""
@@ -4606,7 +4528,7 @@ msgid ""
 msgstr ""
 
 # inline html
-#: make-novice/aio.md:5 make-novice/bin/boilerplate/aio.md:3
+#: make-novice/aio.md:5
 msgid ""
 "<script>\n"
 "  window.onload = function() {\n"
@@ -4639,8 +4561,7 @@ msgid ""
 "</script>"
 msgstr ""
 
-#: make-novice/aio.md:31 make-novice/bin/boilerplate/_extras/figures.md:33
-#: make-novice/bin/boilerplate/aio.md:29
+#: make-novice/aio.md:31
 msgid ""
 "{% comment %}\n"
 "Create anchor for each one of the episodes.\n"
@@ -4648,351 +4569,6 @@ msgid ""
 "{% for episode in site.episodes %}\n"
 "<article id=\"{{ episode.url }}\"></article>\n"
 "{% endfor %}"
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:12
-msgid ""
-"By contributing,\n"
-"you agree that we may redistribute your work under [our license](LICENSE."
-"md).\n"
-"In exchange,\n"
-"we will address your issues and/or assess your change proposal as promptly "
-"as we can,\n"
-"and help you become a member of our community.\n"
-"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-"
-"site]\n"
-"agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md)."
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:30
-msgid ""
-"    you can [send us comments by email][email].\n"
-"    However,\n"
-"    we will be able to respond more quickly if you use one of the other "
-"methods described below."
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:49
-msgid ""
-"    please work in <https://github.com/swcarpentry/FIXME>,\n"
-"    which can be viewed at <https://swcarpentry.github.io/FIXME>."
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:69
-msgid ""
-"There are many ways to contribute,\n"
-"from writing new exercises and improving existing ones\n"
-"to updating or filling in the documentation\n"
-"and submitting [bug reports][issues]\n"
-"about things that don't work, aren't clear, or are missing.\n"
-"If you are looking for ideas, please see the 'Issues' tab for\n"
-"a list of issues associated with this repository,\n"
-"or you may also look at the issues for [Data Carpentry][dc-issues]\n"
-"and [Software Carpentry][swc-issues] projects."
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:104
-msgid ""
-"If you choose to contribute via GitHub, you may want to look at\n"
-"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
-"To manage changes, we follow [GitHub flow][github-flow].\n"
-"Each lesson has two maintainers who review issues and pull requests or "
-"encourage others to do so.\n"
-"The maintainers are community volunteers and have final say over what gets "
-"merged into the lesson.\n"
-"To use the web interface for contributing to a lesson:"
-msgstr ""
-
-# ordered list
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:111
-msgid "1.  Fork the originating repository to your GitHub profile."
-msgstr ""
-
-# ordered list
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:112
-msgid ""
-"2.  Within your version of the forked repository, move to the `gh-pages` "
-"branch and"
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:113
-msgid ""
-"create a new branch for each significant change being made.\n"
-"3.  Navigate to the file(s) you wish to change within the new branches and "
-"make revisions as required.\n"
-"4.  Commit all changed files within the appropriate branches.\n"
-"5.  Create individual pull requests from each of your changed branches\n"
-"to the `gh-pages` branch within the originating repository.\n"
-"6.  If you receive feedback, make changes using your issue-specific branches "
-"of the forked\n"
-"repository and the pull requests will update automatically.\n"
-"7.  Repeat as needed until all feedback has been addressed."
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:122
-msgid ""
-"When starting work, please make sure your clone of the originating `gh-"
-"pages` branch is up-to-date\n"
-"before creating your own revision-specific branch(es) from there.\n"
-"Additionally, please only work from your newly-created branch(es) and *not*\n"
-"your clone of the originating `gh-pages` branch.\n"
-"Lastly, published copies of all the lessons are available in the `gh-pages` "
-"branch of the originating\n"
-"repository for reference while revising."
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:131
-msgid ""
-"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
-"site]\n"
-"happens on the [discussion mailing list][discuss-list],\n"
-"which everyone is welcome to join.\n"
-"You can also [reach us by email][email]."
-msgstr ""
-
-#: make-novice/bin/boilerplate/CONTRIBUTING.md:136
-msgid ""
-"[email]: mailto:admin@software-carpentry.org\n"
-"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
-"[dc-lessons]: http://datacarpentry.org/lessons/\n"
-"[dc-site]: http://datacarpentry.org/\n"
-"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
-"[github]: https://github.com\n"
-"[github-flow]: https://guides.github.com/introduction/flow/\n"
-"[github-join]: https://github.com/join\n"
-"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
-"source-project-on-github\n"
-"[issues]: https://guides.github.com/features/issues/\n"
-"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
-"[swc-lessons]: https://software-carpentry.org/lessons/\n"
-"[swc-site]: https://software-carpentry.org/"
-msgstr ""
-
-# header
-#: make-novice/bin/boilerplate/README.md:1
-msgid "# FIXME Lesson title"
-msgstr ""
-
-#: make-novice/bin/boilerplate/README.md:3
-msgid ""
-"[![Create a Slack Account with us](https://img.shields.io/badge/"
-"Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite."
-"herokuapp.com/)"
-msgstr ""
-
-#: make-novice/bin/boilerplate/README.md:5
-#: make-novice/bin/boilerplate/_episodes/01-introduction.md:12
-#: make-novice/bin/boilerplate/_extras/discuss.md:4
-#: make-novice/bin/boilerplate/_extras/guide.md:4
-#: make-novice/bin/boilerplate/reference.md:7
-#: make-novice/bin/boilerplate/setup.md:4
-msgid "FIXME"
-msgstr ""
-
-# header
-#: make-novice/bin/boilerplate/README.md:7
-msgid "## Contributing"
-msgstr ""
-
-#: make-novice/bin/boilerplate/README.md:9
-msgid ""
-"We welcome all contributions to improve the lesson! Maintainers will do "
-"their best to help you if you have any\n"
-"questions, concerns, or experience any difficulties along the way."
-msgstr ""
-
-#: make-novice/bin/boilerplate/README.md:12
-msgid ""
-"We'd like to ask you to familiarize yourself with our [Contribution Guide]"
-"(CONTRIBUTING.md) and have a look at\n"
-"the [more detailed guidelines][lesson-example] on proper formatting, ways to "
-"render the lesson locally, and even\n"
-"how to write new episodes."
-msgstr ""
-
-# header
-#: make-novice/bin/boilerplate/README.md:16
-msgid "## Maintainer(s)"
-msgstr ""
-
-# unordered list
-#: make-novice/bin/boilerplate/README.md:18
-msgid "* FIXME"
-msgstr ""
-
-# header
-#: make-novice/bin/boilerplate/README.md:20
-msgid "## Authors"
-msgstr ""
-
-#: make-novice/bin/boilerplate/README.md:22
-msgid "A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)"
-msgstr ""
-
-# header
-#: make-novice/bin/boilerplate/README.md:24
-msgid "## Citation"
-msgstr ""
-
-#: make-novice/bin/boilerplate/README.md:26
-msgid "To cite this lesson, please consult with [CITATION](CITATION)"
-msgstr ""
-
-#: make-novice/bin/boilerplate/README.md:28
-msgid "[lesson-example]: https://carpentries.github.io/lesson-example"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/_episodes/01-introduction.md:1
-msgid ""
-"---\n"
-"title: \"Introduction\"\n"
-"teaching: 0\n"
-"exercises: 0\n"
-"questions:\n"
-"- \"Key question (FIXME)\"\n"
-"objectives:\n"
-"- \"First objective. (FIXME)\"\n"
-"keypoints:\n"
-"- \"First key point. (FIXME)\"\n"
-"---"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/_extras/about.md:1
-msgid ""
-"---\n"
-"title: About\n"
-"---"
-msgstr ""
-
-#: make-novice/bin/boilerplate/_extras/about.md:4
-msgid ""
-"{% include carpentries.html %}\n"
-"{% include links.md %}"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/_extras/discuss.md:1
-msgid ""
-"---\n"
-"title: Discussion\n"
-"---"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/_extras/figures.md:1
-msgid ""
-"---\n"
-"title: Figures\n"
-"---"
-msgstr ""
-
-# inline html
-#: make-novice/bin/boilerplate/_extras/figures.md:4
-msgid ""
-"<script>\n"
-"  window.onload = function() {\n"
-"    var lesson_episodes = [\n"
-"    {% for episode in site.episodes %}\n"
-"    \"{{ episode.url}}\"{% unless forloop.last %},{% endunless %}\n"
-"    {% endfor %}\n"
-"    ];\n"
-"    var xmlHttp = [];  /* Required since we are going to query every "
-"episode. */\n"
-"    for (i=0; i < lesson_episodes.length; i++) {\n"
-"      xmlHttp[i] = new XMLHttpRequest();\n"
-"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. "
-"*/\n"
-"      xmlHttp[i].onreadystatechange = function() {\n"
-"        if (this.readyState == 4 && this.status == 200) {\n"
-"          var article_here = document.getElementById(this.episode);\n"
-"          var parser = new DOMParser();\n"
-"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html"
-"\");\n"
-"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")"
-"[0];\n"
-"          article_here.appendChild(htmlDocArticle."
-"getElementsByTagName(\"h1\")[0]);\n"
-"          for (let image of htmlDocArticle.getElementsByTagName(\"img\")) {\n"
-"            article_here.appendChild(image);\n"
-"          }\n"
-"        }\n"
-"      }\n"
-"      episode_url = \"{{ page.root }}\" + lesson_episodes[i];\n"
-"      xmlHttp[i].open(\"GET\", episode_url);\n"
-"      xmlHttp[i].send(null);\n"
-"    }\n"
-"  }\n"
-"</script>"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/_extras/guide.md:1
-msgid ""
-"---\n"
-"title: \"Instructor Notes\"\n"
-"---"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/aio.md:1
-msgid ""
-"---\n"
-"---"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/index.md:1
-msgid ""
-"---\n"
-"layout: lesson\n"
-"root: .  # Is the only page that don't follow the partner /:path/index.html\n"
-"permalink: index.html  # Is the only page that don't follow the partner /:"
-"path/index.html\n"
-"---"
-msgstr ""
-
-#: make-novice/bin/boilerplate/index.md:6
-msgid "FIXME: home page introduction"
-msgstr ""
-
-# blockquote, which can be cascaded
-#: make-novice/bin/boilerplate/index.md:8 make-novice/index.md:29
-msgid "> ## Prerequisites"
-msgstr ""
-
-#: make-novice/bin/boilerplate/index.md:9
-msgid ""
-">\n"
-"> FIXME"
-msgstr ""
-
-# SC/DC Template label
-#: make-novice/bin/boilerplate/index.md:11 make-novice/index.md:35
-#: make-novice/index.md:40
-msgid "{: .prereq}"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/reference.md:1
-msgid ""
-"---\n"
-"layout: reference\n"
-"---"
-msgstr ""
-
-# header
-#: make-novice/bin/boilerplate/reference.md:5 make-novice/reference.md:246
-msgid "## Glossary"
-msgstr ""
-
-# Front Matter
-#: make-novice/bin/boilerplate/setup.md:1
-msgid ""
-"---\n"
-"title: Setup\n"
-"---"
 msgstr ""
 
 #: make-novice/data/books/LICENSE_TEXTS.md:1
@@ -5583,6 +5159,11 @@ msgid ""
 "the same concepts as Make."
 msgstr ""
 
+# blockquote, which can be cascaded
+#: make-novice/index.md:29
+msgid "> ## Prerequisites"
+msgstr ""
+
 #: make-novice/index.md:30
 msgid ""
 ">\n"
@@ -5590,6 +5171,11 @@ msgid ""
 "> experience with using the shell to list directories, create, copy,\n"
 "> remove and list files and directories, and run simple scripts is\n"
 "> necessary."
+msgstr ""
+
+# SC/DC Template label
+#: make-novice/index.md:35 make-novice/index.md:40
+msgid "{: .prereq}"
 msgstr ""
 
 # blockquote, which can be cascaded
@@ -6052,6 +5638,11 @@ msgstr ""
 # unordered list
 #: make-novice/reference.md:244
 msgid "* [Special Built-in Target Names][special-targets]"
+msgstr ""
+
+# header
+#: make-novice/reference.md:246
+msgid "## Glossary"
 msgstr ""
 
 #: make-novice/reference.md:248
