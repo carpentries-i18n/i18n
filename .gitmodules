@@ -31,6 +31,3 @@
 [submodule "instructor-training"]
 	path = instructor-training
 	url = git@github.com:carpentries-i18n/instructor-training.git
-[submodule "workshop-template"]
-	path = workshop-template
-	url = git@github.com:swcarpentry-ja/workshop-template
