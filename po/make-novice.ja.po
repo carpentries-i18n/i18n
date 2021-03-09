@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2021-03-09 14:32:15+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Software-Carpentry Japanese-Team <tomkellygenetics@gmail."
-"com>, 2019, 2020, 2021.\n"
+"Last-Translator: Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020, 2021.\n"
 "Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +18,6 @@ msgstr ""
 
 # Front Matter
 #: make-novice/CODE_OF_CONDUCT.md:1
-#, fuzzy
 msgid ""
 "---\n"
 "layout: page\n"
@@ -365,7 +363,6 @@ msgstr ""
 
 # Front Matter
 #: make-novice/LICENSE.md:1
-#, fuzzy
 msgid ""
 "---\n"
 "layout: page\n"
@@ -5103,7 +5100,6 @@ msgstr ""
 
 # Front Matter
 #: make-novice/index.md:1
-#, fuzzy
 msgid ""
 "---\n"
 "layout: lesson\n"
@@ -5196,7 +5192,6 @@ msgstr ""
 
 # Front Matter
 #: make-novice/reference.md:1
-#, fuzzy
 msgid ""
 "---\n"
 "layout: reference\n"
@@ -5842,7 +5837,6 @@ msgstr ""
 
 # Front Matter
 #: make-novice/setup.md:1
-#, fuzzy
 msgid ""
 "---\n"
 "layout: page\n"
@@ -5990,7 +5984,6 @@ msgid "[zip-file]: {{ page.root }}/files/make-lesson.zip"
 msgstr ""
 
 # Front Matter
-#, fuzzy
 #~ msgid ""
 #~ "---\n"
 #~ "layout: page\n"
