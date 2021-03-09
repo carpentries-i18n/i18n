@@ -1,25 +1,26 @@
-
 # Japanese translation of the Software Carpentry Automation and Make Lesson
 # Copyright (C) 2019 Software Carpentry Foundation; Japanese Translation Team
 # This file is distributed under the same license as the PACKAGE package.
 # Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020, 2021.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2021-02-25 11:54:27+0900\n"
+"POT-Creation-Date: 2021-03-09 12:08:55+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020, 2021.\n"
+"Last-Translator: Software-Carpentry Japanese-Team <tomkellygenetics@gmail."
+"com>, 2019, 2020, 2021.\n"
 "Language-Team:  Japanese <tomkellygenetics@gmail.com>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: workshop-template/404.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/404.md:1
+msgid ""
+"---\n"
 "layout: base\n"
 "root: .\n"
 "permalink: 404.html\n"
@@ -27,8 +28,8 @@ msgid "---\n"
 "---"
 msgstr ""
 
-#: workshop-template/404.md:8
 # header
+#: workshop-template/404.md:8
 msgid "# Oops! We can't find that page."
 msgstr ""
 
@@ -36,60 +37,68 @@ msgstr ""
 msgid "{: style=\"text-align: center;\"}"
 msgstr ""
 
-#: workshop-template/404.md:11
 # blockquote, which can be cascaded
+#: workshop-template/404.md:11
 msgid "> ## Our apologies!"
 msgstr ""
 
 #: workshop-template/404.md:12
-msgid ">\n"
+msgid ""
+">\n"
 "> We can't seem to find the page you're looking for.\n"
-"> Try going back to the <a href=\"javascript:history.back()\">previous page</a> or\n"
+"> Try going back to the <a href=\"javascript:history.back()\">previous page</"
+"a> or\n"
 "> navigate to any other page using the navigation bar above\n"
 "> {%- if site.kind == \"lesson\" -%} or the schedule below {%- endif -%}.\n"
 "> If you got here by clicking on a link in the\n"
-"> {%- if site.kind == \"lesson\" -%} lesson {%- else -%} workshop {%- endif -%},\n"
+"> {%- if site.kind == \"lesson\" -%} lesson {%- else -%} workshop {%- endif -"
+"%},\n"
 "> please report this link to the\n"
-"> {%- if site.kind == \"lesson\" -%} lesson developers {%- else -%} workshop organizers {%- endif -%}."
+"> {%- if site.kind == \"lesson\" -%} lesson developers {%- else -%} workshop "
+"organizers {%- endif -%}."
 msgstr ""
 
-#: workshop-template/404.md:21
 # SC/DC Template label
+#: workshop-template/404.md:21
 msgid "{: .caution}"
 msgstr ""
 
 #: workshop-template/404.md:23
-msgid "{% if site.kind == \"lesson\" %}\n"
+msgid ""
+"{% if site.kind == \"lesson\" %}\n"
 "  {% include syllabus.html %}\n"
 "{% endif%}"
 msgstr ""
 
-#: workshop-template/CODE_OF_CONDUCT.md:1
-#: workshop-template/CONDUCT.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/CODE_OF_CONDUCT.md:1 workshop-template/CONDUCT.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
 "---"
 msgstr ""
 
 #: workshop-template/CODE_OF_CONDUCT.md:5
-msgid "As contributors and maintainers of this project,\n"
+msgid ""
+"As contributors and maintainers of this project,\n"
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
 "プロジェクト貢献者・保持者は、\n"
-"[カーペントリーの行動規範](https://carpentries-coc.readthedocs.io/ja/latest/topic_folders/policies/code-of-conduct.html)に基づき行動することを誓います。"
+"[カーペントリーの行動規範](https://carpentries-coc.readthedocs.io/ja/latest/"
+"topic_folders/policies/code-of-conduct.html)に基づき行動することを誓います。"
 
-#: git-novice/CODE_OF_CONDUCT.md:8
+#: workshop-template/CODE_OF_CONDUCT.md:8 workshop-template/CONDUCT.md:37
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
 "嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
-"カーペントリーの[報告ガイドライン](https://carpentries-coc.readthedocs.io/ja/latest/topic_folders/policies/incident-reporting.html)に沿って報告させていただきます。"
+"カーペントリーの[報告ガイドライン](https://carpentries-coc.readthedocs.io/ja/"
+"latest/topic_folders/policies/incident-reporting.html)に沿って報告させていた"
+"だきます。"
 
-#: workshop-template/CODE_OF_CONDUCT.md:11
-#: workshop-template/CONDUCT.md:44
+#: workshop-template/CODE_OF_CONDUCT.md:11 workshop-template/CONDUCT.md:44
 #: workshop-template/_extras/customization.md:288
 #: workshop-template/bin/boilerplate/_episodes/01-introduction.md:14
 #: workshop-template/bin/boilerplate/_extras/discuss.md:6
@@ -102,7 +111,8 @@ msgid "{% include links.md %}"
 msgstr ""
 
 #: workshop-template/CONDUCT.md:5
-msgid "As contributors and maintainers of this project,\n"
+msgid ""
+"As contributors and maintainers of this project,\n"
 "we pledge to respect all people who contribute through reporting issues,\n"
 "posting feature requests,\n"
 "updating documentation,\n"
@@ -111,7 +121,9 @@ msgid "As contributors and maintainers of this project,\n"
 msgstr ""
 
 #: workshop-template/CONDUCT.md:12
-msgid "We are committed to making participation in this project a harassment-free experience for everyone,\n"
+msgid ""
+"We are committed to making participation in this project a harassment-free "
+"experience for everyone,\n"
 "regardless of level of experience,\n"
 "gender,\n"
 "gender identity and expression,\n"
@@ -126,7 +138,9 @@ msgid "We are committed to making participation in this project a harassment-fre
 msgstr ""
 
 #: workshop-template/CONDUCT.md:25
-msgid "Examples of unacceptable behavior by participants include the use of sexual language or imagery,\n"
+msgid ""
+"Examples of unacceptable behavior by participants include the use of sexual "
+"language or imagery,\n"
 "derogatory comments or personal attacks,\n"
 "trolling,\n"
 "public or private harassment,\n"
@@ -135,30 +149,35 @@ msgid "Examples of unacceptable behavior by participants include the use of sexu
 msgstr ""
 
 #: workshop-template/CONDUCT.md:32
-msgid "Project maintainers have the right and responsibility to remove, edit, or reject\n"
+msgid ""
+"Project maintainers have the right and responsibility to remove, edit, or "
+"reject\n"
 "comments, commits, code, wiki edits, issues, and other contributions\n"
 "that are not aligned to our [Code of Conduct][coc].\n"
-"Project maintainers who do not follow the Code of Conduct may be removed from the project team."
+"Project maintainers who do not follow the Code of Conduct may be removed "
+"from the project team."
 msgstr ""
 
-#: workshop-template/CONDUCT.md:41
 # unordered list
+#: workshop-template/CONDUCT.md:41
 msgid "- [Software and Data Carpentry Code of Conduct][coc]"
 msgstr ""
 
-#: workshop-template/CONDUCT.md:42
 # unordered list
+#: workshop-template/CONDUCT.md:42
 msgid "- [Code of Conduct Reporting Guide][coc-reporting]"
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:1
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:1
-# header
 msgid "# Contributing"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:3
-msgid "[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,\n"
+msgid ""
+"[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source "
+"projects,\n"
 "and we welcome contributions of all kinds:\n"
 "new lessons,\n"
 "fixes to existing material,\n"
@@ -166,31 +185,36 @@ msgid "[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open sou
 "and reviews of proposed changes are all welcome."
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:10
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:10
-# header
 msgid "## Contributor Agreement"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:12
-msgid "By contributing,\n"
-"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+msgid ""
+"By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE."
+"md).\n"
 "In exchange,\n"
-"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+"we will address your issues and/or assess your change proposal as promptly "
+"as we can,\n"
 "and help you become a member of our community.\n"
-"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
 "agrees to abide by our [code of conduct](CONDUCT.md)."
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:20
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:20
-# header
 msgid "## How to Contribute"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:22
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:22
-msgid "The easiest way to get started is to file an issue\n"
+msgid ""
+"The easiest way to get started is to file an issue\n"
 "to tell us about a spelling mistake,\n"
 "some awkward wording,\n"
 "or a factual error.\n"
@@ -198,82 +222,93 @@ msgid "The easiest way to get started is to file an issue\n"
 "and to meet some of our community members."
 msgstr ""
 
+# ordered list
 #: workshop-template/CONTRIBUTING.md:29
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:29
-# ordered list
 msgid "1.  If you do not have a [GitHub][github] account,"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:30
-msgid "    you can [send us comments by email][contact].\n"
+msgid ""
+"    you can [send us comments by email][contact].\n"
 "    However,\n"
-"    we will be able to respond more quickly if you use one of the other methods described below."
+"    we will be able to respond more quickly if you use one of the other "
+"methods described below."
 msgstr ""
 
+# ordered list
 #: workshop-template/CONTRIBUTING.md:34
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:34
-# ordered list
 msgid "2.  If you have a [GitHub][github] account,"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:35
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:35
-msgid "    or are willing to [create one][github-join],\n"
+msgid ""
+"    or are willing to [create one][github-join],\n"
 "    but do not know how to use Git,\n"
-"    you can report problems or suggest improvements by [creating an issue][issues].\n"
+"    you can report problems or suggest improvements by [creating an issue]"
+"[issues].\n"
 "    This allows us to assign the item to someone\n"
 "    and to respond to it in a threaded discussion."
 msgstr ""
 
+# ordered list
 #: workshop-template/CONTRIBUTING.md:41
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:41
-# ordered list
 msgid "3.  If you are comfortable with Git,"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:42
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:42
-msgid "    and would like to add or change material,\n"
+msgid ""
+"    and would like to add or change material,\n"
 "    you can submit a pull request (PR).\n"
 "    Instructions for doing this are [included below](#using-github)."
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:46
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:46
-# header
 msgid "## Where to Contribute"
 msgstr ""
 
-#: workshop-template/CONTRIBUTING.md:48
 # ordered list
+#: workshop-template/CONTRIBUTING.md:48
 msgid "1.  If you wish to change the template used for workshop websites,"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:49
-msgid "    please work in <https://github.com/swcarpentry/workshop-template>.\n"
-"    The home page of that repository explains how to set up workshop websites,\n"
-"    while the extra pages in <https://swcarpentry.github.io/workshop-template>\n"
+msgid ""
+"    please work in <https://github.com/swcarpentry/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop "
+"websites,\n"
+"    while the extra pages in <https://swcarpentry.github.io/workshop-"
+"template>\n"
 "    provide more background on our design choices."
 msgstr ""
 
-#: workshop-template/CONTRIBUTING.md:54
 # ordered list
+#: workshop-template/CONTRIBUTING.md:54
 msgid "2.  If you wish to change CSS style files, tools,"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:55
-msgid "    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+msgid ""
+"    or HTML boilerplate for lessons or workshops stored in `_includes` or "
+"`_layouts`,\n"
 "    please work in <https://github.com/swcarpentry/styles>."
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:58
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:67
-# header
 msgid "## What to Contribute"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:60
-msgid "There are many ways to contribute,\n"
+msgid ""
+"There are many ways to contribute,\n"
 "from writing new exercises and improving existing ones\n"
 "to updating or filling in the documentation\n"
 "and submitting [bug reports][issues]\n"
@@ -285,7 +320,8 @@ msgid "There are many ways to contribute,\n"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:70
-msgid "Comments on issues and reviews of pull requests are just as welcome:\n"
+msgid ""
+"Comments on issues and reviews of pull requests are just as welcome:\n"
 "we are smarter together than we are on our own.\n"
 "Reviews from novices and newcomers are particularly valuable:\n"
 "it's easy for people who have been using these lessons for a while\n"
@@ -293,15 +329,17 @@ msgid "Comments on issues and reviews of pull requests are just as welcome:\n"
 "so fresh eyes are always welcome."
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:77
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:86
-# header
 msgid "## What *Not* to Contribute"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:79
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:88
-msgid "Our lessons already contain more material than we can cover in a typical workshop,\n"
+msgid ""
+"Our lessons already contain more material than we can cover in a typical "
+"workshop,\n"
 "so we are usually *not* looking for more concepts or tools to add to them.\n"
 "As a rule,\n"
 "if you want to introduce a new idea,\n"
@@ -313,76 +351,91 @@ msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:88
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:97
-msgid "We are also not looking for exercises or other material that only run on one platform.\n"
-"Our workshops typically contain a mixture of Windows, macOS, and Linux users;\n"
+msgid ""
+"We are also not looking for exercises or other material that only run on one "
+"platform.\n"
+"Our workshops typically contain a mixture of Windows, macOS, and Linux "
+"users;\n"
 "in order to be usable,\n"
 "our lessons must run equally well on all three."
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:93
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:102
-# header
 msgid "## Using GitHub"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:95
-msgid "If you choose to contribute via GitHub,\n"
+msgid ""
+"If you choose to contribute via GitHub,\n"
 "you may want to look at\n"
 "[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
 "In brief:"
 msgstr ""
 
-#: workshop-template/CONTRIBUTING.md:100
 # ordered list
-msgid "1.  The published copy of the lesson is in the `gh-pages` branch of the repository"
+#: workshop-template/CONTRIBUTING.md:100
+msgid ""
+"1.  The published copy of the lesson is in the `gh-pages` branch of the "
+"repository"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:101
-msgid "    (so that GitHub will regenerate it automatically).\n"
+msgid ""
+"    (so that GitHub will regenerate it automatically).\n"
 "    Please create all branches from that,\n"
-"    and merge the [master repository][repo]'s `gh-pages` branch into your `gh-pages` branch\n"
+"    and merge the [master repository][repo]'s `gh-pages` branch into your "
+"`gh-pages` branch\n"
 "    before starting work.\n"
 "    Please do *not* work directly in your `gh-pages` branch,\n"
 "    since that will make it difficult for you to work on other contributions."
 msgstr ""
 
-#: workshop-template/CONTRIBUTING.md:108
 # ordered list
+#: workshop-template/CONTRIBUTING.md:108
 msgid "2.  We use [GitHub flow][github-flow] to manage changes:"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:109
-msgid "    1.  Create a new branch in your desktop copy of this repository for each significant change.\n"
+msgid ""
+"    1.  Create a new branch in your desktop copy of this repository for each "
+"significant change.\n"
 "    2.  Commit the change in that branch.\n"
 "    3.  Push that branch to your fork of this repository on GitHub.\n"
-"    4.  Submit a pull request from that branch to the [master repository][repo].\n"
+"    4.  Submit a pull request from that branch to the [master repository]"
+"[repo].\n"
 "    5.  If you receive feedback,\n"
 "        make changes on your desktop and push to your branch on GitHub:\n"
 "        the pull request will update automatically."
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:117
-msgid "Each lesson has two maintainers who review issues and pull requests\n"
+msgid ""
+"Each lesson has two maintainers who review issues and pull requests\n"
 "or encourage others to do so.\n"
 "The maintainers are community volunteers,\n"
 "and have final say over what gets merged into the lesson."
 msgstr ""
 
+# header
 #: workshop-template/CONTRIBUTING.md:122
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:129
-# header
 msgid "## Other Resources"
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:124
-msgid "General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+msgid ""
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
 "happens on the [discussion mailing list][discuss-list],\n"
 "which everyone is welcome to join.\n"
 "You can also [reach us by email][contact]."
 msgstr ""
 
 #: workshop-template/CONTRIBUTING.md:129
-msgid "[contact]: mailto:admin@software-carpentry.org\n"
+msgid ""
+"[contact]: mailto:admin@software-carpentry.org\n"
 "[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
 "[dc-lessons]: http://datacarpentry.org/lessons/\n"
 "[dc-site]: http://datacarpentry.org/\n"
@@ -390,7 +443,8 @@ msgid "[contact]: mailto:admin@software-carpentry.org\n"
 "[github]: http://github.com\n"
 "[github-flow]: https://guides.github.com/introduction/flow/\n"
 "[github-join]: https://github.com/join\n"
-"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
 "[issues]: https://github.com/swcarpentry/workshop-template/issues/\n"
 "[repo]: https://github.com/swcarpentry/workshop-template/\n"
 "[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
@@ -398,21 +452,24 @@ msgid "[contact]: mailto:admin@software-carpentry.org\n"
 "[swc-site]: http://software-carpentry.org/"
 msgstr ""
 
-#: workshop-template/LICENSE.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/LICENSE.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: \"Licenses\"\n"
 "---"
 msgstr ""
 
-#: workshop-template/LICENSE.md:5
 # header
+#: workshop-template/LICENSE.md:5
 msgid "## Instructional Material"
 msgstr ""
 
 #: workshop-template/LICENSE.md:7
-msgid "All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is\n"
+msgid ""
+"All Software Carpentry, Data Carpentry, and Library Carpentry instructional "
+"material is\n"
 "made available under the [Creative Commons Attribution\n"
 "license][cc-by-human]. The following is a human-readable summary of\n"
 "(and not a substitute for) the [full legal text of the CC BY 4.0\n"
@@ -423,13 +480,14 @@ msgstr ""
 msgid "You are free:"
 msgstr ""
 
-#: workshop-template/LICENSE.md:15
 # unordered list
-msgid "* to **Share**---copy and redistribute the material in any medium or format"
+#: workshop-template/LICENSE.md:15
+msgid ""
+"* to **Share**---copy and redistribute the material in any medium or format"
 msgstr ""
 
-#: workshop-template/LICENSE.md:16
 # unordered list
+#: workshop-template/LICENSE.md:16
 msgid "* to **Adapt**---remix, transform, and build upon the material"
 msgstr ""
 
@@ -438,7 +496,8 @@ msgid "for any purpose, even commercially."
 msgstr ""
 
 #: workshop-template/LICENSE.md:20
-msgid "The licensor cannot revoke these freedoms as long as you follow the\n"
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the\n"
 "license terms."
 msgstr ""
 
@@ -446,13 +505,14 @@ msgstr ""
 msgid "Under the following terms:"
 msgstr ""
 
-#: workshop-template/LICENSE.md:25
 # unordered list
+#: workshop-template/LICENSE.md:25
 msgid "* **Attribution**---You must give appropriate credit (mentioning that"
 msgstr ""
 
 #: workshop-template/LICENSE.md:26
-msgid "  your work is derived from work that is Copyright © Software\n"
+msgid ""
+"  your work is derived from work that is Copyright © Software\n"
 "  Carpentry and, where practical, linking to\n"
 "  http://software-carpentry.org/), provide a [link to the\n"
 "  license][cc-by-human], and indicate if changes were made. You may do\n"
@@ -461,7 +521,8 @@ msgid "  your work is derived from work that is Copyright © Software\n"
 msgstr ""
 
 #: workshop-template/LICENSE.md:33
-msgid "**No additional restrictions**---You may not apply legal terms or\n"
+msgid ""
+"**No additional restrictions**---You may not apply legal terms or\n"
 "technological measures that legally restrict others from doing\n"
 "anything the license permits.  With the understanding that:"
 msgstr ""
@@ -470,13 +531,14 @@ msgstr ""
 msgid "Notices:"
 msgstr ""
 
-#: workshop-template/LICENSE.md:39
 # unordered list
+#: workshop-template/LICENSE.md:39
 msgid "* You do not have to comply with the license for elements of the"
 msgstr ""
 
 #: workshop-template/LICENSE.md:40
-msgid "  material in the public domain or where your use is permitted by an\n"
+msgid ""
+"  material in the public domain or where your use is permitted by an\n"
 "  applicable exception or limitation.\n"
 "* No warranties are given. The license may not give you all of the\n"
 "  permissions necessary for your intended use. For example, other\n"
@@ -484,20 +546,23 @@ msgid "  material in the public domain or where your use is permitted by an\n"
 "  use the material."
 msgstr ""
 
-#: workshop-template/LICENSE.md:47
 # header
+#: workshop-template/LICENSE.md:47
 msgid "## Software"
 msgstr ""
 
 #: workshop-template/LICENSE.md:49
-msgid "Except where otherwise noted, the example programs and other software\n"
-"provided by Software Carpentry and Data Carpentry are made available under the\n"
+msgid ""
+"Except where otherwise noted, the example programs and other software\n"
+"provided by Software Carpentry and Data Carpentry are made available under "
+"the\n"
 "[OSI][osi]-approved\n"
 "[MIT license][mit-license]."
 msgstr ""
 
 #: workshop-template/LICENSE.md:54
-msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining\n"
 "a copy of this software and associated documentation files (the\n"
 "\"Software\"), to deal in the Software without restriction, including\n"
 "without limitation the rights to use, copy, modify, merge, publish,\n"
@@ -507,12 +572,14 @@ msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
 msgstr ""
 
 #: workshop-template/LICENSE.md:62
-msgid "The above copyright notice and this permission notice shall be\n"
+msgid ""
+"The above copyright notice and this permission notice shall be\n"
 "included in all copies or substantial portions of the Software."
 msgstr ""
 
 #: workshop-template/LICENSE.md:65
-msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
 "EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
 "MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
 "NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
@@ -521,18 +588,20 @@ msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
 "WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 msgstr ""
 
-#: workshop-template/LICENSE.md:73
 # header
+#: workshop-template/LICENSE.md:73
 msgid "## Trademark"
 msgstr ""
 
 #: workshop-template/LICENSE.md:75
-msgid "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+msgid ""
+"\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
 
 #: workshop-template/LICENSE.md:78
-msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+msgid ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
 "[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
 "[mit-license]: https://opensource.org/licenses/mit-license.html\n"
 "[ci]: http://communityin.org/\n"
@@ -540,53 +609,71 @@ msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
 msgstr ""
 
 #: workshop-template/README.md:1
-msgid "[![Build Status](https://travis-ci.com/carpentries/workshop-template.svg?branch=gh-pages)](https://travis-ci.com/carpentries/workshop-template)"
+msgid ""
+"[![Build Status](https://travis-ci.com/carpentries/workshop-template.svg?"
+"branch=gh-pages)](https://travis-ci.com/carpentries/workshop-template)"
 msgstr ""
 
-#: workshop-template/README.md:3
 # header
+#: workshop-template/README.md:3
 msgid "# The Carpentries Workshop Template"
 msgstr ""
 
 #: workshop-template/README.md:5
-msgid "This repository is The Carpentries' ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and\n"
+msgid ""
+"This repository is The Carpentries' ([Software Carpentry][swc-site], [Data "
+"Carpentry][dc-site], and\n"
 "[Library Carpentry][lc-site]'s) template for creating websites for workshops."
 msgstr ""
 
-#: workshop-template/README.md:8
 # ordered list
-msgid "1. **Please _do not fork this repository directly on GitHub._** Instead, please use GitHub's"
+#: workshop-template/README.md:8
+msgid ""
+"1. **Please _do not fork this repository directly on GitHub._** Instead, "
+"please use GitHub's"
 msgstr ""
 
 #: workshop-template/README.md:9
-msgid "   \"template\" function following [the instructions below](#creating-a-repository) to copy this\n"
+msgid ""
+"   \"template\" function following [the instructions below](#creating-a-"
+"repository) to copy this\n"
 "   `workshop-template` repository and customize it for your workshop."
 msgstr ""
 
-#: workshop-template/README.md:12
 # ordered list
-msgid "2. Please *do your work in your repository's `gh-pages` branch*, since that is what is"
+#: workshop-template/README.md:12
+msgid ""
+"2. Please *do your work in your repository's `gh-pages` branch*, since that "
+"is what is"
 msgstr ""
 
 #: workshop-template/README.md:13
-msgid "   [automatically published as a website by GitHub][github-project-pages]."
+msgid ""
+"   [automatically published as a website by GitHub][github-project-pages]."
 msgstr ""
 
-#: workshop-template/README.md:15
 # ordered list
-msgid "3. Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised"
+#: workshop-template/README.md:15
+msgid ""
+"3. Once you are done, please also [let us know][email] the workshop URL. If "
+"this is a self-organised"
 msgstr ""
 
 #: workshop-template/README.md:16
-msgid "   workshop, you should also [fill in the self-organized workshop\n"
-"   form][self-organized-workshop-form] (if you have not already done so), so we can keep track of\n"
-"   all workshops. We build the list of workshops on our websites from the data included in your\n"
-"   `index.md` page. We can only do that if you [customize][customization] that page correctly *and*\n"
+msgid ""
+"   workshop, you should also [fill in the self-organized workshop\n"
+"   form][self-organized-workshop-form] (if you have not already done so), so "
+"we can keep track of\n"
+"   all workshops. We build the list of workshops on our websites from the "
+"data included in your\n"
+"   `index.md` page. We can only do that if you [customize][customization] "
+"that page correctly *and*\n"
 "   let us know the workshop URL."
 msgstr ""
 
 #: workshop-template/README.md:22
-msgid "If you run into problems,\n"
+msgid ""
+"If you run into problems,\n"
 "or have ideas about how to make this process simpler,\n"
 "please [get in touch](#getting-and-giving-help).\n"
 "The pages on [customizing your website][customization],\n"
@@ -594,37 +681,41 @@ msgid "If you run into problems,\n"
 "and the [design notes][design] have more detail on what we do and why.\n"
 "And please note:\n"
 "if you are teaching Git,\n"
-"please [create a separate repository](#setting-up-a-separate-repository-for-learners)\n"
+"please [create a separate repository](#setting-up-a-separate-repository-for-"
+"learners)\n"
 "for your learners to practice in."
 msgstr ""
 
-#: workshop-template/README.md:33
 # header
+#: workshop-template/README.md:33
 msgid "## Video Tutorial"
 msgstr ""
 
 #: workshop-template/README.md:35
-msgid "There is a [YouTube video](https://www.youtube.com/watch?v=_Ag1JiZzyUQ) that demonstrates how to\n"
+msgid ""
+"There is a [YouTube video](https://www.youtube.com/watch?v=_Ag1JiZzyUQ) that "
+"demonstrates how to\n"
 "create a workshop website."
 msgstr ""
 
-#: workshop-template/README.md:38
 # header
+#: workshop-template/README.md:38
 msgid "## Creating a Repository"
 msgstr ""
 
-#: workshop-template/README.md:40
 # ordered list
+#: workshop-template/README.md:40
 msgid "1.  Log in to GitHub."
 msgstr ""
 
 #: workshop-template/README.md:41
-msgid "    (If you do not have an account, you can quickly create one for free.)\n"
+msgid ""
+"    (If you do not have an account, you can quickly create one for free.)\n"
 "    You must be logged in for the remaining steps to work."
 msgstr ""
 
-#: workshop-template/README.md:44
 # ordered list
+#: workshop-template/README.md:44
 msgid "2.  On this page (<https://github.com/carpentries/workshop-template>),"
 msgstr ""
 
@@ -633,57 +724,71 @@ msgid "    click on the green \"Use this template\" button (top right)"
 msgstr ""
 
 #: workshop-template/README.md:47
-msgid "    ![screenshot of this repository's GitHub page with an arrow pointing to the the 'use this template' button on the top left](fig/select-github-use-template.png?raw=true)"
+msgid ""
+"    ![screenshot of this repository's GitHub page with an arrow pointing to "
+"the the 'use this template' button on the top left](fig/select-github-use-"
+"template.png?raw=true)"
 msgstr ""
 
-#: workshop-template/README.md:49
 # ordered list
+#: workshop-template/README.md:49
 msgid "3.  Select the owner for your new repository."
 msgstr ""
 
 #: workshop-template/README.md:50
-msgid "    (This will probably be you, but may instead be an organization you belong to.)"
+msgid ""
+"    (This will probably be you, but may instead be an organization you "
+"belong to.)"
 msgstr ""
 
-#: workshop-template/README.md:52
 # ordered list
+#: workshop-template/README.md:52
 msgid "4.  Choose a name for your workshop website repository."
 msgstr ""
 
 #: workshop-template/README.md:53
-msgid "    This name should have the form `YYYY-MM-DD-site`,\n"
+msgid ""
+"    This name should have the form `YYYY-MM-DD-site`,\n"
 "    e.g., `2016-12-01-oomza`,\n"
 "    where `YYYY-MM-DD` is the start date of the workshop.\n"
-"    If your workshop is held online, then the respository name should have `-online` in the end.\n"
+"    If your workshop is held online, then the respository name should have `-"
+"online` in the end.\n"
 "    e.g., `2016-12-01-oomza-online`"
 msgstr ""
 
-#: workshop-template/README.md:59
 # ordered list
-msgid "5.  Make sure the repository is public, leave \"Include all branches\" unchecked, and click"
+#: workshop-template/README.md:59
+msgid ""
+"5.  Make sure the repository is public, leave \"Include all branches\" "
+"unchecked, and click"
 msgstr ""
 
 #: workshop-template/README.md:60
-msgid "on \"Create repository from template\".\n"
+msgid ""
+"on \"Create repository from template\".\n"
 "You will be redirected to your new copy of the workshop template respository."
 msgstr ""
 
-#: workshop-template/README.md:63
 # ordered list
-msgid "6. Your new website will be rendered at `https://your_username.github.io/YYYY-MM-DD-site`."
+#: workshop-template/README.md:63
+msgid ""
+"6. Your new website will be rendered at `https://your_username.github.io/"
+"YYYY-MM-DD-site`."
 msgstr ""
 
 #: workshop-template/README.md:64
-msgid "For example, if your username is `gvwilson`, the website's URL will be\n"
+msgid ""
+"For example, if your username is `gvwilson`, the website's URL will be\n"
 "`https://gvwilson.github.io/2016-12-01-oomza`."
 msgstr ""
 
 #: workshop-template/README.md:67
-msgid "If you experience a problem, please [get in touch](#getting-and-giving-help)."
+msgid ""
+"If you experience a problem, please [get in touch](#getting-and-giving-help)."
 msgstr ""
 
-#: workshop-template/README.md:69
 # header
+#: workshop-template/README.md:69
 msgid "## Customizing Your Website (Required Steps)"
 msgstr ""
 
@@ -691,36 +796,40 @@ msgstr ""
 msgid "There are two ways of customizing your website. You can either:"
 msgstr ""
 
-#: workshop-template/README.md:73
 # unordered list
+#: workshop-template/README.md:73
 msgid "- edit the files directly in GitHub using your web browser"
 msgstr ""
 
-#: workshop-template/README.md:74
 # unordered list
+#: workshop-template/README.md:74
 msgid "- clone the repository on your computer and update the files locally"
 msgstr ""
 
-#: workshop-template/README.md:76
 # header
+#: workshop-template/README.md:76
 msgid "### Updating the files on GitHub in your web browser"
 msgstr ""
 
-#: workshop-template/README.md:78
 # ordered list
+#: workshop-template/README.md:78
 msgid "1.  Go into your newly-created repository,"
 msgstr ""
 
 #: workshop-template/README.md:79
-msgid "    which will be at `https://github.com/your_username/YYYY-MM-DD-site`.\n"
+msgid ""
+"    which will be at `https://github.com/your_username/YYYY-MM-DD-site`.\n"
 "    For example,\n"
 "    if your username is `gvwilson`,\n"
-"    the repository's URL will be `https://github.com/gvwilson/2016-12-01-oomza`."
+"    the repository's URL will be `https://github.com/gvwilson/2016-12-01-"
+"oomza`."
 msgstr ""
 
-#: workshop-template/README.md:84
 # ordered list
-msgid "3.  Ensure you are on the gh-pages branch by clicking on the branch under the drop"
+#: workshop-template/README.md:84
+msgid ""
+"3.  Ensure you are on the gh-pages branch by clicking on the branch under "
+"the drop"
 msgstr ""
 
 #: workshop-template/README.md:85
@@ -728,45 +837,60 @@ msgid "    down in the menu bar (see the note below):"
 msgstr ""
 
 #: workshop-template/README.md:87
-msgid "    ![screenshot of this repository's GitHub page showing the \"Branch\" dropdown menu expanded with the \"gh-pages\" branch selected](fig/select-gh-pages-branch.png?raw=true)"
+msgid ""
+"    ![screenshot of this repository's GitHub page showing the \"Branch\" "
+"dropdown menu expanded with the \"gh-pages\" branch selected](fig/select-gh-"
+"pages-branch.png?raw=true)"
 msgstr ""
 
-#: workshop-template/README.md:89
 # ordered list
+#: workshop-template/README.md:89
 msgid "3.  Edit the header of `index.md` to customize the list of instructors,"
 msgstr ""
 
 #: workshop-template/README.md:90
-msgid "    workshop venue, etc.\n"
-"    You can do this in the browser by clicking on it in the file view on GitHub\n"
+msgid ""
+"    workshop venue, etc.\n"
+"    You can do this in the browser by clicking on it in the file view on "
+"GitHub\n"
 "    and then selecting the pencil icon in the menu bar:"
 msgstr ""
 
 #: workshop-template/README.md:94
-msgid "    ![screenshot of top menu bar for GitHub's file interface with the edit icon highlighted in the top right](fig/edit-index-file-menu-bar.png?raw=true)"
+msgid ""
+"    ![screenshot of top menu bar for GitHub's file interface with the edit "
+"icon highlighted in the top right](fig/edit-index-file-menu-bar.png?raw=true)"
 msgstr ""
 
 #: workshop-template/README.md:96
-msgid "    Editing hints are embedded in `index.md`,\n"
-"    and full instructions are in [the customization instructions][customization]."
+msgid ""
+"    Editing hints are embedded in `index.md`,\n"
+"    and full instructions are in [the customization instructions]"
+"[customization]."
 msgstr ""
 
-#: workshop-template/README.md:99
 # ordered list
-msgid "4.  Remove the notice about using the workshop template in the `index.md` file. You can safely"
+#: workshop-template/README.md:99
+msgid ""
+"4.  Remove the notice about using the workshop template in the `index.md` "
+"file. You can safely"
 msgstr ""
 
 #: workshop-template/README.md:100
-msgid "    delete everything between the `{% comment %}` and `{% endcomment %}` (included) as indicated\n"
+msgid ""
+"    delete everything between the `{% comment %}` and `{% endcomment %}` "
+"(included) as indicated\n"
 "    below (about from line 35 to line 51):"
 msgstr ""
 
-#: workshop-template/README.md:103
 # code block
-msgid "    ```jekyll\n"
+#: workshop-template/README.md:103
+msgid ""
+"    ```jekyll\n"
 "    {% comment %} <------------ remove from this line\n"
 "    8< ============= For a workshop delete from here =============\n"
-"    For a workshop please delete the following block until the next dashed-line\n"
+"    For a workshop please delete the following block until the next dashed-"
+"line\n"
 "    {% endcomment %}\n"
 "\n"
 "    <div class=\"alert alert-danger\">\n"
@@ -779,61 +903,83 @@ msgid "    ```jekyll\n"
 "    ```"
 msgstr ""
 
-#: workshop-template/README.md:118
 # ordered list
-msgid "4.  Edit `_config.yml` to customize certain site-wide variables, such as: `carpentry` (to tell your"
+#: workshop-template/README.md:118
+msgid ""
+"4.  Edit `_config.yml` to customize certain site-wide variables, such as: "
+"`carpentry` (to tell your"
 msgstr ""
 
 #: workshop-template/README.md:119
-msgid "    participants the lesson program for your workshop), `curriculum` and `flavor` for the\n"
-"    curriculum  taught in your workshop, and `title` (overall title for all pages)."
+msgid ""
+"    participants the lesson program for your workshop), `curriculum` and "
+"`flavor` for the\n"
+"    curriculum  taught in your workshop, and `title` (overall title for all "
+"pages)."
 msgstr ""
 
 #: workshop-template/README.md:122
-msgid "    Editing hints are embedded in `_config.yml`,\n"
-"    and full instructions are in [the customization instructions][customization]."
+msgid ""
+"    Editing hints are embedded in `_config.yml`,\n"
+"    and full instructions are in [the customization instructions]"
+"[customization]."
 msgstr ""
 
-#: workshop-template/README.md:125
 # ordered list
-msgid "5. Edit the `schedule.html` file to edit the schedule for your upcoming workshop. This file is"
+#: workshop-template/README.md:125
+msgid ""
+"5. Edit the `schedule.html` file to edit the schedule for your upcoming "
+"workshop. This file is"
 msgstr ""
 
 #: workshop-template/README.md:126
-msgid "   located in the `_includes` directory, make sure to choose the one from the appropriate `dc` (Data\n"
-"   Carpentry workshop), `lc` (Library Carpentry), or `swc` (Software Carpentry) subdirectory."
+msgid ""
+"   located in the `_includes` directory, make sure to choose the one from "
+"the appropriate `dc` (Data\n"
+"   Carpentry workshop), `lc` (Library Carpentry), or `swc` (Software "
+"Carpentry) subdirectory."
 msgstr ""
 
-#: workshop-template/README.md:129
 # header
+#: workshop-template/README.md:129
 msgid "### Working locally"
 msgstr ""
 
-#: workshop-template/README.md:131
 # blockquote, which can be cascaded
-msgid "> Note: you don't have to do this, if you have already updated your site using the web interface."
+#: workshop-template/README.md:131
+msgid ""
+"> Note: you don't have to do this, if you have already updated your site "
+"using the web interface."
 msgstr ""
 
 #: workshop-template/README.md:134
-msgid "If you are already familiar with Git, you can clone the repository to your desktop, edit `index.md`,\n"
-"`_config.yml`, and `schedule.html` following the instruction above there, and push your changes back to the repository."
+msgid ""
+"If you are already familiar with Git, you can clone the repository to your "
+"desktop, edit `index.md`,\n"
+"`_config.yml`, and `schedule.html` following the instruction above there, "
+"and push your changes back to the repository."
 msgstr ""
 
-#: workshop-template/README.md:137
 # code block
-msgid "```shell\n"
+#: workshop-template/README.md:137
+msgid ""
+"```shell\n"
 "git clone https://github.com/your_username/YYYY-MM-DD-site\n"
 "```"
 msgstr ""
 
 #: workshop-template/README.md:141
-msgid "In order to view your changes once you are done editing, if you have bundler installed (see the\n"
-"[installation instructions below](#installing-software)), you can preview your site locally with:"
+msgid ""
+"In order to view your changes once you are done editing, if you have bundler "
+"installed (see the\n"
+"[installation instructions below](#installing-software)), you can preview "
+"your site locally with:"
 msgstr ""
 
-#: workshop-template/README.md:144
 # code block
-msgid "```shell\n"
+#: workshop-template/README.md:144
+msgid ""
+"```shell\n"
 "make serve\n"
 "```"
 msgstr ""
@@ -843,30 +989,37 @@ msgid "and go to <http://0.0.0.0:4000> to preview your site."
 msgstr ""
 
 #: workshop-template/README.md:149
-msgid "Before pushing your changes to your repository, we recommend that you also check for any potential\n"
+msgid ""
+"Before pushing your changes to your repository, we recommend that you also "
+"check for any potential\n"
 "issues with your site by running:"
 msgstr ""
 
-#: workshop-template/README.md:152
 # code block
-msgid "```shell\n"
+#: workshop-template/README.md:152
+msgid ""
+"```shell\n"
 "make workshop-check\n"
 "```"
 msgstr ""
 
 #: workshop-template/README.md:156
-msgid "Once you are satisfied with the edits to your site, commit and push the changes to your repository.\n"
-"A few minutes later, you can go to the GitHub Pages URL for your workshop site and preview it. In the example above, this is `https://gvwilson.github.io/2016-12-01-oomza`. [The finished\n"
+msgid ""
+"Once you are satisfied with the edits to your site, commit and push the "
+"changes to your repository.\n"
+"A few minutes later, you can go to the GitHub Pages URL for your workshop "
+"site and preview it. In the example above, this is `https://gvwilson.github."
+"io/2016-12-01-oomza`. [The finished\n"
 "page should look something like this](fig/completed-page.png?raw=true)."
 msgstr ""
 
-#: workshop-template/README.md:161
 # header
+#: workshop-template/README.md:161
 msgid "## Optional but Recommended Steps"
 msgstr ""
 
-#: workshop-template/README.md:164
 # header
+#: workshop-template/README.md:164
 msgid "### Update your repository description and link your website"
 msgstr ""
 
@@ -874,9 +1027,10 @@ msgstr ""
 msgid "At the top of your repository on GitHub you'll see"
 msgstr ""
 
-#: workshop-template/README.md:168
 # code block
-msgid "~~~\n"
+#: workshop-template/README.md:168
+msgid ""
+"~~~\n"
 "No description, website, or topics provided. — Edit\n"
 "~~~"
 msgstr ""
@@ -885,101 +1039,128 @@ msgstr ""
 msgid "Click 'Edit' and add:"
 msgstr ""
 
-#: workshop-template/README.md:174
 # ordered list
-msgid "1.  A very brief description of your workshop in the \"Description\" box (e.g., \"Oomza University workshop, Dec. 2016\")"
+#: workshop-template/README.md:174
+msgid ""
+"1.  A very brief description of your workshop in the \"Description\" box (e."
+"g., \"Oomza University workshop, Dec. 2016\")"
 msgstr ""
 
-#: workshop-template/README.md:176
 # ordered list
-msgid "2.  The URL for your workshop in the \"Website\" box (e.g., `https://gvwilson.github.io/2016-12-01-oomza`)"
+#: workshop-template/README.md:176
+msgid ""
+"2.  The URL for your workshop in the \"Website\" box (e.g., `https://"
+"gvwilson.github.io/2016-12-01-oomza`)"
 msgstr ""
 
 #: workshop-template/README.md:178
-msgid "This will help people find your website if they come to your repository's home page."
+msgid ""
+"This will help people find your website if they come to your repository's "
+"home page."
 msgstr ""
 
-#: workshop-template/README.md:180
 # header
+#: workshop-template/README.md:180
 msgid "### Update the content of the README file"
 msgstr ""
 
 #: workshop-template/README.md:182
-msgid "You can change the `README.md` file in your website's repository, which contains these instructions,\n"
-"so that it contains a short description of your workshop and a link to the workshop website."
+msgid ""
+"You can change the `README.md` file in your website's repository, which "
+"contains these instructions,\n"
+"so that it contains a short description of your workshop and a link to the "
+"workshop website."
 msgstr ""
 
-#: workshop-template/README.md:186
 # header
+#: workshop-template/README.md:186
 msgid "## Additional Notes"
 msgstr ""
 
 #: workshop-template/README.md:188
-msgid "**Note:**\n"
+msgid ""
+"**Note:**\n"
 "please do all of your work in your repository's `gh-pages` branch,\n"
-"since [GitHub automatically publishes that as a website][github-project-pages]."
+"since [GitHub automatically publishes that as a website][github-project-"
+"pages]."
 msgstr ""
 
 #: workshop-template/README.md:192
-msgid "**Note:**\n"
-"this template includes some files and directories that most workshops do not need,\n"
+msgid ""
+"**Note:**\n"
+"this template includes some files and directories that most workshops do not "
+"need,\n"
 "but which provide a standard place to put extra content if desired.\n"
 "See the [design notes][design] for more information about these."
 msgstr ""
 
 #: workshop-template/README.md:197
-msgid "Further instructions are available in [the customization instructions][customization].\n"
+msgid ""
+"Further instructions are available in [the customization instructions]"
+"[customization].\n"
 "This [FAQ][faq] includes a few extra tips (additions are always welcome)\n"
-"and these notes on [the background and design][design] of this template may help as well."
+"and these notes on [the background and design][design] of this template may "
+"help as well."
 msgstr ""
 
-#: workshop-template/README.md:202
 # header
+#: workshop-template/README.md:202
 msgid "## Creating Extra Pages"
 msgstr ""
 
 #: workshop-template/README.md:204
-msgid "In rare cases,\n"
+msgid ""
+"In rare cases,\n"
 "you may want to add extra pages to your workshop website.\n"
-"You can do this by putting either Markdown or HTML pages in the website's root directory\n"
+"You can do this by putting either Markdown or HTML pages in the website's "
+"root directory\n"
 "and styling them according to the instructions give in\n"
 "[the lesson template][lesson-example]."
 msgstr ""
 
-#: workshop-template/README.md:211
 # header
+#: workshop-template/README.md:211
 msgid "## Installing Software"
 msgstr ""
 
 #: workshop-template/README.md:213
-msgid "If you want to set up Jekyll so that you can preview changes on your own machine before pushing them\n"
-"to GitHub, you must install the software described in the lesson example [setup\n"
-"instructions](https://carpentries.github.io/lesson-example/setup.html#jekyll-setup-for-lesson-development)."
+msgid ""
+"If you want to set up Jekyll so that you can preview changes on your own "
+"machine before pushing them\n"
+"to GitHub, you must install the software described in the lesson example "
+"[setup\n"
+"instructions](https://carpentries.github.io/lesson-example/setup.html#jekyll-"
+"setup-for-lesson-development)."
 msgstr ""
 
-#: workshop-template/README.md:217
 # header
+#: workshop-template/README.md:217
 msgid "## Setting Up a Separate Repository for Learners"
 msgstr ""
 
 #: workshop-template/README.md:219
-msgid "If you are teaching Git,\n"
+msgid ""
+"If you are teaching Git,\n"
 "you should create a separate repository for learners to use in that lesson.\n"
 "You should not have them use the workshop website repository because:"
 msgstr ""
 
-#: workshop-template/README.md:223
 # unordered list
-msgid "* your workshop website repository contains many files that most learners don't need to see during"
+#: workshop-template/README.md:223
+msgid ""
+"* your workshop website repository contains many files that most learners "
+"don't need to see during"
 msgstr ""
 
 #: workshop-template/README.md:224
 msgid "  the lesson, and"
 msgstr ""
 
-#: workshop-template/README.md:226
 # unordered list
-msgid "* you probably don't want to accidentally merge a damaging pull request from a novice Git user into"
+#: workshop-template/README.md:226
+msgid ""
+"* you probably don't want to accidentally merge a damaging pull request from "
+"a novice Git user into"
 msgstr ""
 
 #: workshop-template/README.md:227
@@ -987,16 +1168,20 @@ msgid "  your workshop's website while you are using it to teach."
 msgstr ""
 
 #: workshop-template/README.md:229
-msgid "You can call this repository whatever you like, and add whatever content you need to it."
+msgid ""
+"You can call this repository whatever you like, and add whatever content you "
+"need to it."
 msgstr ""
 
-#: workshop-template/README.md:231
 # header
+#: workshop-template/README.md:231
 msgid "## Getting and Giving Help"
 msgstr ""
 
 #: workshop-template/README.md:233
-msgid "We are committed to offering a pleasant setup experience for our learners and organizers.\n"
+msgid ""
+"We are committed to offering a pleasant setup experience for our learners "
+"and organizers.\n"
 "If you find bugs in our instructions,\n"
 "or would like to suggest improvements,\n"
 "please [file an issue][issues]\n"
@@ -1004,22 +1189,27 @@ msgid "We are committed to offering a pleasant setup experience for our learners
 msgstr ""
 
 #: workshop-template/README.md:239
-msgid "[email]: mailto:team@carpentries.org\n"
-"[customization]: https://carpentries.github.io/workshop-template/customization/index.html\n"
+msgid ""
+"[email]: mailto:team@carpentries.org\n"
+"[customization]: https://carpentries.github.io/workshop-template/"
+"customization/index.html\n"
 "[dc-site]: https://datacarpentry.org\n"
 "[design]: https://carpentries.github.io/workshop-template/design/index.html\n"
 "[faq]: https://carpentries.github.io/workshop-template/faq/index.html\n"
-"[github-project-pages]: https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site\n"
+"[github-project-pages]: https://help.github.com/en/github/working-with-"
+"github-pages/creating-a-github-pages-site\n"
 "[issues]: https://github.com/carpentries/workshop-template/issues\n"
 "[lesson-example]: https://carpentries.github.io/lesson-example/\n"
-"[self-organized-workshop-form]: https://amy.carpentries.org/forms/self-organised/\n"
+"[self-organized-workshop-form]: https://amy.carpentries.org/forms/self-"
+"organised/\n"
 "[swc-site]: https://software-carpentry.org\n"
 "[lc-site]: https://librarycarpentry.org"
 msgstr ""
 
-#: workshop-template/_extras/about.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/_extras/about.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: About\n"
 "permalink: /about/\n"
@@ -1030,22 +1220,23 @@ msgstr ""
 msgid "{% include carpentries.html %}"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/_extras/customization.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: Customizing Your Workshop's Website\n"
 "permalink: /customization/index.html\n"
 "---"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:7
 # header
+#: workshop-template/_extras/customization.md:7
 msgid "## Table of Content"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:9
 # unordered list
+#: workshop-template/_extras/customization.md:9
 msgid "* TOC"
 msgstr ""
 
@@ -1053,149 +1244,179 @@ msgstr ""
 msgid "{:toc}"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:12
 # header
+#: workshop-template/_extras/customization.md:12
 msgid "## Configuration File `_config.yml`"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:14
-msgid "You should edit the `_config.yml` configuration file in the root directory of your workshop to\n"
+msgid ""
+"You should edit the `_config.yml` configuration file in the root directory "
+"of your workshop to\n"
 "configure some site-wide variables and make the site function correctly:"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:17
 # unordered list
-msgid "* `carpentry` - to tell us which carpentry workshop this is. Possible values are:"
+#: workshop-template/_extras/customization.md:17
+msgid ""
+"* `carpentry` - to tell us which carpentry workshop this is. Possible values "
+"are:"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:18
 # unordered list
+#: workshop-template/_extras/customization.md:18
 msgid "    - `\"swc\"` for Software Carpentry workshops,"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:19
 # unordered list
+#: workshop-template/_extras/customization.md:19
 msgid "    - `\"dc\"` for Data Carpentry workshops,"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:20
 # unordered list
+#: workshop-template/_extras/customization.md:20
 msgid "    - `\"lc\"` for Library Carpentry workshops, and"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:21
 # unordered list
-msgid "    - `\"cp\"` for general Carpentries events such as instructor trainings (for which you should use"
+#: workshop-template/_extras/customization.md:21
+msgid ""
+"    - `\"cp\"` for general Carpentries events such as instructor trainings "
+"(for which you should use"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:22
-msgid "      <https://github.com/carpentries/training-template> as the website template).\n"
+msgid ""
+"      <https://github.com/carpentries/training-template> as the website "
+"template).\n"
 "* `curriculum` - to tell us which curriculum is being taught.\n"
 "  At the moment, applicable to Software and Data Carpentry workshops only.\n"
 "  Possible values are:\n"
-"    - `\"dc-ecology\"`, `\"dc-genomics\"`, `\"dc-socsci\"`, or `\"dc-geospatial\"` for Data Carpentry\n"
+"    - `\"dc-ecology\"`, `\"dc-genomics\"`, `\"dc-socsci\"`, or `\"dc-"
+"geospatial\"` for Data Carpentry\n"
 "      workshops\n"
-"    - `\"swc-inflammation\"` or `\"swc-gapminder\"` for Software Carpentry workshops.\n"
-"* `flavor` - `\"r\"` or `\"python\"` depending on which lessons are being taught at the workshop\n"
+"    - `\"swc-inflammation\"` or `\"swc-gapminder\"` for Software Carpentry "
+"workshops.\n"
+"* `flavor` - `\"r\"` or `\"python\"` depending on which lessons are being "
+"taught at the workshop\n"
 "  (currently only for Data Carpentry and Software Carpentry workshops).\n"
-"* `title` - overall title for the workshop. If set (i.e., different from \"Workshop Title\" or empty),\n"
-"  it will appear in the \"jumbotron\" (the gray box at the top of the page). This variable is also\n"
-"  used for the title of the extra pages. More information about extra pages are [available in the\n"
-"  README](https://github.com/carpentries/workshop-template#creating-extra-pages)."
+"* `title` - overall title for the workshop. If set (i.e., different from "
+"\"Workshop Title\" or empty),\n"
+"  it will appear in the \"jumbotron\" (the gray box at the top of the page). "
+"This variable is also\n"
+"  used for the title of the extra pages. More information about extra pages "
+"are [available in the\n"
+"  README](https://github.com/carpentries/workshop-template#creating-extra-"
+"pages)."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:36
-msgid "For example, if the URL for the repository is `https://github.com/gvwilson/2015-07-01-miskatonic`,\n"
-"the URL for the website will be `http://gvwilson.github.io/2015-07-01-miskatonic`."
+msgid ""
+"For example, if the URL for the repository is `https://github.com/"
+"gvwilson/2015-07-01-miskatonic`,\n"
+"the URL for the website will be `http://gvwilson.github.io/2015-07-01-"
+"miskatonic`."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:39
-msgid "You should not need to modify any of the other variable values in `_config.yml`."
+msgid ""
+"You should not need to modify any of the other variable values in `_config."
+"yml`."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:41
 # header
+#: workshop-template/_extras/customization.md:41
 msgid "## Home Page (`index.md`): data in the YAML header"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:43
-msgid "Your workshop's home page lives in `index.md`,\n"
+msgid ""
+"Your workshop's home page lives in `index.md`,\n"
 "which must define the values below in its header.\n"
 "If your workshop is taught online, see the\n"
 "[following section](#for-online-workshops) for customization\n"
 "options."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:49
 # unordered list
+#: workshop-template/_extras/customization.md:49
 msgid "*   `layout` must be `workshop`."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:51
 # unordered list
+#: workshop-template/_extras/customization.md:51
 msgid "*   `venue` is the short name of the institution or group hosting the"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:52
-msgid "    workshop, like \"Euphoric State University\".  It should *not*\n"
+msgid ""
+"    workshop, like \"Euphoric State University\".  It should *not*\n"
 "    include the address or other details, since this value is\n"
 "    displayed in a table on websites (e.g.,\n"
 "    <https://carpentries.org/upcoming_workshops/>). See section\n"
 "    below for value to use for online workshops."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:58
 # unordered list
+#: workshop-template/_extras/customization.md:58
 msgid "*   `address` is the workshop's address (including details like the"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:59
-msgid "    room number). The address should be all on one line.\n"
+msgid ""
+"    room number). The address should be all on one line.\n"
 "    See section below for value to use for online workshops."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:62
 # unordered list
+#: workshop-template/_extras/customization.md:62
 msgid "*   `country` must be a two-letter ISO-3166 code for the country in"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:63
-msgid "    which the workshop is going to take place, such as \"fr\" (for\n"
-"    France) or \"nz\" (for New Zealand) - see [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements)\n"
+msgid ""
+"    which the workshop is going to take place, such as \"fr\" (for\n"
+"    France) or \"nz\" (for New Zealand) - see [Wikipedia](https://en."
+"wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements)\n"
 "    for a complete list. See section below for value to use for\n"
 "    online workshops."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:68
 # unordered list
+#: workshop-template/_extras/customization.md:68
 msgid "*   `language` is the language that will be used in the workshop."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:69
-msgid "    It must be an [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n"
+msgid ""
+"    It must be an [ISO 639-1 code](https://en.wikipedia.org/wiki/"
+"List_of_ISO_639-1_codes).\n"
 "    Note that two-letter codes mean different things for countries\n"
 "    and languages: \"ar\" is Arabic when used for a language, but\n"
 "    Argentina when used for a country."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:74
 # unordered list
-msgid "*   `latitude` and `longitude` are the latitude and longitude of the workshop"
+#: workshop-template/_extras/customization.md:74
+msgid ""
+"*   `latitude` and `longitude` are the latitude and longitude of the workshop"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:75
-msgid "    site (so we can put a pin on our map). You can use\n"
+msgid ""
+"    site (so we can put a pin on our map). You can use\n"
 "    [this site](https://getlatlong.net/) to find these values.\n"
 "    See section below for value to use for online workshops."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:79
 # unordered list
+#: workshop-template/_extras/customization.md:79
 msgid "*  `humandate` is the human-friendly start and end date for the"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:80
-msgid "    workshop.  Please use three-letter month names and abbreviations\n"
+msgid ""
+"    workshop.  Please use three-letter month names and abbreviations\n"
 "    (e.g., `Jul` instead of `July`), since these values are displayed\n"
 "    in a table on our websites.  (Strictly speaking this information\n"
 "    is redundant, since we require a machine-readable `startdate` and\n"
@@ -1203,70 +1424,78 @@ msgid "    workshop.  Please use three-letter month names and abbreviations\n"
 "    dates is an interesting challenge...)"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:87
 # unordered list
-msgid "*   `humantime` is the human-friendly start and end time for each day of"
+#: workshop-template/_extras/customization.md:87
+msgid ""
+"*   `humantime` is the human-friendly start and end time for each day of"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:88
-msgid "    the workshop, e.g., \"09:00 am - 4:00 pm\" or \"09:00-16:00\".  (We\n"
+msgid ""
+"    the workshop, e.g., \"09:00 am - 4:00 pm\" or \"09:00-16:00\".  (We\n"
 "    recognize that we ought to allow different start or end times on\n"
 "    different days, but going down that path leads eventually to\n"
 "    embedding iCal date/time specifications in our headers, which in\n"
 "    turn leads to madness...)"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:94
 # unordered list
+#: workshop-template/_extras/customization.md:94
 msgid "*   `startdate` is the workshop's starting date in YYYY-MM-DD format,"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:95
-msgid "    such as `2015-07-01`.  You must use four digits for the year and\n"
+msgid ""
+"    such as `2015-07-01`.  You must use four digits for the year and\n"
 "    two each for the month and day."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:98
 # unordered list
-msgid "*   `enddate` is the workshop's ending date in the same format.  If your"
+#: workshop-template/_extras/customization.md:98
+msgid ""
+"*   `enddate` is the workshop's ending date in the same format.  If your"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:99
-msgid "    workshop is only one day long, the `enddate` field should be deleted.\n"
+msgid ""
+"    workshop is only one day long, the `enddate` field should be deleted.\n"
 "    If your workshop has a more complicated schedule (e.g., a half day a\n"
 "    week for four weeks), please delete the `enddate` field and only tell\n"
 "    us its start date."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:104
 # unordered list
+#: workshop-template/_extras/customization.md:104
 msgid "*   `instructor` is a comma-separated list of instructor names.  The"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:105
-msgid "    list must be enclosed in square brackets, and each name must be in\n"
+msgid ""
+"    list must be enclosed in square brackets, and each name must be in\n"
 "    double quotes, as in `[\"Alan Turing\",\"Grace Hopper\"]`.  Do not\n"
 "    include other information (such as the word \"instructor\") in these\n"
 "    values."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:110
 # unordered list
+#: workshop-template/_extras/customization.md:110
 msgid "*   `helper` is a comma-separated list of helper names formatted in the"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:111
-msgid "    same way as the instructor names.  If there are no helpers, use an\n"
+msgid ""
+"    same way as the instructor names.  If there are no helpers, use an\n"
 "    empty list `[]`."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:114
 # unordered list
+#: workshop-template/_extras/customization.md:114
 msgid "*   `contact` is the contact email address to use for your workshop."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:115
-msgid "    If you do not provide a contact email address, your website will\n"
+msgid ""
+"    If you do not provide a contact email address, your website will\n"
 "    display the address for the workshop coordinators (who probably\n"
 "    won't be able to answer questions about the specific details of\n"
 "    your workshop)."
@@ -1276,70 +1505,86 @@ msgstr ""
 msgid "The header may optionally define the following:"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:122
 # unordered list
-msgid "*   `collaborative_notes` is the URL for the Etherpad for your workshop."
+#: workshop-template/_extras/customization.md:122
+msgid ""
+"*   `collaborative_notes` is the URL for the Etherpad for your workshop."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:123
-msgid "    If you are not using an Etherpad, you can delete this line. You can\n"
+msgid ""
+"    If you are not using an Etherpad, you can delete this line. You can\n"
 "    create a carpentries etherpad [here](https://pad.carpentries.org/)."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:126
 # unordered list
-msgid "*   `eventbrite` is the multi-digit Eventbrite registration key.  If you"
+#: workshop-template/_extras/customization.md:126
+msgid ""
+"*   `eventbrite` is the multi-digit Eventbrite registration key.  If you"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:127
-msgid "    are using Eventbrite, the Carpentries Regional Coordinators will\n"
+msgid ""
+"    are using Eventbrite, the Carpentries Regional Coordinators will\n"
 "    give this to you.  If you are using something else, you may delete\n"
 "    this line.  Note: this value must be given as a string in double\n"
 "    quotes, rather than as a number."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:132
 # header
+#: workshop-template/_extras/customization.md:132
 msgid "### For online workshops"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:134
-msgid "If the workshop is online, follow the same instructions as above with the\n"
+msgid ""
+"If the workshop is online, follow the same instructions as above with the\n"
 "following modifications:"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:137
 # unordered list
-msgid "* `venue`: Use the name of the institution that organizes the workshop and do"
+#: workshop-template/_extras/customization.md:137
+msgid ""
+"* `venue`: Use the name of the institution that organizes the workshop and do"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:138
-msgid "  not include a mention that it is an online workshop.\n"
-"* `address`: If you can safely share the URL for the videoconferencing, you may\n"
-"  list it here (it must start with `http` or `https`); if you cannot or prefer\n"
+msgid ""
+"  not include a mention that it is an online workshop.\n"
+"* `address`: If you can safely share the URL for the videoconferencing, you "
+"may\n"
+"  list it here (it must start with `http` or `https`); if you cannot or "
+"prefer\n"
 "  to not share the videoconferencing information, use the value `online`.\n"
-"* `country`: Please use the country associated with the host institution for the\n"
+"* `country`: Please use the country associated with the host institution for "
+"the\n"
 "  workshop.\n"
-"* `latitude` and `longitude`: if it makes sense, use the coordinates for the\n"
+"* `latitude` and `longitude`: if it makes sense, use the coordinates for "
+"the\n"
 "  host institution. If it does not, use `0` for both the latitude and the\n"
 "  longitude."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:148
-msgid "By default, the Setup Instructions will list the installation instructions for the\n"
+msgid ""
+"By default, the Setup Instructions will list the installation instructions "
+"for the\n"
 "videoconferencing service Zoom.\n"
 "If you use a different videoconferencing service,\n"
-"you can edit the file in `_includes/install_instructions/videoconferencing.html`\n"
+"you can edit the file in `_includes/install_instructions/videoconferencing."
+"html`\n"
 "to include the relevant installation instructions."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:154
 # header
+#: workshop-template/_extras/customization.md:154
 msgid "## Home Page: Schedule"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:156
-msgid "By default, the template displays the typical schedule for your workshop based on\n"
+msgid ""
+"By default, the template displays the typical schedule for your workshop "
+"based on\n"
 "the values of the variables set in the `_config.yml`. If you need to  make\n"
 "minor modifications to this schedule, you can edit the `schedule.html` file\n"
 "found in the sub-folder of the `_includes` folder that matches the type of \n"
@@ -1347,8 +1592,11 @@ msgid "By default, the template displays the typical schedule for your workshop 
 msgstr ""
 
 #: workshop-template/_extras/customization.md:162
-msgid "If you wish to create your own custom schedule, an empty template is available in\n"
-"`_includes/custom-schedule.html`. In this file, we provide the structure for a\n"
+msgid ""
+"If you wish to create your own custom schedule, an empty template is "
+"available in\n"
+"`_includes/custom-schedule.html`. In this file, we provide the structure for "
+"a\n"
 "4-day workshop as it is often used for online workshops. To use the custom\n"
 "schedule instead of the one provided by default in the template, delete the\n"
 "block of code found under the \"Schedule\" header and replace it with\n"
@@ -1356,82 +1604,96 @@ msgid "If you wish to create your own custom schedule, an empty template is avai
 msgstr ""
 
 #: workshop-template/_extras/customization.md:169
-msgid "The schedule is formatted using a table. If you would like to learn more about\n"
+msgid ""
+"The schedule is formatted using a table. If you would like to learn more "
+"about\n"
 "how to write tables in HTML, here is an [overview from\n"
-"Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) and\n"
+"Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table) "
+"and\n"
 "the [w3schools](https://www.w3schools.com/html/html_tables.asp)."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:174
 # header
+#: workshop-template/_extras/customization.md:174
 msgid "## Home Page: Setup Instructions"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:176
-msgid "If you need assistance with customizing the setup instructions for your website,\n"
+msgid ""
+"If you need assistance with customizing the setup instructions for your "
+"website,\n"
 "feel free to ask your questions in the Carpentries\n"
-"[Instructors Slack channel](https://swcarpentry.slack.com/archives/C08BVNU00)\n"
-"([join The Carpentries Slack workspace](https://swc-slack-invite.herokuapp.com/))."
+"[Instructors Slack channel](https://swcarpentry.slack.com/archives/"
+"C08BVNU00)\n"
+"([join The Carpentries Slack workspace](https://swc-slack-invite.herokuapp."
+"com/))."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:181
 # header
+#: workshop-template/_extras/customization.md:181
 msgid "### Software Carpentry workshops"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:183
 # header
+#: workshop-template/_extras/customization.md:183
 msgid "#### Default settings"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:185
-msgid "For Software Carpentry workshops,\n"
+msgid ""
+"For Software Carpentry workshops,\n"
 "setting the `flavor` variable in `_config.yml` to `r` or `python`\n"
 "will include the respective installation instructions for these tools.\n"
 "Additionally, by default, the installation instructions for\n"
 "a text editor, the Bash shell, and Git are included."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:191
 # header
+#: workshop-template/_extras/customization.md:191
 msgid "#### If you need to remove tools"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:193
-msgid "If you need to remove any of the instructions for the default\n"
+msgid ""
+"If you need to remove any of the instructions for the default\n"
 "set of tools,\n"
 "you can delete lines that include these instructions in\n"
 "the `_includes/swc/setup.html` file."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:198
 # header
+#: workshop-template/_extras/customization.md:198
 msgid "#### If you need to add tools"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:200
-msgid "If you need to add installation instructions for other tools,\n"
+msgid ""
+"If you need to add installation instructions for other tools,\n"
 "we provide installation instructions for SQL and OpenRefine.\n"
 "To make them appear on your workshop website,\n"
-"you can move the `{% raw %}{% include %}{% endraw %}` statements outside the comment\n"
+"you can move the `{% raw %}{% include %}{% endraw %}` statements outside the "
+"comment\n"
 "block in `_includes/swc/setup.html`."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:206
-msgid "If you need to add installation instructions for other tools,\n"
+msgid ""
+"If you need to add installation instructions for other tools,\n"
 "you will need to write your own. You can use installation instructions\n"
 "for other tools located in the `_includes/install_instructions/` folder\n"
 "as examples."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:211
 # header
+#: workshop-template/_extras/customization.md:211
 msgid "### Data Carpentry workshops"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:213
-msgid "For Data Carpentry workshops,\n"
-"installation instructions live on the workshop overview page for each curriculum.\n"
+msgid ""
+"For Data Carpentry workshops,\n"
+"installation instructions live on the workshop overview page for each "
+"curriculum.\n"
 "Instead of including installation instructions in the workshop template,\n"
 "the workshop template includes links to these instructions.\n"
 "The correct link will be displyed\n"
@@ -1440,36 +1702,40 @@ msgid "For Data Carpentry workshops,\n"
 "in the `_config.yml` file."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:222
 # header
+#: workshop-template/_extras/customization.md:222
 msgid "### Library Carpentry workshops"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:224
-msgid "By default, Library Carpentry workshop websites\n"
+msgid ""
+"By default, Library Carpentry workshop websites\n"
 "include installation instructions for the Bash shell and Git."
 msgstr ""
 
 #: workshop-template/_extras/customization.md:227
-msgid "You may need to add installation instructions for additional tools\n"
+msgid ""
+"You may need to add installation instructions for additional tools\n"
 "you will be using during your workshop\n"
 "by editing the `_includes/lc/setup.html` file.\n"
 "You can either write your own instructions using the ones\n"
 "provided in `_includes/lc/setup.html` as an example,\n"
 "or, if you are using tools that already have installation instructions\n"
 "provided for Software Carpentry,\n"
-"you can add `{% raw %}{% include install_instructions/<filename.html> %}{% endraw %}`\n"
+"you can add `{% raw %}{% include install_instructions/<filename.html> %}{% "
+"endraw %}`\n"
 "where `<filename.html>` needs to be replaced by one of the files\n"
 "in the `_includes/install_instructions` folder."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:238
 # header
+#: workshop-template/_extras/customization.md:238
 msgid "## Homepage: who can attend?"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:240
-msgid "If you want to specify who can attend the workshop you are advertising,\n"
+msgid ""
+"If you want to specify who can attend the workshop you are advertising,\n"
 "there is a commented-out section in `index.md` that you can use to\n"
 "inform workshop website visitors of who can attend the event.\n"
 "You may want to specify that only members of your university,\n"
@@ -1480,18 +1746,20 @@ msgid "If you want to specify who can attend the workshop you are advertising,\n
 msgstr ""
 
 #: workshop-template/_extras/customization.md:249
-msgid "To use it, move the {% raw %}{% endcomment %}{% endraw %} line above the\n"
+msgid ""
+"To use it, move the {% raw %}{% endcomment %}{% endraw %} line above the\n"
 "`<p>` tag marking the beginning of this section and edit the paragraph\n"
 "to reflect the attendance policy for your workshop."
 msgstr ""
 
-#: workshop-template/_extras/customization.md:253
 # header
+#: workshop-template/_extras/customization.md:253
 msgid "## Updating the repository"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:255
-msgid "If for some reason,\n"
+msgid ""
+"If for some reason,\n"
 "such as the installation instructions having become disconnected\n"
 "with the current lesson material,\n"
 "you need to get changes from this repository\n"
@@ -1499,58 +1767,66 @@ msgid "If for some reason,\n"
 "please follow the steps bellow:"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:262
 # ordered list
+#: workshop-template/_extras/customization.md:262
 msgid "1. Add the workshop-template repository as upstream:"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:263
-msgid "    ~~~\n"
-"    $ git remote add upstream https://github.com/carpentries/workshop-template.git\n"
+msgid ""
+"    ~~~\n"
+"    $ git remote add upstream https://github.com/carpentries/workshop-"
+"template.git\n"
 "    ~~~\n"
 "    {: .language-bash}"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:268
 # ordered list
-msgid "2. Fetch the data from upstream repository (also know as the workshop-template"
+#: workshop-template/_extras/customization.md:268
+msgid ""
+"2. Fetch the data from upstream repository (also know as the workshop-"
+"template"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:269
-msgid "    repository):\n"
+msgid ""
+"    repository):\n"
 "    ~~~\n"
 "    $ git pull upstream\n"
 "    ~~~\n"
 "    {: .language-bash}"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:275
 # ordered list
+#: workshop-template/_extras/customization.md:275
 msgid "3. Address possible merge conflicts, and"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:276
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ git commit -a\n"
 "    ~~~\n"
 "    {: .language-bash}"
 msgstr ""
 
-#: workshop-template/_extras/customization.md:281
 # ordered list
+#: workshop-template/_extras/customization.md:281
 msgid "4. Push the changes to your repository on GitHub:"
 msgstr ""
 
 #: workshop-template/_extras/customization.md:282
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ git push origin gh-pages\n"
 "    ~~~\n"
 "    {: .language-bash}"
 msgstr ""
 
-#: workshop-template/_extras/design.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/_extras/design.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: Background and Design\n"
 "permalink: /design/\n"
@@ -1558,18 +1834,20 @@ msgid "---\n"
 msgstr ""
 
 #: workshop-template/_extras/design.md:6
-msgid "There are a few things you need to know in order to understand why we\n"
+msgid ""
+"There are a few things you need to know in order to understand why we\n"
 "do things the way we do.  Some of them are specific to GitHub, rather\n"
 "than Git itself."
 msgstr ""
 
-#: workshop-template/_extras/design.md:10
 # ordered list
+#: workshop-template/_extras/design.md:10
 msgid "1.  Git uses the term \"clone\" to mean \"a copy of a repository\"."
 msgstr ""
 
 #: workshop-template/_extras/design.md:11
-msgid "    GitHub uses the term \"fork\" to mean, \"a copy of a GitHub-hosted\n"
+msgid ""
+"    GitHub uses the term \"fork\" to mean, \"a copy of a GitHub-hosted\n"
 "    repo that is also hosted on GitHub\", and the term \"clone\" to mean\n"
 "    \"a copy of a GitHub-hosted repo that's located on someone else's\n"
 "    machine\".  In both cases, the duplicate has a remote called\n"
@@ -1577,42 +1855,45 @@ msgid "    GitHub uses the term \"fork\" to mean, \"a copy of a GitHub-hosted\n"
 "    added manually."
 msgstr ""
 
-#: workshop-template/_extras/design.md:18
 # ordered list
+#: workshop-template/_extras/design.md:18
 msgid "2.  A user on GitHub can only have one fork of a particular repo."
 msgstr ""
 
 #: workshop-template/_extras/design.md:19
-msgid "    This is a problem for us because an instructor may be involved in\n"
+msgid ""
+"    This is a problem for us because an instructor may be involved in\n"
 "    several workshops, each of which has its own website repo. To avoid\n"
 "    this issue, we use the template functionality (you could also use the\n"
 "    `import.github.com` functionality)."
 msgstr ""
 
-#: workshop-template/_extras/design.md:24
 # ordered list
+#: workshop-template/_extras/design.md:24
 msgid "3.  If a repository has a file called `README.md` in its root"
 msgstr ""
 
 #: workshop-template/_extras/design.md:25
-msgid "    directory, GitHub displays the contents of that file on the\n"
+msgid ""
+"    directory, GitHub displays the contents of that file on the\n"
 "    repository's home page."
 msgstr ""
 
-#: workshop-template/_extras/design.md:28
 # ordered list
+#: workshop-template/_extras/design.md:28
 msgid "4.  If a repository has a branch called `gh-pages` (which stands for"
 msgstr ""
 
 #: workshop-template/_extras/design.md:29
-msgid "    \"GitHub pages\"), then GitHub uses the HTML and Markdown files in\n"
+msgid ""
+"    \"GitHub pages\"), then GitHub uses the HTML and Markdown files in\n"
 "    that branch to create a website for the repository.  If the\n"
 "    repository's URL is `http://github.com/darwin/finches`, the URL\n"
 "    for the website is `http://darwin.github.io/finches`."
 msgstr ""
 
-#: workshop-template/_extras/design.md:34
 # ordered list
+#: workshop-template/_extras/design.md:34
 msgid "5.  If an HTML or Markdown file has a header consisting of three"
 msgstr ""
 
@@ -1620,9 +1901,10 @@ msgstr ""
 msgid "    dashes, some data about the page, and three more dashes:"
 msgstr ""
 
-#: workshop-template/_extras/design.md:37
 # code block
-msgid "    ```yaml\n"
+#: workshop-template/_extras/design.md:37
+msgid ""
+"    ```yaml\n"
 "    ---\n"
 "    key: value\n"
 "    other_key: other_value\n"
@@ -1632,63 +1914,72 @@ msgid "    ```yaml\n"
 msgstr ""
 
 #: workshop-template/_extras/design.md:45
-msgid "    then GitHub doesn't just copy the file over verbatim.  Instead, it\n"
+msgid ""
+"    then GitHub doesn't just copy the file over verbatim.  Instead, it\n"
 "    runs the file through a translator called [Jekyll][jekyll] that\n"
 "    looks for specially-formatted commands embedded in the file and\n"
 "    uses them to fill in the page."
 msgstr ""
 
-#: workshop-template/_extras/design.md:50
 # ordered list
+#: workshop-template/_extras/design.md:50
 msgid "6.  Commands can be embedded in the body of a page.  One is"
 msgstr ""
 
 #: workshop-template/_extras/design.md:51
-msgid "    `{% raw %}{% include something.html %}{% endraw %}`, which tells\n"
+msgid ""
+"    `{% raw %}{% include something.html %}{% endraw %}`, which tells\n"
 "    Jekyll to copy the contents of `something.html` into the file\n"
 "    being translated; this is used to create standard headers and\n"
-"    footers for pages.  Another is `{% raw %}{{variable}}{% endraw %}`: when Jekyll sees\n"
+"    footers for pages.  Another is `{% raw %}{{variable}}{% endraw %}`: when "
+"Jekyll sees\n"
 "    this, it replaces it with the value of `variable`.  This is used\n"
 "    to insert things like a contact email address and the URL for our\n"
 "    Twitter account."
 msgstr ""
 
-#: workshop-template/_extras/design.md:59
 # ordered list
+#: workshop-template/_extras/design.md:59
 msgid "7.  Jekyll gets variables from two places: a file called `_config.yml`"
 msgstr ""
 
 #: workshop-template/_extras/design.md:60
-msgid "    located in the repo's root directory, and the header of each\n"
+msgid ""
+"    located in the repo's root directory, and the header of each\n"
 "    individual page.  Variables from `_config.yml` are put in an\n"
 "    object called `site`, and referred to as `site.variable`, so that\n"
-"    (for example) `{% raw %}{{site.swc_site}}{% endraw %}` in a page is replaced by the URL\n"
-"    of the main Software Carpentry web site ({{site.swc_site}}).  Variables from the\n"
+"    (for example) `{% raw %}{{site.swc_site}}{% endraw %}` in a page is "
+"replaced by the URL\n"
+"    of the main Software Carpentry web site ({{site.swc_site}}).  Variables "
+"from the\n"
 "    page's header are put in an object called `page`, and referred to\n"
 "    as `page.variable`, so if a page's header defines a variable\n"
-"    called `venue`, `{% raw %}{{page.venue}}{% endraw %}` is replaced by \"Euphoric State\n"
+"    called `venue`, `{% raw %}{{page.venue}}{% endraw %}` is replaced by "
+"\"Euphoric State\n"
 "    University\" (or whatever value the variable has)."
 msgstr ""
 
-#: workshop-template/_extras/design.md:70
 # ordered list
+#: workshop-template/_extras/design.md:70
 msgid "8.  If a page uses `{% raw %}{% include something.html %}{% endraw %}`"
 msgstr ""
 
 #: workshop-template/_extras/design.md:71
-msgid "    to include a snippet of HTML, Jekyll looks in a directory called\n"
+msgid ""
+"    to include a snippet of HTML, Jekyll looks in a directory called\n"
 "    `_includes` to find `something.html`.  It always looks there, and\n"
 "    nowhere else, so anything we want people to be able to include in\n"
 "    their pages has to be stored in `_includes`."
 msgstr ""
 
-#: workshop-template/_extras/design.md:76
 # ordered list
+#: workshop-template/_extras/design.md:76
 msgid "9.  A repository can have another special directory called `_layouts`."
 msgstr ""
 
 #: workshop-template/_extras/design.md:77
-msgid "    If a page like `index.html` has a variable called `layout`, and\n"
+msgid ""
+"    If a page like `index.html` has a variable called `layout`, and\n"
 "    that variable's value is `standard.html`, Jekyll loads the file\n"
 "    `_layouts/standard.html` and copies the content of `index.html`\n"
 "    into it, then expands the result.  This is used to give the pages\n"
@@ -1696,78 +1987,82 @@ msgid "    If a page like `index.html` has a variable called `layout`, and\n"
 "    We have created two layouts for workshop pages:"
 msgstr ""
 
-#: workshop-template/_extras/design.md:84
 # unordered list
+#: workshop-template/_extras/design.md:84
 msgid "    * `workshop.html` is used for workshops' home pages, and is the"
 msgstr ""
 
 #: workshop-template/_extras/design.md:85
-msgid "      layout for the `index.html` page in your repo's root directory.\n"
+msgid ""
+"      layout for the `index.html` page in your repo's root directory.\n"
 "      That `index.html` page's header must define several variables as\n"
 "      specified in the the customization instructions in order for\n"
 "      your workshop to be included in our main website."
 msgstr ""
 
-#: workshop-template/_extras/design.md:90
 # unordered list
+#: workshop-template/_extras/design.md:90
 msgid "    * `page.html` is used for any other pages you want to create."
 msgstr ""
 
 #: workshop-template/_extras/design.md:91
-msgid "      **Note:** if you create extra pages, you *must* edit the values\n"
+msgid ""
+"      **Note:** if you create extra pages, you *must* edit the values\n"
 "      in the top section of `_config.yml` as described in\n"
 "      [the lesson template documentation]({{ site.example_site }})."
 msgstr ""
 
-#: workshop-template/_extras/design.md:95
 # header
+#: workshop-template/_extras/design.md:95
 msgid "## Extra Directories"
 msgstr ""
 
 #: workshop-template/_extras/design.md:97
-msgid "This workshop template shares resources with the template used for\n"
+msgid ""
+"This workshop template shares resources with the template used for\n"
 "Carpentry lessons.  As a result, your workshop website's repository\n"
 "contains directories that most workshops don't need, but which can be\n"
 "used to store extra material when necessary:"
 msgstr ""
 
-#: workshop-template/_extras/design.md:102
 # unordered list
+#: workshop-template/_extras/design.md:102
 msgid "*   `_extras/`: extra pages (like this one)."
 msgstr ""
 
-#: workshop-template/_extras/design.md:103
 # unordered list
+#: workshop-template/_extras/design.md:103
 msgid "*   `_episodes/`: lesson episodes (which workshops usually don't have)."
 msgstr ""
 
-#: workshop-template/_extras/design.md:104
 # unordered list
+#: workshop-template/_extras/design.md:104
 msgid "*   `_episodes_rmd/`: R Markdown lesson episodes (if any)."
 msgstr ""
 
-#: workshop-template/_extras/design.md:105
 # unordered list
+#: workshop-template/_extras/design.md:105
 msgid "*   `code/`: for code samples."
 msgstr ""
 
-#: workshop-template/_extras/design.md:106
 # unordered list
+#: workshop-template/_extras/design.md:106
 msgid "*   `data/`: for data files."
 msgstr ""
 
-#: workshop-template/_extras/design.md:107
 # unordered list
+#: workshop-template/_extras/design.md:107
 msgid "*   `fig/`: for figures and other images."
 msgstr ""
 
-#: workshop-template/_extras/design.md:108
 # unordered list
+#: workshop-template/_extras/design.md:108
 msgid "*   `files/`: for miscellaneous files."
 msgstr ""
 
 #: workshop-template/_extras/design.md:110
-msgid "For more information on these, please see [the documentation for the\n"
+msgid ""
+"For more information on these, please see [the documentation for the\n"
 "lesson template]({{ site.example_site }})."
 msgstr ""
 
@@ -1775,51 +2070,61 @@ msgstr ""
 msgid "[jekyll]: https://jekyllrb.com/"
 msgstr ""
 
-#: workshop-template/_extras/faq.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/_extras/faq.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: FAQ\n"
 "permalink: /faq/index.html\n"
 "---"
 msgstr ""
 
-#: workshop-template/_extras/faq.md:7
 # header
+#: workshop-template/_extras/faq.md:7
 msgid "## General"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:9
-msgid "*Where can I get help?*\n"
+msgid ""
+"*Where can I get help?*\n"
 ":   Mail us at [{{site.email}}](mailto:{{site.email}}),\n"
 "    or join our [discussion list]({{site.swc_site}}/join/)\n"
 "    and ask for help there."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:14
-msgid "*What if I can't wait?*\n"
-":   Run `make workshop-check` to run the workshop homepage checking program on `index.html`."
+msgid ""
+"*What if I can't wait?*\n"
+":   Run `make workshop-check` to run the workshop homepage checking program "
+"on `index.html`."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:17
-msgid "*Where can I report problems or suggest improvements?*\n"
+msgid ""
+"*Where can I report problems or suggest improvements?*\n"
 ":   Please file an issue against [{{site.workshop_repo}}](this repository)\n"
 "    or [mail us](mailto:{{site.email}})."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:21
-msgid "*Why does the workshop repository have to be created by importing rather than forking?*\n"
+msgid ""
+"*Why does the workshop repository have to be created by importing rather "
+"than forking?*\n"
 ":   Because any particular user can only have one fork of a repository,\n"
 "    but instructors frequently need to work on several workshops at once."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:25
-msgid "*Why do I have to be logged in before I start the import?*\n"
+msgid ""
+"*Why do I have to be logged in before I start the import?*\n"
 ":   It's a known issue with GitHub's importer."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:28
-msgid "*Why does the workshop repository name have to follow the `YYYY-MM-DD-site` pattern?*\n"
+msgid ""
+"*Why does the workshop repository name have to follow the `YYYY-MM-DD-site` "
+"pattern?*\n"
 ":   This makes it easy for coordinators to track workshops.\n"
 "    There are plans to move that coordination into [AMY][amy],\n"
 "    but until that happens this pattern makes it easy to sort workshops\n"
@@ -1828,29 +2133,39 @@ msgid "*Why does the workshop repository name have to follow the `YYYY-MM-DD-sit
 msgstr ""
 
 #: workshop-template/_extras/faq.md:35
-msgid "*Why use the `gh-pages` branch instead of `master`?*\n"
-":   Because [GitHub automatically publishes `gh-pages`][github-pages] as a website."
+msgid ""
+"*Why use the `gh-pages` branch instead of `master`?*\n"
+":   Because [GitHub automatically publishes `gh-pages`][github-pages] as a "
+"website."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:38
-msgid "*Why use Jekyll?  Why not some other markup language and some other converter?*\n"
+msgid ""
+"*Why use Jekyll?  Why not some other markup language and some other "
+"converter?*\n"
 ":   Because it's the only tool supported by GitHub Pages."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:41
-msgid "*Where should pages go if multiple workshops are running at a site simultaneously?*\n"
+msgid ""
+"*Where should pages go if multiple workshops are running at a site "
+"simultaneously?*\n"
 ":   Use subdirectories like `2015-07-01-esu/beginners`,\n"
 "    so that repository names always follow our four-part convention."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:45
-msgid "*What if I want to add more values to `index.html`, like `address1` and `address2` for different rooms on different days?*\n"
+msgid ""
+"*What if I want to add more values to `index.html`, like `address1` and "
+"`address2` for different rooms on different days?*\n"
 ":   Go ahead,\n"
-"    but you *must* have the variables described in the customization instructions."
+"    but you *must* have the variables described in the customization "
+"instructions."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:49
-msgid "*What is the \"Windows installer\"?*\n"
+msgid ""
+"*What is the \"Windows installer\"?*\n"
 ":   We have built a small installation helper for Windows\n"
 "    that installs nano and SQLite, adds R to the path, and so on.\n"
 "    It is maintained in\n"
@@ -1861,31 +2176,37 @@ msgid "*What is the \"Windows installer\"?*\n"
 "    and contributions are always welcome."
 msgstr ""
 
-#: workshop-template/_extras/faq.md:59
 # header
+#: workshop-template/_extras/faq.md:59
 msgid "## Debugging"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:61
-msgid "*Help, my website is not updating!*\n"
-":   Ensure that strings in the header of `index.html` are enclosed in quotations `\"`.\n"
-"    Special characters such as `\"&\"` may render correctly on your local machine\n"
+msgid ""
+"*Help, my website is not updating!*\n"
+":   Ensure that strings in the header of `index.html` are enclosed in "
+"quotations `\"`.\n"
+"    Special characters such as `\"&\"` may render correctly on your local "
+"machine\n"
 "    but cause rendering to fail silently on GitHub."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:66
-msgid "*Eventbrite registration isn't showing up on the workshop's home page.*\n"
+msgid ""
+"*Eventbrite registration isn't showing up on the workshop's home page.*\n"
 ":   First check that you have something like:"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:69
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    eventbrite: 1234567890AB\n"
 "    ~~~"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:73
-msgid "    in the YAML header of `index.html`.\n"
+msgid ""
+"    in the YAML header of `index.html`.\n"
 "    If the YAML header is set properly you may be accessing\n"
 "    `file:///home/to/workshop/directory/_site/index.html` directly.\n"
 "    Instead,\n"
@@ -1893,124 +2214,165 @@ msgid "    in the YAML header of `index.html`.\n"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:79
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ make serve\n"
 "    ~~~"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:83
-msgid "    and look at `http://localhost:4000` in your browser\n"
+msgid ""
+"    and look at `http://localhost:4000` in your browser\n"
 "    (or push your changes to GitHub and view your page there)."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:86
-msgid "*What do I do if I see a `invalid byte sequence in ...` error when I run `tools/check`?*\n"
-":   Your computer is telling you that it doesn't understand some of the characters you're using.\n"
+msgid ""
+"*What do I do if I see a `invalid byte sequence in ...` error when I run "
+"`tools/check`?*\n"
+":   Your computer is telling you that it doesn't understand some of the "
+"characters you're using.\n"
 "    Declare your locale to be `en_US.UTF-8` in your shell:"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:90
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ export LC_ALL=en_US.UTF-8\n"
 "    $ export LANG=en_US.UTF-8\n"
 "    ~~~"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:95
-msgid "*What do I do if I get a \"can't convert nil into String\" error?*\n"
+msgid ""
+"*What do I do if I get a \"can't convert nil into String\" error?*\n"
 ":   On some Linux distributions (e.g, Ubuntu 14.04), you may get this error:"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:98
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ ./tools/preview\n"
-"    /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': iconv will be deprecated in the future, use String#encode instead.\n"
-"    /usr/lib/ruby/1.9.1/time.rb:265:in `_parse': can't convert nil into String (TypeError)\n"
-"	    from /usr/lib/ruby/1.9.1/time.rb:265:in `parse'\n"
-"	    from /usr/bin/jekyll:95:in `block (2 levels) in <main>'\n"
-"	    from /usr/lib/ruby/1.9.1/optparse.rb:1391:in `call'\n"
-"	    from /usr/lib/ruby/1.9.1/optparse.rb:1391:in `block in parse_in_order'\n"
-"	    from /usr/lib/ruby/1.9.1/optparse.rb:1347:in `catch'\n"
-"	    from /usr/lib/ruby/1.9.1/optparse.rb:1347:in `parse_in_order'\n"
-"	    from /usr/lib/ruby/1.9.1/optparse.rb:1341:in `order!'\n"
-"	    from /usr/lib/ruby/1.9.1/optparse.rb:1432:in `permute!'\n"
-"	    from /usr/lib/ruby/1.9.1/optparse.rb:1453:in `parse!'\n"
-"	    from /usr/bin/jekyll:137:in `<main>'\n"
+"    /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': iconv "
+"will be deprecated in the future, use String#encode instead.\n"
+"    /usr/lib/ruby/1.9.1/time.rb:265:in `_parse': can't convert nil into "
+"String (TypeError)\n"
+"\t    from /usr/lib/ruby/1.9.1/time.rb:265:in `parse'\n"
+"\t    from /usr/bin/jekyll:95:in `block (2 levels) in <main>'\n"
+"\t    from /usr/lib/ruby/1.9.1/optparse.rb:1391:in `call'\n"
+"\t    from /usr/lib/ruby/1.9.1/optparse.rb:1391:in `block in "
+"parse_in_order'\n"
+"\t    from /usr/lib/ruby/1.9.1/optparse.rb:1347:in `catch'\n"
+"\t    from /usr/lib/ruby/1.9.1/optparse.rb:1347:in `parse_in_order'\n"
+"\t    from /usr/lib/ruby/1.9.1/optparse.rb:1341:in `order!'\n"
+"\t    from /usr/lib/ruby/1.9.1/optparse.rb:1432:in `permute!'\n"
+"\t    from /usr/lib/ruby/1.9.1/optparse.rb:1453:in `parse!'\n"
+"\t    from /usr/bin/jekyll:137:in `<main>'\n"
 "    ~~~"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:114
-msgid "    This occurs because you are using an old version of Jekyll located in `/usr/bin`.\n"
+msgid ""
+"    This occurs because you are using an old version of Jekyll located in `/"
+"usr/bin`.\n"
 "    Make sure that you have installed Jekyll using:"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:117
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ gem install jekyll\n"
 "    ~~~"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:121
-msgid "    This installs Jekyll in `/usr/local/bin`,\n"
-"    so make sure this directory comes before `/usr/bin` in your `PATH` environment variable.\n"
+msgid ""
+"    This installs Jekyll in `/usr/local/bin`,\n"
+"    so make sure this directory comes before `/usr/bin` in your `PATH` "
+"environment variable.\n"
 "    When your path is set correctly,\n"
 "    you should see:"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:126
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ which jekyll\n"
 "    /usr/local/bin/jekyll\n"
 "    ~~~"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:131
-msgid "    You may also have to install the `nodejs` package to disable references to JavaScript,\n"
+msgid ""
+"    You may also have to install the `nodejs` package to disable references "
+"to JavaScript,\n"
 "    which you can do using:"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:134
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ sudo apt-get install nodejs\n"
 "    ~~~"
 msgstr ""
 
 #: workshop-template/_extras/faq.md:138
-msgid "    For more information,\n"
+msgid ""
+"    For more information,\n"
 "    see <http://michaelchelen.net/81fa/install-jekyll-2-ubuntu-14-04/>."
 msgstr ""
 
 #: workshop-template/_extras/faq.md:141
-msgid "[amy]: https://github.com/swcarpentry/amy\n"
-"[github-pages]: https://help.github.com/articles/creating-project-pages-manually/"
+msgid ""
+"[amy]: https://github.com/swcarpentry/amy\n"
+"[github-pages]: https://help.github.com/articles/creating-project-pages-"
+"manually/"
 msgstr ""
 
-#: workshop-template/_extras/helpers.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/_extras/helpers.md:1
+msgid ""
+"---\n"
 "title: Information for Helpers\n"
 "---"
 msgstr ""
 
 #: workshop-template/_extras/helpers.md:5
-msgid "The role of Helpers is defined on the [Helper Checklist page](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html#helper-checklist). Please review this information."
+msgid ""
+"The role of Helpers is defined on the [Helper Checklist page](https://docs."
+"carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist."
+"html#helper-checklist). Please review this information."
 msgstr ""
 
 #: workshop-template/_extras/helpers.md:7
-msgid "The Carpentries aims to create an inclusive environment so the [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) is very important."
+msgid ""
+"The Carpentries aims to create an inclusive environment so the [Code of "
+"Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct."
+"html) is very important."
 msgstr ""
 
 #: workshop-template/_extras/helpers.md:9
-msgid "Please also familiarize yourself with the [key points](https://carpentries.github.io/instructor-training/reference.html) summary of the Carpentries Instructor training to get an idea of the values and strategies we aim to use in Carpentries workshops. Feel free to poke around the rest of the material if you wish, but those key points are what is important in how we work with the learners."
+msgid ""
+"Please also familiarize yourself with the [key points](https://carpentries."
+"github.io/instructor-training/reference.html) summary of the Carpentries "
+"Instructor training to get an idea of the values and strategies we aim to "
+"use in Carpentries workshops. Feel free to poke around the rest of the "
+"material if you wish, but those key points are what is important in how we "
+"work with the learners."
 msgstr ""
 
 #: workshop-template/_extras/helpers.md:11
-msgid "We maintain a list of common issues that occur during installation as a reference that may be useful in preparation and the day of the workshop on the\n"
-"[Configuration Problems and Solutions wiki page]({{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions)."
+msgid ""
+"We maintain a list of common issues that occur during installation as a "
+"reference that may be useful in preparation and the day of the workshop on "
+"the\n"
+"[Configuration Problems and Solutions wiki page]({{site.swc_github}}/"
+"workshop-template/wiki/Configuration-Problems-and-Solutions)."
 msgstr ""
 
 #: workshop-template/_includes/aio-script.md:1
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "As a maintainer, you don't need to edit this file.\n"
 "If you notice that something doesn't work, please\n"
 "open an issue: https://github.com/carpentries/styles/issues/new\n"
@@ -2026,7 +2388,8 @@ msgid "{% for lesson_episode in lesson_episodes %}"
 msgstr ""
 
 #: workshop-template/_includes/aio-script.md:11
-msgid "{% if site.episode_order %}\n"
+msgid ""
+"{% if site.episode_order %}\n"
 "  {% assign e = site.episodes | where: \"slug\", lesson_episode | first %}\n"
 "{% else %}\n"
 "  {% assign e = lesson_episode %}\n"
@@ -2034,11 +2397,14 @@ msgid "{% if site.episode_order %}\n"
 msgstr ""
 
 #: workshop-template/_includes/aio-script.md:17
-msgid "<h1 id=\"{{ e.title | slugify }}\" class=\"maintitle\">{{ e.title }}</h1>"
+msgid ""
+"<h1 id=\"{{ e.title | slugify }}\" class=\"maintitle\">{{ e.title }}</h1>"
 msgstr ""
 
 #: workshop-template/_includes/aio-script.md:19
-msgid "{% include episode_overview.html teaching_time=e.teaching exercise_time=e.exercises episode_questions=e.questions episode_objectives=e.objectives %}"
+msgid ""
+"{% include episode_overview.html teaching_time=e.teaching exercise_time=e."
+"exercises episode_questions=e.questions episode_objectives=e.objectives %}"
 msgstr ""
 
 #: workshop-template/_includes/aio-script.md:21
@@ -2046,19 +2412,24 @@ msgid "{{ e.content }}"
 msgstr ""
 
 #: workshop-template/_includes/aio-script.md:23
-msgid "{% include episode_keypoints.html episode_keypoints=e.keypoints %}\n"
+msgid ""
+"{% include episode_keypoints.html episode_keypoints=e.keypoints %}\n"
 "<hr />\n"
 "{% endfor %}"
 msgstr ""
 
 #: workshop-template/_includes/links.md:1
-msgid "{% include base_path.html %}\n"
+msgid ""
+"{% include base_path.html %}\n"
 "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
 "[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
 "[ci]: http://communityin.org/\n"
-"[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/incident-reporting.html\n"
-"[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html\n"
-"[concept-maps]: https://carpentries.github.io/instructor-training/05-memory/\n"
+"[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/"
+"incident-reporting.html\n"
+"[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct."
+"html\n"
+"[concept-maps]: https://carpentries.github.io/instructor-training/05-"
+"memory/\n"
 "[contrib-covenant]: https://contributor-covenant.org/\n"
 "[contributing]: {{ repo_url }}/blob/{{ source_branch }}/CONTRIBUTING.md\n"
 "[cran-checkpoint]: https://cran.r-project.org/package=checkpoint\n"
@@ -2100,15 +2471,17 @@ msgid "{% include base_path.html %}\n"
 "[yaml]: http://yaml.org/"
 msgstr ""
 
-#: workshop-template/aio.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/aio.md:1
+msgid ""
+"---\n"
 "permalink: /aio/index.html\n"
 "---"
 msgstr ""
 
 #: workshop-template/aio.md:5
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "As a maintainer, you don't need to edit this file.\n"
 "If you notice that something doesn't work, please \n"
 "open an issue: https://github.com/carpentries/styles/issues/new\n"
@@ -2124,7 +2497,9 @@ msgid "{% include aio-script.md %}"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:3
-msgid "[The Carpentries][c-site] ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]) are open source projects,\n"
+msgid ""
+"[The Carpentries][c-site] ([Software Carpentry][swc-site], [Data Carpentry]"
+"[dc-site], and [Library Carpentry][lc-site]) are open source projects,\n"
 "and we welcome contributions of all kinds:\n"
 "new lessons,\n"
 "fixes to existing material,\n"
@@ -2133,66 +2508,79 @@ msgid "[The Carpentries][c-site] ([Software Carpentry][swc-site], [Data Carpentr
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:12
-msgid "By contributing,\n"
-"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+msgid ""
+"By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE."
+"md).\n"
 "In exchange,\n"
-"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+"we will address your issues and/or assess your change proposal as promptly "
+"as we can,\n"
 "and help you become a member of our community.\n"
 "Everyone involved in [The Carpentries][c-site]\n"
 "agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md)."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:30
-msgid "    you can [send us comments by email][email].\n"
+msgid ""
+"    you can [send us comments by email][email].\n"
 "    However,\n"
-"    we will be able to respond more quickly if you use one of the other methods described below."
+"    we will be able to respond more quickly if you use one of the other "
+"methods described below."
 msgstr ""
 
-#: workshop-template/bin/boilerplate/CONTRIBUTING.md:48
 # ordered list
+#: workshop-template/bin/boilerplate/CONTRIBUTING.md:48
 msgid "1.  If you wish to change this lesson,"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:49
-msgid "    please work in <https://github.com/swcarpentry/FIXME>,\n"
+msgid ""
+"    please work in <https://github.com/swcarpentry/FIXME>,\n"
 "    which can be viewed at <https://swcarpentry.github.io/FIXME>."
 msgstr ""
 
-#: workshop-template/bin/boilerplate/CONTRIBUTING.md:52
 # ordered list
+#: workshop-template/bin/boilerplate/CONTRIBUTING.md:52
 msgid "2.  If you wish to change the example lesson,"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:53
-msgid "    please work in <https://github.com/carpentries/lesson-example>,\n"
+msgid ""
+"    please work in <https://github.com/carpentries/lesson-example>,\n"
 "    which documents the format of our lessons\n"
 "    and can be viewed at <https://carpentries.github.io/lesson-example>."
 msgstr ""
 
-#: workshop-template/bin/boilerplate/CONTRIBUTING.md:57
 # ordered list
+#: workshop-template/bin/boilerplate/CONTRIBUTING.md:57
 msgid "3.  If you wish to change the template used for workshop websites,"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:58
-msgid "    please work in <https://github.com/carpentries/workshop-template>.\n"
-"    The home page of that repository explains how to set up workshop websites,\n"
-"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
+msgid ""
+"    please work in <https://github.com/carpentries/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop "
+"websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-"
+"template>\n"
 "    provide more background on our design choices."
 msgstr ""
 
-#: workshop-template/bin/boilerplate/CONTRIBUTING.md:63
 # ordered list
+#: workshop-template/bin/boilerplate/CONTRIBUTING.md:63
 msgid "4.  If you wish to change CSS style files, tools,"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:64
-msgid "    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+msgid ""
+"    or HTML boilerplate for lessons or workshops stored in `_includes` or "
+"`_layouts`,\n"
 "    please work in <https://github.com/carpentries/styles>."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:69
-msgid "There are many ways to contribute,\n"
+msgid ""
+"There are many ways to contribute,\n"
 "from writing new exercises and improving existing ones\n"
 "to updating or filling in the documentation\n"
 "and submitting [bug reports][issues]\n"
@@ -2200,11 +2588,13 @@ msgid "There are many ways to contribute,\n"
 "If you are looking for ideas, please see the 'Issues' tab for\n"
 "a list of issues associated with this repository,\n"
 "or you may also look at the issues for [Data Carpentry][dc-issues], \n"
-"[Software Carpentry][swc-issues], and [Library Carpentry][lc-issues] projects."
+"[Software Carpentry][swc-issues], and [Library Carpentry][lc-issues] "
+"projects."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:79
-msgid "Comments on issues and reviews of pull requests are just as welcome:\n"
+msgid ""
+"Comments on issues and reviews of pull requests are just as welcome:\n"
 "we are smarter together than we are on our own.\n"
 "Reviews from novices and newcomers are particularly valuable:\n"
 "it is easy for people who have been using these lessons for a while\n"
@@ -2213,53 +2603,67 @@ msgid "Comments on issues and reviews of pull requests are just as welcome:\n"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:104
-msgid "If you choose to contribute via GitHub, you may want to look at\n"
+msgid ""
+"If you choose to contribute via GitHub, you may want to look at\n"
 "[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
 "To manage changes, we follow [GitHub flow][github-flow].\n"
-"Each lesson has two maintainers who review issues and pull requests or encourage others to do so.\n"
-"The maintainers are community volunteers and have final say over what gets merged into the lesson.\n"
+"Each lesson has two maintainers who review issues and pull requests or "
+"encourage others to do so.\n"
+"The maintainers are community volunteers and have final say over what gets "
+"merged into the lesson.\n"
 "To use the web interface for contributing to a lesson:"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/CONTRIBUTING.md:111
 # ordered list
+#: workshop-template/bin/boilerplate/CONTRIBUTING.md:111
 msgid "1.  Fork the originating repository to your GitHub profile."
 msgstr ""
 
-#: workshop-template/bin/boilerplate/CONTRIBUTING.md:112
 # ordered list
-msgid "2.  Within your version of the forked repository, move to the `gh-pages` branch and"
+#: workshop-template/bin/boilerplate/CONTRIBUTING.md:112
+msgid ""
+"2.  Within your version of the forked repository, move to the `gh-pages` "
+"branch and"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:113
-msgid "create a new branch for each significant change being made.\n"
-"3.  Navigate to the file(s) you wish to change within the new branches and make revisions as required.\n"
+msgid ""
+"create a new branch for each significant change being made.\n"
+"3.  Navigate to the file(s) you wish to change within the new branches and "
+"make revisions as required.\n"
 "4.  Commit all changed files within the appropriate branches.\n"
 "5.  Create individual pull requests from each of your changed branches\n"
 "to the `gh-pages` branch within the originating repository.\n"
-"6.  If you receive feedback, make changes using your issue-specific branches of the forked\n"
+"6.  If you receive feedback, make changes using your issue-specific branches "
+"of the forked\n"
 "repository and the pull requests will update automatically.\n"
 "7.  Repeat as needed until all feedback has been addressed."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:122
-msgid "When starting work, please make sure your clone of the originating `gh-pages` branch is up-to-date\n"
+msgid ""
+"When starting work, please make sure your clone of the originating `gh-"
+"pages` branch is up-to-date\n"
 "before creating your own revision-specific branch(es) from there.\n"
 "Additionally, please only work from your newly-created branch(es) and *not*\n"
 "your clone of the originating `gh-pages` branch.\n"
-"Lastly, published copies of all the lessons are available in the `gh-pages` branch of the originating\n"
+"Lastly, published copies of all the lessons are available in the `gh-pages` "
+"branch of the originating\n"
 "repository for reference while revising."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:131
-msgid "General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+msgid ""
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
 "happens on the [discussion mailing list][discuss-list],\n"
 "which everyone is welcome to join.\n"
 "You can also [reach us by email][email]."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/CONTRIBUTING.md:136
-msgid "[email]: mailto:admin@software-carpentry.org\n"
+msgid ""
+"[email]: mailto:admin@software-carpentry.org\n"
 "[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
 "[dc-lessons]: http://datacarpentry.org/lessons/\n"
 "[dc-site]: http://datacarpentry.org/\n"
@@ -2267,7 +2671,8 @@ msgid "[email]: mailto:admin@software-carpentry.org\n"
 "[github]: https://github.com\n"
 "[github-flow]: https://guides.github.com/introduction/flow/\n"
 "[github-join]: https://github.com/join\n"
-"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
 "[issues]: https://guides.github.com/features/issues/\n"
 "[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
 "[swc-lessons]: https://software-carpentry.org/lessons/\n"
@@ -2277,45 +2682,60 @@ msgid "[email]: mailto:admin@software-carpentry.org\n"
 "[lc-issues]: https://github.com/issues?q=user%3Alibrarycarpentry"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/README.md:1
 # header
+#: workshop-template/bin/boilerplate/README.md:1
 msgid "# FIXME Lesson title"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/README.md:3
-msgid "[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)"
+msgid ""
+"[![Create a Slack Account with us](https://img.shields.io/badge/"
+"Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite."
+"herokuapp.com/)"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/README.md:5
-msgid "This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. "
+msgid ""
+"This repository generates the corresponding lesson website from [The "
+"Carpentries](https://carpentries.org/) repertoire of lessons. "
 msgstr ""
 
-#: workshop-template/bin/boilerplate/README.md:7
 # header
+#: workshop-template/bin/boilerplate/README.md:7
 msgid "## Contributing"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/README.md:9
-msgid "We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any\n"
+msgid ""
+"We welcome all contributions to improve the lesson! Maintainers will do "
+"their best to help you if you have any\n"
 "questions, concerns, or experience any difficulties along the way."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/README.md:12
-msgid "We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at\n"
-"the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even\n"
+msgid ""
+"We'd like to ask you to familiarize yourself with our [Contribution Guide]"
+"(CONTRIBUTING.md) and have a look at\n"
+"the [more detailed guidelines][lesson-example] on proper formatting, ways to "
+"render the lesson locally, and even\n"
 "how to write new episodes."
 msgstr ""
 
 #: workshop-template/bin/boilerplate/README.md:16
-msgid "Please see the current list of [issues][FIXME] for ideas for contributing to this\n"
+msgid ""
+"Please see the current list of [issues][FIXME] for ideas for contributing to "
+"this\n"
 "repository. For making your contribution, we use the GitHub flow, which is\n"
-"nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git\n"
+"nicely explained in the chapter [Contributing to a Project](http://git-scm."
+"com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git\n"
 "by Scott Chacon.\n"
-"Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.  "
+"Look for the tag ![good_first_issue](https://img.shields.io/badge/-good"
+"%20first%20issue-gold.svg). This indicates that the maintainers will welcome "
+"a pull request fixing this issue.  "
 msgstr ""
 
-#: workshop-template/bin/boilerplate/README.md:23
 # header
+#: workshop-template/bin/boilerplate/README.md:23
 msgid "## Maintainer(s)"
 msgstr ""
 
@@ -2323,15 +2743,15 @@ msgstr ""
 msgid "Current maintainers of this lesson are "
 msgstr ""
 
+# unordered list
 #: workshop-template/bin/boilerplate/README.md:27
 #: workshop-template/bin/boilerplate/README.md:28
 #: workshop-template/bin/boilerplate/README.md:29
-# unordered list
 msgid "* FIXME"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/README.md:32
 # header
+#: workshop-template/bin/boilerplate/README.md:32
 msgid "## Authors"
 msgstr ""
 
@@ -2339,8 +2759,8 @@ msgstr ""
 msgid "A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/README.md:36
 # header
+#: workshop-template/bin/boilerplate/README.md:36
 msgid "## Citation"
 msgstr ""
 
@@ -2352,9 +2772,10 @@ msgstr ""
 msgid "[lesson-example]: https://carpentries.github.io/lesson-example"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/_episodes/01-introduction.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/_episodes/01-introduction.md:1
+msgid ""
+"---\n"
 "title: \"Introduction\"\n"
 "teaching: 0\n"
 "exercises: 0\n"
@@ -2375,45 +2796,52 @@ msgstr ""
 msgid "FIXME"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/_extras/about.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/_extras/about.md:1
+msgid ""
+"---\n"
 "title: About\n"
 "---"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/_extras/about.md:4
-msgid "{% include carpentries.html %}\n"
+msgid ""
+"{% include carpentries.html %}\n"
 "{% include links.md %}"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/_extras/discuss.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/_extras/discuss.md:1
+msgid ""
+"---\n"
 "title: Discussion\n"
 "---"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/_extras/figures.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/_extras/figures.md:1
+msgid ""
+"---\n"
 "title: Figures\n"
 "---"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/_extras/figures.md:5
-msgid "{% include base_path.html %}\n"
+msgid ""
+"{% include base_path.html %}\n"
 "{% include manual_episode_order.html %}"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/_extras/figures.md:8
 # inline html
-msgid "<script>\n"
+#: workshop-template/bin/boilerplate/_extras/figures.md:8
+msgid ""
+"<script>\n"
 "  window.onload = function() {\n"
 "    var lesson_episodes = [\n"
 "    {% for lesson_episode in lesson_episodes %}\n"
 "      {% if site.episode_order %}\n"
-"        {% assign episode = site.episodes | where: \"slug\", lesson_episode | first %}\n"
+"        {% assign episode = site.episodes | where: \"slug\", lesson_episode "
+"| first %}\n"
 "      {% else %}\n"
 "        {% assign episode = lesson_episode %}\n"
 "      {% endif %}\n"
@@ -2421,23 +2849,28 @@ msgid "<script>\n"
 "    {% endfor %}\n"
 "    ];\n"
 "\n"
-"    var xmlHttp = [];  /* Required since we are going to query every episode. */\n"
+"    var xmlHttp = [];  /* Required since we are going to query every "
+"episode. */\n"
 "    for (i=0; i < lesson_episodes.length; i++) {\n"
 "\n"
 "      xmlHttp[i] = new XMLHttpRequest();\n"
-"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. */\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. "
+"*/\n"
 "      xmlHttp[i].onreadystatechange = function() {\n"
 "\n"
 "        if (this.readyState == 4 && this.status == 200) {\n"
 "          var parser = new DOMParser();\n"
-"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html\");\n"
-"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html"
+"\");\n"
+"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")"
+"[0];\n"
 "\n"
 "          var article_here = document.getElementById(this.episode);\n"
 "          var images = htmlDocArticle.getElementsByTagName(\"img\");\n"
 "\n"
 "          if (images.length > 0) {\n"
-"            var h1text = htmlDocArticle.getElementsByTagName(\"h1\")[0].innerHTML;\n"
+"            var h1text = htmlDocArticle.getElementsByTagName(\"h1\")[0]."
+"innerHTML;\n"
 "\n"
 "            var htitle = document.createElement('h2');\n"
 "            htitle.innerHTML = h1text;\n"
@@ -2448,7 +2881,8 @@ msgid "<script>\n"
 "              image_num++;\n"
 "\n"
 "              var title = document.createElement('p');\n"
-"              title.innerHTML = \"<strong>Figure \" + image_num + \".</strong> \" + image.alt;\n"
+"              title.innerHTML = \"<strong>Figure \" + image_num + \".</"
+"strong> \" + image.alt;\n"
 "              article_here.appendChild(title);\n"
 "\n"
 "              article_here.appendChild(image.cloneNode(false));\n"
@@ -2470,13 +2904,16 @@ msgid "<script>\n"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/_extras/figures.md:68
-msgid "{% comment %} Create anchor for each one of the episodes.  {% endcomment %}"
+msgid ""
+"{% comment %} Create anchor for each one of the episodes.  {% endcomment %}"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/_extras/figures.md:70
-msgid "{% for lesson_episode in lesson_episodes %}\n"
+msgid ""
+"{% for lesson_episode in lesson_episodes %}\n"
 "  {% if site.episode_order %}\n"
-"    {% assign episode = site.episodes | where: \"slug\", lesson_episode | first %}\n"
+"    {% assign episode = site.episodes | where: \"slug\", lesson_episode | "
+"first %}\n"
 "  {% else %}\n"
 "    {% assign episode = lesson_episode %}\n"
 "  {% endif %}\n"
@@ -2484,19 +2921,23 @@ msgid "{% for lesson_episode in lesson_episodes %}\n"
 "{% endfor %}"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/_extras/guide.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/_extras/guide.md:1
+msgid ""
+"---\n"
 "title: \"Instructor Notes\"\n"
 "---"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/index.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/index.md:1
+msgid ""
+"---\n"
 "layout: lesson\n"
-"root: .  # Is the only page that doesn't follow the pattern /:path/index.html\n"
-"permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html\n"
+"root: .  # Is the only page that doesn't follow the pattern /:path/index."
+"html\n"
+"permalink: index.html  # Is the only page that doesn't follow the pattern /:"
+"path/index.html\n"
 "---"
 msgstr ""
 
@@ -2512,155 +2953,216 @@ msgstr ""
 msgid "{% comment %} This is a comment in Liquid {% endcomment %}"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/index.md:12
 # blockquote, which can be cascaded
+#: workshop-template/bin/boilerplate/index.md:12
 msgid "> ## Prerequisites"
 msgstr ""
 
 #: workshop-template/bin/boilerplate/index.md:13
-msgid ">\n"
+msgid ""
+">\n"
 "> FIXME"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/index.md:15
 # SC/DC Template label
+#: workshop-template/bin/boilerplate/index.md:15
 msgid "{: .prereq}"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/reference.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/reference.md:1
+msgid ""
+"---\n"
 "layout: reference\n"
 "---"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/reference.md:5
 # header
+#: workshop-template/bin/boilerplate/reference.md:5
 msgid "## Glossary"
 msgstr ""
 
-#: workshop-template/bin/boilerplate/setup.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/bin/boilerplate/setup.md:1
+msgid ""
+"---\n"
 "title: Setup\n"
 "---"
 msgstr ""
 
-#: workshop-template/index.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/index.md:1
+msgid ""
+"---\n"
 "layout: workshop      # DON'T CHANGE THIS.\n"
 "# More detailed instructions (including how to fill these variables for an\n"
 "# online workshop) are available at\n"
 "# https://carpentries.github.io/workshop-template/customization/index.html\n"
-"venue: \"FIXME\"        # brief name of the institution that hosts the workshop without address (e.g., \"Euphoric State University\")\n"
-"address: \"FIXME\"      # full street address of workshop (e.g., \"Room A, 123 Forth Street, Blimingen, Euphoria\"), videoconferencing URL, or 'online'\n"
-"country: \"FIXME\"      # lowercase two-letter ISO country code such as \"fr\" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop\n"
-"language: \"FIXME\"     # lowercase two-letter ISO language code such as \"fr\" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the\n"
-"latitude: \"45\"        # decimal latitude of workshop venue (use https://www.latlong.net/)\n"
-"longitude: \"-1\"       # decimal longitude of the workshop venue (use https://www.latlong.net)\n"
-"humandate: \"FIXME\"    # human-readable dates for the workshop (e.g., \"Feb 17-18, 2020\")\n"
-"humantime: \"FIXME\"    # human-readable times for the workshop (e.g., \"9:00 am - 4:30 pm\")\n"
-"startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01\n"
-"enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02\n"
-"instructor: [\"instructor one\", \"instructor two\"] # boxed, comma-separated list of instructors' names as strings, like [\"Kay McNulty\", \"Betty Jennings\", \"Betty Snyder\"]\n"
-"helper: [\"helper one\", \"helper two\"]     # boxed, comma-separated list of helpers' names, like [\"Marlyn Wescoff\", \"Fran Bilas\", \"Ruth Lichterman\"]\n"
-"email: [\"first@example.org\",\"second@example.org\"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like [\"marlyn.wescoff@example.org\", \"fran.bilas@example.org\", \"ruth.lichterman@example.org\"]\n"
-"collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)\n"
-"eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., \"1234567890AB\" (if Eventbrite is being used)\n"
+"venue: \"FIXME\"        # brief name of the institution that hosts the "
+"workshop without address (e.g., \"Euphoric State University\")\n"
+"address: \"FIXME\"      # full street address of workshop (e.g., \"Room A, "
+"123 Forth Street, Blimingen, Euphoria\"), videoconferencing URL, or "
+"'online'\n"
+"country: \"FIXME\"      # lowercase two-letter ISO country code such as \"fr"
+"\" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the "
+"institution that hosts the workshop\n"
+"language: \"FIXME\"     # lowercase two-letter ISO language code such as \"fr"
+"\" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the\n"
+"latitude: \"45\"        # decimal latitude of workshop venue (use https://"
+"www.latlong.net/)\n"
+"longitude: \"-1\"       # decimal longitude of the workshop venue (use "
+"https://www.latlong.net)\n"
+"humandate: \"FIXME\"    # human-readable dates for the workshop (e.g., \"Feb "
+"17-18, 2020\")\n"
+"humantime: \"FIXME\"    # human-readable times for the workshop (e.g., "
+"\"9:00 am - 4:30 pm\")\n"
+"startdate: FIXME      # machine-readable start date for the workshop in YYYY-"
+"MM-DD format like 2015-01-01\n"
+"enddate: FIXME        # machine-readable end date for the workshop in YYYY-"
+"MM-DD format like 2015-01-02\n"
+"instructor: [\"instructor one\", \"instructor two\"] # boxed, comma-"
+"separated list of instructors' names as strings, like [\"Kay McNulty\", "
+"\"Betty Jennings\", \"Betty Snyder\"]\n"
+"helper: [\"helper one\", \"helper two\"]     # boxed, comma-separated list "
+"of helpers' names, like [\"Marlyn Wescoff\", \"Fran Bilas\", \"Ruth "
+"Lichterman\"]\n"
+"email: [\"first@example.org\",\"second@example.org\"]    # boxed, comma-"
+"separated list of contact email addresses for the host, lead instructor, or "
+"whoever else is handling questions, like [\"marlyn.wescoff@example.org\", "
+"\"fran.bilas@example.org\", \"ruth.lichterman@example.org\"]\n"
+"collaborative_notes:  # optional: URL for the workshop collaborative notes, "
+"e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries."
+"org/2015-01-01-euphoria)\n"
+"eventbrite:           # optional: alphanumeric key for Eventbrite "
+"registration, e.g., \"1234567890AB\" (if Eventbrite is being used)\n"
 "---"
 msgstr ""
 
 #: workshop-template/index.md:23
-msgid "{% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}"
+msgid ""
+"{% comment %} See instructions in the comments below for how to edit "
+"specific sections of this workshop template. {% endcomment %}"
 msgstr ""
 
 #: workshop-template/index.md:25
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "HEADER"
 msgstr ""
 
 #: workshop-template/index.md:28
-msgid "Edit the values in the block above to be appropriate for your workshop.\n"
+msgid ""
+"Edit the values in the block above to be appropriate for your workshop.\n"
 "If the value is not 'true', 'false', 'null', or a number, please use\n"
 "double quotation marks around the value, unless specified otherwise.\n"
-"And run 'make workshop-check' *before* committing to make sure that changes are good.\n"
+"And run 'make workshop-check' *before* committing to make sure that changes "
+"are good.\n"
 "{% endcomment %}"
 msgstr ""
 
 #: workshop-template/index.md:35
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "8< ============= For a workshop delete from here =============\n"
 "For a workshop please delete the following block until the next dashed-line\n"
 "{% endcomment %}"
 msgstr ""
 
 #: workshop-template/index.md:41
-msgid "<div class=\"alert alert-danger\">\n"
+msgid ""
+"<div class=\"alert alert-danger\">\n"
 "This is the workshop template. Delete these lines and use it to\n"
-"<a href=\"https://carpentries.github.io/workshop-template/customization/index.html\">customize</a>\n"
-"your own website. If you are running a self-organized workshop or have not put\n"
+"<a href=\"https://carpentries.github.io/workshop-template/customization/"
+"index.html\">customize</a>\n"
+"your own website. If you are running a self-organized workshop or have not "
+"put\n"
 "in a workshop request yet, please also fill in\n"
-"<a href=\"{{site.amy_site}}/forms/self-organised/\">this workshop request form</a>\n"
-"to let us know about your workshop and our administrator may contact you if we\n"
+"<a href=\"{{site.amy_site}}/forms/self-organised/\">this workshop request "
+"form</a>\n"
+"to let us know about your workshop and our administrator may contact you if "
+"we\n"
 "need any extra information.\n"
 "</div>"
 msgstr ""
 
 #: workshop-template/index.md:51
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "8< ============================= until here ==================\n"
 "{% endcomment %}"
 msgstr ""
 
 #: workshop-template/index.md:56
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "Check DC curriculum\n"
 "{% endcomment %}"
 msgstr ""
 
 #: workshop-template/index.md:60
-msgid "{% if site.carpentry == \"dc\" %}\n"
-"{% unless site.curriculum == \"dc-ecology\" or site.curriculum == \"dc-genomics\" or site.curriculum == \"dc-socsci\" or site.curriculum == \"dc-geospatial\" %}\n"
+msgid ""
+"{% if site.carpentry == \"dc\" %}\n"
+"{% unless site.curriculum == \"dc-ecology\" or site.curriculum == \"dc-"
+"genomics\" or site.curriculum == \"dc-socsci\" or site.curriculum == \"dc-"
+"geospatial\" %}\n"
 "<div class=\"alert alert-warning\">\n"
-"It looks like you are setting up a website for a Data Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: \"<strong>{{ site.curriculum }}</strong>\", possible values: <code>dc-ecology</code>, <code>dc-genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.\n"
+"It looks like you are setting up a website for a Data Carpentry curriculum "
+"but you haven't specified the curriculum type in the <code>_config.yml</"
+"code> file (current value in <code>_config.yml</code>: \"<strong>{{ site."
+"curriculum }}</strong>\", possible values: <code>dc-ecology</code>, <code>dc-"
+"genomics</code>, <code>dc-socsci</code>, or <code>dc-geospatial</code>). "
+"After editing this file, you need to run <code>make serve</code> again to "
+"see the changes reflected.\n"
 "</div>\n"
 "{% endunless %}\n"
 "{% endif %}"
 msgstr ""
 
 #: workshop-template/index.md:68
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "Check SWC curriculum\n"
 "{% endcomment %}"
 msgstr ""
 
 #: workshop-template/index.md:72
-msgid "{% if site.carpentry == \"swc\" %}\n"
-"{% unless site.curriculum == \"swc-inflammation\" or site.curriculum == \"swc-gapminder\" %}\n"
+msgid ""
+"{% if site.carpentry == \"swc\" %}\n"
+"{% unless site.curriculum == \"swc-inflammation\" or site.curriculum == "
+"\"swc-gapminder\" %}\n"
 "<div class=\"alert alert-warning\">\n"
-"It looks like you are setting up a website for a Software Carpentry curriculum but you haven't specified the curriculum type in the <code>_config.yml</code> file (current value in <code>_config.yml</code>: \"<strong>{{ site.curriculum }}</strong>\", possible values: <code>swc-inflammation</code>, or <code>swc-gapminder</code>). After editing this file, you need to run <code>make serve</code> again to see the changes reflected.\n"
+"It looks like you are setting up a website for a Software Carpentry "
+"curriculum but you haven't specified the curriculum type in the "
+"<code>_config.yml</code> file (current value in <code>_config.yml</code>: "
+"\"<strong>{{ site.curriculum }}</strong>\", possible values: <code>swc-"
+"inflammation</code>, or <code>swc-gapminder</code>). After editing this "
+"file, you need to run <code>make serve</code> again to see the changes "
+"reflected.\n"
 "</div>\n"
 "{% endunless %}\n"
 "{% endif %}"
 msgstr ""
 
 #: workshop-template/index.md:80
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "EVENTBRITE"
 msgstr ""
 
 #: workshop-template/index.md:83
-msgid "This block includes the Eventbrite registration widget if\n"
+msgid ""
+"This block includes the Eventbrite registration widget if\n"
 "'eventbrite' has been set in the header.  You can delete it if you\n"
 "are not using Eventbrite, or leave it in, since it will not be\n"
 "displayed if the 'eventbrite' field in the header is not set.\n"
 "{% endcomment %}\n"
 "{% if page.eventbrite %}\n"
-"<strong>Some adblockers block the registration window. If you do not see the\n"
+"<strong>Some adblockers block the registration window. If you do not see "
+"the\n"
 "  registration box below, please check your adblocker settings.</strong>\n"
 "<iframe\n"
-"  src=\"https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt\"\n"
+"  src=\"https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}"
+"&ref=etckt\"\n"
 "  frameborder=\"0\"\n"
 "  width=\"100%\"\n"
 "  height=\"280px\"\n"
@@ -2674,12 +3176,14 @@ msgid "<h2 id=\"general\">General Information</h2>"
 msgstr ""
 
 #: workshop-template/index.md:103
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "INTRODUCTION"
 msgstr ""
 
 #: workshop-template/index.md:106
-msgid "Edit the general explanatory paragraph below if you want to change\n"
+msgid ""
+"Edit the general explanatory paragraph below if you want to change\n"
 "the pitch.\n"
 "{% endcomment %}\n"
 "{% if site.carpentry == \"swc\" %}\n"
@@ -2692,12 +3196,14 @@ msgid "Edit the general explanatory paragraph below if you want to change\n"
 msgstr ""
 
 #: workshop-template/index.md:117
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "AUDIENCE"
 msgstr ""
 
 #: workshop-template/index.md:120
-msgid "Explain who your audience is.  (In particular, tell readers if the\n"
+msgid ""
+"Explain who your audience is.  (In particular, tell readers if the\n"
 "workshop is only open to people from a particular institution.\n"
 "{% endcomment %}\n"
 "{% if site.carpentry == \"swc\" %}\n"
@@ -2710,12 +3216,14 @@ msgid "Explain who your audience is.  (In particular, tell readers if the\n"
 msgstr ""
 
 #: workshop-template/index.md:131
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "LOCATION"
 msgstr ""
 
 #: workshop-template/index.md:134
-msgid "This block displays the address and links to maps showing directions\n"
+msgid ""
+"This block displays the address and links to maps showing directions\n"
 "if the latitude and longitude of the workshop have been set.  You\n"
 "can use https://itouchmap.com/latlong.html to find the lat/long of an\n"
 "address.\n"
@@ -2733,9 +3241,11 @@ msgid "This block displays the address and links to maps showing directions\n"
 "  <strong>Where:</strong>\n"
 "  {{page.address}}.\n"
 "  Get directions with\n"
-"  <a href=\"//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16\">OpenStreetMap</a>\n"
+"  <a href=\"//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page."
+"longitude}}&zoom=16\">OpenStreetMap</a>\n"
 "  or\n"
-"  <a href=\"//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}\">Google Maps</a>.\n"
+"  <a href=\"//maps.google.com/maps?q={{page.latitude}},{{page."
+"longitude}}\">Google Maps</a>.\n"
 "</p>\n"
 "{% elsif online == \"true_public\" %}\n"
 "<p id=\"where\">\n"
@@ -2747,18 +3257,21 @@ msgid "This block displays the address and links to maps showing directions\n"
 "{% elsif online == \"true_private\" %}\n"
 "<p id=\"where\">\n"
 "  <strong>Where:</strong> This training will take place online.\n"
-"  The instructors will provide you with the information you will need to connect to this meeting.\n"
+"  The instructors will provide you with the information you will need to "
+"connect to this meeting.\n"
 "</p>\n"
 "{% endif %}"
 msgstr ""
 
 #: workshop-template/index.md:170
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "DATE"
 msgstr ""
 
 #: workshop-template/index.md:173
-msgid "This block displays the date and links to Google Calendar.\n"
+msgid ""
+"This block displays the date and links to Google Calendar.\n"
 "{% endcomment %}\n"
 "{% if page.humandate %}\n"
 "<p id=\"when\">\n"
@@ -2770,33 +3283,40 @@ msgid "This block displays the date and links to Google Calendar.\n"
 msgstr ""
 
 #: workshop-template/index.md:183
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "SPECIAL REQUIREMENTS"
 msgstr ""
 
 #: workshop-template/index.md:186
-msgid "Modify the block below if there are any special requirements.\n"
+msgid ""
+"Modify the block below if there are any special requirements.\n"
 "{% endcomment %}\n"
 "<p id=\"requirements\">\n"
 "  <strong>Requirements:</strong>\n"
 "  {% if online == \"false\" %}\n"
 "    Participants must bring a laptop with a\n"
-"    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.\n"
+"    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) "
+"that they have administrative privileges on.\n"
 "  {% else %}\n"
 "    Participants must have access to a computer with a\n"
-"    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.\n"
+"    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) "
+"that they have administrative privileges on.\n"
 "  {% endif %}\n"
-"  They should have a few specific software packages installed (listed <a href=\"#setup\">below</a>).\n"
+"  They should have a few specific software packages installed (listed <a "
+"href=\"#setup\">below</a>).\n"
 "</p>"
 msgstr ""
 
 #: workshop-template/index.md:200
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "ACCESSIBILITY"
 msgstr ""
 
 #: workshop-template/index.md:203
-msgid "Modify the block below if there are any barriers to accessibility or\n"
+msgid ""
+"Modify the block below if there are any barriers to accessibility or\n"
 "special instructions.\n"
 "{% endcomment %}\n"
 "<p id=\"accessibility\">\n"
@@ -2818,20 +3338,24 @@ msgid "Modify the block below if there are any barriers to accessibility or\n"
 "  attempt to provide them.\n"
 "</p>\n"
 "{% else %}\n"
-"  We are dedicated to providing a positive and accessible learning environment for all. Please\n"
-"  notify the instructors in advance of the workshop if you require any accommodations or if there is\n"
+"  We are dedicated to providing a positive and accessible learning "
+"environment for all. Please\n"
+"  notify the instructors in advance of the workshop if you require any "
+"accommodations or if there is\n"
 "  anything we can do to make this workshop more accessible to you.\n"
 "</p>\n"
 "{% endif %}"
 msgstr ""
 
 #: workshop-template/index.md:231
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "CONTACT EMAIL ADDRESS"
 msgstr ""
 
 #: workshop-template/index.md:234
-msgid "Display the contact email address set in the configuration file.\n"
+msgid ""
+"Display the contact email address set in the configuration file.\n"
 "{% endcomment %}\n"
 "<p id=\"contact\">\n"
 "  <strong>Contact:</strong>\n"
@@ -2855,30 +3379,36 @@ msgid "Display the contact email address set in the configuration file.\n"
 msgstr ""
 
 #: workshop-template/index.md:256
-msgid "<p id=\"roles\">\n"
+msgid ""
+"<p id=\"roles\">\n"
 "  <strong>Roles:</strong>\n"
 "  To learn more about the roles at the workshop (who will be doing what),\n"
-"  refer to <a href=\"https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop\">our Workshop FAQ</a>.\n"
+"  refer to <a href=\"https://carpentries.org/workshop_faq/#what-are-the-"
+"roles-of-everyone-participating-in-a-workshop\">our Workshop FAQ</a>.\n"
 "</p>"
 msgstr ""
 
 #: workshop-template/index.md:262
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "WHO CAN ATTEND?"
 msgstr ""
 
 #: workshop-template/index.md:265
-msgid "If you would like to specify who can attend the workshop,\n"
+msgid ""
+"If you would like to specify who can attend the workshop,\n"
 "you can use the section below."
 msgstr ""
 
 #: workshop-template/index.md:268
-msgid "Move the 'endcomment' tag above the beginning of the following\n"
+msgid ""
+"Move the 'endcomment' tag above the beginning of the following\n"
 "<p> tag to make this section visible."
 msgstr ""
 
 #: workshop-template/index.md:271
-msgid "Edit the text to match who can attend the workshop. For instance:\n"
+msgid ""
+"Edit the text to match who can attend the workshop. For instance:\n"
 "- This workshop is open to affiliates to ABC university.\n"
 "- This workshop is open to the public.\n"
 "- If you are interested in attending this workshop, contact me@example.com\n"
@@ -2886,44 +3416,52 @@ msgid "Edit the text to match who can attend the workshop. For instance:\n"
 msgstr ""
 
 #: workshop-template/index.md:277
-msgid "<p id=\"who-can-attend\">\n"
+msgid ""
+"<p id=\"who-can-attend\">\n"
 "    <strong>Who can attend?:</strong>\n"
 "    This workshop is open to ....\n"
 "</p>\n"
 "{% endcomment %}"
 msgstr ""
 
-#: workshop-template/index.md:283
-#: workshop-template/index.md:333
+#: workshop-template/index.md:283 workshop-template/index.md:333
 #: workshop-template/index.md:368
 msgid "<hr/>"
 msgstr ""
 
 #: workshop-template/index.md:285
-msgid "{% comment%}\n"
+msgid ""
+"{% comment%}\n"
 "CODE OF CONDUCT\n"
 "{% endcomment %}\n"
 "<h2 id=\"code-of-conduct\">Code of Conduct</h2>"
 msgstr ""
 
-#: workshop-template/index.md:290
 # inline html
-msgid "<p>\n"
-"Everyone who participates in Carpentries activities is required to conform to the <a href=\"https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html\">Code of Conduct</a>. This document also outlines how to report an incident if needed.\n"
+#: workshop-template/index.md:290
+msgid ""
+"<p>\n"
+"Everyone who participates in Carpentries activities is required to conform "
+"to the <a href=\"https://docs.carpentries.org/topic_folders/policies/code-of-"
+"conduct.html\">Code of Conduct</a>. This document also outlines how to "
+"report an incident if needed.\n"
 "</p>"
 msgstr ""
 
 #: workshop-template/index.md:294
-msgid "<p class=\"text-center\">\n"
+msgid ""
+"<p class=\"text-center\">\n"
 "  <a href=\"https://goo.gl/forms/KoUfO53Za3apOuOK2\">\n"
-"    <button type=\"button\" class=\"btn btn-info\">Report a Code of Conduct Incident</button>\n"
+"    <button type=\"button\" class=\"btn btn-info\">Report a Code of Conduct "
+"Incident</button>\n"
 "  </a>\n"
 "</p>\n"
 "<hr/>"
 msgstr ""
 
 #: workshop-template/index.md:302
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "Collaborative Notes"
 msgstr ""
 
@@ -2936,42 +3474,52 @@ msgid "https://pad.carpentries.org/YYYY-MM-DD-site"
 msgstr ""
 
 #: workshop-template/index.md:309
-msgid "where 'YYYY-MM-DD-site' is the identifier for your workshop,\n"
+msgid ""
+"where 'YYYY-MM-DD-site' is the identifier for your workshop,\n"
 "e.g., '2015-06-10-esu'."
 msgstr ""
 
 #: workshop-template/index.md:312
-msgid "Note we also have a CodiMD (the open-source version of HackMD)\n"
+msgid ""
+"Note we also have a CodiMD (the open-source version of HackMD)\n"
 "available at https://codimd.carpentries.org\n"
 "{% endcomment %}\n"
 "{% if page.collaborative_notes %}\n"
 "<h2 id=\"collaborative_notes\">Collaborative Notes</h2>"
 msgstr ""
 
-#: workshop-template/index.md:318
 # inline html
-msgid "<p>\n"
-"We will use this <a href=\"{{ page.collaborative_notes }}\">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.\n"
+#: workshop-template/index.md:318
+msgid ""
+"<p>\n"
+"We will use this <a href=\"{{ page.collaborative_notes }}\">collaborative "
+"document</a> for chatting, taking notes, and sharing URLs and bits of code.\n"
 "</p>"
 msgstr ""
 
 #: workshop-template/index.md:321
-msgid "<hr/>\n"
+msgid ""
+"<hr/>\n"
 "{% endif %}"
 msgstr ""
 
 #: workshop-template/index.md:325
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "SURVEYS - DO NOT EDIT SURVEY LINKS\n"
 "{% endcomment %}\n"
 "<h2 id=\"surveys\">Surveys</h2>\n"
-"<p>Please be sure to complete these surveys before and after the workshop.</p>\n"
-"<p><a href=\"{{ site.pre_survey }}{{ site.github.project_title }}\">Pre-workshop Survey</a></p>\n"
-"<p><a href=\"{{ site.post_survey }}{{ site.github.project_title }}\">Post-workshop Survey</a></p>"
+"<p>Please be sure to complete these surveys before and after the workshop.</"
+"p>\n"
+"<p><a href=\"{{ site.pre_survey }}{{ site.github.project_title }}\">Pre-"
+"workshop Survey</a></p>\n"
+"<p><a href=\"{{ site.post_survey }}{{ site.github.project_title }}\">Post-"
+"workshop Survey</a></p>"
 msgstr ""
 
 #: workshop-template/index.md:336
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "SCHEDULE"
 msgstr ""
 
@@ -2980,7 +3528,8 @@ msgid "Show the workshop's schedule."
 msgstr ""
 
 #: workshop-template/index.md:341
-msgid "Small changes to the schedule can be made by modifying the\n"
+msgid ""
+"Small changes to the schedule can be made by modifying the\n"
 "`schedule.html` found in the `_includes` folder for your\n"
 "workshop type (`swc`, `lc`, or `dc`). Edit the items and\n"
 "times in the table to match your plans. You may also want to\n"
@@ -2989,7 +3538,8 @@ msgid "Small changes to the schedule can be made by modifying the\n"
 msgstr ""
 
 #: workshop-template/index.md:348
-msgid "For larger changes, a blank template for a 4-day workshop\n"
+msgid ""
+"For larger changes, a blank template for a 4-day workshop\n"
 "(useful for online teaching for instance) can be found in\n"
 "`_includes/custom-schedule.html`. Add the times, and what\n"
 "you will be teaching to this file. You may also want to add\n"
@@ -3005,7 +3555,8 @@ msgid "<h2 id=\"schedule\">Schedule</h2>"
 msgstr ""
 
 #: workshop-template/index.md:360
-msgid "{% if site.carpentry == \"swc\" %}\n"
+msgid ""
+"{% if site.carpentry == \"swc\" %}\n"
 "{% include swc/schedule.html %}\n"
 "{% elsif site.carpentry == \"dc\" %}\n"
 "{% include dc/schedule.html %}\n"
@@ -3015,18 +3566,21 @@ msgid "{% if site.carpentry == \"swc\" %}\n"
 msgstr ""
 
 #: workshop-template/index.md:371
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "SETUP"
 msgstr ""
 
 #: workshop-template/index.md:374
-msgid "Delete irrelevant sections from the setup instructions.  Each\n"
+msgid ""
+"Delete irrelevant sections from the setup instructions.  Each\n"
 "section is inside a 'div' without any classes to make the beginning\n"
 "and end easier to find."
 msgstr ""
 
 #: workshop-template/index.md:378
-msgid "This is the other place where people frequently make mistakes, so\n"
+msgid ""
+"This is the other place where people frequently make mistakes, so\n"
 "please preview your site before committing, and make sure to run\n"
 "'tools/check' as well.\n"
 "{% endcomment %}"
@@ -3036,9 +3590,10 @@ msgstr ""
 msgid "<h2 id=\"setup\">Setup</h2>"
 msgstr ""
 
-#: workshop-template/index.md:385
 # inline html
-msgid "<p>\n"
+#: workshop-template/index.md:385
+msgid ""
+"<p>\n"
 "  To participate in a\n"
 "  {% if site.carpentry == \"swc\" %}\n"
 "  Software Carpentry\n"
@@ -3053,25 +3608,32 @@ msgid "<p>\n"
 "</p>"
 msgstr ""
 
-#: workshop-template/index.md:398
 # inline html
-msgid "<p>\n"
-"  We maintain a list of common issues that occur during installation as a reference for instructors\n"
+#: workshop-template/index.md:398
+msgid ""
+"<p>\n"
+"  We maintain a list of common issues that occur during installation as a "
+"reference for instructors\n"
 "  that may be useful on the\n"
-"  <a href = \"{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions\">Configuration Problems and Solutions wiki page</a>.\n"
+"  <a href = \"{{site.swc_github}}/workshop-template/wiki/Configuration-"
+"Problems-and-Solutions\">Configuration Problems and Solutions wiki page</"
+"a>.\n"
 "</p>"
 msgstr ""
 
 #: workshop-template/index.md:404
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "For online workshops, the section below provides:\n"
 "- installation instructions for the Zoom client\n"
-"- recommendations for setting up Learners' workspace so they can follow along\n"
+"- recommendations for setting up Learners' workspace so they can follow "
+"along\n"
 "  the instructions and the videoconferencing"
 msgstr ""
 
 #: workshop-template/index.md:410
-msgid "If you do not use Zoom for your online workshop, edit the file\n"
+msgid ""
+"If you do not use Zoom for your online workshop, edit the file\n"
 "`_includes/install_instructions/videoconferencing.html`\n"
 "to include the relevant installation instrucctions.\n"
 "{% endcomment %}\n"
@@ -3081,14 +3643,16 @@ msgid "If you do not use Zoom for your online workshop, edit the file\n"
 msgstr ""
 
 #: workshop-template/index.md:418
-msgid "{% comment %}\n"
+msgid ""
+"{% comment %}\n"
 "These are the installation instructions for the tools used\n"
 "during the workshop.\n"
 "{% endcomment %}"
 msgstr ""
 
 #: workshop-template/index.md:423
-msgid "{% if site.carpentry == \"swc\" %}\n"
+msgid ""
+"{% if site.carpentry == \"swc\" %}\n"
 "{% include swc/setup.html %}\n"
 "{% elsif site.carpentry == \"dc\" %}\n"
 "{% include dc/setup.html %}\n"
@@ -3097,9 +3661,10 @@ msgid "{% if site.carpentry == \"swc\" %}\n"
 "{% endif %}"
 msgstr ""
 
-#: workshop-template/setup/index.md:1
 # Front Matter
-msgid "---\n"
+#: workshop-template/setup/index.md:1
+msgid ""
+"---\n"
 "layout: page\n"
 "title: Testing Setup\n"
 "root: ..\n"
@@ -3107,40 +3672,43 @@ msgid "---\n"
 msgstr ""
 
 #: workshop-template/setup/index.md:7
-msgid "This directory contains scripts for testing your machine to make sure\n"
+msgid ""
+"This directory contains scripts for testing your machine to make sure\n"
 "you have the software you'll need for your workshop installed.  To use\n"
 "these scripts:"
 msgstr ""
 
-#: workshop-template/setup/index.md:11
 # ordered list
+#: workshop-template/setup/index.md:11
 msgid "1.  Download [swc-installation-test-1.py](swc-installation-test-1.py)."
 msgstr ""
 
-#: workshop-template/setup/index.md:13
 # ordered list
+#: workshop-template/setup/index.md:13
 msgid "2.  Run it from the shell:"
 msgstr ""
 
 #: workshop-template/setup/index.md:15
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ python swc-installation-test-1.py\n"
 "    Passed\n"
 "    ~~~"
 msgstr ""
 
-#: workshop-template/setup/index.md:20
 # ordered list
+#: workshop-template/setup/index.md:20
 msgid "3.  Download [swc-installation-test-2.py](swc-installation-test-2.py)."
 msgstr ""
 
-#: workshop-template/setup/index.md:22
 # ordered list
+#: workshop-template/setup/index.md:22
 msgid "4.  Run it from the shell:"
 msgstr ""
 
 #: workshop-template/setup/index.md:24
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ python swc-installation-test-2.py\n"
 "    check virtual-shell...  pass\n"
 "    ...\n"
@@ -3148,7 +3716,8 @@ msgid "    ~~~\n"
 msgstr ""
 
 #: workshop-template/setup/index.md:30
-msgid "    virtual-shell Bourne Again Shell (bash) 4.2.37\n"
+msgid ""
+"    virtual-shell Bourne Again Shell (bash) 4.2.37\n"
 "    ...\n"
 "    ~~~"
 msgstr ""
@@ -3158,12 +3727,14 @@ msgid "    If you see something like:"
 msgstr ""
 
 #: workshop-template/setup/index.md:36
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ python swc-installation-test-2.py\n"
 "    check virtual-shell...  fail\n"
 "    ...\n"
 "    check for command line shell (virtual-shell) failed:\n"
-"      command line shell (virtual-shell) requires at least one of the following dependencies\n"
+"      command line shell (virtual-shell) requires at least one of the "
+"following dependencies\n"
 "      For instructions on installing an up-to-date version, see\n"
 "      http://software-carpentry.org/setup/\n"
 "      causes:\n"
@@ -3176,13 +3747,15 @@ msgid "    ~~~\n"
 msgstr ""
 
 #: workshop-template/setup/index.md:52
-msgid "    follow the suggestions to try and install any missing software.  For\n"
+msgid ""
+"    follow the suggestions to try and install any missing software.  For\n"
 "    additional troubleshooting information, you can use the `--verbose`\n"
 "    option:"
 msgstr ""
 
 #: workshop-template/setup/index.md:56
-msgid "    ~~~\n"
+msgid ""
+"    ~~~\n"
 "    $ python swc-installation-test-2.py --verbose\n"
 "    check virtual-shell...  fail\n"
 "    ...\n"
@@ -3193,4 +3766,3 @@ msgid "    ~~~\n"
 "    ...\n"
 "    ~~~"
 msgstr ""
-
