@@ -649,10 +649,10 @@ if [[ $render == true ]]; then
 
     #update links
     # add title if missing
-    sed -i "3s/root: \./Title: "Licenses"\nroot: \./g" LICENSE.md
-    sed -i "3s/root: \./Title: "Contributor Code of Conduct"\nroot: \./g" CODE_OF_CONDUCT.md
-    sed -i "3s/root: \./Title: "Reference"\nroot: \./g" reference.md
-    sed -i "3s/root: \./Title: "Setup"\nroot: \./g" setup.md
+    sed -i '3s/root: \./Title: "Licenses"\nroot: \./g' LICENSE.md
+    sed -i '3s/root: \./Title: "Contributor Code of Conduct"\nroot: \./g' CODE_OF_CONDUCT.md
+    sed -i '3s/root: \./Title: \Reference"\nroot: \./g' reference.md
+    sed -i '3s/root: \./Title: "Setup"\nroot: \./g' setup.md
 
     # add root if missing
     sed -i "3s/---/root: \.\n---/g" index.md
@@ -680,14 +680,14 @@ if [[ $render == true ]]; then
     sed -i '6{/permalink\: \/setup\//d;}' setup.md
     sed -i '5{/permalink\: \/aio\//d;}' aio.md
 
-    @ mask figures for now
+    # mask figures for now
     echo "---\nlayout: page\ntitle: Figures\n---" > _extras/figures.md
-    ga _extras/figures.md
+    git add _extras/figures.md
  
     #add changes
     git add -u
     git add index.md LICENSE.md reference.md setup.md aio.md
-    git add CODE_OF_CONDUCT.md CONDUCT.md
+    git add *CONDUCT.md
 
     git submodule update -f --recursive
     git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/${locale}
