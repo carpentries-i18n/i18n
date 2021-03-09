@@ -576,7 +576,7 @@ if [[ $render == true ]]; then
 
     #remove figures for now
     rm -rf _extras/figures.md
-    git add  _extras/figures.md
+    git add  -u
 
     #add changes
     git add *
@@ -681,13 +681,19 @@ if [[ $render == true ]]; then
     sed -i '5{/permalink\: \/aio\//d;}' aio.md
 
     # mask figures for now
-    echo "---\nlayout: page\ntitle: Figures\n---" > _extras/figures.md
-    git add _extras/figures.md
- 
+    if [[ -f _extras/figures.md ]]; then
+        echo "---\nlayout: page\ntitle: Figures\n---" > _extras/figures.md
+        git add -u _extras/figures.md
+    fi 
+
     #add changes
     git add -u
     git add index.md LICENSE.md reference.md setup.md aio.md
-    git add *CONDUCT.md
+    if [[ -f CONDUCT.md ]]; then
+        git add CONDUCT.md
+    else
+        git add CODE_OF_CONDUCT.md
+    fi
 
     git submodule update -f --recursive
     git submodule add https://github.com/${remote_user}/${repo}.git  ./_locale/${locale}

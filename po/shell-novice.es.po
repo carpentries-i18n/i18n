@@ -2,25 +2,25 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Traductor espanol <trad-es@carpentries.org>, 2018.
+# Traductor espanol <trad-es@carpentries.org>, 2018, 2021.
 #
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2018-03-28 00:55:36+0100\n"
+"POT-Creation-Date: 2021-02-25 11:53:34+0900\n"
 "PO-Revision-Date: 2018-03-28 11:09+0100\n"
 "Last-Translator: Traductor espanol <trad-es@carpentries.org>\n"
-"Language: es <ll@li.org>\n"
 "Language-Team: Es <trad-es@carpentries.org>\n"
+"Language: es <ll@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
 # Front Matter
-#: shell-novice/CONDUCT.md:1
+#: shell-novice/CODE_OF_CONDUCT.md:1
 msgid ""
 "---\n"
 "layout: page\n"
@@ -34,89 +34,13 @@ msgstr ""
 "permalink: /conduct/\n"
 "---"
 
-#: shell-novice/CONDUCT.md:6
+#: shell-novice/CODE_OF_CONDUCT.md:6
 msgid ""
 "As contributors and maintainers of this project,\n"
-"we pledge to respect all people who contribute through reporting issues,\n"
-"posting feature requests,\n"
-"updating documentation,\n"
-"submitting pull requests or patches,\n"
-"and other activities."
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
-"Los contribuidores y **maintainers** de este proyecto,\n"
-"nos comprometemos a respetar a todas las personas que contribuyen a través "
-"de problemas de informes **issues**,\n"
-"publicar solicitudes de mejora,\n"
-"actualizar la documentación,\n"
-"enviando solicitudes de mejoras o parches,\n"
-"y otras actividades."
 
-#: shell-novice/CONDUCT.md:13
-msgid ""
-"We are committed to making participation in this project a harassment-free "
-"experience for everyone,\n"
-"regardless of level of experience,\n"
-"gender,\n"
-"gender identity and expression,\n"
-"sexual orientation,\n"
-"disability,\n"
-"personal appearance,\n"
-"body size,\n"
-"race,\n"
-"ethnicity,\n"
-"age,\n"
-"or religion."
-msgstr ""
-"Nos comprometemos a hacer que la participación en este proyecto sea una "
-"experiencia libre de acoso para todos,\n"
-"independientemente del nivel de experiencia,\n"
-"género,\n"
-"identidad y expresión de género,\n"
-"orientación sexual,\n"
-"discapacidad,\n"
-"apariencia personal,\n"
-"tamaño corporal,\n"
-"carrera,\n"
-"etnia,\n"
-"años,\n"
-"o religión."
-
-#: shell-novice/CONDUCT.md:26
-msgid ""
-"Examples of unacceptable behavior by participants include the use of sexual "
-"language or imagery,\n"
-"derogatory comments or personal attacks,\n"
-"trolling,\n"
-"public or private harassment,\n"
-"insults,\n"
-"or other unprofessional conduct."
-msgstr ""
-"Los ejemplos de comportamiento inaceptable de los participantes incluyen el "
-"uso de imágenes o lenguaje sexual,\n"
-"comentarios despectivos o ataques personales,\n"
-"trolling,\n"
-"acoso público o privado,\n"
-"insultos,\n"
-"u otra conducta no profesional."
-
-#: shell-novice/CONDUCT.md:33
-msgid ""
-"Project maintainers have the right and responsibility to remove, edit, or "
-"reject\n"
-"comments, commits, code, wiki edits, issues, and other contributions\n"
-"that are not aligned to our [Code of Conduct][coc].\n"
-"Project maintainers who do not follow the Code of Conduct may be removed "
-"from the project team."
-msgstr ""
-"Los mantenedores de proyectos tienen el derecho y la responsabilidad de "
-"eliminar, editar o rechazar\n"
-"comentarios, **commits**, código, ediciones de wiki, problemas y otras "
-"contribuciones\n"
-"que no estén alineados con nuestro [Código de Conducta][coc].\n"
-"Los **maintainers** del proyecto que no sigan el Código de Conducta pueden "
-"ser removidos del equipo del proyecto."
-
-#: shell-novice/CONDUCT.md:38
+#: shell-novice/CODE_OF_CONDUCT.md:9
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
@@ -124,17 +48,7 @@ msgstr ""
 "Instancias de comportamiento abusivo, acosador o de otra manera inaceptable\n"
 "puede informarse siguiendo nuestras [guías de informes][coc-reporting]."
 
-# unordered list
-#: shell-novice/CONDUCT.md:42
-msgid "- [Software and Data Carpentry Code of Conduct][coc]"
-msgstr "- [Código de conducta de Software y Data Carpentry][coc]"
-
-# unordered list
-#: shell-novice/CONDUCT.md:43
-msgid "- [Code of Conduct Reporting Guide][coc-reporting]"
-msgstr "- [Guía de informes del código de conducta][coc-reporting]"
-
-#: shell-novice/CONDUCT.md:45
+#: shell-novice/CODE_OF_CONDUCT.md:12
 msgid "{% include links.md %}"
 msgstr "{% include links.md %}"
 
@@ -909,27 +823,27 @@ msgid ""
 msgstr ""
 
 #: shell-novice/_episodes/01-intro.md:77
-#: shell-novice/_episodes/02-filedir.md:50
-#: shell-novice/_episodes/02-filedir.md:129
-#: shell-novice/_episodes/02-filedir.md:152
-#: shell-novice/_episodes/02-filedir.md:201
-#: shell-novice/_episodes/02-filedir.md:409
-#: shell-novice/_episodes/02-filedir.md:437
-#: shell-novice/_episodes/02-filedir.md:464
-#: shell-novice/_episodes/02-filedir.md:477
-#: shell-novice/_episodes/02-filedir.md:487
-#: shell-novice/_episodes/02-filedir.md:501
-#: shell-novice/_episodes/02-filedir.md:521
-#: shell-novice/_episodes/02-filedir.md:533
-#: shell-novice/_episodes/02-filedir.md:546
-#: shell-novice/_episodes/02-filedir.md:599
-#: shell-novice/_episodes/02-filedir.md:606
-#: shell-novice/_episodes/02-filedir.md:623
-#: shell-novice/_episodes/02-filedir.md:650
-#: shell-novice/_episodes/02-filedir.md:660
-#: shell-novice/_episodes/02-filedir.md:799
-#: shell-novice/_episodes/02-filedir.md:808
-#: shell-novice/_episodes/02-filedir.md:816
+#: shell-novice/_episodes/02-filedir.md:51
+#: shell-novice/_episodes/02-filedir.md:130
+#: shell-novice/_episodes/02-filedir.md:153
+#: shell-novice/_episodes/02-filedir.md:202
+#: shell-novice/_episodes/02-filedir.md:410
+#: shell-novice/_episodes/02-filedir.md:438
+#: shell-novice/_episodes/02-filedir.md:465
+#: shell-novice/_episodes/02-filedir.md:478
+#: shell-novice/_episodes/02-filedir.md:488
+#: shell-novice/_episodes/02-filedir.md:502
+#: shell-novice/_episodes/02-filedir.md:522
+#: shell-novice/_episodes/02-filedir.md:534
+#: shell-novice/_episodes/02-filedir.md:547
+#: shell-novice/_episodes/02-filedir.md:600
+#: shell-novice/_episodes/02-filedir.md:607
+#: shell-novice/_episodes/02-filedir.md:624
+#: shell-novice/_episodes/02-filedir.md:651
+#: shell-novice/_episodes/02-filedir.md:661
+#: shell-novice/_episodes/02-filedir.md:800
+#: shell-novice/_episodes/02-filedir.md:809
+#: shell-novice/_episodes/02-filedir.md:817
 #: shell-novice/_episodes/03-create.md:30
 #: shell-novice/_episodes/03-create.md:40
 #: shell-novice/_episodes/03-create.md:53
@@ -955,19 +869,19 @@ msgstr ""
 #: shell-novice/_episodes/03-create.md:499
 #: shell-novice/_episodes/04-pipefilter.md:37
 #: shell-novice/_episodes/04-pipefilter.md:55
-#: shell-novice/_episodes/04-pipefilter.md:177
-#: shell-novice/_episodes/04-pipefilter.md:201
-#: shell-novice/_episodes/04-pipefilter.md:215
-#: shell-novice/_episodes/04-pipefilter.md:275
-#: shell-novice/_episodes/04-pipefilter.md:351
-#: shell-novice/_episodes/04-pipefilter.md:374
-#: shell-novice/_episodes/04-pipefilter.md:413
-#: shell-novice/_episodes/04-pipefilter.md:437
-#: shell-novice/_episodes/04-pipefilter.md:455
-#: shell-novice/_episodes/04-pipefilter.md:746
-#: shell-novice/_episodes/04-pipefilter.md:766
-#: shell-novice/_episodes/04-pipefilter.md:788
-#: shell-novice/_episodes/04-pipefilter.md:808
+#: shell-novice/_episodes/04-pipefilter.md:182
+#: shell-novice/_episodes/04-pipefilter.md:206
+#: shell-novice/_episodes/04-pipefilter.md:220
+#: shell-novice/_episodes/04-pipefilter.md:280
+#: shell-novice/_episodes/04-pipefilter.md:356
+#: shell-novice/_episodes/04-pipefilter.md:379
+#: shell-novice/_episodes/04-pipefilter.md:418
+#: shell-novice/_episodes/04-pipefilter.md:442
+#: shell-novice/_episodes/04-pipefilter.md:460
+#: shell-novice/_episodes/04-pipefilter.md:751
+#: shell-novice/_episodes/04-pipefilter.md:771
+#: shell-novice/_episodes/04-pipefilter.md:793
+#: shell-novice/_episodes/04-pipefilter.md:813
 #: shell-novice/_episodes/05-loop.md:39 shell-novice/_episodes/05-loop.md:46
 #: shell-novice/_episodes/05-loop.md:70 shell-novice/_episodes/05-loop.md:223
 #: shell-novice/_episodes/05-loop.md:233 shell-novice/_episodes/05-loop.md:295
@@ -992,16 +906,16 @@ msgstr ""
 #: shell-novice/_episodes/06-script.md:411
 #: shell-novice/_episodes/06-script.md:419
 #: shell-novice/_episodes/06-script.md:426
-#: shell-novice/_episodes/06-script.md:443 shell-novice/_episodes/07-find.md:39
-#: shell-novice/_episodes/07-find.md:69 shell-novice/_episodes/07-find.md:87
-#: shell-novice/_episodes/07-find.md:107 shell-novice/_episodes/07-find.md:123
-#: shell-novice/_episodes/07-find.md:141 shell-novice/_episodes/07-find.md:159
-#: shell-novice/_episodes/07-find.md:172 shell-novice/_episodes/07-find.md:187
-#: shell-novice/_episodes/07-find.md:207 shell-novice/_episodes/07-find.md:405
-#: shell-novice/_episodes/07-find.md:442 shell-novice/_episodes/07-find.md:460
-#: shell-novice/_episodes/07-find.md:479 shell-novice/_episodes/07-find.md:495
-#: shell-novice/_episodes/07-find.md:508 shell-novice/_episodes/07-find.md:539
-#: shell-novice/_episodes/07-find.md:559 shell-novice/_episodes/07-find.md:574
+#: shell-novice/_episodes/06-script.md:443 shell-novice/_episodes/07-find.md:40
+#: shell-novice/_episodes/07-find.md:70 shell-novice/_episodes/07-find.md:90
+#: shell-novice/_episodes/07-find.md:110 shell-novice/_episodes/07-find.md:126
+#: shell-novice/_episodes/07-find.md:144 shell-novice/_episodes/07-find.md:162
+#: shell-novice/_episodes/07-find.md:175 shell-novice/_episodes/07-find.md:190
+#: shell-novice/_episodes/07-find.md:210 shell-novice/_episodes/07-find.md:408
+#: shell-novice/_episodes/07-find.md:445 shell-novice/_episodes/07-find.md:463
+#: shell-novice/_episodes/07-find.md:482 shell-novice/_episodes/07-find.md:498
+#: shell-novice/_episodes/07-find.md:511 shell-novice/_episodes/07-find.md:542
+#: shell-novice/_episodes/07-find.md:562 shell-novice/_episodes/07-find.md:577
 msgid "{: .language-bash}"
 msgstr ""
 
@@ -1135,8 +1049,8 @@ msgstr ""
 # blockquote, which can be cascaded
 #: shell-novice/_episodes/01-intro.md:136
 #: shell-novice/_episodes/01-intro.md:142 shell-novice/_episodes/05-loop.md:349
-#: shell-novice/_episodes/05-loop.md:351 shell-novice/_episodes/07-find.md:283
-#: shell-novice/_episodes/07-find.md:286 shell-novice/_episodes/07-find.md:661
+#: shell-novice/_episodes/05-loop.md:351 shell-novice/_episodes/07-find.md:286
+#: shell-novice/_episodes/07-find.md:289 shell-novice/_episodes/07-find.md:664
 msgid "> "
 msgstr ""
 
@@ -1156,7 +1070,7 @@ msgstr ""
 #: shell-novice/_episodes/03-create.md:675
 #: shell-novice/_episodes/03-create.md:677
 #: shell-novice/_episodes/05-loop.md:352 shell-novice/_episodes/05-loop.md:357
-#: shell-novice/_episodes/07-find.md:287 shell-novice/_episodes/07-find.md:293
+#: shell-novice/_episodes/07-find.md:290 shell-novice/_episodes/07-find.md:296
 msgid "> ~~~"
 msgstr ""
 
@@ -1194,14 +1108,14 @@ msgstr ""
 
 # SC/DC Template label
 #: shell-novice/_episodes/01-intro.md:145
-#: shell-novice/_episodes/02-filedir.md:70
-#: shell-novice/_episodes/02-filedir.md:107
-#: shell-novice/_episodes/02-filedir.md:190
-#: shell-novice/_episodes/02-filedir.md:337
-#: shell-novice/_episodes/02-filedir.md:576
-#: shell-novice/_episodes/02-filedir.md:589
-#: shell-novice/_episodes/02-filedir.md:678
-#: shell-novice/_episodes/02-filedir.md:781
+#: shell-novice/_episodes/02-filedir.md:71
+#: shell-novice/_episodes/02-filedir.md:108
+#: shell-novice/_episodes/02-filedir.md:191
+#: shell-novice/_episodes/02-filedir.md:338
+#: shell-novice/_episodes/02-filedir.md:577
+#: shell-novice/_episodes/02-filedir.md:590
+#: shell-novice/_episodes/02-filedir.md:679
+#: shell-novice/_episodes/02-filedir.md:782
 #: shell-novice/_episodes/03-create.md:77
 #: shell-novice/_episodes/03-create.md:105
 #: shell-novice/_episodes/03-create.md:145
@@ -1210,17 +1124,17 @@ msgstr ""
 #: shell-novice/_episodes/03-create.md:344
 #: shell-novice/_episodes/03-create.md:532
 #: shell-novice/_episodes/04-pipefilter.md:99
-#: shell-novice/_episodes/04-pipefilter.md:297
-#: shell-novice/_episodes/04-pipefilter.md:402
-#: shell-novice/_episodes/04-pipefilter.md:558
+#: shell-novice/_episodes/04-pipefilter.md:302
+#: shell-novice/_episodes/04-pipefilter.md:407
+#: shell-novice/_episodes/04-pipefilter.md:563
 #: shell-novice/_episodes/05-loop.md:85 shell-novice/_episodes/05-loop.md:195
 #: shell-novice/_episodes/05-loop.md:209 shell-novice/_episodes/05-loop.md:381
 #: shell-novice/_episodes/05-loop.md:517 shell-novice/_episodes/05-loop.md:563
 #: shell-novice/_episodes/05-loop.md:579 shell-novice/_episodes/06-script.md:89
 #: shell-novice/_episodes/06-script.md:147
-#: shell-novice/_episodes/06-script.md:337 shell-novice/_episodes/07-find.md:62
-#: shell-novice/_episodes/07-find.md:280 shell-novice/_episodes/07-find.md:524
-#: shell-novice/_episodes/07-find.md:631 shell-novice/setup.md:63
+#: shell-novice/_episodes/06-script.md:337 shell-novice/_episodes/07-find.md:63
+#: shell-novice/_episodes/07-find.md:283 shell-novice/_episodes/07-find.md:527
+#: shell-novice/_episodes/07-find.md:634 shell-novice/setup.md:64
 msgid "{: .callout}"
 msgstr ""
 
@@ -1383,12 +1297,12 @@ msgid ""
 "- \"`..` means 'the directory above the current one'; `.` on its own means "
 "'the current directory'.\"\n"
 "- \"Most files' names are `something.extension`. The extension isn't "
-"required, and doesn't guarantee anything, but is normally used to indicate "
-"the type of data in the file.\"\n"
+"required, and doesn't guarantee anything,\n"
+"but is normally used to indicate the type of data in the file.\"\n"
 "---"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:30
+#: shell-novice/_episodes/02-filedir.md:31
 msgid ""
 "The part of the operating system responsible for managing files and "
 "directories \n"
@@ -1399,14 +1313,14 @@ msgid ""
 "which hold files or other directories."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:37
+#: shell-novice/_episodes/02-filedir.md:38
 msgid ""
 "Several commands are frequently used to create, inspect, rename, and delete "
 "files and directories.\n"
 "To start exploring them, we'll go to our open shell window:"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:40
+#: shell-novice/_episodes/02-filedir.md:41
 msgid ""
 "First let's find out where we are by running a command called `pwd`\n"
 "(which stands for \"print working directory\"). Directories are like "
@@ -1420,11 +1334,11 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:47
-#: shell-novice/_episodes/02-filedir.md:474
-#: shell-novice/_episodes/02-filedir.md:530
-#: shell-novice/_episodes/02-filedir.md:603
-#: shell-novice/_episodes/02-filedir.md:647
+#: shell-novice/_episodes/02-filedir.md:48
+#: shell-novice/_episodes/02-filedir.md:475
+#: shell-novice/_episodes/02-filedir.md:531
+#: shell-novice/_episodes/02-filedir.md:604
+#: shell-novice/_episodes/02-filedir.md:648
 #: shell-novice/_episodes/03-create.md:27
 #: shell-novice/_episodes/03-create.md:262
 #: shell-novice/_episodes/03-create.md:350
@@ -1435,8 +1349,8 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:52
-#: shell-novice/_episodes/02-filedir.md:608
+#: shell-novice/_episodes/02-filedir.md:53
+#: shell-novice/_episodes/02-filedir.md:609
 msgid ""
 "~~~\n"
 "/Users/nelle\n"
@@ -1444,18 +1358,18 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:55
-#: shell-novice/_episodes/02-filedir.md:135
-#: shell-novice/_episodes/02-filedir.md:158
-#: shell-novice/_episodes/02-filedir.md:321
-#: shell-novice/_episodes/02-filedir.md:414
-#: shell-novice/_episodes/02-filedir.md:443
-#: shell-novice/_episodes/02-filedir.md:482
-#: shell-novice/_episodes/02-filedir.md:493
-#: shell-novice/_episodes/02-filedir.md:538
-#: shell-novice/_episodes/02-filedir.md:552
-#: shell-novice/_episodes/02-filedir.md:611
-#: shell-novice/_episodes/02-filedir.md:655
+#: shell-novice/_episodes/02-filedir.md:56
+#: shell-novice/_episodes/02-filedir.md:136
+#: shell-novice/_episodes/02-filedir.md:159
+#: shell-novice/_episodes/02-filedir.md:322
+#: shell-novice/_episodes/02-filedir.md:415
+#: shell-novice/_episodes/02-filedir.md:444
+#: shell-novice/_episodes/02-filedir.md:483
+#: shell-novice/_episodes/02-filedir.md:494
+#: shell-novice/_episodes/02-filedir.md:539
+#: shell-novice/_episodes/02-filedir.md:553
+#: shell-novice/_episodes/02-filedir.md:612
+#: shell-novice/_episodes/02-filedir.md:656
 #: shell-novice/_episodes/03-create.md:35
 #: shell-novice/_episodes/03-create.md:45
 #: shell-novice/_episodes/03-create.md:69
@@ -1469,18 +1383,18 @@ msgstr ""
 #: shell-novice/_episodes/03-create.md:489
 #: shell-novice/_episodes/04-pipefilter.md:43
 #: shell-novice/_episodes/04-pipefilter.md:66
-#: shell-novice/_episodes/04-pipefilter.md:188
-#: shell-novice/_episodes/04-pipefilter.md:220
-#: shell-novice/_episodes/04-pipefilter.md:286
-#: shell-novice/_episodes/04-pipefilter.md:362
-#: shell-novice/_episodes/04-pipefilter.md:379
-#: shell-novice/_episodes/04-pipefilter.md:418
-#: shell-novice/_episodes/04-pipefilter.md:448
-#: shell-novice/_episodes/04-pipefilter.md:460
-#: shell-novice/_episodes/04-pipefilter.md:759
-#: shell-novice/_episodes/04-pipefilter.md:775
-#: shell-novice/_episodes/04-pipefilter.md:797
-#: shell-novice/_episodes/04-pipefilter.md:813
+#: shell-novice/_episodes/04-pipefilter.md:193
+#: shell-novice/_episodes/04-pipefilter.md:225
+#: shell-novice/_episodes/04-pipefilter.md:291
+#: shell-novice/_episodes/04-pipefilter.md:367
+#: shell-novice/_episodes/04-pipefilter.md:384
+#: shell-novice/_episodes/04-pipefilter.md:423
+#: shell-novice/_episodes/04-pipefilter.md:453
+#: shell-novice/_episodes/04-pipefilter.md:465
+#: shell-novice/_episodes/04-pipefilter.md:764
+#: shell-novice/_episodes/04-pipefilter.md:780
+#: shell-novice/_episodes/04-pipefilter.md:802
+#: shell-novice/_episodes/04-pipefilter.md:818
 #: shell-novice/_episodes/05-loop.md:80 shell-novice/_episodes/05-loop.md:313
 #: shell-novice/_episodes/05-loop.md:449 shell-novice/_episodes/05-loop.md:472
 #: shell-novice/_episodes/05-loop.md:528 shell-novice/_episodes/06-script.md:73
@@ -1492,19 +1406,19 @@ msgstr ""
 #: shell-novice/_episodes/06-script.md:195
 #: shell-novice/_episodes/06-script.md:211
 #: shell-novice/_episodes/06-script.md:255
-#: shell-novice/_episodes/06-script.md:272 shell-novice/_episodes/07-find.md:54
-#: shell-novice/_episodes/07-find.md:76 shell-novice/_episodes/07-find.md:93
-#: shell-novice/_episodes/07-find.md:112 shell-novice/_episodes/07-find.md:128
-#: shell-novice/_episodes/07-find.md:148 shell-novice/_episodes/07-find.md:165
-#: shell-novice/_episodes/07-find.md:179 shell-novice/_episodes/07-find.md:200
-#: shell-novice/_episodes/07-find.md:230 shell-novice/_episodes/07-find.md:422
-#: shell-novice/_episodes/07-find.md:451 shell-novice/_episodes/07-find.md:472
-#: shell-novice/_episodes/07-find.md:484 shell-novice/_episodes/07-find.md:516
-#: shell-novice/_episodes/07-find.md:548 shell-novice/_episodes/07-find.md:579
+#: shell-novice/_episodes/06-script.md:272 shell-novice/_episodes/07-find.md:55
+#: shell-novice/_episodes/07-find.md:77 shell-novice/_episodes/07-find.md:96
+#: shell-novice/_episodes/07-find.md:115 shell-novice/_episodes/07-find.md:131
+#: shell-novice/_episodes/07-find.md:151 shell-novice/_episodes/07-find.md:168
+#: shell-novice/_episodes/07-find.md:182 shell-novice/_episodes/07-find.md:203
+#: shell-novice/_episodes/07-find.md:233 shell-novice/_episodes/07-find.md:425
+#: shell-novice/_episodes/07-find.md:454 shell-novice/_episodes/07-find.md:475
+#: shell-novice/_episodes/07-find.md:487 shell-novice/_episodes/07-find.md:519
+#: shell-novice/_episodes/07-find.md:551 shell-novice/_episodes/07-find.md:582
 msgid "{: .output}"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:57
+#: shell-novice/_episodes/02-filedir.md:58
 msgid ""
 "Here,\n"
 "the computer's response is `/Users/nelle`,\n"
@@ -1512,11 +1426,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:61
+#: shell-novice/_episodes/02-filedir.md:62
 msgid "> ## Home Directory Variation"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:62
+#: shell-novice/_episodes/02-filedir.md:63
 msgid ""
 ">\n"
 "> The home directory path will look different on different operating "
@@ -1532,7 +1446,7 @@ msgid ""
 "> output may differ slightly, but should be generally similar.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:72
+#: shell-novice/_episodes/02-filedir.md:73
 msgid ""
 "To understand what a \"home directory\" is,\n"
 "let's have a look at how the file system as a whole is organized.  For the\n"
@@ -1542,15 +1456,15 @@ msgid ""
 "which will be constructed in a similar way, but not be exactly identical.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:79
+#: shell-novice/_episodes/02-filedir.md:80
 msgid "On Nelle's computer, the filesystem looks like this:"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:81
+#: shell-novice/_episodes/02-filedir.md:82
 msgid "![The File System](../fig/filesystem.svg)"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:83
+#: shell-novice/_episodes/02-filedir.md:84
 msgid ""
 "At the top is the **root directory**\n"
 "that holds everything else.\n"
@@ -1558,7 +1472,7 @@ msgid ""
 "this is the leading slash in `/Users/nelle`."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:88
+#: shell-novice/_episodes/02-filedir.md:89
 msgid ""
 "Inside that directory are several other directories:\n"
 "`bin` (which is where some built-in programs are stored),\n"
@@ -1568,7 +1482,7 @@ msgid ""
 "and so on.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:95
+#: shell-novice/_episodes/02-filedir.md:96
 msgid ""
 "We know that our current working directory `/Users/nelle` is stored inside `/"
 "Users`\n"
@@ -1579,11 +1493,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:101
+#: shell-novice/_episodes/02-filedir.md:102
 msgid "> ## Slashes"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:102
+#: shell-novice/_episodes/02-filedir.md:103
 msgid ""
 ">\n"
 "> Notice that there are two meanings for the `/` character.\n"
@@ -1592,18 +1506,18 @@ msgid ""
 "> it's just a separator."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:109
+#: shell-novice/_episodes/02-filedir.md:110
 msgid ""
 "Underneath `/Users`,\n"
 "we find one directory for each user with an account on Nelle's machine,\n"
 "her colleagues the Mummy and Wolfman.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:113
+#: shell-novice/_episodes/02-filedir.md:114
 msgid "![Home Directories](../fig/home-directories.svg)"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:115
+#: shell-novice/_episodes/02-filedir.md:116
 msgid ""
 "The Mummy's files are stored in `/Users/imhotep`,\n"
 "Wolfman's in `/Users/larry`,\n"
@@ -1613,7 +1527,7 @@ msgid ""
 "your home directory to start.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:122
+#: shell-novice/_episodes/02-filedir.md:123
 msgid ""
 "Now let's learn the command that will let us see the contents of our\n"
 "own filesystem.  We can see what's in our home directory by running `ls`,\n"
@@ -1621,7 +1535,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:126
+#: shell-novice/_episodes/02-filedir.md:127
 #: shell-novice/_episodes/03-create.md:180
 #: shell-novice/_episodes/03-create.md:243
 msgid ""
@@ -1631,7 +1545,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:131
+#: shell-novice/_episodes/02-filedir.md:132
 msgid ""
 "~~~\n"
 "Applications Documents    Library      Music        Public\n"
@@ -1639,13 +1553,13 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:137
+#: shell-novice/_episodes/02-filedir.md:138
 msgid ""
 "(Again, your results may be slightly different depending on your operating\n"
 "system and how you have customized your filesystem.)"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:140
+#: shell-novice/_episodes/02-filedir.md:141
 msgid ""
 "`ls` prints the names of the files and directories in the current "
 "directory. \n"
@@ -1662,8 +1576,8 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:149
-#: shell-novice/_episodes/02-filedir.md:484
+#: shell-novice/_episodes/02-filedir.md:150
+#: shell-novice/_episodes/02-filedir.md:485
 #: shell-novice/_episodes/03-create.md:37
 #: shell-novice/_episodes/03-create.md:61
 msgid ""
@@ -1673,7 +1587,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:154
+#: shell-novice/_episodes/02-filedir.md:155
 msgid ""
 "~~~\n"
 "Applications/ Documents/    Library/      Music/        Public/\n"
@@ -1682,11 +1596,11 @@ msgid ""
 msgstr ""
 
 # header
-#: shell-novice/_episodes/02-filedir.md:160
+#: shell-novice/_episodes/02-filedir.md:161
 msgid "### Getting help"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:162
+#: shell-novice/_episodes/02-filedir.md:163
 msgid ""
 "`ls` has lots of other **flags**. There are two common ways to find out "
 "how \n"
@@ -1694,11 +1608,11 @@ msgid ""
 msgstr ""
 
 # ordered list
-#: shell-novice/_episodes/02-filedir.md:165
+#: shell-novice/_episodes/02-filedir.md:166
 msgid "1. We can pass a `--help` flag to the command, such as:"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:166
+#: shell-novice/_episodes/02-filedir.md:167
 msgid ""
 "    ~~~\n"
 "    $ ls --help\n"
@@ -1706,31 +1620,31 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:169
-#: shell-novice/_episodes/02-filedir.md:175 shell-novice/_extras/guide.md:210
+#: shell-novice/_episodes/02-filedir.md:170
+#: shell-novice/_episodes/02-filedir.md:176 shell-novice/_extras/guide.md:216
 msgid "    {: .bash}"
 msgstr ""
 
 # ordered list
-#: shell-novice/_episodes/02-filedir.md:171
+#: shell-novice/_episodes/02-filedir.md:172
 msgid "2. We can read its manual with `man`, such as:"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:172
+#: shell-novice/_episodes/02-filedir.md:173
 msgid ""
 "    ~~~\n"
 "    $ man ls \n"
 "    ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:177
+#: shell-novice/_episodes/02-filedir.md:178
 msgid ""
 "If you use a Mac, or Git for Windows, you might find that only one of these "
 "works \n"
 "(probably `man` on Mac and `--help` in Windows). We'll describe both ways."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:180
+#: shell-novice/_episodes/02-filedir.md:181
 msgid ""
 "Of course there is a third way: searching the internet via your web "
 "browser. \n"
@@ -1740,11 +1654,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:184
+#: shell-novice/_episodes/02-filedir.md:185
 msgid "> ## Manual pages on the web"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:185
+#: shell-novice/_episodes/02-filedir.md:186
 msgid ""
 ">\n"
 "> GNU provides links to its\n"
@@ -1755,11 +1669,11 @@ msgid ""
 msgstr ""
 
 # header
-#: shell-novice/_episodes/02-filedir.md:192
+#: shell-novice/_episodes/02-filedir.md:193
 msgid "#### The `--help` flag"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:194
+#: shell-novice/_episodes/02-filedir.md:195
 msgid ""
 "Many bash commands, and programs that people have written that can be\n"
 "run from within bash, support a `--help` flag to display more\n"
@@ -1767,7 +1681,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:198
+#: shell-novice/_episodes/02-filedir.md:199
 msgid ""
 "~~~\n"
 "$ ls --help\n"
@@ -1775,7 +1689,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:203
+#: shell-novice/_episodes/02-filedir.md:204
 msgid ""
 "~~~\n"
 "Usage: ls [OPTION]... [FILE]...\n"
@@ -1921,23 +1835,23 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:323
+#: shell-novice/_episodes/02-filedir.md:324
 msgid "> ## Unsupported command-line options"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:324
+#: shell-novice/_episodes/02-filedir.md:325
 msgid ""
 "> If you try to use an option (flag) that is not supported, `ls` and other "
 "programs"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:325
+#: shell-novice/_episodes/02-filedir.md:326
 msgid "> will usually print an error message similar to this:"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:326
+#: shell-novice/_episodes/02-filedir.md:327
 msgid ""
 ">\n"
 "> ~~~\n"
@@ -1952,16 +1866,16 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:336
+#: shell-novice/_episodes/02-filedir.md:337
 msgid "> {: .error}"
 msgstr ""
 
 # header
-#: shell-novice/_episodes/02-filedir.md:339
+#: shell-novice/_episodes/02-filedir.md:340
 msgid "#### The `man` command"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:341
+#: shell-novice/_episodes/02-filedir.md:342
 msgid ""
 "The other way to learn about `ls` is to type \n"
 "~~~\n"
@@ -1970,18 +1884,18 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:345
+#: shell-novice/_episodes/02-filedir.md:346
 msgid "{: .bash}"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:347
+#: shell-novice/_episodes/02-filedir.md:348
 msgid ""
 "This will turn your terminal into a page with a description \n"
 "of the `ls` command and its options and, if you're lucky, some examples\n"
 "of how to use it."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:351
+#: shell-novice/_episodes/02-filedir.md:352
 msgid ""
 "To navigate through the `man` pages,\n"
 "you may use the up and down arrow keys to move line-by-line,\n"
@@ -1990,16 +1904,16 @@ msgid ""
 "use \"/\" followed by the character or word you are searching for. "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:357
+#: shell-novice/_episodes/02-filedir.md:358
 msgid "To **quit** the `man` pages, press `q`. "
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:360
+#: shell-novice/_episodes/02-filedir.md:361
 msgid "> ## Exploring More `ls` Flags"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:361
+#: shell-novice/_episodes/02-filedir.md:362
 msgid ""
 ">\n"
 "> What does the command `ls` do when used with the `-l` and `-h` flags?\n"
@@ -2021,11 +1935,11 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:373
-#: shell-novice/_episodes/02-filedir.md:387
-#: shell-novice/_episodes/02-filedir.md:706
-#: shell-novice/_episodes/02-filedir.md:727
-#: shell-novice/_episodes/02-filedir.md:753
+#: shell-novice/_episodes/02-filedir.md:374
+#: shell-novice/_episodes/02-filedir.md:388
+#: shell-novice/_episodes/02-filedir.md:707
+#: shell-novice/_episodes/02-filedir.md:728
+#: shell-novice/_episodes/02-filedir.md:754
 #: shell-novice/_episodes/03-create.md:226
 #: shell-novice/_episodes/03-create.md:324
 #: shell-novice/_episodes/03-create.md:471
@@ -2034,17 +1948,17 @@ msgstr ""
 #: shell-novice/_episodes/03-create.md:650
 #: shell-novice/_episodes/03-create.md:691
 #: shell-novice/_episodes/03-create.md:740
-#: shell-novice/_episodes/04-pipefilter.md:123
-#: shell-novice/_episodes/04-pipefilter.md:168
-#: shell-novice/_episodes/04-pipefilter.md:263
-#: shell-novice/_episodes/04-pipefilter.md:340
-#: shell-novice/_episodes/04-pipefilter.md:483
-#: shell-novice/_episodes/04-pipefilter.md:604
-#: shell-novice/_episodes/04-pipefilter.md:641
-#: shell-novice/_episodes/04-pipefilter.md:702
-#: shell-novice/_episodes/04-pipefilter.md:733
-#: shell-novice/_episodes/04-pipefilter.md:860
-#: shell-novice/_episodes/04-pipefilter.md:884
+#: shell-novice/_episodes/04-pipefilter.md:128
+#: shell-novice/_episodes/04-pipefilter.md:173
+#: shell-novice/_episodes/04-pipefilter.md:268
+#: shell-novice/_episodes/04-pipefilter.md:345
+#: shell-novice/_episodes/04-pipefilter.md:488
+#: shell-novice/_episodes/04-pipefilter.md:609
+#: shell-novice/_episodes/04-pipefilter.md:646
+#: shell-novice/_episodes/04-pipefilter.md:707
+#: shell-novice/_episodes/04-pipefilter.md:738
+#: shell-novice/_episodes/04-pipefilter.md:865
+#: shell-novice/_episodes/04-pipefilter.md:889
 #: shell-novice/_episodes/05-loop.md:186 shell-novice/_episodes/05-loop.md:261
 #: shell-novice/_episodes/05-loop.md:282 shell-novice/_episodes/05-loop.md:606
 #: shell-novice/_episodes/05-loop.md:633 shell-novice/_episodes/05-loop.md:685
@@ -2055,18 +1969,18 @@ msgstr ""
 #: shell-novice/_episodes/06-script.md:526
 #: shell-novice/_episodes/06-script.md:570
 #: shell-novice/_episodes/06-script.md:612
-#: shell-novice/_episodes/07-find.md:249 shell-novice/_episodes/07-find.md:338
-#: shell-novice/_episodes/07-find.md:382 shell-novice/_episodes/07-find.md:605
-#: shell-novice/_episodes/07-find.md:657 shell-novice/_episodes/07-find.md:679
+#: shell-novice/_episodes/07-find.md:252 shell-novice/_episodes/07-find.md:341
+#: shell-novice/_episodes/07-find.md:385 shell-novice/_episodes/07-find.md:608
+#: shell-novice/_episodes/07-find.md:660 shell-novice/_episodes/07-find.md:682
 msgid "> {: .solution}"
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:374
-#: shell-novice/_episodes/02-filedir.md:388
-#: shell-novice/_episodes/02-filedir.md:707
-#: shell-novice/_episodes/02-filedir.md:728
-#: shell-novice/_episodes/02-filedir.md:754
+#: shell-novice/_episodes/02-filedir.md:375
+#: shell-novice/_episodes/02-filedir.md:389
+#: shell-novice/_episodes/02-filedir.md:708
+#: shell-novice/_episodes/02-filedir.md:729
+#: shell-novice/_episodes/02-filedir.md:755
 #: shell-novice/_episodes/03-create.md:227
 #: shell-novice/_episodes/03-create.md:325
 #: shell-novice/_episodes/03-create.md:472
@@ -2075,19 +1989,19 @@ msgstr ""
 #: shell-novice/_episodes/03-create.md:651
 #: shell-novice/_episodes/03-create.md:692
 #: shell-novice/_episodes/03-create.md:741
-#: shell-novice/_episodes/04-pipefilter.md:124
-#: shell-novice/_episodes/04-pipefilter.md:169
-#: shell-novice/_episodes/04-pipefilter.md:239
-#: shell-novice/_episodes/04-pipefilter.md:264
-#: shell-novice/_episodes/04-pipefilter.md:341
-#: shell-novice/_episodes/04-pipefilter.md:484
-#: shell-novice/_episodes/04-pipefilter.md:605
-#: shell-novice/_episodes/04-pipefilter.md:642
-#: shell-novice/_episodes/04-pipefilter.md:667
-#: shell-novice/_episodes/04-pipefilter.md:703
-#: shell-novice/_episodes/04-pipefilter.md:734
-#: shell-novice/_episodes/04-pipefilter.md:861
-#: shell-novice/_episodes/04-pipefilter.md:885
+#: shell-novice/_episodes/04-pipefilter.md:129
+#: shell-novice/_episodes/04-pipefilter.md:174
+#: shell-novice/_episodes/04-pipefilter.md:244
+#: shell-novice/_episodes/04-pipefilter.md:269
+#: shell-novice/_episodes/04-pipefilter.md:346
+#: shell-novice/_episodes/04-pipefilter.md:489
+#: shell-novice/_episodes/04-pipefilter.md:610
+#: shell-novice/_episodes/04-pipefilter.md:647
+#: shell-novice/_episodes/04-pipefilter.md:672
+#: shell-novice/_episodes/04-pipefilter.md:708
+#: shell-novice/_episodes/04-pipefilter.md:739
+#: shell-novice/_episodes/04-pipefilter.md:866
+#: shell-novice/_episodes/04-pipefilter.md:890
 #: shell-novice/_episodes/05-loop.md:187 shell-novice/_episodes/05-loop.md:283
 #: shell-novice/_episodes/05-loop.md:607 shell-novice/_episodes/05-loop.md:634
 #: shell-novice/_episodes/05-loop.md:686 shell-novice/_episodes/05-loop.md:713
@@ -2097,18 +2011,18 @@ msgstr ""
 #: shell-novice/_episodes/06-script.md:527
 #: shell-novice/_episodes/06-script.md:571
 #: shell-novice/_episodes/06-script.md:613
-#: shell-novice/_episodes/07-find.md:250 shell-novice/_episodes/07-find.md:339
-#: shell-novice/_episodes/07-find.md:383 shell-novice/_episodes/07-find.md:606
-#: shell-novice/_episodes/07-find.md:658 shell-novice/_episodes/07-find.md:680
+#: shell-novice/_episodes/07-find.md:253 shell-novice/_episodes/07-find.md:342
+#: shell-novice/_episodes/07-find.md:386 shell-novice/_episodes/07-find.md:609
+#: shell-novice/_episodes/07-find.md:661 shell-novice/_episodes/07-find.md:683
 msgid "{: .challenge}"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:376
+#: shell-novice/_episodes/02-filedir.md:377
 msgid "> ## Listing Recursively and By Time"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:377
+#: shell-novice/_episodes/02-filedir.md:378
 msgid ""
 ">\n"
 "> The command `ls -R` lists the contents of directories recursively, i.e., "
@@ -2127,7 +2041,7 @@ msgid ""
 "change."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:390
+#: shell-novice/_episodes/02-filedir.md:391
 msgid ""
 "Here,\n"
 "we can see that our home directory contains mostly **sub-directories**.\n"
@@ -2139,7 +2053,7 @@ msgid ""
 "which doesn't exist."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:399
+#: shell-novice/_episodes/02-filedir.md:400
 msgid ""
 "We can also use `ls` to see the contents of a different directory.  Let's "
 "take a\n"
@@ -2151,7 +2065,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:406
+#: shell-novice/_episodes/02-filedir.md:407
 msgid ""
 "~~~\n"
 "$ ls -F Desktop\n"
@@ -2159,14 +2073,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:411
+#: shell-novice/_episodes/02-filedir.md:412
 msgid ""
 "~~~\n"
 "data-shell/\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:416
+#: shell-novice/_episodes/02-filedir.md:417
 msgid ""
 "Your output should be a list of all the files and sub-directories on your\n"
 "Desktop, including the `data-shell` directory you downloaded at\n"
@@ -2174,7 +2088,7 @@ msgid ""
 "your output is accurate.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:421
+#: shell-novice/_episodes/02-filedir.md:422
 msgid ""
 "As you may now see, using a bash shell is strongly dependent on the idea "
 "that\n"
@@ -2186,13 +2100,13 @@ msgid ""
 "but it's a self-defeating strategy."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:428
+#: shell-novice/_episodes/02-filedir.md:429
 msgid ""
 "Now that we know the `data-shell` directory is located on our Desktop, we\n"
 "can do two things.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:431
+#: shell-novice/_episodes/02-filedir.md:432
 msgid ""
 "First, we can look at its contents, using the same strategy as before, "
 "passing\n"
@@ -2200,7 +2114,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:434
+#: shell-novice/_episodes/02-filedir.md:435
 msgid ""
 "~~~\n"
 "$ ls -F Desktop/data-shell\n"
@@ -2208,7 +2122,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:439
+#: shell-novice/_episodes/02-filedir.md:440
 msgid ""
 "~~~\n"
 "creatures/          molecules/          notes.txt           solar.pdf\n"
@@ -2216,14 +2130,14 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:445
+#: shell-novice/_episodes/02-filedir.md:446
 msgid ""
 "Second, we can actually change our location to a different directory, so\n"
 "we are no longer located in\n"
 "our home directory.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:449
+#: shell-novice/_episodes/02-filedir.md:450
 msgid ""
 "The command to change locations is `cd` followed by a\n"
 "directory name to change our working directory.\n"
@@ -2233,14 +2147,14 @@ msgid ""
 "it changes the shell's idea of what directory we are in."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:456
+#: shell-novice/_episodes/02-filedir.md:457
 msgid ""
 "Let's say we want to move to the `data` directory we saw above.  We can\n"
 "use the following series of commands to get there:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:459
+#: shell-novice/_episodes/02-filedir.md:460
 msgid ""
 "~~~\n"
 "$ cd Desktop\n"
@@ -2249,7 +2163,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:466
+#: shell-novice/_episodes/02-filedir.md:467
 msgid ""
 "These commands will move us from our home directory onto our Desktop, then "
 "into\n"
@@ -2263,8 +2177,8 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:479
-#: shell-novice/_episodes/02-filedir.md:652
+#: shell-novice/_episodes/02-filedir.md:480
+#: shell-novice/_episodes/02-filedir.md:653
 msgid ""
 "~~~\n"
 "/Users/nelle/Desktop/data-shell/data\n"
@@ -2272,7 +2186,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:489
+#: shell-novice/_episodes/02-filedir.md:490
 msgid ""
 "~~~\n"
 "amino-acids.txt   elements/     pdb/\t        salmon.txt\n"
@@ -2280,14 +2194,14 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:495
+#: shell-novice/_episodes/02-filedir.md:496
 msgid ""
 "We now know how to go down the directory tree, but\n"
 "how do we go up?  We might try the following:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:498
+#: shell-novice/_episodes/02-filedir.md:499
 msgid ""
 "~~~\n"
 "$ cd data-shell\n"
@@ -2295,7 +2209,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:503
+#: shell-novice/_episodes/02-filedir.md:504
 msgid ""
 "~~~\n"
 "-bash: cd: data-shell: No such file or directory\n"
@@ -2303,17 +2217,17 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:506
+#: shell-novice/_episodes/02-filedir.md:507
 #: shell-novice/_episodes/03-create.md:299
 #: shell-novice/_episodes/03-create.md:505 shell-novice/_episodes/05-loop.md:53
 msgid "{: .error}"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:508
+#: shell-novice/_episodes/02-filedir.md:509
 msgid "But we get an error!  Why is this?  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:510
+#: shell-novice/_episodes/02-filedir.md:511
 msgid ""
 "With our methods so far,\n"
 "`cd` can only see sub-directories inside your current directory.  There are\n"
@@ -2321,14 +2235,14 @@ msgid ""
 "with the simplest.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:515
+#: shell-novice/_episodes/02-filedir.md:516
 msgid ""
 "There is a shortcut in the shell to move up one directory level\n"
 "that looks like this:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:518
+#: shell-novice/_episodes/02-filedir.md:519
 #: shell-novice/_episodes/03-create.md:283
 msgid ""
 "~~~\n"
@@ -2336,7 +2250,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:523
+#: shell-novice/_episodes/02-filedir.md:524
 msgid ""
 "`..` is a special directory name meaning\n"
 "\"the directory containing this one\",\n"
@@ -2348,7 +2262,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:535
+#: shell-novice/_episodes/02-filedir.md:536
 #: shell-novice/_episodes/03-create.md:32
 #: shell-novice/_episodes/03-create.md:355
 msgid ""
@@ -2357,7 +2271,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:540
+#: shell-novice/_episodes/02-filedir.md:541
 msgid ""
 "The special directory `..` doesn't usually show up when we run `ls`.  If we "
 "want\n"
@@ -2365,7 +2279,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:543
+#: shell-novice/_episodes/02-filedir.md:544
 msgid ""
 "~~~\n"
 "$ ls -F -a\n"
@@ -2373,7 +2287,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:548
+#: shell-novice/_episodes/02-filedir.md:549
 msgid ""
 "~~~\n"
 "./   .bash_profile  data/       north-pacific-gyre/  pizza.cfg  thesis/\n"
@@ -2381,7 +2295,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:554
+#: shell-novice/_episodes/02-filedir.md:555
 msgid ""
 "`-a` stands for \"show all\";\n"
 "it forces `ls` to show us file and directory names that begin with `.`,\n"
@@ -2394,7 +2308,7 @@ msgid ""
 "but we'll see some uses for it soon."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:563
+#: shell-novice/_episodes/02-filedir.md:564
 msgid ""
 "Note that in most command line tools, multiple flags can be combined \n"
 "with a single `-` and no spaces between the flags: `ls -F -a` is \n"
@@ -2402,11 +2316,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:567
+#: shell-novice/_episodes/02-filedir.md:568
 msgid "> ## Other Hidden Files"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:568
+#: shell-novice/_episodes/02-filedir.md:569
 msgid ""
 ">\n"
 "> In addition to the hidden directories `..` and `.`, you may also see a "
@@ -2423,11 +2337,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:578
+#: shell-novice/_episodes/02-filedir.md:579
 msgid "> ## Orthogonality"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:579
+#: shell-novice/_episodes/02-filedir.md:580
 msgid ""
 ">\n"
 "> The special names `.` and `..` don't belong to `cd`;\n"
@@ -2442,7 +2356,7 @@ msgid ""
 "> because there are fewer special cases and exceptions to keep track of."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:591
+#: shell-novice/_episodes/02-filedir.md:592
 msgid ""
 "These then, are the basic commands for navigating the filesystem on your "
 "computer:\n"
@@ -2453,25 +2367,25 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:596
+#: shell-novice/_episodes/02-filedir.md:597
 msgid ""
 "~~~\n"
 "$ cd\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:601
+#: shell-novice/_episodes/02-filedir.md:602
 msgid "How can you check what happened?  `pwd` gives us the answer!  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:613
+#: shell-novice/_episodes/02-filedir.md:614
 msgid ""
 "It turns out that `cd` without an argument will return you to your home "
 "directory,\n"
 "which is great if you've gotten lost in your own filesystem.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:616
+#: shell-novice/_episodes/02-filedir.md:617
 msgid ""
 "Let's try returning to the `data` directory from before.  Last time, we "
 "used\n"
@@ -2480,19 +2394,19 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:620
+#: shell-novice/_episodes/02-filedir.md:621
 msgid ""
 "~~~\n"
 "$ cd Desktop/data-shell/data\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:625
+#: shell-novice/_episodes/02-filedir.md:626
 msgid ""
 "Check that we've moved to the right place by running `pwd` and `ls -F`  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:627
+#: shell-novice/_episodes/02-filedir.md:628
 msgid ""
 "If we want to move up one level from the data directory, we could use `cd .."
 "`.  But\n"
@@ -2500,7 +2414,7 @@ msgid ""
 "current location.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:631
+#: shell-novice/_episodes/02-filedir.md:632
 msgid ""
 "So far, when specifying directory names, or even a directory path (as "
 "above),\n"
@@ -2510,7 +2424,7 @@ msgid ""
 "rather than from the root of the file system.  "
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:636
+#: shell-novice/_episodes/02-filedir.md:637
 msgid ""
 "However, it is possible to specify the **absolute path** to a directory by\n"
 "including its entire path from the root directory, which is indicated by a\n"
@@ -2519,7 +2433,7 @@ msgid ""
 "no matter where we are when we run the command."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:642
+#: shell-novice/_episodes/02-filedir.md:643
 msgid ""
 "This allows us to move to our `data-shell` directory from anywhere on\n"
 "the filesystem (including from inside `data`).  To find the absolute path\n"
@@ -2528,24 +2442,24 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:657
+#: shell-novice/_episodes/02-filedir.md:658
 msgid ""
 "~~~\n"
 "$ cd /Users/nelle/Desktop/data-shell\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:662
+#: shell-novice/_episodes/02-filedir.md:663
 msgid ""
 "Run `pwd` and `ls -F` to ensure that we're in the directory we expect.  "
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:664
+#: shell-novice/_episodes/02-filedir.md:665
 msgid "> ## Two More Shortcuts"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:665
+#: shell-novice/_episodes/02-filedir.md:666
 msgid ""
 ">\n"
 "> The shell interprets the character `~` (tilde) at the start of a path to\n"
@@ -2568,11 +2482,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:680
+#: shell-novice/_episodes/02-filedir.md:681
 msgid "> ## Absolute vs Relative Paths"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:681
+#: shell-novice/_episodes/02-filedir.md:682
 msgid ""
 ">\n"
 "> Starting from `/Users/amanda/data/`,\n"
@@ -2605,11 +2519,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:709
+#: shell-novice/_episodes/02-filedir.md:710
 msgid "> ## Relative Path Resolution"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:710
+#: shell-novice/_episodes/02-filedir.md:711
 msgid ""
 ">\n"
 "> Using the filesystem diagram below, if `pwd` displays `/Users/thing`,\n"
@@ -2631,11 +2545,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:730
+#: shell-novice/_episodes/02-filedir.md:731
 msgid "> ## `ls` Reading Comprehension"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:731
+#: shell-novice/_episodes/02-filedir.md:732
 msgid ""
 ">\n"
 "> Assuming a directory structure as in the above Figure\n"
@@ -2649,25 +2563,25 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/02-filedir.md:740
+#: shell-novice/_episodes/02-filedir.md:741
 #: shell-novice/_episodes/03-create.md:569
 #: shell-novice/_episodes/03-create.md:577
 #: shell-novice/_episodes/03-create.md:619
 #: shell-novice/_episodes/03-create.md:632
 #: shell-novice/_episodes/03-create.md:640
 #: shell-novice/_episodes/03-create.md:674
-#: shell-novice/_episodes/04-pipefilter.md:323
-#: shell-novice/_episodes/04-pipefilter.md:334
-#: shell-novice/_episodes/04-pipefilter.md:630
-#: shell-novice/_episodes/04-pipefilter.md:691
-#: shell-novice/_episodes/04-pipefilter.md:716
+#: shell-novice/_episodes/04-pipefilter.md:328
+#: shell-novice/_episodes/04-pipefilter.md:339
+#: shell-novice/_episodes/04-pipefilter.md:635
+#: shell-novice/_episodes/04-pipefilter.md:696
+#: shell-novice/_episodes/04-pipefilter.md:721
 #: shell-novice/_episodes/05-loop.md:124 shell-novice/_episodes/05-loop.md:369
-#: shell-novice/_episodes/05-loop.md:559 shell-novice/_episodes/07-find.md:239
-#: shell-novice/_episodes/07-find.md:272
+#: shell-novice/_episodes/05-loop.md:559 shell-novice/_episodes/07-find.md:242
+#: shell-novice/_episodes/07-find.md:275
 msgid "> {: .output}"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:741
+#: shell-novice/_episodes/02-filedir.md:742
 msgid ""
 ">\n"
 "> 1.  `ls pwd`\n"
@@ -2684,11 +2598,11 @@ msgid ""
 msgstr ""
 
 # header
-#: shell-novice/_episodes/02-filedir.md:756
+#: shell-novice/_episodes/02-filedir.md:757
 msgid "### Nelle's Pipeline: Organizing Files"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:758
+#: shell-novice/_episodes/02-filedir.md:759
 msgid ""
 "Knowing just this much about files and directories,\n"
 "Nelle is ready to organize the files that the protein assay machine will "
@@ -2706,11 +2620,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/02-filedir.md:771
+#: shell-novice/_episodes/02-filedir.md:772
 msgid "> ## Sorting Output"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:772
+#: shell-novice/_episodes/02-filedir.md:773
 msgid ""
 ">\n"
 "> Nelle names her directories \"year-month-day\",\n"
@@ -2725,7 +2639,7 @@ msgid ""
 "> means that June 2012 will come before June 2013."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:783
+#: shell-novice/_episodes/02-filedir.md:784
 msgid ""
 "Each of her physical samples is labelled according to her lab's convention\n"
 "with a unique ten-character ID,\n"
@@ -2739,21 +2653,21 @@ msgid ""
 "All 1520 files will go into the same directory."
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:793
+#: shell-novice/_episodes/02-filedir.md:794
 msgid ""
 "Now in her current directory `data-shell`,\n"
 "Nelle can see what files she has using the command:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:796
+#: shell-novice/_episodes/02-filedir.md:797
 msgid ""
 "~~~\n"
 "$ ls north-pacific-gyre/2012-07-03/\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:801
+#: shell-novice/_episodes/02-filedir.md:802
 msgid ""
 "This is a lot to type,\n"
 "but she can let the shell do most of the work through what is called **tab "
@@ -2762,28 +2676,28 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:805
+#: shell-novice/_episodes/02-filedir.md:806
 msgid ""
 "~~~\n"
 "$ ls nor\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:810
+#: shell-novice/_episodes/02-filedir.md:811
 msgid ""
 "and then presses tab (the tab key on her keyboard),\n"
 "the shell automatically completes the directory name for her:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/02-filedir.md:813
+#: shell-novice/_episodes/02-filedir.md:814
 msgid ""
 "~~~\n"
 "$ ls north-pacific-gyre/\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/02-filedir.md:818
+#: shell-novice/_episodes/02-filedir.md:819
 msgid ""
 "If she presses tab again,\n"
 "Bash will add `2012-07-03/` to the command,\n"
@@ -3912,7 +3826,7 @@ msgstr ""
 
 # blockquote, which can be cascaded
 #: shell-novice/_episodes/04-pipefilter.md:68
-#: shell-novice/_episodes/07-find.md:252
+#: shell-novice/_episodes/07-find.md:255
 msgid "> ## Wildcards"
 msgstr ""
 
@@ -3972,13 +3886,18 @@ msgid ""
 ">>  The solution is `3.`\n"
 ">>\n"
 ">> `1.` shows all files that contain any number and combination of "
-"characters, followed by the letter `t`, another single character, and end "
-"with `ane.pdb`. This includes `octane.pdb` and `pentane.pdb`. \n"
+"characters, \n"
+">> followed by the letter `t`, another single character, and end with `ane."
+"pdb`.\n"
+">> This includes `octane.pdb` and `pentane.pdb`.\n"
 ">>\n"
 ">> `2.` shows all files containing any number and combination of characters, "
-"`t`, another single character, `ne.` followed by any number and combination "
-"of characters. This will give us `octane.pdb` and `pentane.pdb` but doesn't "
-"match anything which ends in `thane.pdb`.\n"
+"`t`,\n"
+">> another single character, `ne.` followed by any number and combination of "
+"characters.\n"
+">> This will give us `octane.pdb` and `pentane.pdb` but doesn't match "
+"anything which\n"
+">> ends in `thane.pdb`.\n"
 ">>\n"
 ">> `3.` fixes the problems of option 2 by matching two characters between "
 "`t` and `ne`. This is the solution.\n"
@@ -3987,11 +3906,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:126
+#: shell-novice/_episodes/04-pipefilter.md:131
 msgid "> ## More on Wildcards"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:127
+#: shell-novice/_episodes/04-pipefilter.md:132
 msgid ""
 ">\n"
 "> Sam has a directory containing calibration data, datasets, and "
@@ -4038,14 +3957,14 @@ msgid ""
 "> > {: .language-bash}"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:171
+#: shell-novice/_episodes/04-pipefilter.md:176
 msgid ""
 "If we run `wc -l` instead of just `wc`,\n"
 "the output shows only the number of lines per file:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:174
+#: shell-novice/_episodes/04-pipefilter.md:179
 msgid ""
 "~~~\n"
 "$ wc -l *.pdb\n"
@@ -4053,8 +3972,8 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:179
-#: shell-novice/_episodes/04-pipefilter.md:277
+#: shell-novice/_episodes/04-pipefilter.md:184
+#: shell-novice/_episodes/04-pipefilter.md:282
 msgid ""
 "~~~\n"
 "  20  cubane.pdb\n"
@@ -4067,13 +3986,13 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:190
+#: shell-novice/_episodes/04-pipefilter.md:195
 msgid ""
 "We can also use `-w` to get only the number of words,\n"
 "or `-c` to get only the number of characters."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:193
+#: shell-novice/_episodes/04-pipefilter.md:198
 msgid ""
 "Which of these files is shortest?\n"
 "It's an easy question to answer when there are only six files,\n"
@@ -4082,14 +4001,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:198
+#: shell-novice/_episodes/04-pipefilter.md:203
 msgid ""
 "~~~\n"
 "$ wc -l *.pdb > lengths.txt\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:203
+#: shell-novice/_episodes/04-pipefilter.md:208
 msgid ""
 "The greater than symbol, `>`, tells the shell to **redirect** the command's "
 "output\n"
@@ -4104,7 +4023,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:212
+#: shell-novice/_episodes/04-pipefilter.md:217
 msgid ""
 "~~~\n"
 "$ ls lengths.txt\n"
@@ -4112,7 +4031,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:217
+#: shell-novice/_episodes/04-pipefilter.md:222
 msgid ""
 "~~~\n"
 "lengths.txt\n"
@@ -4120,11 +4039,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:222
+#: shell-novice/_episodes/04-pipefilter.md:227
 msgid "> ## What Does `>>` Mean?"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:223
+#: shell-novice/_episodes/04-pipefilter.md:228
 msgid ""
 ">\n"
 "> What is the difference between:\n"
@@ -4146,11 +4065,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:241
+#: shell-novice/_episodes/04-pipefilter.md:246
 msgid "> ## Appending Data"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:242
+#: shell-novice/_episodes/04-pipefilter.md:247
 msgid ""
 ">\n"
 "> Consider the file `data-shell/data/animals.txt`.\n"
@@ -4176,7 +4095,7 @@ msgid ""
 "into `tail -2` by doing `head -3 animals.txt | tail -2 >> animalsUpd.txt`"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:266
+#: shell-novice/_episodes/04-pipefilter.md:271
 msgid ""
 "We can now send the content of `lengths.txt` to the screen using `cat "
 "lengths.txt`.\n"
@@ -4187,7 +4106,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:272
+#: shell-novice/_episodes/04-pipefilter.md:277
 msgid ""
 "~~~\n"
 "$ cat lengths.txt\n"
@@ -4195,11 +4114,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:288
+#: shell-novice/_episodes/04-pipefilter.md:293
 msgid "> ## Output Page by Page"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:289
+#: shell-novice/_episodes/04-pipefilter.md:294
 msgid ""
 ">\n"
 "> We'll continue to use `cat` in this lesson, for convenience and "
@@ -4213,16 +4132,16 @@ msgid ""
 "> or back one by pressing `b`.  Press `q` to quit."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:299
+#: shell-novice/_episodes/04-pipefilter.md:304
 msgid "Now let's use the `sort` command to sort its contents."
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:301
+#: shell-novice/_episodes/04-pipefilter.md:306
 msgid "> ## What Does `sort -n` Do?"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:302
+#: shell-novice/_episodes/04-pipefilter.md:307
 msgid ""
 ">\n"
 "> If we run `sort` on a file containing the following lines:\n"
@@ -4237,16 +4156,16 @@ msgid ""
 msgstr ""
 
 # SC/DC Template label
-#: shell-novice/_episodes/04-pipefilter.md:312
-#: shell-novice/_episodes/04-pipefilter.md:620
-#: shell-novice/_episodes/04-pipefilter.md:658
+#: shell-novice/_episodes/04-pipefilter.md:317
+#: shell-novice/_episodes/04-pipefilter.md:625
+#: shell-novice/_episodes/04-pipefilter.md:663
 #: shell-novice/_episodes/05-loop.md:348
 #: shell-novice/_episodes/06-script.md:288
-#: shell-novice/_episodes/07-find.md:294 shell-novice/_episodes/07-find.md:305
+#: shell-novice/_episodes/07-find.md:297 shell-novice/_episodes/07-find.md:308
 msgid "> {: .source}"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:313
+#: shell-novice/_episodes/04-pipefilter.md:318
 msgid ""
 ">\n"
 "> the output is:\n"
@@ -4260,7 +4179,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:324
+#: shell-novice/_episodes/04-pipefilter.md:329
 msgid ""
 ">\n"
 "> If we run `sort -n` on the same input, we get this instead:\n"
@@ -4274,7 +4193,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:335
+#: shell-novice/_episodes/04-pipefilter.md:340
 msgid ""
 ">\n"
 "> Explain why `-n` has this effect.\n"
@@ -4283,7 +4202,7 @@ msgid ""
 "> > The `-n` flag specifies a numeric sort, rather than alphabetical."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:343
+#: shell-novice/_episodes/04-pipefilter.md:348
 msgid ""
 "We will also use the `-n` flag to specify that the sort is\n"
 "numerical instead of alphabetical.\n"
@@ -4292,7 +4211,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:348
+#: shell-novice/_episodes/04-pipefilter.md:353
 msgid ""
 "~~~\n"
 "$ sort -n lengths.txt\n"
@@ -4300,7 +4219,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:353
+#: shell-novice/_episodes/04-pipefilter.md:358
 msgid ""
 "~~~\n"
 "  9  methane.pdb\n"
@@ -4313,7 +4232,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:364
+#: shell-novice/_episodes/04-pipefilter.md:369
 msgid ""
 "We can put the sorted list of lines in another temporary file called `sorted-"
 "lengths.txt`\n"
@@ -4326,7 +4245,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:370
+#: shell-novice/_episodes/04-pipefilter.md:375
 msgid ""
 "~~~\n"
 "$ sort -n lengths.txt > sorted-lengths.txt\n"
@@ -4335,15 +4254,15 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:376
-#: shell-novice/_episodes/04-pipefilter.md:415
+#: shell-novice/_episodes/04-pipefilter.md:381
+#: shell-novice/_episodes/04-pipefilter.md:420
 msgid ""
 "~~~\n"
 "  9  methane.pdb\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:381
+#: shell-novice/_episodes/04-pipefilter.md:386
 msgid ""
 "Using `-n 1` with `head` tells it that\n"
 "we only want the first line of the file;\n"
@@ -4355,11 +4274,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:388
+#: shell-novice/_episodes/04-pipefilter.md:393
 msgid "> ## Redirecting to the same file"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:389
+#: shell-novice/_episodes/04-pipefilter.md:394
 msgid ""
 ">\n"
 "> It's a very bad idea to try redirecting\n"
@@ -4376,7 +4295,7 @@ msgid ""
 "> the contents of `lengths.txt`."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:404
+#: shell-novice/_episodes/04-pipefilter.md:409
 msgid ""
 "If you think this is confusing,\n"
 "you're in good company:\n"
@@ -4386,14 +4305,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:410
+#: shell-novice/_episodes/04-pipefilter.md:415
 msgid ""
 "~~~\n"
 "$ sort -n lengths.txt | head -n 1\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:420
+#: shell-novice/_episodes/04-pipefilter.md:425
 msgid ""
 "The vertical bar, `|`, between the two commands is called a **pipe**.\n"
 "It tells the shell that we want to use\n"
@@ -4405,7 +4324,7 @@ msgid ""
 "we don't have to know or care."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:429
+#: shell-novice/_episodes/04-pipefilter.md:434
 msgid ""
 "Nothing prevents us from chaining pipes consecutively.\n"
 "That is, we can for example send the output of `wc` directly to `sort`,\n"
@@ -4414,7 +4333,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:434
+#: shell-novice/_episodes/04-pipefilter.md:439
 #: shell-novice/_episodes/06-script.md:223
 msgid ""
 "~~~\n"
@@ -4423,7 +4342,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:439
+#: shell-novice/_episodes/04-pipefilter.md:444
 msgid ""
 "~~~\n"
 "   9 methane.pdb\n"
@@ -4436,14 +4355,14 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:450
+#: shell-novice/_episodes/04-pipefilter.md:455
 msgid ""
 "And now we send the output of this pipe, through another pipe, to `head`, so "
 "that the full pipeline becomes:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:452
+#: shell-novice/_episodes/04-pipefilter.md:457
 msgid ""
 "~~~\n"
 "$ wc -l *.pdb | sort -n | head -n 1\n"
@@ -4451,14 +4370,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:457
+#: shell-novice/_episodes/04-pipefilter.md:462
 msgid ""
 "~~~\n"
 "   9  methane.pdb\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:462
+#: shell-novice/_episodes/04-pipefilter.md:467
 msgid ""
 "This is exactly like a mathematician nesting functions like *log(3x)*\n"
 "and saying \"the log of three times *x*\".\n"
@@ -4467,11 +4386,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:467
+#: shell-novice/_episodes/04-pipefilter.md:472
 msgid "> ## Piping Commands Together"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:468
+#: shell-novice/_episodes/04-pipefilter.md:473
 msgid ""
 ">\n"
 "> In our current directory, we want to find the 3 files which have the least "
@@ -4492,7 +4411,7 @@ msgid ""
 "> > Try it in the `data-shell/molecules` directory!"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:486
+#: shell-novice/_episodes/04-pipefilter.md:491
 msgid ""
 "Here's what actually happens behind the scenes when we create a pipe.\n"
 "When a computer runs a program --- any program --- it creates a **process**\n"
@@ -4511,7 +4430,7 @@ msgid ""
 "error messages in the terminal. "
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:498
+#: shell-novice/_episodes/04-pipefilter.md:503
 msgid ""
 "The shell is actually just another program.\n"
 "Under normal circumstances,\n"
@@ -4525,7 +4444,7 @@ msgid ""
 "and whatever the process sends to standard output to the screen."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:507
+#: shell-novice/_episodes/04-pipefilter.md:512
 msgid ""
 "Here's what happens when we run `wc -l *.pdb > lengths.txt`.\n"
 "The shell starts by telling the computer to create a new process to run the "
@@ -4536,7 +4455,7 @@ msgid ""
 "the shell connects the process's standard output to that file."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:514
+#: shell-novice/_episodes/04-pipefilter.md:519
 msgid ""
 "If we run `wc -l *.pdb | sort -n` instead,\n"
 "the shell creates two processes\n"
@@ -4552,11 +4471,11 @@ msgid ""
 "and from `sort` through `head` to the screen."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:526
+#: shell-novice/_episodes/04-pipefilter.md:531
 msgid "![Redirects and Pipes](../fig/redirects-and-pipes.png)"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:528
+#: shell-novice/_episodes/04-pipefilter.md:533
 msgid ""
 "This simple idea is why Unix has been so successful.\n"
 "Instead of creating enormous programs that try to do many different things,\n"
@@ -4574,7 +4493,7 @@ msgid ""
 "and write to standard output."
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:542
+#: shell-novice/_episodes/04-pipefilter.md:547
 msgid ""
 "The key is that any program that reads lines of text from standard input\n"
 "and writes lines of text to standard output\n"
@@ -4585,11 +4504,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:548
+#: shell-novice/_episodes/04-pipefilter.md:553
 msgid "> ## Redirecting Input"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:549
+#: shell-novice/_episodes/04-pipefilter.md:554
 msgid ""
 ">\n"
 "> As well as using `>` to redirect a program's output, we can use `<` to\n"
@@ -4603,11 +4522,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:560
+#: shell-novice/_episodes/04-pipefilter.md:565
 msgid "> ## What Does `<` Mean?"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:561
+#: shell-novice/_episodes/04-pipefilter.md:566
 msgid ""
 ">\n"
 "> Change directory to `data-shell` (the top level of our downloaded example "
@@ -4661,11 +4580,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:607
+#: shell-novice/_episodes/04-pipefilter.md:612
 msgid "> ## Why Does `uniq` Only Remove Adjacent Duplicates?"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:608
+#: shell-novice/_episodes/04-pipefilter.md:613
 msgid ""
 ">\n"
 "> The command `uniq` removes adjacent duplicated lines from its input.\n"
@@ -4681,7 +4600,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:621
+#: shell-novice/_episodes/04-pipefilter.md:626
 msgid ""
 ">\n"
 "> Running the command `uniq salmon.txt` from the `data-shell/data` directory "
@@ -4695,7 +4614,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:631
+#: shell-novice/_episodes/04-pipefilter.md:636
 msgid ""
 ">\n"
 "> Why do you think `uniq` only removes *adjacent* duplicated lines?\n"
@@ -4710,11 +4629,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:644
+#: shell-novice/_episodes/04-pipefilter.md:649
 msgid "> ## Pipe Reading Comprehension"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:645
+#: shell-novice/_episodes/04-pipefilter.md:650
 msgid ""
 ">\n"
 "> A file called `animals.txt` (in the `data-shell/data` folder) contains the "
@@ -4732,7 +4651,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:659
+#: shell-novice/_episodes/04-pipefilter.md:664
 msgid ""
 ">\n"
 "> What text passes through each of the pipes and the final redirect in the "
@@ -4747,11 +4666,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:669
+#: shell-novice/_episodes/04-pipefilter.md:674
 msgid "> ## Pipe Construction"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:670
+#: shell-novice/_episodes/04-pipefilter.md:675
 msgid ""
 ">\n"
 "> For the file `animals.txt` from the previous exercise, the command:\n"
@@ -4776,7 +4695,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:692
+#: shell-novice/_episodes/04-pipefilter.md:697
 msgid ""
 ">\n"
 "> What other command(s) could be added to this in a pipeline to find\n"
@@ -4791,11 +4710,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:705
+#: shell-novice/_episodes/04-pipefilter.md:710
 msgid "> ## Which Pipe?"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:706
+#: shell-novice/_episodes/04-pipefilter.md:711
 msgid ""
 ">\n"
 "> The file `animals.txt` contains 586 lines of data formatted as follows:\n"
@@ -4809,7 +4728,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:717
+#: shell-novice/_episodes/04-pipefilter.md:722
 msgid ""
 ">\n"
 "> Assuming your current directory is `data-shell/data/`,\n"
@@ -4831,11 +4750,11 @@ msgid ""
 msgstr ""
 
 # header
-#: shell-novice/_episodes/04-pipefilter.md:736
+#: shell-novice/_episodes/04-pipefilter.md:741
 msgid "## Nelle's Pipeline: Checking Files"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:738
+#: shell-novice/_episodes/04-pipefilter.md:743
 msgid ""
 "Nelle has run her samples through the assay machines\n"
 "and created 17 files in the `north-pacific-gyre/2012-07-03` directory "
@@ -4844,7 +4763,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:742
+#: shell-novice/_episodes/04-pipefilter.md:747
 msgid ""
 "~~~\n"
 "$ cd north-pacific-gyre/2012-07-03\n"
@@ -4852,12 +4771,12 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:748
+#: shell-novice/_episodes/04-pipefilter.md:753
 msgid "The output is 18 lines that look like this:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:750
+#: shell-novice/_episodes/04-pipefilter.md:755
 msgid ""
 "~~~\n"
 "300 NENE01729A.txt\n"
@@ -4870,12 +4789,12 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:761
+#: shell-novice/_episodes/04-pipefilter.md:766
 msgid "Now she types this:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:763
+#: shell-novice/_episodes/04-pipefilter.md:768
 msgid ""
 "~~~\n"
 "$ wc -l *.txt | sort -n | head -n 5\n"
@@ -4883,7 +4802,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:768
+#: shell-novice/_episodes/04-pipefilter.md:773
 msgid ""
 "~~~\n"
 " 240 NENE02018B.txt\n"
@@ -4894,7 +4813,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:777
+#: shell-novice/_episodes/04-pipefilter.md:782
 msgid ""
 "Whoops: one of the files is 60 lines shorter than the others.\n"
 "When she goes back and checks it,\n"
@@ -4906,7 +4825,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:785
+#: shell-novice/_episodes/04-pipefilter.md:790
 msgid ""
 "~~~\n"
 "$ wc -l *.txt | sort -n | tail -n 5\n"
@@ -4914,7 +4833,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:790
+#: shell-novice/_episodes/04-pipefilter.md:795
 msgid ""
 "~~~\n"
 " 300 NENE02040B.txt\n"
@@ -4925,7 +4844,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:799
+#: shell-novice/_episodes/04-pipefilter.md:804
 msgid ""
 "Those numbers look good --- but what's that 'Z' doing there in the third-to-"
 "last line?\n"
@@ -4936,7 +4855,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:805
+#: shell-novice/_episodes/04-pipefilter.md:810
 msgid ""
 "~~~\n"
 "$ ls *Z.txt\n"
@@ -4944,14 +4863,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/04-pipefilter.md:810
+#: shell-novice/_episodes/04-pipefilter.md:815
 msgid ""
 "~~~\n"
 "NENE01971Z.txt    NENE02040Z.txt\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:815
+#: shell-novice/_episodes/04-pipefilter.md:820
 msgid ""
 "Sure enough,\n"
 "when she checks the log on her laptop,\n"
@@ -4970,11 +4889,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:828
+#: shell-novice/_episodes/04-pipefilter.md:833
 msgid "> ## Wildcard Expressions"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:829
+#: shell-novice/_episodes/04-pipefilter.md:834
 msgid ""
 ">\n"
 "> Wildcard expressions can be very complex, but you can sometimes write\n"
@@ -5015,11 +4934,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/04-pipefilter.md:863
+#: shell-novice/_episodes/04-pipefilter.md:868
 msgid "> ## Removing Unneeded Files"
 msgstr ""
 
-#: shell-novice/_episodes/04-pipefilter.md:864
+#: shell-novice/_episodes/04-pipefilter.md:869
 msgid ""
 ">\n"
 "> Suppose you want to delete your processed data files, and only keep\n"
@@ -7020,14 +6939,14 @@ msgid ""
 "- \"`find` finds files with specific properties that match patterns.\"\n"
 "- \"`grep` selects lines in files that match patterns.\"\n"
 "- \"`--help` is a flag supported by many bash commands, and programs that "
-"can be run from within Bash, to display more information on how to use these "
-"commands or programs.\"\n"
+"can be run from within Bash,\n"
+"to display more information on how to use these commands or programs.\"\n"
 "- \"`man command` displays the manual page for a given command.\"\n"
 "- \"`$(command)` inserts a command's output in place.\"\n"
 "---"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:21
+#: shell-novice/_episodes/07-find.md:22
 msgid ""
 "In the same way that many of us now use \"Google\" as a \n"
 "verb meaning \"to find\", Unix programmers often use the \n"
@@ -7037,7 +6956,7 @@ msgid ""
 "It is also the name of a very useful command-line program."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:28
+#: shell-novice/_episodes/07-find.md:29
 msgid ""
 "`grep` finds and prints lines in files that match a pattern.\n"
 "For our examples,\n"
@@ -7047,7 +6966,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:34
+#: shell-novice/_episodes/07-find.md:35
 msgid ""
 "~~~\n"
 "$ cd\n"
@@ -7057,7 +6976,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:41
+#: shell-novice/_episodes/07-find.md:42
 msgid ""
 "~~~\n"
 "The Tao that is seen\n"
@@ -7075,11 +6994,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:56
+#: shell-novice/_episodes/07-find.md:57
 msgid "> ## Forever, or Five Years"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:57
+#: shell-novice/_episodes/07-find.md:58
 msgid ""
 ">\n"
 "> We haven't linked to the original haikus because they don't appear to be "
@@ -7092,12 +7011,12 @@ msgid ""
 "ComputerErrorHaiku)."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:64
+#: shell-novice/_episodes/07-find.md:65
 msgid "Let's find lines that contain the word \"not\":"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:66
+#: shell-novice/_episodes/07-find.md:67
 msgid ""
 "~~~\n"
 "$ grep not haiku.txt\n"
@@ -7105,7 +7024,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:71
+#: shell-novice/_episodes/07-find.md:72
 msgid ""
 "~~~\n"
 "Is not the true Tao, until\n"
@@ -7114,25 +7033,26 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:78
+#: shell-novice/_episodes/07-find.md:79
 msgid ""
 "Here, `not` is the pattern we're searching for. The grep command searches "
-"through the file, looking for matches to the pattern specified. To use it "
-"type `grep`, then the pattern we're searching for and finally the name of "
-"the file (or files) we're searching in."
+"through the file, looking for\n"
+"matches to the pattern specified. To use it type `grep`, then the pattern "
+"we're searching for and\n"
+"finally the name of the file (or files) we're searching in."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:80
+#: shell-novice/_episodes/07-find.md:83
 msgid ""
 "The output is the three lines in the file that contain the letters \"not\"."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:82
+#: shell-novice/_episodes/07-find.md:85
 msgid "Let's try a different pattern: \"The\"."
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:84
+#: shell-novice/_episodes/07-find.md:87
 msgid ""
 "~~~\n"
 "$ grep The haiku.txt\n"
@@ -7140,7 +7060,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:89
+#: shell-novice/_episodes/07-find.md:92
 msgid ""
 "~~~\n"
 "The Tao that is seen\n"
@@ -7148,7 +7068,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:95
+#: shell-novice/_episodes/07-find.md:98
 msgid ""
 "This time,\n"
 "two lines that include the letters \"The\" are outputted.\n"
@@ -7156,7 +7076,7 @@ msgid ""
 "\"Thesis\"."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:100
+#: shell-novice/_episodes/07-find.md:103
 msgid ""
 "To restrict matches to lines containing the word \"The\" on its own,\n"
 "we can give `grep` with the `-w` flag.\n"
@@ -7164,7 +7084,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:104
+#: shell-novice/_episodes/07-find.md:107
 msgid ""
 "~~~\n"
 "$ grep -w The haiku.txt\n"
@@ -7172,14 +7092,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:109
+#: shell-novice/_episodes/07-find.md:112
 msgid ""
 "~~~\n"
 "The Tao that is seen\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:114
+#: shell-novice/_episodes/07-find.md:117
 msgid ""
 "Note that a \"word boundary\" includes the start and end of a line, so not\n"
 "just letters surrounded by spaces. \n"
@@ -7190,7 +7110,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:120
+#: shell-novice/_episodes/07-find.md:123
 msgid ""
 "~~~\n"
 "$ grep -w \"is not\" haiku.txt\n"
@@ -7198,14 +7118,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:125
+#: shell-novice/_episodes/07-find.md:128
 msgid ""
 "~~~\n"
 "Today it is not working\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:130
+#: shell-novice/_episodes/07-find.md:133
 msgid ""
 "We've now seen that you don't have to have quotes around single words,\n"
 "but it is useful to use quotes when searching for multiple words.\n"
@@ -7215,12 +7135,12 @@ msgid ""
 "We will use quotes in the remaining examples."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:136
+#: shell-novice/_episodes/07-find.md:139
 msgid "Another useful option is `-n`, which numbers the lines that match:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:138
+#: shell-novice/_episodes/07-find.md:141
 msgid ""
 "~~~\n"
 "$ grep -n \"it\" haiku.txt\n"
@@ -7228,7 +7148,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:143
+#: shell-novice/_episodes/07-find.md:146
 msgid ""
 "~~~\n"
 "5:With searching comes loss\n"
@@ -7237,11 +7157,11 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:150
+#: shell-novice/_episodes/07-find.md:153
 msgid "Here, we can see that lines 5, 9, and 10 contain the letters \"it\"."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:152
+#: shell-novice/_episodes/07-find.md:155
 msgid ""
 "We can combine options (i.e. flags) as we do with other Unix commands.\n"
 "For example, let's find the lines that contain the word \"the\". We can "
@@ -7251,7 +7171,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:156
+#: shell-novice/_episodes/07-find.md:159
 msgid ""
 "~~~\n"
 "$ grep -n -w \"the\" haiku.txt\n"
@@ -7259,7 +7179,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:161
+#: shell-novice/_episodes/07-find.md:164
 msgid ""
 "~~~\n"
 "2:Is not the true Tao, until\n"
@@ -7267,12 +7187,12 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:167
+#: shell-novice/_episodes/07-find.md:170
 msgid "Now we want to use the option `-i` to make our search case-insensitive:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:169
+#: shell-novice/_episodes/07-find.md:172
 msgid ""
 "~~~\n"
 "$ grep -n -w -i \"the\" haiku.txt\n"
@@ -7280,7 +7200,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:174
+#: shell-novice/_episodes/07-find.md:177
 msgid ""
 "~~~\n"
 "1:The Tao that is seen\n"
@@ -7289,7 +7209,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:181
+#: shell-novice/_episodes/07-find.md:184
 msgid ""
 "Now, we want to use the option `-v` to invert our search, i.e., we want to "
 "output\n"
@@ -7297,7 +7217,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:184
+#: shell-novice/_episodes/07-find.md:187
 msgid ""
 "~~~\n"
 "$ grep -n -w -v \"the\" haiku.txt\n"
@@ -7305,7 +7225,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:189
+#: shell-novice/_episodes/07-find.md:192
 msgid ""
 "~~~\n"
 "1:The Tao that is seen\n"
@@ -7320,13 +7240,13 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:202
+#: shell-novice/_episodes/07-find.md:205
 msgid ""
 "`grep` has lots of other options. To find out what they are, we can type:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:204
+#: shell-novice/_episodes/07-find.md:207
 msgid ""
 "~~~\n"
 "$ grep --help\n"
@@ -7334,7 +7254,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:209
+#: shell-novice/_episodes/07-find.md:212
 msgid ""
 "~~~\n"
 "Usage: grep [OPTION]... PATTERN [FILE]...\n"
@@ -7361,11 +7281,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:232
+#: shell-novice/_episodes/07-find.md:235
 msgid "> ## Using `grep`"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:233
+#: shell-novice/_episodes/07-find.md:236
 msgid ""
 ">\n"
 "> Which command would result in the following output:\n"
@@ -7375,7 +7295,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:240
+#: shell-novice/_episodes/07-find.md:243
 msgid ""
 ">\n"
 "> 1. `grep \"of\" haiku.txt`\n"
@@ -7389,7 +7309,7 @@ msgid ""
 "> > The other options will all match \"of\" when part of another word."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:253
+#: shell-novice/_episodes/07-find.md:256
 msgid ""
 ">\n"
 "> `grep`'s real power doesn't come from its options, though; it comes from\n"
@@ -7415,7 +7335,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:273
+#: shell-novice/_episodes/07-find.md:276
 msgid ""
 ">\n"
 "> We use the `-E` flag and put the pattern in quotes to prevent the shell\n"
@@ -7427,47 +7347,47 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:282
+#: shell-novice/_episodes/07-find.md:285
 msgid "> ## Tracking a Species"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:284
+#: shell-novice/_episodes/07-find.md:287
 msgid "> Leah has several hundred "
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:285
+#: shell-novice/_episodes/07-find.md:288
 msgid ""
 "> data files saved in one directory, each of which is formatted like this:"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:288
+#: shell-novice/_episodes/07-find.md:291
 msgid "> 2013-11-05,deer,5"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:289
+#: shell-novice/_episodes/07-find.md:292
 msgid "> 2013-11-05,rabbit,22"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:290
+#: shell-novice/_episodes/07-find.md:293
 msgid "> 2013-11-05,raccoon,7"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:291
+#: shell-novice/_episodes/07-find.md:294
 msgid "> 2013-11-06,rabbit,19"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:292
+#: shell-novice/_episodes/07-find.md:295
 msgid "> 2013-11-06,deer,2"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:295
+#: shell-novice/_episodes/07-find.md:298
 msgid ""
 ">\n"
 "> She wants to write a shell script that takes a species as the first "
@@ -7484,7 +7404,7 @@ msgid ""
 "> ~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:306
+#: shell-novice/_episodes/07-find.md:309
 msgid ""
 ">\n"
 "> Put these commands and pipes in the right order to achieve this:\n"
@@ -7523,11 +7443,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:341
+#: shell-novice/_episodes/07-find.md:344
 msgid "> ## Little Women"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:342
+#: shell-novice/_episodes/07-find.md:345
 msgid ""
 ">\n"
 "> You and your friend, having just finished reading *Little Women* by\n"
@@ -7573,7 +7493,7 @@ msgid ""
 "> > than one match per line."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:385
+#: shell-novice/_episodes/07-find.md:388
 msgid ""
 "While `grep` finds lines in files,\n"
 "the `find` command finds files themselves.\n"
@@ -7582,11 +7502,11 @@ msgid ""
 "to show how the simplest ones work, we'll use the directory tree shown below."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:391
+#: shell-novice/_episodes/07-find.md:394
 msgid "![File Tree for Find Example](../fig/find-file-tree.svg)"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:393
+#: shell-novice/_episodes/07-find.md:396
 msgid ""
 "Nelle's `writing` directory contains one file called `haiku.txt` and three "
 "subdirectories:\n"
@@ -7597,14 +7517,14 @@ msgid ""
 "and a subdirectory called `old`, with a file `oldtool`."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:399
+#: shell-novice/_episodes/07-find.md:402
 msgid ""
 "For our first command,\n"
 "let's run `find .`."
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:402
+#: shell-novice/_episodes/07-find.md:405
 msgid ""
 "~~~\n"
 "$ find .\n"
@@ -7612,7 +7532,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:407
+#: shell-novice/_episodes/07-find.md:410
 msgid ""
 "~~~\n"
 ".\n"
@@ -7631,7 +7551,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:424
+#: shell-novice/_episodes/07-find.md:427
 msgid ""
 "As always,\n"
 "the `.` on its own means the current working directory,\n"
@@ -7643,7 +7563,7 @@ msgid ""
 "of them."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:433
+#: shell-novice/_episodes/07-find.md:436
 msgid ""
 "The first option in our list is\n"
 "`-type d` that means \"things that are directories\".\n"
@@ -7653,7 +7573,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:439
+#: shell-novice/_episodes/07-find.md:442
 msgid ""
 "~~~\n"
 "$ find . -type d\n"
@@ -7661,7 +7581,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:444
+#: shell-novice/_episodes/07-find.md:447
 msgid ""
 "~~~\n"
 "./\n"
@@ -7672,7 +7592,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:453
+#: shell-novice/_episodes/07-find.md:456
 msgid ""
 "Notice that the objects `find` finds are not listed in any particular "
 "order.\n"
@@ -7681,7 +7601,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:457
+#: shell-novice/_episodes/07-find.md:460
 msgid ""
 "~~~\n"
 "$ find . -type f\n"
@@ -7689,7 +7609,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:462
+#: shell-novice/_episodes/07-find.md:465
 msgid ""
 "~~~\n"
 "./haiku.txt\n"
@@ -7703,12 +7623,12 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:474
+#: shell-novice/_episodes/07-find.md:477
 msgid "Now let's try matching by name:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:476
+#: shell-novice/_episodes/07-find.md:479
 msgid ""
 "~~~\n"
 "$ find . -name *.txt\n"
@@ -7716,14 +7636,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:481
+#: shell-novice/_episodes/07-find.md:484
 msgid ""
 "~~~\n"
 "./haiku.txt\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:486
+#: shell-novice/_episodes/07-find.md:489
 msgid ""
 "We expected it to find all the text files,\n"
 "but it only prints out `./haiku.txt`.\n"
@@ -7734,18 +7654,18 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:492
+#: shell-novice/_episodes/07-find.md:495
 msgid ""
 "~~~\n"
 "$ find . -name haiku.txt\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:497
+#: shell-novice/_episodes/07-find.md:500
 msgid "`find` did what we asked; we just asked for the wrong thing."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:499
+#: shell-novice/_episodes/07-find.md:502
 msgid ""
 "To get what we want,\n"
 "let's do what we did with `grep`:\n"
@@ -7757,7 +7677,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:505
+#: shell-novice/_episodes/07-find.md:508
 msgid ""
 "~~~\n"
 "$ find . -name '*.txt'\n"
@@ -7765,7 +7685,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:510
+#: shell-novice/_episodes/07-find.md:513
 msgid ""
 "~~~\n"
 "./data/one.txt\n"
@@ -7776,11 +7696,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:518
+#: shell-novice/_episodes/07-find.md:521
 msgid "> ## Listing vs. Finding"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:519
+#: shell-novice/_episodes/07-find.md:522
 msgid ""
 ">\n"
 "> `ls` and `find` can be made to do similar things given the right options,\n"
@@ -7789,7 +7709,7 @@ msgid ""
 "> while `find` searches for things with certain properties and shows them."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:526
+#: shell-novice/_episodes/07-find.md:529
 msgid ""
 "As we said earlier,\n"
 "the command line's power lies in combining tools.\n"
@@ -7801,12 +7721,12 @@ msgid ""
 "How can we combine that with `wc -l` to count the lines in all those files?"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:534
+#: shell-novice/_episodes/07-find.md:537
 msgid "The simplest way is to put the `find` command inside `$()`:"
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:536
+#: shell-novice/_episodes/07-find.md:539
 msgid ""
 "~~~\n"
 "$ wc -l $(find . -name '*.txt')\n"
@@ -7814,7 +7734,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:541
+#: shell-novice/_episodes/07-find.md:544
 msgid ""
 "~~~\n"
 "11 ./haiku.txt\n"
@@ -7825,7 +7745,7 @@ msgid ""
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:550
+#: shell-novice/_episodes/07-find.md:553
 msgid ""
 "When the shell executes this command,\n"
 "the first thing it does is run whatever is inside the `$()`.\n"
@@ -7836,14 +7756,14 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:556
+#: shell-novice/_episodes/07-find.md:559
 msgid ""
 "~~~\n"
 "$ wc -l ./data/one.txt ./data/LittleWomen.txt ./data/two.txt ./haiku.txt\n"
 "~~~"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:561
+#: shell-novice/_episodes/07-find.md:564
 msgid ""
 "which is what we wanted.\n"
 "This expansion is exactly what the shell does when it expands wildcards like "
@@ -7851,7 +7771,7 @@ msgid ""
 "but lets us use any command we want as our own \"wildcard\"."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:565
+#: shell-novice/_episodes/07-find.md:568
 msgid ""
 "It's very common to use `find` and `grep` together.\n"
 "The first finds files that match a pattern;\n"
@@ -7862,7 +7782,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:571
+#: shell-novice/_episodes/07-find.md:574
 msgid ""
 "~~~\n"
 "$ grep \"FE\" $(find .. -name '*.pdb')\n"
@@ -7870,7 +7790,7 @@ msgid ""
 msgstr ""
 
 # code block
-#: shell-novice/_episodes/07-find.md:576
+#: shell-novice/_episodes/07-find.md:579
 msgid ""
 "~~~\n"
 "../data/pdb/heme.pdb:ATOM     25 FE           1      -0.924   0.535  -0.518\n"
@@ -7878,11 +7798,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:581
+#: shell-novice/_episodes/07-find.md:584
 msgid "> ## Matching and Subtracting"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:582
+#: shell-novice/_episodes/07-find.md:585
 msgid ""
 ">\n"
 "> The `-v` flag to `grep` inverts pattern matching, so that only lines\n"
@@ -7914,11 +7834,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:608
+#: shell-novice/_episodes/07-find.md:611
 msgid "> ## Binary Files"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:609
+#: shell-novice/_episodes/07-find.md:612
 msgid ""
 ">\n"
 "> We have focused exclusively on finding things in text files. What if\n"
@@ -7944,7 +7864,7 @@ msgid ""
 "> ideas from it, and imitation is also the sincerest form of praise."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:633
+#: shell-novice/_episodes/07-find.md:636
 msgid ""
 "The Unix shell is older than most of the people who use it. It has\n"
 "survived so long because it is one of the most productive programming\n"
@@ -7959,11 +7879,11 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:644
+#: shell-novice/_episodes/07-find.md:647
 msgid "> ## `find` Pipeline Reading Comprehension"
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:645
+#: shell-novice/_episodes/07-find.md:648
 msgid ""
 ">\n"
 "> Write a short explanatory comment for the following shell script:\n"
@@ -7980,39 +7900,39 @@ msgid ""
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:660
-msgid "> ## Finding Files With Different Properties"
-msgstr ""
-
-# blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:662
-msgid ""
-"> The `find` command can be given several other criteria known as \"tests\""
-msgstr ""
-
-# blockquote, which can be cascaded
 #: shell-novice/_episodes/07-find.md:663
-msgid ""
-"> to locate files with specific attributes, such as creation time, size,"
-msgstr ""
-
-# blockquote, which can be cascaded
-#: shell-novice/_episodes/07-find.md:664
-msgid "> permissions, or ownership.  Use `man find` to explore these, and then"
+msgid "> ## Finding Files With Different Properties"
 msgstr ""
 
 # blockquote, which can be cascaded
 #: shell-novice/_episodes/07-find.md:665
 msgid ""
-"> write a single command to find all files in or below the current directory"
+"> The `find` command can be given several other criteria known as \"tests\""
 msgstr ""
 
 # blockquote, which can be cascaded
 #: shell-novice/_episodes/07-find.md:666
+msgid ""
+"> to locate files with specific attributes, such as creation time, size,"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/07-find.md:667
+msgid "> permissions, or ownership.  Use `man find` to explore these, and then"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/07-find.md:668
+msgid ""
+"> write a single command to find all files in or below the current directory"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/07-find.md:669
 msgid "> that were modified by the user `ahmed` in the last 24 hours."
 msgstr ""
 
-#: shell-novice/_episodes/07-find.md:667
+#: shell-novice/_episodes/07-find.md:670
 msgid ""
 ">\n"
 "> Hint 1: you will need to use three tests: `-type`, `-mtime`, and `-user`.\n"
@@ -8488,39 +8408,39 @@ msgstr ""
 #: shell-novice/_extras/guide.md:124
 msgid ""
 "    <http://explainshell.com/> will dissect any shell command you type in\n"
-"    and display help text for each piece. Additional nice manual tool could "
-"be <http://tldr-pages.github.io/> with short very descriptive manuals for "
-"shell commands, useful especially on Windows while using Git BASH where "
-"`man` could not work."
+"    and display help text for each piece. Additional nice manual tool could\n"
+"    be <http://tldr-pages.github.io/> with short very descriptive manuals\n"
+"    for shell commands, useful especially on Windows while using Git BASH\n"
+"    where `man` could not work."
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:127
+#: shell-novice/_extras/guide.md:130
 msgid "*   Another super cool online resource is <http://www.shellcheck.net>,"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:128
+#: shell-novice/_extras/guide.md:131
 msgid ""
 "    which will check shell scripts (both uploaded and typed in) for common "
 "errors."
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:130
+#: shell-novice/_extras/guide.md:133
 msgid "*   Resources for \"splitting\" your shell so that recent commands"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:131
+#: shell-novice/_extras/guide.md:134
 msgid ""
 "    remain in view: <https://github.com/rgaiacs/swc-shell-split-window>."
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:133
+#: shell-novice/_extras/guide.md:136
 msgid "*   Running a text editor from the command line can be"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:134
+#: shell-novice/_extras/guide.md:137
 msgid ""
 "    the biggest stumbling block during the entire lesson:\n"
 "    many will try to run the same editor as the instructor\n"
@@ -8534,24 +8454,26 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:143
+#: shell-novice/_extras/guide.md:146
 msgid "*   Introducing and navigating the filesystem in the shell (covered in"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:144
+#: shell-novice/_extras/guide.md:147
 msgid ""
-"    [Navigating Files and Directories]({{ page.root }}/02-filedir/) section) "
-"can be confusing. You may have both terminal and GUI file explorer open side "
-"by side so learners can see the content and file structure while they're "
-"using terminal to navigate the system."
+"    [Navigating Files and Directories]({{ page.root }}/02-filedir/) "
+"section)\n"
+"    can be confusing. You may have both terminal and GUI file explorer "
+"open \n"
+"    side by side so learners can see the content and file structure while\n"
+"    they're using terminal to navigate the system."
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:146
+#: shell-novice/_extras/guide.md:152
 msgid "*   Tab completion sounds like a small thing: it isn't."
 msgstr ""
 
-#: shell-novice/_extras/guide.md:147
+#: shell-novice/_extras/guide.md:153
 msgid ""
 "    Re-running old commands using `!123` or `!wc`\n"
 "    isn't a small thing either,\n"
@@ -8564,11 +8486,11 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:155
+#: shell-novice/_extras/guide.md:161
 msgid "*   Building up a pipeline with four or five stages,"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:156
+#: shell-novice/_extras/guide.md:162
 msgid ""
 "    then putting it in a shell script for re-use\n"
 "    and calling that script inside a `for` loop,\n"
@@ -8587,11 +8509,11 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:171
+#: shell-novice/_extras/guide.md:177
 msgid "*   If everything is going well, you can drive home the point that file"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:172
+#: shell-novice/_extras/guide.md:178
 msgid ""
 "    extensions are essentially there to help computers (and human\n"
 "    readers) understand file content and are not a requirement of files\n"
@@ -8607,12 +8529,12 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:181
+#: shell-novice/_extras/guide.md:187
 msgid ""
 "*   We have to leave out many important things because of time constraints,"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:182
+#: shell-novice/_extras/guide.md:188
 msgid ""
 "    including file permissions, job control, and SSH.\n"
 "    If learners already understand the basic material,\n"
@@ -8621,11 +8543,11 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:187
+#: shell-novice/_extras/guide.md:193
 msgid "*   It's hard to discuss `#!` (shebang) without first discussing"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:188
+#: shell-novice/_extras/guide.md:194
 msgid ""
 "    permissions, which we don't do.  `#!` is also [pretty\n"
 "    complicated][shebang], so even if we did discuss permissions, we\n"
@@ -8633,11 +8555,11 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:192
+#: shell-novice/_extras/guide.md:198
 msgid "*   Installing Bash and a reasonable set of Unix commands on Windows"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:193
+#: shell-novice/_extras/guide.md:199
 msgid ""
 "    always involves some fiddling and frustration.\n"
 "    Please see the latest set of installation guidelines for advice,\n"
@@ -8645,11 +8567,11 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:197
+#: shell-novice/_extras/guide.md:203
 msgid "*   On Windows machines"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:198
+#: shell-novice/_extras/guide.md:204
 msgid ""
 "    if `nano` hasn't been properly installed with the\n"
 "    [Software Carpentry Windows Installer][windows-installer]\n"
@@ -8660,11 +8582,11 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:204
+#: shell-novice/_extras/guide.md:210
 msgid "*   On Windows, it appears that:"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:206
+#: shell-novice/_extras/guide.md:212
 msgid ""
 "    ~~~\n"
 "    $ cd\n"
@@ -8672,7 +8594,7 @@ msgid ""
 "    ~~~"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:212
+#: shell-novice/_extras/guide.md:218
 msgid ""
 "    will always put someone on their desktop.\n"
 "    Have them create the example directory for the shell exercises there\n"
@@ -8681,12 +8603,12 @@ msgid ""
 msgstr ""
 
 # unordered list
-#: shell-novice/_extras/guide.md:217
+#: shell-novice/_extras/guide.md:223
 msgid ""
 "*  Stay within POSIX-compliant commands, as all the teaching materials do."
 msgstr ""
 
-#: shell-novice/_extras/guide.md:218
+#: shell-novice/_extras/guide.md:224
 msgid ""
 "   Your particular shell may have extensions beyond POSIX that are not "
 "available\n"
@@ -8698,11 +8620,11 @@ msgid ""
 msgstr ""
 
 # header
-#: shell-novice/_extras/guide.md:223
+#: shell-novice/_extras/guide.md:229
 msgid "## Windows"
 msgstr ""
 
-#: shell-novice/_extras/guide.md:225
+#: shell-novice/_extras/guide.md:231
 msgid ""
 "Installing Bash and a reasonable set of Unix commands on Windows\n"
 "always involves some fiddling and frustration.\n"
@@ -8712,28 +8634,28 @@ msgid ""
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:231
+#: shell-novice/_extras/guide.md:237
 msgid "1.  [msysGit](http://msysgit.github.io/) (also called \"Git Bash\"),"
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:232
+#: shell-novice/_extras/guide.md:238
 msgid "2.  [Cygwin](http://www.cygwin.com/),"
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:233
+#: shell-novice/_extras/guide.md:239
 msgid "3.  using a desktop virtual machine, and"
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:234
+#: shell-novice/_extras/guide.md:240
 msgid ""
 "4.  having learners connect to a remote Unix machine (typically a VM in the "
 "cloud)."
 msgstr ""
 
-#: shell-novice/_extras/guide.md:236
+#: shell-novice/_extras/guide.md:242
 msgid ""
 "Cygwin was the preferred option until mid-2013,\n"
 "but once we started teaching Git,\n"
@@ -8745,32 +8667,32 @@ msgid ""
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:243
+#: shell-novice/_extras/guide.md:249
 msgid "1.  they don't work well on underpowered machines,"
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:244
+#: shell-novice/_extras/guide.md:250
 msgid ""
 "2.  they're confusing for novices (because simple things like copy and paste "
 "work differently),"
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:245
+#: shell-novice/_extras/guide.md:251
 msgid ""
 "3.  learners leave the workshop without a working environment on their "
 "operating system of choice, and"
 msgstr ""
 
 # ordered list
-#: shell-novice/_extras/guide.md:246
+#: shell-novice/_extras/guide.md:252
 msgid ""
 "4.  learners may show up without having downloaded the VM or the wireless "
 "will go down (or become congested) during the lesson."
 msgstr ""
 
-#: shell-novice/_extras/guide.md:248
+#: shell-novice/_extras/guide.md:254
 msgid ""
 "Whatever you use,\n"
 "please *test it yourself* on a Windows machine *before* your workshop:\n"
@@ -8779,7 +8701,7 @@ msgid ""
 "[Software Carpentry Windows Installer][windows-installer]."
 msgstr ""
 
-#: shell-novice/_extras/guide.md:254
+#: shell-novice/_extras/guide.md:260
 msgid ""
 "[shebang]: http://www.in-ulm.de/~mascheck/various/shebang/\n"
 "[windows-installer]: {{ site.swc_github }}/windows-installer"
@@ -8925,16 +8847,18 @@ msgstr ""
 msgid ""
 "---\n"
 "layout: reference\n"
+"Title: \"Reference\"\n"
+"root: ..\n"
 "permalink: /reference/\n"
 "---"
 msgstr ""
 
 # header
-#: shell-novice/reference.md:6
+#: shell-novice/reference.md:8
 msgid "## Summary of Basic Commands"
 msgstr ""
 
-#: shell-novice/reference.md:8
+#: shell-novice/reference.md:10
 msgid ""
 "| Action      | Files | Folders      |\n"
 "|-------------|-------|--------------|\n"
@@ -8948,27 +8872,27 @@ msgid ""
 msgstr ""
 
 # header
-#: shell-novice/reference.md:18
+#: shell-novice/reference.md:20
 msgid "## Filesystem hierarchy"
 msgstr ""
 
-#: shell-novice/reference.md:20
+#: shell-novice/reference.md:22
 msgid ""
 "The following is an overview of a standard Unix filesystem.\n"
 "The exact hierarchy depends on the platform,\n"
 "so you may not see exactly the same files/directories on your computer:"
 msgstr ""
 
-#: shell-novice/reference.md:24
+#: shell-novice/reference.md:26
 msgid "![Linux filesystem hierarchy](../fig/standard-filesystem-hierarchy.svg)"
 msgstr ""
 
 # header
-#: shell-novice/reference.md:26
+#: shell-novice/reference.md:28
 msgid "## Glossary"
 msgstr ""
 
-#: shell-novice/reference.md:28
+#: shell-novice/reference.md:30
 msgid ""
 "{:auto_ids}\n"
 "absolute path\n"
@@ -8980,7 +8904,7 @@ msgid ""
 "    See also: [relative path](#relative-path)."
 msgstr ""
 
-#: shell-novice/reference.md:36
+#: shell-novice/reference.md:38
 msgid ""
 "argument\n"
 ":   A value given to a function or program when it runs.\n"
@@ -8988,13 +8912,13 @@ msgid ""
 "[parameter](#parameter)."
 msgstr ""
 
-#: shell-novice/reference.md:40
+#: shell-novice/reference.md:42
 msgid ""
 "command shell\n"
 ":   See [shell](#shell)"
 msgstr ""
 
-#: shell-novice/reference.md:43
+#: shell-novice/reference.md:45
 msgid ""
 "command-line interface\n"
 ":   A user interface based on typing commands,\n"
@@ -9002,7 +8926,7 @@ msgid ""
 "    See also: [graphical user interface](#graphical-user-interface)."
 msgstr ""
 
-#: shell-novice/reference.md:48
+#: shell-novice/reference.md:50
 msgid ""
 "comment\n"
 ":   A remark in a program that is intended to help human readers understand "
@@ -9014,7 +8938,7 @@ msgid ""
 "    and other languages have other conventions."
 msgstr ""
 
-#: shell-novice/reference.md:56
+#: shell-novice/reference.md:58
 msgid ""
 "current working directory\n"
 ":   The directory that [relative paths](#relative-path) are calculated "
@@ -9026,7 +8950,7 @@ msgid ""
 "notation `.` (pronounced \"dot\")."
 msgstr ""
 
-#: shell-novice/reference.md:63
+#: shell-novice/reference.md:65
 msgid ""
 "file system\n"
 ":   A set of files, directories, and I/O devices (such as keyboards and "
@@ -9036,7 +8960,7 @@ msgid ""
 "    the [operating system](#operating-system) manages access."
 msgstr ""
 
-#: shell-novice/reference.md:69
+#: shell-novice/reference.md:71
 msgid ""
 "filename extension\n"
 ":   The portion of a file's name that comes after the final \".\" "
@@ -9053,7 +8977,7 @@ msgid ""
 "    misnaming files may cause those applications to fail."
 msgstr ""
 
-#: shell-novice/reference.md:78
+#: shell-novice/reference.md:80
 msgid ""
 "filter\n"
 ":   A program that transforms a stream of data.\n"
@@ -9062,7 +8986,7 @@ msgid ""
 "    process it, and write the result to [standard output](#standard-output)."
 msgstr ""
 
-#: shell-novice/reference.md:84
+#: shell-novice/reference.md:86
 msgid ""
 "flag\n"
 ":   A terse way to specify an option or setting to a command-line program.\n"
@@ -9073,7 +8997,7 @@ msgid ""
 "argument, as in `-o /tmp/output.txt`."
 msgstr ""
 
-#: shell-novice/reference.md:91
+#: shell-novice/reference.md:93
 msgid ""
 "for loop\n"
 ":   A loop that is executed once for each value in some kind of set, list, "
@@ -9081,7 +9005,7 @@ msgid ""
 "    See also: [while loop](#while-loop)."
 msgstr ""
 
-#: shell-novice/reference.md:95
+#: shell-novice/reference.md:97
 msgid ""
 "graphical user interface\n"
 ":   A user interface based on selecting items and actions from a graphical "
@@ -9090,7 +9014,7 @@ msgid ""
 "    See also: [command-line interface](#command-line-interface)."
 msgstr ""
 
-#: shell-novice/reference.md:100
+#: shell-novice/reference.md:102
 msgid ""
 "home directory\n"
 ":   The default directory associated with an account on a computer system.\n"
@@ -9098,7 +9022,7 @@ msgid ""
 "directory."
 msgstr ""
 
-#: shell-novice/reference.md:104
+#: shell-novice/reference.md:106
 msgid ""
 "loop\n"
 ":   A set of instructions to be executed multiple times. Consists of a [loop "
@@ -9107,7 +9031,7 @@ msgid ""
 "[while loop](#while-loop)."
 msgstr ""
 
-#: shell-novice/reference.md:108
+#: shell-novice/reference.md:110
 msgid ""
 "loop body\n"
 ":   The set of statements or commands that are repeated inside a [for loop]"
@@ -9115,7 +9039,7 @@ msgid ""
 "    or [while loop](#while-loop)."
 msgstr ""
 
-#: shell-novice/reference.md:112
+#: shell-novice/reference.md:114
 msgid ""
 "MIME type\n"
 ":   MIME (Multi-Purpose Internet Mail Extensions) types describe different "
@@ -9123,7 +9047,7 @@ msgid ""
 "    for example images, audio, and documents."
 msgstr ""
 
-#: shell-novice/reference.md:116
+#: shell-novice/reference.md:118
 msgid ""
 "operating system\n"
 ":   Software that manages interactions between users, hardware, and software "
@@ -9131,7 +9055,7 @@ msgid ""
 "    examples are Linux, OS X, and Windows."
 msgstr ""
 
-#: shell-novice/reference.md:120
+#: shell-novice/reference.md:122
 msgid ""
 "orthogonal\n"
 ":   To have meanings or behaviors that are independent of each other.\n"
@@ -9139,7 +9063,7 @@ msgid ""
 "    they can be combined in any way."
 msgstr ""
 
-#: shell-novice/reference.md:125
+#: shell-novice/reference.md:127
 msgid ""
 "parameter\n"
 ":   A variable named in a function's declaration that is used to hold a "
@@ -9148,7 +9072,7 @@ msgid ""
 "[argument](#argument)."
 msgstr ""
 
-#: shell-novice/reference.md:129
+#: shell-novice/reference.md:131
 msgid ""
 "parent directory\n"
 ":   The directory that \"contains\" the one in question.\n"
@@ -9158,7 +9082,7 @@ msgid ""
 "`..` (pronounced \"dot dot\")."
 msgstr ""
 
-#: shell-novice/reference.md:134
+#: shell-novice/reference.md:136
 msgid ""
 "path\n"
 ":   A description that specifies the location of a file or directory within "
@@ -9167,7 +9091,7 @@ msgid ""
 "path)."
 msgstr ""
 
-#: shell-novice/reference.md:139
+#: shell-novice/reference.md:141
 msgid ""
 "pipe\n"
 ":   A connection from the output of one program to the input of another.\n"
@@ -9175,7 +9099,7 @@ msgid ""
 "\"pipeline\"."
 msgstr ""
 
-#: shell-novice/reference.md:143
+#: shell-novice/reference.md:145
 msgid ""
 "process\n"
 ":   A running instance of a program, containing code, variable values,\n"
@@ -9186,7 +9110,7 @@ msgid ""
 "    to give the impression that they are executing simultaneously."
 msgstr ""
 
-#: shell-novice/reference.md:151
+#: shell-novice/reference.md:153
 msgid ""
 "prompt\n"
 ":   A character or characters display by a [REPL](#read-evaluate-print-loop) "
@@ -9194,7 +9118,7 @@ msgid ""
 "    it is waiting for its next command."
 msgstr ""
 
-#: shell-novice/reference.md:155
+#: shell-novice/reference.md:157
 msgid ""
 "quoting\n"
 ":   (in the shell):\n"
@@ -9205,7 +9129,7 @@ msgid ""
 "    so that the shell will not try to expand the `*` wildcard."
 msgstr ""
 
-#: shell-novice/reference.md:162
+#: shell-novice/reference.md:164
 msgid ""
 "read-evaluate-print loop\n"
 ":   (REPL): A [command-line interface](#command-line-interface) that reads a "
@@ -9213,7 +9137,7 @@ msgid ""
 "    executes it, prints the result, and waits for another command."
 msgstr ""
 
-#: shell-novice/reference.md:166
+#: shell-novice/reference.md:168
 msgid ""
 "redirect\n"
 ":   To send a command's output to a file rather than to the screen or "
@@ -9221,14 +9145,14 @@ msgid ""
 "    or equivalently to read a command's input from a file."
 msgstr ""
 
-#: shell-novice/reference.md:170
+#: shell-novice/reference.md:172
 msgid ""
 "regular expression\n"
 ":   A pattern that specifies a set of character strings.\n"
 "    REs are most often used to find sequences of characters in strings."
 msgstr ""
 
-#: shell-novice/reference.md:174
+#: shell-novice/reference.md:176
 msgid ""
 "relative path\n"
 ":   A [path](#path) that specifies the location of a file or directory\n"
@@ -9239,7 +9163,7 @@ msgid ""
 "    See also: [absolute path](#absolute-path)."
 msgstr ""
 
-#: shell-novice/reference.md:180
+#: shell-novice/reference.md:182
 msgid ""
 "root directory\n"
 ":   The top-most directory in a [file system](#file-system).\n"
@@ -9247,7 +9171,7 @@ msgid ""
 "Microsoft Windows."
 msgstr ""
 
-#: shell-novice/reference.md:184
+#: shell-novice/reference.md:186
 msgid ""
 "shell\n"
 ":   A [command-line interface](#cli) such as Bash (the Bourne-Again Shell)\n"
@@ -9256,7 +9180,7 @@ msgid ""
 "system)."
 msgstr ""
 
-#: shell-novice/reference.md:189
+#: shell-novice/reference.md:191
 msgid ""
 "shell script\n"
 ":   A set of [shell](#shell) commands stored in a file for re-use.\n"
@@ -9264,7 +9188,7 @@ msgid ""
 "    the name \"script\" is used for historical reasons."
 msgstr ""
 
-#: shell-novice/reference.md:195
+#: shell-novice/reference.md:197
 msgid ""
 "standard input\n"
 ":   A process's default input stream.\n"
@@ -9275,7 +9199,7 @@ msgid ""
 "preceding process."
 msgstr ""
 
-#: shell-novice/reference.md:203
+#: shell-novice/reference.md:205
 msgid ""
 "standard output\n"
 ":   A process's default output stream.\n"
@@ -9286,13 +9210,13 @@ msgid ""
 "process."
 msgstr ""
 
-#: shell-novice/reference.md:211
+#: shell-novice/reference.md:213
 msgid ""
 "sub-directory\n"
 ":   A directory contained within another directory."
 msgstr ""
 
-#: shell-novice/reference.md:214
+#: shell-novice/reference.md:216
 msgid ""
 "tab completion\n"
 ":   A feature provided by many interactive systems in which\n"
@@ -9300,21 +9224,21 @@ msgid ""
 "or command."
 msgstr ""
 
-#: shell-novice/reference.md:218
+#: shell-novice/reference.md:220
 msgid ""
 "variable\n"
 ":   A name in a program that is associated with a value or a collection of "
 "values."
 msgstr ""
 
-#: shell-novice/reference.md:221
+#: shell-novice/reference.md:223
 msgid ""
 "while loop\n"
 ":   A loop that keeps executing as long as some condition is true.\n"
 "    See also: [for loop](#for-loop)."
 msgstr ""
 
-#: shell-novice/reference.md:225
+#: shell-novice/reference.md:227
 msgid ""
 "wildcard\n"
 ":   A character used in pattern matching.\n"
@@ -9324,124 +9248,131 @@ msgid ""
 msgstr ""
 
 # header
-#: shell-novice/reference.md:231
+#: shell-novice/reference.md:233
 msgid "## External references"
 msgstr ""
 
 # header
-#: shell-novice/reference.md:233
+#: shell-novice/reference.md:235
 msgid "### Opening a terminal"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:234
+#: shell-novice/reference.md:236
 msgid ""
 "* [How to Use Terminal on a Mac](http://www.macworld.co.uk/feature/mac-"
 "software/how-use-terminal-on-mac-3608274/)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:235
+#: shell-novice/reference.md:237
 msgid "* [Git for Windows](https://git-for-windows.github.io/)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:236
+#: shell-novice/reference.md:238
 msgid ""
 "* [How to Install Bash shell command-line tool on Windows 10](https://www."
 "windowscentral.com/how-install-bash-shell-command-line-windows-10)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:237
+#: shell-novice/reference.md:239
 msgid ""
 "* [Install and Use the Linux Bash Shell on Windows 10](https://www.howtogeek."
 "com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:238
+#: shell-novice/reference.md:240
 msgid ""
 "* [Using the Windows 10 Bash Shell](https://www.howtogeek.com/265900/"
 "everything-you-can-do-with-windows-10s-new-bash-shell/)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:239
+#: shell-novice/reference.md:241
 msgid ""
 "* [Using a UNIX/Linux emulator (Cygwin) or Secure Shell (SSH) client (Putty)]"
 "(http://faculty.smu.edu/reynolds/unixtut/windows.html)"
 msgstr ""
 
 # header
-#: shell-novice/reference.md:241
+#: shell-novice/reference.md:243
 msgid "### Manuals"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:242
+#: shell-novice/reference.md:244
 msgid "* [GNU manuals](http://www.gnu.org/manual/manual.html)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:243
+#: shell-novice/reference.md:245
 msgid ""
 "* [Core GNU utilities](http://www.gnu.org/software/coreutils/manual/"
 "coreutils.html)"
 msgstr ""
 
 # header
-#: shell-novice/reference.md:245
+#: shell-novice/reference.md:247
 msgid "### Miscellaneous"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:246
+#: shell-novice/reference.md:248
 msgid "* [North Pacific Gyre](http://en.wikipedia.org/wiki/North_Pacific_Gyre)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:247
+#: shell-novice/reference.md:249
 msgid ""
 "* [Great Pacific Garbage Patch](http://en.wikipedia.org/wiki/"
 "Great_Pacific_Garbage_Patch)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:248
+#: shell-novice/reference.md:250
 msgid ""
 "* ['Ensuring the longevity of digital information' by Jeff Rothenberg]"
 "(http://www.clir.org/pubs/archives/ensuring.pdf)"
 msgstr ""
 
 # unordered list
-#: shell-novice/reference.md:249
+#: shell-novice/reference.md:251
 msgid "* [Computer error haikus](http://wiki.c2.com/?ComputerErrorHaiku)"
 msgstr ""
 
 # Front Matter
 #: shell-novice/setup.md:1
+#, fuzzy
 msgid ""
 "---\n"
 "layout: page\n"
 "title: Setup\n"
-"root: .\n"
+"root: ..\n"
+"permalink: /setup/\n"
 "---"
 msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Código de conducta del contribuidor\"\n"
+"permalink: /conduct/\n"
+"---"
 
-#: shell-novice/setup.md:7
+#: shell-novice/setup.md:8
 msgid "You need to download some files to follow this lesson:"
 msgstr ""
 
 # ordered list
-#: shell-novice/setup.md:9
+#: shell-novice/setup.md:10
 msgid ""
 "1. Download [data-shell.zip]({{ page.root }}/data/data-shell.zip) and move "
 "the file to your Desktop."
 msgstr ""
 
 # ordered list
-#: shell-novice/setup.md:10
+#: shell-novice/setup.md:11
 msgid ""
 "2. Unzip/extract the file (ask your instructor if you need help with this "
 "step). You should end up with a new folder called **data-shell** on your "
@@ -9449,31 +9380,31 @@ msgid ""
 msgstr ""
 
 # ordered list
-#: shell-novice/setup.md:11
+#: shell-novice/setup.md:12
 msgid ""
 "3. Open a terminal and type `cd`, then press the Enter key. That last step "
 "will make sure you start with your home folder as your working directory."
 msgstr ""
 
-#: shell-novice/setup.md:13
+#: shell-novice/setup.md:14
 msgid ""
 "In the lesson, you will find out how to access the data in this folder.  "
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/setup.md:15
+#: shell-novice/setup.md:16
 msgid "> ## Where to type commands: How to open a new shell"
 msgstr ""
 
 # blockquote, which can be cascaded
-#: shell-novice/setup.md:16
+#: shell-novice/setup.md:17
 msgid ""
 "> The `shell` is a program that enables us to send commands to the computer "
 "and receive output. It is also referred to as the `terminal` or `command "
 "line`."
 msgstr ""
 
-#: shell-novice/setup.md:17
+#: shell-novice/setup.md:18
 msgid ""
 ">\n"
 "> Some computers include a default Unix Shell program. \n"
@@ -9543,3 +9474,89 @@ msgid ""
 "> * [Using a UNIX/Linux emulator (Cygwin) or Secure Shell (SSH) client "
 "(Putty)](http://faculty.smu.edu/reynolds/unixtut/windows.html)"
 msgstr ""
+
+#~ msgid ""
+#~ "As contributors and maintainers of this project,\n"
+#~ "we pledge to respect all people who contribute through reporting issues,\n"
+#~ "posting feature requests,\n"
+#~ "updating documentation,\n"
+#~ "submitting pull requests or patches,\n"
+#~ "and other activities."
+#~ msgstr ""
+#~ "Los contribuidores y **maintainers** de este proyecto,\n"
+#~ "nos comprometemos a respetar a todas las personas que contribuyen a "
+#~ "través de problemas de informes **issues**,\n"
+#~ "publicar solicitudes de mejora,\n"
+#~ "actualizar la documentación,\n"
+#~ "enviando solicitudes de mejoras o parches,\n"
+#~ "y otras actividades."
+
+#~ msgid ""
+#~ "We are committed to making participation in this project a harassment-"
+#~ "free experience for everyone,\n"
+#~ "regardless of level of experience,\n"
+#~ "gender,\n"
+#~ "gender identity and expression,\n"
+#~ "sexual orientation,\n"
+#~ "disability,\n"
+#~ "personal appearance,\n"
+#~ "body size,\n"
+#~ "race,\n"
+#~ "ethnicity,\n"
+#~ "age,\n"
+#~ "or religion."
+#~ msgstr ""
+#~ "Nos comprometemos a hacer que la participación en este proyecto sea una "
+#~ "experiencia libre de acoso para todos,\n"
+#~ "independientemente del nivel de experiencia,\n"
+#~ "género,\n"
+#~ "identidad y expresión de género,\n"
+#~ "orientación sexual,\n"
+#~ "discapacidad,\n"
+#~ "apariencia personal,\n"
+#~ "tamaño corporal,\n"
+#~ "carrera,\n"
+#~ "etnia,\n"
+#~ "años,\n"
+#~ "o religión."
+
+#~ msgid ""
+#~ "Examples of unacceptable behavior by participants include the use of "
+#~ "sexual language or imagery,\n"
+#~ "derogatory comments or personal attacks,\n"
+#~ "trolling,\n"
+#~ "public or private harassment,\n"
+#~ "insults,\n"
+#~ "or other unprofessional conduct."
+#~ msgstr ""
+#~ "Los ejemplos de comportamiento inaceptable de los participantes incluyen "
+#~ "el uso de imágenes o lenguaje sexual,\n"
+#~ "comentarios despectivos o ataques personales,\n"
+#~ "trolling,\n"
+#~ "acoso público o privado,\n"
+#~ "insultos,\n"
+#~ "u otra conducta no profesional."
+
+#~ msgid ""
+#~ "Project maintainers have the right and responsibility to remove, edit, or "
+#~ "reject\n"
+#~ "comments, commits, code, wiki edits, issues, and other contributions\n"
+#~ "that are not aligned to our [Code of Conduct][coc].\n"
+#~ "Project maintainers who do not follow the Code of Conduct may be removed "
+#~ "from the project team."
+#~ msgstr ""
+#~ "Los mantenedores de proyectos tienen el derecho y la responsabilidad de "
+#~ "eliminar, editar o rechazar\n"
+#~ "comentarios, **commits**, código, ediciones de wiki, problemas y otras "
+#~ "contribuciones\n"
+#~ "que no estén alineados con nuestro [Código de Conducta][coc].\n"
+#~ "Los **maintainers** del proyecto que no sigan el Código de Conducta "
+#~ "pueden ser removidos del equipo del proyecto."
+
+# unordered list
+#~ msgid "- [Software and Data Carpentry Code of Conduct][coc]"
+#~ msgstr "- [Código de conducta de Software y Data Carpentry][coc]"
+
+# unordered list
+#~ msgid "- [Code of Conduct Reporting Guide][coc-reporting]"
+#~ msgstr "- [Guía de informes del código de conducta][coc-reporting]"
