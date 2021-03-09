@@ -42,16 +42,15 @@ msgid ""
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
 "プロジェクト貢献者・保持者は、\n"
-"[カーペントリーの行動規範][coc]に基づき行動することを誓います。"
+"[カーペントリーの行動規範](https://carpentries-coc.readthedocs.io/ja/latest/topic_folders/policies/code-of-conduct.html)に基づき行動することを誓います。"
 
 #: sql-novice-survey/CODE_OF_CONDUCT.md:8
-#: sql-novice-survey/bin/boilerplate/CODE_OF_CONDUCT.md:8
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
 msgstr ""
 "嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
-"カーペントリーの[報告ガイドライン][coc-reporting]に沿って報告させていただきます。"
+"カーペントリーの[報告ガイドライン](https://carpentries-coc.readthedocs.io/ja/latest/topic_folders/policies/incident-reporting.html)に沿って報告させていただきます。"
 
 #: sql-novice-survey/CODE_OF_CONDUCT.md:11
 #: sql-novice-survey/bin/boilerplate/CODE_OF_CONDUCT.md:11
