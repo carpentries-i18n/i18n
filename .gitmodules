@@ -31,6 +31,3 @@
 [submodule "instructor-training"]
 	path = instructor-training
 	url = git@github.com:carpentries-i18n/instructor-training.git
-[submodule "_locale/ja"]
-	path = _locale/ja
-	url = https://github.com/swcarpentry-ja/python-novice-inflammation-ja.git
