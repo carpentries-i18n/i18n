@@ -576,6 +576,7 @@ if [[ $render == true ]]; then
 
     #restore figures paths
     sed -i "s;(../fig/;(../../../fig/;g" _episodes/*md _extras/*md
+    sed -i "s;\"../fig/;\"../../../fig/;g" _episodes/*md _extras/*md
     #rm -rf _extras/figures.md
     git add  -u
 
@@ -687,7 +688,9 @@ if [[ $render == true ]]; then
         git add -u _extras/figures.md
     fi 
     sed -i "s;(../../fig/;(../fig/;g" _episodes/*md _extras/*md
+    sed -i "s;\"../../fig/;\"../fig/;g" _episodes/*md _extras/*md
     sed -i "s;(../fig/;(../../../fig/;g" _locale/${locale}/_episodes/*md _locale/${locale}/_extras/*md
+    sed -i "s;\"../fig/;\"../../../fig/;g" _locale/${locale}/_episodes/*md _locale/${locale}/_extras/*md
 
     #add changes
     git add -u
