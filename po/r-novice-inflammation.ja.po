@@ -1,0 +1,2283 @@
+# Japanese translation of the Software Carpentry Programming with R Lesson
+# Copyright (C) 2021 Software Carpentry Foundation; Japanese Translation Team
+# This file is distributed under the same license as the PACKAGE package.
+# Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-02-25 11:53:34+0900\n"
+"Last-Translator: \n"
+"Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+# Front Matter
+#: r-novice-inflammation/CODE_OF_CONDUCT.md:1
+#, fuzzy
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Contributor Code of Conduct\"\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"投稿者の行動規範\"\n"
+"root: /ja/\n"
+"permalink: /ja/conduct/\n"
+"---"
+
+#: r-novice-inflammation/CODE_OF_CONDUCT.md:5
+msgid ""
+"As contributors and maintainers of this project,\n"
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
+msgstr ""
+"プロジェクト貢献者・保持者は、\n"
+"[カーペントリーの行動規範](https://carpentries-coc.readthedocs.io/ja/latest/topic_folders/policies/code-of-conduct.html)に基づき行動することを誓います。"
+
+#: r-novice-inflammation/CODE_OF_CONDUCT.md:8
+msgid ""
+"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+"嫌がらせ、ハラスメント行為、その他の悪意ある行動・言動は、\n"
+"カーペントリーの[報告ガイドライン](https://carpentries-coc.readthedocs.io/ja/latest/topic_folders/policies/incident-reporting.html)に沿って報告させていただきます。"
+
+#: r-novice-inflammation/CODE_OF_CONDUCT.md:11
+#: r-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md:14
+#: r-novice-inflammation/bin/boilerplate/_extras/discuss.md:6
+#: r-novice-inflammation/bin/boilerplate/_extras/figures.md:68
+#: r-novice-inflammation/bin/boilerplate/_extras/guide.md:6
+#: r-novice-inflammation/bin/boilerplate/index.md:13
+#: r-novice-inflammation/bin/boilerplate/reference.md:9
+#: r-novice-inflammation/bin/boilerplate/setup.md:7
+msgid "{% include links.md %}"
+msgstr "{% include links.md %}"
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:1
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:1
+msgid "# Contributing"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:3
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:3
+msgid ""
+"[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source "
+"projects,\n"
+"and we welcome contributions of all kinds:\n"
+"new lessons,\n"
+"fixes to existing material,\n"
+"bug reports,\n"
+"and reviews of proposed changes are all welcome."
+msgstr ""
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:10
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:10
+msgid "## Contributor Agreement"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:12
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:12
+msgid ""
+"By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE."
+"md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly "
+"as we can,\n"
+"and help you become a member of our community.\n"
+"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
+"agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md)."
+msgstr ""
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:20
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:20
+msgid "## How to Contribute"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:22
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:22
+msgid ""
+"The easiest way to get started is to file an issue\n"
+"to tell us about a spelling mistake,\n"
+"some awkward wording,\n"
+"or a factual error.\n"
+"This is a good way to introduce yourself\n"
+"and to meet some of our community members."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:29
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:29
+msgid "1.  If you do not have a [GitHub][github] account,"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:30
+msgid ""
+"    you can [send us comments by email][contact].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other "
+"methods described below."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:34
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:34
+msgid "2.  If you have a [GitHub][github] account,"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:35
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:35
+msgid ""
+"    or are willing to [create one][github-join],\n"
+"    but do not know how to use Git,\n"
+"    you can report problems or suggest improvements by [creating an issue]"
+"[issues].\n"
+"    This allows us to assign the item to someone\n"
+"    and to respond to it in a threaded discussion."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:41
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:41
+msgid "3.  If you are comfortable with Git,"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:42
+msgid ""
+"    and would like to resolve an existing issue that's been labeled by the "
+"maintainers \n"
+"    or typos/bugs, you can submit a pull request (PR). \n"
+"    Since the episode markdown files are generated from \n"
+"    the R markdown files, please commit changes to files in `_episodes_rmd` "
+"*not* `_episodes_md`. We deeply appreciate \n"
+"    your contributions but we cannot merge changes made directly to the "
+"markdown files.\n"
+"    Further instructions for submitting a PR [included below](#using-"
+"github). \n"
+"    If you'd like to suggest substantial changes such as removing or adding "
+"topics in the lesson,\n"
+"    please first raise an issue to allow the maintainers to comment, so we "
+"can discuss whether/how these\n"
+"    changes should be made."
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:52
+msgid ""
+"Issues in this repository are labeled with [labels](../../labels) by the "
+"maintainers, \n"
+"which you may find useful for navigating open issues."
+msgstr ""
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:56
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:46
+msgid "## Where to Contribute"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:58
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:48
+msgid "1.  If you wish to change this lesson,"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:59
+msgid ""
+"    please work in <https://github.com/swcarpentry/r-novice-inflammation/>,\n"
+"    which can be viewed at <https://swcarpentry.github.io/r-novice-"
+"inflammation/>."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:62
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:52
+msgid "2.  If you wish to change the example lesson,"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:63
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:53
+msgid ""
+"    please work in <https://github.com/carpentries/lesson-example>,\n"
+"    which documents the format of our lessons\n"
+"    and can be viewed at <https://carpentries.github.io/lesson-example>."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:67
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:57
+msgid "3.  If you wish to change the template used for workshop websites,"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:68
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:58
+msgid ""
+"    please work in <https://github.com/carpentries/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop "
+"websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-"
+"template>\n"
+"    provide more background on our design choices."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:73
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:63
+msgid "4.  If you wish to change CSS style files, tools,"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:74
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:64
+msgid ""
+"    or HTML boilerplate for lessons or workshops stored in `_includes` or "
+"`_layouts`,\n"
+"    please work in <https://github.com/carpentries/styles>."
+msgstr ""
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:77
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:67
+msgid "## What to Contribute"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:79
+msgid ""
+"There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas,\n"
+"please see [the list of issues for this repository][issues],\n"
+"or the issues for [Data Carpentry][dc-issues]\n"
+"and [Software Carpentry][swc-issues] projects."
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:89
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:79
+msgid ""
+"Comments on issues and reviews of pull requests are just as welcome:\n"
+"we are smarter together than we are on our own.\n"
+"Reviews from novices and newcomers are particularly valuable:\n"
+"it's easy for people who have been using these lessons for a while\n"
+"to forget how impenetrable some of this material can be,\n"
+"so fresh eyes are always welcome."
+msgstr ""
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:96
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:86
+msgid "## What *Not* to Contribute"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:98
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:88
+msgid ""
+"Our lessons already contain more material than we can cover in a typical "
+"workshop,\n"
+"so we are usually *not* looking for more concepts or tools to add to them.\n"
+"As a rule,\n"
+"if you want to introduce a new idea,\n"
+"you must (a) estimate how long it will take to teach\n"
+"and (b) explain what you would take out to make room for it.\n"
+"The first encourages contributors to be honest about requirements;\n"
+"the second, to think hard about priorities."
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:107
+msgid ""
+"We are also not looking for exercises or other material that only run on one "
+"platform.\n"
+"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux "
+"users;\n"
+"in order to be usable,\n"
+"our lessons must run equally well on all three."
+msgstr ""
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:112
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:102
+msgid "## Using GitHub"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:114
+msgid ""
+"If you choose to contribute via GitHub,\n"
+"you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"In brief:"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:119
+msgid ""
+"1.  The published copy of the lesson is in the `gh-pages` branch of the "
+"repository and is "
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:120
+msgid ""
+"    automatically generated by Travis from the `master` branch.\n"
+"    Please create all branches from the `master` branch,\n"
+"    and merge the [master repository][repo]'s `master` branch into your "
+"`master` branch\n"
+"    before starting work.\n"
+"    Please do *not* work directly in your `master` branch,\n"
+"    since that will make it difficult for you to work on other "
+"contributions.\n"
+"    Please do *not* issue a pull request against this repo's `gh-pages` "
+"branch since that \n"
+"    will not be preserved when the site is rebuilt."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/CONTRIBUTING.md:129
+msgid "2.  We use [GitHub flow][github-flow] to manage changes:"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:130
+msgid ""
+"    1.  Create a new branch in your desktop copy of this repository for each "
+"significant change.\n"
+"    2.  Commit the change in that branch.\n"
+"    3.  Push that branch to your fork of this repository on GitHub.\n"
+"    4.  Submit a pull request from that branch to the [master repository]"
+"[repo].\n"
+"    5.  If you receive feedback,\n"
+"        make changes on your desktop and push to your branch on GitHub:\n"
+"        the pull request will update automatically."
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:138
+msgid ""
+"Each lesson has several maintainers who review issues and pull requests\n"
+"or encourage others to do so.\n"
+"The maintainers are community volunteers,\n"
+"and have final say over what gets merged into the lesson."
+msgstr ""
+
+# header
+#: r-novice-inflammation/CONTRIBUTING.md:143
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:129
+msgid "## Other Resources"
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:145
+msgid ""
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][contact]."
+msgstr ""
+
+#: r-novice-inflammation/CONTRIBUTING.md:150
+msgid ""
+"[contact]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[github]: http://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[issues]: https://github.com/swcarpentry/r-novice-inflammation/issues/\n"
+"[repo]: https://github.com/swcarpentry/r-novice-inflammation/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: http://software-carpentry.org/lessons/\n"
+"[swc-site]: http://software-carpentry.org/"
+msgstr ""
+"[contact]: mailto:team@carpentries.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: https://carpentries.topicbox.com/groups/discuss\n"
+"[github]: https://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[new-issue]: https://github.com/swcarpentry/r-novice-inflammation/issues/"
+"new\n"
+"[issues]: https://github.com/swcarpentry/r-novice-inflammation/issues/\n"
+"[repo]: https://github.com/swcarpentry/r-novice-inflammation/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/"
+
+# Front Matter
+#: r-novice-inflammation/LICENSE.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Licenses\"\n"
+"root: .\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"ライセンス\"\n"
+"root: .\n"
+"---"
+
+# header
+#: r-novice-inflammation/LICENSE.md:6
+msgid "## Instructional Material"
+msgstr "## 教材"
+
+#: r-novice-inflammation/LICENSE.md:8
+msgid ""
+"All Software Carpentry and Data Carpentry instructional material is\n"
+"made available under the [Creative Commons Attribution\n"
+"license][cc-by-human]. The following is a human-readable summary of\n"
+"(and not a substitute for) the [full legal text of the CC BY 4.0\n"
+"license][cc-by-legal]."
+msgstr ""
+"ソフトウェアカーペントリーとData Carpentryに関する全ての教材は\n"
+"[クリエイティブ・コモンズ 表示ライセンス](https://creativecommons.org/"
+"licenses/by/4.0/deed.ja)\n"
+"の下で利用可能です。以下は、\n"
+"[表示4.0 国際(CC BY 4.0)ライセンスの完全な法的テキスト](https://"
+"creativecommons.org/licenses/by/4.0/legalcode.ja)の\n"
+"人が読んでわかりやすいようにした要約です。(ライセンスの代わりになるものではあ"
+"りません。）"
+
+#: r-novice-inflammation/LICENSE.md:14
+msgid "You are free:"
+msgstr "あなたは以下の条件に従う限り、自由に："
+
+# unordered list
+#: r-novice-inflammation/LICENSE.md:16
+msgid ""
+"* to **Share**---copy and redistribute the material in any medium or format"
+msgstr ""
+"* **共有**---どのようなメディアやフォーマットでも資料を複製したり、再配布でき"
+"ます"
+
+# unordered list
+#: r-novice-inflammation/LICENSE.md:17
+msgid "* to **Adapt**---remix, transform, and build upon the material"
+msgstr ""
+"* **翻案**---マテリアルをリミックスしたり、改変したり、別の作品のベースにした"
+"りできます\n"
+
+#: r-novice-inflammation/LICENSE.md:19
+msgid "for any purpose, even commercially."
+msgstr "営利目的も含め、どのような目的でも。"
+
+#: r-novice-inflammation/LICENSE.md:21
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the\n"
+"license terms."
+msgstr ""
+"あなたがライセンスの条件に従っている限り、許諾者がこれらの自由を\n"
+"取り消すことはできません。"
+
+#: r-novice-inflammation/LICENSE.md:24
+msgid "Under the following terms:"
+msgstr "あなたの従うべき条件は以下の通りです："
+
+# unordered list
+#: r-novice-inflammation/LICENSE.md:26
+msgid "* **Attribution**---You must give appropriate credit (mentioning that"
+msgstr "* **表示**---あなたは 適切なクレジットを表示し (あなたの作品が"
+
+#: r-novice-inflammation/LICENSE.md:27
+msgid ""
+"  your work is derived from work that is Copyright © Software\n"
+"  Carpentry and, where practical, linking to\n"
+"  http://software-carpentry.org/), provide a [link to the\n"
+"  license][cc-by-human], and indicate if changes were made. You may do\n"
+"  so in any reasonable manner, but not in any way that suggests the\n"
+"  licensor endorses you or your use."
+msgstr ""
+"  ソフトウェアカーペントリーの著作物 (Software Carpentry©) から派生しているこ"
+"とを記載して、\n"
+"  そして適切な場合は[http://software-carpentry.org](http://software-"
+"carpentry.org)へのリンクを表示), \n"
+"  [ライセンスへのリンク](https://creativecommons.org/licenses/by/4.0/deed.ja)"
+"を\n"
+"  提供し、変更があったらその旨を示さなければなりません。\n"
+"  これらは合理的であればどのような方法で行っても構いませんが、\n"
+"  許諾者があなたやあなたの利用行為を支持していると示唆するような方法は除きま"
+"す。"
+
+#: r-novice-inflammation/LICENSE.md:34
+msgid ""
+"**No additional restrictions**---You may not apply legal terms or\n"
+"technological measures that legally restrict others from doing\n"
+"anything the license permits.  With the understanding that:"
+msgstr ""
+"**追加的な制約は課せません**---あなたは、このライセンスが他の者に\n"
+"許諾することを法的に制限するようないかなる法的規定も技術的手段も\n"
+"適用してはなりません："
+
+#: r-novice-inflammation/LICENSE.md:38
+msgid "Notices:"
+msgstr "ご注意："
+
+# unordered list
+#: r-novice-inflammation/LICENSE.md:40
+msgid "* You do not have to comply with the license for elements of the"
+msgstr "* あなたは、資料の中でパブリック・ドメインに属している部分に関して、"
+
+#: r-novice-inflammation/LICENSE.md:41
+msgid ""
+"  material in the public domain or where your use is permitted by an\n"
+"  applicable exception or limitation.\n"
+"* No warranties are given. The license may not give you all of the\n"
+"  permissions necessary for your intended use. For example, other\n"
+"  rights such as publicity, privacy, or moral rights may limit how you\n"
+"  use the material."
+msgstr ""
+"  あるいはあなたの利用が著作権法上の権利制限規定にもとづく場合には、\n"
+"  ライセンスの規定に従う必要はありません。\n"
+"* 保証は提供されていません。ライセンスはあなたの利用に\n"
+"  必要な全ての許諾を与えないかも知れません。例えば、パブリシティ権、\n"
+"  肖像権、人格権 などの他の諸権利はあなたがどのように資料を利用するかを\n"
+"制限することがあります。"
+
+# header
+#: r-novice-inflammation/LICENSE.md:48
+msgid "## Software"
+msgstr "## ソフトウェア"
+
+#: r-novice-inflammation/LICENSE.md:50
+msgid ""
+"Except where otherwise noted, the example programs and other software\n"
+"provided by Software Carpentry and Data Carpentry are made available under "
+"the\n"
+"[OSI][osi]-approved\n"
+"[MIT license][mit-license]."
+msgstr ""
+"特に記載がある場合を除いて、ソフトウェアカーペントリーおよびデータカーペント"
+"リーが\n"
+"提供しているサンプルプログラムやソフトウェアは、\n"
+"[OSI][osi]が承認した\n"
+"[MITライセンス](https://ja.osdn.net/projects/opensource/wiki/licenses"
+"%2FMIT_license)の下で利用可能です。"
+
+#: r-novice-inflammation/LICENSE.md:55
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:"
+msgstr ""
+"以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル\n"
+"（以下「ソフトウェア」）の複製を取得するすべての人に対し、ソフトウェアを\n"
+"無制限に扱うことを無償で許可します。これには、ソフトウェアの複製を使用、\n"
+"複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する権利、\n"
+"およびソフトウェアを提供する相手に同じことを許可する権利も無制限に含まれま"
+"す。"
+
+#: r-novice-inflammation/LICENSE.md:63
+msgid ""
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software."
+msgstr ""
+"上記の著作権表示および本許諾表示を、ソフトウェアのすべての複製または\n"
+"重要な部分に記載するものとします。"
+
+#: r-novice-inflammation/LICENSE.md:66
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
+"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
+"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
+"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+"ソフトウェアは「現状のまま」で、明示であるか暗黙であるかを問わず、\n"
+"何らの保証もなく提供されます。ここでいう保証とは、商品性、\n"
+"特定の目的への適合性、および権利非侵害についての保証も含みますが、\n"
+"それに限定されるものではありません。 作者または著作権者は、契約行為、\n"
+"不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、\n"
+"あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、\n"
+"損害、その他の義務について何らの責任も負わないものとします。"
+
+# header
+#: r-novice-inflammation/LICENSE.md:74
+msgid "## Trademark"
+msgstr "## 商標"
+
+#: r-novice-inflammation/LICENSE.md:76
+msgid ""
+"\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+"are registered trademarks of [Community Initiatives][CI]."
+msgstr ""
+"「Software Carpentry」と「Data Carpentry」およびそれぞれのロゴは[Community\n"
+"Initiatives][CI]における登録商標または商標です。"
+
+#: r-novice-inflammation/LICENSE.md:79
+msgid ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org"
+msgstr ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org\n"
+"[osg]: https://opensource.jp"
+
+#: r-novice-inflammation/README.md:1
+msgid ""
+"[![Build Status](https://travis-ci.org/swcarpentry/r-novice-inflammation.svg?"
+"branch=master)](https://travis-ci.org/swcarpentry/r-novice-inflammation)\n"
+"[![Create a Slack Account with us](https://img.shields.io/badge/"
+"Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite."
+"herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--r--"
+"inflammation-E01563.svg)](https://swcarpentry.slack.com/messages/C9WDPCMUG) "
+msgstr ""
+
+#: r-novice-inflammation/README.md:5
+msgid ""
+"r-novice-inflammation\n"
+"====================="
+msgstr ""
+
+#: r-novice-inflammation/README.md:8
+msgid "Introduction to R for non-programmers using inflammation data."
+msgstr ""
+
+#: r-novice-inflammation/README.md:10
+msgid "Current maintainers:"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/README.md:12
+msgid "* Katrin Leinweber (@katrinleinweber)"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/README.md:13
+msgid "* [Diya Das](https://diyadas.github.io) (@diyadas)"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/README.md:14
+msgid ""
+"* [Daniel Chen](http://software-carpentry.org/team/#chen_daniel) "
+"(@chendaniely)"
+msgstr ""
+
+#: r-novice-inflammation/README.md:16
+msgid ""
+"The goal of this lesson is to teach novice programmers to write modular code "
+"to\n"
+"perform a data analysis. R is used to teach these skills because it is a\n"
+"commonly used programming language in many scientific disciplines. However, "
+"the\n"
+"emphasis is not on teaching every aspect of R, but instead on\n"
+"language agnostic principles like automation with loops and encapsulation "
+"with\n"
+"functions (see [Best Practices for Scientific Computing][best-practices] to\n"
+"learn more). This lesson is a translation of the [Python version][py],\n"
+"and is also available in [MATLAB][MATLAB]."
+msgstr ""
+
+#: r-novice-inflammation/README.md:25
+msgid ""
+"The example used in this lesson analyzes a set of 12 data files with\n"
+"inflammation data collected from a trial for a new treatment for arthritis "
+"(the\n"
+"data was simulated). Learners are shown how it is better to create a "
+"function\n"
+"and apply it to each of the 12 files using a loop instead of using copy-"
+"paste\n"
+"to analyze the 12 files individually."
+msgstr ""
+
+#: r-novice-inflammation/README.md:31
+msgid ""
+"[best-practices]: http://journals.plos.org/plosbiology/article?id=10.1371/"
+"journal.pbio.1001745\n"
+"[py]: https://github.com/swcarpentry/python-novice-inflammation\n"
+"[MATLAB]: https://github.com/swcarpentry/matlab-novice-inflammation"
+msgstr ""
+
+# header
+#: r-novice-inflammation/README.md:35
+#: r-novice-inflammation/bin/boilerplate/README.md:7
+msgid "## Contributing"
+msgstr ""
+
+#: r-novice-inflammation/README.md:37
+msgid ""
+"Please see the current list of [issues][] for ideas for contributing to "
+"this\n"
+"repository. For making your contribution, we use the GitHub flow, which is\n"
+"nicely explained in the chapter [Contributing to a Project][pro-git] in Pro "
+"Git\n"
+"by Scott Chacon."
+msgstr ""
+
+#: r-novice-inflammation/README.md:42
+msgid ""
+"General instructions for making contributions are summarized in "
+"[CONTRIBUTING.md](https://github.com/swcarpentry/r-novice-inflammation/blob/"
+"master/CONTRIBUTING.md).\n"
+"When editing topic pages for R lessons, you should change the source R "
+"Markdown\n"
+"file (*.Rmd). Only changes to R markdown files and other supporting files (e."
+"g. data files) should be committed to Git."
+msgstr ""
+
+#: r-novice-inflammation/README.md:46
+msgid ""
+"To view how the changes will look, when viewed in a web browser, you can "
+"render the html pages by running `make serve` from the base of the "
+"repository. Generating the html file(s) is required for viewing the [online "
+"version of the lessons][online] (you can learn more about the [design of the "
+"build process][design]). Building the rendered page with the Makefile "
+"requires installing some dependencies first. In addition to the dependencies "
+"listed in the [lesson template documentation][dependencies], you also need "
+"to install the R package [knitr][]."
+msgstr ""
+
+#: r-novice-inflammation/README.md:48
+msgid ""
+"Once you've made your edits and rendered the corresponding html files,\n"
+"you need to add, commit, and push just the source R Markdown file(s)\n"
+"and any supporting files (e.g. data files). Changes generated by the `make "
+"serve` command should not be committed or included in a pull request. These "
+"changes will be taken care of by the lesson maintainer when the PR is merged."
+msgstr ""
+
+# header
+#: r-novice-inflammation/README.md:52
+msgid "## Getting Help"
+msgstr ""
+
+#: r-novice-inflammation/README.md:54
+msgid ""
+"Please see [https://github.com/carpentries/lesson-example](https://github."
+"com/carpentries/lesson-example)\n"
+"for instructions on formatting, building, and submitting lessons,\n"
+"or run `make` in this directory for a list of helpful commands."
+msgstr ""
+
+#: r-novice-inflammation/README.md:58
+msgid ""
+"If you have questions or proposals, please send them to the [r-discuss][] "
+"mailing list."
+msgstr ""
+
+#: r-novice-inflammation/README.md:60
+msgid ""
+"[dependencies]: https://github.com/carpentries/lesson-example#dependencies\n"
+"[design]: https://github.com/carpentries/lesson-example/blob/master/DESIGN."
+"md\n"
+"[issues]: https://github.com/swcarpentry/r-novice-inflammation/issues\n"
+"[knitr]: https://cran.r-project.org/package=knitr\n"
+"[online]: http://swcarpentry.github.io/r-novice-inflammation/\n"
+"[pro-git]: http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project\n"
+"[r-discuss]: http://lists.software-carpentry.org/mailman/listinfo/r-"
+"discuss_lists.software-carpentry.org"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/_extras/about.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: About\n"
+"permalink: /about/\n"
+"---"
+msgstr ""
+
+#: r-novice-inflammation/_extras/about.md:6
+msgid "{% include carpentries.html %}"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/_extras/discuss.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Discussion\n"
+"permalink: /discuss/\n"
+"---"
+msgstr ""
+
+# header
+#: r-novice-inflammation/_extras/discuss.md:7
+msgid "## Error returned when attempting to calculate mean of data.frame rows"
+msgstr ""
+
+#: r-novice-inflammation/_extras/discuss.md:9
+msgid ""
+"As of R version 3.0.0 one cannot use functions such as `mean()`, `max()`,\n"
+"`min()`, etc., on `data.frame` rows. This can be a problem\n"
+"when going through material in the [Creating functions]({{ page.root }}/02-"
+"func-R/) lesson,\n"
+"**Testing and Documenting** section, if one attempts to apply any of these\n"
+"functions to the example dataset rows (e.g., `center(dat[4, ], 0)`. The\n"
+"examples in the lesson are all written to work only with columns, but\n"
+"an error is returned if one tries using rows. This may also be a problem\n"
+"if one attempts to calculate row means or medians in the\n"
+"[Analyzing patient data]({{ page.root }}/01-starting-with-data/) lesson,\n"
+"**Manipulating Data** section.\n"
+"The **recommended solution** to this issue is to not apply these functions\n"
+"to `data.frame` rows. However, one *could* get around this issue by\n"
+"using the functions `rowSums` or `rowMeans` in some cases, or\n"
+"explicitly converting the row to a vector of numeric values\n"
+"(e.g., `center(as.numeric(dat[4, ]), 0)`)"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/_extras/figures.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Figures\n"
+"permalink: /figures/\n"
+"---"
+msgstr ""
+
+#: r-novice-inflammation/_extras/figures.md:6
+msgid "{% include all_figures.html %}"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"permalink: /guide/\n"
+"---"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:7
+msgid ""
+"This lesson is written as an introduction to R,\n"
+"but its real purpose is to introduce the single most important idea in "
+"programming:\n"
+"how to solve problems by building functions,\n"
+"each of which can fit in a programmer's working memory.\n"
+"In order to teach that,\n"
+"we must teach people a little about\n"
+"the mechanics of manipulating data with lists and file I/O\n"
+"so that their functions can do things they actually care about.\n"
+"Our teaching order tries to show practical uses of every idea as soon as it "
+"is introduced;\n"
+"instructors should resist the temptation to explain\n"
+"the \"other 90%\" of the language\n"
+"as well."
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:20
+msgid ""
+"The secondary goal of this lesson is to give them a usable mental model of "
+"how programs run\n"
+"(what computer science educators call a [notional machine]({{ page.root }}/"
+"reference.html#notional-machine)\n"
+"so that they can debug things when they go wrong.\n"
+"In particular,\n"
+"they must understand how function call stacks work."
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:26
+msgid ""
+"The final example asks them to build a command-line tool\n"
+"that works with the Unix pipe-and-filter model.\n"
+"We do this because it is a useful skill\n"
+"and because it helps learners see that the software they use isn't magical.\n"
+"Tools like `grep` might be more sophisticated than\n"
+"the programs our learners can write at this point in their careers,\n"
+"but it's crucial they realize this is a difference of scale rather than kind."
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:34
+msgid "A typical, half-day, lesson would use the first three lessons:"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:36
+msgid "1. [Analyzing Patient Data]({{ page.root }}/01-starting-with-data/)"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:37
+msgid "2. [Creating Functions]({{ page.root }}/02-func-R/)"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:38
+msgid "3. [Analyzing Multiple Data Sets]({{ page.root }}/03-loops-R/)"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:40
+msgid "An additional half-day could add the next two lessons:"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:42
+msgid "4.  [Making choices]({{ page.root }}/04-cond/)"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:43
+msgid "5.  [Command-Line Programs]({{ page.root }}/05-cmdline/)"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:45
+msgid ""
+"Time permitting,\n"
+"you can fit in one of these shorter lessons that cover bigger picture ideas\n"
+"like best practices for organizing code, reproducible research,\n"
+"and creating packages:"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:50
+msgid ""
+"6.  [Best practices for using R and designing programs]({{ page.root }}/06-"
+"best-practices-R/)"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:51
+msgid "7.  [Dynamic reports with knitr]({{ page.root }}/07-knitr-R/)"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/_extras/guide.md:52
+msgid "8.  [Making packages in R]({{ page.root }}/08-making-packages-R/)"
+msgstr ""
+
+# header
+#: r-novice-inflammation/_extras/guide.md:54
+msgid "## Using Git in RStudio"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:56
+msgid ""
+"Some instructors will demo RStudio's git integration at some point during "
+"the\n"
+"workshop. This often goes over very well, but there can be a few snags with "
+"the\n"
+"setup. First, RStudio may not know where to find git. You can specify where "
+"git\n"
+"is located in _Tools > Global Options > Git/SVN_; on Mac/Linux git is often "
+"in\n"
+"`/usr/bin/git` or `/usr/local/bin/git` and on Windows it is often in\n"
+"`C:/Program Files (x86)/Git/bin/git.exe`. If you don't know where git is\n"
+"installed on someone's computer, open a terminal and try `which git` on\n"
+"Mac/Linux, or `where git` or `whereis git.exe` on Windows. See\n"
+"[Jenny Bryan's instructions](http://stat545-ubc.github.io/git03_rstudio-meet-"
+"git.html)\n"
+"for more detail."
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:67
+msgid ""
+"If Windows users select the option \"Run Git from the Windows command prompt"
+"\"\n"
+"while setting up Git Bash, RStudio will automatically find the git "
+"executable.\n"
+"If you plan to demo git in RStudio during your workshop, you should edit "
+"the\n"
+"workshop setup instructions to have the Windows users choose this option "
+"during\n"
+"setup."
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:73
+msgid ""
+"Another common gotcha is that the push/pull buttons in RStudio are grayed "
+"out,\n"
+"even after you have added a remote and pushed to it from the command line. "
+"You\n"
+"need to add an upstream tracking reference before you can push and pull "
+"directly\n"
+"from RStudio; have your learners do `git push -u origin master` from the "
+"command\n"
+"line and this should resolve the issue."
+msgstr ""
+
+# header
+#: r-novice-inflammation/_extras/guide.md:79
+msgid "## Teaching Notes"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:81
+msgid "*   Watching the instructor grow programs step by step"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:82
+msgid ""
+"    is as helpful to learners as anything to do with R.\n"
+"    Resist the urge to clean up your R script as you go\n"
+"    (which is what you'd probably do in real life).\n"
+"    Instead, keep intermediate steps in your script.\n"
+"    Once you've reached the final version\n"
+"    you can say,\n"
+"    \"Now why don't we just breaks things into small functions right from "
+"the start?\""
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:90
+msgid "*   The discussion of command-line scripts"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:91
+msgid ""
+"    assumes that students understand standard I/O and building filters,\n"
+"    which are covered in the lesson on the shell."
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:94
+msgid ""
+"*   We are using a dataset with records on inflammation from patients "
+"following an"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:95
+msgid ""
+"    arthritis treatment. With it we explain `R` data structure, basic data\n"
+"    manipulation and plotting, writing functions and loops."
+msgstr ""
+
+# header
+#: r-novice-inflammation/_extras/guide.md:98
+msgid "## [Analyzing Patient Data]({{ page.root }}/01-starting-with-data/)"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:100
+msgid ""
+"*   Check learners are reading files from the correct location (set working"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:101
+msgid "    directory); remind them of the shell lesson."
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:103
+msgid ""
+"*   Provide shortcut for the assignment operator (`<-`) (RStudio: <kbd>Alt</"
+"kbd>+<kbd>-</kbd> on"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:104
+msgid "    Windows/Linux; <kbd>Option</kbd>+<kbd>-</kbd> on Mac)."
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:106
+msgid ""
+"*   When performing operations on sliced rows of data frames, be aware that "
+"some "
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:107
+msgid ""
+"    functions in R automatically convert the object type to a numeric "
+"vector, while \n"
+"    others do not. For example, `max(dat[1, ])` works as expected, while "
+"`mean(dat[1, ])` \n"
+"    returns an error. You can fix this by including an explicit call to `as."
+"numeric()`, \n"
+"    for example `mean(as.numeric(dat[1, ]))`. This issue is also mentioned "
+"in a callout \n"
+"    box in the lesson materials, since it is unexpected and can create "
+"confusion when \n"
+"    simple examples fail (by contrast, operations on sliced columns of data "
+"frames always \n"
+"    work as expected, since columns of data frames are already vectors)."
+msgstr ""
+
+# header
+#: r-novice-inflammation/_extras/guide.md:115
+msgid "## [Addressing Data]({{ page.root }}/10-supp-addressing-data/)"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:117
+msgid ""
+"*   Note that the data frame `dat` is not the same set of data as in other "
+"lessons."
+msgstr ""
+
+# header
+#: r-novice-inflammation/_extras/guide.md:119
+msgid "## [Analyzing Multiple Data Sets]({{ page.root }}/03-loops-R/)"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/_extras/guide.md:121
+msgid ""
+"*   The transition from the previous lesson to this one might be challenging "
+"for"
+msgstr ""
+
+#: r-novice-inflammation/_extras/guide.md:122
+msgid ""
+"    a very novice audience. Do not rush through the challenges, maybe drop "
+"some."
+msgstr ""
+
+#: r-novice-inflammation/_includes/links.md:1
+msgid "{% include gh_variables.html %}"
+msgstr ""
+
+#: r-novice-inflammation/_includes/links.md:3
+msgid ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[ci]: http://communityin.org/\n"
+"[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/code-of-"
+"conduct.html#reporting-guidelines\n"
+"[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct."
+"html\n"
+"[concept-maps]: https://carpentries.github.io/instructor-training/05-"
+"memory/\n"
+"[contrib-covenant]: https://contributor-covenant.org/\n"
+"[contributing]: {{ repo_url }}/blob/{{ source_branch }}/CONTRIBUTING.md\n"
+"[cran-checkpoint]: https://cran.r-project.org/package=checkpoint\n"
+"[cran-knitr]: https://cran.r-project.org/package=knitr\n"
+"[cran-stringr]: https://cran.r-project.org/package=stringr\n"
+"[dc-lessons]: http://www.datacarpentry.org/lessons/\n"
+"[email]: mailto:team@carpentries.org\n"
+"[github-importer]: https://import.github.com/\n"
+"[importer]: https://github.com/new/import\n"
+"[jekyll-collection]: https://jekyllrb.com/docs/collections/\n"
+"[jekyll-install]: https://jekyllrb.com/docs/installation/\n"
+"[jekyll-windows]: http://jekyll-windows.juthilo.com/\n"
+"[jekyll]: https://jekyllrb.com/\n"
+"[jupyter]: https://jupyter.org/\n"
+"[lc-lessons]: https://librarycarpentry.org/#portfolio\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example/\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[morea]: https://morea-framework.github.io/\n"
+"[numfocus]: https://numfocus.org/\n"
+"[osi]: https://opensource.org\n"
+"[pandoc]: https://pandoc.org/\n"
+"[paper-now]: https://github.com/PeerJ/paper-now\n"
+"[python-gapminder]: https://swcarpentry.github.io/python-novice-gapminder/\n"
+"[pyyaml]: https://pypi.python.org/pypi/PyYAML\n"
+"[r-markdown]: https://rmarkdown.rstudio.com/\n"
+"[rstudio]: https://www.rstudio.com/\n"
+"[ruby-install-guide]: https://www.ruby-lang.org/en/downloads/\n"
+"[ruby-installer]: https://rubyinstaller.org/\n"
+"[rubygems]: https://rubygems.org/pages/download/\n"
+"[styles]: https://github.com/carpentries/styles/\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/ \n"
+"[swc-releases]: https://github.com/swcarpentry/swc-releases\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[workshop-repo]: {{ site.workshop_repo }}\n"
+"[yaml]: http://yaml.org/"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/aio.md:1
+#: r-novice-inflammation/bin/boilerplate/aio.md:1
+msgid ""
+"---\n"
+"---"
+msgstr ""
+
+# inline html
+#: r-novice-inflammation/aio.md:4
+msgid ""
+"<script>\n"
+"  window.onload = function() {\n"
+"    var lesson_episodes = [\n"
+"    {% for episode in site.episodes %}\n"
+"    \"{{ episode.url}}\"{% unless forloop.last %},{% endunless %}\n"
+"    {% endfor %}\n"
+"    ];\n"
+"    var xmlHttp = [];  /* Required since we are going to query every "
+"episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. "
+"*/\n"
+"      xmlHttp[i].onreadystatechange = function() {\n"
+"      if (this.readyState == 4 && this.status == 200) {\n"
+"        var article_here = document.getElementById(this.episode);\n"
+"        var parser = new DOMParser();\n"
+"        var htmlDoc = parser.parseFromString(this.responseText,\"text/html"
+"\");\n"
+"        var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+"        article_here.innerHTML = htmlDocArticle.innerHTML;\n"
+"        }\n"
+"      }\n"
+"      episode_url = \"{{ page.root }}\" + lesson_episodes[i];\n"
+"      xmlHttp[i].open(\"GET\", episode_url);\n"
+"      xmlHttp[i].send(null);\n"
+"    }\n"
+"  }\n"
+"</script>"
+msgstr ""
+
+#: r-novice-inflammation/aio.md:30
+#: r-novice-inflammation/bin/boilerplate/aio.md:32
+msgid ""
+"{% comment %}\n"
+"Create anchor for each one of the episodes.\n"
+"{% endcomment %}\n"
+"{% for episode in site.episodes %}\n"
+"<article id=\"{{ episode.url }}\"></article>\n"
+"{% endfor %}"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:30
+msgid ""
+"    you can [send us comments by email][email].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other "
+"methods described below."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:42
+msgid ""
+"    and would like to add or change material,\n"
+"    you can submit a pull request (PR).\n"
+"    Instructions for doing this are [included below](#using-github)."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:49
+msgid ""
+"    please work in <https://github.com/swcarpentry/FIXME>,\n"
+"    which can be viewed at <https://swcarpentry.github.io/FIXME>."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:69
+msgid ""
+"There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas, please see the 'Issues' tab for\n"
+"a list of issues associated with this repository,\n"
+"or you may also look at the issues for [Data Carpentry][dc-issues]\n"
+"and [Software Carpentry][swc-issues] projects."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:97
+msgid ""
+"We are also not looking for exercises or other material that only run on one "
+"platform.\n"
+"Our workshops typically contain a mixture of Windows, macOS, and Linux "
+"users;\n"
+"in order to be usable,\n"
+"our lessons must run equally well on all three."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:104
+msgid ""
+"If you choose to contribute via GitHub, you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"To manage changes, we follow [GitHub flow][github-flow].\n"
+"Each lesson has two maintainers who review issues and pull requests or "
+"encourage others to do so.\n"
+"The maintainers are community volunteers and have final say over what gets "
+"merged into the lesson.\n"
+"To use the web interface for contributing to a lesson:"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:111
+msgid "1.  Fork the originating repository to your GitHub profile."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:112
+msgid ""
+"2.  Within your version of the forked repository, move to the `gh-pages` "
+"branch and"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:113
+msgid ""
+"create a new branch for each significant change being made.\n"
+"3.  Navigate to the file(s) you wish to change within the new branches and "
+"make revisions as required.\n"
+"4.  Commit all changed files within the appropriate branches.\n"
+"5.  Create individual pull requests from each of your changed branches\n"
+"to the `gh-pages` branch within the originating repository.\n"
+"6.  If you receive feedback, make changes using your issue-specific branches "
+"of the forked\n"
+"repository and the pull requests will update automatically.\n"
+"7.  Repeat as needed until all feedback has been addressed."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:122
+msgid ""
+"When starting work, please make sure your clone of the originating `gh-"
+"pages` branch is up-to-date\n"
+"before creating your own revision-specific branch(es) from there.\n"
+"Additionally, please only work from your newly-created branch(es) and *not*\n"
+"your clone of the originating `gh-pages` branch.\n"
+"Lastly, published copies of all the lessons are available in the `gh-pages` "
+"branch of the originating\n"
+"repository for reference while revising."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:131
+msgid ""
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][email]."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/CONTRIBUTING.md:136
+msgid ""
+"[email]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[github]: https://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[issues]: https://guides.github.com/features/issues/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/"
+msgstr ""
+
+# header
+#: r-novice-inflammation/bin/boilerplate/README.md:1
+msgid "# FIXME Lesson title"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/README.md:3
+msgid ""
+"[![Create a Slack Account with us](https://img.shields.io/badge/"
+"Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite."
+"herokuapp.com/)"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/README.md:5
+#: r-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md:12
+#: r-novice-inflammation/bin/boilerplate/_extras/discuss.md:4
+#: r-novice-inflammation/bin/boilerplate/_extras/guide.md:4
+#: r-novice-inflammation/bin/boilerplate/reference.md:7
+#: r-novice-inflammation/bin/boilerplate/setup.md:4
+msgid "FIXME"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/README.md:9
+msgid ""
+"We welcome all contributions to improve the lesson! Maintainers will do "
+"their best to help you if you have any\n"
+"questions, concerns, or experience any difficulties along the way."
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/README.md:12
+msgid ""
+"We'd like to ask you to familiarize yourself with our [Contribution Guide]"
+"(CONTRIBUTING.md) and have a look at\n"
+"the [more detailed guidelines][lesson-example] on proper formatting, ways to "
+"render the lesson locally, and even\n"
+"how to write new episodes."
+msgstr ""
+
+# header
+#: r-novice-inflammation/bin/boilerplate/README.md:16
+msgid "## Maintainer(s)"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/bin/boilerplate/README.md:18
+msgid "* FIXME"
+msgstr ""
+
+# header
+#: r-novice-inflammation/bin/boilerplate/README.md:20
+msgid "## Authors"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/README.md:22
+msgid "A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)"
+msgstr ""
+
+# header
+#: r-novice-inflammation/bin/boilerplate/README.md:24
+msgid "## Citation"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/README.md:26
+msgid "To cite this lesson, please consult with [CITATION](CITATION)"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/README.md:28
+msgid "[lesson-example]: https://carpentries.github.io/lesson-example"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/_episodes/01-introduction.md:1
+msgid ""
+"---\n"
+"title: \"Introduction\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Key question (FIXME)\"\n"
+"objectives:\n"
+"- \"First objective. (FIXME)\"\n"
+"keypoints:\n"
+"- \"First key point. (FIXME)\"\n"
+"---"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/_extras/about.md:1
+msgid ""
+"---\n"
+"title: About\n"
+"---"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/_extras/about.md:4
+msgid ""
+"{% include carpentries.html %}\n"
+"{% include links.md %}"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/_extras/discuss.md:1
+msgid ""
+"---\n"
+"title: Discussion\n"
+"---"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/_extras/figures.md:1
+msgid ""
+"---\n"
+"title: Figures\n"
+"---"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/_extras/figures.md:5
+#: r-novice-inflammation/bin/boilerplate/aio.md:4
+msgid "{% include base_path.html %}"
+msgstr ""
+
+# inline html
+#: r-novice-inflammation/bin/boilerplate/_extras/figures.md:7
+msgid ""
+"<script>\n"
+"  window.onload = function() {\n"
+"    var lesson_episodes = [\n"
+"    {% for episode in site.episodes %}\n"
+"    \"{{ episode.url }}\"{% unless forloop.last %},{% endunless %}\n"
+"    {% endfor %}\n"
+"    ];\n"
+"\n"
+"    var xmlHttp = [];  /* Required since we are going to query every "
+"episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. "
+"*/\n"
+"      xmlHttp[i].onreadystatechange = function() {\n"
+"\n"
+"        if (this.readyState == 4 && this.status == 200) {\n"
+"          var parser = new DOMParser();\n"
+"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html"
+"\");\n"
+"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")"
+"[0];\n"
+"\n"
+"          var article_here = document.getElementById(this.episode);\n"
+"          var images = htmlDocArticle.getElementsByTagName(\"img\");\n"
+"\n"
+"          if (images.length > 0) {\n"
+"            var h1text = htmlDocArticle.getElementsByTagName(\"h1\")[0]."
+"innerHTML;\n"
+"\n"
+"            var htitle = document.createElement('h2');\n"
+"            htitle.innerHTML = h1text;\n"
+"            article_here.appendChild(htitle);\n"
+"\n"
+"            var image_num = 0;\n"
+"            for (let image of images) {\n"
+"              image_num++;\n"
+"\n"
+"              var title = document.createElement('p');\n"
+"              title.innerHTML = \"<strong>Figure \" + image_num + \".</"
+"strong> \" + image.alt;\n"
+"              article_here.appendChild(title);\n"
+"\n"
+"              article_here.appendChild(image.cloneNode(false));\n"
+"\n"
+"              if (image_num < images.length) {\n"
+"                var hr = document.createElement('hr');\n"
+"                article_here.appendChild(hr);\n"
+"              }\n"
+"            }\n"
+"          }\n"
+"        }\n"
+"      }\n"
+"      episode_url = \"{{ relative_root_path }}\" + lesson_episodes[i];\n"
+"      xmlHttp[i].open(\"GET\", episode_url);\n"
+"      xmlHttp[i].send(null);\n"
+"    }\n"
+"  }\n"
+"</script>"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/_extras/figures.md:61
+msgid ""
+"{% comment %}\n"
+"Create anchor for each one of the episodes.\n"
+"{% endcomment %}\n"
+"{% for episode in site.episodes %}\n"
+"<article id=\"{{ episode.url }}\" class=\"figures\"></article>\n"
+"{% endfor %}"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/_extras/guide.md:1
+msgid ""
+"---\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+
+# inline html
+#: r-novice-inflammation/bin/boilerplate/aio.md:6
+msgid ""
+"<script>\n"
+"  window.onload = function() {\n"
+"    var lesson_episodes = [\n"
+"    {% for episode in site.episodes %}\n"
+"    \"{{ episode.url}}\"{% unless forloop.last %},{% endunless %}\n"
+"    {% endfor %}\n"
+"    ];\n"
+"    var xmlHttp = [];  /* Required since we are going to query every "
+"episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. "
+"*/\n"
+"      xmlHttp[i].onreadystatechange = function() {\n"
+"      if (this.readyState == 4 && this.status == 200) {\n"
+"        var article_here = document.getElementById(this.episode);\n"
+"        var parser = new DOMParser();\n"
+"        var htmlDoc = parser.parseFromString(this.responseText,\"text/html"
+"\");\n"
+"        var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+"        article_here.innerHTML = htmlDocArticle.innerHTML;\n"
+"        }\n"
+"      }\n"
+"      episode_url = \"{{ relative_root_path }}\" + lesson_episodes[i];\n"
+"      xmlHttp[i].open(\"GET\", episode_url);\n"
+"      xmlHttp[i].send(null);\n"
+"    }\n"
+"  }\n"
+"</script>"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/index.md:1
+msgid ""
+"---\n"
+"layout: lesson\n"
+"root: .  # Is the only page that don't follow the partner /:path/index.html\n"
+"permalink: index.html  # Is the only page that don't follow the partner /:"
+"path/index.html\n"
+"---"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/index.md:6
+msgid "FIXME: home page introduction"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: r-novice-inflammation/bin/boilerplate/index.md:8
+#: r-novice-inflammation/index.md:48
+msgid "> ## Prerequisites"
+msgstr ""
+
+#: r-novice-inflammation/bin/boilerplate/index.md:9
+msgid ""
+">\n"
+"> FIXME"
+msgstr ""
+
+# SC/DC Template label
+#: r-novice-inflammation/bin/boilerplate/index.md:11
+#: r-novice-inflammation/index.md:53
+msgid "{: .prereq}"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/reference.md:1
+msgid ""
+"---\n"
+"layout: reference\n"
+"---"
+msgstr ""
+
+# header
+#: r-novice-inflammation/bin/boilerplate/reference.md:5
+#: r-novice-inflammation/reference.md:112
+msgid "## Glossary"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/bin/boilerplate/setup.md:1
+msgid ""
+"---\n"
+"title: Setup\n"
+"---"
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/index.md:1
+msgid ""
+"---\n"
+"layout: lesson\n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: r-novice-inflammation/index.md:6
+msgid ""
+"The best way to learn how to program is to do something useful,\n"
+"so this introduction to R is built around a common scientific task:\n"
+"data analysis."
+msgstr ""
+
+#: r-novice-inflammation/index.md:10
+msgid ""
+"Our real goal isn't to teach you R,\n"
+"but to teach you the basic concepts that all programming depends on.\n"
+"We use R in our lessons because:"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/index.md:14
+msgid "1.  we have to use *something* for examples;"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/index.md:15
+msgid "2.  it's free, well-documented, and runs almost everywhere;"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/index.md:16
+msgid "3.  it has a large (and growing) user base among scientists; and"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/index.md:17
+msgid ""
+"4.  it has a large library of external packages available for performing "
+"diverse tasks."
+msgstr ""
+
+#: r-novice-inflammation/index.md:19
+msgid ""
+"But the two most important things are\n"
+"to use whatever language your colleagues are using,\n"
+"so you can share your work with them easily,\n"
+"and to use that language *well*."
+msgstr ""
+
+#: r-novice-inflammation/index.md:24
+msgid ""
+"We are studying inflammation in patients who have been given a new treatment "
+"for arthritis,\n"
+"and need to analyze the first dozen data sets of their daily inflammation.\n"
+"The data sets are stored in [comma-separated values]({{ page.root }}/"
+"reference.html#comma-separated-values-csv) (CSV) format:\n"
+"each row holds information for a single patient,\n"
+"and the columns represent successive days.\n"
+"The first few rows of our first file look like this:"
+msgstr ""
+
+# code block
+#: r-novice-inflammation/index.md:31
+msgid ""
+"~~~\n"
+"0,0,1,3,1,2,4,7,8,3,3,3,10,5,7,4,7,7,12,18,6,13,11,11,7,7,4,6,8,8,4,4,5,7,3,4,2,3,0,0\n"
+"0,1,2,1,2,1,3,2,2,6,10,11,5,9,4,4,7,16,8,6,18,4,12,5,12,7,11,5,11,3,3,5,4,4,5,5,1,1,0,1\n"
+"0,1,1,3,3,2,6,2,5,9,5,7,4,5,4,15,5,11,9,10,19,14,12,17,7,12,11,7,4,2,10,5,4,2,2,3,2,2,1,1\n"
+"0,0,2,0,4,2,2,1,6,7,10,7,9,13,8,8,15,10,10,7,17,4,4,7,6,15,6,4,9,11,3,5,6,3,3,4,2,3,2,1\n"
+"0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1\n"
+"~~~"
+msgstr ""
+
+# SC/DC Template label
+#: r-novice-inflammation/index.md:38
+msgid "{: .source}"
+msgstr ""
+
+#: r-novice-inflammation/index.md:40
+msgid "We want to:"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/index.md:42
+msgid "*   load that data into memory,"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/index.md:43
+msgid "*   calculate the average inflammation per day across all patients, and"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/index.md:44
+msgid "*   plot the result."
+msgstr ""
+
+#: r-novice-inflammation/index.md:46
+msgid "To do all that, we'll have to learn a little bit about programming."
+msgstr ""
+
+#: r-novice-inflammation/index.md:49
+msgid ""
+">\n"
+"> Learners need to understand the concepts of files and directories\n"
+"> (including the working directory).\n"
+"> We often use RStudio to teach this lesson, but it is not required."
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/reference.md:1
+#, fuzzy
+msgid ""
+"---\n"
+"layout: reference\n"
+"Title: \"Reference\"\n"
+"root: ..\n"
+"permalink: /reference/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"ライセンス\"\n"
+"root: .\n"
+"---"
+
+# header
+#: r-novice-inflammation/reference.md:8
+msgid "## Basic Operation"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:10
+msgid "- `# this is a comment in R`"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:11
+msgid "- Use `x <- 3` to assign a value, `3`,  to a variable, `x`"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:12
+msgid ""
+"- R counts from 1, unlike many other programming languages (e.g., Python)"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:13
+msgid ""
+"- `length(thing)` returns the number of elements contained in the variable"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:14
+msgid ""
+"  `collection`\n"
+"- `c(value1, value2, value3)` creates a vector\n"
+"- `container[i]` selects the i'th element from the variable `container`"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:18
+msgid ""
+"List objects in current environment\n"
+"`ls()`"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:21
+msgid ""
+"Remove objects in current environment\n"
+"`rm(x)`"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:24
+msgid ""
+"Remove all objects from current environment\n"
+"`rm(list = ls())`"
+msgstr ""
+
+# header
+#: r-novice-inflammation/reference.md:27
+msgid "## Control Flow"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:29
+msgid "- Create a conditional using `if`, `else if`, and `else`"
+msgstr ""
+
+# code block
+#: r-novice-inflammation/reference.md:31
+msgid ""
+"~~~\n"
+"if(x > 0){\n"
+"\tprint(\"value is positive\")\n"
+"} else if (x < 0){\n"
+"\tprint(\"value is negative\")\n"
+"} else{\n"
+"\tprint(\"value is neither positive nor negative\")\n"
+"}\n"
+"~~~"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:40 r-novice-inflammation/reference.md:49
+#: r-novice-inflammation/reference.md:83 r-novice-inflammation/reference.md:94
+msgid "{: .language-r}"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:42
+msgid "- create a `for` loop to process elements in a collection one at a time"
+msgstr ""
+
+# code block
+#: r-novice-inflammation/reference.md:44
+msgid ""
+"~~~\n"
+"for (i in 1:5) {\n"
+"\tprint(i)\n"
+"}\n"
+"~~~"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:51
+msgid "This will print:"
+msgstr ""
+
+# code block
+#: r-novice-inflammation/reference.md:53
+msgid ""
+"~~~\n"
+"1\n"
+"2\n"
+"3\n"
+"4\n"
+"5\n"
+"~~~"
+msgstr ""
+
+# SC/DC Template label
+#: r-novice-inflammation/reference.md:60
+msgid "{: .output}"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:63
+msgid "- Use `==` to test for equality"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:64
+msgid "  - `3 == 3`, will return `TRUE`,"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:65
+msgid "  - `'apple' == 'orange'` will return `FALSE`"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:66
+msgid "- `X & Y` is `TRUE` is both X and Y are true"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:67
+msgid "- `X | Y` is `TRUE` if either X or Y, or both are true"
+msgstr ""
+
+# header
+#: r-novice-inflammation/reference.md:69
+msgid "## Functions"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:71
+msgid "- Defining a function:"
+msgstr ""
+
+# code block
+#: r-novice-inflammation/reference.md:73
+msgid ""
+"~~~\n"
+"is_positive <- function(integer_value){\n"
+"\tif(integer_value > 0){\n"
+"\t   TRUE\n"
+"\t}\n"
+"\telse{\n"
+"\t   FALSE\n"
+"\t{\n"
+"}\n"
+"~~~"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:85
+msgid "In R, the last executed line of a function is automatically returned"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:87
+msgid "- Specifying a default value for a function argument"
+msgstr ""
+
+# code block
+#: r-novice-inflammation/reference.md:89
+msgid ""
+"~~~\n"
+"increment_me <- function(value_to_increment, value_to_increment_by = 1){\n"
+"\tvalue_to_increment + value_to_increment_by\n"
+"}\n"
+"~~~"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:96
+msgid "`increment_me(4)`, will return 5"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:98
+msgid "`increment_me(4, 6)`, will return 10"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:100
+msgid "- Call a function by using `function_name(function_arguments)`"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:102
+msgid ""
+"- apply family of functions: `apply()`, `sapply()`, `lapply()`, and "
+"`mapply()`"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:104
+msgid ""
+"`apply(dat, MARGIN = 2, mean)` will return the average (`mean`) of each "
+"column in `dat`"
+msgstr ""
+
+# header
+#: r-novice-inflammation/reference.md:106
+msgid "## Packages"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:108
+msgid "- Install package by using `install.packages(\"package-name\")`"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:109
+msgid "- Update packages by using `update.packages(\"package-name\")`"
+msgstr ""
+
+# unordered list
+#: r-novice-inflammation/reference.md:110
+msgid "- Load packages by using `library(\"package-name\")`"
+msgstr ""
+
+#: r-novice-inflammation/reference.md:114
+msgid ""
+"{:auto_ids}\n"
+"argument\n"
+":   A value given to a function or program when it runs. The term is often "
+"used interchangeably (and inconsistently) with [parameter](#parameter)."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:118
+msgid ""
+"call stack\n"
+":   A data structure inside a running program that keeps track of active "
+"function calls. Each call's variables are stored in a [stack frame](#stack-"
+"frame); a new stack frame is put on top of the stack for each call, and "
+"discarded when the call is finished."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:121
+msgid ""
+"comma-separated values (CSV)\n"
+":   A common textual representation for tables in which the values in each "
+"row are separated by commas."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:124
+msgid ""
+"comment\n"
+":   A remark in a program that is intended to help human readers understand "
+"what is going on, but is ignored by the computer. Comments in Python, R, and "
+"the Unix shell start with a `#` character and run to the end of the line; "
+"comments in SQL start with `--`, and other languages have other conventions."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:127
+msgid ""
+"conditional statement\n"
+":   A statement in a program that might or might not be executed depending "
+"on whether a test is true or false."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:130
+msgid ""
+"dimensions (of an array)\n"
+":   An array's extent, represented as a vector. For example, an array with 5 "
+"rows and 3 columns has dimensions `(5,3)`."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:133
+msgid ""
+"documentation\n"
+":   Human-language text written to explain what software does, how it works, "
+"or how to use it."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:136
+msgid ""
+"encapsulation\n"
+":   The practice of hiding something's implementation details so that the "
+"rest of a program can worry about *what* it does rather than *how* it does "
+"it."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:139
+msgid ""
+"for loop\n"
+":   A loop that is executed once for each value in some kind of set, list, "
+"or range. See also: [while loop](#while-loop)."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:142
+msgid ""
+"function body\n"
+":   The statements that are executed inside a function."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:145
+msgid ""
+"function call\n"
+":   A use of a function in another piece of software."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:148
+msgid ""
+"function composition\n"
+":   The immediate application of one function to the result of another, such "
+"as `f(g(x))`."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:151
+msgid ""
+"index\n"
+":   A subscript that specifies the location of a single value in a "
+"collection, such as a single pixel in an image."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:154
+msgid ""
+"loop variable\n"
+":   The variable that keeps track of the progress of the loop."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:157
+msgid ""
+"notional machine\n"
+":   An abstraction of a computer used to think about what it can and will do."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:160
+msgid ""
+"parameter\n"
+":   A variable named in the function's declaration that is used to hold a "
+"value passed into the call. The term is often used interchangeably (and "
+"inconsistently) with [argument](#argument)."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:163
+msgid ""
+"pipe\n"
+":   A connection from the output of one program to the input of another. "
+"When two or more programs are connected in this way, they are called a "
+"\"pipeline\"."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:166
+msgid ""
+"return statement\n"
+":   A statement that causes a function to stop executing and return a value "
+"to its caller immediately."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:169
+msgid ""
+"silent failure\n"
+":   Failing without producing any warning messages. Silent failures are hard "
+"to detect and debug."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:172
+msgid ""
+"slice\n"
+":   A regular subsequence of a larger sequence, such as the first five "
+"elements or every second element."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:175
+msgid ""
+"stack frame\n"
+":   A data structure that provides storage for a function's local variables. "
+"Each time a function is called, a new stack frame is created and put on the "
+"top of the [call stack](#call-stack). When the function returns, the stack "
+"frame is discarded."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:178
+msgid ""
+"standard input (stdin)\n"
+":   A process's default input stream. In interactive command-line "
+"applications, it is typically connected to the keyboard; in a [pipe](#pipe), "
+"it receives data from the [standard output](#standard-output-stdout) of the "
+"preceding process."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:181
+msgid ""
+"standard output (stdout)\n"
+":   A process's default output stream. In interactive command-line "
+"applications, data sent to standard output is displayed on the screen; in a "
+"[pipe](#pipe), it is passed to the [standard input](#standard-input-stdin) "
+"of the next process."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:184
+msgid ""
+"string\n"
+":   Short for \"character string\", a sequence of zero or more characters."
+msgstr ""
+
+#: r-novice-inflammation/reference.md:187
+msgid ""
+"while loop\n"
+":   A loop that keeps executing as long as some condition is true. See also: "
+"[for loop](#for-loop)."
+msgstr ""
+
+# Front Matter
+#: r-novice-inflammation/setup.md:1
+#, fuzzy
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Setup\n"
+"root: ..\n"
+"permalink: /setup/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"ライセンス\"\n"
+"root: .\n"
+"---"
+
+#: r-novice-inflammation/setup.md:8
+msgid ""
+"This lesson assumes you have the R software and the development environment "
+"RStudio installed on your computer."
+msgstr ""
+
+#: r-novice-inflammation/setup.md:10
+msgid "[R can be downloaded here](https://cran.r-project.org/mirrors.html)."
+msgstr ""
+
+#: r-novice-inflammation/setup.md:12
+msgid ""
+"[RStudio can be downloaded here](https://www.rstudio.com/products/rstudio/"
+"download/).\n"
+"You will need the Desktop version for your computer."
+msgstr ""
+
+#: r-novice-inflammation/setup.md:15
+msgid "You also need to download some files to follow this lesson:"
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/setup.md:17
+msgid "1. Make a new folder in your Desktop called `r-novice-inflammation`."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/setup.md:18
+msgid ""
+"2. Download [r-novice-inflammation-data.zip]({{ page.root }}/files/r-novice-"
+"inflammation-data.zip) and move the file to this folder."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/setup.md:19
+msgid ""
+"3. If it's not unzipped yet, double-click on it to unzip it. You should end "
+"up with a new folder called `data`."
+msgstr ""
+
+# ordered list
+#: r-novice-inflammation/setup.md:20
+msgid "4. You can access this folder from the Unix shell with:"
+msgstr ""
+
+# code block
+#: r-novice-inflammation/setup.md:22
+msgid ""
+"~~~\n"
+"$ cd\n"
+"$ cd Desktop/r-novice-inflammation/data\n"
+"~~~"
+msgstr ""
+
+#: r-novice-inflammation/setup.md:26
+msgid "{: .language-bash}"
+msgstr ""

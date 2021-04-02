@@ -33,6 +33,7 @@ def extract_filename(line):
     -------
     filename: the name of the file.
     '''
+    print(line)
     if '#:' not in line[:2]:
         raise TypeError("The current line is not one that contains a filename.")
     line_bits = line.split(':')

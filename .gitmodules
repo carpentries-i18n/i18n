@@ -4,6 +4,27 @@
 [submodule "shell-novice"]
 	path = shell-novice
 	url = https://github.com/swcarpentry-i18n/shell-novice.git
+[submodule "r-novice-inflammation"]
+	path = r-novice-inflammation
+	url = https://github.com/swcarpentry/r-novice-inflammation.git
+[submodule "r-novice-gapminder"]
+	path = r-novice-gapminder
+	url = https://github.com/swcarpentry/r-novice-gapminder.git
+[submodule "python-novice-gapminder"]
+	path = python-novice-gapminder
+	url = https://github.com/swcarpentry/python-novice-gapminder.git
+[submodule "python-novice-inflammation"]
+	path = python-novice-inflammation
+	url = https://github.com/swcarpentry/python-novice-inflammation.git
+[submodule "sql-novice-survey"]
+	path = sql-novice-survey
+	url = https://github.com/swcarpentry/sql-novice-survey.git
+[submodule "po4gitbook"]
+	path = po4gitbook
+	url = https://github.com/swcarpentry-i18n/po4gitbook.git
+[submodule "make-novice"]
+	path = make-novice
+	url = https://github.com/swcarpentry/make-novice.git
 [submodule "python-ecology-lesson"]
 	url = https://github.com/carpentries-i18n/python-ecology-lesson.git
 	path = python-ecology-lesson
