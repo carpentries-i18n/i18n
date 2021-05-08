@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-05-08 18:18:03+0100\n"
+"PO-Revision-Date: 2020-05-30 18:17+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/"
+"teams/98915/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: lc-open-refine/_episodes/02-importing-data.md:1
+msgid ""
+"---\n"
+"title: \"Importing data into OpenRefine\"\n"
+"teaching: 10\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How do I get data into OpenRefine?\"\n"
+"objectives:\n"
+"- \"Successfully import data into OpenRefine\"\n"
+"keypoints:\n"
+"- \"Use the `Create Project` option to import data\"\n"
+"- \"You can control how data imports using options on the import screen\"\n"
+"- \"Several files types may be imported into OpenRefine.\"\n"
+"---"
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/02-importing-data.md:15
+msgid "## Importing data"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:17
+msgid ""
+">## What kinds of data files can I import?\n"
+">There are several options for getting your data set into OpenRefine. You "
+"can upload or import files in a variety of formats including:\n"
+">\n"
+">* TSV (tab-separated values)\n"
+">* CSV (comma-separated values)\n"
+">* Excel\n"
+">* JSON (javascript object notation)\n"
+">* XML\n"
+">* Google Spreadsheet"
+msgstr ""
+
+# SC/DC Template label
+#: lc-open-refine/_episodes/02-importing-data.md:26
+#: lc-open-refine/_episodes/03-working-with-data.md:113
+#: lc-open-refine/_episodes/10-data-transformation.md:29
+msgid "{: .callout}"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:28
+msgid ""
+">## Create your first OpenRefine project (using provided data)\n"
+">\n"
+"> To import the data for the exercise below, follow the instructions in "
+"[Setup](https://librarycarpentry.github.io/lc-open-refine/setup.html) to "
+"download the data and run OpenRefine. *NOTE: If OpenRefine does not open in "
+"a browser window, open your browser and type the address "
+"<http://127.0.0.1:3333/> to take you to the OpenRefine interface.*\n"
+">\n"
+">1. Once OpenRefine is launched in your browser, click `Create Project` from "
+"the left hand menu and select `Get data from This Computer`\n"
+">2. Click `Choose Files` (or 'Browse', depending on your setup) and locate "
+"the file which you have downloaded called `doaj-article-sample.csv`\n"
+">3. Click `Next >>` - the next screen (see below) gives you options to "
+"ensure the data is imported into OpenRefine correctly. The options vary "
+"depending on the type of data you are importing.\n"
+">4. Click in the `Character encoding` box and set it to `UTF-8`. This "
+"ensures that OpenRefine correctly interprets the imported data as UTF-8 "
+"encoded. If you don't select this you may find that some special characters "
+"(e.g. smart quotation marks) are not displayed correctly.\n"
+">5. Ensure the first row is used to create the column headings by checking "
+"the box `Parse next 1 line(s) as column headers`\n"
+">6. OpenRefine will automatically select \"Use character\" to enclose cells "
+"containing column separators as this will place data in one cell where the "
+"values are enclosed in quotes from the source dataset\n"
+">7. From OpenRefine 3.4 onwards there is an option to Trim leading & "
+"trailing whitespace from strings when importing separator-based files. "
+"Keeping this checked will ensure that values like `English` and `English `, "
+"which differ by a single trailing space, are not treated as different values "
+"after the import\n"
+">8. Make sure the `Parse cell text into numbers, dates, ...` box is not "
+"checked, so OpenRefine doesn't try to automatically detect numbers as it may "
+"cause errors such as confusion between date formats (e.g. DD/MM/YYYY vs MM/"
+"DD/YYYY)\n"
+">9. The Project Name box in the upper right corner will default to the title "
+"of your imported file. Click in the `Project Name` box to give your project "
+"a different name, if desired.\n"
+">10. Once you are happy click the `Create Project >>` button at the top "
+"right of the screen. This will create the project and open it for you. "
+"Projects are saved as you work on them, there is no need to save copies as "
+"you go along.\n"
+">   \n"
+"> ![Create project screen capture](../assets/img/openrefine_ui.png)"
+msgstr ""
+
+# SC/DC Template label
+#: lc-open-refine/_episodes/02-importing-data.md:44
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:42
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:47
+#: lc-open-refine/_episodes/08-writing-transformations.md:45
+#: lc-open-refine/_episodes/10-data-transformation.md:42
+#: lc-open-refine/_episodes/10-data-transformation.md:66
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:79
+msgid "{: .checklist}"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:46
+msgid ""
+"To open an existing project in OpenRefine you can click `Open Project` from "
+"the main OpenRefine screen (in the left hand menu). When you click this, you "
+"will see a list of the existing projects and can click on a project's name "
+"to open it."
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/02-importing-data.md:48
+msgid "### Going Further"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_episodes/02-importing-data.md:49
+msgid ""
+"* Look at the other options on the Import screen - try changing some of "
+"these options and see how that changes the Preview and how the data appears "
+"after import."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_episodes/02-importing-data.md:50
+msgid ""
+"* Do you have access to JSON or XML data? If so the first stage of the "
+"import process will prompt you to select a 'record path' - that is the parts "
+"of the file that will form the data rows in the OpenRefine project."
+msgstr ""

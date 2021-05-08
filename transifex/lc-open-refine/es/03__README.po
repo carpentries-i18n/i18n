@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:11+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lc-open-refine/README.md:1
+msgid "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)  "
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:3
+msgid "# Maintainers for Library Carpentry: OpenRefine"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/README.md:5
+msgid "- [Erin Carrillo](https://github.com/partiecolored) (Lead) "
+msgstr ""
+
+# unordered list
+#: lc-open-refine/README.md:6
+msgid "- [Owen Stephens](https://github.com/ostephens)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/README.md:7
+msgid "- [Paul R. Pival](https://github.com/ppival)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/README.md:8
+msgid "- [Kristin Lee](https://github.com/kristindawn)"
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:10
+msgid "# Past Maintainers for Library Carpentry: OpenRefine"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/README.md:12
+msgid "- [Carmi Cronje](https://github.com/ccronje)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/README.md:13
+msgid "- [Chris Erdmann](https://github.com/libcce)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/README.md:14
+msgid "- [Juliane Schneider](https://github.com/pitviper6)"
+msgstr ""
+
+#: lc-open-refine/README.md:16
+msgid "Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-open-refine-maintainers)."
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:18
+msgid "## Library Carpentry"
+msgstr ""
+
+#: lc-open-refine/README.md:20
+msgid "[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/)."
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:22
+msgid "## License"
+msgstr ""
+
+#: lc-open-refine/README.md:24
+msgid ""
+"All Software, Data, and Library Carpentry instructional material is made available under the [Creative Commons Attribution\n"
+"license](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/LICENSE.md)."
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:27
+msgid "## Contributing"
+msgstr ""
+
+#: lc-open-refine/README.md:29
+msgid "There are many ways to discuss and contribute to Library Carpentry lessons. Visit the lesson [discussion page](https://librarycarpentry.org/lc-open-refine/discuss/index.html) to learn more. Also see [Contributing](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/CONTRIBUTING.md)."
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:31
+msgid "## Code of Conduct"
+msgstr ""
+
+#: lc-open-refine/README.md:33
+msgid "All participants should agree to abide by The Carpentries [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)."
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:35
+msgid "## Authors"
+msgstr ""
+
+#: lc-open-refine/README.md:37
+msgid "Library Carpentry is authored and maintained through issues, commits, and pull requests from the community."
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:39
+msgid "## Citation"
+msgstr ""
+
+#: lc-open-refine/README.md:41
+msgid "Erin Carillo (Ed.), Owen Stephens (Ed.), Juliane Schneider (Ed.), Paul R. Pival (Ed.), Kristin Lee (Ed.), Carmi Cronje (Ed.), James Baker, Christopher Erdmann, Tim Dennis, mhidas, Daniel Bangert, Evan Williamson, … Jeffrey Oliver. (2019, July). LibraryCarpentry/lc-open-refine: Library Carpentry: OpenRefine, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3266144"
+msgstr ""
+
+#: lc-open-refine/README.md:43
+msgid "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)"
+msgstr ""
+
+# header
+#: lc-open-refine/README.md:45
+msgid "## Checking and Previewing the Lesson"
+msgstr ""
+
+#: lc-open-refine/README.md:47
+msgid "To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](http://carpentries.github.io/lesson-example/07-checking/index.html)."
+msgstr ""
