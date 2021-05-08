@@ -1,0 +1,159 @@
+[main]
+host = https://www.transifex.com
+
+[lc-open-refine.pot_17__about]
+file_filter = <lang>/17__about.po
+source_file = pot/17__about.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_09__06-working-with-columns]
+file_filter = <lang>/09__06-working-with-columns.po
+source_file = pot/09__06-working-with-columns.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_01__CONTRIBUTING]
+file_filter = <lang>/01__CONTRIBUTING.po
+source_file = pot/01__CONTRIBUTING.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_03__README]
+file_filter = <lang>/03__README.po
+source_file = pot/03__README.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_20__guide]
+file_filter = <lang>/20__guide.po
+source_file = pot/20__guide.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_24__reference]
+file_filter = <lang>/24__reference.po
+source_file = pot/24__reference.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_06__03-working-with-data]
+file_filter = <lang>/06__03-working-with-data.po
+source_file = pot/06__03-working-with-data.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_19__figures]
+file_filter = <lang>/19__figures.po
+source_file = pot/19__figures.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_04__01-introduction]
+file_filter = <lang>/04__01-introduction.po
+source_file = pot/04__01-introduction.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_07__04-faceting-and-filtering]
+file_filter = <lang>/07__04-faceting-and-filtering.po
+source_file = pot/07__04-faceting-and-filtering.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_12__09-undo-and-redo]
+file_filter = <lang>/12__09-undo-and-redo.po
+source_file = pot/12__09-undo-and-redo.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_02__LICENSE]
+file_filter = <lang>/02__LICENSE.po
+source_file = pot/02__LICENSE.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_15__12-export-transformation]
+file_filter = <lang>/15__12-export-transformation.po
+source_file = pot/15__12-export-transformation.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_05__02-importing-data]
+file_filter = <lang>/05__02-importing-data.po
+source_file = pot/05__02-importing-data.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_10__07-introduction-to-transformations]
+file_filter = <lang>/10__07-introduction-to-transformations.po
+source_file = pot/10__07-introduction-to-transformations.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_14__11-using-arrays-transformations]
+file_filter = <lang>/14__11-using-arrays-transformations.po
+source_file = pot/14__11-using-arrays-transformations.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_11__08-writing-transformations]
+file_filter = <lang>/11__08-writing-transformations.po
+source_file = pot/11__08-writing-transformations.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_22__draft-instructor-notes]
+file_filter = <lang>/22__draft-instructor-notes.po
+source_file = pot/22__draft-instructor-notes.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_16__13-looking-up-data]
+file_filter = <lang>/16__13-looking-up-data.po
+source_file = pot/16__13-looking-up-data.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_00__CODE_OF_CONDUCT]
+file_filter = <lang>/00__CODE_OF_CONDUCT.po
+source_file = pot/00__CODE_OF_CONDUCT.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_21__aio]
+file_filter = <lang>/21__aio.po
+source_file = pot/21__aio.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_23__index]
+file_filter = <lang>/23__index.po
+source_file = pot/23__index.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_18__discuss]
+file_filter = <lang>/18__discuss.po
+source_file = pot/18__discuss.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_13__10-data-transformation]
+file_filter = <lang>/13__10-data-transformation.po
+source_file = pot/13__10-data-transformation.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_25__setup]
+file_filter = <lang>/25__setup.po
+source_file = pot/25__setup.md.pot
+source_lang = en
+type = PO
+
+[lc-open-refine.pot_08__05-clustering]
+file_filter = <lang>/08__05-clustering.po
+source_file = pot/08__05-clustering.md.pot
+source_lang = en
+type = PO
+

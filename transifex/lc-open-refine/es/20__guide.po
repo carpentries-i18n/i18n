@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:17+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: lc-open-refine/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+
+# horizontal rule. just copy and paste from the msgid
+#: lc-open-refine/_extras/guide.md:6 lc-open-refine/_extras/guide.md:9
+#: lc-open-refine/_extras/guide.md:18
+msgid "____"
+msgstr ""
+
+# header
+#: lc-open-refine/_extras/guide.md:7
+msgid "# Tips and Tricks"
+msgstr ""
+
+# header
+#: lc-open-refine/_extras/guide.md:10
+msgid "## Making a handout"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:12
+msgid "Adapt/print from:  "
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:14
+msgid ""
+"* [Library Carpentry Reference Page](https://librarycarpentry.org/lc-open-"
+"refine/reference.html)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:15
+msgid ""
+"* [Instructor Draft Notes](https://github.com/LibraryCarpentry/lc-open-"
+"refine/blob/gh-pages/files/draft-instructor-notes.md)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:16
+msgid ""
+"* [Introduction to OpenRefine by Owen "
+"Stephens](http://www.meanboyfriend.com/overdue_ideas/wp-"
+"content/uploads/2014/11/Introduction-to-OpenRefine-handout-CC-BY.pdf)"
+msgstr ""
+
+# header
+#: lc-open-refine/_extras/guide.md:19
+msgid "# General notes on OpenRefine"
+msgstr ""
+
+# header
+#: lc-open-refine/_extras/guide.md:21
+msgid "## Common problems"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:23
+msgid ""
+"* If learners are using a browser other than Firefox, or OpenRefine does not"
+" automatically open for them when they click the .exe file, have them point "
+"their browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch "
+"the program."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:25
+msgid ""
+"* Mac users with the newest operating system will have to allow this to run "
+"by \"allowing everything\" to run. They can change the setting back after "
+"the exercise."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:27
+msgid "* Some students will run into issues with"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:28
+msgid "  - unzipping"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:29
+msgid "  - finding the .exe file once the software has been unzipped"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:30
+msgid "  - finding the data file on their computers after downloading"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:32
+msgid ""
+"* If OpenRefine crashes when launched from a network share drive, do the "
+"following:"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:33
+msgid ""
+"  - Copy the OpenRefine folder to a local drive not mapped to a network "
+"share, e.g. \"C:\\Users\\JaneDoe\""
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:34
+msgid "  - Open a Windows Command prompt"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:35
+msgid ""
+"  - Change the working directory to the OpenRefine folder at "
+"\"C:\\Users\\JaneDoe\""
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:36
+msgid "  - Run openrefine.exe"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:38
+msgid ""
+"* If a learner is unable to install OpenRefine on their computer due to IT "
+"restrictions for example, there are cloud services available that they could"
+" try:"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:39
+msgid ""
+"  - [openrefineder](https://github.com/betatim/openrefineder/) using "
+"MyBinder "
+"[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/077bbff?urlpath=%2Fopenrefine)"
+" (OpenRefine 3.1, free to use without registration, "
+"[restricted](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-"
+"memory-am-i-given-when-using-binder) to 1-2 GB RAM and server will be "
+"deleted after 10 minutes of inactivity)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/guide.md:40
+msgid ""
+"  - [openrefineder](https://github.com/betatim/openrefineder/) using "
+"MyBinder "
+"[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/79aeff9?urlpath=%2Fopenrefine)"
+" (OpenRefine 3.2, same restrictions as above)"
+msgstr ""

@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David PS <dps.helio@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:18+0000\n"
+"Last-Translator: David PS <dps.helio@gmail.com>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: lc-open-refine/CODE_OF_CONDUCT.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Contributor Code of Conduct\"\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Código de Conducta para Colaboradores\"\n"
+"---"
+
+#: lc-open-refine/CODE_OF_CONDUCT.md:5
+msgid ""
+"As contributors and maintainers of this project,\n"
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
+msgstr ""
+"Como colaboradores y mantenedores de este proyecto,\n"
+"nos comprometemos a seguir el [Codigo de Conducta][coc]."
+
+#: lc-open-refine/CODE_OF_CONDUCT.md:8
+msgid ""
+"Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+"Cualquier caso de comportamiento abusivo, de acoso, o de alguna manera inaceptable\n"
+"debe reportarse siguiendo las indicaciones en nuestros [lineamientos para reportes][coc-reporting]."
+
+#: lc-open-refine/CODE_OF_CONDUCT.md:11
+msgid "{% include links.md %}"
+msgstr "{% include links.md %}"
