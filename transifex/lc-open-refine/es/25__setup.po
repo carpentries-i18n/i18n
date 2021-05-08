@@ -2,18 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"POT-Creation-Date: 2021-05-08 18:18:03+0100\n"
 "PO-Revision-Date: 2020-05-30 18:18+0000\n"
-"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/"
+"teams/98915/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Front Matter
@@ -43,135 +44,197 @@ msgstr ""
 
 #: lc-open-refine/setup.md:12
 msgid ""
-"You can download OpenRefine from "
-"[http://openrefine.org/download.html](http://openrefine.org/download.html). "
-"This lesson has been tested with all versions of OpenRefine up to the latest"
-" tested version, 3.2."
-msgstr ""
-
-#: lc-open-refine/setup.md:14
-msgid ""
-"If you are using an older version, it is recommended you upgrade to the "
-"latest tested version. "
+"OpenRefine is a free, open-source Java application. You can download "
+"OpenRefine from \n"
+"[http://openrefine.org/download.html](http://openrefine.org/download."
+"html). \n"
+"This lesson has been tested with all versions of OpenRefine up to the latest "
+"tested version, 3.4.1"
 msgstr ""
 
 #: lc-open-refine/setup.md:16
-msgid "There are versions for Windows, macOS and Linux."
-msgstr ""
-
-#: lc-open-refine/setup.md:18
 msgid ""
-"Please follow the installation instructions on the OpenRefine wiki: "
-"[Installation Instructions](https://github.com/OpenRefine/OpenRefine/wiki"
-"/Installation-Instructions)"
+"Packages are available on <https://openrefine.org/download.html> for "
+"Windows, macOS, and Linux.\n"
+"Please download the latest stable version, choosing the \"kit\" for your "
+"operating system.\n"
+"Current versions of the \"Windows kit with embedded Java\" and \"Mac kit\" "
+"include everything you need to run OpenRefine.\n"
+"The \"Linux kit\" and traditional \"Windows kit\" require a \"Java Runtime "
+"Environment\" (JRE) installed on your system (see notes below)."
 msgstr ""
 
-#: lc-open-refine/setup.md:20
+#: lc-open-refine/setup.md:21
+msgid ""
+"If you are using an older version of OpenRefine, it is recommended you "
+"upgrade to the latest tested version. "
+msgstr ""
+
+#: lc-open-refine/setup.md:23
+msgid ""
+"Please follow the installation instructions in the OpenRefine User Manual: "
+"[Installation Instructions](https://docs.openrefine.org/manual/installing)"
+msgstr ""
+
+#: lc-open-refine/setup.md:25
 msgid ""
 "Notes:\n"
-"* When you download OpenRefine for Windows or Linux from the address above, you are downloading a zip file. To install OpenRefine you unzip the downloaded file wherever you want to install the program. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location has to be a \"local\" drive as problems have been reported trying to run OpenRefine from a Network drive.\n"
-"* OpenRefine is a Java application, and you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine. If you don’t already have one installed then you can download and install from [http://java.com](http://java.com) by going to the site and clicking \"Free Java Download\".\n"
-"* OpenRefine does not support Internet Explorer or Edge. Please use [Firefox](https://www.mozilla.org/firefox/new/), [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead."
+"* When you download OpenRefine for Windows or Linux from the address above, "
+"you are downloading an archive file \n"
+"(zip or tar). To install OpenRefine unzip the downloaded file to a permanent "
+"location on your computer. This can \n"
+"be to a personal directory or to an applications or software directory - "
+"OpenRefine should run wherever you put the\n"
+"unzipped folder. The location has to be a \"local\" drive as problems have "
+"been reported trying to run OpenRefine\n"
+"from a Network drive.\n"
+"* The options \"Windows kit with embedded Java\" and \"Mac kit\" include "
+"Java as part of the package. You **do not**\n"
+"need to install Java if you use one of these kits. This is the preferred "
+"method on Windows and Mac systems.\n"
+"* On Windows, if you use the traditional \"Windows kit\" without embedded "
+"Java, you will need a \n"
+"\"Java Runtime Environment\" (JRE) on your system. If you do not already "
+"have JRE or JDK installed, \n"
+"you can visit [Adopt OpenJDK](https://adoptopenjdk.net/) or [Oracle Java]"
+"(https://java.com/en/download/) \n"
+"to download an installer package. Please note that\n"
+"[Oracle significantly changed their license terms in 2019](https://www."
+"oracle.com/java/technologies/javase/jdk-faqs.html) limiting it to \"personal "
+"use\" with out a paid license. If you use OpenRefine at work or in research, "
+"OpenJDK is preferred.\n"
+"* On Linux a \"Java Runtime Environment\" (JRE) will be required to run "
+"OpenRefine. If you do not already have \n"
+"JRE or JDK installed on your system, most distribution repositories will "
+"contain OpenJRE / OpenJDK packages. I\n"
+"nstall the default version available from your distribution. For example, on "
+"Ubuntu/Debian: \n"
+"`sudo apt install default-jre`.\n"
+"* OpenRefine does not support Internet Explorer. Please use [Firefox]"
+"(https://www.mozilla.org/firefox/new/), \n"
+"[Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/"
+"safari/) instead."
 msgstr ""
 
 # header
-#: lc-open-refine/setup.md:25
+#: lc-open-refine/setup.md:46
 msgid "### Downloading the data"
 msgstr ""
 
-#: lc-open-refine/setup.md:27
+#: lc-open-refine/setup.md:48
 msgid ""
-"You can download [doaj-article-"
-"sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-"
-"pages/data/doaj-article-sample.csv), which is a csv file that will open in a"
-" new browser tab. Be sure to right click or control click in order to save "
-"the file (NOTE: In Safari, right click and select **download linked file**; "
-"in Chrome and Firefox, right click and select **save link as...**). Make a "
-"note of the location (i.e. the folder, your desktop) to which you save the "
-"file."
+"You can download [doaj-article-sample.csv](https://github.com/"
+"LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), "
+"which is a csv file that will open in a new browser tab. Be sure to right "
+"click or control click in order to save the file (NOTE: In Safari, right "
+"click and select **download linked file**; in Chrome and Firefox, right "
+"click and select **save link as...**). Make a note of the location (i.e. the "
+"folder, your desktop) to which you save the file."
 msgstr ""
 
 # header
-#: lc-open-refine/setup.md:29
+#: lc-open-refine/setup.md:50
+msgid "### Exiting OpenRefine"
+msgstr ""
+
+#: lc-open-refine/setup.md:52
+msgid ""
+"To exit OpenRefine, close all the browser tabs or windows, then navigate to "
+"the command line window. To close this window and ensure OpenRefine exits "
+"properly, hold down [control] and press [c] on your keyboard. This will save "
+"all changes to your projects."
+msgstr ""
+
+# header
+#: lc-open-refine/setup.md:54
 msgid "### Getting help"
 msgstr ""
 
-#: lc-open-refine/setup.md:31
+#: lc-open-refine/setup.md:56
 msgid ""
-"If you encounter problems installing or running OpenRefine, a good source of"
-" support is [the OpenRefine mailing list and "
-"forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)."
+"If you encounter problems installing or running OpenRefine, a good source of "
+"support is the [OpenRefine mailing list and user forum](https://groups."
+"google.com/g/openrefine).\n"
+"Include your operating system when searching to find the most relevant "
+"answers for your issue, such as threads related to [Windows](https://groups."
+"google.com/g/openrefine/search?q=windows), [macOS](https://groups.google.com/"
+"g/openrefine/search?q=macOS), or [Linux](https://groups.google.com/g/"
+"openrefine/search?q=linux)."
 msgstr ""
 
-#: lc-open-refine/setup.md:33
+#: lc-open-refine/setup.md:59
 msgid ""
-"If you are installing OpenRefine on Windows, you may want to check the forum"
-" for ['Windows' related "
-"threads](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/windows%7Csort:date)"
-" or specific threads like [Installing OpenRefine on Windows "
-"7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine"
-"/vUzqJqJ-sAA/Tb2Om9wvaqgJ)."
+"You may also want to check the [Stack Overflow OpenRefine tag](https://"
+"stackoverflow.com/questions/tagged/openrefine) or the [OpenRefine Gitter "
+"room](https://gitter.im/OpenRefine/OpenRefine)."
 msgstr ""
 
-#: lc-open-refine/setup.md:35
+#: lc-open-refine/setup.md:61
 msgid ""
 "There are also general and specialist tutorials about using OpenRefine "
 "available on the web, including:"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:37
+#: lc-open-refine/setup.md:63
 msgid ""
-"* [Getting started with OpenRefine by Thomas "
-"Padilla](http://thomaspadilla.org/dataprep/)"
+"* Official wiki [List of OpenRefine External Resources](https://github.com/"
+"OpenRefine/OpenRefine/wiki/External-Resources)"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:38
+#: lc-open-refine/setup.md:64
 msgid ""
-"* [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max"
-" De Wilde](http://programminghistorian.org/lessons/cleaning-data-with-"
+"* [Getting started with OpenRefine by Thomas Padilla](http://thomaspadilla."
+"org/dataprep/)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/setup.md:65
+msgid ""
+"* [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max "
+"De Wilde](http://programminghistorian.org/lessons/cleaning-data-with-"
 "openrefine)"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:39
+#: lc-open-refine/setup.md:66
 msgid ""
-"* [Blog posts on using OpenRefine from Owen "
-"Stephens](http://www.meanboyfriend.com/overdue_ideas/tag/openrefine/?orderby=date&order=ASC)"
+"* [Blog posts on using OpenRefine from Owen Stephens](http://www."
+"meanboyfriend.com/overdue_ideas/tag/openrefine/?orderby=date&order=ASC)"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:40
+#: lc-open-refine/setup.md:67
 msgid ""
 "* [Identifying potential headings for Authority work using III Sierra, MS "
 "Excel and OpenRefine](http://epublications.marquette.edu/lib_fac/81/)"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:41
+#: lc-open-refine/setup.md:68
 msgid "* [Free your metadata website](http://freeyourmetadata.org)"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:42
+#: lc-open-refine/setup.md:69
 msgid ""
 "* [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by "
 "Christina Harlow](http://journal.code4lib.org/articles/11013)"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:43
+#: lc-open-refine/setup.md:70
 msgid ""
-"* [Cleaning Data with OpenRefine by John "
-"Little](https://libjohn.github.io/openrefine/)"
+"* [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/"
+"openrefine/)"
 msgstr ""
 
 # unordered list
-#: lc-open-refine/setup.md:44
+#: lc-open-refine/setup.md:71
 msgid "* [OpenRefine Blog](https://openrefine.org/category/blog.html)"
 msgstr ""
 
-#: lc-open-refine/setup.md:46
+#: lc-open-refine/setup.md:73
 msgid "[template]: {{ site.workshop_repo }}"
 msgstr ""

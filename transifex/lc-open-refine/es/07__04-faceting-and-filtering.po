@@ -2,18 +2,18 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
 "PO-Revision-Date: 2020-05-30 18:17+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Front Matter
@@ -46,52 +46,31 @@ msgid "## Facets"
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:22
-msgid ""
-"Facets are one of the most useful features of OpenRefine and can help in "
-"both getting an overview of the data and to improve the consistency of the "
-"data."
+msgid "Facets are one of the most useful features of OpenRefine and can help in both getting an overview of the data and to improve the consistency of the data."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:24
-msgid ""
-"A 'Facet' groups all the values that appear in a column, and then allows you"
-" to filter the data by these values and edit values across many records at "
-"the same time."
+msgid "A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:26
-msgid ""
-"The simplest type of Facet is called a 'Text facet'. This simply groups all "
-"the text values in a column and lists each value with the number of records "
-"it appears in. The facet information always appears in the left hand panel "
-"in the OpenRefine interface."
+msgid "The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:28
-msgid ""
-"To create a Text Facet for a column, click on the drop down menu at the top "
-"of the publisher column and choose `Facet -> Text Facet`. The facet will "
-"then appear in the left hand panel."
+msgid "To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:30
-msgid ""
-"The facet consists of a list of values used in the data. You can filter the "
-"data displayed by clicking on one of these headings."
+msgid "The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:32
-msgid ""
-"You can include multiple values from the facet in a filter at one time by "
-"using the `Include` option which appears when you put your mouse over a "
-"value in the Facet."
+msgid "You can include multiple values from the facet in a filter at one time by using the `Include` option which appears when you put your mouse over a value in the Facet."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:34
-msgid ""
-"You can also `invert` the filter to show all records which do not match your"
-" selected values. This option appears at the top of the Facet panel when you"
-" select a value from the facet to apply as a filter."
+msgid "You can also `invert` the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:36
@@ -132,25 +111,15 @@ msgid "## Filters"
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:59
-msgid ""
-"As well as using Facets to filter the data displayed in OpenRefine you can "
-"also apply 'Text Filters' which looks for a particular piece of text "
-"appearing in a column. Text filters are applied by clicking the drop down "
-"menu at the top of the column you want to apply the filter to and choosing "
-"'Text filter'."
+msgid "As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column  based on a unique text string, like a 'find' feature. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:61
-msgid ""
-"As with Facets, the Filter options appear in the left hand panel in "
-"OpenRefine. Simply type in the text you want to use in the Filter to display"
-" only rows which contain that text in the relevant column."
+msgid "As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:63
-msgid ""
-"You can also use [regular expressions](https://librarycarpentry.github.io"
-"/lc-data-intro/01-regular-expressions/) in the filter."
+msgid "You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter."
 msgstr ""
 
 # header
@@ -159,12 +128,7 @@ msgid "## Working with filtered data"
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:66
-msgid ""
-"It is very important to note that when you have filtered the data displayed "
-"in OpenRefine, any operations you carry out will apply only to the rows that"
-" match the filter - that is the data currently being displayed. To confirm "
-"you are working with the data you intended to select, check the number of "
-"matching records displayed above the data table. "
+msgid "It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed. To confirm you are working with the data you intended to select, check the number of matching records displayed above the data table. "
 msgstr ""
 
 # header
@@ -173,9 +137,7 @@ msgid "## Other types of Facet "
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:69
-msgid ""
-"As well as 'Text facets' Refine also supports a range of other types of "
-"facet. These include:"
+msgid "As well as 'Text facets' Refine also supports a range of other types of facet. These include:"
 msgstr ""
 
 # unordered list
@@ -199,67 +161,39 @@ msgid "* Custom facets"
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:77
-msgid ""
-"**Numeric and Timeline facets** display graphs instead of lists of values. "
-"The graph includes 'drag and drop' controls you can use to set a start and "
-"end range to filter the data displayed."
+msgid "**Numeric and Timeline facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:79
-msgid ""
-"**Scatterplot facets** are less commonly used. For further information on "
-"these see the tutorial at "
-"[https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)."
+msgid "**Scatterplot facets** are less commonly used. For further information on these see the tutorial at [https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:81
-msgid ""
-"**Custom facets** are a range of different types of facets. Some of the "
-"default custom facets are:"
+msgid "**Custom facets** are a range of different types of facets. Some of the default custom facets are:"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:83
-msgid ""
-"* Word facet - this breaks down text into words and counts the number of "
-"records each word appears in"
+msgid "* Word facet - this breaks down text into words and counts the number of records each word appears in"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:84
-msgid ""
-"* Duplicates facet - this results in a binary facet of 'true' or 'false'. "
-"Rows appear in the 'true' facet if the value in the selected column is an "
-"exact match for a value in the same column in another row"
+msgid "* Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:85
-msgid ""
-"* Text length facet - creates a numeric facet based on the length (number of"
-" characters) of the text in each row for the selected column. This can be "
-"useful for spotting incorrect or unusual data in a field where specific "
-"lengths are expected (e.g. if the values are expected to be years, any row "
-"with a text length more than 4 for that column is likely to be incorrect)"
+msgid "* Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:86
-msgid ""
-"* Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the "
-"'true' facet if they have no data present in that column. This is useful "
-"when looking for rows missing key data."
+msgid "* Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:88
-msgid ""
-"Facets are intended to group together common values and OpenRefine limits "
-"the number of values allowed in a single facet to ensure the software does "
-"not perform slowly or run out of memory. If you create a facet where there "
-"are many unique values (for example, a facet on a 'book title' column in a "
-"data set that has one row per book) the facet created will be very large and"
-" may either slow down the application, or OpenRefine will not create the "
-"facet."
+msgid "Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:90
@@ -280,18 +214,11 @@ msgid "## Amending data through facets"
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:102
-msgid ""
-"If you create a text facet you can edit the values in the facet to change "
-"the value for several records at the same time. To do this, simply mouse-"
-"over the value you want to edit and click the 'edit' option that appears."
+msgid "If you create a text facet you can edit the values in the facet to change the value for several records at the same time. To do this, simply mouse-over the value you want to edit and click the 'edit' option that appears."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:104
-msgid ""
-"This approach is useful in relatively small facets where you might have "
-"small variations through punctuation or typing errors etc. For example, a "
-"column that should contain only terms from a small restricted list such as "
-"days of the week or months of the year."
+msgid "This approach is useful in relatively small facets where you might have small variations through punctuation or typing errors etc. For example, a column that should contain only terms from a small restricted list such as days of the week or months of the year."
 msgstr ""
 
 #: lc-open-refine/_episodes/04-faceting-and-filtering.md:106

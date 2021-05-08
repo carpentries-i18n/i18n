@@ -2,18 +2,18 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
 "PO-Revision-Date: 2020-05-30 18:17+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Front Matter
@@ -26,7 +26,8 @@ msgid ""
 "questions:\n"
 "- \"How do I use Arrays in data transformation?\"\n"
 "objectives:\n"
-"- \"Introduce Arrays, and how to use them to run transformations in GREL\"\n"
+"- \"Understand the purpose of Arrays in OpenRefine\"\n"
+"- \"Use arrays as part of transformations in GREL\"\n"
 "keypoints:\n"
 "- \"Arrays cannot appear directly in an OpenRefine cell\"\n"
 "- \"Arrays can be used in many ways using GREL expressions\"\n"
@@ -34,37 +35,28 @@ msgid ""
 msgstr ""
 
 # header
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:14
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:15
 msgid "## Arrays"
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:15
-msgid ""
-"An 'Array' is a list of values, represented in Refine by the use of square "
-"brackets containing a list of values surrounded by inverted commas and "
-"separated by commas. For example an array listing the days of the week would"
-" look like:"
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:16
+msgid "An 'Array' is a list of values, represented in Refine by the use of square brackets containing a list of values surrounded by inverted commas and separated by commas. For example an array listing the days of the week would look like:"
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:17
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:29
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:18
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:30
 msgid "[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"]"
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:19
-msgid ""
-"Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL "
-"expressions, but cannot appear directly in an OpenRefine cell. Arrays in "
-"OpenRefine are usually the result of a transformation. For example the "
-"```split``` function takes a string, and changes it into an array based on a"
-" 'separator'. For example if a cell has the value:"
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:20
+msgid "Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL expressions, but cannot appear directly in an OpenRefine cell. Arrays in OpenRefine are usually the result of a transformation. For example the ```split``` function takes a string, and changes it into an array based on a 'separator'. For example if a cell has the value:"
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:21
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:22
 msgid "\"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday\""
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:23
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:24
 msgid ""
 "This can be transformed into an array using the ```split``` function\n"
 "```\n"
@@ -73,7 +65,7 @@ msgid ""
 "This would create the array containing the days of the week:"
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:31
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:32
 msgid ""
 "This can be combined with array operations like ```sort```. For example, assuming the cell contains the same value as above, then the function\n"
 "```\n"
@@ -82,11 +74,11 @@ msgid ""
 "would result in an array containing the days of the week sorted in alphabetical order:"
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:37
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:38
 msgid "[\"Friday\",\"Monday\",\"Saturday\",\"Sunday\",\"Thursday\",\"Tuesday\",\"Wednesday\"]"
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:39
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:40
 msgid ""
 "To output a value from an array you can either select a specific value depending on its position in the list (with the first position treated as 'zero'). For example\n"
 "```\n"
@@ -95,7 +87,7 @@ msgid ""
 "would extract the first value from the array created by the ```split``` function. In the above example this would be \"Monday\""
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:45
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:46
 msgid ""
 "You can also join arrays together to make a 'String'. The GREL expression would look like\n"
 "```\n"
@@ -104,7 +96,7 @@ msgid ""
 "Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day."
 msgstr ""
 
-#: lc-open-refine/_episodes/11-using-arrays-transformations.md:51
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:52
 msgid ""
 ">## Reverse author names\n"
 ">You may already have done the boolean exercise and have a facet containing the names in natural order. In this case, select the 'true' facet and start with the step **\"1. On the ```Authors``` column use...\"**\n"

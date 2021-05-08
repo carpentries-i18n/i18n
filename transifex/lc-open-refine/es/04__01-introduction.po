@@ -2,22 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # David PS <dps.helio@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
 "PO-Revision-Date: 2020-05-30 18:17+0000\n"
 "Last-Translator: David PS <dps.helio@gmail.com>, 2021\n"
 "Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Front Matter
@@ -47,23 +47,11 @@ msgid "## What is OpenRefine?"
 msgstr ""
 
 #: lc-open-refine/_episodes/01-introduction.md:19
-msgid ""
-" OpenRefine is a desktop application that uses your web browser as a "
-"graphical interface. It is described as \"a power tool for working with "
-"messy data\" ([David "
-"Huynh](http://web.archive.org/web/20141021040915/http://davidhuynh.net/spaces/nicar2011/tutorial.pdf))"
-" - but what does this mean? It is probably easiest to describe the kinds of "
-"data OpenRefine is good at working with and the sorts of problems it can "
-"help you or your team solve."
+msgid " OpenRefine is a desktop application that uses your web browser as a graphical interface. It is described as \"a power tool for working with messy data\" ([David Huynh](http://web.archive.org/web/20141021040915/http://davidhuynh.net/spaces/nicar2011/tutorial.pdf)) - but what does this mean? It is probably easiest to describe the kinds of data OpenRefine is good at working with and the sorts of problems it can help you or your team solve."
 msgstr ""
 
 #: lc-open-refine/_episodes/01-introduction.md:21
-msgid ""
-"OpenRefine is most useful where you have data in a simple tabular format "
-"such as a spreadsheet, a comma separated values file (csv) or a tab "
-"delimited file (tsv) but with internal inconsistencies either in data "
-"formats, or where data appears, or in terminology used. OpenRefine can be "
-"used to standardize and clean data across your file. It can help you:"
+msgid "OpenRefine is most useful where you have data in a simple tabular format such as a spreadsheet, a comma separated values file (csv) or a tab delimited file (tsv) but with internal inconsistencies either in data formats, or where data appears, or in terminology used. OpenRefine can be used to standardize and clean data across your file. It can help you:"
 msgstr ""
 
 # unordered list
@@ -73,23 +61,17 @@ msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:24
-msgid ""
-"* Resolve inconsistencies in a data set, for example standardizing date "
-"formatting"
+msgid "* Resolve inconsistencies in a data set, for example standardizing date formatting"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:25
-msgid ""
-"* Help you split data up into more granular parts, for example splitting up "
-"cells with multiple authors into separate cells"
+msgid "* Help you split data up into more granular parts, for example splitting up cells with multiple authors into separate cells"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:26
-msgid ""
-"* Match local data up to other data sets, for example in matching local "
-"subjects against the Library of Congress Subject Headings"
+msgid "* Match local data up to other data sets, for example in matching local subjects against the Library of Congress Subject Headings"
 msgstr ""
 
 # unordered list
@@ -103,24 +85,17 @@ msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:31
-msgid ""
-"* Where you want to know how many times a particular value (name, publisher,"
-" subject) appears in a column in your data"
+msgid "* Where you want to know how many times a particular value (name, publisher, subject) appears in a column in your data"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:32
-msgid ""
-"* Where you want to know how values are distributed across your whole data "
-"set"
+msgid "* Where you want to know how values are distributed across your whole data set"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:33
-msgid ""
-"* Where you have a list of dates which are formatted in different ways, and "
-"want to change all the dates in the list to a single common date format. For"
-" example:"
+msgid "* Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:"
 msgstr ""
 
 #: lc-open-refine/_episodes/01-introduction.md:35
@@ -135,9 +110,7 @@ msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:42
-msgid ""
-"* Where you have a list of names or terms that differ from each other but "
-"refer to the same people, places or concepts. For example:"
+msgid "* Where you have a list of names or terms that differ from each other but refer to the same people, places or concepts. For example:"
 msgstr ""
 
 #: lc-open-refine/_episodes/01-introduction.md:44
@@ -152,12 +125,7 @@ msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:51
-msgid ""
-"* Where you have several bits of data combined together in a single column, "
-"and you want to separate them out into individual bits of data with one "
-"column for each bit of the data. For example going from a single address "
-"field (in the first column), to each part of the address in a separate "
-"field:"
+msgid "* Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:"
 msgstr ""
 
 #: lc-open-refine/_episodes/01-introduction.md:53
@@ -191,9 +159,7 @@ msgstr "## ¿Qué debería saber cuando trabajo con OpenRefine?"
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:69
-msgid ""
-"* No internet connection is needed, and none of the data or commands you "
-"enter in OpenRefine are sent to a remote server."
+msgid "* No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server."
 msgstr ""
 
 # unordered list
@@ -203,20 +169,14 @@ msgstr "* Tu NO estás modificando los datos originales/crudos."
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:71
-msgid ""
-"* Saving will happen automatically, but it's important to [properly shut "
-"down OpenRefine to ensure "
-"this](https://github.com/OpenRefine/OpenRefine/wiki/Installation-"
-"Instructions)."
+msgid "* Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C). See [History in User Manual](https://docs.openrefine.org/manual/running/#history-undoredo) for details."
 msgstr ""
-"* Se guardará automáticamente, pero es importante [cerrar propiamente "
-"OpenRefine para que ello "
-"ocurra](https://github.com/OpenRefine/OpenRefine/wiki/Installation-"
-"Instructions)."
 
 # unordered list
 #: lc-open-refine/_episodes/01-introduction.md:72
-msgid ""
-"* Files are saved locally such that if you are working on two computers you "
-"will have to export/import files/projects."
+msgid "* Files are saved locally such that if you are working on two computers you will have to export/import files/projects."
 msgstr ""
+
+# unordered list
+#~ msgid "* Saving will happen automatically, but it's important to [properly shut down OpenRefine to ensure this](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)."
+#~ msgstr "* Se guardará automáticamente, pero es importante [cerrar propiamente OpenRefine para que ello ocurra](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)."

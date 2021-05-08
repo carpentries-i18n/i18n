@@ -2,18 +2,18 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
 "PO-Revision-Date: 2020-05-30 18:17+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Front Matter
@@ -40,28 +40,15 @@ msgid "## Writing transformations"
 msgstr ""
 
 #: lc-open-refine/_episodes/08-writing-transformations.md:17
-msgid ""
-"To start writing transformations, select the column on which you wish to "
-"perform a transformation and choose ```Edit cells->Transform…```. In the "
-"screen that displays you have a place to write a transformation (the "
-"'Expression' box) and then the ability to Preview the effect the "
-"transformation would have on 10 rows of your data."
+msgid "To start writing transformations, select the column on which you wish to perform a transformation and choose ```Edit cells->Transform…```. In the screen that displays you have a place to write a transformation (the 'Expression' box) and then the ability to Preview the effect the transformation would have on 10 rows of your data."
 msgstr ""
 
 #: lc-open-refine/_episodes/08-writing-transformations.md:19
-msgid ""
-"The transformation you type into the 'Expression' box has to be a valid GREL"
-" expression. The simplest expression is simply the word 'value' by itself - "
-"which simply means the value that is currently in the column - that is: make"
-" no change."
+msgid "The transformation you type into the 'Expression' box has to be a valid GREL expression. The simplest expression is simply the word 'value' by itself - which simply means the value that is currently in the column - that is: make no change."
 msgstr ""
 
 #: lc-open-refine/_episodes/08-writing-transformations.md:21
-msgid ""
-"GREL functions are written by giving a value of some kind (a text string, a "
-"date, a number etc.) to a GREL function. Some GREL functions take additional"
-" parameters or options which control how the function works. GREL supports "
-"two types of syntax:"
+msgid "GREL functions are written by giving a value of some kind (a text string, a date, a number etc.) to a GREL function. Some GREL functions take additional parameters or options which control how the function works. GREL supports two types of syntax:"
 msgstr ""
 
 # unordered list
@@ -75,9 +62,7 @@ msgid "* ```function(value, options)```"
 msgstr ""
 
 #: lc-open-refine/_episodes/08-writing-transformations.md:26
-msgid ""
-"Either is valid, and which is used is completely down to personal "
-"preference. In these notes the first syntax is used."
+msgid "Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used."
 msgstr ""
 
 #: lc-open-refine/_episodes/08-writing-transformations.md:28
@@ -86,23 +71,17 @@ msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/08-writing-transformations.md:30
-msgid ""
-"* 'History' - a list of transformations you've previously used with the "
-"option to reuse them immediately or to 'star' them for easy access"
+msgid "* 'History' - a list of transformations you've previously used with the option to reuse them immediately or to 'star' them for easy access"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/08-writing-transformations.md:31
-msgid ""
-"* 'Starred' - a list of transformations you've 'starred' via the 'History' "
-"view"
+msgid "* 'Starred' - a list of transformations you've 'starred' via the 'History' view"
 msgstr ""
 
 # unordered list
 #: lc-open-refine/_episodes/08-writing-transformations.md:32
-msgid ""
-"* 'Help' - a list of all the GREL functions and brief information on how to "
-"use them"
+msgid "* 'Help' - a list of all the GREL functions and brief information on how to use them"
 msgstr ""
 
 #: lc-open-refine/_episodes/08-writing-transformations.md:34

@@ -2,25 +2,23 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
 "PO-Revision-Date: 2020-05-30 18:18+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # header
 #: lc-open-refine/files/draft-instructor-notes.md:1
-msgid ""
-"# Chris Erdmann Instructor notes from "
-"https://libcce.github.io/2018-10-18-UNC/"
+msgid "# Chris Erdmann Instructor notes from https://libcce.github.io/2018-10-18-UNC/"
 msgstr ""
 
 # header
@@ -177,9 +175,7 @@ msgid ""
 msgstr ""
 
 #: lc-open-refine/files/draft-instructor-notes.md:96
-msgid ""
-"This allows us to use various algorithms to find name variations and then "
-"match"
+msgid "This allows us to use various algorithms to find name variations and then match"
 msgstr ""
 
 #: lc-open-refine/files/draft-instructor-notes.md:98
@@ -284,9 +280,7 @@ msgstr ""
 
 # unordered list
 #: lc-open-refine/files/draft-instructor-notes.md:155
-msgid ""
-"- That's something you can do with unstructured data but we know we can grab"
-" structured data... from CrossRef for example."
+msgid "- That's something you can do with unstructured data but we know we can grab structured data... from CrossRef for example."
 msgstr ""
 
 # unordered list
@@ -360,8 +354,7 @@ msgid ""
 msgstr ""
 
 #: lc-open-refine/files/draft-instructor-notes.md:194
-msgid ""
-"https://www.lib.ncsu.edu/news/orcid%3A-the-number-that-every-academic-needs"
+msgid "https://www.lib.ncsu.edu/news/orcid%3A-the-number-that-every-academic-needs"
 msgstr ""
 
 # header
@@ -394,7 +387,7 @@ msgstr ""
 #: lc-open-refine/files/draft-instructor-notes.md:208
 msgid ""
 "Allocate more memory:\n"
-"https://github.com/OpenRefine/OpenRefine/wiki/FAQ%3A-Allocate-More-Memory"
+"https://docs.openrefine.org/manual/installing/#increasing-memory-allocation"
 msgstr ""
 
 #: lc-open-refine/files/draft-instructor-notes.md:212

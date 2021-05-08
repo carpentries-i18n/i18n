@@ -2,18 +2,18 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2020-05-30 19:04:32+0100\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
 "PO-Revision-Date: 2020-05-30 18:17+0000\n"
 "Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Front Matter
@@ -38,15 +38,9 @@ msgid "## Exporting data"
 msgstr ""
 
 #: lc-open-refine/_episodes/12-export-transformation.md:14
-msgid ""
-"Once you have finished working with a data set in OpenRefine you may wish to"
-" export it. The export options are accessed through the ```Export``` button "
-"at the top right of the OpenRefine interface."
+msgid "Once you have finished working with a data set in OpenRefine you may wish to export it. The export options are accessed through the ```Export``` button at the top right of the OpenRefine interface."
 msgstr ""
 
 #: lc-open-refine/_episodes/12-export-transformation.md:16
-msgid ""
-"Export formats support include HTML, Excel and comma- and tab-separated "
-"value (csv and tsv). You can also write a custom export, selecting to export"
-" specific fields, adding a header or footer and specifying the exact format."
+msgid "Export formats support include HTML, Excel and comma- and tab-separated value (csv and tsv). You can also write a custom export, selecting to export specific fields, adding a header or footer and specifying the exact format."
 msgstr ""
