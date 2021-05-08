@@ -106,6 +106,7 @@ class Pofiles:
         # for pot in pots:
         #     _set_source_file(tx_dir, self.lesson, 'en', pot)
         if update:
+            # FIXME - what happens if a file changes name or is removed?
             command = f"""
             mkdir {lesson_directory}/../final
             for file in {lesson_directory}/*; do
@@ -153,8 +154,9 @@ class Pofiles:
         header = master_header
         # find line with last revision date and replace it.
         # NOTE Transifex is not updating that field!
-        header[header.index(porev_line)] = last_touch[1]
-        header[header.index(porev_line) + 1] = last_touch[0]
+        porev_index = [x for x, line in enumerate(header) if line[:18] in porev_line][0]
+        header[porev_index] = last_touch[1]
+        header[porev_index + 1] = last_touch[0]
 
         # get unique and sorted names of translators
         translators = sorted(set(translators))
