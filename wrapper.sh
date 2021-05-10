@@ -469,6 +469,10 @@ if [[ $render == true ]]; then
         exit 1
     fi
 
+    if [[ -d ${repo}/_locale ]]; then
+        rm -rf ${repo}/_locale
+    fi
+
     if [[ -f po/${repo}.${locale}.po ]]; then
         echo "File po/${repo}.${locale}.po exists: exporting translated lesson"
     else
