@@ -31,3 +31,6 @@
 [submodule "instructor-training"]
 	path = instructor-training
 	url = git@github.com:carpentries-i18n/instructor-training.git
+[submodule "lc-open-refine"]
+	path = lc-open-refine
+	url = git@github.com:swcarpentry-ja/lc-open-refine

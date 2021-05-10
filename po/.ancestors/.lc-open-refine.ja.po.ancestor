@@ -1,0 +1,2793 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-05-10 11:10:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lc-open-refine/CODE_OF_CONDUCT.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Contributor Code of Conduct\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/CODE_OF_CONDUCT.md:5
+msgid "As contributors and maintainers of this project,\n"
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
+msgstr ""
+
+#: lc-open-refine/CODE_OF_CONDUCT.md:8
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+
+#: lc-open-refine/CODE_OF_CONDUCT.md:11
+msgid "{% include links.md %}"
+msgstr ""
+
+#: lc-open-refine/CONTRIBUTING.md:1
+msgid "*Library Carpentry builds on the work of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]. It uses the same contribution guidelines as these projects. This can be found below.*"
+msgstr ""
+
+#: lc-open-refine/CONTRIBUTING.md:3
+# Front Matter
+msgid "----\n"
+"\n"
+"# Contributing\n"
+"\n"
+"[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,\n"
+"and we welcome contributions of all kinds:\n"
+"new lessons,\n"
+"fixes to existing material,\n"
+"bug reports,\n"
+"and reviews of proposed changes are all welcome.\n"
+"\n"
+"## Contributor Agreement\n"
+"\n"
+"By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+"and help you become a member of our community.\n"
+"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"agrees to abide by our [code of conduct](CONDUCT.md).\n"
+"\n"
+"## How to Contribute\n"
+"\n"
+"The easiest way to get started is to file an issue\n"
+"to tell us about a spelling mistake,\n"
+"some awkward wording,\n"
+"or a factual error.\n"
+"This is a good way to introduce yourself\n"
+"and to meet some of our community members.\n"
+"\n"
+"1.  If you do not have a [GitHub][github] account,\n"
+"    you can [send us comments by email][contact].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other methods described below.\n"
+"\n"
+"2.  If you have a [GitHub][github] account,\n"
+"    or are willing to [create one][github-join],\n"
+"    but do not know how to use Git,\n"
+"    you can report problems or suggest improvements by [creating an issue][issues].\n"
+"    This allows us to assign the item to someone\n"
+"    and to respond to it in a threaded discussion.\n"
+"\n"
+"3.  If you are comfortable with Git,\n"
+"    and would like to add or change material,\n"
+"    you can submit a pull request (PR).\n"
+"    Instructions for doing this are [included below](#using-github).\n"
+"\n"
+"## Where to Contribute\n"
+"\n"
+"1.  If you wish to change this lesson,\n"
+"    please work in <https://github.com/LibraryCarpentry/lc-open-refine>,\n"
+"    which can be viewed at <https://librarycarpentry.github.io/lc-open-refine/>.\n"
+"\n"
+"2.  If you wish to change the example lesson,\n"
+"    please work in <https://github.com/swcarpentry/lesson-example>,\n"
+"    which documents the format of our lessons\n"
+"    and can be viewed at <https://swcarpentry.github.io/lesson-example>.\n"
+"\n"
+"3.  If you wish to change the template used for workshop websites,\n"
+"    please work in <https://github.com/swcarpentry/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop websites,\n"
+"    while the extra pages in <https://swcarpentry.github.io/workshop-template>\n"
+"    provide more background on our design choices.\n"
+"\n"
+"4.  If you wish to change CSS style files, tools,\n"
+"    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+"    please work in <https://github.com/swcarpentry/styles>.\n"
+"\n"
+"## What to Contribute\n"
+"\n"
+"There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas,\n"
+"please see [the list of issues for this repository][issues],\n"
+"or the issues for [Data Carpentry][dc-issues]\n"
+"and [Software Carpentry][swc-issues] projects.\n"
+"\n"
+"Comments on issues and reviews of pull requests are just as welcome:\n"
+"we are smarter together than we are on our own.\n"
+"Reviews from novices and newcomers are particularly valuable:\n"
+"it's easy for people who have been using these lessons for a while\n"
+"to forget how impenetrable some of this material can be,\n"
+"so fresh eyes are always welcome.\n"
+"\n"
+"## What *Not* to Contribute\n"
+"\n"
+"Our lessons already contain more material than we can cover in a typical workshop,\n"
+"so we are usually *not* looking for more concepts or tools to add to them.\n"
+"As a rule,\n"
+"if you want to introduce a new idea,\n"
+"you must (a) estimate how long it will take to teach\n"
+"and (b) explain what you would take out to make room for it.\n"
+"The first encourages contributors to be honest about requirements;\n"
+"the second, to think hard about priorities.\n"
+"\n"
+"We are also not looking for exercises or other material that only run on one platform.\n"
+"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux users;\n"
+"in order to be usable,\n"
+"our lessons must run equally well on all three.\n"
+"\n"
+"## Using GitHub\n"
+"\n"
+"If you choose to contribute via GitHub,\n"
+"you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"In brief:\n"
+"\n"
+"1.  The published copy of the lesson is in the `gh-pages` branch of the repository\n"
+"    (so that GitHub will regenerate it automatically).\n"
+"    Please create all branches from that,\n"
+"    and merge the [master repository][repo]'s `gh-pages` branch into your `gh-pages` branch\n"
+"    before starting work.\n"
+"    Please do *not* work directly in your `gh-pages` branch,\n"
+"    since that will make it difficult for you to work on other contributions.\n"
+"\n"
+"2.  We use [GitHub flow][github-flow] to manage changes:\n"
+"    1.  Create a new branch in your desktop copy of this repository for each significant change.\n"
+"    2.  Commit the change in that branch.\n"
+"    3.  Push that branch to your fork of this repository on GitHub.\n"
+"    4.  Submit a pull request from that branch to the [master repository][repo].\n"
+"    5.  If you receive feedback,\n"
+"        make changes on your desktop and push to your branch on GitHub:\n"
+"        the pull request will update automatically.\n"
+"\n"
+"Each lesson has two maintainers who review issues and pull requests\n"
+"or encourage others to do so.\n"
+"The maintainers are community volunteers,\n"
+"and have final say over what gets merged into the lesson.\n"
+"\n"
+"## Other Resources\n"
+"\n"
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][contact].\n"
+"\n"
+"[contact]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[example-site]: https://swcarpentry.github.io/lesson-example/\n"
+"[github]: http://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[issues]: https://github.com/LibraryCarpentry/lc-open-refine/issues\n"
+"[repo]: https://github.com/LibraryCarpentry/lc-open-refine\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: http://software-carpentry.org/lessons/\n"
+"[swc-site]: http://software-carpentry.org/"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Licenses\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:6
+# header
+msgid "## Instructional Material"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:8
+msgid "All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is made available under the [Creative Commons Attribution\n"
+"license][cc-by-human]. The following is a human-readable summary of\n"
+"(and not a substitute for) the [full legal text of the CC BY 4.0\n"
+"license][cc-by-legal]."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:13
+msgid "You are free:"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:15
+# unordered list
+msgid "* to **Share**---copy and redistribute the material in any medium or format"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:16
+# unordered list
+msgid "* to **Adapt**---remix, transform, and build upon the material"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:18
+msgid "for any purpose, even commercially."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:20
+msgid "The licensor cannot revoke these freedoms as long as you follow the\n"
+"license terms."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:23
+msgid "Under the following terms:"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:25
+# unordered list
+msgid "* **Attribution**---You must give appropriate credit (mentioning that"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:26
+msgid "  your work is derived from work that is Copyright © Software\n"
+"  Carpentry and, where practical, linking to\n"
+"  http://software-carpentry.org/), provide a [link to the\n"
+"  license][cc-by-human], and indicate if changes were made. You may do\n"
+"  so in any reasonable manner, but not in any way that suggests the\n"
+"  licensor endorses you or your use."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:33
+msgid "**No additional restrictions**---You may not apply legal terms or\n"
+"technological measures that legally restrict others from doing\n"
+"anything the license permits.  With the understanding that:"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:37
+msgid "Notices:"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:39
+# unordered list
+msgid "* You do not have to comply with the license for elements of the"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:40
+msgid "  material in the public domain or where your use is permitted by an\n"
+"  applicable exception or limitation.\n"
+"* No warranties are given. The license may not give you all of the\n"
+"  permissions necessary for your intended use. For example, other\n"
+"  rights such as publicity, privacy, or moral rights may limit how you\n"
+"  use the material."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:47
+# header
+msgid "## Software"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:49
+msgid "Except where otherwise noted, the example programs and other software\n"
+"provided by Software, Data and Library Carpentry are made available under the\n"
+"[OSI][osi]-approved\n"
+"[MIT license][mit-license]."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:54
+msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:62
+msgid "The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:65
+msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
+"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
+"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
+"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:73
+# header
+msgid "## Trademark"
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:75
+msgid "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+"are registered trademarks of [Community Initiatives][CI]."
+msgstr ""
+
+#: lc-open-refine/LICENSE.md:78
+msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org"
+msgstr ""
+
+#: lc-open-refine/README.md:1
+msgid "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)  "
+msgstr ""
+
+#: lc-open-refine/README.md:3
+# header
+msgid "# Maintainers for Library Carpentry: OpenRefine"
+msgstr ""
+
+#: lc-open-refine/README.md:5
+# unordered list
+msgid "- [Erin Carrillo](https://github.com/partiecolored) (Lead) "
+msgstr ""
+
+#: lc-open-refine/README.md:6
+# unordered list
+msgid "- [Owen Stephens](https://github.com/ostephens)"
+msgstr ""
+
+#: lc-open-refine/README.md:7
+# unordered list
+msgid "- [Paul R. Pival](https://github.com/ppival)"
+msgstr ""
+
+#: lc-open-refine/README.md:8
+# unordered list
+msgid "- [Kristin Lee](https://github.com/kristindawn)"
+msgstr ""
+
+#: lc-open-refine/README.md:10
+# header
+msgid "# Past Maintainers for Library Carpentry: OpenRefine"
+msgstr ""
+
+#: lc-open-refine/README.md:12
+# unordered list
+msgid "- [Carmi Cronje](https://github.com/ccronje)"
+msgstr ""
+
+#: lc-open-refine/README.md:13
+# unordered list
+msgid "- [Chris Erdmann](https://github.com/libcce)"
+msgstr ""
+
+#: lc-open-refine/README.md:14
+# unordered list
+msgid "- [Juliane Schneider](https://github.com/pitviper6)"
+msgstr ""
+
+#: lc-open-refine/README.md:16
+msgid "Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-open-refine-maintainers)."
+msgstr ""
+
+#: lc-open-refine/README.md:18
+# header
+msgid "## Library Carpentry"
+msgstr ""
+
+#: lc-open-refine/README.md:20
+msgid "[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/)."
+msgstr ""
+
+#: lc-open-refine/README.md:22
+# header
+msgid "## License"
+msgstr ""
+
+#: lc-open-refine/README.md:24
+msgid "All Software, Data, and Library Carpentry instructional material is made available under the [Creative Commons Attribution\n"
+"license](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/LICENSE.md)."
+msgstr ""
+
+#: lc-open-refine/README.md:27
+# header
+msgid "## Contributing"
+msgstr ""
+
+#: lc-open-refine/README.md:29
+msgid "There are many ways to discuss and contribute to Library Carpentry lessons. Visit the lesson [discussion page](https://librarycarpentry.org/lc-open-refine/discuss/index.html) to learn more. Also see [Contributing](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/CONTRIBUTING.md)."
+msgstr ""
+
+#: lc-open-refine/README.md:31
+# header
+msgid "## Code of Conduct"
+msgstr ""
+
+#: lc-open-refine/README.md:33
+msgid "All participants should agree to abide by The Carpentries [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)."
+msgstr ""
+
+#: lc-open-refine/README.md:35
+# header
+msgid "## Authors"
+msgstr ""
+
+#: lc-open-refine/README.md:37
+msgid "Library Carpentry is authored and maintained through issues, commits, and pull requests from the community."
+msgstr ""
+
+#: lc-open-refine/README.md:39
+# header
+msgid "## Citation"
+msgstr ""
+
+#: lc-open-refine/README.md:41
+msgid "Erin Carillo (Ed.), Owen Stephens (Ed.), Juliane Schneider (Ed.), Paul R. Pival (Ed.), Kristin Lee (Ed.), Carmi Cronje (Ed.), James Baker, Christopher Erdmann, Tim Dennis, mhidas, Daniel Bangert, Evan Williamson, … Jeffrey Oliver. (2019, July). LibraryCarpentry/lc-open-refine: Library Carpentry: OpenRefine, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3266144"
+msgstr ""
+
+#: lc-open-refine/README.md:43
+msgid "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)"
+msgstr ""
+
+#: lc-open-refine/README.md:45
+# header
+msgid "## Checking and Previewing the Lesson"
+msgstr ""
+
+#: lc-open-refine/README.md:47
+msgid "To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](http://carpentries.github.io/lesson-example/07-checking/index.html)."
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Introduction to OpenRefine\"\n"
+"teaching: 15\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"What is OpenRefine? What can it do?\"\n"
+"objectives:\n"
+"- \"Explain what the OpenRefine software does\"\n"
+"- \"Explain how the OpenRefine software can help work with data files\"\n"
+"keypoints:\n"
+"- \"OpenRefine is 'a tool for working with messy data'\"\n"
+"- \"OpenRefine works best with data in a simple tabular format\"\n"
+"- \"OpenRefine can help you split data up into more granular parts\"\n"
+"- \"OpenRefine can help you match local data up to other data sets\"\n"
+"- \"OpenRefine can help you enhance a data set with data from other sources\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:18
+# header
+msgid "## What is OpenRefine?"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:19
+msgid " OpenRefine is a desktop application that uses your web browser as a graphical interface. It is described as \"a power tool for working with messy data\" ([David Huynh](http://web.archive.org/web/20141021040915/http://davidhuynh.net/spaces/nicar2011/tutorial.pdf)) - but what does this mean? It is probably easiest to describe the kinds of data OpenRefine is good at working with and the sorts of problems it can help you or your team solve."
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:21
+msgid "OpenRefine is most useful where you have data in a simple tabular format such as a spreadsheet, a comma separated values file (csv) or a tab delimited file (tsv) but with internal inconsistencies either in data formats, or where data appears, or in terminology used. OpenRefine can be used to standardize and clean data across your file. It can help you:"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:23
+# unordered list
+msgid "* Get an overview of a data set"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:24
+# unordered list
+msgid "* Resolve inconsistencies in a data set, for example standardizing date formatting"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:25
+# unordered list
+msgid "* Help you split data up into more granular parts, for example splitting up cells with multiple authors into separate cells"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:26
+# unordered list
+msgid "* Match local data up to other data sets, for example in matching local subjects against the Library of Congress Subject Headings"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:27
+# unordered list
+msgid "* Enhance a data set with data from other sources"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:29
+msgid "Some common scenarios might be:"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:31
+# unordered list
+msgid "* Where you want to know how many times a particular value (name, publisher, subject) appears in a column in your data"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:32
+# unordered list
+msgid "* Where you want to know how values are distributed across your whole data set"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:33
+# unordered list
+msgid "* Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:35
+msgid "| Data you have   | Desired data |\n"
+"|-----------------|:-------------|\n"
+"| 1st January 2014| 2014-01-01   |\n"
+"| 01/01/2014      | 2014-01-01   |\n"
+"| Jan 1 2014      | 2014-01-01   |\n"
+"| 2014-01-01      | 2014-01-01   |"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:42
+# unordered list
+msgid "* Where you have a list of names or terms that differ from each other but refer to the same people, places or concepts. For example:"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:44
+msgid "| Data you have   | Desired data |\n"
+"|-----------------|:-------------|\n"
+"| London          | London       |\n"
+"| London]         | London       |\n"
+"| London,]        | London       |\n"
+"| london          | London       |"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:51
+# unordered list
+msgid "* Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:53
+msgid "| Address in single field | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |\n"
+"|-------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|\n"
+"| University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS, United Kingdom | University of Wales | Llyfrgell Thomas Parry Library | Llanbadarn Fawr | | Aberystwyth | Ceredigion | United Kingdom | SY23 3AS |\n"
+"| University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE, United Kingdom | University of Abderdeen | Queen Mother Library | Meston Walk | | Aberdeen | | United Kingdom | AB24 3UE |\n"
+"| University of Birmingham, Barnes Library, Medical School, Edgbaston, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library | Medical School | Edgbaston | Birmingham | West Midlands | United Kingdom | B15 2TT |\n"
+"| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | | Coventry | | United Kingdom | CV4 7AL |"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:60
+# unordered list
+msgid "* Where you want to add to your data from an external data source:"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:62
+msgid "| Data you have   | Date of Birth from VIAF (Virtual International Authority File) | Date of Death from VIAF (Virtual International Authority File) |\n"
+"|-----------------|:-------------|:-------------|\n"
+"| Braddon, M. E. (Mary Elizabeth) | 1835 | 1915 |\n"
+"| Rossetti, William Michael       | 1829 | 1919 |\n"
+"| Prest, Thomas Peckett           | 1810 | 1879 |"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:68
+# header
+msgid "## What Should I Know When Working With OpenRefine?"
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:69
+# unordered list
+msgid "* No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server."
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:70
+# unordered list
+msgid "* You are NOT modifying original/raw data."
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:71
+# unordered list
+msgid "* Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C). See [History in User Manual](https://docs.openrefine.org/manual/running/#history-undoredo) for details."
+msgstr ""
+
+#: lc-open-refine/_episodes/01-introduction.md:72
+# unordered list
+msgid "* Files are saved locally such that if you are working on two computers you will have to export/import files/projects."
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Importing data into OpenRefine\"\n"
+"teaching: 10\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How do I get data into OpenRefine?\"\n"
+"objectives:\n"
+"- \"Successfully import data into OpenRefine\"\n"
+"keypoints:\n"
+"- \"Use the `Create Project` option to import data\"\n"
+"- \"You can control how data imports using options on the import screen\"\n"
+"- \"Several files types may be imported into OpenRefine.\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:15
+# header
+msgid "## Importing data"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:17
+msgid ">## What kinds of data files can I import?\n"
+">There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:\n"
+">\n"
+">* TSV (tab-separated values)\n"
+">* CSV (comma-separated values)\n"
+">* Excel\n"
+">* JSON (javascript object notation)\n"
+">* XML\n"
+">* Google Spreadsheet"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:26
+#: lc-open-refine/_episodes/03-working-with-data.md:113
+#: lc-open-refine/_episodes/10-data-transformation.md:29
+# SC/DC Template label
+msgid "{: .callout}"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:28
+msgid ">## Create your first OpenRefine project (using provided data)\n"
+">\n"
+"> To import the data for the exercise below, follow the instructions in [Setup](https://librarycarpentry.github.io/lc-open-refine/setup.html) to download the data and run OpenRefine. *NOTE: If OpenRefine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the OpenRefine interface.*\n"
+">\n"
+">1. Once OpenRefine is launched in your browser, click `Create Project` from the left hand menu and select `Get data from This Computer`\n"
+">2. Click `Choose Files` (or 'Browse', depending on your setup) and locate the file which you have downloaded called `doaj-article-sample.csv`\n"
+">3. Click `Next >>` - the next screen (see below) gives you options to ensure the data is imported into OpenRefine correctly. The options vary depending on the type of data you are importing.\n"
+">4. Click in the `Character encoding` box and set it to `UTF-8`. This ensures that OpenRefine correctly interprets the imported data as UTF-8 encoded. If you don't select this you may find that some special characters (e.g. smart quotation marks) are not displayed correctly.\n"
+">5. Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers`\n"
+">6. OpenRefine will automatically select \"Use character\" to enclose cells containing column separators as this will place data in one cell where the values are enclosed in quotes from the source dataset\n"
+">7. From OpenRefine 3.4 onwards there is an option to Trim leading & trailing whitespace from strings when importing separator-based files. Keeping this checked will ensure that values like `English` and `English `, which differ by a single trailing space, are not treated as different values after the import\n"
+">8. Make sure the `Parse cell text into numbers, dates, ...` box is not checked, so OpenRefine doesn't try to automatically detect numbers as it may cause errors such as confusion between date formats (e.g. DD/MM/YYYY vs MM/DD/YYYY)\n"
+">9. The Project Name box in the upper right corner will default to the title of your imported file. Click in the `Project Name` box to give your project a different name, if desired.\n"
+">10. Once you are happy click the `Create Project >>` button at the top right of the screen. This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.\n"
+">   \n"
+"> ![Create project screen capture](../assets/img/openrefine_ui.png)"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:44
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:42
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:47
+#: lc-open-refine/_episodes/08-writing-transformations.md:45
+#: lc-open-refine/_episodes/10-data-transformation.md:42
+#: lc-open-refine/_episodes/10-data-transformation.md:66
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:79
+# SC/DC Template label
+msgid "{: .checklist}"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:46
+msgid "To open an existing project in OpenRefine you can click `Open Project` from the main OpenRefine screen (in the left hand menu). When you click this, you will see a list of the existing projects and can click on a project's name to open it."
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:48
+# header
+msgid "### Going Further"
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:49
+# unordered list
+msgid "* Look at the other options on the Import screen - try changing some of these options and see how that changes the Preview and how the data appears after import."
+msgstr ""
+
+#: lc-open-refine/_episodes/02-importing-data.md:50
+# unordered list
+msgid "* Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Layout of OpenRefine, Rows vs Records\"\n"
+"teaching:  10\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How is data organised in OpenRefine?\"\n"
+"- \"How do I access options to amend data in OpenRefine?\"\n"
+"- \"What is the difference between Rows and Records in OpenRefine?\"\n"
+"- \"How do I work with single cells that contain multiple values in a list?\"\n"
+"objectives:\n"
+"- Locate controls for navigating data in OpenRefine\n"
+"- Find options to work with data through the OpenRefine dropdown menus\n"
+"- Split cells which contain multiple bits of data so that each piece of data is in its own cell\n"
+"keypoints:\n"
+"- \"OpenRefine uses rows and columns to display data\"\n"
+"- \"Most options to work with data in OpenRefine are accessed through a drop down menu at the top of a data column\"\n"
+"- \"When you select an option in a particular column (e.g. to make a change to the data), it will affect all the cells in that column\"\n"
+"- \"OpenRefine has a Records mode which links together multiple rows into a single record\"\n"
+"- \"Split and join multi-valued cells to modify the individual values within them\"\n"
+"- \"When creating multi-valued cells in your data, choose a separator that will not appear in the data values\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:23
+# header
+msgid "## The layout of OpenRefine"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:24
+msgid "OpenRefine displays data in a tabular format. Each row will usually represent a 'record' in the data, while each column represents a type of information. This is very similar to how you might view data in a spreadsheet or database. As with a spreadsheet, the individual bits of data live in 'cells' at the intersection of a row and a column."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:26
+msgid "OpenRefine only displays a limited number of rows of data at one time. You can adjust the number choosing between 5, 10 (the default), 25 and 50 at the top left of the table of data. You can navigate through the records by using the previous/next/first/last navigation options at the top right of the table of data."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:28
+# header
+msgid "## Working with data in OpenRefine"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:29
+msgid "Most options to work with data in OpenRefine are accessed from drop down menus at the top of the data columns. When you select an option in a particular column (e.g. to make a change to the data), it will affect all the cells in that column. If you want to make changes across several columns, you will need to do this one column at a time."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:31
+# header
+msgid "## Rows and Records"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:32
+msgid "OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:34
+# header
+msgid "### Splitting Cells"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:36
+msgid "To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol ( \\| )."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:38
+msgid "To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells, we can use a `Split multi-valued cells` function:"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:40
+#: lc-open-refine/_episodes/03-working-with-data.md:62
+# unordered list
+msgid "* Click the dropdown menu at the top of the Author column"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:41
+# unordered list
+msgid "* Choose `Edit cells->Split multi-valued cells`"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:42
+# unordered list
+msgid "* In the prompt type the ( \\| ) symbol and click `OK`"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:43
+# unordered list
+msgid "    * Note that the rows are still numbered sequentially"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:44
+# unordered list
+msgid "* Click the `Records` option to change to Records mode"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:45
+# unordered list
+msgid "    * Note how the numbering has changed - indicating that several rows are related to the same record"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:47
+msgid " ![rows](../assets/img/rows.png)\n"
+" ![records](../assets/img/records.png)"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:50
+msgid "Now that we can split multi-valued cells, we'll cover how to join them back together."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:52
+# header
+msgid "### Joining Cells"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:54
+msgid "A common workflow with multi-valued cells is"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:56
+# unordered list
+msgid "- split multi-valued cells into individual cells (what we did above)"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:57
+# unordered list
+msgid "- modify/refine/clean individual cells"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:58
+# unordered list
+msgid "- join multi-valued cells back together"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:60
+msgid "Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together that have been split previously."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:63
+# unordered list
+msgid "* Choose `Edit cells->Join multi-valued cells`"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:64
+# unordered list
+msgid "* In the prompt type the ( \\| ) symbol"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:65
+# unordered list
+msgid "    * Here we are specifying the *delimiter* character for OpenRefine to use to join the values together."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:66
+# unordered list
+msgid "* Click `OK` to join the Authors cells back together"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:68
+msgid "You will now see that split rows have gone away - the Authors have been joined into a single cell with the specified delimiter. Our Rows and\n"
+"Records values will now be the same since we do not have any more columns with split (multi-valued) cells."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:71
+# unordered list
+msgid "* Click both the `Rows` and `Records` options and observe how the numbers of Rows and Records are equal"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:73
+# header
+msgid "### Choosing a good separator"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:75
+msgid "The value that separates multi-valued cells is called a separator or delimiter. Choosing a good\n"
+"separator is important. In the examples, we've seen the pipe character ( \\| ) has been used."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:78
+msgid "Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example.\n"
+"with a pipe as a separator.\n"
+"```\n"
+"Jones, Andrew | Davis, S.\n"
+"```"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:84
+msgid "When we tell OpenRefine to split this cell on the pipe ( \\| ), we will get the following two authors each in their own cell since there is a single pipe character separating them."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:86
+# unordered list
+msgid "- **Author 1:** Jones, Andrew"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:87
+# unordered list
+msgid "- **Author 2:** Davis, S."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:89
+msgid "Now imagine that the document creator had chosen a **comma** as the separator instead of a pipe."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:91
+# code block
+msgid "```\n"
+"Jones, Andrew , Davis, S.\n"
+"```"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:95
+msgid "Can you spot the problem? Can you tell where one author stops and the next begins?  "
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:97
+msgid "OpenRefine will split on **every** comma it encounters,\n"
+"so we'll end up with 4 authors, not two, because OpenRefine cannot tell that **Jones, Andrew** is supposed to be a single author. We will get\n"
+"the following four \"authors\" because there are 3 commas separating the name parts."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:101
+# unordered list
+msgid "- **Author 1:** Jones"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:102
+# unordered list
+msgid "- **Author 2:** Andrew"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:103
+# unordered list
+msgid "- **Author 3:** Davis"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:104
+# unordered list
+msgid "- **Author 4:** S."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:106
+msgid "Splitting on a comma will not work with Authors because the names may include commas within them."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:108
+# blockquote, which can be cascaded
+msgid "> ## Choose a separator that is not in your data values"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:109
+msgid ">\n"
+"> When creating a spreadsheet with multi-valued cells, it is important to choose a separator that will never appear in\n"
+"> the cell values themselves. For this reason, the pipe character ( \\| ) is often a good choice since it\n"
+"> is rarely used in data. Commas, colons and semi-colons should be avoided as separators."
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:115
+msgid ">## Splitting Subjects into separate cells\n"
+">\n"
+">1. What separator character is used in the Subjects cells?\n"
+">2. How would you split these subject words into individual cells?\n"
+">\n"
+"> > ## Solution\n"
+"> > 1. The subject words/headings are divided up with the pipe ( \\| ) character\n"
+"> > 2. To split the subject words into individual cells you need to:\n"
+"> > * Click the dropdown menu at the top of the Subjects column\n"
+"> > * Choose 'Edit cells->Split multi-valued cells'\n"
+"> > * In the prompt type the ( \\| ) symbol and click 'OK'"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:126
+#: lc-open-refine/_episodes/03-working-with-data.md:139
+# SC/DC Template label
+msgid "> {: .solution}"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:127
+#: lc-open-refine/_episodes/03-working-with-data.md:140
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:56
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:99
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:120
+#: lc-open-refine/_episodes/05-clustering.md:37
+#: lc-open-refine/_episodes/13-looking-up-data.md:80
+#: lc-open-refine/_episodes/13-looking-up-data.md:149
+# SC/DC Template label
+msgid "{: .challenge}"
+msgstr ""
+
+#: lc-open-refine/_episodes/03-working-with-data.md:129
+msgid ">## Joining the Subjects column back together\n"
+">\n"
+">1. Using what we've learned, now Join the Subjects back together\n"
+">\n"
+"> > ## Solution\n"
+"> > 1. The subject words/headings were previously delimited with the pipe ( \\| ) character\n"
+"> > 2. To join the split subject cells back to a single cell you need to:\n"
+"> > * Click the dropdown menu at the top of the Subjects column\n"
+"> > * Choose 'Edit cells->Join multi-valued cells'\n"
+"> > * In the prompt type the ( \\| ) symbol and click 'OK'"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Faceting and filtering\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"What is a facet in OpenRefine?\"\n"
+"- \"What is a filter in OpenRefine?\"\n"
+"- \"How can I use filters and facets to explore data in OpenRefine?\"\n"
+"- \"How can I easily correct common data issues in my data with OpenRefine?\"\n"
+"objectives:\n"
+"- \"Explain what Facets and Filters are\"\n"
+"- \"Answer questions about the content of a data set using Facets\"\n"
+"- \"Use facets and filters to work with a subset of data\"\n"
+"- \"Correct data problems through a facet\"\n"
+"keypoints:\n"
+"- \"You can use facets and filters to explore your data\"\n"
+"- \"You can use facets and filters work with a subset of data in OpenRefine\"\n"
+"- \"You can easily correct common data issues from a Facet\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:21
+# header
+msgid "## Facets"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:22
+msgid "Facets are one of the most useful features of OpenRefine and can help in both getting an overview of the data and to improve the consistency of the data."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:24
+msgid "A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:26
+msgid "The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:28
+msgid "To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:30
+msgid "The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:32
+msgid "You can include multiple values from the facet in a filter at one time by using the `Include` option which appears when you put your mouse over a value in the Facet."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:34
+msgid "You can also `invert` the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:36
+msgid ">## Let's create a text facet\n"
+">1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel\n"
+">2. To select a single value, just click the relevant line in the facet\n"
+">3. To select multiple values click the `Include` option on the appropriate line in the facet (which only appears when you mouse over the line)\n"
+">3. You can 'invert' your selections to `exclude`\n"
+">4. Include a value and then look at top to invert inclusion."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:44
+msgid ">## Which licences are used for articles in this file?\n"
+"> Use a `text facet` for the `licence` column and answer these questions:\n"
+">\n"
+">1. What is the most common Licence in the file?\n"
+">2. How many articles in the file don't have a licence assigned?\n"
+">\n"
+">>## Solution\n"
+">>1. Create a facet for the 'Licence' column\n"
+">>2. Sort values by `count`\n"
+">>3. What is the most common Licence in the file? Answer: `CC BY`\n"
+">>4. How many articles in the file don't have a licence assigned? Answer: **6**"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:55
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:98
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:119
+# SC/DC Template label
+msgid ">{: .solution}"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:58
+# header
+msgid "## Filters"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:59
+msgid "As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column  based on a unique text string, like a 'find' feature. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:61
+msgid "As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:63
+msgid "You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:65
+# header
+msgid "## Working with filtered data"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:66
+msgid "It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed. To confirm you are working with the data you intended to select, check the number of matching records displayed above the data table. "
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:68
+# header
+msgid "## Other types of Facet "
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:69
+msgid "As well as 'Text facets' Refine also supports a range of other types of facet. These include:"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:71
+# unordered list
+msgid "* Numeric facets"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:72
+# unordered list
+msgid "* Timeline facets (for dates)"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:73
+# unordered list
+msgid "* Scatterplot facets"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:74
+# unordered list
+msgid "* Custom facets"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:77
+msgid "**Numeric and Timeline facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:79
+msgid "**Scatterplot facets** are less commonly used. For further information on these see the tutorial at [https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](https://web.archive.org/web/20190105063215/http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:81
+msgid "**Custom facets** are a range of different types of facets. Some of the default custom facets are:"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:83
+# unordered list
+msgid "* Word facet - this breaks down text into words and counts the number of records each word appears in"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:84
+# unordered list
+msgid "* Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:85
+# unordered list
+msgid "* Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:86
+# unordered list
+msgid "* Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:88
+msgid "Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:90
+msgid ">## Find all publications without a DOI\n"
+">* Use the `Facet by blank` function to find all publications in this data set without a DOI\n"
+">\n"
+">>## Solution\n"
+">>\n"
+">>1. On the `DOI` column drop down and select `Facets > Customized facets > Facet by blank`\n"
+">>2. `True` means that it is blank, so you can:\n"
+">>    * Select `include` on True in the facet to filter the list of publications to only those that don't have a DOI"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:101
+# header
+msgid "## Amending data through facets"
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:102
+msgid "If you create a text facet you can edit the values in the facet to change the value for several records at the same time. To do this, simply mouse-over the value you want to edit and click the 'edit' option that appears."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:104
+msgid "This approach is useful in relatively small facets where you might have small variations through punctuation or typing errors etc. For example, a column that should contain only terms from a small restricted list such as days of the week or months of the year."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:106
+msgid "The list of values in the facet will update as you make edits."
+msgstr ""
+
+#: lc-open-refine/_episodes/04-faceting-and-filtering.md:108
+msgid ">## Correct the Language values via a facet\n"
+">\n"
+">* Create a `Text facet` on the `language` column and correct the variation in the `EN` and `English` values.\n"
+">\n"
+">>## Solution\n"
+">>1. Create a Text facet on the Language column\n"
+">>2. Notice that there is both `EN` and `English`\n"
+">>3. Put the mouse over the `English` value\n"
+">>4. Click `Edit`\n"
+">>5. Type `EN` and click `Apply`\n"
+">>6. See how the Language facet updates"
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Clustering\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"What is Clustering in OpenRefine and when would you use it?\"\n"
+"- \"How does clustering work in OpenRefine?\"\n"
+"objectives:\n"
+"- \"Explain what clustering is in OpenRefine\"\n"
+"- \"Use clustering to identify and fix replace varying forms of the same data with a single consistent value\"\n"
+"keypoints:\n"
+"- \"Clustering is a way of finding variant forms of the same piece of data within a dataset (e.g. different spellings of a name)\"\n"
+"- \"There are a number of different Clustering algorithms that work in different ways and will produce different results\"\n"
+"- \"The best clustering algorithm to use will depend on the data\"\n"
+"- \"Using clustering you can replace varying forms of the same data with a single consistent value\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:18
+#: lc-open-refine/files/draft-instructor-notes.md:94
+# header
+msgid "## Clustering"
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:19
+msgid "The Cluster function groups together similar, but inconsistent values in a given column and lets you merge these inconsistent values into a single value you choose."
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:21
+msgid "This is very effective where you have data with minor variations in data values, e.g. names of people, organisations, places, classification terms."
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:23
+msgid "To use the 'Cluster' function, click on the `Edit Cells` menu option in the relevant column and choose `Cluster and edit...`"
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:25
+msgid "The 'Clusters' are created automatically according to an algorithm. OpenRefine supports a number of different clustering algorithms - some experimentation may be required to see which clustering algorithm works best with any particular set of data, and you may find that using different algorithms highlights different clusters."
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:27
+msgid "For more information on the methods used to create Clusters, see [https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)"
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:29
+msgid "For each cluster, you have the option of 'merging' the values together - that is, replace the various inconsistent values with a single consistent value. By default, OpenRefine uses the most common value in the cluster as the new value, but you can select another value by clicking the value itself, or you can simply type the desired value into the 'New Cell Value' box."
+msgstr ""
+
+#: lc-open-refine/_episodes/05-clustering.md:31
+msgid ">## Use Clustering to clean up author data\n"
+">\n"
+">1. Split out the author names into individual cells using `Edit cells -> Split multi-valued cells`, using the pipe ( \\| ) character as the separator\n"
+">2. Choose `Edit cells -> Cluster and edit` from the 'author' column.\n"
+">3. Using the `key collision` method with the `fingerprint` Keying Function, work through the clusters of values, merging them to a single value where appropriate\n"
+">4. Try changing the clustering method being used - which ones work well?"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Working with columns and sorting\"\n"
+"teaching: 5\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How do I move, rename or remove columns in OpenRefine?\"\n"
+"- \"How do I sort data in OpenRefine?\"\n"
+"objectives:\n"
+"- \"Explain how to reorder, rename and remove columns\"\n"
+"- \"Explain how to sort data in columns\"\n"
+"keypoints:\n"
+"- \"You can reorder, rename and remove columns in OpenRefine\"\n"
+"- \"Sorting in OpenRefine always sorts all rows\"\n"
+"- \"The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:17
+# header
+msgid "## Reordering columns"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:18
+msgid "You can re-order the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing `Edit columns->Re-order / remove columns …`."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:20
+msgid "You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:22
+# header
+msgid "## Renaming columns"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:24
+msgid "You can rename a column by opening the drop-down menu at the top of the column that you would like to rename, and choosing 'Edit column' > 'Rename this column'. You will then be prompted to enter the new column name. "
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:26
+# header
+msgid "## Sorting data"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:27
+msgid "You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:29
+msgid "Once you have sorted the data, a new `Sort` drop-down menu will be displayed."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:31
+msgid "Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:33
+msgid "You can sort on multiple columns at the same time by adding another sorted column (in the same way)."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Introduction to Transformations\"\n"
+"teaching: 5\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How do I use transformations to programmatically edit my data?\"\n"
+"- \"What are the kind of transformations Open Refine supports?\"\n"
+"- \"What is GREL?\"\n"
+"objectives:\n"
+"- \"Describe common transformations\"\n"
+"- \"Explain GREL, the General Refine Expression Language\"\n"
+"keypoints:\n"
+"- \"Common transformations are available through the Menu option\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:16
+# header
+msgid "## Introducing Transformations"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:18
+msgid "Through facets, filters and clusters OpenRefine offers relatively straightforward ways of getting an overview of your data, and making changes where you want to standardise terms used to a common set of values."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:20
+msgid "However, sometimes there will be changes you want to make to the data that cannot be achieved in this way. Such types of changes include:"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:22
+# unordered list
+msgid "* Splitting data that is in a single column into multiple columns (e.g. splitting an address into multiple parts)"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:23
+# unordered list
+msgid "* Standardising the format of data in a column without changing the values (e.g. removing punctuation or standardising a date format)"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:24
+# unordered list
+msgid "* Extracting a particular type of data from a longer text string (e.g. finding ISBNs in a bibliographic citation)"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:26
+msgid "To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. Transformations are normally written in a special language called 'GREL' (General Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:28
+msgid "Full documentation for the GREL is available at [https://docs.openrefine.org/manual/grelfunctions](https://docs.openrefine.org/manual/grelfunctions). This tutorial covers only a small subset of the commands available."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:30
+# header
+msgid "### Common transformations"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:31
+msgid "Some transformations are used regularly and are accessible directly through menu options, without having to type them directly."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:33
+msgid "Examples of some of these common transformations are given in the table below, with their 'GREL' equivalents. We'll see how to use the GREL version later in this lesson."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:35
+msgid "Common Transformation  | Action | GREL expression\n"
+"--------------------| ------------- | -------------\n"
+"To Uppercase| Converts the current value to uppercase | ```value.toUppercase()```\n"
+"To Lowercase| Converts the current value to lowercase | ```value.toLowercase()```\n"
+"To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```\n"
+"Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:42
+msgid ">## Correct Publisher data\n"
+">1. Create a text facet on the Publisher column\n"
+">2. Note that in the values there are two that look almost identical - why do these two values appear separately rather than as a single value?\n"
+">3. On the publisher column use the dropdown menu to select ```Edit cells->Common transforms->Collapse consecutive whitespace```\n"
+">4. Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the ```Refresh``` option to make sure it updates)"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Writing Transformations\"\n"
+"teaching: 5\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Where do I write GREL expressions in the OpenRefine interface?\"\n"
+"- \"How do I write a valid GREL expression?\"\n"
+"objectives:\n"
+"- \"Explain how to write one's own transformations using GREL\"\n"
+"keypoints:\n"
+"- \"You can alter data in OpenRefine based on specific instructions\"\n"
+"- \"You can preview the results of your GREL expression\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:15
+# header
+msgid "## Writing transformations"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:17
+msgid "To start writing transformations, select the column on which you wish to perform a transformation and choose ```Edit cells->Transform…```. In the screen that displays you have a place to write a transformation (the 'Expression' box) and then the ability to Preview the effect the transformation would have on 10 rows of your data."
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:19
+msgid "The transformation you type into the 'Expression' box has to be a valid GREL expression. The simplest expression is simply the word 'value' by itself - which simply means the value that is currently in the column - that is: make no change."
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:21
+msgid "GREL functions are written by giving a value of some kind (a text string, a date, a number etc.) to a GREL function. Some GREL functions take additional parameters or options which control how the function works. GREL supports two types of syntax:"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:23
+# unordered list
+msgid "* ```value.function(options)```"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:24
+# unordered list
+msgid "* ```function(value, options)```"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:26
+msgid "Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used."
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:28
+msgid "Next to the 'Preview' option are options to view:"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:30
+# unordered list
+msgid "* 'History' - a list of transformations you've previously used with the option to reuse them immediately or to 'star' them for easy access"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:31
+# unordered list
+msgid "* 'Starred' - a list of transformations you've 'starred' via the 'History' view"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:32
+# unordered list
+msgid "* 'Help' - a list of all the GREL functions and brief information on how to use them"
+msgstr ""
+
+#: lc-open-refine/_episodes/08-writing-transformations.md:34
+msgid ">## Put titles into Title Case\n"
+">Use Facets and the GREL expression ```value.toTitlecase()``` to put the titles in Title Case\n"
+">1. Facet by publisher\n"
+">2. Select \"Akshantala Enterprises\" and \"Society of Pharmaceutical Technocrats\"\n"
+">3. To select multiple values in the facet use the ```include``` link that appears to the right of the facet\n"
+">4. See that the Titles for these are all in uppercase\n"
+">5.  Click the dropdown menu on the Title column\n"
+">6. Choose ```Edit cells->Transform...```\n"
+">7. In the Expression box type ```value.toTitlecase()```\n"
+">8. In the Preview pane under value.toTitlecase() you can see what the effect of running this will be\n"
+">9. Click ```OK```"
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Transformations - Undo and Redo\"\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How do the Undo and Redo features work?\"\n"
+"objectives:\n"
+"- \"Explain how to use Undo and Redo to retrace ones' steps\"\n"
+"keypoints:\n"
+"- \"You can use Undo and Redo to retrace ones' steps\"\n"
+"- \"You can save and apply a set of steps to a new set of data using the 'Extract' and 'Apply' features\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:14
+# header
+msgid "## Undo and Redo"
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:15
+msgid "OpenRefine lets you undo, and redo, any number of steps you have taken in cleaning the data. This means you can always try out transformations and 'undo' if you need to. The way OpenRefine records the steps you have taken even allows you to take the steps you've carried out on one data set, and apply it to another data set by a simple copy and paste operation."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:17
+msgid "The ```Undo``` and ```Redo``` options are accessed via the lefthand panel."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:19
+msgid "The Undo/Redo panel lists all the steps you've taken so far. To undo steps, simply click on the last step you want to preserve in the list and this will automatically undo all the changes made since that step."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:21
+msgid "The remaining steps will continue to show in the list but greyed out, and you can reapply them by simply clicking on the last step you want to apply."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:23
+msgid "However, if you 'undo' a set of steps and then start doing new transformations, the greyed out steps will disappear and you will no longer have the option to 'redo' these steps."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:25
+msgid "If you wish to save a set of steps to be re-applied later, for instance, to a different project, you can click the ```Extract``` button. This gives you the option to select steps that you want to save, and extract the code for those steps in a format called ‘JSON’. You can copy the extracted JSON and save it as a simple text file (e.g. in Notepad)."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:27
+msgid "To apply a set of steps you have copied or saved in this 'JSON' format use the ```Apply``` button and paste in the JSON. In this way you can share transformations between projects and each other."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:29
+msgid "Undo/Redo data is stored with the Project and is saved automatically as you work, so next time you open the project, you can access your full history of steps you have carried out and undo/redo in exactly the same way."
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Transforming Strings, Numbers, Dates and Booleans\"\n"
+"teaching: 5\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How do I use transformations to programmatically edit my data?\"\n"
+"- \"How do I transform the various data types?\"\n"
+"objectives:\n"
+"- \"Name and describe 4 types of data - String, Number, Date and Boolean\"\n"
+"- \"Transform dates for further analysis\"\n"
+"- \"Use Boolean to identify information recorded in a different format\"\n"
+"- \"Create and run transformations based on Boolean Values\"\n"
+"keypoints:\n"
+"- \"You can alter data in OpenRefine based on specific instructions\"\n"
+"- \"You can expand the data editing functions that are built-in into OpenRefine by building your own\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:18
+# header
+msgid "## Data types"
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:19
+msgid "Understanding data types and regular expressions will help you write more complex transformations using GREL."
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:21
+msgid ">## Data types in OpenRefine\n"
+">Every piece of data in OpenRefine has a 'type'. The most common 'type' is a 'string' - that is a piece of text. However there are other data types available and transformations let you convert data from one type to another where appropriate. The data types supported are:\n"
+">\n"
+">* String\n"
+">* Number\n"
+">* Date\n"
+">* Boolean\n"
+">* Array (covered in the next lesson)"
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:31
+# header
+msgid "### Dates and Numbers"
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:32
+msgid "So far we've been looking only at 'String' type data. Much of the time it is possible to treat numbers and dates as strings. For example in the Date column we have the date of publication represented as a String. However, some operations and transformations only work on 'number' or 'date' type operations. The simplest example is sorting values in numeric or date order. To carry out these functions we need to convert the values to a date or number first."
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:34
+msgid ">## Reformat the Date\n"
+">1. Make sure you remove all Facets and Filters\n"
+">2. On the Date column use the dropdown menu to select ```Edit cells -> Transform```\n"
+">2. In the 'Expression' box type the GREL expression ```value.toDate(\"dd/MM/yyyy\")``` and press OK.\n"
+">3. Note how the values are now displayed in green and follow a standard convention for their display format (ISO 8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates\n"
+">4. On the Date column dropdown select ```Edit column->Add column based on this column```. Using this function you can create a new column, while preserving the old column\n"
+">5. In the 'New column name' type \"Formatted-Date\"\n"
+">6. In the 'Expression' box type the GREL expression ```value.toString(\"dd MMMM yyyy\")```"
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:44
+# header
+msgid "### Booleans"
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:45
+msgid "A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression\n"
+"```\n"
+"value.contains(\"test\")\n"
+"```\n"
+"generates a boolean value of either 'true' or 'false' depending on whether the current value in the cell contains the text 'test' anywhere."
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:51
+msgid "Such tests can be combined with other GREL expressions to create more complex transformations. For example, to carry out a further transformation only if a test is successful. The GREL transformation ```if(value.contains(\"test\"),\"Test data\",value)``` replaces a cell value with the words \"Test data\" only *if* the value in the cell contains the string \"test\" anywhere."
+msgstr ""
+
+#: lc-open-refine/_episodes/10-data-transformation.md:53
+msgid ">## Find Reversed Author Names\n"
+">In this exercise we are going to use the Boolean data type.\n"
+">If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.\n"
+">\n"
+">We can do a crude test for reversed author names by looking for those that contain a comma:\n"
+">\n"
+">1. Make sure you have already split the author names into individual cells using ```Edit cells->Split multi-valued cells``` (you should have done this in exercise 5)\n"
+">2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```\n"
+">3. The Custom text facet function allows you to write GREL functions to create a facet\n"
+">4. In the Expression box type ```value.contains(\",\").toString()```\n"
+">* Click ```OK```\n"
+">* Since the 'contains' function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma\n"
+">* In order to change the names to natural order, see the Arrays lesson."
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Transformations - Handling Arrays\"\n"
+"teaching: 5\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How do I use Arrays in data transformation?\"\n"
+"objectives:\n"
+"- \"Understand the purpose of Arrays in OpenRefine\"\n"
+"- \"Use arrays as part of transformations in GREL\"\n"
+"keypoints:\n"
+"- \"Arrays cannot appear directly in an OpenRefine cell\"\n"
+"- \"Arrays can be used in many ways using GREL expressions\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:15
+# header
+msgid "## Arrays"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:16
+msgid "An 'Array' is a list of values, represented in Refine by the use of square brackets containing a list of values surrounded by inverted commas and separated by commas. For example an array listing the days of the week would look like:"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:18
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:30
+msgid "[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"]"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:20
+msgid "Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL expressions, but cannot appear directly in an OpenRefine cell. Arrays in OpenRefine are usually the result of a transformation. For example the ```split``` function takes a string, and changes it into an array based on a 'separator'. For example if a cell has the value:"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:22
+msgid "\"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday\""
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:24
+msgid "This can be transformed into an array using the ```split``` function\n"
+"```\n"
+"value.split(\",\")\n"
+"```\n"
+"This would create the array containing the days of the week:"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:32
+msgid "This can be combined with array operations like ```sort```. For example, assuming the cell contains the same value as above, then the function\n"
+"```\n"
+"value.split(\",\").sort()\n"
+"```\n"
+"would result in an array containing the days of the week sorted in alphabetical order:"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:38
+msgid "[\"Friday\",\"Monday\",\"Saturday\",\"Sunday\",\"Thursday\",\"Tuesday\",\"Wednesday\"]"
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:40
+msgid "To output a value from an array you can either select a specific value depending on its position in the list (with the first position treated as 'zero'). For example\n"
+"```\n"
+"value.split(\",\")[0]\n"
+"```\n"
+"would extract the first value from the array created by the ```split``` function. In the above example this would be \"Monday\""
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:46
+msgid "You can also join arrays together to make a 'String'. The GREL expression would look like\n"
+"```\n"
+"value.split(\",\").sort().join(\",\")\n"
+"```\n"
+"Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day."
+msgstr ""
+
+#: lc-open-refine/_episodes/11-using-arrays-transformations.md:52
+msgid ">## Reverse author names\n"
+">You may already have done the boolean exercise and have a facet containing the names in natural order. In this case, select the 'true' facet and start with the step **\"1. On the ```Authors``` column use...\"**\n"
+">\n"
+">In this exercise we are going to use both the Boolean and Array data types.\n"
+">If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.\n"
+">\n"
+">We can do a crude test for reversed author names by looking for those that contain a comma:\n"
+">\n"
+">1. Make sure you have already split the author names into individual cells using ```Edit cells->Split multi-valued cells``` (you should have done this in the Clustering lesson)\n"
+">2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```\n"
+">3. The ```Custom text``` facet function allows you to write GREL functions to create a facet\n"
+">4. In the Expression box type ```value.contains(\",\").toString()```\n"
+">5. Click ```OK```\n"
+">6. Since the ```contains``` function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma\n"
+">7. In this facet select 'true' to narrow down to the author names that contain a comma\n"
+">\n"
+">Now we have narrowed down to the lines with a comma in a name, we can use the ```match``` function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.\n"
+">\n"
+">1. On the ```Authors``` column use the dropdown menu and select ```Edit cells->Transform ```\n"
+">2. In the Expression box type ```value.match(/(.*),(.*)/)```  The ```/```,  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ```.*``` expression will match any character(s) appearing 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.\n"
+">3. See how this creates an array with two members in each row in the Preview column\n"
+">\n"
+">To get the author name in the natural order you can reverse the array and join it back together with a space to create the string you need:\n"
+">\n"
+">1. In the Expression box, add to the existing expression until it reads ```value.match(/(.*),(.*)/).reverse().join(\" \")```\n"
+">2. In the Preview view you should be able see this has reversed the array, and joined it back into a string\n"
+">* Click ```OK```"
+msgstr ""
+
+#: lc-open-refine/_episodes/12-export-transformation.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Transformations - Exporting\"\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How do I export transformed data?\"\n"
+"objectives:\n"
+"- \"Explain how to export data in different formats from OpenRefine\"\n"
+"keypoints:\n"
+"- \"You can export your data in a variety of formats\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/12-export-transformation.md:13
+# header
+msgid "## Exporting data"
+msgstr ""
+
+#: lc-open-refine/_episodes/12-export-transformation.md:14
+msgid "Once you have finished working with a data set in OpenRefine you may wish to export it. The export options are accessed through the ```Export``` button at the top right of the OpenRefine interface."
+msgstr ""
+
+#: lc-open-refine/_episodes/12-export-transformation.md:16
+msgid "Export formats support include HTML, Excel and comma- and tab-separated value (csv and tsv). You can also write a custom export, selecting to export specific fields, adding a header or footer and specifying the exact format."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Advanced OpenRefine functions\"\n"
+"teaching: 20\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How do I fetch data from an Application Programming Interface (API) to be used in OpenRefine?\"\n"
+"- \"How do I reconcile my data by comparing it to authoritative datasets\"\n"
+"- \"How do I install extensions for OpenRefine\"\n"
+"objectives:\n"
+"- \"Use URLs to fetch data from the web based on columns in an OpenRefine project\"\n"
+"- \"Add columns to parse JSON data returned by web services\"\n"
+"- \"Understand how Reconciliation services are used to validate data\"\n"
+"- \"Add functionality using OpenRefine extensions\"\n"
+"keypoints:\n"
+"- \"OpenRefine can look up custom URLs to fetch data based on what's in an OpenRefine project\"\n"
+"- \"Such API calls can be custom built, or one can use existing Reconciliation services to enrich data\"\n"
+"- \"OpenRefine can be further enhanced by installing extensions\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:20
+# header
+msgid "## Looking up data from a URL"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:22
+msgid "OpenRefine can retrieve data from URLs. This can be used in various ways, including looking up additional information from a remote service, based on information in your OpenRefine data."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:24
+msgid "As an example, you can look up names against the Virtual International Authority File (VIAF), and retrieve additional information such as dates of birth/death and identifiers."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:26
+msgid "Typically this is a two step process, firstly a step to retrieve data from a remote service, and secondly to extract the relevant information from the data you have retrieved."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:28
+msgid "To retrieve data from an external source, use the drop down menu at any column heading and select ‘Edit column->Add column by fetching URLs’."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:30
+msgid "This will prompt you for a GREL expression to create a URL. Usually this would be a URL that uses existing values in your data to build a query. When the query runs OpenRefine will request each URL (for each line) and retrieve whatever data is returned (this may often be structured data, but could be simply HTML)."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:32
+msgid "The data retrieved will be stored in a cell in the new column that has been added to the project. You can then use OpenRefine transformations to extract relevant information from the data that has been retrieved. Two specific OpenRefine functions used for this are:"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:34
+# unordered list
+msgid "* parseHtml()"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:35
+# unordered list
+msgid "* parseJson()"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:37
+msgid "The 'parseHtml()' function can also be used to extract data from XML."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:39
+msgid "The next exercise demonstrates this two stage process in full."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:41
+msgid ">## Retrieving journal details from CrossRef via ISSN\n"
+">Because retrieving data from external URLs takes time, this exercise targets a single line in the data. In reality you would want to run this over many rows (and probably go and do something else while it ran)\n"
+">\n"
+">* Select a single row from the data set which contains an ISSN by:\n"
+">    * Clicking the star icon for the relevant row in the first column\n"
+">    * Facet by Star\n"
+">    * Choose the single row\n"
+">* In the ISSN column use the dropdown menu to choose 'Edit column->Add column by fetching URLs'\n"
+">* Give the column a name e.g. \"Journal-Details\"\n"
+">* In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)\n"
+">\n"
+">In this case we are going to use the CrossRef API: [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc). Read more about the CrossRef service: [http://www.crossref.org](http://www.crossref.org). Note that API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation. To comply with API rate limits, use the Throttle Delay setting to specify the number of milliseconds between URL requests. CrossRef, for instance, [asks users](https://github.com/CrossRef/rest-api-doc#etiquette) to \"specify a User-Agent header that properly identifies your script or tool and that provides a means of contacting you via email using 'mailto:'.\" User-agent headers provide administrators with user information that facilitates better administration and moderation of the API, and it is generally good etiquette to include a header with any API request.\n"
+">\n"
+">To edit your User-Agent header:\n"
+">* Click 'Show' (next to 'HTTP headers to be used when fetching URLs'). Note that OpenRefine has already populated the 'User-Agent' field with information about the version of OpenRefine you are using; it should look similar to ```OpenRefine 3.4.1 [437dc4d]``` (the information following ```OpenRefine``` will depend on the version of OpenRefine you are using).\n"
+">* At the end of the existing text, add ```; mailto:address@library.edu```, using your own email address. The full User-Agent field should now be similar to ```OpenRefine 3.4.1 [437dc4d]; mailto:address@library.edu``` but reflect your version information and email address.\n"
+">\n"
+">The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal\n"
+">\n"
+">* In the expression box type the GREL ```\"https://api.crossref.org/journals/\"+value```\n"
+"> \n"
+">At this point, your screen should be similar to this:\n"
+">![Add column by fetching URLs screen capture](../assets/img/openrefine_add_columns_by_url.png)\n"
+">\n"
+">* Click 'OK'\n"
+">\n"
+">\n"
+">You should see a message at the top on the OpenRefine screen indicating it is fetching some data, and how far it has got. Wait for this to complete. Fetching data for a single row should take only ten seconds or so, but fetching data for all rows will take longer. You can speed this up by modifying the \"Throttle Delay\" setting in the 'Add column by fetching URLs' dialog which controls the delay between each URL request made by OpenRefine. This is defaulted to a rather large 5000 milliseconds (5 seconds).\n"
+">\n"
+">At this point you should have a new cell containing a long text string in a format called 'JSON' (this stands for JavaScript Object Notation, although very rarely spelt out in full).\n"
+">\n"
+">OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The 'parseJson' function is explained in more detail at [https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml](https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml).\n"
+">\n"
+">* In the new column you've just added use the dropdown menu to access 'Edit column->Add column based on this column'\n"
+">* Add a name for the new column e.g. \"Journal-Title\"\n"
+">* In the Expression box type the GREL ```value.parseJson().message.title```\n"
+">* You should see in the Preview the Journal title displays\n"
+">\n"
+">The reason for using 'Add column based on this column' is simply that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the title and did not need any other information from the JSON you could use 'Edit cells->Transform...' with the same GREL expression."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:82
+# header
+msgid "## Reconciliation services"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:83
+msgid "Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data. The official User Manual provides [detailed information about the reconciliation feature](https://docs.openrefine.org/manual/reconciling)."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:85
+msgid "Reconciliation services can be more sophisticated and often quicker than using the method described above to retrieve data from a URL. However, to use the ‘Reconciliation’ function in OpenRefine requires the external resource to support the necessary service for OpenRefine to work with, which means unless the service you wish to use supports such a service you cannot use the ‘Reconciliation’ approach."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:87
+msgid "There are a few services where you can find an OpenRefine Reconciliation option available. For example WikiData has a reconciliation service at [https://wikidata.reconci.link/](https://wikidata.reconci.link/)."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:89
+msgid "In other cases people have built reconciliation applications for a specific service which you can download and run yourself. These vary in how they work, and what it takes to run them locally. For example there are multiple reconciliation applications for VIAF. Even for the same service (e.g. VIAF) different reconciliation applications (written by different people)  can work in different ways and potentially give different results - so caveat emptor!"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:91
+msgid "One of the most common ways of using the reconciliation option in OpenRefine is with an extension (see below for more on extensions to OpenRefine) which can use linked data sources for reconciliation. The RDF extension by Stuart Kenny can be downloaded from [https://github.com/stkenny/grefine-rdf-extension/releases](https://github.com/stkenny/grefine-rdf-extension/releases)."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:93
+msgid "Other extensions are available to do reconciliation against local data such as csv files (see [http://okfnlabs.org/reconcile-csv/](http://okfnlabs.org/reconcile-csv/)) and maintained lists of values (see [http://okfnlabs.org/projects/nomenklatura/index.html](http://okfnlabs.org/projects/nomenklatura/index.html))."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:95
+msgid "For more information on using Reconciliation services see [https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API)"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:97
+msgid ">## Reconcile Publisher names with VIAF IDs\n"
+">In this exercise you are going to use the VIAF Reconciliation service written by [Jeff Chiu](https://twitter.com/absolutelyjeff). Jeff offers two ways of using the reconciliation service - either via a public service he runs at [http://refine.codefork.com/](http://refine.codefork.com/), or by installing and running the service locally using the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator).\n"
+">\n"
+">If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator#running-conciliator-on-your-own-computer) make this reasonably straightforward.\n"
+">\n"
+">Once you have chosen which service you are going to use:\n"
+">\n"
+">* In the Publisher column use the dropdown menu to choose 'Reconcile->Start Reconciling'\n"
+">* If this is the first time you've used this particular reconciliation service, you'll need to add the details of the service now\n"
+">    * Click 'Add Standard Service...' and in the dialogue that appears enter:\n"
+">        * \"http://refine.codefork.com/reconcile/viaf\" for Jeff's public service\n"
+">        * \"http://localhost:8080/reconcile/viaf\" if you are running the service locally\n"
+">* You should now see a heading in the list on the left hand side of the Reconciliation dialogue called \"VIAF\"\n"
+">* Click on this to choose to use this reconciliation service\n"
+">* In the middle box in the reconciliation dialogue you may get asked what type of 'entity' you want to reconcile to - that is, what type of thing are you looking for. The list will vary depending on what reconciliation service you are using.\n"
+">    * In this case choose \"Corporate Name\" (it seems like the VIAF Reconciliation Service is slightly intelligent about this and will only offer options that are relevant)\n"
+">* In the box on the righthand side of the reconciliation dialogue you can choose if other columns are used to help the reconciliation service make a match - however it is sometimes hard to tell what use (if any) the reconciliation service makes of these additional columns\n"
+">* At the bottom of the reconciliation dialogue there is the option to \"Auto-match candidates with high confidence\". This can be a time saver, but in this case you are going to uncheck it, so you can see the results before a match is made\n"
+">* Now click 'Start Reconciling'\n"
+">\n"
+">Reconciliation is an operation that can take a little time if you have many values to look up. However, in this case there are only 6 publishers to check, so it should work quite quickly.\n"
+">\n"
+">Once the reconciliation has completed two Facets should be created automatically:\n"
+">* Publisher: Judgement\n"
+">* Publisher: best candidate's score\n"
+">\n"
+">These are two of several specific reconciliation facets and actions that you can get from the 'Reconcile' menu (from the column drop down menu).\n"
+">\n"
+">* Close the 'Publisher: best candidate's score' facet, but leave the 'Publisher: Judgement' facet open\n"
+">\n"
+">If you look at the Publisher column, you should see some cells have found one or more matches - the potential matches are shown in a list in each cell. Next to each potential match there is a 'tick' and a 'double tick'. To accept a reconciliation match you can use the 'tick' options in cells. The 'tick' accepts the match for the single cell, the 'double tick' accepts the match for all identical cells.\n"
+">\n"
+">* Create a text facet on the Publisher column\n"
+">* Choose 'International Union of Crystallography'\n"
+">\n"
+">In the Publisher column you should be able to see the various potential matches. Clicking on a match will take you to the VIAF page for that entity.\n"
+">\n"
+">* Click a 'double tick' in one of the Publisher column cells for the option \"International Union of Crystallography\"\n"
+">* This will accept this as a match for all cells - you should see the other options all disappear\n"
+">* Check the 'Publisher: Judgement' facet. This should now show that 858 items are 'matched' (if this does not update, try refreshing the facets)\n"
+">\n"
+">We could do these one by one, but if we are confident with the matches, there is an option to accept all:\n"
+">\n"
+">* Remove all filters/facets from the project so all rows display\n"
+">* In the Publisher column use the dropdown menu to choose 'Reconcile->Actions->Match each cell to its best candidate'\n"
+">\n"
+">There are two things that reconciliation can do for you. Firstly it gets a standard form of the name or label for the entity. Secondly it gets an ID for the entity - in this case a VIAF id. This is hidden in the default view, but can be extracted:\n"
+">\n"
+">* In the Publisher column use the dropdown menu to choose 'Edit column->Add column based on this column...'\n"
+">* Give the column the name 'VIAF-ID'\n"
+">* In the GREL expression box type ```cell.recon.match.id```\n"
+">* This will create a new column that contains the VIAF ID for the matched entity"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:151
+# header
+msgid "## Extensions"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:152
+msgid "The functionality in OpenRefine can be enhanced by ‘extensions’ which can be downloaded and installed to add functionality to your OpenRefine installation."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:154
+msgid "A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](http://openrefine.org/download.html)."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:156
+# header
+msgid "## Using the ‘cross’ function to lookup data in other OpenRefine projects"
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:157
+msgid "As well as looking up data in external systems using the methods described above, it is also possible to look up data in other OpenRefine projects on the same computer. This is done using the ‘cross’ function."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:159
+msgid "The ‘cross’ function takes a value from the OpenRefine project you are working on, and looks for that value in a column in another OpenRefine project. If it finds one or more matching rows in the second OpenRefine project, it returns an array containing the rows that it has matched."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:161
+msgid "As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the second project."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:163
+msgid "You can use this function to compare the contents of two OpenRefine projects, or to use data between the two projects."
+msgstr ""
+
+#: lc-open-refine/_episodes/13-looking-up-data.md:165
+msgid "The [VIB-Bits extension](https://www.bits.vib.be/index.php/software-overview/openrefine) adds a number of very useful functions to OpenRefine including a way of using the 'cross' function with simply point-and-click functionality which makes looking up data from other projects much easier."
+msgstr ""
+
+#: lc-open-refine/_extras/about.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: About\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_extras/about.md:5
+msgid "{% include carpentries.html %}"
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: Discussion\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:5
+msgid "There are many ways to discuss Library Carpentry lessons:"
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:7
+# unordered list
+msgid "- Join our [Gitter discussion forum](https://gitter.im/LibraryCarpentry/)."
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:8
+# unordered list
+msgid "- Join our [Slack organisation](https://swc-slack-invite.herokuapp.com/) and #libraries channel."
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:9
+# unordered list
+msgid "- Stay in touch with our [Topicbox Group](https://carpentries.topicbox.com/groups/discuss-library-carpentry)."
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:10
+# unordered list
+msgid "- Follow updates on [Twitter](https://twitter.com/LibCarpentry)."
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:11
+# unordered list
+msgid "- Make a suggestion or correct an error by [raising an issue](https://github.com/LibraryCarpentry/lc-open-refine/issues) or submitting a [pull request](https://github.com/LibraryCarpentry/lc-open-refine/pulls)."
+msgstr ""
+
+#: lc-open-refine/_extras/figures.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: Figures\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_extras/figures.md:5
+msgid "{% include all_figures.html %}"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:6
+#: lc-open-refine/_extras/guide.md:9
+#: lc-open-refine/_extras/guide.md:18
+# horizontal rule. just copy and paste from the msgidmsgid "____"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:7
+# header
+msgid "# Tips and Tricks"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:10
+# header
+msgid "## Making a handout"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:12
+msgid "Adapt/print from:  "
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:14
+# unordered list
+msgid "* [Library Carpentry Reference Page](https://librarycarpentry.org/lc-open-refine/reference.html)"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:15
+# unordered list
+msgid "* [Instructor Draft Notes](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/files/draft-instructor-notes.md)"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:16
+# unordered list
+msgid "* [Introduction to OpenRefine by Owen Stephens](http://www.meanboyfriend.com/overdue_ideas/wp-content/uploads/2014/11/Introduction-to-OpenRefine-handout-CC-BY.pdf)"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:19
+# header
+msgid "# General notes on OpenRefine"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:21
+# header
+msgid "## Common problems"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:23
+# unordered list
+msgid "* If learners are using a browser other than Firefox, or OpenRefine does not automatically open for them when they click the .exe file, have them point their browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program."
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:25
+# unordered list
+msgid "* Mac users with the newest operating system will have to allow this to run by \"allowing everything\" to run. They can change the setting back after the exercise."
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:27
+# unordered list
+msgid "* Some students will run into issues with"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:28
+# unordered list
+msgid "  - unzipping"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:29
+# unordered list
+msgid "  - finding the .exe file once the software has been unzipped"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:30
+# unordered list
+msgid "  - finding the data file on their computers after downloading"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:32
+# unordered list
+msgid "* If OpenRefine crashes when launched from a network share drive, do the following:"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:33
+# unordered list
+msgid "  - Copy the OpenRefine folder to a local drive not mapped to a network share, e.g. \"C:\\Users\\JaneDoe\""
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:34
+# unordered list
+msgid "  - Open a Windows Command prompt"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:35
+# unordered list
+msgid "  - Change the working directory to the OpenRefine folder at \"C:\\Users\\JaneDoe\""
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:36
+# unordered list
+msgid "  - Run openrefine.exe"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:38
+# unordered list
+msgid "* If a learner is unable to install OpenRefine on their computer due to IT restrictions for example, there are cloud services available that they could try:"
+msgstr ""
+
+#: lc-open-refine/_extras/guide.md:39
+# unordered list
+msgid "  - [openrefineder](https://github.com/betatim/openrefineder/) using MyBinder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/6ba108b?urlpath=%2Fopenrefine) (OpenRefine 3.4.1, free to use without registration, [restricted](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder) to 1-2 GB RAM and server will be deleted after 10 minutes of inactivity)"
+msgstr ""
+
+#: lc-open-refine/aio.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"permalink: /aio/\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/aio.md:6
+msgid "{% include base_path.html %}"
+msgstr ""
+
+#: lc-open-refine/aio.md:8
+# inline html
+msgid "<script>\n"
+"  window.onload = function() {\n"
+"    var lesson_episodes = [\n"
+"    {% for episode in site.episodes %}\n"
+"    \"{{ episode.url}}\"{% unless forloop.last %},{% endunless %}\n"
+"    {% endfor %}\n"
+"    ];\n"
+"    var xmlHttp = [];  /* Required since we are going to query every episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. */\n"
+"      xmlHttp[i].onreadystatechange = function() {\n"
+"        if (this.readyState == 4 && this.status == 200) {\n"
+"          var article_here = document.getElementById(this.episode);\n"
+"          var parser = new DOMParser();\n"
+"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html\");\n"
+"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+"          article_here.innerHTML = htmlDocArticle.innerHTML;\n"
+"        }\n"
+"      }\n"
+"      var episode_url = \"{{ relative_root_path }}\" + lesson_episodes[i];\n"
+"      xmlHttp[i].open(\"GET\", episode_url);\n"
+"      xmlHttp[i].send(null);\n"
+"    }\n"
+"  }\n"
+"</script>"
+msgstr ""
+
+#: lc-open-refine/aio.md:34
+msgid "{% comment %}\n"
+"Create an anchor for every episode.\n"
+"{% endcomment %}\n"
+"{% for episode in site.episodes %}\n"
+"<article id=\"{{ episode.url }}\"></article>\n"
+"{% endfor %}"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:1
+# header
+msgid "# Chris Erdmann Instructor notes from https://libcce.github.io/2018-10-18-UNC/"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:3
+# header
+msgid "## OpenRefine"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:5
+msgid "OpenRefine is a power tool for messy data\n"
+"Helps you clean data, link data, visualize it and keeps a record of your revisions\n"
+"Its been around for a while (GoogleRefine), which means there is a lot of info/tutorials about it out there"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:10
+msgid "Things it’s great for:"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:12
+msgid "overview of data/analysis of data per column\n"
+"* Resolve inconsistencies (date format)\n"
+"* Split data into separate cells (multiple names, address parts)\n"
+"* Matching data, like your local data to Library of Congress data\n"
+"* Enhance data with data from other sources"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:18
+msgid "Scenarios:\n"
+"* how many times does a value appear in a column?\n"
+"* How is data distributed across the dataset?\n"
+"* changing all data in a column into one format\n"
+"* splitting data into separate columns\n"
+"* adding data"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:26
+msgid "Local library examples:\n"
+"UNCG Library uses it for collections data\n"
+"Duke Libraries uses it for teaching workshops"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:30
+msgid "Open Context\n"
+"https://opencontext.org/\n"
+"Eric Kansa\n"
+"Uses OpenRefine in its data cleaning workflows"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:35
+msgid "In the Carpentries\n"
+"OpenRefine for Ecologists\n"
+"https://datacarpentry.org/OpenRefine-ecology-lesson/"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:40
+msgid "Import > DOAJ data\n"
+"https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:44
+msgid "Note:\n"
+"UTF-8\n"
+"First line is column header\n"
+"DO NOT check parse text cells into numbers"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:49
+msgid "View on raw data"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:51
+msgid "Records/rows\n"
+"Flags/stars"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:54
+msgid "Split multi value cells\n"
+"Authors > Edit Cells > Split Multi Valued Cells\n"
+"Notice number of rows versus number of records\n"
+"Authors > Edit Cells > Join Multi Valued Cells"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:59
+msgid "Note: Undo / Redo\n"
+"We can use this as well if we want to undue something we did\n"
+"Note: Extract (like a Macro)"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:64
+msgid "Challenge:\n"
+"1. What separator character is used in the Subjects cells?\n"
+"2. How would you split these subject words into individual cells?\n"
+"3. How would you join them back together?"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:69
+msgid "<Green sticky>"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:71
+# header
+msgid "## FACETING"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:72
+msgid "Used for overview of the data and creating consistency"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:74
+msgid "Publisher > Text Facet\n"
+"Count\n"
+"Name"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:78
+msgid "2 ways of merging names -> cluster button or roll over and edit"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:80
+msgid "Include and exclude for filtering"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:82
+msgid "Challenge:\n"
+"1. What types of licenses are found in this data set?\n"
+"2. How many are blank? From what journal?"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:86
+msgid "Note:\n"
+"I've used this feature, copy and pasted facets, for easy reporting"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:89
+msgid "Explore Text Facet\n"
+"- How would we find DOIs that are blank with the Text Facet?\n"
+"  Facet > Customized Facets > Facet by Blank\n"
+"- Use Text Facet to normalize Language (EN e.g.)."
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:96
+msgid "This allows us to use various algorithms to find name variations and then match"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:98
+msgid "Authors > Edit Cells > Split multi-value cells\n"
+"Authors > Edit Cells > Cluster and Edit"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:101
+msgid "Explore Method / Keying Function"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:103
+msgid "READ\n"
+"https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:106
+# header
+msgid "## Sort / View (like Excel functionality)"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:107
+msgid "Sort A-Z or Z-A\n"
+"View > Collapse"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:110
+# header
+msgid "## Transformations"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:112
+msgid "Allow you to do much more than Facets\n"
+"You can split values (into new columns), for instance, journal information, addresses...\n"
+"Standardization, removing punctiation maybe or formatting date\n"
+"Extracting something from a string like ISBN, geographical coordinates"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:117
+msgid "Publisher > Text Facet\n"
+"Why does MDPI AG appear twice, looks the same?\n"
+"Edit cells->Common transforms->Trim leading and trailing whitespace\n"
+"That is a transformation to start!"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:122
+# header
+msgid "## Write Transformations"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:124
+msgid "Citation > Edit Column > Add Column based on this one\n"
+"GREL - Google Refine Expression Language"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:127
+msgid "What if you wanted to get the volume? \n"
+"value.match(/.*?(\\d+).*?/)[0]"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:131
+msgid "What if you wanted to get the year?\n"
+"Answer?\n"
+"value.match(/.*(\\d{4}).*/)[0]\n"
+"value.match(/.*?\\((\\d+)\\).*?/)[0]\n"
+"value.match(/.*?\\d+.*?\\d+.*?\\d+.*?\\d+.*?(\\d+).*?/)[0]\n"
+"value.match(/.*\\((\\d{4})\\).*/)[0]\n"
+"value.match(/.*?((\\d\\d\\d\\d)\\).*?)[0]\n"
+"value.match(/.*?(\\(\\d{4}\\)+).*?/)[0]"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:140
+msgid "What if you wanted to get the journal name?\n"
+"Answer?\n"
+"value.match(/.*?([A-Za-z\\s]*)((\\(|,)).*?/)[0]\n"
+"value.match(/(.*?),(.*)/)[0]\n"
+"value.match(/(.*?)(, ).*?/)[0]\n"
+"value.match(/(.*?),.*/)[0]\n"
+"value.match(/^(.*?),.*?/)[0]\n"
+"value.match(/.*(^((\\w+)(\\s*)){1,})+.*/)[0]"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:149
+msgid "Google OpenRefine Recipes\n"
+"https://github.com/OpenRefine/OpenRefine/wiki/Recipes\n"
+"Lots of examples (ISBN e.g.)"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:153
+msgid "https://libjohn.github.io/openrefine/"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:155
+# unordered list
+msgid "- That's something you can do with unstructured data but we know we can grab structured data... from CrossRef for example."
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:157
+# unordered list
+msgid "- Does anyone know how we would do that?"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:158
+msgid "Answer:"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:160
+msgid "Remember:\n"
+"Publisher > Text Facet and choose Society of...\n"
+"ISSNs > Edit Column > Add Column based Fetching URL\n"
+"\"http://api.crossref.org/journals/\"+value\n"
+"Get JSON back..."
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:166
+msgid "How do we get the journal title from the JSON?\n"
+"Answer:"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:170
+# header
+msgid "## Booleans"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:171
+msgid "You can check whether a condition is TRUE or FALSE\n"
+"Authors > Facets > Custom Facet\n"
+"Value.contains(\",\") "
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:176
+# header
+msgid "## Reverse author names"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:178
+msgid "You can use Regex again\n"
+"Authors > True contain \",\" > Edit Cells > Transform"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:181
+msgid "value.match(/(.*),(.*)/).reverse().join(\" \")"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:184
+# header
+msgid "## Reconcile"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:186
+msgid "Wikidata on Subjects\n"
+"Subjects > Start Reconciling > Wikidata > Academic discipline"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:189
+msgid "ORCID\n"
+"http://refine.codefork.com/\n"
+"Use: Author Names\n"
+"http://refine.codefork.com/reconcile/orcid/smartnames"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:194
+msgid "https://www.lib.ncsu.edu/news/orcid%3A-the-number-that-every-academic-needs"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:196
+# header
+msgid "## Date to String"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:197
+msgid "Edit Cells > Common transforms > to Date\n"
+"Edit Column > Add Column based on\n"
+"value.toString(\"dd MMMM yyyy\")"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:201
+# header
+msgid "## Sharing"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:202
+msgid "Export options\n"
+"Share your recipes on GitHub"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:206
+msgid "Things to note:"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:208
+msgid "Allocate more memory:\n"
+"https://docs.openrefine.org/manual/installing/#increasing-memory-allocation"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:212
+msgid "Extra:\n"
+"Transpose http://ssrc.doingdh.org/tidying-data-with-openrefine/"
+msgstr ""
+
+#: lc-open-refine/index.md:1
+# Front Matter
+msgid "---\n"
+"layout: lesson\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/index.md:4
+msgid "This Library Carpentry lesson introduces people working in library- and information-related roles to working with data in OpenRefine. At the conclusion of the lesson you will understand what the OpenRefine software does and how to use the OpenRefine software to work with data files."
+msgstr ""
+
+#: lc-open-refine/index.md:6
+# blockquote, which can be cascaded
+msgid "> ## Prerequisites"
+msgstr ""
+
+#: lc-open-refine/index.md:7
+# blockquote, which can be cascaded
+msgid "> To complete this lesson you will need to install [OpenRefine](http://openrefine.org/download.html) and download the file [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv)."
+msgstr ""
+
+#: lc-open-refine/index.md:8
+# blockquote, which can be cascaded
+msgid "> OpenRefine does not support Internet Explorer or Edge. Please use [Firefox](https://www.mozilla.org/firefox/new/), [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead."
+msgstr ""
+
+#: lc-open-refine/index.md:9
+# blockquote, which can be cascaded
+msgid "> See [Setup](https://librarycarpentry.org/lc-open-refine/setup.html) for more information."
+msgstr ""
+
+#: lc-open-refine/index.md:10
+# SC/DC Template label
+msgid "{: .prereq}"
+msgstr ""
+
+#: lc-open-refine/reference.md:1
+# Front Matter
+msgid "---\n"
+"layout: reference\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/setup.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: Setup\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/setup.md:6
+# header
+msgid "## Getting ready"
+msgstr ""
+
+#: lc-open-refine/setup.md:8
+msgid "You need to install OpenRefine and download a data file to follow this lesson."
+msgstr ""
+
+#: lc-open-refine/setup.md:10
+# header
+msgid "### Installing and running OpenRefine"
+msgstr ""
+
+#: lc-open-refine/setup.md:12
+msgid "OpenRefine is a free, open-source Java application. You can download OpenRefine from \n"
+"[http://openrefine.org/download.html](http://openrefine.org/download.html). \n"
+"This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.4.1"
+msgstr ""
+
+#: lc-open-refine/setup.md:16
+msgid "Packages are available on <https://openrefine.org/download.html> for Windows, macOS, and Linux.\n"
+"Please download the latest stable version, choosing the \"kit\" for your operating system.\n"
+"Current versions of the \"Windows kit with embedded Java\" and \"Mac kit\" include everything you need to run OpenRefine.\n"
+"The \"Linux kit\" and traditional \"Windows kit\" require a \"Java Runtime Environment\" (JRE) installed on your system (see notes below)."
+msgstr ""
+
+#: lc-open-refine/setup.md:21
+msgid "If you are using an older version of OpenRefine, it is recommended you upgrade to the latest tested version. "
+msgstr ""
+
+#: lc-open-refine/setup.md:23
+msgid "Please follow the installation instructions in the OpenRefine User Manual: [Installation Instructions](https://docs.openrefine.org/manual/installing)"
+msgstr ""
+
+#: lc-open-refine/setup.md:25
+msgid "Notes:\n"
+"* When you download OpenRefine for Windows or Linux from the address above, you are downloading an archive file \n"
+"(zip or tar). To install OpenRefine unzip the downloaded file to a permanent location on your computer. This can \n"
+"be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the\n"
+"unzipped folder. The location has to be a \"local\" drive as problems have been reported trying to run OpenRefine\n"
+"from a Network drive.\n"
+"* The options \"Windows kit with embedded Java\" and \"Mac kit\" include Java as part of the package. You **do not**\n"
+"need to install Java if you use one of these kits. This is the preferred method on Windows and Mac systems.\n"
+"* On Windows, if you use the traditional \"Windows kit\" without embedded Java, you will need a \n"
+"\"Java Runtime Environment\" (JRE) on your system. If you do not already have JRE or JDK installed, \n"
+"you can visit [Adopt OpenJDK](https://adoptopenjdk.net/) or [Oracle Java](https://java.com/en/download/) \n"
+"to download an installer package. Please note that\n"
+"[Oracle significantly changed their license terms in 2019](https://www.oracle.com/java/technologies/javase/jdk-faqs.html) limiting it to \"personal use\" with out a paid license. If you use OpenRefine at work or in research, OpenJDK is preferred.\n"
+"* On Linux a \"Java Runtime Environment\" (JRE) will be required to run OpenRefine. If you do not already have \n"
+"JRE or JDK installed on your system, most distribution repositories will contain OpenJRE / OpenJDK packages. I\n"
+"nstall the default version available from your distribution. For example, on Ubuntu/Debian: \n"
+"`sudo apt install default-jre`.\n"
+"* OpenRefine does not support Internet Explorer. Please use [Firefox](https://www.mozilla.org/firefox/new/), \n"
+"[Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead."
+msgstr ""
+
+#: lc-open-refine/setup.md:46
+# header
+msgid "### Downloading the data"
+msgstr ""
+
+#: lc-open-refine/setup.md:48
+msgid "You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file."
+msgstr ""
+
+#: lc-open-refine/setup.md:50
+# header
+msgid "### Exiting OpenRefine"
+msgstr ""
+
+#: lc-open-refine/setup.md:52
+msgid "To exit OpenRefine, close all the browser tabs or windows, then navigate to the command line window. To close this window and ensure OpenRefine exits properly, hold down [control] and press [c] on your keyboard. This will save all changes to your projects."
+msgstr ""
+
+#: lc-open-refine/setup.md:54
+# header
+msgid "### Getting help"
+msgstr ""
+
+#: lc-open-refine/setup.md:56
+msgid "If you encounter problems installing or running OpenRefine, a good source of support is the [OpenRefine mailing list and user forum](https://groups.google.com/g/openrefine).\n"
+"Include your operating system when searching to find the most relevant answers for your issue, such as threads related to [Windows](https://groups.google.com/g/openrefine/search?q=windows), [macOS](https://groups.google.com/g/openrefine/search?q=macOS), or [Linux](https://groups.google.com/g/openrefine/search?q=linux)."
+msgstr ""
+
+#: lc-open-refine/setup.md:59
+msgid "You may also want to check the [Stack Overflow OpenRefine tag](https://stackoverflow.com/questions/tagged/openrefine) or the [OpenRefine Gitter room](https://gitter.im/OpenRefine/OpenRefine)."
+msgstr ""
+
+#: lc-open-refine/setup.md:61
+msgid "There are also general and specialist tutorials about using OpenRefine available on the web, including:"
+msgstr ""
+
+#: lc-open-refine/setup.md:63
+# unordered list
+msgid "* Official wiki [List of OpenRefine External Resources](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)"
+msgstr ""
+
+#: lc-open-refine/setup.md:64
+# unordered list
+msgid "* [Getting started with OpenRefine by Thomas Padilla](http://thomaspadilla.org/dataprep/)"
+msgstr ""
+
+#: lc-open-refine/setup.md:65
+# unordered list
+msgid "* [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](http://programminghistorian.org/lessons/cleaning-data-with-openrefine)"
+msgstr ""
+
+#: lc-open-refine/setup.md:66
+# unordered list
+msgid "* [Blog posts on using OpenRefine from Owen Stephens](http://www.meanboyfriend.com/overdue_ideas/tag/openrefine/?orderby=date&order=ASC)"
+msgstr ""
+
+#: lc-open-refine/setup.md:67
+# unordered list
+msgid "* [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](http://epublications.marquette.edu/lib_fac/81/)"
+msgstr ""
+
+#: lc-open-refine/setup.md:68
+# unordered list
+msgid "* [Free your metadata website](http://freeyourmetadata.org)"
+msgstr ""
+
+#: lc-open-refine/setup.md:69
+# unordered list
+msgid "* [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by Christina Harlow](http://journal.code4lib.org/articles/11013)"
+msgstr ""
+
+#: lc-open-refine/setup.md:70
+# unordered list
+msgid "* [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)"
+msgstr ""
+
+#: lc-open-refine/setup.md:71
+# unordered list
+msgid "* [OpenRefine Blog](https://openrefine.org/category/blog.html)"
+msgstr ""
+
+#: lc-open-refine/setup.md:73
+msgid "[template]: {{ site.workshop_repo }}"
+msgstr ""
+
