@@ -7683,7 +7683,7 @@ msgid ""
 "by acting as a shareable electronic lab notebook for computational work:"
 msgstr ""
 "これは、バージョン管理を教える (多くの) 理由の1つです。\n"
-"コツコツと使うと、When used diligently,\n"
+"コツコツと使うと、\n"
 "計算作業のための共有可能な電子ラボノートとして機能することによって、\n"
 "バージョン管理は \"どのように\" の質問に答えてくれます:"
 
