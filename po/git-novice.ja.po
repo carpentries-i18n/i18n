@@ -7544,7 +7544,7 @@ msgstr ""
 # unordered list
 #: git-novice/_episodes/10-open.md:23
 msgid "*   A scientist collects some data and stores it on a machine"
-msgstr "*   科学者はいくつかのデータを収集し、"
+msgstr "*   科学者は何らかのデータを収集し、"
 
 #: git-novice/_episodes/10-open.md:24
 msgid ""
