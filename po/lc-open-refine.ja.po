@@ -2654,37 +2654,42 @@ msgstr ""
 #: lc-open-refine/setup.md:6
 # header
 msgid "## Getting ready"
-msgstr ""
+msgstr "## 準備"
 
 #: lc-open-refine/setup.md:8
 msgid "You need to install OpenRefine and download a data file to follow this lesson."
-msgstr ""
+msgstr "このレッスンを実行するには、OpenRefineをインストールし、データファイルをダウンロードする必要があります。"
 
 #: lc-open-refine/setup.md:10
 # header
 msgid "### Installing and running OpenRefine"
-msgstr ""
+msgstr "### OpenRefineのインストールと実行"
 
 #: lc-open-refine/setup.md:12
 msgid "OpenRefine is a free, open-source Java application. You can download OpenRefine from \n"
 "[http://openrefine.org/download.html](http://openrefine.org/download.html). \n"
 "This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.4.1"
-msgstr ""
+msgstr "OpenRefineは、無料のオープンソースJavaアプリケーションです。OpenRefineは \n"
+"[http://openrefine.org/download.html](http://openrefine.org/download.html)からダウンロードできます 。"
+"このレッスンは、最新のテスト済みバージョンである3.4.1までのすべてのバージョンのOpenRefineでテストされています。"
 
 #: lc-open-refine/setup.md:16
 msgid "Packages are available on <https://openrefine.org/download.html> for Windows, macOS, and Linux.\n"
 "Please download the latest stable version, choosing the \"kit\" for your operating system.\n"
 "Current versions of the \"Windows kit with embedded Java\" and \"Mac kit\" include everything you need to run OpenRefine.\n"
 "The \"Linux kit\" and traditional \"Windows kit\" require a \"Java Runtime Environment\" (JRE) installed on your system (see notes below)."
-msgstr ""
+msgstr "パッケージは、Windows、macOS、およびLinux用のものが <https://openrefine.org/download.html> で入手できます。\n"
+"あなたのオペレーティングシステムに対応する「キット」を選択して、最新の安定バージョンをダウンロードしてください。"
+"「Javaが組み込まれたWindowsキット」と「Macキット」の現在のバージョンには、OpenRefineを実行するために必要なすべてのものが含まれています。"
+"「Linuxキット」および従来の「Windowsキット」では、あなたのシステムに「Javaランタイム環境」 (JRE) がインストールされている必要があります (以下の注を参照)。"
 
 #: lc-open-refine/setup.md:21
 msgid "If you are using an older version of OpenRefine, it is recommended you upgrade to the latest tested version. "
-msgstr ""
+msgstr "古いバージョンのOpenRefineを使用している場合は、最新のテスト済みバージョンにアップグレードすることをお勧めします。"
 
 #: lc-open-refine/setup.md:23
 msgid "Please follow the installation instructions in the OpenRefine User Manual: [Installation Instructions](https://docs.openrefine.org/manual/installing)"
-msgstr ""
+msgstr "OpenRefineユーザーマニュアルのインストール手順に倣ってインストールを行ってください: [インストール手順](https://docs.openrefine.org/manual/installing)"
 
 #: lc-open-refine/setup.md:25
 msgid "Notes:\n"
@@ -2706,88 +2711,104 @@ msgid "Notes:\n"
 "`sudo apt install default-jre`.\n"
 "* OpenRefine does not support Internet Explorer. Please use [Firefox](https://www.mozilla.org/firefox/new/), \n"
 "[Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead."
-msgstr ""
+msgstr "注:\n"
+"* 上記のアドレスからWindowsもしくはLinux用のOpenRefineをダウンロードすると、アーカイブファイル (zipまたはtar) のダウンロードが始まります。\n"
+"OpenRefineをインストールするには、ダウンロードしたファイルをコンピューターの永続的な場所に解凍します。\n"
+"この場所としては、個人用ディレクトリ、もしくはアプリケーション、もしくはソフトウェアディレクトリが考えられます - OpenRefineは、解凍したフォルダをどこに置いても実行できます。\n"
+"ただし、ネットワークドライブからOpenRefineを実行しようとすると問題が起こることが報告されているため、その場所は「ローカル」ドライブである必要があります。\n"
+"* 「Javaが組み込まれたWindowsキット」および「Macキット」の選択肢には、パッケージの一部としてJavaが含まれています。\n"
+"あなたがこれらのキットのいずれかを使用する場合は、Javaをインストールする必要はあり**ません**。これは、WindowsおよびMacのシステムで推奨される方法です。\n"
+"* Windowsでは、Javaが組み込まれていない従来の「Windowsキット」を使用する場合、システムに「Javaランタイム環境」 (JRE) が必要になります。\n"
+"JREまたはJDKがまだインストールされていない場合は、[Adopt OpenJDK](https://adoptopenjdk.net/) または [Oracle Java](https://java.com/en/download/) にアクセスし、インストーラパッケージをダウンロードします。\n"
+"[Oracleは2019年にライセンス条項を大幅に変更し](https://www.oracle.com/java/technologies/javase/jdk-faqs.html)、有料ライセンスが無い場合はその利用を「個人的利用」に制限していることに注意してください。仕事または研究でOpenRefineを使用する場合は、OpenJDKをお勧めします。\n"
+"* Linuxでは、OpenRefineを実行するために「Javaランタイム環境」 (JRE) が必要になります。\n"
+"システムにJREまたはJDKがまだインストールされていない場合、ほとんどのLinuxディストリビューションのリポジトリに OpenJREかOpenJDK のパッケージが含まれています。\n"
+"あなたが使っているLinuxディストリビューションから入手できるデフォルトバージョンをインストールしてください。たとえば、UbuntuかDebianでは: \n"
+"`sudo apt install default-jre`\n"
+"* OpenRefineはInternet Explorerをサポートしていません。代わりに[Firefox](https://www.mozilla.org/firefox/new/)、[Chrome](https://www.google.com/chrome/)、\n"
+"または[Safari](https://www.apple.com/safari/)を使用してください。"
 
 #: lc-open-refine/setup.md:46
 # header
 msgid "### Downloading the data"
-msgstr ""
+msgstr "### データのダウンロード"
 
 #: lc-open-refine/setup.md:48
 msgid "You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file."
-msgstr ""
+msgstr "[doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv)をダウンロードできます。これは、新しいブラウザタブで開くためのcsvファイルです。(訳注: OpenRefineはウェブアプリでありウェブブラウザの中で用います。) ファイルを保存するには、必ず右クリックまたはコントロールキーを押しながらクリックしてください (注: Safariでは、右クリックして **download linked file** を選択します; ChromeとFirefoxでは、右クリックして **save link as...** を選択します)。ファイルを保存する場所 (つまり、フォルダー、デスクトップ) をメモしておいてください。"
 
 #: lc-open-refine/setup.md:50
 # header
 msgid "### Exiting OpenRefine"
-msgstr ""
+msgstr "### OpenRefineの終了"
 
 #: lc-open-refine/setup.md:52
 msgid "To exit OpenRefine, close all the browser tabs or windows, then navigate to the command line window. To close this window and ensure OpenRefine exits properly, hold down [control] and press [c] on your keyboard. This will save all changes to your projects."
-msgstr ""
+msgstr "OpenRefineを終了するには、すべてのブラウザタブまたはウィンドウを閉じてから、コマンドラインウィンドウに移動します。このウィンドウを閉じてOpenRefineが正しく終了するようにするには、[control]を押しながらキーボードの[c]を押します。これにより、プロジェクトへのすべての変更が保存されます。"
 
 #: lc-open-refine/setup.md:54
 # header
 msgid "### Getting help"
-msgstr ""
+msgstr "### ヘルプの取得"
 
 #: lc-open-refine/setup.md:56
 msgid "If you encounter problems installing or running OpenRefine, a good source of support is the [OpenRefine mailing list and user forum](https://groups.google.com/g/openrefine).\n"
 "Include your operating system when searching to find the most relevant answers for your issue, such as threads related to [Windows](https://groups.google.com/g/openrefine/search?q=windows), [macOS](https://groups.google.com/g/openrefine/search?q=macOS), or [Linux](https://groups.google.com/g/openrefine/search?q=linux)."
-msgstr ""
+msgstr "OpenRefineのインストールまたは実行で問題に出くわした場合、良いサポート情報源は[OpenRefineのメーリングリストとユーザーフォーラム](https://groups.google.com/g/openrefine)です。\n"
+"[Windows](https://groups.google.com/g/openrefine/search?q=windows)、[macOS](https://groups.google.com/g/openrefine/search?q=macOS)、または[Linux](https://groups.google.com/g/openrefine/search?q=linux)に関連するスレッド、のように検索するときはオペレーティングシステムの情報を含めてください。あなたの問題に最も関連する回答を見つけるために。"
 
 #: lc-open-refine/setup.md:59
 msgid "You may also want to check the [Stack Overflow OpenRefine tag](https://stackoverflow.com/questions/tagged/openrefine) or the [OpenRefine Gitter room](https://gitter.im/OpenRefine/OpenRefine)."
-msgstr ""
+msgstr "[Stack Overflow のOpenRefineタグ](https://stackoverflow.com/questions/tagged/openrefine)または[OpenRefine の Gitter room](https://gitter.im/OpenRefine/OpenRefine)をチェックするのもいいかもしれません。"
 
 #: lc-open-refine/setup.md:61
 msgid "There are also general and specialist tutorials about using OpenRefine available on the web, including:"
-msgstr ""
+msgstr "以下を含む、ウェブで得られるOpenRefineの使用に関する一般的および専門的なチュートリアルもあります。"
 
 #: lc-open-refine/setup.md:63
 # unordered list
 msgid "* Official wiki [List of OpenRefine External Resources](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)"
-msgstr ""
+msgstr "* 公式wikiの[OpenRefineの外部リソースのリスト](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)"
 
 #: lc-open-refine/setup.md:64
 # unordered list
 msgid "* [Getting started with OpenRefine by Thomas Padilla](http://thomaspadilla.org/dataprep/)"
-msgstr ""
+msgstr "* [Thomas Padilla による Getting started with OpenRefine](http://thomaspadilla.org/dataprep/)"
 
 #: lc-open-refine/setup.md:65
 # unordered list
 msgid "* [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](http://programminghistorian.org/lessons/cleaning-data-with-openrefine)"
-msgstr ""
+msgstr "* [Seth van Hooland、Ruben Verborgh、そして Max De Wilde による OpenRefine を用いたデータクリーニング](http://programminghistorian.org/lessons/cleaning-data-with-openrefine)"
 
 #: lc-open-refine/setup.md:66
 # unordered list
 msgid "* [Blog posts on using OpenRefine from Owen Stephens](http://www.meanboyfriend.com/overdue_ideas/tag/openrefine/?orderby=date&order=ASC)"
-msgstr ""
+msgstr "* [Owen Stephens の OpenRefineの使用に関するブログ投稿](http://www.meanboyfriend.com/overdue_ideas/tag/openrefine/?orderby=date&order=ASC)"
 
 #: lc-open-refine/setup.md:67
 # unordered list
 msgid "* [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](http://epublications.marquette.edu/lib_fac/81/)"
-msgstr ""
+msgstr "* [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](http://epublications.marquette.edu/lib_fac/81/)"
 
 #: lc-open-refine/setup.md:68
 # unordered list
 msgid "* [Free your metadata website](http://freeyourmetadata.org)"
-msgstr ""
+msgstr "* [Free your metadata のウェブサイト](http://freeyourmetadata.org)"
 
 #: lc-open-refine/setup.md:69
 # unordered list
 msgid "* [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by Christina Harlow](http://journal.code4lib.org/articles/11013)"
-msgstr ""
+msgstr "* [RDFの前処理におけるデータマンジングツール: Christina HarlowによるCatmanduとLODRefine](http://journal.code4lib.org/articles/11013)"
 
 #: lc-open-refine/setup.md:70
 # unordered list
 msgid "* [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)"
-msgstr ""
+msgstr "* [John LittleによるOpenRefineを用いたデータのクリーニング](https://libjohn.github.io/openrefine/)"
 
 #: lc-open-refine/setup.md:71
 # unordered list
 msgid "* [OpenRefine Blog](https://openrefine.org/category/blog.html)"
-msgstr ""
+msgstr "* [OpenRefineのブログ](https://openrefine.org/category/blog.html)"
 
 #: lc-open-refine/setup.md:73
 msgid "[template]: {{ site.workshop_repo }}"
