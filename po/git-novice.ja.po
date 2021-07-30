@@ -7538,7 +7538,7 @@ msgid ""
 msgstr ""
 "科学では情報を自由に共有することが理想的かもしれませんが、\n"
 "現実はもっと複雑なことがよくあります。\n"
-"今日の通常の練習は次のようになります。"
+"最近のよくあるやり方は次のようになります。"
 "Normal practice today looks something like this:"
 
 # unordered list
