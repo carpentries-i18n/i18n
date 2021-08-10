@@ -16,9 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Last-Translator: \n"
-"Language-Team: Japanese <tomkellygenetics@gmail.com>\n"
-"Language: ja\n"
 "X-Generator: Poedit 3.0\n"
 
 # Front Matter
