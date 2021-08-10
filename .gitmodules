@@ -33,7 +33,7 @@
 	url = git@github.com:carpentries-i18n/instructor-training.git
 [submodule "lc-open-refine"]
 	path = lc-open-refine
-	url = git@github.com:swcarpentry-ja/lc-open-refine
+	url = git@github.com:swcarpentry-ja/lc-open-refine.git
 [submodule "bioc-rnaseq"]
 	path = bioc-rnaseq
-	url = https://github.com/swcarpentry-ja/bioc-rnaseq.git
+	url = git@github.com:swcarpentry-ja/bioc-rnaseq.git

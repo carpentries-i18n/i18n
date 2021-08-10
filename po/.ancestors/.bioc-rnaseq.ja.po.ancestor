@@ -7,7 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-08-10 23:02:57+0900\n"
+=======
+"POT-Creation-Date: 2021-08-10 23:13:53+0900\n"
+>>>>>>> 37eb758... update PO files
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

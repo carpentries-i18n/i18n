@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 # Japanese translation of the Software Carpentry Incubator RNA-seq analysis with Bioconductor Lesson
 # Copyright (C) 2021 Software Carpentry Foundation; Japanese Translation Team
 # This file is distributed under the same license as the po4gitbook package.
 # Software-Carpentry Japanese-Team <tomkellygenetics@gmail.com>, 2019, 2020, 2021.
 #
+=======
+# Japanese translation of the Software Carpentry ${repo} Lesson
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the git4pobook package.
+# ${git_user} <${git_email}>, ${year}.
+# 
+>>>>>>> 37eb758... update PO files
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-08-10 23:44:51+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Software-Carpentry Japanese-Team <tomkellygenetics@gmail."
@@ -22,18 +31,38 @@ msgstr ""
 #: bioc-rnaseq/CODE_OF_CONDUCT.md:1
 msgid ""
 "---\n"
+=======
+"POT-Creation-Date: 2021-08-10 23:13:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ${locale}
+"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: bioc-rnaseq/CODE_OF_CONDUCT.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "layout: page\n"
 "title: \"Contributor Code of Conduct\"\n"
 "---"
 msgstr ""
 
 #: bioc-rnaseq/CODE_OF_CONDUCT.md:5
+<<<<<<< HEAD
 msgid ""
 "As contributors and maintainers of this project,\n"
+=======
+msgid "As contributors and maintainers of this project,\n"
+>>>>>>> 37eb758... update PO files
 "we pledge to follow the [Carpentry Code of Conduct][coc]."
 msgstr ""
 
 #: bioc-rnaseq/CODE_OF_CONDUCT.md:8
+<<<<<<< HEAD
 msgid ""
 "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
 "may be reported by following our [reporting guidelines][coc-reporting]."
@@ -41,12 +70,23 @@ msgstr ""
 
 #: bioc-rnaseq/CODE_OF_CONDUCT.md:11 bioc-rnaseq/_extras/discuss.md:6
 #: bioc-rnaseq/_extras/figures.md:79 bioc-rnaseq/_extras/guide.md:6
+=======
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+
+#: bioc-rnaseq/CODE_OF_CONDUCT.md:11
+#: bioc-rnaseq/_extras/discuss.md:6
+#: bioc-rnaseq/_extras/figures.md:79
+#: bioc-rnaseq/_extras/guide.md:6
+>>>>>>> 37eb758... update PO files
 #: bioc-rnaseq/bin/boilerplate/_episodes/01-introduction.md:14
 #: bioc-rnaseq/bin/boilerplate/_extras/discuss.md:6
 #: bioc-rnaseq/bin/boilerplate/_extras/figures.md:79
 #: bioc-rnaseq/bin/boilerplate/_extras/guide.md:6
 #: bioc-rnaseq/bin/boilerplate/index.md:17
 #: bioc-rnaseq/bin/boilerplate/reference.md:9
+<<<<<<< HEAD
 #: bioc-rnaseq/bin/boilerplate/setup.md:7 bioc-rnaseq/index.md:19
 #: bioc-rnaseq/reference.md:9 bioc-rnaseq/setup.md:7
 msgid "{% include links.md %}"
@@ -54,12 +94,28 @@ msgstr ""
 
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:1 bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:1
+=======
+#: bioc-rnaseq/bin/boilerplate/setup.md:7
+#: bioc-rnaseq/index.md:19
+#: bioc-rnaseq/reference.md:9
+#: bioc-rnaseq/setup.md:7
+msgid "{% include links.md %}"
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:1
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:1
+# header
+>>>>>>> 37eb758... update PO files
 msgid "# Contributing"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:3
+<<<<<<< HEAD
 msgid ""
 "[The Carpentries][c-site],\n"
+=======
+msgid "[The Carpentries][c-site],\n"
+>>>>>>> 37eb758... update PO files
 "([Software Carpentry][swc-site],\n"
 "[Data Carpentry][dc-site],\n"
 "and [Library Carpentry][lc-site]) are open source projects,\n"
@@ -70,14 +126,21 @@ msgid ""
 "and reviews of proposed changes are all welcome."
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:13
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:10
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:13
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:10
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## Contributor Agreement"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:15
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:12
+<<<<<<< HEAD
 msgid ""
 "By contributing,\n"
 "you agree that we may redistribute your work under [our license](LICENSE."
@@ -85,21 +148,37 @@ msgid ""
 "In exchange,\n"
 "we will address your issues and/or assess your change proposal as promptly "
 "as we can,\n"
+=======
+msgid "By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+>>>>>>> 37eb758... update PO files
 "and help you become a member of our community.\n"
 "Everyone involved in [The Carpentries][c-site]\n"
 "agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md)."
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:23
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:20
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:23
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:20
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## How to Contribute"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:25
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:22
+<<<<<<< HEAD
 msgid ""
 "The easiest way to get started is to file an issue\n"
+=======
+msgid "The easiest way to get started is to file an issue\n"
+>>>>>>> 37eb758... update PO files
 "to tell us about a spelling mistake,\n"
 "some awkward wording,\n"
 "or a factual error.\n"
@@ -107,36 +186,58 @@ msgid ""
 "and to meet some of our community members."
 msgstr ""
 
+<<<<<<< HEAD
 # ordered list
 #: bioc-rnaseq/CONTRIBUTING.md:32
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:32
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "1.  If you have a [GitHub][github] account,"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:33
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:35
+<<<<<<< HEAD
 msgid ""
 "    or are willing to [create one][github-join],\n"
 "    but do not know how to use Git,\n"
 "    you can report problems or suggest improvements by [creating an issue]"
 "[issues].\n"
+=======
+msgid "    or are willing to [create one][github-join],\n"
+"    but do not know how to use Git,\n"
+"    you can report problems or suggest improvements by [creating an issue][issues].\n"
+>>>>>>> 37eb758... update PO files
 "    This allows us to assign the item to someone\n"
 "    and to respond to it in a threaded discussion."
 msgstr ""
 
+<<<<<<< HEAD
 # ordered list
 #: bioc-rnaseq/CONTRIBUTING.md:39
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:41
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:39
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:41
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "3.  If you are comfortable with Git,"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:40
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:42
+<<<<<<< HEAD
 msgid ""
 "    and would like to add or change material,\n"
+=======
+msgid "    and would like to add or change material,\n"
+>>>>>>> 37eb758... update PO files
 "    you can submit a pull request (PR).\n"
 "    Instructions for doing this are [included below](#using-github)."
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:44
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:46
@@ -146,10 +247,22 @@ msgstr ""
 # ordered list
 #: bioc-rnaseq/CONTRIBUTING.md:46
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:48
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:44
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:46
+# header
+msgid "## Where to Contribute"
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:46
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:48
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "1.  If you wish to change this lesson,"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:47
+<<<<<<< HEAD
 msgid ""
 "    please work in <https://github.com/carpentries-incubator/bioc-rnaseq>,\n"
 "    which can be viewed at <https://carpentries-incubator.github.io/bioc-"
@@ -159,25 +272,45 @@ msgstr ""
 # ordered list
 #: bioc-rnaseq/CONTRIBUTING.md:50
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:52
+=======
+msgid "    please work in <https://github.com/carpentries-incubator/bioc-rnaseq>,\n"
+"    which can be viewed at <https://carpentries-incubator.github.io/bioc-rnaseq>."
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:50
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:52
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "2.  If you wish to change the example lesson,"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:51
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:53
+<<<<<<< HEAD
 msgid ""
 "    please work in <https://github.com/carpentries/lesson-example>,\n"
+=======
+msgid "    please work in <https://github.com/carpentries/lesson-example>,\n"
+>>>>>>> 37eb758... update PO files
 "    which documents the format of our lessons\n"
 "    and can be viewed at <https://carpentries.github.io/lesson-example>."
 msgstr ""
 
+<<<<<<< HEAD
 # ordered list
 #: bioc-rnaseq/CONTRIBUTING.md:55
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:57
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:55
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:57
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "3.  If you wish to change the template used for workshop websites,"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:56
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:58
+<<<<<<< HEAD
 msgid ""
 "    please work in <https://github.com/carpentries/workshop-template>.\n"
 "    The home page of that repository explains how to set up workshop "
@@ -190,11 +323,23 @@ msgstr ""
 # ordered list
 #: bioc-rnaseq/CONTRIBUTING.md:61
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:63
+=======
+msgid "    please work in <https://github.com/carpentries/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
+"    provide more background on our design choices."
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:61
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:63
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "4.  If you wish to change CSS style files, tools,"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:62
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:64
+<<<<<<< HEAD
 msgid ""
 "    or HTML boilerplate for lessons or workshops stored in `_includes` or "
 "`_layouts`,\n"
@@ -204,18 +349,35 @@ msgstr ""
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:65
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:67
+=======
+msgid "    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+"    please work in <https://github.com/carpentries/styles>."
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:65
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:67
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## What to Contribute"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:67
+<<<<<<< HEAD
 msgid ""
 "This is a new lesson under active development.\n"
+=======
+msgid "This is a new lesson under active development.\n"
+>>>>>>> 37eb758... update PO files
 "We welcome contributions of any kind at this early stage of the process."
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:70
+<<<<<<< HEAD
 msgid ""
 "There are many ways to contribute,\n"
+=======
+msgid "There are many ways to contribute,\n"
+>>>>>>> 37eb758... update PO files
 "from writing new exercises and improving existing ones,\n"
 "through adding lesson content and visual aids,\n"
 "to updating or filling in the documentation\n"
@@ -225,14 +387,22 @@ msgid ""
 "[the 'Issues' tab][repo-issues]\n"
 "for a list of issues associated with this repository,\n"
 "or you may also look at the issues for [Data Carpentry][dc-issues],\n"
+<<<<<<< HEAD
 "[Software Carpentry][swc-issues], and [Library Carpentry][lc-issues] "
 "projects."
+=======
+"[Software Carpentry][swc-issues], and [Library Carpentry][lc-issues] projects."
+>>>>>>> 37eb758... update PO files
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:82
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:79
+<<<<<<< HEAD
 msgid ""
 "Comments on issues and reviews of pull requests are just as welcome:\n"
+=======
+msgid "Comments on issues and reviews of pull requests are just as welcome:\n"
+>>>>>>> 37eb758... update PO files
 "we are smarter together than we are on our own.\n"
 "Reviews from novices and newcomers are particularly valuable:\n"
 "it's easy for people who have been using these lessons for a while\n"
@@ -240,30 +410,48 @@ msgid ""
 "so fresh eyes are always welcome."
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:89
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:86
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:89
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:86
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## What *Not* to Contribute"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:91
+<<<<<<< HEAD
 msgid ""
 "We are not looking for exercises or other material that only run on one "
 "platform.\n"
 "Our workshops typically contain a mixture of Windows, macOS, and Linux "
 "users;\n"
+=======
+msgid "We are not looking for exercises or other material that only run on one platform.\n"
+"Our workshops typically contain a mixture of Windows, macOS, and Linux users;\n"
+>>>>>>> 37eb758... update PO files
 "in order to be usable,\n"
 "our lessons must run equally well on all three."
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:96
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:102
+=======
+#: bioc-rnaseq/CONTRIBUTING.md:96
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:102
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## Using GitHub"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:98
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:104
+<<<<<<< HEAD
 msgid ""
 "If you choose to contribute via GitHub, you may want to look at\n"
 "[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
@@ -287,10 +475,31 @@ msgstr ""
 msgid ""
 "2.  Within your version of the forked repository, move to the `gh-pages` "
 "branch and"
+=======
+msgid "If you choose to contribute via GitHub, you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"To manage changes, we follow [GitHub flow][github-flow].\n"
+"Each lesson has two maintainers who review issues and pull requests or encourage others to do so.\n"
+"The maintainers are community volunteers and have final say over what gets merged into the lesson.\n"
+"To use the web interface for contributing to a lesson:"
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:105
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:111
+# ordered list
+msgid "1.  Fork the originating repository to your GitHub profile."
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:106
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:112
+# ordered list
+msgid "2.  Within your version of the forked repository, move to the `gh-pages` branch and"
+>>>>>>> 37eb758... update PO files
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:107
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:113
+<<<<<<< HEAD
 msgid ""
 "create a new branch for each significant change being made.\n"
 "3.  Navigate to the file(s) you wish to change within the new branches and "
@@ -300,12 +509,21 @@ msgid ""
 "to the `gh-pages` branch within the originating repository.\n"
 "6.  If you receive feedback, make changes using your issue-specific branches "
 "of the forked\n"
+=======
+msgid "create a new branch for each significant change being made.\n"
+"3.  Navigate to the file(s) you wish to change within the new branches and make revisions as required.\n"
+"4.  Commit all changed files within the appropriate branches.\n"
+"5.  Create individual pull requests from each of your changed branches\n"
+"to the `gh-pages` branch within the originating repository.\n"
+"6.  If you receive feedback, make changes using your issue-specific branches of the forked\n"
+>>>>>>> 37eb758... update PO files
 "repository and the pull requests will update automatically.\n"
 "7.  Repeat as needed until all feedback has been addressed."
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:116
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:122
+<<<<<<< HEAD
 msgid ""
 "When starting work, please make sure your clone of the originating `gh-"
 "pages` branch is up-to-date\n"
@@ -320,12 +538,29 @@ msgstr ""
 # header
 #: bioc-rnaseq/CONTRIBUTING.md:123
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:129
+=======
+msgid "When starting work, please make sure your clone of the originating `gh-pages` branch is up-to-date\n"
+"before creating your own revision-specific branch(es) from there.\n"
+"Additionally, please only work from your newly-created branch(es) and *not*\n"
+"your clone of the originating `gh-pages` branch.\n"
+"Lastly, published copies of all the lessons are available in the `gh-pages` branch of the originating\n"
+"repository for reference while revising."
+msgstr ""
+
+#: bioc-rnaseq/CONTRIBUTING.md:123
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:129
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## Other Resources"
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:125
+<<<<<<< HEAD
 msgid ""
 "General discussion of [The Carpentries][c-site]\n"
+=======
+msgid "General discussion of [The Carpentries][c-site]\n"
+>>>>>>> 37eb758... update PO files
 "happens on the [discussion mailing list][discuss-list],\n"
 "which everyone is welcome to join.\n"
 "You can also [join the `bioconductor-teaching` Google Group][bioc-teaching]\n"
@@ -334,8 +569,12 @@ msgid ""
 msgstr ""
 
 #: bioc-rnaseq/CONTRIBUTING.md:132
+<<<<<<< HEAD
 msgid ""
 "[bioc-teaching]: https://groups.google.com/g/bioconductor-teaching\n"
+=======
+msgid "[bioc-teaching]: https://groups.google.com/g/bioconductor-teaching\n"
+>>>>>>> 37eb758... update PO files
 "[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
 "[dc-lessons]: http://datacarpentry.org/lessons/\n"
 "[dc-site]: http://datacarpentry.org/\n"
@@ -343,8 +582,12 @@ msgid ""
 "[github]: https://github.com\n"
 "[github-flow]: https://guides.github.com/introduction/flow/\n"
 "[github-join]: https://github.com/join\n"
+<<<<<<< HEAD
 "[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
 "source-project-on-github\n"
+=======
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+>>>>>>> 37eb758... update PO files
 "[issues]: https://guides.github.com/features/issues/\n"
 "[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
 "[swc-lessons]: https://software-carpentry.org/lessons/\n"
@@ -355,25 +598,40 @@ msgid ""
 "[repo-issues]: https://github.com/carpentries-incubator/bioc-rnaseq/issues"
 msgstr ""
 
+<<<<<<< HEAD
 # Front Matter
 #: bioc-rnaseq/LICENSE.md:1
 msgid ""
 "---\n"
+=======
+#: bioc-rnaseq/LICENSE.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "layout: page\n"
 "title: \"Licenses\"\n"
 "root: .\n"
 "---"
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/LICENSE.md:6
+=======
+#: bioc-rnaseq/LICENSE.md:6
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## Instructional Material"
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:8
+<<<<<<< HEAD
 msgid ""
 "All Software Carpentry, Data Carpentry, and Library Carpentry instructional "
 "material is\n"
+=======
+msgid "All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is\n"
+>>>>>>> 37eb758... update PO files
 "made available under the [Creative Commons Attribution\n"
 "license][cc-by-human]. The following is a human-readable summary of\n"
 "(and not a substitute for) the [full legal text of the CC BY 4.0\n"
@@ -384,6 +642,7 @@ msgstr ""
 msgid "You are free:"
 msgstr ""
 
+<<<<<<< HEAD
 # unordered list
 #: bioc-rnaseq/LICENSE.md:16
 msgid ""
@@ -392,6 +651,15 @@ msgstr ""
 
 # unordered list
 #: bioc-rnaseq/LICENSE.md:17
+=======
+#: bioc-rnaseq/LICENSE.md:16
+# unordered list
+msgid "* to **Share**---copy and redistribute the material in any medium or format"
+msgstr ""
+
+#: bioc-rnaseq/LICENSE.md:17
+# unordered list
+>>>>>>> 37eb758... update PO files
 msgid "* to **Adapt**---remix, transform, and build upon the material"
 msgstr ""
 
@@ -400,8 +668,12 @@ msgid "for any purpose, even commercially."
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:21
+<<<<<<< HEAD
 msgid ""
 "The licensor cannot revoke these freedoms as long as you follow the\n"
+=======
+msgid "The licensor cannot revoke these freedoms as long as you follow the\n"
+>>>>>>> 37eb758... update PO files
 "license terms."
 msgstr ""
 
@@ -409,14 +681,23 @@ msgstr ""
 msgid "Under the following terms:"
 msgstr ""
 
+<<<<<<< HEAD
 # unordered list
 #: bioc-rnaseq/LICENSE.md:26
+=======
+#: bioc-rnaseq/LICENSE.md:26
+# unordered list
+>>>>>>> 37eb758... update PO files
 msgid "* **Attribution**---You must give appropriate credit (mentioning that"
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:27
+<<<<<<< HEAD
 msgid ""
 "  your work is derived from work that is Copyright © Software\n"
+=======
+msgid "  your work is derived from work that is Copyright © Software\n"
+>>>>>>> 37eb758... update PO files
 "  Carpentry and, where practical, linking to\n"
 "  http://software-carpentry.org/), provide a [link to the\n"
 "  license][cc-by-human], and indicate if changes were made. You may do\n"
@@ -425,8 +706,12 @@ msgid ""
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:34
+<<<<<<< HEAD
 msgid ""
 "**No additional restrictions**---You may not apply legal terms or\n"
+=======
+msgid "**No additional restrictions**---You may not apply legal terms or\n"
+>>>>>>> 37eb758... update PO files
 "technological measures that legally restrict others from doing\n"
 "anything the license permits.  With the understanding that:"
 msgstr ""
@@ -435,14 +720,23 @@ msgstr ""
 msgid "Notices:"
 msgstr ""
 
+<<<<<<< HEAD
 # unordered list
 #: bioc-rnaseq/LICENSE.md:40
+=======
+#: bioc-rnaseq/LICENSE.md:40
+# unordered list
+>>>>>>> 37eb758... update PO files
 msgid "* You do not have to comply with the license for elements of the"
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:41
+<<<<<<< HEAD
 msgid ""
 "  material in the public domain or where your use is permitted by an\n"
+=======
+msgid "  material in the public domain or where your use is permitted by an\n"
+>>>>>>> 37eb758... update PO files
 "  applicable exception or limitation.\n"
 "* No warranties are given. The license may not give you all of the\n"
 "  permissions necessary for your intended use. For example, other\n"
@@ -450,23 +744,37 @@ msgid ""
 "  use the material."
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/LICENSE.md:48
+=======
+#: bioc-rnaseq/LICENSE.md:48
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## Software"
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:50
+<<<<<<< HEAD
 msgid ""
 "Except where otherwise noted, the example programs and other software\n"
 "provided by Software Carpentry and Data Carpentry are made available under "
 "the\n"
+=======
+msgid "Except where otherwise noted, the example programs and other software\n"
+"provided by Software Carpentry and Data Carpentry are made available under the\n"
+>>>>>>> 37eb758... update PO files
 "[OSI][osi]-approved\n"
 "[MIT license][mit-license]."
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:55
+<<<<<<< HEAD
 msgid ""
 "Permission is hereby granted, free of charge, to any person obtaining\n"
+=======
+msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
+>>>>>>> 37eb758... update PO files
 "a copy of this software and associated documentation files (the\n"
 "\"Software\"), to deal in the Software without restriction, including\n"
 "without limitation the rights to use, copy, modify, merge, publish,\n"
@@ -476,14 +784,22 @@ msgid ""
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:63
+<<<<<<< HEAD
 msgid ""
 "The above copyright notice and this permission notice shall be\n"
+=======
+msgid "The above copyright notice and this permission notice shall be\n"
+>>>>>>> 37eb758... update PO files
 "included in all copies or substantial portions of the Software."
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:66
+<<<<<<< HEAD
 msgid ""
 "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+=======
+msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+>>>>>>> 37eb758... update PO files
 "EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
 "MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
 "NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
@@ -492,26 +808,40 @@ msgid ""
 "WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/LICENSE.md:74
+=======
+#: bioc-rnaseq/LICENSE.md:74
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## Trademark"
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:76
+<<<<<<< HEAD
 msgid ""
 "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+=======
+msgid "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+>>>>>>> 37eb758... update PO files
 "are registered trademarks of [Community Initiatives][CI]."
 msgstr ""
 
 #: bioc-rnaseq/LICENSE.md:79
+<<<<<<< HEAD
 msgid ""
 "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+=======
+msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+>>>>>>> 37eb758... update PO files
 "[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
 "[mit-license]: https://opensource.org/licenses/mit-license.html\n"
 "[ci]: http://communityin.org/\n"
 "[osi]: https://opensource.org"
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/README.md:1
 msgid "# RNA-seq analysis with Bioconductor"
@@ -542,10 +872,39 @@ msgid ""
 "(CONTRIBUTING.md) and have a look at\n"
 "the [more detailed guidelines][lesson-example] on proper formatting, ways to "
 "render the lesson locally, and even\n"
+=======
+#: bioc-rnaseq/README.md:1
+# header
+msgid "# RNA-seq analysis with Bioconductor"
+msgstr ""
+
+#: bioc-rnaseq/README.md:3
+#: bioc-rnaseq/bin/boilerplate/README.md:3
+msgid "[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)"
+msgstr ""
+
+#: bioc-rnaseq/README.md:6
+#: bioc-rnaseq/bin/boilerplate/README.md:7
+# header
+msgid "## Contributing"
+msgstr ""
+
+#: bioc-rnaseq/README.md:8
+#: bioc-rnaseq/bin/boilerplate/README.md:9
+msgid "We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any\n"
+"questions, concerns, or experience any difficulties along the way."
+msgstr ""
+
+#: bioc-rnaseq/README.md:11
+#: bioc-rnaseq/bin/boilerplate/README.md:12
+msgid "We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTRIBUTING.md) and have a look at\n"
+"the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even\n"
+>>>>>>> 37eb758... update PO files
 "how to write new episodes."
 msgstr ""
 
 #: bioc-rnaseq/README.md:15
+<<<<<<< HEAD
 msgid ""
 "Please see the current list of [issues][FIXME] for ideas for contributing to "
 "this\n"
@@ -580,6 +939,35 @@ msgstr ""
 
 # header
 #: bioc-rnaseq/README.md:31 bioc-rnaseq/bin/boilerplate/README.md:23
+=======
+msgid "Please see the current list of [issues][FIXME] for ideas for contributing to this\n"
+"repository. For making your contribution, we use the GitHub flow, which is\n"
+"nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git\n"
+"by Scott Chacon.\n"
+"Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue."
+msgstr ""
+
+#: bioc-rnaseq/README.md:22
+# header
+msgid "## Useful links"
+msgstr ""
+
+#: bioc-rnaseq/README.md:24
+# unordered list
+msgid "* [ ] If you're going to be developing lesson material for the first time"
+msgstr ""
+
+#: bioc-rnaseq/README.md:25
+msgid "  according to our design principles,\n"
+"  consider reading the [Carpentries Curriculum Development Handbook][cdh]\n"
+"* [ ] Consult the [Lesson Example][lesson-example] website to find out more about\n"
+"  working with the lesson template"
+msgstr ""
+
+#: bioc-rnaseq/README.md:31
+#: bioc-rnaseq/bin/boilerplate/README.md:23
+# header
+>>>>>>> 37eb758... update PO files
 msgid "## Maintainer(s)"
 msgstr ""
 
@@ -587,6 +975,7 @@ msgstr ""
 msgid "Current maintainers of this lesson are"
 msgstr ""
 
+<<<<<<< HEAD
 # unordered list
 #: bioc-rnaseq/README.md:35
 msgid "* Charlotte Soneson"
@@ -622,27 +1011,80 @@ msgid "## Citation"
 msgstr ""
 
 #: bioc-rnaseq/README.md:47 bioc-rnaseq/bin/boilerplate/README.md:38
+=======
+#: bioc-rnaseq/README.md:35
+# unordered list
+msgid "* Charlotte Soneson"
+msgstr ""
+
+#: bioc-rnaseq/README.md:36
+# unordered list
+msgid "* Jenny Drnevich"
+msgstr ""
+
+#: bioc-rnaseq/README.md:37
+# unordered list
+msgid "* Laurent Gatto"
+msgstr ""
+
+#: bioc-rnaseq/README.md:38
+# unordered list
+msgid "* Robert Castelo"
+msgstr ""
+
+#: bioc-rnaseq/README.md:41
+#: bioc-rnaseq/bin/boilerplate/README.md:32
+# header
+msgid "## Authors"
+msgstr ""
+
+#: bioc-rnaseq/README.md:43
+#: bioc-rnaseq/bin/boilerplate/README.md:34
+msgid "A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)"
+msgstr ""
+
+#: bioc-rnaseq/README.md:45
+#: bioc-rnaseq/bin/boilerplate/README.md:36
+# header
+msgid "## Citation"
+msgstr ""
+
+#: bioc-rnaseq/README.md:47
+#: bioc-rnaseq/bin/boilerplate/README.md:38
+>>>>>>> 37eb758... update PO files
 msgid "To cite this lesson, please consult with [CITATION](CITATION)"
 msgstr ""
 
 #: bioc-rnaseq/README.md:49
+<<<<<<< HEAD
 msgid ""
 "[cdh]: https://cdh.carpentries.org\n"
+=======
+msgid "[cdh]: https://cdh.carpentries.org\n"
+>>>>>>> 37eb758... update PO files
 "[community-lessons]: https://carpentries.org/community-lessons\n"
 "[lesson-example]: https://carpentries.github.io/lesson-example"
 msgstr ""
 
+<<<<<<< HEAD
 # Front Matter
 #: bioc-rnaseq/_extras/about.md:1
 #: bioc-rnaseq/bin/boilerplate/_extras/about.md:1
 msgid ""
 "---\n"
+=======
+#: bioc-rnaseq/_extras/about.md:1
+#: bioc-rnaseq/bin/boilerplate/_extras/about.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "title: About\n"
 "---"
 msgstr ""
 
 #: bioc-rnaseq/_extras/about.md:4
 #: bioc-rnaseq/bin/boilerplate/_extras/about.md:4
+<<<<<<< HEAD
 msgid ""
 "{% include carpentries.html %}\n"
 "{% include links.md %}"
@@ -653,31 +1095,59 @@ msgstr ""
 #: bioc-rnaseq/bin/boilerplate/_extras/discuss.md:1
 msgid ""
 "---\n"
+=======
+msgid "{% include carpentries.html %}\n"
+"{% include links.md %}"
+msgstr ""
+
+#: bioc-rnaseq/_extras/discuss.md:1
+#: bioc-rnaseq/bin/boilerplate/_extras/discuss.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "title: Discussion\n"
 "---"
 msgstr ""
 
+<<<<<<< HEAD
 #: bioc-rnaseq/_extras/discuss.md:4 bioc-rnaseq/_extras/guide.md:4
+=======
+#: bioc-rnaseq/_extras/discuss.md:4
+#: bioc-rnaseq/_extras/guide.md:4
+>>>>>>> 37eb758... update PO files
 #: bioc-rnaseq/bin/boilerplate/_episodes/01-introduction.md:12
 #: bioc-rnaseq/bin/boilerplate/_extras/discuss.md:4
 #: bioc-rnaseq/bin/boilerplate/_extras/guide.md:4
 #: bioc-rnaseq/bin/boilerplate/reference.md:7
+<<<<<<< HEAD
 #: bioc-rnaseq/bin/boilerplate/setup.md:4 bioc-rnaseq/reference.md:7
+=======
+#: bioc-rnaseq/bin/boilerplate/setup.md:4
+#: bioc-rnaseq/reference.md:7
+>>>>>>> 37eb758... update PO files
 #: bioc-rnaseq/setup.md:4
 msgid "FIXME"
 msgstr ""
 
+<<<<<<< HEAD
 # Front Matter
 #: bioc-rnaseq/_extras/figures.md:1
 #: bioc-rnaseq/bin/boilerplate/_extras/figures.md:1
 msgid ""
 "---\n"
+=======
+#: bioc-rnaseq/_extras/figures.md:1
+#: bioc-rnaseq/bin/boilerplate/_extras/figures.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "title: Figures\n"
 "---"
 msgstr ""
 
 #: bioc-rnaseq/_extras/figures.md:5
 #: bioc-rnaseq/bin/boilerplate/_extras/figures.md:5
+<<<<<<< HEAD
 msgid ""
 "{% include base_path.html %}\n"
 "{% include manual_episode_order.html %}"
@@ -688,12 +1158,26 @@ msgstr ""
 #: bioc-rnaseq/bin/boilerplate/_extras/figures.md:8
 msgid ""
 "<script>\n"
+=======
+msgid "{% include base_path.html %}\n"
+"{% include manual_episode_order.html %}"
+msgstr ""
+
+#: bioc-rnaseq/_extras/figures.md:8
+#: bioc-rnaseq/bin/boilerplate/_extras/figures.md:8
+# inline html
+msgid "<script>\n"
+>>>>>>> 37eb758... update PO files
 "  window.onload = function() {\n"
 "    var lesson_episodes = [\n"
 "    {% for lesson_episode in lesson_episodes %}\n"
 "      {% if site.episode_order %}\n"
+<<<<<<< HEAD
 "        {% assign episode = site.episodes | where: \"slug\", lesson_episode "
 "| first %}\n"
+=======
+"        {% assign episode = site.episodes | where: \"slug\", lesson_episode | first %}\n"
+>>>>>>> 37eb758... update PO files
 "      {% else %}\n"
 "        {% assign episode = lesson_episode %}\n"
 "      {% endif %}\n"
@@ -701,6 +1185,7 @@ msgid ""
 "    {% endfor %}\n"
 "    ];\n"
 "\n"
+<<<<<<< HEAD
 "    var xmlHttp = [];  /* Required since we are going to query every "
 "episode. */\n"
 "    for (i=0; i < lesson_episodes.length; i++) {\n"
@@ -708,21 +1193,37 @@ msgid ""
 "      xmlHttp[i] = new XMLHttpRequest();\n"
 "      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. "
 "*/\n"
+=======
+"    var xmlHttp = [];  /* Required since we are going to query every episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. */\n"
+>>>>>>> 37eb758... update PO files
 "      xmlHttp[i].onreadystatechange = function() {\n"
 "\n"
 "        if (this.readyState == 4 && this.status == 200) {\n"
 "          var parser = new DOMParser();\n"
+<<<<<<< HEAD
 "          var htmlDoc = parser.parseFromString(this.responseText,\"text/html"
 "\");\n"
 "          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")"
 "[0];\n"
+=======
+"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html\");\n"
+"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+>>>>>>> 37eb758... update PO files
 "\n"
 "          var article_here = document.getElementById(this.episode);\n"
 "          var images = htmlDocArticle.getElementsByTagName(\"img\");\n"
 "\n"
 "          if (images.length > 0) {\n"
+<<<<<<< HEAD
 "            var h1text = htmlDocArticle.getElementsByTagName(\"h1\")[0]."
 "innerHTML;\n"
+=======
+"            var h1text = htmlDocArticle.getElementsByTagName(\"h1\")[0].innerHTML;\n"
+>>>>>>> 37eb758... update PO files
 "\n"
 "            var htitle = document.createElement('h2');\n"
 "            htitle.innerHTML = h1text;\n"
@@ -733,8 +1234,12 @@ msgid ""
 "              image_num++;\n"
 "\n"
 "              var title = document.createElement('p');\n"
+<<<<<<< HEAD
 "              title.innerHTML = \"<strong>Figure \" + image_num + \".</"
 "strong> \" + image.alt;\n"
+=======
+"              title.innerHTML = \"<strong>Figure \" + image_num + \".</strong> \" + image.alt;\n"
+>>>>>>> 37eb758... update PO files
 "              article_here.appendChild(title);\n"
 "\n"
 "              article_here.appendChild(image.cloneNode(false));\n"
@@ -757,17 +1262,27 @@ msgstr ""
 
 #: bioc-rnaseq/_extras/figures.md:68
 #: bioc-rnaseq/bin/boilerplate/_extras/figures.md:68
+<<<<<<< HEAD
 msgid ""
 "{% comment %} Create anchor for each one of the episodes.  {% endcomment %}"
+=======
+msgid "{% comment %} Create anchor for each one of the episodes.  {% endcomment %}"
+>>>>>>> 37eb758... update PO files
 msgstr ""
 
 #: bioc-rnaseq/_extras/figures.md:70
 #: bioc-rnaseq/bin/boilerplate/_extras/figures.md:70
+<<<<<<< HEAD
 msgid ""
 "{% for lesson_episode in lesson_episodes %}\n"
 "  {% if site.episode_order %}\n"
 "    {% assign episode = site.episodes | where: \"slug\", lesson_episode | "
 "first %}\n"
+=======
+msgid "{% for lesson_episode in lesson_episodes %}\n"
+"  {% if site.episode_order %}\n"
+"    {% assign episode = site.episodes | where: \"slug\", lesson_episode | first %}\n"
+>>>>>>> 37eb758... update PO files
 "  {% else %}\n"
 "    {% assign episode = lesson_episode %}\n"
 "  {% endif %}\n"
@@ -775,16 +1290,24 @@ msgid ""
 "{% endfor %}"
 msgstr ""
 
+<<<<<<< HEAD
 # Front Matter
 #: bioc-rnaseq/_extras/guide.md:1
 #: bioc-rnaseq/bin/boilerplate/_extras/guide.md:1
 msgid ""
 "---\n"
+=======
+#: bioc-rnaseq/_extras/guide.md:1
+#: bioc-rnaseq/bin/boilerplate/_extras/guide.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "title: \"Instructor Notes\"\n"
 "---"
 msgstr ""
 
 #: bioc-rnaseq/_includes/links.md:1
+<<<<<<< HEAD
 msgid ""
 "{% include base_path.html %}\n"
 "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
@@ -796,6 +1319,15 @@ msgid ""
 "html\n"
 "[concept-maps]: https://carpentries.github.io/instructor-training/05-"
 "memory/\n"
+=======
+msgid "{% include base_path.html %}\n"
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[ci]: http://communityin.org/\n"
+"[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/incident-reporting.html\n"
+"[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html\n"
+"[concept-maps]: https://carpentries.github.io/instructor-training/05-memory/\n"
+>>>>>>> 37eb758... update PO files
 "[contrib-covenant]: https://contributor-covenant.org/\n"
 "[contributing]: {{ repo_url }}/blob/{{ source_branch }}/CONTRIBUTING.md\n"
 "[cran-checkpoint]: https://cran.r-project.org/package=checkpoint\n"
@@ -840,17 +1372,27 @@ msgid ""
 "[yaml]: http://yaml.org/"
 msgstr ""
 
+<<<<<<< HEAD
 # Front Matter
 #: bioc-rnaseq/aio.md:1
 msgid ""
 "---\n"
+=======
+#: bioc-rnaseq/aio.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "permalink: /aio/index.html\n"
 "---"
 msgstr ""
 
 #: bioc-rnaseq/aio.md:5
+<<<<<<< HEAD
 msgid ""
 "{% comment %}\n"
+=======
+msgid "{% comment %}\n"
+>>>>>>> 37eb758... update PO files
 "As a maintainer, you don't need to edit this file.\n"
 "If you notice that something doesn't work, please \n"
 "open an issue: https://github.com/carpentries/styles/issues/new\n"
@@ -866,9 +1408,13 @@ msgid "{% include aio-script.md %}"
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:3
+<<<<<<< HEAD
 msgid ""
 "[The Carpentries][c-site] ([Software Carpentry][swc-site], [Data Carpentry]"
 "[dc-site], and [Library Carpentry][lc-site]) are open source projects,\n"
+=======
+msgid "[The Carpentries][c-site] ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]) are open source projects,\n"
+>>>>>>> 37eb758... update PO files
 "and we welcome contributions of all kinds:\n"
 "new lessons,\n"
 "fixes to existing material,\n"
@@ -876,12 +1422,18 @@ msgid ""
 "and reviews of proposed changes are all welcome."
 msgstr ""
 
+<<<<<<< HEAD
 # ordered list
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:29
+=======
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:29
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "1.  If you do not have a [GitHub][github] account,"
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:30
+<<<<<<< HEAD
 msgid ""
 "    you can [send us comments by email][email].\n"
 "    However,\n"
@@ -891,18 +1443,35 @@ msgstr ""
 
 # ordered list
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:34
+=======
+msgid "    you can [send us comments by email][email].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other methods described below."
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:34
+# ordered list
+>>>>>>> 37eb758... update PO files
 msgid "2.  If you have a [GitHub][github] account,"
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:49
+<<<<<<< HEAD
 msgid ""
 "    please work in <https://github.com/swcarpentry/FIXME>,\n"
+=======
+msgid "    please work in <https://github.com/swcarpentry/FIXME>,\n"
+>>>>>>> 37eb758... update PO files
 "    which can be viewed at <https://swcarpentry.github.io/FIXME>."
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:69
+<<<<<<< HEAD
 msgid ""
 "There are many ways to contribute,\n"
+=======
+msgid "There are many ways to contribute,\n"
+>>>>>>> 37eb758... update PO files
 "from writing new exercises and improving existing ones\n"
 "to updating or filling in the documentation\n"
 "and submitting [bug reports][issues]\n"
@@ -910,6 +1479,7 @@ msgid ""
 "If you are looking for ideas, please see the 'Issues' tab for\n"
 "a list of issues associated with this repository,\n"
 "or you may also look at the issues for [Data Carpentry][dc-issues], \n"
+<<<<<<< HEAD
 "[Software Carpentry][swc-issues], and [Library Carpentry][lc-issues] "
 "projects."
 msgstr ""
@@ -918,6 +1488,13 @@ msgstr ""
 msgid ""
 "Our lessons already contain more material than we can cover in a typical "
 "workshop,\n"
+=======
+"[Software Carpentry][swc-issues], and [Library Carpentry][lc-issues] projects."
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:88
+msgid "Our lessons already contain more material than we can cover in a typical workshop,\n"
+>>>>>>> 37eb758... update PO files
 "so we are usually *not* looking for more concepts or tools to add to them.\n"
 "As a rule,\n"
 "if you want to introduce a new idea,\n"
@@ -928,27 +1505,40 @@ msgid ""
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:97
+<<<<<<< HEAD
 msgid ""
 "We are also not looking for exercises or other material that only run on one "
 "platform.\n"
 "Our workshops typically contain a mixture of Windows, macOS, and Linux "
 "users;\n"
+=======
+msgid "We are also not looking for exercises or other material that only run on one platform.\n"
+"Our workshops typically contain a mixture of Windows, macOS, and Linux users;\n"
+>>>>>>> 37eb758... update PO files
 "in order to be usable,\n"
 "our lessons must run equally well on all three."
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:131
+<<<<<<< HEAD
 msgid ""
 "General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
 "site]\n"
+=======
+msgid "General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+>>>>>>> 37eb758... update PO files
 "happens on the [discussion mailing list][discuss-list],\n"
 "which everyone is welcome to join.\n"
 "You can also [reach us by email][email]."
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/CONTRIBUTING.md:136
+<<<<<<< HEAD
 msgid ""
 "[email]: mailto:admin@software-carpentry.org\n"
+=======
+msgid "[email]: mailto:admin@software-carpentry.org\n"
+>>>>>>> 37eb758... update PO files
 "[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
 "[dc-lessons]: http://datacarpentry.org/lessons/\n"
 "[dc-site]: http://datacarpentry.org/\n"
@@ -956,8 +1546,12 @@ msgid ""
 "[github]: https://github.com\n"
 "[github-flow]: https://guides.github.com/introduction/flow/\n"
 "[github-join]: https://github.com/join\n"
+<<<<<<< HEAD
 "[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
 "source-project-on-github\n"
+=======
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+>>>>>>> 37eb758... update PO files
 "[issues]: https://guides.github.com/features/issues/\n"
 "[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
 "[swc-lessons]: https://software-carpentry.org/lessons/\n"
@@ -967,12 +1561,18 @@ msgid ""
 "[lc-issues]: https://github.com/issues?q=user%3Alibrarycarpentry"
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/bin/boilerplate/README.md:1
+=======
+#: bioc-rnaseq/bin/boilerplate/README.md:1
+# header
+>>>>>>> 37eb758... update PO files
 msgid "# FIXME Lesson title"
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/README.md:5
+<<<<<<< HEAD
 msgid ""
 "This repository generates the corresponding lesson website from [The "
 "Carpentries](https://carpentries.org/) repertoire of lessons. "
@@ -989,16 +1589,34 @@ msgid ""
 "Look for the tag ![good_first_issue](https://img.shields.io/badge/-good"
 "%20first%20issue-gold.svg). This indicates that the maintainers will welcome "
 "a pull request fixing this issue.  "
+=======
+msgid "This repository generates the corresponding lesson website from [The Carpentries](https://carpentries.org/) repertoire of lessons. "
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/README.md:16
+msgid "Please see the current list of [issues][FIXME] for ideas for contributing to this\n"
+"repository. For making your contribution, we use the GitHub flow, which is\n"
+"nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git\n"
+"by Scott Chacon.\n"
+"Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.  "
+>>>>>>> 37eb758... update PO files
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/README.md:25
 msgid "Current maintainers of this lesson are "
 msgstr ""
 
+<<<<<<< HEAD
 # unordered list
 #: bioc-rnaseq/bin/boilerplate/README.md:27
 #: bioc-rnaseq/bin/boilerplate/README.md:28
 #: bioc-rnaseq/bin/boilerplate/README.md:29
+=======
+#: bioc-rnaseq/bin/boilerplate/README.md:27
+#: bioc-rnaseq/bin/boilerplate/README.md:28
+#: bioc-rnaseq/bin/boilerplate/README.md:29
+# unordered list
+>>>>>>> 37eb758... update PO files
 msgid "* FIXME"
 msgstr ""
 
@@ -1006,10 +1624,16 @@ msgstr ""
 msgid "[lesson-example]: https://carpentries.github.io/lesson-example"
 msgstr ""
 
+<<<<<<< HEAD
 # Front Matter
 #: bioc-rnaseq/bin/boilerplate/_episodes/01-introduction.md:1
 msgid ""
 "---\n"
+=======
+#: bioc-rnaseq/bin/boilerplate/_episodes/01-introduction.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "title: \"Introduction\"\n"
 "teaching: 0\n"
 "exercises: 0\n"
@@ -1022,6 +1646,7 @@ msgid ""
 "---"
 msgstr ""
 
+<<<<<<< HEAD
 # Front Matter
 #: bioc-rnaseq/bin/boilerplate/index.md:1 bioc-rnaseq/index.md:1
 msgid ""
@@ -1031,6 +1656,15 @@ msgid ""
 "html\n"
 "permalink: index.html  # Is the only page that doesn't follow the pattern /:"
 "path/index.html\n"
+=======
+#: bioc-rnaseq/bin/boilerplate/index.md:1
+#: bioc-rnaseq/index.md:1
+# Front Matter
+msgid "---\n"
+"layout: lesson\n"
+"root: .  # Is the only page that doesn't follow the pattern /:path/index.html\n"
+"permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html\n"
+>>>>>>> 37eb758... update PO files
 "---"
 msgstr ""
 
@@ -1038,6 +1672,7 @@ msgstr ""
 msgid "FIXME: home page introduction"
 msgstr ""
 
+<<<<<<< HEAD
 #: bioc-rnaseq/bin/boilerplate/index.md:8 bioc-rnaseq/index.md:8
 msgid "<!-- this is an html comment -->"
 msgstr ""
@@ -1048,10 +1683,26 @@ msgstr ""
 
 # blockquote, which can be cascaded
 #: bioc-rnaseq/bin/boilerplate/index.md:12 bioc-rnaseq/index.md:12
+=======
+#: bioc-rnaseq/bin/boilerplate/index.md:8
+#: bioc-rnaseq/index.md:8
+msgid "<!-- this is an html comment -->"
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/index.md:10
+#: bioc-rnaseq/index.md:10
+msgid "{% comment %} This is a comment in Liquid {% endcomment %}"
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/index.md:12
+#: bioc-rnaseq/index.md:12
+# blockquote, which can be cascaded
+>>>>>>> 37eb758... update PO files
 msgid "> ## Prerequisites"
 msgstr ""
 
 #: bioc-rnaseq/bin/boilerplate/index.md:13
+<<<<<<< HEAD
 msgid ""
 ">\n"
 "> FIXME"
@@ -1066,10 +1717,27 @@ msgstr ""
 #: bioc-rnaseq/bin/boilerplate/reference.md:1 bioc-rnaseq/reference.md:1
 msgid ""
 "---\n"
+=======
+msgid ">\n"
+"> FIXME"
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/index.md:15
+#: bioc-rnaseq/index.md:17
+# SC/DC Template label
+msgid "{: .prereq}"
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/reference.md:1
+#: bioc-rnaseq/reference.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "layout: reference\n"
 "---"
 msgstr ""
 
+<<<<<<< HEAD
 # header
 #: bioc-rnaseq/bin/boilerplate/reference.md:5 bioc-rnaseq/reference.md:5
 msgid "## Glossary"
@@ -1079,11 +1747,24 @@ msgstr ""
 #: bioc-rnaseq/bin/boilerplate/setup.md:1 bioc-rnaseq/setup.md:1
 msgid ""
 "---\n"
+=======
+#: bioc-rnaseq/bin/boilerplate/reference.md:5
+#: bioc-rnaseq/reference.md:5
+# header
+msgid "## Glossary"
+msgstr ""
+
+#: bioc-rnaseq/bin/boilerplate/setup.md:1
+#: bioc-rnaseq/setup.md:1
+# Front Matter
+msgid "---\n"
+>>>>>>> 37eb758... update PO files
 "title: Setup\n"
 "---"
 msgstr ""
 
 #: bioc-rnaseq/index.md:6
+<<<<<<< HEAD
 msgid ""
 "FIXME: This lesson introduces the learner to RNA-seq analysis with "
 "[Bioconductor](https://bioconductor.org/). "
@@ -1099,3 +1780,15 @@ msgid ""
 "> - Familiarity with the biological basics of gene expression and RNA "
 "sequencing."
 msgstr ""
+=======
+msgid "FIXME: This lesson introduces the learner to RNA-seq analysis with [Bioconductor](https://bioconductor.org/). "
+msgstr ""
+
+#: bioc-rnaseq/index.md:13
+msgid ">\n"
+"> - Familiarity with R, for example corresponding to the ['Introduction to R'](https://carpentries-incubator.github.io/bioc-intro/) module.\n"
+"> - Familiarity with statistical hypothesis testing (e.g., t-tests) and p-values.\n"
+"> - Familiarity with the biological basics of gene expression and RNA sequencing."
+msgstr ""
+
+>>>>>>> 37eb758... update PO files
