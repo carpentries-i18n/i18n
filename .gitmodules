@@ -34,3 +34,6 @@
 [submodule "lc-open-refine"]
 	path = lc-open-refine
 	url = git@github.com:swcarpentry-ja/lc-open-refine
+[submodule "bioc-rnaseq"]
+	path = bioc-rnaseq
+	url = https://github.com/swcarpentry-ja/bioc-rnaseq.git
