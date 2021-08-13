@@ -2755,7 +2755,7 @@ msgstr "### ヘルプの取得"
 msgid "If you encounter problems installing or running OpenRefine, a good source of support is the [OpenRefine mailing list and user forum](https://groups.google.com/g/openrefine).\n"
 "Include your operating system when searching to find the most relevant answers for your issue, such as threads related to [Windows](https://groups.google.com/g/openrefine/search?q=windows), [macOS](https://groups.google.com/g/openrefine/search?q=macOS), or [Linux](https://groups.google.com/g/openrefine/search?q=linux)."
 msgstr "OpenRefineのインストールまたは実行で問題に出くわした場合、良いサポート情報源は[OpenRefineのメーリングリストとユーザーフォーラム](https://groups.google.com/g/openrefine)です。\n"
-"[Windows](https://groups.google.com/g/openrefine/search?q=windows)、[macOS](https://groups.google.com/g/openrefine/search?q=macOS)、または[Linux](https://groups.google.com/g/openrefine/search?q=linux)に関連するスレッド、のように検索するときはオペレーティングシステムの情報を含めてください。あなたの問題に最も関連する回答を見つけるために。"
+"[Windows](https://groups.google.com/g/openrefine/search?q=windows)、[macOS](https://groups.google.com/g/openrefine/search?q=macOS)、または[Linux](https://groups.google.com/g/openrefine/search?q=linux)に関連するスレッドのように、検索するときはあなたの問題に最も関連する回答を見つけるためにオペレーティングシステムの情報を含めてください。"
 
 #: lc-open-refine/setup.md:59
 msgid "You may also want to check the [Stack Overflow OpenRefine tag](https://stackoverflow.com/questions/tagged/openrefine) or the [OpenRefine Gitter room](https://gitter.im/OpenRefine/OpenRefine)."
