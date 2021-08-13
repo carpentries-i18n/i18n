@@ -2663,7 +2663,7 @@ msgstr "このレッスンは、OpenRefineをインストールし、データ�
 #: lc-open-refine/setup.md:10
 # header
 msgid "### Installing and running OpenRefine"
-msgstr "### OpenRefineのインストールと実行"
+msgstr "### OpenRefine のインストールと実行"
 
 #: lc-open-refine/setup.md:12
 msgid "OpenRefine is a free, open-source Java application. You can download OpenRefine from \n"
