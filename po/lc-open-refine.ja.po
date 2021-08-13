@@ -2658,7 +2658,7 @@ msgstr "## 準備"
 
 #: lc-open-refine/setup.md:8
 msgid "You need to install OpenRefine and download a data file to follow this lesson."
-msgstr "このレッスンを実行するには、OpenRefineをインストールし、データファイルをダウンロードする必要があります。"
+msgstr "このレッスンは、OpenRefineをインストールし、データファイルをダウンロードする必要があります。"
 
 #: lc-open-refine/setup.md:10
 # header
