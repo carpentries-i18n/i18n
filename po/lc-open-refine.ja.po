@@ -480,64 +480,79 @@ msgid "---\n"
 "- \"OpenRefine can help you match local data up to other data sets\"\n"
 "- \"OpenRefine can help you enhance a data set with data from other sources\"\n"
 "---"
-msgstr ""
+msgstr "---\n"
+"title: \"OpenRefineの紹介\"\n"
+"teaching: 15\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"OpenRefineとは? 何ができるのか?\"\n"
+"objectives:\n"
+"- \"OpenRefineが何をするものなのか説明できる\"\n"
+"- \"OpenRefineがデータファイルの取り扱いにどう役立つか説明できる \"\n"
+"keypoints:\n"
+"- \"OpenRefineは「"面倒なデータ"を扱うためのツール」\"\n"
+"- \"OpenRefineシンプルな表形式のデータに最適\"\n"
+"- \"OpenRefineは、データをより細かく分割するのに役立つ\"\n"
+"- \"OpenRefineは、ローカルデータを他のデータセットと照合するのに役立つ\"\n"
+"- \"OpenRefineは、他のソースからのデータを使ってデータセットを拡張するのに役立つ\"\n"
+"---"
 
 #: lc-open-refine/_episodes/01-introduction.md:18
 # header
 msgid "## What is OpenRefine?"
-msgstr ""
+msgstr "## OpenRefineとは?"
 
 #: lc-open-refine/_episodes/01-introduction.md:19
 msgid " OpenRefine is a desktop application that uses your web browser as a graphical interface. It is described as \"a power tool for working with messy data\" ([David Huynh](http://web.archive.org/web/20141021040915/http://davidhuynh.net/spaces/nicar2011/tutorial.pdf)) - but what does this mean? It is probably easiest to describe the kinds of data OpenRefine is good at working with and the sorts of problems it can help you or your team solve."
-msgstr ""
+msgstr " OpenRefine は、Webブラウザをグラフィカル・インターフェースとして使用するデスクトップアプリケーションです。 OpenRefineは、「a power tool for working with messy data」（面倒なデータを扱うためのパワーツール）([David Huynh](http://web.archive.org/web/20141021040915/http://davidhuynh.net/spaces/nicar2011/tutorial.pdf)) と言われていますが、これはどういう意味なのでしょうか？ OpenRefineが得意とするデータの種類や、あなたやあなたのチームがOpenRefineを使って解決できる問題の種類を説明するのが一番簡単でしょう。"
 
 #: lc-open-refine/_episodes/01-introduction.md:21
 msgid "OpenRefine is most useful where you have data in a simple tabular format such as a spreadsheet, a comma separated values file (csv) or a tab delimited file (tsv) but with internal inconsistencies either in data formats, or where data appears, or in terminology used. OpenRefine can be used to standardize and clean data across your file. It can help you:"
-msgstr ""
+msgstr "OpenRefine は、スプレッドシート、カンマ区切り値ファイル（csv）、タブ区切りファイル（tsv）などの単純な表形式のデータがあるものの、データ形式、データの出現場所、使用されている用語のいずれかにおいて内部的な不整合がある場合に最も役立ちます。OpenRefine は、ファイル内のデータを標準化し、整理するために使用することができます。これにより、次のようなことが可能になります:"
 
 #: lc-open-refine/_episodes/01-introduction.md:23
 # unordered list
 msgid "* Get an overview of a data set"
-msgstr ""
+msgstr "* データセットの概要を知る"
 
 #: lc-open-refine/_episodes/01-introduction.md:24
 # unordered list
 msgid "* Resolve inconsistencies in a data set, for example standardizing date formatting"
-msgstr ""
+msgstr "* データセット内の不整合の解消。例えば、日付フォーマットの標準化等。"
 
 #: lc-open-refine/_episodes/01-introduction.md:25
 # unordered list
 msgid "* Help you split data up into more granular parts, for example splitting up cells with multiple authors into separate cells"
-msgstr ""
+msgstr "* データをより細かく分割するのに役立てる。例えば、複数の著者がいるセルを別のセルに分割する、等。"
 
 #: lc-open-refine/_episodes/01-introduction.md:26
 # unordered list
 msgid "* Match local data up to other data sets, for example in matching local subjects against the Library of Congress Subject Headings"
-msgstr ""
+msgstr "* ローカルデータを他のデータセットと照合します。例えば、自館で利用している件名を、Library of Congress Subject Headingsと照合します。"
 
 #: lc-open-refine/_episodes/01-introduction.md:27
 # unordered list
 msgid "* Enhance a data set with data from other sources"
-msgstr ""
+msgstr "* 他のソースからのデータでデータセットを拡張する"
 
 #: lc-open-refine/_episodes/01-introduction.md:29
 msgid "Some common scenarios might be:"
-msgstr ""
+msgstr "よくあるシナリオとしては、次のようなものがあります："
 
 #: lc-open-refine/_episodes/01-introduction.md:31
 # unordered list
 msgid "* Where you want to know how many times a particular value (name, publisher, subject) appears in a column in your data"
-msgstr ""
+msgstr "* データのある列に特定の値（名前、出版者、件名）が何回出現しているかを知りたい場合"
 
 #: lc-open-refine/_episodes/01-introduction.md:32
 # unordered list
 msgid "* Where you want to know how values are distributed across your whole data set"
-msgstr ""
+msgstr "* データセット全体における値の分布を知りたい場合"
 
 #: lc-open-refine/_episodes/01-introduction.md:33
 # unordered list
 msgid "* Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:"
-msgstr ""
+msgstr "* 異なるフォーマットの日付のリストがあり、リスト内のすべての日付を単一の共通の日付フォーマットに変更したい場合。例："
 
 #: lc-open-refine/_episodes/01-introduction.md:35
 msgid "| Data you have   | Desired data |\n"
@@ -546,12 +561,17 @@ msgid "| Data you have   | Desired data |\n"
 "| 01/01/2014      | 2014-01-01   |\n"
 "| Jan 1 2014      | 2014-01-01   |\n"
 "| 2014-01-01      | 2014-01-01   |"
-msgstr ""
+msgstr "| 今あるデータ   | 欲しいデータ |\n"
+"|-----------------|:-------------|\n"
+"| 1st January 2014| 2014-01-01   |\n"
+"| 01/01/2014      | 2014-01-01   |\n"
+"| Jan 1 2014      | 2014-01-01   |\n"
+"| 2014-01-01      | 2014-01-01   |"
 
 #: lc-open-refine/_episodes/01-introduction.md:42
 # unordered list
 msgid "* Where you have a list of names or terms that differ from each other but refer to the same people, places or concepts. For example:"
-msgstr ""
+msgstr "* 同じ人、同じ場所、同じ概念を指しているが、名前や用語が異なっているリストがあるとします。例えば："
 
 #: lc-open-refine/_episodes/01-introduction.md:44
 msgid "| Data you have   | Desired data |\n"
@@ -560,12 +580,17 @@ msgid "| Data you have   | Desired data |\n"
 "| London]         | London       |\n"
 "| London,]        | London       |\n"
 "| london          | London       |"
-msgstr ""
+msgstr "| 今あるデータ   | 欲しいデータ |\n"
+"|-----------------|:-------------|\n"
+"| London          | London       |\n"
+"| London]         | London       |\n"
+"| London,]        | London       |\n"
+"| london          | London       |"
 
 #: lc-open-refine/_episodes/01-introduction.md:51
 # unordered list
 msgid "* Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:"
-msgstr ""
+msgstr "* 複数のデータが1つの列にまとめられていて、それらを個々のデータに分割したい場合、分割したデータごとに1つの列が必要になります。例えば、1つのアドレスフィールド（1列目）から、アドレスの各部分を別のフィールドにする場合などです。"
 
 #: lc-open-refine/_episodes/01-introduction.md:53
 msgid "| Address in single field | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |\n"
@@ -574,12 +599,17 @@ msgid "| Address in single field | Institution  | Library name  | Address 1 | Ad
 "| University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE, United Kingdom | University of Abderdeen | Queen Mother Library | Meston Walk | | Aberdeen | | United Kingdom | AB24 3UE |\n"
 "| University of Birmingham, Barnes Library, Medical School, Edgbaston, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library | Medical School | Edgbaston | Birmingham | West Midlands | United Kingdom | B15 2TT |\n"
 "| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | | Coventry | | United Kingdom | CV4 7AL |"
-msgstr ""
+msgstr  "| 1フィールド内のアドレス | 機関  | 図書館名  | 住所 1 | 住所 2 | 市/町 | 地域 | 国 | 郵便番号 |\n"
+"|-------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|\n"
+"| University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS, United Kingdom | University of Wales | Llyfrgell Thomas Parry Library | Llanbadarn Fawr | | Aberystwyth | Ceredigion | United Kingdom | SY23 3AS |\n"
+"| University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE, United Kingdom | University of Abderdeen | Queen Mother Library | Meston Walk | | Aberdeen | | United Kingdom | AB24 3UE |\n"
+"| University of Birmingham, Barnes Library, Medical School, Edgbaston, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library | Medical School | Edgbaston | Birmingham | West Midlands | United Kingdom | B15 2TT |\n"
+"| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | | Coventry | | United Kingdom | CV4 7AL |"
 
 #: lc-open-refine/_episodes/01-introduction.md:60
 # unordered list
 msgid "* Where you want to add to your data from an external data source:"
-msgstr ""
+msgstr "* 外部のデータソースから自分のデータに追加したい場合："
 
 #: lc-open-refine/_episodes/01-introduction.md:62
 msgid "| Data you have   | Date of Birth from VIAF (Virtual International Authority File) | Date of Death from VIAF (Virtual International Authority File) |\n"
@@ -587,32 +617,36 @@ msgid "| Data you have   | Date of Birth from VIAF (Virtual International Author
 "| Braddon, M. E. (Mary Elizabeth) | 1835 | 1915 |\n"
 "| Rossetti, William Michael       | 1829 | 1919 |\n"
 "| Prest, Thomas Peckett           | 1810 | 1879 |"
-msgstr ""
+msgstr "| 今のデータ   | VIAF (Virtual International Authority File)上の生年月日 | VIAF (Virtual International Authority File)上の没年月日 |\n"
+"|-----------------|:-------------|:-------------|\n"
+"| Braddon, M. E. (Mary Elizabeth) | 1835 | 1915 |\n"
+"| Rossetti, William Michael       | 1829 | 1919 |\n"
+"| Prest, Thomas Peckett           | 1810 | 1879 |"
 
 #: lc-open-refine/_episodes/01-introduction.md:68
 # header
 msgid "## What Should I Know When Working With OpenRefine?"
-msgstr ""
+msgstr "## OpenRefineを使う際に、何を知っておくべきか？"
 
 #: lc-open-refine/_episodes/01-introduction.md:69
 # unordered list
 msgid "* No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server."
-msgstr ""
+msgstr "* インターネットへの接続は必要なく、OpenRefineに入力したデータやコマンドがリモートサーバーに送信されることもありません。"
 
 #: lc-open-refine/_episodes/01-introduction.md:70
 # unordered list
 msgid "* You are NOT modifying original/raw data."
-msgstr ""
+msgstr "* 元データは修正されません。"
 
 #: lc-open-refine/_episodes/01-introduction.md:71
 # unordered list
 msgid "* Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C). See [History in User Manual](https://docs.openrefine.org/manual/running/#history-undoredo) for details."
-msgstr ""
+msgstr "* プロジェクトは5分ごとに自動保存されます。また、OpenRefineが正しくシャットダウン（Ctrl+C）されたときにも保存されます。詳しくは[History in User Manual](https://docs.openrefine.org/manual/running/#history-undoredo) を参照してください。"
 
 #: lc-open-refine/_episodes/01-introduction.md:72
 # unordered list
 msgid "* Files are saved locally such that if you are working on two computers you will have to export/import files/projects."
-msgstr ""
+msgstr "* ファイルはローカルに保存されるため、2台のコンピュータで作業する場合は、ファイルやプロジェクトをエクスポート/インポートする必要があります。"
 
 #: lc-open-refine/_episodes/02-importing-data.md:1
 # Front Matter
