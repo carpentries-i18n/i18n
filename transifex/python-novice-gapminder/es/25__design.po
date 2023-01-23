@@ -1,0 +1,1506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sandro Loch <es.loch@gmail.com>, 2020
+# Paula <orchid00@gmail.com>, 2020
+# nicoguaro <nicoguarin@gmail.com>, 2020
+# David PS <dps.helio@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: David PS <dps.helio@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_extras/design.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Lesson Design\"\n"
+"permalink: /design/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Diseño de la lección\"\n"
+"permalink: /es/design/\n"
+"root: /es/_episodes/\n"
+"---"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_extras/design.md:7
+msgid "> ## Help Wanted"
+msgstr "> ## Se busca ayuda"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_extras/design.md:8
+msgid "> {:.no_toc}"
+msgstr "> {:.no_toc}"
+
+#: python-novice-gapminder/_extras/design.md:9
+msgid ""
+">\n"
+"> **We are filling in the exercises [below](#stage-3-learning-plan)\n"
+"> in order to make the lesson plan more concrete.\n"
+"> Contributions (both in the form of pull requests with filled-in exercises,\n"
+"> and comments on specific exercises, ordering, and timings) are greatly appreciated.**"
+msgstr ""
+">\n"
+"> **Estamos completando los ejercicios [a continuación](#etapa-3-plan-de-aprendizaje)\n"
+"> para hacer que el plan de la lección sea más concreto.\n"
+"> Las contribuciones (tanto en forma de *pull request* con ejercicios completados,\n"
+"> y comentarios sobre ejercicios específicos, orden y horarios) son muy apreciadas.**"
+
+# header
+#: python-novice-gapminder/_extras/design.md:16
+msgid "## Process Used"
+msgstr "## Proceso utilizado"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_extras/design.md:18
+msgid "> Michael Pollan's advice if he taught R or Python programming:"
+msgstr ""
+"> El consejo de Michael Pollan si él enseñara programación en R o Python:"
+
+#: python-novice-gapminder/_extras/design.md:19
+msgid ""
+">\n"
+"> 1. Write code.\n"
+"> 2. Not too much.\n"
+"> 3. Mostly plots.\n"
+">\n"
+"> — [Michael Koontz](https://twitter.com/_mikoontz/status/758021742078025728)"
+msgstr ""
+">\n"
+"> 1. Escribir código.\n"
+"> 2. No demasiado.\n"
+"> 3. Principalmente gráficos.\n"
+">\n"
+"> - [Michael Koontz](https://twitter.com/_mikoontz/status/758021742078025728)"
+
+# SC/DC Template label
+#: python-novice-gapminder/_extras/design.md:25
+msgid "{: .quotation}"
+msgstr "{: .quotation}"
+
+#: python-novice-gapminder/_extras/design.md:27
+msgid ""
+"This lesson was developed using a slimmed-down variant of the \"Understanding by Design\" process.\n"
+"The main sections are:"
+msgstr ""
+"Esta lección fue desarrollada usando una variante reducida del proceso \"Comprensión por diseño\".\n"
+"Las secciones principales son:"
+
+# ordered list
+#: python-novice-gapminder/_extras/design.md:30
+msgid "1.  Assumptions about audience, time, etc."
+msgstr "1. Suposiciones sobre la audiencia, tiempo, etc."
+
+#: python-novice-gapminder/_extras/design.md:31
+msgid ""
+"    (The current draft also includes some conclusions and decisions in this \n"
+"    section - that should be refactored.)"
+msgstr ""
+"(El borrador actual también incluye algunas conclusiones y decisiones en\n"
+"esta sección, que deben ser consideradas)."
+
+# ordered list
+#: python-novice-gapminder/_extras/design.md:34
+msgid "2.  Desired results:"
+msgstr "2.   Resultados deseados:"
+
+#: python-novice-gapminder/_extras/design.md:35
+msgid ""
+"    overall goals, summative assessments at half-day granularity, what learners \n"
+"    will be able to do, what learners will know."
+msgstr ""
+"    objetivos generales, evaluaciones sumativas al medio día, lo que las "
+"estudiantes podrán hacer, lo que las estudiantes aprenderán."
+
+# ordered list
+#: python-novice-gapminder/_extras/design.md:38
+msgid "3.  Learning plan:"
+msgstr "3. Plan de aprendizaje:"
+
+#: python-novice-gapminder/_extras/design.md:39
+msgid ""
+"    each episode has a heading that summarizes what will be covered,\n"
+"    then estimates time that will be spent on teaching and on exercises,\n"
+"    while the exercises are given as bullet points."
+msgstr ""
+"cada episodio tiene un encabezado que resume lo que se cubrirá,\n"
+"luego el tiempo estimado que se dedicará a la enseñanza y a los ejercicios,\n"
+"mientras que los ejercicios se muestran en puntos."
+
+# header
+#: python-novice-gapminder/_extras/design.md:43
+msgid "## Stage 1: Assumptions"
+msgstr "## Etapa 1: Suposiciones"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:45
+msgid "*   Audience"
+msgstr "* Audiencia"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:46
+msgid ""
+"    *   Graduate students in numerate disciplines from cosmology to "
+"archaeology"
+msgstr ""
+"    *   Estudiantes de postgrado de varias disciplinas desde astronomía "
+"hasta zoología."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:47
+msgid ""
+"    *   Who have manipulated data in spreadsheets and with interactive tools"
+" like SAS"
+msgstr ""
+"    *   Personas que hayan manejado datos en planillas de cálculo y "
+"herramientas interactivas como SAS"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:48
+msgid "    *   But have *not* programmed beyond CPD (copy-paste-despair)"
+msgstr ""
+"    *   Personas que *no* han programado más allá de CPD (copiar-pegar-"
+"desesperarse)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:49
+msgid "*   Constraints"
+msgstr "*   Restricciones"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:50
+msgid "    *   One full day 09:00-16:30"
+msgstr "    *   Un día completo de 09:00-16:30"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:51
+msgid "        *   06:15 class time"
+msgstr "        *   06:15 horas de clase"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:52
+msgid "        *   0:45 lunch"
+msgstr "        *   0:45 almuerzo"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:53
+msgid "        *   0:30 total for two coffee breaks"
+msgstr "        *   0:30 tiempo total para dos pausas"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:54
+msgid "    *   Learners use native installs on their own machines"
+msgstr ""
+"    *   Las estudiantes usan herramientas intaladas en sus propias máquinas"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:55
+msgid "        *   May use VMs or cloud resources at instructor's discretion"
+msgstr ""
+"        *   Pueden usar VMs o recursos en la nube si la instructora lo "
+"decide"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:56
+msgid "        *   But must keep native local install as an option"
+msgstr "        *   Deben tener una instalación local como opción"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:57
+msgid "    *   No dependence on other Carpentry modules"
+msgstr "    *   No depende de otros módulos de las Carpentries"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:58
+msgid ""
+"        *   In particular, does not require knowledge of shell or version "
+"control"
+msgstr ""
+"        *   Particularmente, no requiere conocimiento de la línea de "
+"comandos o sistemas de control de versiones"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:59
+msgid "    *   Use the Jupyter Notebook"
+msgstr "    *   Usa Jupyter Notebooks"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:60
+msgid "        *   Authentic tool used by many instructors"
+msgstr "        *   La herramienta es usada por muchos instructores"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:61
+msgid "        *   There isn't really an alternative"
+msgstr "        *   No hay alguna alternativa"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:62
+msgid ""
+"        *   And means that even people who have seen a bit of Python before"
+msgstr ""
+"        *   Y significa que incluso las personas que hayan visto algo de "
+"Python con anterioridad"
+
+#: python-novice-gapminder/_extras/design.md:63
+msgid ""
+"            will probably learn something\n"
+"*   Motivating Example\n"
+"    *   Creating 2D plots suitable for inclusion in papers\n"
+"    *   Appeals to almost everyone\n"
+"    *   Makes lesson usable by both Carpentries\n"
+"        *   And means that even people who have seen a bit of Python before \n"
+"            will probably learn something\n"
+"*   Data\n"
+"    *   Use the gapminder data throughout\n"
+"    *   But break into multiple files by continent\n"
+"        *   To make display of output from examples tidier\n"
+"            (e.g., use Australia/New Zealand, which is only two lines)\n"
+"        *   And allow examples showing use of multiple data sets\n"
+"*   Focus on Pandas instead of NumPy\n"
+"    *   Makes lesson usable by both Data Carpentry and Software Carpentry\n"
+"    *   Genuine novices are likely to want data analysis\n"
+"    *   And people with some prior experience:\n"
+"        *   will accept data analysis as an authentic task,\n"
+"        *   and are unlikely to have encountered Pandas,\n"
+"            so they'll still get something useful out of the lesson\n"
+"*   Challenges will mostly *not* be \"write this code from scratch\"\n"
+"    *   Want lots of short exercises that can reliably be finished in allotted time\n"
+"    *   So use MCQs, fill-in-the-blanks, Parsons Problems, \"tweak this code\", etc."
+msgstr ""
+"               probablemente aprenderán algo\n"
+"* Ejemplo motivador\n"
+"    * Creación de gráficos en 2D adecuados para su inclusión en publicaciones\n"
+"    * Motiva a casi todos\n"
+"    * Hace que la lección sea utilizable por ambas Carpentries\n"
+"        * Y significa que incluso las personas que han visto un poco de Python antes\n"
+"           probablemente aprenderá algo\n"
+"* Datos\n"
+"    * Utiliza los datos de gapminder en la lección\n"
+"    * Dividido en múltiples archivos por continente\n"
+"    * Hacer que la salida de los ejemplos sea más ordenada\n"
+"      (por ejemplo, usar Australia/New Zealand, que son sólo dos líneas)\n"
+"    * Y permite ejemplos que muestran el uso de múltiples conjuntos de datos\n"
+"* Céntrarse en **Pandas** en lugar de NumPy\n"
+"    * Hace que la lección sea utilizable tanto por Software Carpentry y Data Carpentry\n"
+"    * Es probable que los principiantes deseen una demostración de análisis de datos\n"
+"    * Y personas con alguna experiencia previa:\n"
+"        * aceptarán el análisis de datos como una tarea auténtica,\n"
+"        * y es poco probable que hayan utilizado Pandas,\n"
+"          entonces ellos también tendrán algo útil de la lección\n"
+"* Los desafíos en su mayoría *no* serán \"escribir este código desde cero\"\n"
+"    * Se desea que haya muchos ejercicios cortos que se pueden terminar en el tiempo asignado\n"
+"    * Utiliza MCQ (preguntas de selección múltiple), rellenar los espacios en blanco, problemas de Parsons, \"modifique este código\", etc."
+
+# header
+#: python-novice-gapminder/_extras/design.md:87
+msgid "## Stage 2: Desired Results"
+msgstr "## Etapa 2: Resultados deseados"
+
+# header
+#: python-novice-gapminder/_extras/design.md:89
+msgid "### Questions"
+msgstr "### Preguntas"
+
+#: python-novice-gapminder/_extras/design.md:91
+msgid "How do I..."
+msgstr "¿Cómo puedo..."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:93
+msgid "*   ...read tabular data?"
+msgstr "*   ...leer datos tabulares?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:94
+msgid "*   ...plot a single vector of values?"
+msgstr "*   ...graficar un vector de valores?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:95
+msgid "*   ...create a time series plot?"
+msgstr "*   ...crear una gráfica de series de tiempo?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:96
+msgid "*   ...create one plot for each of several data sets?"
+msgstr "*   ...crear una gráfica para cada conjunto de datos?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:97
+msgid "*   ...get extra data from a single data set for plotting?"
+msgstr "*   ...extraer datos de un conjunto de datos para graficar?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:98
+msgid "*   ...write programs I can read and re-use in future?"
+msgstr "*   ...escribir programas que pueda leer y reutilizar en el futuro?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:100
+msgid "### Skills"
+msgstr "### Habilidades"
+
+#: python-novice-gapminder/_extras/design.md:102
+msgid "I can..."
+msgstr "Yo puedo..."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:104
+msgid "*   ...write short scripts using loops and conditionals."
+msgstr "*   ...escribir scripts cortos usando bucles y condicionales."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:105
+msgid ""
+"*   ...write functions with a fixed number of parameters that return a "
+"single result."
+msgstr ""
+"*   ...escribir funciones con un número fijo de parámetros que retornan un "
+"resultado."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:106
+msgid ""
+"*   ...import libraries using aliases and refer to those libraries' "
+"contents."
+msgstr ""
+"*   ...importar bibliotecas usando aliases y refererenciar al contenido de "
+"la biblioteca."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:107
+msgid "*   ...do simple data extraction and formatting using Pandas."
+msgstr ""
+"*   ...hacer extracciones de datos simples y formatear datos usando Pandas."
+
+# header
+#: python-novice-gapminder/_extras/design.md:109
+msgid "### Concepts"
+msgstr "### Conceptos"
+
+#: python-novice-gapminder/_extras/design.md:111
+msgid "I know..."
+msgstr "Yo sé..."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:113
+msgid ""
+"*   ...that a program is a piece of lab equipment that implements an "
+"analysis"
+msgstr "*   ...que un programa es una herramienta para el análisis de datos"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:114
+msgid "    *   Needs to be validated/calibrated before/during use"
+msgstr "    *   Necesita ser validado/calibrado antes/durante el uso"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:115
+msgid "    *   Makes analysis reproducible, reviewable, shareable"
+msgstr "    *   Hace los análisis reproducibles, revisables, compartibles"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:116
+msgid "*   ...that programs are written for people, not for computers"
+msgstr ""
+"*   ...que los programas son escritos para personas no para computadoras"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:117
+msgid "    *   Meaningful variable names"
+msgstr "    *   Usar nombres de variable significativos"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:118
+msgid "    *   Modularity for readability as well as re-use"
+msgstr "    *   Usar modularidad para legibilidad y reutilización"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:119
+msgid "    *   No duplication"
+msgstr "    *   Evitar duplicación"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:120
+msgid "    *   Document purpose and use"
+msgstr "    *   Documentar el propósito y el uso"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:121
+msgid "*   ...that there is no magic: the programs they use are no different "
+msgstr ""
+"*   ...que no hay resultados mágicos y que los programas que usan no son "
+"diferentes"
+
+#: python-novice-gapminder/_extras/design.md:122
+msgid ""
+"    in principle from those they build\n"
+"*   ...how to assign values to variables\n"
+"*   ...what integers, floats, strings, NumPy arrays, and Pandas dataframes are\n"
+"*   ...how to trace the execution of a `for` loop\n"
+"*   ...how to trace the execution of `if`/`else` statements\n"
+"*   ...how to create and index lists\n"
+"*   ...how to create and index NumPy arrays\n"
+"*   ...how to create and index Pandas dataframes\n"
+"*   ...how to create time series plots\n"
+"*   ...the difference between defining and calling a function\n"
+"*   ...where to find documentation on standard libraries\n"
+"*   ...how to find out what else scientific Python offers"
+msgstr ""
+"de los que ellas hacen\n"
+"* ... cómo asignar valores a las variables\n"
+"* ... que son números enteros, flotantes, cadenas, arreglos en NumPy y dataframes de Pandas\n"
+"* ... cómo rastrear la ejecución de un bucle `for`\n"
+"* ... cómo rastrear la ejecución de sentencias `if` /` else`\n"
+"* ... cómo crear e indexar listas\n"
+"* ... cómo crear e indexar arreglos de NumPy\n"
+"* ... cómo crear e indexar dataframes en Pandas\n"
+"* ... cómo crear gráficas de series de tiempo\n"
+"* ... la diferencia entre definir y llamar a una función\n"
+"* ... dónde encontrar documentación sobre bibliotecas estándar\n"
+"* ... cómo averiguar qué más ofrece Python científico"
+
+# header
+#: python-novice-gapminder/_extras/design.md:135
+msgid "## Stage 3: Learning Plan"
+msgstr "## Etapa 3: Plan de aprendizaje"
+
+# header
+#: python-novice-gapminder/_extras/design.md:137
+msgid "### Summative Assessment"
+msgstr "### Evaluación sumativa"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:139
+msgid "*   Midpoint: create time-series plot for each file in a directory."
+msgstr ""
+"*   A la mitad de la lección: crear una gráfica de series de tiempo por cada"
+" archivo de datos en una carpeta"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:140
+msgid "*   Final: extract data from Pandas dataframe"
+msgstr "*   Final: extraer datos de un DataFrame de Pandas"
+
+#: python-novice-gapminder/_extras/design.md:141
+msgid "    and create comparative multi-line time series plot."
+msgstr ""
+"    y  crear gráficas de series de tiempo comparables de varias líneas"
+
+# header
+#: python-novice-gapminder/_extras/design.md:143
+msgid ""
+"### [Running and Quitting Interactively]({{page.root}}/01-run-quit/) (9:00)"
+msgstr ""
+"### [Correr y salir interactivamente]({{page.root}}/01-run-quit/) (9:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:145
+msgid "*   Teaching: 15 min (because setup issues)"
+msgstr "*   Enseñanza: 15 min (debido a problemas de configuración)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:146
+msgid ""
+"    *   Launch the Jupyter Notebook, create new notebooks, and exit the "
+"Notebook."
+msgstr ""
+"    *    Iniciar Jupyter Notebooks, crear nuevos cuadernos y salir de "
+"Notebook."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:147
+msgid "    *   Create Markdown cells in a notebook."
+msgstr "    *   Crear celdas de Markdown en un cuaderno."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:148
+msgid "    *   Create and run Python cells in a notebook."
+msgstr "    *   Crear y correr celdas de Python en un cuaderno."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:149
+msgid ""
+"*   Challenges: 0 min (accounted for in teaching time - no separate "
+"exercise)"
+msgstr ""
+"*   Desafíos: 0 min (contando el tiempo de enseñanza - sin ejercicios "
+"separados)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:150
+msgid "    *   Creating lists in Markdown"
+msgstr "    *   Crear listas en Markdown"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:151
+msgid ""
+"    *   What is displayed when several expressions are put in a single cell?"
+msgstr ""
+"    *   ¿Qué se muestra cuando varias expresiones se escriben en una celda?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:152
+msgid "    *   Change an existing cell from code to Markdown"
+msgstr "    *   Cambiar el tipo de una celda existente de código a Markdown"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:153
+msgid "    *   Rendering LaTeX-style equations"
+msgstr "    *   Formatear ecuaciones estilo LaTeX"
+
+# header
+#: python-novice-gapminder/_extras/design.md:155
+msgid "### [Variables and Assignment]({{page.root}}/02-variables/) (9:15)"
+msgstr "### [Variables y Asignaciones]({{page.root}}/02-variables/) (9:15)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:157
+#: python-novice-gapminder/_extras/design.md:169
+#: python-novice-gapminder/_extras/design.md:204
+#: python-novice-gapminder/_extras/design.md:216
+#: python-novice-gapminder/_extras/design.md:259
+#: python-novice-gapminder/_extras/design.md:273
+#: python-novice-gapminder/_extras/design.md:297
+#: python-novice-gapminder/_extras/design.md:311
+#: python-novice-gapminder/_extras/design.md:323
+msgid "*   Teaching: 10 min"
+msgstr "*   Enseñanza: 10 min"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:158
+msgid ""
+"    *   Write programs that assign scalar values to variables and perform "
+"calculations with those values."
+msgstr ""
+"    *   Escribir programas que asignan valores escalares a variables y hacen"
+" cálculos con esos valores."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:159
+msgid ""
+"    *   Correctly trace value changes in programs that use scalar "
+"assignment."
+msgstr ""
+"    *   Rastrear cambios en los programas que usan asignaciones de "
+"escalares."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:160
+#: python-novice-gapminder/_extras/design.md:173
+#: python-novice-gapminder/_extras/design.md:193
+#: python-novice-gapminder/_extras/design.md:208
+#: python-novice-gapminder/_extras/design.md:220
+#: python-novice-gapminder/_extras/design.md:262
+#: python-novice-gapminder/_extras/design.md:290
+#: python-novice-gapminder/_extras/design.md:315
+msgid "*   Challenges: 10 min"
+msgstr "*   Desafíos: 10 min"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:161
+msgid ""
+"    *   Trace execution of code swapping two values using an intermediate "
+"variable."
+msgstr ""
+"    *   Rastrear la ejecución de intercambio de código de dos valores usando"
+" variables intermedias."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:162
+msgid "    *   Predict final values of variables after several assignments."
+msgstr ""
+"    *   Predecir el valor final de una variable después de varias "
+"asignaciones."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:163
+msgid "    *   What happens if you try to index a number?"
+msgstr "    *   ¿Qué pasa si tratas de indexar un número?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:164
+msgid "    *   Which is a better variable name, `m`, `min`, or `minutes`?"
+msgstr ""
+"    *   ¿Qué nombre es mejor para una variable `m`, `min`, o `minutos`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:165
+msgid "    *   What do the following slice expressions produce?"
+msgstr "    *   ¿Qué producen los siguentes cortes?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:167
+msgid ""
+"### [Data Types and Type Conversion]({{page.root}}/03-types-conversion/) "
+"(09:35)"
+msgstr ""
+"### [Tipos de Datos y Conversión de tipo de datos]({{page.root}}/03-types-"
+"conversion/) (09:35)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:170
+msgid ""
+"    *   Explain key differences between integers and floating point numbers."
+msgstr ""
+"    *   Explicar la diferencia entre los enteros y los números de punto "
+"flotante."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:171
+msgid "    *   Explain key differences between numbers and character strings."
+msgstr ""
+"    *   Explicar la diferencia entre números y las cadenas de caracteres."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:172
+msgid ""
+"    *   Use built-in functions to convert between integers, floating point "
+"numbers, and strings."
+msgstr ""
+"    *   Usar funciones incorporadas para convertir enteros, números de punto"
+" flotante y secuencias de caracteres."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:174
+msgid "    *   What type of value is 3.4?"
+msgstr "    *   ¿Qué tipo de dato es 3.4?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:175
+msgid "    *   What type of value is 3.25 + 4?"
+msgstr "    *   ¿Qué tipo de dato es 3.25 + 4?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:176
+msgid "    *   What type of value would you use to represent:"
+msgstr "    *   ¿Qué tipo de dato usarías para representar:"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:177
+msgid "        *   Number of days since the start of the year."
+msgstr "        *   Número de días desde el inicio del año?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:178
+msgid "        *   Time elapsed since the start of the year."
+msgstr "        *   El tiempo que ha pasado desde el inicio del año?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:179
+msgid "        *   Etc."
+msgstr "        *   Etc."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:180
+msgid "    *   How can you use `//` (integer division) and `%` (modulo)?"
+msgstr "    *   ¿Cómo puedes usar `//` (división de enteros) y `%` (módulo)?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:181
+msgid "    *   What does `int(\"3.4\")` do?"
+msgstr "    *   ¿Qué hace `int(\"3.4\")`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:182
+msgid ""
+"    *   Given these float, int, and string values, which expressions will "
+"print a particular result?"
+msgstr ""
+"    *   Dados estos números de punto flotante, enteros, y secuencias de "
+"caracteres, ¿qué expresiones mostrarán un resultado en particular?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:183
+msgid "    *   What do you expect `1+2j + 3` to produce?"
+msgstr "    *   ¿Qué esperas que `1+2j + 3` produzca?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:185
+msgid "### [Built-in Functions and Help]({{page.root}}/04-built-in/) (09:55)"
+msgstr ""
+"### [Funciones incorporadas y ayuda]({{page.root}}/04-built-in/) (09:55)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:187
+#: python-novice-gapminder/_extras/design.md:228
+#: python-novice-gapminder/_extras/design.md:247
+#: python-novice-gapminder/_extras/design.md:335
+msgid "*   Teaching: 15 min"
+msgstr "*   Enseñanza: 15 min"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:188
+msgid "    *   Explain the purpose of functions."
+msgstr "    *   Explicar el propósito de las funciones."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:189
+msgid "    *   Correctly call built-in Python functions."
+msgstr "    *   Llamar correctamente las funciones incorporadas de Python."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:190
+msgid "    *   Correctly nest calls to built-in functions."
+msgstr ""
+"    *   Anidar correctamente las llamadas a las funciones incorporadas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:191
+msgid "    *   Use help to display documentation for built-in functions."
+msgstr ""
+"    *   Usar la ayuda para mostras documentación de las funciones "
+"incorporadas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:192
+msgid ""
+"    *   Correctly describe situations in which SyntaxError and NameError "
+"occur."
+msgstr ""
+"    *   Describe correctamente situaciones en las que ocurren "
+"**SyntaxError** y **NameError**."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:194
+msgid ""
+"    *   Explain the order of operations in the following complex expression."
+msgstr ""
+"    *   Explica el orden de las operaciones en la siguiente expresión "
+"compleja."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:195
+msgid ""
+"    *   What will each nested combination of `min` and `max` calls produce?"
+msgstr ""
+"    *    ¿Qué producirá cada combinación anidada de llamadas `min` y `max`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:196
+msgid ""
+"    *   Why don't `max` and `min` return `None` when given no arguments?"
+msgstr ""
+"    *   ¿Por qué `max` y `min` no devuelven `None` cuando no se presentan "
+"argumentos?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:197
+msgid "    *   Given what we have seen so far,"
+msgstr "    *   Dado lo que hemos visto hasta ahora,"
+
+#: python-novice-gapminder/_extras/design.md:198
+msgid "        what index expression will get the last character in a string?"
+msgstr ""
+"         ¿Qué expresión de índice obtendrá el último carácter en una "
+"secuencia de caracteres?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:200
+msgid "### [Coffee]({{page.root}}/05-coffee/): 15 min (10:20)"
+msgstr "### [Café]({{page.root}}/05-coffee/): 15 min (10:20)"
+
+# header
+#: python-novice-gapminder/_extras/design.md:202
+msgid "### [Libraries]({{page.root}}/06-libraries/) (10:35)"
+msgstr "### [Bibliotecas]({{page.root}}/06-libraries/) (10:35)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:205
+msgid ""
+"    *   Explain what software libraries are and why programmers create and "
+"use them."
+msgstr ""
+"    *   Explica qué son las bibliotecas de software y por qué los "
+"programadores las crean y usan."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:206
+msgid ""
+"    *   Write programs that import and use libraries from Python's standard "
+"library."
+msgstr ""
+"    *   Escribe programas que importen y usen bibliotecas de la biblioteca "
+"estándar de Python."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:207
+msgid ""
+"    *   Find and read documentation for standard libraries interactively (in"
+" the interpreter) and online."
+msgstr ""
+"    *   Busca y lee la documentación para bibliotecas estándar de forma "
+"interactiva (en el intérprete) y en línea."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:209
+msgid ""
+"    *   Which function from the standard math library could you use to "
+"calculate a square root?"
+msgstr ""
+"    *   ¿Qué función de la biblioteca matemática estándar podrías usar para "
+"calcular una raíz cuadrada?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:210
+msgid "    *   What library would you use to select a random value from data?"
+msgstr ""
+"    *   ¿Qué biblioteca usarías para seleccionar un valor aleatorio de los "
+"datos?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:211
+msgid ""
+"    *   If `help(math)` produces an error, what have you forgotten to do?"
+msgstr "    *   Si `help(math)` produce un error, ¿qué has olvidado hacer?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:212
+msgid ""
+"    *   Fill in the blanks in code below so that the import statement and "
+"program run."
+msgstr ""
+"    *  Completa los espacios en blanco en el código a continuación para que "
+"la importación y el programa se ejecuten."
+
+# header
+#: python-novice-gapminder/_extras/design.md:214
+msgid "### [Reading Tabular Data]({{page.root}}/07-reading-tabular/) (10:55)"
+msgstr ""
+"### [Lectura de Datos Tabulados]({{page.root}}/07-reading-tabular/) (10:55)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:217
+msgid "    *   Import the Pandas library."
+msgstr "    *   Importar la biblioteca Pandas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:218
+msgid "    *   Use Pandas to load a simple CSV data set."
+msgstr "    *   Usar Pandas para cargar un conjunto de datos CSV simple."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:219
+msgid "    *   Get some basic information about a Pandas DataFrame."
+msgstr "    *   Obtener información básica sobre un DataFrame de Pandas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:221
+msgid ""
+"    *   Read the data for the Americas and display its summary statistics."
+msgstr ""
+"    *   Leer los datos de las Américas y mostrar sus estadísticas resumidas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:222
+msgid "    *   What do `.head` and `.tail` do?"
+msgstr "    *   ¿Qué hacen `.head` y `.tail`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:223
+msgid ""
+"    *   What string(s) should you pass to `read_csv` to read files from "
+"other directories?"
+msgstr ""
+"    *  ¿Qué secuencia de caracteres debes pasar a `read_csv` para leer "
+"archivos de otros directorios?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:224
+msgid "    *   How can you *write* CSV data?"
+msgstr "    *   ¿Cómo puedes *escribir* datos CSV?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:226
+msgid "### [DataFrames]({{page.root}}/08-data-frames/) (11:15)"
+msgstr "### [DataFrames]({{page.root}}/08-data-frames/) (11:15)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:229
+msgid "    *   Select individual values from a Pandas dataframe."
+msgstr "    *   Seleccionar valores individuales de un dataframe de Pandas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:230
+msgid "    *   Select entire rows or entire columns from a dataframe."
+msgstr "    *   Seleccionar filas o columnas enteras de un dataframe."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:231
+msgid ""
+"    *   Select a subset of both rows and columns from a dataframe in a "
+"single operation."
+msgstr ""
+"    *   Seleccionar un subconjunto de filas y columnas de un dataframe en "
+"una sola operación."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:232
+msgid "    *   Select a subset of a dataframe by a single Boolean criterion."
+msgstr ""
+"    *   Seleccionar un subconjunto de un dataframe por un único criterio "
+"booleano."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:233
+#: python-novice-gapminder/_extras/design.md:277
+#: python-novice-gapminder/_extras/design.md:300
+#: python-novice-gapminder/_extras/design.md:326
+#: python-novice-gapminder/_extras/design.md:339
+#: python-novice-gapminder/_extras/design.md:354
+msgid "*   Challenges: 15 min"
+msgstr "*   Desafíos: 15 min."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:234
+msgid ""
+"    *   Write an expression to find the Per Capita GDP of Serbia in 2007."
+msgstr ""
+"    *   Escribir una expresión para encontrar el PIB per cápita de Serbia en"
+" 2007."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:235
+msgid ""
+"    *   What rule governs what is (or isn't) included in numerical and named"
+" slices in Pandas?"
+msgstr ""
+"    *   ¿Qué regla rige lo que se incluye (o no) en cortes numéricos y con "
+"nombre en Pandas?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:236
+msgid "    *   What does each line in the following short program do?"
+msgstr "    *   ¿Qué hace cada línea en el siguiente programa corto?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:237
+msgid "    *   What do `idxmin` and `idxmax` do?"
+msgstr "    *  ¿Qué hacen `idxmin` e `idxmax`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:238
+msgid ""
+"    *   Write expressions to get the GDP per capita for all countries in "
+"1982,"
+msgstr ""
+"    *   Escriba expresiones para obtener el PIB per cápita para todos los "
+"países en 1982,"
+
+#: python-novice-gapminder/_extras/design.md:239
+msgid ""
+"        for all countries *after* 1985,\n"
+"        etc.\n"
+"    *   Given the way its borders have changed since 1900,\n"
+"        what would you do if asked to create a table of GDP per capita for Poland\n"
+"        for the Twentieth Century?"
+msgstr ""
+"    para todos los países *después de* 1985,\n"
+"    etc.\n"
+"    * Dada la forma en que sus fronteras han cambiado desde 1900,\n"
+"    ¿Qué harías si te pidieran crear una tabla de PIB per cápita para Polonia?\n"
+"    para el siglo veinte?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:245
+msgid "### [Plotting]({{page.root}}/09-plotting/) (11:45)"
+msgstr "### [Graficación]({{page.root}}/09-plotting/) (11:45)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:248
+msgid "    *   Create a time series plot showing a single data set."
+msgstr ""
+"    *   Cree un gráfico de series de tiempo que muestre un único conjunto de"
+" datos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:249
+msgid ""
+"    *   Create a scatter plot showing relationship between two data sets."
+msgstr ""
+"    *   Cree un gráfico de dispersión que muestre la relación entre dos "
+"conjuntos de datos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:250
+msgid "*   Exercise: 15 min"
+msgstr "*   Ejercicio: 15 min."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:251
+msgid ""
+"    *   Fill in the blanks to plot the minimum GDP per capita over time for "
+"European countries."
+msgstr ""
+"    *   Complete los espacios en blanco para graficar el PIB mínimo per "
+"cápita a lo largo del tiempo para los países europeos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:252
+msgid ""
+"    *   Modify the example to create a scatter plot of GDP per capita in "
+"Asian countries."
+msgstr ""
+"    *   Modifique el ejemplo para crear un gráfico de dispersión del PIB per"
+" cápita en los países asiáticos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:253
+msgid ""
+"    *   Explain what each argument to `plot` does in the following example."
+msgstr ""
+"    *   Explique qué hace cada argumento de `plot` en el siguiente ejemplo."
+
+# header
+#: python-novice-gapminder/_extras/design.md:255
+msgid "### [Lunch]({{page.root}}/10-lunch/) (12:15): 45 min"
+msgstr "### [Almuerzo]({{page.root}}/10-lunch/) (12:15): 45 min"
+
+# header
+#: python-novice-gapminder/_extras/design.md:257
+msgid "### [Lists]({{page.root}}/11-lists/) (13:00)"
+msgstr "### [Listas]({{page.root}}/11-lists/) (13:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:260
+msgid "    *   Explain why programs need collections of values."
+msgstr ""
+"    *   Explique por qué los programas necesitan colecciones de valores."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:261
+msgid ""
+"    *   Write programs that create flat lists, index them, slice them, and "
+"modify them through assignment and method calls."
+msgstr ""
+"    *   Escriba programas que creen listas planas, indexe, fraccione y "
+"modifique mediante asignaciones y llamadas a métodos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:263
+msgid ""
+"    *   Fill in the blanks so that the program produces the output shown."
+msgstr ""
+"    *  Complete los espacios en blanco para que el programa produzca el "
+"resultado que se muestra."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:264
+msgid "    *   How large are the following slices?"
+msgstr "    *   ¿Cuán grandes son los siguientes cortes?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:265
+msgid "    *   What do negative index expressions print?"
+msgstr "    *   ¿Qué imprimen las expresiones de índice negativo?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:266
+msgid "    *   What does a \"stride\" in a slice do?"
+msgstr "    *   ¿Qué hace `stride` en un corte?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:267
+msgid "    *   How do slices treat out-of-range bounds?"
+msgstr "    *   ¿Cómo se manejan los límites de rango en los cortes?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:268
+msgid "    *   What are the differences between sorting these two ways?"
+msgstr "    *   ¿Cuál es la diferencia en ordenar usando estas dos maneras?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:269
+msgid "    *   What is the difference between `new = old` and `new = old[:]`?"
+msgstr ""
+"    *   ¿Cuál es la diferencia entre `nuevo = viejo` y `nuevo = viejo[:]`?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:271
+msgid "### [Loops]({{page.root}}/12-for-loops/) (13:20)"
+msgstr "### [Bucles]({{page.root}}/12-for-loops/) (13:20)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:274
+msgid "    *   Explain what for loops are normally used for."
+msgstr "    *   Explicar para que son usados los bucles."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:275
+msgid ""
+"    *   Trace the execution of a simple (unnested) loop and correctly state "
+"the values of variables in each iteration."
+msgstr ""
+"    *   Rastrear la ejecución de un bucle simple (no anidado) y "
+"correctamente indicar el estado de los valores de cada variable en cada "
+"interación."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:276
+msgid ""
+"    *   Write for loops that use the Accumulator pattern to aggregate "
+"values."
+msgstr ""
+"    *   Escribir bucles que usan un patrón acumulador para agregar valores."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:278
+msgid "    *   Is an indentation error a syntax error or a runtime error?"
+msgstr "    *   ¿Un error de indentación es un error de syntax o runtime?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:279
+msgid "    *   Trace which lines of this program are executed in what order."
+msgstr ""
+"    *   Rastrear que líneas del programa son ejecutadas y en qué orden."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:280
+msgid ""
+"    *   Fill in the blanks in this program so that it reverses a string."
+msgstr ""
+"    *   Llenar los espacios en blanco en este program para invertir la "
+"secuencia de caracteres."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:281
+msgid ""
+"    *   Fill in the blanks in this series of examples to get practice "
+"accumulating values."
+msgstr ""
+"    *   Llenar los espacios en blanco en estos ejemplos para ganar práctica "
+"en valores acumulados."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:282
+msgid ""
+"    *   Reorder and indent these lines to calculate the cumulative sum of "
+"the list values."
+msgstr ""
+"    *   Reordenar e indentar estas líneas para calcular la suma cumulativa "
+"de los valores de la lista."
+
+# header
+#: python-novice-gapminder/_extras/design.md:284
+msgid ""
+"### [Looping Over Data Sets]({{page.root}}/13-looping-data-sets/) (13:45)"
+msgstr ""
+"### [Iterando Sobre Datos]({{page.root}}/13-looping-data-sets/) (13:45)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:286
+msgid "*   Teaching: 5 min"
+msgstr "*   Desafíos: 15 min."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:287
+msgid ""
+"    *   Be able to read and write globbing expressions that match sets of "
+"files."
+msgstr ""
+"    *   Ser capaz de leer y escribir expresiones **glob** que encuentren un "
+"conjunto de archivos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:288
+msgid "    *   Use glob to create lists of files."
+msgstr "    *   Usar `glob` para crear listas de archivos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:289
+msgid ""
+"    *   Write for loops to perform operations on files given their names in "
+"a list."
+msgstr ""
+"    *   Escribir bucles para realizar operaciones en archivos, dada una "
+"lista con sus nombres."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:291
+msgid "    *   Which filenames are *not* matched by this glob expression?"
+msgstr "    *  ¿Qué archivos no se encuentran con una expresión **glob**?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:292
+msgid ""
+"    *   Modify this program so that it prints the number of records in the "
+"shortest file."
+msgstr ""
+"    *   Modificar este programa para mostrar el número de filas en el "
+"archivo más pequeño."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:293
+msgid ""
+"    *   Write a program that reads and plots all of the regional data sets."
+msgstr ""
+"    *   Escribir un programa que lea y visualice todos los datos regionales."
+
+# header
+#: python-novice-gapminder/_extras/design.md:295
+msgid "### [Writing Functions]({{page.root}}/14-writing-functions/) (14:00)"
+msgstr ""
+"### [Escribiendo Funciones]({{page.root}}/14-writing-functions/) (14:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:298
+msgid ""
+"    *   Explain and identify the difference between function definition and "
+"function call."
+msgstr ""
+"    *   Explicar e identificar la diferencia entre definir y llamar una "
+"función."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:299
+msgid ""
+"    *   Write a function that takes a small, fixed number of arguments and "
+"produces a single result."
+msgstr ""
+"    *   Escribir una función que recibe un número definido de argumentos y "
+"produce un resultado."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:301
+msgid ""
+"    *   This code defines and calls a function - what does it print when "
+"run?"
+msgstr ""
+"    *   Este código define y llama a una función - ¿Qué muestra cuando se "
+"ejecuta?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:302
+msgid ""
+"    *   Explain why this short program prints things in the order it does."
+msgstr ""
+"    *   Explicar por que este programa muestra cosas en un orden particular."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:303
+msgid ""
+"    *   Fill in the blanks to create a function that finds the minimum value"
+" in a data file."
+msgstr ""
+"    *   Llenar los espacios en blanco para crear una función que encuentra "
+"el valor mínimo en un archivo de datos."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:304
+msgid ""
+"    *   Fill in the blanks to create a function that finds the first "
+"negative value in a list."
+msgstr ""
+"    *   Llenar los espacios en blanco para crear una función que encuentre "
+"el primer valor negativo en una lista."
+
+#: python-novice-gapminder/_extras/design.md:305
+msgid ""
+"        What does your function do if the list is empty?\n"
+"    *   Why is it sometimes useful to pass arguments by naming the corresponding parameters?\n"
+"    *   Fill in the blanks and turn this short piece of code into a function."
+msgstr ""
+"        ¿Qué hace la función si la lista está vacía?\n"
+"    *   ¿Porqué es importante pasar argumentos nombrando los parámetros correspondientes?\n"
+"    *   Llena los espacios en blanco y convierte este código en una función."
+
+# header
+#: python-novice-gapminder/_extras/design.md:309
+msgid "### [Variable Scope]({{page.root}}/15-scope/) (14:25)"
+msgstr "### [Alcance de una variable]({{page.root}}/15-scope/) (14:25)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:312
+msgid "    *   Identify local and global variables."
+msgstr "    *   Identificar variables locales y globales."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:313
+msgid "    *   Identify parameters as local variables."
+msgstr "    *   Identificar parámetros como variables locales."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:314
+msgid ""
+"    *   Read a traceback and determine the file, function, and line number "
+"on which the error occurred."
+msgstr ""
+"    *   Leer un rastreo y determinar el archivo, la función y el número de "
+"línea donde el error ha ocurrido."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:316
+msgid "    *   Trace the changes to the values in this program,"
+msgstr "    *   Rastrear los cambios de valores en el programa,"
+
+#: python-novice-gapminder/_extras/design.md:317
+msgid "        being careful to distinguish local from global values."
+msgstr "        siendo cuidadosa en distinguir valores locales de globales."
+
+# header
+#: python-novice-gapminder/_extras/design.md:319
+msgid "### [Coffee]({{page.root}}/16-coffee/) (14:45): 15 min"
+msgstr "### [Café]({{page.root}}/16-coffee/) (14:45): 15 min"
+
+# header
+#: python-novice-gapminder/_extras/design.md:321
+msgid "### [Conditionals]({{page.root}}/17-conditionals/) (15:00)"
+msgstr "### [Condicionales]({{page.root}}/17-conditionals/) (15:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:324
+msgid ""
+"    *   Correctly write programs that use if and else statements and simple "
+"Boolean expressions (without logical operators)."
+msgstr ""
+"    *   Escribir correctamente programas que usan declaraciones if y else y "
+"expresiones booleanas (sin operadores lógicos)."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:325
+msgid ""
+"    *   Trace the execution of unnested conditionals and conditionals inside"
+" loops."
+msgstr ""
+"    *   Rastrear la ejecución de condicionales no anidados y condicionales "
+"dentro de bucles."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:327
+msgid "    *   Trace the execution of this conditional statement."
+msgstr "    *   Rastrear la ejecución de esta declaración condicional."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:328
+msgid ""
+"    *   Fill in the blanks so that this function replaces negative values "
+"with zeroes."
+msgstr ""
+"    *   Llena los espacios en blanco para que esta función remplace los "
+"valores negativos por ceros."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:329
+msgid ""
+"    *   Modify this program so that it only processes files with fewer than "
+"50 records."
+msgstr ""
+"    *   Modifica este programa para que sólo procese archivos de menos de 50"
+" registros."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:330
+msgid ""
+"    *   Modify this program so that it always finds the largest and smallest"
+" values in a list"
+msgstr ""
+"    *   Modifica este programa para que siempre encuentre el valor máximo y "
+"mínimo en una lista"
+
+#: python-novice-gapminder/_extras/design.md:331
+msgid "        no matter what the list's values are."
+msgstr "        sin importar los valores en la lista."
+
+# header
+#: python-novice-gapminder/_extras/design.md:333
+msgid "### [Programming Style]({{page.root}}/18-style/) (15:25)"
+msgstr "### [Estilo de Programación]({{page.root}}/18-style/) (15:25)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:336
+msgid "    *   How can I make my programs more readable?"
+msgstr "    *   ¿Cómo puedo hacer mis programas más legibles?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:337
+msgid "    *   How do most programmers format their code?"
+msgstr "    *   ¿Cómo formatean su código la mayoría de los programadores?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:338
+msgid "    *   How can programs check their own operation?"
+msgstr "    *  ¿Cómo pueden los programas revisar sus operaciones?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:340
+msgid "    *   Which lines in this code will be available as online help?"
+msgstr ""
+"    *   ¿Qué líneas en este código estarán disponibles como ayuda online?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:341
+msgid "    *   Turn the comments in this program into docstrings."
+msgstr "    *   Convertir los comentarios de un programa en docstrings."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:342
+msgid "    *   Rewrite this short program to be more readable."
+msgstr ""
+"    *   Reescribir este pequeño programa para que sea más fácil de leer."
+
+# header
+#: python-novice-gapminder/_extras/design.md:344
+msgid "### [Wrap-Up]({{page.root}}/19-wrap/) (15:55)"
+msgstr "### [Cerrar]({{page.root}}/19-wrap/) (15:55)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:346
+msgid "*   Teaching: 20 min"
+msgstr "*   Enseñanza: 20 min"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:347
+msgid ""
+"    *   Name and locate scientific Python community sites for software, "
+"workshops, and help."
+msgstr ""
+"    *   Nombrar y localizar sitios web de la comunidad científica de Python "
+"para software, talleres, y ayuda."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:348
+msgid "*   Challenges: 0 min"
+msgstr "*   Desafíos: 0 min"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:349
+msgid "    *   None."
+msgstr "    *   Ninguno."
+
+# header
+#: python-novice-gapminder/_extras/design.md:351
+msgid "### [Feedback]({{page.root}}/20-feedback/) (16:15)"
+msgstr "### [Retroalimentación]({{page.root}}/20-feedback/) (16:15)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:353
+msgid "*   Teaching: 0 min"
+msgstr "*   Enseñanza: 0 min"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:355
+msgid "    *   Collect feedback"
+msgstr "    *   Recopilar comentarios"
+
+# header
+#: python-novice-gapminder/_extras/design.md:357
+msgid "### Finish (16:30)"
+msgstr "### Fin (16:30)"

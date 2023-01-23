@@ -1,0 +1,1491 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ольга Чуб, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Ольга Чуб, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_extras/design.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Lesson Design\"\n"
+"permalink: /design/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Вміст проєкту\"\n"
+"permalink: /design/\n"
+"---"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_extras/design.md:7
+msgid "> ## Help Wanted"
+msgstr "> ## Потрібна допомога"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_extras/design.md:8
+msgid "> {:.no_toc}"
+msgstr "> {:.no_toc}"
+
+#: python-novice-gapminder/_extras/design.md:9
+msgid ""
+">\n"
+"> **We are filling in the exercises [below](#stage-3-learning-plan)\n"
+"> in order to make the lesson plan more concrete.\n"
+"> Contributions (both in the form of pull requests with filled-in exercises,\n"
+"> and comments on specific exercises, ordering, and timings) are greatly appreciated.**"
+msgstr ""
+">\n"
+"> **Ми додаємо вправи [нижче](#stage-3-learning-plan)\n"
+"> для того, щоб план уроку зробити більш конкретним.\n"
+"> Будемо вдячні за пропозиції (як у вигляді нових готових вправ,\n"
+"> так і вигляді коментарів до вже існуючих).**"
+
+# header
+#: python-novice-gapminder/_extras/design.md:16
+msgid "## Process Used"
+msgstr "## Розділи, що використовуються"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_extras/design.md:18
+msgid "> Michael Pollan's advice if he taught R or Python programming:"
+msgstr ""
+"> Поради Michael Pollan, якби він навчав програмування на R або Python:"
+
+#: python-novice-gapminder/_extras/design.md:19
+msgid ""
+">\n"
+"> 1. Write code.\n"
+"> 2. Not too much.\n"
+"> 3. Mostly plots.\n"
+">\n"
+"> — [Michael Koontz](https://twitter.com/_mikoontz/status/758021742078025728)"
+msgstr ""
+">\n"
+"> 1. Напишіть код.\n"
+"> 2. Не надто багато.\n"
+"> 3. Переважно сценарії.\n"
+">\n"
+"> — [Michael Koontz](https://twitter.com/_mikoontz/status/758021742078025728)"
+
+# SC/DC Template label
+#: python-novice-gapminder/_extras/design.md:25
+msgid "{: .quotation}"
+msgstr "{: .quotation}"
+
+#: python-novice-gapminder/_extras/design.md:27
+msgid ""
+"This lesson was developed using a slimmed-down variant of the \"Understanding by Design\" process.\n"
+"The main sections are:"
+msgstr ""
+"Цей урок розроблено з використанням скороченого варіанту розділу «Розуміння вмісту».\n"
+"Основні пункти:"
+
+# ordered list
+#: python-novice-gapminder/_extras/design.md:30
+msgid "1.  Assumptions about audience, time, etc."
+msgstr "1.  Припущення щодо аудиторії, часу тощо."
+
+#: python-novice-gapminder/_extras/design.md:31
+msgid ""
+"    (The current draft also includes some conclusions and decisions in this \n"
+"    section - that should be refactored.)"
+msgstr ""
+"    (У цьому пункті поточний проект містить деякі висновки і результати\n"
+"     - вони повинні бути перероблені.)"
+
+# ordered list
+#: python-novice-gapminder/_extras/design.md:34
+msgid "2.  Desired results:"
+msgstr "2.  Бажані результати:"
+
+#: python-novice-gapminder/_extras/design.md:35
+msgid ""
+"    overall goals, summative assessments at half-day granularity, what learners \n"
+"    will be able to do, what learners will know."
+msgstr ""
+"    учні повинні розуміти загальні цілі та вміти робити підсумкові оцінки за"
+" півдня деталізація."
+
+# ordered list
+#: python-novice-gapminder/_extras/design.md:38
+msgid "3.  Learning plan:"
+msgstr "3.  План уроку:"
+
+#: python-novice-gapminder/_extras/design.md:39
+msgid ""
+"    each episode has a heading that summarizes what will be covered,\n"
+"    then estimates time that will be spent on teaching and on exercises,\n"
+"    while the exercises are given as bullet points."
+msgstr ""
+"    кожен епізод має заголовок, який описує, що буде розглянуто,\n"
+"    потім в дужках вказується час, необхідний на вивчення матеріалу\n"
+"    та виконання навчальних вправ."
+
+# header
+#: python-novice-gapminder/_extras/design.md:43
+msgid "## Stage 1: Assumptions"
+msgstr "## Етап 1: Припущення"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:45
+msgid "*   Audience"
+msgstr "*   Аудиторія"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:46
+msgid ""
+"    *   Graduate students in numerate disciplines from cosmology to "
+"archaeology"
+msgstr "    *   Студенти багатьох спеціальностей від космології до археології"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:47
+msgid ""
+"    *   Who have manipulated data in spreadsheets and with interactive tools"
+" like SAS"
+msgstr ""
+"    *   Хто обробляв дані в електронних таблицях, а також за допомогою "
+"інтерактивних інструментів, таких як SAS"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:48
+msgid "    *   But have *not* programmed beyond CPD (copy-paste-despair)"
+msgstr ""
+"    *   Але не просунулися далі CPD (copy-paste-despair / копіював-вставив-"
+"впав в розпач)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:49
+msgid "*   Constraints"
+msgstr "*   Обмеження"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:50
+msgid "    *   One full day 09:00-16:30"
+msgstr "    *   Один повний день 09:00-16:30"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:51
+msgid "        *   06:15 class time"
+msgstr "        *   06:15 заняття"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:52
+msgid "        *   0:45 lunch"
+msgstr "        *   0:45 обід"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:53
+msgid "        *   0:30 total for two coffee breaks"
+msgstr "        *   0:30 разом на дві перерви на каву"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:54
+msgid "    *   Learners use native installs on their own machines"
+msgstr ""
+"    *   Учні використовують інстальоване програмне забезпечення на своїх "
+"комп'ютерах"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:55
+msgid "        *   May use VMs or cloud resources at instructor's discretion"
+msgstr ""
+"        *   Можуть використовувати віртуальні машини або хмарні ресурси на "
+"розсуд інструктора"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:56
+msgid "        *   But must keep native local install as an option"
+msgstr ""
+"        *   Але необхідно опціонально зберегти інстальоване програмне "
+"забезпечення"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:57
+msgid "    *   No dependence on other Carpentry modules"
+msgstr "    *   Немає залежності від інших модулів Carpentry"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:58
+msgid ""
+"        *   In particular, does not require knowledge of shell or version "
+"control"
+msgstr "        *   Не вимагається знання системи керування версіями"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:59
+msgid "    *   Use the Jupyter Notebook"
+msgstr "    *   Використовується Jupyter Notebook"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:60
+msgid "        *   Authentic tool used by many instructors"
+msgstr ""
+"        *   Оригінальний інструмент, який використовують багато інструкторів"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:61
+msgid "        *   There isn't really an alternative"
+msgstr "        *   Насправді альтернативи просто немає"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:62
+msgid ""
+"        *   And means that even people who have seen a bit of Python before"
+msgstr ""
+"        *   І це означає, що навіть люди, які вже трохи вивчали Python "
+"раніше, ймовірно,"
+
+#: python-novice-gapminder/_extras/design.md:63
+msgid ""
+"            will probably learn something\n"
+"*   Motivating Example\n"
+"    *   Creating 2D plots suitable for inclusion in papers\n"
+"    *   Appeals to almost everyone\n"
+"    *   Makes lesson usable by both Carpentries\n"
+"        *   And means that even people who have seen a bit of Python before \n"
+"            will probably learn something\n"
+"*   Data\n"
+"    *   Use the gapminder data throughout\n"
+"    *   But break into multiple files by continent\n"
+"        *   To make display of output from examples tidier\n"
+"            (e.g., use Australia/New Zealand, which is only two lines)\n"
+"        *   And allow examples showing use of multiple data sets\n"
+"*   Focus on Pandas instead of NumPy\n"
+"    *   Makes lesson usable by both Data Carpentry and Software Carpentry\n"
+"    *   Genuine novices are likely to want data analysis\n"
+"    *   And people with some prior experience:\n"
+"        *   will accept data analysis as an authentic task,\n"
+"        *   and are unlikely to have encountered Pandas,\n"
+"            so they'll still get something useful out of the lesson\n"
+"*   Challenges will mostly *not* be \"write this code from scratch\"\n"
+"    *   Want lots of short exercises that can reliably be finished in allotted time\n"
+"    *   So use MCQs, fill-in-the-blanks, Parsons Problems, \"tweak this code\", etc."
+msgstr ""
+"            дізнаються щось нове\n"
+"*   Мотивуючий приклад\n"
+"    *   Створення двовимірних графіків, придатних для включення в документи\n"
+"    *   Приваблює майже всіх\n"
+"    *   Робить урок придатним для використання і в Data Carpentry, і в Software Carpentry\n"
+"        *   Це означає, що навіть люди, які вже трохи вивчили Python раніше, \n"
+"            ймовірно, дізнаються щось нове\n"
+"*   Дані\n"
+"    *   Завжди використовуйте дані Gapminder\n"
+"    *   Розділяйте дані на декілька файлів в залежності від континенту\n"
+"        *   Щоб відображати результати із прикладів якісніше\n"
+"            (наприклад, використовуйте Австралію/Нову Зеландію, тобто лише два рядки)\n"
+"        *   І дозвольте використання декількох наборів даних у прикладах\n"
+"*   Сфокусуйтеся на Pandas замість of NumPy\n"
+"    *   Зробіть урок придатним для використання і в Data Carpentry, і в Software Carpentry\n"
+"    *   Новачки, швидше за все, захочуть аналізувати дані\n"
+"    *   А користувачі з певним досвідом:\n"
+"        *   сприймуть аналіз даних як щось вже відоме,\n"
+"        *   але навряд вони стикалися з Pandas,\n"
+"            тому вони все одно отримають від уроку щось корисне\n"
+"*  Завдання переважно *не* полягатимуть у «написати цей код з нуля»\n"
+"    *   Хочете багато коротких вправ, які можна надійно виконати за відведений час\n"
+"    *   Тож використовуйте MCQ, заповніть пропуски, проблеми Парсонса, «налаштуйте цей код» тощо."
+
+# header
+#: python-novice-gapminder/_extras/design.md:87
+msgid "## Stage 2: Desired Results"
+msgstr "## Етап 2: Бажані результати"
+
+# header
+#: python-novice-gapminder/_extras/design.md:89
+msgid "### Questions"
+msgstr "### Питання"
+
+#: python-novice-gapminder/_extras/design.md:91
+msgid "How do I..."
+msgstr "Як мені..."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:93
+msgid "*   ...read tabular data?"
+msgstr "*   ...читати  табличні дані?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:94
+msgid "*   ...plot a single vector of values?"
+msgstr "*   ...побудувати вектор значень?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:95
+msgid "*   ...create a time series plot?"
+msgstr "*   ...створити графік часових рядів?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:96
+msgid "*   ...create one plot for each of several data sets?"
+msgstr "*   ...створити свій графік для кожного набору даних?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:97
+msgid "*   ...get extra data from a single data set for plotting?"
+msgstr "*   ...отримати додаткові дані для побудови графіку з набору даних?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:98
+msgid "*   ...write programs I can read and re-use in future?"
+msgstr ""
+"*   ...писати програми, які я можу читати та повторно використовувати в "
+"майбутньому?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:100
+msgid "### Skills"
+msgstr "### Навички"
+
+#: python-novice-gapminder/_extras/design.md:102
+msgid "I can..."
+msgstr "Я зможу..."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:104
+msgid "*   ...write short scripts using loops and conditionals."
+msgstr ""
+"*   ...писати короткі сценарії, в яких будуть цикли та умовні оператори."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:105
+msgid ""
+"*   ...write functions with a fixed number of parameters that return a "
+"single result."
+msgstr ""
+"*   ...написати функції з фіксованою кількістю параметрів, які повертають "
+"єдиний результат."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:106
+msgid ""
+"*   ...import libraries using aliases and refer to those libraries' "
+"contents."
+msgstr "*   ...імпортувати бібліотеки та звертатися до вмісту цих бібліотек."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:107
+msgid "*   ...do simple data extraction and formatting using Pandas."
+msgstr "*   ...повертати та форматувати дані за допомогою Pandas."
+
+# header
+#: python-novice-gapminder/_extras/design.md:109
+msgid "### Concepts"
+msgstr "### Визначення"
+
+#: python-novice-gapminder/_extras/design.md:111
+msgid "I know..."
+msgstr "Я дізнаюся..."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:113
+msgid ""
+"*   ...that a program is a piece of lab equipment that implements an "
+"analysis"
+msgstr "*   ...що програма - це частина обладнання, яке виконує аналіз"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:114
+msgid "    *   Needs to be validated/calibrated before/during use"
+msgstr ""
+"    *   Програму потрібно перевіряти/налагоджувати перед/під час "
+"використання"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:115
+msgid "    *   Makes analysis reproducible, reviewable, shareable"
+msgstr ""
+"    *   Аналіз програми потрібно робити відтворюваним, доступним для "
+"перегляду та обміну"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:116
+msgid "*   ...that programs are written for people, not for computers"
+msgstr "*   ...що програми пишуться для людей, а не для комп'ютерів"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:117
+msgid "    *   Meaningful variable names"
+msgstr "    *   Значущі імена змінної"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:118
+msgid "    *   Modularity for readability as well as re-use"
+msgstr ""
+"    *   Створення модулів для зручності читання та повторного використання"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:119
+msgid "    *   No duplication"
+msgstr "    *    Відсутність дублювання"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:120
+msgid "    *   Document purpose and use"
+msgstr "    *   Призначення та використання документа"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:121
+msgid "*   ...that there is no magic: the programs they use are no different "
+msgstr ""
+"*   ...що немає магії: програми, що використовуються, нічим не відрізняються"
+
+#: python-novice-gapminder/_extras/design.md:122
+msgid ""
+"    in principle from those they build\n"
+"*   ...how to assign values to variables\n"
+"*   ...what integers, floats, strings, NumPy arrays, and Pandas dataframes are\n"
+"*   ...how to trace the execution of a `for` loop\n"
+"*   ...how to trace the execution of `if`/`else` statements\n"
+"*   ...how to create and index lists\n"
+"*   ...how to create and index NumPy arrays\n"
+"*   ...how to create and index Pandas dataframes\n"
+"*   ...how to create time series plots\n"
+"*   ...the difference between defining and calling a function\n"
+"*   ...where to find documentation on standard libraries\n"
+"*   ...how to find out what else scientific Python offers"
+msgstr ""
+"    від тих, які створюються\n"
+"*   ...як присвоїти значення змінним\n"
+"*   ...що таке цілі числа, числа з плаваючою точкою, рядки, масиви NumPy і структури даних Pandas\n"
+"*   ...як відстежити виконання циклу `for`\n"
+"*   ...як відстежити виконання операторів `if`/`else`\n"
+"*   ...як створити та індексувати списки\n"
+"*   ...як створити та індексувати масиви NumPy \n"
+"*   ...як створити та індексувати структури даних Pandas\n"
+"*   ...як створити графіки часових рядів\n"
+"*   ...яка різниця між призначенням і викликом функції\n"
+"*   ...де знайти документацію про стандартні бібліотеки\n"
+"*   ...як дізнатися, що пропонує Python для наукових досліджень"
+
+# header
+#: python-novice-gapminder/_extras/design.md:135
+msgid "## Stage 3: Learning Plan"
+msgstr "## Етап 3: Навчальний план"
+
+# header
+#: python-novice-gapminder/_extras/design.md:137
+msgid "### Summative Assessment"
+msgstr "### Підсумкове оцінювання"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:139
+msgid "*   Midpoint: create time-series plot for each file in a directory."
+msgstr ""
+"*   Проміжний результат: створення графіка часових рядів для кожного файлу в"
+" каталозі."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:140
+msgid "*   Final: extract data from Pandas dataframe"
+msgstr ""
+"*   Остаточний результат: повернути значення зі структури даних Pandas"
+
+#: python-novice-gapminder/_extras/design.md:141
+msgid "    and create comparative multi-line time series plot."
+msgstr "    і створити порівняльний графік багаторядкового часового ряду."
+
+# header
+#: python-novice-gapminder/_extras/design.md:143
+msgid ""
+"### [Running and Quitting Interactively]({{page.root}}/01-run-quit/) (9:00)"
+msgstr ""
+"### [Інтерактивний запуск і вихід з програми]({{page.root}}/01-run-quit/) "
+"(9:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:145
+msgid "*   Teaching: 15 min (because setup issues)"
+msgstr "*   Навчання: 15 хв (через проблеми з налаштуванням)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:146
+msgid ""
+"    *   Launch the Jupyter Notebook, create new notebooks, and exit the "
+"Notebook."
+msgstr ""
+"    *   Запустіть Jupyter Notebook, створіть новий документ та вийдіть із "
+"Jupyter Notebook."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:147
+msgid "    *   Create Markdown cells in a notebook."
+msgstr "    *   Створіть в блокноті комірки типу Markdown."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:148
+msgid "    *   Create and run Python cells in a notebook."
+msgstr "    *   Створіть в блокноті комірки Python та виконайте їх."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:149
+msgid ""
+"*   Challenges: 0 min (accounted for in teaching time - no separate "
+"exercise)"
+msgstr ""
+"*   Завдання: 0 хв (враховується в навчальний час - без окремої вправи)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:150
+msgid "    *   Creating lists in Markdown"
+msgstr "    *   Створіть список у Markdown"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:151
+msgid ""
+"    *   What is displayed when several expressions are put in a single cell?"
+msgstr ""
+"    *   Що буде відображатися, якщо кілька виразів помістити в одну "
+"клітинку?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:152
+msgid "    *   Change an existing cell from code to Markdown"
+msgstr "    *   Змініть існуючу клітинку з коду на Markdown"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:153
+msgid "    *   Rendering LaTeX-style equations"
+msgstr "    *  Візуалізація рівнянь у стилі LaTeX"
+
+# header
+#: python-novice-gapminder/_extras/design.md:155
+msgid "### [Variables and Assignment]({{page.root}}/02-variables/) (9:15)"
+msgstr "### [Змінні та призначення]({{page.root}}/02-variables/) (9:15)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:157
+#: python-novice-gapminder/_extras/design.md:169
+#: python-novice-gapminder/_extras/design.md:204
+#: python-novice-gapminder/_extras/design.md:216
+#: python-novice-gapminder/_extras/design.md:259
+#: python-novice-gapminder/_extras/design.md:273
+#: python-novice-gapminder/_extras/design.md:297
+#: python-novice-gapminder/_extras/design.md:311
+#: python-novice-gapminder/_extras/design.md:323
+msgid "*   Teaching: 10 min"
+msgstr "*   Навчання: 10 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:158
+msgid ""
+"    *   Write programs that assign scalar values to variables and perform "
+"calculations with those values."
+msgstr ""
+"    *   Напишіть програми, які присвоюють скалярні значення змінним і "
+"виконують обчислення з цими значеннями."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:159
+msgid ""
+"    *   Correctly trace value changes in programs that use scalar "
+"assignment."
+msgstr ""
+"    *   Правильно відстежуйте у програмах значення змінних, які "
+"використовують скалярне присвоєння."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:160
+#: python-novice-gapminder/_extras/design.md:173
+#: python-novice-gapminder/_extras/design.md:193
+#: python-novice-gapminder/_extras/design.md:208
+#: python-novice-gapminder/_extras/design.md:220
+#: python-novice-gapminder/_extras/design.md:262
+#: python-novice-gapminder/_extras/design.md:290
+#: python-novice-gapminder/_extras/design.md:315
+msgid "*   Challenges: 10 min"
+msgstr "*   Завдання: 10 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:161
+msgid ""
+"    *   Trace execution of code swapping two values using an intermediate "
+"variable."
+msgstr ""
+"    *   Відстеження виконання коду, що міняє місцями два значення за "
+"допомогою проміжної змінної."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:162
+msgid "    *   Predict final values of variables after several assignments."
+msgstr ""
+"    *   Передбачення кінцевих значень змінних після виконання декількох "
+"призначень."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:163
+msgid "    *   What happens if you try to index a number?"
+msgstr "    *   Що станеться при спробі присвоїти індекс?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:164
+msgid "    *   Which is a better variable name, `m`, `min`, or `minutes`?"
+msgstr "    *   Яке ім'я для змінної є кращим: `m`, `min` або `minutes`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:165
+msgid "    *   What do the following slice expressions produce?"
+msgstr "    *   Що повертають наступні вирази?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:167
+msgid ""
+"### [Data Types and Type Conversion]({{page.root}}/03-types-conversion/) "
+"(09:35)"
+msgstr ""
+"### [Типи даних і перетворення типів]({{page.root}}/03-types-conversion/) "
+"(09:35)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:170
+msgid ""
+"    *   Explain key differences between integers and floating point numbers."
+msgstr ""
+"    *   Поясніть ключові відмінності між цілими числами та числами з "
+"плаваючою комою."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:171
+msgid "    *   Explain key differences between numbers and character strings."
+msgstr ""
+"    *   Поясніть ключові відмінності між числами та символьними рядками."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:172
+msgid ""
+"    *   Use built-in functions to convert between integers, floating point "
+"numbers, and strings."
+msgstr ""
+"    *   Використовуйте вбудовані функції для перетворення цілих чисел, чисел"
+" з плаваючою комою та рядків."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:174
+msgid "    *   What type of value is 3.4?"
+msgstr "    *   Який тип має вираз 3.4?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:175
+msgid "    *   What type of value is 3.25 + 4?"
+msgstr "    *  Який тип має вираз 3.25 + 4?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:176
+msgid "    *   What type of value would you use to represent:"
+msgstr "    *   Який тип значення ви б використали для представлення:"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:177
+msgid "        *   Number of days since the start of the year."
+msgstr "        *   Кількість днів, які пройшли з початку року."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:178
+msgid "        *   Time elapsed since the start of the year."
+msgstr "        *   Час, що минув з початку року."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:179
+msgid "        *   Etc."
+msgstr "        *   тощо."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:180
+msgid "    *   How can you use `//` (integer division) and `%` (modulo)?"
+msgstr ""
+"    *   Як можна використовувати `//` (цілочисельне ділення) і `%` (за "
+"модулем)?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:181
+msgid "    *   What does `int(\"3.4\")` do?"
+msgstr "    *   Що поверне функція `int(\"3.4\")`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:182
+msgid ""
+"    *   Given these float, int, and string values, which expressions will "
+"print a particular result?"
+msgstr ""
+"    *    Які значення набуде вираз, що розглядається, якщо використовувати "
+"float, int та string?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:183
+msgid "    *   What do you expect `1+2j + 3` to produce?"
+msgstr "    *   Яке значення виразу `1+2j + 3` слід очікувати?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:185
+msgid "### [Built-in Functions and Help]({{page.root}}/04-built-in/) (09:55)"
+msgstr ""
+"### [Вбудовані функції та Довідка]({{page.root}}/04-built-in/) (09:55)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:187
+#: python-novice-gapminder/_extras/design.md:228
+#: python-novice-gapminder/_extras/design.md:247
+#: python-novice-gapminder/_extras/design.md:335
+msgid "*   Teaching: 15 min"
+msgstr "*  Навчання: 15 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:188
+msgid "    *   Explain the purpose of functions."
+msgstr "    *   Пояснення призначення функцій."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:189
+msgid "    *   Correctly call built-in Python functions."
+msgstr "    *   Правильно виклик вбудованих функції Python."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:190
+msgid "    *   Correctly nest calls to built-in functions."
+msgstr "    *   Правильне використання вкладених вбудованих функцій."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:191
+msgid "    *   Use help to display documentation for built-in functions."
+msgstr ""
+"    *   Використання Довідки для відображення документації про вбудовані "
+"функції."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:192
+msgid ""
+"    *   Correctly describe situations in which SyntaxError and NameError "
+"occur."
+msgstr ""
+"    *   Правильний опис ситуацій, в яких виникають помилки SyntaxError і "
+"NameError."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:194
+msgid ""
+"    *   Explain the order of operations in the following complex expression."
+msgstr "    *   Пояснення порядку дій у наступній ситуації."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:195
+msgid ""
+"    *   What will each nested combination of `min` and `max` calls produce?"
+msgstr "    *   Що поверне кожна вкладена комбінація функцій `min` та `max`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:196
+msgid ""
+"    *   Why don't `max` and `min` return `None` when given no arguments?"
+msgstr ""
+"    *   Чому `max` та `min` не повертають `None`, якщо немає аргументів?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:197
+msgid "    *   Given what we have seen so far,"
+msgstr "    *   Беручи до уваги те, що ми вже виконали раніше,"
+
+#: python-novice-gapminder/_extras/design.md:198
+msgid "        what index expression will get the last character in a string?"
+msgstr "        який індекс отримає останній символ у рядку?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:200
+msgid "### [Coffee]({{page.root}}/05-coffee/): 15 min (10:20)"
+msgstr "### [Кава]({{page.root}}/05-coffee/): 15 min (10:20)"
+
+# header
+#: python-novice-gapminder/_extras/design.md:202
+msgid "### [Libraries]({{page.root}}/06-libraries/) (10:35)"
+msgstr "### [Бібліотеки]({{page.root}}/06-libraries/) (10:35)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:205
+msgid ""
+"    *   Explain what software libraries are and why programmers create and "
+"use them."
+msgstr ""
+"    *   Поясніть, що таке бібліотека та для чого програмісти їх створюють і "
+"використовують."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:206
+msgid ""
+"    *   Write programs that import and use libraries from Python's standard "
+"library."
+msgstr ""
+"    *   Пишіть програми, які імпортують і використовують стандартні "
+"бібліотеки Python."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:207
+msgid ""
+"    *   Find and read documentation for standard libraries interactively (in"
+" the interpreter) and online."
+msgstr ""
+"    *   Знаходьте та читайте документацію про стандартні бібліотеки в "
+"інтерактивному режимі (в інтерпретаторі) або онлайн."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:209
+msgid ""
+"    *   Which function from the standard math library could you use to "
+"calculate a square root?"
+msgstr ""
+"    *   Яку функцію зі стандартної математичної бібліотеки можна використати"
+" для обчислення квадратного кореня?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:210
+msgid "    *   What library would you use to select a random value from data?"
+msgstr ""
+"    *   Яка бібліотека підходить для вибору випадкового значення з набору "
+"даних?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:211
+msgid ""
+"    *   If `help(math)` produces an error, what have you forgotten to do?"
+msgstr "    *   Якщо `help(math)` видає помилку, що ви забули зробити?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:212
+msgid ""
+"    *   Fill in the blanks in code below so that the import statement and "
+"program run."
+msgstr ""
+"    *   Заповніть пропуски в коді нижче, щоб запускалися оператор імпорту та"
+" програма в цілому."
+
+# header
+#: python-novice-gapminder/_extras/design.md:214
+msgid "### [Reading Tabular Data]({{page.root}}/07-reading-tabular/) (10:55)"
+msgstr ""
+"### [Зчитування табличних даних]({{page.root}}/07-reading-tabular/) (10:55)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:217
+msgid "    *   Import the Pandas library."
+msgstr "    *    Імпортуйте бібліотеку Pandas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:218
+msgid "    *   Use Pandas to load a simple CSV data set."
+msgstr ""
+"    *   Використовуйте Pandas, щоб завантажити простий набір даних CSV."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:219
+msgid "    *   Get some basic information about a Pandas DataFrame."
+msgstr "    *   Отримайте базову інформацію про Pandas DataFrame."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:221
+msgid ""
+"    *   Read the data for the Americas and display its summary statistics."
+msgstr ""
+"    *   Зчитайте дані про Америки та відобразіть їхню підсумкову статистику."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:222
+msgid "    *   What do `.head` and `.tail` do?"
+msgstr "    *   Що роблять `.head` та `.tail`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:223
+msgid ""
+"    *   What string(s) should you pass to `read_csv` to read files from "
+"other directories?"
+msgstr ""
+"    *   Який(і) рядок(и) слід передати в `read_csv`, щоб зчитувати файли з "
+"інших каталогів?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:224
+msgid "    *   How can you *write* CSV data?"
+msgstr "    *   Як можна *записати* дані CSV?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:226
+msgid "### [DataFrames]({{page.root}}/08-data-frames/) (11:15)"
+msgstr "### [DataFrames]({{page.root}}/08-data-frames/) (11:15)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:229
+msgid "    *   Select individual values from a Pandas dataframe."
+msgstr "    *    Виберіть окремі значення з DataFrame Pandas."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:230
+msgid "    *   Select entire rows or entire columns from a dataframe."
+msgstr "    *   Виділіть цілі рядки або цілі стовпці з dataFrame."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:231
+msgid ""
+"    *   Select a subset of both rows and columns from a dataframe in a "
+"single operation."
+msgstr ""
+"    *   Виберіть підмножину рядків і стовпців із DataFrame за одну операцію."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:232
+msgid "    *   Select a subset of a dataframe by a single Boolean criterion."
+msgstr ""
+"    *   Виберіть підмножину з DataFrameданих за єдиним булевим критерієм."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:233
+#: python-novice-gapminder/_extras/design.md:277
+#: python-novice-gapminder/_extras/design.md:300
+#: python-novice-gapminder/_extras/design.md:326
+#: python-novice-gapminder/_extras/design.md:339
+#: python-novice-gapminder/_extras/design.md:354
+msgid "*   Challenges: 15 min"
+msgstr "*   Завдання: 15 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:234
+msgid ""
+"    *   Write an expression to find the Per Capita GDP of Serbia in 2007."
+msgstr ""
+"    *   Напишіть вираз для визначення ВВП Сербії на душу населення у 2007 "
+"році."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:235
+msgid ""
+"    *   What rule governs what is (or isn't) included in numerical and named"
+" slices in Pandas?"
+msgstr ""
+"    *  Яке правило регулює те, що включається (або не включається) до "
+"числових та іменованих фрагментів у Pandas?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:236
+msgid "    *   What does each line in the following short program do?"
+msgstr "    *   Що робить кожен рядок у наступній короткій програмі?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:237
+msgid "    *   What do `idxmin` and `idxmax` do?"
+msgstr "    *   Що роблять `idxmin` та `idxmax`?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:238
+msgid ""
+"    *   Write expressions to get the GDP per capita for all countries in "
+"1982,"
+msgstr ""
+"    *   Напишіть вирази, щоб отримати ВВП на душу населення для всіх країн у"
+" 1982 році,"
+
+#: python-novice-gapminder/_extras/design.md:239
+msgid ""
+"        for all countries *after* 1985,\n"
+"        etc.\n"
+"    *   Given the way its borders have changed since 1900,\n"
+"        what would you do if asked to create a table of GDP per capita for Poland\n"
+"        for the Twentieth Century?"
+msgstr ""
+"        для всіх країни *після* 1985 року\n"
+"        тощо.\n"
+"    *   Враховуючи те, як змінилися кордони після 1900 року,\n"
+"        що б ви зробили, якби вас попросили створити таблицю ВВП на душу населення для Польщі\n"
+"        20-го сторіччя?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:245
+msgid "### [Plotting]({{page.root}}/09-plotting/) (11:45)"
+msgstr "### [Графік]({{page.root}}/09-plotting/) (11:45)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:248
+msgid "    *   Create a time series plot showing a single data set."
+msgstr ""
+"    *   Створіть графік часового ряду, який відповідає одному набору даних."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:249
+msgid ""
+"    *   Create a scatter plot showing relationship between two data sets."
+msgstr ""
+"    *   Створіть діаграму розсіювання, яка показує зв’язок між двома "
+"наборами даних."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:250
+msgid "*   Exercise: 15 min"
+msgstr "*   Вправи: 15 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:251
+msgid ""
+"    *   Fill in the blanks to plot the minimum GDP per capita over time for "
+"European countries."
+msgstr ""
+"    *   Заповніть порожні поля, щоб побудувати графік мінімального ВВП на "
+"душу населення в європейських країнах."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:252
+msgid ""
+"    *   Modify the example to create a scatter plot of GDP per capita in "
+"Asian countries."
+msgstr ""
+"    *   Змініть приклад так, щоб створити точкову діаграму ВВП на душу "
+"населення в країнах Азії."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:253
+msgid ""
+"    *   Explain what each argument to `plot` does in the following example."
+msgstr ""
+"    *   Поясніть, що робить кожен аргумент `plot` у наступному прикладі."
+
+# header
+#: python-novice-gapminder/_extras/design.md:255
+msgid "### [Lunch]({{page.root}}/10-lunch/) (12:15): 45 min"
+msgstr "### [Обід]({{page.root}}/10-lunch/) (12:15): 45 min"
+
+# header
+#: python-novice-gapminder/_extras/design.md:257
+msgid "### [Lists]({{page.root}}/11-lists/) (13:00)"
+msgstr "### [Списки]({{page.root}}/11-lists/) (13:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:260
+msgid "    *   Explain why programs need collections of values."
+msgstr "    *   Поясніть, навіщо програмам потрібні колекції значень."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:261
+msgid ""
+"    *   Write programs that create flat lists, index them, slice them, and "
+"modify them through assignment and method calls."
+msgstr ""
+"    *   Напишіть програми, які створюють списки, індексують їх, а також "
+"розрізають і змінюють їх через призначення та виклик методів."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:263
+msgid ""
+"    *   Fill in the blanks so that the program produces the output shown."
+msgstr ""
+"    *   Заповніть порожні поля, щоб програма повернула потрібні результати."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:264
+msgid "    *   How large are the following slices?"
+msgstr "    *    Наскільки великими є наступні зрізи?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:265
+msgid "    *   What do negative index expressions print?"
+msgstr "    *   Що повертають вирази з від’ємним індексом?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:266
+msgid "    *   What does a \"stride\" in a slice do?"
+msgstr "    *   Що робить «stride» у зрізі?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:267
+msgid "    *   How do slices treat out-of-range bounds?"
+msgstr "    *   Як зрізи задовольняють межі діапазону?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:268
+msgid "    *   What are the differences between sorting these two ways?"
+msgstr "    *   Які відмінності між цими двома способами сортування?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:269
+msgid "    *   What is the difference between `new = old` and `new = old[:]`?"
+msgstr "    *   Яка різниця між `new = old` та `new = old[:]`?"
+
+# header
+#: python-novice-gapminder/_extras/design.md:271
+msgid "### [Loops]({{page.root}}/12-for-loops/) (13:20)"
+msgstr "### [Цикли]({{page.root}}/12-for-loops/) (13:20)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:274
+msgid "    *   Explain what for loops are normally used for."
+msgstr "    *    Поясніть, для чого зазвичай використовуються цикли for."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:275
+msgid ""
+"    *   Trace the execution of a simple (unnested) loop and correctly state "
+"the values of variables in each iteration."
+msgstr ""
+"    *   Проаналізуйте виконання простого (невкладеного) циклу та правильно "
+"вкажіть значення змінних у кожній ітерації."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:276
+msgid ""
+"    *   Write for loops that use the Accumulator pattern to aggregate "
+"values."
+msgstr ""
+"    *   Напишіть цикли for, які використовують шаблон накопичувача для "
+"агрегування значень."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:278
+msgid "    *   Is an indentation error a syntax error or a runtime error?"
+msgstr "    *  Чи є помилка відступу синтаксичною чи помилкою виконання?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:279
+msgid "    *   Trace which lines of this program are executed in what order."
+msgstr "    *    Простежте, в якому порядку виконуються рядки цієї програми."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:280
+msgid ""
+"    *   Fill in the blanks in this program so that it reverses a string."
+msgstr ""
+"    *   Заповніть пропуски в цій програмі, щоб вона перевернула рядок."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:281
+msgid ""
+"    *   Fill in the blanks in this series of examples to get practice "
+"accumulating values."
+msgstr ""
+"    *   Заповніть пропуски в цій серії прикладів, щоб навчитися накопичувати"
+" значення."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:282
+msgid ""
+"    *   Reorder and indent these lines to calculate the cumulative sum of "
+"the list values."
+msgstr ""
+"    *    Змініть порядок і відступи в цих рядках, щоб обчислити сукупну суму"
+" значень списку."
+
+# header
+#: python-novice-gapminder/_extras/design.md:284
+msgid ""
+"### [Looping Over Data Sets]({{page.root}}/13-looping-data-sets/) (13:45)"
+msgstr "### [Зациклення]({{page.root}}/13-looping-data-sets/) (13:45)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:286
+msgid "*   Teaching: 5 min"
+msgstr "*   Навчання: 5 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:287
+msgid ""
+"    *   Be able to read and write globbing expressions that match sets of "
+"files."
+msgstr ""
+"    *   Навчіться читати та писати вирази модулю glob, які відповідають "
+"наборам файлів."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:288
+msgid "    *   Use glob to create lists of files."
+msgstr "Використовуйте модуль glob для створення списків файлів"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:289
+msgid ""
+"    *   Write for loops to perform operations on files given their names in "
+"a list."
+msgstr ""
+"    *   Напишіть цикли for для виконання операцій над файлами, зазначеними в"
+" списку."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:291
+msgid "    *   Which filenames are *not* matched by this glob expression?"
+msgstr "    *   Які назви файлів *не* відповідають виразу модуля glod?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:292
+msgid ""
+"    *   Modify this program so that it prints the number of records in the "
+"shortest file."
+msgstr ""
+"    *   Змініть цю програму так, щоб вона зберігала кількість записів у "
+"найкоротшому файлі."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:293
+msgid ""
+"    *   Write a program that reads and plots all of the regional data sets."
+msgstr ""
+"    *   Напишіть програму, яка зчитує дані та будує по них графіки для всіх "
+"регіонів."
+
+# header
+#: python-novice-gapminder/_extras/design.md:295
+msgid "### [Writing Functions]({{page.root}}/14-writing-functions/) (14:00)"
+msgstr "### [Написання функцій]({{page.root}}/14-writing-functions/) (14:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:298
+msgid ""
+"    *   Explain and identify the difference between function definition and "
+"function call."
+msgstr ""
+"    *   Знайдіть і поясніть різницю між визначенням функції та викликом "
+"функції."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:299
+msgid ""
+"    *   Write a function that takes a small, fixed number of arguments and "
+"produces a single result."
+msgstr ""
+"    *   Напишіть функцію, яка використовує невелику фіксовану кількість "
+"вхідних аргументів, а видає єдиний результат."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:301
+msgid ""
+"    *   This code defines and calls a function - what does it print when "
+"run?"
+msgstr ""
+"    *   Цей код визначає та викликає функцію. Подумайте, що вона друкує під "
+"час запуску?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:302
+msgid ""
+"    *   Explain why this short program prints things in the order it does."
+msgstr ""
+"    *  Поясніть, чому ця коротка програма повертає відповіді саме в такому "
+"порядку?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:303
+msgid ""
+"    *   Fill in the blanks to create a function that finds the minimum value"
+" in a data file."
+msgstr ""
+"    *   Заповніть порожні поля, щоб створити функцію, яка знаходить "
+"мінімальне значення у файлі даних."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:304
+msgid ""
+"    *   Fill in the blanks to create a function that finds the first "
+"negative value in a list."
+msgstr ""
+"    *   Заповніть порожні поля, щоб створити функцію, яка знаходить перше "
+"від’ємне значення в списку."
+
+#: python-novice-gapminder/_extras/design.md:305
+msgid ""
+"        What does your function do if the list is empty?\n"
+"    *   Why is it sometimes useful to pass arguments by naming the corresponding parameters?\n"
+"    *   Fill in the blanks and turn this short piece of code into a function."
+msgstr ""
+"        Що робить ваша функція, якщо список порожній?\n"
+"    *   Чому іноді корисно передавати аргументи, називаючи відповідні параметри?\n"
+"    *   Заповніть пропуски та перетворіть цей короткий фрагмент коду на функцію."
+
+# header
+#: python-novice-gapminder/_extras/design.md:309
+msgid "### [Variable Scope]({{page.root}}/15-scope/) (14:25)"
+msgstr "### [Область застосування змінної]({{page.root}}/15-scope/) (14:25)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:312
+msgid "    *   Identify local and global variables."
+msgstr "    *   Визначення локальних і глобальних змінних."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:313
+msgid "    *   Identify parameters as local variables."
+msgstr "    *   Ідентифікуйте параметри як локальні змінні."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:314
+msgid ""
+"    *   Read a traceback and determine the file, function, and line number "
+"on which the error occurred."
+msgstr ""
+"    *   Прочитайте відстеження та визначте файл, функцію та номер рядка, у "
+"якому сталася помилка."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:316
+msgid "    *   Trace the changes to the values in this program,"
+msgstr "    *   Відстежуйте зміни значень у цій програмі,"
+
+#: python-novice-gapminder/_extras/design.md:317
+msgid "        being careful to distinguish local from global values."
+msgstr "        ретельно відрізняйте локальні змінні від глобальних."
+
+# header
+#: python-novice-gapminder/_extras/design.md:319
+msgid "### [Coffee]({{page.root}}/16-coffee/) (14:45): 15 min"
+msgstr "### [Кава]({{page.root}}/16-coffee/) (14:45): 15 хв."
+
+# header
+#: python-novice-gapminder/_extras/design.md:321
+msgid "### [Conditionals]({{page.root}}/17-conditionals/) (15:00)"
+msgstr "### [Умови]({{page.root}}/17-conditionals/) (15:00)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:324
+msgid ""
+"    *   Correctly write programs that use if and else statements and simple "
+"Boolean expressions (without logical operators)."
+msgstr ""
+"    *   Правильно писати програми, які використовують оператори if і else і "
+"прості булеві вирази (без логічних операторів)."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:325
+msgid ""
+"    *   Trace the execution of unnested conditionals and conditionals inside"
+" loops."
+msgstr ""
+"    *   Відстежувати виконання невкладених умовних операторів і умовних "
+"операторів всередині циклів."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:327
+msgid "    *   Trace the execution of this conditional statement."
+msgstr "    *   Простежити за виконанням цього умовного оператора."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:328
+msgid ""
+"    *   Fill in the blanks so that this function replaces negative values "
+"with zeroes."
+msgstr ""
+"    *   Заповнити пропуски так, щоб ця функція замінювала від’ємні значення "
+"нулями."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:329
+msgid ""
+"    *   Modify this program so that it only processes files with fewer than "
+"50 records."
+msgstr ""
+"    *   Змінити цю програму так, щоб вона обробляла лише файли, які містять "
+"менше 50 записів."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:330
+msgid ""
+"    *   Modify this program so that it always finds the largest and smallest"
+" values in a list"
+msgstr ""
+"    *   Змінити цю програму так, щоб вона завжди знаходила найбільші та "
+"найменші значення у списку,"
+
+#: python-novice-gapminder/_extras/design.md:331
+msgid "        no matter what the list's values are."
+msgstr "        незалежно від того, які значення знаходяться у списку."
+
+# header
+#: python-novice-gapminder/_extras/design.md:333
+msgid "### [Programming Style]({{page.root}}/18-style/) (15:25)"
+msgstr "### [Стиль програмування]({{page.root}}/18-style/) (15:25)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:336
+msgid "    *   How can I make my programs more readable?"
+msgstr "    *   Як я можу зробити свої програми більш читабельними?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:337
+msgid "    *   How do most programmers format their code?"
+msgstr "    *   Як більшість програмістів форматують свій код?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:338
+msgid "    *   How can programs check their own operation?"
+msgstr "    *   Як програми самі можуть перевірити свою роботу?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:340
+msgid "    *   Which lines in this code will be available as online help?"
+msgstr "    *   Які рядки цього коду будуть доступні як онлайн-довідка?"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:341
+msgid "    *   Turn the comments in this program into docstrings."
+msgstr "    *   Перетворіть коментарі в цій програмі на рядки документів."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:342
+msgid "    *   Rewrite this short program to be more readable."
+msgstr "    *   Перепишіть цю коротку програму так, щоб її було легше читати."
+
+# header
+#: python-novice-gapminder/_extras/design.md:344
+msgid "### [Wrap-Up]({{page.root}}/19-wrap/) (15:55)"
+msgstr "### [Підсумок]({{page.root}}/19-wrap/) (15:55)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:346
+msgid "*   Teaching: 20 min"
+msgstr "*   Навчання: 20 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:347
+msgid ""
+"    *   Name and locate scientific Python community sites for software, "
+"workshops, and help."
+msgstr ""
+"    *   Назвіть і знайдіть сайти наукової спільноти Python для програмного "
+"забезпечення, семінарів і допомоги."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:348
+msgid "*   Challenges: 0 min"
+msgstr "*   Задання: 0 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:349
+msgid "    *   None."
+msgstr "    *   Немає."
+
+# header
+#: python-novice-gapminder/_extras/design.md:351
+msgid "### [Feedback]({{page.root}}/20-feedback/) (16:15)"
+msgstr "### [Зворотній зв'язок]({{page.root}}/20-feedback/) (16:15)"
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:353
+msgid "*   Teaching: 0 min"
+msgstr "*   Навчання: 0 хв."
+
+# unordered list
+#: python-novice-gapminder/_extras/design.md:355
+msgid "    *   Collect feedback"
+msgstr "    *  Збір та обробка відгуків"
+
+# header
+#: python-novice-gapminder/_extras/design.md:357
+msgid "### Finish (16:30)"
+msgstr "### Завершення (16:30)"

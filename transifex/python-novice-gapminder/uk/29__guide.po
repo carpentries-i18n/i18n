@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Марина Новожилова, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Марина Новожилова, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructors' Guide\"\n"
+"permalink: /guide/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Instructors' Guide\"\n"
+"permalink: /guide/\n"
+"---"
+
+# header
+#: python-novice-gapminder/_extras/guide.md:7
+msgid "## General Notes"
+msgstr "## Загальні зауваження"
+
+#: python-novice-gapminder/_extras/guide.md:9
+msgid ""
+"It's all right not to get through the whole lesson.\n"
+":   This lesson is designed for people who have never programmed before,\n"
+"    but any given class may include people with a wide range of prior experience.\n"
+"    We have therefore included enough material to fill a full day if need be,\n"
+"    but expect that many offerings will only get as far as the introduction to Pandas."
+msgstr ""
+"Можна не проходити весь урок.\n"
+":   Цей урок призначений для людей, які раніше ніколи не займалися програмуванням, \n"
+"    але в будь-якому класі можуть брати участь люди з великим досвідом.\n"
+"    Тому ми включили достатньо матеріалу, щоб при необхідності заповнити цілий день, \n"
+"    але очікуємо, що багато пропозицій дійдуть лише до введення у Pandas."
+
+#: python-novice-gapminder/_extras/guide.md:15
+msgid ""
+"Don't tell people to Google things.\n"
+":   One of the goals of this lesson is\n"
+"    to help novices build a workable mental model of how programming works.\n"
+"    Until they have that model,\n"
+"    they will not know what to search for or how to recognize a helpful answer.\n"
+"    Telling them to Google can also give the impression that we think their problem is trivial.\n"
+"    (That said, if learners have done enough programming before to be past these issues,\n"
+"    having them search for solutions online can help them solidify their understanding.)\n"
+"    It's also worth quoting\n"
+"    [Trevor King](https://github.com/swcarpentry/python-novice-\n"
+"    gapminder/issues/22#issuecomment-182573516)'s\n"
+"    comment about online search:\n"
+"    \"If you find anything,\n"
+"    other folks were confused enough to bother with a blog or Stack Overflow post,\n"
+"    so it's probably not trivial.\""
+msgstr ""
+"Не кажіть людям, що потрібно гуглити.\n"
+":   Однією з цілей цього уроку \n"
+"    є допомогти новачкам побудувати робочу уявну модель того, як працює програмування.\n"
+"    Поки вони не мають цієї моделі, \n"
+"   вони не знатимуть, що шукати або як розпізнати корисну відповідь.\n"
+"    Пропозиція пошукати відпівідь в Google може створити враження, що ми вважаємо їх проблему тривіальною.\n"
+"    (Тим не менш, якщо учні вже достатньо програмували, щоб вирішити ці проблеми, \n"
+"    пошук рішень в Інтернеті може допомогти їм зміцнити своє розуміння)\n"
+"    Також варто процитувати коментар \n"
+" [Тревора Кінга](https://github.com/swcarpentry/python-novice-\n"
+"    gapminder/issues/22#issuecomment-182573516)\n"
+"    про онлайн-пошук:\n"
+"    \"Якщо ви знайдете щось, \n"
+"    чим інші люди були стурбовані достатньо, щоб возитися з блогом чи публікацією поста про переповнення стеку, \n"
+"    то, ймовірно, це не тривіально.\""

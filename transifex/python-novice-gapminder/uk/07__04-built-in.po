@@ -1,0 +1,889 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ольга Чуб, 2022
+# Olexandr Konovalov, 2022
+# Марина Новожилова, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Марина Новожилова, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/04-built-in.md:1
+msgid ""
+"---\n"
+"title: \"Built-in Functions and Help\"\n"
+"teaching: 15\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I use built-in functions?\"\n"
+"- \"How can I find out what they do?\"\n"
+"- \"What kind of errors can occur in programs?\"\n"
+"objectives:\n"
+"- \"Explain the purpose of functions.\"\n"
+"- \"Correctly call built-in Python functions.\"\n"
+"- \"Correctly nest calls to built-in functions.\"\n"
+"- \"Use help to display documentation for built-in functions.\"\n"
+"- \"Correctly describe situations in which SyntaxError and NameError occur.\"\n"
+"keypoints:\n"
+"- \"Use comments to add documentation to programs.\"\n"
+"- \"A function may take zero or more arguments.\"\n"
+"- \"Commonly-used built-in functions include `max`, `min`, and `round`.\"\n"
+"- \"Functions may only work for certain (combinations of) arguments.\"\n"
+"- \"Functions may have default values for some arguments.\"\n"
+"- \"Use the built-in function `help` to get help for a function.\"\n"
+"- \"The Jupyter Notebook has two ways to get help.\"\n"
+"- \"Every function returns something.\"\n"
+"- \"Python reports a syntax error when it can't understand the source of a program.\"\n"
+"- \"Python reports a runtime error when something goes wrong while a program is executing.\"\n"
+"- \"Fix syntax errors by reading the source code, and runtime errors by tracing the program's execution.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Вбудовані функції та довідка\"\n"
+"teaching: 15\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Як я можу використовувати вбудовані функції?\"\n"
+"- \"Як я можу дізнатися, що вони роблять?\"\n"
+"- \"Які помилки можуть виникати в програмах?\"\n"
+"objectives:\n"
+"- \"Пояснення призначення функцій.\"\n"
+"- \"Коректний виклик вбудованих функцій Python.\"\n"
+"- \"Коректний виклик вкладених вбудованих функцій.\"\n"
+"- \"Використання довідки для перегляду документації про вбудовані функції.\"\n"
+"- \"Правильний опис ситуації, в яких виникають SyntaxError і NameError\"\n"
+"keypoints:\n"
+"- \"Використання коментарів при створенні документації програм.\"\n"
+"- \"Функція без аргументів та функція з довільною кількістю аргументів.\"\n"
+"- \"Поширені вбудовані функції `max`, `min` та `round`.\"\n"
+"- \"Функції можуть працювати лише з певними аргументами (комбінаціями аргументів).\"\n"
+"- \"Функції можуть мати значення за замовчуванням для певних аргументів.\"\n"
+"- \"Використання вбудованої функції `help` для отримання довідки про функції\".\n"
+"- \"Два шляхи отримання допомоги у Jupyter Notebook.\"\n"
+"- \"Кожна функція щось повертає.\"\n"
+"- \"Python повідомляє про синтаксичну помилку, коли джерело програми не зрозуміле.\"\n"
+"- \"Python повідомляє про помилку виконання, коли щось йде не так під час компілювання програми.\"\n"
+"- \"Виправлення синтаксичних помилок у процесі читання вихідного коду, а помилок виконання - у процесі компіляції програми.\""
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:28
+msgid "## Use comments to add documentation to programs."
+msgstr "## Використання коментарів при створенні документації програм."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:30
+msgid ""
+"~~~\n"
+"# This sentence isn't executed by Python.\n"
+"adjustment = 0.5   # Neither is this - anything after '#' is ignored.\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"# Цю строку Python не виконує.\n"
+"adjustment = 0.5   # Усе після '#' ігнорується.\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:36
+msgid "## A function may take zero or more arguments."
+msgstr "## Функції можуть сприймати нуль або деяку кількість аргументів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:38
+msgid ""
+"*   We have seen some functions already --- now let's take a closer look."
+msgstr "*   Ми вже бачили деякі функції --- тепер розглянемо їх ближче."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:39
+msgid "*   An *argument* is a value passed into a function."
+msgstr "*   *Аргумент* - це значення, яке передається у функцію."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:40
+msgid "*   `len` takes exactly one."
+msgstr "*   `len` в якості аргумента використовує точне значення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:41
+msgid "*   `int`, `str`, and `float` create a new value from an existing one."
+msgstr "*   `int`, `str` та `float` створюють нові значення з існуючих."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:42
+msgid "*   `print` takes zero or more."
+msgstr ""
+"*   `print` в якості аргументу може використовувати як нульове, так і "
+"ненульове значення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:43
+msgid "*   `print` with no arguments prints a blank line."
+msgstr "*   `print` без аргументів повертає порожній рядок."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:44
+msgid "    *   Must always use parentheses, even if they're empty,"
+msgstr ""
+"    *   Необхідно завжди використовувати дужки, навіть якщо вони порожні,"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:45
+msgid "        so that Python knows a function is being called."
+msgstr "        щоб Python розумів, що викликається функція."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:47
+msgid ""
+"~~~\n"
+"print('before')\n"
+"print()\n"
+"print('after')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('before')\n"
+"print()\n"
+"print('after')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:52
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"before"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"before"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:56
+msgid ""
+"after\n"
+"~~~"
+msgstr ""
+"after\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:60
+msgid "## Commonly-used built-in functions include `max`, `min`, and `round`."
+msgstr "## Поширені вбудовані функції `max`, `min` та `round`."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:62
+msgid "*   Use `max` to find the largest value of one or more values."
+msgstr ""
+"*   Використовуйте `max`, щоб знайти найбільше з одного або декількох "
+"значень."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:63
+msgid "*   Use `min` to find the smallest."
+msgstr "*   Використовуйте `min`, щоб знайти найменше значення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:64
+msgid "*   Both work on character strings as well as numbers."
+msgstr ""
+"*   Обидві функції в якості аргументу можуть використовувати як символьний "
+"рядок, так і число."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:65
+msgid "    *   \"Larger\" and \"smaller\" use (0-9, A-Z, a-z) to compare letters."
+msgstr ""
+"    *   Для порівняння літер використовуйте «Більші» та «менші» (0-9, A-Z, "
+"a-z) літери."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:67
+msgid ""
+"~~~\n"
+"print(max(1, 2, 3))\n"
+"print(min('a', 'A', '0'))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(max(1, 2, 3))\n"
+"print(min('a', 'A', '0'))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:71
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"3\n"
+"0\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"3\n"
+"0\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:78
+msgid "## Functions may only work for certain (combinations of) arguments."
+msgstr ""
+"## Функції можуть працювати лише з певними аргументами (комбінаціями "
+"аргументів)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:80
+msgid "*   `max` and `min` must be given at least one argument."
+msgstr "*   `max` та `min` повинні мати принаймні один аргумент."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:81
+msgid "    *   \"Largest of the empty set\" is a meaningless question."
+msgstr ""
+"    *   \"Найбільше значення з порожньої множини\" - запит, який не має "
+"сенсу."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:82
+msgid "*   And they must be given things that can meaningfully be compared."
+msgstr ""
+"*   Крім того, аргументи функції повинні бути зіставні, щоб їх можна було "
+"порівнювати."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:84
+msgid ""
+"~~~\n"
+"print(max(1, 'a'))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(max(1, 'a'))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:87
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-52-3f049acf3762> in <module>\n"
+"----> 1 print(max(1, 'a'))"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-52-3f049acf3762> in <module>\n"
+"----> 1 print(max(1, 'a'))"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:93
+msgid ""
+"TypeError: '>' not supported between instances of 'str' and 'int'\n"
+"~~~"
+msgstr ""
+"TypeError: '>' not supported between instances of 'str' and 'int'\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:97
+msgid "## Functions may have default values for some arguments."
+msgstr ""
+"## Функції можуть мати значення за замовчуванням для певних аргументів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:99
+msgid "*   `round` will round off a floating-point number."
+msgstr "*   `round` округляє число з плаваючою крапкою."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:100
+msgid "*   By default, rounds to zero decimal places."
+msgstr "*   За замовчуванням округлює до нуля знаків після крапки."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:102
+msgid ""
+"~~~\n"
+"round(3.712)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"round(3.712)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:105
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"4\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"4\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:111
+msgid "*   We can specify the number of decimal places we want."
+msgstr "*   Ми можемо вказати потрібну кількість десяткових знаків."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:113
+msgid ""
+"~~~\n"
+"round(3.712, 1)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"round(3.712, 1)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:116
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"3.7\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"3.7\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:122
+msgid "## Use the built-in function `help` to get help for a function."
+msgstr ""
+"## Використовуйте вбудовану функцію `help`, щоб отримати довідку щодо "
+"функції."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:124
+msgid "*   Every built-in function has online documentation."
+msgstr "*   Кожна вбудована функція має онлайн-документацію."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:126
+msgid ""
+"~~~\n"
+"help(round)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"help(round)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:129
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"Help on built-in function round in module builtins:"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"Допомога щодо вбудованих функцій у модулі builtins:"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:133
+msgid ""
+"round(number, ndigits=None)\n"
+"    Round a number to a given precision in decimal digits."
+msgstr ""
+"round(number, ndigits=None)\n"
+"    Округлення числа до заданої точності в десяткових цифрах."
+
+#: python-novice-gapminder/_episodes/04-built-in.md:136
+msgid ""
+"    The return value is an integer if ndigits is omitted or None.  Otherwise\n"
+"    the return value has the same type as the number.  ndigits may be negative.\n"
+"~~~"
+msgstr ""
+"    Повернене значення є цілим числом, якщо ndigits опущено - None.  Інакше\n"
+"    значення, що повертається, має той самий тип, що й число. ndigits може бути від'ємним.\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:141
+msgid ""
+"## Python reports a syntax error when it can't understand the source of a "
+"program."
+msgstr ""
+"## Python повідомляє про синтаксичну помилку, коли він не може зрозуміти "
+"джерело програми."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:143
+msgid "*   Won't even try to run the program if it can't be parsed."
+msgstr ""
+"*   Він навіть не намагатиметься запустити програму, якщо її неможливо "
+"коректно прочитати."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:145
+msgid ""
+"~~~\n"
+"# Forgot to close the quote marks around the string.\n"
+"name = 'Feng\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"# Рядок не взято в лапки.\n"
+"name = 'Feng\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:149
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-56-f42768451d55>\", line 2\n"
+"    name = 'Feng\n"
+"                ^\n"
+"SyntaxError: EOL while scanning string literal\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-56-f42768451d55>\", line 2\n"
+"    name = 'Feng\n"
+"                ^\n"
+"SyntaxError: EOL while scanning string literal\n"
+"~~~"
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:158
+msgid ""
+"~~~\n"
+"# An extra '=' in the assignment.\n"
+"age = = 52\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"# Додатковий знак '=' у присвоєнні.\n"
+"age = = 52\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:162
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-57-ccc3df3cf902>\", line 2\n"
+"    age = = 52\n"
+"          ^\n"
+"SyntaxError: invalid syntax\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"   File \"<ipython-input-57-ccc3df3cf902>\", line 2\n"
+"    age = = 52\n"
+"          ^\n"
+"SyntaxError: invalid syntax\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:171
+msgid "*   Look more closely at the error message:"
+msgstr "*   Подивіться уважніше на повідомлення про помилку:"
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:173
+msgid ""
+"~~~\n"
+"print(\"hello world\"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(\"hello world\"\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:176
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-6-d1cc229bf815>\", line 1\n"
+"    print (\"hello world\"\n"
+"                        ^\n"
+"SyntaxError: unexpected EOF while parsing\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-6-d1cc229bf815>\", line 1\n"
+"    print (\"hello world\"\n"
+"                        ^\n"
+"SyntaxError: unexpected EOF while parsing\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:185
+msgid ""
+"*   The message indicates a problem on first line of the input (\"line 1\")."
+msgstr ""
+"*   Повідомлення вказує на проблему в першому рядку введеної програми "
+"(\"line 1\")."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:186
+msgid ""
+"    *   In this case the \"ipython-input\" section of the file name tells us"
+" that"
+msgstr ""
+"    *   У цьому випадку розділ імені файлу «ipython-input» повідомляє нам, "
+"що "
+
+#: python-novice-gapminder/_episodes/04-built-in.md:187
+msgid ""
+"        we are working with input into IPython,\n"
+"        the Python interpreter used by the Jupyter Notebook.\n"
+"*   The `-6-` part of the filename indicates that\n"
+"    the error occurred in cell 6 of our Notebook.\n"
+"*   Next is the problematic line of code,\n"
+"    indicating the problem with a `^` pointer."
+msgstr ""
+"        ми працюємо з введенням в IPython,\n"
+"        з інтерпретатором Python, який використовується в Jupyter Notebook.\n"
+"*   Частина `-6-` в назві файлу вказує на те, що\n"
+"    помилка сталася в клітинці 6.\n"
+"*   Далі йде проблемний рядок коду,\n"
+"    на що вказує символ `^`."
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:194
+msgid ""
+"## <a name='runtime-error'></a> Python reports a runtime error when "
+"something goes wrong while a program is executing."
+msgstr ""
+"## <a name='runtime-error'></a> Python повідомляє про помилку \"runtime "
+"error\", коли щось йде не так під час виконання програми."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:196
+msgid ""
+"~~~\n"
+"age = 53\n"
+"remaining = 100 - aege # mis-spelled 'age'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"age = 53\n"
+"remaining = 100 - aege # неправильно написано 'age'\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:200
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"NameError                                 Traceback (most recent call last)\n"
+"<ipython-input-59-1214fb6c55fc> in <module>\n"
+"      1 age = 53\n"
+"----> 2 remaining = 100 - aege # mis-spelled 'age'"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"NameError                                 Traceback (most recent call last)\n"
+"<ipython-input-59-1214fb6c55fc> в <module>\n"
+"      1 age = 53\n"
+"----> 2 remaining = 100 - aege # неправильно написано 'age'"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:207
+msgid ""
+"NameError: name 'aege' is not defined\n"
+"~~~"
+msgstr ""
+"NameError: name 'aege' is not defined\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:211
+msgid ""
+"*   Fix syntax errors by reading the source and runtime errors by tracing "
+"execution."
+msgstr ""
+"*   Якщо перечитаєте джерело, можна виправити синтаксичні помилки, а якщо "
+"відстежите компілювання - помилки виконання."
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:213
+msgid "## The Jupyter Notebook has two ways to get help."
+msgstr "## Два шляхи отримання допомоги у Jupyter Notebook."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:215
+msgid "*   Place the cursor anywhere in the function invocation "
+msgstr "*   Розмістіть курсор у будь-якому місці виклику функції"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:216
+msgid ""
+"    (i.e., the function name or its parameters),\n"
+"    hold down `shift`,\n"
+"    and press `tab`.\n"
+"*   Or type a function name with a question mark after it."
+msgstr ""
+"    (тобто в імені функції або її параметрах),\n"
+"    утримуйте `shift`\n"
+"    та натисніть `tab`.\n"
+"*   Або введіть назву функції зі знаком питання після неї."
+
+# header
+#: python-novice-gapminder/_episodes/04-built-in.md:221
+msgid "## Every function returns something."
+msgstr "## Кожна функція щось повертає."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:223
+msgid "*   Every function call produces some result."
+msgstr "*   Кожен виклик функції дає певний результат."
+
+# unordered list
+#: python-novice-gapminder/_episodes/04-built-in.md:224
+msgid "*   If the function doesn't have a useful result to return,"
+msgstr "*   Якщо функція не повертає корисного результату,"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:225
+msgid "    it usually returns the special value `None`."
+msgstr "    зазвичай вона повертає спеціальне значення `None`."
+
+# code block
+#: python-novice-gapminder/_episodes/04-built-in.md:227
+msgid ""
+"~~~\n"
+"result = print('example')\n"
+"print('result of print is', result)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"result = print('example')\n"
+"print('result of print is', result)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:231
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"example\n"
+"result of print is None\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"example\n"
+"result of print is None\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/04-built-in.md:238
+msgid "> ## What Happens When"
+msgstr "> ## Що відбувається?"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:239
+msgid ""
+">\n"
+"> 1. Explain in simple terms the order of operations in the following program:\n"
+">    when does the addition happen, when does the subtraction happen,\n"
+">    when is each function called, etc.\n"
+"> 2. What is the final value of `radiance`?\n"
+">\n"
+"> ~~~\n"
+"> radiance = 1.0\n"
+"> radiance = max(2.1, 2.0 + min(radiance, 1.1 * radiance - 0.5))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > 1.\n"
+"> >    1. `1.1 * radiance = 1.1`\n"
+"> >    2. `1.1 - 0.5 = 0.6`\n"
+"> >    3. `min(radiance, 0.6) = 0.6`\n"
+"> >    4. `2.0 + 0.6 = 2.6`\n"
+"> >    5. `max(2.1, 2.6) = 2.6`\n"
+"> > 2. At the end, `radiance = 2.6`"
+msgstr ""
+">\n"
+"> 1. Поясніть простими словами порядок операцій у наступній програмі:\n"
+">    коли відбувається додавання, коли відбувається віднімання,\n"
+">    коли викликається кожна функція тощо.\n"
+"> 2. Яке кінцеве значення величини `radiance`?\n"
+">\n"
+"> ~~~\n"
+"> radiance = 1.0\n"
+"> radiance = max(2.1, 2.0 + min(radiance, 1.1 * radiance - 0.5))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > 1.\n"
+"> >    1. `1.1 * radiance = 1.1`\n"
+"> >    2. `1.1 - 0.5 = 0.6`\n"
+"> >    3. `min(radiance, 0.6) = 0.6`\n"
+"> >    4. `2.0 + 0.6 = 2.6`\n"
+"> >    5. `max(2.1, 2.6) = 2.6`\n"
+"> > 2. В підсумку, `radiance = 2.6`"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/04-built-in.md:261
+msgid "> ## Spot the Difference"
+msgstr "> ## Знайдіть відмінності"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:262
+msgid ""
+">\n"
+"> 1. Predict what each of the `print` statements in the program below will print.\n"
+"> 2. Does `max(len(rich), poor)` run or produce an error message?\n"
+">    If it runs, does its result make any sense?\n"
+">\n"
+"> ~~~\n"
+"> easy_string = \"abc\"\n"
+"> print(max(easy_string))\n"
+"> rich = \"gold\"\n"
+"> poor = \"tin\"\n"
+"> print(max(rich, poor))\n"
+"> print(max(len(rich), len(poor)))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > print(max(easy_string))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > c\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > ~~~\n"
+"> > print(max(rich, poor))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > tin\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > ~~~\n"
+"> > print(max(len(rich), len(poor)))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 4\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > `max(len(rich), poor)` throws a TypeError. This turns into `max(4, 'tin')` and \n"
+"> > as we discussed earlier a string and integer cannot meaningfully be compared.\n"
+"> > ~~~\n"
+"> > TypeError                                 Traceback (most recent call last)\n"
+"> > <ipython-input-65-bc82ad05177a> in <module>\n"
+"> > ----> 1 max(len(rich), poor)\n"
+"> > \n"
+"> > TypeError: '>' not supported between instances of 'str' and 'int'\n"
+"> > ~~~\n"
+"> > {: .error }"
+msgstr ""
+">\n"
+"> 1. Подумайте, що виведе кожен з операторів `print` у наведеній нижче програмі.\n"
+"> 2. Функція `max(len(rich), poor)` поверне відповідь або повідомлення про помилку?\n"
+">    Якщо поверне відповідь, чи буде вона мати сенс?\n"
+">\n"
+"> ~~~\n"
+"> easy_string = \"abc\"\n"
+"> print(max(easy_string))\n"
+"> rich = \"gold\"\n"
+"> poor = \"tin\"\n"
+"> print(max(rich, poor))\n"
+"> print(max(len(rich), len(poor)))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > print(max(easy_string))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > c\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > ~~~\n"
+"> > print(max(rich, poor))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > tin\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > ~~~\n"
+"> > print(max(len(rich), len(poor)))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 4\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > `max(len(rich), poor)` поверне TypeError. Це станеться на `max(4, 'tin')` і, \n"
+"> > як ми говорили раніше, порівнювати рядок і ціле число не можна.\n"
+"> > ~~~\n"
+"> > TypeError                                 Traceback (most recent call last)\n"
+"> > <ipython-input-65-bc82ad05177a> в <module>\n"
+"> > ----> 1 max(len(rich), poor)\n"
+"> > \n"
+"> > TypeError: '>' not supported between instances of 'str' and 'int'\n"
+"> > ~~~\n"
+"> > {: .error }"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/04-built-in.md:314
+msgid "> ## Why Not?"
+msgstr "> ## Чому ні?"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:315
+msgid ""
+">\n"
+"> Why don't `max` and `min` return `None` when they are given no arguments?\n"
+">\n"
+"> > ## Solution\n"
+"> > `max` and `min` return TypeErrors in this case because the correct number of parameters\n"
+"> > was not supplied. If it just returned `None`, the error would be much harder to trace as it\n"
+"> > would likely be stored into a variable and used later in the program, only to likely throw\n"
+"> > a runtime error."
+msgstr ""
+">\n"
+"> Чому функції `max` і `min` не повертають `None`, якщо їм не надано аргументів?\n"
+">\n"
+"> > ## Рішення\n"
+"> > `max` і `min` у цьому випадку повертають TypeErrors, оскільки правильна кількість параметрів\n"
+"> > не була надана. Якби функції повернули тільки `None`, таку помилку було б набагато важче відстежити.\n"
+"> > Швидше за все, значення `None` буде збережено у змінній і використано пізніше в програмі лише для того, щоб повернути\n"
+"> > помилку виконання."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/04-built-in.md:326
+msgid "> ## Last Character of a String"
+msgstr "> ## Останній символ рядка"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:327
+msgid ""
+">\n"
+"> If Python starts counting from zero,\n"
+"> and `len` returns the number of characters in a string,\n"
+"> what index expression will get the last character in the string `name`?\n"
+"> (Note: we will see a simpler way to do this in a later episode.)\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > `name[len(name) - 1]`"
+msgstr ""
+">\n"
+"> Якщо Python починає рахувати з нуля,\n"
+"> та `len` повертає кількість символів у рядку,\n"
+"> то який індекс отримає останній символ у рядку `name`?\n"
+"> (Примітка: ми побачимо простіший спосіб зробити це в наступному епізоді.)\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > `name[len(name) - 1]`"

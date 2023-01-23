@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David PS <dps.helio@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: David PS <dps.helio@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructors' Guide\"\n"
+"permalink: /guide/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Guía para Instructores\"\n"
+"permalink: /es/guide/\n"
+"---"
+
+# header
+#: python-novice-gapminder/_extras/guide.md:7
+msgid "## General Notes"
+msgstr "## Notas Generales"
+
+#: python-novice-gapminder/_extras/guide.md:9
+msgid ""
+"It's all right not to get through the whole lesson.\n"
+":   This lesson is designed for people who have never programmed before,\n"
+"    but any given class may include people with a wide range of prior experience.\n"
+"    We have therefore included enough material to fill a full day if need be,\n"
+"    but expect that many offerings will only get as far as the introduction to Pandas."
+msgstr ""
+"Está bien si no se consigue impartir toda la lección.\n"
+":   Esta lección está diseñada para gente que no ha programado nunca,\n"
+"    pero en cada taller puede que haya un espectro amplio de experiencias previas.\n"
+"    Por lo que hemos incluido material suficiente para llenar un día entero si se necesitase,\n"
+"    pero esperamos que muchos de los talleres sólo lleguen hasta la introducción a Pandas."
+
+#: python-novice-gapminder/_extras/guide.md:15
+msgid ""
+"Don't tell people to Google things.\n"
+":   One of the goals of this lesson is\n"
+"    to help novices build a workable mental model of how programming works.\n"
+"    Until they have that model,\n"
+"    they will not know what to search for or how to recognize a helpful answer.\n"
+"    Telling them to Google can also give the impression that we think their problem is trivial.\n"
+"    (That said, if learners have done enough programming before to be past these issues,\n"
+"    having them search for solutions online can help them solidify their understanding.)\n"
+"    It's also worth quoting\n"
+"    [Trevor King](https://github.com/swcarpentry/python-novice-\n"
+"    gapminder/issues/22#issuecomment-182573516)'s\n"
+"    comment about online search:\n"
+"    \"If you find anything,\n"
+"    other folks were confused enough to bother with a blog or Stack Overflow post,\n"
+"    so it's probably not trivial.\""
+msgstr ""
+"No digas a la gente que busquen en Google las cosas.\n"
+":   Uno de los objetivos de esta lección es\n"
+"    ayudar a los principiantes a crear un modelo mental de como funciona la programación.\n"
+"    Hasta que no tengan ese modelo,\n"
+"    no sabrán que buscar o cómo identificar una buena respuesta.\n"
+"    Decirles que busquen en Goolge también les puede dar la impresión de que pensamos que el problema es trivial.\n"
+"    (Dicho esto, si los aprendices tienen suficiente experiencia para sobrepasar esos problemas,\n"
+"    que busquen la solución en Internet puede ayudarles a solidificar su comprensión.)\n"
+"    Vale la pena citar\n"
+"    el comentario de\n"
+"    [Trevor King](https://github.com/swcarpentry/python-novice-\n"
+"    gapminder/issues/22#issuecomment-182573516)\n"
+"    sobre búsquedas en Internet:\n"
+"    \"Si encuentras algo,\n"
+"    quiere decir que otros estaban confundidos suficientemente para molestarse en escribir un blog o una pregunta en Stack Overflow,\n"
+"    por lo que seguramente no es trivial.\""

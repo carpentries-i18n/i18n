@@ -1,0 +1,618 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Conditionals\"\n"
+"teaching: 10\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How can programs do different things for different data?\"\n"
+"objectives:\n"
+"- \"Correctly write programs that use if and else statements and simple Boolean expressions (without logical operators).\"\n"
+"- \"Trace the execution of unnested conditionals and conditionals inside loops.\"\n"
+"keypoints:\n"
+"- \"Use `if` statements to control whether or not a block of code is executed.\"\n"
+"- \"Conditionals are often used inside loops.\"\n"
+"- \"Use `else` to execute a block of code when an `if` condition is *not* true.\"\n"
+"- \"Use `elif` to specify additional tests.\"\n"
+"- \"Conditions are tested once, in order.\"\n"
+"- \"Create a table showing variables' values to trace a program's execution.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:18
+# header
+msgid "## Use `if` statements to control whether or not a block of code is executed."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:20
+# unordered list
+msgid "*   An `if` statement (more properly called a *conditional* statement)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:21
+msgid "    controls whether some block of code is executed or not.\n"
+"*   Structure is similar to a `for` statement:\n"
+"    *   First line opens with `if` and ends with a colon\n"
+"    *   Body containing one or more statements is indented (usually by 4 spaces)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:26
+# code block
+msgid "~~~\n"
+"mass = 3.54\n"
+"if mass > 3.0:\n"
+"    print(mass, 'is large')\n"
+"\n"
+"mass = 2.07\n"
+"if mass > 3.0:\n"
+"    print (mass, 'is large')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:35
+msgid "{: .language-python}\n"
+"~~~\n"
+"3.54 is large\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:41
+# header
+msgid "## Conditionals are often used inside loops."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:43
+# unordered list
+msgid "*   Not much point using a conditional when we know the value (as above)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:44
+# unordered list
+msgid "*   But useful when we have a collection to process."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:46
+# code block
+msgid "~~~\n"
+"masses = [3.54, 2.07, 9.22, 1.86, 1.71]\n"
+"for m in masses:\n"
+"    if m > 3.0:\n"
+"        print(m, 'is large')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:52
+msgid "{: .language-python}\n"
+"~~~\n"
+"3.54 is large\n"
+"9.22 is large\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:59
+# header
+msgid "## Use `else` to execute a block of code when an `if` condition is *not* true."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:61
+# unordered list
+msgid "*   `else` can be used following an `if`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:62
+# unordered list
+msgid "*   Allows us to specify an alternative to execute when the `if` *branch* isn't taken."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:64
+# code block
+msgid "~~~\n"
+"masses = [3.54, 2.07, 9.22, 1.86, 1.71]\n"
+"for m in masses:\n"
+"    if m > 3.0:\n"
+"        print(m, 'is large')\n"
+"    else:\n"
+"        print(m, 'is small')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:72
+msgid "{: .language-python}\n"
+"~~~\n"
+"3.54 is large\n"
+"2.07 is small\n"
+"9.22 is large\n"
+"1.86 is small\n"
+"1.71 is small\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:82
+# header
+msgid "## Use `elif` to specify additional tests."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:84
+# unordered list
+msgid "*   May want to provide several alternative choices, each with its own test."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:85
+# unordered list
+msgid "*   Use `elif` (short for \"else if\") and a condition to specify these."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:86
+# unordered list
+msgid "*   Always associated with an `if`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:87
+# unordered list
+msgid "*   Must come before the `else` (which is the \"catch all\")."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:89
+# code block
+msgid "~~~\n"
+"masses = [3.54, 2.07, 9.22, 1.86, 1.71]\n"
+"for m in masses:\n"
+"    if m > 9.0:\n"
+"        print(m, 'is HUGE')\n"
+"    elif m > 3.0:\n"
+"        print(m, 'is large')\n"
+"    else:\n"
+"        print(m, 'is small')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:99
+msgid "{: .language-python}\n"
+"~~~\n"
+"3.54 is large\n"
+"2.07 is small\n"
+"9.22 is HUGE\n"
+"1.86 is small\n"
+"1.71 is small\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:109
+# header
+msgid "## Conditions are tested once, in order."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:111
+# unordered list
+msgid "*   Python steps through the branches of the conditional in order, testing each in turn."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:112
+# unordered list
+msgid "*   So ordering matters."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:114
+# code block
+msgid "~~~\n"
+"grade = 85\n"
+"if grade >= 70:\n"
+"    print('grade is C')\n"
+"elif grade >= 80:\n"
+"    print('grade is B')\n"
+"elif grade >= 90:\n"
+"    print('grade is A')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:123
+msgid "{: .language-python}\n"
+"~~~\n"
+"grade is C\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:129
+# unordered list
+msgid "*   Does *not* automatically go back and re-evaluate if values change."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:131
+# code block
+msgid "~~~\n"
+"velocity = 10.0\n"
+"if velocity > 20.0:\n"
+"    print('moving too fast')\n"
+"else:\n"
+"    print('adjusting velocity')\n"
+"    velocity = 50.0\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:139
+msgid "{: .language-python}\n"
+"~~~\n"
+"adjusting velocity\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:145
+# unordered list
+msgid "*   Often use conditionals in a loop to \"evolve\" the values of variables."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:147
+# code block
+msgid "~~~\n"
+"velocity = 10.0\n"
+"for i in range(5): # execute the loop 5 times\n"
+"    print(i, ':', velocity)\n"
+"    if velocity > 20.0:\n"
+"        print('moving too fast')\n"
+"        velocity = velocity - 5.0\n"
+"    else:\n"
+"        print('moving too slow')\n"
+"        velocity = velocity + 10.0\n"
+"print('final velocity:', velocity)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:159
+msgid "{: .language-python}\n"
+"~~~\n"
+"0 : 10.0\n"
+"moving too slow\n"
+"1 : 20.0\n"
+"moving too slow\n"
+"2 : 30.0\n"
+"moving too fast\n"
+"3 : 25.0\n"
+"moving too fast\n"
+"4 : 20.0\n"
+"moving too slow\n"
+"final velocity: 30.0\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:175
+# header
+msgid "## Create a table showing variables' values to trace a program's execution."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:177
+# inline html
+msgid "<table>\n"
+"  <tr>\n"
+"    <td><strong>i</strong></td>\n"
+"    <td>0</td>\n"
+"    <td>.</td>\n"
+"    <td>1</td>\n"
+"    <td>.</td>\n"
+"    <td>2</td>\n"
+"    <td>.</td>\n"
+"    <td>3</td>\n"
+"    <td>.</td>\n"
+"    <td>4</td>\n"
+"    <td>.</td>\n"
+"  </tr>\n"
+"  <tr>\n"
+"    <td><strong>velocity</strong></td>\n"
+"    <td>10.0</td>\n"
+"    <td>20.0</td>\n"
+"    <td>.</td>\n"
+"    <td>30.0</td>\n"
+"    <td>.</td>\n"
+"    <td>25.0</td>\n"
+"    <td>.</td>\n"
+"    <td>20.0</td>\n"
+"    <td>.</td>\n"
+"    <td>30.0</td>\n"
+"  </tr>\n"
+"</table>"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:206
+# unordered list
+msgid "*   The program must have a `print` statement *outside* the body of the loop"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:207
+msgid "    to show the final value of `velocity`,\n"
+"    since its value is updated by the last iteration of the loop."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:210
+# blockquote, which can be cascaded
+msgid "> ## Compound Relations Using `and`, `or`, and Parentheses"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:211
+msgid ">\n"
+"> Often, you want some combination of things to be true.  You can combine\n"
+"> relations within a conditional using `and` and `or`.  Continuing the example\n"
+"> above, suppose you have\n"
+">\n"
+"> ~~~\n"
+"> mass     = [ 3.54,  2.07,  9.22,  1.86,  1.71]\n"
+"> velocity = [10.00, 20.00, 30.00, 25.00, 20.00]\n"
+">\n"
+"> i = 0\n"
+"> for i in range(5):\n"
+">     if mass[i] > 5 and velocity[i] > 20:\n"
+">         print(\"Fast heavy object.  Duck!\")\n"
+">     elif mass[i] > 2 and mass[i] <= 5 and velocity[i] <= 20:\n"
+">         print(\"Normal traffic\")\n"
+">     elif mass[i] <= 2 and velocity[i] <= 20:\n"
+">         print(\"Slow light object.  Ignore it\")\n"
+">     else:\n"
+">         print(\"Whoa!  Something is up with the data.  Check it\")\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> Just like with arithmetic, you can and should use parentheses whenever there\n"
+"> is possible ambiguity.  A good general rule is to *always* use parentheses\n"
+"> when mixing `and` and `or` in the same condition.  That is, instead of:\n"
+">\n"
+"> ~~~\n"
+"> if mass[i] <= 2 or mass[i] >= 5 and velocity[i] > 20:\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> write one of these:\n"
+">\n"
+"> ~~~\n"
+"> if (mass[i] <= 2 or mass[i] >= 5) and velocity[i] > 20:\n"
+"> if mass[i] <= 2 or (mass[i] >= 5 and velocity[i] > 20):\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> so it is perfectly clear to a reader (and to Python) what you really mean."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:254
+msgid ">\n"
+"> What does this program print?\n"
+">\n"
+"> ~~~\n"
+"> pressure = 71.9\n"
+"> if pressure > 50.0:\n"
+">     pressure = 25.0\n"
+"> elif pressure <= 50.0:\n"
+">     pressure = 0.0\n"
+"> print(pressure)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > 25.0\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:276
+# blockquote, which can be cascaded
+msgid "> ## Trimming Values"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:277
+msgid ">\n"
+"> Fill in the blanks so that this program creates a new list\n"
+"> containing zeroes where the original list's values were negative\n"
+"> and ones where the original list's values were positive.\n"
+">\n"
+"> ~~~\n"
+"> original = [-1.5, 0.2, 0.4, 0.0, -1.3, 0.4]\n"
+"> result = ____\n"
+"> for value in original:\n"
+">     if ____:\n"
+">         result.append(0)\n"
+">     else:\n"
+">         ____\n"
+"> print(result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> [0, 1, 1, 1, 0, 1]\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:299
+# blockquote, which can be cascaded
+msgid "> >"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:301
+# blockquote, which can be cascaded
+msgid "> > original = [-1.5, 0.2, 0.4, 0.0, -1.3, 0.4]"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:302
+# blockquote, which can be cascaded
+msgid "> > result = []"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:303
+# blockquote, which can be cascaded
+msgid "> > for value in original:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:304
+# blockquote, which can be cascaded
+msgid "> >     if value<0.0:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:305
+# blockquote, which can be cascaded
+msgid "> >         result.append(0)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:306
+# blockquote, which can be cascaded
+msgid "> >     else:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:307
+# blockquote, which can be cascaded
+msgid "> >         result.append(1)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:308
+# blockquote, which can be cascaded
+msgid "> > print(result)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:310
+# blockquote, which can be cascaded
+msgid "> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:314
+# blockquote, which can be cascaded
+msgid "> ## Processing Small Files"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:315
+msgid ">\n"
+"> Modify this program so that it only processes files with fewer than 50 records.\n"
+">\n"
+"> ~~~\n"
+"> import glob\n"
+"> import pandas as pd\n"
+"> for filename in glob.glob('data/*.csv'):\n"
+">     contents = pd.read_csv(filename)\n"
+">     ____:\n"
+">         print(filename, len(contents))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > import glob\n"
+"> > import pandas as pd\n"
+"> > for filename in glob.glob('data/*.csv'):\n"
+"> >     contents = pd.read_csv(filename)\n"
+"> >     if len(contents)<50:\n"
+"> >         print(filename, len(contents))\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:341
+# blockquote, which can be cascaded
+msgid "> ## Initializing"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:342
+msgid ">\n"
+"> Modify this program so that it finds the largest and smallest values in the list\n"
+"> no matter what the range of values originally is.\n"
+">\n"
+"> ~~~\n"
+"> values = [...some test data...]\n"
+"> smallest, largest = None, None\n"
+"> for v in values:\n"
+">     if ____:\n"
+">         smallest, largest = v, v\n"
+">     ____:\n"
+">         smallest = min(____, v)\n"
+">         largest = max(____, v)\n"
+"> print(smallest, largest)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> What are the advantages and disadvantages of using this method\n"
+"> to find the range of the data?\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > values = [-2,1,65,78,-54,-24,100]\n"
+"> > smallest, largest = None, None\n"
+"> > for v in values:\n"
+"> >     if smallest==None and largest==None:\n"
+"> >         smallest, largest = v, v\n"
+"> >     else:\n"
+"> >         smallest = min(smallest, v)\n"
+"> >         largest = max(largest, v)\n"
+"> > print(smallest, largest)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:378
+# blockquote, which can be cascaded
+msgid "> ## Using Functions With Conditionals in Pandas"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:379
+msgid ">\n"
+"> Functions will often contain conditionals.  Here is a short example that\n"
+"> will indicate which quartile the argument is in based on hand-coded values\n"
+"> for the quartile cut points.\n"
+">\n"
+"> ~~~\n"
+"> def calculate_life_quartile(exp):\n"
+">     if exp < 58.41:\n"
+">         # This observation is in the first quartile\n"
+">         return 1\n"
+">     elif exp >= 58.41 and exp < 67.05:\n"
+">         # This observation is in the second quartile\n"
+">        return 2\n"
+">     elif exp >= 67.05 and exp < 71.70:\n"
+">         # This observation is in the third quartile\n"
+">        return 3\n"
+">     elif exp >= 71.70:\n"
+">         # This observation is in the fourth quartile\n"
+">        return 4\n"
+">     else:\n"
+">         # This observation has bad data\n"
+">        return None\n"
+">\n"
+"> calculate_life_quartile(62.5)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> 2\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/13-conditionals.md:410
+msgid ">\n"
+"> That function would typically be used within a `for` loop, but Pandas has\n"
+"> a different, more efficient way of doing the same thing, and that is by\n"
+"> *applying* a function to a dataframe or a portion of a dataframe.  Here\n"
+"> is an example, using the definition above.\n"
+">\n"
+"> ~~~\n"
+"> data = pd.read_csv('Americas-data.csv')\n"
+"> data['life_qrtl'] = data['lifeExp'].apply(calculate_life_quartile)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> There is a lot in that second line, so let's take it piece by piece.\n"
+"> On the right side of the `=` we start with `data['lifeExp']`, which is the\n"
+"> column in the dataframe called `data` labeled `lifExp`.  We use the\n"
+"> `apply()` to do what it says, apply the `calculate_life_quartile` to the\n"
+"> value of this column for every row in the dataframe."
+msgstr ""
+

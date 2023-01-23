@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/CODE_OF_CONDUCT.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Contributor Code of Conduct\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/CODE_OF_CONDUCT.md:5
+msgid "As contributors and maintainers of this project,\n"
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
+msgstr ""
+
+#: python-novice-gapminder/CODE_OF_CONDUCT.md:8
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+
+#: python-novice-gapminder/CODE_OF_CONDUCT.md:11
+#: python-novice-gapminder/_episodes/01-run-quit.md:518
+#: python-novice-gapminder/_extras/figures.md:68
+#: python-novice-gapminder/index.md:39
+#: python-novice-gapminder/reference.md:251
+msgid "{% include links.md %}"
+msgstr ""
+

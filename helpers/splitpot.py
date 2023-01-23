@@ -165,6 +165,10 @@ class Pofiles:
         header[start + 1: end] = translators
 
         all_content = header +  all_content
+        #  NOTE these lines were in conflict with the 31 lines above.
+        # if all_content:
+        #     lines = lines[lines.index('\n') + 1:]
+        # all_content.extend(['\n'] + lines)
 
         # path from the original filename
         path_filename = Path(self.filename).parent

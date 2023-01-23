@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Paula <orchid00@gmail.com>, 2020
+# VERONICA JIMENEZ JACINTO <vjimenez.jacinto@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: VERONICA JIMENEZ JACINTO <vjimenez.jacinto@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/10-lunch.md:1
+msgid ""
+"---\n"
+"layout: break\n"
+"title: \"Lunch\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 45\n"
+"---"
+msgstr ""
+"---\n"
+"layout: break\n"
+"title: \"Almuerzo\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 45\n"
+"---"
+
+#: python-novice-gapminder/_episodes/10-lunch.md:8
+msgid ""
+"Over lunch, reflect on and discuss the following:\n"
+"* What sort of packages might you use in Python and why would you use them?\n"
+"* How would data need to be formatted to be used in Pandas data frames? Would the data you have meet these requirements?\n"
+"* What limitations or problems might you run into when thinking about how to apply what we've learned to your own projects or data?"
+msgstr ""
+"Durante el almuerzo, reflexiona y discute lo siguiente:\n"
+"* ¿Qué tipo de paquetes podrías usar en Python y por qué los usarías?\n"
+"* ¿Cómo tendrían que formatearse los datos para ser utilizados en los DataFrames de Pandas? ¿Los datos que tienes cumplen con estos requisitos?\n"
+"* ¿Qué limitaciones o problemas podrías encontrar al pensar en cómo aplicar lo que hemos aprendido a tus propios proyectos o datos?"

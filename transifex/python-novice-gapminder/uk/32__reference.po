@@ -1,0 +1,1083 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Olexandr Konovalov, 2022
+# Марина Новожилова, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Марина Новожилова, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/reference.md:1
+msgid ""
+"---\n"
+"layout: reference\n"
+"permalink: /reference/\n"
+"root: ..\n"
+"---"
+msgstr ""
+"---\n"
+"layout: reference\n"
+"permalink: /reference/\n"
+"root: ..\n"
+"---"
+
+# header
+#: python-novice-gapminder/reference.md:7
+msgid "## Reference"
+msgstr "## Довідник"
+
+# header
+#: python-novice-gapminder/reference.md:9
+msgid "## [Running and Quitting]({{ page.root }}/01-run-quit/)"
+msgstr "## [Запуск та завершення роботи]({{ page.root }}/01-run-quit/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:10
+msgid "- Python files have the `.py` extension."
+msgstr "- Python файли мають розширення `.py`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:11
+msgid "- Can be written in a text file or a [Jupyter Notebook][jupyter]."
+msgstr ""
+"- Можуть бути створені у текстовому редакторі або у [Jupyter "
+"Notebook][jupyter]."
+
+# unordered list
+#: python-novice-gapminder/reference.md:12
+msgid "  - Jupyter notebooks have the extension `.ipynb`"
+msgstr ""
+"  - Файли, створені в середовищі Jupyter notebook, мають розширення `.ipynb`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:13
+msgid ""
+"  - Jupyter notebooks can be opened from "
+"[Anaconda](https://docs.continuum.io/anaconda/install) or through the "
+"command line by entering `$ jupyter notebook`"
+msgstr ""
+"  - Файли, створені в середовищі Jupyter notebook,  можуть бути відкриті в "
+"[Anaconda](https://docs.continuum.io/anaconda/install) or through the "
+"command line by entering `$ jupyter notebook`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:14
+msgid ""
+"    - Markdown and HTML are allowed in markdown cells for documenting code."
+msgstr ""
+"    - В комірках markdown для документування коду можна використовувати як "
+"Markdown так і HTML."
+
+# header
+#: python-novice-gapminder/reference.md:16
+msgid "## [Variables and Assignment]({{ page.root }}/02-variables/)"
+msgstr "## [Змінні та присвоєння]({{ page.root }}/02-variables/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:17
+msgid "- Variables are stored using `=`."
+msgstr "- Значення змінних зберігаються за допомогою  `=`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:18
+msgid "  - Strings are defined in quotations `'...'`."
+msgstr "  - Рядки визначаються в лапках `'...'`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:19
+msgid ""
+"  - Integers and floating point numbers are defined without quotations."
+msgstr "  - Цілі числа та числа з плаваючою комою визначаються без лапок."
+
+# unordered list
+#: python-novice-gapminder/reference.md:20
+msgid "- Variables can contain letters, digits, and underscores `_`."
+msgstr "- Змінні можуть містити літери, цифри та символ підкреслення \"_\"."
+
+# unordered list
+#: python-novice-gapminder/reference.md:21
+msgid "  - Cannot start with a digit."
+msgstr "  - Не можуть починатися з цифри."
+
+# unordered list
+#: python-novice-gapminder/reference.md:22
+msgid "  - Variables that start with underscores should be avoided."
+msgstr "  - Слід уникати змінних, які починаються з підкреслення."
+
+# unordered list
+#: python-novice-gapminder/reference.md:23
+msgid "- Use `print(...)` to display values as text."
+msgstr "- Використовуйте `print(...)`, щоб відобразити значення як текст."
+
+# unordered list
+#: python-novice-gapminder/reference.md:24
+msgid "- Can use indexing on strings."
+msgstr "- Можна використовувати індексацію рядків."
+
+# unordered list
+#: python-novice-gapminder/reference.md:25
+msgid "  - Indexing starts at 0."
+msgstr "  - Індексація починається з 0."
+
+# unordered list
+#: python-novice-gapminder/reference.md:26
+msgid ""
+"  - Position is given in square brackets `[position]` following the variable"
+" name."
+msgstr ""
+"  - Позиція вказується в квадратних дужках `[position]` після імені змінної."
+
+# unordered list
+#: python-novice-gapminder/reference.md:27
+msgid ""
+"  - Take a slice using `[start:stop]`. This makes a copy of part of the "
+"original string."
+msgstr ""
+"  - Зріз створюється за допомогою `[start:stop]`. Це робить копію частини "
+"вихідного рядка) "
+
+# unordered list
+#: python-novice-gapminder/reference.md:28
+msgid "    - `start` is the index of the first element."
+msgstr "    - `start` є індексом першого елемента."
+
+# unordered list
+#: python-novice-gapminder/reference.md:29
+msgid ""
+"    - `stop` is the index of the element after the last desired element."
+msgstr ""
+"    - `stop` є індексом елемента після останнього потрібного елемента."
+
+# unordered list
+#: python-novice-gapminder/reference.md:30
+msgid "- Use `len(...)` to find the length of a variable or string. "
+msgstr ""
+"- Використовуйте `len(...)` для визначення довжини змінної або рядка. "
+
+# header
+#: python-novice-gapminder/reference.md:32
+msgid ""
+"## [Data Types and Type Conversion]({{ page.root }}/03-types-conversion/)"
+msgstr ""
+"## [Типи даних та їх перетворення]({{ page.root }}/03-types-conversion/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:33
+msgid "- Each value has a type. This controls what can be done with it."
+msgstr "- Кожна величина має тип. Це контролює дії, які можна з нею робити."
+
+# unordered list
+#: python-novice-gapminder/reference.md:34
+msgid "  - `int` represents an integer"
+msgstr "  - `int` є цілим числом"
+
+# unordered list
+#: python-novice-gapminder/reference.md:35
+msgid "  - `float` represents a floating point number."
+msgstr "  - `float` представляє число з плаваючою комою."
+
+# unordered list
+#: python-novice-gapminder/reference.md:36
+msgid "  - `str` represents a string."
+msgstr "  - `str` є рядком."
+
+# unordered list
+#: python-novice-gapminder/reference.md:37
+msgid ""
+"- To determine a variables type, use the built-in function `type(...)`, "
+"including the variable name in the parenthesis."
+msgstr ""
+"Щоб визначити тип змінної, скористайтеся вбудованою функцією `type(...)`, "
+"вказавши назву змінної в дужках."
+
+# unordered list
+#: python-novice-gapminder/reference.md:38
+msgid "- Modifying strings:"
+msgstr "- Модифікація рядків:"
+
+# unordered list
+#: python-novice-gapminder/reference.md:39
+msgid "  - Use `+` to concatenate strings."
+msgstr "  - Використовуйте `+` для об'єднання (конкатенації) рядків."
+
+# unordered list
+#: python-novice-gapminder/reference.md:40
+msgid "  - Use `*` to repeat a string."
+msgstr "  - Використовуйте `*`, щоб повторити рядок."
+
+# unordered list
+#: python-novice-gapminder/reference.md:41
+msgid "  - Numbers and strings cannot be added to on another."
+msgstr "  - Числа та рядки не можна додавати один до іншого."
+
+# unordered list
+#: python-novice-gapminder/reference.md:42
+msgid "    - Convert string to integer: `int(...)`."
+msgstr "    - Перетворити рядок на ціле: `int(...)`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:43
+msgid "    - Convert integer to string: `str(...)`."
+msgstr "    - Перетворити ціле на рядок : `str(...)`."
+
+# header
+#: python-novice-gapminder/reference.md:45
+msgid "## [Built-in Functions and Help]({{ page.root }}/04-built-in/)"
+msgstr "## [Вбудовані функції та довідка]({{ page.root }}/04-built-in/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:46
+msgid ""
+"- To add a comment, place `#` before the thing you do not with to be "
+"executed."
+msgstr ""
+"- Щоб додати коментар, поставте `#` перед тим, що ви не хочете виконувати."
+
+# unordered list
+#: python-novice-gapminder/reference.md:47
+msgid "- Commonly used built-in functions:"
+msgstr "- Вбудовані функції, які часто використовуються: "
+
+# unordered list
+#: python-novice-gapminder/reference.md:48
+msgid "  - `min()` finds the smallest value."
+msgstr "  - `min()` визначає найменшу величину."
+
+# unordered list
+#: python-novice-gapminder/reference.md:49
+msgid "  - `max()` finds the largest value."
+msgstr "  - `max()` визначає найбільшу величину."
+
+# unordered list
+#: python-novice-gapminder/reference.md:50
+msgid "  - `round()` rounds off a floating point number."
+msgstr "  - `round()` округлює число з плаваючою комою."
+
+# unordered list
+#: python-novice-gapminder/reference.md:51
+msgid ""
+"  - `help()` displays documentation for the function in the parenthesis."
+msgstr "  - `help()` відображає документацію для функції в дужках."
+
+# unordered list
+#: python-novice-gapminder/reference.md:52
+msgid ""
+"    - Other ways to get help include holding down `shift` and pressing `tab`"
+" in Jupyter Notebooks."
+msgstr ""
+"    - Інші способи отримати допомогу включають одночасне натискання `shift` "
+"і `tab` у Jupyter Notebooks."
+
+# header
+#: python-novice-gapminder/reference.md:54
+msgid "## [Libraries]({{ page.root }}/06-libraries/)"
+msgstr "## [Бібліотеки]({{ page.root }}/06-libraries/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:55
+msgid "- Importing a library:"
+msgstr "- Імпорт бібліотеки:"
+
+# unordered list
+#: python-novice-gapminder/reference.md:56
+msgid "  - Use `import ...` to load a library."
+msgstr "  - Використовуйте `import ...` для підключення бібліотеки."
+
+# unordered list
+#: python-novice-gapminder/reference.md:57
+msgid "  - Refer to this library by using `module_name.thing_name`."
+msgstr ""
+"  - Звертайтеся до цієї бібліотеки у форматі `module_name.thing_name`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:58
+msgid "    - `.` indicates 'part of'."
+msgstr "    - `.` вказує на 'частину'."
+
+# unordered list
+#: python-novice-gapminder/reference.md:59
+msgid "- To import a specific item from a library: `from ... import ...`"
+msgstr ""
+"- Щоб імпортувати певний елемент із бібліотеки, використовуйте команду `from"
+" ... import ...`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:60
+msgid "- To import a library using an alias: `import ... as ...`"
+msgstr ""
+"- Щоб імпортувати бібліотеку та створити її псевдонім, використовуйте "
+"команду `import ... as ...`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:61
+msgid "- Importing the math library: `import math`"
+msgstr "- Імпорт математичної бібліотеки: `import math`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:62
+msgid ""
+"  - Example of referring to an item with the module's name: "
+"`math.cos(math.pi)`."
+msgstr ""
+"  - Приклад посилання на елемент із назвою модуля: `math.cos(math.pi)`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:63
+msgid ""
+"- Importing the plotting library as an alias: `import matplotlib as mpl`"
+msgstr ""
+"- Імпорт графічної бібліотеки та позначення її за допомогою псевдоніма: "
+"`import matplotlib as mpl`"
+
+# header
+#: python-novice-gapminder/reference.md:65
+msgid ""
+"## [Reading Tabular Data into DataFrames]({{ page.root }}/07-reading-"
+"tabular/)"
+msgstr ""
+"## [Читання табличних даних у фреймах даних]({{ page.root }}/07-reading-"
+"tabular/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:66
+msgid ""
+"- Use the pandas library to do statistics on tabular data. Load with `import"
+" pandas as pd`."
+msgstr ""
+"- Використовуйте бібліотеку pandas для статистичної обробки табличних даних."
+" Завантажуйте її за допомогою `import pandas as pd`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:67
+msgid ""
+"  - To read in a csv: `pd.read_csv()`, including the path name in the "
+"parenthesis."
+msgstr ""
+"  - Щоб прочитати дані у файлі csv, використовуйте команду: `pd.read_csv()`,"
+" включаючи шлях до файлу в дужках."
+
+# unordered list
+#: python-novice-gapminder/reference.md:68
+msgid ""
+"    - To specify a column's values should be used as row headings: "
+"`pd.read_csv('path',index_col='column name')`, where path and column name "
+"should be replaced with the relevant values."
+msgstr ""
+"    - Щоб указати значення стовпця, слід використовувати наступний формат "
+"заголовків рядків: `pd.read_csv('path',index_col='column name')`, де `path` "
+"і `column name` замінюються відповідними значеннями. "
+
+# unordered list
+#: python-novice-gapminder/reference.md:69
+msgid ""
+"- To get more information about a DataFrame, use `DataFrame.info`, replacing"
+" `DataFrame` with the variable name of your DataFrame."
+msgstr ""
+"- Щоб отримати більше інформації про фрейм даних, використовуйте "
+"`DataFrame.info`, замінивши `DataFrame` назвою вашого файлу даних."
+
+# unordered list
+#: python-novice-gapminder/reference.md:70
+msgid "- Use `DataFrame.columns` to view the column names."
+msgstr ""
+"- Використовуйте команду `DataFrame.columns` щоб переглянути назви стовпців."
+
+# unordered list
+#: python-novice-gapminder/reference.md:71
+msgid "- Use `DataFrame.T` to transpose a DataFrame."
+msgstr "- Використовуйте `DataFrame.T` щоб транспонувати фрейм даних."
+
+# unordered list
+#: python-novice-gapminder/reference.md:72
+msgid "- Use `DataFrame.describe` to get summary statistics about your data."
+msgstr ""
+"- Використовуйте `DataFrame.describe`, щоб отримати підсумкову статистику "
+"ваших даних."
+
+# header
+#: python-novice-gapminder/reference.md:74
+msgid "## [Pandas DataFrames]({{ page.root }}/08-data-frames/)"
+msgstr "## [Pandas DataFrames]({{ page.root }}/08-data-frames/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:75
+msgid "- Select data using `[i,j]`"
+msgstr "- Вибір даних за допомогою `[i,j]`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:76
+msgid "  - To select by entry position: `DataFrame.iloc[..., ...]`"
+msgstr "  - Вибір за місцезнаходженням: `DataFrame.iloc[..., ...]`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:77
+msgid "    - This is inclusive of everything except the final index."
+msgstr "    - Це включає весь діапазон, крім останнього індексу."
+
+# unordered list
+#: python-novice-gapminder/reference.md:78
+msgid "  - To select by entry label: `DataFrame.loc[..., ...]`"
+msgstr ""
+"  - Для вибору за міткою запису використовуйте: `DataFrame.loc[..., ...]`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:79
+msgid "    - Can select multiple rows or columns by listing labels."
+msgstr ""
+"    - Можна вибрати кілька рядків або стовпців визначенням діапазону міток."
+
+# unordered list
+#: python-novice-gapminder/reference.md:80
+msgid "    - This is inclusive to both ends."
+msgstr "    - Кінцеві індекси включно з обох боків."
+
+# unordered list
+#: python-novice-gapminder/reference.md:81
+msgid "  - Use `:` to select all rows or columns."
+msgstr "  - Використовуйте `:`, щоб обрати всі рядки або стовпці."
+
+# unordered list
+#: python-novice-gapminder/reference.md:82
+msgid ""
+"- Can also select data based on values using `true` and `false`. This is a "
+"Boolean mask."
+msgstr ""
+"- Також можна вибирати дані на основі значень за допомогою `true` і `false`."
+" Це Булева маска."
+
+# unordered list
+#: python-novice-gapminder/reference.md:83
+msgid "  - `mask = subset > 10000`"
+msgstr "  - Наприклад, `mask = subset > 10000`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:84
+msgid "  - We can then use this to select values."
+msgstr ""
+"  - Ми можемо потім використовувати вище визначену маску для вибору значень."
+
+# unordered list
+#: python-novice-gapminder/reference.md:85
+msgid ""
+"- To use a select-apply-combine operation we use `data.apply(lambda x: "
+"x>x.mean())` where `mean()` can be any operation the user would like to be "
+"applied to x."
+msgstr ""
+"- Формат комбінованої операції select-apply є таким: `data.apply(lambda x: "
+"x>x.mean())`, де `mean()` може бути будь-якою операцією, яку користувач хоче"
+" застосувати до набору даних x. "
+
+# header
+#: python-novice-gapminder/reference.md:87
+msgid "## [Plotting]({{ page.root }}/09-plotting/)"
+msgstr "## [Пoбудова графіків]({{ page.root }}/09-plotting/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:88
+msgid "- The most widely used plotting library is `matplotlib`."
+msgstr ""
+"- `matplotlib` є найбільш широко використовуваною бібліотекою побудови "
+"графіків."
+
+# unordered list
+#: python-novice-gapminder/reference.md:89
+msgid "  - Usually imported using `import matplotlib.pyplot as plt`."
+msgstr ""
+"  - Зазвичай імпортується за допомогою `import matplotlib.pyplot as plt`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:90
+msgid "  - To plot we use the command `plt.plot(time, position)`."
+msgstr ""
+"  - Для побудови графіків використовується команда `plt.plot(time, "
+"position)`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:91
+msgid ""
+"  - To create a legend use `plt.legend(['label1','label2', loc='upper "
+"left'])`"
+msgstr ""
+"  - Для створення легенди використовується команда "
+"`plt.legend(['label1','label2', loc='upper left'])`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:92
+msgid ""
+"    - Can also define labels within the plot statements by using "
+"`plt.plot(time, position, label='label')`. To make the legend show up, use "
+"`plt.legend()`"
+msgstr ""
+"    - Можна також визначати мітки в операторах plot за допомогою команди "
+"`plt.plot(time, position, label='label')`. Щоб відобразити легенду, "
+"використовуйте `plt.legend()`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:93
+msgid ""
+"  - To label x and y axis `plt.xlabel('label')` and `plt.ylabel('label')` "
+"are used."
+msgstr ""
+"  - Для позначення осей x і y використовуються команди `plt.xlabel('label')`"
+" і `plt.ylabel('label')`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:94
+msgid ""
+"- Pandas DataFrames can be used to plot by using `DataFrame.plot()`. Any "
+"operations that can be used on a DataFrame can be applied while plotting."
+msgstr ""
+"- Pandas DataFrames можна використовувати для побудови графіків, "
+"застосовуючи команду `DataFrame.plot()`. Будь-які операції, які можна "
+"використовувати на DataFrame, можна застосовувати для побудови графіків."
+
+# unordered list
+#: python-novice-gapminder/reference.md:95
+msgid "  - To plot a bar plot `data.plot(kind='bar')`"
+msgstr ""
+"  - Для побудови гістограми застосовуйте команду `data.plot(kind='bar')`"
+
+# code block
+#: python-novice-gapminder/reference.md:97
+msgid ""
+"~~~\n"
+"import matplotlib.puplot as plot\n"
+"plt.plot(time,position,label='label')\n"
+"plt.xlabel('x axis label')\n"
+"plt.ylabel('y axis label')\n"
+"plt.legend()\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"import matplotlib.puplot as plot\n"
+"plt.plot(time,position,label='label')\n"
+"plt.xlabel('x axis label')\n"
+"plt.ylabel('y axis label')\n"
+"plt.legend()\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/reference.md:106
+msgid "## [Lists]({{ page.root }}/11-lists/)"
+msgstr "## [Списки]({{ page.root }}/11-lists/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:107
+msgid "- Defined within `[...]` and separated by `,`."
+msgstr "- Містяться у `[...]` і розділяються за допомогою `,`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:108
+msgid "  - An empty list can be created by using `[]`."
+msgstr "  - Порожній список можна створити за допомогою `[]`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:109
+msgid "- Can use `len(...)` to determine how many values are in a list."
+msgstr ""
+"- Можна використовувати `len(...)`, щоб визначити кількість значень у "
+"списку."
+
+# unordered list
+#: python-novice-gapminder/reference.md:110
+msgid "- Can index just as done in previous lessons."
+msgstr "- Можна індексувати так само, як це виконувалось в попередніх уроках."
+
+# unordered list
+#: python-novice-gapminder/reference.md:111
+msgid "  - Indexing can be used to reassign values `list_name[0] = newvalue`."
+msgstr ""
+"  - Індексацію можна використовувати для перепризначення значень: "
+"`назва_списку[0] = нове значення`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:112
+msgid ""
+"- To add an item to a list use `list_name.append()`, with the item to append"
+" in the parenthesis."
+msgstr ""
+"- Щоб додати елемент до списку, використовуйте `list_name.append()`, "
+"указавши у дужках елемент, який потрібно додати."
+
+# unordered list
+#: python-novice-gapminder/reference.md:113
+msgid "- To combine two lists use `list_name_1.extend(list_name_2)`."
+msgstr ""
+"- Щоб об’єднати два списки, використовуйте "
+"`list_name_1.extend(list_name_2)`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:114
+msgid "- To remove an item from a list use `del list_name[index]`."
+msgstr ""
+"- Щоб видалити елемент зі списку, використовуйте `del list_name[index]`."
+
+# header
+#: python-novice-gapminder/reference.md:116
+msgid "## [For Loops]({{ page.root }}/12-for-loops/)"
+msgstr "## [Цикли for]({{ page.root }}/12-for-loops/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:117
+msgid ""
+"- Start a for loop with `for number in [1,2,3]:`, with the following lines "
+"indented."
+msgstr ""
+"- Почніть цикл for з `for number in [1,2,3]:` з відступом у наступних "
+"рядках."
+
+# unordered list
+#: python-novice-gapminder/reference.md:118
+msgid "  - `[1, 2, 3]` is considered the collection."
+msgstr "  - `[1, 2, 3]` розглядається як колекція."
+
+# unordered list
+#: python-novice-gapminder/reference.md:119
+msgid "  - `number` is the loop variable."
+msgstr "  - `number` є змінною цикла."
+
+# unordered list
+#: python-novice-gapminder/reference.md:120
+msgid "  - The action following the collection is the body."
+msgstr "  - Дія, наступна за колекцією, є тілом циклу."
+
+# unordered list
+#: python-novice-gapminder/reference.md:121
+msgid "- To iterate over a sequence of numbers use `range(start, end)`"
+msgstr ""
+"- Для повторення послідовності дій зі змінною циклу використовуйте "
+"`range(start, end)`"
+
+# code block
+#: python-novice-gapminder/reference.md:123
+msgid ""
+"~~~\n"
+"for number in range(0,5):\n"
+"  print(number)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for number in range(0,5):\n"
+"  print(number)\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/reference.md:129
+msgid "## [Conditionals]({{ page.root }}/13-conditionals/)"
+msgstr "## [Умовні оператори]({{ page.root }}/13-conditionals/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:130
+msgid "- Defined similarly to a loop, using `if variable conditional value:`."
+msgstr ""
+"- Визначаються подібно до циклу з використанням формату `if variable умовне "
+"значення:` "
+
+# unordered list
+#: python-novice-gapminder/reference.md:131
+msgid "  - For example, `if variable > 5:`."
+msgstr "  - Наприклад, `if variable > 5:`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:132
+msgid "- Use `elif:` for additional tests."
+msgstr "- Використовуйте `elif:` для додаткових тестів."
+
+# unordered list
+#: python-novice-gapminder/reference.md:133
+msgid "- Use `else:` for when if statement is not true."
+msgstr "- Використовуйте `else:`, якщо твердження if є невірним."
+
+# unordered list
+#: python-novice-gapminder/reference.md:134
+msgid "- Can Combine more than one conditional by using `and` or `or`."
+msgstr "- Можна об’єднати більше ніж одну умову за допомогою `and` або `or`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:135
+msgid "- Often used in combination with for loops."
+msgstr "- Часто використовується в поєднанні з циклами for."
+
+# unordered list
+#: python-novice-gapminder/reference.md:136
+msgid "- Conditions that can be used:"
+msgstr "- Умови, які можна використовувати:"
+
+# unordered list
+#: python-novice-gapminder/reference.md:137
+msgid "  - `==` equal to."
+msgstr "  - `==` дорівнює."
+
+# unordered list
+#: python-novice-gapminder/reference.md:138
+msgid "  - `>=` greater than or equal to."
+msgstr "  - `>=` більше або дорівнює."
+
+# unordered list
+#: python-novice-gapminder/reference.md:139
+msgid "  - `<=` less than or equal to."
+msgstr "  - `<=` менше або дорівнює."
+
+# unordered list
+#: python-novice-gapminder/reference.md:140
+msgid "  - `>` greater than."
+msgstr "  - `>` більше за."
+
+# unordered list
+#: python-novice-gapminder/reference.md:141
+msgid "  - `<` less than."
+msgstr "  - `<` менше за."
+
+# code block
+#: python-novice-gapminder/reference.md:143
+msgid ""
+"~~~\n"
+"for m in [3, 6, 7, 2, 8]:\n"
+"  if m > 5:\n"
+"    print(m, 'is large')\n"
+"  elif m == 5:\n"
+"    print(m, 'is 5')\n"
+"  else:\n"
+"    print(m, 'is small')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for m in [3, 6, 7, 2, 8]:\n"
+"  if m > 5:\n"
+"    print(m, 'is large')\n"
+"  elif m == 5:\n"
+"    print(m, 'is 5')\n"
+"  else:\n"
+"    print(m, 'is small')\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/reference.md:154
+msgid "## [Looping Over Data Sets]({{ page.root }}/14-looping-data-sets/)"
+msgstr ""
+"## [Перегляд наборів даних в циклі]({{ page.root }}/14-looping-data-sets/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:155
+msgid "- Use a for loop: `for filename in [file1, file2]:`"
+msgstr "- Використовуйте цикл for: `for filename in [file1, file2]:`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:156
+msgid "- To find a set of files using a pattern use `glob.glob`"
+msgstr "- Щоб знайти набір файлів за шаблоном, використовуйте `glob.glob`"
+
+# unordered list
+#: python-novice-gapminder/reference.md:157
+msgid "  - Must import first using `import glob`."
+msgstr ""
+"  - Спочатку потрібно імпортувати відповідну бібліотеку за допомогою `import"
+" glob`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:158
+msgid "  - `*` indicates \"match zero or more characters\""
+msgstr "  - `*` вказує, що \"нуль або більше символів збігаються\""
+
+# unordered list
+#: python-novice-gapminder/reference.md:159
+msgid "  - `?` indicates \"match exactly one character\""
+msgstr "  - `?` вказує, що \"тільки один символ збігається\""
+
+# unordered list
+#: python-novice-gapminder/reference.md:160
+msgid ""
+"    - For example: `glob.glob(*.txt)` will find all files that end with .txt"
+" in the current directory."
+msgstr ""
+"    - Наприклад: `glob.glob(*.txt)` знайде всі файли з розширенням .txt у "
+"поточному каталозі."
+
+# unordered list
+#: python-novice-gapminder/reference.md:161
+msgid ""
+"- Combine these by writing a loop using: `for filename in glob.glob(*.txt):`"
+msgstr ""
+"- Поєднайте це, написавши цикл за допомогою: `for filename in "
+"glob.glob(*.txt):`"
+
+# code block
+#: python-novice-gapminder/reference.md:163
+msgid ""
+"~~~\n"
+"for filename in glob.glob(*.txt):\n"
+"  data = pd.read_csv(filename)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for filename in glob.glob(*.txt):\n"
+"  data = pd.read_csv(filename)\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/reference.md:169
+msgid "## [Writing Functions]({{ page.root }}/16-writing-functions/)"
+msgstr "## [Написання функцій]({{ page.root }}/16-writing-functions/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:170
+msgid ""
+"- Define a function using `def function_name(parameters):`. Replace "
+"`parameters` with the variables to use when the function is executed."
+msgstr ""
+"- Визначайте функцію за допомогою `def function_name(parameters):`. Змініть "
+"`parameters` на змінні, які використовуватимуться під час виконання функції."
+
+# unordered list
+#: python-novice-gapminder/reference.md:171
+msgid "- Run by using `function_name(parameters)`."
+msgstr "- Запустіть функцію за допомогою `function_name(parameters)`."
+
+# unordered list
+#: python-novice-gapminder/reference.md:172
+msgid "- To return a result to the caller use `return ...` in the function."
+msgstr ""
+"- Щоб повернути результат у місце виклику, використовуйте `return ...` в "
+"тілі функції."
+
+# code block
+#: python-novice-gapminder/reference.md:174
+msgid ""
+"~~~\n"
+"def add_numbers(a, b):\n"
+"  result = a + b\n"
+"  return result\n"
+"\n"
+"add_numbers(1, 4)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"def add_numbers(a, b):\n"
+"  result = a + b\n"
+"  return result\n"
+"\n"
+"add_numbers(1, 4)\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/reference.md:183
+msgid "## [Variable Scope]({{ page.root }}/17-scope/)"
+msgstr "## [Область видимості змінної]({{ page.root }}/17-scope/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:184
+msgid ""
+"- A local variable is defined in a function and can only be seen and used "
+"within that function."
+msgstr ""
+"- Локальна змінна визначена у функції, і її можна побачити та "
+"використовувати лише в цій функції."
+
+# unordered list
+#: python-novice-gapminder/reference.md:185
+msgid ""
+"- A global variable is defined outside of a function and can be seen or used"
+" anywhere after definition."
+msgstr ""
+"- Глобальна змінна визначається поза функцією, і її можна побачити або "
+"використати будь-де після її визначення."
+
+# header
+#: python-novice-gapminder/reference.md:187
+msgid "## [Programming Style]({{ page.root }}/18-style/)"
+msgstr "## [Стиль програмування]({{ page.root }}/18-style/)"
+
+# unordered list
+#: python-novice-gapminder/reference.md:188
+msgid "- Document your code."
+msgstr "- Документуйте свій код."
+
+# unordered list
+#: python-novice-gapminder/reference.md:189
+msgid "- Use clear and meaningful variable names."
+msgstr "- Використовуйте чіткі та зрозумілі назви змінних."
+
+# unordered list
+#: python-novice-gapminder/reference.md:190
+msgid ""
+"- Follow [the PEP8 style guide](https://www.python.org/dev/peps/pep-0008) "
+"when setting up your code."
+msgstr ""
+"- Притримуйтесь [the PEP8 style "
+"guide](https://www.python.org/dev/peps/pep-0008) під час налаштування коду."
+
+# unordered list
+#: python-novice-gapminder/reference.md:191
+msgid "- Use assertions to check for internal errors."
+msgstr "- Використовуйте твердження для перевірки внутрішніх помилок."
+
+# unordered list
+#: python-novice-gapminder/reference.md:192
+msgid "- Use docstrings to provide help."
+msgstr "- Використовуйте docstrings для створення довідки."
+
+# header
+#: python-novice-gapminder/reference.md:194
+msgid "## Glossary"
+msgstr "## Словник"
+
+#: python-novice-gapminder/reference.md:196
+msgid ""
+"{:auto_ids}\n"
+"Arguments\n"
+":     Values passed to functions."
+msgstr ""
+"{:auto_ids}\n"
+"Аргументи\n"
+":     Значення, що передаються функціям."
+
+#: python-novice-gapminder/reference.md:200
+msgid ""
+"Array\n"
+":     A container holding elements of the same type."
+msgstr ""
+"Масив\n"
+":     контейнер, що містить елементи одного типу"
+
+#: python-novice-gapminder/reference.md:203
+msgid ""
+"Boolean\n"
+":     An object composed of `true` and `false`."
+msgstr ""
+"Булевий \n"
+":     об’єкт, що складається з `true` і `false`"
+
+#: python-novice-gapminder/reference.md:206
+msgid ""
+"DataFrame\n"
+":     The way Pandas represents a table; a collection of series."
+msgstr ""
+"Фрейм даних\n"
+":     Засіб подання таблиці у Pandas; колекція серій."
+
+#: python-novice-gapminder/reference.md:209
+msgid ""
+"Element\n"
+":     An item in a list or an array. For a string, these are the individual characters."
+msgstr ""
+"Element\n"
+":     Окреме значення у списку або масиві. Для рядка це окремі символи."
+
+#: python-novice-gapminder/reference.md:212
+msgid ""
+"Function\n"
+":     A block of code that can be called and re-used elsewhere."
+msgstr ""
+"Функція\n"
+":     блок коду, який можна викликати та повторно використовувати деінде."
+
+#: python-novice-gapminder/reference.md:215
+msgid ""
+"Global variable\n"
+":     A variable defined outside of a function that can be used anywhere."
+msgstr ""
+"Глобальна змінна\n"
+":     Змінна, визначена поза функцією, яку можна використовувати будь-де."
+
+#: python-novice-gapminder/reference.md:218
+msgid ""
+"Index\n"
+":     The position of a given element."
+msgstr ""
+"Індекс\n"
+":     Позиція даного елемента."
+
+#: python-novice-gapminder/reference.md:221
+msgid ""
+"Jupyter Notebook\n"
+":     Interactive coding environment allowing a combination of code and markdown."
+msgstr ""
+"Jupyter Notebook\n"
+":   Інтерактивне середовище кодування, що дозволяє поєднувати код і розмітку."
+
+#: python-novice-gapminder/reference.md:224
+msgid ""
+"Library\n"
+":     A collection of files containing functions used by other programs."
+msgstr ""
+"Бібліотека\n"
+":     Колекція файлів, що містять функції, які використовуються іншими програмами."
+
+#: python-novice-gapminder/reference.md:227
+msgid ""
+"Local Variable\n"
+":     A variable defined inside of a function that can only be used inside of that function."
+msgstr ""
+"Локальна змінна\n"
+":     Змінна, визначена всередині функції, яку можна використовувати лише всередині цієї функції."
+
+#: python-novice-gapminder/reference.md:230
+msgid ""
+"Mask\n"
+":     A boolean object used for selecting data from another object."
+msgstr ""
+"Маска\n"
+":     Булевий об’єкт, який використовується для вибору даних з іншого об’єкта."
+
+#: python-novice-gapminder/reference.md:233
+msgid ""
+"Method\n"
+":     An action tied to a particular object. Called by using `object.method`."
+msgstr ""
+"Метод\n"
+":     Дія, пов'язана з певним об'єктом. Викликається за допомогою `object.method`."
+
+#: python-novice-gapminder/reference.md:236
+msgid ""
+"Modules\n"
+":     The files within a library containing functions used by other programs."
+msgstr ""
+"Модулі\n"
+":     файли в бібліотеці, що містять функції, які використовуються іншими програмами."
+
+#: python-novice-gapminder/reference.md:239
+msgid ""
+"Parameters\n"
+":     Variables used when executing a function."
+msgstr ""
+"Параметри\n"
+":     Змінні, що використовуються під час виконання функції."
+
+#: python-novice-gapminder/reference.md:242
+msgid ""
+"Series\n"
+":     A Pandas data structure to represent a column."
+msgstr ""
+"Серія \n"
+":    Структура даних Pandas для подання стовпця."
+
+#: python-novice-gapminder/reference.md:245
+msgid ""
+"Substring\n"
+":     A part of a string."
+msgstr ""
+"Підрядок\n"
+":     Частина рядка."
+
+#: python-novice-gapminder/reference.md:248
+msgid ""
+"Variables\n"
+":     Names for values."
+msgstr ""
+"Змінні\n"
+":     Назви значень."

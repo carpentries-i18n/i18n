@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_extras/guide.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Instructors' Guide\"\n"
+"permalink: /guide/\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_extras/guide.md:7
+# header
+msgid "## General Notes"
+msgstr ""
+
+#: python-novice-gapminder/_extras/guide.md:9
+msgid "It's all right not to get through the whole lesson.\n"
+":   This lesson is designed for people who have never programmed before,\n"
+"    but any given class may include people with a wide range of prior experience.\n"
+"    We have therefore included enough material to fill a full day if need be,\n"
+"    but expect that many offerings will only get as far as the introduction to Pandas."
+msgstr ""
+
+#: python-novice-gapminder/_extras/guide.md:15
+msgid "Don't tell people to Google things.\n"
+":   One of the goals of this lesson is\n"
+"    to help novices build a workable mental model of how programming works.\n"
+"    Until they have that model,\n"
+"    they will not know what to search for or how to recognize a helpful answer.\n"
+"    Telling them to Google can also give the impression that we think their problem is trivial.\n"
+"    (That said, if learners have done enough programming before to be past these issues,\n"
+"    having them search for solutions online can help them solidify their understanding.)\n"
+"    It's also worth quoting\n"
+"    [Trevor King](https://github.com/swcarpentry/python-novice-\n"
+"    gapminder/issues/22#issuecomment-182573516)'s\n"
+"    comment about online search:\n"
+"    \"If you find anything,\n"
+"    other folks were confused enough to bother with a blog or Stack Overflow post,\n"
+"    so it's probably not trivial.\""
+msgstr ""
+

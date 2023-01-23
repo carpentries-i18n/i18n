@@ -1,0 +1,415 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David PS <dps.helio@gmail.com>, 2020
+# Laura Angelone <lauraangelone3@gmail.com>, 2020
+# Paula <orchid00@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Paula <orchid00@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:1
+msgid "# Contributing"
+msgstr "# Colaborando"
+
+#: python-novice-gapminder/CONTRIBUTING.md:3
+msgid ""
+"[The Carpentries][c-site] ([Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site]) are open source projects,\n"
+"and we welcome contributions of all kinds:\n"
+"new lessons,\n"
+"fixes to existing material,\n"
+"bug reports,\n"
+"and reviews of proposed changes are all welcome."
+msgstr ""
+"[Las Carpentries][c-site] ([Software Carpentry][swc-site], [Data Carpentry][dc-site] y [Library Carpentry][lc-site]) son proyectos de código abierto,\n"
+"y agradecemos las colaboraciones de todo tipo:\n"
+"nuevas lecciones,\n"
+"correcciones del material existente,\n"
+"informes de errores,\n"
+"y las revisiones de cambios propuestas, todas son bienvenidas."
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:10
+msgid "## Contributor Agreement"
+msgstr "## Acuerdo de colaboración"
+
+#: python-novice-gapminder/CONTRIBUTING.md:12
+msgid ""
+"By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+"and help you become a member of our community.\n"
+"Everyone involved in [The Carpentries][c-site]\n"
+"agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md)."
+msgstr ""
+"Al colaborar,\n"
+"aceptas que podemos redistribuir tu trabajo bajo [nuestra licencia](LICENSE.md).\n"
+"A cambio,\n"
+"abordaremos tus informes de errores y/o evaluaremos tu propuesta de cambio tan pronto como podamos,\n"
+"y te ayudaremos a convertirte en miembro de nuestra comunidad.\n"
+"Todos los involucrados en [Las Carpentries][c-site]\n"
+"aceptan cumplir con nuestro [código de conducta](CODE_OF_CONDUCT.md)."
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:20
+msgid "## How to Contribute"
+msgstr "## Cómo contribuir"
+
+#: python-novice-gapminder/CONTRIBUTING.md:22
+msgid ""
+"The easiest way to get started is to file an issue\n"
+"to tell us about a spelling mistake,\n"
+"some awkward wording,\n"
+"or a factual error.\n"
+"This is a good way to introduce yourself\n"
+"and to meet some of our community members."
+msgstr ""
+"La forma más fácil de comenzar es informarnos de un problema\n"
+"para poder corregirlo, como un error ortográfico,\n"
+"algunas palabras no claras,\n"
+"o un error.\n"
+"Contribuir es una buena forma de presentarte\n"
+"y conocer a algunos de los miembros de nuestra comunidad."
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:29
+msgid "1.  If you do not have a [GitHub][github] account,"
+msgstr "1. Si no tienes una cuenta de [GitHub][github],"
+
+#: python-novice-gapminder/CONTRIBUTING.md:30
+msgid ""
+"    you can [send us comments by email][email].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other methods described below."
+msgstr ""
+"    puedes [enviarnos comentarios por correo electrónico][email].\n"
+"    Sin embargo,\n"
+"    podremos responder más rápidamente si usas uno de los otros métodos descritos a continuación."
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:34
+msgid "2.  If you have a [GitHub][github] account,"
+msgstr "2. Si tienes una cuenta de[GitHub][github],"
+
+#: python-novice-gapminder/CONTRIBUTING.md:35
+msgid ""
+"    or are willing to [create one][github-join],\n"
+"    but do not know how to use Git,\n"
+"    you can report problems or suggest improvements by [creating an issue][issues].\n"
+"    This allows us to assign the item to someone\n"
+"    and to respond to it in a threaded discussion."
+msgstr ""
+"  o estás dispuesto a [crear una][github-join],\n"
+"  pero no sabes como usar Git,\n"
+"  puedes informar de problemas o sugerir mejoras al [crear un informe de error][issues] (**issue** en inglés).\n"
+"  Esto nos permite asignar la tarea a alguien\n"
+"  y seguirla en un hilo de discusión."
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:41
+msgid "3.  If you are comfortable with Git,"
+msgstr "3. Si te sientes cómodo con Git,"
+
+#: python-novice-gapminder/CONTRIBUTING.md:42
+msgid ""
+"    and would like to add or change material,\n"
+"    you can submit a pull request (PR).\n"
+"    Instructions for doing this are [included below](#using-github)."
+msgstr ""
+"    y te gustaría añadir o cambiar algo del material,\n"
+"    puedes enviar una solicitud de inclusión (PR por sus siglas en inglés, **pull request**).\n"
+"    Las instrucciones para hacerlo [se incluyen a continuación](#usando-github)."
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:46
+msgid "## Where to Contribute"
+msgstr "## Dónde contribuir"
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:48
+msgid "1.  If you wish to change this lesson,"
+msgstr "1. Si deseas cambiar esta lección,"
+
+#: python-novice-gapminder/CONTRIBUTING.md:49
+msgid ""
+"    please work in <https://github.com/swcarpentry/python-novice-gapminder/>,\n"
+"    which can be viewed at <https://swcarpentry.github.io/python-novice-gapminder>."
+msgstr ""
+"    por favor trabaja en <https://github.com/swcarpentry/python-novice-gapminder/>,\n"
+"    que se puede visualizar en <https://swcarpentry.github.io/python-novice-gapminder>."
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:52
+msgid "2.  If you wish to change the example lesson,"
+msgstr "2. Si deseas cambiar la lección de ejemplo,"
+
+#: python-novice-gapminder/CONTRIBUTING.md:53
+msgid ""
+"    please work in <https://github.com/carpentries/lesson-example>,\n"
+"    which documents the format of our lessons\n"
+"    and can be viewed at <https://carpentries.github.io/lesson-example>."
+msgstr ""
+"    por favor trabaja en <https://github.com/carpentries/lesson-example>,\n"
+"    que documenta el formato de nuestras lecciones\n"
+"    y se puede ver en <https://carpentries.github.io/lesson-example>."
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:57
+msgid "3.  If you wish to change the template used for workshop websites,"
+msgstr ""
+"3. Si deseas cambiar la plantilla utilizada para la página web del taller,"
+
+#: python-novice-gapminder/CONTRIBUTING.md:58
+msgid ""
+"    please work in <https://github.com/carpentries/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
+"    provide more background on our design choices."
+msgstr ""
+"    por favor trabaja en <https://github.com/carpentries-es/workshop-template-es>.\n"
+"    La página de inicio de ese repositorio explica cómo configurar los sitios web de los talleres,\n"
+"    mientras que las páginas adicionales en <https://carpentries-es.github.io/workshop-template-es>\n"
+"    proporcionan más información sobre nuestros criterios de diseño."
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:63
+msgid "4.  If you wish to change CSS style files, tools,"
+msgstr "4. Si deseas cambiar los archivos de estilo CSS, herramientas,"
+
+#: python-novice-gapminder/CONTRIBUTING.md:64
+msgid ""
+"    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+"    please work in <https://github.com/carpentries/styles>."
+msgstr ""
+"    o texto estándar HTML para lecciones o talleres almacenados en `_includes` o ` _layouts`,\n"
+"    por favor trabaja en <https://github.com/carpentries/styles-es>."
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:67
+msgid "## What to Contribute"
+msgstr "## Qué aportar"
+
+#: python-novice-gapminder/CONTRIBUTING.md:69
+msgid ""
+"There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas, please see the 'Issues' tab for\n"
+"a list of issues associated with this repository,\n"
+"or you may also look at the issues for [Data Carpentry][dc-issues], \n"
+"[Software Carpentry][swc-issues], and [Library Carpentry][lc-issues] projects."
+msgstr ""
+"Hay muchas maneras de contribuir,\n"
+"desde escribir ejercicios nuevos y mejorar los existentes\n"
+"hasta actualizar o completar la documentación\n"
+"y enviando [informes de errores][issue]\n"
+"sobre cosas que no funcionan, no son claras o faltan.\n"
+"Si estás buscando ideas, por favor revisa la pestaña 'Issues' para\n"
+"ver la lista de problemas para este repositorio,\n"
+"o la de los problemas de los proyectos de [Data Carpentry][dc-issues],\n"
+"[Software Carpentry][swc-issues] y [Library Carpentry][lc-issues]."
+
+#: python-novice-gapminder/CONTRIBUTING.md:79
+msgid ""
+"Comments on issues and reviews of pull requests are just as welcome:\n"
+"we are smarter together than we are on our own.\n"
+"Reviews from novices and newcomers are particularly valuable:\n"
+"it's easy for people who have been using these lessons for a while\n"
+"to forget how impenetrable some of this material can be,\n"
+"so fresh eyes are always welcome."
+msgstr ""
+"Los comentarios sobre problemas y revisiones de solicitudes de inclusión son bienvenidos:\n"
+"somos más inteligentes juntos que solos.\n"
+"Los comentarios de principiantes y recién llegados son particularmente valiosos.\n"
+"Es fácil para las personas que usan estas lecciones frecuentemente\n"
+"olvidar lo impenetrable que pueden ser partes de este material;\n"
+"por lo tanto, una nueva perspectiva es siempre bienvenida."
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:86
+msgid "## What *Not* to Contribute"
+msgstr "## Qué *No* contribuir"
+
+#: python-novice-gapminder/CONTRIBUTING.md:88
+msgid ""
+"Our lessons already contain more material than we can cover in a typical workshop,\n"
+"so we are usually *not* looking for more concepts or tools to add to them.\n"
+"As a rule,\n"
+"if you want to introduce a new idea,\n"
+"you must (a) estimate how long it will take to teach\n"
+"and (b) explain what you would take out to make room for it.\n"
+"The first encourages contributors to be honest about requirements;\n"
+"the second, to think hard about priorities."
+msgstr ""
+"Nuestras lecciones ya contienen más material de lo que podemos cubrir en un taller típico,\n"
+"por lo que normalmente *no* buscamos más conceptos o herramientas para agregarles.\n"
+"Como regla general,\n"
+"si quieres presentar una idea nueva,\n"
+"debes (a) estimar cuánto tiempo tomará enseñarla\n"
+"y (b) explicar lo que sacarías para darle espacio.\n"
+"El primero anima a los contribuyentes a ser honestos acerca de los requisitos;\n"
+"el segundo, pensar bien las prioridades."
+
+#: python-novice-gapminder/CONTRIBUTING.md:97
+msgid ""
+"We are also not looking for exercises or other material that only run on one platform.\n"
+"Our workshops typically contain a mixture of Windows, macOS, and Linux users;\n"
+"in order to be usable,\n"
+"our lessons must run equally well on all three."
+msgstr ""
+"Tampoco buscamos ejercicios u otro material que sólo se ejecute en una plataforma.\n"
+"Nuestros talleres suelen contener una mezcla de usuarios de Windows, macOS y Linux;\n"
+"para ser utilizable,\n"
+"nuestras lecciones deben correr igualmente bien en las tres plataformas."
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:102
+msgid "## Using GitHub"
+msgstr "## Usando GitHub"
+
+#: python-novice-gapminder/CONTRIBUTING.md:104
+msgid ""
+"If you choose to contribute via GitHub, you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"To manage changes, we follow [GitHub flow][github-flow].\n"
+"Each lesson has two maintainers who review issues and pull requests or encourage others to do so.\n"
+"The maintainers are community volunteers and have final say over what gets merged into the lesson.\n"
+"To use the web interface for contributing to a lesson:"
+msgstr ""
+"Si eliges contribuir a través de GitHub, es posible que desees echarle un vistazo a\n"
+"[Cómo contribuir a un proyecto de código abierto en GitHub][how-contribute].\n"
+"Para gestionar los cambios, seguimos [el flujo de GitHub][github-flow].\n"
+"Cada lección tiene dos mantenedores que revisan problemas y solicitudes de inclusión o invitan a otros que lo hagan.\n"
+"Los mantenedores son voluntarios de la comunidad y tienen la última palabra sobre qué se acepta en la lección.\n"
+"Para usar la interfaz web para contribuir a una lección deberás:"
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:111
+msgid "1.  Fork the originating repository to your GitHub profile."
+msgstr "1. Bifurcar el repositorio original a tu perfil de GitHub."
+
+# ordered list
+#: python-novice-gapminder/CONTRIBUTING.md:112
+msgid ""
+"2.  Within your version of the forked repository, move to the `gh-pages` "
+"branch and"
+msgstr "2. En tu versión del repositorio, cámbiate a la rama `gh-pages` y"
+
+#: python-novice-gapminder/CONTRIBUTING.md:113
+msgid ""
+"create a new branch for each significant change being made.\n"
+"3.  Navigate to the file(s) you wish to change within the new branches and make revisions as required.\n"
+"4.  Commit all changed files within the appropriate branches.\n"
+"5.  Create individual pull requests from each of your changed branches\n"
+"to the `gh-pages` branch within the originating repository.\n"
+"6.  If you receive feedback, make changes using your issue-specific branches of the forked\n"
+"repository and the pull requests will update automatically.\n"
+"7.  Repeat as needed until all feedback has been addressed."
+msgstr ""
+"crea una nueva rama por cada cambio significativo que se vaya a a hacer.\n"
+"3. Navega al archivo (o archivos) que desees cambiar en la misma rama y realiza los cambios necesarios.\n"
+"4. Confirma todos los archivos cambiados en las ramas apropiadas.\n"
+"5. Crea solicitudes de inclusión para cada una de tus distintas ramas\n"
+"a la rama `gh-pages` dentro del repositorio origen.\n"
+"6. Si recibes comentarios, realiza los cambios necesarios usando la rama específica de tu repositorio\n"
+"bifurcado y la solicitud de inclusión se actualizará automáticamente.\n"
+"7. Repite esos pasos cuanto sea necesario hasta que todos los comentarios se hayan atendido."
+
+#: python-novice-gapminder/CONTRIBUTING.md:122
+msgid ""
+"When starting work, please make sure your clone of the originating `gh-pages` branch is up-to-date\n"
+"before creating your own revision-specific branch(es) from there.\n"
+"Additionally, please only work from your newly-created branch(es) and *not*\n"
+"your clone of the originating `gh-pages` branch.\n"
+"Lastly, published copies of all the lessons are available in the `gh-pages` branch of the originating\n"
+"repository for reference while revising."
+msgstr ""
+"Cuando empieces a trabajar, por favor, asegúrate que tu rama `gh-pages` está al día con el repositorio original\n"
+"antes de crear tu rama de ella.\n"
+"Además, por favor sólo trabaja en la rama nueva creada y *no*\n"
+"en el clon de la rama `gh-pages`.\n"
+"Finalmente, copias públicas de todas las lecciones están disponibles en la rama `gh-pages` del repositorio\n"
+"origen para referencia mientras se haga la revisión."
+
+#: python-novice-gapminder/CONTRIBUTING.md:129
+msgid ""
+"Each lesson has maintainers who review issues and pull requests\n"
+"or encourage others to do so.\n"
+"The maintainers are community volunteers,\n"
+"and have final say over what gets merged into the lesson."
+msgstr ""
+"Cada lección tiene mantenedores que revisan problemas y solicitudes de inclusión\n"
+"o invitan a otros que lo hagan.\n"
+"Los mantenedores son voluntarios de la comunidad\n"
+"y tienen la última palabra sobre qué se acepta en la lección."
+
+# header
+#: python-novice-gapminder/CONTRIBUTING.md:134
+msgid "## Other Resources"
+msgstr "## Otros recursos"
+
+#: python-novice-gapminder/CONTRIBUTING.md:136
+msgid ""
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][email]."
+msgstr ""
+"Discusiones generales de [Software Carpentry][swc-site] y [Data Carpentry][dc-site]\n"
+"están en la [lista de distribución de discusiones][discuss-list], \n"
+"a la cual todos son bienvenidos.\n"
+"También puedes [contactarnos por correo electrónico][email]."
+
+#: python-novice-gapminder/CONTRIBUTING.md:141
+msgid ""
+"[email]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[github]: https://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[issues]: https://guides.github.com/features/issues/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/\n"
+"[c-site]: https://carpentries.org/\n"
+"[lc-site]: https://librarycarpentry.org/\n"
+"[lc-issues]: https://github.com/issues?q=user%3Alibrarycarpentry"
+msgstr ""
+"[email]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[github]: https://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[issues]: https://guides.github.com/features/issues/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: https://software-carpentry.org/lessons/\n"
+"[swc-site]: https://software-carpentry.org/\n"
+"[c-site]: https://carpentries.org/\n"
+"[lc-site]: https://librarycarpentry.org/\n"
+"[lc-issues]: https://github.com/issues?q=user%3Alibrarycarpentry"

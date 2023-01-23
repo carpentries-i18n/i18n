@@ -1,0 +1,545 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/06-libraries.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Libraries\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I use software that other people have written?\"\n"
+"- \"How can I find out what that software does?\"\n"
+"objectives:\n"
+"- \"Explain what software libraries are and why programmers create and use them.\"\n"
+"- \"Write programs that import and use libraries from Python's standard library.\"\n"
+"- \"Find and read documentation for standard libraries interactively (in the interpreter) and online.\"\n"
+"keypoints:\n"
+"- \"Most of the power of a programming language is in its libraries.\"\n"
+"- \"A program must import a library module in order to use it.\"\n"
+"- \"Use `help` to learn about the contents of a library module.\"\n"
+"- \"Import specific items from a library to shorten programs.\"\n"
+"- \"Create an alias for a library when importing it to shorten programs.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:19
+# header
+msgid "## Most of the power of a programming language is in its libraries."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:21
+# unordered list
+msgid "*   A *library* is a collection of files (called *modules*) that contains"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:22
+msgid "    functions for use by other programs.\n"
+"    *   May also contain data values (e.g., numerical constants) and other things.\n"
+"    *   Library's contents are supposed to be related, but there's no way to enforce that.\n"
+"*   The Python [standard library][stdlib] is an extensive suite of modules that comes\n"
+"    with Python itself.\n"
+"*   Many additional libraries are available from [PyPI][pypi] (the Python Package Index).\n"
+"*   We will see later how to write new libraries."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:30
+# blockquote, which can be cascaded
+msgid "> ## Libraries and modules"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:31
+msgid ">\n"
+"> A library is a collection of modules, but the terms are often used\n"
+"> interchangeably, especially since many libraries only consist of a single\n"
+"> module, so don't worry if you mix them."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:38
+# header
+msgid "## A program must import a library module before using it."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:40
+# unordered list
+msgid "*   Use `import` to load a library module into a program's memory."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:41
+# unordered list
+msgid "*   Then refer to things from the module as `module_name.thing_name`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:42
+# unordered list
+msgid "    *   Python uses `.` to mean \"part of\"."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:43
+# unordered list
+msgid "*   Using `math`, one of the modules in the standard library:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:45
+# code block
+msgid "~~~\n"
+"import math\n"
+"\n"
+"print('pi is', math.pi)\n"
+"print('cos(pi) is', math.cos(math.pi))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:51
+msgid "{: .language-python}\n"
+"~~~\n"
+"pi is 3.141592653589793\n"
+"cos(pi) is -1.0\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:58
+# unordered list
+msgid "*   Have to refer to each item with the module's name."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:59
+# unordered list
+msgid "    *   `math.cos(pi)` won't work: the reference to `pi`"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:60
+msgid "        doesn't somehow \"inherit\" the function's reference to `math`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:62
+# header
+msgid "## Use `help` to learn about the contents of a library module."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:64
+# unordered list
+msgid "*   Works just like help for a function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:66
+# code block
+msgid "~~~\n"
+"help(math)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:69
+msgid "{: .language-python}\n"
+"~~~\n"
+"Help on module math:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:73
+msgid "NAME\n"
+"    math"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:76
+msgid "MODULE REFERENCE\n"
+"    http://docs.python.org/3/library/math"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:79
+msgid "    The following documentation is automatically generated from the Python\n"
+"    source files.  It may be incomplete, incorrect or include features that\n"
+"    are considered implementation detail and may vary between Python\n"
+"    implementations.  When in doubt, consult the module reference at the\n"
+"    location listed above."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:85
+msgid "DESCRIPTION\n"
+"    This module is always available.  It provides access to the\n"
+"    mathematical functions defined by the C standard."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:89
+msgid "FUNCTIONS\n"
+"    acos(x, /)\n"
+"        Return the arc cosine (measured in radians) of x.\n"
+"⋮ ⋮ ⋮\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:96
+# header
+msgid "## Import specific items from a library module to shorten programs."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:98
+# unordered list
+msgid "*   Use `from ... import ...` to load only specific items from a library module."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:99
+# unordered list
+msgid "*   Then refer to them directly without library name as prefix."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:101
+# code block
+msgid "~~~\n"
+"from math import cos, pi\n"
+"\n"
+"print('cos(pi) is', cos(pi))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:106
+#: python-novice-gapminder/_episodes/06-libraries.md:122
+msgid "{: .language-python}\n"
+"~~~\n"
+"cos(pi) is -1.0\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:112
+# header
+msgid "## Create an alias for a library module when importing it to shorten programs."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:114
+# unordered list
+msgid "*   Use `import ... as ...` to give a library a short *alias* while importing it."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:115
+# unordered list
+msgid "*   Then refer to items in the library using that shortened name."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:117
+# code block
+msgid "~~~\n"
+"import math as m\n"
+"\n"
+"print('cos(pi) is', m.cos(m.pi))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:128
+# unordered list
+msgid "*   Commonly used for libraries that are frequently used or have long names."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:129
+# unordered list
+msgid "    *   E.g., `matplotlib` plotting library is often aliased as `mpl`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:130
+# unordered list
+msgid "*   But can make programs harder to understand,"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:131
+msgid "    since readers must learn your program's aliases."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:133
+# blockquote, which can be cascaded
+msgid "> ## Exploring the Math Module"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:134
+msgid ">\n"
+"> 1. What function from the `math` module can you use to calculate a square root\n"
+">    *without* using `sqrt`?\n"
+"> 2. Since the library contains this function, why does `sqrt` exist?\n"
+">\n"
+"> > ## Solution\n"
+"> > 1. Using `help(math)` we see that we've got `pow(x,y)` in addition to `sqrt(x)`,\n"
+"> >    so we could use `pow(x, 0.5)` to find a square root.\n"
+"> > 2. The `sqrt(x)` function is arguably more readable than `pow(x, 0.5)` when\n"
+"> >    implementing equations. Readability is a cornerstone of good programming, so it\n"
+"> >    makes sense to provide a special function for this specific common case.\n"
+"> >\n"
+"> >    Also, the design of Python's `math` library has its origin in the C standard,\n"
+"> >    which includes both `sqrt(x)` and `pow(x,y)`, so a little bit of the history\n"
+"> >    of programming is showing in Python's function names."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:152
+# blockquote, which can be cascaded
+msgid "> ## Locating the Right Module"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:153
+msgid ">\n"
+"> You want to select a random character from a string:\n"
+">\n"
+"> ~~~\n"
+"> bases = 'ACTTGCTTGAC'\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1. Which [standard library][stdlib] module could help you?\n"
+"> 2. Which function would you select from that module? Are there alternatives?\n"
+"> 3. Try to write a program that uses the function.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > The [random module][randommod] seems like it could help you.\n"
+"> >\n"
+"> > The string has 11 characters, each having a positional index from 0 to 10.\n"
+"> > You could use `random.randrange` function (or the alias `random.randint`\n"
+"> > if you find that easier to remember) to get a random integer between 0 and\n"
+"> > 10, and then pick out the character at that position:\n"
+"> >\n"
+"> > ~~~\n"
+"> > from random import randrange\n"
+"> >\n"
+"> > random_index = randrange(len(bases))\n"
+"> > print(bases[random_index])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > or more compactly:\n"
+"> >\n"
+"> > ~~~\n"
+"> > from random import randrange\n"
+"> >\n"
+"> > print(bases[randrange(len(bases))])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > Perhaps you found the `random.sample` function? It allows for slightly\n"
+"> > less typing:\n"
+"> >\n"
+"> > ~~~\n"
+"> > from random import sample\n"
+"> >\n"
+"> > print(sample(bases, 1)[0])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > Note that this function returns a list of values. We will learn about\n"
+"> > lists in [episode 11]({% link _episodes/11-lists.md %}).\n"
+"> >\n"
+"> > There's also other functions you could use, but with more convoluted\n"
+"> > code as a result."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:210
+# blockquote, which can be cascaded
+msgid "> ## Jigsaw Puzzle (Parson's Problem) Programming Example"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:211
+msgid ">\n"
+"> Rearrange the following statements so that a random\n"
+"> DNA base is printed and its index in the string.  Not all statements may be needed.  Feel free to use/add\n"
+"> intermediate variables.\n"
+">\n"
+"> ~~~\n"
+"> bases=\"ACTTGCTTGAC\"\n"
+"> import math\n"
+"> import random\n"
+"> ___ = random.randrange(n_bases)\n"
+"> ___ = len(bases)\n"
+"> print(\"random base \", bases[___], \"base index\", ___)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > import math \n"
+"> > import random\n"
+"> > bases = \"ACTTGCTTGAC\" \n"
+"> > n_bases = len(bases)\n"
+"> > idx = random.randrange(n_bases)\n"
+"> > print(\"random base\", bases[idx], \"base index\", idx)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:240
+# blockquote, which can be cascaded
+msgid "> ## When Is Help Available?"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:241
+msgid ">\n"
+"> When a colleague of yours types `help(math)`,\n"
+"> Python reports an error:\n"
+">\n"
+"> ~~~\n"
+"> NameError: name 'math' is not defined\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:249
+msgid ">\n"
+"> What has your colleague forgotten to do?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Importing the math module (`import math`)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:258
+# blockquote, which can be cascaded
+msgid "> ## Importing With Aliases"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:259
+msgid ">\n"
+"> 1. Fill in the blanks so that the program below prints `90.0`.\n"
+"> 2. Rewrite the program so that it uses `import` *without* `as`.\n"
+"> 3. Which form do you find easier to read?\n"
+">\n"
+"> ~~~\n"
+"> import math as m\n"
+"> angle = ____.degrees(____.pi / 2)\n"
+"> print(____)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > import math as m\n"
+"> > angle = m.degrees(m.pi / 2)\n"
+"> > print(angle)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > can be written as\n"
+"> >\n"
+"> > ~~~\n"
+"> > import math\n"
+"> > angle = math.degrees(math.pi / 2)\n"
+"> > print(angle)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > Since you just wrote the code and are familiar with it, you might actually\n"
+"> > find the first version easier to read. But when trying to read a huge piece\n"
+"> > of code written by someone else, or when getting back to your own huge piece\n"
+"> > of code after several months, non-abbreviated names are often easier, except\n"
+"> > where there are clear abbreviation conventions."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:297
+# blockquote, which can be cascaded
+msgid "> ## There Are Many Ways To Import Libraries!"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:298
+msgid ">\n"
+"> Match the following print statements with the appropriate library calls.\n"
+">\n"
+"> Print commands:\n"
+">\n"
+"> 1. `print(\"sin(pi/2) =\", sin(pi/2))`\n"
+"> 2. `print(\"sin(pi/2) =\", m.sin(m.pi/2))`\n"
+"> 3. `print(\"sin(pi/2) =\", math.sin(math.pi/2))`\n"
+">\n"
+"> Library calls:\n"
+">\n"
+"> 1. `from math import sin, pi`\n"
+"> 2. `import math`\n"
+"> 3. `import math as m`\n"
+"> 4. `from math import *`\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1. Library calls 1 and 4. In order to directly refer to `sin` and `pi` without\n"
+"> >    the library name as prefix, you need to use the `from ... import ...`\n"
+"> >    statement. Whereas library call 1 specifically imports the two functions\n"
+"> >    `sin` and `pi`, library call 4 imports all functions in the `math` module.\n"
+"> > 2. Library call 3. Here `sin` and `pi` are referred to with a shortened library\n"
+"> >    name `m` instead of `math`. Library call 3 does exactly that using the\n"
+"> >    `import ... as ...` syntax - it creates an alias for `math` in the form of\n"
+"> >    the shortened name `m`.\n"
+"> > 3. Library call 2. Here `sin` and `pi` are referred to with the regular library\n"
+"> >    name `math`, so the regular `import ...` call suffices."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:329
+# blockquote, which can be cascaded
+msgid "> ## Importing Specific Items"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:330
+msgid ">\n"
+"> 1. Fill in the blanks so that the program below prints `90.0`.\n"
+"> 2. Do you find this version easier to read than preceding ones?\n"
+"> 3. Why *wouldn't* programmers always use this form of `import`?\n"
+">\n"
+"> ~~~\n"
+"> ____ math import ____, ____\n"
+"> angle = degrees(pi / 2)\n"
+"> print(angle)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > from math import degrees, pi\n"
+"> > angle = degrees(pi / 2)\n"
+"> > print(angle)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > Most likely you find this version easier to read since it's less dense.\n"
+"> > The main reason not to use this form of import is to avoid name clashes.\n"
+"> > For instance, you wouldn't import `degrees` this way if you also wanted to\n"
+"> > use the name `degrees` for a variable or function of your own. Or if you\n"
+"> > were to also import a function named `degrees` from another library."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:359
+#: python-novice-gapminder/_episodes/17-scope.md:76
+# blockquote, which can be cascaded
+msgid "> ## Reading Error Messages"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:360
+msgid ">\n"
+"> 1. Read the code below and try to identify what the errors are without running it.\n"
+"> 2. Run the code, and read the error message. What type of error is it?\n"
+">\n"
+"> ~~~\n"
+"> from math import log\n"
+"> log(0)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1. The logarithm of `x` is only defined for `x > 0`, so 0 is outside the\n"
+"> >    domain of the function.\n"
+"> > 2. You get an error of type \"ValueError\", indicating that the function\n"
+"> >    received an inappropriate argument value. The additional message\n"
+"> >    \"math domain error\" makes it clearer what the problem is."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/06-libraries.md:380
+msgid "[pypi]: https://pypi.python.org/pypi/\n"
+"[stdlib]: https://docs.python.org/3/library/\n"
+"[randommod]: https://docs.python.org/3/library/random.html"
+msgstr ""
+

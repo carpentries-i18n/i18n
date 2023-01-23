@@ -1,0 +1,576 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/04-built-in.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Built-in Functions and Help\"\n"
+"teaching: 15\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I use built-in functions?\"\n"
+"- \"How can I find out what they do?\"\n"
+"- \"What kind of errors can occur in programs?\"\n"
+"objectives:\n"
+"- \"Explain the purpose of functions.\"\n"
+"- \"Correctly call built-in Python functions.\"\n"
+"- \"Correctly nest calls to built-in functions.\"\n"
+"- \"Use help to display documentation for built-in functions.\"\n"
+"- \"Correctly describe situations in which SyntaxError and NameError occur.\"\n"
+"keypoints:\n"
+"- \"Use comments to add documentation to programs.\"\n"
+"- \"A function may take zero or more arguments.\"\n"
+"- \"Commonly-used built-in functions include `max`, `min`, and `round`.\"\n"
+"- \"Functions may only work for certain (combinations of) arguments.\"\n"
+"- \"Functions may have default values for some arguments.\"\n"
+"- \"Use the built-in function `help` to get help for a function.\"\n"
+"- \"The Jupyter Notebook has two ways to get help.\"\n"
+"- \"Every function returns something.\"\n"
+"- \"Python reports a syntax error when it can't understand the source of a program.\"\n"
+"- \"Python reports a runtime error when something goes wrong while a program is executing.\"\n"
+"- \"Fix syntax errors by reading the source code, and runtime errors by tracing the program's execution.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:28
+# header
+msgid "## Use comments to add documentation to programs."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:30
+# code block
+msgid "~~~\n"
+"# This sentence isn't executed by Python.\n"
+"adjustment = 0.5   # Neither is this - anything after '#' is ignored.\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:36
+# header
+msgid "## A function may take zero or more arguments."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:38
+# unordered list
+msgid "*   We have seen some functions already --- now let's take a closer look."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:39
+# unordered list
+msgid "*   An *argument* is a value passed into a function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:40
+# unordered list
+msgid "*   `len` takes exactly one."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:41
+# unordered list
+msgid "*   `int`, `str`, and `float` create a new value from an existing one."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:42
+# unordered list
+msgid "*   `print` takes zero or more."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:43
+# unordered list
+msgid "*   `print` with no arguments prints a blank line."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:44
+# unordered list
+msgid "    *   Must always use parentheses, even if they're empty,"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:45
+msgid "        so that Python knows a function is being called."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:47
+# code block
+msgid "~~~\n"
+"print('before')\n"
+"print()\n"
+"print('after')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:52
+msgid "{: .language-python}\n"
+"~~~\n"
+"before"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:56
+msgid "after\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:60
+# header
+msgid "## Commonly-used built-in functions include `max`, `min`, and `round`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:62
+# unordered list
+msgid "*   Use `max` to find the largest value of one or more values."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:63
+# unordered list
+msgid "*   Use `min` to find the smallest."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:64
+# unordered list
+msgid "*   Both work on character strings as well as numbers."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:65
+# unordered list
+msgid "    *   \"Larger\" and \"smaller\" use (0-9, A-Z, a-z) to compare letters."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:67
+# code block
+msgid "~~~\n"
+"print(max(1, 2, 3))\n"
+"print(min('a', 'A', '0'))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:71
+msgid "{: .language-python}\n"
+"~~~\n"
+"3\n"
+"0\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:78
+# header
+msgid "## Functions may only work for certain (combinations of) arguments."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:80
+# unordered list
+msgid "*   `max` and `min` must be given at least one argument."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:81
+# unordered list
+msgid "    *   \"Largest of the empty set\" is a meaningless question."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:82
+# unordered list
+msgid "*   And they must be given things that can meaningfully be compared."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:84
+# code block
+msgid "~~~\n"
+"print(max(1, 'a'))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:87
+msgid "{: .language-python}\n"
+"~~~\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-52-3f049acf3762> in <module>\n"
+"----> 1 print(max(1, 'a'))"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:93
+msgid "TypeError: '>' not supported between instances of 'str' and 'int'\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:97
+# header
+msgid "## Functions may have default values for some arguments."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:99
+# unordered list
+msgid "*   `round` will round off a floating-point number."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:100
+# unordered list
+msgid "*   By default, rounds to zero decimal places."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:102
+# code block
+msgid "~~~\n"
+"round(3.712)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:105
+msgid "{: .language-python}\n"
+"~~~\n"
+"4\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:111
+# unordered list
+msgid "*   We can specify the number of decimal places we want."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:113
+# code block
+msgid "~~~\n"
+"round(3.712, 1)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:116
+msgid "{: .language-python}\n"
+"~~~\n"
+"3.7\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:122
+# header
+msgid "## Use the built-in function `help` to get help for a function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:124
+# unordered list
+msgid "*   Every built-in function has online documentation."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:126
+# code block
+msgid "~~~\n"
+"help(round)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:129
+msgid "{: .language-python}\n"
+"~~~\n"
+"Help on built-in function round in module builtins:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:133
+msgid "round(number, ndigits=None)\n"
+"    Round a number to a given precision in decimal digits."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:136
+msgid "    The return value is an integer if ndigits is omitted or None.  Otherwise\n"
+"    the return value has the same type as the number.  ndigits may be negative.\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:141
+# header
+msgid "## Python reports a syntax error when it can't understand the source of a program."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:143
+# unordered list
+msgid "*   Won't even try to run the program if it can't be parsed."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:145
+# code block
+msgid "~~~\n"
+"# Forgot to close the quote marks around the string.\n"
+"name = 'Feng\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:149
+msgid "{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-56-f42768451d55>\", line 2\n"
+"    name = 'Feng\n"
+"                ^\n"
+"SyntaxError: EOL while scanning string literal\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:158
+# code block
+msgid "~~~\n"
+"# An extra '=' in the assignment.\n"
+"age = = 52\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:162
+msgid "{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-57-ccc3df3cf902>\", line 2\n"
+"    age = = 52\n"
+"          ^\n"
+"SyntaxError: invalid syntax\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:171
+# unordered list
+msgid "*   Look more closely at the error message:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:173
+# code block
+msgid "~~~\n"
+"print(\"hello world\"\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:176
+msgid "{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-6-d1cc229bf815>\", line 1\n"
+"    print (\"hello world\"\n"
+"                        ^\n"
+"SyntaxError: unexpected EOF while parsing\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:185
+# unordered list
+msgid "*   The message indicates a problem on first line of the input (\"line 1\")."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:186
+# unordered list
+msgid "    *   In this case the \"ipython-input\" section of the file name tells us that"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:187
+msgid "        we are working with input into IPython,\n"
+"        the Python interpreter used by the Jupyter Notebook.\n"
+"*   The `-6-` part of the filename indicates that\n"
+"    the error occurred in cell 6 of our Notebook.\n"
+"*   Next is the problematic line of code,\n"
+"    indicating the problem with a `^` pointer."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:194
+# header
+msgid "## <a name='runtime-error'></a> Python reports a runtime error when something goes wrong while a program is executing."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:196
+# code block
+msgid "~~~\n"
+"age = 53\n"
+"remaining = 100 - aege # mis-spelled 'age'\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:200
+msgid "{: .language-python}\n"
+"~~~\n"
+"NameError                                 Traceback (most recent call last)\n"
+"<ipython-input-59-1214fb6c55fc> in <module>\n"
+"      1 age = 53\n"
+"----> 2 remaining = 100 - aege # mis-spelled 'age'"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:207
+msgid "NameError: name 'aege' is not defined\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:211
+# unordered list
+msgid "*   Fix syntax errors by reading the source and runtime errors by tracing execution."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:213
+# header
+msgid "## The Jupyter Notebook has two ways to get help."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:215
+# unordered list
+msgid "*   Place the cursor anywhere in the function invocation "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:216
+msgid "    (i.e., the function name or its parameters),\n"
+"    hold down `shift`,\n"
+"    and press `tab`.\n"
+"*   Or type a function name with a question mark after it."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:221
+# header
+msgid "## Every function returns something."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:223
+# unordered list
+msgid "*   Every function call produces some result."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:224
+# unordered list
+msgid "*   If the function doesn't have a useful result to return,"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:225
+msgid "    it usually returns the special value `None`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:227
+# code block
+msgid "~~~\n"
+"result = print('example')\n"
+"print('result of print is', result)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:231
+msgid "{: .language-python}\n"
+"~~~\n"
+"example\n"
+"result of print is None\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:238
+# blockquote, which can be cascaded
+msgid "> ## What Happens When"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:239
+msgid ">\n"
+"> 1. Explain in simple terms the order of operations in the following program:\n"
+">    when does the addition happen, when does the subtraction happen,\n"
+">    when is each function called, etc.\n"
+"> 2. What is the final value of `radiance`?\n"
+">\n"
+"> ~~~\n"
+"> radiance = 1.0\n"
+"> radiance = max(2.1, 2.0 + min(radiance, 1.1 * radiance - 0.5))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > 1.\n"
+"> >    1. `1.1 * radiance = 1.1`\n"
+"> >    2. `1.1 - 0.5 = 0.6`\n"
+"> >    3. `min(radiance, 0.6) = 0.6`\n"
+"> >    4. `2.0 + 0.6 = 2.6`\n"
+"> >    5. `max(2.1, 2.6) = 2.6`\n"
+"> > 2. At the end, `radiance = 2.6`"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:261
+# blockquote, which can be cascaded
+msgid "> ## Spot the Difference"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:262
+msgid ">\n"
+"> 1. Predict what each of the `print` statements in the program below will print.\n"
+"> 2. Does `max(len(rich), poor)` run or produce an error message?\n"
+">    If it runs, does its result make any sense?\n"
+">\n"
+"> ~~~\n"
+"> easy_string = \"abc\"\n"
+"> print(max(easy_string))\n"
+"> rich = \"gold\"\n"
+"> poor = \"tin\"\n"
+"> print(max(rich, poor))\n"
+"> print(max(len(rich), len(poor)))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > print(max(easy_string))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > c\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > ~~~\n"
+"> > print(max(rich, poor))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > tin\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > ~~~\n"
+"> > print(max(len(rich), len(poor)))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 4\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > `max(len(rich), poor)` throws a TypeError. This turns into `max(4, 'tin')` and \n"
+"> > as we discussed earlier a string and integer cannot meaningfully be compared.\n"
+"> > ~~~\n"
+"> > TypeError                                 Traceback (most recent call last)\n"
+"> > <ipython-input-65-bc82ad05177a> in <module>\n"
+"> > ----> 1 max(len(rich), poor)\n"
+"> > \n"
+"> > TypeError: '>' not supported between instances of 'str' and 'int'\n"
+"> > ~~~\n"
+"> > {: .error }"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:314
+# blockquote, which can be cascaded
+msgid "> ## Why Not?"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:315
+msgid ">\n"
+"> Why don't `max` and `min` return `None` when they are given no arguments?\n"
+">\n"
+"> > ## Solution\n"
+"> > `max` and `min` return TypeErrors in this case because the correct number of parameters\n"
+"> > was not supplied. If it just returned `None`, the error would be much harder to trace as it\n"
+"> > would likely be stored into a variable and used later in the program, only to likely throw\n"
+"> > a runtime error."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:326
+# blockquote, which can be cascaded
+msgid "> ## Last Character of a String"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/04-built-in.md:327
+msgid ">\n"
+"> If Python starts counting from zero,\n"
+"> and `len` returns the number of characters in a string,\n"
+"> what index expression will get the last character in the string `name`?\n"
+"> (Note: we will see a simpler way to do this in a later episode.)\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > `name[len(name) - 1]`"
+msgstr ""
+

@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Laura Angelone <lauraangelone3@gmail.com>, 2020
+# David PS <dps.helio@gmail.com>, 2020
+# Ingrid Bianka Garcia Lino <ingrid.bianka@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Ingrid Bianka Garcia Lino <ingrid.bianka@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/LICENSE.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Licenses\"\n"
+"root: .\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Licencias\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/LICENSE.md:6
+msgid "## Instructional Material"
+msgstr "### Material didáctico"
+
+#: python-novice-gapminder/LICENSE.md:8
+msgid ""
+"All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is\n"
+"made available under the [Creative Commons Attribution\n"
+"license][cc-by-human]. The following is a human-readable summary of\n"
+"(and not a substitute for) the [full legal text of the CC BY 4.0\n"
+"license][cc-by-legal]."
+msgstr ""
+"Todo el material de instrucción de Software Carpentry, Data Carpentry y Library Carpentry está\n"
+"disponible bajo la licencia [Creative Commons\n"
+"Atribución][cc-by-human]. El siguiente es un resumen de la licencia\n"
+"(y no un sustituto) del [texto legal completo de la licencia\n"
+"CC BY 4.0][cc-by-legal]."
+
+#: python-novice-gapminder/LICENSE.md:14
+msgid "You are free:"
+msgstr "Puedes libremente:"
+
+# unordered list
+#: python-novice-gapminder/LICENSE.md:16
+msgid ""
+"* to **Share**---copy and redistribute the material in any medium or format"
+msgstr ""
+"* **Compartir**---copiar y redistribuir el material en cualquier medio o "
+"formato "
+
+# unordered list
+#: python-novice-gapminder/LICENSE.md:17
+msgid "* to **Adapt**---remix, transform, and build upon the material"
+msgstr ""
+"* **Adaptar**---remezclar, transformar y construir a partir del material "
+
+#: python-novice-gapminder/LICENSE.md:19
+msgid "for any purpose, even commercially."
+msgstr "para cualquier propósito, incluso comercialmente. "
+
+#: python-novice-gapminder/LICENSE.md:21
+msgid ""
+"The licensor cannot revoke these freedoms as long as you follow the\n"
+"license terms."
+msgstr ""
+"El licenciante no puede revocar estas libertades mientras siga los\n"
+"términos de la licencia."
+
+#: python-novice-gapminder/LICENSE.md:24
+msgid "Under the following terms:"
+msgstr "Bajo los siguientes términos:"
+
+# unordered list
+#: python-novice-gapminder/LICENSE.md:26
+msgid "* **Attribution**---You must give appropriate credit (mentioning that"
+msgstr ""
+"* **Atribución**---Debes dar crédito a éste material de manera adecuada "
+"(mencionando que"
+
+#: python-novice-gapminder/LICENSE.md:27
+msgid ""
+"  your work is derived from work that is Copyright © Software\n"
+"  Carpentry and, where practical, linking to\n"
+"  http://software-carpentry.org/), provide a [link to the\n"
+"  license][cc-by-human], and indicate if changes were made. You may do\n"
+"  so in any reasonable manner, but not in any way that suggests the\n"
+"  licensor endorses you or your use."
+msgstr ""
+"  su trabajo se deriva del trabajo que es Copyright de © Software\n"
+"  Carpentry y, donde sea práctico, agrega un enlace a\n"
+"  http://software-carpentry.org/), proporciona un [enlace a la\n"
+"  licencia][cc-by-human], e indica si se han realizado cambios. Puedes hacerlo\n"
+"  en cualquier forma razonable, pero no de forma tal que sugiera que tú o su uso\n"
+"  tienen el apoyo del licenciante. "
+
+#: python-novice-gapminder/LICENSE.md:34
+msgid ""
+"**No additional restrictions**---You may not apply legal terms or\n"
+"technological measures that legally restrict others from doing\n"
+"anything the license permits.  With the understanding that:"
+msgstr ""
+"**No hay restricciones adicionales**---No puedes aplicar términos legales ni\n"
+"medidas tecnológicas que restrinjan legalmente a otros a hacer\n"
+"cualquier uso permitido por la licencia. Con el entendimiento de que:"
+
+#: python-novice-gapminder/LICENSE.md:38
+msgid "Notices:"
+msgstr "Avisos:"
+
+# unordered list
+#: python-novice-gapminder/LICENSE.md:40
+msgid "* You do not have to comply with the license for elements of the"
+msgstr "* No tienes que cumplir con la licencia de los"
+
+#: python-novice-gapminder/LICENSE.md:41
+msgid ""
+"  material in the public domain or where your use is permitted by an\n"
+"  applicable exception or limitation.\n"
+"* No warranties are given. The license may not give you all of the\n"
+"  permissions necessary for your intended use. For example, other\n"
+"  rights such as publicity, privacy, or moral rights may limit how you\n"
+"  use the material."
+msgstr ""
+"  de los materiales que estén en el dominio público o cuando su uso esté permitido por una\n"
+"  excepción o limitación aplicable.\n"
+"* No se dan garantías. La licencia puede no dar todos los\n"
+"  permisos necesarios para su uso que tengas previsto. Por ejemplo,\n"
+"  otros derechos como publicidad, privacidad, o derechos morales pueden limitar\n"
+"  la forma en que utilices el material."
+
+# header
+#: python-novice-gapminder/LICENSE.md:48
+msgid "## Software"
+msgstr "## Software"
+
+#: python-novice-gapminder/LICENSE.md:50
+msgid ""
+"Except where otherwise noted, the example programs and other software\n"
+"provided by Software Carpentry and Data Carpentry are made available under the\n"
+"[OSI][osi]-approved\n"
+"[MIT license][mit-license]."
+msgstr ""
+"Salvo que se indique lo contrario, los programas de ejemplo y otro software\n"
+"proporcionado por Software Carpentry y Data Carpentry están disponibles bajo el\n"
+"[OSI][osi]-aprobado\n"
+"[Licencia de MIT][mit-license]."
+
+#: python-novice-gapminder/LICENSE.md:55
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:"
+msgstr ""
+"Se concede permiso, de forma gratuita, a cualquier persona que obtenga\n"
+"una copia de este software y los archivos de documentación asociados (el\n"
+"\"Software\"), para tratar el Software sin restricciones, incluido,\n"
+"entre otros, los derechos de uso, copia, modificación, fusión, publicación,\n"
+"distribución, sublicencia y / o venta de copias del Software, y\n"
+"Permitir a las personas a quienes se les proporciona el Software que lo hagan, sujeto a\n"
+"las siguientes condiciones:"
+
+#: python-novice-gapminder/LICENSE.md:63
+msgid ""
+"The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software."
+msgstr ""
+"El aviso de copyright anterior y este aviso de permiso serán\n"
+"incluido en todas las copias o porciones sustanciales del Software."
+
+#: python-novice-gapminder/LICENSE.md:66
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
+"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
+"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
+"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+"EL SOFTWARE SE PROPORCIONA \"TAL CUAL\", SIN GARANTÍA DE NINGÚN TIPO,\n"
+"EXPRESO O IMPLÍCITO, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE\n"
+"COMERCIALIZACIÓN, APTITUD PARA UN PROPÓSITO PARTICULAR Y\n"
+"SIN INFRACCIÓN. EN NINGÚN CASO SERÁN LOS AUTORES O LOS TITULARES DE LOS DERECHOS DE AUTOR\n"
+"RESPONSABLE POR CUALQUIER RECLAMO, DAÑOS U OTRA RESPONSABILIDAD, YA SEA EN ACCIÓN\n"
+"DEL CONTRATO, EXTRACONTRACTUAL O DE OTRO TIPO, DERIVADOS, FUERA DE O EN CONEXIÓN\n"
+"CON EL SOFTWARE O EL USO U OTROS TRATOS EN EL SOFTWARE."
+
+# header
+#: python-novice-gapminder/LICENSE.md:74
+msgid "## Trademark"
+msgstr "## Marca registrada"
+
+#: python-novice-gapminder/LICENSE.md:76
+msgid ""
+"\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+"are registered trademarks of [Community Initiatives][CI]."
+msgstr ""
+"\"Software Carpentry\" y \"Data Carpentry\" y sus respectivos logos\n"
+"son marcas registradas de [Community Initiatives][CI]."
+
+#: python-novice-gapminder/LICENSE.md:79
+msgid ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org"
+msgstr ""
+"[cc-by-human]: https://creativecommons.org/licenses/by/4.0/deed.es\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode.es\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org"

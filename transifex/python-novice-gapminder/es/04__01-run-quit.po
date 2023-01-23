@@ -1,0 +1,1622 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Heladia Salgado <heladia@ccg.unam.mx>, 2020
+# nicoguaro <nicoguarin@gmail.com>, 2020
+# David PS <dps.helio@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: David PS <dps.helio@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/01-run-quit.md:1
+msgid ""
+"---\n"
+"title: \"Running and Quitting\"\n"
+"teaching: 15\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How can I run Python programs?\"\n"
+"objectives:\n"
+"- \"Launch the JupyterLab server.\" \n"
+"- \"Create a new Python script.\" \n"
+"- \"Create a Jupyter notebook.\"\n"
+"- \"Shutdown the JupyterLab server.\"\n"
+"- \"Understand the difference between a Python script and a Jupyter notebook.\"\n"
+"- \"Create Markdown cells in a notebook.\"\n"
+"- \"Create and run Python cells in a notebook.\"\n"
+"keypoints:\n"
+"- \"Python scripts are plain text files.\"\n"
+"- \"Use the Jupyter Notebook for editing and running Python.\"\n"
+"- \"The Notebook has Command and Edit modes.\"\n"
+"- \"Use the keyboard and mouse to select and edit cells.\"\n"
+"- \"The Notebook will turn Markdown into pretty-printed documentation.\"\n"
+"- \"Markdown does most of what HTML does.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Ejecutar y salir\"\n"
+"teaching: 15\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"¿Cómo puedo ejecutar programas de Python?\"\n"
+"objectives:\n"
+"- \"Iniciar el servidor JupyterLab.\" \n"
+"- \"Crear un nuevo script de Python.\" \n"
+"- \"Crear un cuaderno de Jupyter.\"\n"
+"- \"Apagar el servidor JupyterLab.\"\n"
+"- \"Entender la diferencia entre un script de Python y un cuaderno de Jupyter.\"\n"
+"- \"Crear celdas Markdown en un cuaderno.\"\n"
+"- \"Crear y ejecutar celdas Python en un Cuaderno.\"\n"
+"keypoints:\n"
+"- \"Los scripts de Python son archivos de texto plano.\"\n"
+"- \"Usar un cuaderno Jypiter para editar y correr Python.\"\n"
+"- \"El Cuaderno tiene modos de Comandos y Edición.\"\n"
+"- \"Usa el teclado y el ratón para seleccionar y editar celdas.\"\n"
+"- \"El Cuaderno convertirá Markdown en texto con formato.\"\n"
+"- \"Markdown hace la mayor parte de lo que hace HTML.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:24
+msgid "## Getting Started with JupyterLab"
+msgstr "## Comenzando con JupyterLab"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:26
+msgid ""
+"While many software developers will often use an integrated development environment (IDE) or a \n"
+"text editor to create and edit their Python programs we will be using [JupyterLab][jupyterlab] \n"
+"during this lesson. "
+msgstr ""
+"Mientras que muchos desarrolladores de software a menudo utilizan un entorno de desarrollo integrado (IDE) o un\n"
+"editor de texto para crear y editar sus programas Python, usaremos [JupyterLab][jupyterlab]\n"
+"durante esta lección."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:30
+msgid ""
+"JupyterLab is an application with a web-based user interface from [Project Jupyter][jupyter] that \n"
+"enables one to work with documents and activities such as Jupyter notebooks, text editors, terminals,\n"
+"and even custom components in a flexible, integrated, and extensible manner. JupyterLab requires a\n"
+"reasonably up-to-date browser (ideally a current version of Chrome, Safari, or Firefox); Internet\n"
+"Explorer versions 9 and below are *not* supported."
+msgstr ""
+"JupyterLab es una aplicación con una interfaz de usuario basada en web del [Proyecto Jupyter][jupyter] que\n"
+"permite trabajar con documentos y actividades como cuadernos Jupyter, editores de texto, terminales,\n"
+"e incluso componentes personalizados de manera flexible, integrada y extensible. JupyterLab requiere un\n"
+"navegador razonablemente actualizado (idealmente una versión actual de Chrome, Safari o Firefox); Internet\n"
+"Explorer 9 y versiones anteriores *no* son compatibles."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:36
+msgid ""
+"JupyterLab is included as part of the Anaconda Python distribution. If you have not already \n"
+"installed the Anaconda Python distribution, see [the setup instructions]({{ page.root }}/setup/) \n"
+"for installation instructions."
+msgstr ""
+"JupyterLab se incluye como parte de la distribución de Python Anaconda. Si  aún no tienes\n"
+"instalada la distribución de Python de Anaconda, consulta [las instrucciones de configuración]({{ page.root }}/setup/)\n"
+"para las instrucciones de instalación."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:40
+msgid ""
+"Even though JupyterLab is a web-based application, JupyterLab runs locally on your machine and \n"
+"does not require an internet connection.\n"
+"*   The JupyterLab server sends messages to your web browser.\n"
+"*   The JupyterLab server does the work and the web browser renders the result.\n"
+"*   You will type code into the browser and see the result when the web page talks to the \n"
+"    JupyterLab server."
+msgstr ""
+"Aunque JupyterLab es una aplicación vía web, JupyterLab se ejecuta localmente en tu máquina y\n"
+"no requiere una conexión a internet.\n"
+"*   El servidor JupyterLab envía mensajes a tu navegador web.\n"
+"*   El servidor JupyterLab hace el trabajo y el navegador web muestra el resultado.\n"
+"*   Escribirás el código en el navegador y verás el resultado cuando la página web hable con el\n"
+"    servidor JupyterLab."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:47
+msgid "> ## JupyterLab? What about Jupyter notebooks?"
+msgstr "> ## ¿JupyterLab? ¿Qué pasa con los Cuadernos de Jupyter?"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:48
+#: python-novice-gapminder/_episodes/01-run-quit.md:52
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:368
+#: python-novice-gapminder/_episodes/08-data-frames.md:370
+#: python-novice-gapminder/_episodes/09-plotting.md:130
+#: python-novice-gapminder/_episodes/09-plotting.md:278
+#: python-novice-gapminder/_episodes/09-plotting.md:288
+msgid "> "
+msgstr "> "
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:49
+msgid ""
+"> JupyterLab is the [next stage in the evolution of the Jupyter "
+"Notebook](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html#overview)."
+" If you have prior "
+msgstr ""
+"> JupyterLab es el [siguiente nivel en la evolución de Jupyter "
+"Notebook](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html#overview)."
+" Si tienes "
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:50
+msgid ""
+"> experience working with Jupyter notebooks, then you will have a a good "
+"idea of what to expect "
+msgstr ""
+"> experiencia trabajando con cuadernos de Jupyter, entonces tendrás una "
+"buena idea de qué esperar"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:51
+msgid "> from JupyterLab. "
+msgstr "> de JupyterLab. "
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:53
+msgid ""
+"> Experienced users of Jupyter notebooks interested in a more detailed "
+"discussion of the similarities and differences"
+msgstr ""
+"> Usuarios experimentados con cuadernos de Jupyter interesados ​​en una "
+"discusión más detallada de las similitudes y diferencias"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:54
+msgid ""
+"> between the JupyterLab and Jupyter notebook user interfaces can find more "
+"information in the "
+msgstr ""
+"> entre las interfaces de usuario de JupyterLab y cuadernos de Jupyter puede"
+" encontrar más información en la"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:55
+msgid "> [JupyterLab user interface documentation][jupyterlab-ui]."
+msgstr ""
+"> [documentación de la interfaz de usuario de JupyterLab][jupyterlab-ui]."
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/01-run-quit.md:56
+#: python-novice-gapminder/_episodes/01-run-quit.md:182
+#: python-novice-gapminder/_episodes/01-run-quit.md:226
+#: python-novice-gapminder/_episodes/02-variables.md:106
+#: python-novice-gapminder/_episodes/06-libraries.md:35
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:72
+#: python-novice-gapminder/_episodes/09-plotting.md:153
+#: python-novice-gapminder/_episodes/09-plotting.md:312
+#: python-novice-gapminder/_episodes/09-plotting.md:320
+#: python-novice-gapminder/_episodes/13-conditionals.md:251
+#: python-novice-gapminder/_episodes/13-conditionals.md:427
+#: python-novice-gapminder/_episodes/18-style.md:99
+#: python-novice-gapminder/_extras/design.md:14
+#: python-novice-gapminder/index.md:21
+msgid "{: .callout}"
+msgstr "{: .callout}"
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:58
+msgid "## Starting JupyterLab"
+msgstr "## Iniciando con JupyterLab"
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:60
+msgid "### Mac OS X"
+msgstr "### Mac OS X"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:61
+msgid ""
+"To start the JupyterLab server you will need to access the command line through the Terminal. \n"
+"There are two ways to open Terminal on Mac."
+msgstr ""
+"Para iniciar el servidor JupyterLab, deberás acceder a la línea de comandos a través de la Terminal.\n"
+"Hay dos formas de abrir Terminal en Mac."
+
+# ordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:64
+msgid ""
+"1. In your Applications folder, open Utilities and double-click on Terminal"
+msgstr ""
+"1. En tu carpeta de Aplicaciones, abre Utilidades y haz doble clic en "
+"Terminal"
+
+# ordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:65
+msgid ""
+"2. Press <kbd>Command</kbd> + <kbd>spacebar</kbd> to launch Spotlight. Type "
+"`Terminal` and then "
+msgstr ""
+"2. Presiona <kbd>Command</kbd> + <kbd>barra espaciadora</kbd> para lanzar "
+"Spotlight. Digita `Terminal` y entonces"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:66
+msgid "double-click the search result or hit <kbd>Enter</kbd>"
+msgstr ""
+"haz doble clic en el resultado de la búsqueda o presiona <kbd>Enter</kbd>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:68
+msgid ""
+"After you have launched Terminal, type the command to launch the JupyterLab "
+"server."
+msgstr ""
+"Después de iniciar Terminal, escriba el comando para iniciar el servidor "
+"JupyterLab."
+
+# code block
+#: python-novice-gapminder/_episodes/01-run-quit.md:70
+#: python-novice-gapminder/_episodes/01-run-quit.md:82
+#: python-novice-gapminder/_episodes/01-run-quit.md:505
+msgid ""
+"~~~\n"
+"$ jupyter lab\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ jupyter lab\n"
+"~~~"
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/01-run-quit.md:73
+#: python-novice-gapminder/_episodes/01-run-quit.md:85
+msgid "{: .bash}"
+msgstr "{: .bash}"
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:75
+msgid "### Windows Users"
+msgstr "### Usuarios Windows"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:76
+msgid ""
+"To start the JupyterLab server you will need to access the open Anaconda "
+"Prompt."
+msgstr ""
+"Para iniciar el servidor JupyterLab, necesitará acceder al Prompt de "
+"Anaconda."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:78
+msgid ""
+"Press <kbd>Windows Logo Key</kbd> and search for `Anaconda Prompt`, click "
+"the result or press enter."
+msgstr ""
+"Presiona <kbd>la Tecla del logotipo de Windows</kbd> y busca  `Anaconda "
+"Prompt`, haz clic en el resultado o presiona enter."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:80
+msgid "After you have launched the Anaconda Prompt, type the command:"
+msgstr "Después de haber accedido al Prompt de Anaconda, escribe el comando:"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:87
+msgid ""
+"Below is a screenshot of a similar JupyterLab landing page to the one that should open in your \n"
+"default web browser after starting the JupyterLab server on wither Mac OS X or Windows."
+msgstr ""
+"A continuación se muestra una captura de pantalla de JupyterLab similar a la que se debería abrir en tu\n"
+"navegador web predeterminado después de iniciar el servidor JupyterLab en Mac OS X o Windows."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:90
+msgid ""
+"<p align='center'>\n"
+"  <img alt=\"JupyterLab landing page\" src=\"../fig/0_jupyterlab_landing_page.png\" width=\"750\"/>\n"
+"</p>"
+msgstr ""
+"<p align='center'>\n"
+"  <img alt=\"Página de inicio de JupyterLab\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_landing_page.png\" width=\"750\"/>\n"
+"</p>"
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:94
+msgid "## The JupyterLab Interface"
+msgstr "## La Interfaz de JupyterLab"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:96
+msgid ""
+"JupyterLab has many features found in traditional integrated development environments (IDEs) but \n"
+"is focused on providing flexible building blocks for interactive, exploratory computing."
+msgstr ""
+"JupyterLab tiene muchas características que se encuentran en los entornos de desarrollo integrado (IDE) tradicionales pero\n"
+"se centra en proporcionar bloques de construcción flexibles para la computación interactiva y exploratoria."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:99
+msgid ""
+"The [JupyterLab Interface](https://jupyterlab.readthedocs.io/en/stable/user/interface.html) \n"
+"consists of the Menu Bar, a collapsable Left Side Bar, and the Main Work Area which contains tabs \n"
+"of documents and activities."
+msgstr ""
+"La [Interfaz JupyterLab](https://jupyterlab.readthedocs.io/en/stable/user/interface.html)\n"
+"consiste en la barra de menú, una barra lateral izquierda plegable y el área de trabajo principal que contiene pestañas\n"
+"de documentos y actividades."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:103
+msgid "### Menu Bar"
+msgstr "### Barra de Menu"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:105
+msgid ""
+"The Menu Bar at the top of JupyterLab has the top-level menus that expose various actions \n"
+"available in JupyterLab along with their keyboard shortcuts (where applicable). The following \n"
+"menus are included by default."
+msgstr ""
+"La Barra de Menú en la parte superior de JupyterLab tiene menús de nivel superior que exponen varias acciones\n"
+"disponibles en JupyterLab junto con sus atajos de teclado (cuando existen). Los siguientes\n"
+"menús están incluidos por defecto."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:109
+msgid ""
+"*   **File:** Actions related to files and directories such as *New*, "
+"*Open*, *Close*, *Save*, etc. The *File* menu also includes the *Quit* "
+"action used to shutdown the JupyterLab server."
+msgstr ""
+"*   **File:** Acciones relacionadas con archivos y directorios tales como:  "
+"*New* (*Nuevo*), *Open* (*Abrir*), *Close* (*Cerrar*), *Save* (*Guardar*), "
+"etc. El menú *File* también incluye la acción *Quit* (*Parar*) usada para "
+"apagar el servidor JupyterLab."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:110
+msgid ""
+"*   **Edit:** Actions related to editing documents and other activities such"
+" as *Undo*, *Cut*, *Copy*, *Paste*, etc."
+msgstr ""
+"*   **Edit:** Acciones relacionadas con edición de documentos y otras "
+"actividades como  *Undo* (*Deshacer*), *Cut* (*Cortar*), *Copy* (*Cortar*), "
+"*Paste* (*Pegar*), etc."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:111
+msgid "*   **View:** Actions that alter the appearance of JupyterLab."
+msgstr "*   **View:** Acciones que alteran la apariencia de JupyterLab."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:112
+msgid ""
+"*   **Run:** Actions for running code in different activities such as "
+"notebooks and code consoles (discussed below)."
+msgstr ""
+"*   **Run:** Acciones para ejecutar código en diferentes actividades tales "
+"como cuadernos y consolas de código (discutidas abajo)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:113
+msgid ""
+"*   **Kernel:** Actions for managing kernels which, as mentioned above, are "
+"separate processes for running code."
+msgstr ""
+"*   **Kernel:** Acciones para manejo de núcleos los cuales, como mencionamos"
+" arriba, son procesos separados para ejecutar código."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:114
+msgid ""
+"*   **Tabs:** A list of the open documents and activities in the dock panel."
+msgstr ""
+"*   **Tabs:** Una lista de los documentos y actividades abiertos en el área "
+"de trabajo."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:115
+msgid ""
+"*   **Settings:** Common JupyterLab settings can be configured using this "
+"menu. There is also an *Advanced Settings Editor* option in the dropdown "
+"menu that provides more fine-grained control of JupyterLab settings and "
+"configuration options."
+msgstr ""
+"*   **Settings:** Las configuraciones comunes de JupyterLab se pueden "
+"configurar usando este menú. También hay una opción  *Advanced Settings "
+"Editor* en el menú desplegable que proporciona un control más detallado de "
+"la configuración de JupyterLab y las opciones de configuración."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:116
+msgid "*   **Help:** A list of JupyterLab and kernel help links."
+msgstr ""
+"*   **Help:** Una lista de enlaces de ayuda de JupyterLab y del kernel."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:118
+msgid "A screenshot of the default Menu Bar is provided below."
+msgstr ""
+"A continuación se muestra una captura de pantalla de la barra de menús "
+"predeterminada."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:120
+msgid ""
+"<p align='center'>\n"
+"    <img alt=\"JupyterLab Menu Bar\" src=\"../fig/0_jupyterlab_menu_bar.png\" width=\"750\"/>\n"
+"</p>"
+msgstr ""
+"<p align='center'>\n"
+"    <img alt=\"Barra de Menús en JupyterLab\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_menu_bar.png\" width=\"750\"/>\n"
+"</p>"
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:124
+msgid "### Left Sidebar"
+msgstr "### Barra lateral izquierda"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:126
+msgid ""
+"The left sidebar contains a number of commonly-used tabs, such as a file browser (showing the \n"
+"contents of the directory in which the JupyterLab server was launched!), a list of running kernels \n"
+"and terminals, the command palette, and a list of open tabs in the main work area. A screenshot of \n"
+"the default Left Side Bar is provided below."
+msgstr ""
+"La barra lateral izquierda contiene varias pestañas de uso común, como un explorador de archivos (que muestra\n"
+"el contenido del directorio en el que se lanzó el servidor JupyterLab), una lista de núcleos en ejecución\n"
+"y terminales, la paleta de comandos y una lista de pestañas abiertas en el área de trabajo principal. Una captura de pantalla de\n"
+"la barra lateral izquierda predeterminada se muestra a continuación."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:131
+msgid ""
+"<p align='center'>\n"
+"    <img alt=\"JupyterLab Left Side Bar\" src=\"../fig/0_jupyterlab_left_side_bar.png\" width=\"250\"/>\n"
+"</p>"
+msgstr ""
+"<p align='center'>\n"
+"    <img alt=\"Barra lateral izquierda de JupyterLab\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_left_side_bar.png\" width=\"250\"/>\n"
+"</p>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:135
+msgid ""
+"The left sidebar can be collapsed or expanded by selecting “Show Left Sidebar” in the View menu or \n"
+"by clicking on the active sidebar tab."
+msgstr ""
+"La barra lateral izquierda se puede contraer o expandir seleccionando \"Show Left Sidebar\" en el menú View o\n"
+"haciendo clic en la pestaña de la barra lateral activa."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:138
+msgid "### Main Work Area"
+msgstr "### Área principal de Trabajo"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:140
+msgid ""
+"The main work area in JupyterLab enables you to arrange documents (notebooks, text files, etc.) \n"
+"and other activities (terminals, code consoles, etc.) into panels of tabs that can be resized or \n"
+"subdivided. A screenshot of the default Menu Bar is provided below."
+msgstr ""
+"El área de trabajo principal en JupyterLab permite organizar documentos (cuadernos, archivos de texto, etc.)\n"
+"y otras actividades (terminales, consolas de códigos, etc.) en paneles de pestañas que pueden redimensionarse o\n"
+"subdividirse. A continuación se muestra una captura de pantalla de la barra de menús predeterminada."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:144
+msgid ""
+"<p align='center'>\n"
+"    <img alt=\"JupyterLab Main Work Area\" src=\"../fig/0_jupyterlab_main_work_area.png\" width=\"750\"/>\n"
+"</p>"
+msgstr ""
+"<p align='center'>\n"
+"    <img alt=\"Área de trabajo principal en JupyterLab\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_main_work_area.png\" width=\"750\"/>\n"
+"</p>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:148
+msgid ""
+"Drag a tab to the center of a tab panel to move the tab to the panel. Subdivide a tab panel by \n"
+"dragging a tab to the left, right, top, or bottom of the panel. The work area has a single current \n"
+"activity. The tab for the current activity is marked with a colored top border (blue by default)."
+msgstr ""
+"Arrastra una pestaña al centro de un panel de pestañas para mover la pestaña al panel. Subdivide un panel de pestañas\n"
+"arrastrando una pestaña a la izquierda, derecha, arriba o abajo del panel. El área de trabajo tiene una sola\n"
+"actividad actual. La pestaña de la actividad actual está marcada con un borde superior de color (azul por defecto)."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:152
+msgid "## Creating a Python script"
+msgstr "## Creando un script  Python"
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:154
+msgid ""
+"*   To start writing a new Python program click the Text File icon under the"
+" *Other* header in the Launcher tab of the Main Work Area."
+msgstr ""
+"*   Para comenzar a escribir un nuevo programa de Python, haz clic en el "
+"icono Text File bajo el encabezado *Other* en la pestaña Iniciador del Área "
+"de trabajo principal."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:155
+msgid ""
+"    *   You can also create a new plain text file by selecting the *New -> "
+"Text File* from the *File* menu in the Menu Bar."
+msgstr ""
+"    *   También puedes crear un nuevo archivo de texto sin formato "
+"seleccionando *New -> Text File* en el menú *File* en la barra de menú."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:156
+msgid ""
+"*   To convert this plain text file to a Python program, select the *Save "
+"File As* action from the *File* menu in the Menu Bar and give your new text "
+"file a name that ends with the `.py` extension."
+msgstr ""
+"* Para convertir este archivo de texto sin formato a un programa de Python, "
+"selecciona la opción *Save File As* del menú *File* en la barra de menú y "
+"asigna a tu nuevo archivo de texto un nombre que termine con la extensión "
+"`.py`."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:157
+msgid ""
+"    *   The `.py` extension lets everyone (including the operating system) "
+"know that this text file is a Python program."
+msgstr ""
+"    *   La extensión `.py` les permite a todos (incluido el sistema "
+"operativo) saber que este archivo de texto es un programa de Python."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:158
+msgid "    *   This is convention, not a requirement."
+msgstr "    *   Esta es una convención, no un requisito."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:160
+msgid "## Creating a Jupyter Notebook"
+msgstr "## Creando un cuaderno de Jupyter "
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:162
+msgid ""
+"To open a new notebook click the Python 3 icon under the *Notebook* header in the Launcher tab in \n"
+"the main work area. You can also create a new notebook by selecting *New -> Notebook* from the *File* menu in the Menu Bar."
+msgstr ""
+"Para abrir un Cuaderno nuevo, haga clic en el icono de Python 3 debajo del encabezado *Notebook* en la pestaña Launcher en\n"
+"el área principal de trabajo. También puede crear un Cuaderno nuevo seleccionando *New -> Notebook* desde el menú *File* en la Barra de menú."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:165
+msgid "Additional notes on Jupyter notebooks."
+msgstr "Notas adicionales sobre los cuadernos de Jupyter."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:167
+msgid ""
+"  *   Notebook files have the extension `.ipynb` to distinguish them from "
+"plain-text Python programs."
+msgstr ""
+"  *   Los cuadernos de Jupyter tienen la extensión `.ipynb` para "
+"distinguirlos de los programas Python de texto plano."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:168
+msgid ""
+"  *   Notebooks can be exported as Python scripts that can be run from the "
+"command line."
+msgstr ""
+"  *   Los cuadernos pueden ser exportados como scripts de Python que pueden "
+"ser ejecutados desde la línea de comandos."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:170
+msgid ""
+"Below is a screenshot of a Jupyter notebook running inside JupyterLab. If you are interested in \n"
+"more details, then see the [official notebook documentation][jupyterlab-notebook-docs]."
+msgstr ""
+"A continuación se muestra una captura de pantalla de un cuaderno de Jupyter que se ejecuta dentro de JupyterLab. Si estás interesada en\n"
+"más detalles, mira la [documentación oficial sobre los cuadernos][jupyterlab-notebook-docs]."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:173
+msgid ""
+"<p align='center'>\n"
+"    <img alt=\"Example Jupyter Notebook\" src=\"../fig/0_jupyterlab_notebook_screenshot.png\" width=\"750\"/>\n"
+"</p>"
+msgstr ""
+"<p align='center'>\n"
+"    <img alt=\"Ejemplo de un Cuaderno de Jupyter\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_notebook_screenshot.png\" width=\"750\"/>\n"
+"</p>"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:177
+msgid "> ## How It's Stored"
+msgstr "> ## Cómo se almacenan"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:178
+msgid ""
+">\n"
+"> *   The notebook file is stored in a format called JSON.\n"
+"> *   Just like a webpage, what's saved looks different from what you see in your browser.\n"
+"> *   But this format allows Jupyter to mix source code, text, and images, all in one file."
+msgstr ""
+">\n"
+"> *   Los cuadernos son almacenados en un formato llamado JSON.\n"
+"> *   Justo como una página web, lo que se guarda se ve diferente a lo que se ve en el navegador. \n"
+"> *   Pero este formato permite a Jupyter mezclar código fuente, texto e imágenes, todo en un sólo archivo."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:184
+msgid "> ## Arranging Documents into Panels of Tabs"
+msgstr "> ## Organizando documentos en paneles de pestañas"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:185
+msgid ""
+">\n"
+"> In the JupyterLab Main Work Area you can arrange documents into panels of tabs. Here is an \n"
+"> example from the [official documentation][jupyterlab].\n"
+"> \n"
+"> <p align='center'>\n"
+">    <img alt=\"Multi-panel JupyterLab\" src=\"../fig/0_multipanel_jupyterlab_screenshot.png\" width=\"750\"/>\n"
+"> </p>\n"
+">\n"
+"> First, create a text file, Python console, and terminal window and arrange then into three \n"
+"> panels in the main work area. Next, create a notebook, terminal window, and text file and \n"
+"> arrange then into three panels in the main work area. Finally, create your own combination of \n"
+"> panels and tabs. What combination of panels and tabs do you think will be most useful for your \n"
+"> workflow?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > After creating the necessary tabs, you can drag one of the tabs to the center of a panel to \n"
+"> > move the tab to the panel; next you can subdivide a tab panel by dragging a tab to the left, \n"
+"> > right, top, or bottom of the panel."
+msgstr ""
+">\n"
+"> En el Área de trabajo principal de JupyterLab puedes organizar documentos en paneles de pestañas. Aquí hay un\n"
+"> ejemplo de la  [documentación oficial][jupyterlab].\n"
+"> \n"
+"> <p align='center'>\n"
+">    <img alt=\"JupyterLab con multiples paneles\" src=\"{{ site.baseurl }}/fig/0_multipanel_jupyterlab_screenshot.png\" width=\"750\"/>\n"
+"> </p>\n"
+">\n"
+"> Primero, crea un archivo de texto, una consola de Python y una ventana de terminal y luego organízalas en tres\n"
+"> paneles en el área de trabajo principal. A continuación, crea un cuaderno, una ventana de terminal y un archivo de texto y \n"
+"> luego, organízalas en tres paneles en el área de trabajo principal. Finalmente, crea tu propia combinación de \n"
+"> paneles y pestañas. ¿Qué combinación de paneles y pestañas crees que será más útil para tu\n"
+"> flujo de trabajo?\n"
+">\n"
+"> > ## Solución\n"
+"> >\n"
+"> > Después de crear las pestañas necesarias, puedes arrastrar una de las pestañas al centro de un panel para \n"
+"> > mover la pestaña al panel; a continuación, puedes subdividir un panel de pestañas arrastrando una pestaña hacia la izquierda, \n"
+"> > derecha, arriba o bajo del panel."
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/01-run-quit.md:204
+#: python-novice-gapminder/_episodes/01-run-quit.md:255
+#: python-novice-gapminder/_episodes/01-run-quit.md:419
+#: python-novice-gapminder/_episodes/01-run-quit.md:441
+#: python-novice-gapminder/_episodes/01-run-quit.md:471
+#: python-novice-gapminder/_episodes/01-run-quit.md:497
+#: python-novice-gapminder/_episodes/02-variables.md:295
+#: python-novice-gapminder/_episodes/02-variables.md:313
+#: python-novice-gapminder/_episodes/02-variables.md:332
+#: python-novice-gapminder/_episodes/02-variables.md:352
+#: python-novice-gapminder/_episodes/03-types-conversion.md:227
+#: python-novice-gapminder/_episodes/03-types-conversion.md:248
+#: python-novice-gapminder/_episodes/03-types-conversion.md:273
+#: python-novice-gapminder/_episodes/03-types-conversion.md:327
+#: python-novice-gapminder/_episodes/03-types-conversion.md:398
+#: python-novice-gapminder/_episodes/03-types-conversion.md:423
+#: python-novice-gapminder/_episodes/03-types-conversion.md:460
+#: python-novice-gapminder/_episodes/04-built-in.md:258
+#: python-novice-gapminder/_episodes/04-built-in.md:311
+#: python-novice-gapminder/_episodes/04-built-in.md:323
+#: python-novice-gapminder/_episodes/04-built-in.md:336
+#: python-novice-gapminder/_episodes/06-libraries.md:149
+#: python-novice-gapminder/_episodes/06-libraries.md:206
+#: python-novice-gapminder/_episodes/06-libraries.md:237
+#: python-novice-gapminder/_episodes/06-libraries.md:255
+#: python-novice-gapminder/_episodes/06-libraries.md:294
+#: python-novice-gapminder/_episodes/06-libraries.md:326
+#: python-novice-gapminder/_episodes/06-libraries.md:356
+#: python-novice-gapminder/_episodes/06-libraries.md:377
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:240
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:335
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:364
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:387
+#: python-novice-gapminder/_episodes/08-data-frames.md:355
+#: python-novice-gapminder/_episodes/08-data-frames.md:393
+#: python-novice-gapminder/_episodes/08-data-frames.md:449
+#: python-novice-gapminder/_episodes/08-data-frames.md:470
+#: python-novice-gapminder/_episodes/08-data-frames.md:510
+#: python-novice-gapminder/_episodes/08-data-frames.md:557
+#: python-novice-gapminder/_episodes/09-plotting.md:199
+#: python-novice-gapminder/_episodes/09-plotting.md:221
+#: python-novice-gapminder/_episodes/09-plotting.md:241
+#: python-novice-gapminder/_episodes/09-plotting.md:274
+#: python-novice-gapminder/_episodes/11-lists.md:235
+#: python-novice-gapminder/_episodes/11-lists.md:248
+#: python-novice-gapminder/_episodes/11-lists.md:274
+#: python-novice-gapminder/_episodes/11-lists.md:303
+#: python-novice-gapminder/_episodes/11-lists.md:332
+#: python-novice-gapminder/_episodes/11-lists.md:352
+#: python-novice-gapminder/_episodes/11-lists.md:390
+#: python-novice-gapminder/_episodes/11-lists.md:431
+#: python-novice-gapminder/_episodes/12-for-loops.md:186
+#: python-novice-gapminder/_episodes/12-for-loops.md:211
+#: python-novice-gapminder/_episodes/12-for-loops.md:236
+#: python-novice-gapminder/_episodes/12-for-loops.md:260
+#: python-novice-gapminder/_episodes/12-for-loops.md:278
+#: python-novice-gapminder/_episodes/12-for-loops.md:298
+#: python-novice-gapminder/_episodes/12-for-loops.md:313
+#: python-novice-gapminder/_episodes/12-for-loops.md:343
+#: python-novice-gapminder/_episodes/12-for-loops.md:381
+#: python-novice-gapminder/_episodes/12-for-loops.md:403
+#: python-novice-gapminder/_episodes/13-conditionals.md:273
+#: python-novice-gapminder/_episodes/13-conditionals.md:311
+#: python-novice-gapminder/_episodes/13-conditionals.md:338
+#: python-novice-gapminder/_episodes/13-conditionals.md:375
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:122
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:154
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:184
+#: python-novice-gapminder/_episodes/16-writing-functions.md:172
+#: python-novice-gapminder/_episodes/16-writing-functions.md:198
+#: python-novice-gapminder/_episodes/16-writing-functions.md:238
+#: python-novice-gapminder/_episodes/16-writing-functions.md:265
+#: python-novice-gapminder/_episodes/16-writing-functions.md:300
+#: python-novice-gapminder/_episodes/16-writing-functions.md:331
+#: python-novice-gapminder/_episodes/16-writing-functions.md:402
+#: python-novice-gapminder/_episodes/16-writing-functions.md:497
+#: python-novice-gapminder/_episodes/16-writing-functions.md:543
+#: python-novice-gapminder/_episodes/18-style.md:153
+#: python-novice-gapminder/_episodes/18-style.md:232
+msgid "> {: .solution}"
+msgstr "> {: .solution}"
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/01-run-quit.md:205
+#: python-novice-gapminder/_episodes/01-run-quit.md:256
+#: python-novice-gapminder/_episodes/01-run-quit.md:420
+#: python-novice-gapminder/_episodes/01-run-quit.md:442
+#: python-novice-gapminder/_episodes/01-run-quit.md:472
+#: python-novice-gapminder/_episodes/01-run-quit.md:498
+#: python-novice-gapminder/_episodes/01-run-quit.md:512
+#: python-novice-gapminder/_episodes/02-variables.md:235
+#: python-novice-gapminder/_episodes/02-variables.md:262
+#: python-novice-gapminder/_episodes/02-variables.md:296
+#: python-novice-gapminder/_episodes/02-variables.md:314
+#: python-novice-gapminder/_episodes/02-variables.md:333
+#: python-novice-gapminder/_episodes/02-variables.md:353
+#: python-novice-gapminder/_episodes/03-types-conversion.md:228
+#: python-novice-gapminder/_episodes/03-types-conversion.md:249
+#: python-novice-gapminder/_episodes/03-types-conversion.md:274
+#: python-novice-gapminder/_episodes/03-types-conversion.md:328
+#: python-novice-gapminder/_episodes/03-types-conversion.md:399
+#: python-novice-gapminder/_episodes/03-types-conversion.md:424
+#: python-novice-gapminder/_episodes/03-types-conversion.md:461
+#: python-novice-gapminder/_episodes/04-built-in.md:259
+#: python-novice-gapminder/_episodes/04-built-in.md:312
+#: python-novice-gapminder/_episodes/04-built-in.md:324
+#: python-novice-gapminder/_episodes/04-built-in.md:337
+#: python-novice-gapminder/_episodes/06-libraries.md:150
+#: python-novice-gapminder/_episodes/06-libraries.md:207
+#: python-novice-gapminder/_episodes/06-libraries.md:238
+#: python-novice-gapminder/_episodes/06-libraries.md:256
+#: python-novice-gapminder/_episodes/06-libraries.md:295
+#: python-novice-gapminder/_episodes/06-libraries.md:327
+#: python-novice-gapminder/_episodes/06-libraries.md:357
+#: python-novice-gapminder/_episodes/06-libraries.md:378
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:241
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:336
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:365
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:388
+#: python-novice-gapminder/_episodes/08-data-frames.md:342
+#: python-novice-gapminder/_episodes/08-data-frames.md:356
+#: python-novice-gapminder/_episodes/08-data-frames.md:369
+#: python-novice-gapminder/_episodes/08-data-frames.md:394
+#: python-novice-gapminder/_episodes/08-data-frames.md:409
+#: python-novice-gapminder/_episodes/08-data-frames.md:450
+#: python-novice-gapminder/_episodes/08-data-frames.md:463
+#: python-novice-gapminder/_episodes/08-data-frames.md:471
+#: python-novice-gapminder/_episodes/08-data-frames.md:483
+#: python-novice-gapminder/_episodes/08-data-frames.md:511
+#: python-novice-gapminder/_episodes/08-data-frames.md:549
+#: python-novice-gapminder/_episodes/08-data-frames.md:558
+#: python-novice-gapminder/_episodes/08-data-frames.md:567
+#: python-novice-gapminder/_episodes/09-plotting.md:200
+#: python-novice-gapminder/_episodes/09-plotting.md:242
+#: python-novice-gapminder/_episodes/09-plotting.md:275
+#: python-novice-gapminder/_episodes/11-lists.md:236
+#: python-novice-gapminder/_episodes/11-lists.md:249
+#: python-novice-gapminder/_episodes/11-lists.md:275
+#: python-novice-gapminder/_episodes/11-lists.md:304
+#: python-novice-gapminder/_episodes/11-lists.md:333
+#: python-novice-gapminder/_episodes/11-lists.md:353
+#: python-novice-gapminder/_episodes/11-lists.md:391
+#: python-novice-gapminder/_episodes/11-lists.md:432
+#: python-novice-gapminder/_episodes/12-for-loops.md:187
+#: python-novice-gapminder/_episodes/12-for-loops.md:212
+#: python-novice-gapminder/_episodes/12-for-loops.md:237
+#: python-novice-gapminder/_episodes/12-for-loops.md:314
+#: python-novice-gapminder/_episodes/12-for-loops.md:344
+#: python-novice-gapminder/_episodes/12-for-loops.md:382
+#: python-novice-gapminder/_episodes/12-for-loops.md:404
+#: python-novice-gapminder/_episodes/13-conditionals.md:274
+#: python-novice-gapminder/_episodes/13-conditionals.md:312
+#: python-novice-gapminder/_episodes/13-conditionals.md:339
+#: python-novice-gapminder/_episodes/13-conditionals.md:376
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:123
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:155
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:185
+#: python-novice-gapminder/_episodes/16-writing-functions.md:173
+#: python-novice-gapminder/_episodes/16-writing-functions.md:199
+#: python-novice-gapminder/_episodes/16-writing-functions.md:239
+#: python-novice-gapminder/_episodes/16-writing-functions.md:266
+#: python-novice-gapminder/_episodes/16-writing-functions.md:301
+#: python-novice-gapminder/_episodes/16-writing-functions.md:332
+#: python-novice-gapminder/_episodes/16-writing-functions.md:403
+#: python-novice-gapminder/_episodes/16-writing-functions.md:498
+#: python-novice-gapminder/_episodes/16-writing-functions.md:544
+#: python-novice-gapminder/_episodes/17-scope.md:74
+#: python-novice-gapminder/_episodes/17-scope.md:109
+#: python-novice-gapminder/_episodes/18-style.md:126
+#: python-novice-gapminder/_episodes/18-style.md:154
+#: python-novice-gapminder/_episodes/18-style.md:233
+msgid "{: .challenge}"
+msgstr "{: .challenge}"
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:207
+msgid "## Use the Jupyter Notebook for editing and running Python."
+msgstr "## Usa el Cuaderno de Jupyter para editar y ejecutar Python."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:209
+msgid ""
+"*   While it's common to write Python scripts using a text editor, we are "
+"going to use the [Jupyter Notebook][jupyter] for the remainder of this "
+"workshop."
+msgstr ""
+"*   Si bien es común escribir scripts de Python usando un editor de texto, "
+"vamos a usar el [Jupyter Notebook][jupyter] para el resto de este taller."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:210
+msgid "*   This has several advantages:"
+msgstr "* Esto tiene varias ventajas:"
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:211
+msgid "    *   You can easily type, edit, and copy and paste blocks of code."
+msgstr ""
+"    *   Puedes escribir, editar y copiar y pegar fácilmente bloques de "
+"código."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:212
+msgid ""
+"    *   Tab complete allows you to easily access the names of things you are"
+" using"
+msgstr ""
+"    *   Autocompletar (con el tabulador) permite acceder fácilmente a los "
+"nombres de las cosas que estás utilizando"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:213
+msgid ""
+"        and learn more about them.\n"
+"    *   It allows you to annotate your code with links, different sized text, bullets, etc.\n"
+"        to make it more accessible to you and your collaborators.\n"
+"    *   It allows you to display figures next to the code that produces them\n"
+"        to tell a complete story of the analysis.\n"
+"*   Each notebook contains one or more cells that contain code, text, or images."
+msgstr ""
+"        y aprender más sobre ellos\n"
+"    *   Esto te permite anotar tu código con enlaces, texto de diferentes tamaños, viñetas, etc.\n"
+"        para que sea más accesible para ti y tus colaboradores.\n"
+"    *   Esto te permite mostrar figuras al lado del código que las produce\n"
+"        para contar una historia completa del análisis.\n"
+"*   Cada cuaderno contiene una o más celdas que contienen código, texto o imágenes."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:220
+msgid "> ## Code vs. Text"
+msgstr "> ## Código vs. Texto"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:221
+msgid ""
+">\n"
+"> Jupyter mixes code and text in different types of blocks, called cells. We often use the term\n"
+"> \"code\" to mean \"the source code of software written in a language such as Python\".\n"
+"> A \"code cell\" in a Notebook is a cell that contains software;\n"
+"> a \"text cell\" is one that contains ordinary prose written for human beings."
+msgstr ""
+">\n"
+"> Jupyter mezcla código y texto en diferentes tipos de bloques, llamados celdas. A menudo usamos el término\n"
+"> \"código\" que significa \"el código fuente del software escrito en un lenguaje como Python\".\n"
+"> Una \"celda de código\" en una cuaderno es una celda que contiene software;\n"
+"> una \"celda de texto\" es una que contiene a prosa ordinaria escrita para seres humanos."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:228
+msgid "## The Notebook has Command and Edit modes."
+msgstr "## Los cuadernos tienen modos Comandos y Edición."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:230
+msgid ""
+"*   If you press <kbd>Esc</kbd> and <kbd>Return</kbd> alternately, the outer"
+" border of your code cell will change from gray to blue."
+msgstr ""
+"*   Si presionas <kbd>Esc</kbd> y <kbd>Return</kbd> alternadamente, el borde"
+" exterior de tu celda de código cambiará de gris a azul."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:231
+msgid ""
+"*   These are the **Command** (gray) and **Edit** (blue) modes of your "
+"notebook."
+msgstr ""
+"*   Estos son los modos **Comando** (gris) y **Edición** (azul) de tu "
+"cuaderno."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:232
+msgid ""
+"*   Command mode allows you to edit notebook-level features, and Edit mode "
+"changes the content of cells."
+msgstr ""
+"*   El modo de comando te permite editar características a nivel de tu "
+"cuaderno, y el modo Editar cambia el contenido de las celdas."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:233
+msgid "*   When in Command mode (esc/gray),"
+msgstr "*   Cuando está en modo Comando (esc/gris),"
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:234
+msgid ""
+"    *   The <kbd>b</kbd> key will make a new cell below the currently "
+"selected cell."
+msgstr ""
+"    *   La tecla <kbd>b</kbd>  creará una nueva celda debajo de la celda "
+"seleccionada actualmente."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:235
+msgid "    *   The <kbd>a</kbd> key will make one above."
+msgstr "    *   La tecla <kbd>a</kbd> creará una arriba."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:236
+msgid "    *   The <kbd>x</kbd> key will delete the current cell."
+msgstr "    *   La tecla <kbd>x</kbd> borrará la actual celda."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:237
+msgid ""
+"    *   The <kbd>z</kbd> key will undo your last cell operation (which could"
+" be a deletion, creation, etc)."
+msgstr ""
+"    *   La tecla <kbd>z</kbd> deshará su última operación de celda (que "
+"podría ser una eliminación, creación, etc.)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:238
+msgid ""
+"*   All actions can be done using the menus, but there are lots of keyboard "
+"shortcuts to speed things up."
+msgstr ""
+"*   Todas las acciones se pueden hacer usando los menús, pero hay muchos "
+"atajos de teclado para acelerar las cosas."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:240
+msgid "> ## Command Vs. Edit"
+msgstr "> ## Comando Vs. Editar"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:241
+msgid ""
+">\n"
+"> In the Jupyter notebook page are you currently in Command or Edit mode?  \n"
+"> Switch between the modes. \n"
+"> Use the shortcuts to generate a new cell. \n"
+"> Use the shortcuts to delete a cell.\n"
+"> Use the shortcuts to undo the last cell operation you performed.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Command mode has a grey border and Edit mode has a blue border. \n"
+"> > Use <kbd>Esc</kbd> and <kbd>Return</kbd> to switch between modes. \n"
+"> > You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>b</kbd> or <kbd>a</kbd>.\n"
+"> > You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>x</kbd>.\n"
+"> > You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>z</kbd>."
+msgstr ""
+">\n"
+"> En la página de un Cuaderno de Jupyter, ¿estás actualmente en modo de comando o edición?  \n"
+"> Intercambia entre modos. \n"
+"> Usa los atajos para generar una nueva celda. \n"
+"> Usa los atajos para borrar una celda\n"
+"> Usa los atajos para deshacer la última operación de celda que realizaste.\n"
+">\n"
+"> > ## Solución\n"
+"> >\n"
+"> > El modo de comando tiene un borde gris y el modo de edición tiene un borde azul. \n"
+"> > Usa <kbd>Esc</kbd> y <kbd>Return</kbd> para intercambiar modos\n"
+"> > Necesitas estar en modo comando (Presiona <kbd>Esc</kbd> si tu celda esta en azul). Teclea <kbd>b</kbd> o <kbd>a</kbd>.\n"
+"> > Necesitas estar en modo comando (Presiona <kbd>Esc</kbd> si tu celda es azul). Teclea <kbd>x</kbd>.\n"
+"> > Necesitas estar en modo comando (Presiona <kbd>Esc</kbd> si tu celda es azul). Teclea <kbd>z</kbd>."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:258
+msgid "### Use the keyboard and mouse to select and edit cells."
+msgstr "### Usa el teclado y el ratón para seleccionar y editar celdas."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:260
+msgid ""
+"*   Pressing the <kbd>Return</kbd> key turns the border blue and engages "
+"Edit mode, which allows "
+msgstr ""
+"*   Presiona la tecla <kbd>Return</kbd> convierte el borde en azul y activa "
+"el modo Edición, que te permite"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:261
+msgid ""
+"    you to type within the cell.\n"
+"*   Because we want to be able to write many lines of code in a single cell,\n"
+"    pressing the <kbd>Return</kbd> key when in Edit mode (blue) moves the cursor to the next line \n"
+"    in the cell just like in a text editor.\n"
+"*   We need some other way to tell the Notebook we want to run what's in the cell.\n"
+"*   Pressing <kbd>Shift</kbd>+<kbd>Return</kbd> together will execute the contents of the cell.\n"
+"*   Notice that the <kbd>Return</kbd> and <kbd>Shift</kbd> keys on the right of the keyboard are \n"
+"    right next to each other."
+msgstr ""
+"    escribir dentro de la celda.\n"
+"*   Debido a que queremos poder escribir muchas líneas de código en una sola celda,\n"
+"    presiona la tecla <kbd>Return</kbd> cuando está en modo Edición (azul) mueve el cursor a la siguiente línea \n"
+"    en la celda al igual que en un editor de texto.\n"
+"*   Necesitamos otra forma de decirle al cuaderno que queremos ejecutar lo que hay en la celda.\n"
+"*   Presiona <kbd>Shift</kbd>+<kbd>Return</kbd> juntos para ejecutar el contenido de la celda.\n"
+"*   Ten en cuenta que <kbd>Return</kbd> y <kbd>Shift</kbd> a la derecha del teclado están\n"
+"    una al lado de la otra."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:270
+msgid "### The Notebook will turn Markdown into pretty-printed documentation."
+msgstr "### El Cuaderno convertirá Markdown en documentación con formato."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:272
+msgid "*   Notebooks can also render [Markdown][markdown]."
+msgstr "*   Los cuadernos  también pueden mostrar [Markdown][markdown]."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:273
+msgid "    *   A simple plain-text format for writing lists, links, "
+msgstr ""
+"    *   Un formato de texto plano simple para escribir listas, enlaces,"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:274
+msgid ""
+"        and other things that might go into a web page.\n"
+"    *   Equivalently, a subset of HTML that looks like what you'd send in an old-fashioned email.\n"
+"*   Turn the current cell into a Markdown cell by entering the Command mode (<kbd>Esc</kbd>/gray) \n"
+"    and press the <kbd>M</kbd> key.\n"
+"*   `In [ ]:` will disappear to show it is no longer a code cell and you will be able to write in \n"
+"    Markdown.\n"
+"*   Turn the current cell into a Code cell by entering the Command mode (<kbd>Esc</kbd>/gray) and \n"
+"    press the <kbd>y</kbd> key."
+msgstr ""
+"        y otras cosas que pueden ir en una página web.\n"
+"    *   De manera equivalente, un subconjunto de HTML que se parece a lo que enviarías en un correo electrónico antiguo.\n"
+"*   Convierte la celda actual en una celda Markdown ingresando el modo Comando (<kbd>Esc</kbd>/gris) \n"
+"    y presiona la tecla <kbd>M</kbd>.\n"
+"*   `In [ ]:` desaparecerá para mostrar que ya no es una celda de código y podrás escribir\n"
+"    Markdown.\n"
+"*   Convierte la celda actual en una celda de Código ingresando el modo Comando (<kbd>Esc</kbd>/gris) y presiona la tecla <kbd>y</kbd>."
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:283
+msgid "### Markdown does most of what HTML does."
+msgstr "### Markdown hace la mayor parte de lo que hace HTML."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:285
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"*   Use asterisks\n"
+"*   to create\n"
+"*   bullet lists.\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"*   Use asterisks\n"
+"*   to create\n"
+"*   bullet lists.\n"
+"  </div>\n"
+"</div>"
+msgstr ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"*   Usa asteriscos\n"
+"*   para crear\n"
+"*   listas de viñetas.\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"*   Usa asteriscos\n"
+"*   para crear\n"
+"*   listas de viñetas.\n"
+"  </div>\n"
+"</div>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:300
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"1.  Use numbers\n"
+"1.  to create\n"
+"1.  numbered lists.\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"1.  Use numbers\n"
+"1.  to create\n"
+"1.  numbered lists.\n"
+"  </div>\n"
+"</div>"
+msgstr ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"1.  Usa números\n"
+"1.  para crear\n"
+"1.  listas numeradas.\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"1.  Usa números\n"
+"1. para crear\n"
+"1.  listas numeradas.\n"
+"  </div>\n"
+"</div>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:315
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"*  You can use indents\n"
+"\t*  To create sublists \n"
+"\t*  of the same type\n"
+"*  Or sublists\n"
+"\t1. Of different\n"
+"\t1. types\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"*  You can use indents\n"
+"\t*  To create sublists\n"
+"\t*  of the same type\n"
+"*  Or sublists\n"
+"\t1. Of different\n"
+"\t1. types\n"
+"  </div>\n"
+"</div>"
+msgstr ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"*  Puedes usar sangrías\n"
+"  *  Para crear sublistas \n"
+"  *  del mismo tipo\n"
+"*  O sublistas\n"
+"  1. de diferentes\n"
+"  1. tipos\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"*  Puedes usar sangrías\n"
+"  * Para crear sublistas \n"
+"  * del mismo tipo\n"
+"*  O sublistas\n"
+"  1. de diferentes\n"
+"  1. tipos\n"
+"  </div>\n"
+"</div>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:336
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"# A Level-1 Heading\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"# A Level-1 Heading\n"
+"  </div>\n"
+"</div>"
+msgstr ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"# Un título de nivel-1\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"# Un título de nivel-1\n"
+"  </div>\n"
+"</div>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:347
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"## A Level-2 Heading (etc.)\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"## A Level-2 Heading (etc.)\n"
+"  </div>\n"
+"</div>"
+msgstr ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"## Un título de nivel-2 (etc.)\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"## Un título de nivel-2 (etc.)\n"
+"  </div>\n"
+"</div>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:358
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"Line breaks\n"
+"don't matter."
+msgstr ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"Los saltos de línea\n"
+"no importan."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:364
+msgid ""
+"But blank lines\n"
+"create new paragraphs.\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"Line breaks\n"
+"don't matter."
+msgstr ""
+"Pero líneas en blanco\n"
+"crean párrafos nuevos.\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"Los saltos de línea\n"
+"no importan."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:372
+msgid ""
+"But blank lines\n"
+"create new paragraphs.\n"
+"  </div>\n"
+"</div>"
+msgstr ""
+"Pero líneas en blanco\n"
+"crean párrafos nuevos.\n"
+"  </div>\n"
+"</div>"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:377
+msgid ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"[Create links](http://software-carpentry.org) with `[...](...)`.\n"
+"Or use [named links][data_carpentry]."
+msgstr ""
+"<div class=\"row\">\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"~~~\n"
+"[Crea enlaces](http://software-carpentry.org) con `[...](...)`.\n"
+"O usa el [nombre del enlace][data_carpentry]."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:383
+msgid ""
+"[data_carpentry]: http://datacarpentry.org\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"[Create links](http://software-carpentry.org) with `[...](...)`.\n"
+"Or use [named links][data_carpentry]."
+msgstr ""
+"[data_carpentry]: http://datacarpentry.org\n"
+"~~~\n"
+"  </div>\n"
+"  <div class=\"col-md-6\" markdown=\"1\">\n"
+"[Crea enlaces](http://software-carpentry.org) con `[...](...)`.\n"
+"O usa el [nombre del enlace][data_carpentry]."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:390
+msgid ""
+"[data_carpentry]: http://datacarpentry.org\n"
+"  </div>\n"
+"</div>"
+msgstr ""
+"[data_carpentry]: http://datacarpentry.org\n"
+"  </div>\n"
+"</div>"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:394
+msgid "> ## Creating Lists in Markdown"
+msgstr "> ## Creando listas en Markdown"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:395
+msgid ""
+">\n"
+"> Create a nested list in a Markdown cell in a notebook that looks like this:\n"
+">\n"
+"> 1.  Get funding.\n"
+"> 2.  Do work.\n"
+">     *   Design experiment.\n"
+">     *   Collect data.\n"
+">     *   Analyze.\n"
+"> 3.  Write up.\n"
+"> 4.  Publish.\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > This challenge integrates both the numbered list and bullet list. \n"
+"> > Note that the bullet list is indented 2 spaces so that it is inline with the items of the numbered list.\n"
+"> > ~~~\n"
+"> > 1.  Get funding.\n"
+"> > 2.  Do work.\n"
+"> >     *   Design experiment.\n"
+"> >     *   Collect data.\n"
+"> >     *   Analyze.\n"
+"> > 3.  Write up.\n"
+"> > 4.  Publish.\n"
+"> > ~~~"
+msgstr ""
+">\n"
+"> Crea una lista anidada en una celda Markdown en un cuaderno que tenga este aspecto:\n"
+">\n"
+"> 1.  Obtener fondos\n"
+"> 2.  Hacer el trabajo.\n"
+">     *   Diseñar experimento.\n"
+">     *   Recolectar datos.\n"
+">     *   Analizar.\n"
+"> 3.  Escribir.\n"
+"> 4.  Publicar.\n"
+"> \n"
+"> > ## Solución\n"
+"> >\n"
+"> > Este desafío integra tanto la lista numerada como la lista de viñetas. \n"
+"> > Ten en cuenta que la lista de viñetas tiene sangría de 2 espacios para que esté en línea con los elementos de la lista numerada.\n"
+"> > ~~~\n"
+"> > 1.  Obtener fondos.\n"
+"> > 2.  Hacer el trabajo.\n"
+"> >     *   Diseñar experimento.\n"
+"> >     *   Recolectar datos.\n"
+"> >     *   Analizar.\n"
+"> > 3.  Escribir.\n"
+"> > 4.  Publicar.\n"
+"> > ~~~"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:422
+msgid "> ## More Math"
+msgstr "> ## Más matemáticas"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:423
+msgid ""
+">\n"
+"> What is displayed when a Python cell in a notebook\n"
+"> that contains several calculations is executed?\n"
+"> For example, what happens when this cell is executed?\n"
+">\n"
+"> ~~~\n"
+"> 7 * 3\n"
+"> 2 + 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > Python returns the output of the last calculation.\n"
+"> > ~~~\n"
+"> > 3\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> ¿Qué se muestra cuando se ejecuta una celda de Python en un cuaderno\n"
+"> que contiene varios cálculos?\n"
+"> Por ejemplo, ¿qué sucede cuando esta celda es ejecutada?\n"
+">\n"
+"> ~~~\n"
+"> 7 * 3\n"
+"> 2 + 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> \n"
+"> > ## Solución\n"
+"> >\n"
+"> > Python devuelve la salida del último cálculo.\n"
+"> > ~~~\n"
+"> > 3\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:444
+msgid "> ## Change an Existing Cell from Code to Markdown"
+msgstr "> ## Cambiar una celda existente de código a Markdown"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:445
+msgid ""
+">\n"
+"> What happens if you write some Python in a code cell\n"
+"> and then you switch it to a Markdown cell?\n"
+"> For example,\n"
+"> put the following in a code cell:\n"
+">\n"
+"> ~~~\n"
+"> x = 6 * 7 + 12\n"
+"> print(x)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> And then run it with <kbd>Shift</kbd>+<kbd>Return</kbd> to be sure that it works as a code cell.\n"
+"> Now go back to the cell and use <kbd>Esc</kbd> then <kbd>m</kbd> to switch the cell to Markdown\n"
+"> and \"run\" it with <kbd>Shift</kbd>+<kbd>Return</kbd>.\n"
+"> What happened and how might this be useful?\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > The Python code gets treated like Markdown text.\n"
+"> > The lines appear as if they are part of one contiguous paragraph.\n"
+"> > This could be useful to temporarily turn on and off cells in notebooks that get used for multiple purposes. \n"
+"> > ~~~\n"
+"> > x = 6 * 7 + 12 print(x)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> ¿Qué sucede si escribes algo de Python en una celda de código\n"
+"> y luego lo cambias a una celda Markdown?\n"
+"> Por ejemplo,\n"
+"> pon lo siguiente en una celda de código:\n"
+">\n"
+"> ~~~\n"
+"> x = 6 * 7 + 12\n"
+"> print(x)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> Y entonces corre con <kbd>Shift</kbd>+<kbd>Return</kbd> Para estar seguro de que funciona como una celda de código.\n"
+"> Ahora vuelve a la celda y usa<kbd>Esc</kbd> entonces <kbd>m</kbd> para cambiar la celda a Markdown\n"
+"> y \"corre\" esto con <kbd>Shift</kbd>+<kbd>Return</kbd>.\n"
+"> ¿Qué pasó y cómo podría ser útil?\n"
+"> \n"
+"> > ## Solución\n"
+"> >\n"
+"> > El código de Python se trata como texto de Markdown.\n"
+"> > Las líneas aparecen como si fueran parte de un párrafo contiguo.\n"
+"> > Esto podría ser útil para activar y desactivar temporalmente las celdas en los cuadernos que se utilizan para múltiples propósitos. \n"
+"> > ~~~\n"
+"> > x = 6 * 7 + 12 print(x)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:474
+msgid "> ## Equations"
+msgstr "> ## Ecuaciones"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:475
+msgid ""
+">\n"
+"> Standard Markdown (such as we're using for these notes) won't render equations,\n"
+"> but the Notebook will.\n"
+"> Create a new Markdown cell\n"
+"> and enter the following:\n"
+">\n"
+"> ~~~\n"
+"> $\\sum_{i=1}^{N} 2^{-i} \\approx 1$\n"
+"> ~~~\n"
+">\n"
+"> (It's probably easier to copy and paste.)\n"
+"> What does it display?\n"
+"> What do you think the underscore, `_`, circumflex, `^`, and dollar sign, `$`, do?\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > The notebook shows the equation as it would be rendered from LaTeX equation syntax.\n"
+"> > The dollar sign, `$`, is used to tell Markdown that the text in between is a LaTeX equation.\n"
+"> > If you're not familiar with LaTeX,  underscore, `_`, is used for subscripts and circumflex, `^`, is used for superscripts.\n"
+"> > A pair of curly braces, `{` and `}`, is used to group text together so that the statement `i=1` becomes the subscript and `N` becomes the superscript.\n"
+"> > Similarly, `-i` is in curly braces to make the whole statement the superscript for `2`.\n"
+"> > `\\sum` and `\\approx` are LaTeX commands for \"sum over\" and \"approximate\" symbols. "
+msgstr ""
+">\n"
+"> Markdown estándar (como el que estamos usando para estas notas) no mostrará ecuaciones,\n"
+"> pero el Cuaderno lo hará.\n"
+"> Crea una nueva celda Markdown\n"
+"> e introduce lo siguiente:\n"
+">\n"
+"> ~~~\n"
+"> $\\sum_{i=1}^{N} 2^{-i} \\approx 1$\n"
+"> ~~~\n"
+">\n"
+"> (Probablemente sea más fácil copiar y pegar.)\n"
+"> ¿Qué muestra?\n"
+"> ¿Qué piensas que hace el subguión, `_`, circunflejo, `^`, y el signo de dólar, `$`?\n"
+"> \n"
+"> > ## Solución\n"
+"> >\n"
+"> > El cuaderno muestra la ecuación tal como se representaría a partir de la sintaxis de ecuación de LaTeX.\n"
+"> > El signo de dólar, `$`, se usa para indicarle a Markdown que el texto intermedio es una ecuación de LaTeX.\n"
+"> > Si no está familiarizado con LaTeX, el guion bajo, `_`, se usa para subíndices y el circunflejo,` ^ `, se usa para superíndices.\n"
+"> > Se usa un par de llaves, `{` y `}`, para agrupar el texto de manera que la declaración`i=1` se convierta en el subíndice y `N` se convierta en el superíndice.\n"
+"> > Similarmente, `-i` está entre llaves para hacer que toda la declaración sea el superíndice de `2`.\n"
+"> > `\\sum` y `\\approx` son comandos LaTeX  para símbolos de \"suma\" y \"aproximado\". "
+
+# header
+#: python-novice-gapminder/_episodes/01-run-quit.md:500
+msgid "## Closing JupyterLab"
+msgstr "## Cerrando JupyterLab"
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:502
+msgid ""
+"*   From the Menu Bar select the \"File\" menu and the choose \"Quit\" at "
+"the bottom of the dropdown menu. You will be prompted to confirm that you "
+"wish to shutdown the JupyterLab server (don't forget to save your work!). "
+"Click \"Confirm\" to shutdown the JupyterLab server."
+msgstr ""
+"*  En la barra de menú, selecciona el menú \"File\" y elige \"Quit\" en la "
+"parte inferior del menú desplegable. Se te pedirá que confirmes que deseas "
+"cerrar el servidor JupyterLab (¡no olvides guardar tu trabajo!). Haz clic en"
+" \"Confirm\" para cerrar el servidor JupyterLab."
+
+# unordered list
+#: python-novice-gapminder/_episodes/01-run-quit.md:503
+msgid ""
+"*   To restart the JupyterLab server you will need to re-run the following "
+"command from a shell."
+msgstr ""
+"*   Para reiniciar el servidor JupyterLab, deberás volver a ejecutar el "
+"siguiente comando desde una terminal."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/01-run-quit.md:509
+msgid "> ## Closing JupyerLab"
+msgstr "> ## Cerrando JupyerLab"
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:510
+msgid ""
+">\n"
+"> Practice closing and restarting the JupyterLab server."
+msgstr ""
+">\n"
+"> Practica cerrar y reiniciar el servidor JupyterLab."
+
+#: python-novice-gapminder/_episodes/01-run-quit.md:513
+msgid ""
+"[anaconda]: https://docs.continuum.io/anaconda/install\n"
+"[jupyterlab-ui]: https://jupyterlab.readthedocs.io/en/stable/user/interface.html\n"
+"[jupyterlab-notebook-docs]: https://jupyterlab.readthedocs.io/en/stable/user/notebook.html\n"
+"[markdown]: https://en.wikipedia.org/wiki/Markdown"
+msgstr ""
+"[anaconda]: https://docs.continuum.io/anaconda/install\n"
+"[jupyterlab-ui]: https://jupyterlab.readthedocs.io/en/stable/user/interface.html\n"
+"[jupyterlab-notebook-docs]: https://jupyterlab.readthedocs.io/en/stable/user/notebook.html\n"
+"[markdown]: https://en.wikipedia.org/wiki/Markdown"
