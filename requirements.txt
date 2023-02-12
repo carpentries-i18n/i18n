@@ -1,0 +1,5 @@
+ruamel.yaml >= 0.16.1
+gitpython >= 2.1.13
+PyGithub >= 1.43.8
+transifex-client >= 0.13.6
+pandas
