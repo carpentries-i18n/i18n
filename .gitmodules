@@ -22,3 +22,6 @@
 [submodule "gap-lesson"]
 	url = https://github.com/carpentries-i18n/gap-lesson.git
 	path = gap-lesson
+[submodule "shell-novice"]
+	path = shell-novice
+	url = https://github.com/carpentries-i18n/shell-novice.git
