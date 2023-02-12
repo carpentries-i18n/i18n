@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/19-wrap.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Wrap-Up\"\n"
+"teaching: 20\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"What have we learned?\"\n"
+"- \"What else is out there and where do I find it?\"\n"
+"objectives:\n"
+"- \"Name and locate scientific Python community sites for software, workshops, and help.\"\n"
+"keypoints:\n"
+"- \"Python supports a large and diverse community across academia and industry.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:14
+msgid "Leslie Lamport once said, \"Writing is nature's way of showing you how sloppy your thinking is.\"\n"
+"The same is true of programming:\n"
+"many things that seem obvious when we're thinking about them\n"
+"turn out to be anything but when we have to explain them precisely."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:19
+# header
+msgid "## Python supports a large and diverse community across academia and industry."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:21
+# unordered list
+msgid "*   The [Python 3 documentation](https://docs.python.org/3/) covers the core language"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:22
+msgid "    and the standard library."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:24
+# unordered list
+msgid "*   [PyCon](https://pycon.org/) is the largest annual conference for the Python community."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:26
+# unordered list
+msgid "*   [SciPy](https://scipy.org) is a rich collection of scientific utilities."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:27
+msgid "    It is also the name of [a series of annual conferences](https://conference.scipy.org/)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:29
+# unordered list
+msgid "*   [Jupyter](https://jupyter.org) is the home of Project Jupyter."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:31
+# unordered list
+msgid "*   [Pandas](https://pandas.pydata.org) is the home of the Pandas data library."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:33
+# unordered list
+msgid "*   Stack Overflow's [general Python section](https://stackoverflow.com/questions/tagged/python?tab=Votes)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/19-wrap.md:34
+msgid "    can be helpful,\n"
+"    as well as the sections on [NumPy](https://stackoverflow.com/questions/tagged/numpy?tab=Votes),\n"
+"    [SciPy](https://stackoverflow.com/questions/tagged/scipy?tab=Votes), and\n"
+"    [Pandas](https://stackoverflow.com/questions/tagged/pandas?tab=Votes)."
+msgstr ""
+

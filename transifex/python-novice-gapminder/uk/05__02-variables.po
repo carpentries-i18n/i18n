@@ -1,0 +1,1057 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Ольга Чуб, 2022
+# Svitlana Braichenko, 2022
+# Olexandr Konovalov, 2022
+# Марина Новожилова, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Марина Новожилова, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/02-variables.md:1
+msgid ""
+"---\n"
+"title: \"Variables and Assignment\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I store data in programs?\"\n"
+"objectives:\n"
+"- \"Write programs that assign scalar values to variables and perform calculations with those values.\"\n"
+"- \"Correctly trace value changes in programs that use scalar assignment.\"\n"
+"keypoints:\n"
+"- \"Use variables to store values.\"\n"
+"- \"Use `print` to display values.\"\n"
+"- \"Variables persist between cells.\"\n"
+"- \"Variables must be created before they are used.\"\n"
+"- \"Variables can be used in calculations.\"\n"
+"- \"Use an index to get a single character from a string.\"\n"
+"- \"Use a slice to get a substring.\"\n"
+"- \"Use the built-in function `len` to find the length of a string.\"\n"
+"- \"Python is case-sensitive.\"\n"
+"- \"Use meaningful variable names.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Змінні та присвоєння\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Як я можу зберігати дані в програмах?\"\n"
+"objectives:\n"
+"- \"Написати програми, які присвоюють скалярні значення змінним і виконують обчислення з цими значеннями.\"\n"
+"- \"Правильнo відстежувати зміни значень у програмах, які використовують скалярне присвоєння.\"\n"
+"keypoints:\n"
+"- \"Використовуйте змінні для зберігання значень.\"\n"
+"- \"Використовуйте `print` для відображення значень.\"\n"
+"- \"Змінні зберігаються між клітинками.\"\n"
+"- \"Змінні мають бути створені перед їх використанням.\"\n"
+"- \"Змінні можна використовувати в обчисленнях.\"\n"
+"- \"Використовуйте індекс, щоб отримати один символ із рядка.\"\n"
+"- \"Використовуйте зріз, щоб отримати підрядок.\"\n"
+"- \"Використовуйте вбудовану функцію `len`, щоб знайти довжину рядка.\"\n"
+"- \"Python чутливий до регістру.\"\n"
+"- \"Використовуйте змістовні імена змінних.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:22
+msgid "## Use variables to store values."
+msgstr "## Використовуйте змінні для зберігання значень."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:24
+msgid "*   **Variables** are names for values."
+msgstr "*   **Змінні** - це назви значень."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:25
+msgid ""
+"*   In Python the `=` symbol assigns the value on the right to the name on "
+"the left."
+msgstr ""
+"*   У Python символ `=` використовується для присвоєння значення, яке "
+"знаходиться праворуч, до її назви, яка вказана ліворуч."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:26
+msgid "*   The variable is created when a value is assigned to it."
+msgstr "*   Змінна створeна, коли ій присвоюється значення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:27
+msgid "*   Here, Python assigns an age to a variable `age`"
+msgstr "*   Нижче Python присвоює значення року змінній `age`"
+
+#: python-novice-gapminder/_episodes/02-variables.md:28
+msgid "    and a name in quotes to a variable `first_name`."
+msgstr "    та ім'я у лапках - змінній `first_name`."
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:30
+msgid ""
+"~~~\n"
+"age = 42\n"
+"first_name = 'Ahmed'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"age = 42\n"
+"first_name = 'Ahmed'\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/02-variables.md:34
+#: python-novice-gapminder/_episodes/02-variables.md:201
+#: python-novice-gapminder/_episodes/04-built-in.md:34
+#: python-novice-gapminder/_episodes/09-plotting.md:27
+#: python-novice-gapminder/_episodes/09-plotting.md:39
+#: python-novice-gapminder/_episodes/09-plotting.md:67
+#: python-novice-gapminder/_episodes/09-plotting.md:79
+#: python-novice-gapminder/_episodes/09-plotting.md:91
+#: python-novice-gapminder/_episodes/09-plotting.md:107
+#: python-novice-gapminder/_episodes/09-plotting.md:127
+#: python-novice-gapminder/_episodes/09-plotting.md:163
+#: python-novice-gapminder/_episodes/11-lists.md:150
+#: python-novice-gapminder/_episodes/12-for-loops.md:34
+#: python-novice-gapminder/_episodes/12-for-loops.md:43
+#: python-novice-gapminder/_episodes/12-for-loops.md:60
+#: python-novice-gapminder/_episodes/12-for-loops.md:111
+#: python-novice-gapminder/_episodes/16-writing-functions.md:43
+#: python-novice-gapminder/_episodes/16-writing-functions.md:111
+#: python-novice-gapminder/_episodes/17-scope.md:31
+#: python-novice-gapminder/_episodes/18-style.md:56
+#: python-novice-gapminder/reference.md:104
+#: python-novice-gapminder/reference.md:127
+#: python-novice-gapminder/reference.md:152
+#: python-novice-gapminder/reference.md:167
+#: python-novice-gapminder/reference.md:181
+msgid "{: .language-python}"
+msgstr "{: .language-python}"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:36
+msgid "*   Variable names"
+msgstr "*  Назви змінних"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:37
+msgid ""
+"    * can **only** contain letters, digits, and underscore `_` (typically "
+"used to separate words in long variable names)"
+msgstr ""
+"    * можуть складатися **тільки**  з букв, цифр та підкреслення `_` (яке "
+"звичайно використовується, щоб відокремити слова у довгих назвах змінних)"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:38
+msgid "    * cannot start with a digit"
+msgstr "    * не можуть починатися з цифри"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:39
+msgid ""
+"    * are **case sensitive** (age, Age and AGE are three different "
+"variables)"
+msgstr ""
+"    * **залежать від регістру** (тобто `age`, `Age` та `AGE` - це три різні "
+"змінні)"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:40
+msgid ""
+"*   Variable names that start with underscores like `__alistairs_real_age` "
+"have a special meaning"
+msgstr ""
+"*   Назви змінних які починаються з підкреслення, як наприклад "
+"`__alistairs_real_age`, мають спеціальне значення,"
+
+#: python-novice-gapminder/_episodes/02-variables.md:41
+msgid "    so we won't do that until we understand the convention."
+msgstr ""
+"    і тому ми не будемо використовувати їх, доки не зрозуміємо цього "
+"правила."
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:43
+msgid "## Use `print` to display values."
+msgstr "## Використовуйте `print` для виводу значень."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:45
+msgid ""
+"*   Python has a built-in function called `print` that prints things as "
+"text."
+msgstr "*   Python має вбудовану функцію `print`, яка друкує щось як текст."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:46
+msgid "*   Call the function (i.e., tell Python to run it) by using its name."
+msgstr ""
+"*   Щоб викликати функцію (тобто, щоб виконати її), треба вказати її ім'я."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:47
+msgid ""
+"*   Provide values to the function (i.e., the things to print) in "
+"parentheses."
+msgstr ""
+"*   Щоб передати функції значення (тобто, те що треба надрукувати), їх треба"
+" помістити у дужки."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:48
+msgid ""
+"*   To add a string to the printout, wrap the string in single or double "
+"quotes."
+msgstr ""
+"*   Щоб направити до друку рядок тексту, його треба помістити у одинарні або"
+" подвійні лапки."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:49
+msgid "*   The values passed to the function are called **arguments**"
+msgstr "*  Значення, які передаються до функції, називаються **аргументами**"
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:51
+msgid ""
+"~~~\n"
+"print(first_name, 'is', age, 'years old')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(first_name, 'is', age, 'years old')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/02-variables.md:54
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"Ahmed is 42 years old\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"Ahmed is 42 years old\n"
+"~~~"
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/02-variables.md:58
+#: python-novice-gapminder/_episodes/02-variables.md:121
+#: python-novice-gapminder/_episodes/02-variables.md:144
+#: python-novice-gapminder/_episodes/02-variables.md:169
+#: python-novice-gapminder/_episodes/02-variables.md:180
+#: python-novice-gapminder/_episodes/03-types-conversion.md:44
+#: python-novice-gapminder/_episodes/03-types-conversion.md:54
+#: python-novice-gapminder/_episodes/03-types-conversion.md:67
+#: python-novice-gapminder/_episodes/03-types-conversion.md:95
+#: python-novice-gapminder/_episodes/03-types-conversion.md:108
+#: python-novice-gapminder/_episodes/03-types-conversion.md:121
+#: python-novice-gapminder/_episodes/03-types-conversion.md:169
+#: python-novice-gapminder/_episodes/03-types-conversion.md:185
+#: python-novice-gapminder/_episodes/03-types-conversion.md:204
+#: python-novice-gapminder/_episodes/04-built-in.md:58
+#: python-novice-gapminder/_episodes/04-built-in.md:76
+#: python-novice-gapminder/_episodes/04-built-in.md:109
+#: python-novice-gapminder/_episodes/04-built-in.md:120
+#: python-novice-gapminder/_episodes/04-built-in.md:139
+#: python-novice-gapminder/_episodes/04-built-in.md:236
+#: python-novice-gapminder/_episodes/06-libraries.md:56
+#: python-novice-gapminder/_episodes/06-libraries.md:94
+#: python-novice-gapminder/_episodes/06-libraries.md:110
+#: python-novice-gapminder/_episodes/06-libraries.md:126
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:54
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:101
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:128
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:153
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:180
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:221
+#: python-novice-gapminder/_episodes/08-data-frames.md:55
+#: python-novice-gapminder/_episodes/08-data-frames.md:69
+#: python-novice-gapminder/_episodes/08-data-frames.md:93
+#: python-novice-gapminder/_episodes/08-data-frames.md:112
+#: python-novice-gapminder/_episodes/08-data-frames.md:132
+#: python-novice-gapminder/_episodes/08-data-frames.md:156
+#: python-novice-gapminder/_episodes/08-data-frames.md:168
+#: python-novice-gapminder/_episodes/08-data-frames.md:203
+#: python-novice-gapminder/_episodes/08-data-frames.md:223
+#: python-novice-gapminder/_episodes/08-data-frames.md:243
+#: python-novice-gapminder/_episodes/08-data-frames.md:298
+#: python-novice-gapminder/_episodes/08-data-frames.md:326
+#: python-novice-gapminder/_episodes/11-lists.md:41
+#: python-novice-gapminder/_episodes/11-lists.md:56
+#: python-novice-gapminder/_episodes/11-lists.md:70
+#: python-novice-gapminder/_episodes/11-lists.md:88
+#: python-novice-gapminder/_episodes/11-lists.md:113
+#: python-novice-gapminder/_episodes/11-lists.md:134
+#: python-novice-gapminder/_episodes/11-lists.md:166
+#: python-novice-gapminder/_episodes/11-lists.md:201
+#: python-novice-gapminder/_episodes/12-for-loops.md:52
+#: python-novice-gapminder/_episodes/12-for-loops.md:131
+#: python-novice-gapminder/_episodes/12-for-loops.md:153
+#: python-novice-gapminder/_episodes/12-for-loops.md:172
+#: python-novice-gapminder/_episodes/13-conditionals.md:39
+#: python-novice-gapminder/_episodes/13-conditionals.md:57
+#: python-novice-gapminder/_episodes/13-conditionals.md:80
+#: python-novice-gapminder/_episodes/13-conditionals.md:107
+#: python-novice-gapminder/_episodes/13-conditionals.md:127
+#: python-novice-gapminder/_episodes/13-conditionals.md:143
+#: python-novice-gapminder/_episodes/13-conditionals.md:173
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:49
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:73
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:82
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:103
+#: python-novice-gapminder/_episodes/16-writing-functions.md:58
+#: python-novice-gapminder/_episodes/16-writing-functions.md:80
+#: python-novice-gapminder/_episodes/16-writing-functions.md:91
+#: python-novice-gapminder/_episodes/16-writing-functions.md:121
+#: python-novice-gapminder/_episodes/16-writing-functions.md:130
+#: python-novice-gapminder/_episodes/16-writing-functions.md:144
+#: python-novice-gapminder/_episodes/17-scope.md:50
+#: python-novice-gapminder/_episodes/18-style.md:84
+msgid "{: .output}"
+msgstr "{: .output}"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:60
+msgid ""
+"*   `print` automatically puts a single space between items to separate "
+"them."
+msgstr ""
+"*   `print` автоматично додає пропуск проміж надрукованими аргументами, щоб "
+"розділити їх."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:61
+msgid "*   And wraps around to a new line at the end."
+msgstr "*   Також `print` переходить на новий рядок після друку."
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:63
+msgid "## Variables must be created before they are used."
+msgstr "## Змінні мають бути створені перед їх використанням."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:65
+msgid ""
+"*   If a variable doesn't exist yet, or if the name has been mis-spelled,"
+msgstr "*   Якщо змінна не їснує, або її назва написана з помилкою,"
+
+#: python-novice-gapminder/_episodes/02-variables.md:66
+msgid ""
+"    Python reports an error. (Unlike some languages, which \"guess\" a "
+"default value.)"
+msgstr ""
+"    Python видасть помилку. (На відміну від деяких іншіх мов, які можуть "
+"\"вгадати\" якесь значення за замовчуванням.)"
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:68
+msgid ""
+"~~~\n"
+"print(last_name)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(last_name)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/02-variables.md:71
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"NameError                                 Traceback (most recent call last)\n"
+"<ipython-input-1-c1fbb4e96102> in <module>()\n"
+"----> 1 print(last_name)"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"NameError                                 Traceback (most recent call last)\n"
+"<ipython-input-1-c1fbb4e96102> in <module>()\n"
+"----> 1 print(last_name)"
+
+#: python-novice-gapminder/_episodes/02-variables.md:78
+msgid ""
+"NameError: name 'last_name' is not defined\n"
+"~~~"
+msgstr ""
+"NameError: name 'last_name' is not defined\n"
+"~~~"
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/02-variables.md:80
+#: python-novice-gapminder/_episodes/03-types-conversion.md:81
+#: python-novice-gapminder/_episodes/03-types-conversion.md:137
+#: python-novice-gapminder/_episodes/03-types-conversion.md:155
+#: python-novice-gapminder/_episodes/04-built-in.md:95
+#: python-novice-gapminder/_episodes/04-built-in.md:156
+#: python-novice-gapminder/_episodes/04-built-in.md:169
+#: python-novice-gapminder/_episodes/04-built-in.md:183
+#: python-novice-gapminder/_episodes/04-built-in.md:209
+#: python-novice-gapminder/_episodes/11-lists.md:183
+#: python-novice-gapminder/_episodes/12-for-loops.md:81
+#: python-novice-gapminder/_episodes/12-for-loops.md:96
+#: python-novice-gapminder/_episodes/17-scope.md:57
+msgid "{: .error}"
+msgstr "{: .error}"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:82
+msgid "*   The last line of an error message is usually the most informative."
+msgstr ""
+"*   Останній рядок у повідомленні про помилку є найбільш інформативним."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:83
+msgid ""
+"*   We will look at error messages in detail [later]({{ page.root "
+"}}/15-scope/#reading-error-messages)."
+msgstr ""
+"*   Ми подивимось більш детально на повідомлення про помилки [пізніше]({{ "
+"page.root }}/15-scope/#reading-error-messages)."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/02-variables.md:85
+msgid "> ## Variables Persist Between Cells"
+msgstr "> ## Змінні зберігаються між клітинками"
+
+#: python-novice-gapminder/_episodes/02-variables.md:86
+msgid ""
+">\n"
+"> Be aware that it is the *order* of execution of cells that is important in a Jupyter notebook, not the order\n"
+"> in which they appear. Python will remember *all* the code that was run previously, including any variables you have\n"
+"> defined, irrespective of the order in the notebook. Therefore if you define variables lower down the notebook and then\n"
+"> (re)run cells further up, those defined further down will still be present. As an example, create two cells with the\n"
+"> following content, in this order:\n"
+">\n"
+"> ~~~\n"
+"> print(myval)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> myval = 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> If you execute this in order, the first cell will give an error. However, if you run the first cell *after* the second\n"
+"> cell it will print out `1`. To prevent confusion, it can be helpful to use the `Kernel` -> `Restart & Run All` option which\n"
+"> clears the interpreter and runs everything from a clean slate going top to bottom."
+msgstr ""
+">\n"
+"> Майте на увазі, що в блокноті Jupyter важливий *порядок* виконання клітинок, а не порядок \n"
+"> їх появи. Python запам’ятає *весь* код, який було запущено раніше, включно з будь-якими змінними, \n"
+"> які ви визначили, незалежно від порядку в блокноті. Тому, якщо ви визначите змінні нижче в блокноті, а потім\n"
+"> (повторно) запустите комірки вище, то ті клітинки, що визначені нижче, все одно будуть присутні. \n"
+"Для прикладу створіть дві клітинки з \n"
+"таким вмістом у такому порядку:\n"
+"\n"
+">\n"
+"> ~~~\n"
+"> print(myval)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> myval = 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+">Якщо ви виконуєте це послідовно, перша клітинка дасть помилку. Однак,якщо ви запустите першу клітинку *після* другої,\n"
+"> то буде надруковано `1`. Щоб уникнути плутанини, може бути корисним скористатися опцією `Kernel` -> `Restart & Run All`, яка\n"
+"> очищує інтерпретатор і запускає все з чистого листа зверху вниз. "
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:108
+msgid "## Variables can be used in calculations."
+msgstr "## Змінні можна використовувати для обчислень."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:110
+msgid "*   We can use variables in calculations just as if they were values."
+msgstr ""
+"*   Ми можемо використовувати змінні в обчисленнях так само, як якщо б вони "
+"були значеннями."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:111
+msgid "    *   Remember, we assigned the value `42` to `age` a few lines ago."
+msgstr ""
+"    *   Пам’ятайте, ми присвоїли значення `42` змінній `age` кількома "
+"рядками вище."
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:113
+msgid ""
+"~~~\n"
+"age = age + 3\n"
+"print('Age in three years:', age)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"age = age + 3\n"
+"print('Вік через три роки:', age)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/02-variables.md:117
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"Age in three years: 45\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"Вік через три роки: 45\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:123
+msgid "## Use an index to get a single character from a string."
+msgstr "## Використовуйте індекс, щоб отримати один символ із рядка."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:125
+msgid ""
+"*   The characters (individual letters, numbers, and so on) in a string are"
+msgstr "*   Символи (окремі літери, цифри тощо) у рядку є"
+
+#: python-novice-gapminder/_episodes/02-variables.md:126
+msgid ""
+"    ordered. For example, the string `'AB'` is not the same as `'BA'`. Because of\n"
+"    this ordering, we can treat the string as a list of characters.\n"
+"*   Each position in the string (first, second, etc.) is given a number. This\n"
+"    number is called an **index** or sometimes a subscript.\n"
+"*   Indices are numbered from 0.\n"
+"*   Use the position's index in square brackets to get the character at that\n"
+"    position."
+msgstr ""
+"    упорядкованими. Наприклад, рядок `'AB'` не те саме, що `'BA'`. Завдяки\n"
+"  такому упорядкуванню ми можемо розглядати рядок як список символів.\n"
+"*   Кожна позиція в рядку (перша, друга тощо) має номер. Це\n"
+"число називається **індексом** або іноді нижнім індексом.\n"
+"*   Індекси нумеруються від 0.\n"
+"*   Використовуйте індекс позиції в квадратних дужках,  щоб отримати символ з тієї \n"
+"    позиції."
+
+#: python-novice-gapminder/_episodes/02-variables.md:134
+msgid "![an illustration of indexing](../fig/2_indexing.svg)"
+msgstr "![Ілюстрація індексації](../fig/2_indexing.svg)"
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:136
+msgid ""
+"~~~\n"
+"atom_name = 'helium'\n"
+"print(atom_name[0])\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"atom_name = 'helium'\n"
+"print(atom_name[0])\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/02-variables.md:140
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"h\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"h\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:146
+msgid "## Use a slice to get a substring."
+msgstr "## Використовуйте зріз, щоб отримати підрядок."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:148
+msgid ""
+"*   A part of a string is called a **substring**. A substring can be as "
+"short as a"
+msgstr ""
+"* Частина рядка має назву **підрядок**. Підрядок може бути дуже коротким - "
+
+#: python-novice-gapminder/_episodes/02-variables.md:149
+msgid ""
+"    single character.\n"
+"*   An item in a list is called an element. Whenever we treat a string as if it\n"
+"    were a list, the string's elements are its individual characters.\n"
+"*   A slice is a part of a string (or, more generally, any list-like thing).\n"
+"*   We take a slice by using `[start:stop]`, where `start` is replaced with the\n"
+"    index of the first element we want and `stop` is replaced with the index of\n"
+"    the element just after the last element we want.\n"
+"*   Mathematically, you might say that a slice selects `[start:stop)`.\n"
+"*   The difference between `stop` and `start` is the slice's length.\n"
+"*   Taking a slice does not change the contents of the original string. Instead,\n"
+"    the slice is a copy of part of the original string."
+msgstr ""
+"лише один символ.\n"
+"* Список складається з елементів. У випадку, коли рядок розглядається як\n"
+"список, його елементами є окремі символи.\n"
+"* Фрагмент - це частина рядка (в загальному випадку, будь-який вираз).\n"
+"* Фрагмент вилучається за допомогою `[start:stop]`, де `start` замінюється на\n"
+"індекс елемента, який повинен бути першим, а `stop` - на індекс\n"
+"елемента, який розташований відразу після останнього потрібного елемента.\n"
+"* З математичної точки зору, фрагмент вибирає `[start:stop)`.\n"
+"* Проміжок між `stop` and `start` - це довжина фрагмента.\n"
+"* Вилучення фрагмента не змінює вміст вихідного рядка. Навпаки,\n"
+"фрагмент буде копією частини вихідного рядка."
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:161
+msgid ""
+"~~~\n"
+"atom_name = 'sodium'\n"
+"print(atom_name[0:3])\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"atom_name = 'sodium'\n"
+"print(atom_name[0:3])\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/02-variables.md:165
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"sod\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"sod\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:171
+msgid "## Use the built-in function `len` to find the length of a string."
+msgstr "## Використовуйте вбудовану функцію `len`, щоб знайти довжину рядка."
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:173
+msgid ""
+"~~~\n"
+"print(len('helium'))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(len('helium'))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/02-variables.md:176
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"6\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"6\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:182
+msgid "*   Nested functions are evaluated from the inside out,"
+msgstr "*   Вкладені функції опрацьовуються, починаючи з середини,"
+
+#: python-novice-gapminder/_episodes/02-variables.md:183
+msgid "     like in mathematics."
+msgstr "     як в математиці."
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:185
+msgid "## Python is case-sensitive."
+msgstr "## Python чутливий до регістру."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:187
+msgid "*   Python thinks that upper- and lower-case letters are different,"
+msgstr "*   Python вважає, що великі та малі літери різні,"
+
+#: python-novice-gapminder/_episodes/02-variables.md:188
+msgid ""
+"    so `Name` and `name` are different variables.\n"
+"*   There are conventions for using upper-case letters at the start of variable names so we will use lower-case letters for now."
+msgstr ""
+"    таким чинoм, `Name` та `name` є різними змінними.\n"
+"*   Існують домовленості про використання великих літер на початку імен змінних, тому ми будемо використовувати малі літери."
+
+# header
+#: python-novice-gapminder/_episodes/02-variables.md:191
+msgid "## Use meaningful variable names."
+msgstr "## Використовуйте осмислені назви змінних."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:193
+msgid ""
+"*   Python doesn't care what you call variables as long as they obey the "
+"rules"
+msgstr ""
+"*   Python байдуже, як ви називаєте змінні, якщо вони відповідають правилам"
+
+#: python-novice-gapminder/_episodes/02-variables.md:194
+msgid "    (alphanumeric characters and the underscore)."
+msgstr "    (букви, цифри та підкреслення)."
+
+# code block
+#: python-novice-gapminder/_episodes/02-variables.md:196
+msgid ""
+"~~~\n"
+"flabadab = 42\n"
+"ewr_422_yY = 'Ahmed'\n"
+"print(ewr_422_yY, 'is', flabadab, 'years old')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"flabadab = 42\n"
+"ewr_422_yY = 'Ahmed'\n"
+"print(ewr_422_yY, 'is', flabadab, 'years old')\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:203
+msgid ""
+"*   Use meaningful variable names to help other people understand what the "
+"program does."
+msgstr ""
+"*   Використовуйте змістовні назви змінних, щоб допомогти іншим зрозуміти, "
+"що робить програма."
+
+# unordered list
+#: python-novice-gapminder/_episodes/02-variables.md:204
+msgid "*   The most important \"other person\" is your future self."
+msgstr "*   Найважливіша «інша людина» — це ваше майбутнє."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/02-variables.md:206
+msgid "> ## Swapping Values"
+msgstr "> ## Заміна значень"
+
+#: python-novice-gapminder/_episodes/02-variables.md:207
+msgid ""
+">\n"
+"> Fill the table showing the values of the variables in this program\n"
+"> *after* each statement is executed.\n"
+">\n"
+"> ~~~\n"
+"> # Command  # Value of x   # Value of y   # Value of swap #\n"
+"> x = 1.0    #              #              #               #\n"
+"> y = 3.0    #              #              #               #\n"
+"> swap = x   #              #              #               #\n"
+"> x = y      #              #              #               #\n"
+"> y = swap   #              #              #               #\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > # Command  # Value of x   # Value of y   # Value of swap #\n"
+"> > x = 1.0    # 1.0          # not defined  # not defined   #\n"
+"> > y = 3.0    # 1.0          # 3.0          # not defined   #\n"
+"> > swap = x   # 1.0          # 3.0          # 1.0           #\n"
+"> > x = y      # 3.0          # 3.0          # 1.0           #\n"
+"> > y = swap   # 3.0          # 1.0          # 1.0           #\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > \n"
+"> > These three lines exchange the values in `x` and `y` using the `swap`\n"
+"> > variable for temporary storage. This is a fairly common programming idiom."
+msgstr ""
+">\n"
+"> Заповніть таблицю, вказавши значення змінних у цій програмі\n"
+"> *після* виконання кожного оператора.\n"
+">\n"
+"> ~~~\n"
+"> # Оператор  # Значення x   # Значення y   # Значення  swap #\n"
+"> x = 1.0     #              #              #               #\n"
+"> y = 3.0     #              #              #               #\n"
+"> swap = x    #              #              #               #\n"
+"> x = y       #              #              #               #\n"
+"> y = swap    #              #              #               #\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > ~~~\n"
+"> > # Оператор # Значення x # Значення y     # Значення swap     #\n"
+"> > x = 1.0    # 1.0          # не визначено  # не визначено   #\n"
+"> > y = 3.0    # 1.0          # 3.0          # не визначено   #\n"
+"> > swap = x   # 1.0          # 3.0          # 1.0           #\n"
+"> > x = y      # 3.0          # 3.0          # 1.0           #\n"
+"> > y = swap   # 3.0          # 1.0          # 1.0           #\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > \n"
+"> > Ці три рядки обмінюються значеннями в `x` та `y` за допомогою `swap` - \n"
+"> > змінною для тимчасового зберігання. Це досить поширена ідіома програмування."
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/02-variables.md:234
+#: python-novice-gapminder/_episodes/02-variables.md:261
+msgid ">{: .solution}"
+msgstr ">{: .Рішення}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/02-variables.md:237
+msgid "> ## Predicting Values"
+msgstr "> ## Прогнозування значень"
+
+#: python-novice-gapminder/_episodes/02-variables.md:238
+msgid ""
+">\n"
+"> What is the final value of `position` in the program below?\n"
+"> (Try to predict the value without running the program,\n"
+"> then check your prediction.)\n"
+">\n"
+"> ~~~\n"
+"> initial = 'left'\n"
+"> position = initial\n"
+"> initial = 'right'\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > 'left'\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+">> The `initial` variable is assigned the value `'left'`.\n"
+"> > In the second line, the `position` variable also receives\n"
+">> the string value `'left'`. In third line, the `initial` variable is given the\n"
+">> value `'right'`, but the `position` variable retains its string value\n"
+">> of `'left'`."
+msgstr ""
+">\n"
+"> Яке кінцеве значення `position` у наведеній нижче програмі?\n"
+"> (Спробуйте передбачити значення без запуску програми,\n"
+"> а потім перевірте свій прогноз).\n"
+">\n"
+"> ~~~\n"
+"> initial = 'left'\n"
+"> position = initial\n"
+"> initial = 'right'\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > ~~~\n"
+"> > 'left'\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+">> Змінній `initial` присвоюється значення `'left'`.\n"
+"> > У другому рядку змінна `position` також отримує\n"
+">> значення рядка `'left'`. У третьому рядку змінній `initial` надається\n"
+">> значення `'right'`, але змінна `position` зберігає своє рядкове значення\n"
+">> `'left'`."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/02-variables.md:264
+msgid "> ## Challenge"
+msgstr "> ## Випробування"
+
+#: python-novice-gapminder/_episodes/02-variables.md:265
+msgid ""
+">\n"
+"> If you assign `a = 123`,\n"
+"> what happens if you try to get the second digit of `a` via `a[1]`?\n"
+">\n"
+"> > ## Solution\n"
+"> > Numbers are not strings or sequences and Python will raise an error if you try to perform an index operation on a\n"
+"> > number. In the [next lesson on types and type conversion]({{ page.root }}/03-types-conversion/#convert-numbers-and-strings)\n"
+"> > we will learn more about types and how to convert between different types. If you want the Nth digit of a number you\n"
+"> > can convert it into a string using the `str` built-in function and then perform an index operation on that string.\n"
+"> >\n"
+"> > ~~~\n"
+"> > a = 123\n"
+"> > print(a[1])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > TypeError: 'int' object is not subscriptable\n"
+"> > ~~~\n"
+"> > {: .error}\n"
+"> > \n"
+"> > \n"
+"> > ~~~\n"
+"> > a = str(123)\n"
+"> > print(a[1])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 2\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> Якщо ви призначите `a = 123`,\n"
+"> що станеться, якщо ви спробуєте отримати другу цифру `a` через `a[1]`\n"
+">\n"
+"> > ## Рішення\n"
+"> > Числа не є рядками чи послідовностями, і Python поверне помилку, якщо ви спробуєте виконати операцію індексування на\n"
+"> > числі. У [наступному уроці про типи та перетворення типів]({{ page.root }}/03-types-conversion/#convert-numbers-and-strings)\n"
+"> > ми дізнаємося більше про типи та про правила конвертації різних типів. Якщо вам потрібна N-та цифра числа, ви\n"
+"> > можете перетворити число на рядок за допомогою вбудованої функції `str`, а потім виконати операцію індексування цього рядка.\n"
+"> >\n"
+"> > ~~~\n"
+"> > a = 123\n"
+"> > print(a[1])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > TypeError: 'int' object is not subscriptable\n"
+"> > ~~~\n"
+"> > {: .error}\n"
+"> > \n"
+"> > \n"
+"> > ~~~\n"
+"> > a = str(123)\n"
+"> > print(a[1])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 2\n"
+"> > ~~~\n"
+"> > {: .output}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/02-variables.md:298
+msgid "> ## Choosing a Name"
+msgstr "> ## Вибір імені"
+
+#: python-novice-gapminder/_episodes/02-variables.md:299
+msgid ""
+">\n"
+"> Which is a better variable name, `m`, `min`, or `minutes`?\n"
+"> Why?\n"
+"> Hint: think about which code you would rather inherit\n"
+"> from someone who is leaving the lab:\n"
+">\n"
+"> 1. `ts = m * 60 + s`\n"
+"> 2. `tot_sec = min * 60 + sec`\n"
+"> 3. `total_seconds = minutes * 60 + seconds`\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > `minutes` is better because `min` might mean something like \"minimum\"\n"
+"> > (and actually is an existing built-in function in Python that we will cover later)."
+msgstr ""
+">\n"
+"> Яка назва змінної є кращою: `m`, `min` або `minutes`?\n"
+"> Чому?\n"
+"> Підказка: подумайте, який код ви б хотіли успадкувати\n"
+"> від когось, хто виходить з лабораторії:\n"
+">\n"
+"> 1. `ts = m * 60 + s`\n"
+"> 2. `tot_sec = min * 60 + sec`\n"
+"> 3. `total_seconds = minutes * 60 + seconds`\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > `minutes` краще, тому що `min` може означати щось на зразок \"мінімум\"\n"
+"> > (і фактично це вбудована функція в Python, яку ми розглянемо пізніше)."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/02-variables.md:316
+msgid "> ## Slicing practice"
+msgstr "> ## Практика застосування зрізів"
+
+#: python-novice-gapminder/_episodes/02-variables.md:317
+msgid ""
+">\n"
+"> What does the following program print?\n"
+">\n"
+"> ~~~\n"
+"> atom_name = 'carbon'\n"
+"> print('atom_name[1:3] is:', atom_name[1:3])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > atom_name[1:3] is: ar\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> Що надрукує наступна программа?\n"
+">\n"
+"> ~~~\n"
+"> atom_name = 'carbon'\n"
+"> print('atom_name[1:3] is:', atom_name[1:3])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > ~~~\n"
+"> > atom_name[1:3] is: ar\n"
+"> > ~~~\n"
+"> > {: .output}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/02-variables.md:335
+msgid "> ## Slicing concepts"
+msgstr "> ## Визначення зрізів"
+
+#: python-novice-gapminder/_episodes/02-variables.md:336
+msgid ""
+">\n"
+"> 1.  What does `thing[low:high]` do?\n"
+"> 2.  What does `thing[low:]` (without a value after the colon) do?\n"
+"> 3.  What does `thing[:high]` (without a value before the colon) do?\n"
+"> 4.  What does `thing[:]` (just a colon) do?\n"
+"> 5.  What does `thing[number:some-negative-number]` do?\n"
+"> 6.  What happens when you choose a `high` value which is out of range? (i.e., try `atom_name[0:15]`) \n"
+">\n"
+"> > ## Solutions\n"
+"> >\n"
+"> > 1. `thing[low:high]` returns a slice from `low` to the value before `high`\n"
+"> > 2. `thing[low:]` returns a slice from `low` all the way to the end of `thing`\n"
+"> > 3. `thing[:high]` returns a slice from the beginning of `thing` to the value before `high`\n"
+"> > 4. `thing[:]` returns all of `thing`\n"
+"> > 5. `thing[number:some-negative-number]` returns a slice from `number` to `some-negative-number` values from the end of `thing`\n"
+"> > 6. If a part of the slice is out of range, the operation does not fail. `atom_name[0:15]` gives the same result as `atom_name[0:]`."
+msgstr ""
+">\n"
+"> 1.  Що є результатом зрізу `thing[low:high]`?\n"
+"> 2.  Що є результатом зрізу `thing[low:]` (без значення після двокрапки)?\n"
+"> 3.  Що є результатом зрізу `thing[:high]` (без значення до двокрапки) ?\n"
+"> 4.  Що є результатом зрізу `thing[:]` (тільки двокрапка)?\n"
+"> 5.  Що є результатом зрізу `thing[number:some-negative-number]`?\n"
+"> 6.  Що станеться, якщо ми оберемо значення `high`, яке виходить за рамки діапазону? (наприклад, спробуйте `atom_name[0:15]`) \n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > 1. `thing[low:high]` поверне зріз, починаючи зі значення `low` до значення перед `high`\n"
+"> > 2. `thing[low:]` поверне зріз, починаючи зі значення `low`, що містить всі значення до кінця `thing`\n"
+"> > 3. `thing[:high]` поверне зріз, починаючи зі значення `thing` до значення перед `high`\n"
+"> > 4. `thing[:]` поверне всі значення рядка `thing`\n"
+"> > 5. `thing[number:some-negative-number]` поверне зріз, починаючи зі значення `number` до значення `some-negative-number`, що розраховується з кінця рядка `thing`\n"
+"> > 6. Якщо частина фрагмента виходить за межі діапазону, операція не завершується. `atom_name[0:15]` дає той самий результат, що й`atom_name[0:]`."

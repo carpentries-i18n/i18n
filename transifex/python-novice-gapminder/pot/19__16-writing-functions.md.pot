@@ -1,0 +1,775 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Writing Functions\"\n"
+"teaching: 10\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How can I create my own functions?\"\n"
+"objectives:\n"
+"- \"Explain and identify the difference between function definition and function call.\"\n"
+"- \"Write a function that takes a small, fixed number of arguments and produces a single result.\"\n"
+"keypoints:\n"
+"- \"Break programs down into functions to make them easier to understand.\"\n"
+"- \"Define a function using `def` with a name, parameters, and a block of code.\"\n"
+"- \"Defining a function does not run it.\"\n"
+"- \"Arguments in call are matched to parameters in definition.\"\n"
+"- \"Functions may return a result to their caller using `return`.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:17
+# header
+msgid "## Break programs down into functions to make them easier to understand."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:19
+# unordered list
+msgid "*   Human beings can only keep a few items in working memory at a time."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:20
+# unordered list
+msgid "*   Understand larger/more complicated ideas by understanding and combining pieces."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:21
+# unordered list
+msgid "    *   Components in a machine."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:22
+# unordered list
+msgid "    *   Lemmas when proving theorems."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:23
+# unordered list
+msgid "*   Functions serve the same purpose in programs."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:24
+# unordered list
+msgid "    *   *Encapsulate* complexity so that we can treat it as a single \"thing\"."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:25
+# unordered list
+msgid "*   Also enables *re-use*."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:26
+# unordered list
+msgid "    *   Write one time, use many times."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:28
+# header
+msgid "## Define a function using `def` with a name, parameters, and a block of code."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:30
+# unordered list
+msgid "*   Begin the definition of a new function with `def`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:31
+# unordered list
+msgid "*   Followed by the name of the function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:32
+# unordered list
+msgid "    *   Must obey the same rules as variable names."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:33
+# unordered list
+msgid "*   Then *parameters* in parentheses."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:34
+# unordered list
+msgid "    *   Empty parentheses if the function doesn't take any inputs."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:35
+# unordered list
+msgid "    *   We will discuss this in detail in a moment."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:36
+# unordered list
+msgid "*   Then a colon."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:37
+# unordered list
+msgid "*   Then an indented block of code."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:39
+# code block
+msgid "~~~\n"
+"def print_greeting():\n"
+"    print('Hello!')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:45
+# header
+msgid "## Defining a function does not run it."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:47
+# unordered list
+msgid "*   Defining a function does not run it."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:48
+# unordered list
+msgid "    *   Like assigning a value to a variable."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:49
+# unordered list
+msgid "*   Must call the function to execute the code it contains."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:51
+# code block
+msgid "~~~\n"
+"print_greeting()\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:54
+msgid "{: .language-python}\n"
+"~~~\n"
+"Hello!\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:60
+# header
+msgid "## Arguments in call are matched to parameters in definition."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:62
+# unordered list
+msgid "*   Functions are most useful when they can operate on different data."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:63
+# unordered list
+msgid "*   Specify *parameters* when defining a function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:64
+# unordered list
+msgid "    *   These become variables when the function is executed."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:65
+# unordered list
+msgid "    *   Are assigned the arguments in the call (i.e., the values passed to the function)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:66
+# unordered list
+msgid "    *   If you don't name the arguments when using them in the call, the arguments will be matched to"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:67
+msgid "parameters in the order the parameters are defined in the function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:69
+# code block
+msgid "~~~\n"
+"def print_date(year, month, day):\n"
+"    joined = str(year) + '/' + str(month) + '/' + str(day)\n"
+"    print(joined)\n"
+"\n"
+"print_date(1871, 3, 19)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:76
+msgid "{: .language-python}\n"
+"~~~\n"
+"1871/3/19\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:82
+msgid "Or, we can name the arguments when we call the function, which allows us to\n"
+"specify them in any order:\n"
+"~~~\n"
+"print_date(month=3, day=19, year=1871)\n"
+"~~~\n"
+"{: .language-python}\n"
+"~~~\n"
+"1871/3/19\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:93
+# unordered list
+msgid "*   Via [Twitter](https://twitter.com/minisciencegirl/status/693486088963272705):"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:94
+msgid "    `()` contains the ingredients for the function\n"
+"    while the body contains the recipe."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:97
+# header
+msgid "## Functions may return a result to their caller using `return`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:99
+# unordered list
+msgid "*   Use `return ...` to give a value back to the caller."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:100
+# unordered list
+msgid "*   May occur anywhere in the function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:101
+# unordered list
+msgid "*   But functions are easier to understand if `return` occurs:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:102
+# unordered list
+msgid "    *   At the start to handle special cases."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:103
+# unordered list
+msgid "    *   At the very end, with a final result."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:105
+# code block
+msgid "~~~\n"
+"def average(values):\n"
+"    if len(values) == 0:\n"
+"        return None\n"
+"    return sum(values) / len(values)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:113
+# code block
+msgid "~~~\n"
+"a = average([1, 3, 4])\n"
+"print('average of actual values:', a)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:117
+msgid "{: .language-python}\n"
+"~~~\n"
+"average of actual values: 2.6666666666666665\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:123
+# code block
+msgid "~~~\n"
+"print('average of empty list:', average([]))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:126
+msgid "{: .language-python}\n"
+"~~~\n"
+"average of empty list: None\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:132
+# unordered list
+msgid "*   Remember: [every function returns something]({{ page.root }}/04-built-in/)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:133
+# unordered list
+msgid "*   A function that doesn't explicitly `return` a value automatically returns `None`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:135
+# code block
+msgid "~~~\n"
+"result = print_date(1871, 3, 19)\n"
+"print('result of call is:', result)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:139
+msgid "{: .language-python}\n"
+"~~~\n"
+"1871/3/19\n"
+"result of call is: None\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:146
+# blockquote, which can be cascaded
+msgid "> ## Identifying Syntax Errors"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:147
+msgid ">\n"
+"> 1. Read the code below and try to identify what the errors are\n"
+">    *without* running it.\n"
+"> 2. Run the code and read the error message.\n"
+">    Is it a `SyntaxError` or an `IndentationError`?\n"
+"> 3. Fix the error.\n"
+"> 4. Repeat steps 2 and 3 until you have fixed all the errors.\n"
+">\n"
+"> ~~~\n"
+"> def another_function\n"
+">   print(\"Syntax errors are annoying.\")\n"
+">    print(\"But at least python tells us about them!\")\n"
+">   print(\"So they are usually not too hard to fix.\")\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > def another_function():\n"
+"> >   print(\"Syntax errors are annoying.\")\n"
+"> >   print(\"But at least Python tells us about them!\")\n"
+"> >   print(\"So they are usually not too hard to fix.\")\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:175
+# blockquote, which can be cascaded
+msgid "> ## Definition and Use"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:176
+msgid ">\n"
+"> What does the following program print?\n"
+">\n"
+"> ~~~\n"
+"> def report(pressure):\n"
+">     print('pressure is', pressure)\n"
+">\n"
+"> print('calling', report, 22.5)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > calling <function report at 0x7fd128ff1bf8> 22.5\n"
+"> > ~~~ \n"
+"> > {: .output}\n"
+"> >\n"
+"> > A function call always needs parenthesis, otherwise you get memory address of the function object. So, if we wanted to call the function named report, and give it the value 22.5 to report on, we could have our function call as follows\n"
+"> > ~~~\n"
+"> > print(\"calling\")\n"
+"> > report(22.5)\n"
+"> > ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:202
+# blockquote, which can be cascaded
+msgid "> ## Order of Operations"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:203
+msgid ">\n"
+"> The example above:\n"
+">\n"
+"> ~~~\n"
+"> result = print_date(1871, 3, 19)\n"
+"> print('result of call is:', result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> printed:\n"
+"> ~~~\n"
+"> 1871/3/19\n"
+"> result of call is: None\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:218
+msgid ">\n"
+"> Explain why the two lines of output appeared in the order they did.\n"
+">\n"
+"> What's wrong in this example?\n"
+"> ~~~\n"
+"> result = print_date(1871,3,19)\n"
+">\n"
+"> def print_date(year, month, day):\n"
+">    joined = str(year) + '/' + str(month) + '/' + str(day)\n"
+">    print(joined)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> \n"
+"> > ## Solution\n"
+"> > \n"
+"> > 1. The first line of output (`1871/3/19`) is from the print function inside `print_date()`, while the second line\n"
+"> > is from the print function below the function call. All of the code inside `print_date()` is executed first, and\n"
+"> > the program then \"leaves\" the function and executes the rest of the code.   \n"
+"> > 2. The problem with the example is that the function is defined *after* the call to the function is made. Python\n"
+"> > therefore doesn't understand the function call."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:241
+# blockquote, which can be cascaded
+msgid "> ## Encapsulation"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:242
+msgid ">\n"
+"> Fill in the blanks to create a function that takes a single filename as an argument,\n"
+"> loads the data in the file named by the argument,\n"
+"> and returns the minimum value in that data.\n"
+">\n"
+"> ~~~\n"
+"> import pandas as pd\n"
+">\n"
+"> def min_in_data(____):\n"
+">     data = ____\n"
+">     return ____\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > import pandas as pd\n"
+"> > \n"
+"> > def min_in_data(filename):\n"
+"> >     data = pd.read_csv(filename)\n"
+"> >     return data.min()\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:268
+# blockquote, which can be cascaded
+msgid "> ## Find the First"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:269
+msgid ">\n"
+"> Fill in the blanks to create a function that takes a list of numbers as an argument\n"
+"> and returns the first negative value in the list.\n"
+"> What does your function do if the list is empty?\n"
+">\n"
+"> ~~~\n"
+"> def first_negative(values):\n"
+">     for v in ____:\n"
+">         if ____:\n"
+">             return ____\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > def first_negative(values):\n"
+"> >     for v in values:\n"
+"> >         if v<0:\n"
+"> >             return v\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > If an empty list is passed to this function, it returns `None`:\n"
+"> > ~~~\n"
+"> > my_list = []\n"
+"> > print(first_negative(my_list))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > None\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:303
+# blockquote, which can be cascaded
+msgid "> ## Calling by Name"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:304
+msgid ">\n"
+"> Earlier we saw this function:\n"
+">\n"
+"> ~~~\n"
+"> def print_date(year, month, day):\n"
+">     joined = str(year) + '/' + str(month) + '/' + str(day)\n"
+">     print(joined)\n"
+"> ~~~\n"
+"> We saw that we can call the function using *named arguments*, like this:\n"
+"> ~~~\n"
+"> print_date(day=1, month=2, year=2003)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1.  What does `print_date(day=1, month=2, year=2003)` print?\n"
+"> 2.  When have you seen a function call like this before?\n"
+"> 3.  When and why is it useful to call functions this way?\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > \n"
+"> > 1. `2003/2/1`\n"
+"> > 2. We saw examples of using *named arguments* when working with the pandas library. For example, when reading in a dataset \n"
+"> > using `data = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')`, the last argument `index_col` is a \n"
+"> > named argument.  \n"
+"> > 3. Using named arguments can make code more readable since one can see from the function call what name the different arguments \n"
+"> > have inside the function. It can also reduce the chances of passing arguments in the wrong order, since by using named arguments \n"
+"> > the order doesn't matter."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:334
+# blockquote, which can be cascaded
+msgid "> ## Encapsulate of If/Print Block"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:335
+msgid ">\n"
+"> The code below will run on a label-printer for chicken eggs.  A digital scale will report a chicken egg mass (in grams) to the computer and then the computer will print a label.  \n"
+">\n"
+"> Please re-write the code so that the if-block is folded into a function.\n"
+">\n"
+"> ~~~\n"
+">  import random\n"
+">  for i in range(10):\n"
+">\n"
+">     # simulating the mass of a chicken egg\n"
+">     # the (random) mass will be 70 +/- 20 grams\n"
+">     mass=70+20.0*(2.0*random.random()-1.0)\n"
+">\n"
+">     print(mass)\n"
+">    \n"
+">     #egg sizing machinery prints a label\n"
+">     if(mass>=85):\n"
+">        print(\"jumbo\")\n"
+">     elif(mass>=70):\n"
+">        print(\"large\")\n"
+">     elif(mass<70 and mass>=55):\n"
+">        print(\"medium\")\n"
+">     else:\n"
+">        print(\"small\")\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+">\n"
+"> The simplified program  follows.  What function definition will make it functional?\n"
+">\n"
+"> ~~~\n"
+">  # revised version\n"
+">  import random\n"
+">  for i in range(10):\n"
+">\n"
+">     # simulating the mass of a chicken egg\n"
+">     # the (random) mass will be 70 +/- 20 grams\n"
+">     mass=70+20.0*(2.0*random.random()-1.0)\n"
+">\n"
+">     print(mass,print_egg_label(mass))    \n"
+">\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+">\n"
+"> 1. Create a function definition for `print_egg_label()` that will work with the revised program above.  Note, the function's return value will be significant. Sample output might be `71.23 large`.\n"
+"> 2.  A dirty egg might have a mass of more than 90 grams, and a spoiled or broken egg will probably have a mass that's less than 50 grams.  Modify your `print_egg_label()` function to account for these error conditions. Sample output could be `25 too light, probably spoiled`.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > def print_egg_label(mass):\n"
+"> >     #egg sizing machinery prints a label\n"
+"> >     if(mass>=90):\n"
+"> >         return(\"warning: egg might be dirty\")\n"
+"> >     elif(mass>=85):\n"
+"> >         return(\"jumbo\")\n"
+"> >     elif(mass>=70):\n"
+"> >         return(\"large\")\n"
+"> >     elif(mass<70 and mass>=55):\n"
+"> >         return(\"medium\")\n"
+"> >     elif(mass<50):\n"
+"> >         return(\"too light, probably spoiled\")\n"
+"> >     else:\n"
+"> >         return(\"small\")\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:405
+# blockquote, which can be cascaded
+msgid "> ## Encapsulating Data Analysis"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:406
+msgid ">\n"
+"> Assume that the following code has been executed:\n"
+">\n"
+"> ~~~\n"
+"> import pandas as pd\n"
+">\n"
+"> df = pd.read_csv('data/gapminder_gdp_asia.csv', index_col=0)\n"
+"> japan = df.loc['Japan']\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1.Complete the statements below to obtain the average GDP for Japan\n"
+"> across the years reported for the 1980s.\n"
+">\n"
+"> ~~~\n"
+"> year = 1983\n"
+"> gdp_decade = 'gdpPercap_' + str(year // ____)\n"
+"> avg = (japan.loc[gdp_decade + ___] + japan.loc[gdp_decade + ___]) / 2\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 2.Abstract the code above into a single function.\n"
+">\n"
+"> ~~~\n"
+"> def avg_gdp_in_decade(country, continent, year):\n"
+">     df = pd.read_csv('data/gapminder_gdp_'+___+'.csv',delimiter=',',index_col=0)\n"
+">     ____\n"
+">     ____\n"
+">     ____\n"
+">     return avg\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 3.How would you generalize this function\n"
+">    if you did not know beforehand which specific years occurred as columns in the data?\n"
+">    For instance, what if we also had data from years ending in 1 and 9 for each decade?\n"
+">    (Hint: use the columns to filter out the ones that correspond to the decade,\n"
+">    instead of enumerating them in the code.)\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1.\n"
+"> >\n"
+"> > ~~~\n"
+"> > year = 1983\n"
+"> > gdp_decade = 'gdpPercap_' + str(year // 10)\n"
+"> > avg = (japan.loc[gdp_decade + '2'] + japan.loc[gdp_decade + '7']) / 2\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > 2.\n"
+"> >\n"
+"> > ~~~\n"
+"> > def avg_gdp_in_decade(country, continent, year):\n"
+"> >     df = pd.read_csv('data/gapminder_gdp_' + continent + '.csv', index_col=0)\n"
+"> >     c = df.loc[country]\n"
+"> >     gdp_decade = 'gdpPercap_' + str(year // 10)\n"
+"> >     avg = (c.loc[gdp_decade + '2'] + c.loc[gdp_decade + '7'])/2\n"
+"> >     return avg\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > 3.\n"
+"> > \n"
+"> > We need to loop over the reported years\n"
+"> >    to obtain the average for the relevant ones in the data.\n"
+"> >\n"
+"> > ~~~\n"
+"> > def avg_gdp_in_decade(country, continent, year):\n"
+"> >     df = pd.read_csv('data/gapminder_gdp_' + continent + '.csv', index_col=0)\n"
+"> >     c = df.loc[country]\n"
+"> >     gdp_decade = 'gdpPercap_' + str(year // 10)\n"
+"> >     total = 0.0\n"
+"> >     num_years = 0\n"
+"> >     for yr_header in c.index: # c's index contains reported years\n"
+"> >         if yr_header.startswith(gdp_decade):\n"
+"> >             total = total + c.loc[yr_header]\n"
+"> >             num_years = num_years + 1\n"
+"> >     return total/num_years\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > The function can now be called by:\n"
+"> > ~~~\n"
+"> > avg_gdp_in_decade('Japan','asia',1983)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > \n"
+"> > ~~~\n"
+"> > 20880.023800000003\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:500
+# blockquote, which can be cascaded
+msgid "> ## Simulating a dynamical system"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/16-writing-functions.md:501
+msgid ">\n"
+"> In mathematics, a [dynamical system](https://en.wikipedia.org/wiki/Dynamical_system) is a system in which a function describes the time dependence of a point in a geometrical space.  A canonical example of a dynamical system is a system called the [logistic map](https://en.wikipedia.org/wiki/Logistic_map).\n"
+">\n"
+">\n"
+"> 1. Define a function called `logistic_map` that takes two inputs: `x`, representing the state of the system at time _t_, and a parameter `r`. This function should return a value representing the state of the system at time _t+1_.\n"
+">\n"
+"> 2. Using a `for` loop, iterate the `logistic_map` function defined in part 1 starting from an initial condition of 0.5 for `t_final=10`, `100`, and `1000` periods. Store the intermediate results in a list so that after the `for` loop terminates you have accumulated a sequence of values representing the state of the logistic map at time _t=0,1,...,t_final_.\n"
+">\n"
+"> 3. Encapsulate the logic of your `for` loop into a function called `iterate` that takes the initial condition as its first input, the parameter `t_final` as its second input and the parameter `r` as its third input. The function should return the list of values representing the state of the logistic map at time _t=0,1,...,t_final_.\n"
+">\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1.\n"
+"> >\n"
+"> > ~~~\n"
+"> > def logistic_map(x, r):\n"
+"> >     return r * x * (1 - x)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > 2.\n"
+"> >\n"
+"> > ~~~\n"
+"> > initial_condition = 0.5\n"
+"> > t_final = 10\n"
+"> > r = 1.0\n"
+"> > trajectory = [initial_condition]\n"
+"> > for t in range(1, t_final):\n"
+"> >     trajectory.append( logistic_map(trajectory[t-1], r) )\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > 3.\n"
+"> > ~~~\n"
+"> > def iterate(initial_condition, t_final, r):\n"
+"> >     trajectory = [initial_condition]\n"
+"> >     for t in range(1, t_final):\n"
+"> >         trajectory.append( logistic_map(trajectory[t-1], r) )\n"
+"> >     return trajectory\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+

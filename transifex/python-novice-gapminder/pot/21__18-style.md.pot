@@ -1,0 +1,312 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/18-style.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Programming Style\"\n"
+"teaching: 15\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How can I make my programs more readable?\"\n"
+"- \"How do most programmers format their code?\"\n"
+"- \"How can programs check their own operation?\"\n"
+"objectives:\n"
+"- \"Provide sound justifications for basic rules of coding style.\"\n"
+"- \"Refactor one-page programs to make them more readable and justify the changes.\"\n"
+"- \"Use Python community coding standards (PEP-8).\"\n"
+"keypoints:\n"
+"- \"Follow standard Python style in your code.\"\n"
+"- \"Use docstrings to provide builtin help.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:18
+# header
+msgid "## Coding style"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:20
+msgid "Coding style helps us to understand the code better. It helps to maintain and change the code.\n"
+"Python relies strongly on coding style, as we may notice by the indentation we apply to lines to define different blocks of code.\n"
+"Python proposes a standard style through one of its first Python Enhancement Proposals (PEP), [PEP8](https://www.python.org/dev/peps/pep-0008), and highlight the importance of readability in the [Zen of Python](https://www.python.org/dev/peps/pep-0020)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:24
+msgid "We may highlight some points:\n"
+"*   document your code\n"
+"*   use clear, meaningful variable names\n"
+"*   use white-space, *not* tabs, to indent lines"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:30
+# header
+msgid "## Follow standard Python style in your code."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:32
+# unordered list
+msgid "*   [PEP8](https://www.python.org/dev/peps/pep-0008):"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:33
+msgid "    a style guide for Python that discusses topics such as how you should name variables,\n"
+"    how you should use indentation in your code,\n"
+"    how you should structure your `import` statements,\n"
+"    etc.\n"
+"    Adhering to PEP8 makes it easier for other Python developers to read and understand your code,\n"
+"    and to understand what their contributions should look like.\n"
+"    The [PEP8 application and Python library](https://pypi.python.org/pypi/pep8)\n"
+"    can check your code for compliance with PEP8.\n"
+"*   [Google style guide on Python](https://google.github.io/styleguide/pyguide.html) \n"
+"    supports the use of PEP8 and extend the coding style to more specific structure of \n"
+"    a Python code, which may be interesting also to follow.\n"
+"    Google's [formatting application is called \"yapf\"](https://github.com/google/yapf/)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:46
+# header
+msgid "## Use assertions to check for internal errors."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:48
+msgid "Assertions are a simple, but powerful method for making sure that the context in which your code is executing is as you expect."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:50
+# code block
+msgid "~~~\n"
+"def calc_bulk_density(mass, volume):\n"
+"    '''Return dry bulk density = powder mass / powder volume.'''\n"
+"    assert volume > 0\n"
+"    return mass / volume\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:58
+msgid "If the assertion is `False`, the Python interpreter raises an `AssertionError` runtime exception. The source code for the expression that failed will be displayed as part of the error message. To ignore assertions in your code run the interpreter with the '-O' (optimize) switch. Assertions should contain only simple checks and never change the state of the program. For example, an assertion should never contain an assignment."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:60
+# header
+msgid "## Use docstrings to provide builtin help."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:62
+# unordered list
+msgid "*   If the first thing in a function is a character string"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:63
+msgid "    that is not assigned directly to a variable,\n"
+"    Python attaches it to the function as the builtin help variable.\n"
+"*   Called a *docstring* (short for \"documentation string\")."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:67
+# code block
+msgid "~~~\n"
+"def average(values):\n"
+"    \"Return average of values, or None if no values are supplied.\"\n"
+"\n"
+"    if len(values) == 0:\n"
+"        return None\n"
+"    return sum(values) / len(values)\n"
+"\n"
+"help(average)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:77
+msgid "{: .language-python}\n"
+"~~~\n"
+"Help on function average in module __main__:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:81
+msgid "average(values)\n"
+"    Return average of values, or None if no values are supplied.\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:86
+# blockquote, which can be cascaded
+msgid "> ## Multiline Strings"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:87
+msgid ">\n"
+"> Often use *multiline strings* for documentation.\n"
+"> These start and end with three quote characters (either single or double)\n"
+"> and end with three matching characters.\n"
+">\n"
+"> ~~~\n"
+"> \"\"\"This string spans\n"
+"> multiple lines.\n"
+">\n"
+"> Blank lines are allowed.\"\"\"\n"
+"> ~~~\n"
+"> {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:101
+# blockquote, which can be cascaded
+msgid "> ## What Will Be Shown?"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:102
+msgid ">\n"
+"> Highlight the lines in the code below that will be available as online help.\n"
+"> Are there lines that should be made available, but won't be?\n"
+"> Will any lines produce a syntax error or a runtime error?\n"
+">\n"
+"> ~~~\n"
+"> \"Find maximum edit distance between multiple sequences.\"\n"
+"> # This finds the maximum distance between all sequences.\n"
+">\n"
+"> def overall_max(sequences):\n"
+">     '''Determine overall maximum edit distance.'''\n"
+"> \n"
+">     highest = 0\n"
+">     for left in sequences:\n"
+">         for right in sequences:\n"
+">             '''Avoid checking sequence against itself.'''\n"
+">             if left != right:\n"
+">                 this = edit_distance(left, right)\n"
+">                 highest = max(highest, this)\n"
+"> \n"
+">     # Report.\n"
+">     return highest\n"
+"> ~~~\n"
+"> {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:128
+# blockquote, which can be cascaded
+msgid "> ## Document This"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:129
+msgid ">\n"
+"> Turn the comment on the following function into a docstring\n"
+"> and check that `help` displays it properly.\n"
+">\n"
+"> ~~~\n"
+"> def middle(a, b, c):\n"
+">     # Return the middle value of three.\n"
+">     # Assumes the values can actually be compared.\n"
+">     values = [a, b, c]\n"
+">     values.sort()\n"
+">     return values[1]\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > def middle(a, b, c):\n"
+"> >     '''Return the middle value of three.\n"
+"> >     Assumes the values can actually be compared.'''\n"
+"> >     values = [a, b, c]\n"
+"> >     values.sort()\n"
+"> >     return values[1]\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:156
+# blockquote, which can be cascaded
+msgid "> ## Clean Up This Code"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/18-style.md:157
+msgid ">\n"
+"> 1. Read this short program and try to predict what it does.\n"
+"> 2. Run it: how accurate was your prediction?\n"
+"> 3. Refactor the program to make it more readable.\n"
+">    Remember to run it after each change to ensure its behavior hasn't changed.\n"
+"> 4. Compare your rewrite with your neighbor's.\n"
+">    What did you do the same?\n"
+">    What did you do differently, and why?\n"
+">\n"
+"> ~~~\n"
+"> n = 10\n"
+"> s = 'et cetera'\n"
+"> print(s)\n"
+"> i = 0\n"
+"> while i < n:\n"
+">     # print('at', j)\n"
+">     new = ''\n"
+">     for j in range(len(s)):\n"
+">         left = j-1\n"
+">         right = (j+1)%len(s)\n"
+">         if s[left]==s[right]: new += '-'\n"
+">         else: new += '*'\n"
+">     s=''.join(new)\n"
+">     print(s)\n"
+">     i += 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Here's one solution.\n"
+"> >\n"
+"> > ~~~\n"
+"> > def string_machine(input_string, iterations):\n"
+"> >     \"\"\"\n"
+"> >     Takes input_string and generates a new string with -'s and *'s\n"
+"> >     corresponding to characters that have identical adjacent characters\n"
+"> >     or not, respectively.  Iterates through this procedure with the resultant\n"
+"> >     strings for the supplied number of iterations.\n"
+"> >     \"\"\"\n"
+"> >     print(input_string)\n"
+"> >     input_string_length = len(input_string)\n"
+"> >     old = input_string\n"
+"> >     for i in range(iterations):\n"
+"> >         new = ''\n"
+"> >         # iterate through characters in previous string\n"
+"> >         for j in range(input_string_length):\n"
+"> >             left = j-1\n"
+"> >             right = (j+1) % input_string_length  # ensure right index wraps around\n"
+"> >             if old[left] == old[right]:\n"
+"> >                 new += '-'\n"
+"> >             else:\n"
+"> >                 new += '*'\n"
+"> >         print(new)\n"
+"> >         # store new string as old\n"
+"> >         old = new     \n"
+"> >\n"
+"> > string_machine('et cetera', 10)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > \n"
+"> > ~~~\n"
+"> > et cetera\n"
+"> > *****-***\n"
+"> > ----*-*--\n"
+"> > ---*---*-\n"
+"> > --*-*-*-*\n"
+"> > **-------\n"
+"> > ***-----*\n"
+"> > --**---**\n"
+"> > *****-***\n"
+"> > ----*-*--\n"
+"> > ---*---*-\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+

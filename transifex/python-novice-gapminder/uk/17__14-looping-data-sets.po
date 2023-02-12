@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Марина Новожилова, 2022
+# Olexandr Konovalov, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Olexandr Konovalov, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:1
+msgid ""
+"---\n"
+"title: \"Looping Over Data Sets\"\n"
+"teaching: 5\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I process many data sets with a single command?\"\n"
+"objectives:\n"
+"- \"Be able to read and write globbing expressions that match sets of files.\"\n"
+"- \"Use glob to create lists of files.\"\n"
+"- \"Write for loops to perform operations on files given their names in a list.\"\n"
+"keypoints:\n"
+"- \"Use a `for` loop to process files given a list of their names.\"\n"
+"- \"Use `glob.glob` to find sets of files whose names match a pattern.\"\n"
+"- \"Use `glob` and `for` to process batches of files.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Перегляд наборів даних в циклі\"\n"
+"teaching: 5\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Як я можу обробити багато наборів даних за допомогою однієї команди?\"\n"
+"objectives:\n"
+"- \"Вміти читати та писати  вирази глоббінгу, які відповідають наборам файлів\"\n"
+"- \"Використовувати glob для створення списків файлів.\"\n"
+"- \"Писати цикли for для виконання операцій над файлами, названими у списку.\"\n"
+"keypoints:\n"
+"- \"Використовуйте цикл `for` для обробки файлів із списком їх імен.\"\n"
+"- \"Використовуйте `glob.glob`, щоб знайти набори файлів, імена яких відповідають шаблону.\"\n"
+"- \"Використовуйте `glob` і `for` для обробки пакетів файлів.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:17
+msgid "## Use a `for` loop to process files given a list of their names."
+msgstr ""
+"## Використовуйте цикл `for`  для обробки файлів, заданих списком їхніх "
+"імен."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:19
+msgid "*   A filename is a character string."
+msgstr "*   Ім'я файлу - це рядок символів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:20
+msgid "*   And lists can contain character strings."
+msgstr "*   І списки можуть містити рядки символів."
+
+# code block
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:22
+msgid ""
+"~~~\n"
+"import pandas as pd\n"
+"for filename in ['data/gapminder_gdp_africa.csv', 'data/gapminder_gdp_asia.csv']:\n"
+"    data = pd.read_csv(filename, index_col='country')\n"
+"    print(filename, data.min())\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"import pandas as pd\n"
+"for filename in ['data/gapminder_gdp_africa.csv', 'data/gapminder_gdp_asia.csv']:\n"
+"    data = pd.read_csv(filename, index_col='country')\n"
+"    print(filename, data.min())\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:28
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"data/gapminder_gdp_africa.csv gdpPercap_1952    298.846212\n"
+"gdpPercap_1957    335.997115\n"
+"gdpPercap_1962    355.203227\n"
+"gdpPercap_1967    412.977514\n"
+"⋮ ⋮ ⋮\n"
+"gdpPercap_1997    312.188423\n"
+"gdpPercap_2002    241.165877\n"
+"gdpPercap_2007    277.551859\n"
+"dtype: float64\n"
+"data/gapminder_gdp_asia.csv gdpPercap_1952    331\n"
+"gdpPercap_1957    350\n"
+"gdpPercap_1962    388\n"
+"gdpPercap_1967    349\n"
+"⋮ ⋮ ⋮\n"
+"gdpPercap_1997    415\n"
+"gdpPercap_2002    611\n"
+"gdpPercap_2007    944\n"
+"dtype: float64\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"data/gapminder_gdp_africa.csv gdpPercap_1952    298.846212\n"
+"gdpPercap_1957    335.997115\n"
+"gdpPercap_1962    355.203227\n"
+"gdpPercap_1967    412.977514\n"
+"⋮ ⋮ ⋮\n"
+"gdpPercap_1997    312.188423\n"
+"gdpPercap_2002    241.165877\n"
+"gdpPercap_2007    277.551859\n"
+"dtype: float64\n"
+"data/gapminder_gdp_asia.csv gdpPercap_1952    331\n"
+"gdpPercap_1957    350\n"
+"gdpPercap_1962    388\n"
+"gdpPercap_1967    349\n"
+"⋮ ⋮ ⋮\n"
+"gdpPercap_1997    415\n"
+"gdpPercap_2002    611\n"
+"gdpPercap_2007    944\n"
+"dtype: float64\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:51
+msgid ""
+"## Use [`glob.glob`](https://docs.python.org/3/library/glob.html#glob.glob) "
+"to find sets of files whose names match a pattern."
+msgstr ""
+"## Використовуйте "
+"[`glob.glob`](https://docs.python.org/3/library/glob.html#glob.glob), щоб "
+"знайти набори файлів, імена яких відповідають шаблону."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:53
+msgid ""
+"*   In Unix, the term \"globbing\" means \"matching a set of files with a "
+"pattern\"."
+msgstr ""
+"*   В Unix термін \"globbing\" означає \"відповідність набору файлів "
+"шаблону\"."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:54
+msgid "*   The most common patterns are:"
+msgstr "*   Найпоширеніші моделі:"
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:55
+msgid "    *   `*` meaning \"match zero or more characters\""
+msgstr "    *   `*` означає \"відповідати нулю або більшій кількості  символів\""
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:56
+msgid "    *   `?` meaning \"match exactly one character\""
+msgstr "    *   `?` означає \"відповідати в точності одному символу\""
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:57
+msgid ""
+"*   Python contains the "
+"[`glob`](https://docs.python.org/3/library/glob.html) library to provide "
+"pattern matching functionality"
+msgstr ""
+"*   Python містить бібліотеку "
+"[`glob`](https://docs.python.org/3/library/glob.html) для забезпечення "
+"функції зіставлення шаблонів"
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:58
+msgid ""
+"*   The [`glob`](https://docs.python.org/3/library/glob.html) library "
+"contains a function also called `glob` to match file patterns"
+msgstr ""
+"*   Бібліотека [`glob`](https://docs.python.org/3/library/glob.html) містить"
+" функцію, яка також називається `glob` для відповідності шаблонам файлів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:59
+msgid ""
+"*   E.g., `glob.glob('*.txt')` matches all files in the current directory "
+msgstr ""
+"*   Наприклад, `glob.glob('*.txt')` відповідає всім файлам у поточному "
+"каталозі,"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:60
+msgid ""
+"    whose names end with `.txt`.\n"
+"*   Result is a (possibly empty) list of character strings."
+msgstr ""
+"    імена яких закінчуються на `.txt`.\n"
+"*   Результатом є (можливо, порожній) список рядків символів."
+
+# code block
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:63
+msgid ""
+"~~~\n"
+"import glob\n"
+"print('all csv files in data directory:', glob.glob('data/*.csv'))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"import glob\n"
+"print('all csv files in data directory:', glob.glob('data/*.csv'))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:67
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"all csv files in data directory: ['data/gapminder_all.csv', 'data/gapminder_gdp_africa.csv', \\\n"
+"'data/gapminder_gdp_americas.csv', 'data/gapminder_gdp_asia.csv', 'data/gapminder_gdp_europe.csv', \\\n"
+"'data/gapminder_gdp_oceania.csv']\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"all csv files in data directory: ['data/gapminder_all.csv', 'data/gapminder_gdp_africa.csv', \\\n"
+"'data/gapminder_gdp_americas.csv', 'data/gapminder_gdp_asia.csv', 'data/gapminder_gdp_europe.csv', \\\n"
+"'data/gapminder_gdp_oceania.csv']\n"
+"~~~"
+
+# code block
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:75
+msgid ""
+"~~~\n"
+"print('all PDB files:', glob.glob('*.pdb'))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('all PDB files:', glob.glob('*.pdb'))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:78
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"all PDB files: []\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"all PDB files: []\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:84
+msgid "## Use `glob` and `for` to process batches of files."
+msgstr "## Використовуйте `glob` і `for` для обробки пакетів файлів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:86
+msgid ""
+"*   Helps a lot if the files are named and stored systematically and "
+"consistently"
+msgstr ""
+"*   Дуже допомагає, якщо файли мають імена та зберігаються систематично та "
+"послідовно,"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:87
+msgid "    so that simple patterns will find the right data."
+msgstr " так що прості шаблони знайдуть потрібні дані."
+
+# code block
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:89
+msgid ""
+"~~~\n"
+"for filename in glob.glob('data/gapminder_*.csv'):\n"
+"    data = pd.read_csv(filename)\n"
+"    print(filename, data['gdpPercap_1952'].min())\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for filename in glob.glob('data/gapminder_*.csv'):\n"
+"    data = pd.read_csv(filename)\n"
+"    print(filename, data['gdpPercap_1952'].min())\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:94
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"data/gapminder_all.csv 298.8462121\n"
+"data/gapminder_gdp_africa.csv 298.8462121\n"
+"data/gapminder_gdp_americas.csv 1397.717137\n"
+"data/gapminder_gdp_asia.csv 331.0\n"
+"data/gapminder_gdp_europe.csv 973.5331948\n"
+"data/gapminder_gdp_oceania.csv 10039.59564\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"data/gapminder_all.csv 298.8462121\n"
+"data/gapminder_gdp_africa.csv 298.8462121\n"
+"data/gapminder_gdp_americas.csv 1397.717137\n"
+"data/gapminder_gdp_asia.csv 331.0\n"
+"data/gapminder_gdp_europe.csv 973.5331948\n"
+"data/gapminder_gdp_oceania.csv 10039.59564\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:105
+msgid "*   This includes all data, as well as per-region data."
+msgstr "*   Це включає всі дані, а також дані по регіонах."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:106
+msgid ""
+"*   Use a more specific pattern in the exercises to exclude the whole data "
+"set."
+msgstr ""
+"*   Використовуйте більш конкретний шаблон у вправах, щоб виключити весь "
+"набір даних."
+
+# unordered list
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:107
+msgid ""
+"*   But note that the minimum of the entire data set is also the minimum of "
+"one of the data sets,"
+msgstr ""
+"*   Але зауважте, що мінімум усього набору даних також є мінімумом одного з "
+"наборів даних,"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:108
+msgid "    which is a nice check on correctness."
+msgstr "    що є хорошою перевіркою правильності."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:110
+msgid "> ## Determining Matches"
+msgstr "> ## Визначення збігів"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:111
+msgid ""
+">\n"
+"> Which of these files is *not* matched by the expression `glob.glob('data/*as*.csv')`?\n"
+">\n"
+"> 1. `data/gapminder_gdp_africa.csv`\n"
+"> 2. `data/gapminder_gdp_americas.csv`\n"
+"> 3. `data/gapminder_gdp_asia.csv`\n"
+"> 4. 1 and 2 are not matched.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1 is not matched by the glob."
+msgstr ""
+">\n"
+"> Який із цих файлів *не* відповідає виразу `glob.glob('data/*as*.csv')`?\n"
+">\n"
+"> 1. `data/gapminder_gdp_africa.csv`\n"
+"> 2. `data/gapminder_gdp_americas.csv`\n"
+"> 3. `data/gapminder_gdp_asia.csv`\n"
+"> 4. 1 and 2 are not matched.\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > 1 не відповідає glob."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:125
+msgid "> ## Minimum File Size"
+msgstr "> ## Мінімальний розмір файлу"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:126
+msgid ""
+">\n"
+"> Modify this program so that it prints the number of records in\n"
+"> the file that has the fewest records.\n"
+">\n"
+"> ~~~\n"
+"> import glob\n"
+"> import pandas as pd\n"
+"> fewest = ____\n"
+"> for filename in glob.glob('data/*.csv'):\n"
+">     dataframe = pd.____(filename)\n"
+">     fewest = min(____, dataframe.shape[0])\n"
+"> print('smallest file has', fewest, 'records')\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> Note that the [shape method](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html)\n"
+"> returns a tuple with the number of rows and columns of the data frame.\n"
+">\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > import glob\n"
+"> > import pandas as pd\n"
+"> > fewest = float('Inf')\n"
+"> > for filename in glob.glob('data/*.csv'):\n"
+"> >     dataframe = pd.read_csv(filename)\n"
+"> >     fewest = min(fewest, dataframe.shape[0])\n"
+"> > print('smallest file has', fewest, 'records')\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> Змініть цю програму так, щоб вона друкувала кількість записів\n"
+"> файлі, який містить найменшу кількість записів\n"
+">\n"
+"> ~~~\n"
+"> import glob\n"
+"> import pandas as pd\n"
+"> fewest = ____\n"
+"> for filename in glob.glob('data/*.csv'):\n"
+">     dataframe = pd.____(filename)\n"
+">     fewest = min(____, dataframe.shape[0])\n"
+"> print('smallest file has', fewest, 'records')\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> Зауважте, що [shape method](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html)\n"
+"> повертає кортеж із кількістю рядків і стовпців фрейму даних.\n"
+">\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > import glob\n"
+"> > import pandas as pd\n"
+"> > fewest = float('Inf')\n"
+"> > for filename in glob.glob('data/*.csv'):\n"
+"> >     dataframe = pd.read_csv(filename)\n"
+"> >     fewest = min(fewest, dataframe.shape[0])\n"
+"> > print('smallest file has', fewest, 'records')\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:157
+msgid "> ## Comparing Data"
+msgstr "> ## Порівняння даних"
+
+#: python-novice-gapminder/_episodes/14-looping-data-sets.md:158
+msgid ""
+">\n"
+"> Write a program that reads in the regional data sets\n"
+"> and plots the average GDP per capita for each region over time\n"
+"> in a single chart.\n"
+"> > ## Solution\n"
+"> > This solution builds a useful legend by using the string [`split`](https://docs.python.org/3/library/stdtypes.html#str.split) method to\n"
+"> > extract the `region` from the path 'data/gapminder_gdp_a_specific_region.csv'. The [`pathlib module`]\n"
+"> > also provides useful abstractions for file and path manipulation like returning the name of a file \n"
+"> > without the file extension.\n"
+"> > ~~~\n"
+"> > import glob\n"
+"> > import pandas as pd\n"
+"> > import matplotlib.pyplot as plt\n"
+"> > fig, ax = plt.subplots(1,1)\n"
+"> > for filename in glob.glob('data/gapminder_gdp*.csv'):\n"
+"> >     dataframe = pd.read_csv(filename)\n"
+"> >     # extract <region> from the filename, expected to be in the format 'data/gapminder_gdp_<region>.csv'.\n"
+"> >     # we will split the string using the split method and `_` as our separator,\n"
+"> >     # retrieve the last string in the list that split returns (`<region>.csv`), \n"
+"> >     # and then remove the `.csv` extension from that string.\n"
+"> >     region = filename.split('_')[-1][:-4] \n"
+"> >     dataframe.mean().plot(ax=ax, label=region)\n"
+"> > plt.legend()\n"
+"> > plt.show()\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> Напишіть програму, яка читає регіональні набори даних\n"
+"> і будує графік середнього ВВП на душу населення для кожного регіону в часі\n"
+"> в одній діаграмі.\n"
+"> > ## Рішення\n"
+"> > Це рішення створює корисну легенду за допомогою методу string [`split`](https://docs.python.org/3/library/stdtypes.html#str.split) для\n"
+"> > вилучення  `region` зі шляху 'data/gapminder_gdp_a_specific_region.csv'. [`pathlib module`]\n"
+"> > також забезпечує корисні абстракції для маніпулювання файлами та шляхами, такі як  повернення назви файлу \n"
+"> > без розширення файлу.\n"
+"> > ~~~\n"
+"> > import glob\n"
+"> > import pandas as pd\n"
+"> > import matplotlib.pyplot as plt\n"
+"> > fig, ax = plt.subplots(1,1)\n"
+"> > for filename in glob.glob('data/gapminder_gdp*.csv'):\n"
+"> >     dataframe = pd.read_csv(filename)\n"
+"> >     # вилучіть <region> з імені файла, який має бути у форматі 'data/gapminder_gdp_<region>.csv'.\n"
+"> >     # ми розділимо рядок за допомогою методу split та з викоританням `_` як роздільника,\n"
+"> >     # отримаємо останній рядок у списку, який повертає розділений (`<region>.csv`), \n"
+"> >     # та потім видалимо розширення `.csv` з того рядка.\n"
+"> >     region = filename.split('_')[-1][:-4] \n"
+"> >     dataframe.mean().plot(ax=ax, label=region)\n"
+"> > plt.legend()\n"
+"> > plt.show()\n"
+"> > ~~~\n"
+"> > {: .language-python}"

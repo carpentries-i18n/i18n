@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/setup.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Setup\"\n"
+"permalink: /setup/\n"
+"root: ..\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:8
+# header
+msgid "## Installing Python Using Anaconda"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:10
+msgid "[Python][python] is a popular language for scientific computing, and great for\n"
+"general-purpose programming as well. Installing all of its scientific packages\n"
+"individually can be a bit difficult, however, so we recommend the all-in-one\n"
+"installer [Anaconda][anaconda]."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:15
+msgid "Regardless of how you choose to install it, please make sure you install Python\n"
+"version 3.x (e.g., 3.4 is fine). Also, please set up your python environment at \n"
+"least a day in advance of the workshop.  If you encounter problems with the \n"
+"installation procedure, ask your workshop organizers via e-mail for assistance so\n"
+"you are ready to go as soon as the workshop begins."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:21
+# header
+msgid "### Windows - [Video tutorial][video-windows]"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:23
+# ordered list
+msgid "1. Open [https://www.anaconda.com/distribution/][anaconda-windows] with your web browser."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:25
+# ordered list
+msgid "2. Download the Python 3 installer for Windows."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:27
+# ordered list
+msgid "3. Double-click the executable and install Python 3 using the recommended settings. Make sure that **Register Anaconda as my default Python 3.x** option is checked - it should be in the latest version of Anaconda"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:29
+# header
+msgid "### Mac OS X - [Video tutorial][video-mac]"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:31
+# ordered list
+msgid "1. Visit [https://www.anaconda.com/distribution/][anaconda-mac] with your web browser."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:33
+# ordered list
+msgid "2. Download the Python 3 installer for OS X. These instructions assume that you use the graphical installer `.pkg` file."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:35
+# ordered list
+msgid "3. Follow the Python 3 installation instructions. Make sure that the install location is set to \"Install only for me\" so Anaconda will install its files locally, relative to your home directory. Installing the software for all users tends to create problems in the long run and should be avoided."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:38
+# header
+msgid "### Linux"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:40
+msgid "Note that the following installation steps require you to work from the shell. \n"
+"If you run into any difficulties, please request help before the workshop begins."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:43
+# ordered list
+msgid "1.  Open [https://www.anaconda.com/distribution/][anaconda-linux] with your web browser."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:45
+# ordered list
+msgid "2.  Download the Python 3 installer for Linux."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:47
+# ordered list
+msgid "3.  Install Python 3 using all of the defaults for installation."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:49
+msgid "    a.  Open a terminal window."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:51
+msgid "    b.  Navigate to the folder where you downloaded the installer"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:53
+msgid "    c.  Type"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:55
+msgid "    ~~~\n"
+"    $ bash Anaconda3-\n"
+"    ~~~"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:58
+# SC/DC Template label
+msgid "    {: .bash}"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:60
+msgid "    and press tab.  The name of the file you just downloaded should appear."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:62
+msgid "    d.  Press enter."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:64
+msgid "    e.  Follow the text-only prompts.  When the license agreement appears (a colon\n"
+"        will be present at the bottom of the screen) press the space bar until you see the \n"
+"        bottom of the text. Type `yes` and press enter to approve the license. Press \n"
+"        enter again to approve the default location for the files. Type `yes` and \n"
+"        press enter to prepend Anaconda to your `PATH` (this makes the Anaconda \n"
+"        distribution your user's default Python)."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:71
+# header
+msgid "## Getting the Data"
+msgstr ""
+
+#: python-novice-gapminder/setup.md:73
+msgid "The data we will be using is taken from the [gapminder][gapminder] dataset.\n"
+"To obtain it, download and unzip the file \n"
+"[python-novice-gapminder-data.zip]({{page.root}}/files/python-novice-gapminder-data.zip).\n"
+"In order to follow the presented material, you should launch the JupyterLab \n"
+"server in the root directory (see [Starting JupyterLab]({{ page.root }}/01-run-quit/#starting-jupyterlab))."
+msgstr ""
+
+#: python-novice-gapminder/setup.md:80
+msgid "[anaconda]: https://www.anaconda.com/\n"
+"[anaconda-mac]: https://www.anaconda.com/download/#macos\n"
+"[anaconda-linux]: https://www.anaconda.com/download/#linux\n"
+"[anaconda-windows]: https://www.anaconda.com/download/#windows\n"
+"[gapminder]: https://en.wikipedia.org/wiki/Gapminder_Foundation\n"
+"[jupyter]: http://jupyter.org/\n"
+"[python]: https://python.org\n"
+"[video-mac]: https://www.youtube.com/watch?v=TcSAln46u9U\n"
+"[video-windows]: https://www.youtube.com/watch?v=xxQ0mzZ8UvA"
+msgstr ""
+

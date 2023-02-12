@@ -1,0 +1,1158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Olexandr Konovalov, 2022
+# Марина Новожилова, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Марина Новожилова, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/03-types-conversion.md:1
+msgid ""
+"---\n"
+"title: \"Data Types and Type Conversion\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"What kinds of data do programs store?\"\n"
+"- \"How can I convert one type to another?\"\n"
+"objectives:\n"
+"- \"Explain key differences between integers and floating point numbers.\"\n"
+"- \"Explain key differences between numbers and character strings.\"\n"
+"- \"Use built-in functions to convert between integers, floating point numbers, and strings.\"\n"
+"keypoints:\n"
+"- \"Every value has a type.\"\n"
+"- \"Use the built-in function `type` to find the type of a value.\"\n"
+"- \"Types control what operations can be done on values.\"\n"
+"- \"Strings can be added and multiplied.\"\n"
+"- \"Strings have a length (but numbers don't).\"\n"
+"- \"Must convert numbers to strings or vice versa when operating on them.\"\n"
+"- \"Can mix integers and floats freely in operations.\"\n"
+"- \"Variables only change value when something is assigned to them.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Типи даних та їх перетворення\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Які типи даних зберігають програми?\"\n"
+"- \"Як перетворити один тип в інший?\"\n"
+"objectives:\n"
+"- \"Зʼясувати, чим відрізняються цілі числа від чисел з плаваючою крапкою.\"\n"
+"- \"Зʼясувати, чим відрізняються числа та рядки символів.\"\n"
+"- \"Використовувати вбудовані функції для перетворень між цілими числами,  числами з плаваючою крапкою та рядками.\"\n"
+"keypoints:\n"
+"- \"Кожне значення має тип.\"\n"
+"- \"Використовуйте вбудовану функцію `type` для визначення типу значення.\"\n"
+"- \"Типи контролюють, які операції можуть бути виконані над значеннями.\"\n"
+"- \"Рядки можна додавати та множити.\"\n"
+"- \"Рядки мають довжину (а числа - ні).\"\n"
+"- \"Деякі операції вимагають перетворення числа у рядок або навпаки.\"\n"
+"- \"Цілі та дійсні числа можна використовувати разом для арифметичних дій.\"\n"
+"- \"Змінні можуть змінити своє значення тільки через присвоювання.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:22
+msgid "## Every value has a type."
+msgstr "## Кожне значення має тип."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:24
+msgid "*   Every value in a program has a specific type."
+msgstr "*   Кожне значення, яке використовує програма, має деякий тип."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:25
+msgid ""
+"*   Integer (`int`): represents positive or negative whole numbers like 3 or"
+" -512."
+msgstr ""
+"*   Ціле число (`int`): зображує додатні або від’ємні цілі числа, наприклад "
+"3 або -512."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:26
+msgid ""
+"*   Floating point number (`float`): represents real numbers like 3.14159 or"
+" -2.5."
+msgstr ""
+"*   Число з плаваючою крапкою (`float`): зображує дійсні числа, наприклад "
+"3.14159 або -2.5."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:27
+msgid "*   Character string (usually called \"string\", `str`): text."
+msgstr ""
+"*   Рядки символів (звичайно просто \"рядки\", `str`): представляють текст."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:28
+msgid ""
+"    *   Written in either single quotes or double quotes (as long as they "
+"match)."
+msgstr ""
+"    *   Укладені в одинарні або подвійні лапки (тип лапок має збігатися)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:29
+msgid "    *   The quote marks aren't printed when the string is displayed."
+msgstr "    *   Під час відображення рядку лапки не друкуються."
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:31
+msgid "## Use the built-in function `type` to find the type of a value."
+msgstr "## Вбудована функція `type` повертає тип значення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:33
+msgid ""
+"*   Use the built-in function `type` to find out what type a value has."
+msgstr ""
+"*   Використовуйте вбудовану функцію `type`, щоб з'ясувати, який тип має "
+"значення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:34
+msgid "*   Works on variables as well."
+msgstr "*   Це також працює зі змінними."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:35
+msgid ""
+"    *   But remember: the *value* has the type --- the *variable* is just a "
+"label."
+msgstr ""
+"    *   Але запамʼятайте: *значення* має свій тип, а *змінна* тільки вказує "
+"на будь-яке значення."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:37
+msgid ""
+"~~~\n"
+"print(type(52))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(type(52))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:40
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"<class 'int'>\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"<class 'int'>\n"
+"~~~"
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:46
+msgid ""
+"~~~\n"
+"fitness = 'average'\n"
+"print(type(fitness))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"fitness = 'average'\n"
+"print(type(fitness))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:50
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"<class 'str'>\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"<class 'str'>\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:56
+msgid ""
+"## Types control what operations (or methods) can be performed on a given "
+"value."
+msgstr ""
+"## Тип визначає, які операції (або методи) можна виконувати із даним "
+"значенням."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:58
+msgid "*   A value's type determines what the program can do to it."
+msgstr "*   Тип значення визначає, що може робити з ним програма."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:60
+msgid ""
+"~~~\n"
+"print(5 - 3)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(5 - 3)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:63
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"2\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"2\n"
+"~~~"
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:69
+msgid ""
+"~~~\n"
+"print('hello' - 'h')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('hello' - 'h')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:72
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-2-67f5626a1e07> in <module>()\n"
+"----> 1 print('hello' - 'h')"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-2-67f5626a1e07> in <module>()\n"
+"----> 1 print('hello' - 'h')"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:79
+msgid ""
+"TypeError: unsupported operand type(s) for -: 'str' and 'str'\n"
+"~~~"
+msgstr ""
+"TypeError: unsupported operand type(s) for -: 'str' and 'str'\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:83
+msgid "## You can use the \"+\" and \"*\" operators on strings."
+msgstr "## Ви можете використовувати оператори \"+\" та \"*\" для дій над рядками."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:85
+msgid "*   \"Adding\" character strings concatenates them."
+msgstr "*   \"Додавання\" рядків виконує їх конкатенацію."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:87
+msgid ""
+"~~~\n"
+"full_name = 'Ahmed' + ' ' + 'Walsh'\n"
+"print(full_name)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"full_name = 'Ahmed' + ' ' + 'Walsh'\n"
+"print(full_name)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:91
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"Ahmed Walsh\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"Ahmed Walsh\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:97
+msgid ""
+"*   Multiplying a character string by an integer _N_ creates a new string "
+"that consists of that character string repeated  _N_ times."
+msgstr ""
+"*   Якщо рядок помножити на ціле число _N_, то це створить новий рядок, який"
+" буде містити вихідний рядок, повторений  _N_ разів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:98
+msgid "    *   Since multiplication is repeated addition."
+msgstr "    *   Оскільки множення - це повторюване додавання."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:100
+msgid ""
+"~~~\n"
+"separator = '=' * 10\n"
+"print(separator)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"separator = '=' * 10\n"
+"print(separator)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:104
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"==========\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"==========\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:110
+msgid "## Strings have a length (but numbers don't)."
+msgstr "## Рядки мають довжину (але числа її не мають)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:112
+msgid ""
+"*   The built-in function `len` counts the number of characters in a string."
+msgstr "*   Вбудована функція `len` повертає кількість символів у рядку."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:114
+msgid ""
+"~~~\n"
+"print(len(full_name))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(len(full_name))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:117
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"11\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"11\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:123
+msgid "*   But numbers don't have a length (not even zero)."
+msgstr "*   Але числа не мають довжини (навіть нуль)."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:125
+msgid ""
+"~~~\n"
+"print(len(52))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(len(52))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:128
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-3-f769e8e8097d> in <module>()\n"
+"----> 1 print(len(52))"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-3-f769e8e8097d> in <module>()\n"
+"----> 1 print(len(52))"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:135
+msgid ""
+"TypeError: object of type 'int' has no len()\n"
+"~~~"
+msgstr ""
+"TypeError: object of type 'int' has no len()\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:139
+msgid ""
+"## <a name='convert-numbers-and-strings'></a> Must convert numbers to "
+"strings or vice versa when operating on them."
+msgstr ""
+"## <a name='convert-numbers-and-strings'></a> Деякі операції вимагають "
+"перетворення числа у рядок або навпаки."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:141
+msgid "*   Cannot add numbers and strings."
+msgstr "*   Додавання чисел та рядків неможливе."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:143
+msgid ""
+"~~~\n"
+"print(1 + '2')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(1 + '2')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:146
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-4-fe4f54a023c6> in <module>()\n"
+"----> 1 print(1 + '2')"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-4-fe4f54a023c6> in <module>()\n"
+"----> 1 print(1 + '2')"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:153
+msgid ""
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'\n"
+"~~~"
+msgstr ""
+"TypeError: unsupported operand type(s) for +: 'int' and 'str'\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:157
+msgid ""
+"*   Not allowed because it's ambiguous: should `1 + '2'` be `3` or `'12'`?"
+msgstr ""
+"*   Таке додавання не дозволено, тому що воно не визначене: чи має `1 + '2'`"
+" повертати `3` чи `'12'`?"
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:158
+msgid ""
+"*   Some types can be converted to other types by using the type name as a "
+"function."
+msgstr ""
+"*   Деякі типи можуть бути перетворені на інші типи за допомогою функції, "
+"яка має те ж саме імʼя, що і потрібний тип."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:160
+msgid ""
+"~~~\n"
+"print(1 + int('2'))\n"
+"print(str(1) + '2')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(1 + int('2'))\n"
+"print(str(1) + '2')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:164
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"3\n"
+"12\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"3\n"
+"12\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:171
+msgid "## Can mix integers and floats freely in operations."
+msgstr "## Цілі та дійсні числа можна використовувати разом."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:173
+msgid "*   Integers and floating-point numbers can be mixed in arithmetic."
+msgstr ""
+"*   Цілі та дійсні числа можна використовувати разом для арифметичних дій."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:174
+msgid ""
+"    *   Python 3 automatically converts integers to floats as needed. "
+"(Integer division in Python 2 will return an integer, the *floor* of the "
+"division.)"
+msgstr ""
+"    *   Python 3 автоматично перетворить цілі числа у дійсні, якщо це "
+"потрібно. (У Python 2 ділення цілих чисел поверне ціле число, яке буде цілою"
+" частиною відповідного дійсного числа)."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:176
+msgid ""
+"~~~\n"
+"print('half is', 1 / 2.0)\n"
+"print('three squared is', 3.0 ** 2)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('half is', 1 / 2.0)\n"
+"print('three squared is', 3.0 ** 2)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:180
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"half is 0.5\n"
+"three squared is 9.0\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"half is 0.5\n"
+"three squared is 9.0\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/03-types-conversion.md:187
+msgid "## Variables only change value when something is assigned to them."
+msgstr "## Змінні можуть змінити своє значення тільки через присвоювання."
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:189
+msgid "*   If we make one cell in a spreadsheet depend on another,"
+msgstr "*   В електроних таблицях, якщо одна клітинка залежить від іншої,"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:190
+msgid ""
+"    and update the latter,\n"
+"    the former updates automatically.\n"
+"*   This does **not** happen in programming languages."
+msgstr ""
+"    то у разі зміни у останній,\n"
+"    залежна клітинка оновиться автоматично.\n"
+"*   Це **не** трапляється у мовах програмування."
+
+# code block
+#: python-novice-gapminder/_episodes/03-types-conversion.md:194
+msgid ""
+"~~~\n"
+"first = 1\n"
+"second = 5 * first\n"
+"first = 2\n"
+"print('first is', first, 'and second is', second)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"first = 1\n"
+"second = 5 * first\n"
+"first = 2\n"
+"print('first is', first, 'and second is', second)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:200
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"first is 2 and second is 5\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"first is 2 and second is 5\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/03-types-conversion.md:206
+msgid ""
+"*   The computer reads the value of `first` when doing the multiplication,"
+msgstr ""
+"*   Компʼютер використовує значення змінної `first` коли виконує множення,"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:207
+msgid ""
+"    creates a new value, and assigns it to `second`.\n"
+"*   After that, `second` does not remember where it came from."
+msgstr ""
+"    створює нове значення, та присвоює його змінній `second`.\n"
+"*   Після цього значення `second` встановлюється на нове значення і не залежить від `first`, тому його значення не змінюється автоматично, коли змінюється значення `first`."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/03-types-conversion.md:210
+msgid "> ## Fractions"
+msgstr "> ## Дроби"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:211
+msgid ""
+">\n"
+"> What type of value is 3.4?\n"
+"> How can you find out?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > It is a floating-point number (often abbreviated \"float\").\n"
+"> >\n"
+"> > ~~~\n"
+"> > print(type(3.4))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > <class 'float'>\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> Який тип має число 3.4?\n"
+"> Як це можна встановити?\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > Це - дійсне число (або число з плаваючою крапкою).\n"
+"> >\n"
+"> > ~~~\n"
+"> > print(type(3.4))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > <class 'float'>\n"
+"> > ~~~\n"
+"> > {: .output}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/03-types-conversion.md:230
+msgid "> ## Automatic Type Conversion"
+msgstr "> ## Автоматичне перетворення типів"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:231
+msgid ""
+">\n"
+"> What type of value is 3.25 + 4?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > It is a float:\n"
+"> > integers are automatically converted to floats as necessary.\n"
+"> >\n"
+"> > ~~~\n"
+"> > result = 3.25 + 4\n"
+"> > print(result, 'is', type(result))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 7.25 is <class 'float'>\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> Який тип має 3.25 + 4?\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > Це - дійсне число:\n"
+"> > цілі числа автоматично перетворюються у дійсні, коли це необхідно.\n"
+"> >\n"
+"> > ~~~\n"
+"> > result = 3.25 + 4\n"
+"> > print(result, 'is', type(result))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 7.25 is <class 'float'>\n"
+"> > ~~~\n"
+"> > {: .output}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/03-types-conversion.md:251
+msgid "> ## Choose a Type"
+msgstr "> ## Як вибрати тип"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:252
+msgid ""
+">\n"
+"> What type of value (integer, floating point number, or character string)\n"
+"> would you use to represent each of the following?  Try to come up with more than one good answer for each problem.  For example, in  # 1, when would counting days with a floating point variable make more sense than using an integer?  \n"
+">\n"
+"> 1. Number of days since the start of the year.\n"
+"> 2. Time elapsed from the start of the year until now in days.\n"
+"> 3. Serial number of a piece of lab equipment.\n"
+"> 4. A lab specimen's age\n"
+"> 5. Current population of a city.\n"
+"> 6. Average population of a city over time.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > The answers to the questions are:\n"
+"> > 1. Integer, since the number of days would lie between 1 and 365. \n"
+"> > 2. Floating point, since fractional days are required\n"
+"> > 3. Character string if serial number contains letters and numbers, otherwise integer if the serial number consists only of numerals\n"
+"> > 4. This will vary! How do you define a specimen's age? whole days since collection (integer)? date and time (string)?\n"
+"> > 5. Choose floating point to represent population as large aggregates (eg millions), or integer to represent population in units of individuals.\n"
+"> > 6. Floating point number, since an average is likely to have a fractional part.\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> Який тип (ціле число, дійсне число, рядок символів) ви будете використовувати для зберігання наступних значень? Спробуйте надати більш ніж одну відповідь у кожному випадку. Наприклад, в питанні # 1, коли для рахування днів дійсні числа можуть бути більш доречними, ніж цілі?  \n"
+">\n"
+"> 1. Кількість днів з початку року.\n"
+"> 2. Час, який пройшов з початку року до поточного моменту, у днях.\n"
+"> 3. Серійний номер лабораторного обладнання.\n"
+"> 4. Вік лабораторного зразка.\n"
+"> 5. Чисельність населення міста.\n"
+"> 6. Середня чисельність населення міста за певний час.\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > Ці питання мають наступні відповіді:\n"
+"> > 1. Ціле число, оскільки кількість днів приймає значення від 1 до 365. \n"
+"> > 2. Дійсне число, оскільки треба використовувати частини дня.\n"
+"> > 3. Рядок символів, якщо серійний номер містить букви та цифри; ціле число, якщо він містить тільки цифри.\n"
+"> > 4. Це залежить від багатьох факторів! Як вимірюється вік зразка? Кількість днів з моменту, коли його було виготовлено (ціле число)? Дата і час (рядок)?\n"
+"> > 5. Виберіть дійсне число, щоб представити приблизну кількість населення за допомогою округлення (наприклад, до мільйонів), або ціле число, щоб представити точну кількість населення.\n"
+"> > 6. Дійсне число, оскільки результат усереднення, швидше за все, буде мати дрібну частину.\n"
+"> > {: .output}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/03-types-conversion.md:276
+msgid "> ## Division Types"
+msgstr "> ## Типи операцій ділення "
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:277
+msgid ""
+">\n"
+"> In Python 3, the `//` operator performs integer (whole-number) floor division, the `/` operator performs floating-point\n"
+"> division, and the '%' (or *modulo*) operator calculates and returns the remainder from integer division:\n"
+">\n"
+"> ~~~\n"
+"> print('5 // 3:', 5//3)\n"
+"> print('5 / 3:', 5/3)\n"
+"> print('5 % 3:', 5%3)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> 5 // 3: 1\n"
+"> 5 / 3: 1.6666666666666667\n"
+"> 5 % 3: 2\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> У Python 3 оператор `//` виконує ціле ділення (повертає цілу частину результату), оператор `/` виконує ділення з плаваючою крапкою,\n"
+"> та оператор '%' (або *модуль*) повертає залишок від цілого ділення:\n"
+">\n"
+"> ~~~\n"
+"> print('5 // 3:', 5//3)\n"
+"> print('5 / 3:', 5/3)\n"
+"> print('5 % 3:', 5%3)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> 5 // 3: 1\n"
+"> 5 / 3: 1.6666666666666667\n"
+"> 5 % 3: 2\n"
+"> ~~~"
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/03-types-conversion.md:293
+#: python-novice-gapminder/_episodes/03-types-conversion.md:345
+#: python-novice-gapminder/_episodes/03-types-conversion.md:445
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:352
+#: python-novice-gapminder/_episodes/11-lists.md:222
+#: python-novice-gapminder/_episodes/11-lists.md:264
+#: python-novice-gapminder/_episodes/13-conditionals.md:297
+#: python-novice-gapminder/_episodes/13-conditionals.md:409
+#: python-novice-gapminder/_episodes/16-writing-functions.md:217
+msgid "> {: .output}"
+msgstr "> {: .output}"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:294
+msgid ""
+">\n"
+"> However in Python2 (and other languages), the `/` operator between two integer types perform a floor (`//`) division. To perform a float division, we have to convert one of the integers to float.\n"
+">\n"
+"> ~~~\n"
+"> print('5 // 3:', 1)\n"
+"> print('5 / 3:', 1 )\n"
+"> print('5 / float(3):', 1.6666667 )\n"
+"> print('float(5) / 3:', 1.6666667 )\n"
+"> print('float(5 / 3):', 1.0 )\n"
+"> print('5 % 3:', 2)\n"
+"> ~~~\n"
+">\n"
+"> If `num_subjects` is the number of subjects taking part in a study,\n"
+"> and `num_per_survey` is the number that can take part in a single survey,\n"
+"> write an expression that calculates the number of surveys needed\n"
+"> to reach everyone once.\n"
+">\n"
+"> > ## Solution\n"
+"> > We want the minimum number of surveys that reaches everyone once, which is\n"
+"> > the rounded up value of `num_subjects / num_per_survey`. This is \n"
+"> > equivalent to performing an integer division with `//` and adding 1.\n"
+"> > ~~~\n"
+"> > num_subjects = 600\n"
+"> > num_per_survey = 42\n"
+"> > num_surveys = num_subjects // num_per_survey + 1\n"
+"> >\n"
+"> > print(num_subjects, 'subjects,', num_per_survey, 'per survey:', num_surveys)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 600 subjects, 42 per survey: 15\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> Але у Python 2 (та інших мовах) оператор `/` для двох цілих чисел буде виконувати ціле (`//`) ділення. Щоб виконати ділення з плаваючою крапкою, треба перетворити одне з цілих чисел на дійсне.\n"
+">\n"
+"> ~~~\n"
+"> print('5 // 3:', 1)\n"
+"> print('5 / 3:', 1 )\n"
+"> print('5 / float(3):', 1.6666667 )\n"
+"> print('float(5) / 3:', 1.6666667 )\n"
+"> print('float(5 / 3):', 1.0 )\n"
+"> print('5 % 3:', 2)\n"
+"> ~~~\n"
+">\n"
+"> Нехай `num_subjects` - це загальне число людей, які беруть участь у дослідженні,\n"
+"> а `num_per_survey` - це число людей, які можуть взяти участь у одному опитуванні.\n"
+"> Як обчислити кількість досліджень, необхідну,\n"
+"> щоб опитати кожного один раз?\n"
+">\n"
+"> > ## Рішення\n"
+"> > Нам треба знайти мінімальну кількість опитувань, необхідну, щоб опитати кожного один раз, тобто\n"
+"> > округлити до більшого цілого числа `num_subjects / num_per_survey`. Це\n"
+"> > еквивалентно виконанню цілого ділення за допомогою `//` з додаванням  1.\n"
+"> > ~~~\n"
+"> > num_subjects = 600\n"
+"> > num_per_survey = 42\n"
+"> > num_surveys = num_subjects // num_per_survey + 1\n"
+"> >\n"
+"> > print(num_subjects, 'subjects,', num_per_survey, 'per survey:', num_surveys)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 600 subjects, 42 per survey: 15\n"
+"> > ~~~\n"
+"> > {: .output}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/03-types-conversion.md:330
+msgid "> ## Strings to Numbers"
+msgstr "> ## Перетворення рядків у числа"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:331
+msgid ""
+">\n"
+"> Where reasonable, `float()` will convert a string to a floating point number,\n"
+"> and `int()` will convert a floating point number to an integer:\n"
+">\n"
+"> ~~~\n"
+"> print(\"string to float:\", float(\"3.4\"))\n"
+"> print(\"float to int:\", int(3.4))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> string to float: 3.4\n"
+"> float to int: 3\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Коли доцільно, `float()` перетворить рядок на число з плаваючою крапкою,\n"
+"> а `int()` перетворить число з плаваючою крапкою на ціле:\n"
+">\n"
+"> ~~~\n"
+"> print(\"string to float:\", float(\"3.4\"))\n"
+"> print(\"float to int:\", int(3.4))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> string to float: 3.4\n"
+"> float to int: 3\n"
+"> ~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:346
+msgid ""
+">\n"
+"> If the conversion doesn't make sense, however, an error message will occur\n"
+">\n"
+"> ~~~\n"
+"> print(\"string to float:\", float(\"Hello world!\"))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> ---------------------------------------------------------------------------\n"
+"> ValueError                                Traceback (most recent call last)\n"
+"> <ipython-input-5-df3b790bf0a2> in <module>()\n"
+"> ----> 1 print(\"string to float:\", float(\"Hello world!\"))\n"
+">\n"
+"> ValueError: could not convert string to float: 'Hello world!'\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Однак якщо перетворення не має сенсу, то зʼявиться повідомлення про помилку\n"
+">\n"
+"> ~~~\n"
+"> print(\"string to float:\", float(\"Hello world!\"))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> ---------------------------------------------------------------------------\n"
+"> ValueError                                Traceback (most recent call last)\n"
+"> <ipython-input-5-df3b790bf0a2> in <module>()\n"
+"> ----> 1 print(\"string to float:\", float(\"Hello world!\"))\n"
+">\n"
+"> ValueError: could not convert string to float: 'Hello world!'\n"
+"> ~~~"
+
+# SC/DC Template label
+#: python-novice-gapminder/_episodes/03-types-conversion.md:362
+#: python-novice-gapminder/_episodes/06-libraries.md:248
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:71
+#: python-novice-gapminder/_episodes/17-scope.md:108
+msgid "> {: .error}"
+msgstr "> {: .error}"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:363
+msgid ""
+">\n"
+"> Given this information, what do you expect the following program to do?\n"
+">\n"
+"> What does it actually do?\n"
+">\n"
+"> Why do you think it does that?\n"
+">\n"
+"> ~~~\n"
+"> print(\"fractional string to int:\", int(\"3.4\"))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> \n"
+"> > ## Solution\n"
+"> > What do you expect this program to do? It would not be so unreasonable to expect the Python 3 `int` command to\n"
+"> > convert the string \"3.4\" to 3.4 and an additional type conversion to 3. After all, Python 3 performs a lot of other\n"
+"> > magic - isn't that part of its charm?\n"
+"> > \n"
+"> > However, Python 3 throws an error. Why? To be consistent, possibly. If you ask Python to perform two consecutive\n"
+"> > typecasts, you must convert it explicitly in code.\n"
+"> >\n"
+"> > ~~~\n"
+"> > int(\"3.4\")\n"
+"> > int(float(\"3.4\"))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > In [2]: int(\"3.4\")\n"
+"> > ---------------------------------------------------------------------------\n"
+"> > ValueError                                Traceback (most recent call last)\n"
+"> > <ipython-input-2-ec6729dfccdc> in <module>()\n"
+"> > ----> 1 int(\"3.4\")\n"
+"> > ValueError: invalid literal for int() with base 10: '3.4'\n"
+"> > 3\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> Беручи це до уваги, чого ви чекаєте від наступної програми?\n"
+">\n"
+"> Що вона робить насправді?\n"
+">\n"
+"> Як це пояснити?\n"
+">\n"
+"> ~~~\n"
+"> print(\"fractional string to int:\", int(\"3.4\"))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> \n"
+"> > ## Рішення\n"
+"> > Чого можна очікувати від цієї програми? Чому б не очікувати, що у Python 3 команда `int` \n"
+"> > перетворить рядок \"3.4\" на 3.4 та виконає додаткове перетворення у ціле число 3. Зрештою, Python 3 створює багато іншої\n"
+"> > магії - хіба це не частина його чарівності?\n"
+"> > \n"
+"> > Однак Python 3 видає помилку. Чому? Можливо, щоб бути послідовним. Якщо ви просите Python виконати два послідовних\n"
+"> > перетворення типу, ви маєте явним чином вказати це у коді програми.\n"
+"> >\n"
+"> > ~~~\n"
+"> > int(\"3.4\")\n"
+"> > int(float(\"3.4\"))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > In [2]: int(\"3.4\")\n"
+"> > ---------------------------------------------------------------------------\n"
+"> > ValueError                                Traceback (most recent call last)\n"
+"> > <ipython-input-2-ec6729dfccdc> in <module>()\n"
+"> > ----> 1 int(\"3.4\")\n"
+"> > ValueError: invalid literal for int() with base 10: '3.4'\n"
+"> > 3\n"
+"> > ~~~\n"
+"> > {: .output}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/03-types-conversion.md:401
+msgid "> ## Arithmetic with Different Types"
+msgstr "> ## Аріфметичні дії з різними типами"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:402
+msgid ""
+">\n"
+"> Which of the following will return the floating point number `2.0`?\n"
+"> Note: there may be more than one right answer.\n"
+">\n"
+"> ~~~\n"
+"> first = 1.0\n"
+"> second = \"1\"\n"
+"> third = \"1.1\"\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1. `first + float(second)`\n"
+"> 2. `float(second) + float(third)`\n"
+"> 3. `first + int(third)`\n"
+"> 4. `first + int(float(third))`\n"
+"> 5. `int(first) + int(float(third))`\n"
+"> 6. `2.0 * second`\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Answer: 1 and 4"
+msgstr ""
+">\n"
+"> Яка з наступних команд поверне дійсне число `2.0`?\n"
+"> Примітка: це питання може мати декілька коректних відповідей.\n"
+">\n"
+"> ~~~\n"
+"> first = 1.0\n"
+"> second = \"1\"\n"
+"> third = \"1.1\"\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1. `first + float(second)`\n"
+"> 2. `float(second) + float(third)`\n"
+"> 3. `first + int(third)`\n"
+"> 4. `first + int(float(third))`\n"
+"> 5. `int(first) + int(float(third))`\n"
+"> 6. `2.0 * second`\n"
+">\n"
+"> > ## Рішення\n"
+"> >\n"
+"> > Відповідь: 1 та 4"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/03-types-conversion.md:426
+msgid "> ## Complex Numbers"
+msgstr "> ## Комплексні числа"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:427
+msgid ""
+">\n"
+"> Python provides complex numbers,\n"
+"> which are written as `1.0+2.0j`.\n"
+"> If `val` is an imaginary number,\n"
+"> its real and imaginary parts can be accessed using *dot notation*\n"
+"> as `val.real` and `val.imag`.\n"
+">\n"
+"> ~~~\n"
+"> complex = 6 + 2j\n"
+"> print(complex.real)\n"
+"> print(complex.imag)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> 6.0\n"
+"> 2.0\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Python підтримує комплексні числа,\n"
+"> які записуються як `1.0+2.0j`.\n"
+"> Якщо `val` - комплексне число,\n"
+"> то до його дійсної та уявної частин можна отримати доступ за допомогою *крапкової нотації*\n"
+"> як `val.real` та `val.imag`.\n"
+">\n"
+"> ~~~\n"
+"> complex = 6 + 2j\n"
+"> print(complex.real)\n"
+"> print(complex.imag)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> 6.0\n"
+"> 2.0\n"
+"> ~~~"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:446
+msgid ""
+">\n"
+">\n"
+"> 1.  Why do you think Python uses `j` instead of `i` for the imaginary part?\n"
+"> 2.  What do you expect `1+2j + 3` to produce?\n"
+"> 3.  What do you expect `4j` to be?  What about `4 j` or `4 + j`?\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1. Standard mathematics treatments typically use `i` to denote an imaginary number. However, from media reports it\n"
+"> > was an early convention established from electrical engineering that now presents a technically expensive area to\n"
+"> > change. [Stack Overflow provides additional explanation and\n"
+"> > discussion.](http://stackoverflow.com/questions/24812444/why-are-complex-numbers-in-python-denoted-with-j-instead-of-i)\n"
+"> > 2. `(4+2j)`\n"
+"> > 3. `4j`, `Syntax Error: invalid syntax`, in this case _j_ is considered a variable and this depends on if _j_ is defined and if so, its assigned value"
+msgstr ""
+">\n"
+">\n"
+"> 1.  Чому, на вашу думку, Python використовує `j` замість `i` для уявної частини?\n"
+"> 2.  Що ви очікуєте отримати від `1+2j + 3`?\n"
+"> 3.  Що ви очікуєте від `4j`?  А що від `4 j` або `4 + j`?\n"
+"> \n"
+"> > ## Рішення\n"
+"> >\n"
+"> > 1. Стандартні математичні позначення зазвичай використовують `i` для позначення комплексного числа. Однак, судячи з різних джерел, це\n"
+"> > було раннє позначення, яке використовувалось у електротехніці, та зараз було б дуже дорого його\n"
+"> > змінити. [Stack Overflow містить додаткові пояснення та\n"
+"> > обговорення.](http://stackoverflow.com/questions/24812444/why-are-complex-numbers-in-python-denoted-with-j-instead-of-i)\n"
+"> > 2. `(4+2j)`\n"
+"> > 3. `4j`, `Syntax Error: invalid syntax`, у цьому випадку _j_ вважається змінною, і це залежить від того, чи визначене _j_, і якщо так, то його присвоєне значення"

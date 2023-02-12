@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# David PS <dps.helio@gmail.com>, 2020
+# Paula <orchid00@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Paula <orchid00@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/20-feedback.md:1
+msgid ""
+"---\n"
+"title: \"Feedback\"\n"
+"teaching: 0\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How did the class go?\"\n"
+"objectives:\n"
+"- \"Gather feedback on the class\"\n"
+"keypoints:\n"
+"- \"We are constantly seeking to improve this course.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Comentarios\"\n"
+"teaching: 0\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"¿Cómo fue la clase?\"\n"
+"objectives:\n"
+"- \"Obtener comentarios de la clase\"\n"
+"keypoints:\n"
+"- \"Estamos buscando siempre maneras de mejorar este curso.\"\n"
+"---"
+
+#: python-novice-gapminder/_episodes/20-feedback.md:13
+msgid "Gather feedback from participants."
+msgstr "Obtener comentarios de los participantes."

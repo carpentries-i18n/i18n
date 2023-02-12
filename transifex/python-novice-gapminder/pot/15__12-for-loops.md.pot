@@ -1,0 +1,610 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:1
+# Front Matter
+msgid "---\n"
+"title: \"For Loops\"\n"
+"teaching: 10\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How can I make a program do many things?\"\n"
+"objectives:\n"
+"- \"Explain what for loops are normally used for.\"\n"
+"- \"Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration.\"\n"
+"- \"Write for loops that use the Accumulator pattern to aggregate values.\"\n"
+"keypoints:\n"
+"- \"A *for loop* executes commands once for each value in a collection.\"\n"
+"- \"A `for` loop is made up of a collection, a loop variable, and a body.\"\n"
+"- \"The first line of the `for` loop must end with a colon, and the body must be indented.\"\n"
+"- \"Indentation is always meaningful in Python.\"\n"
+"- \"Loop variables can be called anything (but it is strongly advised to have a meaningful name to the looping variable).\"\n"
+"- \"The body of a loop can contain many statements.\"\n"
+"- \"Use `range` to iterate over a sequence of numbers.\"\n"
+"- \"The Accumulator pattern turns many values into one.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:21
+# header
+msgid "## A *for loop* executes commands once for each value in a collection."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:23
+# unordered list
+msgid "*   Doing calculations on the values in a list one by one"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:24
+msgid "    is as painful as working with `pressure_001`, `pressure_002`, etc.\n"
+"*   A *for loop* tells Python to execute some statements once for each value in a list,\n"
+"    a character string,\n"
+"    or some other collection.\n"
+"*   \"for each thing in this group, do these operations\""
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:30
+#: python-novice-gapminder/_episodes/12-for-loops.md:56
+# code block
+msgid "~~~\n"
+"for number in [2, 3, 5]:\n"
+"    print(number)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:36
+# unordered list
+msgid "*   This `for` loop is equivalent to:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:38
+# code block
+msgid "~~~\n"
+"print(2)\n"
+"print(3)\n"
+"print(5)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:45
+# unordered list
+msgid "*   And the `for` loop's output is:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:47
+# code block
+msgid "~~~\n"
+"2\n"
+"3\n"
+"5\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:54
+# header
+msgid "## A `for` loop is made up of a collection, a loop variable, and a body."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:62
+# unordered list
+msgid "*   The collection, `[2, 3, 5]`, is what the loop is being run on."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:63
+# unordered list
+msgid "*   The body, `print(number)`, specifies what to do for each value in the collection."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:64
+# unordered list
+msgid "*   The loop variable, `number`, is what changes for each *iteration* of the loop."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:65
+# unordered list
+msgid "    *   The \"current thing\"."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:67
+# header
+msgid "## The first line of the `for` loop must end with a colon, and the body must be indented."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:69
+# unordered list
+msgid "*   The colon at the end of the first line signals the start of a *block* of statements."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:70
+# unordered list
+msgid "*   Python uses indentation rather than `{}` or `begin`/`end` to show *nesting*."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:71
+# unordered list
+msgid "    *   Any consistent indentation is legal, but almost everyone uses four spaces."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:73
+# code block
+msgid "~~~\n"
+"for number in [2, 3, 5]:\n"
+"print(number)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:77
+msgid "{: .language-python}\n"
+"~~~\n"
+"IndentationError: expected an indented block\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:83
+# unordered list
+msgid "*   Indentation is always meaningful in Python."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:85
+# code block
+msgid "~~~\n"
+"firstName = \"Jon\"\n"
+"  lastName = \"Smith\"\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:89
+msgid "{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-7-f65f2962bf9c>\", line 2\n"
+"    lastName = \"Smith\"\n"
+"    ^\n"
+"IndentationError: unexpected indent\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:98
+# unordered list
+msgid "*   This error can be fixed by removing the extra spaces"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:99
+msgid "    at the beginning of the second line."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:101
+# header
+msgid "## Loop variables can be called anything."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:103
+# unordered list
+msgid "*   As with all variables, loop variables are:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:104
+# unordered list
+msgid "    *   Created on demand."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:105
+# unordered list
+msgid "    *   Meaningless: their names can be anything at all."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:107
+# code block
+msgid "~~~\n"
+"for kitten in [2, 3, 5]:\n"
+"    print(kitten)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:113
+# header
+msgid "## The body of a loop can contain many statements."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:115
+# unordered list
+msgid "*   But no loop should be more than a few lines long."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:116
+# unordered list
+msgid "*   Hard for human beings to keep larger chunks of code in mind."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:118
+# code block
+msgid "~~~\n"
+"primes = [2, 3, 5]\n"
+"for p in primes:\n"
+"    squared = p ** 2\n"
+"    cubed = p ** 3\n"
+"    print(p, squared, cubed)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:125
+msgid "{: .language-python}\n"
+"~~~\n"
+"2 4 8\n"
+"3 9 27\n"
+"5 25 125\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:133
+# header
+msgid "## Use `range` to iterate over a sequence of numbers."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:135
+# unordered list
+msgid "*   The built-in function [`range`](https://docs.python.org/3/library/stdtypes.html#range) produces a sequence of numbers."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:136
+# unordered list
+msgid "    *   *Not* a list: the numbers are produced on demand"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:137
+msgid "        to make looping over large ranges more efficient.\n"
+"*   `range(N)` is the numbers 0..N-1\n"
+"    *   Exactly the legal indices of a list or character string of length N"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:141
+# code block
+msgid "~~~\n"
+"print('a range is not a list: range(0, 3)')\n"
+"for number in range(0, 3):\n"
+"    print(number)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:146
+msgid "{: .language-python}\n"
+"~~~\n"
+"a range is not a list: range(0, 3)\n"
+"0\n"
+"1\n"
+"2\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:155
+# header
+msgid "## The Accumulator pattern turns many values into one."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:157
+# unordered list
+msgid "*   A common pattern in programs is to:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:158
+msgid "    1.  Initialize an *accumulator* variable to zero, the empty string, or the empty list.\n"
+"    2.  Update the variable with values from a collection."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:161
+# code block
+msgid "~~~\n"
+"# Sum the first 10 integers.\n"
+"total = 0\n"
+"for number in range(10):\n"
+"   total = total + (number + 1)\n"
+"print(total)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:168
+msgid "{: .language-python}\n"
+"~~~\n"
+"55\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:174
+# unordered list
+msgid "*   Read `total = total + (number + 1)` as:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:175
+# unordered list
+msgid "    *   Add 1 to the current value of the loop variable `number`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:176
+# unordered list
+msgid "    *   Add that to the current value of the accumulator variable `total`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:177
+# unordered list
+msgid "    *   Assign that to `total`, replacing the current value."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:178
+# unordered list
+msgid "*   We have to add `number + 1` because `range` produces 0..9, not 1..10."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:180
+# blockquote, which can be cascaded
+msgid "> ## Classifying Errors"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:181
+msgid ">\n"
+"> Is an indentation error a syntax error or a runtime error?\n"
+"> > ## Solution\n"
+"> > An IndentationError is a syntax error. Programs with syntax errors cannot be started.\n"
+"> > A program with a runtime error will start but an error will be thrown under certain conditions."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:189
+#: python-novice-gapminder/_episodes/13-conditionals.md:253
+# blockquote, which can be cascaded
+msgid "> ## Tracing Execution"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:190
+msgid ">\n"
+"> Create a table showing the numbers of the lines that are executed when this program runs,\n"
+"> and the values of the variables after each line is executed.\n"
+">\n"
+"> ~~~\n"
+"> total = 0\n"
+"> for char in \"tin\":\n"
+">     total = total + 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > | Line no | Variables            |\n"
+"> > |---------|----------------------|\n"
+"> > | 1       | total = 0            |\n"
+"> > | 2       | total = 0 char = 't' |\n"
+"> > | 3       | total = 1 char = 't' |\n"
+"> > | 2       | total = 1 char = 'i' |\n"
+"> > | 3       | total = 2 char = 'i' |\n"
+"> > | 2       | total = 2 char = 'n' |\n"
+"> > | 3       | total = 3 char = 'n' |"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:214
+# blockquote, which can be cascaded
+msgid "> ## Reversing a String"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:215
+msgid ">\n"
+"> Fill in the blanks in the program below so that it prints \"nit\"\n"
+"> (the reverse of the original character string \"tin\").\n"
+">\n"
+"> ~~~\n"
+"> original = \"tin\"\n"
+"> result = ____\n"
+"> for char in original:\n"
+">     result = ____\n"
+"> print(result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > original = \"tin\"\n"
+"> > result = \"\"\n"
+"> > for char in original:\n"
+"> >     result = char + result\n"
+"> > print(result)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:239
+# blockquote, which can be cascaded
+msgid "> ## Practice Accumulating"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:240
+msgid ">\n"
+"> Fill in the blanks in each of the programs below\n"
+"> to produce the indicated result.\n"
+">\n"
+"> ~~~\n"
+"> # Total length of the strings in the list: [\"red\", \"green\", \"blue\"] => 12\n"
+"> total = 0\n"
+"> for word in [\"red\", \"green\", \"blue\"]:\n"
+">     ____ = ____ + len(word)\n"
+"> print(total)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > total = 0\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     total = total + len(word)\n"
+"> > print(total)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:261
+msgid ">\n"
+"> ~~~\n"
+"> # List of word lengths: [\"red\", \"green\", \"blue\"] => [3, 5, 4]\n"
+"> lengths = ____\n"
+"> for word in [\"red\", \"green\", \"blue\"]:\n"
+">     lengths.____(____)\n"
+"> print(lengths)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > lengths = []\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     lengths.append(len(word))\n"
+"> > print(lengths)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:279
+msgid ">\n"
+"> ~~~\n"
+"> # Concatenate all words: [\"red\", \"green\", \"blue\"] => \"redgreenblue\"\n"
+"> words = [\"red\", \"green\", \"blue\"]\n"
+"> result = ____\n"
+"> for ____ in ____:\n"
+">     ____\n"
+"> print(result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > words = [\"red\", \"green\", \"blue\"]\n"
+"> > result = \"\"\n"
+"> > for word in words:\n"
+"> >     result = result + word\n"
+"> > print(result)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:299
+msgid ">\n"
+"> ~~~\n"
+"> # Create acronym: [\"red\", \"green\", \"blue\"] => \"RGB\"\n"
+"> # write the whole thing\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > acronym = \"\"\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     acronym = acronym + word[0].upper()\n"
+"> > print(acronym)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:316
+# blockquote, which can be cascaded
+msgid "> ## Cumulative Sum"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:317
+msgid ">\n"
+"> Reorder and properly indent the lines of code below\n"
+"> so that they print a list with the cumulative sum of data.\n"
+"> The result should be `[1, 3, 5, 10]`.\n"
+">\n"
+"> ~~~\n"
+"> cumulative.append(sum)\n"
+"> for number in data:\n"
+"> cumulative = []\n"
+"> sum += number\n"
+"> sum = 0\n"
+"> print(cumulative)\n"
+"> data = [1,2,2,5]\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > sum = 0\n"
+"> > data = [1,2,2,5]\n"
+"> > cumulative = []\n"
+"> > for number in data:\n"
+"> >     sum += number\n"
+"> >     cumulative.append(sum)\n"
+"> > print(cumulative)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:346
+# blockquote, which can be cascaded
+msgid "> ## Identifying Variable Name Errors"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:347
+msgid ">\n"
+"> 1. Read the code below and try to identify what the errors are\n"
+">    *without* running it.\n"
+"> 2. Run the code and read the error message.\n"
+">    What type of `NameError` do you think this is?\n"
+">    Is it a string with no quotes, a misspelled variable, or a\n"
+">    variable that should have been defined but was not?\n"
+"> 3. Fix the error.\n"
+"> 4. Repeat steps 2 and 3, until you have fixed all the errors.\n"
+">\n"
+"> ~~~\n"
+"> for number in range(10):\n"
+">     # use a if the number is a multiple of 3, otherwise use b\n"
+">     if (Number % 3) == 0:\n"
+">         message = message + a\n"
+">     else:\n"
+">         message = message + \"b\"\n"
+"> print(message)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > The variable `message` needs to be initialized and Python variable names are case sensitive: `number` and `Number`\n"
+"> > refer to different variables.\n"
+"> > ~~~\n"
+"> > message = \"\"\n"
+"> > for number in range(10):\n"
+"> >     # use a if the number is a multiple of 3, otherwise use b\n"
+"> >     if (number % 3) == 0:\n"
+"> >         message = message + \"a\"\n"
+"> >     else:\n"
+"> >         message = message + \"b\"\n"
+"> > print(message)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:384
+# blockquote, which can be cascaded
+msgid "> ## Identifying Item Errors"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:385
+msgid ">\n"
+"> 1. Read the code below and try to identify what the errors are\n"
+">    *without* running it.\n"
+"> 2. Run the code, and read the error message. What type of error is it?\n"
+"> 3. Fix the error.\n"
+">\n"
+"> ~~~\n"
+"> seasons = ['Spring', 'Summer', 'Fall', 'Winter']\n"
+"> print('My favorite season is ', seasons[4])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > This list has 4 elements and the index to access the last element in the list is `3`.\n"
+"> > ~~~\n"
+"> > seasons = ['Spring', 'Summer', 'Fall', 'Winter']\n"
+"> > print('My favorite season is ', seasons[3])\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+

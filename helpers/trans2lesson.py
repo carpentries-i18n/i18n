@@ -6,6 +6,7 @@ from pathlib import Path
 import tempfile
 
 from git import Repo
+from git import exc as git_exc
 from github import Github, GithubException
 
 
@@ -28,10 +29,14 @@ def clone_repo_tmp(path_files, tmpdirname, gh_repo):
     return repo
 
 def update_local_repo(path_files, tmpdirname):
-    repo = Repo(tmpdirname)
+    try:
+        repo = Repo(tmpdirname)
+    except git_exc.InvalidGitRepositoryError as e:
+        raise ValueError(f"The directory {tmpdirname} is not a valid git repository. Have you populated all the nested submodules of this lesson needed for this to work?")
     dir_util.copy_tree(path_files, str(tmpdirname))
     repo.index.add(glob.glob(f'{tmpdirname.absolute()}/**/*.md', recursive=True))
     repo.index.commit("New set of translations")
+    #FIXME: why does it do on detached mode?
     return repo
 
 
@@ -75,14 +80,19 @@ def main(path_translation, path_lesson):
             if e.status == 422:
                 # Repository exists already - clone and update
                 gh_repo = g.get_repo(f'carpentries-i18n/{lesson}-{lang}')
-                repo = update_local_repo(path_translation, locale / lang)
+                try:
+                    repo = update_local_repo(path_translation, locale / lang)
+                except git_exc.NoSuchPathError as e:
+                    # repo exists but no locally!
+                    repo = create_repo_tmp(path_translation, tmpdirname)
         origin_url = convert_url(gh_repo.html_url, user)
         origin = next(filter(lambda x: x.name == 'origin', repo.remotes), None)
+        print(origin_url, tmpdirname)
         if origin:
             origin.set_url(origin_url)
         else:
             origin = repo.create_remote('origin', origin_url)
-        origin.push('master')#('+refs/heads/*:refs/remotes/origin/*')
+        origin.push('main')#('+refs/heads/*:refs/remotes/origin/*')
     # 4) create submodule from translation.
     locale_sm = next(filter(lambda x: x.name == lang, lesson_repo.submodules), None)
     if not locale_sm:
@@ -97,6 +107,7 @@ def main(path_translation, path_lesson):
         lesson_repo.index.add([locale_sm])
 
     lesson_repo.index.commit(f"[Translations] {action} {lang} language")
+    # FIXME that commit does it in a detach mode.
     # 5) push it!
     lesson_repo.remotes.topush.push()
     print(f"Repository {lesson_repo.remotes.origin.url} updated with {lang}.")

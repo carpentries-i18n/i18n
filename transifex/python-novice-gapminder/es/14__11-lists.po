@@ -1,0 +1,1076 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# nicoguaro <nicoguarin@gmail.com>, 2020
+# Laura Angelone <lauraangelone3@gmail.com>, 2020
+# David PS <dps.helio@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: David PS <dps.helio@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/11-lists.md:1
+msgid ""
+"---\n"
+"title: \"Lists\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I store multiple values?\"\n"
+"objectives:\n"
+"- \"Explain why programs need collections of values.\"\n"
+"- \"Write programs that create flat lists, index them, slice them, and modify them through assignment and method calls.\"\n"
+"keypoints:\n"
+"- \"A list stores many values in a single structure.\"\n"
+"- \"Use an item's index to fetch it from a list.\"\n"
+"- \"Lists' values can be replaced by assigning to them.\"\n"
+"- \"Appending items to a list lengthens it.\"\n"
+"- \"Use `del` to remove items from a list entirely.\"\n"
+"- \"The empty list contains no values.\"\n"
+"- \"Lists may contain values of different types.\"\n"
+"- \"Character strings can be indexed like lists.\"\n"
+"- \"Character strings are immutable.\"\n"
+"- \"Indexing beyond the end of the collection is an error.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Listas\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"¿Cómo puedo almacenar múltipes valores?\"\n"
+"objectives:\n"
+"- \"Explicar por qué los programas necesitan colecciones de valores.\"\n"
+"- \"Escribir programa para crear listas, ordenarlas, dividirlas y modificarlas a través de asignaciones y métodos.\"\n"
+"keypoints:\n"
+"- \"Una lista almacena muchos valores en una única estructura.\"\n"
+"- \"Usa el índice de un elemento para buscarlo en una lista.\"\n"
+"- \"Los valores de las listas se pueden reemplazar asignando nuevos valores.\"\n"
+"- \"Agregar elementos a una lista la alarga.\"\n"
+"- \"Usa `del` para eliminar elementos de una lista.\"\n"
+"- \"La lista vacía no contiene valores.\"\n"
+"- \"Las listas pueden contener valores de diferentes tipos.\"\n"
+"- \"Las cadenas de caracteres se pueden indexar como listas.\"\n"
+"- \"Las cadenas de caracteres son inmutables.\"\n"
+"- \"La indexación más allá del final de la colección es un error.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:22
+msgid "## A list stores many values in a single structure."
+msgstr "## Una lista almacena muchos valores en una única estructura."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:24
+msgid ""
+"*   Doing calculations with a hundred variables called `pressure_001`, "
+"`pressure_002`, etc.,"
+msgstr ""
+"*  Hacer cálculos con 100 variables llamadas `pressure_001`, `pressure_002`,"
+" etc.,"
+
+#: python-novice-gapminder/_episodes/11-lists.md:25
+msgid ""
+"    would be at least as slow as doing them by hand.\n"
+"*   Use a *list* to store many values together.\n"
+"    *   Contained within square brackets `[...]`.\n"
+"    *   Values separated by commas `,`.\n"
+"*   Use `len` to find out how many values are in a list."
+msgstr ""
+"   sería al menos tan lento como hacerlo a mano.\n"
+"*  Usa una *lista* para almacenar muchos valores juntos.\n"
+"    *  Contenidos entre corchetes `[...]`.\n"
+"    *  Valores separados por comas `,`.\n"
+"*  Usa `len` para averiguar cuántos valores hay en una lista."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:31
+msgid ""
+"~~~\n"
+"pressures = [0.273, 0.275, 0.277, 0.275, 0.276]\n"
+"print('pressures:', pressures)\n"
+"print('length:', len(pressures))\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"pressures = [0.273, 0.275, 0.277, 0.275, 0.276]\n"
+"print('pressures:', pressures)\n"
+"print('length:', len(pressures))\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:36
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"pressures: [0.273, 0.275, 0.277, 0.275, 0.276]\n"
+"length: 5\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"pressures: [0.273, 0.275, 0.277, 0.275, 0.276]\n"
+"length: 5\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:43
+msgid "## Use an item's index to fetch it from a list."
+msgstr "## Usa el índice de un elemento para buscarlo en una lista."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:45
+msgid "*   Just like strings."
+msgstr "*   Como en las secuencias de caracteres."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:47
+msgid ""
+"~~~\n"
+"print('zeroth item of pressures:', pressures[0])\n"
+"print('fourth item of pressures:', pressures[4])\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('elemento cero de pressures:', pressures[0])\n"
+"print('cuarto elemento de pressures:', pressures[4])\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:51
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"zeroth item of pressures: 0.273\n"
+"fourth item of pressures: 0.276\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"elemento cero de pressures: 0.273\n"
+"cuarto elemento de pressures: 0.276\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:58
+msgid "## Lists' values can be replaced by assigning to them."
+msgstr ""
+"## Los valores de las listas se pueden reemplazar asignándole un nuevo "
+"valor."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:60
+msgid ""
+"*   Use an index expression on the left of assignment to replace a value."
+msgstr ""
+"*   Usa un índice a la izquierda de la asignación para reemplazar un valor."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:62
+msgid ""
+"~~~\n"
+"pressures[0] = 0.265\n"
+"print('pressures is now:', pressures)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"pressures[0] = 0.265\n"
+"print('pressures es ahora:', pressures)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:66
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"pressures is now: [0.265, 0.275, 0.277, 0.275, 0.276]\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"pressures es ahora: [0.265, 0.275, 0.277, 0.275, 0.276]\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:72
+msgid "## Appending items to a list lengthens it."
+msgstr "## Agregar elementos a una lista la alarga."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:74
+msgid "*   Use `list_name.append` to add items to the end of a list."
+msgstr ""
+"*   Usa `list_name.append` para agregar elementos al final de una lista."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:76
+msgid ""
+"~~~\n"
+"primes = [2, 3, 5]\n"
+"print('primes is initially:', primes)\n"
+"primes.append(7)\n"
+"primes.append(9)\n"
+"print('primes has become:', primes)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"primes = [2, 3, 5]\n"
+"print('primes inicialmente es:', primes)\n"
+"primes.append(7)\n"
+"primes.append(9)\n"
+"print('primes ahora es :', primes)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:83
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"primes is initially: [2, 3, 5]\n"
+"primes has become: [2, 3, 5, 7, 9]\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"primes inicialmente es: [2, 3, 5]\n"
+"primes ahora es : [2, 3, 5, 7, 9]\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:90
+msgid "*   `append` is a *method* of lists."
+msgstr "*   `append` es un *método* de las listas."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:91
+msgid "    *   Like a function, but tied to a particular object."
+msgstr "    *   Como una función, pero vinculada a un objeto particular."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:92
+msgid "*   Use `object_name.method_name` to call methods."
+msgstr "*   Usa `object_name.method_name` para llamar métodos."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:93
+msgid ""
+"    *   Deliberately resembles the way we refer to things in a library."
+msgstr ""
+"    *   Deliberadamente se asemeja a la forma en que nos referimos a las "
+"cosas en una biblioteca."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:94
+msgid "*   We will meet other methods of lists as we go along."
+msgstr "*   Encontraremos otros métodos de las listas a medida que avancemos."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:95
+msgid "    *   Use `help(list)` for a preview."
+msgstr "    *   Usa `help(list)` para ver un avance."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:96
+msgid ""
+"*   `extend` is similar to `append`, but it allows you to combine two lists."
+"  For example:"
+msgstr ""
+"*   `extend` es similar a `append`, pero permite combinar dos listas. Por "
+"ejemplo:"
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:98
+msgid ""
+"~~~\n"
+"teen_primes = [11, 13, 17, 19]\n"
+"middle_aged_primes = [37, 41, 43, 47]\n"
+"print('primes is currently:', primes)\n"
+"primes.extend(teen_primes)\n"
+"print('primes has now become:', primes)\n"
+"primes.append(middle_aged_primes)\n"
+"print('primes has finally become:', primes)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"teen_primes = [11, 13, 17, 19]\n"
+"middle_aged_primes = [37, 41, 43, 47]\n"
+"print('primes es:', primes)\n"
+"primes.extend(teen_primes)\n"
+"print('ahora primes es:', primes)\n"
+"primes.append(middle_aged_primes)\n"
+"print('finalmente primes es:', primes)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:107
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"primes is currently: [2, 3, 5, 7, 9]\n"
+"primes has now become: [2, 3, 5, 7, 9, 11, 13, 17, 19]\n"
+"primes has finally become: [2, 3, 5, 7, 9, 11, 13, 17, 19, [37, 41, 43, 47]]\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"primes es: [2, 3, 5, 7, 9]\n"
+"primes ahora primes es: [2, 3, 5, 7, 9, 11, 13, 17, 19]\n"
+"finalmente primes es: [2, 3, 5, 7, 9, 11, 13, 17, 19, [37, 41, 43, 47]]\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:115
+msgid ""
+"Note that while `extend` maintains the \"flat\" structure of the list, appending a list to a list makes the result\n"
+"two-dimensional - the last element in `primes` is a list, not an integer."
+msgstr ""
+"Ten en cuenta que si bien `extend` mantiene la estructura \"plana\" de la "
+"lista, agregar una lista a una lista produce el resultado bidimensional: el "
+"último elemento en 'primes' es una lista, no un entero."
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:118
+msgid "## Use `del` to remove items from a list entirely."
+msgstr "## Usa `del` para remover elementos de una lista."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:120
+msgid ""
+"*   `del list_name[index]` removes an item from a list and shortens the "
+"list."
+msgstr ""
+"*   `del list_name[index]` remueve un elemento de una lista y la acorta."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:121
+msgid "*   Not a function or a method, but a statement in the language."
+msgstr "*  No es una función o un método, es una sentencia del lenguaje."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:123
+msgid ""
+"~~~\n"
+"primes = [2, 3, 5, 7, 9]\n"
+"print('primes before removing last item:', primes)\n"
+"del primes[4]\n"
+"print('primes after removing last item:', primes)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"primes = [2, 3, 5, 7, 9]\n"
+"print('primes antes de remover el último elemento:', primes)\n"
+"del primes[4]\n"
+"print('primes después de remover el último elemento:', primes)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:129
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"primes before removing last item: [2, 3, 5, 7, 9]\n"
+"primes after removing last item: [2, 3, 5, 7]\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"primes antes de remover el último elemento: [2, 3, 5, 7, 9]\n"
+"primes después de remover el último elemento: [2, 3, 5, 7]\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:136
+msgid "## The empty list contains no values."
+msgstr "## La lista vacía no contiene valores."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:138
+msgid ""
+"*   Use `[]` on its own to represent a list that doesn't contain any values."
+msgstr ""
+"*   Usa `[ ]` para representar una lista que no contiene ningún valor."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:139
+msgid "    *   \"The zero of lists.\""
+msgstr "    *   \"El cero de las listas.\""
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:140
+msgid "*   Helpful as a starting point for collecting values"
+msgstr "*   Útil como punto de partida para recolectar valores."
+
+#: python-novice-gapminder/_episodes/11-lists.md:141
+msgid ""
+"        (which we will see in the [next episode]({% link _episodes/12-for-"
+"loops.md %})."
+msgstr ""
+"        (que veremos en el [próximo episodio]({% link _episodes/12-for-"
+"loops.md %})."
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:143
+msgid "## Lists may contain values of different types."
+msgstr "## Las listas pueden contener valores de diferentes tipos."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:145
+msgid "*   A single list may contain numbers, strings, and anything else."
+msgstr ""
+"*   Una única lista puede contener números, cadenas y cualquier otra cosa."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:147
+msgid ""
+"~~~\n"
+"goals = [1, 'Create lists.', 2, 'Extract items from lists.', 3, 'Modify lists.']\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"goals = [1, 'Create lists.', 2, 'Extract items from lists.', 3, 'Modify lists.']\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:152
+msgid "## Character strings can be indexed like lists."
+msgstr ""
+"## Las secuencias de caracteres pueden indexarse de la misma manera que las "
+"listas."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:154
+msgid ""
+"*   Get single characters from a character string using indexes in square "
+"brackets."
+msgstr ""
+"*   Obtén caracteres individuales de una secuencia de caracteres utilizando "
+"índices entre corchetes."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:156
+msgid ""
+"~~~\n"
+"element = 'carbon'\n"
+"print('zeroth character:', element[0])\n"
+"print('third character:', element[3])\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"element = 'carbon'\n"
+"print('carácter cero:', element[0])\n"
+"print('tercer carácter:', element[3])\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:161
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"zeroth character: c\n"
+"third character: b\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"carácter cero: c\n"
+"tercer carácter: b\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:168
+msgid "## Character strings are immutable."
+msgstr "## Las secuencias de caracteres son inmutables."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:170
+msgid ""
+"*   Cannot change the characters in a string after it has been created."
+msgstr ""
+"*   No se pueden cambiar los caracteres de una secuencia de caracteres "
+"después de que se haya creado."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:171
+msgid "    *   *Immutable*: can't be changed after creation."
+msgstr "    *   *Inmutable*: no se puede cambiar luego de su creación."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:172
+msgid ""
+"    *   In contrast, lists are *mutable*: they can be modified in place."
+msgstr ""
+"    *   Por el contrario, las listas son *mutables*: se pueden modificar."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:173
+msgid "*   Python considers the string to be a single value with parts,"
+msgstr ""
+"*   Python considera la secuencia de caracteres como un único valor con "
+"partes,"
+
+#: python-novice-gapminder/_episodes/11-lists.md:174
+msgid "    not a collection of values."
+msgstr "no una colección de valores."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:176
+msgid ""
+"~~~\n"
+"element[0] = 'C'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"element[0] = 'C'\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:179
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"TypeError: 'str' object does not support item assignment\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"TypeError: 'str' object does not support item assignment\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:185
+msgid "*   Lists and character strings are both *collections*."
+msgstr "*   Las listas y las secuencias de caracteres son *colecciones*."
+
+# header
+#: python-novice-gapminder/_episodes/11-lists.md:187
+msgid "## Indexing beyond the end of the collection is an error."
+msgstr "## Indexar más allá del final de una colección es un error."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:189
+msgid ""
+"*   Python reports an `IndexError` if we attempt to access a value that "
+"doesn't exist."
+msgstr ""
+"*   Python reporta un `IndexError` si intentamos acceder a un valor que no "
+"existe."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:190
+msgid ""
+"    *   This is a kind of [runtime error]({{ page.root }}/04-built-in"
+"/#runtime-error)."
+msgstr ""
+"    *   Este es un tipo de [error de ejecución]({{ page.root }}/04-built-in"
+"/#runtime-error)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/11-lists.md:191
+msgid "    *   Cannot be detected as the code is parsed"
+msgstr "    *   No se puede detectar mientras se analiza el código"
+
+#: python-novice-gapminder/_episodes/11-lists.md:192
+msgid "        because the index might be calculated based on data."
+msgstr "        porque el índice podría calcularse en función de los datos."
+
+# code block
+#: python-novice-gapminder/_episodes/11-lists.md:194
+msgid ""
+"~~~\n"
+"print('99th element of element is:', element[99])\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('El elemento número 99 es:', element[99])\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:197
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"IndexError: string index out of range\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"IndexError: string index out of range\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:203
+msgid "> ## Fill in the Blanks"
+msgstr "> ## Rellena los espacios en blanco"
+
+#: python-novice-gapminder/_episodes/11-lists.md:204
+msgid ""
+">\n"
+"> Fill in the blanks so that the program below produces the output shown.\n"
+">\n"
+"> ~~~\n"
+"> values = ____\n"
+"> values.____(1)\n"
+"> values.____(3)\n"
+"> values.____(5)\n"
+"> print('first time:', values)\n"
+"> values = values[____]\n"
+"> print('second time:', values)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> first time: [1, 3, 5]\n"
+"> second time: [3, 5]\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Rellena los espacios en blanco para que el programa produzca el resultado mostrado.\n"
+">\n"
+"> ~~~\n"
+"> values = ____\n"
+"> values.____(1)\n"
+"> values.____(3)\n"
+"> values.____(5)\n"
+"> print('primera vez:', values)\n"
+"> values = values[____]\n"
+"> print('segunda vez:', values)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> primera vez: [1, 3, 5]\n"
+"> segunda vez: [3, 5]\n"
+"> ~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:223
+msgid ""
+">\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > values = []\n"
+"> > values.append(1)\n"
+"> > values.append(3)\n"
+"> > values.append(5)\n"
+"> > print('first time:', values)\n"
+"> > values = values[1:]\n"
+"> > print('second time:', values)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> > ## Solución\n"
+"> > ~~~\n"
+"> > values = []\n"
+"> > values.append(1)\n"
+"> > values.append(3)\n"
+"> > values.append(5)\n"
+"> > print('primera vez:', values)\n"
+"> > values = values[1:]\n"
+"> > print('segunda vez:', values)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:238
+msgid "> ## How Large is a Slice?"
+msgstr "> ## ¿Qué tan grande es un corte?"
+
+#: python-novice-gapminder/_episodes/11-lists.md:239
+msgid ""
+">\n"
+"> If 'low' and 'high' are both non-negative integers,\n"
+"> how long is the list `values[low:high]`?\n"
+">\n"
+"> > ## Solution\n"
+"> > The list `values[low:high]` has `high - low` elements.  For example,\n"
+"> > `values[1:4]` has the 3 elements `values[1]`, `values[2]`, and `values[3]`.\n"
+"> > Note that the expression will only work if `high` is less than the total\n"
+"> > length of the list `values`."
+msgstr ""
+">\n"
+"> Si 'low' y 'high' son dos enteros no-negativos,\n"
+"> ¿qué tan grande es la lista `values[low:high]`?\n"
+">\n"
+"> > ## Solución\n"
+"> > La lista `values[low:high]` tiene `high - low` elementos.  Por ejemplo,\n"
+"> > `values[1:4]` tiene 3 elementos `values[1]`, `values[2]`, y `values[3]`.\n"
+"> > Nota que la expresión sólo funciona si `high` es menor que la longitud\n"
+"> > total de `valores` de la lista."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:251
+msgid "> ## From Strings to Lists and Back"
+msgstr "> ## De Secuencias de caracteres a Listas y Viceversa"
+
+#: python-novice-gapminder/_episodes/11-lists.md:252
+msgid ""
+">\n"
+"> Given this:\n"
+">\n"
+"> ~~~\n"
+"> print('string to list:', list('tin'))\n"
+"> print('list to string:', ''.join(['g', 'o', 'l', 'd']))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> ~~~\n"
+"> ['t', 'i', 'n']\n"
+"> 'gold'\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Dado esto:\n"
+">\n"
+"> ~~~\n"
+"> print('cadena a lista:', list('tin'))\n"
+"> print('lista a cadena:', ''.join(['g', 'o', 'l', 'd']))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> ~~~\n"
+"> ['t', 'i', 'n']\n"
+"> 'gold'\n"
+"> ~~~"
+
+#: python-novice-gapminder/_episodes/11-lists.md:265
+msgid ""
+">\n"
+"> 1.  What does `list('some string')` do?\n"
+"> 2.  What does `'-'.join(['x', 'y', 'z'])` generate?\n"
+">\n"
+"> > ## Solution\n"
+"> > 1. [`list('some string')`](https://docs.python.org/3/library/stdtypes.html#list) converts a string into a list containing all of its characters.\n"
+"> > 2. [`join`](https://docs.python.org/3/library/stdtypes.html#str.join) returns a string that is the _concatenation_\n"
+"> >    of each string element in the list and adds the separator between each element in the list. This results in\n"
+"> >    `x-y-z`. The separator between the elements is the string that provides this method."
+msgstr ""
+">\n"
+"> 1.  ¿Qué hace `list('cadena')`?\n"
+"> 2.  ¿Qué genera `'-'.join(['x', 'y', 'z'])`?\n"
+">\n"
+"> > ## Solución\n"
+"> > 1. [`list('cadena')`](https://docs.python.org/3/library/stdtypes.html#list) convierte una secuencia de caracteres en una lista que contiene todos los caracteres.\n"
+"> > 2. [`join`](https://docs.python.org/3/library/stdtypes.html#str.join) devuelve una secuencia de caracteres que es una _concatenación_\n"
+"> >    de cada elemento de la secuencia en la lista y añade un separador entre elementos en la lista. Esto resulta\n"
+"> >    `x-y-z`. El separador entre los elementos es el que provee el método."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:277
+msgid "> ## Working With the End"
+msgstr "> ## Trabajando con el Final"
+
+#: python-novice-gapminder/_episodes/11-lists.md:278
+msgid ""
+">\n"
+"> What does the following program print?\n"
+">\n"
+"> ~~~\n"
+"> element = 'helium'\n"
+"> print(element[-1])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1.  How does Python interpret a negative index?\n"
+"> 2.  If a list or string has N elements,\n"
+">     what is the most negative index that can safely be used with it,\n"
+">     and what location does that index represent?\n"
+"> 3.  If `values` is a list, what does `del values[-1]` do?\n"
+"> 4.  How can you display all elements but the last one without changing `values`?\n"
+">     (Hint: you will need to combine slicing and negative indexing.)\n"
+">\n"
+"> > ## Solution\n"
+"> > The program prints `m`.\n"
+"> > 1. Python interprets a negative index as starting from the end (as opposed to\n"
+"> >    starting from the beginning).  The last element is `-1`.\n"
+"> > 2. The last index that can safely be used with a list of N elements is element\n"
+"> >    `-N`, which represents the first element.\n"
+"> > 3. `del values[-1]` removes the last element from the list.\n"
+"> > 4. `values[:-1]`"
+msgstr ""
+">\n"
+"> ¿Qué muestra el siguiente programa?\n"
+">\n"
+"> ~~~\n"
+"> element = 'helium'\n"
+"> print(element[-1])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1.  ¿Cómo interpreta Python un índice negativo?\n"
+"> 2.  Si una lista o secuencia de caracteres de N elementos,\n"
+">     ¿cuál es el índice más negativo que se puede usar,\n"
+">     y qué posición representa este índice?\n"
+"> 3.  Si `values` es una lista, ¿qué hace `del values[-1]`?\n"
+"> 4.  ¿Cómo se puede mostrar todos los elementos sin cambiar `values`?\n"
+">     (Consejo: necesitas combinar cortes e índices negativos.)\n"
+">\n"
+"> > ## Solución\n"
+"> > El programa muestra `m`.\n"
+"> > 1. Python interpreta un índice negativo como empezar desde el final (en lugar de\n"
+"> >    empezar desde el inicio).  El último elemento es `-1`.\n"
+"> > 2. El último índice que se puede usar con seguridad en una lista de N elementos es el elemento\n"
+"> >    `-N`, que representa el primer elemento.\n"
+"> > 3. `del values[-1]` remueve el último elemento de la lista.\n"
+"> > 4. `values[:-1]`"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:306
+msgid "> ## Stepping Through a List"
+msgstr "> ## Recorriendo una Lista"
+
+#: python-novice-gapminder/_episodes/11-lists.md:307
+msgid ""
+">\n"
+"> What does the following program print?\n"
+">\n"
+"> ~~~\n"
+"> element = 'fluorine'\n"
+"> print(element[::2])\n"
+"> print(element[::-1])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1.  If we write a slice as `low:high:stride`, what does `stride` do?\n"
+"> 2.  What expression would select all of the even-numbered items from a collection?\n"
+">\n"
+"> > ## Solution\n"
+"> > The program prints\n"
+"> > ~~~\n"
+"> > furn\n"
+"> > eniroulf\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > 1. `stride` is the step size of the slice\n"
+"> > 2. The slice `1::2` selects all even-numbered items from a collection: it starts\n"
+"> >    with element `1` (which is the second element, since indexing starts at `0`),\n"
+"> >    goes on until the end (since no `end` is given), and uses a step size of `2`\n"
+"> >    (i.e., selects every second element)."
+msgstr ""
+">\n"
+"> ¿Qué muestra el siguiente programa?\n"
+">\n"
+"> ~~~\n"
+"> element = 'fluorine'\n"
+"> print(element[::2])\n"
+"> print(element[::-1])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1.  Si escribimos un corte como `low:high:stride`, ¿qué hace `stride`?\n"
+"> 2.  ¿Qué expresión seleccionaría todos los elementos pares de una colección?\n"
+">\n"
+"> > ## Solución\n"
+"> > El programa muestra\n"
+"> > ~~~\n"
+"> > furn\n"
+"> > eniroulf\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > 1. `stride` es el tamaño del paso del corte\n"
+"> > 2. El corte `1::2` selecciona todos los elementos pares de una colección: empieza\n"
+"> >    con el elemento `1` (que es el segundo elemento, ya que la indexación empieza en `0`),\n"
+"> >    va hasta el final (ya que no se usó `end`), y usa un paso de `2`\n"
+"> >    (es decir, selecciona cada dos elementos)."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:335
+msgid "> ## Slice Bounds"
+msgstr "> ## Límites de los Cortes"
+
+#: python-novice-gapminder/_episodes/11-lists.md:336
+msgid ""
+">\n"
+"> What does the following program print?\n"
+">\n"
+"> ~~~\n"
+"> element = 'lithium'\n"
+"> print(element[0:20])\n"
+"> print(element[-1:3])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > lithium\n"
+"> > \n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> ¿Qué muestra el siguiente programa?\n"
+">\n"
+"> ~~~\n"
+"> element = 'lithium'\n"
+"> print(element[0:20])\n"
+"> print(element[-1:3])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solución\n"
+"> > ~~~\n"
+"> > lithium\n"
+"> > \n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:355
+msgid "> ## Sort and Sorted"
+msgstr "> ## Sort y Sorted"
+
+#: python-novice-gapminder/_episodes/11-lists.md:356
+msgid ""
+">\n"
+"> What do these two programs print?\n"
+"> In simple terms, explain the difference between `sorted(letters)` and `letters.sort()`.\n"
+">\n"
+"> ~~~\n"
+"> # Program A\n"
+"> letters = list('gold')\n"
+"> result = sorted(letters)\n"
+"> print('letters is', letters, 'and result is', result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> # Program B\n"
+"> letters = list('gold')\n"
+"> result = letters.sort()\n"
+"> print('letters is', letters, 'and result is', result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> > Program A prints\n"
+"> > ~~~\n"
+"> > letters is ['g', 'o', 'l', 'd'] and result is ['d', 'g', 'l', 'o']\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > Program B prints\n"
+"> > ~~~\n"
+"> > letters is ['d', 'g', 'l', 'o'] and result is None\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > `sorted(letters)` returns a sorted copy of the list `letters` (the original\n"
+"> > list `letters` remains unchanged), while `letters.sort()` sorts the list\n"
+"> > `letters` in-place and does not return anything."
+msgstr ""
+">\n"
+"> ¿Qué muestran estos dos programas?\n"
+"> Explica la diferencia entre `sorted(letters)` y `letters.sort()` en términos simples.\n"
+">\n"
+"> ~~~\n"
+"> # Programa A\n"
+"> letters = list('gold')\n"
+"> result = sorted(letters)\n"
+"> print('letters es', letters, 'y result es', result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> # Programa B\n"
+"> letters = list('gold')\n"
+"> result = letters.sort()\n"
+"> print('letters es', letters, 'y result es', result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solución\n"
+"> > El programa A muestra\n"
+"> > ~~~\n"
+"> > letters es ['g', 'o', 'l', 'd'] y result es ['d', 'g', 'l', 'o']\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > El program B muestra\n"
+"> > ~~~\n"
+"> > letters es ['d', 'g', 'l', 'o'] y result es None\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > `sorted(letters)` devuelve una copia ordenada de  la lista `letters` (la lista\n"
+"> > original `letters` permanece sin cambios), mientras que `letters.sort()` ordena la lista\n"
+"> > `letters` en si misma y no devuelve nada."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/11-lists.md:393
+msgid "> ## Copying (or Not)"
+msgstr "> ## Copiar (o no copiar)"
+
+#: python-novice-gapminder/_episodes/11-lists.md:394
+msgid ""
+">\n"
+"> What do these two programs print?\n"
+"> In simple terms, explain the difference between `new = old` and `new = old[:]`.\n"
+">\n"
+"> ~~~\n"
+"> # Program A\n"
+"> old = list('gold')\n"
+"> new = old      # simple assignment\n"
+"> new[0] = 'D'\n"
+"> print('new is', new, 'and old is', old)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> # Program B\n"
+"> old = list('gold')\n"
+"> new = old[:]   # assigning a slice\n"
+"> new[0] = 'D'\n"
+"> print('new is', new, 'and old is', old)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> > Program A prints\n"
+"> > ~~~\n"
+"> > new is ['D', 'o', 'l', 'd'] and old is ['D', 'o', 'l', 'd']\n"
+"> > ~~~\n"
+"> > Program B prints\n"
+"> > ~~~\n"
+"> > new is ['D', 'o', 'l', 'd'] and old is ['g', 'o', 'l', 'd']\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > `new = old` makes `new` a reference to the list `old`; `new` and `old` point\n"
+"> > towards the same object.\n"
+"> > \n"
+"> > `new = old[:]` however creates a new list object `new` containing all elements\n"
+"> > from the list `old`; `new` and `old` are different objects."
+msgstr ""
+">\n"
+"> ¿Qué muestran estos dos programas?\n"
+"> Explica la diferencia entre `new = old` y `new = old[:]` en términos simples.\n"
+">\n"
+"> ~~~\n"
+"> # Programa A\n"
+"> old = list('gold')\n"
+"> new = old      # asignación simple\n"
+"> new[0] = 'D'\n"
+"> print('new es', new, 'y old es', old)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> # Programa B\n"
+"> old = list('gold')\n"
+"> new = old[:]   # asignación de un corte\n"
+"> new[0] = 'D'\n"
+"> print('new es', new, 'y old es', old)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solución\n"
+"> > El programa A muestra\n"
+"> > ~~~\n"
+"> > new es ['D', 'o', 'l', 'd'] y old es ['D', 'o', 'l', 'd']\n"
+"> > ~~~\n"
+"> > El programa B muestra\n"
+"> > ~~~\n"
+"> > new es ['D', 'o', 'l', 'd'] y old es ['g', 'o', 'l', 'd']\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > `new = old` crea una referencia a la lista `old`; `new` y `old` apuntan\n"
+"> > al mismo objeto.\n"
+"> > \n"
+"> > `new = old[:]`, sin embargo, crea una nueva lista `new` con todos los elementos\n"
+"> > de la lista `old`; `new` y `old` son dos objetos diferentes."

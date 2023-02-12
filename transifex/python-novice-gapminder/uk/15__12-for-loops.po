@@ -1,0 +1,974 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Марина Новожилова, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Марина Новожилова, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/12-for-loops.md:1
+msgid ""
+"---\n"
+"title: \"For Loops\"\n"
+"teaching: 10\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How can I make a program do many things?\"\n"
+"objectives:\n"
+"- \"Explain what for loops are normally used for.\"\n"
+"- \"Trace the execution of a simple (unnested) loop and correctly state the values of variables in each iteration.\"\n"
+"- \"Write for loops that use the Accumulator pattern to aggregate values.\"\n"
+"keypoints:\n"
+"- \"A *for loop* executes commands once for each value in a collection.\"\n"
+"- \"A `for` loop is made up of a collection, a loop variable, and a body.\"\n"
+"- \"The first line of the `for` loop must end with a colon, and the body must be indented.\"\n"
+"- \"Indentation is always meaningful in Python.\"\n"
+"- \"Loop variables can be called anything (but it is strongly advised to have a meaningful name to the looping variable).\"\n"
+"- \"The body of a loop can contain many statements.\"\n"
+"- \"Use `range` to iterate over a sequence of numbers.\"\n"
+"- \"The Accumulator pattern turns many values into one.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Цикли for\"\n"
+"teaching: 10\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"Як змусити програму робити багато речей?\"\n"
+"objectives:\n"
+"- \"Поясніть, для чого зазвичай використовуються цикли for.\"\n"
+"- \"Відстежуйте виконання простого (невкладеного) циклу та правильно вказуйте значення змінних у кожній ітерації.\"\n"
+"- \"Пишить цикли for, які використовують паттерн накопичувача для агрегування значень.\"  \n"
+"keypoints:\n"
+"- \"Цикл *for* виконує команди один раз для кожного значення в колекції.\"\n"
+"- \"Цикл `for` складається з колекції, змінної циклу та тіла.\"\n"
+"- \"Перший рядок циклу `for` має закінчуватися двокрапкою, а тіло має бути з відступом.\"\n"
+"- \"Відступи завжди важливі в Python.\"\n"
+"- \"Змінні циклу можна називати як завгодно (але настійно рекомендується мати значущу назву для змінної циклу).\"\n"
+"- \"Тіло циклу може містити багато операторів.\"\n"
+"- \"Використовуйте `range` для перебору послідовності чисел.\"\n"
+"- \"Патерн накопичувача перетворює багато значень в одне.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/12-for-loops.md:21
+msgid "## A *for loop* executes commands once for each value in a collection."
+msgstr ""
+"## *Цикл for* виконує команди один раз для кожного значення в колекції."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:23
+msgid "*   Doing calculations on the values in a list one by one"
+msgstr "*   Виконувати обчислення для значень у списку одне за іншим"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:24
+msgid ""
+"    is as painful as working with `pressure_001`, `pressure_002`, etc.\n"
+"*   A *for loop* tells Python to execute some statements once for each value in a list,\n"
+"    a character string,\n"
+"    or some other collection.\n"
+"*   \"for each thing in this group, do these operations\""
+msgstr ""
+"    так само неприємно, як працювати з `pressure_001`, `pressure_002` і так далі.\n"
+"*  *Цикл for* повідомляє Python виконати деякі оператори один раз для кожного значення в списку,\n"
+"    рядку символів,\n"
+"    або якісь іншій колекції.\n"
+"*   \"для кожного елемента в цій групі виконайте ці операції\""
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:30
+#: python-novice-gapminder/_episodes/12-for-loops.md:56
+msgid ""
+"~~~\n"
+"for number in [2, 3, 5]:\n"
+"    print(number)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for number in [2, 3, 5]:\n"
+"    print(number)\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:36
+msgid "*   This `for` loop is equivalent to:"
+msgstr "*   Цей цикл `for` є еквівалентним:"
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:38
+msgid ""
+"~~~\n"
+"print(2)\n"
+"print(3)\n"
+"print(5)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(2)\n"
+"print(3)\n"
+"print(5)\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:45
+msgid "*   And the `for` loop's output is:"
+msgstr "*   І результат циклу `for` є таким:"
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:47
+msgid ""
+"~~~\n"
+"2\n"
+"3\n"
+"5\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"2\n"
+"3\n"
+"5\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/12-for-loops.md:54
+msgid ""
+"## A `for` loop is made up of a collection, a loop variable, and a body."
+msgstr "## Цикл `for` складається з колекції, змінної циклу та тіла."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:62
+msgid "*   The collection, `[2, 3, 5]`, is what the loop is being run on."
+msgstr "*   Колекція `[2, 3, 5]` є тим, на чому виконується цикл."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:63
+msgid ""
+"*   The body, `print(number)`, specifies what to do for each value in the "
+"collection."
+msgstr ""
+"*   Тіло, `print(number)`, визначає, що робити для кожного значення в "
+"колекції."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:64
+msgid ""
+"*   The loop variable, `number`, is what changes for each *iteration* of the"
+" loop."
+msgstr "*   Змінна циклу, `number`, змінюється для кожної *ітерації* циклу."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:65
+msgid "    *   The \"current thing\"."
+msgstr "    *   \"Актуальне\"."
+
+# header
+#: python-novice-gapminder/_episodes/12-for-loops.md:67
+msgid ""
+"## The first line of the `for` loop must end with a colon, and the body must"
+" be indented."
+msgstr ""
+"## Перший рядок циклу `for` має закінчуватися двокрапкою, а тіло має бути з "
+"відступом."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:69
+msgid ""
+"*   The colon at the end of the first line signals the start of a *block* of"
+" statements."
+msgstr ""
+"*   Двокрапка в кінці першого рядка вказує на початок *блоку* операторів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:70
+msgid ""
+"*   Python uses indentation rather than `{}` or `begin`/`end` to show "
+"*nesting*."
+msgstr ""
+"*   Python використовує відступ, а не `{}` або `begin`/`end`, щоб показати "
+"*вкладеність*."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:71
+msgid ""
+"    *   Any consistent indentation is legal, but almost everyone uses four "
+"spaces."
+msgstr ""
+"    *   Будь-який послідовний відступ допустимий, але майже кожен "
+"використовує чотири пробіли."
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:73
+msgid ""
+"~~~\n"
+"for number in [2, 3, 5]:\n"
+"print(number)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for number in [2, 3, 5]:\n"
+"print(number)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:77
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"IndentationError: expected an indented block\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"IndentationError: expected an indented block\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:83
+msgid "*   Indentation is always meaningful in Python."
+msgstr "*   Відступи завжди важливі в Python."
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:85
+msgid ""
+"~~~\n"
+"firstName = \"Jon\"\n"
+"  lastName = \"Smith\"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"firstName = \"Jon\"\n"
+"  lastName = \"Smith\"\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:89
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-7-f65f2962bf9c>\", line 2\n"
+"    lastName = \"Smith\"\n"
+"    ^\n"
+"IndentationError: unexpected indent\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"  File \"<ipython-input-7-f65f2962bf9c>\", line 2\n"
+"    lastName = \"Smith\"\n"
+"    ^\n"
+"IndentationError: unexpected indent\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:98
+msgid "*   This error can be fixed by removing the extra spaces"
+msgstr "*   Цю помилку можна виправити, видаливши зайві пробіли"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:99
+msgid "    at the beginning of the second line."
+msgstr "    на початку другого рядка."
+
+# header
+#: python-novice-gapminder/_episodes/12-for-loops.md:101
+msgid "## Loop variables can be called anything."
+msgstr "## Змінні циклу можна називати як завгодно "
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:103
+msgid "*   As with all variables, loop variables are:"
+msgstr "*   Як і всі інші змінні, змінні циклу:"
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:104
+msgid "    *   Created on demand."
+msgstr "    *   Створені на замовлення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:105
+msgid "    *   Meaningless: their names can be anything at all."
+msgstr "    *   Безглуздо: їхні імена можуть бути будь-якими."
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:107
+msgid ""
+"~~~\n"
+"for kitten in [2, 3, 5]:\n"
+"    print(kitten)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for kitten in [2, 3, 5]:\n"
+"    print(kitten)\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/12-for-loops.md:113
+msgid "## The body of a loop can contain many statements."
+msgstr "## Тіло циклу може містити багато операторів."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:115
+msgid "*   But no loop should be more than a few lines long."
+msgstr "*   Але жоден цикл не повинен мати довжину більше кількох рядків."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:116
+msgid "*   Hard for human beings to keep larger chunks of code in mind."
+msgstr "*   Людям важко запам’ятати великі фрагменти коду."
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:118
+msgid ""
+"~~~\n"
+"primes = [2, 3, 5]\n"
+"for p in primes:\n"
+"    squared = p ** 2\n"
+"    cubed = p ** 3\n"
+"    print(p, squared, cubed)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"primes = [2, 3, 5]\n"
+"for p in primes:\n"
+"    squared = p ** 2\n"
+"    cubed = p ** 3\n"
+"    print(p, squared, cubed)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:125
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"2 4 8\n"
+"3 9 27\n"
+"5 25 125\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"2 4 8\n"
+"3 9 27\n"
+"5 25 125\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/12-for-loops.md:133
+msgid "## Use `range` to iterate over a sequence of numbers."
+msgstr "## Використовуйте `range` для перебору послідовності чисел."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:135
+msgid ""
+"*   The built-in function "
+"[`range`](https://docs.python.org/3/library/stdtypes.html#range) produces a "
+"sequence of numbers."
+msgstr ""
+"*   Вбудована функція "
+"[`range`](https://docs.python.org/3/library/stdtypes.html#range) створює "
+"послідовність чисел."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:136
+msgid "    *   *Not* a list: the numbers are produced on demand"
+msgstr "    *   *Не* список: номери виготовляються на замовлення"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:137
+msgid ""
+"        to make looping over large ranges more efficient.\n"
+"*   `range(N)` is the numbers 0..N-1\n"
+"    *   Exactly the legal indices of a list or character string of length N"
+msgstr ""
+"        щоб зробити цикл у великих діапазонах більш ефективним.\n"
+"*   `range(N)`  - це числа 0..N-1\n"
+"    *   Точно допустимі індекси списку або рядка символів довжиною N"
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:141
+msgid ""
+"~~~\n"
+"print('a range is not a list: range(0, 3)')\n"
+"for number in range(0, 3):\n"
+"    print(number)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('a range is not a list: range(0, 3)')\n"
+"for number in range(0, 3):\n"
+"    print(number)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:146
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"a range is not a list: range(0, 3)\n"
+"0\n"
+"1\n"
+"2\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"a range is not a list: range(0, 3)\n"
+"0\n"
+"1\n"
+"2\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/12-for-loops.md:155
+msgid "## The Accumulator pattern turns many values into one."
+msgstr "## Патерн накопичувача перетворює багато значень в одне."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:157
+msgid "*   A common pattern in programs is to:"
+msgstr "*   Загальний паттерн у програмах:"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:158
+msgid ""
+"    1.  Initialize an *accumulator* variable to zero, the empty string, or the empty list.\n"
+"    2.  Update the variable with values from a collection."
+msgstr ""
+"    1.  Ініціалізуйте *накопичувальну* змінну нулем, порожнім рядком або порожнім списком.\n"
+"    2.  Оновіть змінну значеннями з колекції."
+
+# code block
+#: python-novice-gapminder/_episodes/12-for-loops.md:161
+msgid ""
+"~~~\n"
+"# Sum the first 10 integers.\n"
+"total = 0\n"
+"for number in range(10):\n"
+"   total = total + (number + 1)\n"
+"print(total)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"# Знайдіть суму перших 10 цілих чисел.\n"
+"total = 0\n"
+"for number in range(10):\n"
+"   total = total + (number + 1)\n"
+"print(total)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:168
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"55\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"55\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:174
+msgid "*   Read `total = total + (number + 1)` as:"
+msgstr "*   Прочитайте `total = total + (number + 1)` наступним чином:"
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:175
+msgid "    *   Add 1 to the current value of the loop variable `number`."
+msgstr "    *   Додати 1 до поточного значення  змінної циклу `number`."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:176
+msgid ""
+"    *   Add that to the current value of the accumulator variable `total`."
+msgstr ""
+"    *   Додати це до поточного значення накопичувальної змінної `total`."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:177
+msgid "    *   Assign that to `total`, replacing the current value."
+msgstr "    *   Призначити це `total`, замінивши поточне значення."
+
+# unordered list
+#: python-novice-gapminder/_episodes/12-for-loops.md:178
+msgid ""
+"*   We have to add `number + 1` because `range` produces 0..9, not 1..10."
+msgstr ""
+"*   Ми маємо додавати `number + 1`, тому що `range` продукує 0..9, а не  "
+"1..10."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/12-for-loops.md:180
+msgid "> ## Classifying Errors"
+msgstr "> ## Класифікація помилок"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:181
+msgid ""
+">\n"
+"> Is an indentation error a syntax error or a runtime error?\n"
+"> > ## Solution\n"
+"> > An IndentationError is a syntax error. Programs with syntax errors cannot be started.\n"
+"> > A program with a runtime error will start but an error will be thrown under certain conditions."
+msgstr ""
+">\n"
+"> Помилка відступу є синтаксичною чи помилкою виконання?\n"
+"> > ## Рішення\n"
+"> > IndentationError є синтаксичною помилкою. Неможливо запустити програми з синтаксичними помилками.\n"
+"> > Програма з помилкою виконання запускається, але за певних умов видається помилка."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/12-for-loops.md:189
+#: python-novice-gapminder/_episodes/13-conditionals.md:253
+msgid "> ## Tracing Execution"
+msgstr "> ## Відстеження виконання"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:190
+msgid ""
+">\n"
+"> Create a table showing the numbers of the lines that are executed when this program runs,\n"
+"> and the values of the variables after each line is executed.\n"
+">\n"
+"> ~~~\n"
+"> total = 0\n"
+"> for char in \"tin\":\n"
+">     total = total + 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > | Line no | Variables            |\n"
+"> > |---------|----------------------|\n"
+"> > | 1       | total = 0            |\n"
+"> > | 2       | total = 0 char = 't' |\n"
+"> > | 3       | total = 1 char = 't' |\n"
+"> > | 2       | total = 1 char = 'i' |\n"
+"> > | 3       | total = 2 char = 'i' |\n"
+"> > | 2       | total = 2 char = 'n' |\n"
+"> > | 3       | total = 3 char = 'n' |"
+msgstr ""
+">\n"
+"> Створіть таблицю з номерами рядків, які виконуються під час виконання цієї програми,\n"
+"> і значення змінних після виконання кожного рядка.\n"
+">\n"
+"> ~~~\n"
+"> total = 0\n"
+"> for char in \"tin\":\n"
+">     total = total + 1\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> >\n"
+"> > | Line no | Variables            |\n"
+"> > |---------|----------------------|\n"
+"> > | 1       | total = 0            |\n"
+"> > | 2       | total = 0 char = 't' |\n"
+"> > | 3       | total = 1 char = 't' |\n"
+"> > | 2       | total = 1 char = 'i' |\n"
+"> > | 3       | total = 2 char = 'i' |\n"
+"> > | 2       | total = 2 char = 'n' |\n"
+"> > | 3       | total = 3 char = 'n' |"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/12-for-loops.md:214
+msgid "> ## Reversing a String"
+msgstr "> ## Перевертання рядка"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:215
+msgid ""
+">\n"
+"> Fill in the blanks in the program below so that it prints \"nit\"\n"
+"> (the reverse of the original character string \"tin\").\n"
+">\n"
+"> ~~~\n"
+"> original = \"tin\"\n"
+"> result = ____\n"
+"> for char in original:\n"
+">     result = ____\n"
+"> print(result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > original = \"tin\"\n"
+"> > result = \"\"\n"
+"> > for char in original:\n"
+"> >     result = char + result\n"
+"> > print(result)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> Заповніть порожні місця в програмі нижче, щоб вона друкувала \"nit\"\n"
+"> (зворотний вихідний рядок символів \"tin\").\n"
+">\n"
+"> ~~~\n"
+"> original = \"tin\"\n"
+"> result = ____\n"
+"> for char in original:\n"
+">     result = ____\n"
+"> print(result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > original = \"tin\"\n"
+"> > result = \"\"\n"
+"> > for char in original:\n"
+"> >     result = char + result\n"
+"> > print(result)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/12-for-loops.md:239
+msgid "> ## Practice Accumulating"
+msgstr "> ## Практика накопичення."
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:240
+msgid ""
+">\n"
+"> Fill in the blanks in each of the programs below\n"
+"> to produce the indicated result.\n"
+">\n"
+"> ~~~\n"
+"> # Total length of the strings in the list: [\"red\", \"green\", \"blue\"] => 12\n"
+"> total = 0\n"
+"> for word in [\"red\", \"green\", \"blue\"]:\n"
+">     ____ = ____ + len(word)\n"
+"> print(total)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > total = 0\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     total = total + len(word)\n"
+"> > print(total)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> Заповніть пропуски в кожній із наведених нижче програм,\n"
+"> щоб отримати вказаний результат\n"
+">\n"
+"> ~~~\n"
+"> # Загальна довжина рядків у списку: [\"red\", \"green\", \"blue\"] => 12\n"
+"> total = 0\n"
+"> for word in [\"red\", \"green\", \"blue\"]:\n"
+">     ____ = ____ + len(word)\n"
+"> print(total)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > total = 0\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     total = total + len(word)\n"
+"> > print(total)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:261
+msgid ""
+">\n"
+"> ~~~\n"
+"> # List of word lengths: [\"red\", \"green\", \"blue\"] => [3, 5, 4]\n"
+"> lengths = ____\n"
+"> for word in [\"red\", \"green\", \"blue\"]:\n"
+">     lengths.____(____)\n"
+"> print(lengths)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > lengths = []\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     lengths.append(len(word))\n"
+"> > print(lengths)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> ~~~\n"
+"> # Список довжин слів: [\"red\", \"green\", \"blue\"] => [3, 5, 4]\n"
+"> lengths = ____\n"
+"> for word in [\"red\", \"green\", \"blue\"]:\n"
+">     lengths.____(____)\n"
+"> print(lengths)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > lengths = []\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     lengths.append(len(word))\n"
+"> > print(lengths)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:279
+msgid ""
+">\n"
+"> ~~~\n"
+"> # Concatenate all words: [\"red\", \"green\", \"blue\"] => \"redgreenblue\"\n"
+"> words = [\"red\", \"green\", \"blue\"]\n"
+"> result = ____\n"
+"> for ____ in ____:\n"
+">     ____\n"
+"> print(result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > words = [\"red\", \"green\", \"blue\"]\n"
+"> > result = \"\"\n"
+"> > for word in words:\n"
+"> >     result = result + word\n"
+"> > print(result)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> ~~~\n"
+"> # Concatenate all words: [\"red\", \"green\", \"blue\"] => \"redgreenblue\"\n"
+"> words = [\"red\", \"green\", \"blue\"]\n"
+"> result = ____\n"
+"> for ____ in ____:\n"
+">     ____\n"
+"> print(result)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > words = [\"red\", \"green\", \"blue\"]\n"
+"> > result = \"\"\n"
+"> > for word in words:\n"
+"> >     result = result + word\n"
+"> > print(result)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:299
+msgid ""
+">\n"
+"> ~~~\n"
+"> # Create acronym: [\"red\", \"green\", \"blue\"] => \"RGB\"\n"
+"> # write the whole thing\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > acronym = \"\"\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     acronym = acronym + word[0].upper()\n"
+"> > print(acronym)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> ~~~\n"
+"> # Створіть акронім: [\"red\", \"green\", \"blue\"] => \"RGB\"\n"
+"> # Напишіть всю прграму\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > acronym = \"\"\n"
+"> > for word in [\"red\", \"green\", \"blue\"]:\n"
+"> >     acronym = acronym + word[0].upper()\n"
+"> > print(acronym)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/12-for-loops.md:316
+msgid "> ## Cumulative Sum"
+msgstr "> ## Кумулятивна сума"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:317
+msgid ""
+">\n"
+"> Reorder and properly indent the lines of code below\n"
+"> so that they print a list with the cumulative sum of data.\n"
+"> The result should be `[1, 3, 5, 10]`.\n"
+">\n"
+"> ~~~\n"
+"> cumulative.append(sum)\n"
+"> for number in data:\n"
+"> cumulative = []\n"
+"> sum += number\n"
+"> sum = 0\n"
+"> print(cumulative)\n"
+"> data = [1,2,2,5]\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ~~~\n"
+"> > sum = 0\n"
+"> > data = [1,2,2,5]\n"
+"> > cumulative = []\n"
+"> > for number in data:\n"
+"> >     sum += number\n"
+"> >     cumulative.append(sum)\n"
+"> > print(cumulative)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> Змініть порядок і належним чином розставте рядки коду нижче\n"
+"> щоб в результаті отримати список із сукупною сумою даних.\n"
+"> Результатом має бути `[1, 3, 5, 10]`.\n"
+">\n"
+"> ~~~\n"
+"> cumulative.append(sum)\n"
+"> for number in data:\n"
+"> cumulative = []\n"
+"> sum += number\n"
+"> sum = 0\n"
+"> print(cumulative)\n"
+"> data = [1,2,2,5]\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > ~~~\n"
+"> > sum = 0\n"
+"> > data = [1,2,2,5]\n"
+"> > cumulative = []\n"
+"> > for number in data:\n"
+"> >     sum += number\n"
+"> >     cumulative.append(sum)\n"
+"> > print(cumulative)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/12-for-loops.md:346
+msgid "> ## Identifying Variable Name Errors"
+msgstr "> ## Виявлення помилок імен змінних"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:347
+msgid ""
+">\n"
+"> 1. Read the code below and try to identify what the errors are\n"
+">    *without* running it.\n"
+"> 2. Run the code and read the error message.\n"
+">    What type of `NameError` do you think this is?\n"
+">    Is it a string with no quotes, a misspelled variable, or a\n"
+">    variable that should have been defined but was not?\n"
+"> 3. Fix the error.\n"
+"> 4. Repeat steps 2 and 3, until you have fixed all the errors.\n"
+">\n"
+"> ~~~\n"
+"> for number in range(10):\n"
+">     # use a if the number is a multiple of 3, otherwise use b\n"
+">     if (Number % 3) == 0:\n"
+">         message = message + a\n"
+">     else:\n"
+">         message = message + \"b\"\n"
+"> print(message)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > The variable `message` needs to be initialized and Python variable names are case sensitive: `number` and `Number`\n"
+"> > refer to different variables.\n"
+"> > ~~~\n"
+"> > message = \"\"\n"
+"> > for number in range(10):\n"
+"> >     # use a if the number is a multiple of 3, otherwise use b\n"
+"> >     if (number % 3) == 0:\n"
+"> >         message = message + \"a\"\n"
+"> >     else:\n"
+"> >         message = message + \"b\"\n"
+"> > print(message)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> 1. Прочитайте наведений нижче код і спробуйте визначити, у чому полягають помилки\n"
+">    *без* запуску програми.\n"
+"> 2. Запустіть код і прочитайте повідомлення про помилку.\n"
+">   Як ви думаєте, який це тип `NameError`?\n"
+">   Це рядок без лапок, змінна з орфографічною помилкою чи \n"
+">    змінна, яка мала бути визначена, але не була визначена?\n"
+"> 3. Виправте помилку.\n"
+"> 4. Повторюйте кроки 2 і 3, доки не виправите всі помилки.\n"
+">\n"
+"> ~~~\n"
+"> for number in range(10):\n"
+">     # use a if the number is a multiple of 3, otherwise use b\n"
+">     if (Number % 3) == 0:\n"
+">         message = message + a\n"
+">     else:\n"
+">         message = message + \"b\"\n"
+"> print(message)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > TЗмінну `message` потрібно ініціалізувати, а назви змінних Python чутливі до регістру: `number` і `Number`\n"
+"> > посилаються на різні змінні.\n"
+"> > ~~~\n"
+"> > message = \"\"\n"
+"> > for number in range(10):\n"
+"> >     # use a if the number is a multiple of 3, otherwise use b\n"
+"> >     if (number % 3) == 0:\n"
+"> >         message = message + \"a\"\n"
+"> >     else:\n"
+"> >         message = message + \"b\"\n"
+"> > print(message)\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/12-for-loops.md:384
+msgid "> ## Identifying Item Errors"
+msgstr "> ## Виявлення помилок програми"
+
+#: python-novice-gapminder/_episodes/12-for-loops.md:385
+msgid ""
+">\n"
+"> 1. Read the code below and try to identify what the errors are\n"
+">    *without* running it.\n"
+"> 2. Run the code, and read the error message. What type of error is it?\n"
+"> 3. Fix the error.\n"
+">\n"
+"> ~~~\n"
+"> seasons = ['Spring', 'Summer', 'Fall', 'Winter']\n"
+"> print('My favorite season is ', seasons[4])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > This list has 4 elements and the index to access the last element in the list is `3`.\n"
+"> > ~~~\n"
+"> > seasons = ['Spring', 'Summer', 'Fall', 'Winter']\n"
+"> > print('My favorite season is ', seasons[3])\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+">\n"
+"> 1. Прочитайте наведений нижче код і спробуйте визначити, у чому полягають помилки\n"
+">    *без* запуску програми.\n"
+"> 2. Запустіть код і прочитайте повідомлення про помилку. Який тип помилки?\n"
+"> 3. Виправте помилку.\n"
+">\n"
+"> ~~~\n"
+"> seasons = ['Spring', 'Summer', 'Fall', 'Winter']\n"
+"> print('My favorite season is ', seasons[4])\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Рішення\n"
+"> > Цей список складається з 4 елементів, а індекс для доступу до останнього елемента в списку – «3».\n"
+"> > ~~~\n"
+"> > seasons = ['Spring', 'Summer', 'Fall', 'Winter']\n"
+"> > print('My favorite season is ', seasons[3])\n"
+"> > ~~~\n"
+"> > {: .language-python}"

@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Irma Martínez-Flores <irma@ccg.unam.mx>, 2020
+# Sandro Loch <es.loch@gmail.com>, 2020
+# David PS <dps.helio@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: David PS <dps.helio@gmail.com>, 2020\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/17-scope.md:1
+msgid ""
+"---\n"
+"title: \"Variable Scope\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How do function calls actually work?\"\n"
+"- \"How can I determine where errors occurred?\"\n"
+"objectives:\n"
+"- \"Identify local and global variables.\"\n"
+"- \"Identify parameters as local variables.\"\n"
+"- \"Read a traceback and determine the file, function, and line number on which the error occurred, the type of error, and the error message.\"\n"
+"keypoints:\n"
+"- \"The scope of a variable is the part of a program that can 'see' that variable.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Alcance de una Variable\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"¿Cómo trabajan realmente las llamadas a funciones?\"\n"
+"- \"Cómo puedo determinar donde ocurrieron los errores?\"\n"
+"objectives:\n"
+"- \"Identificar variables locales y globales.\"\n"
+"- \"Identificar parámetros como variables locales.\"\n"
+"- \"Lea un registro de rastreo y determine el archivo, la función y el número de línea en que ocurrió el error, el tipo de error y el mensaje de error.\"\n"
+"keypoints:\n"
+"- \"El alcance de una variable es la parte de un programa que puede 'ver' esa variable.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/17-scope.md:15
+msgid ""
+"## The scope of a variable is the part of a program that can 'see' that "
+"variable."
+msgstr ""
+"## El alcance de una variable es la parte de un programa que puede \"ver\" "
+"esa variable."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:17
+msgid "*   There are only so many sensible names for variables."
+msgstr "*   Hay contados nombres sensibles para las variables."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:18
+msgid "*   People using functions shouldn't have to worry about"
+msgstr "*   Las personas que usan funciones no se deberían preocupar"
+
+#: python-novice-gapminder/_episodes/17-scope.md:19
+msgid ""
+"    what variable names the author of the function used.\n"
+"*   People writing functions shouldn't have to worry about\n"
+"    what variable names the function's caller uses.\n"
+"*   The part of a program in which a variable is visible is called its *scope*."
+msgstr ""
+"    qué variable nombra al autor de la función utilizada.\n"
+"*   Las personas que escriben funciones no deberian tener que preocuparse sobre\n"
+"    los nombres de las variables que usa el llamador de la función.\n"
+"*   La parte de un programa en el que una variable es visible se llama *scope*/alcanse."
+
+# code block
+#: python-novice-gapminder/_episodes/17-scope.md:24
+msgid ""
+"~~~\n"
+"pressure = 103.9\n"
+"\n"
+"def adjust(t):\n"
+"    temperature = t * 1.43 / pressure\n"
+"    return temperature\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"pressure = 103.9\n"
+"\n"
+"def adjust(t):\n"
+"    temperature = t * 1.43 / pressure\n"
+"    return temperature\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:33
+msgid "*   `pressure` is a *global variable*."
+msgstr "*   `pressure` es una *variable global*."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:34
+msgid "    *   Defined outside any particular function."
+msgstr "    *   Definida fuera de cualquier función particular."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:35
+msgid "    *   Visible everywhere."
+msgstr "    *   Visible en todas partes."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:36
+msgid "*   `t` and `temperature` are *local variables* in `adjust`."
+msgstr "*   `t` y `temperature` son *variables locales* en `adjust`."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:37
+msgid "    *   Defined in the function."
+msgstr "    *   Definida en la función."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:38
+msgid "    *   Not visible in the main program."
+msgstr "    *   No visible en el programa principal."
+
+# unordered list
+#: python-novice-gapminder/_episodes/17-scope.md:39
+msgid "    *   Remember: a function parameter is a variable"
+msgstr "    *   Recuerda: un parámetro de función es una variable"
+
+#: python-novice-gapminder/_episodes/17-scope.md:40
+msgid ""
+"        that is automatically assigned a value when the function is called."
+msgstr ""
+"     que se le asigna automáticamente un valor cuando se llama a la función."
+
+# code block
+#: python-novice-gapminder/_episodes/17-scope.md:42
+msgid ""
+"~~~\n"
+"print('adjusted:', adjust(0.9))\n"
+"print('temperature after call:', temperature)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print('adjusted:', adjust(0.9))\n"
+"print('temperature after call:', temperature)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/17-scope.md:46
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"adjusted: 0.01238691049085659\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"adjusted: 0.01238691049085659\n"
+"~~~"
+
+# code block
+#: python-novice-gapminder/_episodes/17-scope.md:51
+msgid ""
+"~~~\n"
+"Traceback (most recent call last):\n"
+"  File \"/Users/swcarpentry/foo.py\", line 8, in <module>\n"
+"    print('temperature after call:', temperature)\n"
+"NameError: name 'temperature' is not defined\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Traceback (most recent call last):\n"
+"  File \"/Users/swcarpentry/foo.py\", line 8, in <module>\n"
+"    print('temperature after call:', temperature)\n"
+"NameError: name 'temperature' is not defined\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/17-scope.md:59
+msgid "> ## Local and Global Variable Use"
+msgstr "> ## Uso de Variable Local y Global"
+
+#: python-novice-gapminder/_episodes/17-scope.md:60
+msgid ""
+">\n"
+"> Trace the values of all variables in this program as it is executed.\n"
+"> (Use '---' as the value of variables before and after they exist.)\n"
+">\n"
+"> ~~~\n"
+"> limit = 100\n"
+">\n"
+"> def clip(value):\n"
+">     return min(max(0.0, value), limit)\n"
+">\n"
+"> value = -22.5\n"
+"> print(clip(value))\n"
+"> ~~~\n"
+"> {: .language-python}"
+msgstr ""
+">\n"
+"> Rastree los valores de todas las variables en este programa a medida que se ejecuta.\n"
+"> (Usa '---' como el valor de las variables antes y después de que existan.)\n"
+">\n"
+"> ~~~\n"
+"> limit = 100\n"
+">\n"
+"> def clip(value):\n"
+">     return min(max(0.0, value), limit)\n"
+">\n"
+"> value = -22.5\n"
+"> print(clip(value))\n"
+"> ~~~\n"
+"> {: .language-python}"
+
+#: python-novice-gapminder/_episodes/17-scope.md:77
+msgid ""
+">\n"
+"> Read the traceback below, and identify the following:\n"
+">\n"
+"> 1. How many levels does the traceback have?\n"
+"> 2. What is the file name where the error occurred?\n"
+"> 3. What is the function name where the error occurred?\n"
+"> 4. On which line number in this function did the error occur?\n"
+"> 5. What is the type of error?\n"
+"> 6. What is the error message?\n"
+">\n"
+"> ~~~\n"
+"> ---------------------------------------------------------------------------\n"
+"> KeyError                                  Traceback (most recent call last)\n"
+"> <ipython-input-2-e4c4cbafeeb5> in <module>()\n"
+">       1 import errors_02\n"
+"> ----> 2 errors_02.print_friday_message()\n"
+">\n"
+"> /Users/ghopper/thesis/code/errors_02.py in print_friday_message()\n"
+">      13\n"
+">      14 def print_friday_message():\n"
+"> ---> 15     print_message(\"Friday\")\n"
+">\n"
+"> /Users/ghopper/thesis/code/errors_02.py in print_message(day)\n"
+">       9         \"sunday\": \"Aw, the weekend is almost over.\"\n"
+">      10     }\n"
+"> ---> 11     print(messages[day])\n"
+">      12\n"
+">      13\n"
+">\n"
+"> KeyError: 'Friday'\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Lea el registro de rastreo abajo, e identifique lo siguiente:\n"
+">\n"
+"> 1. ¿Cuántos niveles tiene el registro de rastreo?\n"
+"> 2. ¿Cuál es el nombre del archivo donde ocurrió el error?\n"
+"> 3. ¿Cuál es el nombre de la función donde ocurrió el error?\n"
+"> 4. ¿En qué número de línea en esta función se produjo el error?\n"
+"> 5. ¿Cuál es el tipo de error?\n"
+"> 6. ¿Cuál es el mensaje de error?\n"
+">\n"
+"> ~~~\n"
+"> ---------------------------------------------------------------------------\n"
+"> KeyError                                  Traceback (most recent call last)\n"
+"> <ipython-input-2-e4c4cbafeeb5> in <module>()\n"
+">       1 import errors_02\n"
+"> ----> 2 errors_02.print_friday_message()\n"
+">\n"
+"> /Users/ghopper/thesis/code/errors_02.py in print_friday_message()\n"
+">      13\n"
+">      14 def print_friday_message():\n"
+"> ---> 15     print_message(\"Friday\")\n"
+">\n"
+"> /Users/ghopper/thesis/code/errors_02.py in print_message(day)\n"
+">       9         \"sunday\": \"Aw, the weekend is almost over.\"\n"
+">      10     }\n"
+"> ---> 11     print(messages[day])\n"
+">      12\n"
+">      13\n"
+">\n"
+"> KeyError: 'Friday'\n"
+"> ~~~"

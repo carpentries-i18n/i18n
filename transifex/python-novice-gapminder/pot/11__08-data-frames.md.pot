@@ -1,0 +1,845 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Pandas DataFrames\"\n"
+"teaching: 15\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How can I do statistical analysis of tabular data?\"\n"
+"objectives:\n"
+"- \"Select individual values from a Pandas dataframe.\"\n"
+"- \"Select entire rows or entire columns from a dataframe.\"\n"
+"- \"Select a subset of both rows and columns from a dataframe in a single operation.\"\n"
+"- \"Select a subset of a dataframe by a single Boolean criterion.\"\n"
+"keypoints:\n"
+"- \"Use `DataFrame.iloc[..., ...]` to select values by integer location.\"\n"
+"- \"Use `:` on its own to mean all columns or all rows.\"\n"
+"- \"Select multiple columns or rows using `DataFrame.loc` and a named slice.\"\n"
+"- \"Result of slicing can be used in further operations.\"\n"
+"- \"Use comparisons to select data based on value.\"\n"
+"- \"Select values or NaN using a Boolean mask.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:21
+# header
+msgid "## Note about Pandas DataFrames/Series"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:23
+msgid "A [DataFrame][pandas-dataframe] is a collection of [Series][pandas-series];\n"
+"The DataFrame is the way Pandas represents a table, and Series is the data-structure\n"
+"Pandas use to represent a column."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:27
+msgid "Pandas is built on top of the [Numpy][numpy] library, which in practice means that\n"
+"most of the methods defined for Numpy Arrays apply to Pandas Series/DataFrames."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:30
+msgid "What makes Pandas so attractive is the powerful interface to access individual records\n"
+"of the table, proper handling of missing values, and relational-databases operations\n"
+"between DataFrames."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:34
+# header
+msgid "## Selecting values"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:36
+msgid "To access a value at the position `[i,j]` of a DataFrame, we have two options, depending on\n"
+"what is the meaning of `i` in use.\n"
+"Remember that a DataFrame provides an *index* as a way to identify the rows of the table;\n"
+"a row, then, has a *position* inside the table as well as a *label*, which\n"
+"uniquely identifies its *entry* in the DataFrame."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:42
+# header
+msgid "## Use `DataFrame.iloc[..., ...]` to select values by their (entry) position"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:44
+# unordered list
+msgid "*   Can specify location by numerical index analogously to 2D version of character selection in strings."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:46
+# code block
+msgid "~~~\n"
+"import pandas as pd\n"
+"data = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"print(data.iloc[0, 0])\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:51
+#: python-novice-gapminder/_episodes/08-data-frames.md:65
+msgid "{: .language-python}\n"
+"~~~\n"
+"1601.056136\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:57
+# header
+msgid "## Use `DataFrame.loc[..., ...]` to select values by their (entry) label."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:59
+# unordered list
+msgid "*   Can specify location by row name analogously to 2D version of dictionary keys."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:61
+# code block
+msgid "~~~\n"
+"data = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"print(data.loc[\"Albania\", \"gdpPercap_1952\"])\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:70
+# header
+msgid "## Use `:` on its own to mean all columns or all rows."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:72
+# unordered list
+msgid "*   Just like Python's usual slicing notation."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:74
+# code block
+msgid "~~~\n"
+"print(data.loc[\"Albania\", :])\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:77
+msgid "{: .language-python}\n"
+"~~~\n"
+"gdpPercap_1952    1601.056136\n"
+"gdpPercap_1957    1942.284244\n"
+"gdpPercap_1962    2312.888958\n"
+"gdpPercap_1967    2760.196931\n"
+"gdpPercap_1972    3313.422188\n"
+"gdpPercap_1977    3533.003910\n"
+"gdpPercap_1982    3630.880722\n"
+"gdpPercap_1987    3738.932735\n"
+"gdpPercap_1992    2497.437901\n"
+"gdpPercap_1997    3193.054604\n"
+"gdpPercap_2002    4604.211737\n"
+"gdpPercap_2007    5937.029526\n"
+"Name: Albania, dtype: float64\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:95
+# unordered list
+msgid "*   Would get the same result printing `data.loc[\"Albania\"]` (without a second index)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:97
+# code block
+msgid "~~~\n"
+"print(data.loc[:, \"gdpPercap_1952\"])\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:100
+msgid "{: .language-python}\n"
+"~~~\n"
+"country\n"
+"Albania                    1601.056136\n"
+"Austria                    6137.076492\n"
+"Belgium                    8343.105127\n"
+"⋮ ⋮ ⋮\n"
+"Switzerland               14734.232750\n"
+"Turkey                     1969.100980\n"
+"United Kingdom             9979.508487\n"
+"Name: gdpPercap_1952, dtype: float64\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:114
+# unordered list
+msgid "*   Would get the same result printing `data[\"gdpPercap_1952\"]`"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:115
+# unordered list
+msgid "*   Also get the same result printing `data.gdpPercap_1952` (not recommended, because easily confused with `.` notation for methods)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:117
+# header
+msgid "## Select multiple columns or rows using `DataFrame.loc` and a named slice."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:119
+# code block
+msgid "~~~\n"
+"print(data.loc['Italy':'Poland', 'gdpPercap_1962':'gdpPercap_1972'])\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:122
+msgid "{: .language-python}\n"
+"~~~\n"
+"             gdpPercap_1962  gdpPercap_1967  gdpPercap_1972\n"
+"country\n"
+"Italy           8243.582340    10022.401310    12269.273780\n"
+"Montenegro      4649.593785     5907.850937     7778.414017\n"
+"Netherlands    12790.849560    15363.251360    18794.745670\n"
+"Norway         13450.401510    16361.876470    18965.055510\n"
+"Poland          5338.752143     6557.152776     8006.506993\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:134
+msgid "In the above code, we discover that **slicing using `loc` is inclusive at both\n"
+"ends**, which differs from **slicing using `iloc`**, where slicing indicates\n"
+"everything up to but not including the final index. "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:139
+# header
+msgid "## Result of slicing can be used in further operations."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:141
+# unordered list
+msgid "*   Usually don't just print a slice."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:142
+# unordered list
+msgid "*   All the statistical operators that work on entire dataframes"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:143
+msgid "    work the same way on slices.\n"
+"*   E.g., calculate max of a slice."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:146
+# code block
+msgid "~~~\n"
+"print(data.loc['Italy':'Poland', 'gdpPercap_1962':'gdpPercap_1972'].max())\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:149
+msgid "{: .language-python}\n"
+"~~~\n"
+"gdpPercap_1962    13450.40151\n"
+"gdpPercap_1967    16361.87647\n"
+"gdpPercap_1972    18965.05551\n"
+"dtype: float64\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:158
+# code block
+msgid "~~~\n"
+"print(data.loc['Italy':'Poland', 'gdpPercap_1962':'gdpPercap_1972'].min())\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:161
+msgid "{: .language-python}\n"
+"~~~\n"
+"gdpPercap_1962    4649.593785\n"
+"gdpPercap_1967    5907.850937\n"
+"gdpPercap_1972    7778.414017\n"
+"dtype: float64\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:170
+# header
+msgid "## Use comparisons to select data based on value."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:172
+# unordered list
+msgid "*   Comparison is applied element by element."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:173
+# unordered list
+msgid "*   Returns a similarly-shaped dataframe of `True` and `False`."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:175
+# code block
+msgid "~~~\n"
+"# Use a subset of data to keep output readable.\n"
+"subset = data.loc['Italy':'Poland', 'gdpPercap_1962':'gdpPercap_1972']\n"
+"print('Subset of data:\\n', subset)\n"
+"\n"
+"# Which values were greater than 10000 ?\n"
+"print('\\nWhere are values large?\\n', subset > 10000)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:183
+msgid "{: .language-python}\n"
+"~~~\n"
+"Subset of data:\n"
+"             gdpPercap_1962  gdpPercap_1967  gdpPercap_1972\n"
+"country\n"
+"Italy           8243.582340    10022.401310    12269.273780\n"
+"Montenegro      4649.593785     5907.850937     7778.414017\n"
+"Netherlands    12790.849560    15363.251360    18794.745670\n"
+"Norway         13450.401510    16361.876470    18965.055510\n"
+"Poland          5338.752143     6557.152776     8006.506993"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:194
+msgid "Where are values large?\n"
+"            gdpPercap_1962 gdpPercap_1967 gdpPercap_1972\n"
+"country\n"
+"Italy                False           True           True\n"
+"Montenegro           False          False          False\n"
+"Netherlands           True           True           True\n"
+"Norway                True           True           True\n"
+"Poland               False          False          False\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:205
+# header
+msgid "## Select values or NaN using a Boolean mask."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:207
+# unordered list
+msgid "*   A frame full of Booleans is sometimes called a *mask* because of how it can be used."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:209
+# code block
+msgid "~~~\n"
+"mask = subset > 10000\n"
+"print(subset[mask])\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:213
+msgid "{: .language-python}\n"
+"~~~\n"
+"             gdpPercap_1962  gdpPercap_1967  gdpPercap_1972\n"
+"country\n"
+"Italy                   NaN     10022.40131     12269.27378\n"
+"Montenegro              NaN             NaN             NaN\n"
+"Netherlands     12790.84956     15363.25136     18794.74567\n"
+"Norway          13450.40151     16361.87647     18965.05551\n"
+"Poland                  NaN             NaN             NaN\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:225
+# unordered list
+msgid "*   Get the value where the mask is true, and NaN (Not a Number) where it is false."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:226
+# unordered list
+msgid "*   Useful because NaNs are ignored by operations like max, min, average, etc."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:228
+# code block
+msgid "~~~\n"
+"print(subset[subset > 10000].describe())\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:231
+msgid "{: .language-python}\n"
+"~~~\n"
+"       gdpPercap_1962  gdpPercap_1967  gdpPercap_1972\n"
+"count        2.000000        3.000000        3.000000\n"
+"mean     13120.625535    13915.843047    16676.358320\n"
+"std        466.373656     3408.589070     3817.597015\n"
+"min      12790.849560    10022.401310    12269.273780\n"
+"25%      12955.737547    12692.826335    15532.009725\n"
+"50%      13120.625535    15363.251360    18794.745670\n"
+"75%      13285.513523    15862.563915    18879.900590\n"
+"max      13450.401510    16361.876470    18965.055510\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:245
+# header
+msgid "## Group By: split-apply-combine"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:247
+msgid "Pandas vectorizing methods and grouping operations are features that provide users \n"
+"much flexibility to analyse their data."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:250
+msgid "For instance, let's say we want to have a clearer view on how the European countries \n"
+"split themselves according to their GDP."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:253
+# ordered list
+msgid "1.  We may have a glance by splitting the countries in two groups during the years surveyed,"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:254
+msgid "    those who presented a GDP *higher* than the European average and those with a *lower* GDP.\n"
+"2.  We then estimate a *wealthy score* based on the historical (from 1962 to 2007) values,\n"
+"    where we account how many times a country has participated in the groups of *lower* or *higher* GDP"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:258
+# code block
+msgid "~~~\n"
+"mask_higher = data > data.mean()\n"
+"wealth_score = mask_higher.aggregate('sum', axis=1) / len(data.columns)\n"
+"wealth_score\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:263
+msgid "{: .language-python}\n"
+"~~~\n"
+"country\n"
+"Albania                   0.000000\n"
+"Austria                   1.000000\n"
+"Belgium                   1.000000\n"
+"Bosnia and Herzegovina    0.000000\n"
+"Bulgaria                  0.000000\n"
+"Croatia                   0.000000\n"
+"Czech Republic            0.500000\n"
+"Denmark                   1.000000\n"
+"Finland                   1.000000\n"
+"France                    1.000000\n"
+"Germany                   1.000000\n"
+"Greece                    0.333333\n"
+"Hungary                   0.000000\n"
+"Iceland                   1.000000\n"
+"Ireland                   0.333333\n"
+"Italy                     0.500000\n"
+"Montenegro                0.000000\n"
+"Netherlands               1.000000\n"
+"Norway                    1.000000\n"
+"Poland                    0.000000\n"
+"Portugal                  0.000000\n"
+"Romania                   0.000000\n"
+"Serbia                    0.000000\n"
+"Slovak Republic           0.000000\n"
+"Slovenia                  0.333333\n"
+"Spain                     0.333333\n"
+"Sweden                    1.000000\n"
+"Switzerland               1.000000\n"
+"Turkey                    0.000000\n"
+"United Kingdom            1.000000\n"
+"dtype: float64\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:300
+msgid "Finally, for each group in the `wealth_score` table, we sum their (financial) contribution\n"
+"across the years surveyed:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:303
+# code block
+msgid "~~~\n"
+"data.groupby(wealth_score).sum()\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:306
+msgid "{: .language-python}\n"
+"~~~\n"
+"          gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  gdpPercap_1967  \\\n"
+"0.000000    36916.854200    46110.918793    56850.065437    71324.848786   \n"
+"0.333333    16790.046878    20942.456800    25744.935321    33567.667670   \n"
+"0.500000    11807.544405    14505.000150    18380.449470    21421.846200   \n"
+"1.000000   104317.277560   127332.008735   149989.154201   178000.350040   "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:314
+msgid "          gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  gdpPercap_1987  \\\n"
+"0.000000    88569.346898   104459.358438   113553.768507   119649.599409   \n"
+"0.333333    45277.839976    53860.456750    59679.634020    64436.912960   \n"
+"0.500000    25377.727380    29056.145370    31914.712050    35517.678220   \n"
+"1.000000   215162.343140   241143.412730   263388.781960   296825.131210   "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:320
+msgid "          gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  gdpPercap_2007  \n"
+"0.000000    92380.047256   103772.937598   118590.929863   149577.357928  \n"
+"0.333333    67918.093220    80876.051580   102086.795210   122803.729520  \n"
+"0.500000    36310.666080    40723.538700    45564.308390    51403.028210  \n"
+"1.000000   315238.235970   346930.926170   385109.939210   427850.333420\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:329
+# blockquote, which can be cascaded
+msgid "> ## Selection of Individual Values"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:330
+msgid ">\n"
+"> Assume Pandas has been imported into your notebook\n"
+"> and the Gapminder GDP data for Europe has been loaded:\n"
+">\n"
+"> ~~~\n"
+"> import pandas as pd\n"
+">\n"
+"> df = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> Write an expression to find the Per Capita GDP of Serbia in 2007."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:343
+msgid ">\n"
+"> > ## Solution\n"
+"> > The selection can be done by using the labels for both the row (\"Serbia\") and the column (\"gdpPercap_2007\"):\n"
+"> > ~~~\n"
+"> > print(df.loc['Serbia', 'gdpPercap_2007'])\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > The output is\n"
+"> > ~~~\n"
+"> > 9786.534714\n"
+"> > ~~~\n"
+"> >{: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:358
+# blockquote, which can be cascaded
+msgid "> ## Extent of Slicing"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:359
+msgid ">\n"
+"> 1.  Do the two statements below produce the same output?\n"
+"> 2.  Based on this,\n"
+">     what rule governs what is included (or not) in numerical slices and named slices in Pandas?\n"
+"> \n"
+"> ~~~\n"
+"> print(df.iloc[0:2, 0:2])\n"
+"> print(df.loc['Albania':'Belgium', 'gdpPercap_1952':'gdpPercap_1962'])\n"
+"> ~~~\n"
+"> {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:372
+# blockquote, which can be cascaded
+msgid "> > No, they do not produce the same output! The output of the first statement is:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:374
+# blockquote, which can be cascaded
+msgid "> >         gdpPercap_1952  gdpPercap_1957"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:375
+# blockquote, which can be cascaded
+msgid "> > country                                "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:376
+# blockquote, which can be cascaded
+msgid "> > Albania     1601.056136     1942.284244"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:377
+# blockquote, which can be cascaded
+msgid "> > Austria     6137.076492     8842.598030"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:379
+#: python-novice-gapminder/_episodes/08-data-frames.md:388
+# blockquote, which can be cascaded
+msgid "> >{: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:380
+# blockquote, which can be cascaded
+msgid "> > The second statement gives:"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:382
+# blockquote, which can be cascaded
+msgid "> >         gdpPercap_1952  gdpPercap_1957  gdpPercap_1962"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:383
+# blockquote, which can be cascaded
+msgid "> > country                                                "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:384
+# blockquote, which can be cascaded
+msgid "> > Albania     1601.056136     1942.284244     2312.888958"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:385
+# blockquote, which can be cascaded
+msgid "> > Austria     6137.076492     8842.598030    10750.721110"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:386
+# blockquote, which can be cascaded
+msgid "> > Belgium     8343.105127     9714.960623    10991.206760"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:389
+# blockquote, which can be cascaded
+msgid "> > Clearly, the second statement produces an additional column and an additional row compared to the first statement.  "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:390
+# blockquote, which can be cascaded
+msgid "> > What conclusion can we draw? We see that a numerical slice, 0:2, *omits* the final index (i.e. index 2)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:391
+# blockquote, which can be cascaded
+msgid "> > in the range provided,"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:392
+# blockquote, which can be cascaded
+msgid "> > while a named slice, 'gdpPercap_1952':'gdpPercap_1962', *includes* the final element."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:396
+# blockquote, which can be cascaded
+msgid "> ## Reconstructing Data"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:397
+msgid ">\n"
+"> Explain what each line in the following short program does:\n"
+"> what is in `first`, `second`, etc.?\n"
+">\n"
+"> ~~~\n"
+"> first = pd.read_csv('data/gapminder_all.csv', index_col='country')\n"
+"> second = first[first['continent'] == 'Americas']\n"
+"> third = second.drop('Puerto Rico')\n"
+"> fourth = third.drop('continent', axis = 1)\n"
+"> fourth.to_csv('result.csv')\n"
+"> ~~~\n"
+"> {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:410
+msgid ">\n"
+"> > ## Solution\n"
+"> > Let's go through this piece of code line by line.\n"
+"> > ~~~\n"
+"> > first = pd.read_csv('data/gapminder_all.csv', index_col='country')\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > This line loads the dataset containing the GDP data from all countries into a dataframe called \n"
+"> > `first`. The `index_col='country'` parameter selects which column to use as the \n"
+"> > row labels in the dataframe.  \n"
+"> > ~~~\n"
+"> > second = first[first['continent'] == 'Americas']\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > This line makes a selection: only those rows of `first` for which the 'continent' column matches \n"
+"> > 'Americas' are extracted. Notice how the Boolean expression inside the brackets, \n"
+"> > `first['continent'] == 'Americas'`, is used to select only those rows where the expression is true. \n"
+"> > Try printing this expression! Can you print also its individual True/False elements? \n"
+"> > (hint: first assign the expression to a variable)\n"
+"> > ~~~\n"
+"> > third = second.drop('Puerto Rico')\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > As the syntax suggests, this line drops the row from `second` where the label is 'Puerto Rico'. The \n"
+"> > resulting dataframe `third` has one row less than the original dataframe `second`.\n"
+"> > ~~~\n"
+"> > fourth = third.drop('continent', axis = 1)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > Again we apply the drop function, but in this case we are dropping not a row but a whole column. \n"
+"> > To accomplish this, we need to specify also the `axis` parameter (we want to drop the second column \n"
+"> > which has index 1).\n"
+"> > ~~~\n"
+"> > fourth.to_csv('result.csv')\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > The final step is to write the data that we have been working on to a csv file. Pandas makes this easy \n"
+"> > with the `to_csv()` function. The only required argument to the function is the filename. Note that the \n"
+"> > file will be written in the directory from which you started the Jupyter or Python session."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:452
+# blockquote, which can be cascaded
+msgid "> ## Selecting Indices"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:453
+msgid ">\n"
+"> Explain in simple terms what `idxmin` and `idxmax` do in the short program below.\n"
+"> When would you use these methods?\n"
+">\n"
+"> ~~~\n"
+"> data = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"> print(data.idxmin())\n"
+"> print(data.idxmax())\n"
+"> ~~~\n"
+"> {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:464
+msgid ">\n"
+"> > ## Solution\n"
+"> > For each column in `data`, `idxmin` will return the index value corresponding to each column's minimum;\n"
+"> > `idxmax` will do accordingly the same for each column's maximum value.\n"
+"> >\n"
+"> > You can use these functions whenever you want to get the row index of the minimum/maximum value and not the actual minimum/maximum value."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:473
+# blockquote, which can be cascaded
+msgid "> ## Practice with Selection"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:474
+msgid ">\n"
+"> Assume Pandas has been imported and the Gapminder GDP data for Europe has been loaded.\n"
+"> Write an expression to select each of the following:\n"
+">\n"
+"> 1.  GDP per capita for all countries in 1982.\n"
+"> 2.  GDP per capita for Denmark for all years.\n"
+"> 3.  GDP per capita for all countries for years *after* 1985.\n"
+"> 4.  GDP per capita for each country in 2007 as a multiple of \n"
+">     GDP per capita for that country in 1952."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:484
+msgid ">\n"
+"> > ## Solution\n"
+"> > 1:\n"
+"> > ~~~\n"
+"> > data['gdpPercap_1982']\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > 2:\n"
+"> > ~~~\n"
+"> > data.loc['Denmark',:]\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> >\n"
+"> > 3:\n"
+"> > ~~~\n"
+"> > data.loc[:,'gdpPercap_1985':]\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > Pandas is smart enough to recognize the number at the end of the column label and does not give you an error, although no column named `gdpPercap_1985` actually exists. This is useful if new columns are added to the CSV file later.\n"
+"> >\n"
+"> > 4:\n"
+"> > ~~~\n"
+"> > data['gdpPercap_2007']/data['gdpPercap_1952']\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:514
+# blockquote, which can be cascaded
+msgid "> ## Using the dir function to see available methods"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:515
+msgid ">\n"
+"> Python includes a `dir` function that can be used to display all of the available methods (functions) that are built into a data object.  As an example, the  functions available for a [list data type](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) are:\n"
+"> ~~~\n"
+"> potatoes = [\"Russet\", \"Norkota\", \"Yukon Gold\", \"Pontiac\"]\n"
+"> dir(potatoes)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> This command returns:\n"
+"> ~~~\n"
+"> ['__add__',\n"
+"> ...\n"
+"> '__subclasshook__',\n"
+">  'append',\n"
+">  'clear',\n"
+">  'copy',\n"
+">  'count',\n"
+"> 'extend',\n"
+"> 'index',\n"
+"> 'insert',\n"
+"> 'pop',\n"
+"> 'remove',\n"
+"> 'reverse',\n"
+"> 'sort']\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> The double underscore functions can be ignored for now; functions that are not surrounded by double underscores are the *public interface* of the [list type](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists). So, if you want to sort the list of potatoes, according to `dir` you should try,\n"
+"> ~~~\n"
+"> potatoes.sort()\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> Assume Pandas has been imported and the Gapminder GDP data for Europe has been loaded as `data`.  Then, use `dir` to find the function that prints out the median per-capita GDP across all European countries for each year that information is available.  "
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:550
+msgid ">\n"
+"> > ## Solution\n"
+"> > Among many choices, dir lists the `median()` function as a possibility.  Thus,\n"
+"> > ~~~\n"
+"> > data.median()\n"
+"> > ~~~\n"
+"> > {: .language-python}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:561
+# blockquote, which can be cascaded
+msgid "> ## Interpretation"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:562
+msgid ">\n"
+"> Poland's borders have been stable since 1945,\n"
+"> but changed several times in the years before then.\n"
+"> How would you handle this if you were creating a table of GDP per capita for Poland\n"
+"> for the entire twentieth century?"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/08-data-frames.md:570
+msgid "[pandas-dataframe]: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html\n"
+"[pandas-series]: https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html\n"
+"[numpy]: http://www.numpy.org/"
+msgstr ""
+

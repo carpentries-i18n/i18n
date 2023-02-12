@@ -1,0 +1,825 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Monica Limachi <dolce.monikita@gmail.com>, 2020
+# David PS <dps.helio@gmail.com>, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: David PS <dps.helio@gmail.com>, 2021\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/09-plotting.md:1
+msgid ""
+"---\n"
+"title: \"Plotting\"\n"
+"teaching: 15\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How can I plot my data?\"\n"
+"- \"How can I save my plot for publishing?\"\n"
+"objectives:\n"
+"- \"Create a time series plot showing a single data set.\"\n"
+"- \"Create a scatter plot showing relationship between two data sets.\"\n"
+"keypoints:\n"
+"- \"[`matplotlib`](https://matplotlib.org/) is the most widely used scientific plotting library in Python.\"\n"
+"- \"Plot data directly from a Pandas dataframe.\"\n"
+"- \"Select and transform data, then plot it.\"\n"
+"- \"Many styles of plot are available: see the [Python Graph Gallery](https://python-graph-gallery.com/matplotlib/) for more options.\"\n"
+"- \"Can plot many sets of data together.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Visualizando\"\n"
+"teaching: 15\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"¿Cómo puedo graficar mis datos?\"\n"
+"- \"¿Cómo puedo guardar mi gráfico para publicarlo?\"\n"
+"objectives:\n"
+"- \"Crear un gráfico de serie temporal que muestre un único conjunto de datos.\"\n"
+"- \"Crear un gráfico de dispersión que muestre la relación entre dos conjuntos de datos.\"\n"
+"keypoints:\n"
+"- \"[`matplotlib`](https://matplotlib.org/) es la biblioteca de generación de gráficos científicos más utilizada en Python.\"\n"
+"- \"Grafica datos directamente desde un **dataframe** de Pandas.\"\n"
+"- \"Selecciona y transforma datos, luego grafícalos.\"\n"
+"- \"Muchos estilos de gráfico están disponibles: ve la [Galería de Gráficos de Python](https://python-graph-gallery.com/matplotlib/) para más opciones.\"\n"
+"- \"Puedes graficar muchos conjuntos de datos juntos.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/09-plotting.md:18
+msgid ""
+"## [`matplotlib`](https://matplotlib.org/) is the most widely used "
+"scientific plotting library in Python."
+msgstr ""
+"## [`matplotlib`](https://matplotlib.org/) es la biblioteca de graficado "
+"científico más utilizada en Python."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:20
+msgid ""
+"*   Commonly use a sub-library called "
+"[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
+msgstr ""
+"* Comúnmente usa una sub-biblioteca llamada "
+"[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:21
+msgid ""
+"*   The Jupyter Notebook will render plots inline if we ask it to using a "
+"\"magic\" command."
+msgstr ""
+"* Jupyter Notebook insertará los gráficos en el cuaderno si lo pedimos "
+"usando un comando \"mágico\"."
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:23
+msgid ""
+"~~~\n"
+"%matplotlib inline\n"
+"import matplotlib.pyplot as plt\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"%matplotlib inline\n"
+"import matplotlib.pyplot as plt\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:29
+msgid "*   Simple plots are then (fairly) simple to create."
+msgstr "* Gráficas simples son entonces (bastante) simples de crear."
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:31
+msgid ""
+"~~~\n"
+"time = [0, 1, 2, 3]\n"
+"position = [0, 100, 200, 300]\n"
+"\n"
+"plt.plot(time, position)\n"
+"plt.xlabel('Time (hr)')\n"
+"plt.ylabel('Position (km)')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"time = [0, 1, 2, 3]\n"
+"position = [0, 100, 200, 300]\n"
+"\n"
+"plt.plot(time, position)\n"
+"plt.xlabel('Time (hr)')\n"
+"plt.ylabel('Position (km)')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:41
+msgid ""
+"![Simple Position-Time Plot](../fig/9_simple_position_time_plot.svg)\n"
+"## Plot data directly from a [`Pandas dataframe`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)."
+msgstr ""
+"![Gráfica simple de Posición-Tiempo]({{ site.baseurl }}/fig/9_simple_position_time_plot.svg)\n"
+"## Graficar datos directamente desde un [`dataframe` de Pandas](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:44
+msgid ""
+"*   We can also plot [Pandas dataframes](https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.DataFrame.html)."
+msgstr ""
+"* También podemos graficar [marcos de datos de "
+"Pandas](https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.DataFrame.html)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:45
+msgid ""
+"*   This implicitly uses "
+"[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
+msgstr ""
+"* Esto usa implicitamente "
+"[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:46
+msgid ""
+"*   Before plotting, we convert the column headings from a `string` to "
+"`integer` data type, since they represent numerical values"
+msgstr ""
+"* Antes de graficar, convertimos las cabeceras de las columnas de una cadena"
+" a un tipo de dato entero, siendo que ellos representan valores numéricos."
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:48
+msgid ""
+"~~~\n"
+"import pandas as pd\n"
+"\n"
+"data = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col='country')\n"
+"\n"
+"# Extract year from last 4 characters of each column name\n"
+"# The current column names are structured as 'gdpPercap_(year)', \n"
+"# so we want to keep the (year) part only for clarity when plotting GDP vs. years\n"
+"# To do this we use strip(), which removes from the string the characters stated in the argument\n"
+"# This method works on strings, so we call str before strip()\n"
+"\n"
+"years = data.columns.str.strip('gdpPercap_')\n"
+"\n"
+"# Convert year values to integers, saving results back to dataframe\n"
+"\n"
+"data.columns = years.astype(int)\n"
+"\n"
+"data.loc['Australia'].plot()\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"import pandas as pd\n"
+"\n"
+"data = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col='country')\n"
+"\n"
+"# Extraer el año de los 4 últimos caracteres de cada nombre de columna\n"
+"# Los nombres de columna actuales están estructurados como 'gdpPercap_(year)', \n"
+"# Entonces queremos mantener la parte del año (year) solo para claridad cuando grafiquemos PIB vs. años\n"
+"# Para hacer esto, usamos strip(), el cual remueve de la cadena los caracteres declarados en el argumento \n"
+"# Este método funciona en cadenas, entonces llamamos str antes de strip()\n"
+"years = data.columns.str.strip('gdpPercap_')\n"
+"\n"
+"# Convertir los valores del año a enteros, guardando los resultados nuevamente en el marco de datos. \n"
+"\n"
+"data.columns = years.astype(int)\n"
+"\n"
+"data.loc['Australia'].plot()\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:69
+msgid ""
+"![GDP plot for Australia](../fig/9_gdp_australia.svg)\n"
+"## Select and transform data, then plot it."
+msgstr ""
+"![Gráfico del PIB de Australia]({{ site.baseurl }}/fig/9_gdp_australia.svg)\n"
+"## Selecciona y transforma los datos, luego lo graficas."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:72
+msgid ""
+"*   By default, [`DataFrame.plot`](https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.DataFrame.plot.html#pandas.DataFrame.plot) "
+"plots with the rows as the X axis."
+msgstr ""
+"*   Por defecto, [`DataFrame.plot`](https://pandas.pydata.org/pandas-"
+"docs/stable/generated/pandas.DataFrame.plot.html#pandas.DataFrame.plot) "
+"grafica con las filas como el eje X ."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:73
+msgid "*   We can transpose the data in order to plot multiple series."
+msgstr "*   Podemos transponer los datos para graficar multiples series."
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:75
+msgid ""
+"~~~\n"
+"data.T.plot()\n"
+"plt.ylabel('GDP per capita')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"data.T.plot()\n"
+"plt.ylabel('PIB per capita')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:81
+msgid ""
+"![GDP plot for Australia and New Zealand](../fig/9_gdp_australia_nz.svg)\n"
+"## Many styles of plot are available."
+msgstr ""
+"![Gráfico del PIB de Australia y Nueva Zelanda]({{ site.baseurl }}/fig/9_gdp_australia_nz.svg)\n"
+"## Varios estilos de gráficos están disponibles."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:84
+msgid "*   For example, do a bar plot using a fancier style."
+msgstr ""
+"*   Por ejemplo, hacer un diagrama de barras usando un estilo mas elegante."
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:86
+msgid ""
+"~~~\n"
+"plt.style.use('ggplot')\n"
+"data.T.plot(kind='bar')\n"
+"plt.ylabel('GDP per capita')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"plt.style.use('ggplot')\n"
+"data.T.plot(kind='bar')\n"
+"plt.ylabel('GDP per capita')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:93
+msgid "![GDP barplot for Australia](../fig/9_gdp_bar.svg)"
+msgstr ""
+"![Diagrama de barras del PIB de Australia]({{ site.baseurl "
+"}}/fig/9_gdp_bar.svg)"
+
+# header
+#: python-novice-gapminder/_episodes/09-plotting.md:95
+msgid ""
+"## Data can also be plotted by calling the `matplotlib` `plot` function "
+"directly."
+msgstr ""
+"## Los datos pueden ser también graficados llamando a la función `plot` de "
+"`matplotlib`  directamente."
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:96
+msgid "*   The command is `plt.plot(x, y)`"
+msgstr "*   El comando es `plt.plot(x, y)`"
+
+# unordered list
+#: python-novice-gapminder/_episodes/09-plotting.md:97
+msgid ""
+"*   The color / format of markers can also be specified as an optical "
+"argument: e.g. 'b-' is a blue line, 'g--' is a green dashed line."
+msgstr ""
+"*   El color / formato de los marcadores también pueden ser especificados "
+"como un argumento óptico: ejemplo. 'b-' es una linea azul, 'g--' es una "
+"linea verde discontinua. "
+
+# header
+#: python-novice-gapminder/_episodes/09-plotting.md:99
+msgid "## Get Australia data from dataframe"
+msgstr "## Obtener datos de Australia desde el marco de datos"
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:101
+msgid ""
+"~~~\n"
+"years = data.columns\n"
+"gdp_australia = data.loc['Australia']\n"
+"\n"
+"plt.plot(years, gdp_australia, 'g--')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"years = data.columns\n"
+"gdp_australia = data.loc['Australia']\n"
+"\n"
+"plt.plot(years, gdp_australia, 'g--')\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:109
+msgid ""
+"![GDP formatted plot for Australia](../fig/9_gdp_australia_formatted.svg)"
+msgstr ""
+"![Gráfico formateado del PIB para Australia]({{ site.baseurl "
+"}}/fig/9_gdp_australia_formatted.svg)"
+
+# header
+#: python-novice-gapminder/_episodes/09-plotting.md:111
+msgid "## Can plot many sets of data together."
+msgstr "## Se puede trazar varios conjuntos de datos juntos."
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:113
+msgid ""
+"~~~\n"
+"# Select two countries' worth of data.\n"
+"gdp_australia = data.loc['Australia']\n"
+"gdp_nz = data.loc['New Zealand']\n"
+"\n"
+"# Plot with differently-colored markers.\n"
+"plt.plot(years, gdp_australia, 'b-', label='Australia')\n"
+"plt.plot(years, gdp_nz, 'g-', label='New Zealand')\n"
+"\n"
+"# Create legend.\n"
+"plt.legend(loc='upper left')\n"
+"plt.xlabel('Year')\n"
+"plt.ylabel('GDP per capita ($)')\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"# Selecciona el valor de los datos de dos países.\n"
+"gdp_australia = data.loc['Australia']\n"
+"gdp_nz = data.loc['New Zealand']\n"
+"\n"
+"# Grafica con marcadores de diferentes colores.\n"
+"plt.plot(years, gdp_australia, 'b-', label='Australia')\n"
+"plt.plot(years, gdp_nz, 'g-', label='New Zealand')\n"
+"\n"
+"# Crea leyenda\n"
+"plt.legend(loc='upper left')\n"
+"plt.xlabel('Year')\n"
+"plt.ylabel('GDP per capita ($)')\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:129
+msgid "> ## Adding a Legend"
+msgstr "> ## Añadiendo una leyenda"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:131
+msgid ""
+"> Often when plotting multiple datasets on the same figure it is desirable "
+"to have "
+msgstr ""
+"> A menudo, al trazar múltiples conjuntos de datos en la misma figura, es "
+"deseable tener"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:132
+msgid "> a legend describing the data."
+msgstr "> una leyenda describiendo los datos."
+
+#: python-novice-gapminder/_episodes/09-plotting.md:133
+msgid ""
+">\n"
+"> This can be done in `matplotlib` in two stages:\n"
+"> \n"
+"> * Provide a label for each dataset in the figure:\n"
+">\n"
+"> ~~~\n"
+"> plt.plot(years, gdp_australia, label='Australia')\n"
+"> plt.plot(years, gdp_nz, label='New Zealand')\n"
+"> ~~~\n"
+">\n"
+"> * Instruct `matplotlib` to create the legend.\n"
+">\n"
+"> ~~~\n"
+"> plt.legend()\n"
+"> ~~~\n"
+">\n"
+"> By default matplotlib will attempt to place the legend in a suitable position. If you\n"
+"> would rather specify a position this can be done with the `loc=` argument, e.g to place\n"
+"> the legend in the upper left corner of the plot, specify `loc='upper left'`\n"
+"> {: .language-python}"
+msgstr ""
+">\n"
+"> Esto se puede hacer en `matplotlib` en dos etapas:\n"
+"> \n"
+"> * Provee una etiqueta por cada set de datos en la figura:\n"
+">\n"
+"> ~~~\n"
+"> plt.plot(years, gdp_australia, label='Australia')\n"
+"> plt.plot(years, gdp_nz, label='New Zealand')\n"
+"> ~~~\n"
+">\n"
+"> * Instruye a `matplotlib` para que crea una leyenda.\n"
+">\n"
+"> ~~~\n"
+"> plt.legend()\n"
+"> ~~~\n"
+">\n"
+"> Por defecto matplotlib intentara colocar la leyenda en una posición adecuada. Si\n"
+"> preferirías especificar una posición se podría hacer con el argumento `loc=`, por ejemplo, para colocar\n"
+"> la leyenda en la esquina superior izquierda de la gráfica, se puede especificar `loc='upper left'`\n"
+"> {: .language-python}"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:156
+msgid ""
+"![GDP formatted plot for Australia and New Zealand](../fig/9_gdp_australia_nz_formatted.svg)\n"
+"*   Plot a scatter plot correlating the GDP of Australia and New Zealand\n"
+"*   Use either `plt.scatter` or `DataFrame.plot.scatter`"
+msgstr ""
+"![Gráfica formateada del PIB para Australia y Nueva Zelanda]({{ site.baseurl }}/fig/9_gdp_australia_nz_formatted.svg)\n"
+"* Grafica un diagrama de dispersión que correlacione el PIB de Australia y Nueva Zelanda\n"
+"* Utiliza `plt.scatter` o `DataFrame.plot.scatter`"
+
+# code block
+#: python-novice-gapminder/_episodes/09-plotting.md:160
+msgid ""
+"~~~\n"
+"plt.scatter(gdp_australia, gdp_nz)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"plt.scatter(gdp_australia, gdp_nz)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:165
+msgid ""
+"![GDP correlation using plt.scatter](../fig/9_gdp_correlation_plt.svg)\n"
+"~~~\n"
+"data.T.plot.scatter(x = 'Australia', y = 'New Zealand')\n"
+"~~~\n"
+"{: .language-python}"
+msgstr ""
+"![Correlación del PIB utilizando plt.scatter]({{ site.baseurl }}/fig/9_gdp_correlation_plt.svg)\n"
+"~~~\n"
+"data.T.plot.scatter(x = 'Australia', y = 'New Zealand')\n"
+"~~~\n"
+"{: .language-python}"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:171
+msgid ""
+"![GDP correlation using "
+"data.T.plot.scatter](../fig/9_gdp_correlation_data.svg)"
+msgstr ""
+"![Correlación del PIB utilizando data.T.plot.scatter]({{ site.baseurl "
+"}}/fig/9_gdp_correlation_data.svg)"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:173
+msgid "> ## Minima and Maxima"
+msgstr "> ## Mínimo y Máximo"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:174
+msgid ""
+">\n"
+"> Fill in the blanks below to plot the minimum GDP per capita over time\n"
+"> for all the countries in Europe.\n"
+"> Modify it again to plot the maximum GDP per capita over time for Europe.\n"
+">\n"
+"> ~~~\n"
+"> data_europe = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"> data_europe.____.plot(label='min')\n"
+"> data_europe.____\n"
+"> plt.legend(loc='best')\n"
+"> plt.xticks(rotation=90)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ~~~\n"
+"> > data_europe = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"> > data_europe.min().plot(label='min')\n"
+"> > data_europe.max().plot(label='max')\n"
+"> > plt.legend(loc='best')\n"
+"> > plt.xticks(rotation=90)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ![Minima Maxima Solution](../fig/9_minima_maxima_solution.png)"
+msgstr ""
+">\n"
+"> Completa los espacios en blanco a continuación para graficar el PIB mínimo per cápita a lo largo del tiempo\n"
+"> para todos los países en Europa.\n"
+"> Modificalo de nuevo para graficar el PIB máximo per cápita a lo largo del tiempo para Europa.\n"
+">\n"
+"> ~~~\n"
+"> data_europe = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"> data_europe.____.plot(label='min')\n"
+"> data_europe.____\n"
+"> plt.legend(loc='best')\n"
+"> plt.xticks(rotation=90)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solución\n"
+"> >\n"
+"> > ~~~\n"
+"> > data_europe = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')\n"
+"> > data_europe.min().plot(label='min')\n"
+"> > data_europe.max().plot(label='max')\n"
+"> > plt.legend(loc='best')\n"
+"> > plt.xticks(rotation=90)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ![Minima Maxima Solución]({{ site.basurl }}/fig/9_minima_maxima_solution.png)"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:202
+msgid "> ## Correlations"
+msgstr "> ## Correlaciones"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:203
+msgid ""
+">\n"
+"> Modify the example in the notes to create a scatter plot showing\n"
+"> the relationship between the minimum and maximum GDP per capita\n"
+"> among the countries in Asia for each year in the data set.\n"
+"> What relationship do you see (if any)?\n"
+">\n"
+"> ~~~\n"
+"> data_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col='country')\n"
+"> data_asia.describe().T.plot(kind='scatter', x='min', y='max')\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > ![Correlations Solution 1](../fig/9_correlations_solution1.svg)\n"
+"> >\n"
+"> > No particular correlations can be seen between the minimum and maximum gdp values\n"
+"> > year on year. It seems the fortunes of asian countries do not rise and fall together."
+msgstr ""
+">\n"
+"> Modifica el ejemplo en las notas para crear un diagrama de dispersión que muestre\n"
+"> la relación entre el PIB mínimo y máximo per cápita\n"
+"> entre los países de Asia por cada año en el conjunto de datos.\n"
+"> ¿Qué relación se ve (si es que existe)?\n"
+">\n"
+"> ~~~\n"
+"> data_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col='country')\n"
+"> data_asia.describe().T.plot(kind='scatter', x='min', y='max')\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> > ## Solución\n"
+"> >\n"
+"> > ![Correlaciones Solución 1]({{ site.baseurl }}/fig/9_correlations_solution1.svg)\n"
+"> >\n"
+"> > No se pueden ver correlaciones particulares entre los valores mínimos y máximos de PIB\n"
+"> > año a año. Parece que las fortunas de los países asiáticos no suben ni bajan juntas."
+
+#: python-novice-gapminder/_episodes/09-plotting.md:222
+msgid ""
+">\n"
+"> You might note that the variability in the maximum is much higher than\n"
+"> that of the minimum.  Take a look at the maximum and the max indexes:\n"
+">\n"
+"> ~~~\n"
+"> data_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col='country')\n"
+"> data_asia.max().plot()\n"
+"> print(data_asia.idxmax())\n"
+"> print(data_asia.idxmin())\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solution\n"
+"> > ![Correlations Solution 2](../fig/9_correlations_solution2.png)\n"
+"> >\n"
+"> > Seems the variability in this value is due to a sharp drop after 1972.\n"
+"> > Some geopolitics at play perhaps? Given the dominance of oil producing countries,\n"
+"> > maybe the Brent crude index would make an interesting comparison?\n"
+"> > Whilst Myanmar consistently has the lowest gdp, the highest gdb nation has varied\n"
+"> > more notably."
+msgstr ""
+">\n"
+"> Puedes notar que la variabilidad en el máximo es mucho mayor que\n"
+"> la del mínimo. Dale una mirada a los índices maximos y max:\n"
+">\n"
+"> ~~~\n"
+"> data_asia = pd.read_csv('data/gapminder_gdp_asia.csv', index_col='country')\n"
+"> data_asia.max().plot()\n"
+"> print(data_asia.idxmax())\n"
+"> print(data_asia.idxmin())\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> > ## Solución\n"
+"> > ![Correlaciones Solución 2]({{ site.baseurl }}/fig/9_correlations_solution2.png)\n"
+"> >\n"
+"> > Parece que la variabilidad en este valor se debe a una fuerte caída después de 1972.\n"
+"> > ¿Alguna geopolítica en juego quizás? Dado el dominio de los países productores de petróleo,\n"
+"> > tal vez el índice de crudo Brent haría una comparación interesante?\n"
+"> > Mientras que Myanmar tiene consistentemente el pib más bajo, la nación con el pib más alto ha variado\n"
+"> > más notablemente."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:244
+msgid "> ## More Correlations"
+msgstr "> ## Más Correlaciones"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:245
+msgid ""
+">\n"
+"> This short program creates a plot showing\n"
+"> the correlation between GDP and life expectancy for 2007,\n"
+"> normalizing marker size by population:\n"
+">\n"
+"> ~~~\n"
+"> data_all = pd.read_csv('data/gapminder_all.csv', index_col='country')\n"
+"> data_all.plot(kind='scatter', x='gdpPercap_2007', y='lifeExp_2007',\n"
+">               s=data_all['pop_2007']/1e6)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> Using online help and other resources,\n"
+"> explain what each argument to `plot` does.\n"
+">\n"
+"> > ## Solution\n"
+"> > ![More Correlations Solution](../fig/9_more_correlations_solution.svg)\n"
+"> >\n"
+"> > A good place to look is the documentation for the plot function -\n"
+"> > help(data_all.plot).\n"
+"> >\n"
+"> > kind - As seen already this determines the kind of plot to be drawn.\n"
+"> >\n"
+"> > x and y - A column name or index that determines what data will be\n"
+"> > placed on the x and y axes of the plot\n"
+"> >\n"
+"> > s - Details for this can be found in the documentation of plt.scatter.\n"
+"> > A single number or one value for each data point. Determines the size\n"
+"> > of the plotted points."
+msgstr ""
+">set\n"
+"> Este breve programa crea un grsetáfico que muestra\n"
+"> la correlación entre el PIB y la esperanza de vida para 2007,\n"
+"> normalizando el tamaño del marcador por población:\n"
+">\n"
+"> ~~~\n"
+"> data_all = pd.read_csv('data/gapminder_all.csv', index_col='country')\n"
+"> data_all.plot(kind='scatter', x='gdpPercap_2007', y='lifeExp_2007',\n"
+">               s=data_all['pop_2007']/1e6)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> Usando ayuda en línea y otros recursos,\n"
+"> explica lo que hace cada argumento para `plot`.\n"
+">\n"
+"> > ## Solución\n"
+"> > ![Solución de Más Correlaciones]({{ site.baseurl }}/fig/9_more_correlations_solution.svg)\n"
+"> >\n"
+"> > Un buen lugar para buscar es la documentación para la función plot -\n"
+"> > help(data_all.plot).\n"
+"> >\n"
+"> > kind - Como ya se ha visto, esto determina el tipo de gráfico que se dibujará.\n"
+"> >\n"
+"> > \"x\" e \"y\" - Un nombre de columna o índice que determina qué datos serán\n"
+"> > colocado en los ejes x e y del gráfico\n"
+"> >\n"
+"> > s - Los detalles para esto se pueden encontrar en la documentación de plt.scatter.\n"
+"> > Un solo número o un valor para cada punto de datos. Determina el tamaño\n"
+"> > de los puntos graficados."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:277
+msgid "> ## Saving your plot to a file"
+msgstr "> ## Guardando tu gráfico en un archivo"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:279
+msgid ""
+"> If you are satisfied with the plot you see you may want to save it to a "
+"file,"
+msgstr ""
+"> Si estás satisfecho con el gráfico que se ve, es posible que desees "
+"guardarlo en un archivo,"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:280
+msgid "> perhaps to include it in a publication. There is a function in the"
+msgstr "> quizás para incluirlo en una publicación. Hay una función en el"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:281
+msgid "> matplotlib.pyplot module that accomplishes this:"
+msgstr "> módulo matplotlib.pyplot que cumple con esto:"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:282
+msgid ""
+"> "
+"[savefig](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.savefig.html)."
+msgstr ""
+"> "
+"[savefig](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.savefig.html)."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:283
+msgid "> Calling this function, e.g. with"
+msgstr "> Llamando a esta función, por ejemplo con"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:284
+#: python-novice-gapminder/_episodes/09-plotting.md:286
+msgid "> ~~~"
+msgstr "> ~~~"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:285
+msgid "> plt.savefig('my_figure.png')"
+msgstr "> plt.savefig('my_figure.png')"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:287
+msgid "> {: .language-python}"
+msgstr "> {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:289
+msgid ""
+"> will save the current figure to the file `my_figure.png`. The file format"
+msgstr ""
+"> guardará la figura actual en el archivo `my_figure.png`. El formato de "
+"archivo"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:290
+msgid ""
+"> will automatically be deduced from the file name extension (other formats"
+msgstr ""
+"> se deducirá automáticamente de la extensión del nombre del archivo (otros "
+"formatos"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:291
+msgid "> are pdf, ps, eps and svg)."
+msgstr "> son pdf, ps, eps y svg)."
+
+#: python-novice-gapminder/_episodes/09-plotting.md:292
+msgid ""
+">\n"
+"> Note that functions in `plt` refer to a global figure variable\n"
+"> and after a figure has been displayed to the screen (e.g. with `plt.show`) \n"
+"> matplotlib will make this  variable refer to a new empty figure.\n"
+"> Therefore, make sure you call `plt.savefig` before the plot is displayed to\n"
+"> the screen, otherwise you may find a file with an empty plot.\n"
+">\n"
+"> When using dataframes, data is often generated and plotted to screen in one line,\n"
+"> and `plt.savefig` seems not to be a possible approach.\n"
+"> One possibility to save the figure to file is then to\n"
+">\n"
+"> * save a reference to the current figure in a local variable (with `plt.gcf`) \n"
+"> * call the `savefig` class method from that variable.\n"
+">\n"
+"> ~~~\n"
+"> fig = plt.gcf() # get current figure\n"
+"> data.plot(kind='bar')\n"
+"> fig.savefig('my_figure.png')\n"
+"> ~~~\n"
+"> {: .language-python}"
+msgstr ""
+">\n"
+"> Ten en cuenta que las funciones en `plt` se refieren a una variable de figura global\n"
+"> y después de que se haya mostrado una figura en la pantalla (por ejemplo, con `plt.show`)\n"
+"> matplotlib hará que esta variable se referencie a una nueva figura vacía.\n"
+"> Por lo tanto, asegúrate de llamar a `plt.savefig` antes de mostrar el grafico por\n"
+"> pantalla, de lo contrario, puedes encontrar un archivo con un gráfico vacío.\n"
+">\n"
+"> Cuando se usan marcos de datos, los datos a menudo se generan y se grafican en la pantalla en una línea,\n"
+"> y `plt.savefig` no parece ser una método posible.\n"
+"> Una posibilidad para guardar la figura en el archivo es entonces\n"
+">\n"
+"> * guardar una referencia a la figura actual en una variable local (con `plt.gcf`) \n"
+"> * llamar al método de la clase `savefig` desde esa variable\n"
+">\n"
+"> ~~~\n"
+"> fig = plt.gcf() # Obten la figura actual\n"
+"> data.plot(kind='bar')\n"
+"> fig.savefig('my_figure.png')\n"
+"> ~~~\n"
+"> {: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/09-plotting.md:314
+msgid "> ## Making your plots accessible"
+msgstr "> ## Hacer tus gráficas accesibles"
+
+#: python-novice-gapminder/_episodes/09-plotting.md:315
+msgid ""
+">\n"
+"> Whenever you are generating plots to go into a paper or a presentation, there are a few things you can do to make sure that everyone can understand your plots.\n"
+"> * Always make sure your text is large enough to read. Use the `fontsize` parameter in `xlabel`, `ylabel`, `title`, and `legend`, and [`tick_params` with `labelsize`](https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.tick_params.html) to increase the text size of the numbers on your axes.\n"
+"> * Similarly, you should make your graph elements easy to see. Use `s` to increase the size of your scatterplot markers and `linewidth` to increase the sizes of your plot lines.\n"
+"> * Using color (and nothing else) to distinguish between different plot elements will make your plots unreadable to anyone who is colorblind, or who happens to have a black-and-white office printer. For lines, the `linestyle` parameter lets you use different types of lines. For scatterplots, `marker` lets you change the shape of your points. If you're unsure about your colors, you can use [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) or [Color Oracle](https://colororacle.org/) to simulate what your plots would look like to those with colorblindness."
+msgstr ""
+">\n"
+"> Siempre que estes generando gráficos que van en un documento o una presentación, hay algunas cosas que puedes hacer para asegurarte de que todos puedan entender tus diagramas\n"
+"> * Siempre asegúrate de que tu texto es lo suficientemente grande para leerlo. Usa el parámetro `fontsize` en `xlabel`, `ylabel`, `title`, y `legend`, y [`tick_params` con `labelsize`](https://matplotlib.org/2.1.1/api/_as_gen/matplotlib.pyplot.tick_params.html) para aumentar el tamaño del texto de los números en sus ejes.\n"
+"> * Del mismo modo, debes hacer que los elementos de tus gráficos sean fáciles de ver. Usa `s` para aumentar el tamaño de los marcadores de tu diagrama de dispersión y `linewidth` para aumentar el tamaño de las líneas del trazado.\n"
+"> * Usar colores (y nada más) para distinguir entre diferentes elementos del gráfico hará que los trazados sean ilegibles para cualquier persona daltónica o que tenga una impresora en blanco y negro. Para líneas, el parámetro `linestyle` permite utilizar diferentes tipos de líneas. Para diagramas de dispersión, `marker` permite cambiar la forma de los puntos. Si no estás seguro acerca de tus colores, puede usar [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/) o [Color Oracle](https://colororacle.org/) para simular cómo se verían tus gráficos para aquellos con daltonismo."

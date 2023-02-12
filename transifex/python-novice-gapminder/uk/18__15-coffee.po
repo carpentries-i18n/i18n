@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Марина Новожилова, 2022
+# Olexandr Konovalov, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Olexandr Konovalov, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/15-coffee.md:1
+msgid ""
+"---\n"
+"layout: break\n"
+"title: \"Afternoon Coffee\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 15\n"
+"---"
+msgstr ""
+"---\n"
+"layout: break\n"
+"title: \"Післяобідня кава\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 15\n"
+"---"
+
+#: python-novice-gapminder/_episodes/15-coffee.md:10
+msgid ""
+"Over break, reflect on and discuss the following:\n"
+"* A common refrain in software engineering is \"Don't Repeat Yourself\". How do the techniques we've learned in the last\n"
+"lessons help us avoid repeating ourselves? _note that in practice there is some nuance to this and should be balanced\n"
+"with doing the simplest thing that could possibly work_\n"
+"* What are the pros / cons of making a variable global or local to a function? \n"
+"* When would you consider turning a block of code into a function definition?"
+msgstr ""
+"Під час перерви поміркуйте та обговоріть наступне:\n"
+"* Загальний приспів у розробці програмного забезпечення: «Не повторюйся\". Як  техніки, які ми вивчали на попередньому\n"
+"занятті, допомагають нам не повторюватися? _зауважте, що на практиці в цьому є певний нюанс, який слід збалансувати\n"
+"роблячи найпростішу річ, яка може спрацювати_\n"
+"* Які плюси/мінуси створення глобальної чи локальної змінної для функції? \n"
+"* В якому випадку є сенс перетворення блокк коду на визначення функції?"

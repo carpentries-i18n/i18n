@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# David Perez-Suarez <dps.helio@gmail.com>, 2018.
+# David Perez-Suarez <dps.helio@gmail.com>, 2018, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2018-08-18 17:46:58+0100\n"
-"PO-Revision-Date: 2018-08-18 20:47+0100\n"
+"PO-Revision-Date: 2022-11-26 20:20+0000\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/15-coffee.md:1
+# Front Matter
+msgid "---\n"
+"layout: break\n"
+"title: \"Afternoon Coffee\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 15\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/15-coffee.md:10
+msgid "Over break, reflect on and discuss the following:\n"
+"* A common refrain in software engineering is \"Don't Repeat Yourself\". How do the techniques we've learned in the last\n"
+"lessons help us avoid repeating ourselves? _note that in practice there is some nuance to this and should be balanced\n"
+"with doing the simplest thing that could possibly work_\n"
+"* What are the pros / cons of making a variable global or local to a function? \n"
+"* When would you consider turning a block of code into a function definition?"
+msgstr ""
+

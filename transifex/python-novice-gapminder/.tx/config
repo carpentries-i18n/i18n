@@ -1,0 +1,207 @@
+[main]
+host = https://www.transifex.com
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_00__CODE_OF_CONDUCT]
+file_filter = <lang>/00__CODE_OF_CONDUCT.po
+source_file = pot/00__CODE_OF_CONDUCT.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_01__CONTRIBUTING]
+file_filter = <lang>/01__CONTRIBUTING.po
+source_file = pot/01__CONTRIBUTING.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_02__LICENSE]
+file_filter = <lang>/02__LICENSE.po
+source_file = pot/02__LICENSE.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_03__README]
+file_filter = <lang>/03__README.po
+source_file = pot/03__README.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_04__01-run-quit]
+file_filter = <lang>/04__01-run-quit.po
+source_file = pot/04__01-run-quit.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_05__02-variables]
+file_filter = <lang>/05__02-variables.po
+source_file = pot/05__02-variables.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_06__03-types-conversion]
+file_filter = <lang>/06__03-types-conversion.po
+source_file = pot/06__03-types-conversion.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_07__04-built-in]
+file_filter = <lang>/07__04-built-in.po
+source_file = pot/07__04-built-in.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_08__05-coffee]
+file_filter = <lang>/08__05-coffee.po
+source_file = pot/08__05-coffee.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_09__06-libraries]
+file_filter = <lang>/09__06-libraries.po
+source_file = pot/09__06-libraries.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_10__07-reading-tabular]
+file_filter = <lang>/10__07-reading-tabular.po
+source_file = pot/10__07-reading-tabular.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_11__08-data-frames]
+file_filter = <lang>/11__08-data-frames.po
+source_file = pot/11__08-data-frames.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_12__09-plotting]
+file_filter = <lang>/12__09-plotting.po
+source_file = pot/12__09-plotting.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_13__10-lunch]
+file_filter = <lang>/13__10-lunch.po
+source_file = pot/13__10-lunch.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_14__11-lists]
+file_filter = <lang>/14__11-lists.po
+source_file = pot/14__11-lists.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_15__12-for-loops]
+file_filter = <lang>/15__12-for-loops.po
+source_file = pot/15__12-for-loops.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_16__13-conditionals]
+file_filter = <lang>/16__13-conditionals.po
+source_file = pot/16__13-conditionals.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_17__14-looping-data-sets]
+file_filter = <lang>/17__14-looping-data-sets.po
+source_file = pot/17__14-looping-data-sets.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_18__15-coffee]
+file_filter = <lang>/18__15-coffee.po
+source_file = pot/18__15-coffee.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_19__16-writing-functions]
+file_filter = <lang>/19__16-writing-functions.po
+source_file = pot/19__16-writing-functions.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_20__17-scope]
+file_filter = <lang>/20__17-scope.po
+source_file = pot/20__17-scope.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_21__18-style]
+file_filter = <lang>/21__18-style.po
+source_file = pot/21__18-style.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_22__19-wrap]
+file_filter = <lang>/22__19-wrap.po
+source_file = pot/22__19-wrap.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_23__20-feedback]
+file_filter = <lang>/23__20-feedback.po
+source_file = pot/23__20-feedback.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_24__about]
+file_filter = <lang>/24__about.po
+source_file = pot/24__about.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_25__design]
+file_filter = <lang>/25__design.po
+source_file = pot/25__design.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_26__discuss]
+file_filter = <lang>/26__discuss.po
+source_file = pot/26__discuss.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_27__exercises]
+file_filter = <lang>/27__exercises.po
+source_file = pot/27__exercises.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_28__figures]
+file_filter = <lang>/28__figures.po
+source_file = pot/28__figures.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_29__guide]
+file_filter = <lang>/29__guide.po
+source_file = pot/29__guide.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_30__aio]
+file_filter = <lang>/30__aio.po
+source_file = pot/30__aio.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_31__index]
+file_filter = <lang>/31__index.po
+source_file = pot/31__index.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_32__reference]
+file_filter = <lang>/32__reference.po
+source_file = pot/32__reference.md.pot
+source_lang = en
+type        = PO
+
+[o:carpentries-i18n:p:python-novice-gapminder:r:pot_33__setup]
+file_filter = <lang>/33__setup.po
+source_file = pot/33__setup.md.pot
+source_lang = en
+type        = PO
+

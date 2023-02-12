@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Марина Новожилова, 2022
+# Olexandr Konovalov, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Olexandr Konovalov, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/10-lunch.md:1
+msgid ""
+"---\n"
+"layout: break\n"
+"title: \"Lunch\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 45\n"
+"---"
+msgstr ""
+"---\n"
+"layout: break\n"
+"title: \"Ланч\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 45\n"
+"---"
+
+#: python-novice-gapminder/_episodes/10-lunch.md:8
+msgid ""
+"Over lunch, reflect on and discuss the following:\n"
+"* What sort of packages might you use in Python and why would you use them?\n"
+"* How would data need to be formatted to be used in Pandas data frames? Would the data you have meet these requirements?\n"
+"* What limitations or problems might you run into when thinking about how to apply what we've learned to your own projects or data?"
+msgstr ""
+"Під час обіду поміркуйте та обговоріть наступне:\n"
+"* Які типи пакетів ви можете використовувати в Python і чому ви їх використовуєте?\n"
+"* Як мають бути відформатовані дані, щоб використовувати їх у фреймах даних Pandas? Чи відповідатимуть ваші дані цим вимогам?\n"
+"* З якими обмеженнями або проблемами ви можете зіткнутися, коли думаєте про те, як застосувати те, що ми дізналися, до ваших власних проектів або даних?"

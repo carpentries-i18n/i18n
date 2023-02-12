@@ -19,3 +19,6 @@
 [submodule "lc-open-refine"]
 	url = https://github.com/carpentries-i18n/lc-open-refine.git
 	path = lc-open-refine
+[submodule "python-novice-gapminder"]
+	url = https://github.com/carpentries-i18n/python-novice-gapminder.git
+	path = python-novice-gapminder

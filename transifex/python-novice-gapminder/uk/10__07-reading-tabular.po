@@ -1,0 +1,999 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Марина Новожилова, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: 2020-05-24 19:14+0000\n"
+"Last-Translator: Марина Новожилова, 2022\n"
+"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:1
+msgid ""
+"---\n"
+"title: \"Reading Tabular Data into DataFrames\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I read tabular data?\"\n"
+"objectives:\n"
+"- \"Import the Pandas library.\"\n"
+"- \"Use Pandas to load a simple CSV data set.\"\n"
+"- \"Get some basic information about a Pandas DataFrame.\"\n"
+"keypoints:\n"
+"- \"Use the Pandas library to get basic statistics out of tabular data.\"\n"
+"- \"Use `index_col` to specify that a column's values should be used as row headings.\"\n"
+"- \"Use `DataFrame.info` to find out more about a dataframe.\"\n"
+"- \"The `DataFrame.columns` variable stores information about the dataframe's columns.\"\n"
+"- \"Use `DataFrame.T` to transpose a dataframe.\"\n"
+"- \"Use `DataFrame.describe` to get summary statistics about data.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Читання табличних даних у DataFrames\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Як я можу читати табличні дані?\"\n"
+"objectives:\n"
+"- \"Імпортувати бібліотеку Pandas\"\n"
+"- \"Використати Pandas для завантаження простого набору даних CSV.\"\n"
+"- \"Отримати базову інформацію про Pandas DataFrame.\"\n"
+"keypoints:\n"
+"- \"Використовуйте бібліотеку Pandas, щоб отримати базову статистику з табличних даних.\"\n"
+"- \"Використовуйте `index_col`, щоб вказати, що значення стовпця мають використовуватися як заголовки рядків.\"\n"
+"- \"Використовуйте `DataFrame.info`, щоб дізнатися більше про фрейм даних.\"\n"
+"- \"Змінна `DataFrame.columns` зберігає інформацію про стовпці фрейму даних.\"\n"
+"- \"Використовуйте `DataFrame.T`, щоб транспортувати фрейм даних.\"\n"
+"- \"Використовуйте `DataFrame.describe`, щоб отримати підсумкову статистику даних.\"\n"
+"---"
+
+# header
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:19
+msgid "## Use the Pandas library to do statistics on tabular data."
+msgstr ""
+"## Використовуйте бібліотеку Pandas, щоб отримати статистику з табличних "
+"даних."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:21
+msgid ""
+"*   Pandas is a widely-used Python library for statistics, particularly on "
+"tabular data."
+msgstr ""
+"*   Pandas — це бібліотека Python, яка  широко використовується для "
+"статистики, зокрема на основі табличних даних."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:22
+msgid "*   Borrows many features from R's dataframes."
+msgstr "*   Ця бібліотека запозичує багато функцій з фреймів даних мови R."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:23
+msgid "    *   A 2-dimensional table whose columns have names"
+msgstr "    *   Фрейм — це двовимірна таблиця, стовпці якої мають імена"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:24
+msgid ""
+"        and potentially have different data types.\n"
+"*   Load it with `import pandas as pd`. The alias pd is commonly used for Pandas.\n"
+"*   Read a Comma Separate Values (CSV) data file with `pd.read_csv`.\n"
+"    *   Argument is the name of the file to be read.\n"
+"    *   Assign result to a variable to store the data that was read."
+msgstr ""
+"        і потенційно мають різні типи даних.\n"
+"*   Завантажте цю бібліотеку за допомогою `import pandas as pd`. Псевдонім pd зазвичай використовується для Pandas.\n"
+"*   Читайте файл даних із роздільними комами (Comma Separate Values - CSV) за допомогою `pd.read_csv`.\n"
+"    *   Аргумент — це ім'я файлу, який потрібно прочитати.\n"
+"    *   Призначте результат змінній для збереження даних, які були прочитані."
+
+# code block
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:30
+msgid ""
+"~~~\n"
+"import pandas as pd\n"
+"\n"
+"data = pd.read_csv('data/gapminder_gdp_oceania.csv')\n"
+"print(data)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"import pandas as pd\n"
+"\n"
+"data = pd.read_csv('data/gapminder_gdp_oceania.csv')\n"
+"print(data)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:36
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"       country  gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  \\\n"
+"0    Australia     10039.59564     10949.64959     12217.22686\n"
+"1  New Zealand     10556.57566     12247.39532     13175.67800"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"       country  gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  \\\n"
+"0    Australia     10039.59564     10949.64959     12217.22686\n"
+"1  New Zealand     10556.57566     12247.39532     13175.67800"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:42
+msgid ""
+"   gdpPercap_1967  gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  \\\n"
+"0     14526.12465     16788.62948     18334.19751     19477.00928\n"
+"1     14463.91893     16046.03728     16233.71770     17632.41040"
+msgstr ""
+"   gdpPercap_1967  gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  \\\n"
+"0     14526.12465     16788.62948     18334.19751     19477.00928\n"
+"1     14463.91893     16046.03728     16233.71770     17632.41040"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:46
+msgid ""
+"   gdpPercap_1987  gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  \\\n"
+"0     21888.88903     23424.76683     26997.93657     30687.75473\n"
+"1     19007.19129     18363.32494     21050.41377     23189.80135"
+msgstr ""
+"   gdpPercap_1987  gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  \\\n"
+"0     21888.88903     23424.76683     26997.93657     30687.75473\n"
+"1     19007.19129     18363.32494     21050.41377     23189.80135"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:50
+msgid ""
+"   gdpPercap_2007\n"
+"0     34435.36744\n"
+"1     25185.00911\n"
+"~~~"
+msgstr ""
+"   gdpPercap_2007\n"
+"0     34435.36744\n"
+"1     25185.00911\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:56
+msgid ""
+"*   The columns in a dataframe are the observed variables, and the rows are "
+"the observations."
+msgstr ""
+"*   Стовпці у фреймі даних є змінними у спостереженнях, а рядки – "
+"спостереженнями"
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:57
+msgid ""
+"*   Pandas uses backslash `\\` to show wrapped lines when output is too wide"
+" to fit the screen."
+msgstr ""
+"*   Pandas використовує зворотну скісну риску `\\`, щоб показати перенесення"
+" рядку, коли вивід занадто широкий, щоб поміститися на екран."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:59
+msgid "> ## File Not Found"
+msgstr "> ## Файл не знайдено"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:60
+msgid ""
+">\n"
+"> Our lessons store their data files in a `data` sub-directory,\n"
+"> which is why the path to the file is `data/gapminder_gdp_oceania.csv`.\n"
+"> If you forget to include `data/`,\n"
+"> or if you include it but your copy of the file is somewhere else,\n"
+"> you will get a [runtime error]({{ page.root }}/04-built-in/#runtime-error)\n"
+"> that ends with a line like this:\n"
+">\n"
+"> ~~~\n"
+"> OSError: File b'gapminder_gdp_oceania.csv' does not exist\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Наші уроки зберігають свої файли даних у підкаталозі `data`,\n"
+"> тому шлях до файлу – `data/gapminder_gdp_oceania.csv`.\n"
+"> Якщо ви забули включити `data/`,\n"
+"> або, якщо ви включите його, але ваша копія файлу знаходиться в іншому місці,\n"
+"> ви отримаєте [runtime error]({{ page.root }}/04-built-in/#runtime-error)\n"
+"> який закінчується таким рядком:\n"
+">\n"
+"> ~~~\n"
+"> OSError: File b'gapminder_gdp_oceania.csv' does not exist\n"
+"> ~~~"
+
+# header
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:74
+msgid ""
+"## Use `index_col` to specify that a column's values should be used as row "
+"headings."
+msgstr ""
+"## Використовуйте `index_col`, щоб вказати, що значення стовпця мають "
+"використовуватися як заголовки рядків."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:76
+msgid "*   Row headings are numbers (0 and 1 in this case)."
+msgstr "*  Заголовки рядків є числами (0 і 1 у цьому випадку)."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:77
+msgid "*   Really want to index by country."
+msgstr "*   Насправді краще індексувати за країнами."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:78
+msgid ""
+"*   Pass the name of the column to `read_csv` as its `index_col` parameter "
+"to do this."
+msgstr ""
+"*   Для цього передайте назву стовпця в `read_csv` як його параметр "
+"`index_col`."
+
+# code block
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:80
+msgid ""
+"~~~\n"
+"data = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col='country')\n"
+"print(data)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"data = pd.read_csv('data/gapminder_gdp_oceania.csv', index_col='country')\n"
+"print(data)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:84
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"             gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  gdpPercap_1967  \\\n"
+"country\n"
+"Australia       10039.59564     10949.64959     12217.22686     14526.12465\n"
+"New Zealand     10556.57566     12247.39532     13175.67800     14463.91893"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"             gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  gdpPercap_1967  \\\n"
+"country\n"
+"Australia       10039.59564     10949.64959     12217.22686     14526.12465\n"
+"New Zealand     10556.57566     12247.39532     13175.67800     14463.91893"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:91
+msgid ""
+"             gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  gdpPercap_1987  \\\n"
+"country\n"
+"Australia       16788.62948     18334.19751     19477.00928     21888.88903\n"
+"New Zealand     16046.03728     16233.71770     17632.41040     19007.19129"
+msgstr ""
+"             gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  gdpPercap_1987  \\\n"
+"country\n"
+"Australia       16788.62948     18334.19751     19477.00928     21888.88903\n"
+"New Zealand     16046.03728     16233.71770     17632.41040     19007.19129"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:96
+msgid ""
+"             gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  gdpPercap_2007\n"
+"country\n"
+"Australia       23424.76683     26997.93657     30687.75473     34435.36744\n"
+"New Zealand     18363.32494     21050.41377     23189.80135     25185.00911\n"
+"~~~"
+msgstr ""
+"             gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  gdpPercap_2007\n"
+"country\n"
+"Australia       23424.76683     26997.93657     30687.75473     34435.36744\n"
+"New Zealand     18363.32494     21050.41377     23189.80135     25185.00911\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:103
+msgid "## Use `DataFrame.info` to find out more about a dataframe."
+msgstr ""
+"## Використовуйте `DataFrame.info`, щоб дізнатися більше про фрейми даних."
+
+# code block
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:105
+msgid ""
+"~~~\n"
+"data.info()\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"data.info()\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:108
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"<class 'pandas.core.frame.DataFrame'>\n"
+"Index: 2 entries, Australia to New Zealand\n"
+"Data columns (total 12 columns):\n"
+"gdpPercap_1952    2 non-null float64\n"
+"gdpPercap_1957    2 non-null float64\n"
+"gdpPercap_1962    2 non-null float64\n"
+"gdpPercap_1967    2 non-null float64\n"
+"gdpPercap_1972    2 non-null float64\n"
+"gdpPercap_1977    2 non-null float64\n"
+"gdpPercap_1982    2 non-null float64\n"
+"gdpPercap_1987    2 non-null float64\n"
+"gdpPercap_1992    2 non-null float64\n"
+"gdpPercap_1997    2 non-null float64\n"
+"gdpPercap_2002    2 non-null float64\n"
+"gdpPercap_2007    2 non-null float64\n"
+"dtypes: float64(12)\n"
+"memory usage: 208.0+ bytes\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"<class 'pandas.core.frame.DataFrame'>\n"
+"Index: 2 entries, Australia to New Zealand\n"
+"Data columns (total 12 columns):\n"
+"gdpPercap_1952    2 non-null float64\n"
+"gdpPercap_1957    2 non-null float64\n"
+"gdpPercap_1962    2 non-null float64\n"
+"gdpPercap_1967    2 non-null float64\n"
+"gdpPercap_1972    2 non-null float64\n"
+"gdpPercap_1977    2 non-null float64\n"
+"gdpPercap_1982    2 non-null float64\n"
+"gdpPercap_1987    2 non-null float64\n"
+"gdpPercap_1992    2 non-null float64\n"
+"gdpPercap_1997    2 non-null float64\n"
+"gdpPercap_2002    2 non-null float64\n"
+"gdpPercap_2007    2 non-null float64\n"
+"dtypes: float64(12)\n"
+"memory usage: 208.0+ bytes\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:130
+msgid "*   This is a `DataFrame`"
+msgstr "*   Це `DataFrame`"
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:131
+msgid "*   Two rows named `'Australia'` and `'New Zealand'`"
+msgstr "*   Містить два рядки з назвами `'Australia'` та `'New Zealand'`"
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:132
+msgid ""
+"*   Twelve columns, each of which has two actual 64-bit floating point "
+"values."
+msgstr ""
+"*   А також дванадцять стовпців, кожен з яких містить два фактичних "
+"64-розрядних значення з плаваючою крапкою."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:133
+msgid ""
+"    *   We will talk later about null values, which are used to represent "
+"missing observations."
+msgstr ""
+"    *   Пізніше ми поговоримо про нульові значення, які використовуються для"
+" представлення відсутніх спостережень."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:134
+msgid "*   Uses 208 bytes of memory."
+msgstr "*   Використано 208 байтів пам'яті."
+
+# header
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:136
+msgid ""
+"## The `DataFrame.columns` variable stores information about the dataframe's"
+" columns."
+msgstr ""
+"## Змінна `DataFrame.columns` зберігає інформацію про стовпці фрейму даних."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:138
+msgid "*   Note that this is data, *not* a method."
+msgstr "*   Зверніть увагу, що це дані, а не метод."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:139
+msgid "    *   Like `math.pi`."
+msgstr "    *   Подібно до `math.pi`."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:140
+msgid "    *   So do not use `()` to try to call it."
+msgstr "    *   Тому не використовуйте `()`, щоб спробувати її викликати."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:141
+msgid "*   Called a *member variable*, or just *member*."
+msgstr "*   Ця змінна називається *змінною-членом* або просто *членом*."
+
+# code block
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:143
+msgid ""
+"~~~\n"
+"print(data.columns)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(data.columns)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:146
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"Index(['gdpPercap_1952', 'gdpPercap_1957', 'gdpPercap_1962', 'gdpPercap_1967',\n"
+"       'gdpPercap_1972', 'gdpPercap_1977', 'gdpPercap_1982', 'gdpPercap_1987',\n"
+"       'gdpPercap_1992', 'gdpPercap_1997', 'gdpPercap_2002', 'gdpPercap_2007'],\n"
+"      dtype='object')\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"Index(['gdpPercap_1952', 'gdpPercap_1957', 'gdpPercap_1962', 'gdpPercap_1967',\n"
+"       'gdpPercap_1972', 'gdpPercap_1977', 'gdpPercap_1982', 'gdpPercap_1987',\n"
+"       'gdpPercap_1992', 'gdpPercap_1997', 'gdpPercap_2002', 'gdpPercap_2007'],\n"
+"      dtype='object')\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:155
+msgid "## Use `DataFrame.T` to transpose a dataframe."
+msgstr "## Використовуйте `DataFrame.T`, щоб транспонувати фрейм даних."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:157
+msgid "*   Sometimes want to treat columns as rows and vice versa."
+msgstr "*  Іноді потрібно розглядати стовпці як рядки і навпаки."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:158
+msgid ""
+"*   Transpose (written `.T`) doesn't copy the data, just changes the "
+"program's view of it."
+msgstr ""
+"*   Транспонування (written `.T`) не копіює дані, а лише змінює подання "
+"даних."
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:159
+msgid "*   Like `columns`, it is a member variable."
+msgstr "*   Як і `columns`, це змінна-член."
+
+# code block
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:161
+msgid ""
+"~~~\n"
+"print(data.T)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"print(data.T)\n"
+"~~~"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:164
+msgid ""
+"{: .language-python}\n"
+"~~~\n"
+"country           Australia  New Zealand\n"
+"gdpPercap_1952  10039.59564  10556.57566\n"
+"gdpPercap_1957  10949.64959  12247.39532\n"
+"gdpPercap_1962  12217.22686  13175.67800\n"
+"gdpPercap_1967  14526.12465  14463.91893\n"
+"gdpPercap_1972  16788.62948  16046.03728\n"
+"gdpPercap_1977  18334.19751  16233.71770\n"
+"gdpPercap_1982  19477.00928  17632.41040\n"
+"gdpPercap_1987  21888.88903  19007.19129\n"
+"gdpPercap_1992  23424.76683  18363.32494\n"
+"gdpPercap_1997  26997.93657  21050.41377\n"
+"gdpPercap_2002  30687.75473  23189.80135\n"
+"gdpPercap_2007  34435.36744  25185.00911\n"
+"~~~"
+msgstr ""
+"{: .language-python}\n"
+"~~~\n"
+"country           Australia  New Zealand\n"
+"gdpPercap_1952  10039.59564  10556.57566\n"
+"gdpPercap_1957  10949.64959  12247.39532\n"
+"gdpPercap_1962  12217.22686  13175.67800\n"
+"gdpPercap_1967  14526.12465  14463.91893\n"
+"gdpPercap_1972  16788.62948  16046.03728\n"
+"gdpPercap_1977  18334.19751  16233.71770\n"
+"gdpPercap_1982  19477.00928  17632.41040\n"
+"gdpPercap_1987  21888.88903  19007.19129\n"
+"gdpPercap_1992  23424.76683  18363.32494\n"
+"gdpPercap_1997  26997.93657  21050.41377\n"
+"gdpPercap_2002  30687.75473  23189.80135\n"
+"gdpPercap_2007  34435.36744  25185.00911\n"
+"~~~"
+
+# header
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:182
+msgid "## Use `DataFrame.describe` to get summary statistics about data."
+msgstr ""
+"## Використовуйте `DataFrame.describe`, щоб отримати зведену статистику "
+"даних."
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:184
+msgid ""
+"DataFrame.describe() gets the summary statistics of only the columns that have numerical data. \n"
+"All other columns are ignored, unless you use the argument `include='all'`.\n"
+"~~~\n"
+"print(data.describe())\n"
+"~~~\n"
+"{: .language-python}\n"
+"~~~\n"
+"       gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  gdpPercap_1967  \\\n"
+"count        2.000000        2.000000        2.000000        2.000000\n"
+"mean     10298.085650    11598.522455    12696.452430    14495.021790\n"
+"std        365.560078      917.644806      677.727301       43.986086\n"
+"min      10039.595640    10949.649590    12217.226860    14463.918930\n"
+"25%      10168.840645    11274.086022    12456.839645    14479.470360\n"
+"50%      10298.085650    11598.522455    12696.452430    14495.021790\n"
+"75%      10427.330655    11922.958888    12936.065215    14510.573220\n"
+"max      10556.575660    12247.395320    13175.678000    14526.124650"
+msgstr ""
+"DataFrame.describe() отримує зведену статистику лише для стовпців, які містять числові дані.\n"
+"Усі інші стовпці ігноруються, якщо ви не використовуєте аргумент `include='all'`.\n"
+"~~~\n"
+"print(data.describe())\n"
+"~~~\n"
+"{: .language-python}\n"
+"~~~\n"
+"       gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  gdpPercap_1967  \\\n"
+"count        2.000000        2.000000        2.000000        2.000000\n"
+"mean     10298.085650    11598.522455    12696.452430    14495.021790\n"
+"std        365.560078      917.644806      677.727301       43.986086\n"
+"min      10039.595640    10949.649590    12217.226860    14463.918930\n"
+"25%      10168.840645    11274.086022    12456.839645    14479.470360\n"
+"50%      10298.085650    11598.522455    12696.452430    14495.021790\n"
+"75%      10427.330655    11922.958888    12936.065215    14510.573220\n"
+"max      10556.575660    12247.395320    13175.678000    14526.124650"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:201
+msgid ""
+"       gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  gdpPercap_1987  \\\n"
+"count         2.00000        2.000000        2.000000        2.000000\n"
+"mean      16417.33338    17283.957605    18554.709840    20448.040160\n"
+"std         525.09198     1485.263517     1304.328377     2037.668013\n"
+"min       16046.03728    16233.717700    17632.410400    19007.191290\n"
+"25%       16231.68533    16758.837652    18093.560120    19727.615725\n"
+"50%       16417.33338    17283.957605    18554.709840    20448.040160\n"
+"75%       16602.98143    17809.077557    19015.859560    21168.464595\n"
+"max       16788.62948    18334.197510    19477.009280    21888.889030"
+msgstr ""
+"       gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  gdpPercap_1987  \\\n"
+"count         2.00000        2.000000        2.000000        2.000000\n"
+"mean      16417.33338    17283.957605    18554.709840    20448.040160\n"
+"std         525.09198     1485.263517     1304.328377     2037.668013\n"
+"min       16046.03728    16233.717700    17632.410400    19007.191290\n"
+"25%       16231.68533    16758.837652    18093.560120    19727.615725\n"
+"50%       16417.33338    17283.957605    18554.709840    20448.040160\n"
+"75%       16602.98143    17809.077557    19015.859560    21168.464595\n"
+"max       16788.62948    18334.197510    19477.009280    21888.889030"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:211
+msgid ""
+"       gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  gdpPercap_2007\n"
+"count        2.000000        2.000000        2.000000        2.000000\n"
+"mean     20894.045885    24024.175170    26938.778040    29810.188275\n"
+"std       3578.979883     4205.533703     5301.853680     6540.991104\n"
+"min      18363.324940    21050.413770    23189.801350    25185.009110\n"
+"25%      19628.685413    22537.294470    25064.289695    27497.598692\n"
+"50%      20894.045885    24024.175170    26938.778040    29810.188275\n"
+"75%      22159.406358    25511.055870    28813.266385    32122.777857\n"
+"max      23424.766830    26997.936570    30687.754730    34435.367440\n"
+"~~~"
+msgstr ""
+"       gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  gdpPercap_2007\n"
+"count        2.000000        2.000000        2.000000        2.000000\n"
+"mean     20894.045885    24024.175170    26938.778040    29810.188275\n"
+"std       3578.979883     4205.533703     5301.853680     6540.991104\n"
+"min      18363.324940    21050.413770    23189.801350    25185.009110\n"
+"25%      19628.685413    22537.294470    25064.289695    27497.598692\n"
+"50%      20894.045885    24024.175170    26938.778040    29810.188275\n"
+"75%      22159.406358    25511.055870    28813.266385    32122.777857\n"
+"max      23424.766830    26997.936570    30687.754730    34435.367440\n"
+"~~~"
+
+# unordered list
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:223
+msgid "*   Not particularly useful with just two records,"
+msgstr "*   Не дуже корисно лише з двома записами,"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:224
+msgid "    but very helpful when there are thousands."
+msgstr "   але дуже корисно, коли таких записів тисячі."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:226
+msgid "> ## Reading Other Data"
+msgstr "> ## Читання інших даних"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:227
+msgid ""
+">\n"
+"> Read the data in `gapminder_gdp_americas.csv`\n"
+"> (which should be in the same directory as `gapminder_gdp_oceania.csv`)\n"
+"> into a variable called `americas`\n"
+"> and display its summary statistics.\n"
+">\n"
+"> > ## Solution\n"
+"> > To read in a CSV, we use `pd.read_csv` and pass the filename 'data/gapminder_gdp_americas.csv' to it. We also once again pass the\n"
+"> > column name 'country' to the parameter `index_col` in order to index by country:\n"
+"> > ~~~\n"
+"> > americas = pd.read_csv('data/gapminder_gdp_americas.csv', index_col='country')\n"
+"> > ~~~\n"
+"> >{: .language-python}"
+msgstr ""
+">\n"
+">Зчитайте дані з файлу `gapminder_gdp_americas.csv`\n"
+"> (який має бути в тому ж каталозі, що й .`gapminder_gdp_oceania.csv`)\n"
+"> у змінну `americas`\n"
+"> і подайте його підсумкову статистику.\n"
+">\n"
+"> > ## Рішення\n"
+"> > Для зчитування в форматі CSV ми використовуємо функцію `pd.read_csv` і передаємо назву файлу 'data/gapminder_gdp_americas.csv' в якості аргументу. Ми також передаємо \n"
+"> > назву стовпцю 'country' як параметр `index_col`, щоб індексувати за назвами країн:\n"
+"> > ~~~\n"
+"> > americas = pd.read_csv('data/gapminder_gdp_americas.csv', index_col='country')\n"
+"> > ~~~\n"
+"> >{: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:245
+msgid "> ## Inspecting Data."
+msgstr "> ## Перевірка даних"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:246
+msgid ""
+">\n"
+"> After reading the data for the Americas,\n"
+"> use `help(americas.head)` and `help(americas.tail)`\n"
+"> to find out what `DataFrame.head` and `DataFrame.tail` do.\n"
+">\n"
+"> 1.  What method call will display the first three rows of this data?\n"
+"> 2.  What method call will display the last three columns of this data?\n"
+">     (Hint: you may need to change your view of the data.)\n"
+">\n"
+"> > ## Solution\n"
+"> > 1. We can check out the first five rows of `americas` by executing `americas.head()` (allowing us to view the head\n"
+"> > of the DataFrame). We can specify the number of rows we wish to see by specifying the parameter `n` in our call\n"
+"> > to `americas.head()`. To view the first three rows, execute:\n"
+"> >\n"
+"> > ~~~\n"
+"> > americas.head(n=3)\n"
+"> > ~~~\n"
+"> >{: .language-python}\n"
+"> > \n"
+"> > The output is then\n"
+"> > ~~~\n"
+"> >          continent  gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  \\\n"
+"> >country                                                               \n"
+"> >Argentina  Americas     5911.315053     6856.856212     7133.166023   \n"
+"> >Bolivia    Americas     2677.326347     2127.686326     2180.972546   \n"
+"> >Brazil     Americas     2108.944355     2487.365989     3336.585802   \n"
+"> >\n"
+"> >           gdpPercap_1967  gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  \\\n"
+"> >country                                                                     \n"
+"> >Argentina     8052.953021     9443.038526    10079.026740     8997.897412   \n"
+"> >Bolivia       2586.886053     2980.331339     3548.097832     3156.510452   \n"
+"> >Brazil        3429.864357     4985.711467     6660.118654     7030.835878   \n"
+"> >\n"
+"> >           gdpPercap_1987  gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  \\\n"
+"> >country                                                                     \n"
+"> >Argentina     9139.671389     9308.418710    10967.281950     8797.640716   \n"
+"> >Bolivia       2753.691490     2961.699694     3326.143191     3413.262690   \n"
+"> >Brazil        7807.095818     6950.283021     7957.980824     8131.212843   \n"
+"> >\n"
+"> >           gdpPercap_2007  \n"
+"> >country                    \n"
+"> >Argentina    12779.379640  \n"
+"> >Bolivia       3822.137084  \n"
+"> >Brazil        9065.800825 \n"
+"> > ~~~ \n"
+"> >{: .output}\n"
+"> > 2. To check out the last three rows of `americas`, we would use the command, `americas.tail(n=3)`,\n"
+"> > analogous to `head()` used above. However, here we want to look at the last three columns so we need\n"
+"> > to change our view and then use `tail()`. To do so, we create a new DataFrame in which rows and \n"
+"> > columns are switched\n"
+"> > \n"
+"> > ~~~\n"
+"> > americas_flipped = americas.T\n"
+"> > ~~~\n"
+"> >{: .language-python}\n"
+"> >\n"
+"> > We can then view the last three columns of `americas` by viewing the last three rows of `americas_flipped`:\n"
+"> > ~~~\n"
+"> > americas_flipped.tail(n=3)\n"
+"> > ~~~\n"
+"> >{: .language-python}\n"
+"> > The output is then\n"
+"> > ~~~\n"
+"> > country        Argentina  Bolivia   Brazil   Canada    Chile Colombia  \\\n"
+"> > gdpPercap_1997   10967.3  3326.14  7957.98  28954.9  10118.1  6117.36   \n"
+"> > gdpPercap_2002   8797.64  3413.26  8131.21    33329  10778.8  5755.26   \n"
+"> > gdpPercap_2007   12779.4  3822.14   9065.8  36319.2  13171.6  7006.58   \n"
+"> > \n"
+"> > country        Costa Rica     Cuba Dominican Republic  Ecuador    ...     \\\n"
+"> > gdpPercap_1997    6677.05  5431.99             3614.1  7429.46    ...      \n"
+"> > gdpPercap_2002    7723.45  6340.65            4563.81  5773.04    ...      \n"
+"> > gdpPercap_2007    9645.06   8948.1            6025.37  6873.26    ...      \n"
+"> > \n"
+"> > country          Mexico Nicaragua   Panama Paraguay     Peru Puerto Rico  \\\n"
+"> > gdpPercap_1997   9767.3   2253.02  7113.69   4247.4  5838.35     16999.4   \n"
+"> > gdpPercap_2002  10742.4   2474.55  7356.03  3783.67  5909.02     18855.6   \n"
+"> > gdpPercap_2007  11977.6   2749.32  9809.19  4172.84  7408.91     19328.7   \n"
+"> > \n"
+"> > country        Trinidad and Tobago United States  Uruguay Venezuela  \n"
+"> > gdpPercap_1997             8792.57       35767.4  9230.24   10165.5  \n"
+"> > gdpPercap_2002             11460.6       39097.1     7727   8605.05  \n"
+"> > gdpPercap_2007             18008.5       42951.7  10611.5   11415.8  \n"
+"> > ~~~ \n"
+"> >{: .output}\n"
+"> > Note: we could have done the above in a single line of code by 'chaining' the commands:\n"
+"> > ~~~\n"
+"> > americas.T.tail(n=3)\n"
+"> > ~~~\n"
+"> >{: .language-python}"
+msgstr ""
+">\n"
+"> Прочитавши дані для Південної Америки,\n"
+"> використовуйте `help(americas.head)` та `help(americas.tail)`,\n"
+">щоб дізнатися про призначення `DataFrame.head` and `DataFrame.tail`.\n"
+">\n"
+"> 1.  Виклик якого методу відобразить перші три рядки цих даних?\n"
+"> 2.  Виклик якого методу відобразить останні три стовпці цих даних?\n"
+">     (Підказка: вам може знадобитися змінити спосіб перегляду даних.)\n"
+">\n"
+"> > ## Рішення\n"
+"> > 1. Ми можемо перевірити перші п’ять рядків `americas` за викликом `americas.head()` (що дозволяє нам переглянути заголовок \n"
+"> > DataFrame). Ми можемо вказати кількість рядків, які ми хочемо бачити, визначивши параметр `n` у нашому виклику\n"
+"> > `americas.head()`. TЩоб переглянути перші три рядки, виконайте:\n"
+"> >\n"
+"> > ~~~\n"
+"> > americas.head(n=3)\n"
+"> > ~~~\n"
+"> >{: .language-python}\n"
+"> > \n"
+"> > Результат є таким:\n"
+"> > ~~~\n"
+"> >          continent  gdpPercap_1952  gdpPercap_1957  gdpPercap_1962  \\\n"
+"> >country                                                               \n"
+"> >Argentina  Americas     5911.315053     6856.856212     7133.166023   \n"
+"> >Bolivia    Americas     2677.326347     2127.686326     2180.972546   \n"
+"> >Brazil     Americas     2108.944355     2487.365989     3336.585802   \n"
+"> >\n"
+"> >           gdpPercap_1967  gdpPercap_1972  gdpPercap_1977  gdpPercap_1982  \\\n"
+"> >country                                                                     \n"
+"> >Argentina     8052.953021     9443.038526    10079.026740     8997.897412   \n"
+"> >Bolivia       2586.886053     2980.331339     3548.097832     3156.510452   \n"
+"> >Brazil        3429.864357     4985.711467     6660.118654     7030.835878   \n"
+"> >\n"
+"> >           gdpPercap_1987  gdpPercap_1992  gdpPercap_1997  gdpPercap_2002  \\\n"
+"> >country                                                                     \n"
+"> >Argentina     9139.671389     9308.418710    10967.281950     8797.640716   \n"
+"> >Bolivia       2753.691490     2961.699694     3326.143191     3413.262690   \n"
+"> >Brazil        7807.095818     6950.283021     7957.980824     8131.212843   \n"
+"> >\n"
+"> >           gdpPercap_2007  \n"
+"> >country                    \n"
+"> >Argentina    12779.379640  \n"
+"> >Bolivia       3822.137084  \n"
+"> >Brazil        9065.800825 \n"
+"> > ~~~ \n"
+"> >{: .output}\n"
+"> > 2. Щоб перевірити останні три рядки `americas`, ми можемо використати команду, `americas.tail(n=3)`,\n"
+"> > analogous to команді `head()` used, що застосовувалась вище. Однак тут ми хочемо переглянути останні три стовпці, отже, нам потрібно\n"
+"> > змінити подання інформації, а потім використати `tail()`. Для цього ми створюємо новий DataFrame, у якому рядки та\n"
+"> > стовпці транспонуються\n"
+"> > \n"
+"> > ~~~\n"
+"> > americas_flipped = americas.T\n"
+"> > ~~~\n"
+"> >{: .language-python}\n"
+"> >\n"
+"> > Потім ми можемо переглянути останні три стовпці `americas`, переглянувши останні три рядки `americas_flipped`:\n"
+"> > ~~~\n"
+"> > americas_flipped.tail(n=3)\n"
+"> > ~~~\n"
+"> >{: .language-python}\n"
+"> > Результат є таким:\n"
+"> > ~~~\n"
+"> > country        Argentina  Bolivia   Brazil   Canada    Chile Colombia  \\\n"
+"> > gdpPercap_1997   10967.3  3326.14  7957.98  28954.9  10118.1  6117.36   \n"
+"> > gdpPercap_2002   8797.64  3413.26  8131.21    33329  10778.8  5755.26   \n"
+"> > gdpPercap_2007   12779.4  3822.14   9065.8  36319.2  13171.6  7006.58   \n"
+"> > \n"
+"> > country        Costa Rica     Cuba Dominican Republic  Ecuador    ...     \\\n"
+"> > gdpPercap_1997    6677.05  5431.99             3614.1  7429.46    ...      \n"
+"> > gdpPercap_2002    7723.45  6340.65            4563.81  5773.04    ...      \n"
+"> > gdpPercap_2007    9645.06   8948.1            6025.37  6873.26    ...      \n"
+"> > \n"
+"> > country          Mexico Nicaragua   Panama Paraguay     Peru Puerto Rico  \\\n"
+"> > gdpPercap_1997   9767.3   2253.02  7113.69   4247.4  5838.35     16999.4   \n"
+"> > gdpPercap_2002  10742.4   2474.55  7356.03  3783.67  5909.02     18855.6   \n"
+"> > gdpPercap_2007  11977.6   2749.32  9809.19  4172.84  7408.91     19328.7   \n"
+"> > \n"
+"> > country        Trinidad and Tobago United States  Uruguay Venezuela  \n"
+"> > gdpPercap_1997             8792.57       35767.4  9230.24   10165.5  \n"
+"> > gdpPercap_2002             11460.6       39097.1     7727   8605.05  \n"
+"> > gdpPercap_2007             18008.5       42951.7  10611.5   11415.8  \n"
+"> > ~~~ \n"
+"> >{: .output}\n"
+"> > Примітка: ми могли б зробити вищезазначене в одному рядку коду, «поєднавши» команди:\n"
+"> > ~~~\n"
+"> > americas.T.tail(n=3)\n"
+"> > ~~~\n"
+"> >{: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:338
+msgid "> ## Reading Files in Other Directories"
+msgstr "> ## Читання файлів в інших каталогах"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:339
+msgid ""
+">\n"
+"> The data for your current project is stored in a file called `microbes.csv`,\n"
+"> which is located in a folder called `field_data`.\n"
+"> You are doing analysis in a notebook called `analysis.ipynb`\n"
+"> in a sibling folder called `thesis`:\n"
+">\n"
+"> ~~~\n"
+"> your_home_directory\n"
+"> +-- field_data/\n"
+"> |   +-- microbes.csv\n"
+"> +-- thesis/\n"
+">     +-- analysis.ipynb\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Дані вашого поточного проекту зберігаються у файлі під назвою `microbes.csv`,\n"
+"> який знаходиться в каталозі під назвою `field_data`.\n"
+"> Ви виконуєте аналіз у блокноті під назвою `analysis.ipynb`\n"
+"> у спорідненому каталозі під назвою `thesis`:\n"
+">\n"
+"> ~~~\n"
+"> Ваш_домашній_каталог\n"
+"> +-- field_data/\n"
+"> |   +-- microbes.csv\n"
+"> +-- thesis/\n"
+">     +-- analysis.ipynb\n"
+"> ~~~"
+
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:353
+msgid ""
+">\n"
+"> What value(s) should you pass to `read_csv` to read `microbes.csv` in `analysis.ipynb`?\n"
+"> \n"
+"> > ## Solution\n"
+"> > We need to specify the path to the file of interest in the call to `pd.read_csv`. We first need to 'jump' out of\n"
+"> > the folder `thesis` using '../' and then into the folder `field_data` using 'field_data/'. Then we can specify the filename `microbes.csv.\n"
+"> > The result is as follows:\n"
+"> > ~~~\n"
+"> > data_microbes = pd.read_csv('../field_data/microbes.csv')\n"
+"> > ~~~\n"
+"> >{: .language-python}"
+msgstr ""
+">\n"
+"> Які значення потрібно передати в `read_csv`, щоб прочитати `microbes.csv` у `analysis.ipynb`?\n"
+"> \n"
+"> > ## Рішення\n"
+"> > Нам потрібно вказати шлях до потрібного файлу як аргумент у виклику `pd.read_csv`. По-перше, потрібно «вистрибнути» з\n"
+"> > теки `thesis` за допомогою '../', а потім зайти у теку  `field_data` за допомогою 'field_data/'. Після цього вказати назву файлу `microbes.csv.\n"
+"> > Результат є таким:\n"
+"> > ~~~\n"
+"> > data_microbes = pd.read_csv('../field_data/microbes.csv')\n"
+"> > ~~~\n"
+"> >{: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:367
+msgid "> ## Writing Data"
+msgstr "> ## Запис даних"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:369
+msgid "> As well as the `read_csv` function for reading data from a file,"
+msgstr "> Подібно функції `read_csv` для читання даних із файлу,"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:370
+msgid "> Pandas provides a `to_csv` function to write dataframes to files."
+msgstr "> Pandas має функцію `to_csv` для запису кадрів даних у файли."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:371
+msgid "> Applying what you've learned about reading from files,"
+msgstr "> Застосовуючи те, що ви дізналися про читання з файлів,"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:372
+msgid "> write one of your dataframes to a file called `processed.csv`."
+msgstr ""
+"> запишіть один із ваших фреймів даних у файл під назвою `processed.csv`."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:373
+msgid "> You can use `help` to get information on how to use `to_csv`."
+msgstr ""
+"> Ви можете скористатися `help`, щоб отримати інформацію про застосування "
+"`to_csv`."
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:374
+#: python-novice-gapminder/_episodes/08-data-frames.md:371
+#: python-novice-gapminder/_episodes/13-conditionals.md:298
+msgid "> > ## Solution"
+msgstr "> > ## Рішення"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:375
+msgid ""
+"> > In order to write the DataFrame `americas` to a file called "
+"`processed.csv`, execute the following command:"
+msgstr ""
+"> > Щоб записати DataFrame `americas` у файл під назвою `processed.csv`, "
+"виконайте таку команду:"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:376
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:378
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:381
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:383
+#: python-novice-gapminder/_episodes/08-data-frames.md:373
+#: python-novice-gapminder/_episodes/08-data-frames.md:378
+#: python-novice-gapminder/_episodes/08-data-frames.md:381
+#: python-novice-gapminder/_episodes/08-data-frames.md:387
+#: python-novice-gapminder/_episodes/13-conditionals.md:300
+#: python-novice-gapminder/_episodes/13-conditionals.md:309
+msgid "> > ~~~"
+msgstr "> > ~~~"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:377
+msgid "> > americas.to_csv('processed.csv')"
+msgstr "> > americas.to_csv('processed.csv')"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:379
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:384
+msgid "> >{: .language-python}"
+msgstr "> >{: .language-python}"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:380
+msgid "> > For help on `to_csv`, you could execute, for example,"
+msgstr ""
+"> >Щоб отримати допомогу щодо `to_csv`, ви можете виконати, наприклад,"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:382
+msgid "> > help(americas.to_csv)"
+msgstr "> > help(americas.to_csv)"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:385
+msgid ""
+"> > Note that `help(to_csv)` throws an error! This is a subtlety and is due "
+"to the fact that `to_csv` is NOT a function in "
+msgstr ""
+"> > Зверніть увагу, що `help(to_csv)` видає помилку! Це тонкощі, і це "
+"пов’язано з тим, що `to_csv` НЕ є функцією сама по собі"
+
+# blockquote, which can be cascaded
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:386
+msgid "> > and of itself and the actual call is `americas.to_csv`. "
+msgstr "> > а фактичним викликом є `americas.to_csv`."

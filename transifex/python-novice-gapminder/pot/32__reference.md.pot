@@ -1,0 +1,823 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/reference.md:1
+# Front Matter
+msgid "---\n"
+"layout: reference\n"
+"permalink: /reference/\n"
+"root: ..\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:7
+# header
+msgid "## Reference"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:9
+# header
+msgid "## [Running and Quitting]({{ page.root }}/01-run-quit/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:10
+# unordered list
+msgid "- Python files have the `.py` extension."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:11
+# unordered list
+msgid "- Can be written in a text file or a [Jupyter Notebook][jupyter]."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:12
+# unordered list
+msgid "  - Jupyter notebooks have the extension `.ipynb`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:13
+# unordered list
+msgid "  - Jupyter notebooks can be opened from [Anaconda](https://docs.continuum.io/anaconda/install) or through the command line by entering `$ jupyter notebook`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:14
+# unordered list
+msgid "    - Markdown and HTML are allowed in markdown cells for documenting code."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:16
+# header
+msgid "## [Variables and Assignment]({{ page.root }}/02-variables/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:17
+# unordered list
+msgid "- Variables are stored using `=`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:18
+# unordered list
+msgid "  - Strings are defined in quotations `'...'`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:19
+# unordered list
+msgid "  - Integers and floating point numbers are defined without quotations."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:20
+# unordered list
+msgid "- Variables can contain letters, digits, and underscores `_`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:21
+# unordered list
+msgid "  - Cannot start with a digit."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:22
+# unordered list
+msgid "  - Variables that start with underscores should be avoided."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:23
+# unordered list
+msgid "- Use `print(...)` to display values as text."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:24
+# unordered list
+msgid "- Can use indexing on strings."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:25
+# unordered list
+msgid "  - Indexing starts at 0."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:26
+# unordered list
+msgid "  - Position is given in square brackets `[position]` following the variable name."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:27
+# unordered list
+msgid "  - Take a slice using `[start:stop]`. This makes a copy of part of the original string."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:28
+# unordered list
+msgid "    - `start` is the index of the first element."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:29
+# unordered list
+msgid "    - `stop` is the index of the element after the last desired element."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:30
+# unordered list
+msgid "- Use `len(...)` to find the length of a variable or string. "
+msgstr ""
+
+#: python-novice-gapminder/reference.md:32
+# header
+msgid "## [Data Types and Type Conversion]({{ page.root }}/03-types-conversion/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:33
+# unordered list
+msgid "- Each value has a type. This controls what can be done with it."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:34
+# unordered list
+msgid "  - `int` represents an integer"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:35
+# unordered list
+msgid "  - `float` represents a floating point number."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:36
+# unordered list
+msgid "  - `str` represents a string."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:37
+# unordered list
+msgid "- To determine a variables type, use the built-in function `type(...)`, including the variable name in the parenthesis."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:38
+# unordered list
+msgid "- Modifying strings:"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:39
+# unordered list
+msgid "  - Use `+` to concatenate strings."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:40
+# unordered list
+msgid "  - Use `*` to repeat a string."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:41
+# unordered list
+msgid "  - Numbers and strings cannot be added to on another."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:42
+# unordered list
+msgid "    - Convert string to integer: `int(...)`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:43
+# unordered list
+msgid "    - Convert integer to string: `str(...)`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:45
+# header
+msgid "## [Built-in Functions and Help]({{ page.root }}/04-built-in/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:46
+# unordered list
+msgid "- To add a comment, place `#` before the thing you do not with to be executed."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:47
+# unordered list
+msgid "- Commonly used built-in functions:"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:48
+# unordered list
+msgid "  - `min()` finds the smallest value."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:49
+# unordered list
+msgid "  - `max()` finds the largest value."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:50
+# unordered list
+msgid "  - `round()` rounds off a floating point number."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:51
+# unordered list
+msgid "  - `help()` displays documentation for the function in the parenthesis."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:52
+# unordered list
+msgid "    - Other ways to get help include holding down `shift` and pressing `tab` in Jupyter Notebooks."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:54
+# header
+msgid "## [Libraries]({{ page.root }}/06-libraries/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:55
+# unordered list
+msgid "- Importing a library:"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:56
+# unordered list
+msgid "  - Use `import ...` to load a library."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:57
+# unordered list
+msgid "  - Refer to this library by using `module_name.thing_name`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:58
+# unordered list
+msgid "    - `.` indicates 'part of'."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:59
+# unordered list
+msgid "- To import a specific item from a library: `from ... import ...`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:60
+# unordered list
+msgid "- To import a library using an alias: `import ... as ...`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:61
+# unordered list
+msgid "- Importing the math library: `import math`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:62
+# unordered list
+msgid "  - Example of referring to an item with the module's name: `math.cos(math.pi)`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:63
+# unordered list
+msgid "- Importing the plotting library as an alias: `import matplotlib as mpl`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:65
+# header
+msgid "## [Reading Tabular Data into DataFrames]({{ page.root }}/07-reading-tabular/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:66
+# unordered list
+msgid "- Use the pandas library to do statistics on tabular data. Load with `import pandas as pd`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:67
+# unordered list
+msgid "  - To read in a csv: `pd.read_csv()`, including the path name in the parenthesis."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:68
+# unordered list
+msgid "    - To specify a column's values should be used as row headings: `pd.read_csv('path',index_col='column name')`, where path and column name should be replaced with the relevant values."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:69
+# unordered list
+msgid "- To get more information about a DataFrame, use `DataFrame.info`, replacing `DataFrame` with the variable name of your DataFrame."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:70
+# unordered list
+msgid "- Use `DataFrame.columns` to view the column names."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:71
+# unordered list
+msgid "- Use `DataFrame.T` to transpose a DataFrame."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:72
+# unordered list
+msgid "- Use `DataFrame.describe` to get summary statistics about your data."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:74
+# header
+msgid "## [Pandas DataFrames]({{ page.root }}/08-data-frames/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:75
+# unordered list
+msgid "- Select data using `[i,j]`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:76
+# unordered list
+msgid "  - To select by entry position: `DataFrame.iloc[..., ...]`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:77
+# unordered list
+msgid "    - This is inclusive of everything except the final index."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:78
+# unordered list
+msgid "  - To select by entry label: `DataFrame.loc[..., ...]`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:79
+# unordered list
+msgid "    - Can select multiple rows or columns by listing labels."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:80
+# unordered list
+msgid "    - This is inclusive to both ends."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:81
+# unordered list
+msgid "  - Use `:` to select all rows or columns."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:82
+# unordered list
+msgid "- Can also select data based on values using `true` and `false`. This is a Boolean mask."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:83
+# unordered list
+msgid "  - `mask = subset > 10000`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:84
+# unordered list
+msgid "  - We can then use this to select values."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:85
+# unordered list
+msgid "- To use a select-apply-combine operation we use `data.apply(lambda x: x>x.mean())` where `mean()` can be any operation the user would like to be applied to x."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:87
+# header
+msgid "## [Plotting]({{ page.root }}/09-plotting/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:88
+# unordered list
+msgid "- The most widely used plotting library is `matplotlib`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:89
+# unordered list
+msgid "  - Usually imported using `import matplotlib.pyplot as plt`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:90
+# unordered list
+msgid "  - To plot we use the command `plt.plot(time, position)`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:91
+# unordered list
+msgid "  - To create a legend use `plt.legend(['label1','label2', loc='upper left'])`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:92
+# unordered list
+msgid "    - Can also define labels within the plot statements by using `plt.plot(time, position, label='label')`. To make the legend show up, use `plt.legend()`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:93
+# unordered list
+msgid "  - To label x and y axis `plt.xlabel('label')` and `plt.ylabel('label')` are used."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:94
+# unordered list
+msgid "- Pandas DataFrames can be used to plot by using `DataFrame.plot()`. Any operations that can be used on a DataFrame can be applied while plotting."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:95
+# unordered list
+msgid "  - To plot a bar plot `data.plot(kind='bar')`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:97
+# code block
+msgid "~~~\n"
+"import matplotlib.puplot as plot\n"
+"plt.plot(time,position,label='label')\n"
+"plt.xlabel('x axis label')\n"
+"plt.ylabel('y axis label')\n"
+"plt.legend()\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:106
+# header
+msgid "## [Lists]({{ page.root }}/11-lists/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:107
+# unordered list
+msgid "- Defined within `[...]` and separated by `,`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:108
+# unordered list
+msgid "  - An empty list can be created by using `[]`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:109
+# unordered list
+msgid "- Can use `len(...)` to determine how many values are in a list."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:110
+# unordered list
+msgid "- Can index just as done in previous lessons."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:111
+# unordered list
+msgid "  - Indexing can be used to reassign values `list_name[0] = newvalue`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:112
+# unordered list
+msgid "- To add an item to a list use `list_name.append()`, with the item to append in the parenthesis."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:113
+# unordered list
+msgid "- To combine two lists use `list_name_1.extend(list_name_2)`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:114
+# unordered list
+msgid "- To remove an item from a list use `del list_name[index]`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:116
+# header
+msgid "## [For Loops]({{ page.root }}/12-for-loops/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:117
+# unordered list
+msgid "- Start a for loop with `for number in [1,2,3]:`, with the following lines indented."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:118
+# unordered list
+msgid "  - `[1, 2, 3]` is considered the collection."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:119
+# unordered list
+msgid "  - `number` is the loop variable."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:120
+# unordered list
+msgid "  - The action following the collection is the body."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:121
+# unordered list
+msgid "- To iterate over a sequence of numbers use `range(start, end)`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:123
+# code block
+msgid "~~~\n"
+"for number in range(0,5):\n"
+"  print(number)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:129
+# header
+msgid "## [Conditionals]({{ page.root }}/13-conditionals/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:130
+# unordered list
+msgid "- Defined similarly to a loop, using `if variable conditional value:`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:131
+# unordered list
+msgid "  - For example, `if variable > 5:`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:132
+# unordered list
+msgid "- Use `elif:` for additional tests."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:133
+# unordered list
+msgid "- Use `else:` for when if statement is not true."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:134
+# unordered list
+msgid "- Can Combine more than one conditional by using `and` or `or`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:135
+# unordered list
+msgid "- Often used in combination with for loops."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:136
+# unordered list
+msgid "- Conditions that can be used:"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:137
+# unordered list
+msgid "  - `==` equal to."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:138
+# unordered list
+msgid "  - `>=` greater than or equal to."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:139
+# unordered list
+msgid "  - `<=` less than or equal to."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:140
+# unordered list
+msgid "  - `>` greater than."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:141
+# unordered list
+msgid "  - `<` less than."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:143
+# code block
+msgid "~~~\n"
+"for m in [3, 6, 7, 2, 8]:\n"
+"  if m > 5:\n"
+"    print(m, 'is large')\n"
+"  elif m == 5:\n"
+"    print(m, 'is 5')\n"
+"  else:\n"
+"    print(m, 'is small')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:154
+# header
+msgid "## [Looping Over Data Sets]({{ page.root }}/14-looping-data-sets/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:155
+# unordered list
+msgid "- Use a for loop: `for filename in [file1, file2]:`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:156
+# unordered list
+msgid "- To find a set of files using a pattern use `glob.glob`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:157
+# unordered list
+msgid "  - Must import first using `import glob`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:158
+# unordered list
+msgid "  - `*` indicates \"match zero or more characters\""
+msgstr ""
+
+#: python-novice-gapminder/reference.md:159
+# unordered list
+msgid "  - `?` indicates \"match exactly one character\""
+msgstr ""
+
+#: python-novice-gapminder/reference.md:160
+# unordered list
+msgid "    - For example: `glob.glob(*.txt)` will find all files that end with .txt in the current directory."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:161
+# unordered list
+msgid "- Combine these by writing a loop using: `for filename in glob.glob(*.txt):`"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:163
+# code block
+msgid "~~~\n"
+"for filename in glob.glob(*.txt):\n"
+"  data = pd.read_csv(filename)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:169
+# header
+msgid "## [Writing Functions]({{ page.root }}/16-writing-functions/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:170
+# unordered list
+msgid "- Define a function using `def function_name(parameters):`. Replace `parameters` with the variables to use when the function is executed."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:171
+# unordered list
+msgid "- Run by using `function_name(parameters)`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:172
+# unordered list
+msgid "- To return a result to the caller use `return ...` in the function."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:174
+# code block
+msgid "~~~\n"
+"def add_numbers(a, b):\n"
+"  result = a + b\n"
+"  return result\n"
+"\n"
+"add_numbers(1, 4)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:183
+# header
+msgid "## [Variable Scope]({{ page.root }}/17-scope/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:184
+# unordered list
+msgid "- A local variable is defined in a function and can only be seen and used within that function."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:185
+# unordered list
+msgid "- A global variable is defined outside of a function and can be seen or used anywhere after definition."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:187
+# header
+msgid "## [Programming Style]({{ page.root }}/18-style/)"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:188
+# unordered list
+msgid "- Document your code."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:189
+# unordered list
+msgid "- Use clear and meaningful variable names."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:190
+# unordered list
+msgid "- Follow [the PEP8 style guide](https://www.python.org/dev/peps/pep-0008) when setting up your code."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:191
+# unordered list
+msgid "- Use assertions to check for internal errors."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:192
+# unordered list
+msgid "- Use docstrings to provide help."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:194
+# header
+msgid "## Glossary"
+msgstr ""
+
+#: python-novice-gapminder/reference.md:196
+msgid "{:auto_ids}\n"
+"Arguments\n"
+":     Values passed to functions."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:200
+msgid "Array\n"
+":     A container holding elements of the same type."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:203
+msgid "Boolean\n"
+":     An object composed of `true` and `false`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:206
+msgid "DataFrame\n"
+":     The way Pandas represents a table; a collection of series."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:209
+msgid "Element\n"
+":     An item in a list or an array. For a string, these are the individual characters."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:212
+msgid "Function\n"
+":     A block of code that can be called and re-used elsewhere."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:215
+msgid "Global variable\n"
+":     A variable defined outside of a function that can be used anywhere."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:218
+msgid "Index\n"
+":     The position of a given element."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:221
+msgid "Jupyter Notebook\n"
+":     Interactive coding environment allowing a combination of code and markdown."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:224
+msgid "Library\n"
+":     A collection of files containing functions used by other programs."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:227
+msgid "Local Variable\n"
+":     A variable defined inside of a function that can only be used inside of that function."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:230
+msgid "Mask\n"
+":     A boolean object used for selecting data from another object."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:233
+msgid "Method\n"
+":     An action tied to a particular object. Called by using `object.method`."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:236
+msgid "Modules\n"
+":     The files within a library containing functions used by other programs."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:239
+msgid "Parameters\n"
+":     Variables used when executing a function."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:242
+msgid "Series\n"
+":     A Pandas data structure to represent a column."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:245
+msgid "Substring\n"
+":     A part of a string."
+msgstr ""
+
+#: python-novice-gapminder/reference.md:248
+msgid "Variables\n"
+":     Names for values."
+msgstr ""
+

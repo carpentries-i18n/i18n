@@ -1,0 +1,712 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Data Types and Type Conversion\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"What kinds of data do programs store?\"\n"
+"- \"How can I convert one type to another?\"\n"
+"objectives:\n"
+"- \"Explain key differences between integers and floating point numbers.\"\n"
+"- \"Explain key differences between numbers and character strings.\"\n"
+"- \"Use built-in functions to convert between integers, floating point numbers, and strings.\"\n"
+"keypoints:\n"
+"- \"Every value has a type.\"\n"
+"- \"Use the built-in function `type` to find the type of a value.\"\n"
+"- \"Types control what operations can be done on values.\"\n"
+"- \"Strings can be added and multiplied.\"\n"
+"- \"Strings have a length (but numbers don't).\"\n"
+"- \"Must convert numbers to strings or vice versa when operating on them.\"\n"
+"- \"Can mix integers and floats freely in operations.\"\n"
+"- \"Variables only change value when something is assigned to them.\"\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:22
+# header
+msgid "## Every value has a type."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:24
+# unordered list
+msgid "*   Every value in a program has a specific type."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:25
+# unordered list
+msgid "*   Integer (`int`): represents positive or negative whole numbers like 3 or -512."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:26
+# unordered list
+msgid "*   Floating point number (`float`): represents real numbers like 3.14159 or -2.5."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:27
+# unordered list
+msgid "*   Character string (usually called \"string\", `str`): text."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:28
+# unordered list
+msgid "    *   Written in either single quotes or double quotes (as long as they match)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:29
+# unordered list
+msgid "    *   The quote marks aren't printed when the string is displayed."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:31
+# header
+msgid "## Use the built-in function `type` to find the type of a value."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:33
+# unordered list
+msgid "*   Use the built-in function `type` to find out what type a value has."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:34
+# unordered list
+msgid "*   Works on variables as well."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:35
+# unordered list
+msgid "    *   But remember: the *value* has the type --- the *variable* is just a label."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:37
+# code block
+msgid "~~~\n"
+"print(type(52))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:40
+msgid "{: .language-python}\n"
+"~~~\n"
+"<class 'int'>\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:46
+# code block
+msgid "~~~\n"
+"fitness = 'average'\n"
+"print(type(fitness))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:50
+msgid "{: .language-python}\n"
+"~~~\n"
+"<class 'str'>\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:56
+# header
+msgid "## Types control what operations (or methods) can be performed on a given value."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:58
+# unordered list
+msgid "*   A value's type determines what the program can do to it."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:60
+# code block
+msgid "~~~\n"
+"print(5 - 3)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:63
+msgid "{: .language-python}\n"
+"~~~\n"
+"2\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:69
+# code block
+msgid "~~~\n"
+"print('hello' - 'h')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:72
+msgid "{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-2-67f5626a1e07> in <module>()\n"
+"----> 1 print('hello' - 'h')"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:79
+msgid "TypeError: unsupported operand type(s) for -: 'str' and 'str'\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:83
+# header
+msgid "## You can use the \"+\" and \"*\" operators on strings."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:85
+# unordered list
+msgid "*   \"Adding\" character strings concatenates them."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:87
+# code block
+msgid "~~~\n"
+"full_name = 'Ahmed' + ' ' + 'Walsh'\n"
+"print(full_name)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:91
+msgid "{: .language-python}\n"
+"~~~\n"
+"Ahmed Walsh\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:97
+# unordered list
+msgid "*   Multiplying a character string by an integer _N_ creates a new string that consists of that character string repeated  _N_ times."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:98
+# unordered list
+msgid "    *   Since multiplication is repeated addition."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:100
+# code block
+msgid "~~~\n"
+"separator = '=' * 10\n"
+"print(separator)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:104
+msgid "{: .language-python}\n"
+"~~~\n"
+"==========\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:110
+# header
+msgid "## Strings have a length (but numbers don't)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:112
+# unordered list
+msgid "*   The built-in function `len` counts the number of characters in a string."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:114
+# code block
+msgid "~~~\n"
+"print(len(full_name))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:117
+msgid "{: .language-python}\n"
+"~~~\n"
+"11\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:123
+# unordered list
+msgid "*   But numbers don't have a length (not even zero)."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:125
+# code block
+msgid "~~~\n"
+"print(len(52))\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:128
+msgid "{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-3-f769e8e8097d> in <module>()\n"
+"----> 1 print(len(52))"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:135
+msgid "TypeError: object of type 'int' has no len()\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:139
+# header
+msgid "## <a name='convert-numbers-and-strings'></a> Must convert numbers to strings or vice versa when operating on them."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:141
+# unordered list
+msgid "*   Cannot add numbers and strings."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:143
+# code block
+msgid "~~~\n"
+"print(1 + '2')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:146
+msgid "{: .language-python}\n"
+"~~~\n"
+"---------------------------------------------------------------------------\n"
+"TypeError                                 Traceback (most recent call last)\n"
+"<ipython-input-4-fe4f54a023c6> in <module>()\n"
+"----> 1 print(1 + '2')"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:153
+msgid "TypeError: unsupported operand type(s) for +: 'int' and 'str'\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:157
+# unordered list
+msgid "*   Not allowed because it's ambiguous: should `1 + '2'` be `3` or `'12'`?"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:158
+# unordered list
+msgid "*   Some types can be converted to other types by using the type name as a function."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:160
+# code block
+msgid "~~~\n"
+"print(1 + int('2'))\n"
+"print(str(1) + '2')\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:164
+msgid "{: .language-python}\n"
+"~~~\n"
+"3\n"
+"12\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:171
+# header
+msgid "## Can mix integers and floats freely in operations."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:173
+# unordered list
+msgid "*   Integers and floating-point numbers can be mixed in arithmetic."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:174
+# unordered list
+msgid "    *   Python 3 automatically converts integers to floats as needed. (Integer division in Python 2 will return an integer, the *floor* of the division.)"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:176
+# code block
+msgid "~~~\n"
+"print('half is', 1 / 2.0)\n"
+"print('three squared is', 3.0 ** 2)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:180
+msgid "{: .language-python}\n"
+"~~~\n"
+"half is 0.5\n"
+"three squared is 9.0\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:187
+# header
+msgid "## Variables only change value when something is assigned to them."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:189
+# unordered list
+msgid "*   If we make one cell in a spreadsheet depend on another,"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:190
+msgid "    and update the latter,\n"
+"    the former updates automatically.\n"
+"*   This does **not** happen in programming languages."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:194
+# code block
+msgid "~~~\n"
+"first = 1\n"
+"second = 5 * first\n"
+"first = 2\n"
+"print('first is', first, 'and second is', second)\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:200
+msgid "{: .language-python}\n"
+"~~~\n"
+"first is 2 and second is 5\n"
+"~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:206
+# unordered list
+msgid "*   The computer reads the value of `first` when doing the multiplication,"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:207
+msgid "    creates a new value, and assigns it to `second`.\n"
+"*   After that, `second` does not remember where it came from."
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:210
+# blockquote, which can be cascaded
+msgid "> ## Fractions"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:211
+msgid ">\n"
+"> What type of value is 3.4?\n"
+"> How can you find out?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > It is a floating-point number (often abbreviated \"float\").\n"
+"> >\n"
+"> > ~~~\n"
+"> > print(type(3.4))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > <class 'float'>\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:230
+# blockquote, which can be cascaded
+msgid "> ## Automatic Type Conversion"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:231
+msgid ">\n"
+"> What type of value is 3.25 + 4?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > It is a float:\n"
+"> > integers are automatically converted to floats as necessary.\n"
+"> >\n"
+"> > ~~~\n"
+"> > result = 3.25 + 4\n"
+"> > print(result, 'is', type(result))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 7.25 is <class 'float'>\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:251
+# blockquote, which can be cascaded
+msgid "> ## Choose a Type"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:252
+msgid ">\n"
+"> What type of value (integer, floating point number, or character string)\n"
+"> would you use to represent each of the following?  Try to come up with more than one good answer for each problem.  For example, in  # 1, when would counting days with a floating point variable make more sense than using an integer?  \n"
+">\n"
+"> 1. Number of days since the start of the year.\n"
+"> 2. Time elapsed from the start of the year until now in days.\n"
+"> 3. Serial number of a piece of lab equipment.\n"
+"> 4. A lab specimen's age\n"
+"> 5. Current population of a city.\n"
+"> 6. Average population of a city over time.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > The answers to the questions are:\n"
+"> > 1. Integer, since the number of days would lie between 1 and 365. \n"
+"> > 2. Floating point, since fractional days are required\n"
+"> > 3. Character string if serial number contains letters and numbers, otherwise integer if the serial number consists only of numerals\n"
+"> > 4. This will vary! How do you define a specimen's age? whole days since collection (integer)? date and time (string)?\n"
+"> > 5. Choose floating point to represent population as large aggregates (eg millions), or integer to represent population in units of individuals.\n"
+"> > 6. Floating point number, since an average is likely to have a fractional part.\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:276
+# blockquote, which can be cascaded
+msgid "> ## Division Types"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:277
+msgid ">\n"
+"> In Python 3, the `//` operator performs integer (whole-number) floor division, the `/` operator performs floating-point\n"
+"> division, and the '%' (or *modulo*) operator calculates and returns the remainder from integer division:\n"
+">\n"
+"> ~~~\n"
+"> print('5 // 3:', 5//3)\n"
+"> print('5 / 3:', 5/3)\n"
+"> print('5 % 3:', 5%3)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> 5 // 3: 1\n"
+"> 5 / 3: 1.6666666666666667\n"
+"> 5 % 3: 2\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:293
+#: python-novice-gapminder/_episodes/03-types-conversion.md:345
+#: python-novice-gapminder/_episodes/03-types-conversion.md:445
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:352
+#: python-novice-gapminder/_episodes/11-lists.md:222
+#: python-novice-gapminder/_episodes/11-lists.md:264
+#: python-novice-gapminder/_episodes/13-conditionals.md:297
+#: python-novice-gapminder/_episodes/13-conditionals.md:409
+#: python-novice-gapminder/_episodes/16-writing-functions.md:217
+# SC/DC Template label
+msgid "> {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:294
+msgid ">\n"
+"> However in Python2 (and other languages), the `/` operator between two integer types perform a floor (`//`) division. To perform a float division, we have to convert one of the integers to float.\n"
+">\n"
+"> ~~~\n"
+"> print('5 // 3:', 1)\n"
+"> print('5 / 3:', 1 )\n"
+"> print('5 / float(3):', 1.6666667 )\n"
+"> print('float(5) / 3:', 1.6666667 )\n"
+"> print('float(5 / 3):', 1.0 )\n"
+"> print('5 % 3:', 2)\n"
+"> ~~~\n"
+">\n"
+"> If `num_subjects` is the number of subjects taking part in a study,\n"
+"> and `num_per_survey` is the number that can take part in a single survey,\n"
+"> write an expression that calculates the number of surveys needed\n"
+"> to reach everyone once.\n"
+">\n"
+"> > ## Solution\n"
+"> > We want the minimum number of surveys that reaches everyone once, which is\n"
+"> > the rounded up value of `num_subjects / num_per_survey`. This is \n"
+"> > equivalent to performing an integer division with `//` and adding 1.\n"
+"> > ~~~\n"
+"> > num_subjects = 600\n"
+"> > num_per_survey = 42\n"
+"> > num_surveys = num_subjects // num_per_survey + 1\n"
+"> >\n"
+"> > print(num_subjects, 'subjects,', num_per_survey, 'per survey:', num_surveys)\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > 600 subjects, 42 per survey: 15\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:330
+# blockquote, which can be cascaded
+msgid "> ## Strings to Numbers"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:331
+msgid ">\n"
+"> Where reasonable, `float()` will convert a string to a floating point number,\n"
+"> and `int()` will convert a floating point number to an integer:\n"
+">\n"
+"> ~~~\n"
+"> print(\"string to float:\", float(\"3.4\"))\n"
+"> print(\"float to int:\", int(3.4))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> string to float: 3.4\n"
+"> float to int: 3\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:346
+msgid ">\n"
+"> If the conversion doesn't make sense, however, an error message will occur\n"
+">\n"
+"> ~~~\n"
+"> print(\"string to float:\", float(\"Hello world!\"))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> ---------------------------------------------------------------------------\n"
+"> ValueError                                Traceback (most recent call last)\n"
+"> <ipython-input-5-df3b790bf0a2> in <module>()\n"
+"> ----> 1 print(\"string to float:\", float(\"Hello world!\"))\n"
+">\n"
+"> ValueError: could not convert string to float: 'Hello world!'\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:362
+#: python-novice-gapminder/_episodes/06-libraries.md:248
+#: python-novice-gapminder/_episodes/07-reading-tabular.md:71
+#: python-novice-gapminder/_episodes/17-scope.md:108
+# SC/DC Template label
+msgid "> {: .error}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:363
+msgid ">\n"
+"> Given this information, what do you expect the following program to do?\n"
+">\n"
+"> What does it actually do?\n"
+">\n"
+"> Why do you think it does that?\n"
+">\n"
+"> ~~~\n"
+"> print(\"fractional string to int:\", int(\"3.4\"))\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+"> \n"
+"> > ## Solution\n"
+"> > What do you expect this program to do? It would not be so unreasonable to expect the Python 3 `int` command to\n"
+"> > convert the string \"3.4\" to 3.4 and an additional type conversion to 3. After all, Python 3 performs a lot of other\n"
+"> > magic - isn't that part of its charm?\n"
+"> > \n"
+"> > However, Python 3 throws an error. Why? To be consistent, possibly. If you ask Python to perform two consecutive\n"
+"> > typecasts, you must convert it explicitly in code.\n"
+"> >\n"
+"> > ~~~\n"
+"> > int(\"3.4\")\n"
+"> > int(float(\"3.4\"))\n"
+"> > ~~~\n"
+"> > {: .language-python}\n"
+"> > ~~~\n"
+"> > In [2]: int(\"3.4\")\n"
+"> > ---------------------------------------------------------------------------\n"
+"> > ValueError                                Traceback (most recent call last)\n"
+"> > <ipython-input-2-ec6729dfccdc> in <module>()\n"
+"> > ----> 1 int(\"3.4\")\n"
+"> > ValueError: invalid literal for int() with base 10: '3.4'\n"
+"> > 3\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:401
+# blockquote, which can be cascaded
+msgid "> ## Arithmetic with Different Types"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:402
+msgid ">\n"
+"> Which of the following will return the floating point number `2.0`?\n"
+"> Note: there may be more than one right answer.\n"
+">\n"
+"> ~~~\n"
+"> first = 1.0\n"
+"> second = \"1\"\n"
+"> third = \"1.1\"\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> 1. `first + float(second)`\n"
+"> 2. `float(second) + float(third)`\n"
+"> 3. `first + int(third)`\n"
+"> 4. `first + int(float(third))`\n"
+"> 5. `int(first) + int(float(third))`\n"
+"> 6. `2.0 * second`\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Answer: 1 and 4"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:426
+# blockquote, which can be cascaded
+msgid "> ## Complex Numbers"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:427
+msgid ">\n"
+"> Python provides complex numbers,\n"
+"> which are written as `1.0+2.0j`.\n"
+"> If `val` is an imaginary number,\n"
+"> its real and imaginary parts can be accessed using *dot notation*\n"
+"> as `val.real` and `val.imag`.\n"
+">\n"
+"> ~~~\n"
+"> complex = 6 + 2j\n"
+"> print(complex.real)\n"
+"> print(complex.imag)\n"
+"> ~~~\n"
+"> {: .language-python}\n"
+">\n"
+"> ~~~\n"
+"> 6.0\n"
+"> 2.0\n"
+"> ~~~"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/03-types-conversion.md:446
+msgid ">\n"
+">\n"
+"> 1.  Why do you think Python uses `j` instead of `i` for the imaginary part?\n"
+"> 2.  What do you expect `1+2j + 3` to produce?\n"
+"> 3.  What do you expect `4j` to be?  What about `4 j` or `4 + j`?\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1. Standard mathematics treatments typically use `i` to denote an imaginary number. However, from media reports it\n"
+"> > was an early convention established from electrical engineering that now presents a technically expensive area to\n"
+"> > change. [Stack Overflow provides additional explanation and\n"
+"> > discussion.](http://stackoverflow.com/questions/24812444/why-are-complex-numbers-in-python-denoted-with-j-instead-of-i)\n"
+"> > 2. `(4+2j)`\n"
+"> > 3. `4j`, `Syntax Error: invalid syntax`, in this case _j_ is considered a variable and this depends on if _j_ is defined and if so, its assigned value"
+msgstr ""
+

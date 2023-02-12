@@ -1,0 +1,41 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: python-novice-gapminder/_episodes/05-coffee.md:1
+# Front Matter
+msgid "---\n"
+"layout: break\n"
+"title: \"Morning Coffee\"\n"
+"teaching: 0\n"
+"exercises: 0\n"
+"break: 15\n"
+"---"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/05-coffee.md:8
+#: python-novice-gapminder/_episodes/15-coffee.md:8
+# header
+msgid "# Reflection exercise"
+msgstr ""
+
+#: python-novice-gapminder/_episodes/05-coffee.md:10
+msgid "Over coffee, reflect on and discuss the following:\n"
+"* What are the different kinds of errors Python will report?\n"
+"* Did the code always produce the results you expected? If not, why?\n"
+"* Is there something we can do to prevent errors when we write code?"
+msgstr ""
+
