@@ -10,6 +10,12 @@
 [submodule "instructor-training"]
 	path = instructor-training
 	url = git@github.com:carpentries-i18n/instructor-training.git
+[submodule "r-intro-geospatial"]
+	url = https://github.com/carpentries-i18n/r-intro-geospatial.git
+	path = r-intro-geospatial
+[submodule "r-raster-vector-geospatial"]
+	url = https://github.com/carpentries-i18n/r-raster-vector-geospatial.git
+	path = r-raster-vector-geospatial
 [submodule "lc-open-refine"]
 	url = https://github.com/carpentries-i18n/lc-open-refine.git
 	path = lc-open-refine
