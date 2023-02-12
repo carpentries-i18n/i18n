@@ -1,3 +1,6 @@
+[submodule "git-novice"]
+	url = https://github.com/carpentries-i18n/git-novice.git
+	path = git-novice
 [submodule "python-ecology-lesson"]
 	url = https://github.com/carpentries-i18n/python-ecology-lesson.git
 	path = python-ecology-lesson
