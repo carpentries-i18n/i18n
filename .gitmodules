@@ -16,3 +16,6 @@
 [submodule "r-raster-vector-geospatial"]
 	url = https://github.com/carpentries-i18n/r-raster-vector-geospatial.git
 	path = r-raster-vector-geospatial
+[submodule "lc-open-refine"]
+	url = https://github.com/carpentries-i18n/lc-open-refine.git
+	path = lc-open-refine

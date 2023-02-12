@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:17+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: lc-open-refine/_episodes/09-undo-and-redo.md:1
+msgid ""
+"---\n"
+"title: \"Transformations - Undo and Redo\"\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How do the Undo and Redo features work?\"\n"
+"objectives:\n"
+"- \"Explain how to use Undo and Redo to retrace ones' steps\"\n"
+"keypoints:\n"
+"- \"You can use Undo and Redo to retrace ones' steps\"\n"
+"- \"You can save and apply a set of steps to a new set of data using the 'Extract' and 'Apply' features\"\n"
+"---"
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/09-undo-and-redo.md:14
+msgid "## Undo and Redo"
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:15
+msgid "OpenRefine lets you undo, and redo, any number of steps you have taken in cleaning the data. This means you can always try out transformations and 'undo' if you need to. The way OpenRefine records the steps you have taken even allows you to take the steps you've carried out on one data set, and apply it to another data set by a simple copy and paste operation."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:17
+msgid "The ```Undo``` and ```Redo``` options are accessed via the lefthand panel."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:19
+msgid "The Undo/Redo panel lists all the steps you've taken so far. To undo steps, simply click on the last step you want to preserve in the list and this will automatically undo all the changes made since that step."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:21
+msgid "The remaining steps will continue to show in the list but greyed out, and you can reapply them by simply clicking on the last step you want to apply."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:23
+msgid "However, if you 'undo' a set of steps and then start doing new transformations, the greyed out steps will disappear and you will no longer have the option to 'redo' these steps."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:25
+msgid "If you wish to save a set of steps to be re-applied later, for instance, to a different project, you can click the ```Extract``` button. This gives you the option to select steps that you want to save, and extract the code for those steps in a format called ‘JSON’. You can copy the extracted JSON and save it as a simple text file (e.g. in Notepad)."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:27
+msgid "To apply a set of steps you have copied or saved in this 'JSON' format use the ```Apply``` button and paste in the JSON. In this way you can share transformations between projects and each other."
+msgstr ""
+
+#: lc-open-refine/_episodes/09-undo-and-redo.md:29
+msgid "Undo/Redo data is stored with the Project and is saved automatically as you work, so next time you open the project, you can access your full history of steps you have carried out and undo/redo in exactly the same way."
+msgstr ""

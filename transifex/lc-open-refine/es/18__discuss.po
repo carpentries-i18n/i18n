@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:18+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: lc-open-refine/_extras/discuss.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Discussion\n"
+"---"
+msgstr ""
+
+#: lc-open-refine/_extras/discuss.md:5
+msgid "There are many ways to discuss Library Carpentry lessons:"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/discuss.md:7
+msgid "- Join our [Gitter discussion forum](https://gitter.im/LibraryCarpentry/)."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/discuss.md:8
+msgid "- Join our [Slack organisation](https://swc-slack-invite.herokuapp.com/) and #libraries channel."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/discuss.md:9
+msgid "- Stay in touch with our [Topicbox Group](https://carpentries.topicbox.com/groups/discuss-library-carpentry)."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/discuss.md:10
+msgid "- Follow updates on [Twitter](https://twitter.com/LibCarpentry)."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_extras/discuss.md:11
+msgid "- Make a suggestion or correct an error by [raising an issue](https://github.com/LibraryCarpentry/lc-open-refine/issues) or submitting a [pull request](https://github.com/LibraryCarpentry/lc-open-refine/pulls)."
+msgstr ""

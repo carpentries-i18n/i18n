@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:17+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:1
+msgid ""
+"---\n"
+"title: \"Introduction to Transformations\"\n"
+"teaching: 5\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How do I use transformations to programmatically edit my data?\"\n"
+"- \"What are the kind of transformations Open Refine supports?\"\n"
+"- \"What is GREL?\"\n"
+"objectives:\n"
+"- \"Describe common transformations\"\n"
+"- \"Explain GREL, the General Refine Expression Language\"\n"
+"keypoints:\n"
+"- \"Common transformations are available through the Menu option\"\n"
+"---"
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:16
+msgid "## Introducing Transformations"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:18
+msgid "Through facets, filters and clusters OpenRefine offers relatively straightforward ways of getting an overview of your data, and making changes where you want to standardise terms used to a common set of values."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:20
+msgid "However, sometimes there will be changes you want to make to the data that cannot be achieved in this way. Such types of changes include:"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:22
+msgid "* Splitting data that is in a single column into multiple columns (e.g. splitting an address into multiple parts)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:23
+msgid "* Standardising the format of data in a column without changing the values (e.g. removing punctuation or standardising a date format)"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:24
+msgid "* Extracting a particular type of data from a longer text string (e.g. finding ISBNs in a bibliographic citation)"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:26
+msgid "To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. Transformations are normally written in a special language called 'GREL' (General Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:28
+msgid "Full documentation for the GREL is available at [https://docs.openrefine.org/manual/grelfunctions](https://docs.openrefine.org/manual/grelfunctions). This tutorial covers only a small subset of the commands available."
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:30
+msgid "### Common transformations"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:31
+msgid "Some transformations are used regularly and are accessible directly through menu options, without having to type them directly."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:33
+msgid "Examples of some of these common transformations are given in the table below, with their 'GREL' equivalents. We'll see how to use the GREL version later in this lesson."
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:35
+msgid ""
+"Common Transformation  | Action | GREL expression\n"
+"--------------------| ------------- | -------------\n"
+"To Uppercase| Converts the current value to uppercase | ```value.toUppercase()```\n"
+"To Lowercase| Converts the current value to lowercase | ```value.toLowercase()```\n"
+"To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```\n"
+"Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```"
+msgstr ""
+
+#: lc-open-refine/_episodes/07-introduction-to-transformations.md:42
+msgid ""
+">## Correct Publisher data\n"
+">1. Create a text facet on the Publisher column\n"
+">2. Note that in the values there are two that look almost identical - why do these two values appear separately rather than as a single value?\n"
+">3. On the publisher column use the dropdown menu to select ```Edit cells->Common transforms->Collapse consecutive whitespace```\n"
+">4. Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the ```Refresh``` option to make sure it updates)"
+msgstr ""

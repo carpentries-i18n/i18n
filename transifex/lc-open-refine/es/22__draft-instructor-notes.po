@@ -1,0 +1,397 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:18+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:1
+msgid "# Chris Erdmann Instructor notes from https://libcce.github.io/2018-10-18-UNC/"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:3
+msgid "## OpenRefine"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:5
+msgid ""
+"OpenRefine is a power tool for messy data\n"
+"Helps you clean data, link data, visualize it and keeps a record of your revisions\n"
+"Its been around for a while (GoogleRefine), which means there is a lot of info/tutorials about it out there"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:10
+msgid "Things it’s great for:"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:12
+msgid ""
+"overview of data/analysis of data per column\n"
+"* Resolve inconsistencies (date format)\n"
+"* Split data into separate cells (multiple names, address parts)\n"
+"* Matching data, like your local data to Library of Congress data\n"
+"* Enhance data with data from other sources"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:18
+msgid ""
+"Scenarios:\n"
+"* how many times does a value appear in a column?\n"
+"* How is data distributed across the dataset?\n"
+"* changing all data in a column into one format\n"
+"* splitting data into separate columns\n"
+"* adding data"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:26
+msgid ""
+"Local library examples:\n"
+"UNCG Library uses it for collections data\n"
+"Duke Libraries uses it for teaching workshops"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:30
+msgid ""
+"Open Context\n"
+"https://opencontext.org/\n"
+"Eric Kansa\n"
+"Uses OpenRefine in its data cleaning workflows"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:35
+msgid ""
+"In the Carpentries\n"
+"OpenRefine for Ecologists\n"
+"https://datacarpentry.org/OpenRefine-ecology-lesson/"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:40
+msgid ""
+"Import > DOAJ data\n"
+"https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:44
+msgid ""
+"Note:\n"
+"UTF-8\n"
+"First line is column header\n"
+"DO NOT check parse text cells into numbers"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:49
+msgid "View on raw data"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:51
+msgid ""
+"Records/rows\n"
+"Flags/stars"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:54
+msgid ""
+"Split multi value cells\n"
+"Authors > Edit Cells > Split Multi Valued Cells\n"
+"Notice number of rows versus number of records\n"
+"Authors > Edit Cells > Join Multi Valued Cells"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:59
+msgid ""
+"Note: Undo / Redo\n"
+"We can use this as well if we want to undue something we did\n"
+"Note: Extract (like a Macro)"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:64
+msgid ""
+"Challenge:\n"
+"1. What separator character is used in the Subjects cells?\n"
+"2. How would you split these subject words into individual cells?\n"
+"3. How would you join them back together?"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:69
+msgid "<Green sticky>"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:71
+msgid "## FACETING"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:72
+msgid "Used for overview of the data and creating consistency"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:74
+msgid ""
+"Publisher > Text Facet\n"
+"Count\n"
+"Name"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:78
+msgid "2 ways of merging names -> cluster button or roll over and edit"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:80
+msgid "Include and exclude for filtering"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:82
+msgid ""
+"Challenge:\n"
+"1. What types of licenses are found in this data set?\n"
+"2. How many are blank? From what journal?"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:86
+msgid ""
+"Note:\n"
+"I've used this feature, copy and pasted facets, for easy reporting"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:89
+msgid ""
+"Explore Text Facet\n"
+"- How would we find DOIs that are blank with the Text Facet?\n"
+"  Facet > Customized Facets > Facet by Blank\n"
+"- Use Text Facet to normalize Language (EN e.g.)."
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:96
+msgid "This allows us to use various algorithms to find name variations and then match"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:98
+msgid ""
+"Authors > Edit Cells > Split multi-value cells\n"
+"Authors > Edit Cells > Cluster and Edit"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:101
+msgid "Explore Method / Keying Function"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:103
+msgid ""
+"READ\n"
+"https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:106
+msgid "## Sort / View (like Excel functionality)"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:107
+msgid ""
+"Sort A-Z or Z-A\n"
+"View > Collapse"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:110
+msgid "## Transformations"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:112
+msgid ""
+"Allow you to do much more than Facets\n"
+"You can split values (into new columns), for instance, journal information, addresses...\n"
+"Standardization, removing punctiation maybe or formatting date\n"
+"Extracting something from a string like ISBN, geographical coordinates"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:117
+msgid ""
+"Publisher > Text Facet\n"
+"Why does MDPI AG appear twice, looks the same?\n"
+"Edit cells->Common transforms->Trim leading and trailing whitespace\n"
+"That is a transformation to start!"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:122
+msgid "## Write Transformations"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:124
+msgid ""
+"Citation > Edit Column > Add Column based on this one\n"
+"GREL - Google Refine Expression Language"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:127
+msgid ""
+"What if you wanted to get the volume? \n"
+"value.match(/.*?(\\d+).*?/)[0]"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:131
+msgid ""
+"What if you wanted to get the year?\n"
+"Answer?\n"
+"value.match(/.*(\\d{4}).*/)[0]\n"
+"value.match(/.*?\\((\\d+)\\).*?/)[0]\n"
+"value.match(/.*?\\d+.*?\\d+.*?\\d+.*?\\d+.*?(\\d+).*?/)[0]\n"
+"value.match(/.*\\((\\d{4})\\).*/)[0]\n"
+"value.match(/.*?((\\d\\d\\d\\d)\\).*?)[0]\n"
+"value.match(/.*?(\\(\\d{4}\\)+).*?/)[0]"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:140
+msgid ""
+"What if you wanted to get the journal name?\n"
+"Answer?\n"
+"value.match(/.*?([A-Za-z\\s]*)((\\(|,)).*?/)[0]\n"
+"value.match(/(.*?),(.*)/)[0]\n"
+"value.match(/(.*?)(, ).*?/)[0]\n"
+"value.match(/(.*?),.*/)[0]\n"
+"value.match(/^(.*?),.*?/)[0]\n"
+"value.match(/.*(^((\\w+)(\\s*)){1,})+.*/)[0]"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:149
+msgid ""
+"Google OpenRefine Recipes\n"
+"https://github.com/OpenRefine/OpenRefine/wiki/Recipes\n"
+"Lots of examples (ISBN e.g.)"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:153
+msgid "https://libjohn.github.io/openrefine/"
+msgstr ""
+
+# unordered list
+#: lc-open-refine/files/draft-instructor-notes.md:155
+msgid "- That's something you can do with unstructured data but we know we can grab structured data... from CrossRef for example."
+msgstr ""
+
+# unordered list
+#: lc-open-refine/files/draft-instructor-notes.md:157
+msgid "- Does anyone know how we would do that?"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:158
+msgid "Answer:"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:160
+msgid ""
+"Remember:\n"
+"Publisher > Text Facet and choose Society of...\n"
+"ISSNs > Edit Column > Add Column based Fetching URL\n"
+"\"http://api.crossref.org/journals/\"+value\n"
+"Get JSON back..."
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:166
+msgid ""
+"How do we get the journal title from the JSON?\n"
+"Answer:"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:170
+msgid "## Booleans"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:171
+msgid ""
+"You can check whether a condition is TRUE or FALSE\n"
+"Authors > Facets > Custom Facet\n"
+"Value.contains(\",\") "
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:176
+msgid "## Reverse author names"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:178
+msgid ""
+"You can use Regex again\n"
+"Authors > True contain \",\" > Edit Cells > Transform"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:181
+msgid "value.match(/(.*),(.*)/).reverse().join(\" \")"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:184
+msgid "## Reconcile"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:186
+msgid ""
+"Wikidata on Subjects\n"
+"Subjects > Start Reconciling > Wikidata > Academic discipline"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:189
+msgid ""
+"ORCID\n"
+"http://refine.codefork.com/\n"
+"Use: Author Names\n"
+"http://refine.codefork.com/reconcile/orcid/smartnames"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:194
+msgid "https://www.lib.ncsu.edu/news/orcid%3A-the-number-that-every-academic-needs"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:196
+msgid "## Date to String"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:197
+msgid ""
+"Edit Cells > Common transforms > to Date\n"
+"Edit Column > Add Column based on\n"
+"value.toString(\"dd MMMM yyyy\")"
+msgstr ""
+
+# header
+#: lc-open-refine/files/draft-instructor-notes.md:201
+msgid "## Sharing"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:202
+msgid ""
+"Export options\n"
+"Share your recipes on GitHub"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:206
+msgid "Things to note:"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:208
+msgid ""
+"Allocate more memory:\n"
+"https://docs.openrefine.org/manual/installing/#increasing-memory-allocation"
+msgstr ""
+
+#: lc-open-refine/files/draft-instructor-notes.md:212
+msgid ""
+"Extra:\n"
+"Transpose http://ssrc.doingdh.org/tidying-data-with-openrefine/"
+msgstr ""

@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2021-04-24 21:36:32+0100\n"
+"PO-Revision-Date: 2020-05-30 18:11+0000\n"
+"Language-Team: Spanish (https://www.transifex.com/carpentries-i18n/teams/98915/es/)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Front Matter
+#: lc-open-refine/_episodes/06-working-with-columns.md:1
+msgid ""
+"---\n"
+"title: \"Working with columns and sorting\"\n"
+"teaching: 5\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How do I move, rename or remove columns in OpenRefine?\"\n"
+"- \"How do I sort data in OpenRefine?\"\n"
+"objectives:\n"
+"- \"Explain how to reorder, rename and remove columns\"\n"
+"- \"Explain how to sort data in columns\"\n"
+"keypoints:\n"
+"- \"You can reorder, rename and remove columns in OpenRefine\"\n"
+"- \"Sorting in OpenRefine always sorts all rows\"\n"
+"- \"The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently\"\n"
+"---"
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/06-working-with-columns.md:17
+msgid "## Reordering columns"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:18
+msgid "You can re-order the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing `Edit columns->Re-order / remove columns …`."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:20
+msgid "You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required."
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/06-working-with-columns.md:22
+msgid "## Renaming columns"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:24
+msgid "You can rename a column by opening the drop-down menu at the top of the column that you would like to rename, and choosing 'Edit column' > 'Rename this column'. You will then be prompted to enter the new column name. "
+msgstr ""
+
+# header
+#: lc-open-refine/_episodes/06-working-with-columns.md:26
+msgid "## Sorting data"
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:27
+msgid "You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:29
+msgid "Once you have sorted the data, a new `Sort` drop-down menu will be displayed."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:31
+msgid "Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent."
+msgstr ""
+
+#: lc-open-refine/_episodes/06-working-with-columns.md:33
+msgid "You can sort on multiple columns at the same time by adding another sorted column (in the same way)."
+msgstr ""

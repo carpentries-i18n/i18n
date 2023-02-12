@@ -65,7 +65,14 @@ class Pofiles:
             split_directory.mkdir(parents=True)
         # Create a directory for this lessons
         lesson_directory = split_directory / self.lesson / 'pot'
-        lesson_directory.mkdir(parents=True)
+        update = False
+        try:
+            lesson_directory.mkdir(parents=True)
+        except FileExistsError:
+            # directory already exists so we create a new one to run merge
+            update = True
+            lesson_directory /= 'update'
+            lesson_directory.mkdir()
         first_blank = self.pot_content.index('\n')
         self.header = self.pot_content[:first_blank + 1]
         all_files = {} # To contain filename: [content]
@@ -89,16 +96,31 @@ class Pofiles:
 
         # Generate transifex config file
         tx_dir = lesson_directory.parent / '.tx'
-        tx_dir.mkdir()
-        config = configparser.ConfigParser()
-        config['main'] = {"host": "https://www.transifex.com"}
-        with open(tx_dir / 'config', 'w') as txconf:
-            config.write(txconf)
+        if not tx_dir.is_dir():
+            tx_dir.mkdir()
+            config = configparser.ConfigParser()
+            config['main'] = {"host": "https://www.transifex.com"}
+            with open(tx_dir / 'config', 'w') as txconf:
+                config.write(txconf)
         # TODO generate them directly
         # for pot in pots:
         #     _set_source_file(tx_dir, self.lesson, 'en', pot)
+        if update:
+            command = f"""
+            mkdir {lesson_directory}/../final
+            for file in {lesson_directory}/*; do
+              msgmerge -N ${{file/update/.}} ${{file}} > ${{file/update/final}}
+            done
+            mv {lesson_directory}/../final/* {lesson_directory}/../
+            rm -rf {lesson_directory}/../final {lesson_directory}
+            """
+            print("Run the following: \n", command)
 
 
+    def _extract_date_po(self, line):
+        line = line.splitlines()[0]
+        _, date, time = line.split()
+        return date + " " + time
 
     def join(self, source_dir, language):
         # TODO check that filenames are there to be joint
@@ -112,17 +134,23 @@ class Pofiles:
         for file_translated in list_translations:
             with open(file_translated, 'r') as section:
                 lines = section.readlines()
-            header = lines[:lines.index('\n') + 1]  # we can use the last header as a template.
-            porev_line = list(filter(lambda x: 'Revision-Date' in x, header))[0]
-            potrans_line = list(filter(lambda x: 'Last' in x, header))[0]
+            header = lines[:lines.index('\n') + 1]
+            porev_line = next(filter(lambda x: 'Revision-Date' in x, header))
+            potrans_line = next(filter(lambda x: 'Last' in x, header), None)
             touch = self._extract_date_po(porev_line)
-            if touch > self._extract_date_po(last_touch[1]):
+            if touch > self._extract_date_po(last_touch[1]) and potrans_line:
                 last_touch = (potrans_line, porev_line)
             lines = lines[lines.index('\n') + 1:] + ['\n']
             all_content.extend(lines)
-            translators_pos = header.index('# Translators:\n')
-            translators.extend(header[translators_pos + 1: header.index('# \n', translators_pos + 1)])
+            try:
+                translators_pos = header.index('# Translators:\n')
+                translators.extend(header[translators_pos + 1: header.index('# \n', translators_pos + 1)])
+                master_header = header  # we can use the last full header as a template.
+            except ValueError:
+                # nobody has touched the file yet...
+                pass
 
+        header = master_header
         # find line with last revision date and replace it.
         # NOTE Transifex is not updating that field!
         header[header.index(porev_line)] = last_touch[1]
@@ -130,6 +158,7 @@ class Pofiles:
 
         # get unique and sorted names of translators
         translators = sorted(set(translators))
+        translators = [x.replace("\n", ".\n") for x in translators]
         # FIXME add dots after each year for each translators
         start = header.index("# Translators:\n")
         end = header.index("# \n", start + 1)
