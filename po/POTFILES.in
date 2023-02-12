@@ -17,6 +17,7 @@ gap-lesson/aio.md
 gap-lesson/index.md
 gap-lesson/reference.md
 gap-lesson/setup.md
+git-novice/404.md
 git-novice/CODE_OF_CONDUCT.md
 git-novice/CONTRIBUTING.md
 git-novice/LICENSE.md
@@ -39,7 +40,6 @@ git-novice/_extras/about.md
 git-novice/_extras/discuss.md
 git-novice/_extras/figures.md
 git-novice/_extras/guide.md
-git-novice/_includes/links.md
 git-novice/aio.md
 git-novice/index.md
 git-novice/reference.md
