@@ -25,3 +25,6 @@
 [submodule "shell-novice"]
 	path = shell-novice
 	url = https://github.com/carpentries-i18n/shell-novice.git
+[submodule "r-novice-gapminder"]
+	path = r-novice-gapminder
+	url = https://github.com/carpentries-i18n/r-novice-gapminder.git
