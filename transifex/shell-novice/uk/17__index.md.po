@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 19:32:08+0000\n"
+"PO-Revision-Date: 2023-02-12 19:38+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: shell-novice/index.md:1
+msgid ""
+"---\n"
+"layout: lesson\n"
+"root: .\n"
+"---"
+msgstr ""
+"---\n"
+"layout: lesson\n"
+"root: .\n"
+"---"
+
+#: shell-novice/index.md:6
+msgid ""
+"The Unix shell has been around longer than most of its users\n"
+"have been alive. It has survived because it's a powerful tool that\n"
+"allows users to perform complex and powerful tasks, often with just\n"
+" a few keystrokes or lines of code. It helps users automate repetitive\n"
+" tasks and easily combine smaller tasks into larger, more powerful workflows."
+msgstr ""
+"Термінал Unix існує довше, ніж більшість її користувачів\n"
+"живуть на світі. Вона вижила, тому що це потужний інструмент, який\n"
+"дозволяє користувачам виконувати складні та потужні завдання, часто за допомогою лише\n"
+"кількох натискань клавіш або кількох рядків коду. Він допомагає користувачам автоматизувати\n"
+"завдання, що повторюються, і легко об'єднувати менші завдання у більші та потужніші робочі процеси."
+
+#: shell-novice/index.md:12
+msgid ""
+"Use of the shell is fundamental to a wide range of advanced computing\n"
+"tasks, including high-performance computing. These lessons will introduce\n"
+"you to this powerful tool."
+msgstr ""
+"Використання терміналу є фундаментальним для широкого спектру сучасних обчислювальних\n"
+"завдань, включаючи високопродуктивні обчислення. Ці уроки познайомлять\n"
+"вас з цим потужним інструментом."
+
+# blockquote, which can be cascaded
+#: shell-novice/index.md:16
+msgid "> ## Prerequisites"
+msgstr "> ## Передумови"
+
+#: shell-novice/index.md:17
+msgid ""
+">\n"
+"> This lesson guides you through the basics of file systems and the\n"
+"> shell. If you have stored files on a computer at all and recognize\n"
+"> the word \"file\" and either \"directory\" or \"folder\" (two common words\n"
+"> for the same thing), you're ready for this lesson.\n"
+">\n"
+"> If you're already comfortable manipulating files and directories,\n"
+"> searching for files with `grep` and `find`, and writing simple loops\n"
+"> and scripts, you probably want to explore the next lesson:\n"
+"> [shell-extras](https://carpentries-incubator.github.io/shell-extras/)."
+msgstr ""
+">\n"
+"> У цьому уроці ви дізнаєтеся про основи файлових систем та\n"
+"> термінал. Якщо ви коли-небудь зберігали файли на комп'ютері і розпізнаєте\n"
+"> слово \"файл\" і \"каталог\" або \"тека\" (два загальновживаних слова,\n"
+"> що позначають одне й те саме), ви готові до цього уроку.\n"
+">\n"
+"> Якщо ви вже впевнено маніпулюєте файлами та каталогами,\n"
+"> шукаєте файли за допомогою команд `grep` і `find`, а також пишете прості цикли\n"
+"> та скрипти, вам, ймовірно, буде цікаво перейти до наступного уроку:\n"
+"> [shell-додаток](https://carpentries-incubator.github.io/shell-extras/)."
+
+# SC/DC Template label
+#: shell-novice/index.md:27
+msgid "{: .prereq}"
+msgstr "{: .prereq}"

@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 19:32:08+0000\n"
+"PO-Revision-Date: 2023-02-12 19:38+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: shell-novice/README.md:1
+msgid ""
+"[![Create a Slack Account with us][create_slack_svg]][slack_invite]\n"
+"[![Slack Status][slack_status_svg]][slack_status]\n"
+"[![DOI][doi_svg]][doi]"
+msgstr ""
+"[![Create a Slack Account with us][create_slack_svg]][slack_invite]\n"
+"[![Slack Status][slack_status_svg]][slack_status]\n"
+"[![DOI][doi_svg]][doi]"
+
+#: shell-novice/README.md:5
+msgid ""
+"shell-novice\n"
+"============"
+msgstr ""
+"shell-novice\n"
+"============"
+
+#: shell-novice/README.md:8
+msgid ""
+"An introduction to the Unix shell for people who have never used the command line before.\n"
+"Please see <https://swcarpentry.github.io/shell-novice/> for a rendered version of this material,\n"
+"[the lesson template documentation][lesson-example]\n"
+"for instructions on formatting, building, and submitting material,\n"
+"or run `make` in this directory for a list of helpful commands."
+msgstr ""
+"Знайомство з терміналом Unix для тих, хто ніколи раніше не користувався командним рядком.\n"
+"Будь ласка, зверніться до <https://swcarpentry.github.io/shell-novice/>, щоб переглянути візаулізовану версію цього матеріалу,\n"
+"[документацію до шаблону уроків][lesson-example]\n"
+"для отримання інструкцій щодо форматування, створення та надсилання матеріалу,\n"
+"або виконайте `make` у цьому каталозі для отримання списку корисних команд."
+
+# header
+#: shell-novice/README.md:14
+msgid "## Maintainers"
+msgstr "## Супровідники"
+
+# unordered list
+#: shell-novice/README.md:16
+msgid "* [Gerard Capes][gerard_capes]"
+msgstr "* [Gerard Capes][gerard_capes]"
+
+# unordered list
+#: shell-novice/README.md:17
+msgid "* [Jacob Deppen][jacob_deppen]"
+msgstr "* [Jacob Deppen][jacob_deppen]"
+
+# unordered list
+#: shell-novice/README.md:18
+msgid "* [Benson Muite][benson_muite]"
+msgstr "* [Benson Muite][benson_muite]"
+
+# header
+#: shell-novice/README.md:20
+msgid "## Contributing"
+msgstr "## Внески до проєкту"
+
+#: shell-novice/README.md:22
+msgid ""
+"If you would like to contribute to the development of the lesson, you can find details in our\n"
+"[CONTRIBUTING guide](https://github.com/swcarpentry/shell-novice/blob/gh-pages/CONTRIBUTING.md).\n"
+"Contributions can come in many different forms: typo and formatting fixes, additions or subtractions\n"
+"of content, suggestions, clarifications, and more."
+msgstr ""
+"Якщо ви хочете зробити свій внесок у розробку уроку, ви можете знайти деталі в нашому\n"
+"[Посібник для виконання внесків] (https://github.com/swcarpentry/shell-novice/blob/gh-pages/CONTRIBUTING.md).\n"
+"Внесок може бути у різних формах: виправлення помилок і форматування, додавання або вилучення\n"
+"змісту, пропозиції, роз'яснення тощо."
+
+#: shell-novice/README.md:27
+msgid ""
+"[gerard_capes]: https://carpentries.org/instructors/#capes_gerard\n"
+"[jacob_deppen]: https://deppen8.github.io/\n"
+"[benson_muite]: https://carpentries.org/instructors/#benson_muite\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example/\n"
+"[create_slack_svg]: https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg\n"
+"[slack_invite]: https://swc-slack-invite.herokuapp.com/\n"
+"[slack_status]: https://swcarpentry.slack.com/messages/C9X3XTHJ8\n"
+"[slack_status_svg]: https://img.shields.io/badge/Slack_Channel-swc--shell-E01563.svg\n"
+"[doi]: https://doi.org/10.5281/zenodo.3266823\n"
+"[doi_svg]: https://zenodo.org/badge/DOI/10.5281/zenodo.3266823.svg"
+msgstr ""
+"[gerard_capes]: https://carpentries.org/instructors/#capes_gerard\n"
+"[jacob_deppen]: https://deppen8.github.io/\n"
+"[benson_muite]: https://carpentries.org/instructors/#benson_muite\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example/\n"
+"[create_slack_svg]: https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg\n"
+"[slack_invite]: https://swc-slack-invite.herokuapp.com/\n"
+"[slack_status]: https://swcarpentry.slack.com/messages/C9X3XTHJ8\n"
+"[slack_status_svg]: https://img.shields.io/badge/Slack_Channel-swc--shell-E01563.svg\n"
+"[doi]: https://doi.org/10.5281/zenodo.3266823\n"
+"[doi_svg]: https://zenodo.org/badge/DOI/10.5281/zenodo.3266823.svg"

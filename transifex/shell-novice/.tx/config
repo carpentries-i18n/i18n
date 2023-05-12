@@ -1,0 +1,123 @@
+[main]
+host = https://www.transifex.com
+
+[o:carpentries-i18n:p:shell-novice:r:pot_00__404]
+file_filter  = <lang>/00__404.md.po
+source_file  = pot/00__404.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_01__CODE_OF_CONDUCT]
+file_filter  = <lang>/01__CODE_OF_CONDUCT.md.po
+source_file  = pot/01__CODE_OF_CONDUCT.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_02__CONTRIBUTING]
+file_filter  = <lang>/02__CONTRIBUTING.md.po
+source_file  = pot/02__CONTRIBUTING.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_03__LICENSE]
+file_filter  = <lang>/03__LICENSE.md.po
+source_file  = pot/03__LICENSE.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_04__README]
+file_filter  = <lang>/04__README.md.po
+source_file  = pot/04__README.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_05__01-intro]
+file_filter  = <lang>/05__01-intro.md.po
+source_file  = pot/05__01-intro.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_06__02-filedir]
+file_filter  = <lang>/06__02-filedir.md.po
+source_file  = pot/06__02-filedir.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_07__03-create]
+file_filter  = <lang>/07__03-create.md.po
+source_file  = pot/07__03-create.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_08__04-pipefilter]
+file_filter  = <lang>/08__04-pipefilter.md.po
+source_file  = pot/08__04-pipefilter.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_09__05-loop]
+file_filter  = <lang>/09__05-loop.md.po
+source_file  = pot/09__05-loop.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_10__06-script]
+file_filter  = <lang>/10__06-script.md.po
+source_file  = pot/10__06-script.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_11__07-find]
+file_filter  = <lang>/11__07-find.md.po
+source_file  = pot/11__07-find.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_12__about]
+file_filter  = <lang>/12__about.md.po
+source_file  = pot/12__about.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_13__discuss]
+file_filter  = <lang>/13__discuss.md.po
+source_file  = pot/13__discuss.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_14__figures]
+file_filter  = <lang>/14__figures.md.po
+source_file  = pot/14__figures.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_15__guide]
+file_filter  = <lang>/15__guide.md.po
+source_file  = pot/15__guide.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_16__aio]
+file_filter  = <lang>/16__aio.md.po
+source_file  = pot/16__aio.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_17__index]
+file_filter  = <lang>/17__index.md.po
+source_file  = pot/17__index.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_18__reference]
+file_filter  = <lang>/18__reference.md.po
+source_file  = pot/18__reference.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:shell-novice:r:pot_19__setup]
+file_filter  = <lang>/19__setup.md.po
+source_file  = pot/19__setup.md.pot
+type         = PO
+minimum_perc = 0
+

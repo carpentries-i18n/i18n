@@ -1,0 +1,1991 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 19:32:08+0000\n"
+"PO-Revision-Date: 2023-02-12 19:38+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: shell-novice/_episodes/02-filedir.md:1
+msgid ""
+"---\n"
+"title: \"Navigating Files and Directories\"\n"
+"teaching: 30\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I move around on my computer?\"\n"
+"- \"How can I see what files and directories I have?\"\n"
+"- \"How can I specify the location of a file or directory on my computer?\"\n"
+"objectives:\n"
+"- \"Explain the similarities and differences between a file and a directory.\"\n"
+"- \"Translate an absolute path into a relative path and vice versa.\"\n"
+"- \"Construct absolute and relative paths that identify specific files and directories.\"\n"
+"- \"Use options and arguments to change the behaviour of a shell command.\"\n"
+"- \"Demonstrate the use of tab completion and explain its advantages.\"\n"
+"keypoints:\n"
+"- \"The file system is responsible for managing information on the disk.\"\n"
+"- \"Information is stored in files, which are stored in directories (folders).\"\n"
+"- \"Directories can also store other directories, which then form a directory tree.\"\n"
+"- \"`pwd` prints the user's current working directory.\"\n"
+"- \"`ls [path]` prints a listing of a specific file or directory; `ls` on its own lists the current working directory.\"\n"
+"- \"`cd [path]` changes the current working directory.\"\n"
+"- \"Most commands take options that begin with a single `-`.\"\n"
+"- \"Directory names in a path are separated with `/` on Unix, but `\\\\` on Windows.\"\n"
+"- \"`/` on its own is the root directory of the whole file system.\"\n"
+"- \"An absolute path specifies a location from the root of the file system.\"\n"
+"- \"A relative path specifies a location starting from the current location.\"\n"
+"- \"`.` on its own means 'the current directory'; `..` means 'the directory above the current one'.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Навігація файлами та каталогами\"\n"
+"teaching: 30\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Як я можу переміщатися на моєму комп'ютері?\"\n"
+"- \"Як я можу побачити, які файли та каталоги у мене є?\"\n"
+"- \"Як вказати місцезнаходження файлу або каталогу на комп'ютері?\"\n"
+"objectives:\n"
+"- \"Пояснити подібності та відмінності між файлом і каталогом\".\n"
+"- \"Перетворити абсолютний шлях у відносний і навпаки\".\n"
+"- \"Створити абсолютні та відносні шляхи, які ідентифікують певні файли та каталоги\".\n"
+"- \"Використати опції та аргументи для зміни поведінки команди оболонки\".\n"
+"- \"Продемонструвати використання завершення вкладки та пояснити його переваги\".\n"
+"keypoints:\n"
+"- \"Файлова система відповідає за керування інформацією на диску\".\n"
+"- \"Інформація зберігається у файлах, які зберігаються в каталогах (папках)\".\n"
+"- \"У каталогах також можуть зберігатися інші каталоги, які потім утворюють дерево каталогів\".\n"
+"- \"Команда `pwd` виводить поточний робочий каталог користувача.\"\n"
+"- \"Команда `ls [шлях]` виводить список певного файлу або каталогу; Команда `ls` сама по собі виводить список поточного робочого каталогу.\"\n"
+"- \"Команда `cd [шлях]` змінює поточний робочий каталог.\"\n"
+"- \"Більшість команд приймають параметри, які починаються з одного символу `-`.\"\n"
+"- \"Назви каталогів у шляху розділяються символами `/` у Unix, але `\\\\` у Windows.\"\n"
+"- \"Символ `/` сам по собі є кореневим каталогом усієї файлової системи.\"\n"
+"- \"Абсолютний шлях вказує на розташування від кореня файлової системи.\"\n"
+"- \"Відносний шлях вказує на розташування, починаючи з поточного розташування.\"\n"
+"- \"Символ `.` сам по собі означає \"поточний каталог\"; `..` означає \"каталог вище поточного\", \"батьківський каталог\".\n"
+"---"
+
+#: shell-novice/_episodes/02-filedir.md:30
+msgid ""
+"The part of the operating system responsible for managing files and directories\n"
+"is called the **file system**.\n"
+"It organizes our data into files,\n"
+"which hold information,\n"
+"and directories (also called 'folders'),\n"
+"which hold files or other directories."
+msgstr ""
+"Частина операційної системи, яка відповідає за роботу з файлами та директоріями,\n"
+"називається **файлова система**.\n"
+"Вона організує наші дані у вигляді файлів,\n"
+"які містять інформацію,\n"
+"та директорій (їх ще називають 'каталогами'),\n"
+"які містять файли або інші директорії."
+
+#: shell-novice/_episodes/02-filedir.md:37
+msgid ""
+"Several commands are frequently used to create, inspect, rename, and delete files and directories.\n"
+"To start exploring them, we'll go to our open shell window."
+msgstr ""
+"Декілька команд часто використовуються для створення, перевірки, перейменування та видалення файлів та директорій.\n"
+"Для початку їх огляду, перейдемо до нашого відкритого вікна терміналу."
+
+#: shell-novice/_episodes/02-filedir.md:40
+msgid ""
+"First, let's find out where we are by running a command called `pwd`\n"
+"(which stands for 'print working directory'). Directories are like *places* — at any time\n"
+"while we are using the shell, we are in exactly one place called\n"
+"our **current working directory**. Commands mostly read and write files in the\n"
+"current working directory, i.e. 'here', so knowing where you are before running\n"
+"a command is important. `pwd` shows you where you are:"
+msgstr ""
+"По-перше, давайте дізнаємося, де ми знаходимося, шляхом виконання команди `pwd`\n"
+"(англ. 'print working directory' - надрукувати робочу директорію). Директорії — це немов *місця* — будь-коли\n"
+"під час використання терміналу ми знаходимось в якомусь одному конкретному місці, яке називається\n"
+"нашою **поточною робочою директорією**. Команди здебільшого читають вміст файлів та пишуть до них в\n"
+"поточній робочій директорії, тобто 'тут', отже розуміння того, де ви знаходитесь, перед запуском\n"
+"команди є важливим. Команда `pwd` покаже вам, де ви знаходитесь:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:47
+#: shell-novice/_episodes/02-filedir.md:417
+#: shell-novice/_episodes/02-filedir.md:473
+#: shell-novice/_episodes/02-filedir.md:532
+#: shell-novice/_episodes/02-filedir.md:576
+#: shell-novice/_episodes/03-create.md:35
+msgid ""
+"~~~\n"
+"$ pwd\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ pwd\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:52
+#: shell-novice/_episodes/02-filedir.md:537
+msgid ""
+"~~~\n"
+"/Users/nelle\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"/Users/nelle\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:57
+msgid ""
+"Here,\n"
+"the computer's response is `/Users/nelle`,\n"
+"which is Nelle's **home directory**:"
+msgstr ""
+"У наведеному прикладі\n"
+"комп'ютер відповів `/Users/nelle`,\n"
+"що є **домашньою директорією** Неллі:"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:61
+msgid "> ## Home Directory Variation"
+msgstr "> ## Варіації домашнього каталогу"
+
+#: shell-novice/_episodes/02-filedir.md:62
+msgid ""
+">\n"
+"> The home directory path will look different on different operating systems.\n"
+"> On Linux, it may look like `/home/nelle`,\n"
+"> and on Windows, it will be similar to `C:\\Documents and Settings\\nelle` or\n"
+"> `C:\\Users\\nelle`.\n"
+"> (Note that it may look slightly different for different versions of Windows.)\n"
+"> In future examples, we've used Mac output as the default - Linux and Windows\n"
+"> output may differ slightly but should be generally similar.\n"
+">\n"
+"> We will also assume that your `pwd` command returns your user's home directory.\n"
+"> If `pwd` returns something different, you may need to navigate there using `cd`\n"
+"> or some commands in this lesson will not work as written.\n"
+"> See [Exploring Other Directories](#exploring-other-directories) for more details\n"
+"> on the `cd` command."
+msgstr ""
+"> \n"
+"> Розташування домашньої директорії виглядає по-різному в різних операційних системах.\n"
+"> В Linux воно може виглядати як `/home/nelle`,\n"
+"> а у Windows воно буде схоже на `C:\\Documents and Settings\\nelle` чи\n"
+"> `C:\\Users\\nelle`.\n"
+"> (Зауважте, що воно може виглядати дещо інакше для різних версій Windows.)\n"
+"> У майбутніх прикладах ми використовували формат виводу Mac як стандартний – формати виводу Linux та Windows\n"
+"> можуть дещо відрізнятися, але загалом мають бути подібними.\n"
+"> Ми також припустимо, що ваша команда `pwd` повертає вашу домашню директорію користувача.\n"
+"> Якщо команда `pwd` повертає щось інше, вам може знадобитися перейти туди за допомогою команди `cd`,\n"
+"> інакше деякі команди в цьому уроці не будуть працювати як описано.\n"
+"> Дивись [Огляд інших каталогів](#exploring-other-directories), щоб дізнатися більше\n"
+"> про команду `cd`."
+
+#: shell-novice/_episodes/02-filedir.md:78
+msgid ""
+"To understand what a 'home directory' is,\n"
+"let's have a look at how the file system as a whole is organized.  For the\n"
+"sake of this example, we'll be\n"
+"illustrating the filesystem on our scientist Nelle's computer.  After this\n"
+"illustration, you'll be learning commands to explore your own filesystem,\n"
+"which will be constructed in a similar way, but not be exactly identical."
+msgstr ""
+"Для того, щоб зрозуміти, що таке 'домашній каталог',\n"
+"давайте подивимось, як організована файлова система в цілому. Для\n"
+"цього прикладу ми\n"
+"проілюструємо файлову систему на комп’ютері нашої вченої Неллі. Після цієї\n"
+"ілюстрації ви вивчатимете команди для дослідження власної файлової системи,\n"
+"яка буде побудовані подібним чином, але не буде абсолютно ідентичною."
+
+#: shell-novice/_episodes/02-filedir.md:85
+msgid "On Nelle's computer, the filesystem looks like this:"
+msgstr "На комп’ютері Неллі файлова система виглядає так:"
+
+#: shell-novice/_episodes/02-filedir.md:87
+msgid ""
+"![The file system is made up of a root directory that contains sub-directories\n"
+"titled bin, data, users, and tmp](../fig/filesystem.svg)"
+msgstr ""
+"![Файлова система складається з кореневого каталогу, який містить підкаталоги\n"
+"під назвами bin, data, users та tmp](../fig/filesystem.svg)"
+
+#: shell-novice/_episodes/02-filedir.md:90
+msgid ""
+"At the top is the **root directory**\n"
+"that holds everything else.\n"
+"We refer to it using a slash character, `/`, on its own;\n"
+"this character is the leading slash in `/Users/nelle`."
+msgstr ""
+"У верхній частині знаходиться **кореневий каталог**,\n"
+"який містить усе інше.\n"
+"Ми виконуємо посилання на нього за допомогою символу косої риски, `/`;\n"
+"цей символ - це перший (лівий) символ у рядку `/Users/nelle`."
+
+#: shell-novice/_episodes/02-filedir.md:95
+msgid ""
+"Inside that directory are several other directories:\n"
+"`bin` (which is where some built-in programs are stored),\n"
+"`data` (for miscellaneous data files),\n"
+"`Users` (where users' personal directories are located),\n"
+"`tmp` (for temporary files that don't need to be stored long-term),\n"
+"and so on."
+msgstr ""
+"Усередині цього каталогу є кілька інших каталогів:\n"
+"`bin` (в якому зберігаються певні вбудовані програми),\n"
+"`data` (для різноманітних файлів даних),\n"
+"`Users` (де знаходяться особисті директорії користувачів),\n"
+"`tmp` (для файлів тимчасового зберігання)\n"
+"та інші."
+
+#: shell-novice/_episodes/02-filedir.md:102
+msgid ""
+"We know that our current working directory `/Users/nelle` is stored inside `/Users`\n"
+"because `/Users` is the first part of its name.\n"
+"Similarly,\n"
+"we know that `/Users` is stored inside the root directory `/`\n"
+"because its name begins with `/`."
+msgstr ""
+"Ми знаємо, що наш поточний робочий каталог `/Users/nelle` зберігається всередині каталогу `/Users`,\n"
+"тому що `/Users` є першою частиною його імені.\n"
+"Відповідно,\n"
+"ми знаємо, що каталог `/Users` зберігається всередині кореневої директорії `/`,\n"
+"бо його ім'я розпочинається з `/`."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:108
+msgid "> ## Slashes"
+msgstr "> ## Символи скісної риски"
+
+#: shell-novice/_episodes/02-filedir.md:109
+msgid ""
+">\n"
+"> Notice that there are two meanings for the `/` character.\n"
+"> When it appears at the front of a file or directory name,\n"
+"> it refers to the root directory. When it appears *inside* a path,\n"
+"> it's just a separator."
+msgstr ""
+"> \n"
+"> Зверніть увагу, що символ `/` має два значення.\n"
+"> Коли він з’являється на початку назви файлу чи каталогу,\n"
+"> це посилання на кореневу директорію. Коли він використовується *всередині* шляху,\n"
+"> це лише роздільник."
+
+#: shell-novice/_episodes/02-filedir.md:116
+msgid ""
+"Underneath `/Users`,\n"
+"we find one directory for each user with an account on Nelle's machine,\n"
+"her colleagues *imhotep* and *larry*."
+msgstr ""
+"Під `/Users`\n"
+"ми знайдемо по одній директорії для кожного користувача на машині Неллі:\n"
+"її колег *imhotep* та *larry*."
+
+#: shell-novice/_episodes/02-filedir.md:120
+msgid ""
+"![Like other directories, home directories are sub-directories underneath\n"
+"\"/Users\" like \"/Users/imhotep\", \"/Users/larry\" or\n"
+"\"/Users/nelle\"](../fig/home-directories.svg)"
+msgstr ""
+"![Як і інші каталоги, домашні каталоги є підкаталогами\n"
+"\"/Users\", наприклад \"/Users/imhotep\", \"/Users/larry\" або\n"
+"\"/Users/nelle\"](../fig/home-directories.svg)"
+
+#: shell-novice/_episodes/02-filedir.md:124
+msgid ""
+"The user *imhotep*'s files are stored in `/Users/imhotep`,\n"
+"user *larry*'s in `/Users/larry`,\n"
+"and Nelle's in `/Users/nelle`. Nelle is the user in our\n"
+"examples here, therefore we get `/Users/nelle` as our home directory.\n"
+"Typically, when you open a new command prompt, you will be in\n"
+"your home directory to start."
+msgstr ""
+"Файли користувача *imhotep* зберігаються в директорії `/Users/imhotep`,\n"
+"користувача *larry* - в `/Users/larry`,\n"
+"і Неллі - в `/Users/nelle`. Оскільки саме Неллі є користувачем у наших\n"
+"прикладах, тому ми отримуємо `/Users/nelle` як наш домашній каталог.\n"
+"Як правило, коли ви відкриваєте новий командний рядок, ви опиняєтесь в\n"
+"вашому домашньому каталозі."
+
+#: shell-novice/_episodes/02-filedir.md:131
+msgid ""
+"Now let's learn the command that will let us see the contents of our\n"
+"own filesystem.  We can see what's in our home directory by running `ls`:"
+msgstr ""
+"Тепер давайте вивчимо команду, яка дозволить нам бачити вміст нашої\n"
+"власної файлової системи. Ми можемо побачити, що знаходиться в нашому домашньому каталозі, запустивши `ls`:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:139
+msgid ""
+"~~~\n"
+"Applications Documents    Library      Music        Public\n"
+"Desktop      Downloads    Movies       Pictures\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Applications Documents    Library      Music        Public\n"
+"Desktop      Downloads    Movies       Pictures\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:145
+msgid ""
+"(Again, your results may be slightly different depending on your operating\n"
+"system and how you have customized your filesystem.)"
+msgstr ""
+"(Знову ж таки, ваші результати можуть дещо відрізнятися залежно від вашої операційної\n"
+"системи та того, як ви налаштували свою файлову систему.)"
+
+#: shell-novice/_episodes/02-filedir.md:148
+msgid ""
+"`ls` prints the names of the files and directories in the current directory.\n"
+"We can make its output more comprehensible by using the `-F` **option**\n"
+"which tells `ls` to classify the output\n"
+"by adding a marker to file and directory names to indicate what they are:\n"
+"- a trailing `/` indicates that this is a directory\n"
+"- `@` indicates a link\n"
+"- `*` indicates an executable"
+msgstr ""
+"`ls` друкує назви файлів і каталогів у поточному каталозі.\n"
+"Ми можемо зробити його вивід більш зрозумілим, використовуючи **опцію** `-F`\n"
+"який повідомляє `ls` про необхідність класифікації виводу\n"
+"шляхом додавання маркера до імен файлів і каталогів, щоб вказати, що вони собою представляють:\n"
+"- символ `/` наприкінці назви вказує на те, що це каталог\n"
+"- `@` вказує на посилання\n"
+"- `*` вказує на виконуваний файл"
+
+#: shell-novice/_episodes/02-filedir.md:156
+msgid ""
+"Depending on your shell's default settings,\n"
+"the shell might also use colors to indicate whether each entry is a file or\n"
+"directory."
+msgstr ""
+"Залежно від налаштувань терміналу за замовчуванням,\n"
+"в терміналі також можуть бути використані кольори, щоб вказати, чи є кожен елемент файлом або\n"
+"каталогом."
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:160
+#: shell-novice/_episodes/02-filedir.md:427
+#: shell-novice/_episodes/03-create.md:51
+#: shell-novice/_episodes/03-create.md:77
+msgid ""
+"~~~\n"
+"$ ls -F\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls -F\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:165
+msgid ""
+"~~~\n"
+"Applications/ Documents/    Library/      Music/        Public/\n"
+"Desktop/      Downloads/    Movies/       Pictures/\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Applications/ Documents/    Library/      Music/        Public/\n"
+"Desktop/      Downloads/    Movies/       Pictures/\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:171
+msgid ""
+"Here,\n"
+"we can see that our home directory contains only **sub-directories**.\n"
+"Any names in our output that don't have a classification symbol\n"
+"are plain old **files**."
+msgstr ""
+"В наведеному прикладі\n"
+"ми бачимо, що наш домашній каталог містить лише **підкаталоги**.\n"
+"Будь-які імена в наших результатах, які не мають символу класифікації\n"
+"відповідають звичайним старим **файлам**."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:176
+msgid "> ## Clearing your terminal"
+msgstr "> ## Очищення терміналу"
+
+#: shell-novice/_episodes/02-filedir.md:177
+msgid ""
+">\n"
+"> If your screen gets too cluttered, you can clear your terminal using the\n"
+"> `clear` command. You can still access previous commands using <kbd>↑</kbd>\n"
+"> and <kbd>↓</kbd> to move line-by-line, or by scrolling in your terminal."
+msgstr ""
+">\n"
+"> Якщо екран стає занадто захаращеним, ви можете очистити термінал за допомогою\n"
+"> команди `clear`. Ви все ще можете отримати доступ до попередніх команд за допомогою клавіш <kbd>↑</kbd>\n"
+"> та <kbd>↓</kbd> щоб переміщатися рядок за рядком, або за допомогою прокрутки у вашому терміналі."
+
+# header
+#: shell-novice/_episodes/02-filedir.md:183
+msgid "### Getting help"
+msgstr "### Отримання допомоги"
+
+#: shell-novice/_episodes/02-filedir.md:185
+msgid ""
+"`ls` has lots of other **options**. There are two common ways to find out how\n"
+"to use a command and what options it accepts ---\n"
+"**depending on your environment, you might find that only one of these ways works:**"
+msgstr ""
+"У `ls` є багато інших **опцій**. Існує два поширених способи дізнатися, як\n"
+"використовувати команду і які параметри вона приймає ---\n"
+"**залежно від вашого середовища, ви можете виявити, що працює лише один із цих способів:**."
+
+# ordered list
+#: shell-novice/_episodes/02-filedir.md:189
+msgid ""
+"1. We can pass a `--help` option to the command (available on Linux and Git "
+"Bash), such as:"
+msgstr ""
+"1. Ми можемо передати команді опцію `--help` (доступну в Linux і Git Bash), "
+"наприклад:"
+
+#: shell-novice/_episodes/02-filedir.md:190
+msgid ""
+"    ~~~\n"
+"    $ ls --help\n"
+"    ~~~\n"
+"    {: .language-bash}"
+msgstr ""
+"    ~~~\n"
+"    $ ls --help\n"
+"    ~~~\n"
+"    {: .language-bash}"
+
+# ordered list
+#: shell-novice/_episodes/02-filedir.md:195
+msgid ""
+"2. We can read its manual with `man` (available on Linux and macOS), such "
+"as:"
+msgstr ""
+"2. Ми можемо прочитати інструкцію до використання команди за допомогою `man`"
+" (доступно на Linux і macOS), наприклад:"
+
+#: shell-novice/_episodes/02-filedir.md:196
+msgid ""
+"    ~~~\n"
+"    $ man ls\n"
+"    ~~~\n"
+"    {: .language-bash}"
+msgstr ""
+"    ~~~\n"
+"    $ man ls\n"
+"    ~~~\n"
+"    {: .language-bash}"
+
+#: shell-novice/_episodes/02-filedir.md:201
+msgid "We'll describe both ways next."
+msgstr "Далі ми опишемо обидва способи."
+
+# header
+#: shell-novice/_episodes/02-filedir.md:203
+msgid "#### The `--help` option"
+msgstr "#### Опція `--help'"
+
+#: shell-novice/_episodes/02-filedir.md:205
+msgid ""
+"Most bash commands and programs that people have written to be\n"
+"run from within bash, support a `--help` option that displays more\n"
+"information on how to use the command or program."
+msgstr ""
+"Більшість команд bash і програм, які люди написали для того, щоб їх можна було\n"
+"запускати з bash, підтримують опцію `--help`, яка виводить додаткову\n"
+"інформацію про те, як користуватися відповідною командою або програмою."
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:209
+msgid ""
+"~~~\n"
+"$ ls --help\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls --help\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:214
+msgid ""
+"~~~\n"
+"Usage: ls [OPTION]... [FILE]...\n"
+"List information about the FILEs (the current directory by default).\n"
+"Sort entries alphabetically if neither -cftuvSUX nor --sort is specified.\n"
+"\n"
+"Mandatory arguments to long options are mandatory for short options, too.\n"
+"  -a, --all                  do not ignore entries starting with .\n"
+"  -A, --almost-all           do not list implied . and ..\n"
+"      --author               with -l, print the author of each file\n"
+"  -b, --escape               print C-style escapes for nongraphic characters\n"
+"      --block-size=SIZE      scale sizes by SIZE before printing them; e.g.,\n"
+"                               '--block-size=M' prints sizes in units of\n"
+"                               1,048,576 bytes; see SIZE format below\n"
+"  -B, --ignore-backups       do not list implied entries ending with ~\n"
+"  -c                         with -lt: sort by, and show, ctime (time of last\n"
+"                               modification of file status information);\n"
+"                               with -l: show ctime and sort by name;\n"
+"                               otherwise: sort by ctime, newest first\n"
+"  -C                         list entries by columns\n"
+"      --color[=WHEN]         colorize the output; WHEN can be 'always' (default\n"
+"                               if omitted), 'auto', or 'never'; more info below\n"
+"  -d, --directory            list directories themselves, not their contents\n"
+"  -D, --dired                generate output designed for Emacs' dired mode\n"
+"  -f                         do not sort, enable -aU, disable -ls --color\n"
+"  -F, --classify             append indicator (one of */=>@|) to entries\n"
+"...        ...        ...\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Використання: ls [ПАРАМЕТР]... [ФАЙЛ]...\n"
+"Виводить дані щодо ФАЙЛів (типово у поточному каталозі).\n"
+"Впорядковує у алфавітному порядку, якщо не вказано ні --sort, ні один з\n"
+"параметрів -cftuSUX.\n"
+"\n"
+"Обов'язкові аргументи для довгих форм запису параметрів є обов'язковими і для ск орочених форм.\n"
+"  -a, --all                  не ігнорувати записи, що починаються з .\n"
+"  A, --almost-all           не виводити неявні . і ..\n"
+"      --author               разом з -l, виводити автора кожного файла\n"
+"  -b, --escape               виводити вісімкові керівні послідовності\n"
+"                             замість неграфічних знаків\n"
+"      --block-size=РОЗМІР    якщо вкзаано -l, використовувати блоки розміром РОЗМІР.\n"
+"\n"
+"                               Наприклад, «--block-size=M». Формат РОЗМІРу наведено\n"
+"                               нижче.\n"
+"  -B, --ignore-backups       не виводити файли, що закінчуються на ~\n"
+"  -c                         з -lt: сортувати за часом зміни; з -l:\n"
+"                              виводити час зміни та впорядкувати за назвою,\n"
+"                              у іншому випадку впорядкувати за часом зміни,\n"
+"                              найновіші — перші\n"
+"  -C                     виводити список у декілька колонок\n"
+"      --color[=КОЛИ]                     вказує, чи позначати типи файлів кольором.\n"
+"                               КОЛИ може бути «never», «auto» або\n"
+"                               «always» (типовий, якщо не вказано)\n"
+"  -d, --directory            виводити назви каталогів, а не їх зміст, а\n"
+"                              також не слідувати за символічним посиланням\n"
+"  -D, --dired                 створити виведені дані у режимі Emacs dired\n"
+"  -f                         не сортувати, вмикає -aU, вимикає -lst\n"
+"  -F, --classify             додавати до назви індикатор (один з */=>@|)...        ...        ...\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:243
+msgid "> ## Unsupported command-line options"
+msgstr "> ## Непідтримувані параметри командного рядка"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:244
+msgid ""
+"> If you try to use an option that is not supported, `ls` and other commands"
+msgstr ""
+"> Якщо ви спробуєте використати параметр, який не підтримується, `ls` та "
+"інші команди"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:245
+msgid "> will usually print an error message similar to:"
+msgstr "> зазвичай виводитимуть повідомлення про помилку, схоже на:"
+
+#: shell-novice/_episodes/02-filedir.md:246
+msgid ""
+">\n"
+"> ~~~\n"
+"> $ ls -j\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> ~~~\n"
+"> ls: invalid option -- 'j'\n"
+"> Try 'ls --help' for more information.\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> ~~~\n"
+"> $ ls -j\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> ~~~\n"
+"> ls: invalid option -- 'j'\n"
+"> Try 'ls --help' for more information.\n"
+"> ~~~"
+
+# SC/DC Template label
+#: shell-novice/_episodes/02-filedir.md:256
+#: shell-novice/_episodes/05-loop.md:460
+msgid "> {: .error}"
+msgstr "> {: .error}"
+
+# header
+#: shell-novice/_episodes/02-filedir.md:259
+msgid "#### The `man` command"
+msgstr "#### Команда `man`"
+
+#: shell-novice/_episodes/02-filedir.md:261
+msgid ""
+"The other way to learn about `ls` is to type\n"
+"~~~\n"
+"$ man ls\n"
+"~~~\n"
+"{: .language-bash}"
+msgstr ""
+"Інший спосіб дізнатися про `ls` -- це ввести\n"
+"~~~\n"
+"$ man ls\n"
+"~~~\n"
+"{: .language-bash}"
+
+#: shell-novice/_episodes/02-filedir.md:267
+msgid ""
+"This command will turn your terminal into a page with a description\n"
+"of the `ls` command and its options."
+msgstr ""
+"Ця команда перетворить ваш термінал на сторінку з описом\n"
+"команди `ls` та її параметрів."
+
+#: shell-novice/_episodes/02-filedir.md:270
+msgid ""
+"To navigate through the `man` pages,\n"
+"you may use <kbd>↑</kbd> and <kbd>↓</kbd> to move line-by-line,\n"
+"or try <kbd>B</kbd> and <kbd>Spacebar</kbd> to skip up and down by a full page.\n"
+"To search for a character or word in the `man` pages,\n"
+"use <kbd>/</kbd> followed by the character or word you are searching for.\n"
+"Sometimes a search will result in multiple hits.\n"
+"If so, you can move between hits using <kbd>N</kbd> (for moving forward) and\n"
+"<kbd>Shift</kbd>+<kbd>N</kbd> (for moving backward)."
+msgstr ""
+"Для навігації по сторінках `man`,\n"
+"ви можете використовувати <kbd>↑</kbd> і <kbd>↓</kbd> для переміщення рядок за рядком,\n"
+"або клавіші <kbd>B</kbd> та <kbd>Пробіл</kbd> для переходу вгору і вниз на цілу сторінку.\n"
+"Для пошуку символу або слова на сторінках `man`,\n"
+"використовуйте клавішу <kbd>/</kbd>, за фкою введіть символ або слово, яке ви шукаєте.\n"
+"Іноді пошук може призвести до кількох результатів.\n"
+"У такому випадку ви можете переміщатися між результатами за допомогою клавіш <kbd>N</kbd> (для переміщення вперед) та\n"
+"<kbd>Shift</kbd>+<kbd>N</kbd> (для переходу назад)."
+
+#: shell-novice/_episodes/02-filedir.md:279
+msgid "To **quit** the `man` pages, press <kbd>Q</kbd>."
+msgstr "Для **виходу** зі сторінок `man` натисніть <kbd>Q</kbd>."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:281
+msgid "> ## Manual pages on the web"
+msgstr "## Сторінки з інструкціями в Інтернеті"
+
+#: shell-novice/_episodes/02-filedir.md:282
+msgid ""
+">\n"
+"> Of course, there is a third way to access help for commands:\n"
+"> searching the internet via your web browser.\n"
+"> When using internet search, including the phrase `unix man page` in your search\n"
+"> query will help to find relevant results.\n"
+">\n"
+"> GNU provides links to its\n"
+"> [manuals](http://www.gnu.org/manual/manual.html) including the\n"
+"> [core GNU utilities](http://www.gnu.org/software/coreutils/manual/coreutils.html),\n"
+"> which covers many commands introduced within this lesson."
+msgstr ""
+">\n"
+"> Звісно, є й третій спосіб отримати доступ до довідки до команд:\n"
+"> пошук в інтернеті за допомогою веб-браузера.\n"
+"> Якщо ви скористаєтеся пошуком у Інтернеті, додання до запиту фрази `unix man page`\n"
+"> дозволить отримати більш відповідні результати.\n"
+">\n"
+"GNU надає посилання на свої\n"
+"> [посібники].(http://www.gnu.org/manual/manual.html), в тому числі на\n"
+"> [основні утиліти GNU](http://www.gnu.org/software/coreutils/manual/coreutils.html),\n"
+"> які охоплюють багато команд, представлених у цьому уроці."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:294
+msgid "> ## Exploring More `ls` Flags"
+msgstr "> ## Вивчення більше `ls` опцій"
+
+#: shell-novice/_episodes/02-filedir.md:295
+msgid ""
+">\n"
+"> You can also use two options at the same time. What does the command `ls` do when used\n"
+"> with the `-l` option? What about if you use both the `-l` and the `-h` option?\n"
+">\n"
+"> Some of its output is about properties that we do not cover in this lesson (such\n"
+"> as file permissions and ownership), but the rest should be useful\n"
+"> nevertheless.\n"
+">\n"
+"> > ## Solution\n"
+"> > The `-l` option makes `ls` use a **l**ong listing format, showing not only\n"
+"> > the file/directory names but also additional information, such as the file size\n"
+"> > and the time of its last modification. If you use both the `-h` option and the `-l` option,\n"
+"> > this makes the file size '**h**uman readable', i.e. displaying something like `5.3K`\n"
+"> > instead of `5369`."
+msgstr ""
+">\n"
+"> Ви також можете використовувати декілька опцій одночасно. Що робить команда `ls` при використанні\n"
+"> з опцією `-l`? А якщо ви використовуєте і `-l`, і `-h`?\n"
+">\n"
+"> Деякі з результатів виконання команди стосуються властивостей, які ми не розглядаємо у цьому уроці (наприклад,\n"
+"> права доступу до файлів і права власності), але решта має бути корисною\n"
+"> тим не менш.\n"
+">\n"
+"> > ## Розв'язання\n"
+"> > Опція `-l` змушує `ls` використовувати довгий (англ. **l**ong) формат лістингу, показуючи не лише\n"
+"> > назви файлів/директорій, але й додаткову інформацію, таку як розмір файлу\n"
+"> > і час його останньої модифікації. Якщо ви використовуєте як `-h`, так і `-l`,\n"
+"> > це зробить виведення розміру файлу у більш зрозумілому людині вигляді (\"**h**uman readable\"), тобто покаже щось на кшталт `5.3K`.\n"
+"> > замість `5369`."
+
+# SC/DC Template label
+#: shell-novice/_episodes/02-filedir.md:309
+#: shell-novice/_episodes/02-filedir.md:326
+#: shell-novice/_episodes/02-filedir.md:660
+#: shell-novice/_episodes/02-filedir.md:685
+#: shell-novice/_episodes/02-filedir.md:715
+#: shell-novice/_episodes/03-create.md:274
+#: shell-novice/_episodes/03-create.md:437
+#: shell-novice/_episodes/03-create.md:508
+#: shell-novice/_episodes/03-create.md:559
+#: shell-novice/_episodes/03-create.md:612
+#: shell-novice/_episodes/03-create.md:689
+#: shell-novice/_episodes/03-create.md:754
+#: shell-novice/_episodes/03-create.md:852
+#: shell-novice/_episodes/03-create.md:898
+#: shell-novice/_episodes/03-create.md:971
+#: shell-novice/_episodes/04-pipefilter.md:233
+#: shell-novice/_episodes/04-pipefilter.md:338
+#: shell-novice/_episodes/04-pipefilter.md:367
+#: shell-novice/_episodes/04-pipefilter.md:463
+#: shell-novice/_episodes/04-pipefilter.md:527
+#: shell-novice/_episodes/04-pipefilter.md:568
+#: shell-novice/_episodes/04-pipefilter.md:601
+#: shell-novice/_episodes/04-pipefilter.md:715
+#: shell-novice/_episodes/05-loop.md:196 shell-novice/_episodes/05-loop.md:269
+#: shell-novice/_episodes/05-loop.md:293 shell-novice/_episodes/05-loop.md:314
+#: shell-novice/_episodes/05-loop.md:343 shell-novice/_episodes/05-loop.md:371
+#: shell-novice/_episodes/05-loop.md:778 shell-novice/_episodes/05-loop.md:805
+#: shell-novice/_episodes/06-script.md:333
+#: shell-novice/_episodes/06-script.md:384
+#: shell-novice/_episodes/06-script.md:509
+#: shell-novice/_episodes/06-script.md:555
+#: shell-novice/_episodes/06-script.md:604
+#: shell-novice/_episodes/06-script.md:646
+#: shell-novice/_episodes/07-find.md:276 shell-novice/_episodes/07-find.md:375
+#: shell-novice/_episodes/07-find.md:425 shell-novice/_episodes/07-find.md:676
+#: shell-novice/_episodes/07-find.md:724
+msgid "> {: .solution}"
+msgstr "> {: .solution}"
+
+# SC/DC Template label
+#: shell-novice/_episodes/02-filedir.md:310
+#: shell-novice/_episodes/02-filedir.md:327
+#: shell-novice/_episodes/02-filedir.md:661
+#: shell-novice/_episodes/02-filedir.md:686
+#: shell-novice/_episodes/02-filedir.md:716
+#: shell-novice/_episodes/03-create.md:285
+#: shell-novice/_episodes/03-create.md:438
+#: shell-novice/_episodes/03-create.md:509
+#: shell-novice/_episodes/03-create.md:560
+#: shell-novice/_episodes/03-create.md:613
+#: shell-novice/_episodes/03-create.md:690
+#: shell-novice/_episodes/03-create.md:755
+#: shell-novice/_episodes/03-create.md:853
+#: shell-novice/_episodes/03-create.md:899
+#: shell-novice/_episodes/03-create.md:972
+#: shell-novice/_episodes/04-pipefilter.md:234
+#: shell-novice/_episodes/04-pipefilter.md:339
+#: shell-novice/_episodes/04-pipefilter.md:368
+#: shell-novice/_episodes/04-pipefilter.md:464
+#: shell-novice/_episodes/04-pipefilter.md:528
+#: shell-novice/_episodes/04-pipefilter.md:569
+#: shell-novice/_episodes/04-pipefilter.md:602
+#: shell-novice/_episodes/04-pipefilter.md:716
+#: shell-novice/_episodes/05-loop.md:197 shell-novice/_episodes/05-loop.md:270
+#: shell-novice/_episodes/05-loop.md:315 shell-novice/_episodes/05-loop.md:344
+#: shell-novice/_episodes/05-loop.md:372 shell-novice/_episodes/05-loop.md:779
+#: shell-novice/_episodes/05-loop.md:806
+#: shell-novice/_episodes/06-script.md:334
+#: shell-novice/_episodes/06-script.md:385
+#: shell-novice/_episodes/06-script.md:510
+#: shell-novice/_episodes/06-script.md:556
+#: shell-novice/_episodes/06-script.md:605
+#: shell-novice/_episodes/06-script.md:647
+#: shell-novice/_episodes/07-find.md:277 shell-novice/_episodes/07-find.md:376
+#: shell-novice/_episodes/07-find.md:426 shell-novice/_episodes/07-find.md:677
+#: shell-novice/_episodes/07-find.md:725
+msgid "{: .challenge}"
+msgstr "{: .challenge}"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:312
+msgid "> ## Listing in Reverse Chronological Order"
+msgstr "> ## Виведення у зворотному хронологічному порядку"
+
+#: shell-novice/_episodes/02-filedir.md:313
+msgid ""
+">\n"
+"> By default, `ls` lists the contents of a directory in alphabetical\n"
+"> order by name. The command `ls -t` lists items by time of last\n"
+"> change instead of alphabetically. The command `ls -r` lists the\n"
+"> contents of a directory in reverse order.\n"
+"> Which file is displayed last when you combine the `-t` and `-r` options?\n"
+"> Hint: You may need to use the `-l` option to see the\n"
+"> last changed dates.\n"
+">\n"
+"> > ## Solution\n"
+"> > The most recently changed file is listed last when using `-rt`. This\n"
+"> > can be very useful for finding your most recent edits or checking to\n"
+"> > see if a new output file was written."
+msgstr ""
+">\n"
+"> За замовчуванням `ls` виводить вміст каталогу в алфавітному\n"
+"> порядку за іменами елементів. Команда `ls -t` перелічує елементи за часом останньої\n"
+"> зміни, а не за алфавітом. Команда `ls -r` виводить\n"
+"> вміст каталогу у зворотному порядку.\n"
+"> Який файл буде показано останнім при комбінації команд `-t` і `-r`?\n"
+"> Підказка: Вам може знадобитися скористатися опцією `-l`, щоб переглянути\n"
+"> дати останніх змін.\n"
+">\n"
+"> > ## Рішення\n"
+"> > При використанні `-rt` останній змінений файл відображається останнім у списку. Це\n"
+"> > може бути дуже корисним для пошуку ваших останніх редагувань або перевірки\n"
+"> > чи було створено новий вихідний файл."
+
+# header
+#: shell-novice/_episodes/02-filedir.md:329
+msgid "### Exploring Other Directories"
+msgstr "### Огляд інших каталогів"
+
+#: shell-novice/_episodes/02-filedir.md:331
+msgid ""
+"Not only can we use `ls` on the current working directory,\n"
+"but we can use it to list the contents of a different directory.\n"
+"Let's take a look at our `Desktop` directory by running `ls -F Desktop`,\n"
+"i.e.,\n"
+"the command `ls` with the `-F` **option** and the [**argument**][Arguments]  `Desktop`.\n"
+"The argument `Desktop` tells `ls` that\n"
+"we want a listing of something other than our current working directory:"
+msgstr ""
+"Ми можемо використовувати `ls` не лише у поточному робочому каталозі,\n"
+"але ми також можемо використовувати його для виведення вмісту іншого каталогу.\n"
+"Давайте подивимося на наш каталог `Desktop` (робочий стіл), виконавши `ls -F Desktop`,\n"
+"тобто,\n"
+"команду `ls` з `-F` **опцією** і [**аргументом**] [Arguments] `Desktop`.\n"
+"Аргумент `Desktop` повідомляє `ls`, що\n"
+"ми хочемо отримати список чогось іншого, ніж наш поточний робочий каталог:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:339
+msgid ""
+"~~~\n"
+"$ ls -F Desktop\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls -F Desktop\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:344
+msgid ""
+"~~~\n"
+"shell-lesson-data/\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"shell-lesson-data/\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:349
+msgid ""
+"Note that if a directory named `Desktop` does not exist in your current working directory,\n"
+"this command will return an error. Typically, a `Desktop` directory exists in your\n"
+"home directory, which we assume is the current working directory of your bash shell."
+msgstr ""
+"Зауважте, що якщо у вашому поточному робочому каталозі не існує каталогу з назвою `Desktop`,\n"
+"ця команда поверне помилку. Зазвичай, каталог `Desktop` існує у вашому\n"
+"домашньому каталозі, який ми вважаємо поточним робочим каталогом вашого терміналу bash."
+
+#: shell-novice/_episodes/02-filedir.md:353
+msgid ""
+"Your output should be a list of all the files and sub-directories in your\n"
+"Desktop directory, including the `shell-lesson-data` directory you downloaded at\n"
+"the [setup for this lesson]({{ page.root }}{% link setup.md %}).\n"
+"On many systems,\n"
+"the command line Desktop directory is the same as your GUI Desktop.\n"
+"Take a look at your Desktop to confirm that your output is accurate."
+msgstr ""
+"На виході ви маєте отримати список усіх файлів і підкаталогів у вашому\n"
+"каталозі Desktop, включно з каталогом `shell-lesson-data`, який ви завантажили за посиланням\n"
+"під час [налаштування цього уроку]({{ page.root }}{% link setup.md %}).\n"
+"У багатьох системах\n"
+"каталог Desktop командного рядка збігається з каталогом Desktop вашого графічного інтерфейсу.\n"
+"Подивіться на свій робочий стіл, щоб переконатися у правильності виведених даних."
+
+#: shell-novice/_episodes/02-filedir.md:360
+msgid ""
+"As you may now see, using a bash shell is strongly dependent on the idea that\n"
+"your files are organized in a hierarchical file system.\n"
+"Organizing things hierarchically in this way helps us keep track of our work:\n"
+"it's possible to put hundreds of files in our home directory,\n"
+"just as it's possible to pile hundreds of printed papers on our desk,\n"
+"but it's a self-defeating strategy."
+msgstr ""
+"Як ви тепер бачите, використання терміналу bash сильно залежить від того, що\n"
+"ваші файли організовано в ієрархічній файловій системі.\n"
+"Ієрархічна організація речей таким чином допомагає нам відстежувати нашу роботу:\n"
+"у нашому домашньому каталозі можуть бути сотні файлів,\n"
+"так само, як можна скласти сотні роздрукованих паперів на столі,\n"
+"але це самогубна стратегія."
+
+#: shell-novice/_episodes/02-filedir.md:367
+msgid ""
+"Now that we know the `shell-lesson-data` directory is located in our Desktop directory, we\n"
+"can do two things."
+msgstr ""
+"Тепер, коли ми знаємо, що каталог `shell-lesson-data` розташовано у каталозі Desktop, ми\n"
+"можемо зробити дві речі."
+
+#: shell-novice/_episodes/02-filedir.md:370
+msgid ""
+"First, we can look at its contents, using the same strategy as before, passing\n"
+"a directory name to `ls`:"
+msgstr ""
+"По-перше, ми можемо переглянути його вміст, використовуючи ту ж стратегію, що і раніше, передавши\n"
+"ім'я каталогу в `ls`:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:373
+msgid ""
+"~~~\n"
+"$ ls -F Desktop/shell-lesson-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls -F Desktop/shell-lesson-data\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:378
+msgid ""
+"~~~\n"
+"exercise-data/  north-pacific-gyre/\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"exercise-data/  north-pacific-gyre/\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:383
+msgid ""
+"Second, we can actually change our location to a different directory, so\n"
+"we are no longer located in\n"
+"our home directory."
+msgstr ""
+"По-друге, ми можемо фактично змінити наше місцезнаходження на інший каталог, щоб\n"
+"ми більше не знаходилися в\n"
+"в нашому домашньому каталозі."
+
+#: shell-novice/_episodes/02-filedir.md:387
+msgid ""
+"The command to change locations is `cd` followed by a\n"
+"directory name to change our working directory.\n"
+"`cd` stands for 'change directory',\n"
+"which is a bit misleading:\n"
+"the command doesn't change the directory;\n"
+"it changes the shell's current working directory.\n"
+"In other words it changes the shell's idea of what directory we are in.\n"
+"The `cd` command is akin to double-clicking a folder in a graphical interface to get into a folder."
+msgstr ""
+"Команда зміни розташування в файловій системі має вигляд `cd`, за якою зазначається\n"
+"ім'я каталогу, на який треба змінити наш робочий каталог.\n"
+"`cd` означає 'змінити каталог' (англ. 'change directory'),\n"
+"що трохи вводить в оману:\n"
+"команда не змінює каталог;\n"
+"вона змінює поточний робочий каталог терміналу.\n"
+"Іншими словами, вона змінює уявлення терміналу про те, у якому каталозі ми перебуваємо.\n"
+"Команда `cd` подібна до подвійного кліку на каталозі у графічному інтерфейсі, щоб потрапити до нього."
+
+#: shell-novice/_episodes/02-filedir.md:396
+msgid ""
+"Let's say we want to move into the `exercise-data` directory we saw above. We can\n"
+"use the following series of commands to get there:"
+msgstr ""
+"Припустимо, ми хочемо перейти до каталогу `exercise-data`, який ми бачили вище. Ми можемо\n"
+"скористатися наступною серією команд, щоб дістатися туди:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:399
+msgid ""
+"~~~\n"
+"$ cd Desktop\n"
+"$ cd shell-lesson-data\n"
+"$ cd exercise-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cd Desktop\n"
+"$ cd shell-lesson-data\n"
+"$ cd exercise-data\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:406
+msgid ""
+"These commands will move us from our home directory into our Desktop directory, then into\n"
+"the `shell-lesson-data` directory, then into the `exercise-data` directory.\n"
+"You will notice that `cd` doesn't print anything. This is normal.\n"
+"Many shell commands will not output anything to the screen when successfully executed.\n"
+"But if we run `pwd` after it, we can see that we are now\n"
+"in `/Users/nelle/Desktop/shell-lesson-data/exercise-data`."
+msgstr ""
+"Ці команди перемістять нас з домашнього каталогу до каталогу Desktop, потім до\n"
+"каталогу `shell-lesson-data`, а потім до каталогу `exercise-data`.\n"
+"Ви помітите, що команда `cd` нічого не виводить. Це нормально.\n"
+"Багато команд терміналу нічого не виводять на екран у разі успішного виконання.\n"
+"Але якщо ми виконаємо `pwd` після неї, то побачимо, що зараз ми знаходимося\n"
+"у `/Users/nelle/Desktop/shell-lesson-data/exercise-data`."
+
+#: shell-novice/_episodes/02-filedir.md:413
+msgid ""
+"If we run `ls -F` without arguments now,\n"
+"it lists the contents of `/Users/nelle/Desktop/shell-lesson-data/exercise-data`,\n"
+"because that's where we now are:"
+msgstr ""
+"Якщо ми зараз виконаємо команду `ls -F` без аргументів,\n"
+"вона виведе вміст `/Users/nelle/Desktop/shell-lesson-data/exercise-data`,\n"
+"тому що саме там ми зараз знаходимося:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:422
+#: shell-novice/_episodes/02-filedir.md:581
+msgid ""
+"~~~\n"
+"/Users/nelle/Desktop/shell-lesson-data/exercise-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"/Users/nelle/Desktop/shell-lesson-data/exercise-data\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:432
+msgid ""
+"~~~\n"
+"animal-counts/  creatures/  numbers.txt  proteins/  writing/\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"animal-counts/  creatures/  numbers.txt  proteins/  writing/\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:437
+msgid ""
+"We now know how to go down the directory tree (i.e. how to go into a subdirectory),\n"
+"but how do we go up (i.e. how do we leave a directory and go into its parent directory)?\n"
+"We might try the following:"
+msgstr ""
+"Тепер ми знаємо, як спускатися вниз по дереву каталогів (тобто, як увійти до підкаталогу),\n"
+"але як піднятися вгору (тобто як вийти з каталогу і перейти до його батьківського каталогу)?\n"
+"Ми можемо спробувати наступне:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:441
+msgid ""
+"~~~\n"
+"$ cd shell-lesson-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cd shell-lesson-data\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:446
+msgid ""
+"~~~\n"
+"-bash: cd: shell-lesson-data: No such file or directory\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"-bash: cd: shell-lesson-data: No such file or directory\n"
+"~~~"
+
+# SC/DC Template label
+#: shell-novice/_episodes/02-filedir.md:449
+#: shell-novice/_episodes/03-create.md:392
+#: shell-novice/_episodes/03-create.md:583
+#: shell-novice/_episodes/03-create.md:627
+#: shell-novice/_episodes/05-loop.md:500
+msgid "{: .error}"
+msgstr "{: .error}"
+
+#: shell-novice/_episodes/02-filedir.md:451
+msgid "But we get an error! Why is this?"
+msgstr "Але ми отримуємо помилку! Чому?"
+
+#: shell-novice/_episodes/02-filedir.md:453
+msgid ""
+"With our methods so far,\n"
+"`cd` can only see sub-directories inside your current directory. There are\n"
+"different ways to see directories above your current location; we'll start\n"
+"with the simplest."
+msgstr ""
+"За допомогою наших методів, використовуваних до цього,\n"
+"`cd` може бачити лише підкаталоги у вашому поточному каталозі. Існують\n"
+"різні способи перегляду каталогів над вашим поточним розташуванням; ми почнемо\n"
+"з найпростішого."
+
+#: shell-novice/_episodes/02-filedir.md:458
+msgid ""
+"There is a shortcut in the shell to move up one directory level\n"
+"that looks like this:"
+msgstr ""
+"В терміналі є скорочення для переходу на один рівень каталогу вгору,\n"
+"який виглядає так:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:461
+msgid ""
+"~~~\n"
+"$ cd ..\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cd ..\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:466
+msgid ""
+"`..` is a special directory name meaning\n"
+"\"the directory containing this one\",\n"
+"or more succinctly,\n"
+"the **parent** of the current directory.\n"
+"Sure enough,\n"
+"if we run `pwd` after running `cd ..`, we're back in `/Users/nelle/Desktop/shell-lesson-data`:"
+msgstr ""
+"`..` -- це спеціальне ім'я каталогу, що означає\n"
+"\"каталог, що містить цей\",\n"
+"або більш стисло,\n"
+"**батько** поточного каталогу.\n"
+"Звичайно,\n"
+"якщо ми запустимо `pwd` після виконання `cd ..`, ми знову у `/Users/nelle/Desktop/shell-lesson-data`:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:478
+#: shell-novice/_episodes/03-create.md:40
+msgid ""
+"~~~\n"
+"/Users/nelle/Desktop/shell-lesson-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"/Users/nelle/Desktop/shell-lesson-data\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:483
+msgid ""
+"The special directory `..` doesn't usually show up when we run `ls`. If we want\n"
+"to display it, we can add the `-a` option to `ls -F`:"
+msgstr ""
+"Спеціальний каталог `..` зазвичай не з'являється, коли ми запускаємо `ls`. Якщо ми хочемо\n"
+"відобразити його, ми можемо додати опцію `-a` до `ls -F`:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:486
+msgid ""
+"~~~\n"
+"$ ls -F -a\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls -F -a\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:491
+msgid ""
+"~~~\n"
+"./  ../  exercise-data/  north-pacific-gyre/\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"./  ../  exercise-data/  north-pacific-gyre/\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:496
+msgid ""
+"`-a` stands for 'show all' (including hidden files);\n"
+"it forces `ls` to show us file and directory names that begin with `.`,\n"
+"such as `..` (which, if we're in `/Users/nelle`, refers to the `/Users` directory).\n"
+"As you can see,\n"
+"it also displays another special directory that's just called `.`,\n"
+"which means 'the current working directory'.\n"
+"It may seem redundant to have a name for it,\n"
+"but we'll see some uses for it soon."
+msgstr ""
+"`-a` означає 'показати все' (англ. show all) (включно з прихованими файлами);\n"
+"опція змушує `ls` показувати нам імена файлів і каталогів, які починаються з `.`,\n"
+"наприклад, `..` (яке, якщо ми знаходимося у `/Users/nelle`, вказує на каталог `/Users`).\n"
+"Як ви можете бачити,\n"
+"команда також показує ще один спеціальний каталог, який називається `.`,\n"
+"що означає 'поточний робочий каталог'.\n"
+"Може здатися, що це дещо надлишково - мати для нього ім'я,\n"
+"але незабаром ми побачимо, як воно може бути використано."
+
+#: shell-novice/_episodes/02-filedir.md:505
+msgid ""
+"Note that in most command line tools, multiple options can be combined\n"
+"with a single `-` and no spaces between the options: `ls -F -a` is\n"
+"equivalent to `ls -Fa`."
+msgstr ""
+"Зауважте, що у більшості інструментів командного рядка можна комбінувати декілька параметрів\n"
+"за допомогою одного `-` і без пробілів між параметрами: `ls -F -a` є\n"
+"еквівалентним до `ls -Fa`."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:509
+msgid "> ## Other Hidden Files"
+msgstr "> ## Інші приховані файли"
+
+#: shell-novice/_episodes/02-filedir.md:510
+msgid ""
+">\n"
+"> In addition to the hidden directories `..` and `.`, you may also see a file\n"
+"> called `.bash_profile`. This file usually contains shell configuration\n"
+"> settings. You may also see other files and directories beginning\n"
+"> with `.`. These are usually files and directories that are used to configure\n"
+"> different programs on your computer. The prefix `.` is used to prevent these\n"
+"> configuration files from cluttering the terminal when a standard `ls` command\n"
+"> is used."
+msgstr ""
+">\n"
+"> Крім прихованих каталогів `..` і `.`, ви також можете побачити файл\n"
+"> який називається `.bash_profile`. Цей файл зазвичай містить конфігурацію терміналу\n"
+"> Ви також можете побачити інші файли і каталоги, що починаються\n"
+"> з `.`. Зазвичай це файли і каталоги, які використовуються для налаштування\n"
+"> різних програм на вашому комп'ютері. Префікс `.` використовується для того, щоб ці\n"
+"> конфігураційні файли не захаращували термінал, коли використовується стандартна команда `ls`."
+
+#: shell-novice/_episodes/02-filedir.md:520
+msgid ""
+"These three commands are the basic commands for navigating the filesystem on your computer:\n"
+"`pwd`, `ls`, and `cd`. Let's explore some variations on those commands. What happens\n"
+"if you type `cd` on its own, without giving\n"
+"a directory?"
+msgstr ""
+"Ці три команди є основними командами для навігації по файловій системі на вашому комп'ютері:\n"
+"`pwd`, `ls` і `cd`. Давайте розглянемо деякі варіації цих команд. Що станеться\n"
+"якщо ви введете команду `cd` саму по собі, без зазначення\n"
+"каталогу?"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:525
+msgid ""
+"~~~\n"
+"$ cd\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cd\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:530
+msgid "How can you check what happened? `pwd` gives us the answer!"
+msgstr "Як ви можете перевірити, що сталося? Команда `pwd` дає нам відповідь!"
+
+#: shell-novice/_episodes/02-filedir.md:542
+msgid ""
+"It turns out that `cd` without an argument will return you to your home directory,\n"
+"which is great if you've got lost in your own filesystem."
+msgstr ""
+"Виявляється, `cd` без аргументу поверне вас до домашнього каталогу,\n"
+"що дуже зручно, якщо ви загубилися у власній файловій системі."
+
+#: shell-novice/_episodes/02-filedir.md:545
+msgid ""
+"Let's try returning to the `exercise-data` directory from before. Last time, we used\n"
+"three commands, but we can actually string together the list of directories\n"
+"to move to `exercise-data` in one step:"
+msgstr ""
+"Спробуємо повернутися до каталогу `exercise-data` з попереднього. Минулого разу ми використовували\n"
+"три команди, але насправді ми можемо поєднати перелік каталогів\n"
+"для переходу до каталогу `exercise-data` за один крок:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:549
+msgid ""
+"~~~\n"
+"$ cd Desktop/shell-lesson-data/exercise-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cd Desktop/shell-lesson-data/exercise-data\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:554
+msgid ""
+"Check that we've moved to the right place by running `pwd` and `ls -F`."
+msgstr ""
+"Переконайтеся, що ми перемістилися в потрібне місце, виконавши `pwd` і `ls "
+"-F`."
+
+#: shell-novice/_episodes/02-filedir.md:556
+msgid ""
+"If we want to move up one level from the data directory, we could use `cd ..`.  But\n"
+"there is another way to move to any directory, regardless of your\n"
+"current location."
+msgstr ""
+"Якщо ми хочемо перейти на один рівень вище від каталогу даних, ми можемо використати `cd ..`. Але\n"
+"існує інший спосіб переміщення до будь-якого каталогу, незалежно від вашого\n"
+"поточного розташування."
+
+#: shell-novice/_episodes/02-filedir.md:560
+msgid ""
+"So far, when specifying directory names, or even a directory path (as above),\n"
+"we have been using **relative paths**.  When you use a relative path with a command\n"
+"like `ls` or `cd`, it tries to find that location from where we are,\n"
+"rather than from the root of the file system."
+msgstr ""
+"Дотепер, коли ми вказували імена каталогів або навіть шлях до каталогів (як описано вище),\n"
+"ми використовували **відносні шляхи**. Коли ви використовуєте відносний шлях за допомогою команди\n"
+"на кшталт `ls` або `cd`, вона намагається знайти це місце з того місця, де ми перебуваємо,\n"
+"а не з кореня файлової системи."
+
+#: shell-novice/_episodes/02-filedir.md:565
+msgid ""
+"However, it is possible to specify the **absolute path** to a directory by\n"
+"including its entire path from the root directory, which is indicated by a\n"
+"leading slash. The leading `/` tells the computer to follow the path from\n"
+"the root of the file system, so it always refers to exactly one directory,\n"
+"no matter where we are when we run the command."
+msgstr ""
+"Втім, можна зазначити **абсолютний шлях** до каталогу за допомогою\n"
+"включивши до нього повний шлях від кореневого каталогу, який позначається символом\n"
+"скісної риски (слешу). Символ `/` на початку абсолютного шляху вказує комп'ютеру йти за шляхом від\n"
+"кореня файлової системи, тому він завжди вказує лише на один і той самий каталог,\n"
+"незалежно від того, де ми знаходимося під час виконання команди."
+
+#: shell-novice/_episodes/02-filedir.md:571
+msgid ""
+"This allows us to move to our `shell-lesson-data` directory from anywhere on\n"
+"the filesystem (including from inside `exercise-data`). To find the absolute path\n"
+"we're looking for, we can use `pwd` and then extract the piece we need\n"
+"to move to `shell-lesson-data`."
+msgstr ""
+"Це дає змогу перейти до каталогу `shell-lesson-data` з будь-якого місця у файловій системі\n"
+"файлової системи (у тому числі з каталогу `exercise-data`). Щоб знайти абсолютний шлях\n"
+"ми можемо скористатися `pwd`, а потім витягти потрібний нам фрагмент,\n"
+"шоб перейти до `shell-lesson-data`."
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:586
+msgid ""
+"~~~\n"
+"$ cd /Users/nelle/Desktop/shell-lesson-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cd /Users/nelle/Desktop/shell-lesson-data\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:591
+msgid "Run `pwd` and `ls -F` to ensure that we're in the directory we expect."
+msgstr ""
+"Виконайте `pwd` і `ls -F`, щоб переконатися, що ми знаходимося в потрібному "
+"каталозі."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:593
+msgid "> ## Two More Shortcuts"
+msgstr "> ## Ще два скорочення"
+
+#: shell-novice/_episodes/02-filedir.md:594
+msgid ""
+">\n"
+"> The shell interprets a tilde (`~`) character at the start of a path to\n"
+"> mean \"the current user's home directory\". For example, if Nelle's home\n"
+"> directory is `/Users/nelle`, then `~/data` is equivalent to\n"
+"> `/Users/nelle/data`. This only works if it is the first character in the\n"
+"> path: `here/there/~/elsewhere` is *not* `here/there/Users/nelle/elsewhere`.\n"
+">\n"
+"> Another shortcut is the `-` (dash) character. `cd` will translate `-` into\n"
+"> *the previous directory I was in*, which is faster than having to remember,\n"
+"> then type, the full path.  This is a *very* efficient way of moving\n"
+"> *back and forth between two directories* -- i.e. if you execute `cd -` twice,\n"
+"> you end up back in the starting directory.\n"
+">\n"
+"> The difference between `cd ..` and `cd -` is\n"
+"> that the former brings you *up*, while the latter brings you *back*.\n"
+">\n"
+"> ----\n"
+"> Try it!\n"
+"> First navigate to `~/Desktop/shell-lesson-data` (you should already be there).\n"
+"> ~~~\n"
+"> $ cd ~/Desktop/shell-lesson-data\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Then `cd` into the `exercise-data/creatures` directory\n"
+"> ~~~\n"
+"> $ cd exercise-data/creatures\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Now if you run\n"
+"> ~~~\n"
+"> $ cd -\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> you'll see you're back in `~/Desktop/shell-lesson-data`.\n"
+"> Run `cd -` again and you're back in `~/Desktop/shell-lesson-data/exercise-data/creatures`"
+msgstr ""
+">\n"
+"> Термінал інтерпретує символ тильди (`~`) на початку шляху як\n"
+"> \"домашній каталог поточного користувача\". Наприклад, якщо домашнім каталогом користувача Неллі\n"
+"> є каталог `/Users/nelle`, то `~/data` еквівалентно\n"
+"> `/Users/nelle/data`. Це працює лише у випадку, якщо це перший символ у\n"
+"> шляху: `here/there/~/elsewhere` *не* дорівнює `here/there/Users/nelle/elsewhere`.\n"
+">\n"
+"> Іншим скороченням є символ `-` (тире). `cd` транслює `-` у\n"
+"> *попередній каталог, у якому я був*, що швидше, ніж запам'ятовувати,\n"
+"> а потім набирати повний шлях. Це *дуже* ефективний спосіб переміщення\n"
+"> *вперед і назад між двома каталогами* - тобто, якщо ви виконаєте `cd -` двічі,\n"
+"> ви повернетесь до початкового каталогу.\n"
+">\n"
+"> Різниця між `cd ..` і `cd -` полягає в тому,\n"
+"> що перший повертає вас *вгору*, тоді як другий повертає вас *назад*.\n"
+">\n"
+"> ----\n"
+"> Спробуйте!\n"
+"> Спочатку перейдіть до `~/Desktop/shell-lesson-data` (ви вже маєте бути там).\n"
+"> ~~~\n"
+"> $ cd ~/Desktop/shell-lesson-data\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Потім `cd` у каталог `exercise-data/creatures`.\n"
+"> ~~~\n"
+"> $ cd exercise-data/creatures\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Тепер, якщо ви виконаєте\n"
+"> ~~~\n"
+"> $ cd -\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> ви побачите, що повернулися до `~/Desktop/shell-lesson-data`.\n"
+"> Запустіть `cd -` ще раз і ви повернетесь до `~/Desktop/shell-lesson-data/exercise-data/creatures`."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:633
+msgid "> ## Absolute vs Relative Paths"
+msgstr "> ## Абсолютні та відносні шляхи"
+
+#: shell-novice/_episodes/02-filedir.md:634
+msgid ""
+">\n"
+"> Starting from `/Users/amanda/data`,\n"
+"> which of the following commands could Amanda use to navigate to her home directory,\n"
+"> which is `/Users/amanda`?\n"
+">\n"
+"> 1. `cd .`\n"
+"> 2. `cd /`\n"
+"> 3. `cd /home/amanda`\n"
+"> 4. `cd ../..`\n"
+"> 5. `cd ~`\n"
+"> 6. `cd home`\n"
+"> 7. `cd ~/data/..`\n"
+"> 8. `cd`\n"
+"> 9. `cd ..`\n"
+">\n"
+"> > ## Solution\n"
+"> > 1. No: `.` stands for the current directory.\n"
+"> > 2. No: `/` stands for the root directory.\n"
+"> > 3. No: Amanda's home directory is `/Users/amanda`.\n"
+"> > 4. No: this command goes up two levels, i.e. ends in `/Users`.\n"
+"> > 5. Yes: `~` stands for the user's home directory, in this case `/Users/amanda`.\n"
+"> > 6. No: this command would navigate into a directory `home` in the current directory\n"
+"> >     if it exists.\n"
+"> > 7. Yes: unnecessarily complicated, but correct.\n"
+"> > 8. Yes: shortcut to go back to the user's home directory.\n"
+"> > 9. Yes: goes up one level."
+msgstr ""
+">\n"
+"> Починаючи з `/Users/amanda/data`,\n"
+"> яку з наведених нижче команд Аманда може використати для переходу до свого домашнього каталогу,\n"
+"> тобто `/Users/amanda`?\n"
+">\n"
+"> 1. `cd .`\n"
+"> 2. `cd /`\n"
+"> 3. `cd /home/amanda`.\n"
+"> 4. `cd ../..`\n"
+"> 5. `cd ~`\n"
+"> 6. `cd home`\n"
+"> 7. `cd ~/data/..`\n"
+"> 8. `cd`\n"
+"> 9. `cd ..`\n"
+">\n"
+"> > ## Розв'язання\n"
+"> > 1. Ні: скорочення `.` означає поточний каталог.\n"
+"> > 2. Ні: скорочення `/` означає кореневий каталог.\n"
+"> > 3. Ні: домашнім каталогом Аманди є `/Users/amanda`.\n"
+"> > 4. Ні: ця команда піднімається на два рівні, тобто закінчується на `/Users`.\n"
+"> > 5. Так: скорочення `~` позначає домашній каталог користувача, у цьому випадку `/Users/amanda`.\n"
+"> > 6. Ні: ця команда виконає перехід до каталогу `home` у поточному каталозі\n"
+"> > якщо він існує.\n"
+"> > 7. Так: надмірно складна, але правильна.\n"
+"> > 8. Так: комбінація клавіш для повернення до домашнього каталогу користувача.\n"
+"> > 9. Так: піднімається на один рівень."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:663
+msgid "> ## Relative Path Resolution"
+msgstr "> ## Розв'язання відносного шляху"
+
+#: shell-novice/_episodes/02-filedir.md:664
+msgid ""
+">\n"
+"> Using the filesystem diagram below, if `pwd` displays `/Users/thing`,\n"
+"> what will `ls -F ../backup` display?\n"
+">\n"
+"> 1.  `../backup: No such file or directory`\n"
+"> 2.  `2012-12-01 2013-01-08 2013-01-27`\n"
+"> 3.  `2012-12-01/ 2013-01-08/ 2013-01-27/`\n"
+"> 4.  `original/ pnas_final/ pnas_sub/`\n"
+">\n"
+"> ![A directory tree below the Users directory where \"/Users\" contains the\n"
+"directories \"backup\" and \"thing\"; \"/Users/backup\" contains \"original\",\n"
+"\"pnas_final\" and \"pnas_sub\"; \"/Users/thing\" contains \"backup\"; and\n"
+"\"/Users/thing/backup\" contains \"2012-12-01\", \"2013-01-08\" and\n"
+"\"2013-01-27\"](../fig/filesystem-challenge.svg)\n"
+">\n"
+"> > ## Solution\n"
+"> > 1. No: there *is* a directory `backup` in `/Users`.\n"
+"> > 2. No: this is the content of `Users/thing/backup`,\n"
+"> >    but with `..`, we asked for one level further up.\n"
+"> > 3. No: see previous explanation.\n"
+"> > 4. Yes: `../backup/` refers to `/Users/backup/`."
+msgstr ""
+">\n"
+"> Використовуючи наведену нижче схему файлової системи, якщо `pwd` показує `/Users/thing`,\n"
+"> що покаже команда `ls -F ../backup`?\n"
+">\n"
+"> 1. `../backup: Не існує такого файлу або каталогу`\n"
+"> 2. `2012-12-01 2013-01-08 2013-01-27`\n"
+"> 3. `2012-12-01/ 2013-01-08/ 2013-01-27/`\n"
+"> 4. `original/ pnas_final/ pnas_sub/`\n"
+">\n"
+"> ![Дерево каталогів під каталогом Users, де \"/Users\" містить\n"
+"каталоги \"backup\" і \"thing\"; \"/Users/backup\" містить \"original\",\n"
+"\"pnas_final\" та \"pnas_sub\"; \"/Users/thing\" містить \"backup\"; та\n"
+"\"/Users/thing/backup\" містить \"2012-12-01\", \"2013-01-08\" та\n"
+"\"2013-01-27\"](../fig/filesystem-challenge.svg)\n"
+">\n"
+"> > Розв'язання\n"
+"> > 1. Ні: у каталозі `/Users` існує каталог `backup`.\n"
+"> > 2. Ні: це вміст каталогу `Users/thing/backup`,\n"
+"> > але за допомогою `..` ми просили піднятися на один рівень вище.\n"
+"> > 3. Ні: див. попереднє пояснення.\n"
+"> > 4. Так: `../backup/` вказує на `/Users/backup/`."
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/02-filedir.md:688
+msgid "> ## `ls` Reading Comprehension"
+msgstr "> ## Розуміння прочитаного про команду `ls`"
+
+#: shell-novice/_episodes/02-filedir.md:689
+msgid ""
+">\n"
+"> Using the filesystem diagram below,\n"
+"> if `pwd` displays `/Users/backup`,\n"
+"> and `-r` tells `ls` to display things in reverse order,\n"
+"> what command(s) will result in the following output:\n"
+">\n"
+"> ~~~\n"
+"> pnas_sub/ pnas_final/ original/\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Використовуючи схему файлової системи, наведену нижче,\n"
+"> якщо `pwd` показує `/Users/backup`,\n"
+"> а `-r` каже `ls` виводити все у зворотному порядку,\n"
+"> яка команда (команди) призведе до наступного виводу:\n"
+">\n"
+"> ~~~\n"
+"> pnas_sub/ pnas_final/ original/\n"
+"> ~~~"
+
+#: shell-novice/_episodes/02-filedir.md:699
+msgid ""
+">\n"
+"> ![A directory tree below the Users directory where \"/Users\" contains the\n"
+"directories \"backup\" and \"thing\"; \"/Users/backup\" contains \"original\",\n"
+"\"pnas_final\" and \"pnas_sub\"; \"/Users/thing\" contains \"backup\"; and\n"
+"\"/Users/thing/backup\" contains \"2012-12-01\", \"2013-01-08\" and\n"
+"\"2013-01-27\"](../fig/filesystem-challenge.svg)\n"
+">\n"
+"> 1.  `ls pwd`\n"
+"> 2.  `ls -r -F`\n"
+"> 3.  `ls -r -F /Users/backup`\n"
+">\n"
+"> > ## Solution\n"
+"> >  1. No: `pwd` is not the name of a directory.\n"
+"> >  2. Yes: `ls` without directory argument lists files and directories\n"
+"> >     in the current directory.\n"
+"> >  3. Yes: uses the absolute path explicitly."
+msgstr ""
+">\n"
+"> ![Дерево каталогів під каталогом Users, де \"/Users\" містить\n"
+"каталоги \"backup\" та \"thing\"; \"/Users/backup\" містить \"original\",\n"
+"\"pnas_final\" та \"pnas_sub\"; \"/Users/thing\" містить \"backup\"; та\n"
+"\"/Users/thing/backup\" містить \"2012-12-01\", \"2013-01-08\" та\n"
+"\"2013-01-27\"](../fig/filesystem-challenge.svg)\n"
+">\n"
+"> 1. `ls pwd`\n"
+"> 2. `ls -r -F`\n"
+"> 3. `ls -r -F /Users/backup`\n"
+">\n"
+"> > ## Рішення\n"
+"> > 1. Ні: `pwd` не є назвою каталогу.\n"
+"> > 2. Так: команда `ls` без аргументу каталогу перелічує файли і каталоги\n"
+"> >      у поточному каталозі.\n"
+"> > 3. Так: явно використовує абсолютний шлях."
+
+# header
+#: shell-novice/_episodes/02-filedir.md:719
+msgid "## General Syntax of a Shell Command"
+msgstr "## Загальний синтаксис команди терміналу"
+
+#: shell-novice/_episodes/02-filedir.md:720
+msgid ""
+"We have now encountered commands, options, and arguments,\n"
+"but it is perhaps useful to formalise some terminology."
+msgstr ""
+"Ми вже познайомилися з командами, опціями та аргументами,\n"
+"але, можливо, буде корисно формалізувати деяку термінологію."
+
+#: shell-novice/_episodes/02-filedir.md:723
+msgid ""
+"Consider the command below as a general example of a command,\n"
+"which we will dissect into its component parts:"
+msgstr ""
+"Розглянемо команду нижче як загальний приклад команди,\n"
+"яку ми розберемо на складові частини:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:726
+#: shell-novice/_episodes/02-filedir.md:783
+msgid ""
+"~~~\n"
+"$ ls -F /\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls -F /\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:731
+msgid "![General syntax of a shell command](../fig/shell_command_syntax.svg)"
+msgstr ""
+"![Загальний синтаксис команди терміналу](../fig/shell_command_syntax.svg)"
+
+#: shell-novice/_episodes/02-filedir.md:733
+msgid ""
+"`ls` is the **command**, with an **option** `-F` and an\n"
+"**argument** `/`.\n"
+"We've already encountered options  which\n"
+"either start with a single dash (`-`) or two dashes (`--`),\n"
+"and they change the behavior of a command.\n"
+"[Arguments] tell the command what to operate on (e.g. files and directories).\n"
+"Sometimes options and arguments are referred to as **parameters**.\n"
+"A command can be called with more than one option and more than one argument, but a\n"
+"command doesn't always require an argument or an option."
+msgstr ""
+"`ls` - це **команда**, з **опцією** `-F` та\n"
+"**аргументом** `/`.\n"
+"Ми вже зустрічалися з опціями, які\n"
+"починаються з одного тире (`-`) або двох тире (`--`),\n"
+"і вони змінюють поведінку команди.\n"
+"[Аргументи] вказують команді, з чим працювати (наприклад, з файлами і каталогами).\n"
+"Іноді опції та аргументи називають **параметрами**.\n"
+"Команду можна викликати з більш ніж одним параметром і більш ніж одним аргументом, але команда\n"
+"не завжди вимагає наявності аргументу або параметра."
+
+#: shell-novice/_episodes/02-filedir.md:743
+msgid ""
+"You might sometimes see options being referred to as **switches** or **flags**,\n"
+"especially for options that take no argument. In this lesson we will stick with\n"
+"using the term *option*."
+msgstr ""
+"Іноді ви можете побачити, що опції називають **перемикачами** або **прапорами**,\n"
+"особливо для параметрів, які не потребують аргументації. У цьому уроці ми будемо дотримуватися\n"
+"терміну *опція*."
+
+#: shell-novice/_episodes/02-filedir.md:747
+msgid ""
+"Each part is separated by spaces: if you omit the space\n"
+"between `ls` and `-F` the shell will look for a command called `ls-F`, which\n"
+"doesn't exist. Also, capitalization can be important.\n"
+"For example, `ls -s` will display the size of files and directories alongside the names,\n"
+"while `ls -S` will sort the files and directories by size, as shown below:"
+msgstr ""
+"Кожна частина відокремлюється пробілами: якщо ви пропустите пробіл\n"
+"між `ls` і `-F`, термінал шукатиме команду з назвою `ls-F`, якої\n"
+"не існує. Також може бути важливим написання великої літери.\n"
+"Наприклад, `ls -s` покаже розмір файлів і каталогів поряд з назвами,\n"
+"а `ls -S` відсортує файли і каталоги за розміром, як показано нижче:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:753
+msgid ""
+"~~~\n"
+"$ cd ~/Desktop/shell-lesson-data\n"
+"$ ls -s exercise-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cd ~/Desktop/shell-lesson-data\n"
+"$ ls -s exercise-data\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:759
+msgid ""
+"~~~\n"
+"total 28\n"
+" 4 animal-counts   4 creatures  12 numbers.txt   4 proteins   4 writing\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"total 28\n"
+" 4 animal-counts   4 creatures  12 numbers.txt   4 proteins   4 writing\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:765
+msgid ""
+"Note that the sizes returned by `ls -s` are in *blocks*. \n"
+"As these are defined differently for different operating systems,\n"
+"you may not obtain the same figures as in the example."
+msgstr ""
+"Зверніть увагу, що розміри, які повертає команда `ls -s`, подано у *блоках*. \n"
+"Оскільки вони визначаються по-різному для різних операційних систем,\n"
+"ви можете отримати не такі значення, як у прикладі."
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:769
+msgid ""
+"~~~\n"
+"$ ls -S exercise-data\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls -S exercise-data\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:774
+msgid ""
+"~~~\n"
+"animal-counts  creatures  proteins  writing  numbers.txt\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"animal-counts  creatures  proteins  writing  numbers.txt\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:779
+msgid ""
+"Putting all that together, our command above gives us a listing\n"
+"of files and directories in the root directory `/`.\n"
+"An example of the output you might get from the above command is given below:"
+msgstr ""
+"Зібравши все це разом, наша команда вище дасть нам список\n"
+"файлів і каталогів у кореневому каталозі `/`.\n"
+"Приклад результату, який ви можете отримати за допомогою наведеної вище команди, наведено нижче:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:788
+msgid ""
+"~~~\n"
+"Applications/         System/\n"
+"Library/              Users/\n"
+"Network/              Volumes/\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Applications/         System/\n"
+"Library/              Users/\n"
+"Network/              Volumes/\n"
+"~~~"
+
+# header
+#: shell-novice/_episodes/02-filedir.md:796
+msgid "### Nelle's Pipeline: Organizing Files"
+msgstr "### Конвеєр Неллі: Організація файлів"
+
+#: shell-novice/_episodes/02-filedir.md:798
+msgid ""
+"Knowing this much about files and directories,\n"
+"Nelle is ready to organize the files that the protein assay machine will create."
+msgstr ""
+"Знаючи так багато про файли та каталоги,\n"
+"Неллі готова впорядкувати файли, які створить машина для аналізу білків."
+
+#: shell-novice/_episodes/02-filedir.md:801
+msgid ""
+"She creates a directory called `north-pacific-gyre`\n"
+"(to remind herself where the data came from),\n"
+"which will contain the data files from the assay machine,\n"
+"and her data processing scripts."
+msgstr ""
+"Вона створює каталог під назвою `north-pacific-gyre`.\n"
+"(щоб нагадати собі, звідки взялися дані),\n"
+"яка міститиме файли даних з аналітичної машини,\n"
+"та її скрипти для обробки даних."
+
+#: shell-novice/_episodes/02-filedir.md:807
+msgid ""
+"Each of her physical samples is labelled according to her lab's convention\n"
+"with a unique ten-character ID,\n"
+"such as 'NENE01729A'.\n"
+"This ID is what she used in her collection log\n"
+"to record the location, time, depth, and other characteristics of the sample,\n"
+"so she decides to use it as part of each data file's name.\n"
+"Since the assay machine's output is plain text,\n"
+"she will call her files `NENE01729A.txt`, `NENE01812A.txt`, and so on.\n"
+"All 1520 files will go into the same directory."
+msgstr ""
+"Кожен її фізичний зразок маркується згідно з прийнятими в лабораторії правилами\n"
+"з унікальним десятисимвольним ідентифікатором,\n"
+"наприклад, \"NENE01729A\".\n"
+"Цей ідентифікатор вона використовує у своєму журналі збору зразків\n"
+"для запису місця, часу, глибини та інших характеристик зразка,\n"
+"тому вона вирішила використовувати його як частину імені кожного файлу даних.\n"
+"Оскільки результат роботи аналізатора є звичайним текстом,\n"
+"вона назве свої файли `NENE01729A.txt`, `NENE01812A.txt` і так далі.\n"
+"Усі 1520 файлів буде збережено в одному каталозі."
+
+#: shell-novice/_episodes/02-filedir.md:818
+msgid ""
+"Now in her current directory `shell-lesson-data`,\n"
+"Nelle can see what files she has using the command:"
+msgstr ""
+"Тепер у її поточному каталозі `shell-lesson-data`,\n"
+"Нелл може побачити, які файли вона має за допомогою цієї команди:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:821
+#: shell-novice/_episodes/02-filedir.md:838
+msgid ""
+"~~~\n"
+"$ ls north-pacific-gyre/\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls north-pacific-gyre/\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:826
+msgid ""
+"This command is a lot to type,\n"
+"but she can let the shell do most of the work through what is called **tab completion**.\n"
+"If she types:"
+msgstr ""
+"Для введення цієї команди потрібно багато набирати на клавіатурі,\n"
+"але вона може дозволити терміналу виконати більшу частину роботи за допомогою так званого **завершення табуляції**.\n"
+"Якщо вона небере:"
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:830
+msgid ""
+"~~~\n"
+"$ ls nor\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls nor\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:835
+msgid ""
+"and then presses <kbd>Tab</kbd> (the tab key on her keyboard),\n"
+"the shell automatically completes the directory name for her:"
+msgstr ""
+"а потім натискає клавішу <kbd>Tab</kbd> (клавішу табуляції на її клавіатурі),\n"
+"оболонка автоматично доповнить назву каталогу для неї:"
+
+#: shell-novice/_episodes/02-filedir.md:843
+msgid ""
+"Pressing <kbd>Tab</kbd> again does nothing,\n"
+"since there are multiple possibilities;\n"
+"pressing <kbd>Tab</kbd> twice brings up a list of all the files."
+msgstr ""
+"Повторне натискання клавіші <kbd>Tab</kbd> нічого не дасть,\n"
+"оскільки існує декілька варіантів;\n"
+"якщо натиснути <kbd>Tab</kbd> двічі, буде показано список усіх файлів."
+
+#: shell-novice/_episodes/02-filedir.md:847
+msgid ""
+"If Nelle adds <kbd>G</kbd> and presses <kbd>Tab</kbd> again,\n"
+"the shell will append 'goo' since all files that start with 'g' share\n"
+"the first three characters 'goo'."
+msgstr ""
+"Якщо Неллі додасть <kbd>G</kbd> і знову натисне <kbd>Tab</kbd>,\n"
+"оболонка додасть 'goo', оскільки всі файли, що починаються з 'g', мають спільні\n"
+"перші три символи 'goo'."
+
+# code block
+#: shell-novice/_episodes/02-filedir.md:851
+msgid ""
+"~~~\n"
+"$ ls north-pacific-gyre/goo\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls north-pacific-gyre/goo\n"
+"~~~"
+
+#: shell-novice/_episodes/02-filedir.md:856
+msgid ""
+"To see all of those files, she can press <kbd>Tab</kbd> twice more.\n"
+"~~~\n"
+"ls north-pacific-gyre/goo\n"
+"goodiff.sh   goostats.sh\n"
+"~~~\n"
+"{: .language-bash}"
+msgstr ""
+"Щоб побачити всі ці файли, вона може натиснути клавішу <kbd>Tab</kbd> ще двічі.\n"
+"~~~\n"
+"ls north-pacific-gyre/goo\n"
+"goodiff.sh goostats.sh\n"
+"~~~\n"
+"{: .language-bash}"
+
+#: shell-novice/_episodes/02-filedir.md:863
+msgid ""
+"This is called **tab completion**,\n"
+"and we will see it in many other tools as we go on."
+msgstr ""
+"Це називається **завершення табуляції**,\n"
+"і ми побачимо його у багатьох інших інструментах."
+
+#: shell-novice/_episodes/02-filedir.md:866
+msgid ""
+"[Arguments]: https://swcarpentry.github.io/shell-"
+"novice/reference.html#argument"
+msgstr ""
+"[Аргументи]: https://swcarpentry.github.io/shell-"
+"novice/reference.html#argument"
