@@ -1,0 +1,635 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sofiia Matios, 2023
+# Olexandr Konovalov, 2023
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 19:32:08+0000\n"
+"PO-Revision-Date: 2023-02-12 19:38+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: shell-novice/_episodes/01-intro.md:1
+msgid ""
+"---\n"
+"title: \"Introducing the Shell\"\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"What is a command shell and why would I use one?\"\n"
+"objectives:\n"
+"- \"Explain how the shell relates to the keyboard, the screen, the operating system, and users' programs.\"\n"
+"- \"Explain when and why command-line interfaces should be used instead of graphical interfaces.\"\n"
+"keypoints:\n"
+"- \"A shell is a program whose primary purpose is to read commands and run other programs.\"\n"
+"-  \"This lesson uses Bash, the default shell in many implementations of Unix.\"\n"
+"-  \"Programs can be run in Bash by entering commands at the command-line prompt.\"\n"
+"- \"The shell's main advantages are its high action-to-keystroke ratio, its support for\n"
+"automating repetitive tasks, and its capacity to access networked machines.\"\n"
+"- \"The shell's main disadvantages are its primarily textual nature and how\n"
+"cryptic its commands and operation can be.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Знайомство з терміналом\"\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Що таке командний термінал і навіщо його використовувати?\"\n"
+"objectives:\n"
+"- \"Пояснити, як термінал пов'язаний з клавіатурою, екраном, операційною системою та програмами користувача\".\n"
+"- \"Пояснити, коли і чому інтерфейси командного рядка слід використовувати замість графічних інтерфейсів\".\n"
+"keypoints:\n"
+"- \"Термінал - це програма, основним призначенням якої є читання команд і запуск інших програм\".\n"
+"- \"У цьому уроці використовується Bash, термінал за замовчуванням у багатьох реалізаціях Unix\".\n"
+"- \"Програми можна запускати у Bash, вводячи команди у вікні командного рядка\".\n"
+"- \"Основними перевагами терміналу є високе співвідношення кількості дій до кількості натискань клавіш, підтримка автоматизації повторюваних завдань\n"
+"а також можливість доступу до мережевих машин\".\n"
+"- \"Основними недоліками терміналу є його переважно текстова природа, а також\n"
+"наскільки складними можуть бути її команди та робота\".\n"
+"---"
+
+# header
+#: shell-novice/_episodes/01-intro.md:19
+msgid "### Background"
+msgstr "### Попередні знання"
+
+#: shell-novice/_episodes/01-intro.md:21
+msgid ""
+"Humans and computers commonly interact in many different ways, such as through a keyboard and mouse,\n"
+"touch screen interfaces, or using speech recognition systems.\n"
+"The most widely used way to interact with personal computers is called a\n"
+"**graphical user interface** (GUI).\n"
+"With a GUI, we give instructions by clicking a mouse and using menu-driven interactions."
+msgstr ""
+"Люди та комп’ютери зазвичай взаємодіють багатьма різними способами, наприклад за допомогою клавіатури та миші,\n"
+"сенсорного екрану або системи розпізнавання мови.\n"
+"Найбільш поширений спосіб взаємодії з персональними комп’ютерами називається \n"
+"**графічний інтерфейс користувача** (GUI - graphical user interface).\n"
+"За допомогою такого інтерфейсу ми надаємо комп’ютеру інструкції, обираючи дію у меню за допомогою миші."
+
+#: shell-novice/_episodes/01-intro.md:27
+msgid ""
+"While the visual aid of a GUI makes it intuitive to learn,\n"
+"this way of delivering instructions to a computer scales very poorly.\n"
+"Imagine the following task:\n"
+"for a literature search, you have to copy the third line of one thousand text files in one thousand\n"
+"different directories and paste it into a single file.\n"
+"Using a GUI, you would not only be clicking at your desk for several hours,\n"
+"but you could potentially also commit an error in the process of completing this repetitive task.\n"
+"This is where we take advantage of the Unix shell.\n"
+"The Unix shell is both a **command-line interface** (CLI) and a scripting language,\n"
+"allowing such repetitive tasks to be done automatically and fast.\n"
+"With the proper commands, the shell can repeat tasks with or without some modification\n"
+"as many times as we want.\n"
+"Using the shell, the task in the literature example can be accomplished in seconds."
+msgstr ""
+"Хоча візуальна допомога графічного інтерфейсу користувача робить інтуітивним його вивчення,\n"
+"такий спосіб надсилання інструкцій до комп'ютера дуже погано масштабується.\n"
+"Уявіть наступну задачу:\n"
+"для бібліографічного пошуку вам необхідно скопіювати третю строку з тисячі вхідних файлів з тисячі\n"
+"різних директорій та вставити в один файл.\n"
+"Використовуючи графічний інтерфейс, ви б не тільки клікали на свому робочому місці декілька годин,\n"
+"але й могли б потенційно також внести помилку в процесі виконання монотоної задачі.\n"
+"Ось де ми скористаємося перевагами терміналу Unix.\n"
+"Термінал Unix - це одночасно **інтерфейс командного рядка** (англ. \"Command-Line Interface\", CLI) та  скриптова мова програмування,\n"
+"яка дозволяє подібні повторювальні задачі виконувати автоматично та швидко.\n"
+"За допомогою відповідних команд термінал може повторювати задачі із певними змінами або без них\n"
+"стільки разів, скільки ми бажаємо.\n"
+"Із використанням терміналу приклад задачі з бібліографічним пошуком може бути вирішений за секунди."
+
+# header
+#: shell-novice/_episodes/01-intro.md:42
+msgid "### The Shell"
+msgstr "### Термінал"
+
+#: shell-novice/_episodes/01-intro.md:45
+msgid ""
+"The shell is a program where users can type commands.\n"
+"With the shell, it's possible to invoke complicated programs like climate modeling software\n"
+"or simple commands that create an empty directory with only one line of code.\n"
+"The most popular Unix shell is Bash (the Bourne Again SHell ---\n"
+"so-called because it's derived from a shell written by Stephen Bourne).\n"
+"Bash is the default shell on most modern implementations of Unix and in most packages that provide\n"
+"Unix-like tools for Windows."
+msgstr ""
+"Термінал - це програма, де користувач може вводити команди.\n"
+"За допомогою терміналу можна запускати як складні програми, такі як програмне забезпечення для моделювання клімату,\n"
+"так і прості команди, які створюють пустий каталог, лише одним рядком коду.\n"
+"Найбільш популярним терміналом є Bash (the Bourne Again SHell, \n"
+"який отримав таку назву, тому що був розроблений на основі терміналу, написаного Стівеном Борном).\n"
+"Bash є терміналом за замовчуванням в більшості сучасних реалізацій Unix та в більшості пакетів, що надають\n"
+"Unix-подібні інструменти для Windows."
+
+#: shell-novice/_episodes/01-intro.md:53
+msgid ""
+"Using the shell will take some effort and some time to learn.\n"
+"While a GUI presents you with choices to select, CLI choices are not automatically presented to you,\n"
+"so you must learn a few commands like new vocabulary in a language you're studying.\n"
+"However, unlike a spoken language, a small number of \"words\" (i.e. commands) gets you a long way,\n"
+"and we'll cover those essential few today."
+msgstr ""
+"Використання оболонки потребує певних зусиль і часу для вивчення.\n"
+"У той час як графічний інтерфейс надає вам можливість вибору, команди терміналу не надаються автоматично,\n"
+"тому вам доведеться вивчити кілька команд, як нову лексику у мові, яку ви вивчаєте.\n"
+"Однак, на відміну від розмовної мови, невелика кількість \"слів\" (тобто команд) допоможе вам пройти довгий шлях,\n"
+"і сьогодні ми розглянемо кілька найважливіших з них."
+
+#: shell-novice/_episodes/01-intro.md:59
+msgid ""
+"The grammar of a shell allows you to combine existing tools into powerful\n"
+"pipelines and handle large volumes of data automatically. Sequences of\n"
+"commands can be written into a *script*, improving the reproducibility of\n"
+"workflows."
+msgstr ""
+"Граматика терміналу дозволяє комбінувати наявні інструменти у потужні\n"
+"конвеєри та автоматично обробляти великі обсяги даних. Послідовності\n"
+"команд можуть бути записані у \"скрипт\", покращуючи відтворюваність\n"
+"послідовностей дій."
+
+#: shell-novice/_episodes/01-intro.md:64
+msgid ""
+"In addition, the command line is often the easiest way to interact with remote machines\n"
+"and supercomputers.\n"
+"Familiarity with the shell is near essential to run a variety of specialized tools and resources\n"
+"including high-performance computing systems.\n"
+"As clusters and cloud computing systems become more popular for scientific data crunching,\n"
+"being able to interact with the shell is becoming a necessary skill.\n"
+"We can build on the command-line skills covered here\n"
+"to tackle a wide range of scientific questions and computational challenges."
+msgstr ""
+"На додаток, командний рядок часто є найпростішим способом взаємодії з віддаленими машинами\n"
+"та суперкомп'ютерами.\n"
+"Ознайомлення з терміналом є майже необхідним для запуску різноманітних спеціалізованих інструментів і ресурсів\n"
+"в тому числі надпродуктивних комп'ютерних систем.\n"
+"Оскільки кластери та хмарні обчислювальні системи стають все більш популярними для обробки наукових даних,\n"
+"вміння взаємодіяти з терміналом стає необхідною навичкою.\n"
+"Ми можемо розвивати навички роботи з командним рядком, описані тут,\n"
+"для вирішення широкого кола наукових питань і обчислювальних проблем."
+
+#: shell-novice/_episodes/01-intro.md:73
+msgid "Let's get started."
+msgstr "Отже, почнемо."
+
+#: shell-novice/_episodes/01-intro.md:75
+msgid ""
+"When the shell is first opened, you are presented with a **prompt**,\n"
+"indicating that the shell is waiting for input."
+msgstr ""
+"Коли термінал тільки відкрито, вам пропонується **запрошення** (англ. \"prompt\"),\n"
+"яке вказує на те, що термінал очікує на введення команд."
+
+# code block
+#: shell-novice/_episodes/01-intro.md:78
+#: shell-novice/_episodes/03-create.md:376
+msgid ""
+"~~~\n"
+"$\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$\n"
+"~~~"
+
+#: shell-novice/_episodes/01-intro.md:81
+#: shell-novice/_episodes/01-intro.md:101
+#: shell-novice/_episodes/02-filedir.md:50
+#: shell-novice/_episodes/02-filedir.md:137
+#: shell-novice/_episodes/02-filedir.md:163
+#: shell-novice/_episodes/02-filedir.md:212
+#: shell-novice/_episodes/02-filedir.md:342
+#: shell-novice/_episodes/02-filedir.md:376
+#: shell-novice/_episodes/02-filedir.md:404
+#: shell-novice/_episodes/02-filedir.md:420
+#: shell-novice/_episodes/02-filedir.md:430
+#: shell-novice/_episodes/02-filedir.md:444
+#: shell-novice/_episodes/02-filedir.md:464
+#: shell-novice/_episodes/02-filedir.md:476
+#: shell-novice/_episodes/02-filedir.md:489
+#: shell-novice/_episodes/02-filedir.md:528
+#: shell-novice/_episodes/02-filedir.md:535
+#: shell-novice/_episodes/02-filedir.md:552
+#: shell-novice/_episodes/02-filedir.md:579
+#: shell-novice/_episodes/02-filedir.md:589
+#: shell-novice/_episodes/02-filedir.md:729
+#: shell-novice/_episodes/02-filedir.md:757
+#: shell-novice/_episodes/02-filedir.md:772
+#: shell-novice/_episodes/02-filedir.md:786
+#: shell-novice/_episodes/02-filedir.md:824
+#: shell-novice/_episodes/02-filedir.md:833
+#: shell-novice/_episodes/02-filedir.md:841
+#: shell-novice/_episodes/02-filedir.md:854
+#: shell-novice/_episodes/03-create.md:38
+#: shell-novice/_episodes/03-create.md:54
+#: shell-novice/_episodes/03-create.md:69
+#: shell-novice/_episodes/03-create.md:80
+#: shell-novice/_episodes/03-create.md:92
+#: shell-novice/_episodes/03-create.md:101
+#: shell-novice/_episodes/03-create.md:110
+#: shell-novice/_episodes/03-create.md:168
+#: shell-novice/_episodes/03-create.md:232
+#: shell-novice/_episodes/03-create.md:317
+#: shell-novice/_episodes/03-create.md:327
+#: shell-novice/_episodes/03-create.md:340
+#: shell-novice/_episodes/03-create.md:366
+#: shell-novice/_episodes/03-create.md:374
+#: shell-novice/_episodes/03-create.md:387
+#: shell-novice/_episodes/03-create.md:401
+#: shell-novice/_episodes/03-create.md:452
+#: shell-novice/_episodes/03-create.md:466
+#: shell-novice/_episodes/03-create.md:473
+#: shell-novice/_episodes/03-create.md:571
+#: shell-novice/_episodes/03-create.md:578
+#: shell-novice/_episodes/03-create.md:622
+#: shell-novice/_episodes/03-create.md:637
+#: shell-novice/_episodes/04-pipefilter.md:35
+#: shell-novice/_episodes/04-pipefilter.md:48
+#: shell-novice/_episodes/04-pipefilter.md:64
+#: shell-novice/_episodes/04-pipefilter.md:85
+#: shell-novice/_episodes/04-pipefilter.md:134
+#: shell-novice/_episodes/04-pipefilter.md:148
+#: shell-novice/_episodes/04-pipefilter.md:164
+#: shell-novice/_episodes/04-pipefilter.md:244
+#: shell-novice/_episodes/04-pipefilter.md:268
+#: shell-novice/_episodes/04-pipefilter.md:382
+#: shell-novice/_episodes/04-pipefilter.md:407
+#: shell-novice/_episodes/04-pipefilter.md:425
+#: shell-novice/_episodes/04-pipefilter.md:614
+#: shell-novice/_episodes/04-pipefilter.md:634
+#: shell-novice/_episodes/04-pipefilter.md:656
+#: shell-novice/_episodes/04-pipefilter.md:676
+#: shell-novice/_episodes/05-loop.md:44 shell-novice/_episodes/05-loop.md:58
+#: shell-novice/_episodes/05-loop.md:68 shell-novice/_episodes/05-loop.md:144
+#: shell-novice/_episodes/05-loop.md:154 shell-novice/_episodes/05-loop.md:384
+#: shell-novice/_episodes/05-loop.md:395 shell-novice/_episodes/05-loop.md:416
+#: shell-novice/_episodes/05-loop.md:486 shell-novice/_episodes/05-loop.md:493
+#: shell-novice/_episodes/05-loop.md:524 shell-novice/_episodes/05-loop.md:531
+#: shell-novice/_episodes/05-loop.md:538 shell-novice/_episodes/05-loop.md:581
+#: shell-novice/_episodes/05-loop.md:604 shell-novice/_episodes/05-loop.md:631
+#: shell-novice/_episodes/05-loop.md:639 shell-novice/_episodes/05-loop.md:654
+#: shell-novice/_episodes/06-script.md:43
+#: shell-novice/_episodes/06-script.md:71
+#: shell-novice/_episodes/06-script.md:107
+#: shell-novice/_episodes/06-script.md:123
+#: shell-novice/_episodes/06-script.md:139
+#: shell-novice/_episodes/06-script.md:170
+#: shell-novice/_episodes/06-script.md:182
+#: shell-novice/_episodes/06-script.md:199
+#: shell-novice/_episodes/06-script.md:217
+#: shell-novice/_episodes/06-script.md:239
+#: shell-novice/_episodes/06-script.md:262
+#: shell-novice/_episodes/06-script.md:274
+#: shell-novice/_episodes/06-script.md:348
+#: shell-novice/_episodes/06-script.md:412
+#: shell-novice/_episodes/06-script.md:424
+#: shell-novice/_episodes/06-script.md:432
+#: shell-novice/_episodes/06-script.md:439
+#: shell-novice/_episodes/06-script.md:456
+#: shell-novice/_episodes/07-find.md:46 shell-novice/_episodes/07-find.md:68
+#: shell-novice/_episodes/07-find.md:93 shell-novice/_episodes/07-find.md:114
+#: shell-novice/_episodes/07-find.md:130 shell-novice/_episodes/07-find.md:148
+#: shell-novice/_episodes/07-find.md:167 shell-novice/_episodes/07-find.md:180
+#: shell-novice/_episodes/07-find.md:195 shell-novice/_episodes/07-find.md:219
+#: shell-novice/_episodes/07-find.md:234 shell-novice/_episodes/07-find.md:467
+#: shell-novice/_episodes/07-find.md:507 shell-novice/_episodes/07-find.md:525
+#: shell-novice/_episodes/07-find.md:549 shell-novice/_episodes/07-find.md:565
+#: shell-novice/_episodes/07-find.md:578 shell-novice/_episodes/07-find.md:608
+#: shell-novice/_episodes/07-find.md:627 shell-novice/_episodes/07-find.md:642
+msgid "{: .language-bash}"
+msgstr "{: .language-bash}"
+
+#: shell-novice/_episodes/01-intro.md:83
+msgid ""
+"The shell typically uses `$ ` as the prompt, but may use a different symbol.\n"
+"In the examples for this lesson, we'll show the prompt as `$ `.\n"
+"Most importantly:\n"
+"when typing commands, either from these lessons or from other sources,\n"
+"*do not type the prompt*, only the commands that follow it.\n"
+"Also note that after you type a command, you have to press the <kbd>Enter</kbd> key to execute it."
+msgstr ""
+"Термінал зазвичай використовує символ `$ ` як запрошення, але може використовувати й інші символи.\n"
+"У прикладах до цього уроку ми використовуватимемо запрошення `$ `.\n"
+"Найважливіше:\n"
+"під час введення команд з цих уроків або з інших джерел,\n"
+"*запрошення вводити не треба*, а треба вводити тільки команди, що йдуть за ним.\n"
+"Також зауважте, що після введення команди вам потрібно натиснути клавішу <kbd>Enter</kbd> для її виконання."
+
+#: shell-novice/_episodes/01-intro.md:90
+msgid ""
+"The prompt is followed by a **text cursor**, a character that indicates the position where your\n"
+"typing will appear.\n"
+"The cursor is usually a flashing or solid block, but it can also be an underscore or a pipe.\n"
+"You may have seen it in a text editor program, for example."
+msgstr ""
+"За запрошенням йде **текстовий курсор** - символ, який позначає позицію, де\n"
+"з'являться наступні введені вами символи.\n"
+"Курсор зазвичай блимає або є суцільним блоком, але він також може бути підкресленням або вертикальною рискою.\n"
+"Ви могли його бачити, наприклад, в текстових редакторах."
+
+#: shell-novice/_episodes/01-intro.md:95
+msgid ""
+"So let's try our first command, `ls` which is short for listing.\n"
+"This command will list the contents of the current directory:"
+msgstr ""
+"Давайте спробуємо нашу першу команду, `ls` (походить від англійського слова \"listing\"). \n"
+"Ця команда покаже зміст поточного каталогу:"
+
+# code block
+#: shell-novice/_episodes/01-intro.md:98
+#: shell-novice/_episodes/02-filedir.md:134
+#: shell-novice/_episodes/03-create.md:229
+#: shell-novice/_episodes/04-pipefilter.md:32
+msgid ""
+"~~~\n"
+"$ ls\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ls\n"
+"~~~"
+
+# code block
+#: shell-novice/_episodes/01-intro.md:103
+msgid ""
+"~~~\n"
+"Desktop     Downloads   Movies      Pictures\n"
+"Documents   Library     Music       Public\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Desktop     Downloads   Movies      Pictures\n"
+"Documents   Library     Music       Public\n"
+"~~~"
+
+# SC/DC Template label
+#: shell-novice/_episodes/01-intro.md:107
+#: shell-novice/_episodes/02-filedir.md:55
+#: shell-novice/_episodes/02-filedir.md:143
+#: shell-novice/_episodes/02-filedir.md:169
+#: shell-novice/_episodes/02-filedir.md:241
+#: shell-novice/_episodes/02-filedir.md:347
+#: shell-novice/_episodes/02-filedir.md:381
+#: shell-novice/_episodes/02-filedir.md:425
+#: shell-novice/_episodes/02-filedir.md:435
+#: shell-novice/_episodes/02-filedir.md:481
+#: shell-novice/_episodes/02-filedir.md:494
+#: shell-novice/_episodes/02-filedir.md:540
+#: shell-novice/_episodes/02-filedir.md:584
+#: shell-novice/_episodes/02-filedir.md:763
+#: shell-novice/_episodes/02-filedir.md:777
+#: shell-novice/_episodes/02-filedir.md:793
+#: shell-novice/_episodes/03-create.md:43
+#: shell-novice/_episodes/03-create.md:59
+#: shell-novice/_episodes/03-create.md:85
+#: shell-novice/_episodes/03-create.md:120
+#: shell-novice/_episodes/03-create.md:237
+#: shell-novice/_episodes/03-create.md:345
+#: shell-novice/_episodes/03-create.md:379
+#: shell-novice/_episodes/03-create.md:406
+#: shell-novice/_episodes/03-create.md:457
+#: shell-novice/_episodes/03-create.md:482
+#: shell-novice/_episodes/04-pipefilter.md:41
+#: shell-novice/_episodes/04-pipefilter.md:53
+#: shell-novice/_episodes/04-pipefilter.md:75
+#: shell-novice/_episodes/04-pipefilter.md:96
+#: shell-novice/_episodes/04-pipefilter.md:153
+#: shell-novice/_episodes/04-pipefilter.md:175
+#: shell-novice/_episodes/04-pipefilter.md:255
+#: shell-novice/_episodes/04-pipefilter.md:273
+#: shell-novice/_episodes/04-pipefilter.md:387
+#: shell-novice/_episodes/04-pipefilter.md:418
+#: shell-novice/_episodes/04-pipefilter.md:430
+#: shell-novice/_episodes/04-pipefilter.md:627
+#: shell-novice/_episodes/04-pipefilter.md:643
+#: shell-novice/_episodes/04-pipefilter.md:665
+#: shell-novice/_episodes/04-pipefilter.md:681
+#: shell-novice/_episodes/05-loop.md:75 shell-novice/_episodes/05-loop.md:402
+#: shell-novice/_episodes/05-loop.md:591 shell-novice/_episodes/05-loop.md:614
+#: shell-novice/_episodes/05-loop.md:671
+#: shell-novice/_episodes/06-script.md:80
+#: shell-novice/_episodes/06-script.md:132
+#: shell-novice/_episodes/06-script.md:148
+#: shell-novice/_episodes/06-script.md:191
+#: shell-novice/_episodes/06-script.md:208
+#: shell-novice/_episodes/06-script.md:288
+#: shell-novice/_episodes/07-find.md:61 shell-novice/_episodes/07-find.md:75
+#: shell-novice/_episodes/07-find.md:99 shell-novice/_episodes/07-find.md:119
+#: shell-novice/_episodes/07-find.md:135 shell-novice/_episodes/07-find.md:155
+#: shell-novice/_episodes/07-find.md:173 shell-novice/_episodes/07-find.md:187
+#: shell-novice/_episodes/07-find.md:208 shell-novice/_episodes/07-find.md:227
+#: shell-novice/_episodes/07-find.md:257 shell-novice/_episodes/07-find.md:455
+#: shell-novice/_episodes/07-find.md:489 shell-novice/_episodes/07-find.md:516
+#: shell-novice/_episodes/07-find.md:542 shell-novice/_episodes/07-find.md:554
+#: shell-novice/_episodes/07-find.md:585 shell-novice/_episodes/07-find.md:616
+#: shell-novice/_episodes/07-find.md:648
+msgid "{: .output}"
+msgstr "{: .output}"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/01-intro.md:109
+msgid "> ## Command not found"
+msgstr "> ## Команду не знайдено"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/01-intro.md:110
+msgid ""
+"> If the shell can't find a program whose name is the command you typed, it"
+msgstr "> Якщо термінал не може знайти програму, назву якої ви ввели, він"
+
+# blockquote, which can be cascaded
+#: shell-novice/_episodes/01-intro.md:111
+msgid "> will print an error message such as:"
+msgstr "> виведе на екран наступну помилку:"
+
+#: shell-novice/_episodes/01-intro.md:112
+msgid ""
+">\n"
+"> ~~~\n"
+"> $ ks\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> ~~~\n"
+"> ks: command not found\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> ~~~\n"
+"> $ ks\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> ~~~\n"
+"> ks: command not found\n"
+"> ~~~"
+
+# SC/DC Template label
+#: shell-novice/_episodes/01-intro.md:120
+#: shell-novice/_episodes/02-filedir.md:698
+#: shell-novice/_episodes/03-create.md:522
+#: shell-novice/_episodes/03-create.md:530
+#: shell-novice/_episodes/03-create.md:671
+#: shell-novice/_episodes/03-create.md:867
+#: shell-novice/_episodes/03-create.md:880
+#: shell-novice/_episodes/03-create.md:888
+#: shell-novice/_episodes/03-create.md:918
+#: shell-novice/_episodes/04-pipefilter.md:216
+#: shell-novice/_episodes/04-pipefilter.md:227
+#: shell-novice/_episodes/04-pipefilter.md:312
+#: shell-novice/_episodes/04-pipefilter.md:556
+#: shell-novice/_episodes/04-pipefilter.md:582
+#: shell-novice/_episodes/05-loop.md:207 shell-novice/_episodes/05-loop.md:475
+#: shell-novice/_episodes/05-loop.md:702 shell-novice/_episodes/07-find.md:266
+#: shell-novice/_episodes/07-find.md:299
+msgid "> {: .output}"
+msgstr "> {: .output}"
+
+#: shell-novice/_episodes/01-intro.md:121
+msgid ""
+">\n"
+"> This might happen if the command was mis-typed or if the program corresponding to that command\n"
+"> is not installed."
+msgstr ""
+">\n"
+"> Це може трапитися, якщо при наборі команди була допущена помилка або якщо програма, що відповідає набраній команді,\n"
+"> не встановлена."
+
+# SC/DC Template label
+#: shell-novice/_episodes/01-intro.md:124
+#: shell-novice/_episodes/02-filedir.md:76
+#: shell-novice/_episodes/02-filedir.md:114
+#: shell-novice/_episodes/02-filedir.md:181
+#: shell-novice/_episodes/02-filedir.md:257
+#: shell-novice/_episodes/02-filedir.md:292
+#: shell-novice/_episodes/02-filedir.md:518
+#: shell-novice/_episodes/02-filedir.md:631
+#: shell-novice/_episodes/03-create.md:128
+#: shell-novice/_episodes/03-create.md:158
+#: shell-novice/_episodes/03-create.md:192
+#: shell-novice/_episodes/03-create.md:224
+#: shell-novice/_episodes/03-create.md:309
+#: shell-novice/_episodes/03-create.md:594
+#: shell-novice/_episodes/03-create.md:722
+#: shell-novice/_episodes/04-pipefilter.md:121
+#: shell-novice/_episodes/04-pipefilter.md:186
+#: shell-novice/_episodes/04-pipefilter.md:296
+#: shell-novice/_episodes/05-loop.md:84 shell-novice/_episodes/05-loop.md:126
+#: shell-novice/_episodes/05-loop.md:476 shell-novice/_episodes/05-loop.md:660
+#: shell-novice/_episodes/05-loop.md:706 shell-novice/_episodes/05-loop.md:724
+#: shell-novice/_episodes/06-script.md:96
+#: shell-novice/_episodes/06-script.md:155
+#: shell-novice/_episodes/07-find.md:307 shell-novice/_episodes/07-find.md:593
+#: shell-novice/_episodes/07-find.md:698 shell-novice/setup.md:41
+msgid "{: .callout}"
+msgstr "{: .callout}"
+
+# header
+#: shell-novice/_episodes/01-intro.md:127
+msgid "## Nelle's Pipeline: A Typical Problem"
+msgstr "## Конвеєр Неллі: Типова Проблема"
+
+#: shell-novice/_episodes/01-intro.md:129
+msgid ""
+"Nelle Nemo, a marine biologist,\n"
+"has just returned from a six-month survey of the\n"
+"[North Pacific Gyre](http://en.wikipedia.org/wiki/North_Pacific_Gyre),\n"
+"where she has been sampling gelatinous marine life in the\n"
+"[Great Pacific Garbage Patch](http://en.wikipedia.org/wiki/Great_Pacific_Garbage_Patch).\n"
+"She has 1520 samples that she's run through an assay machine to measure the relative abundance\n"
+"of 300 proteins.\n"
+"She needs to run these 1520 files through an imaginary program called `goostats.sh` she inherited.\n"
+"On top of this huge task, she has to write up results by the end of the month so her paper\n"
+"can appear in a special issue of *Aquatic Goo Letters*."
+msgstr ""
+"Неллі Немо (Nelle Nemo), морський біолог,\n"
+"тільки повернулась з шостимісячного дослідження\n"
+"[Північнотихоокеанської течії (North Pacific Gyre)](https://uk.wikipedia.org/wiki/Північнотихоокеанська_течія),\n"
+"де вона брала зразки желатинового морського життя у\n"
+"[Великій тихоокеанській сміттєвій плямі](https://uk.wikipedia.org/wiki/Велика_тихоокеанська_сміттєва_пляма).\n"
+"Вона має 1520 зразків, які вона пропускає через аналізатор, щоб виміряти відносну кількість\n"
+"300 білків.\n"
+"Їй потрібно запустити ці 1520 файлів через уявну програму `goostats.sh`, яку вона успадкувала.\n"
+"Окрім цього величезного завдання, вона має написати результати до кінця місяця, щоб її робота\n"
+"могла з’явитися у спеціальному випуску *Aquatic Goo Letters*."
+
+#: shell-novice/_episodes/01-intro.md:140
+msgid ""
+"The bad news is that if she has to run `goostats.sh` by hand using a GUI,\n"
+"she'll have to select and open a file 1520 times.\n"
+"If `goostats.sh` takes 30 seconds to run each file, the whole process will take more than 12 hours\n"
+"of Nelle's attention.\n"
+"With the shell, Nelle can instead assign her computer this mundane task while she focuses\n"
+"her attention on writing her paper."
+msgstr ""
+"Погані новини полягають у тому, що якщо вона має запускати `goostats.sh` вручну за допомогою графічного інтерфейсу користувача,\n"
+"вона буде змущена обирати та відкривати файли 1520 разів.\n"
+"Якщо обробка одного файлу програмою `goostats.sh` триватиме 30 секунд, загальний процес вимагатиме більше ніж 12 годин\n"
+"уваги Неллі.\n"
+"За допомогою терміналу Неллі може замість цього доручити своєму комп’ютеру це буденне завдання в той час, коли вона фокусує\n"
+"свою увагу на написанні статті."
+
+#: shell-novice/_episodes/01-intro.md:147
+msgid ""
+"The next few lessons will explore the ways Nelle can achieve this.\n"
+"More specifically,\n"
+"they explain how she can use a command shell to run the `goostats.sh` program,\n"
+"using loops to automate the repetitive steps of entering file names,\n"
+"so that her computer can work while she writes her paper."
+msgstr ""
+"У наступних кількох уроках будуть розглянуті шляхи, яким чином Неллі може цього досягти.\n"
+"Більш конкретно,\n"
+"ці шляхи пояснюють, як вона може використовувати термінал для запуску програми `goostats.sh`,\n"
+"використовуючи цикли для автоматизації повторюваних кроків введення імен,\n"
+"отже її комп'ютер може працювати в той час, коли вона пише свою статтю."
+
+#: shell-novice/_episodes/01-intro.md:153
+msgid ""
+"As a bonus,\n"
+"once she has put a processing pipeline together,\n"
+"she will be able to use it again whenever she collects more data."
+msgstr ""
+"В якості бонуса,\n"
+"як тільки вона налаштує конвеєр,\n"
+"вона буде взмозі використати його повторно в будь-який час, коли вона збере більше даних."
+
+#: shell-novice/_episodes/01-intro.md:157
+msgid ""
+"In order to achieve her task, Nelle needs to know how to:\n"
+"- navigate to a file/directory\n"
+"- create a file/directory\n"
+"- check the length of a file\n"
+"- chain commands together\n"
+"- retrieve a set of files\n"
+"- iterate over files\n"
+"- run a shell script containing her pipeline"
+msgstr ""
+"Для того, щоб досягти своєї мети, Неллі необхідно знати, як:\n"
+"- перейти до файла/каталогу\n"
+"- створити файл/каталог\n"
+"- перевірити довжину файлу\n"
+"- з'єднати команди разом\n"
+"- отримати множину файлів\n"
+"- перебрати файли\n"
+"- запустити скрипт, що містить розроблений нею конвеєр"
+
+#: shell-novice/_episodes/01-intro.md:166
+#: shell-novice/_episodes/02-filedir.md:868
+#: shell-novice/_episodes/03-create.md:974
+#: shell-novice/_episodes/04-pipefilter.md:718
+#: shell-novice/_episodes/05-loop.md:808
+#: shell-novice/_episodes/06-script.md:649
+#: shell-novice/_episodes/07-find.md:728
+msgid "{% include links.md %}"
+msgstr "{% include links.md %}"

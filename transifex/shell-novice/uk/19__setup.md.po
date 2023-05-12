@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 19:32:08+0000\n"
+"PO-Revision-Date: 2023-02-12 19:38+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: shell-novice/setup.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Setup\n"
+"root: .\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: Встановлення\n"
+"root: .\n"
+"---"
+
+# header
+#: shell-novice/setup.md:7
+msgid "## Download files"
+msgstr "## Завантаження файлів"
+
+#: shell-novice/setup.md:8
+msgid "You need to download some files to follow this lesson."
+msgstr "Для перегляду цього уроку вам потрібно завантажити деякі файли."
+
+# ordered list
+#: shell-novice/setup.md:10
+msgid ""
+"1. Download [shell-lesson-data.zip][zip-file] and move the file to your "
+"Desktop."
+msgstr ""
+"1. Завантажте [shell-lesson-data.zip][zip-file] і перемістіть файл на "
+"робочий стіл."
+
+# ordered list
+#: shell-novice/setup.md:11
+msgid "2. Unzip/extract the file."
+msgstr "2. Розархівуйте файл."
+
+#: shell-novice/setup.md:12
+msgid ""
+"   **Let your instructor know if you need help with this step**.\n"
+"   You should end up with a new folder called **`shell-lesson-data`** on your Desktop."
+msgstr ""
+"   **Повідомте інструктора, якщо вам потрібна допомога на цьому етапі**.\n"
+"   У вас має з'явитися новий каталог з назвою **`shell-lesson-data`** на робочому столі."
+
+# header
+#: shell-novice/setup.md:15
+msgid "## Install software"
+msgstr "## Встановлення програмного забезпечення"
+
+#: shell-novice/setup.md:16
+msgid ""
+"If you do not already have the shell software installed, you will need to\n"
+"[download and install][install_shell] it."
+msgstr ""
+"Якщо у вас ще не встановлено програму-термінал, вам потрібно\n"
+"[завантажити і встановити] [install_shell] її."
+
+# header
+#: shell-novice/setup.md:19
+msgid "## Open a new shell"
+msgstr "## Відкрити новий термінал"
+
+#: shell-novice/setup.md:20
+msgid ""
+"After installing the software\n"
+"3. Open a terminal.\n"
+"   If you're not sure how to open a terminal on your operating system, see the instructions below.\n"
+"4. In the terminal type `cd` then press the <kbd>Return</kbd> key.\n"
+"   This step will make sure you start with your home folder as your working directory."
+msgstr ""
+"Після встановлення програмного забезпечення\n"
+"3. Відкрити термінал.\n"
+"   Якщо ви не знаєте, як відкрити термінал у вашій операційній системі, див. інструкції нижче.\n"
+"4. У терміналі введіть `cd` і натисніть клавішу <kbd>Return</kbd>.\n"
+"   Цей крок гарантує, що ви почнете з вашого домашнього каталогу як робочого каталогу."
+
+#: shell-novice/setup.md:26
+msgid ""
+"In the lesson, you will find out how to access the data files in this "
+"folder."
+msgstr ""
+"У цьому уроці ви дізнаєтеся, як отримати доступ до файлів даних у цій папці."
+
+# blockquote, which can be cascaded
+#: shell-novice/setup.md:28
+msgid "> ## Where to type commands: How to open a new shell"
+msgstr "> ## Де вводити команди: Як відкрити новий термінал"
+
+#: shell-novice/setup.md:29
+msgid ""
+">\n"
+"> The shell is a program that enables us to send commands to the computer and receive output.\n"
+"> It is also referred to as the terminal or command line.\n"
+">\n"
+"> Some computers include a default Unix Shell program.\n"
+"> The steps below describe some methods for identifying and opening\n"
+"> a Unix Shell program if you already have one installed.\n"
+"> There are also options for identifying and downloading a Unix Shell program,\n"
+"> a Linux/UNIX emulator, or a program to access a Unix Shell on a server.\n"
+">\n"
+"> If none of the options below address your circumstances,\n"
+"> try an online search for: Unix shell [your computer model] [your operating system]."
+msgstr ""
+">\n"
+"> Термінал - це програма, за допомогою якої ми можемо надсилати команди комп'ютеру та отримувати результати.\n"
+"> Її також називають оболонкою або командним рядком.\n"
+">\n"
+"> На деяких комп'ютерах за замовчуванням встановлено програму Unix Shell.\n"
+"> Нижче описано деякі способи визначення та відкриття\n"
+"> програми Unix Shell, якщо її вже встановлено.\n"
+"> Також існують способи визначення та завантаження програми Unix Shell,\n"
+"> емулятора Linux/UNIX або програми для доступу до оболонки Unix на сервері.\n"
+">\n"
+"> Якщо жоден із наведених нижче варіантів не відповідає вашим обставинам,\n"
+"> спробуйте скористатися пошуком в Інтернеті: Unix shell [модель вашого комп'ютера] [ваша операційна система]."
+
+#: shell-novice/setup.md:43
+msgid ""
+"{::options parse_block_html=\"true\" /}\n"
+"<div>\n"
+"<ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n"
+"<li role=\"presentation\" class=\"active\"><a data-os=\"windows\" href=\"#windows\" aria-controls=\"Windows\"\n"
+"role=\"tab\" data-toggle=\"tab\">Windows</a></li>\n"
+"<li role=\"presentation\"><a data-os=\"macos\" href=\"#macos\" aria-controls=\"macOS\" role=\"tab\"\n"
+"data-toggle=\"tab\">macOS</a></li>\n"
+"<li role=\"presentation\"><a data-os=\"linux\" href=\"#linux\" aria-controls=\"Linux\" role=\"tab\"\n"
+"data-toggle=\"tab\">Linux</a></li>\n"
+"</ul>"
+msgstr ""
+"{::options parse_block_html=\"true\" /}\n"
+"<div>\n"
+"<ul class=\"nav nav-tabs nav-justified\" role=\"tablist\">\n"
+"<li role=\"presentation\" class=\"active\"><a data-os=\"windows\" href=\"#windows\" aria-controls=\"Windows\"\n"
+"role=\"tab\" data-toggle=\"tab\">Windows</a></li>\n"
+"<li role=\"presentation\"><a data-os=\"macos\" href=\"#macos\" aria-controls=\"macOS\" role=\"tab\"\n"
+"data-toggle=\"tab\">macOS</a></li>\n"
+"<li role=\"presentation\"><a data-os=\"linux\" href=\"#linux\" aria-controls=\"Linux\" role=\"tab\"\n"
+"data-toggle=\"tab\">Linux</a></li>\n"
+"</ul>"
+
+#: shell-novice/setup.md:54
+msgid ""
+"<div class=\"tab-content\">\n"
+"<article role=\"tabpanel\" class=\"tab-pane active\" id=\"windows\">\n"
+"Computers with Windows operating systems do not automatically have a Unix Shell program\n"
+"installed.\n"
+"In this lesson, we encourage you to use an emulator included in [Git for Windows][install_shell],\n"
+"which gives you access to both Bash shell commands and Git."
+msgstr ""
+"<div class=\"tab-content\">\n"
+"<article role=\"tabpanel\" class=\"tab-pane active\" id=\"windows\">\n"
+"На комп'ютерах з операційною системою Windows автоматично не встановлюється програма Unix Shell\n"
+"У цьому уроці ми рекомендуємо вам скористатися емулятором, що входить до складу [Git for Windows][install_shell],\n"
+"який надає доступ як до команд оболонки Bash, так і до Git'у."
+
+#: shell-novice/setup.md:61
+msgid ""
+"Once installed, you can open a terminal by running the program Git Bash from the Windows start\n"
+"menu."
+msgstr ""
+"Після встановлення ви можете відкрити термінал, запустивши програму Git Bash зі стартового\n"
+"меню Windows."
+
+#: shell-novice/setup.md:64
+msgid "**For advanced users:**"
+msgstr "**Для досвідчених користувачів:**"
+
+#: shell-novice/setup.md:66
+msgid ""
+"As an alternative to Git for Windows you may wish to [Install the Windows Subsystem for Linux][wsl]\n"
+"which gives access to a Bash shell command-line tool in Windows 10."
+msgstr ""
+"Як альтернативу Git'у для Windows ви можете [Встановити підсистему Windows для Linux][wsl]\n"
+"яка надає доступ до інструменту командного рядка Bash у Windows 10."
+
+#: shell-novice/setup.md:69
+msgid ""
+"Please note that commands in the Windows Subsystem for Linux (WSL) may differ slightly\n"
+"from those shown in the lesson or presented in the workshop.\n"
+"</article>"
+msgstr ""
+"Зверніть увагу, що команди у підсистемі Windows для Linux (WSL) можуть дещо відрізнятися\n"
+"від тих, що показані в уроці або представлені на семінарі.\n"
+"</article>"
+
+#: shell-novice/setup.md:73
+msgid ""
+"<article role=\"tabpanel\" class=\"tab-pane\" id=\"macos\">\n"
+"For a Mac computer running macOS Mojave or earlier releases, the default Unix Shell is Bash.\n"
+"For a Mac computer running macOS Catalina or later releases, the default Unix Shell is Zsh.\n"
+"Your default shell is available via the Terminal program within your Utilities folder."
+msgstr ""
+"<article role=\"tabpanel\" class=\"tab-pane\" id=\"macos\">\n"
+"На комп'ютерах Mac з macOS Mojave або більш ранніми версіями за замовчуванням використовується Unix-термінал Bash.\n"
+"На комп'ютерах Mac з macOS Catalina або пізніших версій стандартним терміналом Unix є Zsh.\n"
+"Ваша стандартний термінал доступний за допомогою програми Terminal у каталозі Utilities."
+
+#: shell-novice/setup.md:78
+msgid ""
+"To open Terminal, try one or both of the following:\n"
+"* In Finder, select the Go menu, then select Utilities.\n"
+"  Locate Terminal in the Utilities folder and open it.\n"
+"* Use the Mac 'Spotlight' computer search function.\n"
+"  Search for: `Terminal` and press <kbd>Return</kbd>."
+msgstr ""
+"Щоб відкрити Термінал, спробуйте один або обидва з наведених нижче способів:\n"
+"* У Finder виберіть меню \"Перехід\", а потім виберіть \"Утиліти\".\n"
+"Знайдіть програму Terminal у папці Utilities і відкрийте її.\n"
+"* Використовуйте функцію пошуку на комп'ютері Mac 'Spotlight'.\n"
+"Знайдіть `Термінал` і натисніть <kbd>Return</kbd>."
+
+#: shell-novice/setup.md:84
+msgid ""
+"To check if your machine is set up to use something other than Bash,\n"
+"type `echo $SHELL` in your terminal window."
+msgstr ""
+"Щоб перевірити, чи налаштовано на вашому комп'ютері використання чогось іншого, окрім Bash,\n"
+"введіть `echo $SHELL` у вікні вашого терміналу."
+
+#: shell-novice/setup.md:87
+msgid ""
+"If your machine is set up to use something other than Bash,\n"
+"you can run it by opening a terminal and typing `bash`."
+msgstr ""
+"Щоб перевірити, чи налаштовано ваш комп'ютер на використання чогось іншого, окрім Bash,\n"
+"введіть `echo $SHELL` у вікні вашого терміналу."
+
+#: shell-novice/setup.md:90
+msgid ""
+"[How to Use Terminal on a Mac][mac-terminal]\n"
+"</article>"
+msgstr ""
+"[Як користуватися терміналом на Mac][mac-terminal]\n"
+"</article>"
+
+#: shell-novice/setup.md:93
+msgid ""
+"<article role=\"tabpanel\" class=\"tab-pane\" id=\"linux\">\n"
+"The default Unix Shell for Linux operating systems is usually Bash.\n"
+"On most versions of Linux, it is accessible by running the\n"
+"[Gnome Terminal][gnome-terminal] or [KDE Konsole][kde-konsole] or [xterm][xterm],\n"
+"which can be found via the applications menu or the search bar.\n"
+"If your machine is set up to use something other than Bash,\n"
+"you can run it by opening a terminal and typing `bash`.\n"
+"</article>\n"
+"</div>\n"
+"</div>"
+msgstr ""
+"<article role=\"tabpanel\" class=\"tab-pane\" id=\"linux\">\n"
+"Терміналом Unix для операційних систем Linux за замовчуванням зазвичай є Bash.\n"
+"У більшості версій Linux він доступний за допомогою команд\n"
+"[Gnome Terminal][gnome-terminal], [KDE Konsole][kde-konsole] або [xterm][xterm],\n"
+"які можна знайти за допомогою меню програм або рядка пошуку.\n"
+"Якщо на вашому комп'ютері налаштовано використання інших програм, окрім Bash,\n"
+"ви можете запустити її, відкривши термінал і набравши `bash`.\n"
+"</div>\n"
+"</div>"
+
+#: shell-novice/setup.md:104
+msgid ""
+"[zip-file]: {{ page.root }}/data/shell-lesson-data.zip\n"
+"[wsl]: https://docs.microsoft.com/en-us/windows/wsl/install-win10\n"
+"[mac-terminal]: http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/\n"
+"[gnome-terminal]: https://help.gnome.org/users/gnome-terminal/stable/\n"
+"[kde-konsole]: https://konsole.kde.org/\n"
+"[xterm]: https://en.wikipedia.org/wiki/Xterm\n"
+"[install_shell]: https://carpentries.github.io/workshop-template/#shell"
+msgstr ""
+"[zip-file]: {{ page.root }}/data/shell-lesson-data.zip\n"
+"[wsl]: https://docs.microsoft.com/en-us/windows/wsl/install-win10\n"
+"[mac-terminal]: http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-mac-3608274/\n"
+"[gnome-terminal]: https://help.gnome.org/users/gnome-terminal/stable/\n"
+"[kde-konsole]: https://konsole.kde.org/\n"
+"[xterm]: https://en.wikipedia.org/wiki/Xterm\n"
+"[install_shell]: https://carpentries.github.io/workshop-template/#shell"

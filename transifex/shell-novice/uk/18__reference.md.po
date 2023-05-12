@@ -1,0 +1,699 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 19:32:08+0000\n"
+"PO-Revision-Date: 2023-02-12 19:38+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: shell-novice/reference.md:1
+msgid ""
+"---\n"
+"layout: reference\n"
+"---"
+msgstr ""
+"---\n"
+"layout: reference\n"
+"---"
+
+# header
+#: shell-novice/reference.md:5
+msgid "## Summary of Basic Commands"
+msgstr "## Короткий опис основних команд"
+
+#: shell-novice/reference.md:7
+msgid ""
+"| Action      | Files | Folders      |\n"
+"|-------------|-------|--------------|\n"
+"| Inspect     | ls    | ls           |\n"
+"| View content| cat   | ls           |\n"
+"| Navigate to |       | cd           |\n"
+"| Move        | mv    | mv           |\n"
+"| Copy        | cp    | cp -r        |\n"
+"| Create      | nano  | mkdir        |\n"
+"| Delete      | rm    | rmdir, rm -r |"
+msgstr ""
+"| Операція         | Файли | Каталоги     |\n"
+"|------------------|-------|--------------|\n"
+"| Перелічити       | ls | ls |\n"
+"| Проглянути вміст | cat | ls |\n"
+"| Перейти до ...   | | cd |\n"
+"| Перемістити      | mv | mv |\n"
+"| Копіювати        | cp | cp -r |\n"
+"| Створити         | nano | mkdir |\n"
+"| Видалити         | rm | rmdir, rm -r |"
+
+# header
+#: shell-novice/reference.md:17
+msgid "## Filesystem hierarchy"
+msgstr "## Ієрархія файлової системи"
+
+#: shell-novice/reference.md:19
+msgid ""
+"The following is an overview of a standard Unix filesystem.\n"
+"The exact hierarchy depends on the platform. Your file/directory structure may differ slightly:"
+msgstr ""
+"Нижче наведено огляд стандартної файлової системи Unix.\n"
+"Точна ієрархія залежить від платформи. Ваша структура файлів/каталогу може дещо відрізнятися:"
+
+#: shell-novice/reference.md:22
+msgid "![Linux filesystem hierarchy](fig/standard-filesystem-hierarchy.svg)"
+msgstr ""
+"![Ієрархія файлової системи Linux](fig/standard-filesystem-hierarchy.svg)"
+
+# header
+#: shell-novice/reference.md:24
+msgid "## Glossary"
+msgstr "## Словник"
+
+#: shell-novice/reference.md:26
+msgid ""
+"{:auto_ids}\n"
+"absolute path\n"
+":   A [path](#path) that refers to a particular location in a file system.\n"
+"    Absolute paths are usually written with respect to the file system's\n"
+"    [root directory](#root-directory),\n"
+"    and begin with either \"/\" (on Unix) or \"\\\\\" (on Microsoft Windows).\n"
+"    See also: [relative path](#relative-path)."
+msgstr ""
+"{:auto_ids}\n"
+"абсолютний шлях\n"
+":   [Шлях](#шлях), який посилається на певне місце у файловій системі.\n"
+"    Абсолютні шляхи зазвичай записуються відносно [кореневого каталогу](#кореневий-каталог) файлової системи\n"
+"    і починаються з символів \"/\" (у Unix) або \"\\\\\" (у Microsoft Windows).\n"
+"    Дивись також: [відносний шлях](#відносний-шлях)."
+
+#: shell-novice/reference.md:34
+msgid ""
+"argument\n"
+":   A value given to a function or program when it runs.\n"
+"    The term is often used interchangeably (and inconsistently) with [parameter](#parameter)."
+msgstr ""
+"аргумент\n"
+":   Значення, яке передається до функції або програми під час її запуску.\n"
+"    Цей термін часто використовується як взаємозамінний (і неузгоджено) з [параметр](#параметр)."
+
+#: shell-novice/reference.md:38
+msgid ""
+"command shell\n"
+":   See [shell](#shell)"
+msgstr ""
+"командна оболонка\n"
+":   Дивись [термінал](#термінал)"
+
+#: shell-novice/reference.md:41
+msgid ""
+"command-line interface\n"
+":   A user interface based on typing commands,\n"
+"    usually at a [REPL](#read-evaluate-print-loop).\n"
+"    See also: [graphical user interface](#graphical-user-interface)."
+msgstr ""
+"інтерфейс командного рядка\n"
+":   Інтерфейс користувача, заснований на введенні команд,\n"
+"    зазвичай у циклі [REPL](#цикл-read-evaluate-print).\n"
+"    Дивись також: [графічний інтерфейс користувача](#графічний-інтерфейс-користувача)."
+
+#: shell-novice/reference.md:46
+msgid ""
+"comment\n"
+":   A remark in a program that is intended to help human readers understand what is going on,\n"
+"    but is ignored by the computer.\n"
+"    Comments in Python, R, and the Unix shell start with a `#` character\n"
+"    and run to the end of the line;\n"
+"    comments in SQL start with `--`,\n"
+"    and other languages have other conventions."
+msgstr ""
+"коментар\n"
+":   Зауваження в програмі, яке має на меті допомогти людині-читачеві зрозуміти, що відбувається,\n"
+"    але ігнорується комп'ютером.\n"
+"    Коментарі у мовах Python, R та в терміналі Unix починаються з символу `#'\n"
+"    та йдуть до кінця відповідного рядка\n"
+"    коментарі в SQL починаються з `--`,\n"
+"    а в інших мовах існують інші домовленості."
+
+#: shell-novice/reference.md:55
+msgid ""
+"current working directory\n"
+":   The directory that [relative paths](#relative-path) are calculated from;\n"
+"    equivalently,\n"
+"    the place where files referenced by name only are searched for.\n"
+"    Every [process](#process) has a current working directory.\n"
+"    The current working directory is usually referred to using the shorthand notation `.`\n"
+"    (pronounced \"dot\")."
+msgstr ""
+"поточний робочий каталог\n"
+":   Каталог, з якого обчислюються [відносні шляхи](#відносний-шлях);\n"
+"    еквівалентно,\n"
+"    місце, де шукаються файли, на які посилаються лише за іменами.\n"
+"    Кожен [процес](#процес) має поточний робочий каталог.\n"
+"    На поточний робочий каталог зазвичай посилаються за допомогою скороченого позначення `.`\n"
+"    (вимовляється як \"крапка\")."
+
+#: shell-novice/reference.md:63
+msgid ""
+"file system\n"
+":   A set of files, directories, and I/O devices (such as keyboards and screens).\n"
+"    A file system may be spread across many physical devices,\n"
+"    or many file systems may be stored on a single physical device;\n"
+"    the [operating system](#operating-system) manages access."
+msgstr ""
+"файлова система\n"
+":   Набір файлів, каталогів та пристроїв вводу/виводу (таких як клавіатури та екрани).\n"
+"    Файлова система може бути розподілена на багатьох фізичних пристроях,\n"
+"    або багато файлових систем можуть зберігатися на одному фізичному пристрої;\n"
+"    [операційна система](#операційна-система) керує доступом."
+
+#: shell-novice/reference.md:69
+msgid ""
+"filename extension\n"
+":   The portion of a file's name that comes after the final \".\" character.\n"
+"    By convention this identifies the file's type:\n"
+"    `.txt` means \"text file\", `.png` means \"Portable Network Graphics file\",\n"
+"    and so on. These conventions are not enforced by most operating systems:\n"
+"    it is perfectly possible (but confusing!) to name an MP3 sound file `homepage.html`.\n"
+"    Since many applications use filename extensions to identify the\n"
+"    [MIME type](#mime-type) of the file,\n"
+"    misnaming files may cause those applications to fail."
+msgstr ""
+"розширення імені файлу\n"
+":   Частина імені файлу, яка йде після останнього символу \".\".\n"
+"    За домовленістю це визначає тип файлу:\n"
+"    `.txt` означає \"текстовий файл\" (від англ. \"TeXT\"), `.png` означає \"файл портативної мережевої графіки\" (від англ. \"Portable Network Graphics file\"),\n"
+"    і так далі. Більшість операційних систем не дотримуються цих домовленостей:\n"
+"    цілком можливо (але заплутано!) назвати звуковий файл MP3 `homepage.html`.\n"
+"    Оскільки багато програм використовують розширення назв файлів для ідентифікації\n"
+"    [MIME типу](#mime-тип) файлу,\n"
+"    неправильне називання файлів може призвести до збою у роботі відповідних програм."
+
+#: shell-novice/reference.md:79
+msgid ""
+"filter\n"
+":   A program that transforms a stream of data.\n"
+"    Many Unix command-line tools are written as filters:\n"
+"    they read data from [standard input](#standard-input),\n"
+"    process it, and write the result to [standard output](#standard-output)."
+msgstr ""
+"фільтр\n"
+":   Програма, яка перетворює потік даних.\n"
+"    Багато інструментів командного рядка Unix написано у вигляді фільтрів:\n"
+"    вони зчитують дані зі [стандартного вводу](#стандартний-ввод),\n"
+"    обробляють їх і записують результат у [стандартний вивід](#стандартний-вивід)."
+
+#: shell-novice/reference.md:85
+msgid ""
+"for loop\n"
+":   A loop that is executed once for each value in some kind of set, list, or range.\n"
+"    See also: [while loop](#while-loop)."
+msgstr ""
+"цикл FOR\n"
+":   Цикл, який виконується один раз для кожного значення в деякому наборі, списку або діапазоні.\n"
+"    Дивись також: [цикл while] (#цикл-while)."
+
+#: shell-novice/reference.md:89
+msgid ""
+"graphical user interface\n"
+":   A user interface based on selecting items and actions from a graphical display,\n"
+"    usually controlled by using a mouse.\n"
+"    See also: [command-line interface](#command-line-interface)."
+msgstr ""
+"графічний інтерфейс користувача\n"
+":   Інтерфейс користувача, заснований на виборі елементів і дій з графічного дисплея,\n"
+"    зазвичай керований за допомогою миші.\n"
+"    Дивись також: [інтерфейс командного рядка](#інтерфейс-командного-рядка)."
+
+#: shell-novice/reference.md:94
+msgid ""
+"home directory\n"
+":   The default directory associated with an account on a computer system.\n"
+"    By convention, all of a user's files are stored in or below her home directory."
+msgstr ""
+"домашній каталог\n"
+":   Каталог за замовчуванням, пов'язаний з обліковим записом у комп'ютерній системі.\n"
+"    За домовленістю усі файли користувача зберігаються у домашньому каталозі або нижче нього."
+
+#: shell-novice/reference.md:98
+msgid ""
+"loop\n"
+":   A set of instructions to be executed multiple times.\n"
+"    Consists of a [loop body](#loop-body) and (usually) a\n"
+"    condition for exiting the loop. See also [for loop](#for-loop) and [while loop](#while-loop)."
+msgstr ""
+"цикл\n"
+":   Набір інструкцій, що виконується декілька разів.\n"
+"    Складається з [тіла циклу](#тіло-циклу) і (зазвичай)\n"
+"    умови виходу з циклу.\n"
+"    Дивись також: [цикл for](#цикл-for) та [цикл while](#цикл-while)."
+
+#: shell-novice/reference.md:103
+msgid ""
+"loop body\n"
+":   The set of statements or commands that are repeated inside a [for loop](#for-loop)\n"
+"    or [while loop](#while-loop)."
+msgstr ""
+"тіло циклу\n"
+":   Набір операторів або команд, які повторюються всередині [циклу for](#цикл-for)\n"
+"    чи [циклу while](#цикл-while)."
+
+#: shell-novice/reference.md:107
+msgid ""
+"MIME type\n"
+":   MIME (Multi-Purpose Internet Mail Extensions) types describe different file types for exchange\n"
+"    on the Internet, for example, images, audio, and documents."
+msgstr ""
+"MIME тип\n"
+":   Типи MIME (Multi-Purpose Internet Mail Extensions, з англ. багатоцільові розширення інтернет-пошти) описують різні типи файлів для обміну\n"
+"    в Інтернеті, наприклад, зображення, аудіо та документи."
+
+#: shell-novice/reference.md:111
+msgid ""
+"operating system\n"
+":   Software that manages interactions between users, hardware, and software [processes](#process).\n"
+"    Common examples are Linux, macOS, and Windows."
+msgstr ""
+"операційна система\n"
+":   Програмне забезпечення, яке керує взаємодією між користувачами, обладнанням та [процесами] (#процес) програмного забезпечення.\n"
+"    Поширеними прикладами є Linux, macOS та Windows."
+
+#: shell-novice/reference.md:115
+msgid ""
+"option\n"
+":   A way to specify an argument or setting to a command-line program.\n"
+"    By convention Unix applications use a dash followed by a single letter,\n"
+"    such as `-v`, or two dashes followed by a word, such as `--verbose`,\n"
+"    while DOS applications use a slash, such as `/V`.\n"
+"    Depending on the application, an option may be followed by a single argument,\n"
+"    as in `-o /tmp/output.txt`."
+msgstr ""
+"опція\n"
+":   Спосіб вказати аргумент або параметр у програмі командного рядка.\n"
+"    Зазвичай у Unix-програмах використовується тире, за яким слідує одна літера,\n"
+"    наприклад, `-v`, або два тире з наступним словом, наприклад, `--verbose`,\n"
+"    у той час як програми для DOS використовують косу риску, наприклад `/V`.\n"
+"    Залежно від програми, опція може супроводжуватися одним аргументом,\n"
+"    як у `-o /tmp/output.txt`."
+
+#: shell-novice/reference.md:123
+msgid ""
+"parameter\n"
+":   A variable named in a function's declaration that is used to hold a value passed into the call.\n"
+"    The term is often used interchangeably (and inconsistently) with [argument](#argument)."
+msgstr ""
+"параметр\n"
+": Змінна, названа в оголошенні функції, яка використовується для зберігання значення, переданого у виклик.\n"
+"    Цей термін часто використовується як взаємозамінний (і неузгоджено) з [аргумент](#аргумент)."
+
+#: shell-novice/reference.md:127
+msgid ""
+"parent directory\n"
+":   The directory that \"contains\" the one in question.\n"
+"    Every directory in a file system except the [root directory](#root-directory) has a parent.\n"
+"    A directory's parent is usually referred to using the shorthand notation `..`\n"
+"    (pronounced \"dot dot\")."
+msgstr ""
+"батьківський каталог\n"
+":   Каталог, який \"містить\" каталог, про який йде мова.\n"
+"    Кожен каталог у файловій системі, окрім [кореневого каталогу] (#кореневий-каталог), має батька.\n"
+"    На батьківський каталог зазвичай посилаються за допомогою скороченого позначення `..`\n"
+"    (вимовляється як \"крапка крапка\")."
+
+#: shell-novice/reference.md:133
+msgid ""
+"path\n"
+":   A description that specifies the location of a file or directory within a\n"
+"    [file system](#file-system).\n"
+"    See also: [absolute path](#absolute-path), [relative path](#relative-path)."
+msgstr ""
+"шлях\n"
+":   Опис, який вказує місцезнаходження файлу або каталогу у\n"
+"    [файловій системі](#файлова-система).\n"
+"    Дивись також: [абсолютний шлях](#абсолютний-шлях), [відносний шлях](#відносний-шлях)."
+
+#: shell-novice/reference.md:139
+msgid ""
+"pipe\n"
+":   A connection from the output of one program to the input of another.\n"
+"    When two or more programs are connected in this way, they are called a \"pipeline\"."
+msgstr ""
+"канал\n"
+":   З'єднання виходу однієї програми з входом іншої.\n"
+"    Коли дві або більше програм з'єднані таким чином, вони називаються \"конвеєром\"."
+
+#: shell-novice/reference.md:143
+msgid ""
+"process\n"
+":   A running instance of a program, containing code, variable values,\n"
+"    open files and network connections, and so on.\n"
+"    Processes are the \"actors\" that the [operating system](#operating-system) manages;\n"
+"    it typically runs each process for a few milliseconds at a time\n"
+"    to give the impression that they are executing simultaneously."
+msgstr ""
+"процес\n"
+":   Екземпляр програми, що виконується; містить код, значення змінних,\n"
+"    відкриті файли, мережеві з'єднання тощо.\n"
+"    Процеси - це \"актори\", якими керує [операційна система](#операційна-система);\n"
+"    зазвичай вона виконує кожен процес по кілька мілісекунд за раз\n"
+"    щоб створити враження, що вони виконуються одночасно."
+
+#: shell-novice/reference.md:151
+msgid ""
+"prompt\n"
+":   A character or characters display by a [REPL](#read-evaluate-print-loop) to show that\n"
+"    it is waiting for its next command."
+msgstr ""
+"запит на введення\n"
+":   Символ або символи, які виводяться циклом [REPL](#цикл-read-evaluate-print), щоб показати,\n"
+"    що він чекає на наступну команду."
+
+#: shell-novice/reference.md:155
+msgid ""
+"quoting\n"
+":   (in the shell):\n"
+"    Using quotation marks of various kinds to prevent the shell from interpreting special\n"
+"    characters.\n"
+"    For example, to pass the string `*.txt` to a program,\n"
+"    it is usually necessary to write it as `'*.txt'` (with single quotes)\n"
+"    so that the shell will not try to expand the `*` wildcard."
+msgstr ""
+"цитува́ння\n"
+":   (в терміналі):\n"
+"    Використання лапок різного типу для запобігання інтерпретації оболонки спеціальних\n"
+"    символів.\n"
+"    Наприклад, щоб передати програмі рядок `*.txt`,\n"
+"    зазвичай потрібно записати його як `'*.txt'` (з одинарними лапками),\n"
+"    щоб термінал не намагався розгорнути символ підстановки `*`"
+
+#: shell-novice/reference.md:163
+msgid ""
+"read-evaluate-print loop\n"
+":   (REPL): A [command-line interface](#command-line-interface) that reads a command from the user,\n"
+"    executes it, prints the result, and waits for another command."
+msgstr ""
+"цикл read-evaluate-print\n"
+":   (REPL): [інтерфейс командного рядка](#інтерфейс-командного-рядка), який читає команду від користувача,\n"
+"    виконує її, виводить результат і чекає на наступну команду."
+
+#: shell-novice/reference.md:167
+msgid ""
+"redirect\n"
+":   To send a command's output to a file rather than to the screen or another command,\n"
+"    or equivalently to read a command's input from a file."
+msgstr ""
+"перенаправляти\n"
+":   Надіслати вивід команди до файлу, а не на екран або іншій команді,\n"
+"    або, еквівалентно, прочитати вхідні дані команди з файлу."
+
+#: shell-novice/reference.md:171
+msgid ""
+"regular expression\n"
+":   A pattern that specifies a set of character strings.\n"
+"    REs are most often used to find sequences of characters in strings."
+msgstr ""
+"регулярний вираз\n"
+":   Шаблон, який визначає набір рядків символів.\n"
+"    Найчастіше використовуються для пошуку послідовностей символів у рядках."
+
+#: shell-novice/reference.md:175
+msgid ""
+"relative path\n"
+":   A [path](#path) that specifies the location of a file or directory\n"
+"    with respect to the [current working directory](#current-working-directory).\n"
+"    Any path that does not begin with a separator character (\"/\" or \"\\\\\") is a relative path.\n"
+"    See also: [absolute path](#absolute-path)."
+msgstr ""
+"відносний шлях\n"
+":   [Шлях](#шлях), який вказує місцезнаходження файлу або каталогу\n"
+"    відносно [поточного робочого каталогу](#поточний-робочий-каталог).\n"
+"    Будь-який шлях, який не починається з символу-розділювача (\"/\" або \"\\\\\"), є відносним шляхом.\n"
+"    Дивись також: [абсолютний шлях](#абсолютний-шлях)."
+
+#: shell-novice/reference.md:181
+msgid ""
+"root directory\n"
+":   The top-most directory in a [file system](#file-system).\n"
+"    Its name is \"/\" on Unix (including Linux and macOS) and \"\\\\\" on Microsoft Windows."
+msgstr ""
+"кореневий каталог\n"
+":   Найвищий каталог у [файловій системі](#файлова-система).\n"
+"    Його назва \"/\" у Unix (включаючи Linux і macOS) і \"\\\\\" у Microsoft Windows."
+
+#: shell-novice/reference.md:185
+msgid ""
+"shell\n"
+":   A [command-line interface](#cli) such as Bash (the Bourne-Again Shell)\n"
+"    or the Microsoft Windows DOS shell\n"
+"    that allows a user to interact with the [operating system](#operating-system)."
+msgstr ""
+"термінал\n"
+":   [інтерфейс командного рядка](#інтерфейс-командного-рядка), наприклад, Bash (the Bourne-Again Shell)\n"
+"    або термінал Microsoft Windows DOS\n"
+"    яка дозволяє користувачеві взаємодіяти з [операційною системою] (#операційна-система)."
+
+#: shell-novice/reference.md:190
+msgid ""
+"shell script\n"
+":   A set of [shell](#shell) commands stored in a file for re-use.\n"
+"    A shell script is a program executed by the shell;\n"
+"    the name \"script\" is used for historical reasons."
+msgstr ""
+"скрипт терміналу\n"
+":   Набір команд [терміналу](#термінал), збережений у файлі для повторного використання.\n"
+"    Скрипт терміналу - це програма, яку виконує термінал;\n"
+"    назва \"скрипт\" використовується з історичних причин."
+
+#: shell-novice/reference.md:196
+msgid ""
+"standard input\n"
+":   A process's default input stream.\n"
+"    In interactive command-line applications,\n"
+"    it is typically connected to the keyboard;\n"
+"    in a [pipe](#pipe),\n"
+"    it receives data from the [standard output](#standard-output) of the preceding process."
+msgstr ""
+"стандартний ввід\n"
+":   Потік вводу процесу за замовчуванням.\n"
+"    В інтерактивних програмах командного рядка,\n"
+"    він зазвичай підключається до клавіатури;\n"
+"    у [канал](#канал)\n"
+"    він отримує дані зі [стандартного виводу](#стандартний-вивід) попереднього процесу."
+
+#: shell-novice/reference.md:204
+msgid ""
+"standard output\n"
+":   A process's default output stream.\n"
+"    In interactive command-line applications,\n"
+"    data sent to standard output is displayed on the screen;\n"
+"    in a [pipe](#pipe),\n"
+"    it is passed to the [standard input](#standard-input) of the next process."
+msgstr ""
+"стандартний вивід\n"
+":   Потік виведення процесу за замовчуванням.\n"
+"    В інтерактивних програмах командного рядка,\n"
+"    дані, надіслані на стандартний вивід, виводяться на екран;\n"
+"    в [каналі](#канал)\n"
+"    вони передаються до [стандартного вводу](#стандартний-ввід) наступного процесу."
+
+#: shell-novice/reference.md:212
+msgid ""
+"sub-directory\n"
+":   A directory contained within another directory."
+msgstr ""
+"підкаталог\n"
+":   Каталог, що міститься у іншому каталозі."
+
+#: shell-novice/reference.md:215
+msgid ""
+"tab completion\n"
+":   A feature provided by many interactive systems in which\n"
+"    pressing the Tab key triggers automatic completion of the current word or command."
+msgstr ""
+"завершення клавішею табуляції\n"
+":   Функція, що надається багатьма інтерактивними системами, в яких\n"
+"    натискання клавіші Tab запускає автоматичне завершення поточного слова або команди."
+
+#: shell-novice/reference.md:219
+msgid ""
+"variable\n"
+":   A name in a program that is associated with a value or a collection of values."
+msgstr ""
+"змінна\n"
+":   Ім'я у програмі, яке асоціюється зі значенням або колекцією значень."
+
+#: shell-novice/reference.md:222
+msgid ""
+"while loop\n"
+":   A loop that keeps executing as long as some condition is true.\n"
+"    See also: [for loop](#for-loop)."
+msgstr ""
+"цикл while\n"
+":   Цикл, який виконується до тих пір, поки істинна певна умова.\n"
+"    Дивись також: [цикл for](#цикл-for)."
+
+#: shell-novice/reference.md:226
+msgid ""
+"wildcard\n"
+":   A character used in pattern matching.\n"
+"    In the Unix shell,\n"
+"    the wildcard `*` matches zero or more characters,\n"
+"    so that `*.txt` matches all files whose names end in `.txt`."
+msgstr ""
+"підстановочний символ\n"
+":   Символ, який використовується у співставленні з шаблоном.\n"
+"    У терміналі Unix,\n"
+"    шаблон `*` відповідає нулю або більше символів,\n"
+"    таким чином, `*.txt` відповідає усім файлам, назви яких закінчуються на `.txt`."
+
+# header
+#: shell-novice/reference.md:232
+msgid "## External references"
+msgstr "## Зовнішні посилання"
+
+# header
+#: shell-novice/reference.md:234
+msgid "### Opening a terminal"
+msgstr "### Відкриття терміналу"
+
+# unordered list
+#: shell-novice/reference.md:235
+msgid ""
+"* [How to Use Terminal on a Mac](http://www.macworld.co.uk/feature/mac-"
+"software/how-use-terminal-on-mac-3608274/)"
+msgstr ""
+"* [Як користуватися терміналом на "
+"Mac](http://www.macworld.co.uk/feature/mac-software/how-use-terminal-on-"
+"mac-3608274/) (матеріал англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:236
+msgid "* [Git for Windows](https://git-for-windows.github.io/)"
+msgstr ""
+"* [Git для Windows](https://git-for-windows.github.io/) (матеріал "
+"англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:237
+msgid ""
+"* [How to Install Bash shell command-line tool on Windows "
+"10](https://www.windowscentral.com/how-install-bash-shell-command-line-"
+"windows-10)"
+msgstr ""
+"* [Як встановити термінал Bash на Windows "
+"10](https://www.windowscentral.com/how-install-bash-shell-command-line-"
+"windows-10) (матеріал англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:238
+msgid ""
+"* [Install and Use the Linux Bash Shell on Windows "
+"10](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-"
+"shell-on-windows-10/)"
+msgstr ""
+"* [Встановлення та використання терміналу Linux Bash у Windows "
+"10](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-"
+"shell-on-windows-10/) (матеріал англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:239
+msgid ""
+"* [Using the Windows 10 Bash "
+"Shell](https://www.howtogeek.com/265900/everything-you-can-do-with-"
+"windows-10s-new-bash-shell/)"
+msgstr ""
+"* [Використання Windows 10 терміналу "
+"Bash](https://www.howtogeek.com/265900/everything-you-can-do-with-"
+"windows-10s-new-bash-shell/) (матеріал англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:240
+msgid ""
+"* [Using a UNIX/Linux emulator (Cygwin) or Secure Shell (SSH) client "
+"(Putty)](http://faculty.smu.edu/reynolds/unixtut/windows.html)"
+msgstr ""
+"* [Використання емулятора UNIX/Linux (Cygwin) або клієнта Secure Shell (SSH)"
+" (Putty)](http://faculty.smu.edu/reynolds/unixtut/windows.html) (матеріал "
+"англійською мовою)"
+
+# header
+#: shell-novice/reference.md:242
+msgid "### Manuals"
+msgstr "### Посібники"
+
+# unordered list
+#: shell-novice/reference.md:243
+msgid "* [GNU manuals](http://www.gnu.org/manual/manual.html)"
+msgstr ""
+"* [Керівництва з GNU](http://www.gnu.org/manual/manual.html) (матеріал "
+"англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:244
+msgid ""
+"* [Core GNU "
+"utilities](http://www.gnu.org/software/coreutils/manual/coreutils.html)"
+msgstr ""
+"* [Ключові утіліти "
+"GNU](http://www.gnu.org/software/coreutils/manual/coreutils.html) (матеріал "
+"англійською мовою)"
+
+# header
+#: shell-novice/reference.md:246
+msgid "### Miscellaneous"
+msgstr "### Різне"
+
+# unordered list
+#: shell-novice/reference.md:247
+msgid ""
+"* [North Pacific Gyre](http://en.wikipedia.org/wiki/North_Pacific_Gyre)"
+msgstr ""
+"* [Північнотихоокеанська "
+"течія](https://uk.wikipedia.org/wiki/Північнотихоокеанська_течія)"
+
+# unordered list
+#: shell-novice/reference.md:248
+msgid ""
+"* [Great Pacific Garbage "
+"Patch](http://en.wikipedia.org/wiki/Great_Pacific_Garbage_Patch)"
+msgstr ""
+"* [Велика тихоокеанська сміттєва "
+"пляма](https://uk.wikipedia.org/wiki/Велика_тихоокеанська_сміттєва_пляма)"
+
+# unordered list
+#: shell-novice/reference.md:249
+msgid ""
+"* ['Ensuring the longevity of digital information' by Jeff "
+"Rothenberg](http://www.clir.org/pubs/archives/ensuring.pdf)"
+msgstr ""
+"* ['Забезпечення довговічності цифрової інформації', автор Jeff "
+"Rothenberg](http://www.clir.org/pubs/archives/ensuring.pdf) (матеріал "
+"англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:250
+msgid "* [Computer error haikus](http://wiki.c2.com/?ComputerErrorHaiku)"
+msgstr ""
+"* [Хайку про комп'ютерні помилки](http://wiki.c2.com/?ComputerErrorHaiku) "
+"(матеріал англійською мовою)"
+
+# unordered list
+#: shell-novice/reference.md:251
+msgid ""
+"* [How to name files nicely, by Jenny "
+"Bryan](https://speakerdeck.com/jennybc/how-to-name-files)"
+msgstr ""
+"* ['Як правильно називати файли', автор Jenny "
+"Bryan](https://speakerdeck.com/jennybc/how-to-name-files) (матеріал "
+"англійською мовою)"

@@ -1,0 +1,820 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 19:32:08+0000\n"
+"PO-Revision-Date: 2023-02-12 19:38+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: shell-novice/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Примітки інструктора\"\n"
+"---"
+
+# unordered list
+#: shell-novice/_extras/guide.md:5
+msgid "*   Why do we learn to use the shell?"
+msgstr "*   Навіщо ми вчимося користуватися терміналом?"
+
+# unordered list
+#: shell-novice/_extras/guide.md:6
+msgid "    *   Allows users to automate repetitive tasks"
+msgstr "    *   Дозволяє користувачам автоматизувати повторювані завдання"
+
+# unordered list
+#: shell-novice/_extras/guide.md:7
+msgid ""
+"    *   And capture small data manipulation steps that are normally not "
+"recorded"
+msgstr ""
+"    *   І фіксує невеликі кроки маніпуляцій з даними, які зазвичай не "
+"записуються"
+
+#: shell-novice/_extras/guide.md:8
+msgid ""
+"        to make research reproducible\n"
+"*   The Problem\n"
+"    *   Running the same workflow on several samples can be unnecessarily labour intensive\n"
+"    *   Manual manipulation of data files:\n"
+"        *   is often not captured in documentation\n"
+"        *   is hard to reproduce\n"
+"        *   is hard to troubleshoot, review, or improve\n"
+"*   The Shell\n"
+"    *   Workflows can be automated through the use of shell scripts\n"
+"    *   Built-in commands allow for easy data manipulation (e.g. sort, grep, etc.)\n"
+"    *   Every step can be captured in the shell script and allow reproducibility and\n"
+"        easy troubleshooting"
+msgstr ""
+"        для того, щоб зробити дослідження відтворюваними\n"
+"*   Проблема\n"
+"    *   Запуск одного і того ж робочого процесу для декількох зразків може бути невиправдано трудомістким\n"
+"    *   Ручна маніпуляція з файлами даних:\n"
+"        *   часто не відображається в документації\n"
+"        *   важко відтворити\n"
+"        *   важко усунути несправності, переглянути або вдосконалити\n"
+"*   Термінал\n"
+"    *   Робочі процеси можна автоматизувати за допомогою скриптів терміналу\n"
+"    *   Вбудовані команди дозволяють легко маніпулювати даними (наприклад, sort, grep тощо).\n"
+"    *   Кожен крок може бути зафіксований у скрипті терміналу, що забезпечує відтворюваність та\n"
+"        легке усунення несправностей"
+
+# header
+#: shell-novice/_extras/guide.md:21
+msgid "## Overall"
+msgstr "## Загальний підсумок"
+
+#: shell-novice/_extras/guide.md:23
+msgid ""
+"Many people have questioned whether we should still teach the shell.\n"
+"After all,\n"
+"anyone who wants to rename several thousand data files\n"
+"can easily do so interactively in the Python interpreter,\n"
+"and anyone who's doing serious data analysis\n"
+"is probably going to do most of their work inside the IPython Notebook or R Studio.\n"
+"So why teach the shell?"
+msgstr ""
+"Багато хто ставить під сумнів, чи варто продовжувати вчити термінал.\n"
+"Зрештою,\n"
+"будь-хто, хто хоче перейменувати кілька тисяч файлів даних,\n"
+"може легко зробити це інтерактивно в інтерпретаторі Python,\n"
+"і будь-хто, хто займається серйозним аналізом даних\n"
+"швидше за все, буде виконувати більшу частину своєї роботи в IPython Notebook або в R Studio.\n"
+"Тож навіщо навчатися роботі в терміналі?"
+
+#: shell-novice/_extras/guide.md:31
+msgid ""
+"The first answer is,\n"
+"\"Because so much else depends on it.\"\n"
+"Installing software,\n"
+"configuring your default editor,\n"
+"and controlling remote machines frequently assume a basic familiarity with the shell,\n"
+"and with related ideas like standard input and output.\n"
+"Many tools also use its terminology\n"
+"(for example, the `%ls` and `%cd` magic commands in IPython)."
+msgstr ""
+"Перша відповідь така:\n"
+"\"Тому що від цього залежить так багато іншого\".\n"
+"Встановлення програмного забезпечення,\n"
+"налаштування редактора за замовчуванням\n"
+"та керування віддаленими комп'ютерами часто вимагають базового знайомства з командним терміналом\n"
+"та пов'язаними з ним поняттями, такими як стандартний ввід та вивід.\n"
+"Багато інструментів також використовують його термінологію\n"
+"(наприклад, магічні команди `%ls` та `%cd` в IPython)."
+
+#: shell-novice/_extras/guide.md:40
+msgid ""
+"The second answer is,\n"
+"\"Because it's an easy way to introduce some fundamental ideas about how to use computers.\"\n"
+"As we teach people how to use the Unix shell,\n"
+"we teach them that they should get the computer to repeat things\n"
+"(via tab completion,\n"
+"`!` followed by a command number,\n"
+"and `for` loops)\n"
+"rather than repeating things themselves.\n"
+"We also teach them to take things they've discovered they do frequently\n"
+"and save them for later re-use\n"
+"(via shell scripts),\n"
+"to give things sensible names,\n"
+"and to write a little bit of documentation\n"
+"(like comment at the top of shell scripts)\n"
+"to make their future selves' lives better."
+msgstr ""
+"Друга відповідь така:\n"
+"\"Тому що це простий спосіб представити деякі фундаментальні ідеї про те, як користуватися комп'ютером\".\n"
+"Коли ми вчимо людей користуватися терміналом Unix,\n"
+"ми вчимо їх, що вони повинні змусити комп'ютер повторювати дії\n"
+"(за допомогою завершення клавішею табуляції,\n"
+"знаком `!`, за яким йде номер команди,\n"
+"та циклів \"for\").\n"
+"замість того, щоб повторювати щось самому.\n"
+"Ми також вчимо їх брати речі, які, як вони виявили, вони роблять часто,\n"
+"і зберігати їх для подальшого використання\n"
+"(за допомогою скриптів терміналу),\n"
+"давати речам розумні назви\n"
+"і писати невелику документацію\n"
+"(наприклад, коментар у верхній частині скрипта терміналу)\n"
+"щоб покращити життя своїх майбутніх поколінь."
+
+#: shell-novice/_extras/guide.md:56
+msgid ""
+"The third answer is,\n"
+"\"Because it enables use of many domain-specific tools and compute resources researchers\n"
+"cannot access otherwise.\"\n"
+"Familiarity with the shell is very useful for remote accessing machines,\n"
+"using high-performance computing infrastructure,\n"
+"and running new specialist tools in many disciplines.\n"
+"We do not teach HPC or domain-specific skills here\n"
+"but lay the groundwork for further development of these skills.\n"
+"In particular,\n"
+"understanding the syntax of commands, flags, and help systems is useful for domain specific tools\n"
+"and understanding the file system (and how to navigate it) is useful for remote access."
+msgstr ""
+"Третя відповідь така:\n"
+"\"Тому що це дозволяє використовувати багато специфічних інструментів та обчислювальних ресурсів,\n"
+"до яких дослідники не можуть отримати доступ інакше\".\n"
+"Знайомство з терміналом дуже корисне для віддаленого доступу до машин,\n"
+"використання високопродуктивної обчислювальної інфраструктури\n"
+"та запуску нових спеціалізованих інструментів у багатьох дисциплінах.\n"
+"Ми не навчаємо навичкам роботи з високопродуктивними обчислювальними системами або роботі в конкретних галузях,\n"
+"але закладаємо основу для подальшого розвитку цих навичок.\n"
+"Зокрема,\n"
+"розуміння синтаксису команд, прапорів та довідкових систем є корисним для роботи з специфічними інструментами,\n"
+"а розуміння файлової системи (та способів навігації по ній) корисне для віддаленого доступу."
+
+#: shell-novice/_extras/guide.md:68
+msgid ""
+"Finally,\n"
+"and perhaps most importantly,\n"
+"teaching people the shell lets us teach them\n"
+"to think about programming in terms of function composition.\n"
+"In the case of the shell,\n"
+"this takes the form of pipelines rather than nested function calls,\n"
+"but the core idea of \"small pieces, loosely joined\" is the same."
+msgstr ""
+"Нарешті,\n"
+"і, можливо, найважливіше,\n"
+"навчання людей терміналу дозволяє нам навчити їх\n"
+"думати про програмування з точки зору композиції функцій.\n"
+"У випадку з терміналом\n"
+"це має форму конвеєрів, а не вкладених викликів функцій,\n"
+"але основна ідея \"маленьких шматочків, нещільно з'єднаних між собою\" залишається тією ж самою."
+
+#: shell-novice/_extras/guide.md:76
+msgid ""
+"All of this material can be covered in three hours\n"
+"as long as learners using Windows do not run into roadblocks such as:"
+msgstr ""
+"Весь цей матеріал можна охопити за три години\n"
+"за умови, що учні, які використовують Windows, не натраплять на такі перешкоди, як:"
+
+# unordered list
+#: shell-novice/_extras/guide.md:79
+msgid "*   not being able to figure out where their home directory is"
+msgstr "*   неможливысть з'ясувати, де знаходиться їхня домашня директорія"
+
+#: shell-novice/_extras/guide.md:80
+msgid ""
+"    (particularly if they're using Cygwin);\n"
+"*   not being able to run a plain text editor;\n"
+"    and\n"
+"*   the shell refusing to run scripts that include DOS line endings."
+msgstr ""
+"    (особливо якщо вони використовують Cygwin);\n"
+"*   невміння запустити звичайний текстовий редактор;\n"
+"    та\n"
+"*   відмова терміналу виконувати скрипти, які містять закінчення рядків DOS."
+
+# header
+#: shell-novice/_extras/guide.md:85
+msgid "## Preparing to Teach"
+msgstr "## Підготовка до викладання"
+
+# unordered list
+#: shell-novice/_extras/guide.md:87
+msgid ""
+"*   Use the `data` directory for in-workshop exercises and live coding "
+"examples."
+msgstr ""
+"*   Використовуйте каталог `data` для вправ на семинарах та прикладів "
+"кодування в реальному часі."
+
+#: shell-novice/_extras/guide.md:88
+msgid ""
+"    You can clone the shell-novice directory or use the *Download ZIP*\n"
+"    button on the right to get the entire\n"
+"    [Git repository](https://github.com/swcarpentry/shell-novice). We also now provide\n"
+"    a zip file of the `data` directory\n"
+"    at the [Setup page]({{ page.root }}{% link setup.md %})."
+msgstr ""
+"    Ви можете клонувати каталог shell-novice або використати *Завантажити ZIP*.\n"
+"    кнопку праворуч, щоб отримати увесь\n"
+"    [Git репозиторій](https://github.com/swcarpentry/shell-novice). Також тепер ми надаємо\n"
+"    zip-файл каталогу `data`\n"
+"    на [Сторінці налаштування]({{ page.root }}{% link setup.md %})."
+
+# unordered list
+#: shell-novice/_extras/guide.md:94
+msgid "*   Website: various practices have been used."
+msgstr "*   Веб-сайт: використовувалися різні практики."
+
+# unordered list
+#: shell-novice/_extras/guide.md:95
+msgid ""
+"    *   Option 1: Can give links to learners before the lesson so they can "
+"follow along,"
+msgstr ""
+"    *   Варіант 1: Ви можете дати учням посилання перед початком уроку, щоб "
+"вони могли слідувати за ним,"
+
+#: shell-novice/_extras/guide.md:96
+msgid ""
+"        catch up,\n"
+"\tand see exercises (particularly if you're following the lesson content without many changes).\n"
+"    *   Option 2: Don't show the website to the learners during the lesson,\n"
+"        as it can be distracting:\n"
+"        students may read instead of listen, and having another window open is an additional\n"
+"        cognitive load.\n"
+"\t*   In any case, make sure to point to website as a post-workshop reference."
+msgstr ""
+"        надолужити пропущене\n"
+"\tта переглянути вправи (особливо якщо ви дотримуєтесь змісту уроку без особливих змін).\n"
+"    *   Варіант 2: Не показуйте веб-сайт учням під час уроку,\n"
+"        оскільки це може відволікати:\n"
+"        учні можуть читати замість того, щоб слухати, а відкрите вікно - це додаткове\n"
+"        когнітивне навантаження.\n"
+"\t*   У будь-якому випадку, не забудьте вказати на веб-сайт як на джерело інформації після воркшопу."
+
+# unordered list
+#: shell-novice/_extras/guide.md:104
+msgid "*   Content:"
+msgstr "*   Зміст:"
+
+#: shell-novice/_extras/guide.md:105
+msgid ""
+"    Unless you have a truly generous amount of time (4+ hours),\n"
+"    it is likely that you will not cover ALL the material in this lesson in a single half-day\n"
+"    session.\n"
+"    Plan ahead on what you might skip, what you really want to emphasize, etc."
+msgstr ""
+"    Якщо ви не маєте справді щедрої кількості часу (4+ години),\n"
+"    швидше за все, ви не зможете охопити весь матеріал цього уроку за один урок тривалістю у половину дня.\n"
+"    Заздалегідь сплануйте, що ви можете пропустити, на чому хочете наголосити тощо."
+
+# unordered list
+#: shell-novice/_extras/guide.md:110
+msgid "*   Exercises:"
+msgstr "*   Вправи:"
+
+#: shell-novice/_extras/guide.md:111
+msgid ""
+"    Think in advance about how you might want to handle exercises during the lesson.\n"
+"    How are you assigning them (website, slide, handout)?\n"
+"    Do you want everyone to try it and then you show the solution?\n"
+"    Have a learner show the solution?\n"
+"    Have groups each do a different exercise and present their solutions?"
+msgstr ""
+"    Заздалегідь продумайте, як ви будете працювати з вправами під час уроку.\n"
+"    Як ви їх роздаєте (веб-сайт, слайд, роздатковий матеріал)?\n"
+"    Ви хочете, щоб кожен спробував, а потім ви показали розв'язання?\n"
+"    Чи попросити когось з учнів показати розв'язання?\n"
+"    Доручити групам виконати різні вправи і презентувати свої рішення?"
+
+# unordered list
+#: shell-novice/_extras/guide.md:117
+msgid ""
+"*   The [Reference page]({{ page.root }}{% link reference.md %}) can be "
+"printed out"
+msgstr ""
+"*   Сторінку [Посилання]({{ page.root }}{% link reference.md %}) можна "
+"роздрукувати"
+
+#: shell-novice/_extras/guide.md:118
+msgid "    and given to students as a reference, your choice."
+msgstr "    і дати студентам для ознайомлення, на ваш вибір."
+
+# unordered list
+#: shell-novice/_extras/guide.md:120
+msgid "*   Other preparation:"
+msgstr "*   Інші приготування:"
+
+#: shell-novice/_extras/guide.md:121
+msgid ""
+"    Feel free to add your own examples or side comments,\n"
+"    but know that it shouldn't be necessary:\n"
+"    the topics and commands can be taught as given on the lesson pages.\n"
+"    If you think there is a place where the lesson is lacking,\n"
+"    feel free to file an issue or submit a pull request."
+msgstr ""
+"    Не соромтеся додавати власні приклади чи коментарі,\n"
+"    але знайте, що це не обов'язково:\n"
+"    теми і команди можна викладати так, як вони подані на сторінках уроків.\n"
+"    Якщо ви вважаєте, що в уроці чогось не вистачає,\n"
+"    не соромтеся повідомити про проблему або створити запит на зміну матеріалу."
+
+# header
+#: shell-novice/_extras/guide.md:127
+msgid "## Teaching Notes"
+msgstr "## Викладацькі нотатки"
+
+# unordered list
+#: shell-novice/_extras/guide.md:129
+msgid "*   Super cool online resource!"
+msgstr "*   Супер крутий онлайн-ресурс!"
+
+#: shell-novice/_extras/guide.md:130
+msgid ""
+"    <http://explainshell.com/> will dissect any shell command you type in\n"
+"    and display help text for each piece.\n"
+"    Additional nice manual tool could be <http://tldr-pages.github.io/>\n"
+"    with short very descriptive manuals for shell commands,\n"
+"    useful especially on Windows while using Git BASH where `man` could not work."
+msgstr ""
+"    <http://explainshell.com/> детально проаналізує будь-яку команду оболонки, яку ви введете,\n"
+"    і покаже текст довідки для кожного фрагмента.\n"
+"    Додатковим чудовим посібником може бути <http://tldr-pages.github.io/>\n"
+"    з короткими дуже докладними інструкціями для команд командного рядка,\n"
+"    особливо корисним у Windows під час використання Git Bash, де `man` не може працювати."
+
+# unordered list
+#: shell-novice/_extras/guide.md:136
+msgid "*   Another super cool online resource is <http://www.shellcheck.net>,"
+msgstr ""
+"*   Ще один супер крутий онлайн-ресурс - це <http://www.shellcheck.net>,"
+
+#: shell-novice/_extras/guide.md:137
+msgid ""
+"    which will check shell scripts (both uploaded and typed in) for common "
+"errors."
+msgstr ""
+"    який перевірить скрипти оболонки (як завантажені, так і введені) на "
+"наявність типових помилок."
+
+# unordered list
+#: shell-novice/_extras/guide.md:139
+msgid "*   Resources for \"splitting\" your shell so that recent commands"
+msgstr ""
+"*   Ресурси для \"розщеплення\" вашої терміналу так, щоб нещодавні команди"
+
+#: shell-novice/_extras/guide.md:140
+msgid ""
+"    remain in view: <https://github.com/rgaiacs/swc-shell-split-window>."
+msgstr ""
+"    залишалися в полі зору: <https://github.com/rgaiacs/swc-shell-split-"
+"window>."
+
+# unordered list
+#: shell-novice/_extras/guide.md:142
+msgid ""
+"*   Learners can sometimes get trapped within command-line text editors such"
+" as"
+msgstr ""
+"*   Іноді учні можуть потрапити в пастку в текстових редакторах командного "
+"рядка, таких як"
+
+#: shell-novice/_extras/guide.md:143
+msgid ""
+"    Vim, Emacs, or Nano.\n"
+"    Closing the terminal emulator and opening a new one can be frustrating\n"
+"    as learners will have to navigate to the correct folder again.\n"
+"    Our recommendation to mitigate this problem is that instructors should use\n"
+"    the same text editor as the learners during workshops (in most cases Nano)."
+msgstr ""
+"    Vim, Emacs або Nano.\n"
+"    Закриття емулятора терміналу та відкриття нового може викликати розчарування\n"
+"    оскільки учням доведеться знову переходити до потрібної папки.\n"
+"    Для пом'якшення цієї проблеми ми радимо викладачам використовувати\n"
+"    той самий текстовий редактор, що й учні під час семінарів (у більшості випадків Nano)."
+
+# unordered list
+#: shell-novice/_extras/guide.md:149
+msgid "*   Introducing and navigating the filesystem in the shell (covered in"
+msgstr ""
+"*   Знайомство з файловою системою в терміналі та навігація нею (розглянуто "
+"в"
+
+#: shell-novice/_extras/guide.md:150
+msgid ""
+"    [Navigating Files and Directories]({{ page.root }}{% link _episodes/02-filedir.md %}) section)\n"
+"    can be confusing.\n"
+"    You may have both terminal and GUI file explorer open side by side so learners can see the\n"
+"    content and file structure while they're using terminal to navigate the system."
+msgstr ""
+"    секції [Навігація файлами та каталогами]({{ page.root }}{% link _episodes/02-filedir.md %}))\n"
+"    можуть плутати.\n"
+"    Ви можете мати відкриті термінал і графічний провідник файлів поруч, щоб учні могли бачити\n"
+"    вміст і структуру файлів, коли вони використовують термінал для навігації системою."
+
+# unordered list
+#: shell-novice/_extras/guide.md:155
+msgid "*   Tab completion sounds like a small thing: it isn't."
+msgstr "*   Завершення клавішею табуляції звучить як дрібниця: це не так."
+
+#: shell-novice/_extras/guide.md:156
+msgid ""
+"    Re-running old commands using `!123` or `!wc`\n"
+"    isn't a small thing either,\n"
+"    and neither are wildcard expansion and `for` loops.\n"
+"    Each one is an opportunity to repeat one of the big ideas of Software Carpentry:\n"
+"    if the computer *can* repeat it,\n"
+"    some programmer somewhere will almost certainly have built\n"
+"    some way for the computer *to* repeat it."
+msgstr ""
+"    Повторний запуск старих команд за допомогою `!123` або `!wc`\n"
+"    теж не дрібниця,\n"
+"    і також дрібницями не є розгортання підстановочних символів та цикли `for`.\n"
+"    Кожен із них — це можливість повторити одну з великих ідей Software Carpentry:\n"
+"    якщо комп'ютер *може* це повторити,\n"
+"    якийсь програміст десь майже напевно створить\n"
+"    якийсь спосіб для комп’ютера *повторити* це."
+
+# unordered list
+#: shell-novice/_extras/guide.md:164
+msgid "*   Building up a pipeline with four or five stages,"
+msgstr "*   Побудова конвеєру з чотирма або п'ятьма ступенями,"
+
+#: shell-novice/_extras/guide.md:165
+msgid ""
+"    then putting it in a shell script for re-use\n"
+"    and calling that script inside a `for` loop,\n"
+"    is a great opportunity to show how\n"
+"    \"seven plus or minus two\"\n"
+"    connects to programming.\n"
+"    Once we have figured out how to do something moderately complicated,\n"
+"    we make it re-usable and give it a name\n"
+"    so that it only takes up one slot in working memory\n"
+"    rather than several.\n"
+"    It is also a good opportunity to talk about exploratory programming:\n"
+"    rather than designing a program up front,\n"
+"    we can do a few useful things\n"
+"    and then retroactively decide which are worth encapsulating\n"
+"    for future re-use."
+msgstr ""
+"    з подальшим розміщенням його в скрипт терміналу для повторного використання\n"
+"    і виклик цього сценарію всередині циклу `for`,\n"
+"    це чудова можливість показати, як\n"
+"    \"сім плюс-мінус два\"\n"
+"    пов'язано з програмуванням.\n"
+"    Коли ми з’ясували, як зробити щось помірно складне,\n"
+"    ми робимо його придатним для повторного використання та даємо йому назву\n"
+"    так що він займає лише один слот у робочій пам’яті,\n"
+"    а не кілька\n"
+"    Це також гарна можливість поговорити про пошукове програмування:\n"
+"    замість того, щоб розробляти програму заздалегідь,\n"
+"    ми можемо зробити кілька корисних речей\n"
+"    а потім заднім числом вирішити, які варті інкапсуляції\n"
+"    для майбутнього повторного використання."
+
+# unordered list
+#: shell-novice/_extras/guide.md:180
+msgid ""
+"*   If everything is going well, you can drive home the point that file"
+msgstr "*   Якщо все йде добре, ви можете переконати, що розширення файлів"
+
+#: shell-novice/_extras/guide.md:181
+msgid ""
+"    extensions are essentially there to help computers (and human\n"
+"    readers) understand file content and are not a requirement of files\n"
+"    (covered briefly in\n"
+"    [Navigating Files and Directories]({{ page.root }}{% link _episodes/02-filedir.md %})).\n"
+"    This can be done in the\n"
+"    [Pipes and Filters]({{ page.root }}{% link _episodes/04-pipefilter.md %}) section by showing\n"
+"    that you can redirect standard output to a file without the .txt extension\n"
+"    (e.g., lengths), and that the resulting file is still a perfectly usable text file.\n"
+"    Make the point that if double-clicked in the GUI, the computer will\n"
+"    probably ask you what you want to do."
+msgstr ""
+"    по суті існують, щоб допомогти комп’ютерам (і людям-\n"
+"    читачам) зрозуміти вміст файлів, і не є вимогою для файлів\n"
+"    (коротко висвітлено в секції\n"
+"    [Навігація файлами та каталогами]({{ page.root }}{% link _episodes/02-filedir.md %})).\n"
+"    Це можна зробити в\n"
+"    секції [Канали та фільтри]({{ page.root }}{% link _episodes/04-pipefilter.md %}) шляхом демонстрації\n"
+"    що ви можете перенаправити стандартний вихід у файл без розширення .txt\n"
+"    (наприклад, lengths), і що отриманий файл все ще є цілком придатним для використання текстовим файлом.\n"
+"    Зауважте, що у разі подвійного кліку в графічному інтерфейсі комп’ютер буде,\n"
+"    напевно, запитувати вас, що ви хочете зробити."
+
+# unordered list
+#: shell-novice/_extras/guide.md:192
+msgid ""
+"*   We have to leave out many important things because of time constraints,"
+msgstr "*   Через брак часу нам доводиться пропускати багато важливих речей,"
+
+#: shell-novice/_extras/guide.md:193
+msgid ""
+"    including file permissions, job control, and SSH.\n"
+"    If learners already understand the basic material,\n"
+"    this can be covered instead using the online lessons as guidelines.\n"
+"    These limitations also have follow-on consequences:"
+msgstr ""
+"    включаючи дозволи на файли, керування завданнями та SSH.\n"
+"    Якщо учні вже розуміють базовий матеріал,\n"
+"    цей матеріал можна розглянути, використовуючи онлайн-уроки як орієнтири.\n"
+"    Ці обмеження також мають подальші наслідки:"
+
+# unordered list
+#: shell-novice/_extras/guide.md:198
+msgid "*   It's hard to discuss `#!` (shebang) without first discussing"
+msgstr "*   Важко обговорювати `#!` (шебанг), не обговоривши попередньо"
+
+#: shell-novice/_extras/guide.md:199
+msgid ""
+"    permissions, which we don't do.  `#!` is also [pretty\n"
+"    complicated][shebang], so even if we did discuss permissions, we\n"
+"    probably still wouldn't want to discuss `#!`."
+msgstr ""
+"    дозволів, чого ми не робимо. `#!` також [доволі\n"
+"    складний][shebang], тож навіть якби ми обговорювали дозволи,\n"
+"    ми, мабуть, все одно б не захотіли обговорювати `#!`."
+
+# unordered list
+#: shell-novice/_extras/guide.md:203
+msgid "*   Installing Bash and a reasonable set of Unix commands on Windows"
+msgstr "*   Встановлення Bash та доцільного набору команд Unix на Windows"
+
+#: shell-novice/_extras/guide.md:204
+msgid ""
+"    always involves some fiddling and frustration.\n"
+"    Please see the latest set of installation guidelines for advice,\n"
+"    and try it out yourself *before* teaching a class."
+msgstr ""
+"    завжди пов'язане з деякими клопотами та розчаруваннями.\n"
+"    Будь ласка, зверніться до останнього набору інструкцій щодо встановлення для отримання порад,\n"
+"    і спробуйте самі, перш ніж викладати у класі."
+
+# unordered list
+#: shell-novice/_extras/guide.md:208
+msgid "*   On Windows machines"
+msgstr "*   На машинах Windows"
+
+#: shell-novice/_extras/guide.md:209
+msgid ""
+"    if `nano` hasn't been properly installed with the\n"
+"    [Software Carpentry Windows Installer][windows-installer]\n"
+"    it is possible to use `notepad` as an alternative.  There will be a GUI\n"
+"    interface and line endings are treated differently, but otherwise, for\n"
+"    the purposes of this lesson, `notepad` and `nano` can be used almost interchangeably."
+msgstr ""
+"    якщо `nano` не було належним чином встановлено за допомогою\n"
+"    [Software Carpentry Windows Installer][windows-installer]\n"
+"    можна скористатися `notepad` як альтернативою. У цьому випадку буде використано графічний інтерфейс\n"
+"    і закінчення рядків обробляються по-різному, але для\n"
+"    цілей цього уроку `notepad` і `nano` можна використовувати майже як взаємозамінні."
+
+# unordered list
+#: shell-novice/_extras/guide.md:215
+msgid "*   On Windows, it appears that:"
+msgstr "*   На машинах Windows, виявляється, наступні команди:"
+
+#: shell-novice/_extras/guide.md:217
+msgid ""
+"    ~~~\n"
+"    $ cd\n"
+"    $ cd Desktop\n"
+"    ~~~\n"
+"    {: .language-bash}"
+msgstr ""
+"    ~~~\n"
+"    $ cd\n"
+"    $ cd Desktop\n"
+"    ~~~\n"
+"    {: .language-bash}"
+
+#: shell-novice/_extras/guide.md:223
+msgid ""
+"    will always put someone on their desktop\n"
+"    (unless their machine is backed up using enterprise OneDrive, see next point).\n"
+"    Have them create the example directory for the shell exercises there\n"
+"    so that they can find it easily\n"
+"    and watch it evolve."
+msgstr ""
+"    завжди відправлять когось у каталог свого робочого столу\n"
+"    (якщо на їхньому комп'ютері не створено резервну копію за допомогою корпоративного OneDrive, див. наступний пункт).\n"
+"    Попросіть їх створити там каталог прикладів для вправ у командному рядку\n"
+"    щоб вони могли легко його знайти\n"
+"    і спостерігати за його розвитком."
+
+# unordered list
+#: shell-novice/_extras/guide.md:229
+msgid ""
+"*   If a Windows machine is backed up with enterprise OneDrive, their GUI "
+"desktop may"
+msgstr ""
+"*   Якщо на комп'ютері з Windows створено резервну копію корпоративного "
+"OneDrive, його робочий стіл із графічним інтерфейсом може"
+
+#: shell-novice/_extras/guide.md:230
+msgid ""
+"    be rendered from a folder within OneDrive, which will not match the contents of `~/Desktop`.\n"
+"    The OneDrive desktop should be accessible using one of the following commands\n"
+"    (if the name of the enterprise isn't clear, look through the output of `ls` to find\n"
+"    the right folder):"
+msgstr ""
+"    буде відображено з каталогу у OneDrive, який не збігатиметься із вмістом `~/Desktop`.\n"
+"    Доступ до робочого столу OneDrive має бути забезпечено за допомогою однієї з наведених нижче команд\n"
+"    (якщо назва підприємства незрозуміла, перегляньте виведення `ls`, щоб знайти\n"
+"    потрібний каталог):"
+
+#: shell-novice/_extras/guide.md:235
+msgid ""
+"    ~~~\n"
+"    $ cd \"~/OneDrive - Name Of Enterprise/Desktop\"\n"
+"    $ cd \"C:/Users/Username/OneDrive - Name Of Enterprise/Desktop\"\n"
+"    ~~~\n"
+"    {: .language-bash}"
+msgstr ""
+"    ~~~\n"
+"    $ cd \"~/OneDrive - Name Of Enterprise/Desktop\"\n"
+"    $ cd \"C:/Users/Username/OneDrive - Name Of Enterprise/Desktop\"\n"
+"    ~~~\n"
+"    {: .language-bash}"
+
+#: shell-novice/_extras/guide.md:241
+msgid ""
+"    One way to spot if the computer is using this kind of configuration is to look at files,\n"
+"    folders or links on the desktop. Usually the icon contains a shortcut/arrow symbol if it\n"
+"    is a link, or just the plain icon if the file is just saved in the `Desktop` folder.\n"
+"    Files synced with OneDrive contain an additional symbol indicating the sync status\n"
+"    (typically blue arrows for 'sync pending' or a green tick for 'synced')."
+msgstr ""
+"    Один із способів визначити, чи використовує комп'ютер таку конфігурацію, - це переглянути файли,\n"
+"    каталоги або посилання на робочому столі. Зазвичай піктограма містить символ ярлика/стрілки, якщо це\n"
+"    посилання, або просто піктограму, якщо файл просто збережено в папці \"Робочий стіл\".\n"
+"    Файли, синхронізовані зі службою OneDrive, містять додатковий символ, що вказує на стан синхронізації\n"
+"    (зазвичай сині стрілки для \"очікує синхронізації\" або зелена галочка для \"синхронізовано\")."
+
+# unordered list
+#: shell-novice/_extras/guide.md:247
+msgid ""
+"*  Stay within POSIX-compliant commands, as all the teaching materials do."
+msgstr ""
+"*  Дотримуйтесь POSIX-сумісних команд, як і в усіх навчальних матеріалах."
+
+#: shell-novice/_extras/guide.md:248
+msgid ""
+"   Your particular shell may have extensions beyond POSIX that are not available\n"
+"   on other machines, especially the default macOS bash and Windows bash emulators.\n"
+"   For example, POSIX `ls` does not have an `--ignore=` or `-I` option, and POSIX\n"
+"   `head` takes `-n 10` or `-10`, but not the long form of `--lines=10`."
+msgstr ""
+"   Ваша конкретна оболонка може мати розширення за межами POSIX, які недоступні\n"
+"   на інших машинах, особливо у типових емуляторах bash для macOS і bash для Windows.\n"
+"   Наприклад, POSIX `ls` не має опції `--ignore=` або `-I`, а POSIX\n"
+"   `head` приймає `-n 10` або `-10`, але не довгу форму `--lines=10`."
+
+# header
+#: shell-novice/_extras/guide.md:253
+msgid "## Windows"
+msgstr "## Windows"
+
+#: shell-novice/_extras/guide.md:255
+msgid ""
+"Installing Bash and a reasonable set of Unix commands on Windows\n"
+"always involves some fiddling and frustration.\n"
+"Please see the latest set of installation guidelines for advice,\n"
+"and try it out yourself *before* teaching a class.\n"
+"Options we have explored include:"
+msgstr ""
+"Встановлення Bash та доцільного набору команд Unix на Windows\n"
+"завжди пов'язане з деякими клопотами та розчаруваннями.\n"
+"Будь ласка, зверніться до останнього набору інструкцій щодо встановлення для отримання порад,\n"
+"і спробуйте самі, перш ніж викладати у класі.\n"
+"Ми розглянули такі варіанти:"
+
+# ordered list
+#: shell-novice/_extras/guide.md:261
+msgid "1.  [msysGit](http://msysgit.github.io/) (also called \"Git Bash\"),"
+msgstr "1.  [msysGit](http://msysgit.github.io/) (також відомий як \"Git Bash\"),"
+
+# ordered list
+#: shell-novice/_extras/guide.md:262
+msgid "2.  [Cygwin](http://www.cygwin.com/),"
+msgstr "2.  [Cygwin](http://www.cygwin.com/),"
+
+# ordered list
+#: shell-novice/_extras/guide.md:263
+msgid "3.  using a desktop virtual machine, and"
+msgstr "3.  використання віртуальної машини, та"
+
+# ordered list
+#: shell-novice/_extras/guide.md:264
+msgid ""
+"4.  having learners connect to a remote Unix machine (typically a VM in the "
+"cloud)."
+msgstr ""
+"4.  підключення учнів до віддаленої Unix-машини (як правило, віртуальної "
+"машини в хмарі)."
+
+#: shell-novice/_extras/guide.md:266
+msgid ""
+"Cygwin was the preferred option until mid-2013,\n"
+"but once we started teaching Git,\n"
+"msysGit proved to work better.\n"
+"Desktop virtual machines and cloud-based VMs work well for technically sophisticated learners,\n"
+"and can reduce installation and configuration at the start of the workshop,\n"
+"but:"
+msgstr ""
+"Cygwin був найкращим варіантом до середини 2013 року,\n"
+"але як тільки ми почали викладати Git,\n"
+"msysGit виявився кращим.\n"
+"Настільні віртуальні машини та хмарні віртуальні машини добре підходять для технічно-підкованих учнів\n"
+"і можуть скоротити час на встановлення та налаштування на початку семінару,\n"
+"але:"
+
+# ordered list
+#: shell-novice/_extras/guide.md:273
+msgid "1.  they don't work well on underpowered machines,"
+msgstr "1.  вони погано працюють на малопотужних машинах,"
+
+# ordered list
+#: shell-novice/_extras/guide.md:274
+msgid ""
+"2.  they're confusing for novices (because simple things like copy and paste"
+" work differently),"
+msgstr ""
+"2.  вони збивають з пантелику новачків (тому що такі прості речі, як "
+"копіювання та вставка, працюють по-різному),"
+
+# ordered list
+#: shell-novice/_extras/guide.md:275
+msgid ""
+"3.  learners leave the workshop without a working environment on their "
+"operating system of choice,"
+msgstr ""
+"3.  учні залишають семінар без робочого середовища на обраній ними "
+"операційній системі,"
+
+#: shell-novice/_extras/guide.md:276
+msgid ""
+"    and\n"
+"4.  learners may show up without having downloaded the VM or the wireless will go down\n"
+"    (or become congested) during the lesson."
+msgstr ""
+"    та\n"
+"4.  учні можуть з'явитися, не завантаживши віртуальну машину, або бездротовий зв'язок зникне\n"
+"    (або стане перевантаженим) під час уроку.\n"
+"    "
+
+#: shell-novice/_extras/guide.md:280
+msgid ""
+"Whatever you use,\n"
+"please *test it yourself* on a Windows machine *before* your workshop:\n"
+"things may always have changed behind your back since your last workshop.\n"
+"And please also make use of our\n"
+"[Software Carpentry Windows Installer][windows-installer]."
+msgstr ""
+"Що б ви не використовували,\n"
+"будь ласка, *протестуйте його власноруч* на комп'ютері з Windows *до* початку семінару:\n"
+"з часу вашого останнього семінару все могло змінитися за вашою спиною.\n"
+"І, будь ласка, також скористайтеся нашим\n"
+"[Software Carpentry Windows Installer][windows-installer]."
+
+#: shell-novice/_extras/guide.md:286
+msgid ""
+"[shebang]: http://www.in-ulm.de/~mascheck/various/shebang/\n"
+"[windows-installer]: {{ site.swc_github }}/windows-installer"
+msgstr ""
+"[shebang]: http://www.in-ulm.de/~mascheck/various/shebang/\n"
+"[windows-installer]: {{ site.swc_github }}/windows-installer"
