@@ -1,0 +1,123 @@
+[main]
+host = https://www.transifex.com
+
+[r-intro-geospatial.pot_19__setup]
+file_filter = <lang>/19__setup.po
+source_file = pot/19__setup.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_14__figures]
+file_filter = <lang>/14__figures.po
+source_file = pot/14__figures.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_01__CONTRIBUTING]
+file_filter = <lang>/01__CONTRIBUTING.po
+source_file = pot/01__CONTRIBUTING.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_12__about]
+file_filter = <lang>/12__about.po
+source_file = pot/12__about.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_03__README]
+file_filter = <lang>/03__README.po
+source_file = pot/03__README.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_07__04-data-structures-part2]
+file_filter = <lang>/07__04-data-structures-part2.po
+source_file = pot/07__04-data-structures-part2.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_13__discuss]
+file_filter = <lang>/13__discuss.po
+source_file = pot/13__discuss.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_02__LICENSE]
+file_filter = <lang>/02__LICENSE.po
+source_file = pot/02__LICENSE.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_09__06-dplyr]
+file_filter = <lang>/09__06-dplyr.po
+source_file = pot/09__06-dplyr.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_05__02-project-intro]
+file_filter = <lang>/05__02-project-intro.po
+source_file = pot/05__02-project-intro.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_17__index]
+file_filter = <lang>/17__index.po
+source_file = pot/17__index.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_11__08-writing-data]
+file_filter = <lang>/11__08-writing-data.po
+source_file = pot/11__08-writing-data.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_00__CODE_OF_CONDUCT]
+file_filter = <lang>/00__CODE_OF_CONDUCT.po
+source_file = pot/00__CODE_OF_CONDUCT.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_06__03-data-structures-part1]
+file_filter = <lang>/06__03-data-structures-part1.po
+source_file = pot/06__03-data-structures-part1.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_10__07-plot-ggplot2]
+file_filter = <lang>/10__07-plot-ggplot2.po
+source_file = pot/10__07-plot-ggplot2.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_16__aio]
+file_filter = <lang>/16__aio.po
+source_file = pot/16__aio.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_04__01-rstudio-intro]
+file_filter = <lang>/04__01-rstudio-intro.po
+source_file = pot/04__01-rstudio-intro.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_18__reference]
+file_filter = <lang>/18__reference.po
+source_file = pot/18__reference.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_08__05-data-subsetting]
+file_filter = <lang>/08__05-data-subsetting.po
+source_file = pot/08__05-data-subsetting.md.pot
+source_lang = en
+type = PO
+
+[r-intro-geospatial.pot_15__guide]
+file_filter = <lang>/15__guide.po
+source_file = pot/15__guide.md.pot
+source_lang = en
+type = PO
+

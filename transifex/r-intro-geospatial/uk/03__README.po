@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# vorontsoovaa, 2023
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-07-18 17:19:47+0100\n"
+"PO-Revision-Date: 2020-07-18 16:29+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: r-intro-geospatial/README.md:1
+msgid ""
+"[![DOI](https://zenodo.org/badge/128225991.svg)](https://zenodo.org/badge/latestdoi/128225991)\n"
+"[![Build Status](https://travis-ci.org/datacarpentry/r-intro-geospatial.svg?branch=gh-pages)](https://travis-ci.org/datacarpentry/r-intro-geospatial)\n"
+"[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)\n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-dc--geospatial-E01563.svg)](https://swcarpentry.slack.com/messages/C9ME7G5RD)"
+msgstr ""
+"[![DOI](https://zenodo.org/badge/128225991.svg)](https://zenodo.org/badge/latestdoi/128225991)\n"
+"[![Build Status](https://travis-ci.org/datacarpentry/r-intro-geospatial.svg?branch=gh-pages)](https://travis-ci.org/datacarpentry/r-intro-geospatial)\n"
+"[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)\n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-dc--geospatial-E01563.svg)](https://swcarpentry.slack.com/messages/C9ME7G5RD)"
+
+# header
+#: r-intro-geospatial/README.md:6
+msgid "# Intro to R for Geospatial data"
+msgstr "# Вступ до R для геопросторових даних"
+
+#: r-intro-geospatial/README.md:8
+msgid ""
+"<!-- TODO: Update first pararaph of the introduction if they data changes "
+"-->"
+msgstr ""
+"<!-- TODO: Оновіть перший параграф введення, якщо вони змінюють дані -->"
+
+#: r-intro-geospatial/README.md:10
+msgid ""
+"An introduction to R for non-programmers using the [Gapminder][gapminder] data.\n"
+"Please see <https://datacarpentry.org/r-intro-geospatial> for a rendered\n"
+" version of this material,\n"
+"[the lesson template documentation][lesson-example]\n"
+"for instructions on formatting, building, and submitting material,\n"
+"or run `make` in this directory for a list of helpful commands."
+msgstr ""
+"Вступ до R для непрограмістів, які використовують дані [Gapminder][gapminder] data.\n"
+"Будь ласка, перегляньте <https://datacarpentry.org/r-intro-geospatial> для візуалізованої\n"
+"версії цього матеріалу,\n"
+"[документацію до шаблону уроків][lesson-example]\n"
+"для отримання інструкцій щодо форматування, створення та надсилання матеріалу,\n"
+"або виконайте `make` у цьому каталозі для отримання списку корисних команд."
+
+#: r-intro-geospatial/README.md:17
+msgid ""
+"The goal of this lesson is to revise best practices for using R in data\n"
+" analysis. This lesson is a modification of the [Software Carpentry: Programming with R](https://swcarpentry.github.io/r-novice-gapminder), and is part of the [Data Carpentry Geospatial Curriculum](https://datacarpentry.org/geospatial-workshop/). It introduces the R skills needed in the [Introduction to Raster and Vector Geospatial Data lesson](https://datacarpentry.org/r-raster-vector-geospatial)."
+msgstr ""
+"Мета цього уроку - переглянути найкращі практики використання R в аналізі даних. \n"
+" Цей урок є модифікацією [Software Carpentry: Програмування на R](https://swcarpentry.github.io/r-novice-gapminder), і є частиною [Навчальної програми з геопросторових дисциплін Data Carpentry](https://datacarpentry.org/geospatial-workshop/). Вона вводить навички R, які необхідні в [Уроці \"Вступ до растрових та векторних геопросторових даних\"](https://datacarpentry.org/r-raster-vector-geospatial)."
+
+#: r-intro-geospatial/README.md:20
+msgid ""
+"R is commonly used in many scientific disciplines for statistical analysis and\n"
+" its array of third-party packages. These materials are designed to provide\n"
+" attendees with a concise introduction in the fundamentals of R, and to introdue\n"
+" best practices for scientific computing: breaking down analyses into modular\n"
+" units, task automation, and encapsulation, before getting started with working\n"
+" with geospatial data."
+msgstr ""
+"R зазвичай використовується в багатьох наукових дисциплінах для статистичного аналізу та\n"
+" його масиву сторонніх пакетів. Ці матеріали призначені для того, щоб забезпечити\n"
+" учасникам лаконічне введення в основи R та ознайомити з\n"
+" кращими практиками для наукових обчислень: розбиття аналізів на модульні одиниці,\n"
+" автоматизація завдань та інкапсуляція, перед початком роботи\n"
+" з геопросторовими даними."
+
+#: r-intro-geospatial/README.md:27
+msgid ""
+"Note that this workshop focuses on the fundamentals of the programming\n"
+"language R, and not on statistical analysis."
+msgstr ""
+"Зверніть увагу, що цей семінар зосереджений на основах програмування\n"
+"мовою R, а не на статистичному аналізі."
+
+#: r-intro-geospatial/README.md:30
+msgid ""
+"The lesson contains material than can be taught in about 4 hours. The\n"
+"[instructor notes\n"
+"page](https://datacarpentry.org/r-intro-geospatial/guide/index.html) has some\n"
+"suggested lesson plans suitable for a one or half day workshop."
+msgstr ""
+"Урок містить матеріал, який можна викласти приблизно за 4 години.\n"
+"[Сторінка приміток для\n"
+"викладача](https://datacarpentry.org/r-intro-geospatial/guide/index.html) має кілька\n"
+"запропонованих планів уроків, які підходять для одноденного або південного семінару."
+
+# header
+#: r-intro-geospatial/README.md:35
+msgid "#### Maintainers:"
+msgstr "#### Супровідники:"
+
+# unordered list
+#: r-intro-geospatial/README.md:37
+msgid "* Leah Wasser"
+msgstr "* Leah Wasser"
+
+# unordered list
+#: r-intro-geospatial/README.md:38
+msgid "* Joseph Stachelek"
+msgstr "* Joseph Stachelek"
+
+# unordered list
+#: r-intro-geospatial/README.md:39
+msgid "* Tyson Swetnam"
+msgstr "* Tyson Swetnam"
+
+# unordered list
+#: r-intro-geospatial/README.md:40
+msgid "* Lauren O'Brien"
+msgstr "* Lauren O'Brien"
+
+# unordered list
+#: r-intro-geospatial/README.md:41
+msgid "* Janani Selvaraj"
+msgstr "* Janani Selvaraj"
+
+# unordered list
+#: r-intro-geospatial/README.md:42
+msgid "* Lachlan Deer"
+msgstr "* Lachlan Deer"
+
+# unordered list
+#: r-intro-geospatial/README.md:43
+msgid "* Chris Prener"
+msgstr "* Chris Prener"
+
+# unordered list
+#: r-intro-geospatial/README.md:44
+msgid "* Juan Fung"
+msgstr "* Juan Fung"
+
+#: r-intro-geospatial/README.md:46
+msgid ""
+"[gapminder]: http://www.gapminder.org/\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example"
+msgstr ""
+"[gapminder]: http://www.gapminder.org/\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example"

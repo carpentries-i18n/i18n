@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# vorontsoovaa, 2023
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-07-18 17:19:47+0100\n"
+"PO-Revision-Date: 2020-07-18 16:29+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: r-intro-geospatial/_extras/discuss.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Discussion\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: Обговорення\n"
+"---"
+
+#: r-intro-geospatial/_extras/discuss.md:6
+msgid ""
+"Please see [our other R lesson][r-gap] for a different and more detailed "
+"presentation of these concepts."
+msgstr ""
+"Будь ласка, перегляньте [наш інший урок з R][r-gap] для іншого і більш "
+"детального представлення цих понять."
+
+#: r-intro-geospatial/_extras/discuss.md:8
+msgid "[r-gap]: https://swcarpentry.github.io/r-novice-gapminder/"
+msgstr "[r-gap]: https://swcarpentry.github.io/r-novice-gapminder/"

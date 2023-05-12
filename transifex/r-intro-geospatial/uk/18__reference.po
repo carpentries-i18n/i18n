@@ -1,0 +1,593 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-07-18 17:19:47+0100\n"
+"PO-Revision-Date: 2020-07-18 16:29+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: r-intro-geospatial/reference.md:1
+msgid ""
+"---\n"
+"layout: reference\n"
+"---"
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:6
+msgid "## Reference"
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:8
+msgid ""
+"## [Introduction to R and RStudio]({{ relative_root_path }}/{% link "
+"_episodes/01-rstudio-intro.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:10
+msgid " - Use the escape key to cancel incomplete commands or running code"
+msgstr ""
+
+#: r-intro-geospatial/reference.md:11
+msgid ""
+"   (Ctrl+C) if you're using R from the shell.\n"
+" - Basic arithmetic operations follow standard order of precedence:\n"
+"   - Brackets: `(`, `)`\n"
+"   - Exponents: `^` or `**`\n"
+"   - Divide: `/`\n"
+"   - Multiply: `*`\n"
+"   - Add: `+`\n"
+"   - Subtract: `-`\n"
+" - Scientific notation is available, e.g: `2e-3`\n"
+" - Anything to the right of a `#` is a comment, R will ignore this!\n"
+" - Functions are denoted by `function_name()`. Expressions inside the\n"
+"   brackets are evaluated before being passed to the function, and\n"
+"   functions can be nested.\n"
+" - Comparison operators: `<`, `<=`, `>`, `>=`, `==`, `!=`\n"
+" - Use `all.equal` to compare numbers!\n"
+" - `<-` is the assignment operator. Anything to the right is evaluate, then\n"
+"   stored in a variable named to the left.\n"
+" - `ls` lists all variables and functions you've created\n"
+" - `rm` can be used to remove them\n"
+" - When assigning values to function arguments, you _must_ use `=`."
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:32
+msgid ""
+"## [Project management with RStudio]({{ relative_root_path }}/{% link "
+"_episodes/02-project-intro.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:34
+msgid " - To create a new project, go to File -> New Project"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:35
+msgid " - Some best practices:"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:36
+msgid "   * Treat data as read-only"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:37
+msgid "   * Keep cleaned data separate from raw dirty data"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:38
+msgid "   * Treat generated output as disposable"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:39
+msgid "   * Keep related data together"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:40
+msgid "   * Use a consistent naming scheme"
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:42
+msgid ""
+"## [Data Structures]({{ relative_root_path }}/{% link _episodes/03-data-"
+"structures-part1.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:44
+msgid "- Use `read.csv()` to import data in memory"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:45
+msgid "- ` class()` gives you the data class of your object"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:46
+msgid "- R automatic converts data types"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:47
+msgid ""
+"- The functions: `length()`, `nrow()`, `head()`, `tail()`, and `str()` can "
+"be"
+msgstr ""
+
+#: r-intro-geospatial/reference.md:48
+msgid ""
+"  useful to explore data.\n"
+"- Factors are a special class to deal with categorical data.\n"
+"- Lists provide a flexible data type.\n"
+"- Data frames are a special case of lists."
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:53
+msgid ""
+"## [Exploring Data Frames]({{ relative_root_path }}/{% link "
+"_episodes/04-data-structures-part2.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:55
+msgid "* R makes it easy to import datasets storred remotely"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:56
+msgid ""
+"* **[Data Frames]({{ relative_root_path }}/05-data-structures-part2/)**"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:57
+msgid " - `?data.frame` is a key data structure. It is a `list` of `vectors`."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:58
+msgid " - `cbind()` will add a column (vector) to a data.frame."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:59
+msgid " - `rbind()` will add a row (list) to a data.frame."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:61
+msgid ""
+" **Useful functions for querying data structures:**\n"
+" - `?str` structure, prints out a summary of the whole data structure\n"
+" - `?class` what is the data structure?\n"
+" - `?head` print the first `n` elements (rows for two-dimensional objects)\n"
+" - `?tail` print the last `n` elements (rows for two-dimensional objects)\n"
+" - `?rownames`, `?colnames`, `?dimnames` retrieve or modify the row names\n"
+"   and column names of an object.\n"
+" - `?length` get the number of elements in an atomic vector\n"
+" - `?nrow`, `?ncol`, `?dim` get the dimensions of a n-dimensional object\n"
+"   (Won't work on atomic vectors or lists).\n"
+"* If your data frame contains factors, you need to take extra steps to add rows\n"
+"  that contain new level values."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:74
+msgid "- `read.csv` to read in data in a regular structure"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:75
+msgid "   - `sep` argument to specify the separator"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:76
+msgid "     - \",\" for comma separated"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:77
+msgid "     - \"\\t\" for tab separated"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:78
+msgid "   - Other arguments:"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:79
+msgid "     - `header=TRUE` if there is a header row"
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:82
+msgid ""
+"## [Subsetting data]({{ relative_root_path }}/{% link _episodes/05-data-"
+"subsetting.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:84
+msgid " - Elements can be accessed by:"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:85
+msgid "   - Index"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:86
+msgid "   - Name"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:87
+msgid "   - Logical vectors"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:89
+msgid "- `[` single square brackets:"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:90
+msgid "   - *extract* single elements or *subset* vectors"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:91
+msgid "    - e.g.`x[1]` extracts the first item from vector x."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:92
+msgid ""
+"   - *extract* single elements of a list. The returned value will be another"
+" `list()`."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:93
+msgid "   - *extract* columns from a data.frame"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:94
+msgid " - `[` with two arguments to:"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:95
+msgid "   - *extract* rows and/or columns of"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:96
+msgid "     - matrices"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:97
+msgid "     - data.frames"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:98
+msgid "     - e.g. `x[1,2]` will extract the value in row 1, column 2."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:99
+msgid "     - e.g. `x[2,:]` will extract the entire second column of values."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:101
+msgid " - `[[` double square brackets to extract items from lists."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:102
+msgid " - `$` to access columns or list elements by name"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:103
+msgid " - negative indices skip elements"
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:106
+msgid ""
+"## [Data frame manipulation with dplyr]({{ relative_root_path }}/{% link "
+"_episodes/06-dplyr.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:109
+msgid " - `?select` to extract variables by name."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:110
+msgid " - `?filter` return rows with matching conditions."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:111
+msgid " - `?group_by` group data by one of more variables."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:112
+msgid " - `?summarize` summarize multiple values to a single value."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:113
+msgid " - `?mutate` add new variables to a data.frame."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:114
+msgid " - `?count` and `?n` to tally values in the data frame."
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:115
+msgid " - Combine operations using the `?\"%>%\"` pipe operator."
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:118
+msgid ""
+"## [Control flow]({{ relative_root_path }}/{% link _episodes/07-plot-"
+"ggplot2.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:121
+msgid " - figures can be created with the grammar of graphics:"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:122
+msgid "   - `library(ggplot2)`"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:123
+msgid "   - `ggplot` to create the base figure"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:124
+msgid "   - `aes`thetics specify the data axes, shape, color, and data size"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:125
+msgid ""
+"   - `geom`etry functions specify the type of plot, e.g. `point`, `line`, "
+"`density`, `box`"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:126
+msgid ""
+"   - `geom`etry functions also add statistical transforms, e.g. "
+"`geom_smooth`"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:127
+msgid "   - `scale` functions change the mapping from data to aesthetics"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:128
+msgid "   - `facet` functions stratify the figure into panels"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:129
+msgid ""
+"   - `aes`thetics apply to individual layers, or can be set for the whole "
+"plot"
+msgstr ""
+
+#: r-intro-geospatial/reference.md:130
+msgid ""
+"     inside `ggplot`.\n"
+"   - `theme` functions change the overall look of the plot\n"
+"   - order of layers matters!\n"
+"   - `ggsave` to save a figure."
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:136
+msgid ""
+"## [Writing data]({{ relative_root_path }}/{% link _episodes/08-writing-"
+"data.md %})"
+msgstr ""
+
+# unordered list
+#: r-intro-geospatial/reference.md:138
+msgid " - `write.table` to write out objects in regular format"
+msgstr ""
+
+# header
+#: r-intro-geospatial/reference.md:141
+msgid "## Glossary"
+msgstr ""
+
+#: r-intro-geospatial/reference.md:143
+msgid ""
+"{:auto_ids}\n"
+"argument\n"
+":   A value given to a function or program when it runs.\n"
+"    The term is often used interchangeably (and inconsistently) with [parameter](#parameter)."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:148
+msgid ""
+"assign\n"
+":   To give a value a name by associating a variable with it."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:151
+msgid ""
+"body\n"
+":   (of a function): the statements that are executed when a function runs."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:154
+msgid ""
+"comment\n"
+":   A remark in a program that is intended to help human readers understand what is going on,\n"
+"    but is ignored by the computer.\n"
+"    Comments in Python, R, and the Unix shell start with a `#` character and run to the end of the line;\n"
+"    comments in SQL start with `--`,\n"
+"    and other languages have other conventions."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:161
+msgid ""
+"comma-separated values\n"
+":   (CSV) A common textual representation for tables\n"
+"    in which the values in each row are separated by commas."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:165
+msgid ""
+"delimiter\n"
+":   A character or characters used to separate individual values,\n"
+"    such as the commas between columns in a [CSV](#comma-separated-values) file."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:169
+msgid ""
+"documentation\n"
+":   Human-language text written to explain what software does,\n"
+"    how it works, or how to use it."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:173
+msgid ""
+"floating-point number\n"
+":   A number containing a fractional part and an exponent.\n"
+"    See also: [integer](#integer)."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:177
+msgid ""
+"for loop\n"
+":   A loop that is executed once for each value in some kind of set, list, or range.\n"
+"    See also: [while loop](#while-loop)."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:181
+msgid ""
+"index\n"
+":   A subscript that specifies the location of a single value in a collection,\n"
+"    such as a single pixel in an image."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:185
+msgid ""
+"integer\n"
+":   A whole number, such as -12343. See also: [floating-point number](#floating-point-number)."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:188
+msgid ""
+"library\n"
+":   In R, the directory(ies) where [packages](#package) are stored."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:191
+msgid ""
+"package\n"
+":   A collection of R functions, data and compiled code in a well-defined format. Packages are stored in a [library](#library) and loaded using the library() function."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:194
+msgid ""
+"parameter\n"
+":   A variable named in the function's declaration that is used to hold a value passed into the call.\n"
+"    The term is often used interchangeably (and inconsistently) with [argument](#argument)."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:198
+msgid ""
+"return statement\n"
+":   A statement that causes a function to stop executing and return a value to its caller immediately."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:201
+msgid ""
+"sequence\n"
+":   A collection of information that is presented in a specific order."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:204
+msgid ""
+"shape\n"
+":   An array's dimensions, represented as a vector.\n"
+"    For example, a 5×3 array's shape is `(5,3)`."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:208
+msgid ""
+"string\n"
+":   Short for \"character string\",\n"
+"    a [sequence](#sequence) of zero or more characters."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:212
+msgid ""
+"syntax error\n"
+":   A programming error that occurs when statements are in an order or contain characters\n"
+"    not expected by the programming language."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:216
+msgid ""
+"type\n"
+":   The classification of something in a program (for example, the contents of a variable)\n"
+"    as a kind of number (e.g. [floating-point](#float), [integer](#integer)), [string](#string),\n"
+"    or something else. In R the command typeof() is used to query a variables type."
+msgstr ""
+
+#: r-intro-geospatial/reference.md:221
+msgid ""
+"while loop\n"
+":   A loop that keeps executing as long as some condition is true.\n"
+"    See also: [for loop](#for-loop)."
+msgstr ""

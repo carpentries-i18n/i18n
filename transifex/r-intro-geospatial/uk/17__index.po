@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# vorontsoovaa, 2023
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-07-18 17:19:47+0100\n"
+"PO-Revision-Date: 2020-07-18 16:29+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: r-intro-geospatial/index.md:1
+msgid ""
+"---\n"
+"layout: lesson\n"
+"---"
+msgstr ""
+"---\n"
+"layout: lesson\n"
+"---"
+
+#: r-intro-geospatial/index.md:7
+msgid ""
+"The goal of this lesson is to provide an introduction to R for learners\n"
+"working with geospatial data. It is intended as a pre-requisite for \n"
+"the [R for Raster and Vector Data](https://datacarpentry.org/r-raster-vector-geospatial/) lesson\n"
+"for learners who have no prior experience using R. This lesson can\n"
+"be taught in approximately 4 hours and covers the following topics:"
+msgstr ""
+"Мета цього уроку - надати вступ до R для учнів,\n"
+"які працюють з геопросторовими даними. Він призначений як передумова для уроку\n"
+" [R для растрових та векторних даних](https://datacarpentry.org/r-raster-vector-geospatial/)\n"
+"для учнів, які не мають попереднього досвіду використання R. Цей урок може\n"
+"бути викладений приблизно за 4 години і він охоплює наступні теми:"
+
+# unordered list
+#: r-intro-geospatial/index.md:13
+msgid "- Working with R in the RStudio GUI"
+msgstr "- Робота з R в графічному інтерфейсі користувача RStudio"
+
+# unordered list
+#: r-intro-geospatial/index.md:14
+msgid "- Project management and file organization"
+msgstr "- Управління проєктами та організація файлів"
+
+# unordered list
+#: r-intro-geospatial/index.md:15
+msgid "- Importing data into R"
+msgstr "- Імпортування даних в R"
+
+# unordered list
+#: r-intro-geospatial/index.md:16
+msgid "- Introduction to R's core data types and data structures"
+msgstr "- Вступ до основних типів даних та структур в R"
+
+# unordered list
+#: r-intro-geospatial/index.md:17
+msgid "- Manipulation of data frames (tabular data) in R"
+msgstr "- Маніпулювання фреймами даних (табличними даними) в R"
+
+# unordered list
+#: r-intro-geospatial/index.md:18
+msgid "- Introduction to visualization"
+msgstr "- Вступ до візуалізації"
+
+# unordered list
+#: r-intro-geospatial/index.md:19
+msgid "- Writing data to a file"
+msgstr "- Запис даних у файл"
+
+#: r-intro-geospatial/index.md:21
+msgid ""
+"The the [R for Raster and Vector Data](https://datacarpentry.org/r-raster-vector-geospatial/) lesson\n"
+"provides a more in-depth introduction to visualization (focusing on geospatial data),\n"
+"and working with data structures unique to geospatial data."
+msgstr ""
+"Урок [R для растрових та векторних даних](https://datacarpentry.org/r-raster-vector-geospatial/)\n"
+"забезпечує більш глибоке введення у візуалізацію  (зосередженне на геопрострових даних),\n"
+"і роботу зі структурами даних, унікальних для геопрострових даних."
+
+# blockquote, which can be cascaded
+#: r-intro-geospatial/index.md:25
+msgid "> ## Getting Started"
+msgstr "> ## Початок роботи"
+
+#: r-intro-geospatial/index.md:26
+msgid ""
+">\n"
+"> Data Carpentry's teaching is hands-on, so participants are encouraged to use\n"
+"> their own computers to insure the proper setup of tools for an efficient \n"
+"> workflow. <br>**This lesson assume no prior knowledge of R.**\n"
+">\n"
+"> To get started, follow the directions in the \"[Setup]({{ relative_root_path }}/{% link setup.md %})\" tab to \n"
+"> download data to your computer and follow any installation instructions."
+msgstr ""
+">\n"
+"> Викладання Data Carpentry практичне, тому учасникам рекомендовано використовувати\n"
+"> власні комп'ютери, щоб забезпечити правильне налаштування інструментів для ефективних \n"
+"> операцій. <br>**Цей урок не передбачає попереднього знання R.**\n"
+">\n"
+"> Для того, щоб розпочати роботу, дотримуйтесь вказівок на вкладці \"[Встановлення]({{ relative_root_path }}/{% link setup.md %})\" для\n"
+"> завантаження даних на комп'ютер та дотримуйтесь інструкцій з установки."
+
+# SC/DC Template label
+#: r-intro-geospatial/index.md:33
+msgid "{: .prereq}"
+msgstr "{: .prereq}"

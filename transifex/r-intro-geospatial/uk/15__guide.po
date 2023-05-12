@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# vorontsoovaa, 2023
+# Olexandr Konovalov, 2023
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2020-07-18 17:19:47+0100\n"
+"PO-Revision-Date: 2020-07-18 16:29+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: r-intro-geospatial/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Примітки для інструктора\"\n"
+"---"
+
+#: r-intro-geospatial/_extras/guide.md:7
+msgid "relative path root: {{ relative_root_path }}"
+msgstr "кореневий каталог: {{ relative_root_path }}"
+
+# header
+#: r-intro-geospatial/_extras/guide.md:9
+msgid "## Instructor notes"
+msgstr "## Примітки для інструктора"
+
+# header
+#: r-intro-geospatial/_extras/guide.md:11
+msgid "## Lesson motivation and learning objectives"
+msgstr "## Мотивація заняття та навчальні цілі"
+
+#: r-intro-geospatial/_extras/guide.md:13
+msgid ""
+"This lesson is designed to introduce learners to the core concepts of R \n"
+"that they will need in order to complete the other lessons\n"
+"in this workshop. It is intended for learners who have no prior experience with\n"
+"R. If your workshop learners have all completed another Software or Data \n"
+"Carpentry R workshop, or have taken courses in R, you can skip this lesson\n"
+"and move straight into the \n"
+"[Introduction to Geospatial Raster and Vector Data with R](https://datacarpentry.org/r-raster-vector-geospatial/) lesson."
+msgstr ""
+"Цей урок призначений для ознайомлення учнів з основними поняттями R, \n"
+"які їм знадобляться для того, щоб закінчити уроки \n"
+"у цьому семінарі. Він призначений для учнів, які не мають попереднього досвіду роботи з\n"
+"R. Якщо учасники вашого семінару закінчили інший семінар з R від Software Carpentry чи Data Carpentry,\n"
+"або пройшли інші курси з R, ви можете пропустити цей урок\n"
+"і рухатись прямо в урок \n"
+"[Введення до геопросторових растрових та векторних даних з R](https://datacarpentry.org/r-raster-vector-geospatial/)."
+
+#: r-intro-geospatial/_extras/guide.md:21
+msgid ""
+"This lesson is a trimmed-down version of the \n"
+"[R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder) SWC lesson. It does not cover visualization in detail, \n"
+"as the later lesson in this workshop covers visualization in the context of\n"
+"geospatial data. "
+msgstr ""
+"Цей урок є скороченою версією уроку SWC \n"
+"[R для відтворюваного наукового аналізу](http://swcarpentry.github.io/r-novice-gapminder). Він не охоплює візуалізацію в деталях, \n"
+"але подальший урок в цьому семінарі охоплює візуалізацію в контексті\n"
+"геопросторових даних. "
+
+# header
+#: r-intro-geospatial/_extras/guide.md:26
+msgid "## Lesson design"
+msgstr "## Дизайн уроку"
+
+# header
+#: r-intro-geospatial/_extras/guide.md:28
+msgid ""
+"#### [Introduction to R and RStudio]({{ relative_root_path }}/{% link "
+"_episodes/01-rstudio-intro.md %})"
+msgstr ""
+"#### [Вступ до R та RStudio]({{ relative_root_path }}/{% link "
+"_episodes/01-rstudio-intro.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:30
+msgid ""
+"* If your workshop includes the [Introduction to Geospatial "
+"Concepts](https://datacarpentry.org/organization-geospatial/) lesson, "
+"learners will have "
+msgstr ""
+"* Якщо ваш семінар включає урок [Вступ до гепросторових "
+"концепцій](https://datacarpentry.org/organization-geospatial/), учням"
+
+#: r-intro-geospatial/_extras/guide.md:31
+msgid ""
+"just been introduced to RStudio in the context of the overall Geospatial \n"
+"software landscape. \n"
+"* Have your learners open RStudio and follow along as you explain each pane. Make sure that your RStudio environment is the default so learners can follow along.\n"
+"* Be sure to explain how to execute code from the script window, whether you're\n"
+"using the Run button or the keyboard shortcut. \n"
+"* Learners will be using several libraries in the next lesson, so be sure to \n"
+"introduce what a library is and how it is installed. "
+msgstr ""
+"тільки представлять RStudio в контексті загального ландшафту геопросторового\n"
+"програмного забезпечення.\n"
+"* Запропонуйте учням відкрити RStudio і спостерігати за тим, як ви пояснюєте кожну панель. Переконайтеся, що середовище RStudio вибрано за замовчуванням, щоб учні могли повторювати за вами.\n"
+"* Обов'язково поясніть, як виконувати код у вікні скрипта незалежно від того, чи використовуєте ви\n"
+"кнопку Run або комбінації клавіш.\n"
+"* Учні будуть використовувати кілька бібліотек в наступному уроці, тому не забудьте\n"
+"ознайомити їх з тим, що таке бібліотека і як її встановити."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:39
+msgid ""
+"#### [Project Management With RStudio]({{ relative_root_path }}/{% link "
+"_episodes/02-project-intro.md %})"
+msgstr ""
+"#### [Управління проєктами в RStudio]({{ relative_root_path }}/{% link "
+"_episodes/02-project-intro.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:41
+msgid ""
+"* Make sure learners download the data files in Challenge 1 and move those "
+"files"
+msgstr ""
+"* Переконайтесь, що учні завантажують файли даних в Завданні 1 і переміщують"
+" ці файли "
+
+#: r-intro-geospatial/_extras/guide.md:42
+msgid "to their `data/` directory. "
+msgstr "до свого каталогу `data/`. "
+
+# header
+#: r-intro-geospatial/_extras/guide.md:44
+msgid ""
+"#### [Data Structures]({{ relative_root_path }}/{% link _episodes/03-data-"
+"structures-part1.md %})"
+msgstr ""
+"#### [Структури даних]({{ relative_root_path }}/{% link _episodes/03-data-"
+"structures-part1.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:46
+msgid "* Learners will work with factors in the following lesson. Be sure to "
+msgstr "* Учні будуть працювати з факторами на наступному уроці. Обов'язково"
+
+#: r-intro-geospatial/_extras/guide.md:47
+msgid ""
+"cover this concept.\n"
+"* If needed for time reasons, you can skip the section on lists. The learners\n"
+"don't use lists in the rest of the workshop."
+msgstr ""
+"охопіть цей концепт.\n"
+"* Якщо це необіхдно з причин часу, ви можете пропустити розділ про списки. Учні \n"
+"не вискористовують списки в решті семінару."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:51
+msgid ""
+"#### [Exploring Data Frames]({{ relative_root_path }}/{% link "
+"_episodes/04-data-structures-part2.md %})"
+msgstr ""
+"#### [Вивчення Data Frames]({{ relative_root_path }}/{% link "
+"_episodes/04-data-structures-part2.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:53
+msgid ""
+"* Pay attention to and explain the errors and warnings generated from the "
+"examples in this episode."
+msgstr ""
+"* Зверніть увагу на помилки і попередження, отримані з прикладів у цьому "
+"епізоді, та поясніть їх."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:55
+msgid ""
+"#### [Subsetting Data]({{ relative_root_path }}/{% link _episodes/05-data-"
+"subsetting.md %})"
+msgstr ""
+"#### [Формування підмножин даних]({{ relative_root_path }}/{% link "
+"_episodes/05-data-subsetting.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:57
+msgid "* The episode after this one covers the `dplyr` package, which has an "
+msgstr "* Епізод після поточного охоплює пакет `dplyr`, який має"
+
+#: r-intro-geospatial/_extras/guide.md:58
+msgid ""
+"alternate subsetting mechanism. Learners do still need to learn the \n"
+"base R subsetting covered here, as `dplyr` won't work in all situations. However,\n"
+"the examples in the rest of the workshop focus on `dplyr` syntax."
+msgstr ""
+"альтернативний механізм формування підмножин. Учням все ще потрібно вивчити \n"
+"базове формування підмножин в R, охоплене тут, оскільки `dplyr` буде працювати не у всіх ситуаціях. Однак,\n"
+"приклади в решті семінару зосереджені на синтаксисі  `dplyr`."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:62
+msgid ""
+"#### [Dataframe Manipulation with dplyr]({{ relative_root_path }}/{% link "
+"_episodes/06-dplyr.md %})"
+msgstr ""
+"#### [Маніпуляція фреймами даних з dplyr]({{ relative_root_path }}/{% link "
+"_episodes/06-dplyr.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:64
+msgid ""
+"* Introduce the `dplyr` package as a simpler, more intuitive way of doing"
+msgstr ""
+"* Представте пакет `dplyr` як більш простий, інтуїтивно зрозуміліший спосіб "
+"формування"
+
+#: r-intro-geospatial/_extras/guide.md:65
+msgid ""
+"subsetting. \n"
+"* Unlike other SWC and DC R lessons, this lesson does **not** include data \n"
+"reshaping with `tidyr` as it isn't used in the rest of the workshop."
+msgstr ""
+"підмножин. \n"
+"* На відміну від інших уроків SWC і DC R, цей урок **не** включає в себе \n"
+"зміну даних з `tidyr`, оскільки він не використовується в решті семінару."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:69
+msgid ""
+"#### [Introduction to Visualization]({{ relative_root_path }}/{% link "
+"_episodes/07-plot-ggplot2.md %})"
+msgstr ""
+"#### [Вступ до візуалізації]({{ relative_root_path }}/{% link "
+"_episodes/07-plot-ggplot2.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:71
+msgid ""
+"* This episode introduces `geom_col` and `geom_histogram`. These geoms are "
+"used"
+msgstr ""
+"* Цей епізод представляє `geom_col` і `geom_histogram`. Ці геоми "
+"використовуються "
+
+#: r-intro-geospatial/_extras/guide.md:72
+msgid ""
+"in the rest of the workshop, along with geoms specifically for geospatial data.\n"
+"* Emphasize that we will go much deeper into visualization and creating\n"
+"publication-quality graphics later in the workshop."
+msgstr ""
+"у решті семінару поряд з геомами, специфічними для геопросторових даних.\n"
+"* Підкресліть, що ми будемо йти набагато глибше у візуалізацію і створення\n"
+"якісних графіків пізніше у цьому семінарі."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:76
+msgid ""
+"#### [Writing Data]({{ relative_root_path }}/{% link _episodes/08-writing-"
+"data.md %})"
+msgstr ""
+"#### [Написання даних]({{ relative_root_path }}/{% link "
+"_episodes/08-writing-data.md %})"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:78
+msgid ""
+"* Learners will need to have created the directory structure described in "
+msgstr "* Слухачі повинні будуть створити структуру каталогів, описану в"
+
+#: r-intro-geospatial/_extras/guide.md:79
+msgid ""
+"[Project Management With RStudio]({{ relative_root_path }}{% link _episodes/02-project-intro.md %}) in order for the code\n"
+"in this episode to work. "
+msgstr ""
+"[Управлінні проектами з RStudio]({{ relative_root_path }}{% link _episodes/02-project-intro.md %}) для того, щоб код\n"
+"в цьому епізоді працював."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:82
+msgid "#### Concluding remarks"
+msgstr "#### Підсумкові зауваження"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:84
+msgid ""
+"* Now that learners know the fundamentals of R, the rest of the workshop"
+msgstr "* Тепер, коли учні знають основи R, решту семінару"
+
+#: r-intro-geospatial/_extras/guide.md:85
+msgid ""
+"will apply these concepts to working with geospatial data in R. \n"
+"* Packages and functions specific for working with geospatial data will be\n"
+"the focus of the rest of the workshop. \n"
+"* They will have lots of changes to practice applying and expanding these\n"
+"skills in the next lesson. "
+msgstr ""
+"вони застосовуватимуть ці концепції до роботи з геопросторовими даними в R.\n"
+"* Пакети та функції, специфічні для роботи з геопросторовими даними, будуть\n"
+"в центрі уваги решти семінару.\n"
+"* Вони матимуть багато змін для практики застосування і розширення\n"
+"цих навичок на наступному уроці."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:91
+msgid "## Technical tips and tricks"
+msgstr "## Технічні поради та рекомендації"
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:93
+msgid ""
+"* Leave about 30 minutes at the start of each workshop and another 15 mins"
+msgstr ""
+"* Залиште близько 30 хвилин на початку кожного семінару і ще 15 хвилин "
+
+#: r-intro-geospatial/_extras/guide.md:94
+msgid ""
+"at the start of each session for technical difficulties like WiFi and\n"
+"installing things (even if you asked students to install in advance, longer if\n"
+"not)."
+msgstr ""
+"на початку кожного сеансу для технічних труднощів, таких як WiFi і\n"
+"встановлення речей (навіть якщо ви попросили учнів встановити \n"
+"заздалегідь, або ще більше, якщо не просили)."
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:98
+msgid ""
+"* Be sure to actually go through examples of an R help page: help files"
+msgstr ""
+"* Не забудьте насправді виконати приклади зі сторінки довідки R: файли "
+"довідки"
+
+#: r-intro-geospatial/_extras/guide.md:99
+msgid ""
+"can be intimidating at first, but knowing how to read them is tremendously\n"
+"useful."
+msgstr ""
+"можуть спочатку налякати, але розуміння того, як їх читати, надзвичайно\n"
+"корисно."
+
+# unordered list
+#: r-intro-geospatial/_extras/guide.md:102
+msgid ""
+"* Don't worry about being correct or knowing the material back-to-front. Use"
+msgstr ""
+"* Не турбуйтеся про те, щоб бути правильним або знати матеріал ззаду "
+"наперед. Використовуйте"
+
+#: r-intro-geospatial/_extras/guide.md:103
+msgid ""
+"mistakes as teaching moments: the most vital skill you can impart is how to\n"
+"debug and recover from unexpected errors."
+msgstr ""
+"помилки як навчальні моменти: найважливіша навичка, яку ви можете передати - це як \n"
+"зневадити та виправити несподівані помилки."
+
+# header
+#: r-intro-geospatial/_extras/guide.md:106
+msgid "## Common problems"
+msgstr "## Поширені проблеми"
+
+#: r-intro-geospatial/_extras/guide.md:108
+msgid "TBA - Instructors please add situations you encounter here."
+msgstr ""
+"Підлягає оформленню: Інструктори, будь ласка, додайте ситуації, з якими ви "
+"стикаєтеся, тут."
