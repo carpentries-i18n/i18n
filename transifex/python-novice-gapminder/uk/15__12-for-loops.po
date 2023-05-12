@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Марина Новожилова, 2022
+# Olexandr Konovalov, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: Марина Новожилова, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Olexandr Konovalov, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -85,7 +86,7 @@ msgid ""
 "*   \"for each thing in this group, do these operations\""
 msgstr ""
 "    так само неприємно, як працювати з `pressure_001`, `pressure_002` і так далі.\n"
-"*  *Цикл for* повідомляє Python виконати деякі оператори один раз для кожного значення в списку,\n"
+"*  *Цикл for* повідомляє Python що треба виконати деякі оператори один раз для кожного значення в списку,\n"
 "    рядку символів,\n"
 "    або якісь іншій колекції.\n"
 "*   \"для кожного елемента в цій групі виконайте ці операції\""
@@ -107,7 +108,7 @@ msgstr ""
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:36
 msgid "*   This `for` loop is equivalent to:"
-msgstr "*   Цей цикл `for` є еквівалентним:"
+msgstr "*   Цей цикл `for` є еквівалентним наступному:"
 
 # code block
 #: python-novice-gapminder/_episodes/12-for-loops.md:38
@@ -148,7 +149,7 @@ msgstr ""
 #: python-novice-gapminder/_episodes/12-for-loops.md:54
 msgid ""
 "## A `for` loop is made up of a collection, a loop variable, and a body."
-msgstr "## Цикл `for` складається з колекції, змінної циклу та тіла."
+msgstr "## Цикл `for` складається з колекції, змінної циклу та тіла циклу."
 
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:62
@@ -161,7 +162,7 @@ msgid ""
 "*   The body, `print(number)`, specifies what to do for each value in the "
 "collection."
 msgstr ""
-"*   Тіло, `print(number)`, визначає, що робити для кожного значення в "
+"*   Тіло циклу, `print(number)`, визначає, що робити для кожного значення в "
 "колекції."
 
 # unordered list
@@ -182,8 +183,8 @@ msgid ""
 "## The first line of the `for` loop must end with a colon, and the body must"
 " be indented."
 msgstr ""
-"## Перший рядок циклу `for` має закінчуватися двокрапкою, а тіло має бути з "
-"відступом."
+"## Перший рядок циклу `for` має закінчуватися двокрапкою, а тіло циклу має "
+"бути з відступом."
 
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:69
@@ -208,8 +209,8 @@ msgid ""
 "    *   Any consistent indentation is legal, but almost everyone uses four "
 "spaces."
 msgstr ""
-"    *   Будь-який послідовний відступ допустимий, але майже кожен "
-"використовує чотири пробіли."
+"    *   Будь-який послідовний відступ є допустимим, але майже усі "
+"використовують чотири пробіли."
 
 # code block
 #: python-novice-gapminder/_episodes/12-for-loops.md:73
@@ -239,7 +240,7 @@ msgstr ""
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:83
 msgid "*   Indentation is always meaningful in Python."
-msgstr "*   Відступи завжди важливі в Python."
+msgstr "*   Відступи у Python завжди важливі."
 
 # code block
 #: python-novice-gapminder/_episodes/12-for-loops.md:85
@@ -284,7 +285,7 @@ msgstr "    на початку другого рядка."
 # header
 #: python-novice-gapminder/_episodes/12-for-loops.md:101
 msgid "## Loop variables can be called anything."
-msgstr "## Змінні циклу можна називати як завгодно "
+msgstr "## Змінні циклу можна називати як завгодно. "
 
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:103
@@ -294,12 +295,14 @@ msgstr "*   Як і всі інші змінні, змінні циклу:"
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:104
 msgid "    *   Created on demand."
-msgstr "    *   Створені на замовлення."
+msgstr "    *   Створюються коли потрібно."
 
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:105
 msgid "    *   Meaningless: their names can be anything at all."
-msgstr "    *   Безглуздо: їхні імена можуть бути будь-якими."
+msgstr ""
+"    *    Не несуть смислового навантаження: їхні імена можуть бути будь-"
+"якими."
 
 # code block
 #: python-novice-gapminder/_episodes/12-for-loops.md:107
@@ -383,7 +386,7 @@ msgstr ""
 # unordered list
 #: python-novice-gapminder/_episodes/12-for-loops.md:136
 msgid "    *   *Not* a list: the numbers are produced on demand"
-msgstr "    *   *Не* список: номери виготовляються на замовлення"
+msgstr "    *   Це *не* список: числа виготовляються на замовлення"
 
 #: python-novice-gapminder/_episodes/12-for-loops.md:137
 msgid ""
