@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Raievska, 2023
+# IrynaRaievska, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 17:09:14+0000\n"
+"PO-Revision-Date: 2023-02-12 17:54+0000\n"
+"Last-Translator: IrynaRaievska, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: gap-lesson/index.md:1
+msgid ""
+"---\n"
+"layout: lesson\n"
+"root: .\n"
+"---"
+msgstr ""
+"---\n"
+"layout: lesson\n"
+"root: .\n"
+"---"
+
+#: gap-lesson/index.md:6
+msgid ""
+"[GAP](http://www.gap-system.org) is a system for discrete computational algebra,\n"
+"with particular emphasis on Computational Group Theory. GAP provides a\n"
+"programming language, a library of thousands of functions implementing algebraic\n"
+"algorithms written in the GAP language as well as large data libraries of algebraic\n"
+"objects, for example the [Small Groups Library](http://www.gap-system.org/Packages/sgl.html)\n"
+"which contains, among others, all 423 164 062 groups of order at most 2000 except 1024."
+msgstr ""
+"[GAP](http://www.gap-system.org) — система дискретної обчислювальної алгебри\n"
+"з особливим акцентом на теорії обчислювальних груп. GAP надає\n"
+"мову програмування, бібліотеку тисяч функцій, що реалізують алгебраїчні\n"
+"алгоритми, написані мовою GAP, а також великі бібліотеки даних алгебраїчних об’єктів,\n"
+"наприклад, [Бібліотека малих груп](http://www.gap-system.org). /Packages/sgl.html),\n"
+"яка містить, серед іншого, усі 423 164 062 групи порядку не більше 2000, крім 1024."
+
+#: gap-lesson/index.md:13
+msgid ""
+"This lesson gives an introduction to GAP. It is centred around a common task of\n"
+"searching in the Small Groups Library for interesting examples and counterexamples,\n"
+"and a particular research problem in which we will be interested is to **find\n"
+"examples of non-trivial groups such that the average order of their elements is an integer**."
+msgstr ""
+"У цьому уроці представлено введення в GAP. Він зосереджений навколо спільного завдання\n"
+"пошуку в бібліотеці малих груп цікавих прикладів і контрприкладів,\n"
+"а конкретна дослідницька проблема, в якій ми будемо зацікавлені, полягає в тому, щоб **знайти\n"
+"приклади нетривіальних груп, таких, що середній порядок їх елементів є цілим числом**."
+
+#: gap-lesson/index.md:18
+msgid ""
+"The lesson will lead the learner along the path from working in the GAP command\n"
+"line and exploring algebraic objects interactively to saving the GAP code into\n"
+"files, creating functions and regression tests, and further to performing\n"
+"comprehensive search and extending the system by adding new attributes."
+msgstr ""
+"Урок проведе студента по шляху від роботи в командному\n"
+"рядку GAP та вивчення алгебраїчних об’єктів в інтерактивному режимі до збереження коду GAP у\n"
+"файли, створення функцій і регресійних тестів, а також до виконання\n"
+"всебічного пошуку та розширення системи шляхом додавання нових атрибутів."
+
+#: gap-lesson/index.md:23
+msgid "On this path, the learner will become familiar with:"
+msgstr "На цьому шляху студент ознайомиться з:"
+
+# unordered list
+#: gap-lesson/index.md:25
+msgid "* basic constructions of the GAP programming language,"
+msgstr "* основні конструкції мови програмування GAP,"
+
+# unordered list
+#: gap-lesson/index.md:27
+msgid "* ways to find necessary information in the GAP system, and"
+msgstr "* способи пошуку необхідної інформації в системі GAP і"
+
+# unordered list
+#: gap-lesson/index.md:29
+msgid "* good design practices to organise GAP code into complex programs."
+msgstr ""
+"* хороші практики проектування для організації коду GAP у складні програми."
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:31
+msgid "> ## Prerequisites"
+msgstr "> ## Передумови"
+
+#: gap-lesson/index.md:32
+msgid ""
+">\n"
+"> The lesson is oriented on learners possessing the minimal theoretical\n"
+"> background (at least at the level of an undergraduate group theory course)\n"
+"> and willing to learn how concepts from abstract algebra may be\n"
+"> explored using computational tools.\n"
+"> No previous experience of working with GAP is required.\n"
+">\n"
+"> Learners only need to understand the concepts of files and directories\n"
+"> (including home and working directories) and know how to start GAP."
+msgstr ""
+">\n"
+"> Урок орієнтований на студентів, які володіють мінімальною теоретичною\n"
+"підготовкою (принаймні на рівні бакалаврського курсу теорії груп)\n"
+"і бажають дізнатися, як поняття з абстрактної алгебри можна\n"
+"досліджувати за допомогою обчислювальних інструментів.\n"
+"> Попередній досвід роботи з GAP не потрібен.\n"
+">\n"
+"> Студентам потрібно лише розуміти поняття файлів і каталогів\n"
+"(включаючи домашні та робочі каталоги) і знати, як запустити GAP."
+
+# SC/DC Template label
+#: gap-lesson/index.md:41
+msgid "{: .prereq}"
+msgstr "{: .prereq}"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:43
+msgid "> ## Getting ready"
+msgstr "> ## Збираючись"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:44
+msgid "> 1. In your home directory, create a new directory called `avgord`."
+msgstr ""
+"> 1. У Вашому домашньому каталозі створіть новий каталог під назвою "
+"`avgord`."
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:45
+msgid "> 2. Start GAP:"
+msgstr "> 2. Розпочати GAP:"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:46
+msgid ""
+"> * on Linux and OS X, call `path-to-your-gap-"
+"installation/gap-4.X.Y/bin/gap.sh`"
+msgstr ""
+"> * в Linux і OS X викличте `path-to-your-gap-"
+"installation/gap-4.X.Y/bin/gap.sh`"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:47
+msgid ">    (edit the path as necessary);"
+msgstr ">    (за потреби відредагуйте шлях);"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:48
+msgid "> * on Windows, call it via the appropriate menu or"
+msgstr "> * на Windows, викликайте його через відповідне меню або"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:49
+msgid ""
+">    by double-clicking on the `gap-4.X.Y/bin/gap.bat` file in your GAP "
+"installation."
+msgstr ""
+">    двічі клацнувши файл `gap-4.X.Y/bin/gap.bat` у вашій інсталяції GAP."
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:50
+msgid ""
+"> 3. Set your current directory to `avgord` calling `ChangeDirectoryCurrent`"
+" from"
+msgstr ""
+"> 3. Установіть поточний каталог на `avgord`, викликаючи "
+"`ChangeDirectoryCurrent` з"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:51
+msgid ""
+">    the IO package (if GAP is installed correctly, by default it should be "
+"loaded"
+msgstr ""
+">    пакет IO (якщо GAP встановлено правильно, за замовчуванням він має "
+"завантажуватися"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:52
+msgid ">    when GAP starts):"
+msgstr ">    під час запуску GAP):"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:53
+msgid ""
+"> * on Linux and OS X, call "
+"`ChangeDirectoryCurrent(\"/home/username/avgord\");`"
+msgstr ""
+"> * у Linux і OS X викличте "
+"`ChangeDirectoryCurrent(\"/home/username/avgord\");`"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:54
+msgid ""
+">    (edit the path as necessary; remember to type the full path to your "
+"home"
+msgstr ""
+">    (за потреби відредагуйте шлях; не забудьте ввести повний шлях до вашого"
+" домашнього"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:55
+msgid ">    directory instead of `~`)."
+msgstr ">    каталогу замість `~`)."
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:56
+msgid ""
+"> * on Windows, call `ChangeDirectoryCurrent(\"C:/Users/username/avgord\");`"
+msgstr ""
+"> * у Windows викличте "
+"`ChangeDirectoryCurrent(\"C:/Users/username/avgord\");`"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:57
+msgid ">    (edit the path as necessary; remember to use `/` instead of `\\`);"
+msgstr ""
+">   (за потреби відредагуйте шлях; не забудьте використовувати `/` замість "
+"`\\`);"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:58
+msgid ""
+"> 4. Verify that your current directory is set up properly: call "
+"`DirectoryCurrent();`"
+msgstr ""
+"> 4. Переконайтеся, що ваш поточний каталог налаштовано належним чином: "
+"викличте `DirectoryCurrent();`"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:59
+msgid ""
+">    on Windows or `Exec(\"pwd\");` on Linux and OS X and check that the "
+"path in the"
+msgstr ""
+">    у Windows або `Exec(\"pwd\");` у Linux і OS X і переконайтеся, що шлях "
+"у"
+
+# blockquote, which can be cascaded
+#: gap-lesson/index.md:60
+msgid ">    output points to the `avgord` directory."
+msgstr ">    виведених даних вказує на каталог `avgord`."
+
+# SC/DC Template label
+#: gap-lesson/index.md:61
+msgid "{: .checklist}"
+msgstr "{: .checklist}"
+
+#: gap-lesson/index.md:63
+msgid ""
+"[contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING.md\n"
+"[styles]: https://github.com/swcarpentry/styles/"
+msgstr ""
+"[contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING.md\n"
+"[styles]: https://github.com/swcarpentry/styles/"

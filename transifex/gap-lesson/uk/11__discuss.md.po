@@ -1,0 +1,730 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Raievska, 2023
+# IrynaRaievska, 2023
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 17:09:14+0000\n"
+"PO-Revision-Date: 2023-02-12 17:54+0000\n"
+"Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: gap-lesson/_extras/discuss.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Discussion\n"
+"permalink: /discuss/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: Обговорення\n"
+"permalink: /discuss/\n"
+"---"
+
+# header
+#: gap-lesson/_extras/discuss.md:7
+msgid "## Ten hints for GAP beginners"
+msgstr "## Десять підказок для початківців GAP"
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:9
+msgid ""
+"1. **Remember that GAP is case-sensitive!** That means that `ABC`, `Abc` and"
+" `abc`"
+msgstr ""
+"1. **Пам’ятайте, що GAP чутливий до регістру!** Це означає, що `ABC`, `Abc` "
+"і `abc`"
+
+#: gap-lesson/_extras/discuss.md:10
+msgid ""
+"are three different identifiers. A call to `SymmetricGroup(3)` works, but\n"
+"`Symmetricgroup(3)` will cause an error."
+msgstr ""
+"є трьома різними ідентифікаторами. Виклик `SymmetricGroup(3)` працює, але\n"
+"`Symmetricgroup(3)` призведе до помилки."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:13
+msgid ""
+"2. An error message **`“Error, Variable: 'FuncName' must have a value”`** in"
+" a"
+msgstr ""
+"2. Повідомлення про помилку **`“Error, Variable: 'FuncName' must have a "
+"value”`** під час"
+
+#: gap-lesson/_extras/discuss.md:14
+msgid ""
+"function call usually points to a typo in the function name (see the previous hint),\n"
+"or to some package that must be loaded in advance using\n"
+"[**`LoadPackage`**](http://www.gap-system.org/Manuals/doc/ref/chap76.html#X79B373A77B29D1F5)."
+msgstr ""
+"виклику функції зазвичай вказує на друкарську помилку в назві функції (див. попередню підказку)\n"
+"або на якийсь пакет, який потрібно завантажити заздалегідь за допомогою\n"
+"[**`LoadPackage`**](http://www.gap-system.org/Manuals/doc/ref/chap76.html#X79B373A77B29D1F5)."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:18
+msgid ""
+"3. **Do not hesitate to use longer and more informative variable names where"
+msgstr ""
+"3. **Не соромтеся використовувати довші та більш інформативні назви змінних,"
+" де це"
+
+#: gap-lesson/_extras/discuss.md:19
+msgid ""
+"appropriate.** For example, `x` looks perfectly suitable for `List([1..10], x -> x^2)`,\n"
+"while `ConClassesReps` may be more informative than just `x` for a list of\n"
+"representatives of conjugacy classes of a group."
+msgstr ""
+"доцільно.** Наприклад, `x` виглядає ідеально придатним для `List([1..10], x -> x^2)`,\n"
+"тоді як `ConClassesReps` може бути більш інформативним, ніж просто `x` для списку\n"
+"представників класів спряженості групи (англ. \"Conjugacy Classes Representatives\")."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:23
+msgid ""
+"4. **Use command line editing:** scroll the history of commands and navigate"
+" within"
+msgstr ""
+"4. **Використовуйте редагування командного рядка:** прокручуйте історію "
+"команд і переміщайтеся в"
+
+#: gap-lesson/_extras/discuss.md:24
+msgid "the command line using arrow keys to edit it."
+msgstr ""
+"командному рядку за допомогою клавіш зі стрілками, щоб редагувати його."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:26
+msgid ""
+"5. **Use autocompletion instead of typing names of functions and variables "
+"in full.**"
+msgstr ""
+"5. **Використовуйте автозаповнення замість того, щоб вводити назви функцій і"
+" змінних повністю.**"
+
+#: gap-lesson/_extras/discuss.md:27
+msgid ""
+"Type the initial part of the identifier and then press `<Tab>`. It will be\n"
+"completed if its unique completion is possible. If not, you may press `<Tab>`\n"
+"again to see all possible suggestions."
+msgstr ""
+"Введіть початкову частину ідентифікатора, а потім натисніть `<Tab>`. Він буде доповнений, якщо можливе його унікальне завершення. Якщо ні, ви можете знову натиснути `<Tab>`\n"
+"щоб переглянути всі можливі пропозиції."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:31
+msgid ""
+"6. **To view help pages, use `?` and `??` commands**. This will search not "
+"only"
+msgstr ""
+"6. **Щоб переглянути сторінки довідки, використовуйте команди `?` і `??`**. "
+"Це дозволить шукати не тільки"
+
+#: gap-lesson/_extras/discuss.md:32
+msgid ""
+"in the GAP manuals, but also in the manuals of all GAP packages available\n"
+"in your GAP installation."
+msgstr ""
+"у посібниках GAP, але також у посібниках усіх пакетів GAP, доступних\n"
+"у вашій інсталяції GAP."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:35
+msgid "7. **Set default help format to HTML.** Use"
+msgstr ""
+"7. **Встановіть HTML у якості формату довідки за замовчуванням.** "
+"Використовуйте"
+
+#: gap-lesson/_extras/discuss.md:36
+msgid ""
+"[**`SetHelpViewer`**](http://www.gap-system.org/Manuals/doc/ref/chap2.html#X87C1BFB2826488B0)\n"
+"to view it with your preferred browser."
+msgstr ""
+"[**`SetHelpViewer`**](http://www.gap-system.org/Manuals/doc/ref/chap2.html#X87C1BFB2826488B0),\n"
+"щоб переглянути його у бажаному браузері."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:39
+msgid ""
+"8. **Use [**`LogTo`**](http://www.gap-"
+"system.org/Manuals/doc/ref/chap9.html#X79813A6686894960)"
+msgstr ""
+"8. **Використовуйте [**`LogTo`**](http://www.gap-"
+"system.org/Manuals/doc/ref/chap9.html#X79813A6686894960)"
+
+#: gap-lesson/_extras/discuss.md:40
+msgid ""
+"to save all GAP input and output into a text file.** It should be called before\n"
+"calculations, not after!"
+msgstr ""
+"щоб зберегти всі введення та виведення GAP у текстовий файл.** Його слід викликати перед\n"
+"обчисленнями, а не після!"
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:43
+msgid ""
+"9. **If the calculation takes too long, press `<Control>-C` to interrupt "
+"it**."
+msgstr ""
+"9. **Якщо обчислення триває надто довго, натисніть `<Control>-C`, щоб "
+"перервати його**."
+
+#: gap-lesson/_extras/discuss.md:44
+msgid "Then type quit; to leave the break loop."
+msgstr "Потім введіть quit; щоб вийти з перерваного циклу."
+
+# ordered list
+#: gap-lesson/_extras/discuss.md:46
+msgid ""
+"10. **Read [A First Session with GAP](http://www.gap-"
+"system.org/Manuals/doc/tut/chap2.html)**"
+msgstr ""
+"10. **Прочитайте [Перша сесія з GAP](http://www.gap-"
+"system.org/Manuals/doc/tut/chap2.html)**"
+
+#: gap-lesson/_extras/discuss.md:47
+msgid "from the GAP Tutorial."
+msgstr "з Підручнику з GAP."
+
+# header
+#: gap-lesson/_extras/discuss.md:50
+msgid "## Writing programs in GAP"
+msgstr "## Написання програм на GAP"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:52
+msgid ""
+"* Use direct calculations in the command line for object exploration and "
+"prototyping,"
+msgstr ""
+"* Використовуйте прямі обчислення в командному рядку для дослідження "
+"об’єктів і прототипування,"
+
+#: gap-lesson/_extras/discuss.md:53
+msgid "then think how to organise your code to make it reusable."
+msgstr ""
+"а потім подумайте, як упорядкувати свій код, щоб зробити його багаторазовим."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:55
+msgid ""
+"* Use [**`LogTo`**](http://www.gap-"
+"system.org/Manuals/doc/ref/chap9.html#X79813A6686894960)"
+msgstr ""
+"* Використовуйте [**`LogTo`**](http://www.gap-"
+"system.org/Manuals/doc/ref/chap9.html#X79813A6686894960)"
+
+#: gap-lesson/_extras/discuss.md:56
+msgid ""
+"to save inputs and outputs to a logfile which then you can edit in a text "
+"editor."
+msgstr ""
+"для збереження вхідних і вихідних даних у файл журналу, який потім можна "
+"редагувати в текстовому редакторі."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:58
+msgid "* Save code in text files and use"
+msgstr "* Збережіть код у текстових файлах і використовуйте"
+
+#: gap-lesson/_extras/discuss.md:59
+msgid ""
+"[**`Read`**](http://www.gap-system.org/Manuals/doc/ref/chap9.html#X8373AC6B7D5F9167)\n"
+"to load them. Find some advanced text editor to edit these files."
+msgstr ""
+"[**`Прочитайте`**](http://www.gap-system.org/Manuals/doc/ref/chap9.html#X8373AC6B7D5F9167),\n"
+"щоб завантажити їх. Знайдіть розширений текстовий редактор для редагування цих файлів."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:62
+msgid "* Make your code modular and reusable by organising it into functions."
+msgstr ""
+"* Зробіть свій код модульним і придатним для багаторазового використання, "
+"організувавши функціями."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:64
+msgid ""
+"* Write comments in the code – this will help you when you will return to it"
+" after a while."
+msgstr ""
+"* Пишіть коментарі в коді – це допоможе вам, коли ви повернетеся до нього "
+"через деякий час."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:66
+msgid ""
+"* Understand [break loops](http://www.gap-"
+"system.org/Manuals/doc/ref/chap6.html#X8593B49F8705B486):"
+msgstr ""
+"* Зрозумійте, [розрив циклів](http://www.gap-"
+"system.org/Manuals/doc/ref/chap6.html#X8593B49F8705B486):"
+
+#: gap-lesson/_extras/discuss.md:67
+msgid ""
+"you may [explore variables](http://www.gap-system.org/Manuals/doc/ref/chap6.html#X7EE5CF2C8419F061)\n"
+"on the current break level and use\n"
+"[**`Where`**](http://www.gap-system.org/Manuals/doc/ref/chap6.html#X7A7FFA2B7C1EF5A3)\n"
+"to show the last commands before the error occurred."
+msgstr ""
+"що ви можете [досліджувати змінні](http://www.gap-system.org/Manuals/doc/ref/chap6.html#X7EE5CF2C8419F061)\n"
+"на поточному рівні перерви та використовувати,\n"
+"[**`Where`**](http://www.gap-system.org/Manuals/doc/ref/chap6.html#X7A7FFA2B7C1EF5A3)\n"
+"щоб показати останні команди до того, як сталася помилка."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:72
+msgid ""
+"* Use [preferences mechanism](http://www.gap-"
+"system.org/Manuals/doc/ref/chap3.html#X7FD66F977A3B02DF)"
+msgstr ""
+"* Використовуйте [механізм переваг](http://www.gap-"
+"system.org/Manuals/doc/ref/chap3.html#X7FD66F977A3B02DF)"
+
+#: gap-lesson/_extras/discuss.md:73
+msgid ""
+"to customise GAP, for example, to set help viewer to HTML or to make command line history available\n"
+"after quitting GAP in the next GAP session."
+msgstr ""
+"для налаштування GAP, наприклад, щоб установити засіб перегляду довідки на HTML або зробити історію командного рядка доступною\n"
+"після виходу з GAP під час наступного сеансу GAP."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:76
+msgid ""
+"* Understand the theory behind calculations: theoretical improvements could "
+"improve"
+msgstr ""
+"* Зрозумійте теорію, що лежить в основі обчислень: теоретичні вдосконалення "
+"можуть підвищити"
+
+#: gap-lesson/_extras/discuss.md:77
+msgid ""
+"the performance much more than highly optimised code which still does a "
+"brute-force calculation."
+msgstr ""
+"продуктивність набагато більше, ніж високооптимізований код, який все ще "
+"виконує обчислення грубою силою."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:79
+msgid ""
+"* Implementing algorithms, do not forget corner cases. For example, does the"
+" implementation"
+msgstr ""
+"* Реалізуючи алгоритми, не забувайте про наріжні випадки. Наприклад, чи "
+"працює"
+
+#: gap-lesson/_extras/discuss.md:80
+msgid "work on a trivial group or an identity element?"
+msgstr "реалізація на тривіальній групі чи одиничному елементі?"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:82
+msgid ""
+"* Do not rely that GAP functions return results in a particular order, "
+"unless this"
+msgstr ""
+"* Не покладайтеся на те, що функції GAP повертають результати в певному "
+"порядку, якщо це не"
+
+#: gap-lesson/_extras/discuss.md:83
+msgid ""
+"is documented. For example, dependently on the method, it may be not guaranteed\n"
+"that conjugacy classes or irreducible characters are listed in some particular\n"
+"order, or that the first element in their list is the conjugacy class of an identity\n"
+"element or the trivial character."
+msgstr ""
+"задукоментовано. Наприклад, залежно від методу, це може бути не гарантованим,\n"
+"що класи спряженості або незвідні символи перераховані в певному\n"
+"порядку, або що перший елемент у їх списку є класом спряженості одиничного елемента\n"
+"або тривіального символу."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:88
+msgid ""
+"* Don't ask for more than you need as this may have performance "
+"implications."
+msgstr ""
+"* Не вимагайте більше, ніж вам потрібно, оскільки це може вплинути на "
+"продуктивність."
+
+#: gap-lesson/_extras/discuss.md:89
+msgid "For example:"
+msgstr "Наприклад:"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:91
+msgid ""
+"    * If the property is an invariant of a conjugacy class (of elements or "
+"of"
+msgstr "    * Якщо властивість є інваріантом класу спряженості (елементів або"
+
+#: gap-lesson/_extras/discuss.md:92
+msgid ""
+"      subgroups), you may be interested only at looking at the representatives\n"
+"      of conjugacy classes."
+msgstr ""
+"      підгруп), вам може бути цікаво лише поглянути на представників\n"
+"      класів спряженості."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:95
+msgid ""
+"    * If you are interested in a list of elements of a collection, without a"
+msgstr "    * Якщо вас цікавить список елементів колекції без"
+
+#: gap-lesson/_extras/discuss.md:96
+msgid "      particular order, use `AsList` instead of `AsSSortedList`."
+msgstr "певного порядку, використовуйте `AsList` замість `AsSSortedList`."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:98
+msgid ""
+"    * Do not calculate conjugacy classes of all subgroups, if e.g. you are"
+msgstr "    * Не обчислюйте класи спряженості всіх підгруп, якщо напр."
+
+#: gap-lesson/_extras/discuss.md:99
+msgid ""
+"      interested only in normal or maximal subgroups - there are special\n"
+"      methods to compute them."
+msgstr ""
+"     Вас цікавлять лише нормальні або максимальні підгрупи - для їх обчислення\n"
+"     існують спеціальні методи."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:102
+msgid "    * If you are looking for _p_-subgroups, first you may calculate"
+msgstr "    * Якщо ви шукаєте _p_-підгрупи, спочатку ви можете обчислити"
+
+#: gap-lesson/_extras/discuss.md:103
+msgid ""
+"      a Sylow _p_-subgroup of a group, and then look at its subgroups\n"
+"      and their conjugates."
+msgstr ""
+"     силовську _p_-підгрупу групи, а потім поглянути на її підгрупи\n"
+"      та їх спряжені."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:106
+msgid ""
+"    * Representation matters: it may be worth to convert a group from fp "
+"group"
+msgstr ""
+"    * Представлення має значення: можливо, варто перетворити групу з fp "
+"групи "
+
+#: gap-lesson/_extras/discuss.md:107
+msgid ""
+"      to an isomorphic pc group or a permutation group to use faster "
+"methods."
+msgstr ""
+"    на ізоморфну pc групу або групу перестановок, щоб використовувати швидші"
+" методи."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:109
+msgid ""
+"* See [GAP Frequently Asked Questions](http://www.gap-"
+"system.org/Faq/faq.html) for further hints."
+msgstr ""
+"* Перегляньте [GAP Frequently Asked Questions](http://www.gap-"
+"system.org/Faq/faq.html), щоб отримати додаткові підказки."
+
+# header
+#: gap-lesson/_extras/discuss.md:111
+msgid "## Stay in touch"
+msgstr "## Залишайтеся на зв'язку"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:113
+msgid ""
+"* Subscribe to the **[GAP Forum](http://mail.gap-"
+"system.org/mailman/listinfo/forum)**."
+msgstr ""
+"* Підпишіться на **[GAP Forum](http://mail.gap-"
+"system.org/mailman/listinfo/forum)**."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:115
+msgid ""
+"* If you are on Twitter, follow "
+"**[gap_system](https://twitter.com/gap_system)**."
+msgstr ""
+"* Якщо ви є на Twitter, підписуйтесь "
+"**[gap_system](https://twitter.com/gap_system)**."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:117
+msgid ""
+"* If you need help, choose among these three options, dependently on the "
+"question:"
+msgstr ""
+"* Якщо вам потрібна допомога, виберіть один із цих трьох варіантів, залежно "
+"від питання:"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:119
+msgid ""
+"    * ask questions in the [GAP Forum](http://www.gap-"
+"system.org/Contacts/Forum/forum.html)"
+msgstr ""
+"    * задати запитання в [GAP Forum](http://www.gap-"
+"system.org/Contacts/Forum/forum.html)"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:121
+msgid ""
+"    * send them to the [GAP Support](http://www.gap-"
+"system.org/Contacts/People/supportgroup.html)"
+msgstr ""
+"    * надішліть їх до [GAP Support](http://www.gap-"
+"system.org/Contacts/People/supportgroup.html)"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:123
+msgid ""
+"    * post them at the [Mathematics Q&A "
+"site](http://math.stackexchange.com/questions/tagged/gap?sort=frequent&pageSize=50)"
+msgstr ""
+"    * опублікуйте їх на [Mathematics Q&A "
+"site](http://math.stackexchange.com/questions/tagged/gap?sort=frequent&pageSize=50)"
+
+# header
+#: gap-lesson/_extras/discuss.md:126
+msgid "## Contributing to GAP"
+msgstr "## Внесок у GAP"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:128
+msgid "* If you think that you’ve found a bug: please"
+msgstr "* Якщо ви вважаєте, що знайшли помилку: будь ласка,"
+
+#: gap-lesson/_extras/discuss.md:129
+msgid ""
+"[create an issue on GitHub](https://github.com/gap-system/gap/issues) or\n"
+"report it by email to [GAP Support](http://www.gap-system.org/Contacts/People/supportgroup.html)."
+msgstr ""
+"[створити проблему на GitHub](https://github.com/gap-system/gap/issues) або "
+"повідомте про це електронною поштою на адресу [GAP Support](http://www.gap-"
+"system.org/Contacts/People/supportgroup.html)."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:132
+msgid "* Please cite GAP if you use it. This helps for the community to grow,"
+msgstr ""
+"* Будь ласка, вкажіть GAP, якщо Ви його використовуєте. Це сприяє зростанню "
+"спільноти,"
+
+#: gap-lesson/_extras/discuss.md:133
+msgid ""
+"and this will help you in return.\n"
+"[This page](http://www.gap-system.org/Contacts/cite.html)\n"
+"suggests how to cite GAP, and the function\n"
+"[**`Cite`**](http://www.gap-system.org/Manuals/doc/ref/chap76.html#X79637D9A7B1AD7F7)\n"
+"will help to generate citation sample for precisely the same version of GAP that is used."
+msgstr ""
+"і це допоможе вам у відповідь.\n"
+"[Ця сторінка](http://www.gap-system.org/Contacts/cite.html)\n"
+"підказує, як цитувати GAP і функція\n"
+"[**`Цитувати`**](http://www.gap-system.org/Manuals/doc/ref/chap76.html#X79637D9A7B1AD7F7)\n"
+"допоможе створити зразок цитування для тієї самої версії GAP, яка використовується."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:139
+msgid ""
+"* Consider sharing your GAP developments with others, from sharing your code"
+" by"
+msgstr ""
+"* Подумайте про те, щоб поділитися своїми розробками GAP з іншими, від "
+"спільного використання вашого коду"
+
+#: gap-lesson/_extras/discuss.md:140
+msgid ""
+"available means to organising it into a GAP package, submitted for the redistribution\n"
+"with GAP and optionally for the refereeing."
+msgstr ""
+"доступними засобами до організації його в пакет GAP, надісланий для повторного розповсюдження\n"
+"через GAP і, за бажанням, для рецензування."
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:143
+msgid "* Contribute to the further development of this lesson itself."
+msgstr "* Сприяти подальшому розвитку самого уроку."
+
+# header
+#: gap-lesson/_extras/discuss.md:146
+msgid "## Tips and tricks"
+msgstr "## Поради та підказки"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:148
+msgid ""
+"* This is a simples approach to call GAP from a shell script. Create the "
+"shell"
+msgstr ""
+"* Це простий підхід для виклику GAP зі сценарію оболонки. Створіть сценарій"
+
+#: gap-lesson/_extras/discuss.md:149
+msgid "script called `check-one-order.sh` with the following content:"
+msgstr "оболонки під назвою `check-one-order.sh` із таким вмістом:"
+
+# code block
+#: gap-lesson/_extras/discuss.md:151
+msgid ""
+"~~~\n"
+"#!/bin/sh\n"
+"\n"
+"gap -r -b -q avgord.g << EOI\n"
+"TestOneOrderEasy( $1 );\n"
+"quit;\n"
+"EOI\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"#!/bin/sh\n"
+"\n"
+"gap -r -b -q avgord.g << EOI\n"
+"TestOneOrderEasy( $1 );\n"
+"quit;\n"
+"EOI\n"
+"~~~"
+
+#: gap-lesson/_extras/discuss.md:161
+msgid ""
+"and make it executable using `chmod u+x check-one-order.sh`. Now you may call\n"
+"it as follows:"
+msgstr ""
+"і зробіть його виконуваним за допомогою `chmod u+x check-one-order.sh`. Тепер ви можете назвати\n"
+"це так:"
+
+# code block
+#: gap-lesson/_extras/discuss.md:164
+msgid ""
+"~~~\n"
+"$ ./check-one-order.sh 24\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ./check-one-order.sh 24\n"
+"~~~"
+
+# code block
+#: gap-lesson/_extras/discuss.md:174
+msgid ""
+"~~~\n"
+"$ ./check-one-order.sh 105\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ./check-one-order.sh 105\n"
+"~~~"
+
+# code block
+#: gap-lesson/_extras/discuss.md:179
+msgid ""
+"~~~\n"
+"[ 105, 1 ]\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"[ 105, 1 ]\n"
+"~~~"
+
+# unordered list
+#: gap-lesson/_extras/discuss.md:184
+msgid "* Reading data files"
+msgstr "* Читання файлів із даними"
+
+#: gap-lesson/_extras/discuss.md:186
+msgid ""
+"GAP can read any valid GAP input from the code using `Read`. The contents will\n"
+"be read and evaluated in the main read-evaluate-print loop, but the results will\n"
+"not printed. Sometimes you may want to read the content of the file as a function\n"
+"and return that function - for that purpose you may find `ReadAsFunction` useful.\n"
+"But what to do if you have some a data file coming from other source, and it is\n"
+"not a valid GAP input? Sometimes you may have control over the tool that exports\n"
+"data, and may be able to tweak it to generate GAP input file. But where to look\n"
+"if this option is not possible?"
+msgstr ""
+"GAP може читати будь-який дійсний ввід GAP із коду за допомогою `Read`. Вміст буде\n"
+"прочитано та оцінено в основному циклі читання-оцінки-друку, але результати\n"
+"не будуть надруковані. Іноді вам може знадобитися прочитати вміст файлу як функцію\n"
+" та повернути цю функцію - для цієї мети вам може знадобитися `ReadAsFunction`.\n"
+"Але що робити, якщо у вас є файл даних, що надходить з іншого джерела, і це\n"
+"недійсний ввід GAP? Іноді ви можете керувати інструментом, який експортує\n"
+" дані, і можете налаштувати його для створення вхідного файлу GAP. Але де шукати,\n"
+"якщо цей варіант неможливий?"
+
+#: gap-lesson/_extras/discuss.md:195
+msgid ""
+"`ReadCSV( filename[, nohead][, separator] )` reads a file in a CSV (comma\n"
+"separated values) format and returns its entries as a list of records\n"
+"(see [here](http://www.gap-system.org/Manuals/doc/ref/chap10.html#X848DD7DC79363341)).\n"
+"The entries of the first line of the file will be used for the names\n"
+"of the record components (blanks will be translated into underscores).\n"
+"One could also indicate that the first line contains data instead of\n"
+"field names, and also specify a custom separator. Conversely, `PrintCSV`\n"
+"may be used to output CSV files."
+msgstr ""
+"`ReadCSV( filename[, nohead][, separator] )` читає файл у форматі CSV (значення,\n"
+" розділені комами) і повертає його записи як список записів\n"
+"(див. [here](http://www.gap-system.org/Manuals/doc/ref/chap10.html#X848DD7DC79363341)).\n"
+"Записи першого рядка файлу будуть використані для імен\n"
+"компонентів запису (прогалини будуть перетворені на підкреслення).\n"
+"Можна також вказати, що перший рядок містить дані замість імен полів, а також\n"
+"вказати спеціальний роздільник. Навпаки, `PrintCSV`\n"
+"може використовуватися для виведення файлів CSV."
+
+#: gap-lesson/_extras/discuss.md:204
+msgid ""
+"To read arbitrary (binary or text) files as strings, use the `StringFile`\n"
+"function provided by the GAPDoc package (see\n"
+"[here](http://www.gap-system.org/Manuals/pkg/GAPDoc-1.5.1/doc/chap6.html#X7E14D32181FBC3C3)).\n"
+"It will return the content of the file as a string.\n"
+"After that, you may use various string manipulation tools (see\n"
+"[Strings and Characters](http://www.gap-system.org/Manuals/doc/ref/chap27.htmlGAPDoc)\n"
+"in the GAP reference manual) to process it in the way you need. GAPDoc package\n"
+"also provides the `FileString` function which writes the content of a string\n"
+"into a file."
+msgstr ""
+"Щоб читати довільні (бінарні або текстові) файли як рядки, скористайтеся функцією `StringFile`,\n"
+"що надається пакетом GAPDoc (see\n"
+"[тут](http://www.gap-system.org/Manuals/pkg/GAPDoc-1.5.1/doc/chap6.html#X7E14D32181FBC3C3)).\n"
+"Він поверне вміст файлу у вигляді рядка.\n"
+"Після цього ви можете використовувати різні інструменти для роботи з рядками (див.\n"
+"[Рядки та символи](http://www.gap-system.org/Manuals/doc/ref/chap27.htmlGAPDoc)\n"
+"у довідковому посібнику GAP) , щоб обробити його потрібним вам способом. Пакет GAPDoc\n"
+"також надає функцію `FileString`, яка записує вміст рядка\n"
+"у файл."
+
+#: gap-lesson/_extras/discuss.md:214
+msgid ""
+"If you need to organise reading/writing line by line, instead of reading or\n"
+"writing the whole file/string at once, we suggest to look at the functionality\n"
+"provided by the IO package\n"
+"(see [here](http://www.gap-system.org/Manuals/pkg/io-4.4.6/doc/chap4.html)),\n"
+"in particular at `IO_ReadLine` and `IO_WriteLine`."
+msgstr ""
+"Якщо вам потрібно організувати читання/запис рядок за рядком, замість читання\n"
+"або запису всього файлу/рядка одночасно, ми пропонуємо переглянути функціональні\n"
+"можливості, які надає пакет IO\n"
+"(див. [тут](http://www.gap-system.org/Manuals/pkg/io-4.4.6/doc/chap4.html)),\n"
+"зокрема, в `IO_ReadLine` і `IO_WriteLine`."

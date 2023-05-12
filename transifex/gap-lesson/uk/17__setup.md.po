@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Raievska, 2023
+# IrynaRaievska, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 17:09:14+0000\n"
+"PO-Revision-Date: 2023-02-12 17:54+0000\n"
+"Last-Translator: IrynaRaievska, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: gap-lesson/setup.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Setup\n"
+"permalink: /setup/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: Налаштування\n"
+"permalink: /setup/\n"
+"---"
+
+# header
+#: gap-lesson/setup.md:7
+msgid "## Windows"
+msgstr "## Windows"
+
+#: gap-lesson/setup.md:9
+msgid ""
+"From the [GAP Downloads page](http://www.gap-system.org/Releases/),\n"
+"download the `.exe` installer and double click on the file to run it.\n"
+"When you are asked for the installation path, note that it should\n"
+"not contain spaces. For example, you may install GAP 4.X.Y in `C:\\gap-4.X.Y`\n"
+"(default), `D:\\gap-4.X.Y` or `C:\\Math\\GAP\\gap-4.X.Y`, but you must not\n"
+"install it in a directory such as `C:\\Program Files\\gap-4.X.Y` or\n"
+"`C:\\Users\\alice\\My Documents\\gap-4.X.Y`."
+msgstr ""
+"На [сторінці завантажень GAP](http://www.gap-system.org/Releases/),\n"
+"завантажте інсталятор `.exe` і двічі клацніть файл, щоб запустити його.\n"
+"Коли вас запитають про шлях інсталяції, зверніть увагу, що він\n"
+"не повинен містити пробілів. Наприклад, ви можете встановити GAP 4.X.Y у `C:\\gap-4.X.Y`\n"
+"(за замовчуванням), `D:\\gap-4.X.Y` чи `C:\\Math\\GAP\\gap-4.X.Y`, але ви не повинні\n"
+"інсталювати його в такий каталог, як `C:\\Program Files\\gap-4.X.Y` чи\n"
+"`C:\\Users\\alice\\My Documents\\gap-4.X.Y`."
+
+# header
+#: gap-lesson/setup.md:17
+msgid "## OS X"
+msgstr "## OS X"
+
+#: gap-lesson/setup.md:19
+msgid ""
+"On OS X, you need to install GAP from source as explained\n"
+"at the [GAP Downloads page](http://www.gap-system.org/Releases/).\n"
+"Download one of the archives provided there, unpack it and run\n"
+"`./configure && make` in the unpacked directory. Then change to the\n"
+"`pkg` subdirectory and call `../bin/BuildPackages.sh` to run the\n"
+"script which will build most of the packages that require compilation\n"
+"(provided sufficiently many libraries, headers and tools are available)."
+msgstr ""
+"В OS X Вам потрібно інсталювати GAP із джерела, як описано\n"
+"на [сторінці завантажень GAP](http://www.gap-system.org/Releases/).\n"
+"Завантажте один із архівів, наданих там, розпакуйте його та запустіть\n"
+"`./configure && make` у розпакованому каталозі. Потім перейдіть\n"
+"до підкаталогу `pkg` і викличте `../bin/BuildPackages.sh`, щоб запустити\n"
+"сценарій, який створить більшість пакетів, які потребують компіляції\n"
+"(за умови наявності достатньої кількості бібліотек, заголовків і інструментів)."
+
+#: gap-lesson/setup.md:27
+msgid ""
+"Alternatively, you may also install GAP using [Homebrew](http://brew.sh/).\n"
+"After installing Homebrew, follow the instructions for the\n"
+"[GAP Homebrew tap](https://github.com/gap-system/homebrew-gap)."
+msgstr ""
+"Крім того, ви також можете встановити GAP за допомогою [Homebrew](http://brew.sh/).\n"
+"Після встановлення Homebrew дотримуйтесь інструкцій для\n"
+"[GAP Homebrew tap](https://github.com/gap-system/homebrew-gap)."
+
+# header
+#: gap-lesson/setup.md:31
+msgid "## Linux"
+msgstr "## Linux"
+
+#: gap-lesson/setup.md:33
+msgid ""
+"On Linux, you need to install GAP from source as explained at the\n"
+"[GAP Downloads page](http://www.gap-system.org/Releases/).\n"
+"Download one of the archives provided there, unpack it and run\n"
+"`./configure && make` in the unpacked directory. Then change to the\n"
+"`pkg` subdirectory and call `../bin/BuildPackages.sh` to run the\n"
+"script which will build most of the packages that require compilation\n"
+"(provided sufficiently many libraries, headers and tools are available)."
+msgstr ""
+"У Linux вам потрібно встановити GAP із джерела, як описано на\n"
+"[сторінці завантажень GAP](http://www.gap-system.org/Releases/).\n"
+"Завантажте один із наданих там архівів, розпакуйте його та запустіть\n"
+"`./configure && make` у розпакованому каталозі. Потім перейдіть\n"
+"до підкаталогу `pkg` і викличте `../bin/BuildPackages.sh`, щоб запустити\n"
+"сценарій, який створить більшість пакетів, які потребують компіляції\n"
+"(за умови наявності достатньої кількості бібліотек, заголовків і інструментів)."
