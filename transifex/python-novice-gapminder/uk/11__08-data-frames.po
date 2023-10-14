@@ -4,7 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Марина Новожилова, 2022
+# Maryna Novozhylova, 2022
+# Mariya Spatar, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: Марина Новожилова, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Mariya Spatar, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -113,7 +114,7 @@ msgstr ""
 "в якому значенні використовується `i`.\n"
 "Пам’ятайте, що DataFrame використовує *індекс* як спосіб ідентифікації рядків таблиці;\n"
 "крім того, рядок має *позицію* всередині таблиці, а також *мітку*, яка\n"
-"унікально ідентифікує  *входження* значення у DataFrame."
+"унікально ідентифікує  *введення* значення у DataFrame."
 
 # header
 #: python-novice-gapminder/_episodes/08-data-frames.md:42
@@ -174,7 +175,7 @@ msgid ""
 "*   Can specify location by row name analogously to 2D version of dictionary"
 " keys."
 msgstr ""
-"*    Можна вказати позицію за допомогою імені рядка аналогічно 2D-версії "
+"*    Можна вказати позицію за допомогою імені рядка аналогічно до 2D-версії "
 "ключів словника."
 
 # code block
@@ -659,7 +660,7 @@ msgid ""
 "split themselves according to their GDP."
 msgstr ""
 "Наприклад, скажімо, ми хочемо мати більш чітке уявлення про те, як європейські країни\n"
-"поділяються відповідно до свого ВВП."
+"розподілені відповідно до свого ВВП. "
 
 # ordered list
 #: python-novice-gapminder/_episodes/08-data-frames.md:253
@@ -678,7 +679,7 @@ msgid ""
 msgstr ""
 "   на тих, у кого ВВП *вищий* за середній європейський, та тих, у кого ВВП *нижчий*.\n"
 "2.  Потім ми оцінюємо *показник заможності* на основі історичних значень (з 1962 по 2007 рік),\n"
-"    де ми враховуємо, скільки разів країна брала участь у групах з *нижчим* або *вищим* ВВП"
+"    де ми враховуємо, скільки разів країна була у групах з *нижчим* або *вищим* ВВП"
 
 # code block
 #: python-novice-gapminder/_episodes/08-data-frames.md:258
@@ -867,7 +868,7 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-python}\n"
 ">\n"
-"> Напишіть вираз для визначення ВВП Сербії на душу населення у 2007 році."
+"> Напишіть вираз для визначення ВВП на душу населення в Сербії у 2007 році."
 
 #: python-novice-gapminder/_episodes/08-data-frames.md:343
 msgid ""

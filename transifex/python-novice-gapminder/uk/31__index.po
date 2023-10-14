@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Olexandr Konovalov, 2022
+# Mariya Spatar, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: Olexandr Konovalov, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Mariya Spatar, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,11 +44,11 @@ msgid ""
 "This lesson references [JupyterLab][jupyterlab], but can be taught using a regular Python interpreter \n"
 "as well. Please note that this lesson uses Python 3 rather than Python 2."
 msgstr ""
-"Цей урок містить введення до програмування на мові Python для користувачів які не мають зовсім або мають початковий\n"
+"Цей урок містить введення до програмування на мові Python для користувачів, які не мають зовсім або мають початковий\n"
 "досвід програмування. Він використовує побудову графіків як мотиваційний приклад, та розроблений для використання на\n"
 "[Data Carpentry][dc-lessons] та [Software Carpentry][swc-lessons] тренігах. \n"
 "Цей урок використовує [JupyterLab][jupyterlab], але його також можна викладати у звичайному інтрепретаторі мови Python.\n"
-"Зверніть увагу, що він використовує Python 3 а не Python 2."
+"Зверніть увагу, що він використовує Python 3, а не Python 2."
 
 # blockquote, which can be cascaded
 #: python-novice-gapminder/index.md:13
@@ -66,7 +67,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> **Цей урок знаходиться на початковій стадії розробки;\n"
-"> будь ласка перевірте [цю сторінку]({{ page.root }}/design/)\n"
+"> будь ласка, перевірте [цю сторінку]({{ page.root }}/design/)\n"
 "> щоб побачити що вже зроблено.\n"
 "> Ми будемо дуже вдячні за допомогу,\n"
 "> особливо за нові вправи\n"
@@ -101,11 +102,11 @@ msgstr ""
 "> 2. Слухачі мають встановити Python до початку тренінгу.\n"
 ">\n"
 "> 3. Слухачі мають отримати дані (gapminder) перед початком тренінгу:\n"
-">    будь ласка загрузіть та распакуйте файл \n"
+">    будь ласка, завантажте та розархівуйте файл \n"
 ">    [python-novice-gapminder-data.zip]({{page.root}}/files/python-novice-gapminder-data.zip).\n"
 ">\n"
-">    Будь ласка дивіться [the setup instructions][lesson-setup]\n"
-">    щоб знайти подальші деталі."
+">    Будь ласка, дивіться [the setup instructions][lesson-setup]\n"
+">    для отримання детальної інформації. "
 
 # SC/DC Template label
 #: python-novice-gapminder/index.md:37
