@@ -2,24 +2,28 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Maryna Raievska, 2023
 # IrynaRaievska, 2023
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2023-02-12 17:09:14+0000\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
 "PO-Revision-Date: 2023-02-12 17:54+0000\n"
 "Last-Translator: IrynaRaievska, 2023\n"
-"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/"
+"teams/98915/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 # Front Matter
 #: gap-lesson/_extras/guide.md:1
@@ -57,18 +61,20 @@ msgstr "продемонструвати деякі специфічні для 
 # unordered list
 #: gap-lesson/_extras/guide.md:12
 msgid ""
-"* Before start, check that everyone has installed GAP and knows how to start"
-" it."
+"* Before start, check that everyone has installed GAP and knows how to start "
+"it."
 msgstr ""
 "* Перед початком перевірте, чи всі встановили GAP і знають, як його "
 "запустити."
 
 #: gap-lesson/_extras/guide.md:13
 msgid ""
-"Also remind that it's not advised to install in in the path with spaces, e.g. in\n"
+"Also remind that it's not advised to install in in the path with spaces, e."
+"g. in\n"
 "\"My Documents\"."
 msgstr ""
-"Також нагадайте, що не рекомендується встановлювати в шляху з пробілами, напр. в\n"
+"Також нагадайте, що не рекомендується встановлювати в шляху з пробілами, "
+"напр. в\n"
 "\"Мої документи\"."
 
 # unordered list
@@ -91,9 +97,12 @@ msgstr ""
 "розташованими в різних каталогах. `ChangeDirectoryCurrent` — це функція\n"
 "з пакета IO (вимагає обчислення), яка має бути доступною, якщо\n"
 "GAP встановлено належним чином (тобто встановлено згідно з інструкціями\n"
-"для семінару). У разі будь-яких проблем першим кроком усунення несправностей є\n"
-"перевірка того, чи `LoadPackage(\"io\");` повертає `fail`. Якщо так, виправленням\n"
-"для користувачів Windows є введення повних шляхів до файлів. Користувачі Linux і OS X\n"
+"для семінару). У разі будь-яких проблем першим кроком усунення несправностей "
+"є\n"
+"перевірка того, чи `LoadPackage(\"io\");` повертає `fail`. Якщо так, "
+"виправленням\n"
+"для користувачів Windows є введення повних шляхів до файлів. Користувачі "
+"Linux і OS X\n"
 "постраждали менше, тому що GAP потрібно запускати шляхом переходу\n"
 "до потрібного каталогу в терміналі та запуску GAP звідти."
 
@@ -103,15 +112,17 @@ msgid ""
 "* Help to adjust terminal settings, especially show to Windows users that "
 "they"
 msgstr ""
-"* Допоможіть налаштувати параметри терміналу, особливо покажіть користувачам"
-" Windows, що вони"
+"* Допоможіть налаштувати параметри терміналу, особливо покажіть користувачам "
+"Windows, що вони"
 
 #: gap-lesson/_extras/guide.md:27
 msgid ""
-"can permanently change colours and fonts in mintty shell (the one started with\n"
+"can permanently change colours and fonts in mintty shell (the one started "
+"with\n"
 "`gap.bat`)."
 msgstr ""
-"можуть постійно змінювати кольори та шрифти в м’якій оболонці (той, що починається з\n"
+"можуть постійно змінювати кольори та шрифти в м’якій оболонці (той, що "
+"починається з\n"
 "`gap.bat`)."
 
 # unordered list
@@ -136,8 +147,10 @@ msgid ""
 "not displayed, unless this is really necessary (e.g. to demonstrate how the\n"
 "multi-line input works)."
 msgstr ""
-"Вивід GAP має іонно-синій колір. Помилки відображаються червоним кольором. Підказки GAP\n"
-"не відображаються, окрім випадків, коли це справді необхідно (наприклад, щоб продемонструвати, як\n"
+"Вивід GAP має іонно-синій колір. Помилки відображаються червоним кольором. "
+"Підказки GAP\n"
+"не відображаються, окрім випадків, коли це справді необхідно (наприклад, щоб "
+"продемонструвати, як\n"
 "працює багаторядковий ввід)."
 
 # unordered list
@@ -156,11 +169,10 @@ msgstr ""
 # unordered list
 #: gap-lesson/_extras/guide.md:41
 msgid ""
-"* To use color prompt when GAP is started with `-r` option to ignore all "
-"user"
+"* To use color prompt when GAP is started with `-r` option to ignore all user"
 msgstr ""
-"* Щоб використовувати колірну підказку, коли GAP запускається з опцією `-r`,"
-" щоб ігнорувати всі параметри користувача,"
+"* Щоб використовувати колірну підказку, коли GAP запускається з опцією `-r`, "
+"щоб ігнорувати всі параметри користувача,"
 
 #: gap-lesson/_extras/guide.md:42
 msgid "preferences, including this (if set), call `ColorPrompt(true);`."
@@ -176,8 +188,8 @@ msgstr "## [Перша сесія з GAP](01-command-line.html)"
 msgid ""
 "* Emphasize that the banner contains version info useful for citing GAP or"
 msgstr ""
-"* Підкресліть, що банер містить інформацію про версію, корисну для цитування"
-" GAP або"
+"* Підкресліть, що банер містить інформацію про версію, корисну для цитування "
+"GAP або"
 
 #: gap-lesson/_extras/guide.md:47
 msgid ""
@@ -185,29 +197,33 @@ msgid ""
 "**Browse** packages indicate that these and perhaps some other packages\n"
 "that require compilation were not compiled."
 msgstr ""
-"повідомлення про помилки. Вибір пакетів може відрізнятися, але відсутність пакетів **IO** і\n"
+"повідомлення про помилки. Вибір пакетів може відрізнятися, але відсутність "
+"пакетів **IO** і\n"
 "**Browse** означає, що ці та, можливо, деякі інші пакети,\n"
 "які потребують компіляції, не були скомпільовані."
 
 # unordered list
 #: gap-lesson/_extras/guide.md:51
 msgid ""
-"* A second call to `LogTo(\"logfile\");` will not open the new file but will"
-" report"
+"* A second call to `LogTo(\"logfile\");` will not open the new file but will "
+"report"
 msgstr ""
 "* Другий виклик `LogTo(\"logfile\");` не відкриє новий файл, але повідомить,"
 
 #: gap-lesson/_extras/guide.md:52
 msgid ""
-"that GAP is already logging to another file. In this case, either ignore it if\n"
-"you would like to continue logging to the file already in use, or call `LogTo();`\n"
-"to close the current log file and then call `LogTo` with an argument to start\n"
+"that GAP is already logging to another file. In this case, either ignore it "
+"if\n"
+"you would like to continue logging to the file already in use, or call "
+"`LogTo();`\n"
+"to close the current log file and then call `LogTo` with an argument to "
+"start\n"
 "logging to a new file."
 msgstr ""
 "що GAP вже веде журнал до іншого файлу. У цьому випадку або проігноруйте "
 "його, якщо ви хочете продовжити ведення журналу, який уже використовується, "
-"або викличте `LogTo();`, щоб закрити поточний файл журналу, а потім викличте"
-" `LogTo` з аргументом, щоб почати запис в новому файлі."
+"або викличте `LogTo();`, щоб закрити поточний файл журналу, а потім викличте "
+"`LogTo` з аргументом, щоб почати запис в новому файлі."
 
 # unordered list
 #: gap-lesson/_extras/guide.md:57
@@ -218,10 +234,12 @@ msgstr ""
 
 #: gap-lesson/_extras/guide.md:58
 msgid ""
-"also happens if e.g. some file has to be read or some package should be loaded\n"
+"also happens if e.g. some file has to be read or some package should be "
+"loaded\n"
 "to define the function."
 msgstr ""
-"трапляється, якщо, наприклад, для визначення функції потрібно прочитати якийсь файл або завантажити\n"
+"трапляється, якщо, наприклад, для визначення функції потрібно прочитати "
+"якийсь файл або завантажити\n"
 "якийсь пакет."
 
 # unordered list
@@ -260,15 +278,16 @@ msgstr ""
 # unordered list
 #: gap-lesson/_extras/guide.md:69
 msgid ""
-"* Give a hint that the sitemap on the [GAP website](http://www.gap-"
-"system.org)"
+"* Give a hint that the sitemap on the [GAP website](http://www.gap-system."
+"org)"
 msgstr ""
-"* Дайте підказку, що на карті сайту на [веб-сайті GAP](http://www.gap-"
-"system.org)"
+"* Дайте підказку, що на карті сайту на [веб-сайті GAP](http://www.gap-system."
+"org)"
 
 #: gap-lesson/_extras/guide.md:70
 msgid ""
-"shows the [Search the GAP web site](http://www.gap-system.org/search.html) page\n"
+"shows the [Search the GAP web site](http://www.gap-system.org/search.html) "
+"page\n"
 "which allows some specific search requests."
 msgstr ""
 "показано [Пошук на веб-сайті GAP](http://www.gap-system.org/search.html), \n"
@@ -302,11 +321,15 @@ msgstr "* Демонстрація друку `Sum( List( elts, Order ) ) / Leng
 msgid ""
 "show how to assemble this command using command line editing and moving\n"
 "around the line, perhaps executing partial command to see their results,\n"
-"instead of typing the whole command from first to last character sequentially."
+"instead of typing the whole command from first to last character "
+"sequentially."
 msgstr ""
-"покажіть, як зібрати цю команду за допомогою редагування командного рядка та переміщення\n"
-"по рядку, можливо, виконавши часткову команду, щоб побачити їхні результати,\n"
-"замість того, щоб вводити всю команду послідовно від першого до останнього символу."
+"покажіть, як зібрати цю команду за допомогою редагування командного рядка та "
+"переміщення\n"
+"по рядку, можливо, виконавши часткову команду, щоб побачити їхні "
+"результати,\n"
+"замість того, щоб вводити всю команду послідовно від першого до останнього "
+"символу."
 
 # unordered list
 #: gap-lesson/_extras/guide.md:83
@@ -343,8 +366,7 @@ msgstr "## [Ще декілька об’єктів GAP](02-some-objects.html)"
 msgid ""
 "* Floats, cyclotomics, finite fields elements are not used further in the"
 msgstr ""
-"* Число з плаваючою комою, цикломатичні числа, елементи скінченних полів "
-"далі"
+"* Число з плаваючою комою, цикломатичні числа, елементи скінченних полів далі"
 
 #: gap-lesson/_extras/guide.md:93
 msgid "lesson, but we mention them briefly to show that they exist."
@@ -375,7 +397,8 @@ msgid ""
 "results in a no-method-found error. This may be a good moment to introduce\n"
 "this special kind of error messages."
 msgstr ""
-"призводить до помилки методу не знайдено. Це може бути вдалим моментом для представлення\n"
+"призводить до помилки методу не знайдено. Це може бути вдалим моментом для "
+"представлення\n"
 "цього особливого виду повідомлень про помилки."
 
 # unordered list
@@ -385,14 +408,18 @@ msgstr "* Щоб розширити GAP за допомогою нових ти�
 
 #: gap-lesson/_extras/guide.md:103
 msgid ""
-"[Creating New Objects](http://www.gap-system.org/Manuals/doc/ref/chap79.html)\n"
-"and [Examples of Extending the System](http://www.gap-system.org/Manuals/doc/ref/chap80.html)\n"
+"[Creating New Objects](http://www.gap-system.org/Manuals/doc/ref/chap79."
+"html)\n"
+"and [Examples of Extending the System](http://www.gap-system.org/Manuals/doc/"
+"ref/chap80.html)\n"
 "of the GAP Reference Manual.\n"
 "Also, the [Circle package](http://www.gap-system.org/Packages/circle.html)\n"
 "provides an example of extending GAP with new multiplicative objects."
 msgstr ""
-"[Створення нових об'єктів](http://www.gap-system.org/Manuals/doc/ref/chap79.html)\n"
-"та [Приклади розширення системи](http://www.gap-system.org/Manuals/doc/ref/chap80.html)\n"
+"[Створення нових об'єктів](http://www.gap-system.org/Manuals/doc/ref/chap79."
+"html)\n"
+"та [Приклади розширення системи](http://www.gap-system.org/Manuals/doc/ref/"
+"chap80.html)\n"
 "з довідкового посібника GAP.\n"
 "Також [пакет Circle](http://www.gap-system.org/Packages/circle.html)\n"
 "надає приклад розширення GAP новими мультиплікативними об’єктами."
@@ -404,11 +431,11 @@ msgstr "1.  Розв'язання завдання:"
 
 #: gap-lesson/_extras/guide.md:110
 msgid ""
-"`r:=c[1]; for i in [2..Length(c)] do if c[i][2]>r[2] then r:=c[i]; fi; od; "
-"r;`"
+"`r:=c[1]; for i in [2..Length(c)] do if c[i][2]>r[2] then r:=c[i]; fi; od; r;"
+"`"
 msgstr ""
-"`r:=c[1]; for i in [2..Length(c)] do if c[i][2]>r[2] then r:=c[i]; fi; od; "
-"r;`"
+"`r:=c[1]; for i in [2..Length(c)] do if c[i][2]>r[2] then r:=c[i]; fi; od; r;"
+"`"
 
 # header
 #: gap-lesson/_extras/guide.md:113 gap-lesson/reference.md:42
@@ -432,8 +459,7 @@ msgstr "`local`, `return`, `end` та інші мовні конструкції
 msgid ""
 "* Tell how to explore the break loop while showing an example of an error"
 msgstr ""
-"* Розкажіть, як досліджувати цикл розриву, показуючи приклад повідомлення "
-"про"
+"* Розкажіть, як досліджувати цикл розриву, показуючи приклад повідомлення про"
 
 #: gap-lesson/_extras/guide.md:119
 msgid "message."
@@ -542,12 +568,15 @@ msgstr "з цього уроку."
 
 #: gap-lesson/_extras/guide.md:154
 msgid ""
-"`Sum(List(Filtered([1..2000], n -> not IsPrimePowerInt(n)),NrSmallGroups)); NrSmallGroups(1536); last2-last;`.\n"
+"`Sum(List(Filtered([1..2000], n -> not IsPrimePowerInt(n)),NrSmallGroups)); "
+"NrSmallGroups(1536); last2-last;`.\n"
 "In addition to `SmallGroup(105,1)` and `SmallGroup(357,1)`, another\n"
 "group is `SmallGroup(1785,1)`."
 msgstr ""
-"`Sum(List(Filtered([1..2000], n -> not IsPrimePowerInt(n)),NrSmallGroups)); NrSmallGroups(1536); last2-last;`.\n"
-"In addition to `SmallGroup(105,1)` та `SmallGroup(357,1)`, інша група є `SmallGroup(1785,1)`."
+"`Sum(List(Filtered([1..2000], n -> not IsPrimePowerInt(n)),NrSmallGroups)); "
+"NrSmallGroups(1536); last2-last;`.\n"
+"In addition to `SmallGroup(105,1)` та `SmallGroup(357,1)`, інша група є "
+"`SmallGroup(1785,1)`."
 
 # header
 #: gap-lesson/_extras/guide.md:158 gap-lesson/reference.md:57
@@ -562,16 +591,19 @@ msgstr "* Чому не варто оголошувати `Random` як атри
 # ordered list
 #: gap-lesson/_extras/guide.md:162
 msgid ""
-"1.  Ideas for the challenge: try `k:=1` and then "
-"`k:=k+1;n:=2^k;AvgOrdOfCollection(DihedralGroup(n));time;AvgOrdOfGroup(DihedralGroup(n));time;`."
+"1.  Ideas for the challenge: try `k:=1` and then `k:=k+1;n:=2^k;"
+"AvgOrdOfCollection(DihedralGroup(n));time;AvgOrdOfGroup(DihedralGroup(n));"
+"time;`."
 msgstr ""
-"1.  Ідеї для завдання: спробуйте `k:=1`, а потім "
-"`k:=k+1;n:=2^k;AvgOrdOfCollection(DihedralGroup(n));time;AvgOrdOfGroup(DihedralGroup(n));time;`."
+"1.  Ідеї для завдання: спробуйте `k:=1`, а потім `k:=k+1;n:=2^k;"
+"AvgOrdOfCollection(DihedralGroup(n));time;AvgOrdOfGroup(DihedralGroup(n));"
+"time;`."
 
 #: gap-lesson/_extras/guide.md:163
 msgid ""
 "Even for `k=20`, the 1st function takes about 15s and the 2nd - about 115s\n"
 "on a MacBook Pro."
 msgstr ""
-"Навіть для `k=20` перша функція займає приблизно 15 секунд, а друга – приблизно 115 секунд\n"
+"Навіть для `k=20` перша функція займає приблизно 15 секунд, а друга – "
+"приблизно 115 секунд\n"
 "на MacBook Pro."

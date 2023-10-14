@@ -2,24 +2,28 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Maryna Raievska, 2023
 # IrynaRaievska, 2023
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2023-02-12 17:09:14+0000\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
 "PO-Revision-Date: 2023-02-12 17:54+0000\n"
 "Last-Translator: IrynaRaievska, 2023\n"
-"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/"
+"teams/98915/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 # Front Matter
 #: gap-lesson/setup.md:1
@@ -46,7 +50,8 @@ msgid ""
 "From the [GAP Downloads page](http://www.gap-system.org/Releases/),\n"
 "download the `.exe` installer and double click on the file to run it.\n"
 "When you are asked for the installation path, note that it should\n"
-"not contain spaces. For example, you may install GAP 4.X.Y in `C:\\gap-4.X.Y`\n"
+"not contain spaces. For example, you may install GAP 4.X.Y in `C:\\gap-4.X."
+"Y`\n"
 "(default), `D:\\gap-4.X.Y` or `C:\\Math\\GAP\\gap-4.X.Y`, but you must not\n"
 "install it in a directory such as `C:\\Program Files\\gap-4.X.Y` or\n"
 "`C:\\Users\\alice\\My Documents\\gap-4.X.Y`."
@@ -54,8 +59,10 @@ msgstr ""
 "На [сторінці завантажень GAP](http://www.gap-system.org/Releases/),\n"
 "завантажте інсталятор `.exe` і двічі клацніть файл, щоб запустити його.\n"
 "Коли вас запитають про шлях інсталяції, зверніть увагу, що він\n"
-"не повинен містити пробілів. Наприклад, ви можете встановити GAP 4.X.Y у `C:\\gap-4.X.Y`\n"
-"(за замовчуванням), `D:\\gap-4.X.Y` чи `C:\\Math\\GAP\\gap-4.X.Y`, але ви не повинні\n"
+"не повинен містити пробілів. Наприклад, ви можете встановити GAP 4.X.Y у `C:"
+"\\gap-4.X.Y`\n"
+"(за замовчуванням), `D:\\gap-4.X.Y` чи `C:\\Math\\GAP\\gap-4.X.Y`, але ви не "
+"повинні\n"
 "інсталювати його в такий каталог, як `C:\\Program Files\\gap-4.X.Y` чи\n"
 "`C:\\Users\\alice\\My Documents\\gap-4.X.Y`."
 
@@ -80,7 +87,8 @@ msgstr ""
 "`./configure && make` у розпакованому каталозі. Потім перейдіть\n"
 "до підкаталогу `pkg` і викличте `../bin/BuildPackages.sh`, щоб запустити\n"
 "сценарій, який створить більшість пакетів, які потребують компіляції\n"
-"(за умови наявності достатньої кількості бібліотек, заголовків і інструментів)."
+"(за умови наявності достатньої кількості бібліотек, заголовків і "
+"інструментів)."
 
 #: gap-lesson/setup.md:27
 msgid ""
@@ -88,7 +96,8 @@ msgid ""
 "After installing Homebrew, follow the instructions for the\n"
 "[GAP Homebrew tap](https://github.com/gap-system/homebrew-gap)."
 msgstr ""
-"Крім того, ви також можете встановити GAP за допомогою [Homebrew](http://brew.sh/).\n"
+"Крім того, ви також можете встановити GAP за допомогою [Homebrew](http://"
+"brew.sh/).\n"
 "Після встановлення Homebrew дотримуйтесь інструкцій для\n"
 "[GAP Homebrew tap](https://github.com/gap-system/homebrew-gap)."
 
@@ -113,4 +122,5 @@ msgstr ""
 "`./configure && make` у розпакованому каталозі. Потім перейдіть\n"
 "до підкаталогу `pkg` і викличте `../bin/BuildPackages.sh`, щоб запустити\n"
 "сценарій, який створить більшість пакетів, які потребують компіляції\n"
-"(за умови наявності достатньої кількості бібліотек, заголовків і інструментів)."
+"(за умови наявності достатньої кількості бібліотек, заголовків і "
+"інструментів)."

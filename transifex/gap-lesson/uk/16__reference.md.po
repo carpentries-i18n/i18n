@@ -2,25 +2,29 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Maryna Raievska, 2023
 # IrynaRaievska, 2023
 # Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: i18n\n"
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
-"POT-Creation-Date: 2023-02-12 17:09:14+0000\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
 "PO-Revision-Date: 2023-02-12 17:54+0000\n"
 "Last-Translator: Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023\n"
-"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/"
+"teams/98915/uk/)\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: uk\n"
-"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
 # Front Matter
 #: gap-lesson/reference.md:1
@@ -38,56 +42,56 @@ msgstr ""
 # unordered list
 #: gap-lesson/reference.md:8
 msgid ""
-"* [GAP Tutorial: A First session with GAP](http://www.gap-"
-"system.org/Manuals/doc/tut/chap2.html)"
+"* [GAP Tutorial: A First session with GAP](http://www.gap-system.org/Manuals/"
+"doc/tut/chap2.html)"
 msgstr ""
-"* [Підручник з GAP: Перше заняття з GAP](http://www.gap-"
-"system.org/Manuals/doc/tut/chap2.html)"
+"* [Підручник з GAP: Перше заняття з GAP](http://www.gap-system.org/Manuals/"
+"doc/tut/chap2.html)"
 
 # unordered list
 #: gap-lesson/reference.md:10
 msgid ""
-"* [GAP Reference Manual: Naming "
-"Conventions](https://plus.google.com/events/cfm3tc375c142qtodvlvcfs82l4)"
+"* [GAP Reference Manual: Naming Conventions](https://plus.google.com/events/"
+"cfm3tc375c142qtodvlvcfs82l4)"
 msgstr ""
-"* [Довідковий посібник GAP: Конвенції про "
-"найменування](https://plus.google.com/events/cfm3tc375c142qtodvlvcfs82l4)"
+"* [Довідковий посібник GAP: Конвенції про найменування](https://plus.google."
+"com/events/cfm3tc375c142qtodvlvcfs82l4)"
 
 # unordered list
 #: gap-lesson/reference.md:12
 msgid ""
-"* [GAP Reference Manual: The Help System](http://www.gap-"
-"system.org/Manuals/doc/ref/chap2.html)"
+"* [GAP Reference Manual: The Help System](http://www.gap-system.org/Manuals/"
+"doc/ref/chap2.html)"
 msgstr ""
-"* [Довідковий посібник GAP: Довідкова система](http://www.gap-"
-"system.org/Manuals/doc/ref/chap2.html)"
+"* [Довідковий посібник GAP: Довідкова система](http://www.gap-system.org/"
+"Manuals/doc/ref/chap2.html)"
 
 # unordered list
 #: gap-lesson/reference.md:14
 msgid ""
-"* [GAP Tutorial: Lists and Records](http://www.gap-"
-"system.org/Manuals/doc/tut/chap3.htm)"
+"* [GAP Tutorial: Lists and Records](http://www.gap-system.org/Manuals/doc/"
+"tut/chap3.htm)"
 msgstr ""
-"* [Підручник з GAP: Списки та записи](http://www.gap-"
-"system.org/Manuals/doc/tut/chap3.htm)"
+"* [Підручник з GAP: Списки та записи](http://www.gap-system.org/Manuals/doc/"
+"tut/chap3.htm)"
 
 # unordered list
 #: gap-lesson/reference.md:16
 msgid ""
-"* [GAP Reference Manual: Strings and Characters](http://www.gap-"
-"system.org/Manuals/doc/ref/chap27.html)"
+"* [GAP Reference Manual: Strings and Characters](http://www.gap-system.org/"
+"Manuals/doc/ref/chap27.html)"
 msgstr ""
-"* [Довідковий посібник GAP: Рядки та символи](http://www.gap-"
-"system.org/Manuals/doc/ref/chap27.html)"
+"* [Довідковий посібник GAP: Рядки та символи](http://www.gap-system.org/"
+"Manuals/doc/ref/chap27.html)"
 
 # unordered list
 #: gap-lesson/reference.md:18
 msgid ""
-"* [GAP Reference Manual: The Programming Language]( http://www.gap-"
-"system.org/Manuals/doc/ref/chap4.html#X7FE7C0C17E1ED118)"
+"* [GAP Reference Manual: The Programming Language]( http://www.gap-system."
+"org/Manuals/doc/ref/chap4.html#X7FE7C0C17E1ED118)"
 msgstr ""
-"* [Довідковий посібник GAP: Мова програмування](http://www.gap-"
-"system.org/Manuals/doc/ref/chap4.html#X7FE7C0C17E1ED118)"
+"* [Довідковий посібник GAP: Мова програмування](http://www.gap-system.org/"
+"Manuals/doc/ref/chap4.html#X7FE7C0C17E1ED118)"
 
 # unordered list
 #: gap-lesson/reference.md:23
@@ -103,32 +107,29 @@ msgstr ""
 # unordered list
 #: gap-lesson/reference.md:27
 msgid ""
-"* [Cyclotomic numbers](http://www.gap-"
-"system.org/Manuals/doc/ref/chap18.html)"
+"* [Cyclotomic numbers](http://www.gap-system.org/Manuals/doc/ref/chap18.html)"
 msgstr ""
-"* [Циклотомічні числа](http://www.gap-"
-"system.org/Manuals/doc/ref/chap18.html)"
+"* [Циклотомічні числа](http://www.gap-system.org/Manuals/doc/ref/chap18.html)"
 
 # unordered list
 #: gap-lesson/reference.md:29
 msgid "* [Floats](http://www.gap-system.org/Manuals/doc/ref/chap19.html)"
 msgstr ""
-"* [Числа з рухомою комою](http://www.gap-"
-"system.org/Manuals/doc/ref/chap19.html)"
+"* [Числа з рухомою комою](http://www.gap-system.org/Manuals/doc/ref/chap19."
+"html)"
 
 # unordered list
 #: gap-lesson/reference.md:31
 msgid ""
-"* [Finite Field Elements](http://www.gap-"
-"system.org/Manuals/doc/ref/chap59.html)"
+"* [Finite Field Elements](http://www.gap-system.org/Manuals/doc/ref/chap59."
+"html)"
 msgstr ""
-"* [Елементи скінченного поля](http://www.gap-"
-"system.org/Manuals/doc/ref/chap59.html)"
+"* [Елементи скінченного поля](http://www.gap-system.org/Manuals/doc/ref/"
+"chap59.html)"
 
 # unordered list
 #: gap-lesson/reference.md:33
-msgid ""
-"* [Permutations](http://www.gap-system.org/Manuals/doc/ref/chap42.html)"
+msgid "* [Permutations](http://www.gap-system.org/Manuals/doc/ref/chap42.html)"
 msgstr ""
 "* [Перестановки](http://www.gap-system.org/Manuals/doc/ref/chap42.html)"
 
@@ -145,55 +146,55 @@ msgstr "* [Записи](http://www.gap-system.org/Manuals/doc/ref/chap29.html)"
 # unordered list
 #: gap-lesson/reference.md:39
 msgid ""
-"* [Strings and Characters](http://www.gap-"
-"system.org/Manuals/doc/ref/chap27.html)"
+"* [Strings and Characters](http://www.gap-system.org/Manuals/doc/ref/chap27."
+"html)"
 msgstr ""
 "* [Рядки та символи](http://www.gap-system.org/Manuals/doc/ref/chap27.html)"
 
 # unordered list
 #: gap-lesson/reference.md:44
 msgid ""
-"* [GAP Tutorial: Functions](http://www.gap-"
-"system.org/Manuals/doc/tut/chap4.html)"
+"* [GAP Tutorial: Functions](http://www.gap-system.org/Manuals/doc/tut/chap4."
+"html)"
 msgstr ""
-"* [Підручник з GAP: Функції](http://www.gap-"
-"system.org/Manuals/doc/tut/chap4.html)"
+"* [Підручник з GAP: Функції](http://www.gap-system.org/Manuals/doc/tut/chap4."
+"html)"
 
 # unordered list
 #: gap-lesson/reference.md:49
 msgid ""
-"* [GAP Reference Manual: Test](http://www.gap-"
-"system.org/Manuals/doc/ref/chap7.html#X87712F9D8732193C)"
+"* [GAP Reference Manual: Test](http://www.gap-system.org/Manuals/doc/ref/"
+"chap7.html#X87712F9D8732193C)"
 msgstr ""
-"* [Довідковий посібник GAP: Тест](http://www.gap-"
-"system.org/Manuals/doc/ref/chap7.html#X87712F9D8732193C)"
+"* [Довідковий посібник GAP: Тест](http://www.gap-system.org/Manuals/doc/ref/"
+"chap7.html#X87712F9D8732193C)"
 
 # unordered list
 #: gap-lesson/reference.md:54
 msgid ""
-"* [GAP Reference Manual: Group Libraries](http://www.gap-"
-"system.org/Manuals/doc/ref/chap50.html)"
+"* [GAP Reference Manual: Group Libraries](http://www.gap-system.org/Manuals/"
+"doc/ref/chap50.html)"
 msgstr ""
-"* [Довідковий посібник GAP: Бібліотеки груп](http://www.gap-"
-"system.org/Manuals/doc/ref/chap50.html)"
+"* [Довідковий посібник GAP: Бібліотеки груп](http://www.gap-system.org/"
+"Manuals/doc/ref/chap50.html)"
 
 # unordered list
 #: gap-lesson/reference.md:59
 msgid ""
-"* [GAP Tutorial: Operations and Methods](http://www.gap-"
-"system.org/Manuals/doc/tut/chap8.html)"
+"* [GAP Tutorial: Operations and Methods](http://www.gap-system.org/Manuals/"
+"doc/tut/chap8.html)"
 msgstr ""
-"* [Підручник з GAP: Операції та методи](http://www.gap-"
-"system.org/Manuals/doc/tut/chap8.html)"
+"* [Підручник з GAP: Операції та методи](http://www.gap-system.org/Manuals/"
+"doc/tut/chap8.html)"
 
 # unordered list
 #: gap-lesson/reference.md:61
 msgid ""
-"* [GAP Reference Manual: Adding a new Attribute](http://www.gap-"
-"system.org/Manuals/doc/ref/chap80.html#X874AF11D864AEC1B)"
+"* [GAP Reference Manual: Adding a new Attribute](http://www.gap-system.org/"
+"Manuals/doc/ref/chap80.html#X874AF11D864AEC1B)"
 msgstr ""
-"* [Довідковий посібник GAP: Додавання нового атрибута](http://www.gap-"
-"system.org/Manuals/doc/ref/chap80.html#X874AF11D864AEC1B)"
+"* [Довідковий посібник GAP: Додавання нового атрибута](http://www.gap-system."
+"org/Manuals/doc/ref/chap80.html#X874AF11D864AEC1B)"
 
 # header
 #: gap-lesson/reference.md:63
@@ -203,20 +204,24 @@ msgstr "## Словник"
 #: gap-lesson/reference.md:65
 msgid ""
 "Attribute\n"
-":    Operation (normally, one-argument), the result of which is stored in its\n"
+":    Operation (normally, one-argument), the result of which is stored in "
+"its\n"
 "     argument and cannot be changed any more."
 msgstr ""
 "Атрибут\n"
-":    Операція (як правило, одноаргументна), результат якої зберігається в її\n"
+":    Операція (як правило, одноаргументна), результат якої зберігається в "
+"її\n"
 "     аргументі і більше не може бути змінений."
 
 #: gap-lesson/reference.md:69
 msgid ""
 "List\n"
-":    Data structure whose elements are indexed by their _position_ in the list."
+":    Data structure whose elements are indexed by their _position_ in the "
+"list."
 msgstr ""
 "Список\n"
-":    Структура даних, елементи якої проіндексовані за їхньою _позицією_ у списку."
+":    Структура даних, елементи якої проіндексовані за їхньою _позицією_ у "
+"списку."
 
 #: gap-lesson/reference.md:72
 msgid ""
@@ -231,7 +236,8 @@ msgstr ""
 #: gap-lesson/reference.md:76
 msgid ""
 "Operation\n"
-":    GAP function for which several _methods_ may be available (the particular\n"
+":    GAP function for which several _methods_ may be available (the "
+"particular\n"
 "     method that will be used depends on the type of the arguments)."
 msgstr ""
 "Операція\n"
@@ -249,21 +255,26 @@ msgstr ""
 #: gap-lesson/reference.md:83
 msgid ""
 "Record\n"
-":    Data structure which is a collection of _components_, each having a unique\n"
-"     _name_, which is an _identifier_ that distinguishes this component, and a\n"
+":    Data structure which is a collection of _components_, each having a "
+"unique\n"
+"     _name_, which is an _identifier_ that distinguishes this component, and "
+"a\n"
 "     _value_, which is an object of arbitrary type."
 msgstr ""
 "Запис\n"
-":    Структура даних, яка є набором _компонентів_, кожен з яких має унікальні\n"
+":    Структура даних, яка є набором _компонентів_, кожен з яких має "
+"унікальні\n"
 "     _ім’я_, яке є _ідентифікатором_, що визначає цей компонент, і\n"
 "     _значення_, яке є об’єктом довільного типу."
 
 #: gap-lesson/reference.md:88
 msgid ""
 "Regression testing\n"
-":    Testing based on rerunning previously completed tests to check that new\n"
+":    Testing based on rerunning previously completed tests to check that "
+"new\n"
 "     changes do not impact their correctness or worsen their performance."
 msgstr ""
 "Регресійне тестування\n"
-":    Тестування, засноване на повторному виконанні раніше завершених тестів, щоб переконатися, що нові\n"
+":    Тестування, засноване на повторному виконанні раніше завершених тестів, "
+"щоб переконатися, що нові\n"
 "     зміни не впливають на їх правильність і не погіршують продуктивність."
