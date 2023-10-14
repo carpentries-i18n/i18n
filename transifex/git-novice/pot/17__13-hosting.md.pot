@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/13-hosting.md:1
+# Front Matter
+msgid "---\n"
+"title: Hosting\n"
+"teaching: 10\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Where should I host my version control repositories?\"\n"
+"objectives:\n"
+"- \"Explain different options for hosting scientific work.\"\n"
+"keypoints:\n"
+"- \"Projects can be hosted on university servers, on personal domains, or on a public hosting service.\"\n"
+"- \"Rules regarding intellectual property and storage of sensitive information apply no matter where code and data are hosted.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:14
+msgid "The second big question for groups that want to open up their work is where to\n"
+"host their code and data.  One option is for the lab, the department, or the\n"
+"university to provide a server, manage accounts and backups, and so on.  The\n"
+"main benefit of this is that it clarifies who owns what, which is particularly\n"
+"important if any of the material is sensitive (i.e., relates to experiments\n"
+"involving human subjects or may be used in a patent application).  The main\n"
+"drawbacks are the cost of providing the service and its longevity: a scientist\n"
+"who has spent ten years collecting data would like to be sure that data will\n"
+"still be available ten years from now, but that's well beyond the lifespan of\n"
+"most of the grants that fund academic infrastructure."
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:25
+msgid "Another option is to purchase a domain and pay an Internet service provider\n"
+"(ISP) to host it.  This gives the individual or group more control, and\n"
+"sidesteps problems that can arise when moving from one institution to another,\n"
+"but requires more time and effort to set up than either the option above or the\n"
+"option below."
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:31
+msgid "The third option is to use a public hosting service like\n"
+"[GitHub](https://github.com), [GitLab](https://gitlab.com),or\n"
+"[BitBucket](https://bitbucket.org).\n"
+"Each of these services provides a web interface that enables people to create,\n"
+"view, and edit their code repositories.  These services also provide\n"
+"communication and project management tools including issue tracking, wiki pages,\n"
+"email notifications, and code reviews.  These services benefit from economies of\n"
+"scale and network effects: it's easier to run one large service well than to run\n"
+"many smaller services to the same standard.  It's also easier for people to\n"
+"collaborate.  Using a popular service can help connect your project with\n"
+"communities already using the same service."
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:43
+msgid "As an example, Software Carpentry [is on GitHub]({{ site.swc_github }}) where you can find the [source for this\n"
+"page](https://github.com/swcarpentry/git-novice/edit/gh-pages/_episodes/13-hosting.md). Anyone with a GitHub account can suggest changes to this text."
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:46
+msgid "GitHub repositories can also be assigned DOIs, [by connecting its releases to\n"
+"Zenodo](https://guides.github.com/activities/citable-code/). For example,\n"
+"[`10.5281/zenodo.57467`](https://zenodo.org/record/57467) is the DOI that has\n"
+"been \"minted\" for this introduction to Git."
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:51
+msgid "Using large, well-established services can also help you quickly take advantage\n"
+"of powerful tools.  One such tool, continuous integration (CI), can\n"
+"automatically run software builds and tests whenever code is committed or pull\n"
+"requests are submitted.  Direct integration of CI with an online hosting service\n"
+"means this information is present in any pull request, and helps maintain code\n"
+"integrity and quality standards.  While CI is still available in self-hosted\n"
+"situations, there is much less setup and maintenance involved with using an\n"
+"online service.  Furthermore, such tools are often provided free of charge to\n"
+"open source projects, and are also available for private repositories for a fee."
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:61
+# blockquote, which can be cascaded
+msgid "> ## Institutional Barriers"
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:62
+msgid ">\n"
+"> Sharing is the ideal for science,\n"
+"> but many institutions place restrictions on sharing,\n"
+"> for example to protect potentially patentable intellectual property.\n"
+"> If you encounter such restrictions,\n"
+"> it can be productive to inquire about the underlying motivations and\n"
+"> either to request an exception for a specific project or domain,\n"
+"> or to push more broadly for institutional reform to support more open science."
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:72
+# blockquote, which can be cascaded
+msgid "> ## Can My Work Be Public?"
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:73
+msgid ">\n"
+"> Find out whether you are allowed to host your work openly in a public repository.\n"
+"> Can you do this unilaterally,\n"
+"> or do you need permission from someone in your institution?\n"
+"> If so, who?"
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:80
+# blockquote, which can be cascaded
+msgid "> ## Where Can I Share My Work?"
+msgstr ""
+
+#: git-novice/_episodes/13-hosting.md:81
+msgid ">\n"
+"> Does your institution have a repository or repositories that you can\n"
+"> use to share your papers, data and software? How do institutional repositories\n"
+"> differ from services like [arXiV](https://arxiv.org/), [figshare](https://figshare.com/), [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/)?"
+msgstr ""
+

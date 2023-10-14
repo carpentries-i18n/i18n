@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/10-open.md:1
+# Front Matter
+msgid "---\n"
+"title: Open Science\n"
+"teaching: 5\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"How can version control help me make my work more open?\"\n"
+"objectives:\n"
+"- \"Explain how a version control system can be leveraged as an electronic lab notebook for computational work.\"\n"
+"keypoints:\n"
+"- \"Open scientific work is more useful and more highly cited than closed.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:13
+# blockquote, which can be cascaded
+msgid "> The opposite of \"open\" isn't \"closed\"."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:14
+# blockquote, which can be cascaded
+msgid "> The opposite of \"open\" is \"broken\"."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:15
+msgid ">\n"
+"> --- John Wilbanks"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:17
+# SC/DC Template label
+msgid "{: .quotation}"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:19
+msgid "Free sharing of information might be the ideal in science,\n"
+"but the reality is often more complicated.\n"
+"Normal practice today looks something like this:"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:23
+# unordered list
+msgid "*   A scientist collects some data and stores it on a machine"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:24
+msgid "    that is occasionally backed up by her department.\n"
+"*   She then writes or modifies a few small programs\n"
+"    (which also reside on her machine)\n"
+"    to analyze that data.\n"
+"*   Once she has some results,\n"
+"    she writes them up and submits her paper.\n"
+"    She might include her data -- a growing number of journals require this -- but\n"
+"    she probably doesn't include her code.\n"
+"*   Time passes.\n"
+"*   The journal sends her reviews written anonymously by a handful of other people in her field.\n"
+"    She revises her paper to satisfy them,\n"
+"    during which time she might also modify the scripts she wrote earlier,\n"
+"    and resubmits.\n"
+"*   More time passes.\n"
+"*   The paper is eventually published.\n"
+"    It might include a link to an online copy of her data,\n"
+"    but the paper itself will be behind a paywall:\n"
+"    only people who have personal or institutional access\n"
+"    will be able to read it."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:44
+msgid "For a growing number of scientists,\n"
+"though,\n"
+"the process looks like this:"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:48
+# unordered list
+msgid "*   The data that the scientist collects is stored in an open access repository"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:49
+msgid "    like [figshare](https://figshare.com/) or\n"
+"    [Zenodo](https://zenodo.org), possibly as soon as it's collected,\n"
+"    and given its own\n"
+"    [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier) (DOI).\n"
+"    Or the data was already published and is stored in\n"
+"    [Dryad](https://datadryad.org/).\n"
+"*   The scientist creates a new repository on GitHub to hold her work.\n"
+"*   As she does her analysis,\n"
+"    she pushes changes to her scripts\n"
+"    (and possibly some output files)\n"
+"    to that repository.\n"
+"    She also uses the repository for her paper;\n"
+"    that repository is then the hub for collaboration with her colleagues.\n"
+"*   When she's happy with the state of her paper,\n"
+"    she posts a version to [arXiv](https://arxiv.org/)\n"
+"    or some other preprint server\n"
+"    to invite feedback from peers.\n"
+"*   Based on that feedback,\n"
+"    she may post several revisions\n"
+"    before finally submitting her paper to a journal.\n"
+"*   The published paper includes links to her preprint\n"
+"    and to her code and data repositories,\n"
+"    which  makes it much easier for other scientists\n"
+"    to use her work as starting point for their own research."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:74
+msgid "This open model accelerates discovery:\n"
+"the more open work is,\n"
+"[the more widely it is cited and re-used](https://doi.org/10.1371/journal.pone.0000308).\n"
+"However,\n"
+"people who want to work this way need to make some decisions\n"
+"about what exactly \"open\" means and how to do it. You can find more on the different aspects of Open Science in [this book](https://link.springer.com/book/10.1007/978-3-319-00026-8)."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:81
+msgid "This is one of the (many) reasons we teach version control.\n"
+"When used diligently,\n"
+"it answers the \"how\" question\n"
+"by acting as a shareable electronic lab notebook for computational work:"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:86
+# unordered list
+msgid "*   The conceptual stages of your work are documented, including who did"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:87
+msgid "    what and when. Every step is stamped with an identifier (the commit ID)\n"
+"    that is for most intents and purposes unique.\n"
+"*   You can tie documentation of rationale, ideas, and other\n"
+"    intellectual work directly to the changes that spring from them.\n"
+"*   You can refer to what you used in your research to obtain your\n"
+"    computational results in a way that is unique and recoverable.\n"
+"*   With a version control system such as Git, \n"
+"    the entire history of the repository is easy to archive for perpetuity."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:96
+# blockquote, which can be cascaded
+msgid "> ## Making Code Citable"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:97
+msgid ">\n"
+"> Anything that is hosted in a version control repository (data, code, papers, \n"
+"> etc.) can be turned into a citable object. You'll learn how to do this in\n"
+"> [the later episode on Citation]({{ page.root }}{% link _episodes/12-citation.md %})."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:103
+# blockquote, which can be cascaded
+msgid "> ## How Reproducible Is My Work?"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:104
+msgid ">\n"
+"> Ask one of your labmates to reproduce a result you recently obtained\n"
+"> using only what they can find in your papers or on the web.\n"
+"> Try to do the same for one of their results,\n"
+"> then try to do it for a result from a lab you work with."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:111
+# blockquote, which can be cascaded
+msgid "> ## How to Find an Appropriate Data Repository?"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:112
+msgid ">\n"
+"> Surf the internet for a couple of minutes and check out the data repositories\n"
+"> mentioned above: [Figshare](https://figshare.com/), [Zenodo](https://zenodo.org),\n"
+"> [Dryad](https://datadryad.org/). Depending on your field of research, you might\n"
+"> find community-recognized repositories that are well-known in your field.\n"
+"> You might also find useful [these data repositories recommended by Nature](\n"
+"> https://www.nature.com/sdata/data-policies/repositories).\n"
+"> Discuss with your neighbor which data repository you might want to\n"
+"> approach for your current project and explain why."
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:123
+# blockquote, which can be cascaded
+msgid "> ## How to Track Large Data or Image Files using Git?"
+msgstr ""
+
+#: git-novice/_episodes/10-open.md:124
+msgid ">\n"
+"> Large data or image files such as `.md5` or `.psd` file types can be tracked within \n"
+"> a github repository using the [Git Large File Storage](https://git-lfs.github.com)\n"
+"> open source extension tool.  This tool automatically uploads large file contents to \n"
+"> a remote server and replaces the file with a text pointer within the github repository.\n"
+"> \n"
+"> Try downloading and installing the Git Large File Storage extension tool, then add \n"
+"> tracking of a large file to your github repository.  Ask a colleague to clone your\n"
+"> repository and describe what they see when they access that large file.   "
+msgstr ""
+

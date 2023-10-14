@@ -1,0 +1,165 @@
+[main]
+host = https://www.transifex.com
+
+[o:carpentries-i18n:p:git-novice:r:pot_00__404]
+file_filter  = <lang>/00__404.md.po
+source_file  = pot/00__404.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_01__CODE_OF_CONDUCT]
+file_filter  = <lang>/01__CODE_OF_CONDUCT.md.po
+source_file  = pot/01__CODE_OF_CONDUCT.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_02__CONTRIBUTING]
+file_filter  = <lang>/02__CONTRIBUTING.md.po
+source_file  = pot/02__CONTRIBUTING.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_03__LICENSE]
+file_filter  = <lang>/03__LICENSE.md.po
+source_file  = pot/03__LICENSE.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_04__README]
+file_filter  = <lang>/04__README.md.po
+source_file  = pot/04__README.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_05__01-basics]
+file_filter  = <lang>/05__01-basics.md.po
+source_file  = pot/05__01-basics.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_06__02-setup]
+file_filter  = <lang>/06__02-setup.md.po
+source_file  = pot/06__02-setup.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_07__03-create]
+file_filter  = <lang>/07__03-create.md.po
+source_file  = pot/07__03-create.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_08__04-changes]
+file_filter  = <lang>/08__04-changes.md.po
+source_file  = pot/08__04-changes.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_09__05-history]
+file_filter  = <lang>/09__05-history.md.po
+source_file  = pot/09__05-history.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_10__06-ignore]
+file_filter  = <lang>/10__06-ignore.md.po
+source_file  = pot/10__06-ignore.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_11__07-github]
+file_filter  = <lang>/11__07-github.md.po
+source_file  = pot/11__07-github.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_12__08-collab]
+file_filter  = <lang>/12__08-collab.md.po
+source_file  = pot/12__08-collab.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_13__09-conflict]
+file_filter  = <lang>/13__09-conflict.md.po
+source_file  = pot/13__09-conflict.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_14__10-open]
+file_filter  = <lang>/14__10-open.md.po
+source_file  = pot/14__10-open.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_15__11-licensing]
+file_filter  = <lang>/15__11-licensing.md.po
+source_file  = pot/15__11-licensing.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_16__12-citation]
+file_filter  = <lang>/16__12-citation.md.po
+source_file  = pot/16__12-citation.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_17__13-hosting]
+file_filter  = <lang>/17__13-hosting.md.po
+source_file  = pot/17__13-hosting.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_18__14-supplemental-rstudio]
+file_filter  = <lang>/18__14-supplemental-rstudio.md.po
+source_file  = pot/18__14-supplemental-rstudio.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_19__about]
+file_filter  = <lang>/19__about.md.po
+source_file  = pot/19__about.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_20__discuss]
+file_filter  = <lang>/20__discuss.md.po
+source_file  = pot/20__discuss.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_21__figures]
+file_filter  = <lang>/21__figures.md.po
+source_file  = pot/21__figures.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_22__guide]
+file_filter  = <lang>/22__guide.md.po
+source_file  = pot/22__guide.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_23__aio]
+file_filter  = <lang>/23__aio.md.po
+source_file  = pot/23__aio.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_24__index]
+file_filter  = <lang>/24__index.md.po
+source_file  = pot/24__index.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_25__reference]
+file_filter  = <lang>/25__reference.md.po
+source_file  = pot/25__reference.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:git-novice:r:pot_26__setup]
+file_filter  = <lang>/26__setup.md.po
+source_file  = pot/26__setup.md.pot
+type         = PO
+minimum_perc = 0
+

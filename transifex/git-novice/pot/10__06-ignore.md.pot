@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/06-ignore.md:1
+# Front Matter
+msgid "---\n"
+"title: Ignoring Things\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How can I tell Git to ignore files I don't want to track?\"\n"
+"objectives:\n"
+"- \"Configure Git to ignore specific files.\"\n"
+"- \"Explain why ignoring files can be useful.\"\n"
+"keypoints:\n"
+"- \"The `.gitignore` file tells Git what files to ignore.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:14
+msgid "What if we have files that we do not want Git to track for us,\n"
+"like backup files created by our editor\n"
+"or intermediate files created during data analysis?\n"
+"Let's create a few dummy files:"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:19
+# code block
+msgid "~~~\n"
+"$ mkdir results\n"
+"$ touch a.dat b.dat c.dat results/a.out results/b.out\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:25
+msgid "and see what Git says:"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:32
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"Untracked files:\n"
+"  (use \"git add <file>...\" to include in what will be committed)\n"
+"\n"
+"	a.dat\n"
+"	b.dat\n"
+"	c.dat\n"
+"	results/\n"
+"\n"
+"nothing added to commit but untracked files present (use \"git add\" to track)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:46
+msgid "Putting these files under version control would be a waste of disk space.\n"
+"What's worse,\n"
+"having them all listed could distract us from changes that actually matter,\n"
+"so let's tell Git to ignore them."
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:51
+msgid "We do this by creating a file in the root directory of our project called `.gitignore`:"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:53
+# code block
+msgid "~~~\n"
+"$ nano .gitignore\n"
+"$ cat .gitignore\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:59
+# code block
+msgid "~~~\n"
+"*.dat\n"
+"results/\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:65
+msgid "These patterns tell Git to ignore any file whose name ends in `.dat`\n"
+"and everything in the `results` directory.\n"
+"(If any of these files were already being tracked,\n"
+"Git would continue to track them.)"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:70
+msgid "Once we have created this file,\n"
+"the output of `git status` is much cleaner:"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:78
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"Untracked files:\n"
+"  (use \"git add <file>...\" to include in what will be committed)\n"
+"\n"
+"	.gitignore\n"
+"\n"
+"nothing added to commit but untracked files present (use \"git add\" to track)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:89
+msgid "The only thing Git notices now is the newly-created `.gitignore` file.\n"
+"You might think we wouldn't want to track it,\n"
+"but everyone we're sharing our repository with will probably want to ignore\n"
+"the same things that we're ignoring.\n"
+"Let's add and commit `.gitignore`:"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:95
+# code block
+msgid "~~~\n"
+"$ git add .gitignore\n"
+"$ git commit -m \"Ignore data files and the results folder.\"\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:108
+msgid "As a bonus, using `.gitignore` helps us avoid accidentally adding files to the repository that we don't want to track:"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:110
+# code block
+msgid "~~~\n"
+"$ git add a.dat\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:115
+# code block
+msgid "~~~\n"
+"The following paths are ignored by one of your .gitignore files:\n"
+"a.dat\n"
+"Use -f if you really want to add them.\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:122
+msgid "If we really want to override our ignore settings,\n"
+"we can use `git add -f` to force Git to add something. For example,\n"
+"`git add -f a.dat`.\n"
+"We can also always see the status of ignored files if we want:"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:127
+# code block
+msgid "~~~\n"
+"$ git status --ignored\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:132
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"Ignored files:\n"
+" (use \"git add -f <file>...\" to include in what will be committed)\n"
+"\n"
+"        a.dat\n"
+"        b.dat\n"
+"        c.dat\n"
+"        results/\n"
+"\n"
+"nothing to commit, working tree clean\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:146
+# blockquote, which can be cascaded
+msgid "> ## Ignoring Nested Files"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:147
+msgid ">\n"
+"> Given a directory structure that looks like:\n"
+">\n"
+"> ~~~\n"
+"> results/data\n"
+"> results/plots\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> How would you ignore only `results/plots` and not `results/data`?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > If you only want to ignore the contents of\n"
+"> > `results/plots`, you can change your `.gitignore` to ignore\n"
+"> > only the `/plots/` subfolder by adding the following line to\n"
+"> > your .gitignore:\n"
+"> >\n"
+"> > ~~~\n"
+"> > results/plots/\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > This line will ensure only the contents of `results/plots` is ignored, and\n"
+"> > not the contents of `results/data`.\n"
+"> >\n"
+"> > As with most programming issues, there\n"
+"> > are a few alternative ways that one may ensure this ignore rule is followed.\n"
+"> > The \"Ignoring Nested Files: Variation\" exercise has a slightly\n"
+"> > different directory structure\n"
+"> > that presents an alternative solution.\n"
+"> > Further, the discussion page has more detail on ignore rules."
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:182
+# blockquote, which can be cascaded
+msgid "> ## Including Specific Files"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:183
+msgid ">\n"
+"> How would you ignore all `.dat` files in your root directory except for\n"
+"> `final.dat`?\n"
+"> Hint: Find out what `!` (the exclamation point operator) does\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > You would add the following two lines to your .gitignore:\n"
+"> >\n"
+"> > ~~~\n"
+"> > *.dat           # ignore all data files\n"
+"> > !final.dat      # except final.data\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > The exclamation point operator will include a previously excluded entry.\n"
+"> >\n"
+"> > Note also that because you've previously committed `.dat` files in this\n"
+"> > lesson they will not be ignored with this new rule. Only future additions\n"
+"> > of `.dat` files added to the root directory will be ignored."
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:206
+# blockquote, which can be cascaded
+msgid "> ## Ignoring Nested Files: Variation"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:207
+msgid ">\n"
+"> Given a directory structure that looks similar to the earlier Nested Files\n"
+"> exercise, but with a slightly different directory structure:\n"
+">\n"
+"> ~~~\n"
+"> results/data\n"
+"> results/images\n"
+"> results/plots\n"
+"> results/analysis\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> How would you ignore all of the contents in the results folder, but not `results/data`?\n"
+">\n"
+"> Hint: think a bit about how you created an exception with the `!` operator\n"
+"> before.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > If you want to ignore the contents of\n"
+"> > `results/` but not those of `results/data/`, you can change your `.gitignore` to ignore\n"
+"> > the contents of results folder, but create an exception for the contents of the\n"
+"> > `results/data` subfolder. Your .gitignore would look like this:\n"
+"> >\n"
+"> > ~~~\n"
+"> > results/*               # ignore everything in results folder\n"
+"> > !results/data/          # do not ignore results/data/ contents\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:239
+# blockquote, which can be cascaded
+msgid "> ## Ignoring all data Files in a Directory"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:240
+msgid ">\n"
+"> Assuming you have an empty .gitignore file, and given a directory structure that looks like:\n"
+">\n"
+"> ~~~\n"
+"> results/data/position/gps/a.dat\n"
+"> results/data/position/gps/b.dat\n"
+"> results/data/position/gps/c.dat\n"
+"> results/data/position/gps/info.txt\n"
+"> results/plots\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> What's the shortest `.gitignore` rule you could write to ignore all `.dat`\n"
+"> files in `result/data/position/gps`? Do not ignore the `info.txt`.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Appending `results/data/position/gps/*.dat` will match every file in `results/data/position/gps`\n"
+"> > that ends with `.dat`.\n"
+"> > The file `results/data/position/gps/info.txt` will not be ignored."
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:263
+# blockquote, which can be cascaded
+msgid "> ## Ignoring all data Files in the repository"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:264
+msgid ">\n"
+"> Let us assume you have many `.dat` files in different subdirectories of your repository.\n"
+"> For example, you might have:\n"
+"> \n"
+"> ~~~\n"
+"> results/a.dat\n"
+"> data/experiment_1/b.dat\n"
+"> data/experiment_2/c.dat\n"
+"> data/experiment_2/variation_1/d.dat\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> \n"
+"> How do you ignore all the `.dat` files, without explicitly listing the names of the corresponding folders?\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > In the `.gitignore` file, write:\n"
+"> > \n"
+"> > ~~~\n"
+"> > **/*.dat               \n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > This will ignore all the `.dat` files, regardless of their position in the directory tree. \n"
+"> > You can still include some specific exception with the exclamation point operator."
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:292
+# blockquote, which can be cascaded
+msgid "> ## The Order of Rules"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:293
+msgid ">\n"
+"> Given a `.gitignore` file with the following contents:\n"
+">\n"
+"> ~~~\n"
+"> *.dat\n"
+"> !*.dat\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> What will be the result?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > The `!` modifier will negate an entry from a previously defined ignore pattern.\n"
+"> > Because the `!*.dat` entry negates all of the previous `.dat` files in the `.gitignore`,\n"
+"> > none of them will be ignored, and all `.dat` files will be tracked."
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:312
+# blockquote, which can be cascaded
+msgid "> ## Log Files"
+msgstr ""
+
+#: git-novice/_episodes/06-ignore.md:313
+msgid ">\n"
+"> You wrote a script that creates many intermediate log-files of the form `log_01`, `log_02`, `log_03`, etc.\n"
+"> You want to keep them but you do not want to track them through `git`.\n"
+">\n"
+"> 1. Write **one** `.gitignore` entry that excludes files of the form `log_01`, `log_02`, etc.\n"
+">\n"
+"> 2. Test your \"ignore pattern\" by creating some dummy files of the form `log_01`, etc.\n"
+">\n"
+"> 3. You find that the file `log_01` is very important after all, add it to the tracked files without changing the `.gitignore` again.\n"
+">\n"
+"> 4. Discuss with your neighbor what other types of files could reside in your directory that you do not want to track and thus would exclude via `.gitignore`.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1. append either `log_*`  or  `log*`  as a new entry in your .gitignore\n"
+"> > 3. track `log_01` using   `git add -f log_01`"
+msgstr ""
+

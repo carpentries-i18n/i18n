@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# Sofiia Matios, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Sofiia Matios, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: git-novice/reference.md:1
+msgid ""
+"---\n"
+"layout: reference\n"
+"---"
+msgstr ""
+"---\n"
+"layout: reference\n"
+"---"
+
+# header
+#: git-novice/reference.md:5
+msgid "## Git Cheatsheets for Quick Reference"
+msgstr "## Шпаргалки по Git'у для швидкого ознайомлення"
+
+# unordered list
+#: git-novice/reference.md:7
+msgid ""
+"*   Printable Git cheatsheets in several languages are [available "
+"here](https://github.github.com/training-kit/) ([English "
+"version](https://github.github.com/training-kit/downloads/github-git-cheat-"
+"sheet.pdf)). More material is available from the [GitHub training "
+"website](http://try.github.io/)."
+msgstr ""
+"*   Шпаргалки з Git'у кількома мовами [доступні "
+"тут](https://github.github.com/training-kit/) ([Українська "
+"версія](https://training.github.com/downloads/ua/github-git-cheat-sheet/)). "
+"Більше матеріалів можна знайти за посиланням [Навчальний сайт "
+"GitHub](http://try.github.io/)."
+
+# unordered list
+#: git-novice/reference.md:8
+msgid ""
+"*   An [interactive one-page visualisation](http://ndpsoftware.com/git-"
+"cheatsheet.html)"
+msgstr ""
+"*   [Інтерактивна односторінкова візуалізація](http://ndpsoftware.com/git-"
+"cheatsheet.html)"
+
+#: git-novice/reference.md:9
+msgid ""
+"    about the relationships between workspace, staging area, local repository, upstream repository, and the commands associated with each (with explanations).\n"
+"*   Both resources are also available in other languages (e.g. Spanish, French, and more).\n"
+"* \"[Happy Git and GitHub for the useR](http://happygitwithr.com)\" is an accessible, free online book by Jenny Bryan on how to setup and use Git and GitHub with specific references on the integration of Git with RStudio and working with Git in R.\n"
+"* [Open Scientific Code using Git and GitHub](https://open-source-for-researchers.github.io/open-source-workshop/) - A collection of explanations and short practical exercises to help researchers learn more about version control and open source software."
+msgstr ""
+"    про взаємозв'язки між робочим простором, зоною підготовки, локальним сховищем, вищим сховищем та командами, пов'язаними з кожним з них (з поясненнями).\n"
+"*   Обидва ресурси також доступні іншими мовами (наприклад, іспанською, французькою та іншими).\n"
+"* \"[Happy Git and GitHub for the useR](http://happygitwithr.com)\" - доступна, безкоштовна онлайн книга Дженні Брайан про те, як налаштувати та використовувати Git і GitHub, з конкретними посиланнями на інтеграцію Git з RStudio та роботу з Git в R.\n"
+"* [Open Scientific Code using Git and GitHub](https://open-source-for-researchers.github.io/open-source-workshop/) - - збірка пояснень та коротких практичних вправ, які допоможуть дослідникам дізнатися більше про контроль версій та програмне забезпечення з відкритим кодом."
+
+# header
+#: git-novice/reference.md:14
+msgid "## Glossary"
+msgstr "## Словник"
+
+#: git-novice/reference.md:16
+msgid ""
+"{:auto_ids}\n"
+"changeset\n"
+":   A group of changes to one or more files that are or will be added\n"
+"    to a single [commit](#commit) in a [version control](#version-control)\n"
+"    [repository](#repository)."
+msgstr ""
+"{:auto_ids}\n"
+"changeset\n"
+":   Група змін до одного або декількох файлів, які є або будуть додані до одного\n"
+"    [коміту](#commit) в [контролі версій](#version-control)\n"
+"    [репозиторію](#repository)."
+
+#: git-novice/reference.md:22
+msgid ""
+"commit\n"
+":   To record the current state of a set of files (a [changeset](#changeset))\n"
+"    in a [version control](#version-control) [repository](#repository). As a noun,\n"
+"    the result of committing, i.e. a recorded changeset in a repository.\n"
+"    If a commit contains changes to multiple files,\n"
+"    all of the changes are recorded together."
+msgstr ""
+"коміт\n"
+":   Для запису поточного стану набору файлів ([набір змін](#changeset))\n"
+"    у [контролі версій](#version-control) [репозиторію](#repository). Як іменник,\n"
+"    результат коміту, тобто записаний набір змін у репозиторії.\n"
+"    Якщо коміт містить зміни до декількох файлів,\n"
+"    всі зміни записуються разом."
+
+#: git-novice/reference.md:29
+msgid ""
+"conflict\n"
+":   A change made by one user of a [version control system](#version-control)\n"
+"    that is incompatible with changes made by other users.\n"
+"    Helping users [resolve](#resolve) conflicts\n"
+"    is one of version control's major tasks."
+msgstr ""
+"конфлікт\n"
+":   Зміна, зроблена одним користувачем [система управління версіями](#version-control),\n"
+"    несумісна зі змінами, внесеними іншими користувачами.\n"
+"    Допомога користувачам [вирішити](#resolve) конфлікти\n"
+"    є одним з основних завдань управління версіями."
+
+#: git-novice/reference.md:35
+msgid ""
+"HTTP\n"
+":   The Hypertext Transfer [Protocol](#protocol) used for sharing web pages and other data\n"
+"    on the World Wide Web."
+msgstr ""
+"HTTP\n"
+":   Hypertext Transfer [Протокол](#protocol), що використовується для обміну веб-сторінками та іншими даними\n"
+"    у всесвітній павутині."
+
+#: git-novice/reference.md:39
+msgid ""
+"merge\n"
+":   (a repository): To reconcile two sets of changes to a\n"
+"    [repository](#repository)."
+msgstr ""
+"об'єднати\n"
+":   (репозиторій): Для узгодження двох наборів змін з\n"
+"    [репозиторіїв](#repository)."
+
+#: git-novice/reference.md:43
+msgid ""
+"protocol\n"
+":   A set of rules that define how one computer communicates with another.\n"
+"    Common protocols on the Internet include [HTTP](#http) and [SSH](#ssh)."
+msgstr ""
+"протокол\n"
+":   Набір правил, які визначають, як один комп'ютер спілкується з іншим.\n"
+"    Загальні протоколи в інтернеті включають [HTTP](#http) та [SSH](#ssh)."
+
+#: git-novice/reference.md:47
+msgid ""
+"remote\n"
+":   (of a repository) A version control [repository](#repository) connected to another,\n"
+"    in such way that both can be kept in sync exchanging [commits](#commit)."
+msgstr ""
+"віддалений\n"
+":   (репозиторію) Контроль версій [репозиторій](#repository), підключений до іншого,\n"
+"    таким чином, що обидва можуть бути збережені в синхронному обміні [комітів](#commit)."
+
+#: git-novice/reference.md:51
+msgid ""
+"repository\n"
+":   A storage area where a [version control](#version-control) system\n"
+"    stores the full history of [commits](#commit) of a project and information\n"
+"    about who changed what, when."
+msgstr ""
+"репозиторій\n"
+":   Область зберігання, де [конроль версій](#version-control)  система\n"
+"    зберігає повну історію [комітів](#commit) проєкту та інформацію\n"
+"    про те, хто що змінив і коли."
+
+#: git-novice/reference.md:56
+msgid ""
+"resolve\n"
+":   To eliminate the [conflicts](#conflict) between two or more incompatible changes to a file or set of files\n"
+"    being managed by a [version control](#version-control) system."
+msgstr ""
+"вирішити\n"
+":   Для усунення [конфліктів](#conflict) між двома або більше несумісними змінами до файлу або набору файлів\n"
+"    управляється системою [контроль версій](#version-control)."
+
+#: git-novice/reference.md:60
+msgid ""
+"revision\n"
+":   A synonym for [commit](#commit)."
+msgstr ""
+"ревізія\n"
+":   Синонім [коміту](#commit)."
+
+#: git-novice/reference.md:63
+msgid ""
+"SHA-1\n"
+":   [SHA-1 hashes](https://en.wikipedia.org/wiki/SHA-1) is what Git uses to compute identifiers, including for commits.\n"
+"    To compute these, Git uses not only the actual change of a commit, but also its metadata (such as date, author,\n"
+"    message), including the identifiers of all commits of preceding changes. This makes Git commit IDs virtually unique.\n"
+"    I.e., the likelihood that two commits made independently, even of the same change, receive the same ID is exceedingly\n"
+"    small."
+msgstr ""
+"SHA-1\n"
+":   [SHA-1 hashes](https://en.wikipedia.org/wiki/SHA-1) - це те, що Git використовує для обчислення ідентифікаторів, у тому числі для комітів.\n"
+"    Для їх обчислення Git використовує не тільки фактичну зміну коміту, але і його метадані (такі як дата, автор,\n"
+"    повідомлення), включаючи ідентифікатори всіх комітів попередніх змін. Це робить ідентифікатори комітів Git практично унікальними.\n"
+"    Тобто ймовірність того, що два коміти, зроблені незалежно один від одного, навіть однієї і тієї ж зміни, отримують один і той же ідентифікатор, надзвичайно\n"
+"    мала."
+
+#: git-novice/reference.md:70
+msgid ""
+"SSH\n"
+":   The Secure Shell [protocol](#protocol) used for secure communication between computers."
+msgstr ""
+"SSH\n"
+":   Secure Shell [протокол](#protocol) використовується для безпечного зв'язку між комп'ютерами."
+
+#: git-novice/reference.md:73
+msgid ""
+"timestamp\n"
+":   A record of when a particular event occurred."
+msgstr ""
+"часова мітка\n"
+":   Запис про те, коли сталася певна подія."
+
+#: git-novice/reference.md:76
+msgid ""
+"version control\n"
+":   A tool for managing changes to a set of files.\n"
+"    Each set of changes creates a new [commit](#commit) of the files;\n"
+"    the version control system allows users to recover old commits reliably,\n"
+"    and helps manage conflicting changes made by different users."
+msgstr ""
+"контроль версій\n"
+":   Інструмент для керування змінами набору файлів.\n"
+"    Кожен набір змін створює новий [коміт](#commit) файлів;\n"
+"    система контролю версій дозволяє користувачам надійно відновлювати старі коміти,\n"
+"    і допомагає керувати суперечливими змінами, внесеними різними користувачами."

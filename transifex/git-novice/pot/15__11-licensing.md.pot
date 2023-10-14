@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/11-licensing.md:1
+# Front Matter
+msgid "---\n"
+"title: Licensing\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"What licensing information should I include with my work?\"\n"
+"objectives:\n"
+"- \"Explain why adding licensing information to a repository is important.\"\n"
+"- \"Choose a proper license.\"\n"
+"- \"Explain differences in licensing and social expectations.\"\n"
+"keypoints:\n"
+"- \"The `LICENSE`, `LICENSE.md`, or `LICENSE.txt` file is often used in a repository to indicate how the contents of the repo may be used by others.\"\n"
+"- \"People who incorporate General Public License (GPL'd) software into their own software must make their software also open under the GPL license; most other open licenses do not require this.\"\n"
+"- \"The Creative Commons family of licenses allow people to mix and match requirements and restrictions on attribution, creation of derivative works, further sharing, and commercialization.\"\n"
+"- \"People who are not lawyers should not try to write licenses from scratch.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:18
+msgid "When a repository with source code, a manuscript or other creative\n"
+"works becomes public, it should include a file `LICENSE` or\n"
+"`LICENSE.txt` in the base directory of the repository that clearly\n"
+"states under which license the content is being made available. This\n"
+"is because creative works are automatically eligible for intellectual\n"
+"property (and thus copyright) protection. Reusing creative works\n"
+"without a license is dangerous, because the copyright holders could\n"
+"sue you for copyright infringement."
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:27
+msgid "A license solves this problem by granting rights to others (the\n"
+"licensees) that they would otherwise not have. What rights are being\n"
+"granted under which conditions differs, often only slightly, from one\n"
+"license to another. In practice, a few licenses are by far the most\n"
+"popular, and [choosealicense.com](https://choosealicense.com/) will\n"
+"help you find a common license that suits your needs.  Important\n"
+"considerations include:"
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:35
+# unordered list
+msgid "* Whether you want to address patent rights."
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:36
+# unordered list
+msgid "* Whether you require people distributing derivative works to also"
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:37
+msgid "  distribute their source code.\n"
+"* Whether the content you are licensing is source code.\n"
+"* Whether you want to license the code at all."
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:41
+msgid "Choosing a license that is in common use makes life easier for\n"
+"contributors and users, because they are more likely to already be\n"
+"familiar with the license and don't have to wade through a bunch of\n"
+"jargon to decide if they're ok with it.  The [Open Source\n"
+"Initiative](https://opensource.org/licenses) and [Free Software\n"
+"Foundation](https://www.gnu.org/licenses/license-list.html) both\n"
+"maintain lists of licenses which are good choices."
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:49
+msgid "[This article][software-licensing] provides an excellent overview of\n"
+"licensing and licensing options from the perspective of scientists who\n"
+"also write code."
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:53
+msgid "At the end of the day what matters is that there is a clear statement\n"
+"as to what the license is. Also, the license is best chosen from the\n"
+"get-go, even if for a repository that is not public. Pushing off the\n"
+"decision only makes it more complicated later, because each time a new\n"
+"collaborator starts contributing, they, too, hold copyright and will\n"
+"thus need to be asked for approval once a license is chosen."
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:60
+# blockquote, which can be cascaded
+msgid "> ## Can I Use Open License?"
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:61
+msgid ">\n"
+"> Find out whether you are allowed to apply an open license to your software.\n"
+"> Can you do this unilaterally,\n"
+"> or do you need permission from someone in your institution?\n"
+"> If so, who?"
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:68
+# blockquote, which can be cascaded
+msgid "> ## What licenses have I already accepted?"
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:69
+msgid ">\n"
+"> Many of the software tools we use on a daily basis (including in this workshop) are\n"
+"> released as open-source software. Pick a project on GitHub from the list below, or\n"
+"> one of your own choosing. Find its license (usually in a file called `LICENSE` or\n"
+"> `COPYING`) and talk about how it restricts your use of the software. Is it one of\n"
+"> the licenses discussed in this session? How is it different?\n"
+"> - [Git](https://github.com/git/git), the source-code management tool\n"
+"> - [CPython](https://github.com/python/cpython), the standard implementation of the Python language\n"
+"> - [Jupyter](https://github.com/jupyter), the project behind the web-based Python notebooks we'll be using\n"
+"> - [EtherPad](https://github.com/ether/etherpad-lite), a real-time collaborative editor"
+msgstr ""
+
+#: git-novice/_episodes/11-licensing.md:81
+msgid "[software-licensing]: https://doi.org/10.1371/journal.pcbi.1002598"
+msgstr ""
+

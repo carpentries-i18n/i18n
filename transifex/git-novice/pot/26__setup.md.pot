@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/setup.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: Setup\n"
+"---"
+msgstr ""
+
+#: git-novice/setup.md:6
+msgid "Please see [this section of the workshop template][workshop-setup]\n"
+"for instructions on installing Git."
+msgstr ""
+
+#: git-novice/setup.md:9
+msgid "We'll do our work in the `Desktop` folder so make sure you change your working directory to it with:"
+msgstr ""
+
+#: git-novice/setup.md:11
+# code block
+msgid "~~~\n"
+"$ cd\n"
+"$ cd Desktop\n"
+"~~~"
+msgstr ""
+
+#: git-novice/setup.md:17
+msgid "[workshop-setup]: https://carpentries.github.io/workshop-template/#git"
+msgstr ""
+

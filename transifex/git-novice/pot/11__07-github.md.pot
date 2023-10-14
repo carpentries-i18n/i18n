@@ -1,0 +1,754 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/07-github.md:1
+# Front Matter
+msgid "---\n"
+"title: Remotes in GitHub\n"
+"teaching: 45\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How do I share my changes with others on the web?\"\n"
+"objectives:\n"
+"- \"Explain what remote repositories are and why they are useful.\"\n"
+"- \"Push to or pull from a remote repository.\"\n"
+"keypoints:\n"
+"- \"A local Git repository can be connected to one or more remote repositories.\"\n"
+"- \"Use the SSH protocol to connect to remote repositories.\"\n"
+"- \"`git push` copies changes from a local repository to a remote repository.\"\n"
+"- \"`git pull` copies changes from a remote repository to a local repository.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:17
+msgid "Version control really comes into its own when we begin to collaborate with\n"
+"other people.  We already have most of the machinery we need to do this; the\n"
+"only thing missing is to copy changes from one repository to another."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:21
+msgid "Systems like Git allow us to move work between any two repositories.  In\n"
+"practice, though, it's easiest to use one copy as a central hub, and to keep it\n"
+"on the web rather than on someone's laptop.  Most programmers use hosting\n"
+"services like [GitHub](https://github.com), [Bitbucket](https://bitbucket.org) or\n"
+"[GitLab](https://gitlab.com/) to hold those main copies; we'll explore the pros\n"
+"and cons of this in a later episode."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:28
+msgid "Let's start by sharing the changes we've made to our current project with the\n"
+"world. To this end we are going to create a *remote* repository that will be linked to our *local* repository."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:31
+# header
+msgid "## 1. Create a remote repository"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:32
+msgid "Log in to [GitHub](https://github.com), then click on the icon in the top right corner to\n"
+"create a new repository called `planets`:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:35
+msgid "![Creating a Repository on GitHub (Step 1)](../fig/github-create-repo-01.png)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:37
+msgid "Name your repository \"planets\" and then click \"Create Repository\"."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:39
+msgid "Note: Since this repository will be connected to a local repository, it needs to be empty. Leave \n"
+"\"Initialize this repository with a README\" unchecked, and keep \"None\" as options for both \"Add \n"
+".gitignore\" and \"Add a license.\" See the \"GitHub License and README files\" exercise below for a full \n"
+"explanation of why the repository needs to be empty."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:44
+msgid "![Creating a Repository on GitHub (Step 2)](../fig/github-create-repo-02.png)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:46
+msgid "As soon as the repository is created, GitHub displays a page with a URL and some\n"
+"information on how to configure your local repository:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:49
+msgid "![Creating a Repository on GitHub (Step 3)](../fig/github-create-repo-03.png)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:51
+msgid "This effectively does the following on GitHub's servers:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:53
+# code block
+msgid "~~~\n"
+"$ mkdir planets\n"
+"$ cd planets\n"
+"$ git init\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:60
+msgid "If you remember back to the earlier [episode](../04-changes/) where we added and\n"
+"committed our earlier work on `mars.txt`, we had a diagram of the local repository\n"
+"which looked like this:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:64
+msgid "![The Local Repository with Git Staging Area](../fig/git-staging-area.svg)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:66
+msgid "Now that we have two repositories, we need a diagram like this:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:68
+msgid "![Freshly-Made GitHub Repository](../fig/git-freshly-made-github-repo.svg)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:70
+msgid "Note that our local repository still contains our earlier work on `mars.txt`, but the\n"
+"remote repository on GitHub appears empty as it doesn't contain any files yet."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:73
+# header
+msgid "## 2. Connect local to remote repository"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:74
+msgid "Now we connect the two repositories.  We do this by making the\n"
+"GitHub repository a [remote]({{ page.root}}{% link reference.md %}#remote) for the local repository.\n"
+"The home page of the repository on GitHub includes the URL string we need to\n"
+"identify it:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:79
+msgid "![Where to Find Repository URL on GitHub](../fig/github-find-repo-string.png)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:81
+msgid "Click on the 'SSH' link to change the [protocol]({{ page.root }}{% link reference.md %}#protocol) from HTTPS to SSH."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:83
+# blockquote, which can be cascaded
+msgid "> ## HTTPS vs. SSH"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:84
+msgid ">\n"
+"> We use SSH here because, while it requires some additional configuration, it is a \n"
+"> security protocol widely used by many applications.  The steps below describe SSH at a \n"
+"> minimum level for GitHub. A supplemental episode to this lesson discusses advanced setup \n"
+"> and concepts of SSH and key pairs, and other material supplemental to git related SSH. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:91
+msgid "![Changing the Repository URL on GitHub](../fig/github-change-repo-string.png)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:93
+msgid "Copy that URL from the browser, go into the local `planets` repository, and run\n"
+"this command:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:96
+# code block
+msgid "~~~\n"
+"$ git remote add origin git@github.com:vlad/planets.git\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:101
+msgid "Make sure to use the URL for your repository rather than Vlad's: the only\n"
+"difference should be your username instead of `vlad`."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:104
+msgid "`origin` is a local name used to refer to the remote repository. It could be called\n"
+"anything, but `origin` is a convention that is often used by default in git\n"
+"and GitHub, so it's helpful to stick with this unless there's a reason not to."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:108
+msgid "We can check that the command has worked by running `git remote -v`:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:110
+# code block
+msgid "~~~\n"
+"$ git remote -v\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:115
+# code block
+msgid "~~~\n"
+"origin   git@github.com:vlad/planets.git (fetch)\n"
+"origin   git@github.com:vlad/planets.git (push)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:121
+msgid "We'll discuss remotes in more detail in the next episode, while\n"
+"talking about how they might be used for collaboration."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:124
+# header
+msgid "## 3. SSH Background and Setup"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:125
+msgid "Before Dracula can connect to a remote repository, he needs to set up a way for his computer to authenticate with GitHub so it knows it’s him trying to connect to his remote repository. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:127
+msgid "We are going to set up the method that is commonly used by many different services to authenticate access on the command line.  This method is called Secure Shell Protocol (SSH).  SSH is a cryptographic network protocol that allows secure communication between computers using an otherwise insecure network.  "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:129
+msgid "SSH uses what is called a key pair. This is two keys that work together to validate access. One key is publicly known and called the public key, and the other key called the private key is kept private. Very descriptive names."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:131
+msgid "You can think of the public key as a padlock, and only you have the key (the private key) to open it. You use the public key where you want a secure method of communication, such as your GitHub account.  You give this padlock, or public key, to GitHub and say “lock the communications to my account with this so that only computers that have my private key can unlock communications and send git commands as my GitHub account.”  "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:133
+msgid "What we will do now is the minimum required to set up the SSH keys and add the public key to a GitHub account."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:135
+# blockquote, which can be cascaded
+msgid "> ## Advanced SSH"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:136
+# blockquote, which can be cascaded
+msgid "> A supplemental episode in this lesson discusses SSH and key pairs in more depth and detail. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:139
+msgid "The first thing we are going to do is check if this has already been done on the computer you’re on.  Because generally speaking, this setup only needs to happen once and then you can forget about it. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:141
+# blockquote, which can be cascaded
+msgid "> ## Keeping your keys secure"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:142
+# blockquote, which can be cascaded
+msgid "> You shouldn't really forget about your SSH keys, since they keep your account secure. It’s good "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:143
+# blockquote, which can be cascaded
+msgid ">  practice to audit your secure shell keys every so often. Especially if you are using multiple "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:144
+# blockquote, which can be cascaded
+msgid ">  computers to access your account."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:147
+msgid "We will run the list command to check what key pairs already exist on your computer."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:149
+#: git-novice/_episodes/07-github.md:225
+# code block
+msgid "~~~\n"
+"ls -al ~/.ssh\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:154
+msgid "Your output is going to look a little different depending on whether or not SSH has ever been set up on the computer you are using. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:156
+msgid "Dracula has not set up SSH on his computer, so his output is "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:158
+# code block
+msgid "~~~\n"
+"ls: cannot access '/c/Users/Vlad Dracula/.ssh': No such file or directory\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:163
+msgid "If SSH has been set up on the computer you're using, the public and private key pairs will be listed. The file names are either `id_ed25519`/`id_ed25519.pub` or `id_rsa`/`id_rsa.pub` depending on how the key pairs were set up.  \n"
+"Since they don’t exist on Dracula’s computer, he uses this command to create them. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:166
+# header
+msgid "### 3.1 Create an SSH key pair"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:167
+msgid "To create an SSH key pair Vlad uses this command, where the `-t` option specifies which type of algorithm to use and `-C` attaches a comment to the key (here, Vlad's email):  "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:169
+# code block
+msgid "~~~\n"
+"$ ssh-keygen -t ed25519 -C \"vlad@tran.sylvan.ia\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:174
+msgid "If you are using a legacy system that doesn't support the Ed25519 algorithm, use:\n"
+"`$ ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"`"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:177
+# code block
+msgid "~~~\n"
+"Generating public/private ed25519 key pair.\n"
+"Enter file in which to save the key (/c/Users/Vlad Dracula/.ssh/id_ed25519):\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:183
+msgid "We want to use the default file, so just press <kbd>Enter</kbd>."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:185
+# code block
+msgid "~~~\n"
+"Created directory '/c/Users/Vlad Dracula/.ssh'.\n"
+"Enter passphrase (empty for no passphrase):\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:191
+msgid "Now, it is prompting Dracula for a passphrase.  Since he is using his lab’s laptop that other people sometimes have access to, he wants to create a passphrase.  Be sure to use something memorable or save your passphrase somewhere, as there is no \"reset my password\" option. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:193
+# code block
+msgid "~~~\n"
+"Enter same passphrase again:\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:198
+msgid "After entering the same passphrase a second time, we receive the confirmation"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:200
+# code block
+msgid "~~~\n"
+"Your identification has been saved in /c/Users/Vlad Dracula/.ssh/id_ed25519\n"
+"Your public key has been saved in /c/Users/Vlad Dracula/.ssh/id_ed25519.pub\n"
+"The key fingerprint is:\n"
+"SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o vlad@tran.sylvan.ia\n"
+"The key's randomart image is:\n"
+"+--[ED25519 256]--+\n"
+"|^B== o.          |\n"
+"|%*=.*.+          |\n"
+"|+=.E =.+         |\n"
+"| .=.+.o..        |\n"
+"|....  . S        |\n"
+"|.+ o             |\n"
+"|+ =              |\n"
+"|.o.o             |\n"
+"|oo+.             |\n"
+"+----[SHA256]-----+\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:220
+msgid "The \"identification\" is actually the private key. You should never share it.  The public key is appropriately named.  The \"key fingerprint\" \n"
+"is a shorter version of a public key."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:223
+msgid "Now that we have generated the SSH keys, we will find the SSH files when we check."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:230
+# code block
+msgid "~~~\n"
+"drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ./\n"
+"drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ../\n"
+"-rw-r--r-- 1 Vlad Dracula 197121 419 Jul 16 14:48 id_ed25519\n"
+"-rw-r--r-- 1 Vlad Dracula 197121 106 Jul 16 14:48 id_ed25519.pub\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:238
+# header
+msgid "### 3.2 Copy the public key to GitHub"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:239
+msgid "Now we have a SSH key pair and we can run this command to check if GitHub can read our authentication.  "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:241
+# code block
+msgid "~~~\n"
+"ssh -T git@github.com\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:247
+# code block
+msgid "~~~\n"
+"The authenticity of host 'github.com (192.30.255.112)' can't be established.\n"
+"RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.\n"
+"This key is not known by any other names\n"
+"Are you sure you want to continue connecting (yes/no/[fingerprint])? y\n"
+"Please type 'yes', 'no' or the fingerprint: yes\n"
+"Warning: Permanently added 'github.com' (RSA) to the list of known hosts.\n"
+"git@github.com: Permission denied (publickey).\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:258
+msgid "Right, we forgot that we need to give GitHub our public key!  "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:260
+msgid "First, we need to copy the public key.  Be sure to include the `.pub` at the end, otherwise you’re looking at the private key. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:262
+# code block
+msgid "~~~\n"
+"cat ~/.ssh/id_ed25519.pub\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:267
+# code block
+msgid "~~~\n"
+"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI vlad@tran.sylvan.ia\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:272
+msgid "Now, going to GitHub.com, click on your profile icon in the top right corner to get the drop-down menu.  Click \"Settings,\" then on the \n"
+"settings page, click \"SSH and GPG keys,\" on the left side \"Account settings\" menu.  Click the \"New SSH key\" button on the right side. Now, \n"
+"you can add the title (Dracula uses the title \"Vlad's Lab Laptop\" so he can remember where the original key pair\n"
+"files are located), paste your SSH key into the field, and click the \"Add SSH key\" to complete the setup."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:277
+msgid "Now that we’ve set that up, let’s check our authentication again from the command line. \n"
+"~~~\n"
+"$ ssh -T git@github.com\n"
+"~~~\n"
+"{: .language-bash}"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:283
+# code block
+msgid "~~~\n"
+"Hi Vlad! You've successfully authenticated, but GitHub does not provide shell access.\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:288
+msgid "Good! This output confirms that the SSH key works as intended. We are now ready to push our work to the remote repository."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:290
+# header
+msgid "## 4. Push local changes to a remote"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:292
+msgid "Now that authentication is setup, we can return to the remote.  This command will push the changes from\n"
+"our local repository to the repository on GitHub:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:295
+#: git-novice/_episodes/08-collab.md:90
+#: git-novice/_episodes/09-conflict.md:68
+#: git-novice/_episodes/09-conflict.md:120
+#: git-novice/_episodes/09-conflict.md:249
+# code block
+msgid "~~~\n"
+"$ git push origin main\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:300
+msgid "Since Dracula set up a passphrase, it will prompt him for it.  If you completed advanced settings for your authentication, it \n"
+"will not prompt for a passphrase. "
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:303
+# code block
+msgid "~~~\n"
+"Enumerating objects: 16, done.\n"
+"Counting objects: 100% (16/16), done.\n"
+"Delta compression using up to 8 threads.\n"
+"Compressing objects: 100% (11/11), done.\n"
+"Writing objects: 100% (16/16), 1.45 KiB | 372.00 KiB/s, done.\n"
+"Total 16 (delta 2), reused 0 (delta 0)\n"
+"remote: Resolving deltas: 100% (2/2), done.\n"
+"To https://github.com/vlad/planets.git\n"
+" * [new branch]      main -> main\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:317
+msgid ">\n"
+"> If the network you are connected to uses a proxy, there is a chance that your\n"
+"> last command failed with \"Could not resolve hostname\" as the error message. To\n"
+"> solve this issue, you need to tell Git about the proxy:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global http.proxy http://user:password@proxy.url\n"
+"> $ git config --global https.proxy https://user:password@proxy.url\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> When you connect to another network that doesn't use a proxy, you will need to\n"
+"> tell Git to disable the proxy using:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global --unset http.proxy\n"
+"> $ git config --global --unset https.proxy\n"
+"> ~~~\n"
+"> {: .language-bash}"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:338
+# blockquote, which can be cascaded
+msgid "> ## Password Managers"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:339
+msgid ">\n"
+"> If your operating system has a password manager configured, `git push` will\n"
+"> try to use it when it needs your username and password.  For example, this\n"
+"> is the default behavior for Git Bash on Windows. If you want to type your\n"
+"> username and password at the terminal instead of using a password manager,\n"
+"> type:\n"
+">\n"
+"> ~~~\n"
+"> $ unset SSH_ASKPASS\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> in the terminal, before you run `git push`.  Despite the name, [Git uses\n"
+"> `SSH_ASKPASS` for all credential\n"
+"> entry](https://git-scm.com/docs/gitcredentials#_requesting_credentials), so\n"
+"> you may want to unset `SSH_ASKPASS` whether you are using Git via SSH or\n"
+"> https.\n"
+">\n"
+"> You may also want to add `unset SSH_ASKPASS` at the end of your `~/.bashrc`\n"
+"> to make Git default to using the terminal for usernames and passwords."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:361
+msgid "Our local and remote repositories are now in this state:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:363
+msgid "![GitHub Repository After First Push](../fig/github-repo-after-first-push.svg)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:365
+# blockquote, which can be cascaded
+msgid "> ## The '-u' Flag"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:366
+msgid ">\n"
+"> You may see a `-u` option used with `git push` in some documentation.  This\n"
+"> option is synonymous with the `--set-upstream-to` option for the `git branch`\n"
+"> command, and is used to associate the current branch with a remote branch so\n"
+"> that the `git pull` command can be used without any arguments. To do this,\n"
+"> simply use `git push -u origin main` once the remote has been set up."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:374
+msgid "We can pull changes from the remote repository to the local one as well:"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:376
+#: git-novice/_episodes/08-collab.md:149
+#: git-novice/_episodes/09-conflict.md:145
+#: git-novice/_episodes/09-conflict.md:271
+# code block
+msgid "~~~\n"
+"$ git pull origin main\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:381
+# code block
+msgid "~~~\n"
+"From https://github.com/vlad/planets\n"
+" * branch            main     -> FETCH_HEAD\n"
+"Already up-to-date.\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:388
+msgid "Pulling has no effect in this case because the two repositories are already\n"
+"synchronized.  If someone else had pushed some changes to the repository on\n"
+"GitHub, though, this command would download them to our local repository."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:392
+# blockquote, which can be cascaded
+msgid "> ## GitHub GUI"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:393
+msgid ">\n"
+"> Browse to your `planets` repository on GitHub.\n"
+"> Under the Code tab, find and click on the text that says \"XX commits\" (where \"XX\" is some number).\n"
+"> Hover over, and click on, the three buttons to the right of each commit.\n"
+"> What information can you gather/explore from these buttons?\n"
+"> How would you get that same information in the shell?\n"
+">\n"
+"> > ## Solution\n"
+"> > The left-most button (with the picture of a clipboard) copies the full identifier of the commit \n"
+"> > to the clipboard. In the shell, ```git log``` will show you the full commit identifier for each \n"
+"> > commit.\n"
+"> >\n"
+"> > When you click on the middle button, you'll see all of the changes that were made in that \n"
+"> > particular commit. Green shaded lines indicate additions and red ones removals. In the shell we \n"
+"> > can do the same thing with ```git diff```. In particular, ```git diff ID1..ID2``` where ID1 and \n"
+"> > ID2 are commit identifiers (e.g. ```git diff a3bf1e5..041e637```) will show the differences \n"
+"> > between those two commits.\n"
+"> >\n"
+"> > The right-most button lets you view all of the files in the repository at the time of that \n"
+"> > commit. To do this in the shell, we'd need to checkout the repository at that particular time. \n"
+"> > We can do this with ```git checkout ID``` where ID is the identifier of the commit we want to \n"
+"> > look at. If we do this, we need to remember to put the repository back to the right state \n"
+"> > afterwards!"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:419
+# blockquote, which can be cascaded
+msgid "> ## Uploading files directly in GitHub browser"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:420
+msgid ">\n"
+"> Github also allows you to skip the command line and upload files directly to \n"
+"> your repository without having to leave the browser. There are two options. \n"
+"> First you can click the \"Upload files\" button in the toolbar at the top of the\n"
+"> file tree. Or, you can drag and drop files from your desktop onto the file \n"
+"> tree. You can read more about this [on this GitHub page](https://help.github.com/articles/adding-a-file-to-a-repository/)"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:428
+# blockquote, which can be cascaded
+msgid "> ## GitHub Timestamp"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:429
+msgid ">\n"
+"> Create a remote repository on GitHub. Push the contents of your local\n"
+"> repository to the remote. Make changes to your local repository and push these\n"
+"> changes. Go to the repo you just created on GitHub and check the\n"
+"> [timestamps]({{ page.root }}{% link reference.md %}#timestamp) of the files. How does GitHub\n"
+"> record times, and why?\n"
+">\n"
+"> > ## Solution\n"
+"> > GitHub displays timestamps in a human readable relative format (i.e. \"22 hours ago\" or \"three \n"
+"> > weeks ago\"). However, if you hover over the timestamp, you can see the exact time at which the \n"
+"> > last change to the file occurred."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:443
+# blockquote, which can be cascaded
+msgid "> ## Push vs. Commit"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:444
+msgid ">\n"
+"> In this episode, we introduced the \"git push\" command.\n"
+"> How is \"git push\" different from \"git commit\"?\n"
+">\n"
+"> > ## Solution\n"
+"> > When we push changes, we're interacting with a remote repository to update it with the changes \n"
+"> > we've made locally (often this corresponds to sharing the changes we've made with others). \n"
+"> > Commit only updates your local repository."
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:455
+# blockquote, which can be cascaded
+msgid "> ## GitHub License and README files"
+msgstr ""
+
+#: git-novice/_episodes/07-github.md:456
+msgid ">\n"
+"> In this episode we learned about creating a remote repository on GitHub, but when you initialized \n"
+"> your GitHub repo, you didn't add a README.md or a license file. If you had, what do you think \n"
+"> would have happened when you tried to link your local and remote repositories?\n"
+">\n"
+"> > ## Solution\n"
+"> > In this case, we'd see a merge conflict due to unrelated histories. When GitHub creates a \n"
+"> > README.md file, it performs a commit in the remote repository. When you try to pull the remote \n"
+"> > repository to your local repository, Git detects that they have histories that do not share a \n"
+"> > common origin and refuses to merge.\n"
+"> > ~~~\n"
+"> > $ git pull origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > warning: no common commits\n"
+"> > remote: Enumerating objects: 3, done.\n"
+"> > remote: Counting objects: 100% (3/3), done.\n"
+"> > remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\n"
+"> > Unpacking objects: 100% (3/3), done.\n"
+"> > From https://github.com/vlad/planets\n"
+"> >  * branch            main     -> FETCH_HEAD\n"
+"> >  * [new branch]      main     -> origin/main\n"
+"> > fatal: refusing to merge unrelated histories\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > You can force git to merge the two repositories with the option `--allow-unrelated-histories`. \n"
+"> > Be careful when you use this option and carefully examine the contents of local and remote \n"
+"> > repositories before merging.\n"
+"> > ~~~\n"
+"> > $ git pull --allow-unrelated-histories origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > From https://github.com/vlad/planets\n"
+"> >  * branch            main     -> FETCH_HEAD\n"
+"> > Merge made by the 'recursive' strategy.\n"
+"> > README.md | 1 +\n"
+"> > 1 file changed, 1 insertion(+)\n"
+"> > create mode 100644 README.md\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+

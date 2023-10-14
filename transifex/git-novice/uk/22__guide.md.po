@@ -1,0 +1,1089 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Olexandr Konovalov, 2023
+# Sofiia Matios, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Sofiia Matios, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: git-novice/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Нотатки інструктора\"\n"
+"---"
+
+#: git-novice/_extras/guide.md:5
+msgid ""
+"Using a software tool to handle the versions of your project files\n"
+"lets you focus on the more interesting/innovative aspects of your project."
+msgstr ""
+"Використання програмного інструменту для обробки версій файлів вашого проєкту\n"
+"дозволяє зосередитися на більш цікавих/інноваційних аспектах вашого проєкту."
+
+# unordered list
+#: git-novice/_extras/guide.md:8
+msgid "*   Version control's advantages"
+msgstr "*   Переваги контролю версій"
+
+# unordered list
+#: git-novice/_extras/guide.md:9
+msgid "    *   It's easy to set up"
+msgstr "    *   Його легко встановити"
+
+# unordered list
+#: git-novice/_extras/guide.md:10
+msgid ""
+"    *   Every copy of a Git repository is a full backup of a project and its"
+" history"
+msgstr ""
+"    *   Кожна копія репозиторію Git - це повне резервне копіювання проєкту "
+"та його історії"
+
+# unordered list
+#: git-novice/_extras/guide.md:11
+msgid ""
+"    *   A few easy-to-remember commands are all you need for most day-to-day"
+" version control tasks"
+msgstr ""
+"    *   Кілька простих для запам'ятовування команд - це все, що потрібно для"
+" більшості завдань керування версіями щодня"
+
+# unordered list
+#: git-novice/_extras/guide.md:12
+msgid ""
+"    *   The [GitHub][github] hosting service provides a web-based "
+"collaboration service"
+msgstr "    *   Хостинг [GitHub][github] надає колабораційний веб-сервіс"
+
+# unordered list
+#: git-novice/_extras/guide.md:13
+msgid "*   Two main concepts"
+msgstr "*   Два основних поняття"
+
+# unordered list
+#: git-novice/_extras/guide.md:14
+msgid "    *   *commit*: a recorded set of changes in your project's files"
+msgstr "    *   *commit*: записаний набір змін у файлах вашого проєкту"
+
+# unordered list
+#: git-novice/_extras/guide.md:15
+msgid "    *   *repository*: the history of all your project's commits"
+msgstr "    *   *repository*: історія всіх комітів вашого проєкту"
+
+# unordered list
+#: git-novice/_extras/guide.md:16
+msgid "*   Why use GitHub?"
+msgstr "*   Для чого користуватися GitHub?"
+
+# unordered list
+#: git-novice/_extras/guide.md:17
+msgid "    *   No need for a server: easy to set up"
+msgstr "    *   Немає необхідності в сервері: легко налаштувати"
+
+# unordered list
+#: git-novice/_extras/guide.md:18
+msgid ""
+"    *   GitHub's strong community: your colleagues are probably already "
+"there"
+msgstr "    *   Сильна спільнота GitHub: ваші колеги, напевно, вже є там"
+
+# header
+#: git-novice/_extras/guide.md:20
+msgid "## Overall"
+msgstr "## Загалом"
+
+#: git-novice/_extras/guide.md:22
+msgid ""
+"Version control might be the most important topic we teach, but Git is\n"
+"definitely the most complicated tool.  However, GitHub presently dominates the\n"
+"open software repository landscape, so the time and effort required to teach\n"
+"fundamental Git is justified and worthwhile."
+msgstr ""
+"Контроль версій може бути найважливішою темою, яку ми викладаємо, але Git,\n"
+"безумовно, є найскладнішим інструментом.  Однак GitHub в даний час домінує у\n"
+"відкритому ландшафті репозиторію програмного забезпечення, тому час та зусилля, необхідні для вивчення\n"
+"фундаменту Git, виправдані та варті того."
+
+#: git-novice/_extras/guide.md:27
+msgid ""
+"Because of this complexity, we don't teach novice learners about many\n"
+"interesting topics, such as branching, hashes, and commit objects."
+msgstr ""
+"Через цю складність, ми не вчимо початківців багатьом\n"
+"цікавим темам, такі як розгалуження, хеші так об`єкти комітів."
+
+#: git-novice/_extras/guide.md:30
+msgid ""
+"Instead we try to convince them that version control is useful for researchers\n"
+"working in teams or not, because it is"
+msgstr ""
+"Замість цього ми намагаємося переконати їх, що контроль версій корисний для дослідників,\n"
+"які працюють в командах чи ні, бо це"
+
+# unordered list
+#: git-novice/_extras/guide.md:33
+msgid "*   a better way to \"undo\" changes,"
+msgstr "*   кращий спосіб \"скасувати\" зміни,"
+
+# unordered list
+#: git-novice/_extras/guide.md:34
+msgid "*   a better way to collaborate than mailing files back and forth, and"
+msgstr ""
+"*   кращий спосіб для колаборування, ніж розсилка файлів туди-сюди, та"
+
+# unordered list
+#: git-novice/_extras/guide.md:35
+msgid ""
+"*   a better way to share your code and other scientific work with the "
+"world."
+msgstr ""
+"*   кращий спосіб поділитися своїм кодом та іншою науковою роботою зі "
+"світом."
+
+# header
+#: git-novice/_extras/guide.md:37
+msgid "## Teaching Notes"
+msgstr "## Навчальні нотатки"
+
+# unordered list
+#: git-novice/_extras/guide.md:39
+msgid ""
+"*   You can \"split\" your shell so that recent commands remain in view "
+"using [this](https://github.com/rgaiacs/swc-shell-split-window) script."
+msgstr ""
+"*   Ви можете \"розділити\" ваш термінал так, щоб останні команди залишалися"
+" в полі зору за допомогою [цього](https://github.com/rgaiacs/swc-shell-"
+"split-window) скрипту."
+
+# unordered list
+#: git-novice/_extras/guide.md:41
+msgid "*   Make sure the network is working *before* starting this lesson."
+msgstr "*   Переконайтеся, що мережа працює, *перш ніж* почати цей урок."
+
+# unordered list
+#: git-novice/_extras/guide.md:43
+msgid ""
+"*   Drawings are particularly useful in this lesson: if you have a "
+"whiteboard,"
+msgstr "*   Малюнки особливо корисні в цьому уроці: якщо у вас є дошка,"
+
+#: git-novice/_extras/guide.md:44
+msgid "    [use it][drawings]!"
+msgstr "    [користуйтеся нею][drawings]!"
+
+# unordered list
+#: git-novice/_extras/guide.md:46
+msgid "*   Version control is usually not the first subject in a workshop,"
+msgstr "* Контроль версій, як правило, не перший предмет в семінарі,"
+
+#: git-novice/_extras/guide.md:47
+msgid ""
+"    so get learners to create a GitHub account after the session before.\n"
+"    Remind learners that the username and email they use for GitHub (and setup\n"
+"    during Git configuration) will be viewable to the public by default.\n"
+"    However, there are many reasons why a learner may not want their personal\n"
+"    information viewable, and GitHub has [resources for keeping an email address\n"
+"    private][github-privacy]."
+msgstr ""
+"    так що разом з учнями створіть обліковий запис GitHub після попередньої сесії.\n"
+"    Нагадайте учням, що ім`я користувача та електронна пошта, яку вони використовують для GitHub (і налаштування\n"
+"    під час конфігурації Git) будуть доступні для перегляди громадськості за замовчуванням.\n"
+"    Однак, є багато причин, чому учень може не хотіти, щоб його особисту\n"
+"    інформацію переглядали, і GitHub має [ресурси для зберігання адреси електронної пошти\n"
+"    приватною][github-privacy]."
+
+# unordered list
+#: git-novice/_extras/guide.md:54
+msgid ""
+"*   If some learners are using Windows, there will inevitably be issues"
+msgstr ""
+"*   Якщо деякі учні використовують Windows, неминуче виникнуть проблеми"
+
+#: git-novice/_extras/guide.md:55
+msgid ""
+"    merging files with different line endings.  (Even if everyone's on\n"
+"    some flavor of Unix, different editors may or may not add a\n"
+"    newline to the last line of a file.) Take a moment to explain\n"
+"    these issues, since learners will almost certainly trip over them\n"
+"    again.  If learners are running into line ending problems, GitHub\n"
+"    has a [page][github-line-endings] that helps with troubleshooting.\n"
+"    Specifically, the [section on refreshing a repository][github-line-endings-refresh]\n"
+"    may be helpful if learners need to change the `core.autocrlf` setting\n"
+"    after already having made one or more commits."
+msgstr ""
+"    з об`єднанням файлів з різними закінченнями рядків.   (Навіть якщо всі використовують\n"
+"    той чи інший вариант Unix, різні редактори, в залежності від їх налаштувань, можуть додавати або не додавати\n"
+"    новий рядок до останнього рядка файла.) Знайдіть хвилину, щоб пояснити\n"
+"    ці питання, так як учні напевно будуть повертатися до них знову\n"
+"    і знову.  Якщо учні стикаються з проблемами закінчення лінії, GitHub\n"
+"    має [сторінку][github-line-endings], що допомагає в усуненні несправностей.\n"
+"    Зокрема, [розділ про оновлення репозиторію][github-line-endings-refresh]\n"
+"    може бути корисним, якщо учням потрібно змінити налаштування `core.autocrlf`\n"
+"    після того, як вже зробили один або кілька комітів."
+
+# unordered list
+#: git-novice/_extras/guide.md:65
+msgid ""
+"*   We don't use a Git GUI in these notes because we haven't found one that"
+msgstr ""
+"*   Ми не використовуємо Git GUI в цих нотатках, тому що ми не знайшли той, "
+"який"
+
+#: git-novice/_extras/guide.md:66
+msgid ""
+"    installs easily and runs reliably on the three major operating systems, and\n"
+"    because we want learners to understand what commands are being run.  That\n"
+"    said, instructors should demo a GUI on their desktop at some point during\n"
+"    this lesson and point learners at [this page][github-gui]."
+msgstr ""
+"    легко встановлюється і надійно працює на трьох основних операційних системах, і\n"
+"    тому що ми хочемо, щоб учні розуміли. які команди виконуютьсяю  Тим не \n"
+"    менш, інструктори повинні демонстувати графічний інтерфейс на своєму робочому столі в якийсь момент під час\n"
+"    цього уроку і точкових учнів на [цій сторінці][github-gui]."
+
+# unordered list
+#: git-novice/_extras/guide.md:71
+msgid "*   Instructors should show learners graphical diff/merge tools like"
+msgstr ""
+"*   Інструктори повинні показати учням графічні diff/merge інструменти, як "
+
+#: git-novice/_extras/guide.md:72
+msgid "    [DiffMerge][diffmerge]."
+msgstr "    [DiffMerge][diffmerge]."
+
+# unordered list
+#: git-novice/_extras/guide.md:74
+msgid ""
+"*   When appropriate, explain that we teach Git rather than CVS, Subversion,"
+" or"
+msgstr ""
+"*   При необхідності поясніть, що ми навчаємо Git, а не CVS, Subversion, або"
+
+#: git-novice/_extras/guide.md:75
+msgid ""
+"    Mercurial primarily because of GitHub's growing popularity: CVS and\n"
+"    Subversion are now seen as legacy systems, and Mercurial isn't nearly as\n"
+"    widely used in the sciences right now."
+msgstr ""
+"    Mercurial, перш за все, через зростаючу популярність GitHub: CVS та\n"
+"    Subversion тепер розглядаються як застарілі системи, і Mercurial не так широко\n"
+"    зараз використовується в науках."
+
+# unordered list
+#: git-novice/_extras/guide.md:79
+msgid "*   Further resources:"
+msgstr "*   Більше ресурсів:"
+
+# unordered list
+#: git-novice/_extras/guide.md:80
+msgid "    *    [git-it][git-it] is a self-paced command-line Git demo,"
+msgstr "    *    [git-it][git-it] це самостійний командний рядок Git демо,"
+
+#: git-novice/_extras/guide.md:81
+msgid ""
+"         with [git-it-electron][git-it-electron] its GitHub Desktop successor.\n"
+"    *    [Code School][code-school] has a free interactive course, [Try Git][try-git].\n"
+"    *    for instructors, [the Git parable][git-parable] is useful background reading"
+msgstr ""
+"         з [git-it-electron][git-it-electron] його наступником GitHub Desktop.\n"
+"    *    [Code School][code-school] має безкоштовний інтерактивний курс [Try Git][try-git].\n"
+"    *    для викладачів, [Git притча][git-parable] - корисне фонове читання"
+
+# header
+#: git-novice/_extras/guide.md:85
+msgid ""
+"## [Automated Version Control]({{ page.root }}{% link _episodes/01-basics.md"
+" %})"
+msgstr ""
+"## [Автоматичний контроль версій]({{ page.root }}{% link "
+"_episodes/01-basics.md %})"
+
+# unordered list
+#: git-novice/_extras/guide.md:87
+msgid ""
+"*   Ask, \"Who uses 'undo' in their editor?\" All say \"Me\". 'Undo' is the "
+"simplest"
+msgstr ""
+"*   Запитайте, \"Хто користується 'скасувати' у своєму редакторі?\" Всі "
+"скажуть: \"Я\". 'Скасувати' - найпростіша"
+
+#: git-novice/_extras/guide.md:88
+msgid "    form of version control."
+msgstr "    форма контролю версій."
+
+# unordered list
+#: git-novice/_extras/guide.md:90
+msgid ""
+"*   Give learners a five-minute overview of what version control does for "
+"them"
+msgstr ""
+"*   Дайте учням п'ятихвилинний огляд того, що для них робить контроль "
+"версій,"
+
+#: git-novice/_extras/guide.md:91
+msgid ""
+"    before diving into the watch-and-do practicals.  Most of them will have\n"
+"    tried to co-author papers by emailing files back and forth, or will have\n"
+"    biked into the office only to realize that the USB key with last night's\n"
+"    work is still on the kitchen table.  Instructors can also make jokes about\n"
+"    directories with names like \"final version\", \"final version revised\",\n"
+"    \"final version with reviewer three's corrections\", \"really final version\",\n"
+"    and, \"come on this really has to be the last version\" to motivate version\n"
+"    control as a better way to collaborate and as a better way to back work up."
+msgstr ""
+"    перед зануренням в спостарігайте-та-робіть практичні роботи.  Більшість з них спробують\n"
+"    стати співавторами статей шляхом розсилки файлів туди-сюди, або\n"
+"    заїдуть в офіс тільки для того, щоб зрозуміти, що USB-ключ з роботою минулої ночі\n"
+"    все ще знаходиться на кухонному столі.  Інструктори також можуть жартувати про\n"
+"    директоорії з назвами, такими як \"остаточна версія\", \"переглянута остаточна версія\",\n"
+"    \"остаточна версія з трьома поправками\", \"дійсно остаточна версія\",\n"
+"    та, \"ну ж бо, це дійсно має бути остання версія\", щоб мотивувати контроль версій\n"
+"    як кращий спосіб співпраці та як кращий спосіб резервного копіювання роботи."
+
+# header
+#: git-novice/_extras/guide.md:100
+msgid "## [Setting Up Git]({{ page.root }}{% link _episodes/02-setup.md %})"
+msgstr ""
+"## [Налаштування Git]({{ page.root }}{% link _episodes/02-setup.md %})"
+
+# unordered list
+#: git-novice/_extras/guide.md:102
+msgid ""
+"*   We suggest instructors and students use `nano` as the text editor for "
+"this"
+msgstr ""
+"*   Ми рекомендуємо інструкторам та учням використовувати `nano`, як "
+"текстовий редактор для цих"
+
+#: git-novice/_extras/guide.md:103
+msgid "    lessons because"
+msgstr "    уроків, тому що"
+
+# unordered list
+#: git-novice/_extras/guide.md:105
+msgid "    *   it runs in all three major operating systems,"
+msgstr "    *   він працює у всіх трьох основних операційних системах"
+
+# unordered list
+#: git-novice/_extras/guide.md:106
+msgid ""
+"    *   it runs inside the shell (switching windows can be confusing to "
+"students), and"
+msgstr ""
+"    *   він працює всередині терміналу (перемикання вікон може заплутати "
+"учнів), та"
+
+# unordered list
+#: git-novice/_extras/guide.md:107
+msgid "    *   it has shortcut help at the bottom of the window."
+msgstr "    *   у нижній частині вікна є клавіатурні скорочення."
+
+#: git-novice/_extras/guide.md:109
+msgid ""
+"    Please point out to students during setup that they can and should use\n"
+"    another text editor if they're already familiar with it."
+msgstr ""
+"    Будь ласка, вкажіть студентам під час налаштування, що вони можуть і повинні використовувати\n"
+"    інший текстовий редактор, якщо вони вже знайомі з ним."
+
+# unordered list
+#: git-novice/_extras/guide.md:112
+msgid ""
+"*   When setting up Git, be very clear what learners have to enter: it is"
+msgstr ""
+"*   Коли налаштовуєте Git, будьте дуже уважні що студенти повинні ввести: це"
+
+#: git-novice/_extras/guide.md:113
+msgid ""
+"    common for them to edit the instructor's details (e.g. email).  Check at\n"
+"    the end using `git config --list`."
+msgstr ""
+"    розповсюдженно для них редагувати деталі інструктора (наприклад, електронна пошта).  В кінці кінців,\n"
+"    перевірте за допомогою `git config --list`."
+
+# unordered list
+#: git-novice/_extras/guide.md:116
+msgid ""
+"*   When setting up the default branch name, if learners have a Git version"
+msgstr ""
+"*   Під час налаштування типового імені гілки, якщо учні мають версію Git"
+
+#: git-novice/_extras/guide.md:117
+msgid ""
+"    older than 2.28, the default branch name can be changed for the lesson\n"
+"    using `git branch -M main` if there are currently commits in the repository,\n"
+"    or `git checkout -b main` if there are no commits/the repository is completely empty."
+msgstr ""
+"    старше ніж 2.28, ім`я гілки за замовчуванням можна змінити для уроку,\n"
+"    використовуючи `git branch -M main`, якщо в репозиторії є коміти,\n"
+"    або `git checkout -b main`, якщо немає комітів/репозиторій повністю пустий."
+
+# header
+#: git-novice/_extras/guide.md:121
+msgid ""
+"## [Creating a Repository]({{ page.root }}{% link _episodes/03-create.md %})"
+msgstr ""
+"## [Створення репозиторію]({{ page.root }}{% link _episodes/03-create.md %})"
+
+# unordered list
+#: git-novice/_extras/guide.md:123
+msgid ""
+"*   When you do `git status`, Mac users may see a `.DS_Store` file showing "
+"as"
+msgstr ""
+"*   Коли ви робите `git status`, користувачі Mac можуть бачити файл "
+"`.DS_Store`, що відображається як"
+
+#: git-novice/_extras/guide.md:124
+msgid "    untracked. This a file that Mac OS creates in each directory."
+msgstr "    неперевірений. Це файл, який Mac OS створює в кожній директорії."
+
+# unordered list
+#: git-novice/_extras/guide.md:126
+msgid ""
+"*   The challenge \"Places to create repositories\" tries to reinforce the "
+"idea"
+msgstr ""
+"*   Завдання \"місця для створення репозиторіїв\" намагається підкріпити "
+"ідею,"
+
+#: git-novice/_extras/guide.md:127
+msgid ""
+"    that the `.git` folder contains the whole Git repo and deleting this folder\n"
+"    undoes a `git init`. It also gives the learner the way to fix the common\n"
+"    mistake of putting unwanted folders (like `Desktop`) under version control."
+msgstr ""
+"    що папка `.git` містить весб репо Git і видалення цієї папки\n"
+"    скасовує `git init`. Це також дає учневі спосіб виправити загальну\n"
+"    помилку введення небажаних папок (наприклад, `Desktop`) під контролем версій."
+
+#: git-novice/_extras/guide.md:131
+msgid ""
+"    Instead of removing the `.git` folder directly, you can choose to move it\n"
+"    first to a safer directory and remove it from there:"
+msgstr ""
+"    Замість безпосереднього видалення папки `.git`, ви можете перемістити її\n"
+"    спочатку в більш безпечну директорію і видалити її звідти:"
+
+#: git-novice/_extras/guide.md:134
+msgid ""
+"    ~~~\n"
+"    $ mv .git temp_git\n"
+"    $ rm -rf  temp_git\n"
+"    ~~~\n"
+"    {: .language-bash}"
+msgstr ""
+"    ~~~\n"
+"    $ mv .git temp_git\n"
+"    $ rm -rf  temp_git\n"
+"    ~~~\n"
+"    {: .language-bash}"
+
+#: git-novice/_extras/guide.md:140
+msgid ""
+"    The challenge suggests that it is a bad idea to create a Git repo inside another repo.\n"
+"    For more discussion on this topic, please see [this issue][repos-in-repos]."
+msgstr ""
+"    Завдання говорить про те, що це погана ідея створити репо Git всередині іншого репо.\n"
+"    Для додаткової дискусії на цю тему, будь ласка, дивіться [це питання][repos-in-repos]."
+
+# header
+#: git-novice/_extras/guide.md:143
+msgid ""
+"## [Tracking Changes]({{ page.root }}{% link _episodes/04-changes.md %})"
+msgstr ""
+"## [Відстеження змін]({{ page.root }}{% link _episodes/04-changes.md %})"
+
+# unordered list
+#: git-novice/_extras/guide.md:145
+msgid ""
+"*   It's important that learners do a full commit cycle by themselves (make"
+msgstr "*   Важливо, щоб учні робили повний цикл комітів самостійно (вносили"
+
+#: git-novice/_extras/guide.md:146
+msgid ""
+"    changes, `git diff`, `git add`, and `git commit`). The \"`bio` repository\"\n"
+"    challenge does that."
+msgstr ""
+"    зміни, `git diff`, `git add`, та `git commit`). Завдання \"репозиторій `bio`\"\n"
+"    робить це."
+
+# unordered list
+#: git-novice/_extras/guide.md:149
+msgid ""
+"*   This is a good moment to show a diff with a graphical diff tool. If you"
+msgstr ""
+"*   Це хороший момент, щоб показати різницю з графічним інструментом diff. "
+"Якщо ви"
+
+#: git-novice/_extras/guide.md:150
+msgid "    skip it because you're short on time, show it once in GitHub."
+msgstr ""
+"    пропустили його, тому що у вас обмаль часу, покажіть його один раз в "
+"GitHub."
+
+# unordered list
+#: git-novice/_extras/guide.md:152
+msgid ""
+"*   One thing may cause confusion is recovering old versions.  If, instead "
+"of"
+msgstr ""
+"*   Одна річ може викликати плутанину - відновлення старих версій. Якщо "
+"замість"
+
+#: git-novice/_extras/guide.md:153
+msgid ""
+"    doing `$ git checkout f22b25e mars.txt`, someone does `$ git checkout\n"
+"    f22b25e`, they wind up in the \"detached HEAD\" state and confusion abounds.\n"
+"    It's then possible to keep on committing, but things like `git push origin\n"
+"    main` a bit later will not give easily comprehensible results.  It also\n"
+"    makes it look like commits can be lost.  To \"re-attach\" HEAD, use\n"
+"    `git checkout main`."
+msgstr ""
+"    `$ git checkout f22b25e mars.txt` хтось робить `$ git checkout\n"
+"    f22b25e`, вони заводяться у \"відсторонений HEAD\" стан і плутанина рясніє.\n"
+"    Потім можна продовжувати комітити, але такі речі, як `git push origin\n"
+"    main` трохи пізніше легко не дасть зрозумілих результатів.  Це також\n"
+"    може виглядати, що коміти були втрачені.  Щоб \"повторно прикріпити\" HEAD, використовуйте\n"
+"    `git checkout main`."
+
+# unordered list
+#: git-novice/_extras/guide.md:160
+msgid ""
+"*   This is a good moment to show a log within a Git GUI. If you skip it"
+msgstr ""
+"*   Це хороший момент, щоб показати log в графічному інтерфейсі Git. Якщо ви"
+" пропустите його,"
+
+#: git-novice/_extras/guide.md:161
+msgid "    because you're short on time, show it once in GitHub."
+msgstr "    тому що у вас обмаль часу - покажіть його один раз на GitHub."
+
+# header
+#: git-novice/_extras/guide.md:163
+msgid "## [Ignoring Things]({{ page.root }}{% link _episodes/06-ignore.md %})"
+msgstr ""
+"## [Ігнорування речей]({{ page.root }}{% link _episodes/06-ignore.md %})"
+
+#: git-novice/_extras/guide.md:165
+msgid ""
+"Just remember that you can use wildcards and regular expressions to ignore a\n"
+"particular set of files in `.gitignore`."
+msgstr ""
+"Просто пам'ятайте, що ви можете використовувати шаблони і регулярні вирази, щоб ігнорувати\n"
+"особливий набір файлів в `.gitignore`."
+
+# header
+#: git-novice/_extras/guide.md:168
+msgid ""
+"## [Remotes in GitHub]({{ page.root }}{% link _episodes/07-github.md %})"
+msgstr ""
+"## [Пульти в GitHub]({{ page.root }}{% link _episodes/07-github.md %})"
+
+# unordered list
+#: git-novice/_extras/guide.md:170
+msgid ""
+"*   Make it clear that Git and GitHub are not the same thing: Git is an open"
+msgstr ""
+"*   Дайте зрозуміти, що Git і GitHub - це не одне і те ж: Git - це "
+"інструмент"
+
+#: git-novice/_extras/guide.md:171
+msgid ""
+"    source version control tool, GitHub is a company that hosts Git\n"
+"    repositories in the web and provides a web interface to interact with repos\n"
+"    they host."
+msgstr ""
+"    управління версією з відкритим кодом, GitHub - це компанія, яка розміщує Git\n"
+"    репозиторії в Інтернеті та надає веб-інтерфейс для взаємодії з репозиторіями,\n"
+"    які вони приймають."
+
+# unordered list
+#: git-novice/_extras/guide.md:175
+msgid ""
+"*   If your learners are advanced enough to be comfortable with SSH, tell "
+"them"
+msgstr ""
+"*   Якщо ваші учні достатньо просунуті, щоб бути комфортними з SSH, скажіть "
+"їм,"
+
+#: git-novice/_extras/guide.md:176
+msgid ""
+"    they can use keys to authenticate on GitHub instead of passwords, but don't\n"
+"    try to set this up during class: it takes too long, and is a distraction\n"
+"    from the core ideas of the lesson."
+msgstr ""
+"    що вони можуть використовувати ключі для автентифікації на GitHub замість паролів, але не\n"
+"    намагайтеся налаштувати це під час класу: це займає занадто багато часу, і це відволікає\n"
+"    відволікає від основних ідей уроку."
+
+# unordered list
+#: git-novice/_extras/guide.md:180
+msgid ""
+"*   It is very useful to draw a diagram showing the different repositories"
+msgstr "*   Дуже корисно намалювати діаграму з різними"
+
+#: git-novice/_extras/guide.md:181
+msgid "    involved."
+msgstr "    сховищами."
+
+# unordered list
+#: git-novice/_extras/guide.md:183
+msgid ""
+"*   When pushing to a remote, the output from Git can vary slightly "
+"depending on"
+msgstr ""
+"*    При відправленні змін на віддалений репозиторій, результат від Git може"
+" незначно відрізнятис від того, що"
+
+#: git-novice/_extras/guide.md:184
+msgid ""
+"    what leaners execute. The lesson displays the output from git if a learner\n"
+"    executes `git push origin main`. However, some learners might use syntax\n"
+"    suggested by GitHub for pushing to a remote with an existing repository,\n"
+"    which is `git push -u origin main`. Learners using syntax from GitHub,\n"
+"    `git push -u origin main`, will have slightly different output, including\n"
+"    the line `Branch main set up to track remote branch main from origin by rebasing.`"
+msgstr ""
+"    виконують слухачі. урок відображає результат від git, якщо слухач\n"
+"    виконує `git push origin main`. Однак деякі слухачі можуть використовувати синтаксис,\n"
+"    запропонований GitHub, для відправлення на віддалений репозиторій вже з існуючим репозиторієм,\n"
+"    тобто `git push -u origin main`. Слухачі, які використовують синтаксис від GitHub,\n"
+"    `git push -u origin main`, будуть мати дещо інший результат, включаючи\n"
+"    рядок `Branch main set up to track remote branch main from origin by rebasing.`"
+
+# header
+#: git-novice/_extras/guide.md:191
+msgid "## [Collaborating]({{ page.root }}{% link _episodes/08-collab.md %})"
+msgstr "## [Колаборація]({{ page.root }}{% link _episodes/08-collab.md %})"
+
+# unordered list
+#: git-novice/_extras/guide.md:193
+msgid "*   Decide in advance whether all the learners will work in one shared"
+msgstr ""
+"*   Вирішіть заздалегідь, чи будуть всі учні працювати в одному спільному"
+
+#: git-novice/_extras/guide.md:194
+msgid ""
+"    repository, or whether they will work in pairs (or other small groups) in\n"
+"    separate repositories.  The former is easier to set up; the latter runs\n"
+"    more smoothly."
+msgstr ""
+"    репозиторії, або вони будуть працювати в парах (або інших невеликих групах) в\n"
+"    окремих репозиторіях.  Перший варіант легше налаштувати; останній працює\n"
+"    більш гладко."
+
+# unordered list
+#: git-novice/_extras/guide.md:198
+msgid ""
+"*   Role playing between two instructors can be effective when teaching the"
+msgstr ""
+"*   Рольова гра між двома інструкторами може бути ефективною при викладанні "
+
+#: git-novice/_extras/guide.md:199
+msgid ""
+"    collaboration and conflict sections of the lesson.  One instructor can play\n"
+"    the role of the repository owner, while the second instructor can play the\n"
+"    role of the collaborator.  If it is possible, try to use two projectors so\n"
+"    that the computer screens of both instructors can be seen.  This makes for\n"
+"    a very clear illustration to the students as to who does what."
+msgstr ""
+"    розділів про колаборацію та конфлікти.  Один інструктор може грати\n"
+"    роль власника репозиторію, в той час як другий інструктор може грати\n"
+"    роль колаборанта.  Якщо це можливо, спробуйте використовувати два проєктори так,\n"
+"    що компʼютерні еркани обох інструкторів можна булоб побачити.  Це було б дуже\n"
+"    чіткою ілюстрацією для студентів щодо того, хто що робить."
+
+# unordered list
+#: git-novice/_extras/guide.md:205
+msgid ""
+"*   It is also effective to pair up students during this lesson and assign "
+"one"
+msgstr ""
+"*   Також ефективно поєднувати унчів під час цього уроку і призначати одному"
+
+#: git-novice/_extras/guide.md:206
+msgid ""
+"    member of the pair to take the role of the owner and the other the role of\n"
+"    the collaborator.  In this setup, challenges can include asking the\n"
+"    collaborator to make a change, commit it, and push the change to the remote\n"
+"    repository so that the owner can then retrieve it, and vice-versa.  The\n"
+"    role playing between the instructors can get a bit \"dramatic\" in the\n"
+"    conflicts part of the lesson if the instructors want to inject some humor\n"
+"    into the room."
+msgstr ""
+"    члену пари роль власника, а іншому - роль\n"
+"    колаборанта.  У цій установці задачі можуть включати в себе прохання\n"
+"    колаборанта внести зміни, закомітити це і відправити їх до віддаленого\n"
+"    репозиторію, так що власник може потім отримати його, і навпаки.  Роль\n"
+"    гри між інструкторами може стати трохи \"драматичною\" в\n"
+"    частині уроку про конфлікти, якщо інструктори хочуть ввести ще більше\n"
+"    гумору."
+
+# unordered list
+#: git-novice/_extras/guide.md:214
+msgid ""
+"*   If you don't have two projectors, have two instructors at the front of "
+"the"
+msgstr ""
+"*   Якщо у вас немає двох проєкторів - на початку кімнати повинні бути два"
+
+#: git-novice/_extras/guide.md:215
+msgid ""
+"    room.  Each instructor does their piece of the collaboration demonstration\n"
+"    on their own computer and then passes the projector cord back and forth\n"
+"    with the other instructor when it's time for them to do the other part of\n"
+"    the collaborative workflow.  It takes less than 10 seconds for each\n"
+"    switchover, so it doesn't interrupt the flow of the lesson.\n"
+"    And of course it helps to give each of the instructors a different-colored\n"
+"    hat, or put different-colored sticky notes on their foreheads."
+msgstr ""
+"    інструктори.  Кожен інструктор робить свою частину демонстрації колаборації\n"
+"    на власному компʼютері, а потім передає шнур проєктора туди-сюди\n"
+"    з іншим інструктором, коли їм пора зробити іншу частину\n"
+"    робочого процесу.  Це займає менше 10 секунд для кожного\n"
+"    перемикання, так що це не перериває потік уроку.\n"
+"    І звичайно це допомагає дати кожному з інструкторів різнобарвний\n"
+"    капелюх, або наліпити різнокольорові липкі нотатки на чолі."
+
+# unordered list
+#: git-novice/_extras/guide.md:223
+msgid ""
+"*   If you're the only instructor, the best way to create is clone the two"
+msgstr ""
+"*   Якщо ви єдиний інструктор, найкращий спосіб створити - це клонувати два"
+
+#: git-novice/_extras/guide.md:224
+msgid ""
+"    repos in your Desktop, but under different names, e.g., pretend one is your\n"
+"    computer at work:"
+msgstr ""
+"    репо на робочому столі, але під різними назвами, наприклад, вдавати, що один з них є вашим\n"
+"    комп'ютером на роботі:"
+
+#: git-novice/_extras/guide.md:227
+msgid ""
+"    ~~~\n"
+"    $ git clone https://github.com/vlad/planets.git planets-at-work\n"
+"    ~~~\n"
+"    {: .language-bash}"
+msgstr ""
+"    ~~~\n"
+"    $ git clone https://github.com/vlad/planets.git planets-at-work\n"
+"    ~~~\n"
+"    {: .language-bash}"
+
+# unordered list
+#: git-novice/_extras/guide.md:232
+msgid ""
+"*   It's very common that learners mistype the remote alias or the remote "
+"URL"
+msgstr ""
+"*   Дуже часто учні помилково вводять віддалений псевдонім або віддалений "
+"URL"
+
+#: git-novice/_extras/guide.md:233
+msgid ""
+"    when adding a remote, so they cannot `push`. You can diagnose this with\n"
+"    `git remote -v` and checking carefully for typos.\n"
+"    - To fix a wrong alias, you can do `git remote rename <old> <new>`.\n"
+"    - To fix a wrong URL, you can do `git remote set-url <alias> <newurl> `."
+msgstr ""
+"    при додаванні віддаленого репозиторію, тому вони не можуть `відправити зміни`. Ви можете діагностувати це за допомогою\n"
+"    `git remote -v` і ретельно перевірити наявність помилок.\n"
+"    - Щоб виправити неправильний псевдонім, ви можете зробити `git remote rename <old> <new>`.\n"
+"    - Щоб виправити неправильний URL, ви можете зробити `git remote set-url <alias> <newurl> `."
+
+# unordered list
+#: git-novice/_extras/guide.md:238
+msgid ""
+"*   Before cloning the repo, be sure that nobody is inside another repo. The"
+msgstr ""
+"*   Перш ніж клонувати репо, переконайтеся, що ніхто не знаходиться "
+"всередині іншого репо."
+
+#: git-novice/_extras/guide.md:239
+msgid ""
+"    best way to achieve this is moving to the `Desktop` before cloning: `cd &&\n"
+"    cd Desktop`."
+msgstr ""
+"    Найкращий спосіб досягти цього - перейти на `Робочий стіл` перед клонуванням: `cd &&\n"
+"    cd Desktop`."
+
+# unordered list
+#: git-novice/_extras/guide.md:242
+msgid ""
+"*   If both repos are in the `Desktop`, have them to clone their "
+"collaborator"
+msgstr ""
+"*   Якщо обидва репо знаходяться в `Робочому столі` - нехай вони клонують "
+"репо свого співавтора"
+
+#: git-novice/_extras/guide.md:243
+msgid "    repo under a given directory using a second argument:"
+msgstr "    під заданим каталогом, використовуючи другий аргумент:"
+
+#: git-novice/_extras/guide.md:245
+msgid ""
+"    ~~~\n"
+"    $ git clone https://github.com/vlad/planets.git vlad-planet\n"
+"    ~~~\n"
+"    {: .language-bash}"
+msgstr ""
+"    ~~~\n"
+"    $ git clone https://github.com/vlad/planets.git vlad-planet\n"
+"    ~~~\n"
+"    {: .language-bash}"
+
+# unordered list
+#: git-novice/_extras/guide.md:250
+msgid ""
+"*   The most common mistake is that learners `push` before `pull`ing. If "
+"they"
+msgstr ""
+"*   Найпоширенішою помилкою є те, що учні `відправляють` зміни перед тим, як"
+" `отримати` їх. Якщо вони"
+
+#: git-novice/_extras/guide.md:251
+msgid "    `pull` afterward, they may get a conflict."
+msgstr ""
+"    `отримають` зміни після їх відправлення - може виникнути конфлікт."
+
+# unordered list
+#: git-novice/_extras/guide.md:253
+msgid ""
+"*   Conflicts, sometimes weird, will start to arise. Stay tight: conflicts "
+"are"
+msgstr ""
+"*   Почнуть виникати іноді дивні конфлікти. Зверніть увагу: конфлікти "
+
+#: git-novice/_extras/guide.md:254
+msgid "    next."
+msgstr "    наступні."
+
+# unordered list
+#: git-novice/_extras/guide.md:256
+msgid ""
+"*   Learners may have slightly different output from `git push` and `git "
+"pull`"
+msgstr ""
+"*   Учні можуть мати трохи інший результат від `git push` та `git pull`,"
+
+#: git-novice/_extras/guide.md:257
+msgid "    depending on the version of git, and if upstream (`-u`) is used."
+msgstr "    залежно від версії git, і якщо використовується upstream (`-u`)."
+
+# header
+#: git-novice/_extras/guide.md:259
+msgid "## [Conflicts]({{ page.root }}{% link _episodes/09-conflict.md %})"
+msgstr "## [Конфлікти]({{ page.root }}{% link _episodes/09-conflict.md %})"
+
+# unordered list
+#: git-novice/_extras/guide.md:261
+msgid ""
+"*   Expect the learners to make mistakes. Expect *yourself* to make "
+"mistakes."
+msgstr ""
+"*   Очікуйте, що учні зроблять помилки. Очікуйте, що *ви* можете зробити "
+"помилки."
+
+#: git-novice/_extras/guide.md:262
+msgid ""
+"    This happens because it is late in the lesson and everyone is tired."
+msgstr ""
+"    Це відбувається тому, що урок триває вже достатньо довго і всі "
+"втомилися."
+
+# unordered list
+#: git-novice/_extras/guide.md:264
+msgid ""
+"*   If you're the only instructor, the best way to create a conflict is:"
+msgstr "*   Якщо ви єдиний інструктор, найкращий спосіб створити конфлікт:"
+
+# unordered list
+#: git-novice/_extras/guide.md:266
+msgid ""
+"    *   Clone your repo in a different directory, pretending is your "
+"computer at"
+msgstr ""
+"    *   Клонуйте свій репо в іншу директорію, вдаючи, що ваш компʼютер "
+"знаходиться на"
+
+#: git-novice/_extras/guide.md:267
+msgid ""
+"        work: `git clone https://github.com/vlad/planets.git planets-at-work`.\n"
+"    *   At the office, you make a change, commit and push.\n"
+"    *   At your laptop repo, you (forget to pull and) make a change, commit and\n"
+"        try to push.\n"
+"    *   `git pull` now and show the conflict."
+msgstr ""
+"        роботі: `git clone https://github.com/vlad/planets.git planets-at-work`.\n"
+"    *   В офісі ви зробите зміни, закомітите та відправите зміни.\n"
+"    *   В репо на вашому компʼютері, ви (забули отримати зміни та) робите зміни, комітите та\n"
+"        намагаєтеся відправити їх.\n"
+"    *   тепер введіть `git pull` та покажіть як виглядає конфлікт."
+
+# unordered list
+#: git-novice/_extras/guide.md:273
+msgid ""
+"*   Learners usually forget to `git add` the file after fixing the conflict "
+"and"
+msgstr ""
+"*   Учні зазвичай забувають `git add` файл після виправлення конфлікту та"
+
+#: git-novice/_extras/guide.md:274
+msgid "    just (try to) commit. You can diagnose this with `git status`."
+msgstr ""
+"    просто (намагаються) комітять. Ви можете це продіагнозувати за допомогою"
+" `git status`."
+
+# unordered list
+#: git-novice/_extras/guide.md:276
+msgid "*   Remember that you can discard one of the two parents of the merge:"
+msgstr "*   Памʼятайте, що можна відкинути одного з двох батьків злиття:"
+
+# unordered list
+#: git-novice/_extras/guide.md:278
+msgid ""
+"    *   discard the remote file, `git checkout --ours conflicted_file.txt`"
+msgstr ""
+"    *   відкинути віддалений файл, `git checkout --ours conflicted_file.txt`"
+
+# unordered list
+#: git-novice/_extras/guide.md:279
+msgid ""
+"    *   discard the local file, `git checkout --theirs conflicted_file.txt`"
+msgstr ""
+"    *   відкинути локальний файл, `git checkout --theirs "
+"conflicted_file.txt`"
+
+#: git-novice/_extras/guide.md:281
+msgid ""
+"    You still have to `git add` and `git commit` after this. This is\n"
+"    particularly useful when working with binary files."
+msgstr ""
+"    Ви все ще повинні зробити `git add` та `git commit` після цього. Особливо\n"
+"    це корисно при роботі з бінарними файлами."
+
+# unordered list
+#: git-novice/_extras/guide.md:284
+msgid ""
+"*  Keep in mind that depending on the Git version used, the outputs for"
+msgstr ""
+"*  Майте на увазі, що в залежності від використовуваної версії Git, "
+"результати для"
+
+#: git-novice/_extras/guide.md:285
+msgid "   `git push` and `git pull` can vary slightly."
+msgstr "   `git push` та `git pull` можуть дещо відрізнятися."
+
+# header
+#: git-novice/_extras/guide.md:287
+msgid "## [Open Science]({{ page.root }}{% link _episodes/10-open.md %})"
+msgstr "## [Відкрита наука]({{ page.root }}{% link _episodes/10-open.md %})"
+
+# header
+#: git-novice/_extras/guide.md:289
+msgid "## [Licensing]({{ page.root }}{% link _episodes/11-licensing.md %})"
+msgstr ""
+"## [Ліцензування]({{ page.root }}{% link _episodes/11-licensing.md %})"
+
+#: git-novice/_extras/guide.md:291
+msgid ""
+"We teach about licensing because questions about who owns what, or can use\n"
+"what, arise naturally once we start talking about using public services like\n"
+"GitHub to store files. Also, the discussion gives learners a chance to catch\n"
+"their breath after what is often a frustrating couple of hours."
+msgstr ""
+"Ми вчимо про ліцензування, тому що питання про те, хто володіє чим, або що може використовувати,\n"
+"виникають природно, як тільки ми починаємо говорити про використання державних послуг, як\n"
+"GitHub для зберігання файлів. Також дискусія дає учням шанс перевести\n"
+"їх дух після того, що часто розчаровує протягом декількох годин."
+
+#: git-novice/_extras/guide.md:296
+msgid ""
+"The Creative Commons family of licenses is recommended for many types of\n"
+"works (including software documentation and images used in software) but not\n"
+"software itself. Creative Commons [recommends][cc-faq-software] a\n"
+"software-specific license instead."
+msgstr ""
+"Сімейство ліцензій The Creative Commons рекомендується для багатьох типів\n"
+"робот (включаючи програмну документацію та зображення, які використовуються в програмному забезпеченні), але не\n"
+"власне програмне забезпечення. Creative Commons [рекомендує][cc-faq-software]\n"
+"ліцензію на програмне забезпечення."
+
+# header
+#: git-novice/_extras/guide.md:301
+msgid "## [Citation]({{ page.root }}{% link _episodes/12-citation.md %})"
+msgstr "## [Цитування]({{ page.root }}{% link _episodes/12-citation.md %})"
+
+# header
+#: git-novice/_extras/guide.md:303
+msgid "## [Hosting]({{ page.root }}{% link _episodes/13-hosting.md %})"
+msgstr "## [Хостинг]({{ page.root }}{% link _episodes/13-hosting.md %})"
+
+#: git-novice/_extras/guide.md:305
+msgid ""
+"A common concern for learners is having their work publicly available on\n"
+"GitHub.  While we encourage open science, sometimes private repos are the\n"
+"only choice. It's always interesting to mention the options to have\n"
+"web-hosted private repositories."
+msgstr ""
+"Загальна турбота для учнів - мати їх роботу публічно доступною на\n"
+"GitHub.  Хоча ми заохочуємо відкриту науку, іноді приватні репо є\n"
+"єдиним вибором. Завжди цікаво згадати варіанти розміщення приватних\n"
+"репозиторіїв."
+
+#: git-novice/_extras/guide.md:310
+msgid ""
+"[cc-faq-software]: https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software\n"
+"[code-school]: https://www.codeschool.com/\n"
+"[diffmerge]: https://sourcegear.com/diffmerge/\n"
+"[drawings]: https://marklodato.github.io/visual-git-guide/index-en.html\n"
+"[git-it]: https://github.com/jlord/git-it\n"
+"[git-it-electron]: https://github.com/jlord/git-it-electron\n"
+"[git-parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html\n"
+"[github]: https://github.com/\n"
+"[github-gui]: https://git-scm.com/downloads/guis\n"
+"[github-line-endings]: https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings\n"
+"[github-line-endings-refresh]: https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings#refreshing-a-repository-after-changing-line-endings\n"
+"[github-privacy]: https://help.github.com/articles/keeping-your-email-address-private/\n"
+"[repos-in-repos]: https://github.com/swcarpentry/git-novice/issues/272\n"
+"[try-git]: https://try.github.io"
+msgstr ""
+"[cc-faq-software]: https://creativecommons.org/faq/#can-i-apply-a-creative-commons-license-to-software\n"
+"[code-school]: https://www.codeschool.com/\n"
+"[diffmerge]: https://sourcegear.com/diffmerge/\n"
+"[drawings]: https://marklodato.github.io/visual-git-guide/index-en.html\n"
+"[git-it]: https://github.com/jlord/git-it\n"
+"[git-it-electron]: https://github.com/jlord/git-it-electron\n"
+"[git-parable]: http://tom.preston-werner.com/2009/05/19/the-git-parable.html\n"
+"[github]: https://github.com/\n"
+"[github-gui]: https://git-scm.com/downloads/guis\n"
+"[github-line-endings]: https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings\n"
+"[github-line-endings-refresh]: https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings#refreshing-a-repository-after-changing-line-endings\n"
+"[github-privacy]: https://help.github.com/articles/keeping-your-email-address-private/\n"
+"[repos-in-repos]: https://github.com/swcarpentry/git-novice/issues/272\n"
+"[try-git]: https://try.github.io"

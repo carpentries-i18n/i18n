@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/reference.md:1
+# Front Matter
+msgid "---\n"
+"layout: reference\n"
+"---"
+msgstr ""
+
+#: git-novice/reference.md:5
+# header
+msgid "## Git Cheatsheets for Quick Reference"
+msgstr ""
+
+#: git-novice/reference.md:7
+# unordered list
+msgid "*   Printable Git cheatsheets in several languages are [available here](https://github.github.com/training-kit/) ([English version](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)). More material is available from the [GitHub training website](http://try.github.io/)."
+msgstr ""
+
+#: git-novice/reference.md:8
+# unordered list
+msgid "*   An [interactive one-page visualisation](http://ndpsoftware.com/git-cheatsheet.html)"
+msgstr ""
+
+#: git-novice/reference.md:9
+msgid "    about the relationships between workspace, staging area, local repository, upstream repository, and the commands associated with each (with explanations).\n"
+"*   Both resources are also available in other languages (e.g. Spanish, French, and more).\n"
+"* \"[Happy Git and GitHub for the useR](http://happygitwithr.com)\" is an accessible, free online book by Jenny Bryan on how to setup and use Git and GitHub with specific references on the integration of Git with RStudio and working with Git in R.\n"
+"* [Open Scientific Code using Git and GitHub](https://open-source-for-researchers.github.io/open-source-workshop/) - A collection of explanations and short practical exercises to help researchers learn more about version control and open source software."
+msgstr ""
+
+#: git-novice/reference.md:14
+# header
+msgid "## Glossary"
+msgstr ""
+
+#: git-novice/reference.md:16
+msgid "{:auto_ids}\n"
+"changeset\n"
+":   A group of changes to one or more files that are or will be added\n"
+"    to a single [commit](#commit) in a [version control](#version-control)\n"
+"    [repository](#repository)."
+msgstr ""
+
+#: git-novice/reference.md:22
+msgid "commit\n"
+":   To record the current state of a set of files (a [changeset](#changeset))\n"
+"    in a [version control](#version-control) [repository](#repository). As a noun,\n"
+"    the result of committing, i.e. a recorded changeset in a repository.\n"
+"    If a commit contains changes to multiple files,\n"
+"    all of the changes are recorded together."
+msgstr ""
+
+#: git-novice/reference.md:29
+msgid "conflict\n"
+":   A change made by one user of a [version control system](#version-control)\n"
+"    that is incompatible with changes made by other users.\n"
+"    Helping users [resolve](#resolve) conflicts\n"
+"    is one of version control's major tasks."
+msgstr ""
+
+#: git-novice/reference.md:35
+msgid "HTTP\n"
+":   The Hypertext Transfer [Protocol](#protocol) used for sharing web pages and other data\n"
+"    on the World Wide Web."
+msgstr ""
+
+#: git-novice/reference.md:39
+msgid "merge\n"
+":   (a repository): To reconcile two sets of changes to a\n"
+"    [repository](#repository)."
+msgstr ""
+
+#: git-novice/reference.md:43
+msgid "protocol\n"
+":   A set of rules that define how one computer communicates with another.\n"
+"    Common protocols on the Internet include [HTTP](#http) and [SSH](#ssh)."
+msgstr ""
+
+#: git-novice/reference.md:47
+msgid "remote\n"
+":   (of a repository) A version control [repository](#repository) connected to another,\n"
+"    in such way that both can be kept in sync exchanging [commits](#commit)."
+msgstr ""
+
+#: git-novice/reference.md:51
+msgid "repository\n"
+":   A storage area where a [version control](#version-control) system\n"
+"    stores the full history of [commits](#commit) of a project and information\n"
+"    about who changed what, when."
+msgstr ""
+
+#: git-novice/reference.md:56
+msgid "resolve\n"
+":   To eliminate the [conflicts](#conflict) between two or more incompatible changes to a file or set of files\n"
+"    being managed by a [version control](#version-control) system."
+msgstr ""
+
+#: git-novice/reference.md:60
+msgid "revision\n"
+":   A synonym for [commit](#commit)."
+msgstr ""
+
+#: git-novice/reference.md:63
+msgid "SHA-1\n"
+":   [SHA-1 hashes](https://en.wikipedia.org/wiki/SHA-1) is what Git uses to compute identifiers, including for commits.\n"
+"    To compute these, Git uses not only the actual change of a commit, but also its metadata (such as date, author,\n"
+"    message), including the identifiers of all commits of preceding changes. This makes Git commit IDs virtually unique.\n"
+"    I.e., the likelihood that two commits made independently, even of the same change, receive the same ID is exceedingly\n"
+"    small."
+msgstr ""
+
+#: git-novice/reference.md:70
+msgid "SSH\n"
+":   The Secure Shell [protocol](#protocol) used for secure communication between computers."
+msgstr ""
+
+#: git-novice/reference.md:73
+msgid "timestamp\n"
+":   A record of when a particular event occurred."
+msgstr ""
+
+#: git-novice/reference.md:76
+msgid "version control\n"
+":   A tool for managing changes to a set of files.\n"
+"    Each set of changes creates a new [commit](#commit) of the files;\n"
+"    the version control system allows users to recover old commits reliably,\n"
+"    and helps manage conflicting changes made by different users."
+msgstr ""
+

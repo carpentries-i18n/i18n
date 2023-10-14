@@ -1,9 +1,6 @@
 [submodule "git-novice"]
+	url = https://github.com/carpentries-i18n/git-novice.git
 	path = git-novice
-	url = https://github.com/swcarpentry-i18n/git-novice.git
-[submodule "shell-novice"]
-	path = shell-novice
-	url = https://github.com/swcarpentry-i18n/shell-novice.git
 [submodule "python-ecology-lesson"]
 	url = https://github.com/carpentries-i18n/python-ecology-lesson.git
 	path = python-ecology-lesson
@@ -25,3 +22,6 @@
 [submodule "gap-lesson"]
 	url = https://github.com/carpentries-i18n/gap-lesson.git
 	path = gap-lesson
+[submodule "shell-novice"]
+	path = shell-novice
+	url = https://github.com/carpentries-i18n/shell-novice.git

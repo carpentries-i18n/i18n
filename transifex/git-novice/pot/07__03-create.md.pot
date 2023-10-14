@@ -1,0 +1,384 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/03-create.md:1
+# Front Matter
+msgid "---\n"
+"title: Creating a Repository\n"
+"teaching: 10\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Where does Git store information?\"\n"
+"objectives:\n"
+"- \"Create a local Git repository.\"\n"
+"- \"Describe the purpose of the `.git` directory.\"\n"
+"keypoints:\n"
+"- \"`git init` initializes a repository.\"\n"
+"- \"Git stores all of its repository data in the `.git` directory.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:15
+msgid "Once Git is configured,\n"
+"we can start using it."
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:18
+msgid "We will continue with the story of Wolfman and Dracula who are investigating if it\n"
+"is possible to send a planetary lander to Mars. "
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:21
+msgid "![motivatingexample](../fig/motivatingexample.png)\n"
+"[Werewolf vs dracula](https://www.deviantart.com/b-maze/art/Werewolf-vs-Dracula-124893530)\n"
+"by [b-maze](https://www.deviantart.com/b-maze) / [Deviant Art](https://www.deviantart.com/).\n"
+"[Mars](https://en.wikipedia.org/wiki/File:OSIRIS_Mars_true_color.jpg) by European Space Agency /\n"
+"[CC-BY-SA 3.0 IGO](https://creativecommons.org/licenses/by/3.0/deed.en).\n"
+"[Pluto](https://commons.wikimedia.org/wiki/File:PIA19873-Pluto-NewHorizons-FlyingPastImage-20150714-transparent.png) /\n"
+"Courtesy NASA/JPL-Caltech.\n"
+"[Mummy](https://commons.wikimedia.org/wiki/File:Mummy_icon_-_Noun_Project_4070.svg)\n"
+"&copy; Gilad Fried / [The Noun Project](https://thenounproject.com/) /\n"
+"[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en).\n"
+"[Moon](https://commons.wikimedia.org/wiki/File:Lune_ico.png)\n"
+"&copy; Luc Viatour / [https://lucnix.be](https://lucnix.be/) /\n"
+"[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)."
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:37
+msgid "First, let's create a new directory in the `Desktop` folder for our work and then change the current working directory to the newly created one:"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:39
+# code block
+msgid "~~~\n"
+"$ cd ~/Desktop\n"
+"$ mkdir planets\n"
+"$ cd planets\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:46
+msgid "Then we tell Git to make `planets` a [repository]({{ page.root }}{% link reference.md %}#repository)\n"
+"-- a place where Git can store versions of our files:"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:50
+# code block
+msgid "~~~\n"
+"$ git init\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:55
+msgid "It is important to note that `git init` will create a repository that\n"
+"can include subdirectories and their files---there is no need to create\n"
+"separate repositories nested within the `planets` repository, whether\n"
+"subdirectories are present from the beginning or added later. Also, note\n"
+"that the creation of the `planets` directory and its initialization as a\n"
+"repository are completely separate processes."
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:62
+msgid "If we use `ls` to show the directory's contents,\n"
+"it appears that nothing has changed:"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:65
+#: git-novice/_episodes/04-changes.md:50
+# code block
+msgid "~~~\n"
+"$ ls\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:70
+msgid "But if we add the `-a` flag to show everything,\n"
+"we can see that Git has created a hidden directory within `planets` called `.git`:"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:73
+# code block
+msgid "~~~\n"
+"$ ls -a\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:78
+# code block
+msgid "~~~\n"
+".	..	.git\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:81
+#: git-novice/_episodes/03-create.md:100
+#: git-novice/_episodes/03-create.md:117
+#: git-novice/_episodes/04-changes.md:45
+#: git-novice/_episodes/04-changes.md:58
+#: git-novice/_episodes/04-changes.md:71
+#: git-novice/_episodes/04-changes.md:93
+#: git-novice/_episodes/04-changes.md:122
+#: git-novice/_episodes/04-changes.md:139
+#: git-novice/_episodes/04-changes.md:168
+#: git-novice/_episodes/04-changes.md:186
+#: git-novice/_episodes/04-changes.md:220
+#: git-novice/_episodes/04-changes.md:240
+#: git-novice/_episodes/04-changes.md:267
+#: git-novice/_episodes/04-changes.md:302
+#: git-novice/_episodes/04-changes.md:318
+#: git-novice/_episodes/04-changes.md:376
+#: git-novice/_episodes/04-changes.md:393
+#: git-novice/_episodes/04-changes.md:429
+#: git-novice/_episodes/04-changes.md:445
+#: git-novice/_episodes/04-changes.md:458
+#: git-novice/_episodes/04-changes.md:486
+#: git-novice/_episodes/05-history.md:39
+#: git-novice/_episodes/05-history.md:59
+#: git-novice/_episodes/05-history.md:92
+#: git-novice/_episodes/05-history.md:118
+#: git-novice/_episodes/05-history.md:155
+#: git-novice/_episodes/05-history.md:177
+#: git-novice/_episodes/05-history.md:203
+#: git-novice/_episodes/05-history.md:219
+#: git-novice/_episodes/05-history.md:242
+#: git-novice/_episodes/05-history.md:257
+#: git-novice/_episodes/06-ignore.md:44
+#: git-novice/_episodes/06-ignore.md:63
+#: git-novice/_episodes/06-ignore.md:87
+#: git-novice/_episodes/06-ignore.md:106
+#: git-novice/_episodes/06-ignore.md:120
+#: git-novice/_episodes/06-ignore.md:144
+#: git-novice/_episodes/07-github.md:119
+#: git-novice/_episodes/07-github.md:161
+#: git-novice/_episodes/07-github.md:181
+#: git-novice/_episodes/07-github.md:189
+#: git-novice/_episodes/07-github.md:196
+#: git-novice/_episodes/07-github.md:218
+#: git-novice/_episodes/07-github.md:236
+#: git-novice/_episodes/07-github.md:256
+#: git-novice/_episodes/07-github.md:270
+#: git-novice/_episodes/07-github.md:286
+#: git-novice/_episodes/07-github.md:314
+#: git-novice/_episodes/07-github.md:386
+#: git-novice/_episodes/08-collab.md:74
+#: git-novice/_episodes/08-collab.md:86
+#: git-novice/_episodes/08-collab.md:105
+#: git-novice/_episodes/08-collab.md:169
+#: git-novice/_episodes/09-conflict.md:36
+#: git-novice/_episodes/09-conflict.md:52
+#: git-novice/_episodes/09-conflict.md:66
+#: git-novice/_episodes/09-conflict.md:84
+#: git-novice/_episodes/09-conflict.md:102
+#: git-novice/_episodes/09-conflict.md:116
+#: git-novice/_episodes/09-conflict.md:135
+#: git-novice/_episodes/09-conflict.md:163
+#: git-novice/_episodes/09-conflict.md:187
+#: git-novice/_episodes/09-conflict.md:213
+#: git-novice/_episodes/09-conflict.md:235
+#: git-novice/_episodes/09-conflict.md:245
+#: git-novice/_episodes/09-conflict.md:265
+#: git-novice/_episodes/09-conflict.md:290
+#: git-novice/_episodes/09-conflict.md:305
+#: git-novice/_extras/discuss.md:34
+#: git-novice/_extras/discuss.md:156
+#: git-novice/_extras/discuss.md:174
+#: git-novice/_extras/discuss.md:189
+#: git-novice/_extras/discuss.md:202
+#: git-novice/_extras/discuss.md:247
+#: git-novice/_extras/discuss.md:266
+#: git-novice/_extras/discuss.md:310
+#: git-novice/_extras/discuss.md:331
+#: git-novice/_extras/discuss.md:378
+#: git-novice/_extras/discuss.md:424
+#: git-novice/_extras/discuss.md:445
+# SC/DC Template label
+msgid "{: .output}"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:83
+msgid "Git uses this special subdirectory to store all the information about the project, \n"
+"including the tracked files and sub-directories located within the project's directory.\n"
+"If we ever delete the `.git` subdirectory,\n"
+"we will lose the project's history."
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:88
+msgid "Next, we will change the default branch to be called `main`.\n"
+"This might be the default branch depending on your settings and version\n"
+"of git.\n"
+"See the [setup episode]({{ page.root }}{% link _episodes/02-setup.md %}) for more information on this change."
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:93
+# code block
+msgid "~~~\n"
+"$ git checkout -b main\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:96
+msgid "{: .language-bash}\n"
+"~~~\n"
+"Switched to a new branch 'main'\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:103
+msgid "We can check that everything is set up correctly\n"
+"by asking Git to tell us the status of our project:"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:106
+#: git-novice/_episodes/04-changes.md:76
+#: git-novice/_episodes/04-changes.md:106
+#: git-novice/_episodes/04-changes.md:159
+#: git-novice/_episodes/04-changes.md:225
+#: git-novice/_episodes/04-changes.md:449
+#: git-novice/_episodes/05-history.md:188
+#: git-novice/_episodes/05-history.md:244
+#: git-novice/_episodes/06-ignore.md:27
+#: git-novice/_episodes/06-ignore.md:73
+# code block
+msgid "~~~\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:109
+msgid "{: .language-bash}\n"
+"~~~\n"
+"On branch main"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:113
+msgid "No commits yet"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:115
+msgid "nothing to commit (create/copy files and use \"git add\" to track)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:119
+msgid "If you are using a different version of `git`, the exact\n"
+"wording of the output might be slightly different."
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:122
+# blockquote, which can be cascaded
+msgid "> ## Places to Create Git Repositories"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:123
+msgid ">\n"
+"> Along with tracking information about planets (the project we have already created), \n"
+"> Dracula would also like to track information about moons.\n"
+"> Despite Wolfman's concerns, Dracula creates a `moons` project inside his `planets` \n"
+"> project with the following sequence of commands:\n"
+">\n"
+"> ~~~\n"
+"> $ cd ~/Desktop   # return to Desktop directory\n"
+"> $ cd planets     # go into planets directory, which is already a Git repository\n"
+"> $ ls -a          # ensure the .git subdirectory is still present in the planets directory\n"
+"> $ mkdir moons    # make a subdirectory planets/moons\n"
+"> $ cd moons       # go into moons subdirectory\n"
+"> $ git init       # make the moons subdirectory a Git repository\n"
+"> $ ls -a          # ensure the .git subdirectory is present indicating we have created a new Git repository\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Is the `git init` command, run inside the `moons` subdirectory, required for \n"
+"> tracking files stored in the `moons` subdirectory?\n"
+"> \n"
+"> > ## Solution\n"
+"> >\n"
+"> > No. Dracula does not need to make the `moons` subdirectory a Git repository \n"
+"> > because the `planets` repository can track any files, sub-directories, and \n"
+"> > subdirectory files under the `planets` directory.  Thus, in order to track \n"
+"> > all information about moons, Dracula only needed to add the `moons` subdirectory\n"
+"> > to the `planets` directory.\n"
+"> > \n"
+"> > Additionally, Git repositories can interfere with each other if they are \"nested\":\n"
+"> > the outer repository will try to version-control\n"
+"> > the inner repository. Therefore, it's best to create each new Git\n"
+"> > repository in a separate directory. To be sure that there is no conflicting\n"
+"> > repository in the directory, check the output of `git status`. If it looks\n"
+"> > like the following, you are good to go to create a new repository as shown\n"
+"> > above:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git status\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> > ~~~\n"
+"> > fatal: Not a git repository (or any of the parent directories): .git\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:169
+# blockquote, which can be cascaded
+msgid "> ## Correcting `git init` Mistakes"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:170
+# blockquote, which can be cascaded
+msgid "> Wolfman explains to Dracula how a nested repository is redundant and may cause confusion"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:171
+# blockquote, which can be cascaded
+msgid "> down the road. Dracula would like to remove the nested repository. How can Dracula undo "
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:172
+# blockquote, which can be cascaded
+msgid "> his last `git init` in the `moons` subdirectory?"
+msgstr ""
+
+#: git-novice/_episodes/03-create.md:173
+msgid ">\n"
+"> > ## Solution -- USE WITH CAUTION!\n"
+"> >\n"
+"> > ### Background\n"
+"> > Removing files from a Git repository needs to be done with caution. But we have not learned \n"
+"> > yet how to tell Git to track a particular file; we will learn this in the next episode. Files \n"
+"> > that are not tracked by Git can easily be removed like any other \"ordinary\" files with\n"
+"> > ~~~\n"
+"> > $ rm filename\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > Similarly a directory can be removed using `rm -r dirname` or `rm -rf dirname`.\n"
+"> > If the files or folder being removed in this fashion are tracked by Git, then their removal \n"
+"> > becomes another change that we will need to track, as we will see in the next episode.\n"
+"> >\n"
+"> > ### Solution\n"
+"> > Git keeps all of its files in the `.git` directory.\n"
+"> > To recover from this little mistake, Dracula can just remove the `.git`\n"
+"> > folder in the moons subdirectory by running the following command from inside the `planets` directory:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ rm -rf moons/.git\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > But be careful! Running this command in the wrong directory will remove\n"
+"> > the entire Git history of a project you might want to keep.\n"
+"> > Therefore, always check your current directory using the command `pwd`."
+msgstr ""
+

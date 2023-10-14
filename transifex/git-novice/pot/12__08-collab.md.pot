@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/08-collab.md:1
+# Front Matter
+msgid "---\n"
+"title: Collaborating\n"
+"teaching: 25\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How can I use version control to collaborate with other people?\"\n"
+"objectives:\n"
+"- \"Clone a remote repository.\"\n"
+"- \"Collaborate by pushing to a common repository.\"\n"
+"- \"Describe the basic collaborative workflow.\"\n"
+"keypoints:\n"
+"- \"`git clone` copies a remote repository to create a local repository with a remote called `origin` automatically set up.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:15
+msgid "For the next step, get into pairs.  One person will be the \"Owner\" and the other\n"
+"will be the \"Collaborator\". The goal is that the Collaborator add changes into\n"
+"the Owner's repository. We will switch roles at the end, so both persons will\n"
+"play Owner and Collaborator."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:20
+# blockquote, which can be cascaded
+msgid "> ## Practicing By Yourself"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:21
+msgid ">\n"
+"> If you're working through this lesson on your own, you can carry on by opening\n"
+"> a second terminal window.\n"
+"> This window will represent your partner, working on another computer. You\n"
+"> won't need to give anyone access on GitHub, because both 'partners' are you."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:28
+msgid "The Owner needs to give the Collaborator access. On GitHub, click the \"Settings\"\n"
+"button on the right, select \"Collaborators\", click \"Add people\", and\n"
+"then enter your partner's username."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:32
+msgid "![Adding Collaborators on GitHub](../fig/github-add-collaborators.png)"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:34
+msgid "To accept access to the Owner's repo, the Collaborator\n"
+"needs to go to [https://github.com/notifications](https://github.com/notifications) \n"
+"or check for email notification. Once there she can accept access to the Owner's repo."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:38
+msgid "Next, the Collaborator needs to download a copy of the Owner's repository to her\n"
+"machine. This is called \"cloning a repo\". "
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:41
+msgid "The Collaborator doesn't want to overwrite her own version of `planets.git`, so \n"
+"needs to clone the Owner's repository to a different location than her own \n"
+"repository with the same name."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:45
+msgid "To clone the Owner's repo into her `Desktop` folder, the Collaborator enters:"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:47
+# code block
+msgid "~~~\n"
+"$ git clone git@github.com:vlad/planets.git ~/Desktop/vlad-planets\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:52
+msgid "Replace 'vlad' with the Owner's username."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:54
+msgid "If you choose to clone without the clone path\n"
+"(`~/Desktop/vlad-planets`) specified at the end,\n"
+"you will clone inside your own planets folder!\n"
+"Make sure to navigate to the `Desktop` folder first."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:59
+msgid "![After Creating Clone of Repository](../fig/github-collaboration.svg)"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:61
+msgid "The Collaborator can now make a change in her clone of the Owner's repository,\n"
+"exactly the same way as we've been doing before:"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:64
+# code block
+msgid "~~~\n"
+"$ cd ~/Desktop/vlad-planets\n"
+"$ nano pluto.txt\n"
+"$ cat pluto.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:71
+# code block
+msgid "~~~\n"
+"It is so a planet!\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:76
+# code block
+msgid "~~~\n"
+"$ git add pluto.txt\n"
+"$ git commit -m \"Add notes about Pluto\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:82
+# code block
+msgid "~~~\n"
+" 1 file changed, 1 insertion(+)\n"
+" create mode 100644 pluto.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:88
+msgid "Then push the change to the *Owner's repository* on GitHub:"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:95
+# code block
+msgid "~~~\n"
+"Enumerating objects: 4, done.\n"
+"Counting objects: 4, done.\n"
+"Delta compression using up to 4 threads.\n"
+"Compressing objects: 100% (2/2), done.\n"
+"Writing objects: 100% (3/3), 306 bytes, done.\n"
+"Total 3 (delta 0), reused 0 (delta 0)\n"
+"To https://github.com/vlad/planets.git\n"
+"   9272da5..29aba7c  main -> main\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:107
+msgid "Note that we didn't have to create a remote called `origin`: Git uses this\n"
+"name by default when we clone a repository.  (This is why `origin` was a\n"
+"sensible choice earlier when we were setting up remotes by hand.)"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:111
+msgid "Take a look at the Owner’s repository on GitHub again, and you should be \n"
+"able to see the new commit made by the Collaborator. You may need to refresh\n"
+"your browser to see the new commit."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:115
+# blockquote, which can be cascaded
+msgid "> ## Some more about remotes"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:116
+msgid ">\n"
+"> In this episode and the previous one, our local repository has had\n"
+"> a single \"remote\", called `origin`. A remote is a copy of the repository\n"
+"> that is hosted somewhere else, that we can push to and pull from, and \n"
+"> there's no reason that you have to work with only one. For example, \n"
+"> on some large projects you might have your own copy in your own GitHub\n"
+"> account (you'd probably call this `origin`) and also the main \"upstream\"\n"
+"> project repository (let's call this `upstream` for the sake of examples).\n"
+"> You would pull from `upstream` from time to \n"
+"> time to get the latest updates that other people have committed.\n"
+">\n"
+"> Remember that the name you give to a remote only exists locally. It's\n"
+"> an alias that you choose - whether `origin`, or `upstream`, or `fred` -\n"
+"> and not something intrinstic to the remote repository.\n"
+">\n"
+"> The `git remote` family of commands is used to set up and alter the remotes\n"
+"> associated with a repository. Here are some of the most useful ones:\n"
+">\n"
+"> * `git remote -v` lists all the remotes that are configured (we already used\n"
+"> this in the last episode)\n"
+"> * `git remote add [name] [url]` is used to add a new remote\n"
+"> * `git remote remove [name]` removes a remote. Note that it doesn't affect the \n"
+"> remote repository at all - it just removes the link to it from the local repo.\n"
+"> * `git remote set-url [name] [newurl]` changes the URL that is associated \n"
+"> with the remote. This is useful if it has moved, e.g. to a different GitHub\n"
+"> account, or from GitHub to a different hosting service. Or, if we made a typo when\n"
+"> adding it!\n"
+"> * `git remote rename [oldname] [newname]` changes the local alias by which a remote \n"
+"> is known - its name. For example, one could use this to change `upstream` to `fred`."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:147
+msgid "To download the Collaborator's changes from GitHub, the Owner now enters:"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:154
+# code block
+msgid "~~~\n"
+"remote: Enumerating objects: 4, done.\n"
+"remote: Counting objects: 100% (4/4), done.\n"
+"remote: Compressing objects: 100% (2/2), done.\n"
+"remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0\n"
+"Unpacking objects: 100% (3/3), done.\n"
+"From https://github.com/vlad/planets\n"
+" * branch            main     -> FETCH_HEAD\n"
+"   9272da5..29aba7c  main     -> origin/main\n"
+"Updating 9272da5..29aba7c\n"
+"Fast-forward\n"
+" pluto.txt | 1 +\n"
+" 1 file changed, 1 insertion(+)\n"
+" create mode 100644 pluto.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:171
+msgid "Now the three repositories (Owner's local, Collaborator's local, and Owner's on\n"
+"GitHub) are back in sync."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:174
+# blockquote, which can be cascaded
+msgid "> ## A Basic Collaborative Workflow"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:175
+msgid ">\n"
+"> In practice, it is good to be sure that you have an updated version of the\n"
+"> repository you are collaborating on, so you should `git pull` before making\n"
+"> our changes. The basic collaborative workflow would be:\n"
+">\n"
+"> * update your local repo with `git pull origin main`,\n"
+"> * make your changes and stage them with `git add`,\n"
+"> * commit your changes with `git commit -m`, and\n"
+"> * upload the changes to GitHub with `git push origin main`\n"
+">\n"
+"> It is better to make many commits with smaller changes rather than\n"
+"> of one commit with massive changes: small commits are easier to\n"
+"> read and review."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:190
+# blockquote, which can be cascaded
+msgid "> ## Switch Roles and Repeat"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:191
+msgid ">\n"
+"> Switch roles and repeat the whole process."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:195
+# blockquote, which can be cascaded
+msgid "> ## Review Changes"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:196
+msgid ">\n"
+"> The Owner pushed commits to the repository without giving any information\n"
+"> to the Collaborator. How can the Collaborator find out what has changed with\n"
+"> command line? And on GitHub?\n"
+">\n"
+"> > ## Solution\n"
+"> > On the command line, the Collaborator can use ```git fetch origin main```\n"
+"> > to get the remote changes into the local repository, but without merging\n"
+"> > them. Then by running ```git diff main origin/main``` the Collaborator\n"
+"> > will see the changes output in the terminal.\n"
+"> >\n"
+"> > On GitHub, the Collaborator can go to the repository and click on \n"
+"> > \"commits\" to view the most recent commits pushed to the repository."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:212
+# blockquote, which can be cascaded
+msgid "> ## Comment Changes in GitHub"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:213
+msgid ">\n"
+"> The Collaborator has some questions about one line change made by the Owner and\n"
+"> has some suggestions to propose.\n"
+">\n"
+"> With GitHub, it is possible to comment on the diff of a commit. Over the line of\n"
+"> code to comment, a blue comment icon appears to open a comment window.\n"
+">\n"
+"> The Collaborator posts her comments and suggestions using the GitHub interface."
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:223
+# blockquote, which can be cascaded
+msgid "> ## Version History, Backup, and Version Control"
+msgstr ""
+
+#: git-novice/_episodes/08-collab.md:224
+msgid ">\n"
+"> Some backup software can keep a history of the versions of your files. They also\n"
+"> allows you to recover specific versions. How is this functionality different from version control?\n"
+"> What are some of the benefits of using version control, Git and GitHub?"
+msgstr ""
+

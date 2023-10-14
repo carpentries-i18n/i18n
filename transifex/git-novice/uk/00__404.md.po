@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sofiia Matios, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Sofiia Matios, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: git-novice/404.md:1
+msgid ""
+"---\n"
+"layout: base\n"
+"root: .\n"
+"permalink: 404.html\n"
+"title: \"Page not found\"\n"
+"---"
+msgstr ""
+"---\n"
+"layout: base\n"
+"root: .\n"
+"permalink: 404.html\n"
+"title: \"Сторінку не знайдено\"\n"
+"---"
+
+# header
+#: git-novice/404.md:8
+msgid "# Oops! We can't find that page."
+msgstr "# Ой! Ми не можемо знайти цю сторінку."
+
+#: git-novice/404.md:9
+msgid "{: style=\"text-align: center;\"}"
+msgstr "{: style=\"text-align: center;\"}"
+
+# blockquote, which can be cascaded
+#: git-novice/404.md:11
+msgid "> ## Our apologies!"
+msgstr "> ## Наші вибачення!"
+
+#: git-novice/404.md:12
+msgid ""
+">\n"
+"> We can't seem to find the page you're looking for.\n"
+"> Try going back to the <a href=\"javascript:history.back()\">previous page</a> or\n"
+"> navigate to any other page using the navigation bar above\n"
+"> {%- if site.kind == \"lesson\" -%} or the schedule below {%- endif -%}.\n"
+"> If you got here by clicking on a link in the\n"
+"> {%- if site.kind == \"lesson\" -%} lesson {%- else -%} workshop {%- endif -%},\n"
+"> please report this link to the\n"
+"> {%- if site.kind == \"lesson\" -%} lesson developers {%- else -%} workshop organizers {%- endif -%}."
+msgstr ""
+">\n"
+"> Ми не можемо знайти сторінку, яку ви шукаєте.\n"
+"> Спробуйте повернутися до <a href=\"javascript:history.back()\">попередньої сторінки</a> або\n"
+"> перейти на будь-яку іншу сторінку за допомогою навігаційної панелі вище\n"
+"> {%- if site.kind == \"lesson\" -%} або нижче {%- endif -%}.\n"
+"> Якщо ви потрапили сюди, натиснувши на посилання в\n"
+"> {%- if site.kind == \"lesson\" -%} уроці {%- else -%} семінарі {%- endif -%},\n"
+"> будь-ласка, повідомте про це посилання\n"
+"> {%- if site.kind == \"lesson\" -%} розробників уроків {%- else -%} організаторів семінарів {%- endif -%}."
+
+# SC/DC Template label
+#: git-novice/404.md:21
+msgid "{: .caution}"
+msgstr "{: .caution}"
+
+#: git-novice/404.md:23
+msgid ""
+"{% if site.kind == \"lesson\" %}\n"
+"  {% include syllabus.html %}\n"
+"{% endif%}"
+msgstr ""
+"{% if site.kind == \"lesson\" %}\n"
+"  {% include syllabus.html %}\n"
+"{% endif%}"

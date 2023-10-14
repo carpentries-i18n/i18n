@@ -1,0 +1,937 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/04-changes.md:1
+# Front Matter
+msgid "---\n"
+"title: Tracking Changes\n"
+"teaching: 20\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How do I record changes in Git?\"\n"
+"- \"How do I check the status of my version control repository?\"\n"
+"- \"How do I record notes about what changes I made and why?\"\n"
+"objectives:\n"
+"- \"Go through the modify-add-commit cycle for one or more files.\"\n"
+"- \"Explain where information is stored at each stage of that cycle.\"\n"
+"- \"Distinguish between descriptive and non-descriptive commit messages.\"\n"
+"keypoints:\n"
+"- \"`git status` shows the status of a repository.\"\n"
+"- \"Files can be stored in a project's working directory (which users see), the staging area (where the next commit is being built up) and the local repository (where commits are permanently recorded).\"\n"
+"- \"`git add` puts files in the staging area.\"\n"
+"- \"`git commit` saves the staged content as a new commit in the local repository.\"\n"
+"- \"Write a commit message that accurately describes your changes.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:21
+msgid "First let's make sure we're still in the right directory.\n"
+"You should be in the `planets` directory."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:24
+# code block
+msgid "~~~\n"
+"$ cd ~/Desktop/planets\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:29
+msgid "Let's create a file called `mars.txt` that contains some notes\n"
+"about the Red Planet's suitability as a base.\n"
+"We'll use `nano` to edit the file;\n"
+"you can use whatever editor you like.\n"
+"In particular, this does not have to be the `core.editor` you set globally earlier. But remember, the bash command to create or edit a new file will depend on the editor you choose (it might not be `nano`). For a refresher on text editors, check out [\"Which Editor?\"](https://swcarpentry.github.io/shell-novice/03-create/) in [The Unix Shell](https://swcarpentry.github.io/shell-novice/) lesson."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:35
+# code block
+msgid "~~~\n"
+"$ nano mars.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:40
+msgid "Type the text below into the `mars.txt` file:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:42
+#: git-novice/_episodes/04-changes.md:68
+#: git-novice/_episodes/05-history.md:239
+#: git-novice/_extras/discuss.md:153
+# code block
+msgid "~~~\n"
+"Cold and dry, but everything is my favorite color\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:47
+msgid "Let's first verify that the file was properly created by running the list command (`ls`):"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:55
+# code block
+msgid "~~~\n"
+"mars.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:61
+msgid "`mars.txt` contains a single line, which we can see by running:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:63
+#: git-novice/_episodes/05-history.md:234
+#: git-novice/_episodes/09-conflict.md:26
+#: git-novice/_episodes/09-conflict.md:172
+#: git-novice/_episodes/09-conflict.md:202
+#: git-novice/_episodes/09-conflict.md:294
+# code block
+msgid "~~~\n"
+"$ cat mars.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:73
+msgid "If we check the status of our project again,\n"
+"Git tells us that it's noticed the new file:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:81
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"\n"
+"No commits yet\n"
+"\n"
+"Untracked files:\n"
+"   (use \"git add <file>...\" to include in what will be committed)\n"
+"\n"
+"	mars.txt\n"
+"\n"
+"nothing added to commit but untracked files present (use \"git add\" to track)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:95
+msgid "The \"untracked files\" message means that there's a file in the directory\n"
+"that Git isn't keeping track of.\n"
+"We can tell Git to track a file using `git add`:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:99
+# code block
+msgid "~~~\n"
+"$ git add mars.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:104
+msgid "and then check that the right thing happened:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:111
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"\n"
+"No commits yet\n"
+"\n"
+"Changes to be committed:\n"
+"  (use \"git rm --cached <file>...\" to unstage)\n"
+"\n"
+"	new file:   mars.txt\n"
+"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:124
+msgid "Git now knows that it's supposed to keep track of `mars.txt`,\n"
+"but it hasn't recorded these changes as a commit yet.\n"
+"To get it to do that,\n"
+"we need to run one more command:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:129
+# code block
+msgid "~~~\n"
+"$ git commit -m \"Start notes on Mars as a base\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:134
+# code block
+msgid "~~~\n"
+"[main (root-commit) f22b25e] Start notes on Mars as a base\n"
+" 1 file changed, 1 insertion(+)\n"
+" create mode 100644 mars.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:141
+msgid "When we run `git commit`,\n"
+"Git takes everything we have told it to save by using `git add`\n"
+"and stores a copy permanently inside the special `.git` directory.\n"
+"This permanent copy is called a [commit]({{ page.root }}{% link reference.md %}#commit)\n"
+"(or [revision]({{ page.root }}{% link reference.md %}#revision)) and its short identifier is `f22b25e`. Your commit may have another identifier."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:147
+msgid "We use the `-m` flag (for \"message\")\n"
+"to record a short, descriptive, and specific comment that will help us remember later on what we did and why.\n"
+"If we just run `git commit` without the `-m` option,\n"
+"Git will launch `nano` (or whatever other editor we configured as `core.editor`)\n"
+"so that we can write a longer message."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:153
+msgid "[Good commit messages][commit-messages] start with a brief (<50 characters) statement about the\n"
+"changes made in the commit. Generally, the message should complete the sentence \"If applied, this commit will\" <commit message here>.\n"
+"If you want to go into more detail, add a blank line between the summary line and your additional notes. Use this additional space to explain why you made changes and/or what their impact will be."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:157
+msgid "If we run `git status` now:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:164
+#: git-novice/_episodes/04-changes.md:454
+#: git-novice/_episodes/06-ignore.md:102
+#: git-novice/_extras/discuss.md:243
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"nothing to commit, working tree clean\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:170
+msgid "it tells us everything is up to date.\n"
+"If we want to know what we've done recently,\n"
+"we can ask Git to show us the project's history using `git log`:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:174
+#: git-novice/_episodes/04-changes.md:462
+# code block
+msgid "~~~\n"
+"$ git log\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:179
+# code block
+msgid "~~~\n"
+"commit f22b25e3233b4645dabd0d81e651fe074bd8e73b\n"
+"Author: Vlad Dracula <vlad@tran.sylvan.ia>\n"
+"Date:   Thu Aug 22 09:51:46 2013 -0400\n"
+"\n"
+"    Start notes on Mars as a base\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:188
+msgid "`git log` lists all commits  made to a repository in reverse chronological order.\n"
+"The listing for each commit includes\n"
+"the commit's full identifier\n"
+"(which starts with the same characters as\n"
+"the short identifier printed by the `git commit` command earlier),\n"
+"the commit's author,\n"
+"when it was created,\n"
+"and the log message Git was given when the commit was created."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:197
+# blockquote, which can be cascaded
+msgid "> ## Where Are My Changes?"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:198
+msgid ">\n"
+"> If we run `ls` at this point, we will still see just one file called `mars.txt`.\n"
+"> That's because Git saves information about files' history\n"
+"> in the special `.git` directory mentioned earlier\n"
+"> so that our filesystem doesn't become cluttered\n"
+"> (and so that we can't accidentally edit or delete an old version)."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:206
+msgid "Now suppose Dracula adds more information to the file.\n"
+"(Again, we'll edit with `nano` and then `cat` the file to show its contents;\n"
+"you may use a different editor, and don't need to `cat`.)"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:210
+#: git-novice/_episodes/04-changes.md:365
+#: git-novice/_episodes/05-history.md:27
+#: git-novice/_episodes/09-conflict.md:40
+#: git-novice/_episodes/09-conflict.md:90
+# code block
+msgid "~~~\n"
+"$ nano mars.txt\n"
+"$ cat mars.txt\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:216
+#: git-novice/_extras/discuss.md:170
+# code block
+msgid "~~~\n"
+"Cold and dry, but everything is my favorite color\n"
+"The two moons may be a problem for Wolfman\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:222
+msgid "When we run `git status` now,\n"
+"it tells us that a file it already knows about has been modified:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:230
+#: git-novice/_episodes/04-changes.md:292
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"Changes not staged for commit:\n"
+"  (use \"git add <file>...\" to update what will be committed)\n"
+"  (use \"git checkout -- <file>...\" to discard changes in working directory)\n"
+"\n"
+"	modified:   mars.txt\n"
+"\n"
+"no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:242
+msgid "The last line is the key phrase:\n"
+"\"no changes added to commit\".\n"
+"We have changed this file,\n"
+"but we haven't told Git we will want to save those changes\n"
+"(which we do with `git add`)\n"
+"nor have we saved them (which we do with `git commit`).\n"
+"So let's do that now. It is good practice to always review\n"
+"our changes before saving them. We do this using `git diff`.\n"
+"This shows us the differences between the current state\n"
+"of the file and the most recently saved version:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:253
+#: git-novice/_episodes/04-changes.md:378
+#: git-novice/_extras/discuss.md:179
+# code block
+msgid "~~~\n"
+"$ git diff\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:258
+#: git-novice/_extras/discuss.md:193
+# code block
+msgid "~~~\n"
+"diff --git a/mars.txt b/mars.txt\n"
+"index df0654a..315bf3a 100644\n"
+"--- a/mars.txt\n"
+"+++ b/mars.txt\n"
+"@@ -1 +1,2 @@\n"
+" Cold and dry, but everything is my favorite color\n"
+"+The two moons may be a problem for Wolfman\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:269
+msgid "The output is cryptic because\n"
+"it is actually a series of commands for tools like editors and `patch`\n"
+"telling them how to reconstruct one file given the other.\n"
+"If we break it down into pieces:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:274
+# ordered list
+msgid "1.  The first line tells us that Git is producing output similar to the Unix `diff` command"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:275
+msgid "    comparing the old and new versions of the file.\n"
+"2.  The second line tells exactly which versions of the file\n"
+"    Git is comparing;\n"
+"    `df0654a` and `315bf3a` are unique computer-generated labels for those versions.\n"
+"3.  The third and fourth lines once again show the name of the file being changed.\n"
+"4.  The remaining lines are the most interesting, they show us the actual differences\n"
+"    and the lines on which they occur.\n"
+"    In particular,\n"
+"    the `+` marker in the first column shows where we added a line."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:285
+msgid "After reviewing our change, it's time to commit it:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:287
+# code block
+msgid "~~~\n"
+"$ git commit -m \"Add concerns about effects of Mars' moons on Wolfman\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:304
+msgid "Whoops:\n"
+"Git won't commit because we didn't use `git add` first.\n"
+"Let's fix that:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:308
+# code block
+msgid "~~~\n"
+"$ git add mars.txt\n"
+"$ git commit -m \"Add concerns about effects of Mars' moons on Wolfman\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:314
+# code block
+msgid "~~~\n"
+"[main 34961b1] Add concerns about effects of Mars' moons on Wolfman\n"
+" 1 file changed, 1 insertion(+)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:320
+msgid "Git insists that we add files to the set we want to commit\n"
+"before actually committing anything. This allows us to commit our\n"
+"changes in stages and capture changes in logical portions rather than\n"
+"only large batches.\n"
+"For example,\n"
+"suppose we're adding a few citations to relevant research to our thesis.\n"
+"We might want to commit those additions,\n"
+"and the corresponding bibliography entries,\n"
+"but *not* commit some of our work drafting the conclusion\n"
+"(which we haven't finished yet)."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:331
+msgid "To allow for this,\n"
+"Git has a special *staging area*\n"
+"where it keeps track of things that have been added to\n"
+"the current [changeset]({{ page.root }}{% link reference.md %}#changeset)\n"
+"but not yet committed."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:337
+# blockquote, which can be cascaded
+msgid "> ## Staging Area"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:338
+msgid ">\n"
+"> If you think of Git as taking snapshots of changes over the life of a project,\n"
+"> `git add` specifies *what* will go in a snapshot\n"
+"> (putting things in the staging area),\n"
+"> and `git commit` then *actually takes* the snapshot, and\n"
+"> makes a permanent record of it (as a commit).\n"
+"> If you don't have anything staged when you type `git commit`,\n"
+"> Git will prompt you to use `git commit -a` or `git commit --all`,\n"
+"> which is kind of like gathering *everyone* to take a group photo!\n"
+"> However, it's almost always better to\n"
+"> explicitly add things to the staging area, because you might\n"
+"> commit changes you forgot you made. (Going back to the group photo simile,\n"
+"> you might get an extra with incomplete makeup walking on\n"
+"> the stage for the picture because you used `-a`!)\n"
+"> Try to stage things manually,\n"
+"> or you might find yourself searching for \"git undo commit\" more\n"
+"> than you would like!"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:357
+msgid "![The Git Staging Area](../fig/git-staging-area.svg)"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:359
+msgid "Let's watch as our changes to a file move from our editor\n"
+"to the staging area\n"
+"and into long-term storage.\n"
+"First,\n"
+"we'll add another line to the file:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:371
+#: git-novice/_episodes/05-history.md:214
+#: git-novice/_episodes/09-conflict.md:31
+# code block
+msgid "~~~\n"
+"Cold and dry, but everything is my favorite color\n"
+"The two moons may be a problem for Wolfman\n"
+"But the Mummy will appreciate the lack of humidity\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:383
+#: git-novice/_episodes/04-changes.md:419
+# code block
+msgid "~~~\n"
+"diff --git a/mars.txt b/mars.txt\n"
+"index 315bf3a..b36abfd 100644\n"
+"--- a/mars.txt\n"
+"+++ b/mars.txt\n"
+"@@ -1,2 +1,3 @@\n"
+" Cold and dry, but everything is my favorite color\n"
+" The two moons may be a problem for Wolfman\n"
+"+But the Mummy will appreciate the lack of humidity\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:395
+msgid "So far, so good:\n"
+"we've added one line to the end of the file\n"
+"(shown with a `+` in the first column).\n"
+"Now let's put that change in the staging area\n"
+"and see what `git diff` reports:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:401
+# code block
+msgid "~~~\n"
+"$ git add mars.txt\n"
+"$ git diff\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:407
+msgid "There is no output:\n"
+"as far as Git can tell,\n"
+"there's no difference between what it's been asked to save permanently\n"
+"and what's currently in the directory.\n"
+"However,\n"
+"if we do this:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:414
+# code block
+msgid "~~~\n"
+"$ git diff --staged\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:431
+msgid "it shows us the difference between\n"
+"the last committed change\n"
+"and what's in the staging area.\n"
+"Let's save our changes:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:436
+# code block
+msgid "~~~\n"
+"$ git commit -m \"Discuss concerns about Mars' climate for Mummy\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:441
+# code block
+msgid "~~~\n"
+"[main 005937f] Discuss concerns about Mars' climate for Mummy\n"
+" 1 file changed, 1 insertion(+)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:447
+msgid "check our status:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:460
+msgid "and look at the history of what we've done so far:"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:467
+# code block
+msgid "~~~\n"
+"commit 005937fbe2a98fb83f0ade869025dc2636b4dad5 (HEAD -> main)\n"
+"Author: Vlad Dracula <vlad@tran.sylvan.ia>\n"
+"Date:   Thu Aug 22 10:14:07 2013 -0400\n"
+"\n"
+"    Discuss concerns about Mars' climate for Mummy\n"
+"\n"
+"commit 34961b159c27df3b475cfe4415d94a6d1fcd064d\n"
+"Author: Vlad Dracula <vlad@tran.sylvan.ia>\n"
+"Date:   Thu Aug 22 10:07:21 2013 -0400\n"
+"\n"
+"    Add concerns about effects of Mars' moons on Wolfman\n"
+"\n"
+"commit f22b25e3233b4645dabd0d81e651fe074bd8e73b\n"
+"Author: Vlad Dracula <vlad@tran.sylvan.ia>\n"
+"Date:   Thu Aug 22 09:51:46 2013 -0400\n"
+"\n"
+"    Start notes on Mars as a base\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:488
+# blockquote, which can be cascaded
+msgid "> ## Word-based diffing"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:489
+msgid ">\n"
+"> Sometimes, e.g. in the case of the text documents a line-wise\n"
+"> diff is too coarse. That is where the `--color-words` option of\n"
+"> `git diff` comes in very useful as it highlights the changed\n"
+"> words using colors."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:496
+# blockquote, which can be cascaded
+msgid "> ## Paging the Log"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:497
+msgid ">\n"
+"> When the output of `git log` is too long to fit in your screen,\n"
+"> `git` uses a program to split it into pages of the size of your screen.\n"
+"> When this \"pager\" is called, you will notice that the last line in your\n"
+"> screen is a `:`, instead of your usual prompt.\n"
+">\n"
+"> *   To get out of the pager, press <kbd>Q</kbd>.\n"
+"> *   To move to the next page, press <kbd>Spacebar</kbd>.\n"
+"> *   To search for `some_word` in all pages,\n"
+">     press <kbd>/</kbd>\n"
+">     and type `some_word`.\n"
+">     Navigate through matches pressing <kbd>N</kbd>."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:511
+# blockquote, which can be cascaded
+msgid "> ## Limit Log Size"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:512
+msgid ">\n"
+"> To avoid having `git log` cover your entire terminal screen, you can limit the\n"
+"> number of commits that Git lists by using `-N`, where `N` is the number of\n"
+"> commits that you want to view. For example, if you only want information from\n"
+"> the last commit you can use:\n"
+">\n"
+"> ~~~\n"
+"> $ git log -1\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> ~~~\n"
+"> commit 005937fbe2a98fb83f0ade869025dc2636b4dad5 (HEAD -> main)\n"
+"> Author: Vlad Dracula <vlad@tran.sylvan.ia>\n"
+"> Date:   Thu Aug 22 10:14:07 2013 -0400\n"
+">\n"
+">    Discuss concerns about Mars' climate for Mummy\n"
+"> ~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:530
+#: git-novice/_episodes/04-changes.md:544
+#: git-novice/_episodes/04-changes.md:561
+#: git-novice/_episodes/05-history.md:330
+#: git-novice/_extras/discuss.md:488
+# SC/DC Template label
+msgid "> {: .output}"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:531
+msgid ">\n"
+"> You can also reduce the quantity of information using the\n"
+"> `--oneline` option:\n"
+">\n"
+"> ~~~\n"
+"> $ git log --oneline\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> ~~~\n"
+"> 005937f (HEAD -> main) Discuss concerns about Mars' climate for Mummy\n"
+"> 34961b1 Add concerns about effects of Mars' moons on Wolfman\n"
+"> f22b25e Start notes on Mars as a base\n"
+"> ~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:545
+msgid ">\n"
+"> You can also combine the `--oneline` option with others. One useful\n"
+"> combination adds `--graph` to display the commit history as a text-based\n"
+"> graph and to indicate which commits are associated with the\n"
+"> current `HEAD`, the current branch `main`, or\n"
+"> [other Git references][git-references]:\n"
+">\n"
+"> ~~~\n"
+"> $ git log --oneline --graph\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> ~~~\n"
+"> * 005937f (HEAD -> main) Discuss concerns about Mars' climate for Mummy\n"
+"> * 34961b1 Add concerns about effects of Mars' moons on Wolfman\n"
+"> * f22b25e Start notes on Mars as a base\n"
+"> ~~~"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:564
+# blockquote, which can be cascaded
+msgid "> ## Directories"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:565
+msgid ">\n"
+"> Two important facts you should know about directories in Git.\n"
+">\n"
+"> 1. Git does not track directories on their own, only files within them.\n"
+">    Try it for yourself:\n"
+">\n"
+">    ~~~\n"
+">    $ mkdir spaceships\n"
+">    $ git status\n"
+">    $ git add spaceships\n"
+">    $ git status\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+">\n"
+">    Note, our newly created empty directory `spaceships` does not appear in\n"
+">    the list of untracked files even if we explicitly add it (_via_ `git add`) to our\n"
+">    repository. This is the reason why you will sometimes see `.gitkeep` files\n"
+">    in otherwise empty directories. Unlike `.gitignore`, these files are not special\n"
+">    and their sole purpose is to populate a directory so that Git adds it to\n"
+">    the repository. In fact, you can name such files anything you like.\n"
+">\n"
+"> 2. If you create a directory in your Git repository and populate it with files,\n"
+">    you can add all files in the directory at once by:\n"
+">\n"
+">    ~~~\n"
+">    git add <directory-with-files>\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+">\n"
+">    Try it for yourself:\n"
+">\n"
+">    ~~~\n"
+">    $ touch spaceships/apollo-11 spaceships/sputnik-1\n"
+">    $ git status\n"
+">    $ git add spaceships\n"
+">    $ git status\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+">\n"
+">    Before moving on, we will commit these changes.\n"
+">\n"
+">    ~~~\n"
+">    $ git commit -m \"Add some initial thoughts on spaceships\"\n"
+">    ~~~\n"
+">    {: .language-bash}"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:612
+msgid "To recap, when we want to add changes to our repository,\n"
+"we first need to add the changed files to the staging area\n"
+"(`git add`) and then commit the staged changes to the\n"
+"repository (`git commit`):"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:617
+msgid "![The Git Commit Workflow](../fig/git-committing.svg)"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:619
+# blockquote, which can be cascaded
+msgid "> ## Choosing a Commit Message"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:620
+msgid ">\n"
+"> Which of the following commit messages would be most appropriate for the\n"
+"> last commit made to `mars.txt`?\n"
+">\n"
+"> 1. \"Changes\"\n"
+"> 2. \"Added line 'But the Mummy will appreciate the lack of humidity' to mars.txt\"\n"
+"> 3. \"Discuss effects of Mars' climate on the Mummy\"\n"
+">\n"
+"> > ## Solution\n"
+"> > Answer 1 is not descriptive enough, and the purpose of the commit is unclear;\n"
+"> > and answer 2 is redundant to using \"git diff\" to see what changed in this commit;\n"
+"> > but answer 3 is good: short, descriptive, and imperative."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:635
+# blockquote, which can be cascaded
+msgid "> ## Committing Changes to Git"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:636
+msgid ">\n"
+"> Which command(s) below would save the changes of `myfile.txt`\n"
+"> to my local Git repository?\n"
+">\n"
+"> 1. ~~~\n"
+">    $ git commit -m \"my recent changes\"\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+"> 2. ~~~\n"
+">    $ git init myfile.txt\n"
+">    $ git commit -m \"my recent changes\"\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+"> 3. ~~~\n"
+">    $ git add myfile.txt\n"
+">    $ git commit -m \"my recent changes\"\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+"> 4. ~~~\n"
+">    $ git commit -m myfile.txt \"my recent changes\"\n"
+">    ~~~\n"
+">    {: .language-bash}\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > 1. Would only create a commit if files have already been staged.\n"
+"> > 2. Would try to create a new repository.\n"
+"> > 3. Is correct: first add the file to the staging area, then commit.\n"
+"> > 4. Would try to commit a file \"my recent changes\" with the message myfile.txt."
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:668
+# blockquote, which can be cascaded
+msgid "> ## Committing Multiple Files"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:669
+msgid ">\n"
+"> The staging area can hold changes from any number of files\n"
+"> that you want to commit as a single snapshot.\n"
+">\n"
+"> 1. Add some text to `mars.txt` noting your decision\n"
+"> to consider Venus as a base\n"
+"> 2. Create a new file `venus.txt` with your initial thoughts\n"
+"> about Venus as a base for you and your friends\n"
+"> 3. Add changes from both files to the staging area,\n"
+"> and commit those changes.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > The output below from `cat mars.txt` reflects only content added during \n"
+"> > this exercise. Your output may vary.\n"
+"> > \n"
+"> > First we make our changes to the `mars.txt` and `venus.txt` files:\n"
+"> > ~~~\n"
+"> > $ nano mars.txt\n"
+"> > $ cat mars.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> > ~~~\n"
+"> > Maybe I should start with a base on Venus.\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > ~~~\n"
+"> > $ nano venus.txt\n"
+"> > $ cat venus.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> > ~~~\n"
+"> > Venus is a nice planet and I definitely should consider it as a base.\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> > Now you can add both files to the staging area. We can do that in one line:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git add mars.txt venus.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> > Or with multiple commands:\n"
+"> > ~~~\n"
+"> > $ git add mars.txt\n"
+"> > $ git add venus.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> > Now the files are ready to commit. You can check that using `git status`. If you are ready to commit use:\n"
+"> > ~~~\n"
+"> > $ git commit -m \"Write plans to start a base on Venus\"\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> > ~~~\n"
+"> > [main cc127c2]\n"
+"> >  Write plans to start a base on Venus\n"
+"> >  2 files changed, 2 insertions(+)\n"
+"> >  create mode 100644 venus.txt\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:731
+# blockquote, which can be cascaded
+msgid "> ## `bio` Repository"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:732
+msgid ">\n"
+"> * Create a new Git repository on your computer called `bio`.\n"
+"> * Write a three-line biography for yourself in a file called `me.txt`,\n"
+"> commit your changes\n"
+"> * Modify one line, add a fourth line\n"
+"> * Display the differences\n"
+"> between its updated state and its original state.\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > If needed, move out of the `planets` folder:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ cd ..\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > Create a new folder called `bio` and 'move' into it:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ mkdir bio\n"
+"> > $ cd bio\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > Initialise git:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git init\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > Create your biography file `me.txt` using `nano` or another text editor.\n"
+"> > Once in place, add and commit it to the repository:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git add me.txt\n"
+"> > $ git commit -m \"Add biography file\" \n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > Modify the file as described (modify one line, add a fourth line).\n"
+"> > To display the differences\n"
+"> > between its updated state and its original state, use `git diff`:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git diff me.txt\n"
+"> > ~~~\n"
+"> > {: .language-bash}"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:784
+msgid "[commit-messages]: https://chris.beams.io/posts/git-commit/\n"
+"[git-references]: https://git-scm.com/book/en/v2/Git-Internals-Git-References"
+msgstr ""
+
+#: git-novice/_episodes/04-changes.md:787
+msgid "{% include links.md %}"
+msgstr ""
+

@@ -17,6 +17,7 @@ gap-lesson/aio.md
 gap-lesson/index.md
 gap-lesson/reference.md
 gap-lesson/setup.md
+git-novice/404.md
 git-novice/CODE_OF_CONDUCT.md
 git-novice/CONTRIBUTING.md
 git-novice/LICENSE.md
@@ -39,7 +40,6 @@ git-novice/_extras/about.md
 git-novice/_extras/discuss.md
 git-novice/_extras/figures.md
 git-novice/_extras/guide.md
-git-novice/_includes/links.md
 git-novice/aio.md
 git-novice/index.md
 git-novice/reference.md
@@ -150,7 +150,8 @@ python-novice-gapminder/aio.md
 python-novice-gapminder/index.md
 python-novice-gapminder/reference.md
 python-novice-gapminder/setup.md
-shell-novice/CONDUCT.md
+shell-novice/404.md
+shell-novice/CODE_OF_CONDUCT.md
 shell-novice/CONTRIBUTING.md
 shell-novice/LICENSE.md
 shell-novice/README.md
@@ -165,9 +166,7 @@ shell-novice/_extras/about.md
 shell-novice/_extras/discuss.md
 shell-novice/_extras/figures.md
 shell-novice/_extras/guide.md
-shell-novice/_includes/links.md
 shell-novice/aio.md
-shell-novice/data-shell/writing/thesis/empty-draft.md
 shell-novice/filesystem/Users/nelle/writing/thesis/empty-draft.md
 shell-novice/index.md
 shell-novice/reference.md
