@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:49+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/20-checkout.md:1
+msgid ""
+"---\n"
+"title: \"Checkout Process\"\n"
+"teaching: 5\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"What do I need to do to finish certifying as a Carpentries instructor?\"\n"
+"objectives:\n"
+"- \"Describe the final steps required to qualify as an instructor.\"\n"
+"- \"Schedule your instructor discussion session.\"\n"
+"keypoints:\n"
+"- \"To certify, you must contribute to a lesson, take part in a discussion, and do a teaching demo within 90 days of your training event.\"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:14
+msgid ""
+"During this period after lunch, we'll be talking about some of the nuts and bolts\n"
+"of getting involved in the Carpentries.  First, we'll discuss what actions you'll\n"
+"need to take after this training to become a fully certified instructor.  After that,\n"
+"we'll address any questions about the Carpentries organizations, running workshops, and\n"
+"getting involved in the community in other ways. "
+msgstr ""
+
+# header
+#: instructor-training/_episodes/20-checkout.md:20
+msgid "## Application form"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:22
+msgid ""
+"Make sure that you have filled out the Carpentries\n"
+"[instructor application form](https://amy.software-carpentry.org/forms/request_training/).\n"
+"We can not track your progress and make you an official instructor without it. If you have already\n"
+"filled out this form, you do not need to submit another application."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/20-checkout.md:27
+msgid "## Instructor Checkout"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:29
+msgid ""
+"As you read in your homework last night, there are three final steps to "
+"complete before qualifying as an instructor. The [instructor checkout "
+"webpage]({{ page.root }}/checkout/) explains the procedure in detail. "
+"Briefly, the three steps are:"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/20-checkout.md:31
+msgid ""
+"1. Make a contribution to a lesson's content, exercises, or instructor notes"
+" by doing **one** of the following:"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:32
+msgid ""
+"   1. Submit a change (i.e. pull request) to fix an existing issue.\n"
+"   2. Proof-read a lesson and add a new issue describing something to be improved.\n"
+"   3. Provide substantive feedback on an existing issue or pull request.\n"
+"2.  Take part in a [community discussion][discussion] with experienced instructors.\n"
+"3.  Prepare to teach a full Carpentries lesson (i.e. the content of one lesson repository). Then perform a 5-minute [live coding demo][demo] for that lesson starting at a point chosen by the session lead."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:38
+msgid "> ## Carpentries Tools: Etherpad"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:40
+msgid ""
+"> The Etherpad is a widely used tools in Carpentries workshops and many "
+"other activities in the community. "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:41
+msgid ""
+"> There are etherpads about a many topics, like the two linked in the "
+"checkout instructions above. "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:42
+msgid ""
+"> To make them all findable, the Carpentries manage a [\"pad of "
+"pads\"](https://pad.carpentries.org/pad-of-pads). "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:43
+msgid ""
+"> This is a great one to bookmark and use as a reference throughout your "
+"checkout process and as a newly minted member"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:44
+msgid "> of The Carpentries community. "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:48
+msgid "> ## Checking Out Review with Questions and Answers"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:50
+msgid ""
+"> In small groups, read and discuss one of the three checkout procedures "
+"listed above and described in detail at [this page]({{ page.root "
+"}}/checkout/)."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:51
+msgid ""
+"> Make notes in the Etherpad and when you're done, report back to the full "
+"group about the requirements for that stage of the process. "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:52
+msgid "> What questions do you still have about the checkout process?"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:54
+msgid "> This exercise should take about 5 minutes."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:57
+msgid "> ## Schedule a Discussion or Demo"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:58
+msgid ""
+">\n"
+"> Visit the [discussion Etherpad][discussion] to sign up for a session.\n"
+"> If the session you would like to attend is full, contact the discussion\n"
+"> host and co-host to ask if you can attend.\n"
+">\n"
+"> If you'd prefer to do your teaching demonstration before your discussion,\n"
+"> visit the [demo Etherpad][demo] and sign up there. This [demo rubric] is provided as a guide for Trainers evaluating potential new instructors during the teaching demonstration.\n"
+">\n"
+"> This exercise should take 5 minutes."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/20-checkout.md:69
+msgid "### Lesson Contribution"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:71
+msgid "The lesson materials are hosted on GitHub:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/20-checkout.md:73
+msgid "*   [Data Carpentry on GitHub]({{ site.dc_github }})"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/20-checkout.md:74
+msgid "*   [Library Carpentry on GitHub]({{ site.lc_github }})"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/20-checkout.md:75
+msgid "*   [Software Carpentry on GitHub]({{ site.swc_github }})"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:78
+msgid ""
+"and are developed collaboratively.  Each lesson is in a separate\n"
+"repository, and consists of narrative lesson material and an\n"
+"associated directory containing the data or scripts needed in the\n"
+"lesson.  This source material is also then served as a website, using\n"
+"GitHub's \"gh-pages\" feature."
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:84
+msgid ""
+"Lesson contribution is managed within the repository using \"issues\"\n"
+"and \"pull requests\".  New problems or suggestions can be introduced\n"
+"as issues, discussed by the community, and addressed via a pull\n"
+"request, which serves as a \"request\" to make changes, and can also\n"
+"be discussed before changes are merged."
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:90
+msgid ""
+"If contributing on GitHub is new for you, see this [guide](https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md)\n"
+"that is customized to the Carpentries workflow."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/20-checkout.md:93
+msgid "### What's in a Badge?"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:95
+msgid ""
+"Once you have completed all checkout steps, within about 2 weeks you will receive an email with your Instructor badge! What does this mean?\n"
+"* **You get to teach!** Badged instructors are certified to co-teach any Carpentries lesson. All Carpentries Instructor badges are acceptable to teach any Software Carpentry, Data Carpentry, or Library Carpentry lesson. While non-badged instructors may also co-teach, every Carpentries branded workshop must have one badged instructor to lead the way.\n"
+"* **You get to vote!** Badged instructors are eligible to vote in Carpentries Executive Council elections for their first year, and for all subsequent years in which they continue to participate through teaching or other involvement. See [this section from the Carpentries Bylaws](https://docs.carpentries.org/topic_folders/governance/bylaws.html#eligibility-rights-and-termination-for-voting-members) for rules governing continuing voting eligibility.\n"
+"* **You've got something to brag about!** Looking for language to add to showcase your skills and experience? [Here is some text](https://github.com/carpentries/commons/blob/master/text-for-instructors.md) to get you started!"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:100
+msgid "> ## Check Out the Discussion (Optional)"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:101
+msgid ""
+">\n"
+"> As an instructor, your voice is important! We want you to be actively involved\n"
+"> in discussions about the lesson materials (and other aspects of the Carpentries community).\n"
+"> Go to the GitHub page for the lesson you worked with over the past two days and click on the\n"
+"> \"Issues\" tab. Read through some of the discussions and, if you have anything to add, please add it\n"
+"> to the conversation! If you wish to make a pull request, be sure to examine the contribution guidelines for\n"
+"> the repository you are working in. If you do make a significant contribution to the discussion, send a link to\n"
+"> the issue to [checkout@carpentries.org](mailto: checkout@carpentries.org). Congratulations! You've\n"
+"> just completed one of the three remaining steps in becoming a Carpentries instructor.\n"
+">\n"
+"> Leave about 5-10 minutes for this exercise."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/20-checkout.md:115
+msgid "> ## Ongoing support"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:116
+msgid ""
+">\n"
+"> Discussion sessions aren't only for instructors-in-training working towards their certification.\n"
+"> Instructors are highly encouraged to participate in discussions before and after each of their workshops,\n"
+"> so that they can continue to learn from each other and advance their teaching skills. For even more support, consider\n"
+"> participating in our Carpentries [Mentoring program][mentoring]!"
+msgstr ""
+
+#: instructor-training/_episodes/20-checkout.md:124
+msgid ""
+"[mentoring]: https://docs.carpentries.org/topic_folders/instructor_development/mentoring_groups.html\n"
+"[discussion]: http://pad.software-carpentry.org/community-discussions\n"
+"[demo]: https://pad.carpentries.org/teaching-demos\n"
+"[demo rubric]: https://carpentries.github.io/instructor-training/17-performance/index.html"
+msgstr ""

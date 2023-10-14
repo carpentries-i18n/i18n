@@ -1,0 +1,527 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 21:11+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/glossary.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Glossary\"\n"
+"---"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:6
+msgid "*   **Accessibility**: "
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:7
+msgid ""
+"    Equal access to learning opportunities regardless of learners' physical "
+"abilities or other attributes."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:9
+msgid "*   **Authentic Task**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:10
+msgid ""
+"    A task which contains important elements of things that learners would\n"
+"    do in real life (i.e. non-classroom situations).  To be authentic, a task should\n"
+"    require learners to construct their own answers rather than choose\n"
+"    among provided answers, and to work with the same tools and data\n"
+"    they would use in real life."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:16
+msgid "*   **Chunking**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:17
+msgid ""
+"    The act of grouping related concepts together so that they can be\n"
+"    stored and processed as a single unit."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:20
+msgid "*   **Cognitive Load**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:21
+msgid ""
+"    [Cognitive load][wikipedia-cognitive-load] is the amount of mental\n"
+"    effort required to solve a problem.  Cognitive load theory divides\n"
+"    this effort into *intrinsic*, *extraneous*, and *germane*, and holds\n"
+"    that people learn faster and better when extraneous load is reduced."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:26
+msgid "*   **Community of Practice**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:27
+msgid ""
+"    A self-perpetuating group of people who share and develop a craft or\n"
+"    occupation, such as knitters, musicians, or programmers."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:30
+msgid "*   **Competent Practitioner**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:31
+msgid ""
+"    Someone who can do normal tasks with normal effort under normal\n"
+"    circumstances.\n"
+"    <br>\n"
+"    See also *novice* and *expert*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:36
+msgid "*   **Concept Map**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:37
+msgid ""
+"    A picture of a mental model in which concepts are nodes in a graph\n"
+"    and relationships are (labelled) arcs."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:40
+msgid "*   **Deliberate Practice**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:41
+msgid ""
+"    The act of observing performance of a task while doing it in order to\n"
+"    improve ability."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:44
+msgid "*   **Diagnostic Power**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:45
+msgid ""
+"    The degree to which a wrong answer to a question or exercise tells the\n"
+"    instructor what misconceptions a particular learner has."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:48
+msgid "*   **Educational Psychology**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:49
+msgid ""
+"    The study of how people learn.\n"
+"    <br>"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:52
+msgid "*   **Effort-based Praise**: "
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:53
+msgid ""
+"    Providing positive feedback to learners that recognizes and rewards their hard work.\n"
+"    <br>\n"
+"    See also *improvement-based praise* and *performance-based praise*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:57
+msgid ""
+"*   **Error Framing**: Presenting errors as an integral part of the learning"
+" process and using them as teaching opportunities."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:59
+msgid "*   **Expert**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:60
+msgid ""
+"    Someone who can diagnose and handle unusual situations, knows when the\n"
+"    usual rules do not apply, and tends to recognize solutions rather than\n"
+"    reasoning to them.\n"
+"    <br>\n"
+"    See also *competent practitioner* and *novice*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:66
+msgid "*   **Expert Blind Spot**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:67
+msgid ""
+"    The inability of experts to empathize with novices who are\n"
+"    encountering concepts or practices for the first time."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:70
+msgid "*   **Faded Example**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:71
+msgid ""
+"    A series of examples in which a steadily increasing number of key\n"
+"    steps are blanked out.\n"
+"    <br>\n"
+"    See also *scaffolding*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:76
+msgid "*   **Fixed Mindset**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:77
+msgid ""
+"    The belief that an ability is innate, and that failure is due to a\n"
+"    lack of some necessary attribute.\n"
+"    <br>\n"
+"    See also *growth mindset*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:82
+msgid "*   **Fluid Representation**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:83
+msgid "    The ability to move quickly between different models of a problem."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:85
+msgid "*   **Formative Assessment**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:86
+msgid ""
+"    Assessment that takes place during a lesson in order to give both the\n"
+"    learner and the instructor feedback on actual understanding.\n"
+"    <br>\n"
+"    See also *summative assessment*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:91
+msgid "*   **Growth Mindset**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:92
+msgid ""
+"    The belief that ability comes with practice.\n"
+"    <br>\n"
+"    See also *fixed mindset*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:96
+msgid "*   **Impostor Syndrome**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:97
+msgid ""
+"    A feeling of insecurity about one's accomplishments that manifests as\n"
+"    a fear of being exposed as a fraud."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:100
+msgid "*   **Improvement-based Praise**: "
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:101
+msgid ""
+"    Providing positive feedback to learners that recognizes and rewards improvements they have made.\n"
+"    <br>\n"
+"    See also *effort-based praise* and *performance-based praise*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:105
+msgid "*   **Inclusivity**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:106
+msgid ""
+"    Working actively to include people with diverse backgrounds and needs."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:108
+msgid "*   **Inquiry-Based Learning**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:109
+msgid ""
+"    The practice of allowing learners to ask their own questions, set\n"
+"    their own goals, and find their own path through a subject."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:112
+msgid "*   **Lateral Knowledge Transfer**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:113
+msgid ""
+"    The \"accidental\" transfer of knowledge that occurs when an instructor\n"
+"    is teaching one thing, and the learner picks up another."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:116
+msgid "*   **Learner Profile**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:117
+msgid ""
+"    A brief description of a typical target learner for a lesson that\n"
+"    includes their general background, what they already know, what they\n"
+"    want to do, how the lesson will help them, and any special needs they\n"
+"    might have."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:122
+msgid "*   **Learning Objective**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:123
+msgid "    What a lesson is trying to achieve."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:125
+msgid "*   **Lesson Study**: "
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:126
+msgid ""
+"    The process in which instructors collaboratively plan lessons,\n"
+"    observe each other's teaching, and discuss teaching experiences\n"
+"    in order to learn from each other."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:130
+msgid "*   **Live Coding**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:131
+msgid ""
+"    The act of teaching programming by writing software in front of\n"
+"    learners as the lesson progresses."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:134
+msgid "*   **Long-Term Memory**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:135
+msgid ""
+"    The part of memory that stores information for long periods of time.\n"
+"    Long-term memory is very large, but slow.\n"
+"    <br>\n"
+"    See also *short-term memory*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:140
+msgid "*   **Mental Model**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:141
+msgid ""
+"    A representation of a person's knowledge and thought processes about a "
+"topic or domain."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:143
+msgid "*   **Minute Cards**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:144
+msgid ""
+"    A feedback technique in which learners spend a minute writing one\n"
+"    positive thing about a lesson (e.g., one thing they've learned) and\n"
+"    one negative thing (e.g., a question that still hasn't been answered)."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:148
+msgid "*   **Novice**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:149
+msgid ""
+"    Someone who has not yet built a usable mental model of a domain.\n"
+"    <br>\n"
+"    See also *competent practitioner* and *expert*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:153
+msgid "*   **One-Up, One-Down**: "
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:154
+msgid ""
+"    A feedback technique in which learners take turns giving positive and "
+"negative feedback without repeating anything that has been said before."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:156
+msgid "*   **Participatory Live Coding**"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:157
+msgid ""
+"\tA style of teaching where the instructor [live codes][wikipedia-live-coding] \t\t\n"
+"\tand the learners \"code along\"."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:160
+msgid "*   **Performance-based Praise**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:161
+msgid ""
+"    Providing positive feedback to learners that focuses on whether they have attained the correct answer.\n"
+"    <br>\n"
+"    See also *effort-based praise* and *performance-based praise*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:165
+msgid "*   **Perseverance**: "
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:166
+msgid "    The trait of persisting in the face of difficulty."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:168
+msgid "*   **Persistent Memory**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:169
+msgid "    see *long-term memory*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:171
+msgid "*   **Plausible Distractor**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:172
+msgid ""
+"    A wrong answer to a multiple-choice question that will seem to some students to be correct due to a misconception they hold.\n"
+"    <br>\n"
+"    See also *diagnostic power*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:176
+msgid "*   **Reflective Practice**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:177
+msgid "    see *deliberate practice*."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:179
+msgid "*   **Scaffolding**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:180
+msgid ""
+"    Extra material provided to early-stage learners to help them solve "
+"problems."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:182
+msgid "*   **Short-Term Memory**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:183
+msgid ""
+"    The part of memory that briefly stores information that can be\n"
+"    directly accessed by consciousness."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:186
+msgid "*   **Stereotype Threat**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:187
+msgid ""
+"    A situation in which people feel that they are at risk of being held\n"
+"    to stereotypes of their social group."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:190
+msgid "*   **Summative Assessment**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:191
+msgid ""
+"    Assessment that takes place at the end of a lesson to tell whether the\n"
+"    desired learning has taken place."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/glossary.md:194
+msgid "*   **Working Memory**:"
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:195
+msgid "    see *short-term memory*."
+msgstr ""
+
+#: instructor-training/_extras/glossary.md:197
+msgid ""
+"[wikipedia-cognitive-load]: https://en.wikipedia.org/wiki/Cognitive_load\n"
+"[wikipedia-live-coding]: https://en.wikipedia.org/wiki/Live_coding "
+msgstr ""

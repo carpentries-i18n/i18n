@@ -1,0 +1,949 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 18:49+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:6
+msgid "Table of Contents"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:8
+msgid "* [I. Information For and About Instructor Trainers](#more-info)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:9
+msgid "* [II. Running an Instructor Training Event (General)](#general)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:10
+msgid "* [III. Online vs In Person Training Events](#online-inperson)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:11
+msgid "* [IV. Using Zoom  for Online Trainings](#zoom)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:12
+msgid "* [V. Curriculum Teaching Tips](#curriculum)"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:15
+msgid "## I. Information For and About Instructor Trainers"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:17
+msgid "<a name=\"more-info\"></a>"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:19
+msgid ""
+"Details about the Instructor Trainer role including the application process,"
+" duties, meetings, and administrative instructions are now housed in the "
+"[Carpentries Handbook][handbook]. To the extent that information in those "
+"instructions is directly pertinent to teaching an Instructor Training "
+"workshop, some items may be duplicated here. All other information "
+"previously housed on this page may now be found in the handbook. "
+"[Instructions on running a Demo session][demos] are also provided in the "
+"Trainer Guide."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:21
+msgid "## II. Running an Instructor Training Event (General)"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:23
+msgid "<a name=\"general\"></a>"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:25
+msgid "### Four Weeks before the Event"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:26
+msgid "-  Contact your co-Trainer(s) and decide who will teach what.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:27
+msgid ""
+"-  Create an event Etherpad (using the [Etherpad template][etherpad-"
+"template]) or Google Doc (there is now a "
+"[template](https://docs.google.com/document/d/1P_w1rgdVk4SpXvILSS-"
+"ZKz8Ujqklfujpc_zHf8D-G1A/edit?usp=sharing) for that, too) and a workshop "
+"website (using the [training template][training-template]). *Be sure to "
+"check the event Etherpad or Google Doc against the curriculum as you prepare"
+" to teach, as these may not be reliably updated with curriculum changes.*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:28
+msgid ""
+"-  Send Etherpad/Google Doc and website links to training@carpentries.org.  "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:30
+msgid "### One Week before the Event    "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:31
+msgid "-  Plan logistics with co-Trainer(s)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:32
+msgid ""
+"-  Review (or set aside time closer to the event to review) the pre-"
+"assessment survey results for your workshop"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:33
+msgid "-  If teaching remotely:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:34
+msgid ""
+"  -  Test videoconferencing set up with co-Trainer(s) using login "
+"credentials provided.   "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:35
+msgid ""
+"  -  Decide with co-Trainer(s) whether all Trainers should be present for "
+"the full event or if you will log on during your scheduled teaching times "
+"only.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:36
+msgid ""
+"  -  Make a copy of the [Virtual Minute Cards template][minute-cards-"
+"template] and personalize for your event. To make a copy, click on the three"
+" dots at the top right and select \"Make a copy\" on the drop-down. (\"Add "
+"to My Drive\" will **not** create a new copy of the form, but will instead "
+"add a shortcut to the original template from your Google Drive.)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:37
+msgid "-  If teaching in person:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:38
+msgid ""
+"  - Confirm with your host that breakout rooms are available or make an "
+"alternate plan"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:39
+msgid ""
+"  - Create a plan for printing handouts & determine who will bring sticky "
+"notes"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:40
+msgid ""
+"  - Make sure you're prepared for the audiovisual setup in your room with "
+"the correct dongles/connectors etc."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:41
+msgid ""
+"  - Check on availability/timing of breaks, lunch, or any other details that"
+" matter to you"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:43
+msgid "### During the event"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:44
+msgid "-  Take attendance.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:45
+msgid ""
+"-  Remind member trainees to fill out application (Open Training applicants "
+"have already done this).   "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:46
+msgid ""
+"-  Remind trainees to sign up for demo, discussion (links in [checkout "
+"checklist][checkout-checklist]).  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:47
+msgid ""
+"-  Monitor the Etherpad / Google Doc for questions and responses to "
+"exercises.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:48
+msgid ""
+"-  If teaching remotely: Turn off video during long exercises and breaks and"
+" disconnect during lunch.  "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:50
+msgid "### Immediately after the event"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:51
+msgid ""
+"-  Send a list of those who completed the training to checkout@carpentries."
+"   "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:52
+msgid ""
+"-  Send an email to trainees thanking them for participating and linking to "
+"[checkout checklist][checkout-checklist]. See template [here][post-"
+"template].  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:53
+msgid ""
+"-  Review survey results and prepare to discuss at upcoming [Trainers "
+"discussion meeting][trainer-pad].  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:54
+msgid ""
+"-  File any relevant issues or PRs to the [instructor training "
+"repo][training-repo].  "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:56
+msgid "### Long-term after the event"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:57
+msgid ""
+"-  Join a [Trainer discussion meeting][trainer-pad] to discuss how your "
+"event went.   "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:59
+msgid "### Using Slides"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:61
+msgid ""
+"Whether or not slides should be used be used during instructor training\n"
+"is a subject of [frequent discussion][great-slide-issue]."
+msgstr ""
+
+#: instructor-training/_extras/guide.md:64
+msgid ""
+"The main **advantage** is that slides provide a visual aid when explaining\n"
+"complex concepts or when presenting learning objectives and challenges.\n"
+"The most notable **disadvantage** is that it can give the false impression\n"
+"that it is okay to use slides rather than live coding in SWC/DC/LC workshops\n"
+"For online instructor training events, there are two additional risks:\n"
+"the slides may fail to advance using Zoom's screen share feature and\n"
+"you risk losing the audience's attention because your face is less prominent."
+msgstr ""
+
+#: instructor-training/_extras/guide.md:72
+msgid ""
+"If you chose to use slides in your workshop,\n"
+"this [Google Drive folder][slides-folder] contains slides with diagrams, cartoons, and text that trainers have used past workshops. Feel free to reuse the existing materials or add your own slides."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:75
+msgid "### Using Etherpad "
+msgstr ""
+
+#: instructor-training/_extras/guide.md:77
+msgid ""
+"Each workshop will have an Etherpad. \n"
+"You can use the [Instructor Training Etherpad template](https://pad.carpentries.org/ttt-template)\n"
+"to quickly copy and paste challenges or useful information into your Etherpad. "
+msgstr ""
+
+#: instructor-training/_extras/guide.md:81
+msgid ""
+"Given the central role that Etherpad plays is running Carpentry workshops,\n"
+"you may want to take a minute to explain [how to create a pad](https://pad.carpentries.org/),\n"
+"what pads can be used for, and how long pads stick around. You may also want to point attendees to the [\"pad of pads\"](https://pad.carpentries.org/pad-of-pads)."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:85
+msgid "### General Preparation"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:87
+msgid "TBA"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:89
+msgid "### Using Helpers/Co-Instructors"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:91
+msgid ""
+"If you have a helper for the training, or want to involve your co-instructor more,\n"
+"here are some ways where it's easy to do so without much prep:\n"
+"* give an example of a mental model in \"The Importance of Practice\"\n"
+"* tell a motivational/demotivational story in \"Motivation and Demotivation\"\n"
+"* help collect 1-up, 1-down feedback by either writing or directing the participants\n"
+"* find + talk about a good (or bad) learning objective in \"Lesson Study\"\n"
+"* have this person monitor the chat (if online) and answer questions, catch \"hands\""
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:99
+msgid "### Episode order"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:101
+msgid ""
+"Experience has shown that the current order of episodes works quite well. \n"
+"If you're a new Trainer, we recommend following the official order, however, \n"
+"the material is flexible enough to allow small shifts in episode order. \n"
+"If you are an experienced Trainer and you would like to re-arrange the schedule, \n"
+"make sure to communicate with your trainees and co-Trainers! "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:107
+msgid "## III. Online vs In Person Training Events"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:109
+msgid "<a name=\"online-inperson\"></a>"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:111
+msgid "### In-person trainings"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:112
+msgid "- When watching videos, project them to the whole group.   "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:113
+#: instructor-training/_extras/guide.md:118
+msgid "- Assign (or let participants select) physical breakout groups.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:114
+msgid ""
+"- Use physical sticky notes to get minute card feedback at lunch breaks and "
+"end of each day.  "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:116
+msgid "### Online trainings (a few small groups)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:117
+msgid ""
+"- When watching videos, have one Trainer do a screenshare with their audio "
+"on or have one person in each group play the video for the participants at "
+"their site.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:119
+#: instructor-training/_extras/guide.md:126
+msgid ""
+"- Use the [virtual minute card][minute-cards-template] form to get feedback "
+"at lunch breaks and end of each day.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:120
+msgid ""
+"- Have participants do all small-group exercises with participants at same "
+"site.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:121
+#: instructor-training/_extras/guide.md:129
+msgid "- See section IV below for more tips.  "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:123
+msgid "### Online trainings (completely distributed)  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:124
+msgid "- When watching videos, have all participants watch separately.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:125
+msgid ""
+"- Assign breakout groups randomly to breakout rooms in Zoom. Be sure to "
+"remove Trainers and helpers when assigning groups."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:127
+msgid ""
+"- Have participants screen share with their breakout room during the live "
+"coding exercises.   "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:128
+msgid ""
+"- For exercise to set up a workshop website, put participants in breakout "
+"rooms and have one person screen share while the others help guide them "
+"verbally."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:131
+msgid "## IV. Using Zoom  for Online Trainings"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:133
+msgid "<a name=\"zoom\"></a>"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:135
+msgid ""
+"Online Carpentry Instructor Training events are held on [Zoom][zoom-home]. You can set up a personal Zoom\n"
+"account for yourself for free. This personal account will be able to attend the training event\n"
+"(or any other online Carpentry event), but will not be able to act as host.   "
+msgstr ""
+
+#: instructor-training/_extras/guide.md:139
+msgid ""
+"About a week before your event, you will be given login credentials for a Carpentry account.\n"
+"This account will be the host for the event and will have extra privileges including the\n"
+"ability to mute participants and assign participants into breakout rooms. Decide ahead of time with your co-Trainer(s) who will log-in with these credentials. The host\n"
+"can transfer host privileges to other participants, so you will be able to trade host status\n"
+"back and forth with your co-Trainers during the event.  "
+msgstr ""
+
+#: instructor-training/_extras/guide.md:145
+msgid ""
+"All Carpentry online events are set-up such that participants can enter the room without the\n"
+"host being present. If you ever get an error message saying you can’t join the room because\n"
+"you’re not the host, please contact Carpentry staff immediately.   "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:149
+msgid "### Host abilities:  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:150
+msgid ""
+"- “Mute” is in the lower left. To mute other participants, the host can go "
+"to “Manage Participants”, hover over a participant’s name, and click “mute”."
+"  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:151
+msgid ""
+"- When the room host clicks “End Meeting”, a dialogue box appears with three"
+" options: “Cancel”, “Leave Meeting” and “End Meeting for All”. Be careful "
+"not to end the meeting if you are simply leaving the room temporarily while "
+"your co-Trainer teaches.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:152
+msgid ""
+"- Only the host has the ability to create “Breakout rooms”. The button for "
+"this is on the lower left. Breakout rooms can be assigned automatically. By "
+"default, participants will be assigned to the same groups each time breakout"
+" rooms are used. You can change participants' assignments manually if "
+"desired.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:153
+msgid ""
+"- The host can move between breakout rooms and can send messages to all "
+"rooms simultaneously.  "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:155
+msgid "### General tips for online training:  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:156
+msgid "- **Support the lead**"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:157
+msgid ""
+"\t- It's tempting to check-out and check email/do work when your co-teacher "
+"has taken the wheel.  Try not to do this!  Ways that you can support your "
+"co-teacher when they are leading are:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:158
+msgid "\t  - Monitor the chat in zoom/notes"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:159
+msgid "\t  - Help post exercises + provide instructions"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:160
+msgid "\t  - Find links or references"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:161
+msgid ""
+"\t- Make sure that whomever is actively teaching always has host privileges."
+" When you take turns instructing, remember to hand-off host privileges "
+"during the change-over."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:162
+msgid "- **Exercise management**"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:163
+msgid ""
+"  - After the first exercise, keep a list of all the participants in a plain"
+" text file on your computer so can you can easily paste it into the shared "
+"note-taking doc for exercises. This way, everyone immediately has a place to"
+" start writing.(G.W.) Tip: randomise the order of names every once in a "
+"while so it is not always the same person that is first or last in the list,"
+" and thus may get more or less attention when you discuss the responses "
+"(LN.)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:164
+msgid ""
+"  - Screen-share a timer/countdown clock (like [this timer from "
+"timeanddate.com](https://www.timeanddate.com/timer/)) so participants know "
+"how long they have to work on exercises. (L.N)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:165
+msgid "- **Shared notes tips**"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:166
+msgid ""
+"  - No matter what kind of shared doc you are using, it's usually a good "
+"idea to create"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:167
+msgid ""
+"  two documents -- one for each day of the training.  \n"
+"    - Suggestion from AN: create a third doc for sharing concept maps, since they are\n"
+"    images and can slow down the document.  \n"
+"  - Etherpad pros + cons\n"
+"    - Pros: line numbers\n"
+"    - Cons: simple formatting\n"
+"  - Google Doc pros + cons\n"
+"    - Pros: richer formatting\n"
+"    - Cons: no line numbers\n"
+"- **Zoom tips**\n"
+"  - Announce *at the beginning* of the training that all participants should mute when\n"
+"  they are not talking.  You may need to repeat this a few times during the early part\n"
+"  of the training, until people are doing it consistently.  \n"
+"  - In general, it works best to have everyone use zoom individually on their computers\n"
+"  (so you can see everyone's faces); for trainings where some of the participants are\n"
+"  co-located, have them use their own computer for video but pick one person to use\n"
+"  for mic/sound.  \n"
+"  - “Gallery view” in the upper right toggles the display to show more participants' videos.  \n"
+"  - “Share screen” is at the bottom middle of the screen. To end “share screen”, click the red button that will appear at the top middle of the screen when you are in screen sharing mode.  \n"
+"  - When you screen share, you have the option to share individual apps or your entire desktop. The default is the full desktop.\n"
+"  - The Zoom chat is not stable (it is not saved across sessions or after going into breakout rooms, and people who have just joined a room can't see previously posted chat items). We highly recommend using the Etherpad or Google Doc chat instead. For those who want to save the chat, they do that using the \"More\" option in the chat window, which offers \"Save chat\". Choosing this will save the chat to a local text file on the person's computer.\n"
+"  - During breaks, learners will often turn off their video and wait for your audio cue to re-activate. This makes it look like no one is back from break, but just saying 'hello' will generally get a bunch of people to come back on video quickly.\n"
+"  - When several attendees are in the same room (member trainings): it is helpful to have every participant log in separately so that you can see names and faces and they can interact by waving or using the chat. However, it is important that only one microphone and speaker should be active in the room at one time or feedback and noise will be a problem. When creating breakouts, you can either leave these people in the main room or shuffle people around to create a room just for them. Either way, ask them to leave a mic on so you can listen in.\n"
+"  - Attendees might like to have a separate room (without Trainers) to network in over lunch or other breaks. Be prepared to assign that room and then close it to restart the main session.\n"
+"  - when you are in the Zoom meeting room but unintentionally not as the host, look for the button 'Claim host' (click on the 'Participants' button; you'll be asked for a 6-digit host key, which you can find (after logging in to [Zoom][zoom-home]), at the bottom of the profile, see [the explanation here][zoom-host-key]."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:193
+msgid "## V. Curriculum Teaching Tips"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:195
+msgid "<a name=\"curriculum\"></a>"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:197
+msgid ""
+"This is a place for Trainers to leave tips and observations for those newer "
+"to the curriculum. This can provide guidance on how to navigate difficult "
+"places in the curriculum until problems can be fixed, or may provide "
+"additional instructions that are conditional to an audience or are otherwise"
+" not appropriate to/ready for a change in the curriculum itself."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:199
+msgid "### Breaks"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:201
+msgid ""
+"* Giving breaks is *extremely* important -- for learners to decompress, take"
+" a walk, check email, etc.  Make sure to give"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:202
+msgid ""
+"learners a full 60 minutes for lunch and 15-20 minutes for the "
+"morning/afternoon break. (EW)"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:204
+msgid "### Welcome"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:206
+msgid ""
+"* From JS: \"What happens is that we send participants home at the end of "
+"day one with a request to look up more about the Carpentries workshop types "
+"and then we ask them what questions they have at the start of day two. While"
+" the intent is that these questions will be put in the etherpad and then "
+"taken up later in one way or another this doesn't happen or at least only "
+"happens in part. The result is either a lot of saying, \"We'll cover that "
+"this afternoon\" or pulling parts of the relevant afternoon sessions into "
+"the morning. Participants thus either end up a little frustrated (because "
+"they'd really like an answer now) or the schedule ends up being a little "
+"fractured.\""
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:207
+msgid ""
+"\t* Response from CK: I've never had the problem described by JS; people are"
+" usually willing to wait (especially once we dive into live coding), and I "
+"make sure to answer all questions (and take new ones!) in the afternoon."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:208
+msgid ""
+"\t* Response from KW: Another option is to have people put questions into "
+"the etherpad in the morning, and then answer them (in the etherpad) during "
+"the live coding practice. Trainees can read them at any time then, and you "
+"can refer back to them when necessary."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:210
+msgid "### Building Skill with Practice"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:211
+msgid "### Expertise and Instruction"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:212
+msgid "### Memory and Cognitive Load"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:214
+msgid ""
+"* FM and RH: The [online "
+"tool](http://cat.xula.edu/thinker/memory/working/serial) we use to test "
+"working memory requires Flash. There is a verbal exercise you can use if "
+"Flash does not work for you."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:216
+msgid "### Building Skill with Feedback"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:217
+msgid "### Motivation and Demotivation"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:219
+msgid "As written, this can run long.  Suggestions:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:221
+msgid ""
+"* CK: In general, I approach this section as \"which 3 out of the N "
+"exercises do I want to make SURE I do?\" and then if there's time (or "
+"interest! depends on the group) I'll add or adapt."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:223
+msgid "### Mindset"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:224
+msgid "### Teaching is a Skill"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:225
+msgid "### Wrap-Up and Homework for Tomorrow"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:227
+msgid "### Welcome Back"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:228
+msgid "### Live Coding\tis a Skill"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:229
+msgid "### Lesson Study"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:230
+msgid "### More Practice Live Coding"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:231
+msgid "### Managing a Diverse Classroom"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:233
+msgid "### The Carpentries: How We Operate"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:235
+msgid ""
+"* CK: Not an \"official\" exercise, but after explaining the workshops and "
+"how to run them,"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:236
+msgid ""
+"go around the room, asking each person if they have a question + then answer"
+" them.  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:238
+msgid "* Exercise: Creating a Workshop Website"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:239
+msgid ""
+"   * CK: This takes some time, so some people opt to skip this section.  "
+"Inevitably,"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:240
+msgid ""
+"   when working with a group of mixed experience with GitHub, some will be able\n"
+"   to zip through this exercise, where others will struggle.  We **have** gotten\n"
+"   positive feedback about this exercise as well, where learners felt like it was\n"
+"   a valuable experience. Can be especially valuable for groups that will probably\n"
+"   be running workshops on their own (so open trainings, or trainings for folks\n"
+"   who are ready to get started right away).  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:247
+msgid ""
+"* CK: The coffee break after this would be a great time for an \"Ask and "
+"Offer\" if the"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:248
+msgid "group is interested."
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:250
+msgid "### Workshop Introductions"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:252
+msgid "* More or less time"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/guide.md:253
+msgid ""
+"    * CK: The second major exercise (writing a mini-introduction and then"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:254
+msgid ""
+"    practicing) can be made longer if you have the time or people are\n"
+"    very keen on practicing their introductions.  Instead of 2 minutes,\n"
+"    people could talk for 4-5 minutes each.  "
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:258
+msgid "### Afternoon Wrap-Up"
+msgstr ""
+
+# header
+#: instructor-training/_extras/guide.md:260
+msgid "## VI. Teaching Demonstration Tips"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:262
+msgid ""
+"This section contains tips and tricks on demo hosting that may be "
+"contributed by any Trainer describing things that work for them. For "
+"official/technical guidelines on how to run a demo, see the "
+"[Handbook](https://docs.carpentries.org/topic_folders/instructor_training/trainers_guide.html#running-"
+"a-teaching-demonstration)."
+msgstr ""
+
+#: instructor-training/_extras/guide.md:264
+msgid ""
+"Suggested points to make during introductions:\n"
+"* This is not a high-stakes test! This is a friendly opportunity to give and receive feedback. On occasion, we do invite \n"
+"people to return for a second try. If we do this, your follow-up email will contain very clear instructions on exactly what\n"
+"we'd like you to change on your next visit. This does not mean we don't want you as an instructor, it means we want you to be\n"
+"ready to put your best foot forward in the classroom and we are here to help you do that. (KW)\n"
+"* I will not tell anyone that they have passed or ask anyone to repeat during this session. That information will come in the follow up email. (KW)\n"
+"* The feedback you give sometimes says as much or more about your approach to instruction as the demo itself. (KW)\n"
+"* Have trainees introduce themselves (name and institution or location) at the start. This makes sure everyone knows where the \n"
+"mute button is. (EB)\n"
+"* I have already determined a random order for you each to do your demonstration. When it's your turn, I will tell you what\n"
+"episode you will be teaching from, and\n"
+"you will have a minute or two to set up your screen. You will screen share (describe where the button is) and will have the \n"
+"option to share your whole Desktop or just a single application. I recommend sharing only the application you will be teaching\n"
+"from, that way you can keep your notes up on your screen without us seeing them. It's perfectly fine to teach using your\n"
+"notes - that's how I always teach. (EB)\n"
+"* When your time is up, I will stop you and ask you to give feedback on yourself and then ask others to add their feedback. (EB)"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:281
+msgid ""
+"Different ways of managing feedback during the demo:\n"
+"* Create your own etherpad and populate it with episode links, feedback templates, whatever. \n"
+"* Use +/- content delivery rubric. (Or use \"improvement\" in place of \"-\" as suggested by MC). Keep in mind that some learners\n"
+"(like some Trainers) do not have the content expertise to be able to fully evaluate that category for all lessons.\n"
+"* If there is time (4 people or less) you can do feedback entirely verbally, or have them issue verbal feedback after writing \n"
+"notes in the etherpad. If you do this, suggest having presenter give their own feedback, then other learners, then Trainer can\n"
+"summarize/disagree/add/emphasize as needed.\n"
+"* I take notes on physical paper during each demo with points I think need to be made, then mark things off as others\n"
+"mention them in their feedback. Usually, the trainees catch most of the things I wanted to mention, and I can choose just\n"
+"one or two things to comment on. (EB)"
+msgstr ""
+
+#: instructor-training/_extras/guide.md:292
+msgid ""
+"Suggested points to make during wrap-up:\n"
+"* Thank you for your excellent feedback! Instructors like you help to make this community what it is.\n"
+"* I will follow up with each of you by email within ___ (time period). If you don't hear from me by __ feel free to check in."
+msgstr ""
+
+#: instructor-training/_extras/guide.md:297
+msgid ""
+"[handbook]: https://docs.carpentries.org/topic_folders/instructor_training/index.html#for-trainers\n"
+"[demos]: https://docs.carpentries.org/topic_folders/instructor_training/trainers_guide.html#running-a-teaching-demonstration\n"
+"[post-template]: https://docs.carpentries.org/topic_folders/instructor_training/email_templates_trainers.html#email-after-training-event\n"
+"[etherpad-template]: http://pad.software-carpentry.org/ttt-template\n"
+"[training-template]: https://github.com/carpentries/training-template\n"
+"[minute-cards-template]: https://docs.google.com/forms/d/1p7iOV5HNvy4POS4g6eottY8RSfKq4kaoKz1-jIFYTMI/edit\n"
+"[checkout-checklist]: http://www.datacarpentry.org/checkout/\n"
+"[training-repo]: http://carpentries.github.io/instructor-training/\n"
+"[zoom-home]: https://www.zoom.us/\n"
+"[zoom-host-key]: https://support.zoom.us/hc/en-us/articles/115001315866-Host-Key-Control-For-Zoom-Rooms\n"
+"[slides-folder]: https://drive.google.com/drive/folders/10ncHtw4ZtNZD0ozW0rG5C-Q4yFetRY1t\n"
+"[great-slide-issue]: https://github.com/carpentries/instructor-training/issues/680\n"
+"[trainer-pad]: https://pad.carpentries.org/trainers"
+msgstr ""

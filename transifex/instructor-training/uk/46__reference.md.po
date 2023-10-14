@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:27+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/reference.md:1
+msgid ""
+"---\n"
+"layout: reference\n"
+"root: .\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/reference.md:6
+msgid "## Books"
+msgstr ""
+
+#: instructor-training/reference.md:8
+msgid ""
+"Susan Ambrose et al: *[How Learning Works: Seven Research-Based Principles for Smart Teaching][worldcat-hlw]*.\n"
+":   An excellent overview of what we know about education and why we\n"
+"    believe it's true, covering everything from cognitive psychology\n"
+"    to social factors."
+msgstr ""
+
+#: instructor-training/reference.md:13
+msgid ""
+"Stephen D. Brookfield and Stephen Preskill: *[The Discussion Book][worldcat-discussion]*.\n"
+":   Describes fifty different ways to get groups talking productively."
+msgstr ""
+
+#: instructor-training/reference.md:16
+msgid ""
+"Joshua Foer: *[Moonwalking with Einstein: The Art and Science of Remembering Everything][worldcat-moonwalking]*.\n"
+":   Discusses memory techniques within the context of training for the U.S. Memory Championship. Compelling read and\n"
+"    also very informative."
+msgstr ""
+
+#: instructor-training/reference.md:20
+msgid ""
+"Elizabeth Green: *[Building a Better Teacher][worldcat-babt]*.\n"
+":   A well-written look at why educational reforms in the past 50 years have mostly missed the mark,\n"
+"    and what we should be doing instead."
+msgstr ""
+
+#: instructor-training/reference.md:24
+msgid ""
+"Mark Guzdial: *[Learner-Centered Design of Computing Education: Research on Computing for Everyone][worldcat-lcdce]*.\n"
+":   A well-researched investigation of what it means to design computing courses for everyone,\n"
+"    not just people who are going to become professional programmers,\n"
+"    from one of the leading researchers in CS education."
+msgstr ""
+
+#: instructor-training/reference.md:29
+msgid ""
+"Doug Lemov: *[Teach Like a Champion 2.0][worldcat-tlac]*.\n"
+":   Presents 62 classroom techniques drawn from intensive study of thousands of hours of video of good teachers in action."
+msgstr ""
+
+#: instructor-training/reference.md:32
+msgid ""
+"Therese Huston: *[Teaching What You Don't Know][worldcat-twydk]*.\n"
+":   A pointed, funny, and very useful book that explores exactly what the title suggests."
+msgstr ""
+
+#: instructor-training/reference.md:35
+msgid ""
+"James Lang: *[Small Teaching][worldcat-small-teaching]*.\n"
+":   A short guide to evidence-based teaching practices that can be adopted\n"
+"    without requiring large up-front investments of time and money."
+msgstr ""
+
+#: instructor-training/reference.md:39
+msgid ""
+"Jane Margolis and Allan Fisher: *[Unlocking the Clubhouse: Women in Computing][worldcat-clubhouse]*.\n"
+":   A groundbreaking report on the gender imbalance in computing,\n"
+"    and the steps Carnegie-Mellon took to address the problem."
+msgstr ""
+
+#: instructor-training/reference.md:43
+msgid ""
+"Claude M. Steele: *[Whistling Vivaldi: How Stereotypes Affect Us and What We Can Do][worldcat-vivaldi]*.\n"
+":   Explains and explores stereotype threat and strategies for addressing it."
+msgstr ""
+
+# header
+#: instructor-training/reference.md:46
+msgid "## Papers"
+msgstr ""
+
+#: instructor-training/reference.md:48
+msgid ""
+"Baume: \"[Writing and Using Good Learning Outcomes]({{ page.root }}/files/papers/baume-learning-outcomes-2009.pdf)\"\n"
+":   A useful detailed guide to constructing useful learning outcomes."
+msgstr ""
+
+#: instructor-training/reference.md:51
+msgid ""
+"Borrego and Henderson: \"[Increasing the Use of Evidence-Based Teaching in STEM Higher Education: A Comparison of Eight Change Strategies]({{ page.root }}/files/papers/borrego-henderson-change-strategies-2014.pdf)\"\n"
+":   Describes eight approaches to effecting change in STEM education\n"
+"    that form a useful framework for thinking about how Software Carpentry and Data Carpentry can change the world."
+msgstr ""
+
+#: instructor-training/reference.md:55
+msgid ""
+"Brown and Altadmri: \"[Investigating Novice Programming Mistakes: Educator Beliefs vs Student Data]({{ page.root }}/files/papers/brown-educator-vs-learner-beliefs-2014.pdf)\"\n"
+":   Compares teachers' opinions about common programming errors with data from over 100,000 students,\n"
+"    and finds only weak consensus amongst teachers and between teachers and data."
+msgstr ""
+
+#: instructor-training/reference.md:59
+msgid ""
+"Carroll, Smith-Kerker, Ford, and Mazur-Rimetz: \"[The Minimal Manual](https://doi.org/10.1207/s15327051hci0302_2)\" *Human–Computer Interaction*, 3:2, 123-153, 1987.\n"
+":   Outlines an approach to documentation and instruction\n"
+"    in which each lesson is one page long and describes how to accomplish one concrete task.\n"
+"    Its focus on immediate application,\n"
+"    error recognition and recovery,\n"
+"    and reference use after training\n"
+"    makes it an interesting model for Software and Data Carpentry."
+msgstr ""
+
+#: instructor-training/reference.md:67
+msgid ""
+"Crouch and Mazur: \"[Peer Instruction: Ten Years of Experience and Results]({{ page.root }}/files/papers/crouch-mazur-peer-instruction-ten-years-2001.pdf)\"\n"
+":   An early report on peer instruction and its effects in the classroom."
+msgstr ""
+
+#: instructor-training/reference.md:70
+msgid ""
+"Deans for Impact: \"[The Science of Learning]({{ page.root }}/files/papers/science-of-learning-2015.pdf)\"\n"
+":   Summarizes cognitive science research related to how students learn,\n"
+"    and connects it to practical implications for teaching and learning."
+msgstr ""
+
+#: instructor-training/reference.md:74
+msgid ""
+"Guzdial: \"[Exploring Hypotheses about Media Computation]({{ page.root }}/files/papers/guzdial-mediacomp-retrospective-2013.pdf)\"\n"
+":   A look back on 10 years of media computation research."
+msgstr ""
+
+#: instructor-training/reference.md:77
+msgid ""
+"De Bruyckere et al: \"[Urban Myths About Learning and Education]({{ page.root }}/files/papers/de-bruyckere-urban-myths-2015.pdf)\"\n"
+":   A one-page summary drawn from their book of the same name."
+msgstr ""
+
+#: instructor-training/reference.md:80
+msgid ""
+"Gormally et al: \"[Feedback about Teaching in Higher Ed: Neglected Opportunities to Promote Change]({{ page.root }}/files/papers/gormally-teaching-feedback-2014.pdf)\"\n"
+":   Summarizes best practices for providing instructional feedback and recommends specific strategies for sharing instructional expertise."
+msgstr ""
+
+#: instructor-training/reference.md:83
+msgid ""
+"Guzdial: \"[Why Programming is Hard to Teach]({{ page.root }}/files/papers/guzdial-why-hard-to-teach-2011.pdf)\"\n"
+":   A chapter from\n"
+"    *[Making Software][worldcat-making-software]*\n"
+"    that explores why programming seems so much harder to teach than\n"
+"    some other standard subjects."
+msgstr ""
+
+#: instructor-training/reference.md:89
+msgid ""
+"Kirschner et al: \"[Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching]({{ page.root }}/files/papers/kirschner-minimal-guidance-fails-2006.pdf)\"\n"
+":   Argues that inquiry-based learning is less effective for novices than guided instruction."
+msgstr ""
+
+#: instructor-training/reference.md:92
+msgid ""
+"Lee: \"[What can I do today to create a more inclusive community in CS?]({{ page.root }}/files/papers/lee-create-inclusive-community-2015.pdf)\".\n"
+":   A brief, practical guide on exactly that with references to the research literature."
+msgstr ""
+
+#: instructor-training/reference.md:95
+msgid ""
+"Mayer and Moreno: \"[Nine Ways to Reduce Cognitive Load in Multimedia Learning]({{ page.root }}/files/papers/mayer-reduce-cognitive-load-2003.pdf)\"\n"
+":   Shows how research into how we absorb and process information\n"
+"    can be applied to the design of instructional materials."
+msgstr ""
+
+#: instructor-training/reference.md:99
+msgid ""
+"Porter et al: \"[Success in Introductory Programming: What Works?]({{ page.root }}/files/papers/porter-what-works-2013.pdf)\"\n"
+":   Summarizes the evidence that three techniques---peer instruction, media computation, and pair programming---can\n"
+"    significantly improve outcomes in introductory programming courses."
+msgstr ""
+
+#: instructor-training/reference.md:103
+msgid ""
+"Wiggins and McTighe: \"[UbD in a Nutshell]({{ page.root }}/files/papers/wiggins-mctighe-ubd-nutshell.pdf)\"\n"
+":   A four-page summary of the authors' take on reverse instructional design."
+msgstr ""
+
+#: instructor-training/reference.md:106
+msgid ""
+"Wilson et al: \"[Good Enough Practices in Scientific Computing](https://arxiv.org/abs/1609.00037)\".\n"
+":   Describes and justifies a minimal set of computing practices that every researcher could and should adopt."
+msgstr ""
+
+#: instructor-training/reference.md:109
+msgid ""
+"Wilson et al: \"[Best Practices for Scientific Computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)\"\n"
+":   Describes and justifies the practices that mature scientific software developers ought to use."
+msgstr ""
+
+#: instructor-training/reference.md:112
+msgid ""
+"Wilson: \"[Software Carpentry: Lessons Learned][swc-lessons-learned]\"\n"
+":   Summarizes what we've learned in 17 years of running classes for scientists."
+msgstr ""
+
+#: instructor-training/reference.md:115
+msgid ""
+"[worldcat-babt]: https://www.worldcat.org/title/building-a-better-teacher-how-teaching-works-and-how-to-teach-it-to-everyone/oclc/953075081\n"
+"[worldcat-clubhouse]: https://www.worldcat.org/title/unlocking-the-clubhouse-women-in-computing/oclc/752326915\n"
+"[worldcat-discussion]: https://www.worldcat.org/title/discussion-book-50-great-ways-to-get-people-talking/oclc/914221868\n"
+"[worldcat-moonwalking]: https://www.worldcat.org/title/moonwalking-with-einstein-the-art-and-science-of-remembering-everything/oclc/1023353802\n"
+"[worldcat-hlw]: https://www.worldcat.org/title/how-learning-works-seven-research-based-principles-for-smart-teaching/oclc/762968489\n"
+"[worldcat-lcdce]: https://www.worldcat.org/title/learner-centered-design-of-computing-education-research-on-computing-for-everyone/oclc/1028934710&referer=brief_results\n"
+"[worldcat-making-software]: https://www.worldcat.org/title/making-software-what-really-works-and-why-we-believe-it/oclc/795921229\n"
+"[worldcat-small-teaching]: https://www.worldcat.org/title/small-teaching-everyday-lessons-from-the-science-of-learning/oclc/968245403\n"
+"[worldcat-tlac]: https://www.worldcat.org/title/teach-like-a-champion-20-62-techniques-that-put-students-on-thepath-to-college/oclc/946587371\n"
+"[worldcat-twydk]: https://www.worldcat.org/title/teaching-what-you-dont-know/oclc/806492013\n"
+"[worldcat-vivaldi]: https://www.worldcat.org/title/whistling-vivaldi-and-other-clues-to-how-stereotypes-affect-us/oclc/987873095\n"
+"[discovering-speech]: https://books.google.com/books?id=IoTdAUdNkgIC&pg=PA302#v=onepage&q&f=false/\n"
+"[swc-lessons-learned]: https://f1000research.com/articles/3-62/v2"
+msgstr ""

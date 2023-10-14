@@ -1,0 +1,1041 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:51+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/05-memory.md:1
+msgid ""
+"---\n"
+"title: \"Memory and Cognitive Load\"\n"
+"block: \"How Learning Works\"\n"
+"teaching: 20\n"
+"exercises: 25\n"
+"questions:\n"
+"- \"What is cognitive load and how does it affect learning?\"\n"
+"- \"How can we design instruction to work with, rather than against, memory constraints?\"\n"
+"objectives:\n"
+"- \"Identify when cognitive load is likely to limit learning.\"\n"
+"- \"Use a concept map to plan a formative assessment strategy.\"\n"
+"keypoints:\n"
+"- \"Most adults can store only a few items in short-term memory for a few seconds before they lose them again.\"  \n"
+"- \"Things seen together are remembered (or mis-remembered) in chunks.\"  \n"
+"- \"Teaching consists of loading short-term memory and reinforcing it long enough for items to be transferred to long-term memory.\"\n"
+"- \"Use formative assessments to avoid overloading short-term memory.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Пам'ять та когнітивне навантаження\"\n"
+"block: \"Як працює навчання\"\n"
+"teaching: 20\n"
+"exercises: 25\n"
+"questions:\n"
+"- «Що таке когнітивне навантаження і як воно впливає на навчання?»\n"
+"- \"Як ми можемо розробити інструкцію для роботи з обмеженнями пам'яті, а не проти них?\"\n"
+"цілі:\n"
+"- «Визначте, коли когнітивне навантаження може обмежити навчання».\n"
+"- «Використовуйте концептуальну карту для планування стратегії формуючого оцінювання».\n"
+"Ключові моменти:\n"
+"- «Більшість дорослих можуть зберігати лише кілька предметів у короткочасній пам’яті на кілька секунд, перш ніж вони знову їх втратять».\n"
+"- \"Речі, побачені разом, запам'ятовуються (або запам'ятовуються неправильно) уривками\".\n"
+"- \"Навчання складається із завантаження короткочасної пам'яті та її зміцнення на достатній час для перенесення елементів у довготривалу пам'ять\".\n"
+"- «Використовуйте формуюче оцінювання, щоб уникнути перевантаження короткочасної пам'яті».\n"
+"---"
+
+#: instructor-training/_episodes/05-memory.md:19
+msgid ""
+"In our final topic in how people learn (and therefore, how we can be more\n"
+"effective instructors), we'll be learning more about human memory:\n"
+"specifically, how to remove unnecessary \"load\" in order to facilitate learning."
+msgstr ""
+"У нашій останній темі про те, як люди навчаються (і, отже, як ми можемо бути більш\n"
+"ефективними інструкторами), ми дізнаємося більше про людську пам’ять:\n"
+"зокрема, як зняти непотрібне «навантаження», щоб полегшити навчання."
+
+# header
+#: instructor-training/_episodes/05-memory.md:23
+msgid "## Types of Memory"
+msgstr "## Типи пам'яті"
+
+#: instructor-training/_episodes/05-memory.md:25
+msgid ""
+"Learning involves memory. For our purposes, human memory can be divided into two different\n"
+"layers.\n"
+"The first is called *long-term*.\n"
+"It is where we store  persistent information like our passwords and our home address.\n"
+"It is essentially unbounded\n"
+"(barring injury or disease, we will die before it fills up)\n"
+"but it is slow to access."
+msgstr ""
+"Навчання включає пам'ять. Для наших цілей людську пам'ять можна розділити на дві різні\n"
+"шари.\n"
+"Перший називається *довгостроковим*.\n"
+"Тут ми зберігаємо постійну інформацію, як-от наші паролі та домашню адресу.\n"
+"Він по суті необмежений\n"
+"(за винятком травм або хвороб, ми помремо, перш ніж він заповниться)\n"
+"але доступ до нього повільний."
+
+#: instructor-training/_episodes/05-memory.md:33
+msgid ""
+"Our second layer of memory is called *short-term*. This is the\n"
+"type of memory you use to actively think about things and is often called working memory. It is much faster, but also much\n"
+"smaller: in 1956, George Miller estimated that the average adult's short-term memory could hold\n"
+"[7±2 items][wikipedia-7] for a few seconds before things started to drop out.\n"
+"This is [why phone numbers are typically 7 or 8 digits long][phone-nums]:\n"
+"back when phones had dials instead of keypads,\n"
+"that was the longest sequence of numbers most adults could remember accurately\n"
+"for as long as it took the dial to go around and around."
+msgstr ""
+"Наш другий шар пам’яті називається *короткостроковим*. Це\n"
+"тип пам’яті, який ви використовуєте, щоб активно думати про речі, і він часто називається робочою пам’яттю. Це набагато швидше, але також набагато\n"
+"менше: у 1956 році Джордж Міллер підрахував, що короткострокова пам’ять середньостатистичного дорослого може втримати\n"
+"[7±2 об'єктів][wikipedia-7] на кілька секунд, перш ніж щось втратить.\n"
+"Ось [чому телефонні номери зазвичай складаються з 7 або 8 цифр][телефонні номери]:\n"
+"коли телефони мали циферблати замість клавіатури,\n"
+"це була найдовша послідовність цифр, яку більшість дорослих могли точно пам’ятати\n"
+"стільки часу, скільки знадобилося циферблату, щоб обертатися і обертатися."
+
+#: instructor-training/_episodes/05-memory.md:42
+msgid ""
+"More recent research suggests that short-term memory is actually even smaller than this.\n"
+"Regardless of its exact size, which may differ across people and contexts, we know that\n"
+"short-term memory is limited. This has important implications for teaching. If we present\n"
+"our learners with large amounts of information, without giving them the opportunity to\n"
+"practice using it (and thereby transfer it into long-term memory), they won't retain\n"
+"the material as well as if we present small amounts of information interspersed with\n"
+"practice opportunities. This is yet another reason why going slowly and using\n"
+"frequent formative assessment is important."
+msgstr ""
+"Останні дослідження показують, що короткострокова пам’ять насправді навіть менша.\n"
+"Незалежно від її точного розміру, який може відрізнятися залежно від людей і контекстів, \n"
+"ми знаємо, що короткочасна пам'ять є обмеженою.  Це має важливі наслідки для навчання. Якщо ми надамо\n"
+"нашим слухачам великі обсяги інформації, не даючи їм можливості\n"
+"попрактикуватися в його використанні (і таким чином перенести його в довготривалу пам’ять), вони не збережуть\n"
+"матеріал, як і у випадку, якщо ми представимо невеликі обсяги інформації з вкрапленнями\n"
+"можливості практики. Це ще одна причина, чому важливо йти повільно і використовувати\n"
+"досить часто формуюче оцінювання."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:51
+msgid "> ## Test Your Working Memory (5 min)"
+msgstr "> ## Перевірте свою робочу пам'ять  (5 хвилин)"
+
+#: instructor-training/_episodes/05-memory.md:52
+msgid ""
+">\n"
+"> [This website][memory-test] implements a short test of working memory.  \n"
+">\n"
+"> Take 5 minutes to complete the exercise. What was your score? Write your answer\n"
+"> in the Etherpad."
+msgstr ""
+">\n"
+"> [This website][memory-test] implements a short test of working memory.  \n"
+">\n"
+"> Витратьте 5 хвилин на виконання вправи. Який твій бал? Напишіть свою відповідь\n"
+"> в Etherpad."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:59
+msgid "> ## Test Your Working Memory - Analog version (5 min)"
+msgstr "> ## Проверьте свою рабочую память — аналоговая версия (5 мін.)"
+
+#: instructor-training/_episodes/05-memory.md:60
+msgid ""
+">\n"
+"> Read the following list and try to memorize the items in it:\n"
+">\n"
+"> cat, apple, ball, tree, square, head, house, door, box, car, king,\n"
+"> hammer, milk, fish, book, tape, arrow, flower, key, shoe\n"
+">\n"
+"> Without looking at the list again, write down as many words from the list as\n"
+"> you can. How many did you remember? Write your answer in the Etherpad."
+msgstr ""
+">\n"
+">Прочитайте наведений нижче список і спробуйте запам’ятати слова з нього:\n"
+">\n"
+"> кіт, яблуко, м'яч, дерево, квадрат, голова, будинок, двері, скринька, машина, король,\n"
+"> молоток, молоко, риба, книга, стрічка, стріла, квітка, ключ, черевик\n"
+">\n"
+"> Не переглядаючи список знову, запишіть стільки слів зі списку, скільки\n"
+"> ви запам'ятали. Скільки ви запам'ятали? Напишіть свою відповідь в Etherpad."
+
+#: instructor-training/_episodes/05-memory.md:70
+msgid ""
+"Most people will have found they only remember 5-7 words. Don't worry if you\n"
+"remembered fewer - many factors can affect short-term memory in different situations.\n"
+"Fortunately, there are techniques that we can use to improve our effective short-term memory.\n"
+"We'll illustrate one of these techniques and then describe how this is applicable to our\n"
+"workshops.  "
+msgstr ""
+"Більшість людей пам'ятають лише 5-7 слів. Не хвилюйтеся, якщо ви\n"
+"запам'ятали менше - багато факторів можуть впливати на короткочасну пам'ять у різних ситуаціях.\n"
+"На щастя, є методи, які ми можемо використовувати для покращення нашої ефективної короткочасної пам’яті.\n"
+"Ми проілюструємо один із цих методів, а потім опишемо, як це можна застосувати до нашого\n"
+"семінару. "
+
+# header
+#: instructor-training/_episodes/05-memory.md:76
+msgid "## Strategies For Memory Management"
+msgstr "## Стратегії управління пам'яттю"
+
+#: instructor-training/_episodes/05-memory.md:78
+msgid ""
+"Our role as instructors, therefore, is to help our learners by not flooding their\n"
+"short term memory with too much information, partially by providing strategies\n"
+"and exercises to help them form the connections that will move concepts into\n"
+"long-term memory. What are some tools for doing this?"
+msgstr ""
+"Отже, наша роль як інструкторів полягає в тому, щоб допомогти нашим слухачам, не займаючи їх\n"
+"короткострокову пам’ять занадто великою кількістю інформації, частково через надання стратегій запамятовування\n"
+"і вправ, які допоможуть їм сформувати зв’язки для переміщення понять\n"
+"у довгострокову пам'ять. Які існують інструменти для цього?"
+
+# header
+#: instructor-training/_episodes/05-memory.md:83
+msgid "### Chunking"
+msgstr "### Групування"
+
+#: instructor-training/_episodes/05-memory.md:85
+msgid ""
+"One is by explicitly forming connections or groupings.  \n"
+"Our minds can store larger numbers of facts in short-term memory by creating *chunks*, or\n"
+"relationships among separate items, causing them to be remembered as a single item.\n"
+"For example, most of us will remember a word we read as a single item (\"cat\"), rather\n"
+"than as a sequence of letters (\"c-a-t\").\n"
+"Similarly, the pattern made by five spots on cards or die is remembered as a whole\n"
+"rather than as five separate pieces of information."
+msgstr ""
+"Один з таких інструментів –  явне формування зв’язків або груп.\n"
+"Наш розум може зберігати більшу кількість фактів у короткочасній пам’яті, створюючи *фрагменти* або\n"
+"зв’язки між окремими елементами, завдяки чому вони запам’ятовуються як єдиний елемент.\n"
+"Наприклад, більшість із нас запам’ятає слово, яке ми прочитали, як одне ціле («кіт»)\n"
+"ніж як послідовність літер (\"k-і-т\").\n"
+"Подібним чином візерунок із п’яти плям на картках або кубику запам’ятовується як єдине ціле,\n"
+"а не як п’ять окремих частин інформації."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:93
+msgid "> ## Improving Short-term Memory with Chunking"
+msgstr "> ## Поліпшення короткострокової пам'яті за допомогою групування"
+
+#: instructor-training/_episodes/05-memory.md:94
+msgid ""
+">\n"
+"> Repeat the memory exercise you did earlier, but this time,\n"
+"> try to form short stories or phrases, or a visual image, from the words you see.\n"
+">\n"
+"> Write the number of words you remembered in the Etherpad.\n"
+"> How does this compare with your first attempt?"
+msgstr ""
+">\n"
+"> Повторіть вправу на пам’ять, яку ви робили раніше, але цього разу\n"
+"> спробуйте зі слів, які ви бачите, скласти короткі розповіді чи фрази чи візуальний образ.\n"
+">\n"
+"> Напишіть кількість слів, які ви запам’ятали, в Etherpad.\n"
+"> Як це можна порівняти з вашою першою спробою?"
+
+#: instructor-training/_episodes/05-memory.md:102
+msgid ""
+"Storing words in groups reduces the number of effective\n"
+"items in your short-term memory, allowing you to keep\n"
+"more information in your head at once. This is one reason\n"
+"why helping our learners to see the connections among\n"
+"the concepts we are teaching is so important.  "
+msgstr ""
+"Зберігання слів у групах зменшує кількість ефективних\n"
+"елементів у вашій короткостроковій пам’яті, що дозволяє зберегти\n"
+"більше інформації у вашій голові одночасно. Це одна з причин,\n"
+" чому дуже важливо  допомагати нашим слухачам побачити зв’язки між\n"
+"поняттями, яким ми навчаємо."
+
+# header
+#: instructor-training/_episodes/05-memory.md:108
+msgid "### Active Learning Through Formative Assessment"
+msgstr "### Активне навчання через формуюче оцінювання"
+
+#: instructor-training/_episodes/05-memory.md:110
+msgid ""
+"Formative assessment is a key component in helping learners solidify their understanding\n"
+"and transfer ideas from short-term memory into long-term memory. It's important\n"
+"to use formative assessments frequently to help learners transition new concepts\n"
+"into their long-term memory, before their short-term memory fills up. It can\n"
+"be helpful to use pedagogical planning tools to identify the number of concepts\n"
+"that are being introduced in a lesson and plan where to include formative\n"
+"assessments."
+msgstr ""
+"Формуюче оцінювання є ключовим компонентом, який допомагає слухачам зміцнити своє розуміння\n"
+"і переносити ідеї з короткострокової пам’яті в довгострокову. Важливо\n"
+"часто використовувати формуюче оцінювання, щоб допомогти слухачам перенести нові концепції\n"
+"у довгострокову пам’ять, перш ніж їх короткострокова пам’ять заповниться. Також\n"
+"було б корисно використовувати інструменти педагогічного планування для визначення кількості понять\n"
+"які мають вводитися на семінарі, і моментів включення формуючого\n"
+"оцінювання."
+
+# header
+#: instructor-training/_episodes/05-memory.md:118
+msgid "### Limit concepts"
+msgstr "### Концептуальні рамки"
+
+#: instructor-training/_episodes/05-memory.md:120
+msgid ""
+"In the same vein as \"going slowly,\" it's important to limit the number of\n"
+"concepts introduced in a lesson; no matter how many exercises or formative\n"
+"assessments you do, you can't overcome the limit of items that can be\n"
+"shored in short-term memory."
+msgstr ""
+"Аналогічно втіленню ідеї \"рухатися поступово\", важливо обмежити кількість\n"
+"понять, що вводяться на семінарі; незалежно від того, скільки вправ або формуючих\n"
+"оцінок ви робите, ви не можете подолати ліміт інформації, яка може бути\n"
+"збережена в короткостроковій пам'яті."
+
+# header
+#: instructor-training/_episodes/05-memory.md:125
+msgid "## Concept Maps as Instructional Planning Tools"
+msgstr "## Концептуальні карти як інструменти планування навчання"
+
+#: instructor-training/_episodes/05-memory.md:127
+msgid ""
+"One tool that can be used to identify the number of concepts being\n"
+"introduced in a lesson is the *concept map*.\n"
+"A concept map is a picture of someone's mental model of a domain:\n"
+"facts are bubbles,\n"
+"and connections are labelled arcs.\n"
+"It is important that they are labelled:\n"
+"saying \"X and Y are related\" is only helpful if we explain what the relationship *is*."
+msgstr ""
+"Одним з інструментів, який можна використовувати для ідентифікації множини понять,\n"
+" представлених на семінарі, є *концептуальна карта*.\n"
+"Концептуальна карта – це зображення чиєїсь розумової моделі предметної області:\n"
+"факти подані як бульбашки,\n"
+"а зв’язки позначені дугами.\n"
+"Важливо, щоб вони були марковані:\n"
+"Висловлювання «X і Y зв’язані між собою» буде корисним, лише якщо ми пояснимо, який тип зв’язку *застосовано*."
+
+#: instructor-training/_episodes/05-memory.md:135
+msgid ""
+"To show what concept maps look like,\n"
+"consider this example of a `for` loop in Python:"
+msgstr ""
+"Щоб показати, як виглядають концептуальні карти,\n"
+"розглянемо приклад циклу for в Python:"
+
+# code block
+#: instructor-training/_episodes/05-memory.md:138
+msgid ""
+"~~~\n"
+"for ch in \"abc\":\n"
+"    print(2*ch)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for ch in \"abc\":\n"
+"    print(2*ch)\n"
+"~~~"
+
+#: instructor-training/_episodes/05-memory.md:144
+msgid "The three key concepts used in this loop are:"
+msgstr "У цьому циклі використовуються три ключові поняття:"
+
+#: instructor-training/_episodes/05-memory.md:146
+msgid "![Key Concepts](../fig/for-loop-concepts.png)"
+msgstr "![Ключові поняття](../fig/for-loop-concepts.png)"
+
+#: instructor-training/_episodes/05-memory.md:148
+msgid ""
+"The key relationships,\n"
+"which are as important as the concepts themselves,\n"
+"are:"
+msgstr ""
+"Ключові зв'язки,\n"
+"які є такими ж важливими, як і самі поняття,\n"
+"вигляду:"
+
+#: instructor-training/_episodes/05-memory.md:152
+msgid "![Relationships](../fig/for-loop-arcs.png)"
+msgstr "![Зв'язки](../fig/for-loop-arcs.png)"
+
+#: instructor-training/_episodes/05-memory.md:154
+msgid ""
+"A quick count shows that there are actually 6 things here,\n"
+"not just 3,\n"
+"so we're already brushing up against the limits of short-term memory.\n"
+"If we add two more facts to show things that are usually (but not always) true:"
+msgstr ""
+"Швидкий підрахунок показує, що насправді тут є 6 концептів,\n"
+"не тільки 3,\n"
+"тому ми вже починаємо працювати над межами короткострокової пам’яті.\n"
+"Якщо ми додамо ще два факти, щоб показати речі, які зазвичай (але не завжди) правдиві:"
+
+#: instructor-training/_episodes/05-memory.md:159
+msgid "![Recommendations](../fig/for-loop-rec.png)"
+msgstr "![Рекомендації](../fig/for-loop-rec.png)"
+
+#: instructor-training/_episodes/05-memory.md:161
+msgid ""
+"the count rises to 8,\n"
+"which is a good size for a single teaching episode.\n"
+"A few other concept maps drawn by previous participants in this training course\n"
+"are listed below:"
+msgstr ""
+"загальна кількість зростає до 8,\n"
+"що є хорошим розміром для одного навчального епізоду.\n"
+"Кілька інших концептуальних карт, створених попередніми учасниками цього навчального курсу,\n"
+"перераховані нижче:"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:166
+msgid "* [Array Math](../fig/array-math.png)"
+msgstr "* [Array Math](../fig/array-math.png)"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:167
+msgid "* [Conditionals](../fig/conditionals.png)"
+msgstr "* [Conditionals](../fig/conditionals.png)"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:168
+msgid "* [Creating and Destroying Files](../fig/create-destroy.png)"
+msgstr "* [Creating and Destroying Files](../fig/create-destroy.png)"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:169
+msgid "* [Sets and Dictionaries in Python](../fig/dict-set.png)"
+msgstr "* [Sets and Dictionaries in Python](../fig/dict-set.png)"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:170
+msgid "* [Input and Output](../fig/io.png)"
+msgstr "* [Input and Output](../fig/io.png)"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:171
+msgid "* [Lists and Loops](../fig/lists-loops.png)"
+msgstr "* [Lists and Loops](../fig/lists-loops.png)"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:172
+msgid "* [Git Version Control](../fig/git_concept_map.png)"
+msgstr "* [Git Version Control](../fig/git_concept_map.png)"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:173
+msgid "* [Library Carpentry Foundations](../fig/lc-foundations.png)"
+msgstr "* [Library Carpentry Foundations](../fig/lc-foundations.png)"
+
+#: instructor-training/_episodes/05-memory.md:175
+msgid ""
+"Most of these are much larger than our recommended limit,\n"
+"but that's not necessarily a bad thing. An instructor can\n"
+"draw a concept map for an entire topic,\n"
+"and use that to decide where to introduce a formative assessment to avoid overloading\n"
+"short-term memory."
+msgstr ""
+"Більшість із них значно перевищують наш рекомендований ліміт,\n"
+"але це не обов'язково погано. Інструктор може\n"
+"створити концептуальну карту для всієї теми,\n"
+"і використовувати це, щоб вирішити, де запровадити формуюче оцінювання, щоб уникнути перевантаження\n"
+"короткострокової пам'яті."
+
+#: instructor-training/_episodes/05-memory.md:181
+msgid ""
+"It's very important to use a technique like concept mapping for a lesson\n"
+"before teaching it - an instructor needs to identify just how many pieces of\n"
+"separate information will need to be \"stored\" in memory during each part of the lesson. This\n"
+"can be particularly useful for experts who are trying to unpack their own\n"
+"knowledge."
+msgstr ""
+"Дуже важливо перед викладанням на семінарі застосовувати таку техніку, як побудова концептуальної карти\n"
+" - інструктор має визначити, скільки окремих фрагментів\n"
+"інформації протягом кожної частини семінару  потрібно буде «зберігати» в пам'яті . Це\n"
+"може бути особливо корисним для експертів, які намагаються розпакувати свої власні\n"
+"знання."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:187
+msgid "> ## Concept Mapping"
+msgstr "> ## Концептуальні карти"
+
+#: instructor-training/_episodes/05-memory.md:188
+msgid ""
+">\n"
+"> Create a hand-drawn concept map for a part of a Carpentry lesson you would teach in\n"
+"> five minutes (i.e.\n"
+"> the amount of material you would teach before doing a formative assessment).\n"
+"> You can use the same subject about which you created a multiple choice question, or\n"
+"> a different subject.\n"
+"> Trade with a partner, and critique each other's maps. Are there any concepts\n"
+"> missing in your partner's map that you would include? Are there more than a handful\n"
+"> of concepts in your map? If so, how would you re-divide those concepts to avoid\n"
+"> overwhelming your learners' short-term memory?\n"
+">\n"
+"> Take 10 minutes to draw the concept maps and share with your neighbor.\n"
+"> Write \"*done*\" in the Etherpad chat once you have finished."
+msgstr ""
+">\n"
+"> Створіть намальовану від руки концептуальну карту для частини уроку Carpentry, яку ви б викладали протягом\n"
+"> п'яти хвилин (тобто\n"
+"> кількість матеріалу, який ви б викладали перед проведенням формуючого оцінювання).\n"
+"> Ви можете використовувати ту саму тему, щодо якої ви створили питання з множинним вибором, або\n"
+"> іншу тему.\n"
+"> Дискутуйте з партнером і критикуйте карти один одного. Є якісь поняття,\n"
+"> яких бракує на карті вашого партнера, та які б ви включили? Є більше, ніж жменька\n"
+"> понять у вашій карті? Якщо так, то як би ви повторно розділили ці концепції, щоб уникнути\n"
+"> перевантаження короткострокової пам'яті ваших слухачів\n"
+">\n"
+"> Виділіть 10 хвилин, щоб намалювати концептуальні карти та поділитися ними з вашим сусідом.\n"
+"> Після завершення напишіть «*готово*» в чаті Etherpad."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:203
+msgid "> ## Other Uses of Concept Maps"
+msgstr "> ## Інше використання концептуальних карт"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:204
+msgid ""
+"> In addition to helping you plan where to introduce formative assessments, "
+"concept maps can"
+msgstr ""
+"> Крім допомоги в плануванні проведення формувального оцінювання, "
+"концептуальні карти "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:205
+msgid "> be used in many other ways:"
+msgstr "> можуть бути використані багатьма іншими способами:"
+
+#: instructor-training/_episodes/05-memory.md:206
+msgid ""
+">\n"
+"> 1.  To aid solo design of a lesson by helping authors figure\n"
+"> out what they're trying to teach.\n"
+"> 2.  To aid communication with fellow lesson designers.\n"
+"> 3.  To aid communication with learners.\n"
+">     While it's possible to give learners a pre-drawn map at the start of a lesson for them\n"
+"> to annotate, it's better to draw it piece by piece while teaching\n"
+"> to reinforce the ties between what's in the map and what the instructor said.\n"
+"> 4. Concept maps can be used as a classroom discussion exercise.\n"
+"> \tPut learners in small groups (2-4 people each),\n"
+">\tgive each group some sticky notes on which a few key concepts are written,\n"
+">\tand have them build a concept map on a whiteboard by placing those sticky notes,\n"
+">\tconnecting them with labelled arcs,\n"
+">\tand adding any other concepts they think they need.\n"
+"> 5.  Concept maps are also a useful formative assessment technique:\n"
+">    having learners draw concept maps of what they think they just\n"
+"> heard shows the instructor what was missed and what was misunderstood."
+msgstr ""
+">\n"
+"> . Сприяти самостійному оформленню семінару, допомагаючи авторам\n"
+"> побудувати схему результатів навчання.\n"
+"> 2. Сприяти спілкуванню з колегами-розробниками уроків.\n"
+"> 3. Сприяти спілкуванню зі слухачами.\n"
+"> Можна дати слухачам попередньо побудовану карту на початку уроку та заохотити\n"
+"> надавати коментарі, але краще малювати карту по частинах під час навчання\n"
+"> щоб зміцнити зв'язок між тим, що на карті, і тим, що сказав інструктор.\n"
+"> 4. Концептуальні карти можна використовувати як вправу для обговорення в класі.\n"
+"> Об’єднайте слухачів у малі групи (по 2-4 особи в кожній),\n"
+">роздайте кожній групі папірці з кількома ключовими поняттями,\n"
+">і попросіть їх побудувати концептуальну карту на дошці, розмістивши ці наліпки,\n"
+">з'єднуючи їх позначеними дугами,\n"
+">і додаючи будь-які інші поняття, які вони вважають за потрібне.\n"
+"> 5. Концептуальні карти також є корисною технікою формуючого оцінювання:\n"
+"> якщо слухачі намалюють концептуальні карти того, що вони думають про те, що вони  щойно\n"
+"> почули, інструктор може визначити, що пропущено або залишилось незрозумілим."
+
+# header
+#: instructor-training/_episodes/05-memory.md:225
+msgid "## Why Guided Practice is Important"
+msgstr "## Чому керована практика важлива"
+
+#: instructor-training/_episodes/05-memory.md:227
+msgid ""
+"Another way to think about the challenge of managing memory is through\n"
+"the theory of *[cognitive load][wikipedia-cognitive-load]*.\n"
+"It posits that people have to deal with three things when they're learning:"
+msgstr ""
+"Інший спосіб подумати про проблему управління пам'яттю - через\n"
+"теорію *[когнітивного навантаження][wikipedia-cognitive-load]*.\n"
+"Ця теорія передбачає, що під час навчання людям доводиться мати справу з трьома речами:"
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:231
+msgid ""
+"*   *Intrinsic* load is what they have to keep in mind in order to carry out"
+" a learning task."
+msgstr ""
+"*   *Внутрішнє* навантаження – це те, про що вони повинні пам’ятати, щоб "
+"виконати навчальне завдання."
+
+# unordered list
+#: instructor-training/_episodes/05-memory.md:232
+msgid ""
+"*   *Germane* load is the (desirable) mental effort required to create "
+"linkages between new information and old"
+msgstr ""
+"*   *Німецьке* навантаження — це (бажане) розумове зусилля, необхідне для "
+"створення зв’язків між новою та старою інформацією "
+
+#: instructor-training/_episodes/05-memory.md:233
+msgid ""
+"    (which is one of the things that distinguishes learning from memorization).\n"
+"*   *Extraneous* load is everything else that distracts or gets in the way."
+msgstr ""
+"(що є однією з ознак, яка відрізняє навчання від запам'ятовування).\n"
+"* *Стороннє* навантаження - це все інше, що відволікає або заважає."
+
+#: instructor-training/_episodes/05-memory.md:236
+msgid ""
+"Cognitive load theory's proponents claim that eliminating extraneous cognitive load accelerates learning. One\n"
+"way to do this is by using *guided practice*: we set up a structure in which learners can\n"
+"apply their skills with direction and get feedback on their progress."
+msgstr ""
+"Прихильники теорії когнітивного навантаження стверджують, що усунення стороннього когнітивного навантаження прискорює навчання. Це\n"
+"можна зробити з використанням *керованої практики*: ми створили структуру, за якою слухачі можуть\n"
+"застосовувати свої навички ціленаправлено та отримувати відгуки про свій прогрес."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:240
+msgid "> ## Why We Don't Use Minimal Guidance"
+msgstr "> ## Чому ми не використовуємо техніку мінімального керівництва"
+
+#: instructor-training/_episodes/05-memory.md:241
+msgid ""
+">\n"
+"> An alternative to guided practice is a *minimal guidance* approach, where\n"
+"> learners are given raw materials (for example a text or reference) and\n"
+"> asked to explore and learn to solve problems on their own.\n"
+"> Minimal guidance practice comes from another teaching strategy\n"
+"> variously known as *constructivist*, *discovery*, *problem-based*, *experiential*\n"
+"> or *inquiry-based* learning.\n"
+">\n"
+"> You may have heard of some of these strategies, and they are not without\n"
+"> merit! But they frequently fall flat. Cognitive load theory, introduced by [Kirshner et al.][kirschner-paper] \n"
+"> in response to the popularity and uneven success of these approaches, applies what we know about\n"
+"> human cognitive architecture to understand why minimal guidance often fails.\n"
+">\n"
+"> Minimally-guided instruction requires learners to simultaneously\n"
+"> master a domain's factual content\n"
+"> and its search and problem-solving strategies.\n"
+"> Fostering creativity and independence is intuitively appealing,\n"
+"> but that doesn't mean it works."
+msgstr ""
+">\n"
+"> Альтернативою керованій практиці є підхід *мінімального керівництва*, де\n"
+"> услухачам надаються вихідні матеріали (наприклад, текст або посилання) і\n"
+"> завдання дослідити та навчитися вирішувати проблеми самостійно.\n"
+"> Техніка мінімального керівництва походить від іншої стратегії навчання,\n"
+"> також відомої як *конструктивізм*, *відкриття*, *технологія проблемного навчання*, *експериментальна*\n"
+"> або *навчання на основі запитів*.\n"
+">\n"
+"> Можливо, ви чули про деякі з цих стратегій, і вони не безуспішні!\n"
+"> Але в цілому ці стратегії не спрацьовують. Теорія когнітивного навантаження, представлена [Kirshner et al.][kirschner-paper]\n"
+"> у відповідь на популярність і нерівний успіх цих підходів застосовує те, що ми знаємо\n"
+"> про  когнітивну архітектуру людей, щоб зрозуміти, чому мінімальне керівництво часто не дає результатів.\n"
+">\n"
+"> Мінімально кероване навчання вимагає від слухачів одночасно\n"
+"> освоїти фактичний зміст предметної області\n"
+"> і  стратегії пошуку та вирішення проблем.\n"
+"> Розвиток творчості та незалежності є інтуїтивно привабливим,\n"
+"> але це не означає, що він працює."
+
+#: instructor-training/_episodes/05-memory.md:261
+msgid ""
+"In the framework of cognitive load, some additional predictions can be made."
+msgstr ""
+"У рамках теорії когнітивного навантаження можна зробити деякі додаткові "
+"прогнози."
+
+#: instructor-training/_episodes/05-memory.md:263
+msgid ""
+"One example is work by Mayer and colleagues on\n"
+"the *[split-attention effect][wikipedia-split-attention]*.\n"
+"Linguistic and visual input are processed by different parts of the human brain,\n"
+"and linguistic and visual memories are stored separately as well.\n"
+"This means that correlating different linguistic, auditory, and visual\n"
+"streams of information takes cognitive effort:\n"
+"when someone reads one thing while hearing something else spoken aloud,\n"
+"their brain can't help but check that it's getting the same information on both channels.\n"
+"Discrepancies between these channels increase cognitive load and decrease learning.\n"
+"Learning is therefore more effective when information that is being presented simultaneously\n"
+"in two different channels is redundant, rather than different."
+msgstr ""
+"Одним із прикладів є робота Майєра та його колег\n"
+"*[ефект розділеної уваги][wikipedia-split-attention]*.\n"
+"Мовні та візуальні дані обробляються різними частинами людського мозку,\n"
+"лінгвістичні та візуальні спогади також зберігаються окремо.\n"
+"Це означає, що кореляція різних мовних, слухових та зорових\n"
+"потоків інформації потребує когнітивних зусиль:\n"
+"коли хтось читає одне, чуючи вголос щось інше,\n"
+"його мозок не може не перевірити, чи отримує він однакову інформацію на обох каналах.\n"
+"Розбіжності між цими каналами збільшують когнітивне навантаження та знижують здатність до навчання.\n"
+"Таким чином, навчання є більш ефективним, коли інформація, що подається одночасно\n"
+"у двох різних каналах є надлишковою, а не різною."
+
+#: instructor-training/_episodes/05-memory.md:275
+msgid ""
+"For our workshops, this means the instructor should say out loud commands as"
+" they type them on the screen while engaging learners in [participatory live"
+" coding]({{ page.root }}/14-live/)."
+msgstr ""
+"Для наших семінарів це означає, що інструктор має вимовляти команди мови "
+"програмування вголос, коли він вводить їх на екрані, залучаючи слухачів до "
+"[активного кодування] ({{ page.root }}/14-live/)."
+
+# header
+#: instructor-training/_episodes/05-memory.md:277
+msgid "## Guided Practice at Work"
+msgstr "## Керована практика"
+
+#: instructor-training/_episodes/05-memory.md:279
+msgid ""
+"How do we implement guided practice, lessening the burden of extraneous\n"
+"cognitive load and allow people to focus on what's important?  There are\n"
+"many different types of exercises that implement this guided practice; some\n"
+"are listed in this [blog post by Greg Wilson][GW-exercise-post], including\n"
+"Parson's Problems and labelling diagrams."
+msgstr ""
+"Як ми реалізуємо керовану практику, зменшуючи тягар стороннього\n"
+"когнітивного навантаження та дозволяючи слухачам зосередитися на тому, що важливо? Є\n"
+"багато різних типів вправ, які реалізують цю керовану практику; декілька\n"
+"перераховані в цьому [дописі в блозі Грега Вілсона] [GW-exercise-post], зокрема\n"
+"Проблеми Парсона та діаграми маркування."
+
+#: instructor-training/_episodes/05-memory.md:285
+msgid ""
+"To learn more about a specific guided practice exercise\n"
+"called *faded examples*, read on."
+msgstr ""
+"Щоб дізнатися більше про конкретну практичну вправу,\n"
+"яка називається *вицвітаючі приклади*, читайте далі."
+
+#: instructor-training/_episodes/05-memory.md:288
+msgid ""
+"According to cognitive load theory,\n"
+"searching for a solution strategy is an extra burden\n"
+"on top of applying that strategy.\n"
+"We can therefore accelerate learning\n"
+"by giving learners worked examples that show them a problem and a detailed step-by-step solution,\n"
+"followed by a series of faded examples.\n"
+"The first of these presents a nearly-complete use of the same problem-solving strategy\n"
+"with a small number of blanks for the learner to fill in.\n"
+"The next problem is also of the same type,\n"
+"but has more blanks,\n"
+"and so on until the learner is asked to solve the entire problem."
+msgstr ""
+"Відповідно до теорії когнітивного навантаження,\n"
+"пошук стратегії вирішення є додатковим тягарем.\n"
+"на додаток до застосування цієї стратегії.\n"
+"Тому ми можемо прискорити навчання,\n"
+"надаючи слухачам робочі приклади, які показують їм проблему та детальне покрокове рішення,\n"
+"за якими слідує серія вицвітаючих прикладів.\n"
+"Перший з них представляє майже повне використання тієї самої стратегії вирішення проблеми\n"
+"з невеликою кількістю пропусків, які повинен заповнити слухач.\n"
+"Наступна задача також такого ж типу,\n"
+"але має більше порожніх місць,\n"
+"і так далі, доки слухача не попросять розв’язати всю проблему цілком."
+
+#: instructor-training/_episodes/05-memory.md:300
+msgid ""
+"Faded examples work because they introduce the problem-solving strategy piece by piece.\n"
+"At each step,\n"
+"learners have one new problem to tackle.\n"
+"This is less intimidating than a blank screen or a blank sheet of paper.\n"
+"It also encourages learners to think about the similarities and differences between various approaches,\n"
+"which helps create the linkages in the mental model that instructors want them to form."
+msgstr ""
+"Вицвітаючі приклади працюють, тому що вони поступово вводять стратегію вирішення проблеми.\n"
+"На кожному кроці\n"
+"слухачі мають одну нову проблему для вирішення.\n"
+"Це менш лякає, ніж порожній екран або чистий аркуш паперу.\n"
+"Це також заохочує слухачів думати про схожість і відмінність між різними підходами,\n"
+"що допомагає створити зв’язки в розумовій моделі, яку хочуть сформувати інструктори."
+
+#: instructor-training/_episodes/05-memory.md:307
+msgid ""
+"For example,\n"
+"someone teaching Python might start by explaining this:"
+msgstr ""
+"Наприклад,\n"
+"інструктор, який викладає Python, може почати з пояснення цього:"
+
+# code block
+#: instructor-training/_episodes/05-memory.md:310
+msgid ""
+"~~~\n"
+"def total_length(words):\n"
+"    \"\"\"Returns the total length of all words in a list combined.\n"
+"\n"
+"    Example:\n"
+"       total_length([\"red\", \"green\", \"blue\"]) => 12\n"
+"    \"\"\"\n"
+"    total = 0\n"
+"    for word in words:\n"
+"        total += len(word)\n"
+"    return total\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"def total_length(words):\n"
+"    \"\"\"Повертає загальну довжину всіх слів у списку.\n"
+"\n"
+"   Приклад:\n"
+"       total_length([\"red\", \"green\", \"blue\"]) => 12\n"
+"    \"\"\"\n"
+"    total = 0\n"
+"    for word in words:\n"
+"        total += len(word)\n"
+"    return total\n"
+"~~~"
+
+# SC/DC Template label
+#: instructor-training/_episodes/05-memory.md:322
+#: instructor-training/_episodes/05-memory.md:338
+#: instructor-training/_episodes/05-memory.md:354
+#: instructor-training/_episodes/05-memory.md:367
+msgid "{: .python}"
+msgstr "{: .python}"
+
+#: instructor-training/_episodes/05-memory.md:324
+msgid "then ask learners to fill in the blanks in:"
+msgstr "потім попросіть слухачів заповнити пропуски в:"
+
+# code block
+#: instructor-training/_episodes/05-memory.md:326
+msgid ""
+"~~~\n"
+"def word_lengths(words):\n"
+"    \"\"\"Returns a list of lengths of each word in a list.\n"
+"\n"
+"    Example:\n"
+"        word_lengths([\"red\", \"green\", \"blue\"]) => [3, 5, 4]\n"
+"    \"\"\"\n"
+"    lengths = ____\n"
+"    for word in words:\n"
+"        lengths ____\n"
+"    return lengths\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"def word_lengths(words):\n"
+"    \"\"\"Повертає загальну довжину всіх слів у списку.\n"
+"\n"
+"    Приклад:\n"
+"        word_lengths([\"red\", \"green\", \"blue\"]) => [3, 5, 4]\n"
+"    \"\"\"\n"
+"    lengths = ____\n"
+"    for word in words:\n"
+"        lengths ____\n"
+"    return lengths\n"
+"~~~"
+
+#: instructor-training/_episodes/05-memory.md:340
+msgid "The next problem might be:"
+msgstr "Наступною проблемою може бути:"
+
+# code block
+#: instructor-training/_episodes/05-memory.md:342
+msgid ""
+"~~~\n"
+"def concatenate_all(words):\n"
+"    \"\"\"Combines all words in a list into one.\n"
+"\n"
+"    Example:\n"
+"        concatenate_all([\"red\", \"green\", \"blue\"]) => \"redgreenblue\"\n"
+"    \"\"\"\n"
+"    result = ____\n"
+"    for ____ in ____:\n"
+"        ____\n"
+"    return result\n"
+"~~~~"
+msgstr ""
+"~~~\n"
+"def concatenate_all(words):\n"
+"    \"\"\"Об’єднує всі слова зі списку в одне.\n"
+"\n"
+"    Приклад:\n"
+"        concatenate_all([\"red\", \"green\", \"blue\"]) => \"redgreenblue\"\n"
+"    \"\"\"\n"
+"    result = ____\n"
+"    for ____ in ____:\n"
+"        ____\n"
+"    return result\n"
+"~~~~"
+
+#: instructor-training/_episodes/05-memory.md:356
+msgid "and learners would finally be asked to tackle:"
+msgstr "і нарешті слухачам буде запропоновано взятися за:"
+
+# code block
+#: instructor-training/_episodes/05-memory.md:358
+msgid ""
+"~~~\n"
+"def acronymize(words):\n"
+"    \"\"\"Returns the first letter of each word in a list capitalised in a single string.\n"
+"\n"
+"    Example:\n"
+"        acronymize([\"red\", \"green\", \"blue\"]) => \"RGB\"\n"
+"    \"\"\"\n"
+"    ____\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"def acronymize(words):\n"
+"    \"\"\"Повертає першу літеру кожного слова у списку, написаному великими літерами в одному рядку.\n"
+"\n"
+"    Приклад:\n"
+"        acronymize([\"red\", \"green\", \"blue\"]) => \"RGB\"\n"
+"    \"\"\"\n"
+"    ____\n"
+"~~~"
+
+#: instructor-training/_episodes/05-memory.md:369
+msgid ""
+"Another situation in which a concept map can be helpful is in deciding where to place the\n"
+"blanks in a faded example. Each blank (or set of blanks) would ideally correspond to one\n"
+"concept in your concept map."
+msgstr ""
+"Інша ситуація, в якій концептуальна карта може бути корисною, полягає у вирішенніЮ де саме розмістити\n"
+"порожні місця  у вицвітаючому прикладі. Кожен пропуск (або набір пропусків) має точно відповідати одному концепту\n"
+"у вашій концептуальній карті."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/05-memory.md:373
+msgid "> ## Create a Faded Example from a Lesson (Optional)"
+msgstr "> ##Створення вицвітаючого прикладу на семінарі (необов’язково)"
+
+#: instructor-training/_episodes/05-memory.md:374
+msgid ""
+">\n"
+"> The following exercise should be done in groups of 2-3.\n"
+">\n"
+"> 1.  Pick a block of code from an existing Carpentries lesson,\n"
+">     or from another lesson you have taught recently.\n"
+"> 2.  Replace 2-3 pieces of the code with a blank.\n"
+"> 3.  Write a question to test the learner's ability to correctly fill in that blank.\n"
+"> 5.  Paste your faded example in the Etherpad.\n"
+">\n"
+"> This exercise should take about 10 minutes.\n"
+">\n"
+">> ## Solution\n"
+">>\n"
+">> Your solution to this exercise could look similar to the example\n"
+">> given above, or something like this:\n"
+">>\n"
+">> **Question**  \n"
+">> In this example, we will graph the change in life expectancy over time\n"
+">> as a line graph, giving each country a unique color and each continent\n"
+">> its own unique panel or facet.  \n"
+">> What would you add to the blank spaces to create this graph?\n"
+">>```\n"
+">> ggplot(data = az.countries, aes(x = year, y = lifeExp, color = ________)) +\n"
+">>   geom_line() +  facet_wrap( ~ _______)\n"
+">>```\n"
+">>\n"
+">>**Answer** `country` and  `continent`\n"
+">>"
+msgstr ""
+">\n"
+"Наступну вправу слід виконувати в групах по 2-3 особи.\n"
+">\n"
+"> 1. Виберіть блок коду з існуючого семінару Carpentry,\n"
+"> або з іншої лекції, яку ви нещодавно викладали.\n"
+"> 2. Замініть 2-3 фрагменти коду пропусками.\n"
+"> 3. Напишіть запитання, щоб перевірити здатність слухача правильно заповнити цей пропуск.\n"
+"> 5. Вставте свій вицвітаючий приклад у Etherpad.\n"
+">\n"
+"> Ця вправа займає близько 10 хвилин.\n"
+">\n"
+">> ## Рішення\n"
+">>\n"
+">> Ваше рішення цієї вправи може виглядати подібно до прикладу,\n"
+">> який наведено вище, або щось на зразок цього:\n"
+">>\n"
+">> **Питання**\n"
+">> У цьому прикладі ми наведемо графік зміну очікуваної тривалості життя з часом\n"
+">> у вигляді лінійного графіка, що надає кожній країні унікальний колір і кожному континенту\n"
+">> власну унікальну панель або фасету.\n"
+">> Що б ви додали до порожніх місць, щоб створити цей графік?\n"
+">>```\n"
+">> ggplot(data = az.countries, aes(x = year, y = lifeExp, color = ________)) +\n"
+">> geom_line() + facet_wrap( ~ _______)\n"
+">>```\n"
+">>\n"
+">>**Відповідь** `країна` і `континент`\n"
+">>"
+
+# SC/DC Template label
+#: instructor-training/_episodes/05-memory.md:402
+msgid ">{: .solution}"
+msgstr ">{: .solution}"
+
+# header
+#: instructor-training/_episodes/05-memory.md:405
+msgid "## Summary"
+msgstr "## Висновки"
+
+#: instructor-training/_episodes/05-memory.md:406
+msgid ""
+"The process of learning is constrained by the limits of short-term memory. In order to move\n"
+"new information into long-term memory, it must be actively applied, but activities that\n"
+"make excessive demands on short-term memory are likely to induce cognitive overload and can\n"
+"easily harm learner motivation. Instructional tools that expand short-term memory by\n"
+"increasing connectivity (chunking) among new concepts can improve\n"
+"outcomes for subsequent memory-intensive exercises. Formative assessments, when performed\n"
+"frequently, help learners by prompting them to apply new content before it has been\n"
+"overwritten. Faded examples or other types of guided practice\n"
+"both minimize demands on short-term memory and offer context that\n"
+"helps improve connectivity for future work, in which the \"scaffolding\" of contextual support\n"
+"can be gradually removed.\n"
+"Anything you can do to a) recognize and b) support learners in working with the\n"
+"limitations of short-term memory will improve the effectiveness of your teaching."
+msgstr ""
+"Процес навчання стримується межами короткострокової пам'яті. Для перенесення\n"
+"нової інформації в довгострокову пам'ять, вона повинна активно застосовуватися, але діяльність, яка висуває\n"
+"надмірні вимоги до короткострокової пам’яті, може спричинити когнітивне перевантаження та\n"
+"легко зашкодити мотивації слухачів. Навчальні інструменти, що розширюють короткострокову пам'ять завдяки\n"
+"підвищенню зв’язності (групуванню)  нових концепцій, можуть покращити\n"
+"результати для наступних вправ, що потребують інтенсивної пам’яті. Формуюче оцінювання, коли воно виконується,\n"
+"часто допомагає слухачам, пропонуючи їм застосувати новий вміст до того, як він був\n"
+"перезаписаний. Вицвітаючі приклади або інші типи керованої практики\n"
+"мінімізують вимоги до короткострокової пам’яті та пропонують такий контекст, що\n"
+"допомагає покращити зв'язок для майбутньої роботи, в якому \"риштування\" контекстної підтримки\n"
+"можна поступово видаляти.\n"
+"Усе, що ви можете зробити, щоб а) визнати та б) підтримати слухачів у роботі з\n"
+"обмеження короткострокової пам'яті, підвищить ефективність вашого навчання."
+
+#: instructor-training/_episodes/05-memory.md:420
+msgid ""
+"[kirschner-paper]: http://www.cogtech.usc.edu/publications/kirschner_Sweller_Clark.pdf\n"
+"[memory-test]: https://miku.github.io/activememory/\n"
+"[wikipedia-cognitive-load]: https://en.wikipedia.org/wiki/Cognitive_load\n"
+"[wikipedia-inquiry]: https://en.wikipedia.org/wiki/Inquiry-based_learning\n"
+"[wikipedia-split-attention]: https://en.wikipedia.org/wiki/Split_attention_effect\n"
+"[wikipedia-7]: https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two\n"
+"[phone-nums]: https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits\n"
+"[GW-exercise-post]: http://third-bit.com/2017/10/16/exercise-types.html"
+msgstr ""
+"[kirschner-paper]: http://www.cogtech.usc.edu/publications/kirschner_Sweller_Clark.pdf\n"
+"[memory-test]: https://miku.github.io/activememory/\n"
+"[wikipedia-cognitive-load]: https://en.wikipedia.org/wiki/Cognitive_load\n"
+"[wikipedia-inquiry]: https://en.wikipedia.org/wiki/Inquiry-based_learning\n"
+"[wikipedia-split-attention]: https://en.wikipedia.org/wiki/Split_attention_effect\n"
+"[wikipedia-7]: https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two\n"
+"[phone-nums]: https://www.quora.com/Why-did-Bell-Labs-create-phone-numbers-of-7-digits-10-digits\n"
+"[GW-exercise-post]: http://third-bit.com/2017/10/16/exercise-types.html"

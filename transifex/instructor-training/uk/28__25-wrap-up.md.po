@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 18:36+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/25-wrap-up.md:1
+msgid ""
+"---\n"
+"title: \"Wrapping Up\"\n"
+"teaching: 0\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"What can we improve in this training?\"\n"
+"objectives:\n"
+"- \"Reflect on the two-day course.\"\n"
+"- \"Articulate constructive feedback.\"\n"
+"keypoints:\n"
+"- \"Feedback applies to all kinds of learning, including learning how to teach.\"\n"
+"---"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:14
+msgid "> ## One Up, One Down"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:16
+msgid "> Provide one up, one down feedback on the entire two-day course."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:18
+msgid "> Just as in our regular workshops,"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:19
+msgid "> we collect post-instructor-training-workshop feedback."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:20
+msgid ""
+"> Your participation will help us evaluate the efficacy of this training"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:21
+msgid "> and improve the content and delivery of the lesson materials."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:23
+#: instructor-training/_episodes/25-wrap-up.md:31
+msgid "> This exercise should take 5 minutes."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:26
+msgid "> ## Minute Cards"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:28
+msgid ""
+"> In addition to giving one up, one down feedback. Please also fill out your"
+" sticky"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:29
+msgid "> notes to give your instructors anonymous feedback. "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:34
+msgid "> ## Post Workshop Surveys"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:36
+msgid ""
+"> Assessment is very important to us! Please take 5 minutes to complete "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/25-wrap-up.md:37
+msgid ""
+"> this [five-minute post-workshop survey]({{site.training_post_survey}})."
+msgstr ""
+
+#: instructor-training/_episodes/25-wrap-up.md:38
+msgid ""
+">\n"
+"> This exercise should take 5 minutes.  "
+msgstr ""
+
+# header
+#: instructor-training/_episodes/25-wrap-up.md:42
+msgid "## Thank You"
+msgstr ""
+
+#: instructor-training/_episodes/25-wrap-up.md:44
+msgid ""
+"Thank you for taking part in this instructor training workshop.\n"
+"We hope it was a valuable and enjoyable experience,\n"
+"and we look forward to having you as Carpentries instructors!"
+msgstr ""

@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:40+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# header
+#: instructor-training/_extras/refresher-bits.md:1
+msgid "# Short Reminder and Refresher Text for Instructor Training"
+msgstr ""
+
+# header
+#: instructor-training/_extras/refresher-bits.md:2
+msgid "## Dismissive language"
+msgstr ""
+
+#: instructor-training/_extras/refresher-bits.md:3
+msgid ""
+"Have you caught yourself using \"the J Word\" lately? Do you reassure your learners that they can be successful by suggesting \n"
+"that a task is \"easy\"? Don't forget to remember: tasks that are familiar to you but are new to your learners are rarely easy\n"
+"for learners! Asking learners to \"just\" perform a task suggests to them that, if it is hard for them, there might be something\n"
+"wrong with them. By signalling that you don't expect them to have trouble, you also signal that you aren't expecting them to need\n"
+"help. It's \"easy\" to use this kind of language in a well-intentioned way, with un-intended consequences. To maximize learner comfort in your classroom, keep this fresh in your \n"
+"mind, try to catch yourself, and think about steps you might take to correct these language errors when you teach!"
+msgstr ""

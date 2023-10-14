@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 21:24+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/registration_confirmation.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Registration Confirmation Page\"\n"
+"exclude: true\n"
+"permalink: /confirmation/\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/_extras/registration_confirmation.md:8
+msgid "# Thank you for registering!"
+msgstr ""
+
+#: instructor-training/_extras/registration_confirmation.md:10
+msgid ""
+"Thank you for registering for a Carpentries Instructor Training event. You "
+"should be getting an email from Eventbrite to confirm your registration.  If"
+" you have landed on this page without registering for an event, please visit"
+" [this page](https://carpentries.github.io/instructor-training/) for more "
+"information about our Instructor Training program or contact "
+"[team@carpentries.org](mailto:team@carpentries.org)."
+msgstr ""
+
+#: instructor-training/_extras/registration_confirmation.md:12
+msgid ""
+"Approximately one week before the event, you will receive information on how"
+" to connect to the videoconference."
+msgstr ""
+
+#: instructor-training/_extras/registration_confirmation.md:14
+msgid ""
+"To prepare for the Instructor Training workshop, please review our "
+"[instructor training curriculum](https://carpentries.github.io/instructor-"
+"training/).  This will give you an overview of what we'll be doing over the "
+"two days.  It also links to our [checkout "
+"process](https://carpentries.github.io/instructor-training/checkout/) "
+"required to complete the certification process to teach Carpentries "
+"workshops."
+msgstr ""
+
+#: instructor-training/_extras/registration_confirmation.md:16
+msgid ""
+"You can read more about [The Carpentries](https://carpentries.org/) and its lesson programs, [Software Carpentry](https://software-carpentry.org/), [Data Carpentry](https://datacarpentry.org/), and \n"
+"[Library Carpentry](https://librarycarpentry.org/). Read about all the ways to [get involved](https://carpentries.org/community/) in The Carpentries, including signing up for [mailing lists](https://carpentries.topicbox.com/latest) and [newsletters](https://carpentries.org/newsletter/)."
+msgstr ""
+
+#: instructor-training/_extras/registration_confirmation.md:19
+#: instructor-training/_extras/training_calendar.md:27
+msgid ""
+"Registration for each event closes one week before that event. You may "
+"change or cancel your registration up to one week before the event. "
+"Cancelations less than one week in advance and no-shows may result in "
+"forfeiting your seat.  We do make exceptions to this policy in limited "
+"circumstances (e.g. illness), so please do reach out to us at "
+"[team@carpentries.org](mailto:team@carpentries.org) if there was an "
+"extenuating circumstance and we will be able to make alternative "
+"arrangements for you to join another training event."
+msgstr ""
+
+#: instructor-training/_extras/registration_confirmation.md:21
+msgid ""
+"We're excited to have you on board and look forward to having you officially"
+" join The Carpentries instructor community.  If you have any questions, "
+"please [contact us](mailto:team@carpentries.org)."
+msgstr ""

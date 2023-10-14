@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 18:31+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/training_calendar.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Training Calendar\"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:7
+msgid "#### The Carpentries Instructor Training Calendar"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:8
+msgid "###  January to December 2019"
+msgstr ""
+
+#: instructor-training/_extras/training_calendar.md:10
+msgid ""
+"If you are with a member site ready to schedule your instructor training "
+"session, you should have received an email with a code for your team to "
+"register. People affiliated with member sites can register at any time "
+"during their membership term."
+msgstr ""
+
+#: instructor-training/_extras/training_calendar.md:12
+msgid ""
+"If you are joining through our open application program, applications are "
+"reviewed on a rolling basis.  Applicants who are accepted will receive a "
+"code to register for an event below.  Open applicants can register no "
+"earlier than one month before each event."
+msgstr ""
+
+#: instructor-training/_extras/training_calendar.md:14
+msgid ""
+"All trainings are offered online from 9 am to 5 pm in the time zone noted.  "
+"You do not need to be in the same time zone yourself but need to accommodate"
+" that time zone for the full 2-day event. A link is provided next to each "
+"event that will convert the start time to your local time zone."
+msgstr ""
+
+#: instructor-training/_extras/training_calendar.md:16
+msgid ""
+"Read more about our Instructor Training program [here]({{ page.root }})."
+msgstr ""
+
+#: instructor-training/_extras/training_calendar.md:18
+msgid ""
+"If you have not already done so, please be sure to complete our [instructor "
+"training application](https://amy.carpentries.org/forms/request_training/) "
+"so we can be sure you are in our system.  "
+msgstr ""
+
+#: instructor-training/_extras/training_calendar.md:20
+#: instructor-training/index.md:29
+msgid ""
+"The class will be hands-on throughout:\n"
+"short lessons will alternate with individual and group practical exercises,\n"
+"including practice teaching sessions.\n"
+"Those who complete the two full days\n"
+"and [some short follow-up exercises online]({{ page.root }}/checkout/)\n"
+"will be certified to teach [Software Carpentry]({{ site.swc_site }}), [Data Carpentry]({{ site.dc_site }}), and [Library Carpentry]({{ site.lc_site }}) workshops."
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:29
+msgid "# North America"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:31
+msgid "#### Pacific time"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:32
+msgid "* January 14-15, 2019 (UTC -8) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:33
+msgid "* March 20-21, 2019 (UTC -8) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:34
+msgid "* April 22-23, 2019 (UTC -7)  *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:35
+msgid "* May 30-31, 2019 (UTC -7)  *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:36
+msgid "* June 18-19, 2019 (UTC -7) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:37
+msgid ""
+"* [September 5-6, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-september-5-6-n-america-pacific-time-tickets-65407558769)  (UTC -7)"
+"  To see the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Instructor+Training+2019-09-05-ttt-"
+"PDT&iso=20190905T09&p1=137)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:38
+msgid ""
+"* [December 11-12, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-december-11-12-2019-n-america-pacific-time-tickets-65407937903) "
+"(UTC -8)  To see the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Instructor+Training+2019-12-11-ttt-"
+"PST&iso=20191211T09&p1=137)"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:40
+msgid "#### Mountain time"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:41
+msgid "* July 23-24, 2019 (UTC -6) *Event Canceled*"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:43
+msgid "#### Central time"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:44
+msgid "* January 10-11, 2019 (UTC -6) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:45
+msgid "* February 25-26, 2019 (UTC -6) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:46
+msgid "* April 4-5, 2019 (UTC -5) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:47
+msgid "* July 18-19, 2019] (UTC -5) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:48
+msgid ""
+"* [August 26-27, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-august-26-27-cdt-tickets-59705042389) (UTC -5) To see the start "
+"time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Carpentries+Instructor+Training+2-day+event+%28start+time%29&iso=20190826T09&p1=3919)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:49
+msgid ""
+"* [September 18-19, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-september-18-19-n-america-central-time-tickets-66692395751)  (UTC "
+"-5) To see the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Carpentries+Instructor+Training&iso=20190918T09&p1=64)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:50
+msgid ""
+"* [October 24-25, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-october-24-25-2019-n-america-central-time-tickets-66684385793) (UTC"
+" -5) To see the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Carpentries+Instructor+Training&iso=20191024T09&p1=64)"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:52
+msgid "#### Eastern time"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:53
+msgid "* January 22-23, 2019(UTC -5) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:54
+msgid "* February 14-15, 2019(UTC -5) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:55
+msgid "* March 11-12, 2019 (UTC -4) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:56
+msgid "* May 21-22, 2019 (UTC -4)  *Registration closed* "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:57
+msgid "* June 3-4, 2019 (UTC -4) *Registration closed* "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:58
+msgid "* July 29-30, 2019 (UTC -4) *Registration closed* "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:59
+msgid ""
+"* [September 26-27, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-september-26-27-n-america-eastern-time-tickets-65522996045) (UTC-4)"
+"  To see the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Instructor+Training%2C+September+26-27%2C+2019+EDT&iso=20190926T09&p1=179)"
+"  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:60
+msgid ""
+"* [November 11-12, 2019](https://www.eventbrite.com/e/instructor-training-"
+"november-11-12-n-america-eastern-time-tickets-65408168593) (UTC -5) To see "
+"the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Instructor+Training+2019-11-11-ttt-"
+"EST&iso=20191111T09&p1=179)."
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:62
+msgid "# Europe and Africa"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:64
+msgid "#### Western European time"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:65
+msgid "* January 22-23, 2019 (UTC) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:66
+msgid "* April 22-23, 2019  (UTC +1)  *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:67
+msgid "* May 13-14, 2019 (UTC +1) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:68
+msgid "* June 19-20, 2019 (UTC +1) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:69
+msgid "* July 25-26, 2019 (UTC +1) *Registration closed* "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:70
+msgid ""
+"* [September 10-11, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-september-10-11-british-summer-time-tickets-65523276885) (UTC +1)"
+"   To see the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Carpentries+Instructor+Training%2C+September+10-11+2019%2C+BST&iso=20190910T09&p1=136)"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:72
+msgid "#### Central European/Western African time"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:73
+msgid "* January 30-31, 2019 (UTC +1) *Event Canceled*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:74
+msgid "* April 10-11, 2019 (UTC +2) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:75
+msgid "* July 1-2, 2019 (UTC +2) *Registration closed*"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:76
+msgid ""
+"* [August 28-29, 2019](https://www.eventbrite.com/e/online-instructor-"
+"training-august-28-29-central-european-time-tickets-59708227917)  (UTC +2) "
+"To see the start time in your local time zone, click "
+"[here](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Carpentries+Instructor+Training+2-day+event+%28start+time%29&iso=20190828T09&p1=3904)"
+msgstr ""
+
+# header
+#: instructor-training/_extras/training_calendar.md:78
+msgid "# New Zealand"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/training_calendar.md:79
+msgid "* July 29-30, 2019 (UTC +12) *Registration closed* "
+msgstr ""

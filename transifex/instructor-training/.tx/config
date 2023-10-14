@@ -1,0 +1,291 @@
+[main]
+host = https://www.transifex.com
+
+[o:carpentries-i18n:p:instructor-training:r:pot_00__CODE_OF_CONDUCT]
+file_filter  = <lang>/00__CODE_OF_CONDUCT.md.po
+source_file  = pot/00__CODE_OF_CONDUCT.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_01__CONTRIBUTING]
+file_filter  = <lang>/01__CONTRIBUTING.md.po
+source_file  = pot/01__CONTRIBUTING.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_02__LICENSE]
+file_filter  = <lang>/02__LICENSE.md.po
+source_file  = pot/02__LICENSE.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_03__README]
+file_filter  = <lang>/03__README.md.po
+source_file  = pot/03__README.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_04__01-welcome]
+file_filter  = <lang>/04__01-welcome.md.po
+source_file  = pot/04__01-welcome.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_05__02-practice-learning]
+file_filter  = <lang>/05__02-practice-learning.md.po
+source_file  = pot/05__02-practice-learning.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_06__03-expertise]
+file_filter  = <lang>/06__03-expertise.md.po
+source_file  = pot/06__03-expertise.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_07__04-coffee]
+file_filter  = <lang>/07__04-coffee.md.po
+source_file  = pot/07__04-coffee.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_08__05-memory]
+file_filter  = <lang>/08__05-memory.md.po
+source_file  = pot/08__05-memory.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_09__06-feedback]
+file_filter  = <lang>/09__06-feedback.md.po
+source_file  = pot/09__06-feedback.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_10__07-lunch]
+file_filter  = <lang>/10__07-lunch.md.po
+source_file  = pot/10__07-lunch.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_11__08-motivation]
+file_filter  = <lang>/11__08-motivation.md.po
+source_file  = pot/11__08-motivation.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_12__09-mindset]
+file_filter  = <lang>/12__09-mindset.md.po
+source_file  = pot/12__09-mindset.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_13__10-coffee]
+file_filter  = <lang>/13__10-coffee.md.po
+source_file  = pot/13__10-coffee.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_14__11-practice-teaching]
+file_filter  = <lang>/14__11-practice-teaching.md.po
+source_file  = pot/14__11-practice-teaching.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_15__12-homework]
+file_filter  = <lang>/15__12-homework.md.po
+source_file  = pot/15__12-homework.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_16__13-second-welcome]
+file_filter  = <lang>/16__13-second-welcome.md.po
+source_file  = pot/16__13-second-welcome.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_17__14-live]
+file_filter  = <lang>/17__14-live.md.po
+source_file  = pot/17__14-live.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_18__15-lesson-study]
+file_filter  = <lang>/18__15-lesson-study.md.po
+source_file  = pot/18__15-lesson-study.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_19__16-coffee]
+file_filter  = <lang>/19__16-coffee.md.po
+source_file  = pot/19__16-coffee.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_20__17-performance]
+file_filter  = <lang>/20__17-performance.md.po
+source_file  = pot/20__17-performance.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_21__18-management]
+file_filter  = <lang>/21__18-management.md.po
+source_file  = pot/21__18-management.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_22__19-lunch]
+file_filter  = <lang>/22__19-lunch.md.po
+source_file  = pot/22__19-lunch.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_23__20-checkout]
+file_filter  = <lang>/23__20-checkout.md.po
+source_file  = pot/23__20-checkout.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_24__21-carpentries]
+file_filter  = <lang>/24__21-carpentries.md.po
+source_file  = pot/24__21-carpentries.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_25__22-coffee]
+file_filter  = <lang>/25__22-coffee.md.po
+source_file  = pot/25__22-coffee.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_26__23-introductions]
+file_filter  = <lang>/26__23-introductions.md.po
+source_file  = pot/26__23-introductions.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_27__24-practices]
+file_filter  = <lang>/27__24-practices.md.po
+source_file  = pot/27__24-practices.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_28__25-wrap-up]
+file_filter  = <lang>/28__25-wrap-up.md.po
+source_file  = pot/28__25-wrap-up.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_29__about]
+file_filter  = <lang>/29__about.md.po
+source_file  = pot/29__about.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_30__checkout]
+file_filter  = <lang>/30__checkout.md.po
+source_file  = pot/30__checkout.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_31__demo_lessons]
+file_filter  = <lang>/31__demo_lessons.md.po
+source_file  = pot/31__demo_lessons.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_32__demos_rubric]
+file_filter  = <lang>/32__demos_rubric.md.po
+source_file  = pot/32__demos_rubric.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_33__figures]
+file_filter  = <lang>/33__figures.md.po
+source_file  = pot/33__figures.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_34__glossary]
+file_filter  = <lang>/34__glossary.md.po
+source_file  = pot/34__glossary.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_35__guide]
+file_filter  = <lang>/35__guide.md.po
+source_file  = pot/35__guide.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_36__icebreakers]
+file_filter  = <lang>/36__icebreakers.md.po
+source_file  = pot/36__icebreakers.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_37__members]
+file_filter  = <lang>/37__members.md.po
+source_file  = pot/37__members.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_38__refresher-bits]
+file_filter  = <lang>/38__refresher-bits.md.po
+source_file  = pot/38__refresher-bits.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_39__registration_confirmation]
+file_filter  = <lang>/39__registration_confirmation.md.po
+source_file  = pot/39__registration_confirmation.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_40__training_calendar]
+file_filter  = <lang>/40__training_calendar.md.po
+source_file  = pot/40__training_calendar.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_41__aio]
+file_filter  = <lang>/41__aio.md.po
+source_file  = pot/41__aio.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_42__slides]
+file_filter  = <lang>/42__slides.md.po
+source_file  = pot/42__slides.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_43__rubric]
+file_filter  = <lang>/43__rubric.md.po
+source_file  = pot/43__rubric.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_44__index]
+file_filter  = <lang>/44__index.md.po
+source_file  = pot/44__index.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_45__partners]
+file_filter  = <lang>/45__partners.md.po
+source_file  = pot/45__partners.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_46__reference]
+file_filter  = <lang>/46__reference.md.po
+source_file  = pot/46__reference.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:instructor-training:r:pot_47__setup]
+file_filter  = <lang>/47__setup.md.po
+source_file  = pot/47__setup.md.pot
+type         = PO
+minimum_perc = 0
+

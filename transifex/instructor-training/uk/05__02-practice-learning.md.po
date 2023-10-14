@@ -1,0 +1,1150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:31+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/02-practice-learning.md:1
+msgid ""
+"---\n"
+"title: \"Building Skill With Practice\"\n"
+"block: \"How Learning Works\"\n"
+"teaching: 20\n"
+"exercises: 40\n"
+"questions:\n"
+"- \"How do people learn?\"\n"
+"- \"Who is a typical Carpentries learner?\"\n"
+"- \"How can we help novices become competent practitioners?\"\n"
+"objectives:\n"
+"- \"Explain why practice and feedback are important for learning.\"\n"
+"- \"Use formative assessments to guide your teaching.\"\n"
+"keypoints:\n"
+"- \"Our goal when teaching novices is to help them construct useful mental models.\"\n"
+"- \"This requires practice and feedback.\"\n"
+"- \"Formative assessments provide practice for learners and feedback to learners and instructors.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Розвиток навичок за допомогою практики\"\n"
+"block: \"Як працює навчання\"\n"
+"teaching: 20\n"
+"exercises: 40\n"
+"questions:\n"
+"- \"Як люди вчаться?\"\n"
+"- \"Хто є типовим слухачем спільноти Carpentry?\"\n"
+"- \"Як ми можемо допомогти новачкам стати компетентними практиками?\"\n"
+"objectives:\n"
+"- \"Поясніть, чому практика та зворотній зв’язок важливі для навчання.\"\n"
+"- \"Використовуйте формуюче оцінювання в процесі викладання.\"\n"
+"keypoints:\n"
+"- \"Наша мета під час навчання новачків — допомогти їм побудувати корисні розумові моделі.\"\n"
+"- \"Це потребує практики та зворотного зв’язку.\"\n"
+"- \"Формуюче оцінювання забезпечує практику для  слухачів і зворотний зв’язок для слухачів та інструкторів.\"\n"
+"---"
+
+#: instructor-training/_episodes/02-practice-learning.md:19
+msgid ""
+"We'll now get started with a discussion of how learning works. We'll learn\n"
+"some key findings from educational research and identify how these principles\n"
+"are put into practice in Carpentry workshops."
+msgstr ""
+"Почнемо з обговорення того, як працює навчання. Ми навчимося\n"
+"деяким ключовим результатам освітніх досліджень і визначимо, як ці принципи\n"
+"впроваджуються на практиці  під час семінарів Carpentry."
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:23
+msgid "## The Carpentries Pedagogical Model"
+msgstr "## Педагогічна модель Carpentry"
+
+#: instructor-training/_episodes/02-practice-learning.md:25
+msgid ""
+"The Carpentries aims to teach computational competence to learners. We take an applied approach, avoiding the theoretical and general\n"
+"in favor of the practical and specific. By showing learners how to solve specific problems with specific tools and providing hands-on\n"
+"practice, we develop learners' confidence and lay the foundation for future learning."
+msgstr ""
+"Carpentry має на меті навчити слухачів обчислювальній компетенції. Ми використовуємо прикладний підхід, уникаючи теоретичного та загального\n"
+"на користь практичного і конкретного. Показуючи слухачам, як розв’язувати конкретні проблеми за допомогою певних інструментів, і надаючи практичні навички,\n"
+"ми розвиваємо впевненість услухачів і закладаємо основу для майбутнього навчання."
+
+#: instructor-training/_episodes/02-practice-learning.md:29
+msgid ""
+"A critical component of this process is that learners are able to practice what they are learning in real time, get\n"
+"feedback on what they are doing, and then apply those lessons learned to the next step in the learning process. Having\n"
+"learners help each other during the workshops also helps to reinforce concepts taught during the workshops."
+msgstr ""
+"Критичним компонентом цього процесу є те, що слухачі можуть практикувати те, що вони вивчають, у режимі реального часу\n"
+"отримати відгук про те, що вони роблять, а потім застосувати отримані навички на наступному етапі процесу навчання. Маючи можливість\n"
+"допомогти один одному під час семінарів, слухачі також закріплюють викладені концепції."
+
+#: instructor-training/_episodes/02-practice-learning.md:33
+msgid ""
+"A Carpentries workshop is an interactive event -- for learners and instructors. We give and\n"
+"receive feedback throughout the course of a workshop. We incorporate assessments within the lesson materials and\n"
+"ask for feedback on sticky notes during lunch breaks and at the end of each day. In this way, instructors can adjust the\n"
+"pace and content of a workshop to meet the needs of the learners in that group, as well as collect feedback\n"
+"that will help us improve lesson materials or methodology for future workshops. Instructors and helpers also provide\n"
+"feedback to learners throughout workshops in order to get them unstuck or provide a greater depth of understanding about\n"
+"the materials. Interacting in this way with the learners helps us determine how they are doing and figure out what concepts\n"
+"people are having trouble with or where we might be able to move along more quickly."
+msgstr ""
+"Семінар Carpentry -  це інтерактивний захід для слухачів та інструкторів. Ми надаємо знання \n"
+"отримуємо зворотний зв’язок протягом усього семінару. Ми включаємо оцінювання в матеріали семінару та\n"
+"запитуємо про відгуки на наліпках під час обідньої перерви та в кінці кожного дня. Таким чином інструктори можуть налаштувати\n"
+"темп і зміст семінару, щоб задовольнити потреби слухачів у цій групі, в той же час збирання відгуків\n"
+"допомагає покращити навчальні матеріали або методологію для майбутніх семінарів. Інструктори та їх помічники також забезпечують\n"
+"зворотний зв’язок зі слухачами під час семінарів, щоб створити невимушену атмосферу та забезпечити більш глибоке розуміння\n"
+"матеріалу. Взаємодія зі слухачами таким чином допомагає визначити, як вони справляються, і зрозуміти, з вивченням яких понять\n"
+"виникають проблеми, або де можна було б рухатися швидше."
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:42
+msgid "## The Acquisition of Skill"
+msgstr "## Набуття навичок"
+
+#: instructor-training/_episodes/02-practice-learning.md:44
+msgid ""
+"Our approach is based on the work of researchers like Patricia Benner,\n"
+"who applied the [Dreyfus model of skill acquisition][wikipedia-dreyfus-skill]\n"
+"in her studies of\n"
+"[how nurses progress from novice to expert](http://journals.sagepub.com/doi/10.1177/0270467604265061)\n"
+"([see also books by Benner](https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.&qt=hot_author)). This work indicates that\n"
+"through practice and formal instruction, learners acquire skills and advance through distinct stages. In simplified form,\n"
+"the three stages of this model are:"
+msgstr ""
+"Наш підхід базується на роботі таких дослідників, як Патриція Беннер,\n"
+"яка застосувала [модель Дрейфуса для отримання навичок][wikipedia-dreyfus-skill]\n"
+"в своїх дослідженнях\n"
+"[як медсестри просуваються від новачка до експерта](http://journals.sagepub.com/doi/10.1177/0270467604265061)\n"
+"([див. також книги Беннер](https://www.worldcat.org/search?q=au%3ABenner%2C+Patricia+E.&qt=hot_author)). Ця робота свідчить про те\n"
+"завдяки практиці та формальному навчанню учні  набувають навичок і просуваються через різні етапи. У спрощеному вигляді,\n"
+"три етапи цієї моделі мають вигляд:"
+
+#: instructor-training/_episodes/02-practice-learning.md:52
+msgid "![Novice, Competent Practitioner, Expert](../fig/skill-level.svg)"
+msgstr "![Новачок, Компетентний практик, Експерт](../fig/skill-level.svg)"
+
+# unordered list
+#: instructor-training/_episodes/02-practice-learning.md:54
+msgid "*   *Novice*: someone who doesn't know what they don't know, i.e.,"
+msgstr ""
+"*   *Новачок*: тип учнів, які не знають, що саме вони не знають, тобто,"
+
+#: instructor-training/_episodes/02-practice-learning.md:55
+msgid ""
+"    they don't yet know what the key ideas in the domain are or how they relate.\n"
+"    One sign that someone is a novice is that their questions \"aren't even wrong\"."
+msgstr ""
+"вони ще не знають, які ідеї є ключовими в даній області або як вони пов'язані\n"
+"Однією з ознак того, що хтось є новачком, є те, що його запитання «навіть не є неправильними»."
+
+#: instructor-training/_episodes/02-practice-learning.md:58
+msgid ""
+"    > Example: A *novice* learner in a Carpentries workshop might never have heard of the bash shell, and therefore\n"
+"    may have no understanding of how it relates to their file system or other programs on their computer."
+msgstr ""
+"    > Приклад: слухач-\"новачок\" семінару Carpentry може раніше ніколи не чути про оболонку bash, тому\n"
+"    може не розуміти, як це стосується його файлової системи чи інших програм на його комп’ютері."
+
+# unordered list
+#: instructor-training/_episodes/02-practice-learning.md:61
+msgid ""
+"*   *Competent practitioner*: someone who has enough understanding for "
+"everyday purposes. They won't know all the details"
+msgstr ""
+"*   *Компетентний практик*: це той, хто має достатнє розуміння повсякденних "
+"цілей. Він не знатиме усіх подробиць"
+
+#: instructor-training/_episodes/02-practice-learning.md:62
+msgid ""
+"of how something works and their understanding may not be entirely accurate, but it is sufficient for completing normal\n"
+"tasks with normal effort under normal circumstances."
+msgstr ""
+"того, як щось працює, і його розуміння може бути не зовсім точним, але цього достатньо для завершення типового\n"
+"завдання з нормальними зусиллями за звичайних обставин."
+
+#: instructor-training/_episodes/02-practice-learning.md:65
+msgid ""
+"    > Example: A *competent practitioner* in a Carpentries workshop might have used the shell before and understand how to\n"
+"    move around directories and use individual programs, but they might not understand how they can fit these programs\n"
+"    together to build scripts and automate large tasks."
+msgstr ""
+"    >Приклад: *компетентний практик* у семінарі Carpentry, можливо, раніше використовував оболонку та розуміє, як\n"
+"переміщатися по каталогах і використовувати окремі програми, але він може не розуміти, як використовувати ці програми\n"
+"разом для створення сценаріїв та автоматизації великих завдань."
+
+# unordered list
+#: instructor-training/_episodes/02-practice-learning.md:69
+msgid ""
+"*   *Expert*: someone who can easily handle situations that are out of the "
+"ordinary."
+msgstr ""
+"*   *Експерт*: це той, хто може легко впоратися з нестандартними ситуаціями."
+
+#: instructor-training/_episodes/02-practice-learning.md:71
+msgid ""
+"    > Example: An *expert* in a Carpentries workshop may have experience writing and running shell scripts and, when\n"
+"    presented with a problem, immediately sees how these skills can be used to solve the problem."
+msgstr ""
+"    > Приклад: *експерт* семінару Carpentry може мати досвід написання та виконання сценаріїв оболонки та коли\n"
+"стикається з певною проблемою, відразу бачить, як ці навички можна використати для її вирішення "
+
+#: instructor-training/_episodes/02-practice-learning.md:74
+msgid ""
+"For now, we are primarily concerned with novices,\n"
+"as this tends to characterize the Carpentries audience. (We, as instructors,\n"
+"  are more likely to be competent practitioners or experts, and we'll\n"
+"discuss this in a later section).  We'll next use an additional concept\n"
+"to help us differentiate between novices and competent practitioners, which will have\n"
+"implications for how we teach novices."
+msgstr ""
+"Наразі ми в першу чергу орієнтуємося на новачків,\n"
+"оскільки цей тип зазвичай характеризує аудиторію Carpentery. (Ми, як інструктори,\n"
+"швидше за все, є компетентними практиками чи експертами, і ми це \n"
+"обговоримо це в наступному розділі). Далі ми використовуватимемо додаткову концепцію,\n"
+"яка дозволяє відрізняти новачків від компетентних практиків і впливає на процес навчання новачків."
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:81
+msgid "## Cognitive Development and Mental Models"
+msgstr "## Когнітивний розвиток і розумові моделі"
+
+#: instructor-training/_episodes/02-practice-learning.md:83
+msgid ""
+"Effective learning is facilitated by the creation of a well-founded mental model. A mental model is a collection of concepts and facts,\n"
+"along with the relationships between those concepts, which a person has about a topic. For example, a long-time resident of the United\n"
+"States may have an advanced understanding of the location of US states, major cities and landmarks, weather patterns, regional\n"
+"economies and demographic patterns, as well as the relationships among these, compared with their understanding of these relationships\n"
+"for other countries. In other words, their mental model of the United States is more complex compared with their mental model of other\n"
+"countries."
+msgstr ""
+"Ефективному навчанню сприяє створення добре обґрунтованої розумової моделі. Розумова модель - це сукупність понять і фактів,\n"
+"які людина має щодо предметної області, разом зі зв'язками між тими поняттями. Наприклад, давні жителі Сполучених\n"
+"Штати можуть мати глибоке розуміння щодо розташування штатів США, великих міст і пам’яток, погодних умов, характеристик регіональних\n"
+"економік та демографічних моделей, а також взаємозв'язків між ними, порівняно з розумінням цих відносин\n"
+"для інших країн. Іншими словами, їх розумова модель Сполучених Штатів є більш складною порівняно з їх розумовою моделлю інших\n"
+"країн."
+
+#: instructor-training/_episodes/02-practice-learning.md:90
+msgid ""
+"We can distinguish between a *novice* and a *competent\n"
+"practitioner* for a given domain based on the complexity of their mental models."
+msgstr ""
+"Ми можемо розрізняти *новачка* і *компетентного\n"
+"практика* для певної предметної області на основі складності їх розумових моделей."
+
+# unordered list
+#: instructor-training/_episodes/02-practice-learning.md:93
+msgid ""
+"*     A *novice* is someone who has not yet built a mental model of the "
+"domain."
+msgstr ""
+"*     *Новачок* це той, хто ще не створив розумову модель певної предметної "
+"області."
+
+#: instructor-training/_episodes/02-practice-learning.md:94
+msgid ""
+"They therefore reason by analogy and guesswork,\n"
+"borrowing bits and pieces of their mental models of other domains\n"
+"which seem superficially similar.\n"
+"*     A *competent practitioner* is someone who has a mental model that's good enough for everyday purposes. This model\n"
+"does not have to be completely accurate in order to be useful:\n"
+"for example, the average driver's mental model of how a car works probably doesn't include\n"
+"most of the complexities that a mechanical engineer would be concerned with."
+msgstr ""
+"Тому новачки розмірковують за аналогією та здогадками,\n"
+"запозичуючи частини своїх розумових моделей з інших областей,\n"
+"які зовні здаються схожими.\n"
+"* *Компетентний практик* — це той, хто має розумову модель, яка є достатньо придатною для повсякденних цілей. Ця модель\n"
+"не обов’язково має бути абсолютно точною, щоб бути корисною:\n"
+"наприклад, розумова модель середньостатистичного водія про те, як працює автомобіль, ймовірно, не включає\n"
+"більшість характеристик, якими опікується інженер-механік."
+
+#: instructor-training/_episodes/02-practice-learning.md:102
+msgid "![Mental Models](../fig/mental_models.svg)"
+msgstr "![Розумові моделі](../fig/mental_models.svg)"
+
+#: instructor-training/_episodes/02-practice-learning.md:104
+msgid ""
+"We will discuss the mental models of experts in more detail in [a later "
+"lesson]({{ page.root }}/03-expertise/)."
+msgstr ""
+"Ми обговоримо розумові моделі експертів більш детально в [пізніше]({{ "
+"page.root }}/03-expertise/)."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:106
+msgid "> ## Your Mental Models"
+msgstr "> ## Ваші розумові моделі"
+
+#: instructor-training/_episodes/02-practice-learning.md:107
+msgid ""
+">\n"
+"> In the Etherpad, write your primary research domain or area of expertise and some aspects of the mental model you use to frame\n"
+"> and understand your work. What concepts/facts are included? What types of relationships are included?\n"
+">  \n"
+"> This discussion should take about 5 minutes."
+msgstr ""
+">\n"
+"> У редакторі Etherpad опишіть свою основну дослідницьку сферу чи сферу знань і деякі аспекти розумової моделі, яку ви використовуєте для формування\n"
+"> і виконання своєї роботи. Які поняття/факти включені? Які типи відносин включені?\n"
+">\n"
+"> Це обговорення має тривати приблизно 5 хвилин."
+
+#: instructor-training/_episodes/02-practice-learning.md:114
+msgid ""
+"One key insight from research on cognitive development is that\n"
+"novices, competent practitioners, and experts each need to be taught differently.\n"
+"In particular,\n"
+"presenting novices with a pile of facts early on is counter-productive,\n"
+"because they don't yet have a model or framework to fit those facts into.\n"
+"In fact,\n"
+"presenting too many facts too soon can actually reinforce\n"
+"an incorrect mental model."
+msgstr ""
+"Одним із ключових висновків досліджень когнітивного розвитку є те, що\n"
+"новачків, компетентних практиків і експертів потрібно навчати по-різному.\n"
+"Зокрема,\n"
+"подавати новачкам купу фактів на ранній стадії є контрпродуктивним,\n"
+"тому що вони ще не мають моделі чи основи, в яку можна вписати ці факти.\n"
+"Насправді,\n"
+"подання занадто великої кількості фактів занадто рано може закріпити\n"
+"неправильну розумову модель"
+
+#: instructor-training/_episodes/02-practice-learning.md:123
+msgid ""
+"Most learners coming to Carpentries lessons are novices,\n"
+"and do not have a strong mental model of the concepts we are teaching.\n"
+"Thus, our primary goal is *not*\n"
+"to teach the syntax of a particular programming language, but *to help them construct a working mental model*\n"
+"so that they have something to attach facts to. In other words, our goal is to teach people *how to think* about programming and data\n"
+"management in a way that will allow them to learn more on their own or understand what they might find online."
+msgstr ""
+"Більшість слухачів, які приходять на семінари Carpentry, є новачками,\n"
+"і не мають сильної розумової моделі тих концепцій, які ми викладаємо.\n"
+"Таким чином, наша основна мета *не*\n"
+"навчити синтаксису певної мови програмування, але *допомогти їм побудувати робочу розумову модель*\n"
+"щоб їм було до чого прикладати факти. Іншими словами, наша мета — навчити людей *думати* про програмування та \n"
+"управління даними таким чином, щоб вони могли дізнатися більше самостійно або зрозуміти, що вони можуть знайти в інтернеті."
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:130
+msgid "### The Importance of Going Slowly"
+msgstr "### Важливо рухатися повільно"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:132
+msgid ""
+"> If someone feels it's too slow, they'll be a bit bored. If they feel it's "
+"too fast, they'll never come back to programming."
+msgstr ""
+"> Якщо комусь здасться, що це надто повільно, йому буде трохи нудно. Якщо "
+"вони відчують, що це занадто швидко, вони ніколи не повернуться до "
+"програмування."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:133
+msgid "> — Kunal Marwaha, SWC instructor"
+msgstr "> — Kunal Marwaha, SWC інструктор"
+
+# SC/DC Template label
+#: instructor-training/_episodes/02-practice-learning.md:134
+#: instructor-training/_episodes/09-mindset.md:114
+#: instructor-training/_episodes/15-lesson-study.md:55
+msgid "{: .quotation}"
+msgstr "{: .quotation}"
+
+#: instructor-training/_episodes/02-practice-learning.md:136
+msgid ""
+"If our goal is to help novices construct an accurate and useful mental model of a new intellectual domain,\n"
+"this will impact our teaching. For example, we principally want to help learners\n"
+"form the right categories and make connections among concepts.  We *don't*\n"
+"want to overload them with a slew of unrelated facts, as this will be confusing."
+msgstr ""
+"Якщо наша мета — допомогти новачкам побудувати точну та корисну розумову модель нової інтелектуальної сфери,\n"
+"це вплине на перебіг нашого навчання. Наприклад, ми принципово хочемо допомогти слухачам\n"
+"формувати правильні категорії та встановлювати зв’язки між поняттями. Ми *не*\n"
+"хочемо перевантажити їх купою непов’язаних фактів, оскільки це тількі заплутає."
+
+#: instructor-training/_episodes/02-practice-learning.md:141
+msgid ""
+"An important practical implication of this latter point is the pace at which we teach.  \n"
+"In the first main episode of Software Carpentry's [lesson on the Unix shell][swc-shell-novice],\n"
+"which covers \"Navigating Files and Directories\", there are only four \"commands\"\n"
+"for 40 minutes of teaching. Ten minutes per command may seem glacially slow,\n"
+"but that episodes's real purpose is to teach learners about paths; later on,\n"
+"they will learn about history, wildcards, pipes and filters,\n"
+"command-line arguments, redirection,\n"
+"and all the other big ideas on which the shell depends,\n"
+"and without which people cannot understand how to use commands."
+msgstr ""
+"Важливим практичним наслідком цього останнього моменту є темп навчання.\n"
+"У першому основному епізоді [урок про оболонку Unix][swc-shell-novice] від Software Carpentry,\n"
+"який охоплює тему \"Навігація файлами та каталогами\", є лише чотири \"команди\"\n"
+"за 40 хвилин навчання. Десять хвилин на команду можуть здатися надзвичайно повільними,\n"
+"але справжня мета епізодів — навчити слухачів шляхам використання команд; в подальшому\n"
+"вони дізнаються про історію, символи підстановки, канали та фільтри,\n"
+"аргументи командного рядка, перенаправлення,\n"
+"і всі інші великі ідеї, від яких залежить оболонка,\n"
+"і без яких люди не можуть зрозуміти, як використовувати команди."
+
+#: instructor-training/_episodes/02-practice-learning.md:151
+msgid "That mental model of the shell also includes things like:"
+msgstr "Ця розумова модель оболонки також включає такі концепти, як:"
+
+# unordered list
+#: instructor-training/_episodes/02-practice-learning.md:153
+msgid "*   Anything you repeat manually, you'll eventually get wrong"
+msgstr "*  Якщо ви повторюєте команди вручну, ви з часом можете помилитися"
+
+#: instructor-training/_episodes/02-practice-learning.md:154
+msgid ""
+"    (so let the computer repeat things for you by using tab completion\n"
+"    and the `history` command).\n"
+"*   Lots of little tools, combined as needed, are more productive than\n"
+"    a handful of programs.\n"
+"    (This motivates the pipe-and-filter model.)"
+msgstr ""
+"    (тому дозвольте комп’ютеру повторювати речі за вас за допомогою застосування табуляції\n"
+"і команди `history`).\n"
+"* Множина маленьких інструментів, об'єднаних за потребою, продуктивніша, ніж\n"
+"декілька програм.\n"
+"(Це є реалізацією архітектури труб та фільтрів)."
+
+#: instructor-training/_episodes/02-practice-learning.md:160
+msgid ""
+"These two examples illustrate something else as well.\n"
+"Learning consists of more than \"just\" building mental models\n"
+"and adding information to them;\n"
+"creating linkages between concepts and facts is at least as important.\n"
+"Telling people that they shouldn't repeat things,\n"
+"and that they should try to think in terms of little pieces loosely joined,\n"
+"both set the stage for discussing functions.\n"
+"Explicitly referring back to pipes and filters in the shell when introducing functions\n"
+"helps solidify both ideas."
+msgstr ""
+"Ці два приклади також ілюструють дещо інше.\n"
+"Навчання є більшим, ніж «просто» створення розумових моделей\n"
+"і додавання до них інформації;\n"
+"не менш важливим є створення зв'язків між поняттями та фактами.\n"
+"Основою для обговорення функцій є дві ідеї про те,\n"
+"що слухачі мають не повторювати відомі речі, і що вони повинні намагатися мислити категоріями невеликих слабо з’єднаних компонентів (фільтрів)\n"
+"Явне посилання на канали та фільтри в оболонці під час представлення функцій\n"
+"допомагає зміцнити обидві ідеї."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:170
+msgid "> ## Meeting Learners Where They Are"
+msgstr "> ## Зустрічайте слухачів там, де вони є"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:171
+msgid ""
+"> One of the strengths of Carpentry workshops is that we meet learners where"
+" they're at. Carpentry instructors"
+msgstr ""
+"> Однією з сильних сторін семінарів Carpentry є те, що ми зважаємо на рівень"
+" підготовки слухачів. Інструктори Carpentry "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:172
+msgid "> strive to help learners"
+msgstr "> прагнуть допомогти слухачам"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:173
+msgid ""
+"> progress from whatever starting point they happen to be at, without making"
+" anyone"
+msgstr ""
+"> прогресувати з будь-якої початкової точки, на якій вони знаходяться, "
+"нікого не змушуючи"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:174
+msgid ""
+"> feel inferior about their current practices or skillsets. We do this in "
+"part by teaching relevant and useful skills"
+msgstr ""
+">відчувати себе неповноцінними щодо рівня своїх поточних практик або "
+"навичок. Частково ми робимо це, навчаючи актуальним і корисним навичкам"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:175
+msgid ""
+"> building an inclusive learning environment, and continually getting (and "
+"paying attention to!) feedback"
+msgstr ""
+"> завдяки створенню інклюзивного навчального середовища та організації "
+"постійного (і це важливо!) зворотнього зв’язку"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:176
+msgid ""
+"> from learners. We'll be talking in more depth about each of these "
+"strategies as we go forward in our workshop."
+msgstr ""
+"> зі слухачами. Ми детальніше поговоримо про кожну з цих стратегій упродовж "
+"нашого семінару."
+
+# SC/DC Template label
+#: instructor-training/_episodes/02-practice-learning.md:177
+#: instructor-training/_episodes/02-practice-learning.md:229
+#: instructor-training/_episodes/02-practice-learning.md:257
+#: instructor-training/_episodes/02-practice-learning.md:365
+#: instructor-training/_episodes/02-practice-learning.md:412
+#: instructor-training/_episodes/03-expertise.md:85
+#: instructor-training/_episodes/03-expertise.md:109
+#: instructor-training/_episodes/03-expertise.md:262
+#: instructor-training/_episodes/05-memory.md:223
+#: instructor-training/_episodes/05-memory.md:259
+#: instructor-training/_episodes/06-feedback.md:49
+#: instructor-training/_episodes/06-feedback.md:78
+#: instructor-training/_episodes/08-motivation.md:100
+#: instructor-training/_episodes/08-motivation.md:154
+#: instructor-training/_episodes/08-motivation.md:173
+#: instructor-training/_episodes/08-motivation.md:294
+#: instructor-training/_episodes/08-motivation.md:386
+#: instructor-training/_episodes/08-motivation.md:411
+#: instructor-training/_episodes/08-motivation.md:462
+#: instructor-training/_episodes/08-motivation.md:473
+#: instructor-training/_episodes/11-practice-teaching.md:83
+#: instructor-training/_episodes/14-live.md:151
+#: instructor-training/_episodes/15-lesson-study.md:162
+#: instructor-training/_episodes/15-lesson-study.md:173
+#: instructor-training/_episodes/18-management.md:92
+#: instructor-training/_episodes/18-management.md:162
+#: instructor-training/_episodes/20-checkout.md:46
+#: instructor-training/_episodes/20-checkout.md:121
+#: instructor-training/_episodes/21-carpentries.md:165
+#: instructor-training/_episodes/21-carpentries.md:197
+#: instructor-training/_episodes/21-carpentries.md:269
+#: instructor-training/_episodes/21-carpentries.md:279
+#: instructor-training/_episodes/23-introductions.md:158
+#: instructor-training/_episodes/23-introductions.md:209
+msgid "{: .callout}"
+msgstr "{: .callout}"
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:179
+msgid "## How \"Knowledge\" Gets in the Way"
+msgstr "## Шляхи отримання знань"
+
+#: instructor-training/_episodes/02-practice-learning.md:181
+msgid ""
+"Besides going slowly, what else can we do to facilitate the formation of\n"
+"sufficiently accurate mental models? One important action is to address the\n"
+"misconceptions of broken mental models."
+msgstr ""
+"Окрім  забезпечення повільного руху, що ще ми можемо зробити, щоб полегшити формування\n"
+"достатньо точної розумової моделі? Однією з важливих дій є аналіз\n"
+"помилкових уявлень у хибних розумових моделях."
+
+#: instructor-training/_episodes/02-practice-learning.md:185
+msgid ""
+"Mental models are hardly ever built from scratch. Every learner comes to a topic\n"
+"with some amount of information, ideas and opinions about the topic. This is true even\n"
+"in the case where a learner can't articulate their prior knowledge and beliefs.  "
+msgstr ""
+"Розумові моделі майже ніколи не будуються з нуля. Кожен слухач приходить з певною кількістю \n"
+"інформації, ідей та думок щодо певної теми. Це має місце\n"
+"навіть у випадку, коли слухач не може сформулювати свої попередні знання та переконання."
+
+#: instructor-training/_episodes/02-practice-learning.md:189
+msgid ""
+"In many cases, this prior knowledge is incomplete or inaccurate. Inaccurate beliefs can be termed \"misconceptions\" and\n"
+"can impede learning by making it more difficult for learners to incorporate new, correct information into their mental\n"
+"models.\n"
+"Correcting learners' misconceptions is at least as important as presenting them with correct information.\n"
+"Broadly speaking, misconceptions fall into three categories:"
+msgstr ""
+"У багатьох випадках ці попередні знання є неповними або неточними. Невірні переконання, які можна назвати «помилковими уявленнями»,\n"
+"можуть перешкоджати навчанню, ускладнюючи слухачам включення нової, правильної інформації у свої розумові\n"
+"моделі.\n"
+"Виправлення помилкових уявлень слухачів є принаймні таким же важливим, як і надання їм правильної інформації.\n"
+"Загалом кажучи, помилкові уявлення поділяються на три категорії:"
+
+# unordered list
+#: instructor-training/_episodes/02-practice-learning.md:195
+msgid ""
+"*   Simple *factual errors*, such as believing that Vancouver is the capital"
+" of British Columbia."
+msgstr ""
+"*   Прості *фактичні помилки*, наприклад, вважати Ванкувер столицею "
+"Британської Колумбії."
+
+#: instructor-training/_episodes/02-practice-learning.md:196
+msgid ""
+"    These are the easiest to correct.\n"
+"*   *Broken models*, such as believing that motion and acceleration must be in the same direction.\n"
+"    We can address these by having learners reason through examples to see contradictions.\n"
+"*   *Fundamental beliefs*,\n"
+"    such as \"the world is only a few thousand years old\"\n"
+"    or \"human beings cannot affect the planet's climate\".\n"
+"    These beliefs are deeply connected to the learner's social identity\n"
+"    and are the hardest to change."
+msgstr ""
+"    Ці помилки найлегше виправити.\n"
+"*   *Хибні моделі*, як-от переконання, що напрямки руху та прискорення мають збігатися.\n"
+"    Ми можемо виправити це, запропонувавши слухачам міркувати на прикладах, щоб побачити протиріччя.\n"
+"*   *Фундаментальні переконання*,\n"
+"    наприклад \"світ існує лише кілька тисяч років\"\n"
+"або «люди не можуть впливати на клімат планети».\n"
+"Ці переконання глибоко пов'язані з соціальною ідентичністю слухача\n"
+"і їх найважче змінити."
+
+#: instructor-training/_episodes/02-practice-learning.md:205
+msgid ""
+"Since the Carpentries workshops are focused on novices, and the building of\n"
+"strong mental models, we're most interested in the middle category of misconceptions.\n"
+"While teaching, we want to expose learners' broken models so that we can help them build better ones."
+msgstr ""
+"Оскільки семінари Carpentry зосереджені на новачках та побудові\n"
+"строгих розумових моделей, нас найбільше цікавить середня категорія помилкових уявлень.\n"
+"Під час навчання ми хочемо визначити \"хибні\" моделі слухачів, щоб допомогти їм побудувати кращі."
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:209
+msgid "## Identifying and Correcting Misconceptions"
+msgstr "##Виявлення та виправлення помилкових уявлень"
+
+#: instructor-training/_episodes/02-practice-learning.md:211
+msgid ""
+"How do we expose misconceptions, especially as they pertain to broken models? How\n"
+"can we, in-class, know whether the learners already understand this topic\n"
+"(so that the class can move on),\n"
+"and if not,\n"
+"what misconceptions and gaps in their knowledge we should address."
+msgstr ""
+"Як ми викриваємо помилкові уявлення, особливо якщо вони стосуються хибних моделей? Як\n"
+" ми можемо в аудіторії визначити, чи слухачі вже розуміють цю тему (щоб можна було рухатися далі),\n"
+"а якщо ні,\n"
+"які помилкові уявлення та прогалини в їхніх знаннях нам слід усунути."
+
+#: instructor-training/_episodes/02-practice-learning.md:217
+msgid ""
+"To be effective, instructors need feedback on their learners' progress,\n"
+"and insight into their learners' mental models.\n"
+"This feedback comes through what we call *formative assessments* (in contrast\n"
+"  to *summative assessment*)."
+msgstr ""
+"Щоб бути ефективними, інструктори потребують зворотного зв’язку щодо прогресу своїх слухачів\n"
+"і розуміння їх розумових моделей.\n"
+"Цей зворотній зв’язок надходить шляхом так званого  *формуючого оцінювання* (на відміну від \n"
+"*підсумкового оцінювання*)."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:222
+msgid "> ## Summative Assessment"
+msgstr "> ## Підсумкове оцінювання"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:223
+msgid "> *Summative assessment* is used"
+msgstr "> *Підсумкове оцінювання* застосовується"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:224
+msgid ""
+"> to judge whether a learner has reached an acceptable level of competence."
+msgstr "> щоб оцінити, чи досяг слухач прийнятного рівня компетентності."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:225
+msgid "> Learners either \"pass\" or \"fail\" a summative assessment."
+msgstr "> Слухачі «проходять» або «не проходять» підсумкове оцінювання."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:226
+msgid "> One example is a driving exam,"
+msgstr "> Одним із прикладів є іспит з водіння,"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:227
+msgid ""
+"> which tells the rest of society whether someone can safely be allowed on "
+"the road. Most assessment done in university"
+msgstr ""
+"> який повідомляє решті суспільства, чи можна безпечно пустити когось на "
+"дорогу. Більшість оцінок за  університетські"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:228
+msgid "> courses is summative, and is used to assign course grades."
+msgstr "> курси є підсумковими."
+
+#: instructor-training/_episodes/02-practice-learning.md:231
+msgid ""
+"*Formative assessment* takes place during teaching and learning. It sounds like\n"
+"a fancy term, but it can be used to describe any interaction or activity\n"
+"that provides feedback to both instructors and learners about learners' level of understanding of the\n"
+"material. For learners, this feedback can help focus their study efforts. For instructors, it allows them to refocus\n"
+"their instruction to respond to challenges that learners are facing.  "
+msgstr ""
+"*Формуюче оцінювання* відбувається під час викладання та навчання. Звучить як\n"
+"химерний термін, але його можна використовувати для опису будь-якої взаємодії чи діяльності\n"
+"яка надає зворотний зв’язок як інструкторам, так і слухачам щодо рівня розуміння слухачами\n"
+"матеріалу. Слухачам цей відгук може допомогти зосередити зусилля на навчанні. Інструкторам це дозволяє переорієнтувати\n"
+"їхні інструкції для реагування на виклики, з якими стикаються слухачі."
+
+#: instructor-training/_episodes/02-practice-learning.md:237
+msgid ""
+"Learners don't \"pass\" or \"fail\" formative assessments; they are simply a feedback mechanism.\n"
+"For example, a music teacher might ask a learner to play a scale very slowly\n"
+"in order to see whether they are breathing correctly,\n"
+"and if not, what they should change."
+msgstr ""
+"Слухачі не «проходять» або «провалюють» формуюче оцінювання, бо це просто механізм зворотного зв'язку.\n"
+"Наприклад, учитель музики може попросити учня зіграти гамму дуже повільно,\n"
+"щоб побачити, чи правильно він дихає,\n"
+"а якщо ні, то підказати, що він має змінити."
+
+#: instructor-training/_episodes/02-practice-learning.md:242
+msgid ""
+"Formative assessment is most useful when it happens frequently (we'll talk about how frequently later) and when the\n"
+"results are easily interpretable by the learner and instructor."
+msgstr ""
+"Формуюче оцінювання є найбільш корисним, якщо воно відбувається часто (як часто, ми поговоримо пізніше) і коли\n"
+"результати легко інтерпретуються слухачем і інструктором."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:245
+msgid "> ## Repetition vs. Reflective Practice"
+msgstr "> ## Повторення vs. рефлексивна практика"
+
+#: instructor-training/_episodes/02-practice-learning.md:246
+msgid ""
+">\n"
+"> The idea that ten thousand hours of practice will make someone an expert in some field\n"
+"> is widely known,\n"
+"> but reality is much more complex.\n"
+"> Practice is not doing the same thing over and over again:\n"
+"> practice is doing similar but subtly different things,\n"
+"> getting feedback,\n"
+"> and then changing behavior in response to that feedback to get cumulatively better.\n"
+"> Doing the same thing over and over again is much more likely to solidify bad habits than perfect performance.\n"
+"> This is why we emphasize practice and feedback for learners at our workshops and for trainees in our\n"
+"> instructor training program."
+msgstr ""
+">\n"
+"> Ідея про те, що десять тисяч годин практики зроблять когось експертом у якійсь галузі,\n"
+"> є широко відомою,\n"
+"> але реальність набагато складніша.\n"
+"> Практика — це не повторення одного й того ж знову і знову:\n"
+"> практика - це виконання подібних, але дещо різних речей,\n"
+"> це отримання зворотного зв'язку,\n"
+"> а потім зміна алгоритму дій у відповідь на цей зворотній зв’язок, щоб стати кумулятивно кращим.\n"
+"> Виконання одного й того ж знову і знову має набагато більше шансів закріпити шкідливі звички, ніж підвищити ефективність.\n"
+"> Ось чому ми надаємо особливу увагу практиці та зворотному зв’язку для слухачів на наших семінарах і для інструкторів у наших\n"
+"> програмах підготовки "
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:259
+msgid "## Formative Assessments Come in Many Forms"
+msgstr "## Формуюче оцінювання набуває багатьох форм"
+
+#: instructor-training/_episodes/02-practice-learning.md:261
+msgid ""
+"There are many types of formative assessment, and each have their advantages"
+" and disadvantages."
+msgstr ""
+"Існує багато типів формуючого оцінювання, і кожен має свої переваги та "
+"недоліки."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:263
+msgid "> ## Formative Assessments"
+msgstr "> ## Формуюче оцінювання"
+
+#: instructor-training/_episodes/02-practice-learning.md:264
+msgid ""
+">\n"
+"> Based on your previous educational experience (or even this training so far!)\n"
+"> what types of formative assessments do you know about?\n"
+">\n"
+"> Write your answers in the etherpad; or go around and have each person in the group name one."
+msgstr ""
+">\n"
+"> На основі вашого попереднього освітнього досвіду (або навіть цього тренінгу!)\n"
+"> які типи формуючого оцінювання ви знаєте?\n"
+">\n"
+"> Запишіть свої відповіді в блокнот; або обійдіть і попросіть кожного в групі назвати по одному."
+
+#: instructor-training/_episodes/02-practice-learning.md:271
+msgid ""
+"One example of formative assessment that we would like to highlight is\n"
+"the multiple choice question (MCQ).\n"
+"When designed well,\n"
+"these can do much more than just measure how much someone knows.\n"
+"For example,\n"
+"suppose we are teaching children multi-digit addition.\n"
+"A well-designed MCQ would be:"
+msgstr ""
+"Одним з прикладів формуючого оцінювання, який ми хотіли б висвітлити, є \n"
+"питання з множинним вибором (ПМВ).\n"
+"Якщо питання добре спроектовані,\n"
+"вони можуть зробити набагато більше, ніж просто слугувати виміром знань.\n"
+"Наприклад,\n"
+"припустимо, ми вчимо дітей правилам додавання багатозначних чисел.\n"
+"Добре розроблені ПМВ є такими:"
+
+# code block
+#: instructor-training/_episodes/02-practice-learning.md:279
+msgid ""
+"~~~\n"
+"Q: what is 27 + 15 ?\n"
+"a) 42\n"
+"b) 32\n"
+"c) 312\n"
+"d) 33\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Питання: Якою буде сума 27 + 15 ?\n"
+"a) 42\n"
+"b) 32\n"
+"c) 312\n"
+"d) 33\n"
+"~~~"
+
+# SC/DC Template label
+#: instructor-training/_episodes/02-practice-learning.md:286
+#: instructor-training/_episodes/05-memory.md:142
+msgid "{: .source}"
+msgstr "{: .source}"
+
+#: instructor-training/_episodes/02-practice-learning.md:288
+msgid ""
+"The correct answer is 42,\n"
+"but each of the other answers provides valuable insight."
+msgstr ""
+"Правильна відповідь 42,\n"
+"але кожна з інших відповідей дає цінну інформацію."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:291
+msgid "> ## Identify the Misconceptions"
+msgstr "> ## Визначте помилкові уявлення"
+
+#: instructor-training/_episodes/02-practice-learning.md:292
+msgid ""
+">\n"
+"> Choose one wrong answer and write in the Etherpad what the misconception is associated with that wrong answer.\n"
+"> This discussion should take about 10 minutes.\n"
+">\n"
+">> ## Solution\n"
+">>\n"
+">> *   If the child answers 32, they are throwing away the carry completely.\n"
+">> *   If they answer 312, they know that they can't just discard the carried '1',\n"
+">>     but doesn't understand that it's actually a ten\n"
+">>     and needs to be added into the next column.\n"
+">>     In other words,\n"
+">>     they are treating each column of numbers as unconnected to its neighbors.\n"
+">> *   If they answer 33 then they know they have to carry the 1,\n"
+">>     but are carrying it back into the same column it came from."
+msgstr ""
+">\n"
+"> Виберіть одну неправильну відповідь і напишіть в Etherpad, яке помилкове уявлення пов’язане з цією неправильною відповіддю.\n"
+"> Це обговорення має тривати близько 10 хвилин.\n"
+">\n"
+">> ## Рішення\n"
+">>\n"
+">> * Якщо дитина відповідає 32, вона повністю відкидає перенесення розрядної одиниці.\n"
+">> * Якщо вона відповідає 312, вона знає, що не може просто відкинути перенесення розрядної одиниці,\n"
+">> але не розуміє, що це насправді десятка\n"
+">> і її потрібно додати в попередній стовпець.\n"
+">> Іншими словами,\n"
+">> дитина розглядає кожен розрядний стовпець чисел як непов'язаний із сусідніми.\n"
+">> * Якщо дитина відповідає 33, вона знає, що має перенести розрядну одиницю,\n"
+">> але повертає її назад у ту саму колонку, з якої вона надійшла."
+
+# SC/DC Template label
+#: instructor-training/_episodes/02-practice-learning.md:306
+#: instructor-training/_episodes/02-practice-learning.md:342
+#: instructor-training/_episodes/02-practice-learning.md:402
+#: instructor-training/_episodes/03-expertise.md:197
+#: instructor-training/_episodes/09-mindset.md:106
+#: instructor-training/_episodes/14-live.md:80
+#: instructor-training/_episodes/14-live.md:110
+#: instructor-training/_episodes/18-management.md:221
+#: instructor-training/_episodes/21-carpentries.md:314
+#: instructor-training/_episodes/24-practices.md:37
+msgid "> {: .solution}"
+msgstr "> {: .solution}"
+
+#: instructor-training/_episodes/02-practice-learning.md:309
+msgid ""
+"Each of these incorrect answers is a *plausible distractor* with *diagnostic power*.\n"
+"\"Plausible\" means that it looks like it could be right:\n"
+"instructors will often put supposedly-silly answers like \"a fish!\" on MCQs,\n"
+"but (a) they don't provide any insight\n"
+"and (b) learners actually don't find them funny.\n"
+"\"Diagnostic power\" means that each of the distractors helps the instructor figure out\n"
+"what concepts learners are having difficulty with.  "
+msgstr ""
+"Кожна з цих неправильних відповідей є *правдоподібним відволікаючим фактором* із певною *діагностичною силою*.\n"
+"«Правдоподібність» означає, що це виглядає так, ніби це може бути правильним:\n"
+"інструктори часто ставлять нібито безглузді відповіді на зразок \"риба!\" на ПМВ,\n"
+"але (а) вони не дають жодного розуміння\n"
+"і (б) слухачі насправді не знаходять їх смішними.\n"
+"«Діагностична сила» означає, що кожен із дистракторів допомагає інструктору розібратися\n"
+"з якими поняттями слухачі відчувають труднощі."
+
+#: instructor-training/_episodes/02-practice-learning.md:317
+msgid ""
+"Formative assessments are most powerful when an instructor modifies their instruction depending on the\n"
+"results of the assessment. An instructor may learn they need to change their pace or review a particular concept.\n"
+"Knowing how to respond to the results of a formative assessment is a skill that you will develop over time."
+msgstr ""
+"Формуюче оцінювання є найпотужнішим, коли інструктор змінює викладення матеріалу в залежності від\n"
+"результатів оцінювання. Інструктор може дізнатися, що йому потрібно змінити темп або переглянути певну концепцію.\n"
+"Вміння реагувати на результати формуючого оцінювання, — це навичка, яку ви розвиватимете з часом."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:321
+msgid "> ## Handling Outcomes"
+msgstr "> ## Обробка результатів"
+
+#: instructor-training/_episodes/02-practice-learning.md:322
+msgid ""
+">\n"
+"> Formative assessments allow us as instructors to adapt our instruction to our audience.\n"
+"> What should we do as instructors if the class chooses:\n"
+">\n"
+"> 1. mostly one of the wrong answers?  \n"
+"> 2. mostly the right answer?  \n"
+"> 3. an even spread among options?\n"
+">\n"
+"> For one of the above, enter your answer in the Etherpad.   \n"
+">\n"
+"> This discussion should take about 5 minutes.\n"
+">\n"
+">> ## Solution\n"
+">> 1. If the majority of the class votes for a single wrong answer, you should go back\n"
+">> and work on correcting that particular misconception.  \n"
+">> 2. If most of the class votes\n"
+">> for the right answer, it's probably safe to move on.  \n"
+">> 3. If answers are pretty evenly\n"
+">> split between options, learners are probably guessing randomly and it's a good\n"
+">> idea to go back to a point where everyone was on the same page."
+msgstr ""
+">\n"
+"> Формуюче оцінювання дозволяє нам як інструкторам адаптувати темп і методи навчання до нашої аудиторії.\n"
+"> Що ми повинні робити як інструктори, якщо слухачі обирають:\n"
+">\n"
+"> 1. переважно одну з неправильних відповідей?\n"
+"> 2. переважно правильну відповідь?\n"
+"> 3. рівномірний розподіл варіантів?\n"
+">\n"
+"> Для одного з наведених вище введіть свою відповідь в Etherpad.\n"
+">\n"
+"> Це обговорення має тривати близько 5 хвилин.\n"
+">\n"
+">> ## Рішення\n"
+">> 1. Якщо більшість слухачів проголосує за одну і ту ж неправильну відповідь, вам слід повернутися\n"
+">> і працювати над виправленням цього помилкового уявлення.\n"
+">> 2. Якщо більшість аудиторії проголосує\n"
+">> за правильну відповідь, скоріше за все можна безпечно рухатися далі.\n"
+">> 3. Якщо кількість правильних та неправильних відповідей \n"
+">> є досить однаковою, то слухачі, ймовірно, вгадують випадково, і в цьому випадку\n"
+">> доречно повернутися до точки, де всі мали правильні уявлення."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:345
+msgid "> ## Modeling Novice Mental Models"
+msgstr "> ## Моделювання розумових моделей для новачків"
+
+#: instructor-training/_episodes/02-practice-learning.md:346
+msgid ""
+">\n"
+"> Take 10 minutes to create a multiple choice question related to a topic you intend to teach.\n"
+"> Type it into the Etherpad\n"
+"> and explain the diagnostic power of each its distractors,\n"
+"> i.e., what misconception is each distractor meant to identify?"
+msgstr ""
+">\n"
+"> Виділіть 10 хвилин, щоб створити питання з множинним вибором відповідей, пов’язане з темою, яку ви збираєтеся викладати.\n"
+"> Введіть його в Etherpad\n"
+"> і поясніть діагностичну силу кожного з його відволікаючих факторів,\n"
+"> тобто, яке помилкове уявлення має виявити кожен відволікаючий фактор?"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:353
+msgid "> ## A Note on MCQ Design"
+msgstr "> ## Зауваження щодо проєктування МПВ"
+
+#: instructor-training/_episodes/02-practice-learning.md:354
+msgid ""
+">\n"
+"> *   A good MCQ tests for conceptual misunderstanding rather than simple factual knowledge.\n"
+">     If you are having a hard time coming up with diagnostic distractors,\n"
+">     then either you need to think more about your learners' mental models,\n"
+">     or your question simply isn't a good starting point for an MCQ.\n"
+"> *   When you are trying to come up with distractors,\n"
+">     think about questions that learners asked or problems they had\n"
+">     the last time you taught this subject.\n"
+">     If you haven't taught it before,\n"
+">     think about your own misconceptions\n"
+">     or ask colleagues about their experiences."
+msgstr ""
+">\n"
+"> *  Хороше ПМВ перевіряє концептуальні непорозуміння, а не просто фактичні знання.\n"
+"> Якщо вам важко придумати діагностичні відволікаючі фактори,\n"
+"> тоді або вам потрібно більше думати про розумові моделі ваших слухачів,\n"
+"> або ваше запитання просто не є хорошою відправною точкою для ПМВ.\n"
+"> * Коли ви намагаєтеся придумати відволікаючі фактори,\n"
+"> подумайте про запитання, які поставили слухачі, або проблеми, які вони мали,\n"
+"> коли ви востаннє викладали цей предмет.\n"
+"> Якщо ви цьому не вчили раніше,\n"
+"> подумайте про власні помилкові уявлення\n"
+"> або запитайте колег про їхній досвід."
+
+#: instructor-training/_episodes/02-practice-learning.md:367
+msgid ""
+"Designing an MCQ with plausible distractors is useful\n"
+"even if it is never used in class\n"
+"because it forces the instructor to think about the learners' mental models\n"
+"and how they might be broken---in short,\n"
+"to put themselves into the learners' heads\n"
+"and see the topic from their point of view."
+msgstr ""
+"Розробка ПМВ з правдоподібними відволікаючими факторами є корисною,\n"
+"навіть якщо ці питання ніколи не використовуються в під час семінарів,\n"
+"оскільки це змушує інструктора думати про розумові моделі слухачів\n"
+"і як чому вони можуть бути хибними  --- точніше,\n"
+"поставити себе на місце слухача\n"
+"і подивитися на тему з їхньої точки зору."
+
+#: instructor-training/_episodes/02-practice-learning.md:374
+msgid ""
+"There are many types of formative assessments other than MCQs. One (non-exhaustive) list\n"
+"to supplement the earlier exercise\n"
+"can be found in the [Edutopia assessment group](https://www.edutopia.org/groups/assessment/250941)."
+msgstr ""
+"Існує багато типів формуючого оцінювання, крім ПМВ. Один такий (неповний) список,\n"
+"щоб доповнити попередню вправу,\n"
+"можна знайти в[Edutopia assessment group](https://www.edutopia.org/groups/assessment/250941)."
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:378
+msgid "## Formative Assessments Should Be Frequent"
+msgstr "## Формуючі оцінювання мають бути регулярними"
+
+#: instructor-training/_episodes/02-practice-learning.md:380
+msgid ""
+"Instructors should use a formative assessment ideally every 5 minutes and\n"
+"at least every 10-15 minutes\n"
+"in order to make sure that the class is actually learning.\n"
+"Since the average attention span is usually only this long,\n"
+"formative assessments also help break up instructional time\n"
+"and re-focus attention.\n"
+"Formative assessments can also be used preemptively:\n"
+"if you start a class with a question and everyone can answer it correctly,\n"
+"then you can safely skip the part of the lecture\n"
+"in which you were going to explain something that your learners already know."
+msgstr ""
+"В ідеалі інструктори мають проводити формуюче оцінювання кожні 5 хвилин,\n"
+"щонайменше кожні 10-15 хвилин\n"
+"щоб переконатися, що аудіторія дійсно навчається.\n"
+"Оскільки середня тривалість уваги зазвичай становить саме стільки,\n"
+"формуюче оцінювання також допомагає скоротити навчальний час\n"
+"і знову зосередити увагу.\n"
+"Формуюче оцінювання також можна використовувати превентивно:\n"
+"якщо ви починаєте урок із запитання, і кожен може правильно відповісти на нього,\n"
+"то можете сміливо пропустити частину лекції,\n"
+"в якій ви збиралися пояснити те, що ваші слухачі вже знають."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:391
+msgid "> ## How Many?"
+msgstr "> ## Скільки?"
+
+#: instructor-training/_episodes/02-practice-learning.md:392
+msgid ""
+">\n"
+"> The Carpentries use formative assessments often. How many have we done since the start of this\n"
+"> workshop? Put your guess in the Etherpad along with one example and the purpose that assessment served.  \n"
+">\n"
+"> This discussion should take about 5 minutes.\n"
+">\n"
+">> ## Solution\n"
+">> This will depend on the event they are attending. Most attendees will guess low.\n"
+">> The purpose of this exercise is to emphasize the importance of frequent formative\n"
+">> assessments and that an individual assessment doesn't have to take a lot of time."
+msgstr ""
+">\n"
+"> Інструктори Carpentry часто використовують формуюче оцінювання. Скільки ми зробили таких оцінювань з початку цього\n"
+"> семінару? Помістіть свої припущення в Etherpad разом із одним прикладом і метою, якій слугувало це оцінювання.\n"
+">\n"
+"> Це обговорення має тривати близько 5 хвилин.\n"
+">\n"
+">> ## Рішення  \n"
+">> Це залежатиме від події, яку вони відвідують. Більшість учасників не вгадають.\n"
+">> Мета цієї вправи - підкреслити важливість частого формуючого\n"
+">> оцінювання та визначення, що індивідуальне оцінювання не потребує багато часу."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:405
+msgid "> ## A Corollary Regarding Novices"
+msgstr "> ## Висновок відносно новачків"
+
+#: instructor-training/_episodes/02-practice-learning.md:406
+msgid ""
+">\n"
+"> Learners are commonly _far_ too satisfied to not understand key points\n"
+"> and remain confused.  If learners remain confused, they are far less likely\n"
+"> to adopt our \"good enough\" practices at the conclusion of the workshop.\n"
+"> Encourage helpers to support confused learners as far as possible within\n"
+"> the flow of the workshop."
+msgstr ""
+">\n"
+"> Слухачі зазвичай далекі від задоволення, якщо вони не розуміють ключові моменти\n"
+"> і залишаються спантеличеними. Якщо слухачі спантеличені, вони з набагато меншою імовірністю\n"
+"> сприймуть наші «досить хороші» практики до завершення семінару.\n"
+"> Заохочуйте помічників підтримувати розгублених слухачів, наскільки це можливо,\n"
+"> протягом семінару."
+
+# header
+#: instructor-training/_episodes/02-practice-learning.md:414
+msgid "## Optional exercises"
+msgstr "## Факультативні вправи"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/02-practice-learning.md:416
+msgid "> ## Confronting the Contradiction"
+msgstr "> ## Опрацювання протиріччя"
+
+#: instructor-training/_episodes/02-practice-learning.md:417
+msgid ""
+">\n"
+"> Describe a misconception you have encountered in your own learning or teaching\n"
+"> and how to get learners to confront it."
+msgstr ""
+">\n"
+">Опишіть помилкове уявлення, з яким ви зустрілися під час власного навчання чи викладання,\n"
+"> і як навчити слухачів протистояти цьому."
+
+#: instructor-training/_episodes/02-practice-learning.md:422
+msgid ""
+"[swc-shell-novice]: http://swcarpentry.github.io/shell-novice/\n"
+"[wikipedia-dreyfus-skill]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition"
+msgstr ""
+"[swc-shell-novice]: http://swcarpentry.github.io/shell-novice/\n"
+"[wikipedia-dreyfus-skill]: https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition"

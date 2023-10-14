@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:05+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/index.md:1
+msgid ""
+"---\n"
+"layout: lesson\n"
+"root: .\n"
+"redirect_from: \"http://swcarpentry.github.io/instructor-training/\"\n"
+"---"
+msgstr ""
+
+#: instructor-training/index.md:7
+msgid ""
+"Over the last hundred years,\n"
+"researchers have discovered an enormous amount about how people learn\n"
+"and how best to teach them.\n"
+"Unfortunately,\n"
+"much of that knowledge has not yet been translated into common classroom practice, especially at the university level."
+msgstr ""
+
+#: instructor-training/index.md:13
+msgid "This two-day class has the following overall goals:"
+msgstr ""
+
+# unordered list
+#: instructor-training/index.md:15
+msgid "*   Introduce you to evidence-based best-practices of teaching."
+msgstr ""
+
+# unordered list
+#: instructor-training/index.md:16
+msgid ""
+"*   Teach you how to create a positive environment for learners at your "
+"workshops."
+msgstr ""
+
+# unordered list
+#: instructor-training/index.md:17
+msgid ""
+"*   Provide opportunities for you to practice and build your teaching "
+"skills."
+msgstr ""
+
+# unordered list
+#: instructor-training/index.md:18
+msgid ""
+"*   Help you become integrated into the [Carpentries]({{ "
+"site.carpentries_site }}) community. "
+msgstr ""
+
+# unordered list
+#: instructor-training/index.md:19
+msgid ""
+"*   Prepare you to use these teaching skills in teaching [Carpentries]({{ "
+"site.carpentries_site }}) workshops."
+msgstr ""
+
+#: instructor-training/index.md:21
+msgid ""
+"Because we have only two days, some things are beyond the scope of this class. We will not be learning:  \n"
+"*   How to program in R or Python, use Git or SQL, or any of the other topics taught in Software Carpentry, Data Carpentry, or Library Carpentry workshops. \n"
+"*   How to create your own lessons from scratch (although you will have a good start on the principles behind that sort of work if you're inspired to learn more). "
+msgstr ""
+
+#: instructor-training/index.md:25
+msgid ""
+"*Please fill in [the online application form][application-form] if you wish to take part in this course.\n"
+"Priority is given to members of our partner organizations,\n"
+"but we run several open-enrollment classes each year as well.*"
+msgstr ""
+
+# unordered list
+#: instructor-training/index.md:36
+msgid ""
+"*   All participants in this course are required to abide by our [Code of "
+"Conduct][conduct]."
+msgstr ""
+
+# unordered list
+#: instructor-training/index.md:37
+msgid "*   There are no specific prerequisites for this training,"
+msgstr ""
+
+#: instructor-training/index.md:38
+msgid ""
+"    but participants will benefit from having attended a Data Carpentry or Software Carpentry workshop either as learner or helper\n"
+"    so that they are familiar with our teaching techniques and the style of our workshops.\n"
+"*   In particular, participants are *not* required to have any specific programming skills\n"
+"    (though of course they should know enough about the subjects of one or more of our lessons\n"
+"    to be able to teach them)."
+msgstr ""
+
+#: instructor-training/index.md:44
+msgid ""
+"Feedback on these materials is welcome as an [issue][issues] on the GitHub "
+"repository that hosts this site."
+msgstr ""
+
+#: instructor-training/index.md:46
+msgid ""
+"**These materials are freely available under a [Creative Commons "
+"license][license].**"
+msgstr ""
+
+#: instructor-training/index.md:48
+msgid ""
+"[application-form]: https://amy.software-carpentry.org/forms/request_training/\n"
+"[conduct]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html\n"
+"[license]: {{ page.root }}/LICENSE.html\n"
+"[issues]: {{ site.github.repository_url }}/issues"
+msgstr ""

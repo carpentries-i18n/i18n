@@ -1,0 +1,581 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:18+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/09-mindset.md:1
+msgid ""
+"---\n"
+"title: \"Mindset\"\n"
+"block: \"Creating a Positive Learning Environment\"\n"
+"teaching: 15\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How does mindset influence learning?\"\n"
+"- \"How should we praise our learners?\"\n"
+"- \"How should we talk about errors?\"\n"
+"- \"What are successful habits of lifelong learners?\"\n"
+"objectives:\n"
+"- \"Explain the difference between fixed and growth mindset and its implications for classroom performance.\"\n"
+"- \"Develop strategies for giving effort-based and improvement-based praise.\"\n"
+"- \"Respond positively to learner errors.\"\n"
+"- \"Model habits of lifelong learners.\"\n"
+"keypoints:\n"
+"- \"Growth mindset and grit promote learning by making effort a positive thing.\"\n"
+"- \"Presenting errors as essential to the learning process helps learners learn from their mistakes.\"\n"
+"- \"Successful lifelong learners aren't embarrassed to ask for help.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Мислення\"\n"
+"block: \"Створення позитивного навчального середовища\"\n"
+"teaching: 15\n"
+"exercises: 15\n"
+"questions:\n"
+"- «Як мислення впливає на навчання?»\n"
+"- «Як хвалити наших слухачів?»\n"
+"- «Як говорити про помилки?»\n"
+"- \"Які успішні звички тих, хто навчається протягом усього життя?\"\n"
+"цілі:\n"
+"- «Пояснити різницю між фіксованим мисленням і мисленням зростання, і їх вплив на продуктивність навчання».\n"
+"- «Розробити стратегії для похвали на основі зусиль і вдосконалення».\n"
+"- «Позитивно реагувати на помилки слухачів».\n"
+"- «Моделювати звички навчатися протягом усього життя».\n"
+"Ключові моменти:\n"
+"- «Мислення зростання та завзятість сприяють навчанню, роблячи зусилля позитивними».\n"
+"- «Сприйняття помилок як істотного фактору у процесі навчання допомагає слухачам вчитися на своїх помилках».\n"
+"- «Успішні люди, які навчаються протягом усього життя, не соромляться просити допомоги».\n"
+"---"
+
+#: instructor-training/_episodes/09-mindset.md:22
+msgid ""
+"Our beliefs and attitudes about learning can impact how we learn! In this section\n"
+"we examine how learners can create a \"positive learning environment\" for themselves\n"
+"by how they think about learning; and how to model these behaviors as an instructor."
+msgstr ""
+"Наші переконання та ставлення до навчання можуть впливати на те, як ми навчаємося! У цьому розділі\n"
+"ми досліджуємо, як слухачі можуть створити для себе «позитивне навчальне середовище»\n"
+"завдяки тому, як вони думають про навчання; і як інструктору моделювати цю поведінку ."
+
+# header
+#: instructor-training/_episodes/09-mindset.md:26
+msgid "## The Importance of Mindset"
+msgstr "## Важливість мислення"
+
+#: instructor-training/_episodes/09-mindset.md:28
+msgid ""
+"One example of how our beliefs impact learning is Carol Dweck's theory of "
+"\"mindset\"."
+msgstr ""
+"Одним із прикладів того, як наші переконання впливають на навчання, є теорія"
+" «мислення» Керол Двек."
+
+#: instructor-training/_episodes/09-mindset.md:30
+msgid ""
+"Dweck, a professor of Psychology at Stanford University, has conducted decades of research focused on understanding\n"
+"people's attitudes towards ability, our beliefs about whether ability is ingrained or developed, and how those beliefs\n"
+"affect our perseverance in learning. She's discovered that, in any given area, people tend to have either a fixed mindset - believing that\n"
+"someone's ability in that area is intrinsic, you're either born with it or you're not - or a growth mindset - believing that, with enough effort,\n"
+"almost anyone can learn almost anything. (She's written a very accessible popularized [summary][worldcat-dweck] of her findings. There's also a [short summary][cardiff-dweck] available.)"
+msgstr ""
+"Двек, професор психології Стенфордського університету, проводила десятиліття досліджень, спрямованих на розуміння\n"
+"ставлення людей до здібностей та вивчення наших переконань щодо того, чи є здібності вкоріненими чи розвиненими, і як ці переконання\n"
+"впливають на нашу наполегливість у навчанні. Вона виявила, що в будь-якій предметній галузі люди мають або фіксоване мислення - вважаючи, що\n"
+"чиїсь здібності в цій сфері є внутрішніми, тобто ви або народилися з ними, або ні; або мислення зростання - вірячи, що, доклавши достатніх зусиль,\n"
+"майже кожен може навчитися майже всьому. (Вона написала дуже доступне популяризоване [резюме][worldcat-dweck] своїх результатів. Також є доступною [коротка анотація][cardiff-dweck].)"
+
+#: instructor-training/_episodes/09-mindset.md:36
+msgid ""
+"Do you believe that you're just not good at math? Or maybe you're not artistic? Not good at sports? If any of these\n"
+"sound like you, you probably have a fixed mindset when it comes to mathematical, artistic and/or athletic ability.\n"
+"People with a fixed mindset tend to avoid effort and to give up when faced with failure or challenge. They also\n"
+"tend to take fewer risks, be less likely to take an opportunity to learn something new and to feel best about themselves when they perform flawlessly.\n"
+"In contrast, people with a growth mindset tend to actively seek challenges and to work harder when faced with failure. They regularly take risks and\n"
+"take advantage of opportunities for learning new skills. In fact, initial difficulties in a topic make them more interested and motivated to learn!"
+msgstr ""
+"Ви вважаєте, що погано розумієтесь у математиці? А може ти не артист? Не товаришуєте зі спортом? Якщо щось з цього\n"
+"схоже на вас, ви, ймовірно, маєте фіксоване мислення, коли справа доходить до математичних, художніх та/або спортивних здібностей.\n"
+"Люди з фіксованим мисленням, як правило, уникають зусиль і здаються, коли стикаються з невдачею чи викликом. Вони також\n"
+"схильні менше ризикувати, рідше користуються можливістю дізнатися щось нове та почувати себе найкраще, коли вони працюють бездоганно.\n"
+"Навпаки, люди з мисленням зростання, як правило, активно шукають викликів і працюють більше, коли стикаються з невдачами. Вони регулярно ризикують і\n"
+"користуються можливостями для отримання нових навичок. Насправді початкові труднощі в у певній предметній галузі роблять їх більш зацікавленими та мотивованими до навчання!"
+
+#: instructor-training/_episodes/09-mindset.md:43
+msgid ""
+"People who believe that ability is intrinsic view every situation as a test. A failure indicates that they don't have the natural ability they need\n"
+"to succeed. Thus, students with a fixed-mindset will *decrease* their study time after receiving a poor exam score, because they see this score as a\n"
+"judgment that they aren't good at that subject and shouldn't waste their time trying. In the same situation, a growth-mindset student will increase\n"
+"the amount of time that\n"
+"they study, seeing the poor score as an indication that they need to try harder to improve in that area."
+msgstr ""
+"Люди, які вірять, що здатність є внутрішньою, сприймають кожну ситуацію як випробування. Невдача вказує на те, що вони не мають необхідних природних здібностей\n"
+"для досягнення успіху. Таким чином, студенти з фіксованим мисленням *зменшуватимуть* свій час на навчання після отримання поганої оцінки іспиту, оскільки вони сприймають цю оцінку як\n"
+"судження, що вони погано володіють цією темою і не повинні витрачати час на спроби. У цій же ситуації студент з мисленням зростання \n"
+"збільшить кількість часу на\n"
+"навчання, розглядаючи низький бал як ознаку того, що їм потрібно докладати більше зусиль для вдосконалення в цій галузі."
+
+#: instructor-training/_episodes/09-mindset.md:49
+msgid ""
+"Their attitude towards failure leads fixed-mindset people to avoid situations where they will be required to perform. They will not volunteer to answer\n"
+"questions in class or to demonstrate a sports technique to their team. This tendency prevents fixed-mindset people from using opportunities to practice\n"
+"and receive feedback, which, [as we've discussed]({{ page.root }}{% link _episodes/02-practice-learning.md %}), is essential to learning."
+msgstr ""
+"Ставлення до невдач у людей із фіксованим мисленням спонукає їх уникати ситуацій, коли від них вимагатимуть виконання. Вони не зголошуються відповідати\n"
+"на запитання в аудиторії або продемонструвати спортивну техніку своїй команді. Ця тенденція заважає людям із фіксованим мисленням використовувати можливості для практики\n"
+"і отримувати відгуки, які, [як ми обговорювали] ({{ page.root }}{% link _episodes/02-practice-learning.md %}), є важливими для навчання."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:53
+msgid "> ## Does Mindset Matter?"
+msgstr "> ## Чи має значення мислення?"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:54
+msgid ""
+"> Think: What kind of mindset do you have about different areas? Is there "
+"anything you believe you are \"not naturally"
+msgstr ""
+"> Подумайте: яке у вас ставлення до різних сфер діяльності? Чи є щось, на що"
+" ви вважаєте, що ви «не маєте природнього"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:55
+msgid ""
+"> talented\" at? Mindset often varies in different areas -- someone might "
+"have a fixed mindset with respect to artistic"
+msgstr ""
+"> таланту\"? Мислення часто відрізняється в різних сферах діяльності - хтось"
+" може мати фіксоване мислення щодо художньої"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:56
+msgid ""
+"> ability, but a growth mindset with respect to computing skill. Then, think"
+" about your learners. How might a learner's"
+msgstr ""
+"> здібності, але мислення зростання щодо навичок програмування. Тоді "
+"подумайте про своїх слухачів. Як може мислення"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:57
+msgid ""
+"> mindset about computational skill influence their learning in a workshop "
+"setting?"
+msgstr ""
+"> слухача щодо навичок програмування впливати на їх навчання в умовах "
+"семінару?"
+
+#: instructor-training/_episodes/09-mindset.md:58
+msgid ""
+">\n"
+"> Pair: Discuss your thoughts about the influence of mindset in a workshop. Try to come up with a few different ways or\n"
+"> situations in which mindset might be relevant.\n"
+">\n"
+"> Share: A few thoughts in the Etherpad (or go around the room and discuss)\n"
+">\n"
+"> This exercise should take about 5 minutes."
+msgstr ""
+">\n"
+"> Пара: обговоріть свої думки щодо впливу типу мислення на семінарі. Спробуйте придумати кілька різних способів або\n"
+"> ситуації, в яких тип мислення може бути актуальним.\n"
+">\n"
+"> Поділіться: кілька думок в Etherpad (або пройдіться аудиторією та обговоріть ці питання).\n"
+">\n"
+"> Ця вправа займає близько 5 хвилин."
+
+#: instructor-training/_episodes/09-mindset.md:67
+msgid ""
+"If you recognize aspects of the fixed mindset in yourself, don't panic! Like everything else, a growth mindset can be learned. We're going to talk about some\n"
+"strategies that will help you promote a growth mindset in your learners and yourself."
+msgstr ""
+"Якщо ви розпізнаєте в собі аспекти фіксованого мислення, не панікуйте! Як і всьому іншому, мисленню зростання можна навчитися. Ми поговоримо про деякі\n"
+"стратегії, які допоможуть вам сприяти мисленню зростання ваших слухачів і вас самих."
+
+# header
+#: instructor-training/_episodes/09-mindset.md:70
+msgid "## Praise Influences Mindset"
+msgstr "## Похвала впливає на мислення"
+
+#: instructor-training/_episodes/09-mindset.md:72
+msgid ""
+"One specific way in which instructors can foster a growth mindset in learners\n"
+"is in how we praise. [Carol Dweck's research](http://www.ascd.org/publications/educational-leadership/oct07/vol65/num02/The-Perils-and-Promises-of-Praise.aspx)\n"
+"investigated three types of praise: performance-based, effort-based and improvement-based, and looked at how these\n"
+"types of praise influence learner's mindsets."
+msgstr ""
+"Один із конкретних способів, за допомогою якого інструктор можє сприяти зростанню мислення слухачів\n"
+"полягає в тому, як ми хвалимо. [В роботі Керол Двек](http://www.ascd.org/publications/educational-leadership/oct07/vol65/num02/The-Perils-and-Promises-of-Praise.aspx)\n"
+"досліджено три типи похвали: на основі продуктивності, на основі зусиль і на основі вдосконалення, і розглянуто, як ці\n"
+"типи похвал впливають на мислення учня."
+
+#: instructor-training/_episodes/09-mindset.md:77
+msgid ""
+"We're most used to hearing **performance-based praise**. This sort of praise focuses on outcomes and implies that the\n"
+"outcome (for example, getting a correct answer) is the most important part of the task. It is often (but not always)\n"
+"combined with language that explicitly or implicitly supports the \"intrinsic\" model of competence. For example, \"You\n"
+"did a great job! You must be very smart.\""
+msgstr ""
+"Ми звикли чути **похвалу за ефективність**. Цей вид похвали зосереджується на результатах і має на увазі, що\n"
+"результат (наприклад, отримання правильної відповіді) є найважливішою частиною завдання. Часто (але не завжди)\n"
+"у поєднанні з мовою, яка явно чи неявно підтримує «внутрішню» модель компетентності. Наприклад, «Ти\n"
+"зробив чудову роботу! Ти маєш бути дуже розумним»."
+
+#: instructor-training/_episodes/09-mindset.md:82
+msgid ""
+"**Effort-based praise** focuses on the learner's hard work. For example, \"You did a good job, you must have worked very hard.\"\n"
+"Exposing learners frequently to this type of praise helps them to transition from a fixed mindset to a growth mindset by\n"
+"changing their perception of effort. For fixed-mindset people, if something doesn't come easy to you, it means that you\n"
+"don't have natural ability and shouldn't bother. People with a growth mindset are much more likely to persevere in the face of challenge\n"
+"and accomplish their goals."
+msgstr ""
+"**Похвала на основі зусиль** зосереджується на важкій роботі учня. Наприклад, «Ти добре попрацював, ти, мабуть, дуже старався».\n"
+"Часті похвали такого типу похвали допомагають учням перейти від фіксованого мислення до мислення зростання,\n"
+"змінюючи своє сприйняття зусиль. Для людей із фіксованим мисленням, якщо щось дається вам нелегко, це означає, що ви\n"
+"не маєте природних здібностей і не повинні турбуватися. Люди з мисленням зростання мають набагато більше шансів вистояти перед викликами\n"
+"і досягти своїх цілей."
+
+#: instructor-training/_episodes/09-mindset.md:88
+msgid ""
+"**Improvement-based praise** is related to praise based on effort, but explicitly draws a learner's attention to the progress they've made.\n"
+"For example, \"You're doing so much better at this than last time, you must have worked very hard.\" This helps reinforce a growth-mindset by\n"
+"highlighting our ability to improve with effort."
+msgstr ""
+"**Похвала на основі вдосконалення** пов’язана з похвалою на основі зусиль, але чітко привертає увагу учня до прогресу, якого він досяг.\n"
+"Наприклад, «Ти справляєшся набагато краще, ніж минулого разу, ти, мабуть, дуже багато працював». Це допомагає зміцнити мислення зростання\n"
+"підкреслюючи нашу здатність вдосконалюватися, докладаючи зусиль."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:92
+msgid "> ## Choosing our Praises"
+msgstr "> ## Вибір наших похвал"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:93
+msgid ""
+"> Since we're so used to being praised for our performance, it can be "
+"challenging to change the way we praise our learners. Which of these"
+msgstr ""
+"> Оскільки ми так звикли до того, що нас хвалять за нашу роботу, може бути "
+"складно змінити спосіб, у який ми хвалимо наших слухачів. Який із цих"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:94
+msgid ""
+"> are examples of performance-based, effort-based, or improvement-based "
+"praise?"
+msgstr ""
+"> прикладів є похвалою на основі продуктивності, зусиль або вдосконалення?"
+
+#: instructor-training/_episodes/09-mindset.md:95
+msgid ""
+">\n"
+"> - I like the way you tried a couple of different strategies to solve that problem.\n"
+"> - You're getting really good at that. Keep up the hard work!\n"
+"> - You're really talented.\n"
+"> - That was a hard problem. You didn't get the right answer, but look at how much you learned trying to solve it!\n"
+">\n"
+">> ## Solution\n"
+">> - Effort-based.\n"
+">> - Improvement-based.\n"
+">> - Performance-based.\n"
+">> - Improvement-based."
+msgstr ""
+">\n"
+"> - Мені подобається те, як ви спробували кілька різних стратегій для вирішення цієї проблеми.\n"
+"> - Ти справді добре справляєшся з цим. Так продовжуй!\n"
+"> - Ти дійсно талановита.\n"
+"> - Це була важка проблема. Ви не отримали правильної відповіді, але подивіться, скільки ви навчилися, намагаючись її вирішити!\n"
+">\n"
+">> ## Рішення\n"
+">> - На основі зусиль.\n"
+">> - На основі вдосконалення.\n"
+">> - На основі продуктивності.\n"
+">> - На основі вдосконалення."
+
+# header
+#: instructor-training/_episodes/09-mindset.md:110
+msgid "## Errors are Essential to Learning"
+msgstr "## Помилки є необхідними для навчання"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:112
+msgid "> The typos are the pedagogy."
+msgstr "> Помилки - це педагогіка."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:113
+msgid "> — Emily Jane McTavish"
+msgstr "> — Emily Jane McTavish"
+
+#: instructor-training/_episodes/09-mindset.md:116
+msgid ""
+"Another example of how our beliefs (in this case, our emotions) impact learning\n"
+"is in how we think about errors.  One of the barriers to learning is avoidance of making errors. Errors are associated with negative emotions, which leads to learners being\n"
+"fearful of making them."
+msgstr ""
+"Ще один приклад того, як наші переконання (в даному випадку наші емоції) впливають на навчання\n"
+"полягає в тому, як ми думаємо про помилки. Однією з перешкод для навчання є уникнення помилок. Помилки пов'язані з негативними емоціями, які призводять до того, що учні\n"
+"бояться їх зробити."
+
+#: instructor-training/_episodes/09-mindset.md:120
+msgid ""
+"*Positive error framing* is the process of presenting errors as an integral part of the learning process and using them as teaching opportunities. Error framing encourages learners to understand that making errors provides valuable learning opportunities instead\n"
+"of having negative consequences. For example, the [Language Acquisition Made Practical](http://www.worldcat.org/title/language-acquisition-made-practical-field-methods-for-language-learners/oclc/935845446?referer=di&ht=edition) (LAMP)\n"
+"system for learning language encourages learners to develop phrases and try them in a variety of social situations with native speakers. By\n"
+"being willing to make mistakes, LAMP learners receive useful feedback from native speakers in real-world social situations. Error framing has\n"
+"shown to be useful in learning complex tasks such as programming. In one study, Steele-Johnson showed that error framing showed\n"
+"[positive effects on metacognition and self-efficacy](https://www.ncbi.nlm.nih.gov/pubmed/24617273)."
+msgstr ""
+"*Позитивне формування помилок* — це процес представлення помилок як невід’ємної частини процесу навчання та використання їх як можливостей для навчання. Формування помилок спонукає слухачів зрозуміти, що помилки надають цінні можливості для навчання і не\n"
+"мають негативних наслідків. Наприклад, система вивчення мови  [Language Acquisition Made Practical](http://www.worldcat.org/title/language-acquisition-made-practical-field-methods-for-language-learners/oclc/935845446?referer=di&ht=edition ) \n"
+"(LAMP) заохочує учнів складати фрази та пробувати їх у різноманітних соціальних ситуаціях з носіями мови.\n"
+"будучи готовими робити помилки, учні LAMP отримують корисні відгуки від носіїв мови в реальних соціальних ситуаціях. Визначення помилок\n"
+"виявилося корисним для вивчення складних завдань, таких як програмування. В одному дослідженні Стіл-Джонсон показала, що фреймування помилок показує\n"
+"[позитивний вплив на метапізнання та самоефективність](https://www.ncbi.nlm.nih.gov/pubmed/24617273)."
+
+#: instructor-training/_episodes/09-mindset.md:127
+msgid ""
+"How can we incorporate error framing into our lessons? We need to reduce the negative emotions associated with errors, instead casting errors\n"
+"as a \"[natural part of learning](https://www.researchgate.net/publication/292881989_Enhancing_firm_performance_and_innovativeness_through_error_management_culture)\".\n"
+"Sharing experiences of learning from errors can encourage learners to adopt a growth-mindset. Associating improvement-based praise with errors\n"
+"can also encourage positive emotions associated with making errors in learning. Finally, the use of\n"
+"[participatory live coding]({{ page.root }}/14-live/) as the focus for teaching allows for instructors to model how errors can be positively\n"
+"framed and the process for overcoming them."
+msgstr ""
+"Як ми можемо включити обробку помилок у наші уроки? Нам потрібно зменшити негативні емоції, пов’язані з помилками, замість того, щоб відкидати помилки, \n"
+"які є «[природною частиною навчання](https://www.researchgate.net/publication/292881989_Enhancing_firm_performance_and_innovativeness_through_error_management_culture)».\n"
+"Обмін досвідом навчання на помилках може спонукати слухачів прийняти мислення зростання. Кореляція похвали за вдосконалення з помилками\n"
+"також може заохочувати позитивні емоції, пов’язані з помилками в навчанні. Нарешті, використання\n"
+"[спільного кодування в реальному часі] ({{ page.root }}/14-live/) в якості фокусу навчання дозволяє інструкторам моделювати, як помилки можуть бути позитивно виправлені і яким є \n"
+"процес їх подолання."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:134
+msgid "> ## Helping Learners Learn From Mistakes (optional)"
+msgstr "> ## Допомогаючи слухачам вчитися на помилках (опціонально)"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:135
+msgid ""
+"> A learner at your workshop asks for your help with an exercise and shows "
+"you their attempt at solving it. You see they've made an error"
+msgstr ""
+"> Слухач вашого семінару просить вашої допомоги у вправі та показує вам свою"
+" спробу її розв’язати. Ви бачите, що він зробив помилку"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:136
+msgid ""
+"> that shows they misunderstand something fundamental about the lesson (for "
+"example, in the shell lesson, they forgot to put a space between"
+msgstr ""
+"> яка показує, що він неправильно розуміє фундаментальний елемент матеріалу "
+"семінару (наприклад, в при вивченні shell він забув поставити пробіл між"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:137
+msgid ""
+"> `ls` and the name of the directory they are looking at). What would you "
+"say to the learner?"
+msgstr ""
+"> `ls` і назвою каталогу, який вони переглядають). Що б ви сказали слухачу?"
+
+#: instructor-training/_episodes/09-mindset.md:138
+msgid ""
+">\n"
+"> In the Etherpad, describe the error your learner has made and how you would respond.\n"
+">\n"
+"> This exercise and discussion should take about 5 minutes."
+msgstr ""
+">\n"
+"> У Etherpad опишіть помилку, яку зробив ваш слухач, і як би ви відповіли.\n"
+">\n"
+"> Ця вправа та обговорення мають тривати близько 5 хвилин."
+
+# header
+#: instructor-training/_episodes/09-mindset.md:144
+msgid "## Perseverance Predicts Success"
+msgstr "## Наполегливість забезпечує успіх"
+
+#: instructor-training/_episodes/09-mindset.md:146
+msgid ""
+"Finally, have you ever thought about how the quality of persistence can\n"
+"impact someone's learning?"
+msgstr ""
+"Нарешті, ви коли-небудь замислювалися про те, як якість наполегливості може\n"
+"вплинути на навчання?"
+
+#: instructor-training/_episodes/09-mindset.md:149
+msgid ""
+"Angela Duckworth, a Psychology professor from University of Pennsylvania, suggests that something called *grit* is an essential trait in\n"
+"learning. Grit can be defined as [perseverance and passion in the face of difficulty towards a defined long term goal](https://www.dropbox.com/s/cvg1mbz0xrfx25l/DuckworthGross2014.pdf).\n"
+"Learners with grit are willing to fail in their pursuit if they feel that it gets them closer to their goal. Learning and recovering\n"
+"from failure is an essential skill in many fields. Learners with grit have shown to have a higher degree of success later on in\n"
+"life. However, grit is not an innate trait; there is much evidence that suggests that grit is a trait that can be learned and instilled in\n"
+"learners."
+msgstr ""
+"Анжела Дакворт, професор психології з Університету Пенсільванії, припускає, що те, що називається *впевненість*, є важливою рисою в\n"
+"навчанні. Впевненість можна визначити як [наполегливість і пристрасть перед обличчям труднощів у досягненні визначеної довгострокової мети] (https://www.dropbox.com/s/cvg1mbz0xrfx25l/DuckworthGross2014.pdf).\n"
+"Наполегливі учні готові зазнати невдачі у своєму прагненні, якщо відчувають, що це наближає їх до мети. Навчання та відновлення\n"
+"від невдач є важливою навичкою в багатьох сферах. Впевнені учні продемонстрували вищий ступінь успіху у подальшому \n"
+"житті. Однак впевненість не є вродженою рисою; є багато доказів того, що впевненість — це риса, якій можна навчитися та яку можна прищепити\n"
+"учням."
+
+#: instructor-training/_episodes/09-mindset.md:156
+msgid "There are many ways we can help our learners attain grit."
+msgstr ""
+"Є багато способів, як ми можемо допомогти нашим слухачам стати "
+"наполегливими."
+
+# unordered list
+#: instructor-training/_episodes/09-mindset.md:158
+msgid ""
+"- *Modeling resilience by sharing experiences of struggle*. Sharing your own"
+" experiences of having difficulty learning certain computing"
+msgstr ""
+"- *Моделювання стійкості шляхом обміну досвідом боротьби*. Поділіться "
+"власним досвідом труднощів з вивченням певних аспектів програмування."
+
+#: instructor-training/_episodes/09-mindset.md:159
+msgid ""
+"concepts may help learners understand that the process of learning can be difficult. Sharing failures that were learning experiences may aid in\n"
+"modeling resilience.\n"
+"- *Promoting Perseverance*. Part of grit is being able to push through even when things are difficult. Improvement-based praise is an\n"
+"important motivating tool to promote perseverance.\n"
+"- *Sharing Passion*. Talking about why you persist in working in your field despite the difficulties and challenges is another way to instill\n"
+"grit.\n"
+"- *Emphasizing Long-Term Goals*. Showing the effects of learning the concepts in terms of learners' individual long-term goals can instill\n"
+"passion and drive for learning despite the difficulties of the topic."
+msgstr ""
+"Це може допомогти слухачам зрозуміти, що процес навчання може бути важким. Обмін невдачами, які виникали при навчанні, може допомогти\n"
+"моделюванню стійкості.\n"
+"- *Сприяння наполегливості*. Частково впевненість полягає в здатності йти далі, долаючи труднощі, навіть коли все складно. Похвала, заснована на вдосконаленні, є\n"
+"важливим мотиваційним інструментом сприяння наполегливості.\n"
+"- *Ділитися пристрастю*. Говорити про те, чому ви наполегливо працюєте у своїй сфері, незважаючи на труднощі та виклики, є ще одним способом прищепити\n"
+"наполегливість.\n"
+"- *Наголошення на довгострокових цілях*. Демонстрація ефектів вивчення концепцій з точки зору індивідуальних довгострокових цілей слухачів може прищепити\n"
+"пристрасть і потяг до навчання, незважаючи на труднощі теми."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:168
+msgid "> ## How Are You Gritty? (Optional)"
+msgstr "> ## Наскільки ти завзятий? (опціонально)"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:170
+msgid ""
+"> A [previous exercise]({{ page.root }}{% link _episodes/08-motivation.md "
+"%}#overcoming-imposter-syndrome-optional) asked you to think of a time when "
+"learning something was difficult for you, or"
+msgstr ""
+"> У [попередній вправі]({{ page.root }}{% link _episodes/08-motivation.md "
+"%}#overcoming-imposter-syndrome-optional) ви мали пригадати час, коли вам "
+"було важко щось вивчити, або"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/09-mindset.md:171
+msgid "> you made a mistake that seemed silly or embarrassing."
+msgstr "> ви робили помилку, яка здавалася безглуздою."
+
+#: instructor-training/_episodes/09-mindset.md:172
+msgid ""
+">\n"
+"> How did you motivate yourself to continue learning? How did it feel to persist in the face of challenge?\n"
+"> How do you feel now about your capabilities in this area?\n"
+">\n"
+"> In the Etherpad, describe how you could use this story to illustrate the importance of grit for your learners.\n"
+">\n"
+"> This exercise should take about 5 minutes."
+msgstr ""
+">\n"
+"Як ви мотивували себе продовжувати навчання? Що ви відчували, коли вистояли перед цим викликом?\n"
+"> Як ви зараз оцінюєте свої можливості в цій сфері?\n"
+">\n"
+"> У Etherpad опишіть, як ви можете використати цю історію, щоб проілюструвати важливість завзятості для ваших учнів.\n"
+">\n"
+"> Ця вправа займає близько 5 хвилин.."
+
+# header
+#: instructor-training/_episodes/09-mindset.md:181
+msgid "## Habits of Lifelong Learners"
+msgstr "## Звички тих, хто навчається протягом усього життя"
+
+#: instructor-training/_episodes/09-mindset.md:183
+msgid ""
+"Adopting beliefs and qualities like those listed above will help people become\n"
+"lifelong learners. By helping learners develop the habits of lifelong learning,\n"
+"we are not only preparing them to learn beyond the workshop, but hopefully,\n"
+"contributing to their overall career success. Surviving the job market nowadays requires the ability\n"
+"to be a lifelong learner, in order to learn and adapt to new skills that may\n"
+"be required by employers. Many of these positions can be described as *Knowledge Work*, work that requires\n"
+"[\"non-routine\" problem solving](http://doi.wiley.com/10.1002/kpm.378). Knowledge workers need to be capable of what Cal\n"
+"Newport calls \"[deep work](http://calnewport.com/books/deep-work/)\": defined as the \"ability to focus intensely on cognitively\n"
+"demanding tasks\"."
+msgstr ""
+"Прийняття переконань і якостей, подібних до перелічених вище, допоможе людям стати\n"
+"такими, навчаються протягом усього життя. Допомагаючи слухачам формувати звички вчитися протягом усього життя,\n"
+"ми не лише готуємо їх до навчання поза межами семінару, але, сподіваємося,\n"
+"робимо внесок у загальний успіх їх кар’єри. Щоб вижити на сучасному ринку праці, потрібні вміння\n"
+"навчатися протягом усього життя, щоб адаптуватися до нових навичок, яких можуть\n"
+"вимагати роботодавці. Багато з цих позицій можна описати як *роботу зі знаннями*, роботу, яка вимагає\n"
+"[\"нестандартного\" вирішення проблем](http://doi.wiley.com/10.1002/kpm.378). Інтелектуальні працівники повинні бути здатними до того, що Cal\n"
+"Newport називає «[поглибленою роботою](http://calnewport.com/books/deep-work/)»: що визначається як «здатність інтенсивно зосереджуватися на когнітивно\n"
+"складних завданнях»."
+
+#: instructor-training/_episodes/09-mindset.md:193
+msgid ""
+"Lifelong learning arises from those who have the growth mindset. Both grit and\n"
+"[curiosity](https://blog.udacity.com/2017/02/grit-yes-curiosity.html) have been identified as\n"
+"[success factors in lifelong learning](https://www.enterrasolutions.com/lifelong-learners-embrace-curiosity-grit/).\n"
+"Often, the process of learning is a difficult journey. By modeling \"gritty\" behavior and how it has helped us achieve\n"
+"long-term goals, we can foster a \"learn-it-all\" rather than a \"know-it-all\" attitude in learners."
+msgstr ""
+"Звичка навчання протягом усього життя виникає у тих, хто має мислення зростання. Впевненість і\n"
+"[допитливість](https://blog.udacity.com/2017/02/grit-yes-curiosity.html) визначені як\n"
+"[фактори успіху в навчанні впродовж життя](https://www.enterrasolutions.com/lifelong-learners-embrace-curiosity-grit/).\n"
+"Часто процес навчання є складною подорожжю. Моделюючи «завзяту» поведінку та те, як це допомогло нам досягти\n"
+"довгострокових цілей, ми можемо виховати в слухачах прагнення «про все дізнатися», а не «все знати»."
+
+#: instructor-training/_episodes/09-mindset.md:199
+msgid ""
+"Emphasizing the role of [help-seeking behavior in the lifelong learning process](https://en.wikiversity.org/wiki/Learning_theories_in_practice/Help-seeking)\n"
+"is important, as it is a critical skill of lifelong learners. Encouraging learners to seek help can be difficult when societal norms view\n"
+"seeking help as \"stigmatizing, self-threatening behavior\".\n"
+"Because of this, we need to reframe help-seeking behavior as a\n"
+"positive behavior to cope with difficulties. Part of this reframing can be modeled by instructors emphasizing that they are also lifelong learners\n"
+"and by admitting the limits of their knowledge. Emphasizing that one's cohort is a powerful source of help is important to establishing a\n"
+"positive learning community."
+msgstr ""
+"Підкреслення ролі [пошуку допомоги в процесі навчання впродовж життя](https://en.wikiversity.org/wiki/Learning_theories_in_practice/Help-seeking)\n"
+"є важливим, оскільки це критично важлива навичка тих, хто навчається протягом усього життя. Заохочувати слухачів шукати допомоги може бути складно з огляду на суспільні норми,\n"
+"що трактують звернення за допомогою як «стигматизуючу, самозагрозливу поведінку».\n"
+"Через це нам потрібно переосмислити поведінку пошуку допомоги як\n"
+"позитивна поведінку для подолання труднощів. Частину цього рефреймінгу можуть моделювати інструктори, наголошуючи, що вони також навчаються все життя\n"
+"і визнають межі своїх знань. Підкреслення того, що спільнота інструкторів є потужним джерелом допомоги, є важливим для встановлення \n"
+"позитивного навчального середовища."
+
+#: instructor-training/_episodes/09-mindset.md:207
+msgid ""
+"[worldcat-dweck]: http://www.worldcat.org/title/mindset-the-new-psychology-of-success/oclc/58546262\n"
+"[cardiff-dweck]: https://www.cardiffschools.com/cms/lib/CA01000801/Centricity/Domain/87/boosting_achievement_dweck.pdf"
+msgstr ""
+"[worldcat-dweck]: http://www.worldcat.org/title/mindset-the-new-psychology-of-success/oclc/58546262\n"
+"[cardiff-dweck]: https://www.cardiffschools.com/cms/lib/CA01000801/Centricity/Domain/87/boosting_achievement_dweck.pdf"

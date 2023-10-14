@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:16+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/members.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Information for Member Organizations\"\n"
+"survey_link:\n"
+"---"
+msgstr ""
+
+#: instructor-training/_extras/members.md:7
+msgid ""
+"Welcome to The Carpentries community. We are excited to welcome you as a "
+"member organisation. Our instructor training process is a vital component of"
+" how we spread the teaching culture of the Carpentries to new organisations."
+" We’re looking forward to meeting your team and helping them develop their "
+"teaching skills so you can have the best impact on the learners at your "
+"institution."
+msgstr ""
+
+#: instructor-training/_extras/members.md:9
+msgid ""
+"Your annual membership gives you a number of slots in our Instructor "
+"Training program. This training is for people who want to become certified "
+"Instructors with The Carpentries and is based on our constantly updated "
+"open-source [curriculum](https://carpentries.github.io/instructor-"
+"training/). "
+msgstr ""
+
+#: instructor-training/_extras/members.md:11
+msgid ""
+"This two-day online workshop is a mix of lecture and hands-on practice and "
+"is highly interactive. Your trainees will learn evidence-based best-"
+"practices for teaching and strategies for creating a positive learning "
+"environment. They will have opportunities to practice these techniques and "
+"get feedback. This training will also help your team become integrated into "
+"the global Carpentries community. "
+msgstr ""
+
+# header
+#: instructor-training/_extras/members.md:13
+msgid "## How to select your trainees:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:15
+msgid ""
+"* Trainees should be familiar with at least one of the technologies that we "
+"teach (R, Python, the Unix bash shell, SQL, OpenRefine, spreadsheet "
+"software, and/or Git). They do not need to be experts in that technology, "
+"but should use it at least weekly in their own work. We provide optional "
+"post-training onboarding sessions and mentoring opportunities to help "
+"Instructors level-up their skills and prepare to teach particular curricula."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:17
+msgid ""
+"* Trainees do not need any previous teaching experience or background in "
+"education, but should have a passion for spreading computational and data "
+"literacy skills."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:19
+msgid ""
+"* Trainees who have some previous experience with The Carpentries, whether "
+"as a learner or helper at a workshop, are more likely to complete the "
+"training and become active Instructors. "
+msgstr ""
+
+# header
+#: instructor-training/_extras/members.md:21
+msgid "## How to schedule your team for training: "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:23
+msgid ""
+"* You can view available training dates for the current quarter on our "
+"[training calendar](https://carpentries.github.io/instructor-"
+"training/training_calendar/). All events run from 9am to 5pm in the time "
+"zone listed. "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:25
+msgid ""
+"* Trainees can register by clicking the registration link on the calendar "
+"page above and entering the code provided for your team. Your trainees may "
+"sign up individually for different events, or you may register all of your "
+"trainees for the same event. If your trainees will be attending separate "
+"events, we recommend that you organize a social event for your trainees and "
+"other Carpentry-affiliated people at your institution to get to know each "
+"other. Being familiar with other members of this group will help individuals"
+" at your organisation organise events and remain active long after training."
+" "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:27
+msgid ""
+"* We recommend that your team attends Instructor Training during the first "
+"six months of your membership year. This ensures they have time to complete "
+"the training requirements and start teaching workshops during your "
+"membership year."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:29
+msgid ""
+"* If a trainee misses more than one hour of the training, they will not pass"
+" the training requirement and their spot will be forfeited. Because we are "
+"training people to deliver Carpentries training and be ambassadors of the "
+"Carpentries program, we need to ensure they get the full training "
+"experience."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:31
+msgid ""
+"* Trainees may register or change their registration up to one week before "
+"the event. However, we recommend registering as early as possible, as these "
+"events fill up quickly. "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:33
+msgid ""
+"* If one of your trainees is not able to attend after they've registered for"
+" an event, please get in touch with us at team@carpentries.org as soon as "
+"possible. In some cases, we will be able to transfer your training seat to "
+"another event, however, because the success of our program depends on "
+"accurately predicting our capacity needs, we may not be able to accommodate "
+"changes in registration unless we are notified in advance of the event. "
+"Except in case of emergency, training seats may be forfeited if advance "
+"notice is not given."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:35
+msgid ""
+"* Information about software/hardware requirements for the training, "
+"preparatory homework, and video-conference connection information will be "
+"provided one week before the event. "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:37
+msgid ""
+"* The [schedule](http://carpentries.github.io/instructor-training/#schedule)"
+" includes a lunch break as well as two shorter breaks in the morning and "
+"afternoon."
+msgstr ""
+
+#: instructor-training/_extras/members.md:39
+#: instructor-training/_extras/registration_confirmation.md:23
+msgid ""
+"*Note that in order to provide the best experience for our trainees, in rare"
+" instances events may be canceled due to low enrollment.  If this happens, "
+"you will be notified two weeks before the event and will have the "
+"opportunity to sign up for a future event.*"
+msgstr ""
+
+# header
+#: instructor-training/_extras/members.md:42
+msgid "## What to expect after the event:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:44
+msgid ""
+"* Participants will have three months (90 days) to complete [post-training "
+"homework exercises](http://carpentries.github.io/instructor-"
+"training/checkout/) in order to become certified Instructors. We recognize "
+"that life happens, and extensions to this deadline may be granted at the "
+"discretion of Carpentries staff.   "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:46
+msgid ""
+"* After successfully completing the post-training exercises, participants "
+"will receive a PDF certificate attesting they are certified Carpentries "
+"Instructors and will have the opportunity to be listed on our [Instructor "
+"webpage](https://carpentries.org/instructors/)."
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/members.md:48
+msgid ""
+"* Your Instructors will receive ongoing support and mentorship from "
+"Carpentries staff and experienced Instructors to help them prepare to start "
+"teaching at your institution and beyond. "
+msgstr ""
+
+#: instructor-training/_extras/members.md:50
+msgid ""
+"We’re excited to have you and your staff taking this important step to build"
+" a strong community of Instructors at your organization. We look forward to "
+"welcoming your Instructors into our community!"
+msgstr ""

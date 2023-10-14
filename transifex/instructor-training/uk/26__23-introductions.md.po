@@ -1,0 +1,534 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:20+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/23-introductions.md:1
+msgid ""
+"---\n"
+"title: \"Workshop Introductions\"\n"
+"block: \"The Carpentries\"\n"
+"teaching: 10\n"
+"exercises: 30\n"
+"questions:\n"
+"- \"How do you actually start a workshop?\"\n"
+"objectives:\n"
+"- \"Create an outline of important topics to cover in an introduction.\"\n"
+"- \"Describe three ways to start workshop participants talking to each other.\"\n"
+"- \"Receive one piece of feedback on your own introduction\"\n"
+"keypoints:\n"
+"- \"A planned introduction is a helpful tool in setting the workshop environment.\"  \n"
+"- \"Introductions should both include practical information and start building relationships.\"  \n"
+"---"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:17
+msgid ""
+"One of the most important things that you can do as an instructor is to\n"
+"set the workshop environment from the beginning.  One way to do this\n"
+"is by having a well-planned introduction.  This episode discusses the\n"
+"value of setting the environment from the beginning and some of the\n"
+"components that go into an effective introduction, and includes time to\n"
+"practice giving part of a workshop introduction."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:24
+msgid "## Setting the Workshop Environment"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:26
+msgid "> ## Your Academic Past"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:27
+msgid ""
+">\n"
+"> Think back to courses or workshops you really liked or didn't like.\n"
+"> - How did those courses start?\n"
+"> - Were you confident in the instructors abilities?\n"
+"> - Did you feel like they were enthusiastic about the course and invested in you?\n"
+"> - Was it clear what you were going to be learning?\n"
+"> - Were you excited about the material?\n"
+"> - Did you leave that first day thinking the instructor was uninterested, that you weren't the learners they wanted to\n"
+"be teaching or you had no idea what the course was supposed to be about?"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:38
+msgid ""
+"Your impression on the first day of a course probably matched that of the rest of\n"
+"the course. Introductions set the tone for the workshop and the path for learning."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:41
+msgid ""
+"Introductions are particularly important when we have just two days. Also,\n"
+"in Carpentry workshops we're teaching not only a set of skills, but also\n"
+"trying to give learners the confidence to become self-directed learners. Learners\n"
+"should leave feeling excited and empowered. It's up to you as an instructor to empower\n"
+"your learners, so it's important\n"
+"to set a positive and welcoming environment for the workshop."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:48
+msgid ""
+"Having a planned introduction, also helps you be less nervous. Having a planned introduction\n"
+"helps get you started. Even in the face of\n"
+"early technical issues  (which is common at the start of a workshop), you can have a chance to reset with something\n"
+"you're comfortable and ready for."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:53
+msgid "> ## What's in an Introduction?"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:54
+msgid ""
+">\n"
+"> Get into small groups (3-4 people) and discuss these questions for 10 minutes.  \n"
+"> Take notes on your answers -- we'll combine them later.  \n"
+">\n"
+"> 1. What do you hope to accomplish in a workshop introduction?\n"
+"> 2. What information do you need to include in an introduction to accomplish these goals?\n"
+">\n"
+"> After 5 minutes, come together, and combine ideas as a large group.  \n"
+">\n"
+"> Finally, compare your ideas with the list of topics below.  Did you miss anything?  \n"
+"> Did you come up with something that's not listed below?  \n"
+">\n"
+"> Optional question: what did you (the leader) do or not do in your introduction to the session?"
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:69
+msgid "## Goals For the Introduction"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:71
+msgid "After the introduction learners should:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:73
+msgid "- believe in your competence to teach the workshop"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:74
+msgid "- be able to predict the type of instruction"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:75
+msgid "- know what will be taught"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:76
+msgid "- know what will be required of them"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:78
+msgid "The instructor should:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:80
+msgid ""
+"- have an understanding of who is taking the workshop and what their "
+"expectations are"
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:82
+msgid "## Components of the Introduction"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:84
+msgid "To meet these objectives an introduction should:"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:86
+msgid "1.  Set positive first impressions"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:87
+msgid ""
+"1.  Introduce yourself effectively (and have other workshop leaders do the "
+"same)"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:88
+msgid "1.  Clarify learning objectives and expectations"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:89
+msgid "1.  Help learners learn about each other"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:90
+msgid "1.  Set the tone for the workshop"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:91
+msgid "1.  Collect baseline data on learners' knowledge and motivation"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:92
+msgid "1.  Whet learners' appetite for workshop content"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/23-introductions.md:93
+msgid "1.  Inform Learners of Logistics"
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:95
+msgid "### 1. Set Positive First Impressions"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:97
+msgid ""
+"First impressions can be long-lasting. Before you even start teaching, your learners\n"
+"will have already made some decisions about you, so it is important to\n"
+"understand what those impressions are based on and how to manage them."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:101
+msgid ""
+"**Your attire.** Research shows that clothing affects the\n"
+"judgments people make, including credibility,\n"
+"likability, dominance, kindness, and empathy (Raiscot, 1986; Morris et\n"
+"al., 1996). More formal attire communicates expertise and confidence.\n"
+"Less formal attire communicates approachability. Usually, it is easier\n"
+"to relax from a more formal impression into a more relaxed one than the\n"
+"other way around. These considerations are likely to be particularly\n"
+"relevant for young instructors who are concerned about establishing\n"
+"themselves as authoritative."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:111
+msgid ""
+"**The physical environment**. Learners can make decisions about what\n"
+"kind of course yours will be by the way the chairs are arranged. Rows\n"
+"signify a more formal environment, while circles or U-shapes imply a\n"
+"more informal atmosphere, with higher expectations of learner\n"
+"participation."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:117
+msgid ""
+"**Your use of the few minutes before class.** Greeting the learners as\n"
+"they enter the classroom communicates approachability. Frantically\n"
+"arriving right on time or late communicates disorganization."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:121
+msgid "### 2. Introduce Yourself Effectively"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:123
+msgid ""
+"Your introduction should be succinct, but make sure to cover certain\n"
+"key areas. These questions should help you decide what to say:"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:126
+msgid ""
+"**What characteristics do you want to convey about yourself?** You probably want the learners to get a sense of your\n"
+"qualifications, how formal/informal you want\n"
+"to be, and how available you will be to the learners. You want to\n"
+"demonstrate that you're qualified, but that you share the same\n"
+"challenges as the learners, so you remain accessible."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:132
+msgid ""
+"**What will you need to say to convey those characteristics?**\n"
+"Consider talking about your research and computational interests as\n"
+"they relate to the workshop, in order to establish yourself as an\n"
+"authority, and to make the workshop more relevant."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:137
+msgid ""
+"**Why are you teaching a Carpentries workshop?**\n"
+"Why are you an instructor? What's motivating you to be there today? One\n"
+"reason might be that you took a workshop and saw how valuable these\n"
+"skills were in your own work and wanted to share this information with\n"
+"others. Convey your enthusiasm for being there."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:143
+msgid ""
+"**What should you be careful not to say?** Learners do not need to\n"
+"know everything about you. In particular, it is not helpful to say\n"
+"you've never taught the course before, or that it is your least\n"
+"favorite course to teach, or to disclose any irrelevant personal\n"
+"information that can undermine you in the eyes of your learners."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:149
+msgid "> ## Introductions for Everyone"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:150
+msgid ""
+">\n"
+"> If you're teaching a typical Carpentries workshop, then you're\n"
+"> probably not teaching alone!  After introducing yourself, make\n"
+"> sure that you give everyone involved in the workshop - instructors,\n"
+"> helpers, organizers - a chance to introduce themselves as well.\n"
+">\n"
+"> If you're the workshop organizer, this can also be a good time\n"
+"> to thank volunteers who are instructing or helping."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:160
+msgid "### 3. Clarify Learning Objectives and Your Expectations"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:162
+msgid ""
+"This is probably the most important step. Clearly laying out\n"
+"expectations orients learners towards what you expect from them,\n"
+"and helps them use their time productively."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:166
+msgid ""
+"**Describe the prerequisites** so learners will know what information\n"
+"you are assuming they already know. For Data Carpentry no prior\n"
+"computational experience is required. Expectations vary for Software\n"
+"Carpentry and Library Carpentry workshops. Convey what your expectations are."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:171
+msgid "**Highlight main aspects of the schedule.**"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:173
+msgid ""
+"**Communicate the workshop structure** so the learners will\n"
+"understand the decisions that have been made in designing the workshop.\n"
+"Make sure to highlight\n"
+"the learning objectives and the hands-on instructional strategies we use and\n"
+"the workshop policies."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:179
+msgid ""
+"**Clarify workshop roles.** Explain who is doing what at the workshop and\n"
+"what learners can expect from the workshop leaders.  If you haven't already\n"
+"introduced helpers or other workshop leaders, make sure to do so.  "
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:183
+msgid ""
+"**Explain your expectations** for learner behavior including expectations\n"
+"around:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:186
+msgid ""
+"- [Code of "
+"Conduct](https://docs.carpentries.org/topic_folders/policies/index_coc.html)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:187
+msgid "- ways to ask for help"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/23-introductions.md:188
+msgid "- ways to give instructors feedback"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:190
+msgid "**Communicate your commitment** to the learners' learning experience."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:192
+msgid ""
+"**Share some advice for success** in your course. Let learners\n"
+"know you are confident in their success as long as they put in\n"
+"the required effort."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:196
+msgid "### 4. Help Learners Learn About Each Other"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:198
+msgid ""
+"The classroom is a social environment, so it is helpful to start the\n"
+"social dynamics in a productive way."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:201
+msgid ""
+"Icebreakers raise the energy levels and get learners comfortable so\n"
+"that they will be ready to work in groups or dialogue with each other.  "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:204
+msgid "> ## Example Icebreaker"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:205
+msgid "> Here is one example of an icebreaker you can use:  "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:206
+msgid "> Have everyone turn to a partner and introduce themselves with their"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:207
+msgid "> name, one word about their research 'microbes', 'dogs', 'vectors',"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:208
+msgid "> 'stars' and a thing they're proud of that they made."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:211
+msgid "Head here for [more examples of Icebreakers][icebreakers].  "
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:213
+msgid "### 5. Set the Tone for the Workshop"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:215
+msgid ""
+"The way you engage learners at the beginning sends powerful messages\n"
+"about the level of involvement and interaction you expect from them."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:218
+msgid ""
+"Since these workshops are hands-on don't spend a lot of the time at\n"
+"the beginning lecturing. Get to introductions and interactions\n"
+"right away. You don't want learners to think they just have to listen\n"
+"in the course."
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:223
+msgid ""
+"Also establish a culture of feedback. Let learners know you are\n"
+"interested in how they experience the course and in any suggestions\n"
+"they have. Let them know they should feel free to give you constructive\n"
+"feedback, even\n"
+"anonymously. They can do this in particular with minute cards. You\n"
+"might not adopt every suggestion they have but you will listen and\n"
+"consider them. This starts to create a partnership in learning."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:231
+msgid "### 6. Collect Baseline Data on Learners' Knowledge and Motivation"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:233
+msgid ""
+"You will already have information on their skill level from the\n"
+"pre-assessment survey.\n"
+"Before starting your workshop, decide what to do about different/inadequate prior knowledge.  If this\n"
+"is a workshop where a certain knowledge is required (such as an\n"
+"advertised advanced workshop), decide in advance how you will handle a\n"
+"range of skill sets.  You might tell them they cannot take the\n"
+"workshop, or that they must work through certain sections on their\n"
+"own."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:242
+msgid "### 7. Whet Learners' Appetites for Workshop Content"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:244
+msgid ""
+"They're already at the workshop, so it might seem unnecessary to\n"
+"motivate them to be there, but it is a great chance to stimulate\n"
+"interest about the workshop and to activate relevant prior knowledge\n"
+"learners have about the material."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/23-introductions.md:249
+msgid "### 8. Inform Learners of Logistics"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:251
+msgid ""
+"Let them know about any logistics for the days - lunch times, breaks,\n"
+"accessibility, etc."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/23-introductions.md:254
+msgid "> ## Practice Your Introduction"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:255
+msgid ""
+">\n"
+"> Imagine you have completed instructor training and you are about to teach a full lesson around the material you have been practicing teaching today.\n"
+">\n"
+"> 1. Write out some notes, covering some of the topics described above:\n"
+"> \t1.  Introduce yourself effectively\n"
+"> \t1.  Clarify learning objectives and expectations\n"
+"> \t1.  Set the tone for the workshop\n"
+"> 2. Return to your groups of 2 or 3 and each give 2 minutes of your introduction. (5-6 min)\n"
+"> 3. After each introduction, provide 2-3 minutes of feedback.  \n"
+">\n"
+"> This exercise will take 15-25 minutes depending on whether time is included for feedback or not.  "
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:269
+msgid ""
+"These materials are adapted from [Carnegie Melon Eberly\n"
+"Center Teaching Excellence & Educational Innovation][credits]"
+msgstr ""
+
+#: instructor-training/_episodes/23-introductions.md:272
+msgid ""
+"[icebreakers]: {{ page.root }}/icebreakers/\n"
+"[credits]: https://www.cmu.edu/teaching/designteach/teach/firstday.html"
+msgstr ""

@@ -1,0 +1,324 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Anastasiia Lutsenko, 2023
+# Olexandr Konovalov, 2023
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:53+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/06-feedback.md:1
+msgid ""
+"---\n"
+"title: \"Building Skill With Feedback\"\n"
+"block: \"Building Teaching Skill\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How can I get feedback from learners?\"\n"
+"- \"How can I use this feedback to improve my teaching?\"\n"
+"objectives:\n"
+"- \"Describe three feedback mechanisms used in Carpentries workshops.\"\n"
+"- \"Give feedback to your instructors.\"\n"
+"keypoints:\n"
+"- \"Give your learners time to fill out the post-workshop survey at the end of your workshop.\"\n"
+"- \"Take the time to respond to your learners' feedback.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Розвиток навичок за допомогою зворотного зв'язку\"\n"
+"block: \"Формування педагогічної майстерності\"\n"
+"teaching: 10\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Як я можу отримати зворотній зв'язок від слухачів?\"\n"
+"- \"Як я можу використати цей відгук, щоб покращити своє навчання?\"\n"
+"цілі:\n"
+"- «Опишіть три механізми зворотного зв'язку, які використовуються на семінарах Carpentry».\n"
+"- «Надайте відгук своїм інструкторам».\n"
+"Ключові моменти:\n"
+"- «Надайте своїм слухачам час, щоб заповнити опитування в кінці вашого семінару».\n"
+"- «Знайдіть час, щоб відповісти на відгуки слухачів».\n"
+"---"
+
+#: instructor-training/_episodes/06-feedback.md:17
+msgid ""
+"We use formative assessment of learners during workshops to help track \n"
+"learners' progress and adjust our approach to teaching the content as needed.\n"
+"But formative assessment isn't just for learners. As we'll discuss in more detail \n"
+"[later]({{ page.root }}/11-practice-teaching/), teaching is also a skill that is improved \n"
+"through regular practice and feedback. We gather feedback from our learners\n"
+"at multiple points in the workshop and in different forms. "
+msgstr ""
+"Ми використовуємо формуюче оцінювання слухачів під час семінарів, щоб допомогти відстежити\n"
+"прогрес слухачів і за потреби коригувати наш підхід до викладання змісту.\n"
+"Але формуюче оцінювання призначене не лише для слухачів. Про це ми поговоримо докладніше\n"
+"[пізніше]({{ page.root }}/11-practice-teaching/), бо навчання також є навичкою, яку можна вдосконалити\n"
+"завдяки регулярній практиці та зворотному зв’язку. Ми збираємо відгуки від наших слухачів\n"
+"в різних формах та у різні моменти часу на семінарах."
+
+# header
+#: instructor-training/_episodes/06-feedback.md:24
+msgid "## Surveys"
+msgstr "## Опитування"
+
+#: instructor-training/_episodes/06-feedback.md:26
+msgid ""
+"Carpentries learners fill out a survey before attending and immediately after a workshop. \n"
+"These surveys include questions to help instructors get an idea of their attendees prior\n"
+"experience and backgrounds before the workshop starts. Using this information, instructors\n"
+"can start to plan how they will approach the materials and what level of exercises\n"
+"are likely to be appropriate for their learners. "
+msgstr ""
+"Учасники курсів Carpentries заповнюють опитування перед участю в семінарі та одразу після нього. \n"
+"Ці опитування містять питання, які допомагають інструкторам отримати уявлення про попередні\n"
+"знання та досвід учасників перед початком семінару. Використовуючи цю інформацію, інструктори\n"
+"можуть почати планувати, як вони підходитимуть до матеріалів і який рівень вправ\n"
+"буде найбільш відповідним для учнів."
+
+#: instructor-training/_episodes/06-feedback.md:32
+msgid ""
+"You can preview the surveys your learners will receive at the links below:  \n"
+"- [Software Carpentry pre-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=V6gQbbOKn3NoPKfYKHjAKu_2BBCdtXXsTS2pf1BIdARccEtJQqlu1KFB2j2TcF0MCn)   \n"
+"- [Software Carpentry post-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=uN5QPa4MbF1_2BB1plbLWnL1ZUc7Nttqici0Nc0e3G4RahMwwGW5NUp4U5PKQDYmky)    \n"
+"- [Data Carpentry pre-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=zdE7x498WxTrpyiD6WEQJaspyjn2T7djLpBg2pc36ylXiMCwflbQtv6puqE01NB4)  \n"
+"- [Data Carpentry post-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=Mrj4bb21g1tgjNuilRh0cOT5mrUI7P2KQPzKG6FqkomqgWhHqR_2BsNWTJLHGif1VF)\n"
+"- [Library Carpentry pre-workshop survey](https://www.surveymonkey.com/r/lcpreworkshopsurvey?workshop_id=)\n"
+"- [Library Carpentry post-workshop survey](https://www.surveymonkey.com/r/lcpostworkshopsurvey?workshop_id=)"
+msgstr ""
+"Ви можете переглянути опитування, які отримають ваші слухачі, за посиланнями нижче:  \n"
+"- [Software Carpentry pre-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=V6gQbbOKn3NoPKfYKHjAKu_2BBCdtXXsTS2pf1BIdARccEtJQqlu1KFB2j2TcF0MCn)   \n"
+"- [Software Carpentry post-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=uN5QPa4MbF1_2BB1plbLWnL1ZUc7Nttqici0Nc0e3G4RahMwwGW5NUp4U5PKQDYmky)    \n"
+"- [Data Carpentry pre-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=zdE7x498WxTrpyiD6WEQJaspyjn2T7djLpBg2pc36ylXiMCwflbQtv6puqE01NB4)  \n"
+"- [Data Carpentry post-workshop survey](https://www.surveymonkey.com/r/Preview/?sm=Mrj4bb21g1tgjNuilRh0cOT5mrUI7P2KQPzKG6FqkomqgWhHqR_2BsNWTJLHGif1VF)\n"
+"- [Library Carpentry pre-workshop survey](https://www.surveymonkey.com/r/lcpreworkshopsurvey?workshop_id=)\n"
+"- [Library Carpentry post-workshop survey](https://www.surveymonkey.com/r/lcpostworkshopsurvey?workshop_id=)"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:41
+msgid "> ## Timing Matters"
+msgstr "> ## Вибір оптимального моменту"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:42
+#: instructor-training/_episodes/06-feedback.md:73
+#: instructor-training/_episodes/20-checkout.md:39
+#: instructor-training/_episodes/20-checkout.md:45
+#: instructor-training/_episodes/20-checkout.md:49
+#: instructor-training/_episodes/20-checkout.md:53
+#: instructor-training/_episodes/25-wrap-up.md:15
+#: instructor-training/_episodes/25-wrap-up.md:17
+#: instructor-training/_episodes/25-wrap-up.md:22
+#: instructor-training/_episodes/25-wrap-up.md:27
+#: instructor-training/_episodes/25-wrap-up.md:30
+#: instructor-training/_episodes/25-wrap-up.md:35
+msgid "> "
+msgstr "> "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:43
+msgid ""
+"> We've found that learners are much more likely to fill out the post-"
+"workshop survey"
+msgstr ""
+"Ми виявили, що слухачі значно більш схильні заповнити післясемінарське "
+"опитування, "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:44
+msgid ""
+"> while they're still at the workshop than they are after they leave the "
+"venue. At the end "
+msgstr ""
+"коли вони все ще перебувають на семінарі, ніж після того, як вони покинуть "
+"місце його проведення. По завершенні"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:45
+msgid ""
+"> of a two-day workshop, your learners' brains will be very tired. Rather "
+"than trying to "
+msgstr ""
+"дводенного семінару мозки ваших слухачів будуть дуже виснажені. Замість "
+"того, щоб намагатися"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:46
+msgid ""
+"> fit in another 15 minutes worth of teaching, give your learners time to "
+"complete the"
+msgstr "вкласти ще 15 хвилин навчання, дайте своїм учням час заповнити "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:47
+msgid ""
+"> post-workshop survey at the end of your workshop. You'll be helping them "
+"(they get a"
+msgstr "післясемінарське опитування в кінці семінару. Ви допоможете їм (вони "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:48
+msgid ""
+"> bit of a rest), yourself (you'll get more useful feedback), and the "
+"Carpentries."
+msgstr ""
+"трохи відпочинуть), собі (отримаєте більш цінний відгук) і Carpentries."
+
+# header
+#: instructor-training/_episodes/06-feedback.md:51
+msgid "## Minute Cards"
+msgstr "## Хвилинні картки"
+
+#: instructor-training/_episodes/06-feedback.md:53
+msgid ""
+"Before each lunch break and at the end of the first day, we\n"
+"use sticky notes as *minute cards* to get anonymous feedback from learners.\n"
+"Learners write one positive thing on their blue sticky\n"
+"note, and one negative thing on their yellow one. \n"
+"Instructors can change the prompt to elicit different types of feedback at each break. "
+msgstr ""
+"Перед кожною обідньою перервою та в кінці першого дня ми\n"
+"використовуємо самоклеючі записки як \"хвилинні картки\" для збору анонімного відгуку від слухачів. \n"
+"Учасники пишуть одну позитивну річ на синій записці\n"
+"та одну негативну річ на жовтій.\n"
+"Інструктори можуть змінювати формулювання запитання, щоб отримати різні типи відгуку перед кожною перервою."
+
+#: instructor-training/_episodes/06-feedback.md:59
+msgid ""
+"**Example \"positive\" prompts:**   \n"
+"- What is the most important thing you learned today.   \n"
+"- What new skill are you most excited about using? "
+msgstr ""
+"**Приклади \"позитивних\" запитань:**\n"
+"\n"
+"- Що є найважливішим з того, що ви сьогодні вивчили?\n"
+"- Яку нову навичку ви з найбільшим нетерпінням хочете використовувати?"
+
+#: instructor-training/_episodes/06-feedback.md:63
+msgid ""
+"**Example \"negative\" prompts:**  \n"
+"- Write down one thing that is confusing and you'd like clarification on.    \n"
+"- What is one specific question you have about the material? "
+msgstr ""
+"**Приклади \"негативних\" запитань:**\n"
+"\n"
+"- Запишіть одну річ, яка вас збиває з пантелику і ви хотіли б отримати пояснення.\n"
+"- Яке одне конкретне питання у вас є щодо матеріалу?"
+
+#: instructor-training/_episodes/06-feedback.md:67
+msgid ""
+"Over lunch and before the second day starts, the instructors read through the minute \n"
+"cards and look for patterns. At the start of day two and each afternoon, the instructors\n"
+"take a few minutes to address commonly raised issues with the whole class. The \n"
+"non-teaching instructor can also type answers to the questions in the Etherpad."
+msgstr ""
+"Під час обідньої перерви та перед початком другого дня інструктори перечитують хвилинні\n"
+"картки та шукають загальні тенденції. На початку другого дня та щоразу після обідньої перерви інструктори\n"
+"виділяють кілька хвилин, щоб звернутися до всього класу з найчастіше підніманими питаннями.\n"
+"Асистуючий інструктор також може друкувати відповіді на питання в Etherpad."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:72
+msgid "> ## Be Explicit"
+msgstr "> ## Будьте конкретними"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:74
+msgid ""
+"> Learners are more likely to give useful feedback if they feel that their "
+"feedback"
+msgstr ""
+"Учасники ймовірніше надаватимуть корисний відгук, якщо вони відчувають, що "
+"їх відгук"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:75
+msgid ""
+"> is being taken seriously. Spending a few minutes talking about the "
+"feedback you got"
+msgstr ""
+"отримує серйозну увагу. Витрачення кількох хвилин на обговорення отриманого "
+"відгуку "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:76
+msgid ""
+"> and being explicit about what changes you're making in light of that "
+"feedback"
+msgstr "та конкретизація змін, які ви зробите на основі цього відгуку, "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:77
+msgid ""
+"> will encourage learners to continue to give informative feedback "
+"throughout the workshop."
+msgstr ""
+"заохочуватиме учасників продовжувати надавати інформативний відгук протягом "
+"всього семінару."
+
+# header
+#: instructor-training/_episodes/06-feedback.md:81
+msgid "## One-Up, One-Down"
+msgstr "## Один плюс, один мінус"
+
+#: instructor-training/_episodes/06-feedback.md:83
+msgid ""
+"In addition to minute cards, we also ask learners to give us feedback at the end\n"
+"of each day using a technique called \"one up, one down\".  The\n"
+"instructor asks the learners to alternately give one positive and one\n"
+"negative point about the day, without repeating anything that has\n"
+"already been said.  This requirement forces people to say things they\n"
+"otherwise might not: once all the \"safe\" feedback has been given,\n"
+"participants will start saying what they really think. The instructor\n"
+"writes down the feedback in the Etherpad or a text editor,\n"
+"but does not comment on the feedback while collecting it. The instructors then\n"
+"discuss this feedback and how they plan to act on it. Like with minute cards, be explicit\n"
+"about how you're responding to learner feedback."
+msgstr ""
+"Окрім хвилинних карток, ми також просимо учасників надавати нам відгук\n"
+"в кінці кожного дня, використовуючи методику під назвою \"один плюс, один мінус\". \n"
+"Інструктор просить учасників по черзі називати один позитивний та один\n"
+"негативний аспект дня, уникаючи повторень того, що вже\n"
+"було сказано. Ця вимога змушує людей говорити те, що вони можуть\n"
+"у протилежних обставинах утримувати: коли всі \"безпечні\" відгуки вже сказано,\n"
+"учасники починають висловлювати свою дійсну думку. Інструктор\n"
+"записує отриманий відгук у примітках Etherpad або текстовому редакторі,\n"
+"проте не коментує його під час збору. Потім інструктори\n"
+"обговорюють цей відгук та як планують діяти на його основі. Так само, як з хвилинними картками, будьте конкретними\n"
+"щодо того, як ви реагуєте на відгуки слухачів."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/06-feedback.md:96
+msgid "> ## Give Us Feedback"
+msgstr "> ## Надайте нам відгук"
+
+#: instructor-training/_episodes/06-feedback.md:97
+msgid ""
+">\n"
+"> Write one thing you learned this morning that you found useful on\n"
+"> your blue sticky note, and one question you have about the material\n"
+"> on the yellow.  Do *not* put your name on the notes: this is meant to\n"
+"> be anonymous feedback.  Add your notes to the pile by the door as\n"
+"> you leave for lunch."
+msgstr ""
+"Напишіть на синій самоклейкій записці одну корисну річ, яку ви вивчили\n"
+"сьогодні вранці, і на жовтій - одне питання, яке у вас є стосовно матеріалу. \n"
+"Не пишіть свого імені на записках: це\n"
+"анонімний відгук. Покладіть свої записки до стопки біля дверей,\n"
+"коли ви йдете на обід."

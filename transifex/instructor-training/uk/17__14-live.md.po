@@ -1,0 +1,486 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:09+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/14-live.md:1
+msgid ""
+"---\n"
+"start: false\n"
+"title: \"Live Coding is a Skill\"\n"
+"block: \"Building Teaching Skill\"\n"
+"teaching: 20\n"
+"exercises: 50\n"
+"questions:\n"
+"- \"Why do we teach programming using participatory live coding?\"\n"
+"objectives:\n"
+"- \"Explain the advantages and limitations of participatory live coding.\"\n"
+"- \"Summarize the key dos and don'ts of participatory live coding.\"\n"
+"- \"Demonstrate participatory live coding.\"\n"
+"keypoints:\n"
+"- \"Live coding forces the instructor to slow down.\"\n"
+"- \"Coding-along gives learners continuous practice and feedback.\"\n"
+"- \"Mistakes made during participatory live coding are valuable learning opportunities.\"\n"
+"---"
+msgstr ""
+"---\n"
+"start: false\n"
+"title: \"Живе кодування – це навичка\"\n"
+"block: \"Формування навичок викладання\"\n"
+"teaching: 20\n"
+"exercises: 50\n"
+"questions:\n"
+"- \"Чому ми навчаємо програмуванню за допомогою спільного живого кодування?\"\n"
+"objectives:\n"
+"- «Поясніть переваги та обмеження спільного живого кодування».\n"
+"- «Підсумуйте ключові речі, які варто та чого не варто робити в процесі спільного живого кодування».\n"
+"- «Продемонструйте кодування в реальному часі».\n"
+"keypoints:\n"
+"- «Кодування в реальному часі змушує інструктора викладати повільніше».\n"
+"- «Програмування дає учням постійну практику та зворотний зв’язок».\n"
+"- «Помилки, допущені під час спільного кодування в реальному часі, є цінними можливостями для навчання».\n"
+"---"
+
+#: instructor-training/_episodes/14-live.md:19
+msgid ""
+"One of the cornerstones of the Carpentries teaching is live\n"
+"coding: *instructors don't use slides*, but work through the lesson material,\n"
+"typing in the code or instructions, with the workshop participants following\n"
+"along. This section explains how it works, why we use it, and\n"
+"gives general tips for an effective participatory live coding presentation. We'll\n"
+"finish this section by practicing ourselves and providing feedback for each other. "
+msgstr ""
+"Одним із наріжних каменів викладання Carpentries є живе\n"
+"кодування: *інструктори не використовують слайди*, а опрацьовують матеріал уроку,\n"
+"набираючи код або інструкції, яким слідують учасники семінару.\n"
+"У цьому розділі пояснюється, як це працює, чому ми це використовуємо та\n"
+"даються загальні поради щодо ефективної спільної презентації кодування в реальному часі. Завершимо \n"
+"цей розділ самостійним тренуванням з наданням відгуку один одному."
+
+# header
+#: instructor-training/_episodes/14-live.md:26
+msgid "## Why Participatory Live Coding?"
+msgstr "## Чому сумісне живе кодування?"
+
+#: instructor-training/_episodes/14-live.md:28
+msgid ""
+"We do not use slides in our lessons.\n"
+"Instead, instructors plug their laptop into the projector\n"
+"and work through the lesson,\n"
+"typing in the code,\n"
+"reformatting data,\n"
+"and talking as we go.\n"
+"This is called [\"live coding\"](https://en.wikipedia.org/wiki/Live_coding).\n"
+"However, the instructor is not live coding in a vacuum.\n"
+"Importantly, learners are strongly encouraged\n"
+"to \"code-along\" with the instructor.\n"
+"We refer to the practice of having the instructor live code and the learners code along as \"participatory live coding\" or, less formally, 'code-along sessions'."
+msgstr ""
+"Ми не використовуємо слайди на уроках.\n"
+"Натомість інструктори підключають свій ноутбук до проектора\n"
+"і працюють на уроці,\n"
+"набираючи код,\n"
+"переформатовуючи дані\n"
+"та розповідаючи про перебіг виконання поточних завдань.\n"
+"Це називається [\"живе кодування\"](https://en.wikipedia.org/wiki/Live_coding).\n"
+"Однак інструктор не виконує живе кодування у вакуумі.\n"
+"Важливо, що слухачів активно заохочують\n"
+"«кодувати разом» з інструктором.\n"
+"Ми називаємо практику, коли інструктор виконує  живе кодування разом зі слухачами, «сумісним живим кодуванням» або, менш формально, «сеансами кодування»."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:40
+msgid "> ## Up and Down"
+msgstr "> ## Вгору та вниз"
+
+#: instructor-training/_episodes/14-live.md:41
+msgid ""
+">\n"
+"> List some advantages and challenges of participatory live coding\n"
+"> from both a learner's and an instructor's point of view\n"
+"> in the Etherpad.  \n"
+">\n"
+"> This discussion should take about 10 minutes.\n"
+">\n"
+">> ## Solution  \n"
+">> Some advantages are:\n"
+">>\n"
+">> *   Watching a program being written is more compelling than\n"
+">> watching someone page through slides that present bits and pieces of the same code.\n"
+">> *   It enables instructors to be more responsive to \"what if?\" questions.\n"
+">> Where a slide deck is like a railway track,\n"
+">> participatory live coding allows instructors to go off-road and follow their learners' interests.\n"
+">> *   Lateral knowledge transfer: participatory live coding facilitates the transfer of [tacit knowledge](http://jonudell.net/udell/2006-09-19-screencasting-of-tacit-knowledge.html) -- people learn more than we realized we were\n"
+">> teaching by watching *how* instructors do things.\n"
+">> *   It slows the instructor down:\n"
+">> if she has to type in the program as she goes along,\n"
+">> she can only go twice as fast as her learners,\n"
+">> rather than ten-fold faster as she could with slides.\n"
+">> *   Learners get to see instructors' mistakes *and how to diagnose and correct them*.\n"
+">> Novices are going to spend most of their time doing this,\n"
+">> but it's left out of most textbooks.\n"
+">>\n"
+">> Some challenges are:   \n"
+">>\n"
+">> * It requires instructors to be able to improvise when things go wrong or when learners\n"
+">> have questions not directly addressed in the text of the lesson.\n"
+">> * It can be hard for learners to listen and type at the same time, due to the  \n"
+">> *split-attention effect* we\n"
+">> [discussed earlier]({{ page.root }}{% link _episodes/05-memory.md %}#why-guided-practice-is-important).\n"
+">> This is why it's\n"
+">> very important that instructors first explain what they're going to do, then\n"
+">> say what they are typing as they type it, and then\n"
+">> explain what they did again afterwards.\n"
+">> * It may take a bit of practice for instructors to\n"
+">> get used to thinking aloud while coding in front of an audience.\n"
+">>"
+msgstr ""
+">\n"
+"> Перелічіть деякі переваги та проблеми сумісного живого кодування\n"
+"> як з точки зору слухача, так і з точки зору викладача\n"
+"> в Etherpad.\n"
+">\n"
+"> Це обговорення має тривати близько 10 хвилин.\n"
+">\n"
+">> ## Рішення\n"
+">> Деякі переваги:\n"
+">>\n"
+">> * Спостерігати за написанням програми є більш переконливим, ніж\n"
+">> спостерігати за тим, як хтось гортає слайди, які представляють фрагменти того самого коду.\n"
+">> * Це дає можливість інструкторам краще реагувати на \"що, якщо?\" запитання.\n"
+">> Якщо слайд-презентацію порівняти  із залізничною колією,\n"
+">> то сумісне живе кодування дозволяє інструкторам вийти на узбіччя та слідувати інтересам своїх слухачів.\n"
+">> * Латеральна передача знань: сумісне живе кодування кодування полегшує передачу [неявних знань](http://jonudell.net/udell/2006-09-19-screencasting-of-tacit-knowledge.html) — люди дізнаються більше ніж ми вважали, \n"
+">> спостерігаючи за тим, як інструктори щось роблять.\n"
+">> * Це сповільнює інструктора:\n"
+">> якщо йому доводиться вводити програму,\n"
+">> він може рухатися лише вдвічі швидше, ніж слухачі,\n"
+">> а не в десять разів швидше, ніж він міг б зі слайдами.\n"
+">> * Слухачі бачать помилки викладачів *і як їх діагностувати та виправляти*.\n"
+">> Новачки витрачатимуть на це більшу частину свого часу,\n"
+">> але це є відсутнім у більшості підручників.\n"
+">>\n"
+">> Деякі проблеми:\n"
+">>\n"
+">> * Це вимагає від інструкторів здатності імпровізувати, коли щось йде не так, або коли слухачі\n"
+">> мають запитання, які прямо не розглянуті в тексті уроку.\n"
+">> * Слухачам може бути важко слухати та набирати код одночасно через\n"
+">> *ефект роздвоєння уваги* ми\n"
+">> [обговорювали це раніше]({{ page.root }}{% link _episodes/05-memory.md %}#why-guided-practice-is-important).\n"
+">> Ось чому \n"
+">> дуже важливо, щоб інструктори спочатку пояснили, що вони збираються робити, а потім\n"
+">> сказати, який код вони набирають, а потім\n"
+">> знову пояснили, що вони зробили.\n"
+">> * Інструкторам може знадобитися трохи практики\n"
+">> звикнути думати вголос під час кодування перед аудиторією.\n"
+">>"
+
+#: instructor-training/_episodes/14-live.md:83
+msgid ""
+"Live coding fits well into the practice-feedback model we've been discussing - by providing\n"
+"learners with continuous opportunities for practice (every time they type in a line of code)\n"
+"and continuous feedback (their code either works or fails with an error message). It's\n"
+"important to keep in mind, however, that feedback isn't helpful if you can't understand it.\n"
+"Many error messages are obscure and not written with novices in mind. Continue to use the strategies for error framing that\n"
+"[we learned earlier]({{ page.root }}{% link _episodes/09-mindset.md %}#errors-are-essential-to-learning) to make sure this feedback is useful to learners."
+msgstr ""
+"Живе кодування добре вписується в практичну модель зворотного зв’язку, яку ми обговорювали – надаючи\n"
+"слухачам постійні можливості для практики (щоразу, коли вони набирають рядок коду)\n"
+"і постійний зворотний зв'язок (цей код або працює, або генерується повідомлення про помилку). \n"
+"Однак важливо пам’ятати, що зворотній зв’язок не є корисним, якщо ви йогоне розумієте.\n"
+"Багато повідомлень про помилки незрозумілі та написані не для новачків. Продовжуйте використовувати стратегії для визначення помилок, про які\n"
+"[ми дізналися раніше]({{ page.root }}{% link _episodes/09-mindset.md %}#errors-are-essential-to-learning), щоб переконатися, що цей тип зворотного зв’язку буде корисним для слухачів."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:90
+msgid "> ## Compare and Contrast"
+msgstr "> ## Порівнювати і протиставляти"
+
+#: instructor-training/_episodes/14-live.md:91
+msgid ""
+">\n"
+"> Watch this [first participatory live coding demo video][live-coding-bad]\n"
+"> and this [second demo video][live-coding-good]\n"
+"> as a group and then summarize your feedback on both in the Etherpad.\n"
+"> Use the 2x2 rubric for feedback we discussed earlier.  \n"
+">\n"
+"> In the videos, the bash shell `for` loop is taught,\n"
+"> and it is assumed learners are familiar with how to use a variable,\n"
+"> the `head` command and the content of the `basilisk.dat unicorn.dat`\n"
+"> files.\n"
+">\n"
+"> Note: Sometime sounds in the room can be poor. Turning on closed captioning by pressing the cc button will improve the accessibility of these videos.\n"
+">\n"
+"> This exercise and discussion should take about 15 minutes.\n"
+">\n"
+"> > ## Solution\n"
+"> > The instructor will lead a discussion about the videos and your feedback on them,\n"
+"> > making sure that the points of the Top Ten Tips below have been made.\n"
+"> >"
+msgstr ""
+">\n"
+"> Перегляньте це [перше демо-відео про живе кодування] [live-coding-bad]\n"
+"> і це [друге демо-відео][live-coding-good]\n"
+"> у групі, а потім узагальніть свої відгуки про обидва відео в Etherpad.\n"
+"> Використайте рубрику 2x2 для зворотного зв’язку, яку ми обговорювали раніше.\n"
+">\n"
+"> У відео пояснюється цикл `for` оболонки bash,\n"
+"> передбачається, що слухачі знають, як використовувати змінні,\n"
+"> команду `head` і вміст `basilisk.dat unicorn.dat`\n"
+"> файлів.\n"
+">\n"
+"> Примітка: Іноді відео погато чути в кімнаті . Увімкнення субтитрів натисканням кнопки cc покращить доступність цих відео.\n"
+">\n"
+"> Ця вправа та обговорення мають тривати приблизно 15 хвилин.\n"
+">\n"
+"> > ## Рішення\n"
+"> > Інструктор проведе обговорення відео та ваші відгуки про них,\n"
+"> > Переконайтеся, що пункти десяти найкращих порад, наведених нижче, виконані.\n"
+"> >"
+
+# header
+#: instructor-training/_episodes/14-live.md:113
+msgid "## Top Ten Tips for Participatory Live Coding in a Workshop"
+msgstr "## Десять найкращих порад щодо сумісного живого кодування на семінарі"
+
+# ordered list
+#: instructor-training/_episodes/14-live.md:114
+msgid ""
+"1. **Stand up and move around the room if possible.** This makes the "
+"experience more interactive and less monotonous. Use a microphone if one is "
+"available to make it easier for people with hearing difficulties to hear "
+"you."
+msgstr ""
+"1. **Встаньте та пересувайтеся кімнатою, якщо це можливо.** Це робить процес"
+" більш інтерактивним і менш монотонним. Використовуйте мікрофон, якщо він "
+"доступний, щоб людям з проблемами слуху було легше почути вас."
+
+# ordered list
+#: instructor-training/_episodes/14-live.md:115
+msgid ""
+"2. **Go slowly.** For every command you type, every word of code you write, "
+"every menu item or website button you click, say out loud what you are doing"
+" while you do it.  Then point to the command and its output on the screen "
+"and go through it a second time.  This slows you down and allows learners to"
+" copy what you do, or to catch up.  Do not copy-paste code."
+msgstr ""
+"2. **Викладайте повільно.** Для кожної команди, яку ви вводите, для кожного "
+"слова коду, яке ви пишете, кожного пункту меню чи кнопки веб-сайту, яку ви "
+"натискаєте, промовляйте вголос, що ви робите під час цієї дії. Потім "
+"наведіть вказівник на команду тазображення на екрані та пройдіть через це "
+"вдруге. Це сповільнює вас і дозволяє слухачам копіювати те, що ви робите, "
+"або наздоганяти. Не копіюйте та не вставляйте код."
+
+# ordered list
+#: instructor-training/_episodes/14-live.md:116
+msgid ""
+"3. **Mirror your learner's environment.** Try to create an environment that "
+"is as similar as possible to what your learners have to reduce cognitive "
+"load. Avoid using keyboard shortcuts."
+msgstr ""
+"3. **Віддзеркалюйте середовище вашого слухача.** Спробуйте створити "
+"середовище, яке буде максимально схожим на те, що мають ваші слухачі, щоб "
+"зменшити когнітивне навантаження. Уникайте використання комбінацій клавіш."
+
+# ordered list
+#: instructor-training/_episodes/14-live.md:117
+msgid ""
+"4. **Use your screen wisely.** Use a big font, and maximize the window.  A "
+"black font on a white background works better than a light font on a dark "
+"background.  When the bottom of the projector screen is at the same height, "
+"or below, the heads of the learners, people in the back won't be able to see"
+" the lower parts.  Draw up the bottom of your window(s) to compensate. Pay "
+"attention to the lighting (not too dark, no lights directly on/above the "
+"presenter's screen) and if needed, re-position the tables so all learners "
+"can see the screen, and helpers can easily reach all learners."
+msgstr ""
+"4. **Використовуйте екран проектора розумно.** Використовуйте великий шрифт "
+"і розгорніть вікно. Чорний шрифт на білому фоні працює краще, ніж світлий "
+"шрифт на темному тлі. Коли нижня частина екрану проектора знаходиться на тій"
+" самій висоті або нижче голів слухачів, люди позаду не зможуть бачити нижню "
+"частину. Намалюйте нижню частину вікна(-й), щоб компенсувати це. Зверніть "
+"увагу на освітлення (не надто темне, без світла безпосередньо на/над екраном"
+" доповідача) і, якщо необхідно, переставте столи так, щоб усі слухачі могли "
+"бачити екран, а помічники могли легко дістатися до всіх слухачів."
+
+# ordered list
+#: instructor-training/_episodes/14-live.md:118
+msgid ""
+"5. **Use illustrations** to help learners understand and organize the "
+"material. You can also generate the illustrations on the board as you "
+"progress through the material.  This allows you to build up diagrams, making"
+" them increasingly complex in parallel with the material you are teaching.  "
+"It helps learners understand the material, makes for a more lively workshop "
+"and gathers the learners' attention to you as well."
+msgstr ""
+"5. **Використовуйте ілюстрації**, щоб допомогти слухачам зрозуміти та "
+"систематизувати матеріал. Ви також можете створювати ілюстрації на дошці під"
+" час проходження матеріалу. Це дозволяє вам будувати діаграми, роблячи їх "
+"все більш складними паралельно з матеріалом, який ви викладаєте. Це "
+"допомагає слухачам зрозуміти матеріал, робить семінар більш жвавим і також "
+"привертає увагу слухачів до вас."
+
+# ordered list
+#: instructor-training/_episodes/14-live.md:119
+msgid "6. **Turn off notifications** on your laptop and phone."
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/14-live.md:120
+msgid ""
+"7. **Stick to the lesson material.** The core Carpentries lessons are "
+"developed collaboratively by many instructors and tried and tested at many "
+"workshops.  This means they are very streamlined - which is great when you "
+"start teaching them for the first time.  It may be tempting to deviate from "
+"the material because you would like to show a neat trick, or demonstrate "
+"some alternative way of doing something.  Don't do this, since there is a "
+"fair chance you'll run into something unexpected that you then have to "
+"explain.  If you really want to use something outside of the material, try "
+"it out thoroughly before the workshop: run through the lesson as you would "
+"during the actual teaching and test the effect of your modification."
+msgstr ""
+
+#: instructor-training/_episodes/14-live.md:121
+msgid ""
+"Some instructors use printouts of the lesson material during teaching. Others use a second device (tablet or laptop) when teaching, on which they can view their notes and the Etherpad session.  This seems to be more reliable than displaying one virtual desktop while flipping back and forth to another.\n"
+"8. **Leave no learner behind.** Use sticky notes, see below, to gauge learners' progress and understanding.\n"
+"9. **Embrace mistakes.** No matter how well prepared you are, you will make mistakes. This is OK! Use these opportunities to do [error framing]({{ page.root }}{% link _episodes/09-mindset.md %}#errors-are-essential-to-learning) and to help your learners learn the art of troubleshooting.\n"
+"10. **Have fun!** It's OK to use humor and improvisation to liven up the workshop. This becomes easier when you are more familiar with the material, and more relaxed. Start small, even just saying 'that was fun' after something worked well is a good start."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/14-live.md:126
+msgid "## Sticky Notes"
+msgstr ""
+
+#: instructor-training/_episodes/14-live.md:127
+msgid ""
+"Give each learner two sticky notes of different colours, e.g., yellow and blue.\n"
+"If someone has completed an exercise, they put the blue sticky note on their laptop;\n"
+"if they run into a problem and need help, the put up the yellow one.  This is better\n"
+"than having people raise their hands because:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/14-live.md:132
+msgid ""
+"*  it's more discreet (which means they're more likely to actually do it),"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/14-live.md:133
+msgid "*  they can keep working while their flag is raised, and"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/14-live.md:134
+msgid ""
+"*  the instructor can quickly see from the front of the room what state the "
+"class is in."
+msgstr ""
+
+#: instructor-training/_episodes/14-live.md:136
+msgid ""
+"Sometimes a yellow sticky involves a technical problem that takes a bit\n"
+"more time to solve.  To prevent this issue slowing down the whole\n"
+"class too much, you could use the occasion to take the small break you\n"
+"had planned to take a bit later, giving the helper(s) time to fix the\n"
+"problem."
+msgstr ""
+
+#: instructor-training/_episodes/14-live.md:142
+msgid ""
+"Remind learners frequently about using their sticky notes, or they (and you)"
+" will forget."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:144
+msgid "> ## Accessibility of Sticky Notes"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:145
+msgid ""
+"> We strongly encourage you to get sticky notes in colors other than red and"
+" green, "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:146
+msgid ""
+"> as we have found that some learners (not to mention helpers and "
+"instructors!) "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:147
+msgid ""
+"> may have colorblindness and thus cannot properly ask for/give help this "
+"way. "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:148
+msgid ""
+"> Alternate ideas are to use differently-shaped sticky notes (stars and "
+"squares, "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:149
+msgid ""
+"> thumbs up that can be turned into thumbs down stickies), or to use one "
+"sticky note "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:150
+msgid "> as a flag for help."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/14-live.md:153
+msgid "> ## Practice Teaching"
+msgstr ""
+
+#: instructor-training/_episodes/14-live.md:154
+msgid ""
+">\n"
+"> Teach 3 minutes of your chosen lesson episode using live coding to one or two\n"
+"> fellow trainees, then swap and watch while the other person(s) live codes for\n"
+"> you. (For this exercise, your peers will not \"code-along\", but will instead observe and give feedback.)\n"
+">\n"
+"> Explain in advance to your fellow trainee(s) what you will be teaching\n"
+"> and what the learners you teach it to are expected to be familiar with.\n"
+">\n"
+"> **Don't record this exercise.** Give each other feedback\n"
+"> using the 2x2 rubric we discussed previously and enter the feedback\n"
+"> you received in the Etherpad.\n"
+">\n"
+"> This exercise should take about 25 minutes.  "
+msgstr ""
+
+#: instructor-training/_episodes/14-live.md:170
+msgid ""
+"[live-coding-bad]: https://youtu.be/bXxBeNkKmJE\n"
+"[live-coding-good]: https://youtu.be/SkPmwe_WjeY"
+msgstr ""

@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:38+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/18-management.md:1
+msgid ""
+"---\n"
+"title: \"Managing a Diverse Classroom\"\n"
+"block: \"Building Teaching Skill\"\n"
+"teaching: 10\n"
+"exercises: 20\n"
+"questions:\n"
+"- \"How can I prepare for effective co-teaching?\"\n"
+"- \"What are the challenges of managing a heterogeneous classroom?\"\n"
+"- \"What do I do if there is a Code of Conduct violation?\"\n"
+"objectives:\n"
+"- \"Evaluate different strategies for managing a class in which learners have diverse backgrounds and skill levels.\"\n"
+"- \"Know what to do if someone at your workshop violates the Code of Conduct.\"\n"
+"keypoints:\n"
+"- \"Working with a broad range of learners can be challenging, but there are many ways to keep a classroom happy and motivated.\"\n"
+"- \"Response to a Code-of-Conduct violation at a workshop is subject to instructor discretion, but all violations should be reported to the Carpentries for follow-up.\"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:18
+msgid ""
+"We now have several tools that can be used for teaching Carpentries workshops\n"
+"and improving our skills: live coding; observation and feedback; and how to\n"
+"prepare to teach a lesson. This last section includes tips and recommendations for interacting with real\n"
+"people in real-life settings -- which for the Carpentries, often means an\n"
+"audience with diverse backgrounds and experiences."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/18-management.md:24
+msgid "## Managing a Diverse Classroom"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:26
+msgid ""
+"Although our workshops are targeted at novices, every workshop\n"
+"will have participants from a variety of backgrounds and technical\n"
+"skill levels. Some may be at the novice level in one technology (e.g. git),\n"
+"but competent or even expert in another (e.g. R). As an instructor,\n"
+"you will need to be attentive to this diversity in your learners' prior skill level,\n"
+"and adjust your instruction appropriately. This is one of the most difficult things\n"
+"instructors experience when running a workshop."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:34
+msgid "> ## What Are the Challenges?"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:35
+msgid ""
+"> What are some of the challenges you might expect when teaching learners "
+"with a broad range of expertise? Discuss with"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:36
+msgid "> a partner and put your thoughts in the Etherpad."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:37
+msgid ""
+">\n"
+"> This discussion should take about 10 minutes."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:41
+msgid ""
+"Here are some strategies Carpentries\n"
+"instructors have generated to deal with this issue:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/18-management.md:44
+msgid "*   Before running a workshop,"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:45
+msgid ""
+"    communicate its level clearly to everyone who's thinking of signing up\n"
+"    by describing not only the topics that will be covered (e.g. plotting in R), but\n"
+"    also the concrete skills that learners will have after the workshop (i.e. the learning objectives).\n"
+"    If you're upfront with participants that you'll be spending time learning how `for` loops work, more\n"
+"    advanced learners are less likely to sign up.\n"
+"*   When asking learners to complete exercises, give \"beginner\" and \"advanced\" options.\n"
+"    Learners who finish the \"beginner\" exercise can then challenge themselves and don't get bored.\n"
+"*   Ask more advanced learners to help people next to them.\n"
+"    They'll learn from answering their peers' questions\n"
+"    (since it will force them to think about things in new ways).\n"
+"*   Take care not to let enthusiastic advanced learners carry the conversation, as this tends to alienate novices\n"
+"    and consumes valuable class time. Advanced questions and discussion can be politely reserved for breaks or dealt\n"
+"    with by helpers or the co-instructor in the Etherpad.\n"
+"*   The helpers and the instructor who isn't teaching the particular episode\n"
+"    should keep an eye out for learners who are falling behind\n"
+"    and intervene early\n"
+"    so that they don't become frustrated and give up."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:63
+msgid ""
+"The most important thing is to accept that\n"
+"no class can possibly meet everyone's individual needs.\n"
+"If the instructor slows down to accommodate two people who are struggling,\n"
+"the other 38 are not being well served.\n"
+"Equally,\n"
+"if she spends a few minutes talking about an advanced topic because two learners are bored,\n"
+"the 38 who don't understand it will feel left out.\n"
+"All we can do is tell our learners what we're doing and why,\n"
+"and hope that they'll understand."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:74
+msgid "> ## Learners Use Their Own Machines"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:75
+msgid "> Learners tell us that it is important to them to leave the workshop"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:76
+msgid ""
+"> with their own machine set up to do real work.  We therefore continue"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:77
+msgid ""
+"> to teach on all three major platforms (Linux, Mac OS X, and Windows),"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:78
+msgid "> even though it would be simpler to require learners to use just one."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:79
+msgid ""
+">\n"
+"> We have experimented with virtual machines (VMs) on learners'\n"
+"> computers to reduce installation problems, but those introduce\n"
+"> problems of their own: older or smaller machines simply aren't fast\n"
+"> enough, and learners often struggle to switch back and forth between\n"
+"> two different sets of keyboard shortcuts for things like copying and\n"
+"> pasting.\n"
+">\n"
+"> Some instructors use [Virtual Private Servers][vps] (VPS) over [Secure Shell][ssh]\n"
+"> (SSH) or web browser pages instead. This solves the installation\n"
+"> issues, but makes us dependent on host institutions' WiFi (which can be\n"
+"> of highly variable quality), and has the issues mentioned above with things\n"
+"> like keyboard shortcuts."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/18-management.md:94
+msgid "## Code of Conduct Violations"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:96
+msgid ""
+"As discussed in the [Motivation episode]({{ page.root }}{% link _episodes/08-motivation.md %}),\n"
+"the Carpentries uses a Code of Conduct as a tool to create a respectful and\n"
+"inclusive learning environment. Occasionally, part of managing the classroom\n"
+"may include dealing with a Code of Conduct violation."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:101
+msgid ""
+"If you are an instructor, and believe that someone in a workshop has "
+"violated the Code of Conduct, you may warn them, ask them to apologize, "
+"and/or ask them to leave the workshop, depending on the severity of the "
+"incident and your comfort level."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:103
+msgid ""
+"If you are attending a Carpentries workshop, in-person event, or "
+"participating in one of our online events or communication channels and "
+"believe someone is in physical danger, please ask your workshop host, "
+"instructor(s), or another community member to contact the appropriate "
+"emergency responders (police, crisis hotline, etc.). Prior to a Carpentries "
+"workshop or in-person event, event organisers should determine emergency "
+"contact numbers and local procedures."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:105
+msgid ""
+"If you believe someone violated the Code of Conduct during a Carpentries event or in a Carpentries online space, we ask that you report it. If you are not sure if the incident happened in a Carpentries governed space, we ask that you still report the incident. You are encouraged to submit your report by completing the [Code of Conduct Incident Report Form](https://docs.google.com/forms/d/e/1FAIpQLSdi0wbplgdydl_6rkVtBIVWbb9YNOHQP_XaANDClmVNu0zs-w/viewform)\n"
+"or e-mailing C. MacDonnell at [confidential@carpentries.org](mailto:confidential@carpentries.org) as soon as you can to let us know what happened so that we can follow-up with the workshop host and/or participants as needed. The form may be completed anonymously, or you may include your contact information."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:108
+msgid ""
+"The local workshop host is expected to help enforce the Code of Conduct and you can ask them to mediate an incident if you are uncomfortable or unable to do so yourself. If you choose to settle the issue yourself, you should notify the workshop host\n"
+"of the issue in case s/he feels additional steps should be taken."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:111
+msgid ""
+"You also have the right as an instructor to walk out of a workshop if you "
+"feel that the participants or hosts are not supporting your attempts to "
+"enforce the Code of Conduct. Again, please contact us as soon as possible if"
+" this happens."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/18-management.md:113
+msgid "## Never Teach Alone: How to Be a Co-instructor"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:115
+msgid ""
+"The best thing about managing a classroom for a Carpentries workshop is that you never face problems alone! Your co-instructor, helpers, and host are all there for you.\n"
+"*Co-teaching* describes any situation in which two teachers work\n"
+"together in the same classroom.  Friend and Cook's\n"
+"*[Interactions][worldcat-interactions]* describes several ways to do\n"
+"this; we use the following methods most frequently:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/18-management.md:121
+msgid "- **Team teaching:** Both teachers deliver a single stream of content"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:122
+msgid "  in tandem, taking turns the way that musicians taking solos would."
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/18-management.md:124
+msgid "- **Teach and assist:** Teacher A teaches while Teacher B moves around"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:125
+msgid "  the classroom to help learners."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:127
+msgid ""
+"Both of these models are better than teaching alone because they create\n"
+"opportunities for lateral knowledge transfer.\n"
+"Team teaching is particularly beneficial in day-long\n"
+"workshops: not only does it give each teacher's voice a chance to\n"
+"rest, it reduces the risk that they will be so tired by the end of the\n"
+"day that they will start snapping at their learners or fumbling at\n"
+"their keyboard.  Having a co-instructor also means that you can teach\n"
+"a workshop without knowing all the topics that are being taught, and\n"
+"if multiple instructors are both knowledgeable on the same topics,\n"
+"they can help each other answer questions."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:138
+msgid ""
+"Putting some thought into how you and your co-instructor will work together "
+"can make the most out of this supporting relationship and can make the "
+"difference between a good workshop and a great one -- for you and for your "
+"learners."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:140
+msgid "> ## How to Help"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:141
+msgid ""
+">\n"
+"> Many people are willing and\n"
+"> able to provide in-class support.  We call these people \"helpers.\"\n"
+">\n"
+"> Helpers can assist in a variety\n"
+"> of ways: help learners\n"
+"> with setup and installation, answer questions during\n"
+"> exercises, monitor the room to spot people who may need help, or\n"
+"> keep an eye on the shared notes and either answer questions there or\n"
+"> remind the instructor to do so during breaks.\n"
+"> The [helper checklist][helpers] describes what helpers can do to\n"
+"> help instructors in more detail.\n"
+">\n"
+"> Helpers are sometimes people training to become teachers (i.e.,\n"
+"> they're Teacher B in the teach and assist model), but they can also\n"
+"> be advanced learners who already know the material well, previous\n"
+"> workshop participants, or members of the host institution's technical\n"
+"> support staff.\n"
+"> Using advanced learners as helpers is doubly effective: not only are they\n"
+"> more likely to understand the problems their peers are having, it\n"
+"> also stops them from getting bored."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:164
+msgid "> ## Teaching Together - Nuts and Bolts"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:165
+msgid ""
+">\n"
+"> With a partner, imagine that you are planning a workshop together\n"
+"> and answer the following questions:\n"
+">\n"
+"> - How would you prepare to teach a workshop together?\n"
+"> - During the workshop, what are some things the assisting instructor\n"
+"> can do (or shouldn't do!) to support the main instructor?\n"
+">\n"
+"> As an entire group, discuss what you came up with and then compare\n"
+"> to the recommendations below.\n"
+">\n"
+">> ## Recommendations\n"
+">>\n"
+">> If you and a partner are co-teaching, try to follow these recommendations:\n"
+">>\n"
+">>- Coordinate who is teaching what, sufficiently in advance that\n"
+">>  both instructors are confident in their preparation.\n"
+">>\n"
+">>- If you have time to do some\n"
+">>  advance preparation together, try drawing a concept map together or\n"
+">>  teaching a short snippet of the lessons for each other.\n"
+">>\n"
+">>- Discuss in advance if you will providing feedback to each other\n"
+">>  and how to do so (see notes above).\n"
+">>\n"
+">>- If it won't cause cognitive overload for you (the instructors),\n"
+">>  work out a couple of hand signals to communicate.  \"You're\n"
+">>  going too fast\", \"speak up\", \"that learner needs help\", and, \"It's\n"
+">>  time for a bathroom break\" are all useful.\n"
+">>\n"
+">>- The person who isn't teaching shouldn't interrupt, offer\n"
+">>  corrections, elaborations, or amusing personal anecdotes, or do\n"
+">>  anything else to distract from what the person teaching at the time\n"
+">>  is doing or saying.  The one exception is that it's sometimes\n"
+">>  helpful to ask leading questions, particularly if the learners seem\n"
+">>  unsure of themselves.\n"
+">>\n"
+">>- For Carpentries workshops, a single instructor usually teaches for a\n"
+">>  half-day stretch (2-3 hours).  You can alternate more frequently, but\n"
+">>  each person should teach for at least 10-15 minutes at a stretch,\n"
+">>  since learners may be distracted by more frequent interleaving.\n"
+">>\n"
+">>- Each person should take a couple of minutes before they start\n"
+">>  teaching to see what their partner is going to teach after they're\n"
+">>  done.  This allows each instructor to set up their partner's material\n"
+">>  without covering it themselves.\n"
+">>\n"
+">>- Whenever possible, the person who isn't teaching should stay engaged\n"
+">>  with the class.  Monitor the shared notes, keep an eye\n"
+">>  on the learners to see who's struggling, jot down some feedback to\n"
+">>  give your teaching partner at the next break - anything that\n"
+">>  contributes to the lesson is better than anything that doesn't.  It's\n"
+">>  easier for the other instructor to take a break to catch up on outside\n"
+">>  work (like email) if there are at least\n"
+">>  three instructors or sufficient helpers to make sure that the main\n"
+">>  instructor is supported."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:224
+msgid ""
+"In teaching as in life, shared misery is lessened and shared joy increased;\n"
+"take a few minutes when the class is over to either\n"
+"congratulate or commiserate with each other.  In that moment,\n"
+"no-one will better understand how pleased you are at helping someone\n"
+"understand how loops work, or how disappointed you are that you just\n"
+"couldn't get software to install on that one learner's laptop, than\n"
+"the person you just taught with."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:234
+msgid "At the end of the morning, do the following:"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/18-management.md:236
+msgid "> ## Minute Cards Revisited"
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:237
+msgid ""
+">\n"
+"> Use your sticky notes to write minute cards\n"
+"> as discussed [yesterday]({{ page.root }}/{% link _episodes/06-feedback.md %}#minute-cards)."
+msgstr ""
+
+#: instructor-training/_episodes/18-management.md:242
+msgid ""
+"[worldcat-interactions]: http://www.worldcat.org/title/interactions-collaboration-skills-for-school-professionals/oclc/930364264\n"
+"[helpers]: https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html#helper-checklist\n"
+"[vps]: https://en.wikipedia.org/wiki/Virtual_private_server\n"
+"[ssh]: https://en.wikipedia.org/wiki/Secure_Shell"
+msgstr ""

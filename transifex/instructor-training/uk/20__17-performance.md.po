@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 21:29+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/17-performance.md:1
+msgid ""
+"---\n"
+"title: \"More Practice Live Coding\"\n"
+"block: \"Building Teaching Skill\"\n"
+"teaching: 20\n"
+"exercises: 25\n"
+"questions:\n"
+"- \"How did you change your teaching in response to feedback?\"\n"
+"objectives:\n"
+"- \"Use feedback to improve your teaching.\"\n"
+"keypoints:\n"
+"- \"(Reflective) Practice makes perfect.\"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_episodes/17-performance.md:14
+msgid ""
+"Continuing our theme of developing practical Carpentries teaching skills,\n"
+"this section provides another chance to practice live coding, to go through the\n"
+"process of observing and giving feedback, and to make changes to how we teach based on the feedback of others. "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/17-performance.md:18
+msgid "> ## Round Two"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/17-performance.md:19
+msgid ""
+"> First, have a look at the [rubric]({{ page.root }}/demos_rubric/) that is "
+"given to trainers as a suggested framework for evaluating the online "
+"teaching demonstration sessions that are part of instructor checkout."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/17-performance.md:20
+msgid ""
+"> Does this rubric make sense? Take a moment to think about things you'd "
+"like to do differently with your next live coding"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/17-performance.md:21
+msgid ""
+"> practice. This is also a good time to ask questions about teaching "
+"demonstration."
+msgstr ""
+
+#: instructor-training/_episodes/17-performance.md:22
+msgid ""
+">\n"
+"> Next, get back into the same groups you did your live coding with.\n"
+"> Take turns re-teaching your chosen live coding session, making sure to incorporate changes based on the feedback you received and any new ideas based on reading the rubric.\n"
+"> This time, give feedback to each\n"
+"> other using the [checkout rubric]({{ page.root }}/demos_rubric/) you just discussed. When you are finished, add some thoughts on this process to the Etherpad:\n"
+"> What did you change? Did it work better or worse with the change? How might you do it if you were to teach it again?\n"
+">\n"
+">  This exercise should take about 25 minutes for teaching, plus 20 minutes for pre and post discussion.    "
+msgstr ""

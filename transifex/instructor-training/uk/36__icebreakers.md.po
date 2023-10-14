@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:07+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/icebreakers.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Icebreakers\"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:6
+msgid "## Icebreaker Ideas"
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:8
+msgid "### Information for Today's Learners"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/icebreakers.md:10
+msgid "1. Add your name to the Etherpad"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/icebreakers.md:11
+msgid ""
+"1. Introduce yourselves (preferably verbally)! In your introduction, (a) "
+"explain your work in 3 words and (b) say something you are proud of (not "
+"necessarily related to research or teaching)."
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:13
+msgid "### Our First Exercise"
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:15
+msgid ""
+"In the Etherpad, write down your name, the best class you ever\n"
+"took (or one class from your top ten, if you can't decide), and\n"
+"what made it so great.\n"
+"This exercise should take about 2 minutes."
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:20
+msgid "### Something Surprising"
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:22
+msgid ""
+"Find someone who shares something surprising with you (e.g. your pet has the same name,\n"
+"or you both brush your teeth in the shower). Put your \"surprise\" similarity into the Etherpad when\n"
+"you come back from break and vote on the most surprising."
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:26
+msgid ""
+"We really want you to get to know your fellow learners and become comfortable interacting. There\n"
+"will be several interactive activities in the next two days. Let's all start bonding now."
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:29
+msgid "### Discussing Concept Maps"
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:31
+msgid ""
+"Do concept maps feel useful to you?\n"
+"Are there other ways of drawing knowledge that appeal to you more?"
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:34
+msgid "### Discussing Live Coding"
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:36
+msgid ""
+"How does participatory live coding compare to other kinds of demonstration-based teaching\n"
+"like lab lessons?"
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:39
+msgid "### In the Real World"
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:41
+msgid ""
+"How practical do you think it would be to use the techniques you've learned in this workshop\n"
+"in regular teaching?\n"
+"In particular,\n"
+"do you think you would have enough time to prepare and teach lessons\n"
+"the ways you have been shown?"
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:47
+msgid "### Favorite Food"
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:48
+msgid ""
+"What is your favorite food?\n"
+"It be a meal or snack, something you eat often or only on special occassions."
+msgstr ""
+
+# header
+#: instructor-training/_extras/icebreakers.md:51
+msgid "### Teaching Passion"
+msgstr ""
+
+#: instructor-training/_extras/icebreakers.md:53
+msgid ""
+"What aspect of teaching are you passionate about or do you really enjoy?\n"
+"Is it seeing lightbulb moment in a students eye or learning something new when you teach?"
+msgstr ""

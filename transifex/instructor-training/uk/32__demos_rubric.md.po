@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 21:20+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/demos_rubric.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Suggested Rubric for Teaching Demonstrations\"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_extras/demos_rubric.md:6
+msgid ""
+"This rubric is provided as a guide for Trainers evaluating potential new instructors during the teaching demonstration ([Good lessons to use for demo](https://carpentries.github.io/instructor-training/demo_lessons/index.html)). Deciding whether a particular trainee passes or fails the demonstration is the sole discretion of the\n"
+"Trainer. As such, deviation from this rubric is encouraged as needed to accurately assess the trainee's preparation and instructional\n"
+"skills."
+msgstr ""
+
+#: instructor-training/_extras/demos_rubric.md:10
+msgid ""
+"In general, these demonstrations have a very high (over 95%) pass rate. When a trainee is asked to redo a demo, it is usually a matter of correction -- an error to embrace and to learn from -- not rejection. Trainees who have three or more marks in the \"Negative\" columns below should probably be asked to try again. Even one \n"
+"mark in a \"Negative\" column can be considered justification for asking a trainee to redo their demonstration if the problem is significant. As always,\n"
+"Trainers should use their own judgement when applying this rubric in individual cases.  "
+msgstr ""
+
+#: instructor-training/_extras/demos_rubric.md:14
+msgid ""
+"|Positive Content|Negative Content|\n"
+"|------|---------------------|\n"
+"Uses Carpentries curriculum with only minor deviations|Deviates significantly or doesn't use Carpentries curriculum|\n"
+"Places content in context and explains relevance/utility to learners|Jumps into the content without context|\n"
+"Teaches content correctly|Makes factual errors in content and doesn't correct|"
+msgstr ""
+
+#: instructor-training/_extras/demos_rubric.md:20
+msgid ""
+"|Positive Delivery|Negative Delivery|\n"
+"|------|---------------------|\n"
+"Mirrors the learner's environment (e.g. default terminal setup, simplified prompt)|Uses shortcuts or tools that are unfamiliar/unavailable to learners|\n"
+"Uses appropriately sized fonts and windows|Font or windows are too small|\n"
+"Explains all typing|Types commands or troubleshoots errors without explaining|\n"
+"Uses mistakes/typos as opportunities for learning|Ignores or dismisses mistakes/typos that they make|\n"
+"Uses notes on paper/tablet|Displays lesson materials/notes on their screen|\n"
+"-|Notifications show up on their screen|\n"
+"-|Uses significant amounts of dismissive language (e.g. \"just\", \"easy\")|\n"
+"Speaks and types at an appropriate (slow enough) pace|Speaks or types very quickly|\n"
+"Speaks clearly|-\n"
+"Appears focused and attentive to learners|Appears significantly distracted by content or process of consulting notes|"
+msgstr ""
+
+# Front Matter
+#: instructor-training/_extras/demos_rubric.md:33
+msgid ""
+"---\n"
+"\n"
+"Trainers can also use the form below to take notes during the teaching demonstration.\n"
+"\n"
+"Trainee:\n"
+"\n"
+"Date:\n"
+"\n"
+"|Aspect|Comments_________________________________________________|\n"
+"|------|---------------------|\n"
+"|<br>Sticks to curriculum<br>|\n"
+"|<br>Context|\n"
+"|<br>Content Knowledge|\n"
+"|<br>Mirror learner's environment|\n"
+"|<br>Font & window size|\n"
+"|<br>Explanation of typing|\n"
+"|<br>Embraces & uses mistakes|\n"
+"|<br>Use of notes on paper/tablet|\n"
+"|<br>Distraction-free screen|\n"
+"|<br>Wording|\n"
+"|<br>Pacing|\n"
+"|<br>Clarity|\n"
+"|<br>Demeanor & focus|"
+msgstr ""

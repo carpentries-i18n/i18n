@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Olexandr Konovalov, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 18:22+0000\n"
+"Last-Translator: Olexandr Konovalov, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/15-lesson-study.md:1
+msgid ""
+"---\n"
+"title: \"Preparing to Teach\"\n"
+"block: \"Building Teaching Skill\"\n"
+"teaching: 20\n"
+"exercises: 30\n"
+"questions:\n"
+"- \"How should I prepare to teach?\"\n"
+"objectives:\n"
+"- \"Use a learner profile to think about someone likely to attend a workshop you will teach.\"\n"
+"- \"Classify the level of a learning objective in terms of Bloom's taxonomy.\"\n"
+"- \"Critically analyze a Carpentries lesson's objectives.\"\n"
+"- \"Describe reverse instructional design and explain why this is useful when preparing to teach.\"\n"
+"- \"Identify checkpoints in a lesson for formative assessment.\"\n"
+"- \"Recognize instructor notes as a resource for preparation.\"\n"
+"keypoints:\n"
+"- \"To teach effectively, you have to know *who* you are teaching.\"\n"
+"- \"Good learning objectives communicate the intended effect of a lesson on its learners.\"\n"
+"- \"A good exercise provides useful guidance to instructors about next steps needed in teaching.\"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:21
+msgid ""
+"Yesterday we started a discussion of the importance of [lesson study]({{ page.root }}/11-practice-teaching/).\n"
+"We started out by focusing on the lessons we can learn as instructors from watching others teach, having\n"
+"others observe our teaching, and giving and receiving feedback based on these observations. In this\n"
+"section, we'll switch our focus to another important part of lesson study: detailed discussion of\n"
+"curricular components (including lesson objectives, contents, and exercises) with an eye toward actively preparing to\n"
+"teach a workshop."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/15-lesson-study.md:28
+msgid "### Learner Profiles"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:30
+msgid ""
+"To teach effectively, you have to know *who* you are teaching. Your audience can be identified in many ways.  Frequently\n"
+"people who are hosting a workshop have a specific audience in mind, based on their own experience.  "
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:33
+msgid ""
+"One \"creative\" way to think deeply about the audience for a workshop is to take a few moments to write *learner profiles*.\n"
+"Learner profiles have three parts:\n"
+"the person's general background,\n"
+"the problem they face,\n"
+"and how the course will help them.\n"
+"One example of a learner profile for a Software Carpentry workshop might be:"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:40
+msgid "> João is an agricultural engineer doing his masters in soil physics."
+msgstr ""
+"> Василь - інженер-аграрник, який здобуває ступінь магістра з фізики ґрунту."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:41
+msgid ""
+"> His programming experience is a first year programming course using C."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:42
+msgid ""
+"> He was never able to use this low-level programming in his activities,"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:43
+msgid "> and never programmed after the first year."
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:44
+msgid ""
+">\n"
+"> His work consists of evaluating physical properties of soil samples from different conditions.\n"
+"> Some of the soil properties are measured by an automated device that sends logs in a text format to his machine.\n"
+"> João has to open each file in Excel,\n"
+"> crop the first and last quarters of data values,\n"
+"> and calculate an average.\n"
+">\n"
+"> Software Carpentry will show João how to write shell scripts to count the lines and crop the right range for each file,\n"
+"> and how to use R to read these files and calculate the required statistics.\n"
+"> It will also show him how to put his programs and files under version control\n"
+"> so that he can re-run analyses and figure out which results may have been affected by changes."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:57
+msgid "> ## Learner Profiles"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:58
+msgid ""
+">\n"
+"> Read [Software Carpentry's learner profiles]({{ site.swc_site }}/audience/). Note that these example profiles contain more\n"
+"> information than you will ever know about a learner; this is a creative exercise in imagining (and empathizing with) the\n"
+"> whole people behind the faces. Now, sketch out a profile of someone you might expect to attend your first workshop.\n"
+"> Who are they,\n"
+"> what problems do they face,\n"
+"> and how might this training help them?\n"
+"> Be as specific as possible.  \n"
+"> Enter your learner profile into the Etherpad.\n"
+">\n"
+"> This exercise should take about 10 minutes.  "
+msgstr ""
+
+# header
+#: instructor-training/_episodes/15-lesson-study.md:72
+msgid "## Reverse Instructional Design (and Preparation!)"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:74
+msgid ""
+"When sitting down to plan a course or workshop, it might be tempting to dive into reviewing the content, questioning your\n"
+"understanding, and anticipating questions that learners might have for you. While it is good to prepare your content, this\n"
+"approach can take you down extended rabbit-holes in which you anticipate and research questions that only an expert\n"
+"would think to ask, and never get around to thinking about how to get your learners from one point to the next, and how to\n"
+"know when they've gotten there.  "
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:80
+msgid ""
+"This is a problem with curriculum design as well as preparation. When writing curriculum, it is easy to allow *content*\n"
+"objectives to distract from *learning* objectives. One way to prevent this is to take a \"reverse\" approach to instruction, as\n"
+"advanced in Wiggins and McTighe's *[Understanding by Design](http://www.worldcat.org/title/understanding-by-\n"
+"design/oclc/56491025)*, that keeps the focus firmly on learning outcomes. The order of preparation in this case becomes"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/15-lesson-study.md:85
+msgid "1.  Determine your learning objectives"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/15-lesson-study.md:86
+msgid ""
+"2.  Decide what constitutes evidence that objectives have been met, and "
+"design assessments to target that evidence"
+msgstr ""
+
+# ordered list
+#: instructor-training/_episodes/15-lesson-study.md:87
+msgid ""
+"3.  Design instruction: Sort assessments in order of increasing complexity, "
+"and write content that connects everything together"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:89
+msgid ""
+"In the context of preparing for a Carpentries-style workshop, the lesson design has already occurred, and many lessons include\n"
+"pre-written exercises to use for assessment. In this context, *reverse instructional design*  principles might be applied as\n"
+"follows: 1) review the lesson's learning objectives carefully, thinking about how they will work for your audience, 2) scan\n"
+"the lesson to identify promising points to check in with your learners, using formative assessment to verify that objectives have been met, and then 3) review the connecting content in detail to be sure everything works and you have anticipated likely problems and questions."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/15-lesson-study.md:95
+msgid "## Working With Learning Objectives"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:96
+msgid ""
+"Once you have an idea of your intended audience, the next step is to think through the goals for your workshop. These goals\n"
+"are usually communicated through *learning objectives*."
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:99
+msgid ""
+"The \"learning objectives\" section is an easy thing to pass over when you're preparing to teach. It may seem obvious or\n"
+"unnecessary. However, good learning objectives are quite specific about the intended effect of a lesson on its learners. We\n"
+"aim to create learning objectives that are specific, accurate, and informative for both learners and instructors."
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:103
+msgid ""
+"[Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) is a framework for thinking about learning that breaks progress down into discrete, hierarchical steps.\n"
+"While many ideas have come and gone in education, Bloom's has remained a useful tool for educators, in particular because the\n"
+"hierarchy seems to be reasonably valid: outcomes at the top of the hierarchy cannot be achieved without mastery of outcomes at\n"
+"the bottom. In the long term, everybody wants to be at the top. However, in aiming to meet learners where they are, we also\n"
+"need to be mindful about helping them to [\"grow a level,\"](https://software-carpentry.org/blog/2018/03/tractenberg-summary.html) helping them to recognize when they have achieved that growth, and\n"
+"guiding them to look ahead to where we might not be able to take them."
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:110
+msgid "![Bloom's Taxonomy](../fig/Blooms.png)"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:112
+msgid "Image credit: Vanderbilt University Center for Teaching"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:114
+msgid "> ## Evaluate Learning Objectives"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:115
+msgid ""
+">\n"
+"> Your instructor has posted links to a handful of current Carpentries lessons in the Etherpad.\n"
+"> Select one learning objective from one of those lessons,\n"
+"> then complete the following steps to evaluate it.\n"
+">\n"
+"> 1. Identify the learning objective verb. How specifically does this verb describe the desired learner outcome?\n"
+"> 2. Where does this verb fit on Bloom's taxonomy? Do you think this is an appropriate level for your learners?\n"
+"> 3. In your opinion, does the lesson do an effective job of meeting the stated objective?\n"
+"> 4. What would the next level on Bloom's taxonomy look like for your learners? How might you be able to help them think ahead\n"
+"> to the next level without attempting to get them there during your workshop?\n"
+">\n"
+"> This exercise should take about 10 minutes.  "
+msgstr ""
+
+# header
+#: instructor-training/_episodes/15-lesson-study.md:130
+msgid "## Using Formative Assessments"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:132
+msgid ""
+"When assessments are created in a reverse-design setting, their primary purpose is to inform the instructor about whether\n"
+"objectives have been met. But, as noted in previous lessons, these assessments are good for everyone! For learners, becoming\n"
+"more aware of their progress is motivating and helps to transfer learned content to long-term memory.\n"
+"Awareness of the learning process, also known as \"metacognition,\" will also help them to identify appropriate next steps after a workshop has completed."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:137
+msgid "> ## Where are your checkpoints?"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:138
+msgid ""
+">\n"
+"> Have a look at your lesson again. Choose a learning objective, and identify\n"
+"> *where* in the lesson that objective should reasonably be achieved. How will\n"
+"> you know that that objective has been met for all learners? Will this be clear\n"
+"> to them?\n"
+">\n"
+"> Make a plan for *where* in your lesson you will use different types of\n"
+"> formative assessment to help everyone in the room monitor their progress. Keep\n"
+"> in mind that formative assessment can take many forms, including multiple\n"
+"> choice questions, faded examples, spontaneous questions and calls for sticky\n"
+"> notes. Write some notes or thoughts about this process in the Etherpad for\n"
+"> discussion.\n"
+">\n"
+"> This exercise and discussion should take about 10 minutes."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:155
+msgid "> ## You Can't Just Ask"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:156
+msgid ""
+">\n"
+"> Self-assessments of skill level are usually inaccurate\n"
+"> because of the [Dunning-Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect):\n"
+"> the less people know about a subject,\n"
+"> the less accurate their estimate of their knowledge is. This is one reason why assessments should be specific, as\n"
+"> opposed to asking if everyone understands."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:165
+msgid "> ## Instructor Notes"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:166
+msgid "> Many of the Carpentries lessons have"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:167
+msgid "> instructor's notes, with information"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:168
+msgid ""
+"> from instructors who have already taught the material.  This can be a "
+"valuable"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:169
+msgid ""
+"> resource when preparing lessons, especially when teaching a lesson for the"
+" first time.  "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:170
+msgid ""
+"> The instructor notes are linked on each lesson page under the \"Extras\" "
+"pull down menu."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:171
+msgid "> In addition, configuration problems and other"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:172
+msgid ""
+"> technical hurdles common across multiple lessons are detailed "
+"[here](https://github.com/carpentries/workshop-template/wiki/Configuration-"
+"Problems-and-Solutions) along with suggested solutions. This link is on the "
+"workshop page as well for easy access by learners and during workshops. "
+"We'll see more about workshop pages this afternoon.  "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/15-lesson-study.md:176
+msgid "> ## Feedback On Your Challenges (Optional)"
+msgstr ""
+
+#: instructor-training/_episodes/15-lesson-study.md:177
+msgid ""
+">\n"
+"> With these goals in mind, pair up with a partner to discuss the MCQ and faded example problems that you wrote\n"
+"> yesterday. Give each other specific, actionable feedback that follows our 2x2 framework. Use that feedback to\n"
+"> make at least one modification to your exercise(s). Discuss in the Etherpad the change you made and how it will\n"
+"> help you get more useful information about your learners.\n"
+">\n"
+"> This exercise and discussion should take about 15 minutes."
+msgstr ""

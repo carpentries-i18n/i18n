@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 18:27+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# header
+#: instructor-training/files/intro-slides/slides.md:1
+msgid "# An Introduction to Introductions"
+msgstr ""
+
+# Front Matter
+#: instructor-training/files/intro-slides/slides.md:3
+msgid ""
+"---\n"
+"\n"
+"## Setting the workshop environment\n"
+"\n"
+"Think back to courses or workshops you really liked or didn't like.\n"
+"\n"
+"How did those courses start on the first day? Were you confident in the\n"
+"instructors ability to teach the course? Did you feel like the instructor was\n"
+"enthusiastic about the course and invested in the learners outcomes? Was it clear\n"
+"what you were going to be learning? Were you excited to get the chance\n"
+"to be learning about those things? Or did you leave that first day thinking\n"
+"the instructor was uninterested, that you weren't the learners they wanted to\n"
+"be teaching or you had no idea what the course was supposed to be about?\n"
+"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/files/intro-slides/slides.md:19
+msgid "## Why is the environment important"
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:22
+msgid ""
+"- In Software, Data, and Library Carpentry we're teaching not only a set of "
+"skills,"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:23
+msgid ""
+"but at least as importantly we're trying to empower learners and give them the confidence to use\n"
+"these tools and learn more on their own."
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:26
+msgid ""
+"- Can help reduce stereotype threat by letting people think about their "
+"strengths"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:27
+msgid "at the beginning of the workshop."
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:29
+msgid "- Helps the instructor get started and be less nervous"
+msgstr ""
+
+# Front Matter
+#: instructor-training/files/intro-slides/slides.md:31
+msgid ""
+"---\n"
+"\n"
+"## How to set the workshop environment\n"
+"\n"
+"Things here are adapted from: Eberly Center for Teaching Excellence & Educational Innovation, Retrieved October 31st, 2016, www.cmu.edu/teaching/\n"
+"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/files/intro-slides/slides.md:39
+msgid "### Goals for the introduction"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:41
+msgid "After the introduction"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:43
+msgid ""
+"Learners should:\n"
+"- believe in your competence to teach the workshop\n"
+"- be able to predict the type of instruction\n"
+"- know what the learning objectives are (what will be taught)\n"
+"- know what will be required of them"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:49
+msgid ""
+"The instructor should:\n"
+"- have an understanding of who is taking the workshop and what their expectations are"
+msgstr ""
+
+# Front Matter
+#: instructor-training/files/intro-slides/slides.md:52
+msgid ""
+"---\n"
+"\n"
+"### Components of the introduction\n"
+"\n"
+"To meet these objectives an introduction should have 8 components\n"
+"\n"
+"- Orchestrate positive first impressions\n"
+"- Introduce yourself effectively\n"
+"- Clarify learning objectives and expectations\n"
+"- Help learners learn about each other\n"
+"- Set the tone for the workshop\n"
+"- Collect baseline data on learners' knowledge and motivation\n"
+"- Whet learners' appetite for workshop content\n"
+"- Inform learners of workshop requirements\n"
+"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/files/intro-slides/slides.md:69
+msgid "### Orchestrate positive first impressions"
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:71
+msgid "- **Classroom environment**  "
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:72
+msgid ""
+"  - how the chairs and desks are set up conveys more formal or informal "
+"setting"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:73
+msgid ""
+"  (you might not have options for this in your classroom)\n"
+"  - you can write some words on the board for people to see as they come in, like\n"
+"  'Welcome!' or 'Yay, data' or even a question for people to think about."
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:77
+msgid "- **Your use of the few minutes before class.**  "
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:78
+msgid ""
+"Greeting the learners as they enter the classroom communicates "
+"approachability. Frantically arriving right on time or even late "
+"communicates disorganization, and so on."
+msgstr ""
+
+# Front Matter
+#: instructor-training/files/intro-slides/slides.md:80
+msgid ""
+"---\n"
+"\n"
+"### Introduce yourself effectively\n"
+"\n"
+"You want to convey\n"
+"- capability of teaching the materials\n"
+"- your accessibility to learners\n"
+"- your shared experience with the learners\n"
+"- why you're excited about teaching SWC/DC\n"
+"- don't want to come across as too 'expert' so that you can't relate to the audience\n"
+"- even if it's your first time teaching, you don't need to say that :)\n"
+"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/files/intro-slides/slides.md:94
+msgid "### Clarify learning objectives and expectations"
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:96
+msgid "- let people know what the prerequisites are"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:97
+msgid ""
+"For Data and Library Carpentry, no prior computational experience is required and for\n"
+"Software Carpentry it can vary.\n"
+"- highlight the main aspects of the schedule\n"
+"- highlight the learning objectives\n"
+"- highlight the approach we're using - hands on! - and that all materials\n"
+"are open and freely available to use, develop or share\n"
+"- code of conduct - basically be respectful\n"
+"- how can people offer feedback or get help\n"
+"    sticky notes, minute cards, formal assessment at the end"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:107
+msgid ""
+"Share some advice for success in your course (give it a try!) and let them know you\n"
+"are confident in their success as long as they are trying new things."
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:110
+msgid "\"If you're not falling, you're not learning.\""
+msgstr ""
+
+# Front Matter
+#: instructor-training/files/intro-slides/slides.md:112
+msgid ""
+"---\n"
+"\n"
+"### Help learners learn about each other\n"
+"\n"
+"Foster a collaborative environment\n"
+"\n"
+"Have learners introduce themselves to each other.\n"
+"\n"
+"One idea:  \n"
+"Have everyone turn to a partner and introduce themselves with their name, one word about their research 'microbes', 'dogs', 'vectors', 'stars' and a thing they're proud of that they made. What\n"
+"they made could be a bookshelf, a curry, a 3D plot, a piece of software, their bed this morning, just\n"
+"something they did that they're proud of. Studies have shown that encouraging people to think about their characteristics, skills, values, or roles that they value or view as important can help reduce\n"
+"the effects of stereotype threat. (We have no actual evidence this particular exercise helps, but it\n"
+"  is along these lines)\n"
+"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/files/intro-slides/slides.md:129
+msgid "### Set the tone for the workshop"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:131
+msgid ""
+"The way you engage learners at the beginning sends powerful messages about "
+"the level of involvement and interaction you expect from them."
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:133
+msgid ""
+"- get in to introductions and interactions right away, since this is an "
+"interactive workshop"
+msgstr ""
+
+# unordered list
+#: instructor-training/files/intro-slides/slides.md:134
+msgid ""
+"- establish a culture of feedback. Let learners know you are interested in "
+"how they experience the course and in any suggestions they have."
+msgstr ""
+
+# Front Matter
+#: instructor-training/files/intro-slides/slides.md:136
+msgid ""
+"---\n"
+"\n"
+"### Collect baseline data on learners' knowledge and motivation\n"
+"\n"
+"- you will already have information from the pre-assessment survey on this,\n"
+"so you won't need to survey the audience, but look through the survey data\n"
+"before you arrive so you know who your audience is\n"
+"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/files/intro-slides/slides.md:146
+msgid "### Whet learners' appetite for workshop content"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:148
+msgid ""
+"They're already at the workshop, so it might seem unnecessary to motivate them to be there,\n"
+"but it is a great chance to stimulate interest about the workshop and to activate relevant prior knowledge learners have about the material."
+msgstr ""
+
+# Front Matter
+#: instructor-training/files/intro-slides/slides.md:151
+msgid ""
+"---\n"
+"\n"
+"### Inform learners of workshop requirements\n"
+"\n"
+"Let learners know about any logistics for the days - lunch times, breaks, accessibility, etc.\n"
+"\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/files/intro-slides/slides.md:159
+msgid "### Exercise on introducing yourself"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:161
+msgid ""
+"**Objectives for exercise:**\n"
+"- practice introducing yourself\n"
+"- serves as an icebreaker - an opportunity to meet other people in the workshop"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:165
+msgid ""
+"Get in a group of three with two other people you haven't met before.\n"
+"Each person do a video introducing themselves and get feedback from the\n"
+"other two in the group. Your introduction should be just around a minute or two."
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:169
+msgid ""
+"Before your start, describe your audience to the other people to the group.\n"
+"e.g. researchers who are mainly biologists with little computational experience"
+msgstr ""
+
+#: instructor-training/files/intro-slides/slides.md:172
+msgid ""
+"**Things to cover in your introduction**  \n"
+"- Name\n"
+"- A little about your background relevant to the audience to convey\n"
+"  - capability of teaching the materials\n"
+"  - your accessibility to learners\n"
+"  - shared experience\n"
+"- Why you're excited about teaching SWC/DC"
+msgstr ""

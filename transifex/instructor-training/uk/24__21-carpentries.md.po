@@ -1,0 +1,588 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 21:16+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/21-carpentries.md:1
+msgid ""
+"---\n"
+"title: \"The Carpentries: How We Operate\"\n"
+"block: \"The Carpentries\"\n"
+"teaching: 30\n"
+"exercises: 45\n"
+"questions:\n"
+"- \"How is The Carpentries organized and run?\"\n"
+"- \"What is the difference between SWC, DC, and LC workshops?\"\n"
+"- \"How do you run a Carpentries workshop?\"\n"
+"objectives:\n"
+"- \"Get connected with the Carpentry community.\"\n"
+"- \"Describe where you can go to get information on running a workshop.\"\n"
+"keypoints:\n"
+"- \"Carpentry materials are all openly licensed, but Software and Data Carpentry names and logos are trademarked.\"\n"
+"- \"Carpentry workshops must cover core concepts, have at least one certified instructor, use our pre- and post-workshop surveys and report attendance information.\"\n"
+"- \"Guidance for teaching and hosting workshops is provided in The Carpentries Handbook.\"\n"
+"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:20
+msgid ""
+"In becoming a certified [Carpentries instructor](https://carpentries.org/instructors/),\n"
+"you are also becoming part of a community of like-minded volunteers.\n"
+"This section provides some background on\n"
+"[The Carpentries]({{ site.carpentries_site }}) organization, how to participate\n"
+"in one of our primary activities (running workshops), and other ways to get\n"
+"involved with the community."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:27
+msgid "## A Brief History"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:30
+msgid ""
+"[Software Carpentry]({{ site.swc_site }}) was founded in 1998 with the mission of teaching lab skills for research computing.\n"
+"[Data Carpentry]({{ site.dc_site }}) was founded in 2014 with the mission of building communities teaching universal data literacy."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:33
+msgid ""
+"Also in 2014, [Library Carpentry]({{ site.lc_site }}) was founded with the "
+"mission of teaching data skills to people working in library- and "
+"information-related roles."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:35
+msgid ""
+"On January 1, 2018, Software Carpentry and Data Carpentry merged\n"
+"their projects to form a new project called\n"
+"[The Carpentries]({{ site.carpentries_site }})\n"
+"under the fiscal sponsorship of\n"
+"[Community Initiatives](https://communityin.org/).\n"
+"Within this new organization structure, Software Carpentry and Data Carpentry retain their individual identities as Lesson Programs of the Carpentries.\n"
+"On November 1, 2018, The Carpentries Executive Council\n"
+"approved [Library Carpentry]({{ site.lc_site }})\n"
+"as the third official Lesson Program of the Carpentries."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:45
+msgid ""
+"The Carpentries project comprises communities of Instructors, Trainers,\n"
+"Maintainers, helpers, and supporters from\n"
+"[Software Carpentry]({{ site.swc_site }}), [Data Carpentry]({{ site.dc_site }}) and [Library Carpentry]({{ site.lc_site }})\n"
+"who share a mission to teach foundational computational and data science skills."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:50
+msgid "![A brief history](../fig/SWCDChistory.png)"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:52
+msgid ""
+"You can learn more about the history and goals of each Lesson Program by reading\n"
+"\"[Software Carpentry: Lessons Learned](https://f1000research.com/articles/3-62/v2)\",\n"
+"\"[Data Carpentry: Workshops to Increase Data Literacy for Researchers](http://ijdc.net/index.php/ijdc/article/view/10.1.135)\" and\n"
+"\"[Library Carpentry: software skills training for library professionals](https://www.liberquarterly.eu/article/10.18352/lq.10176/)\"\"."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:57
+msgid ""
+"## Similarities and Differences between The Carpentries Lesson Programs"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:59
+msgid ""
+"All lesson programs under The Carpentries share the same value\n"
+"of promoting efficient, shareable, and reproducible research practices.\n"
+"Their aligned missions are accomplished by running accessible, inclusive training workshops; teaching openly available, high-quality, community-developed lessons; and fostering an active, inclusive, diverse instructor community that promotes and models reproducible research as a community norm."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:63
+msgid ""
+"Similarities between Software, Data and Library Carpentry workshops include:\n"
+"*   a focus on technical skills.\n"
+"*   an two-day format taught by volunteer instructors.\n"
+"*   a focus on filling gaps in current training for learners."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:68
+msgid ""
+"The major differences between Software, Data and Library Carpentry workshops\n"
+"are their content and intended audience."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:71
+msgid "Software Carpentry workshops are:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:73
+msgid ""
+"*   intended for people who need to program more effectively to solve their"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:74
+msgid ""
+"computational challenges,\n"
+"*   not domain-specific, and\n"
+"*   modular---each Software Carpentry lesson is standalone."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:78
+msgid "Data Carpentry workshops:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:80
+msgid "*   are aimed at pure novices,"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:81
+msgid "*   are domain-specific,"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:82
+msgid "*   focus on best practices surrounding data, and"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:83
+msgid "*   present a full curriculum centered around a single data set."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:85
+msgid "Library Carpentry workshops:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:87
+msgid "*   are aimed at people in library- and information-related roles,"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:88
+msgid "*   focus on best practices in data structure, and"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:89
+msgid "*   are modular---each Library Carpentry lesson is standalone."
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:90
+msgid "*   are sometimes less than two days."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:92
+msgid ""
+"In a visual representation, these similarities and differences look like "
+"this:"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:94
+msgid ""
+"![Carpentries Similarities and Differences](../fig/carpentries-venn-"
+"diagram_20190522.svg)"
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:97
+msgid "## What is a Carpentries Workshop? The Rules."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:99
+msgid "### Using the Names and Logos"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:101
+msgid ""
+"The names \"Software Carpentry\", \"Data Carpentry\" and \"Library Carpentry\"\n"
+"and their respective logos\n"
+"are all trademarked.\n"
+"You may only call a workshop a Software Carpentry, Data Carpentry, or Library Carpentry workshop if:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:106
+msgid "*   it covers the core topics (see below),"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:107
+msgid ""
+"*   at least one of the instructors is a certified Carpentries Instructor,"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:108
+msgid ""
+"*   you run our standardized pre- and post-workshop assessments and ensure "
+"everyone participates, and"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/21-carpentries.md:109
+msgid ""
+"*   you send us summary information about attendees (at a minimum, the "
+"number of people who attended)."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:111
+msgid "### Materials"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:113
+msgid ""
+"Note that the individual Software Carpentry, Data Carpentry, and Library Carpentry lessons\n"
+"materials are freely available under a permissive [open license]({{ page.root }}{% link LICENSE.md %}).\n"
+"This means that you may use them in contexts outside a Carpentries workshop (e.g. as material\n"
+"introduced into a longer course, as a standalone 2-3 hour session, as homework exercises, etc.)\n"
+"provided you cite the original source."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:119
+msgid ""
+"It is only when you want to run a branded \"Carpentries\" workshop using the materials\n"
+"that the requirements listed above are needed."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:122
+msgid "### What is the Core Curriculum?"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:124
+msgid ""
+"A Software Carpentry workshop must include [lessons](https://software-carpentry.org/lessons/index.html)\n"
+"on version control (e.g. Git), the UNIX shell,\n"
+"and a programming language (e.g. R or Python)."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:128
+msgid ""
+"A Data Carpentry workshop must include a Data Carpentry [lesson](https://datacarpentry.org/lessons/)\n"
+"on data organization and three\n"
+"other modules in the same domain from the Data Carpentry curriculum.\n"
+"Published curricula include the Ecology, Genomics, Social Science and Geospatial workshop materials.\n"
+"Additionally, Astronomy, Digital humanities, Economics and Image analysis curriculum are under development."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:134
+msgid ""
+"A Library Carpentry workshop must include three to four of the\n"
+"[core lessons](https://librarycarpentry.org/lessons/#core-curriculum), which include an introduction to data, the UNIX shell, OpenRefine, and Git.\n"
+"Library Carpentry also maintains an \"extended\" set of lessons\n"
+"that can be taught in addition to the core curriculum\n"
+"These lessons are taught infrequently or are under development and include:\n"
+"SQL, webscraping, Python and an introduction to data for archivists."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:141
+msgid ""
+"Within these guidelines, there is flexibility in which episodes of the lesson you cover,\n"
+"which exercises you use, and whether you include optional materials (e.g. callouts) and\n"
+"optional episodes."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:145
+msgid "### Who Can Teach What"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:147
+msgid ""
+"People who have gone through the two-day instructor training course and completed\n"
+"the [the checkout process]({{ page.root }}/checkout/) are considered \"certified\"\n"
+"Carpentries instructors and can teach curricula for **any** of the lesson programs\n"
+"(Software Carpentry, Data Carpentry, or Library Carpentry)\n"
+"as they feel able. While instructor badges\n"
+"may list a primary lesson program affiliation, instructors are **not** required to certify separately for each. For more\n"
+"information, see the description of [the instructor checkout procedure]({{ page.root }}/checkout/)."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:155
+msgid ""
+"Note that as long as you have at least one certified instructor, the other\n"
+"instructors and helpers at a branded workshop do not have to be certified. We\n"
+"rely on the judgment of local organizers to recruit and orient volunteers who\n"
+"will embody the Carpentries ethos and practices."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:160
+msgid "> ## Local Support"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:161
+msgid ""
+">\n"
+"> There is a great list\n"
+">\n"
+"> here in the handbook [Helper Checklist and Suggestions](https://docs.carpentries.org/topic_folders/hosts_instructors/hosts_instructors_checklist.html#helper-checklist)."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:167
+msgid "## How to Run a Carpentries Workshop"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:169
+msgid ""
+"The [**Carpentries Handbook**](https://docs.carpentries.org/) is a community-developed resource that\n"
+"provides tips, checklists, and points of contact for nearly all Carpentries-related activities in one location.\n"
+"The Carpentries Handbook is the definitive source for policies and information.\n"
+"Here, we will cover some information about actually running a workshop."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:174
+msgid ""
+"Briefly, there are two types of Carpentry workshops: centrally-organized and\n"
+"self-organized. Centrally-organized workshops are organized by a team of\n"
+"[Regional Coordinators](https://carpentries.org/regionalcoordinators/) who take care of logistics and administration such as\n"
+"finding instructors and handling workshop registration. For self-organized\n"
+"workshops, the organization hosting the event is responsible for these details."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:180
+msgid "> ## Workshops as an Instructor"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:181
+msgid ""
+">\n"
+"> As an instructor, you may be primarily teaching at local workshops or you\n"
+"> may not have local opportunities, or you may just want to\n"
+"> teach somewhere else.\n"
+">\n"
+"> If you want to teach non-locally, you should be sure to join our instructor\n"
+"> mailing list during the community exercise below, so that you hear about\n"
+"> upcoming teaching opportunities.\n"
+">\n"
+"> Note that the Carpentries does not guarantee\n"
+"> that instructors will get to teach at workshops after they are trained, so the\n"
+"> best way to make sure that you get to teach (if you want) is to try running\n"
+"> a workshop or even a single lesson yourself. It can seem daunting to organize\n"
+"> your own workshop, but as long as you have 1-2 people who can either help or\n"
+"> co-instruct, the Carpentries staff and community can provide\n"
+"> support and guidance so that it's not so scary!"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:199
+msgid ""
+"In both cases (self- or centrally-organized), you can start the workshop\n"
+"process by completing the [Carpentries workshop request form](https://amy.carpentries.org/forms/workshop/)."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:202
+msgid ""
+"For more details on how to run each type of workshop, see:\n"
+"* [The Carpentries Handbook: Teaching and Hosting](https://docs.carpentries.org/topic_folders/hosts_instructors/index.html)"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:205
+msgid ""
+"or the the following Lesson Program specific references:\n"
+"* [Data Carpentry](http://www.datacarpentry.org/workshops-host/)\n"
+"* [Library Carpentry](https://librarycarpentry.org/workshops/)\n"
+"* [Software Carpentry](https://software-carpentry.org/workshops/request/) workshop pages."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:210
+msgid ""
+"Policies related to instructor training and workshops The Carpentries can be found in [the policies repository](https://github.com/carpentries/policies). Please\n"
+"be sure to read through the [instructor no-show policy](https://github.com/carpentries/policies/blob/master/instructor-no-show-policy.md) before signing up for your first workshop."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:213
+msgid "### Setting Up"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:215
+msgid ""
+"In order to communicate with learners,\n"
+"and to help us keep track of who's taught what and where,\n"
+"each workshop's instructors create a one-page website with information about their workshop.\n"
+"Once that has been created,\n"
+"the host or lead instructor sends its URL to\n"
+"the [workshop coordinator](mailto:team@carpentries.org),\n"
+"who adds it to our records.\n"
+"The workshop will show up on our websites shortly thereafter."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:224
+msgid ""
+"You may also create an etherpad for your own Carpentries-related events. When you point a browser to a url at\n"
+"`pad.carpentries.org/name-of-pad` you will either arrive at an existing etherpad by that name or a brand new\n"
+"etherpad with basic Carpentries information at the top.  For workshops we use `year-month-day-venue` as the name\n"
+"to ensure unique names."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:229
+msgid "> ## Practice With The Carpentries Infrastructure"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:230
+msgid ""
+">\n"
+"> Go to the [workshop template repository]({{ site.workshop_repo }})\n"
+"> and follow the directions to create a workshop website using your local location and today's date.\n"
+"> Put the link for your workshop website into the Etherpad.\n"
+">\n"
+"> This exercise should take about 25 minutes.\n"
+">\n"
+"> Note: Sometimes web browsers will cache the workshop webpage, so when\n"
+"> you make changes in GitHub, they don't show up on the workshop webpage\n"
+"> immediately.  Two ways to avoid this are to use a \"private\" or\n"
+"> \"incognito\" mode in your web browser or by following these\n"
+"> [instructions to bypass your browser cache](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache)."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:244
+msgid "> ## Question and Answer"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:245
+msgid ""
+">\n"
+"> What questions do you have about running and teaching at a workshop? Talk with a partner and\n"
+"> enter your questions into the Etherpad. At this time we will also return to discuss questions remaining from the beginning of the day.\n"
+">\n"
+"> Leave about 10 minutes for this discussion."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:253
+msgid "## A Culture of Contribution"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:255
+msgid ""
+"In the same way that we hope to promote a\n"
+"culture of openness, sharing,\n"
+"and reproducibility in science and research through training researchers with\n"
+"the tools they need, the\n"
+"Carpentry organizations themselves aim to be open, collaborative, and\n"
+"based on best practices.  We want to draw together the collective expertise of\n"
+"our teaching community to create collaborative lessons, share other materials,\n"
+"and improve the lessons via \"bug fixes\" as we go along."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:264
+msgid "> ## Lesson Incubation"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:265
+msgid ""
+">\n"
+"> Maybe this instructor training has inspired you to go home and write your\n"
+"> own fantastic lesson!  If you'd like to model it after the Software and\n"
+"> Data Carpentry lesson format, you can find a template and instructions in [the Carpentries lesson example repository]({{ site.example_repo }})."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:271
+msgid "> ## Many Ways to Contribute"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:272
+msgid ""
+">\n"
+"> We recognize that the medium of GitHub may be restrictive to those\n"
+"> who wish to contribute to our lessons.  We are always searching for\n"
+"> ways to make the process more friendly to all, whether that be\n"
+"> contribution training, or alternative routes to contribution.  If you\n"
+"> have any ideas how we might make contribution more contributor-friendly,\n"
+"> please let us know."
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:281
+msgid ""
+"Being part of a friendly, open discussion, is of equal or greater importance\n"
+"to the community than submitting the perfect lesson change.  The\n"
+"[checkout process]({{ page.root }}/checkout/) to become a certified instructor will be\n"
+"one way to start connecting to the community and find which area will allow you\n"
+"to contribute best."
+msgstr ""
+
+# header
+#: instructor-training/_episodes/21-carpentries.md:287
+msgid "## The Carpentries Community"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:289
+msgid ""
+"As you can imagine, based on the above, there are many aspects of running the Carpentries!\n"
+"While there are a small number of dedicated staff who work for the Carpentries organization,\n"
+"the real power of the Carpentries is in its community of volunteers that take on all sorts of\n"
+"roles to teach and organize workshops, help produce and maintain lessons, and most importantly,\n"
+"build local and global communities of practice around  skills for data analysis, computational thinking, and research software development. Our community depends on individuals like you who are passionate about expanding these communities of practice through inclusive and evidence-based instructional practices, and can contribute your perspective and expertise to continually refine our instructional materials and practices.  A full description of the breadth and diversity of community member roles, an overview of the Carpentries' various social media channels, a calendar of future community events, and descriptions of mailing lists used by the community can be found [here on the Carpentries website](http://static.carpentries.org/community/) and also on the [getting connected page](https://carpentries.org/connect/)."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:295
+msgid "> ## Participating in the Carpentries -- What's Your Role?"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:296
+msgid ""
+">\n"
+"> If you are at an in-person training, your instructor will hand out paper copies of a worksheet. If you are at an online training, you can get a [digital copy here]({{ page.root }}/files/handouts/Carpentries_roles_worksheet_v4.pdf).\n"
+">\n"
+"> Take a moment to review member community roles on the [Carpentries' community website](http://static.carpentries.org/community/). Working on your own, match up the roles with the descriptions. When you are done, think about the question at the bottom of the worksheet about what roles you might play, and enter your thoughts in the Etherpad.\n"
+">\n"
+">> ## Solution\n"
+">> Instructors: C\n"
+">> Mentors: E\n"
+">> Trainers: D\n"
+">> Lesson developers: J\n"
+">> Curriculum advisors: B\n"
+">> Lesson maintainers: F\n"
+">> Lesson Infrastructure Team: I\n"
+">> Assessment Team: K\n"
+">> Champions: L\n"
+">> Infrastructure Team: H\n"
+">> Regional Coordinator: A\n"
+">> Code of Conduct Committee: G"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:315
+msgid "> This exercise should take about 10 minutes."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/21-carpentries.md:318
+msgid "> ## Get Connected"
+msgstr ""
+
+#: instructor-training/_episodes/21-carpentries.md:319
+msgid ""
+">\n"
+"> Take a couple of minutes to sign up for the Carpentry discussion channels you want to stay involved with."
+msgstr ""

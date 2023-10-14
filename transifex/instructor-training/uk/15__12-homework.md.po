@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:42+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/12-homework.md:1
+msgid ""
+"---\n"
+"title: \"Wrap-Up and Homework for Tomorrow\"\n"
+"teaching: 5\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"What have we learned today?\"\n"
+"- \"What needs to be done to prepare for tomorrow?\"\n"
+"objectives:\n"
+"- \"Describe overnight homework.\"\n"
+"- \"Produce a paragraph, drawing, or diagram that summarizes what was taught today.\"  \n"
+"keypoints:\n"
+"- \"Today we learned about how people learn, how to build a positive classroom environment, and how to give feedback.\"\n"
+"- \"Tomorrow we will cover specifics of Carpentries workshops and teaching practices.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Підведення підсумків і домашнє завдання на завтра\"\n"
+"teaching: 5\n"
+"exercises: 15\n"
+"questions:\n"
+"«Що ми сьогодні вивчили?»\n"
+"- «Що потрібно зробити, щоб підготуватися до завтрашнього дня?»\n"
+"цілі:\n"
+"- «Опишить вечірнє домашнє завдання».\n"
+"- «Створіть короткий опис, малюнок або схему, які підсумовують те, що розглядалось сьогодні».\n"
+"Ключові моменти:\n"
+"- «Сьогодні ми дізналися про те, як люди навчаються, як створити позитивне середовище в аудиторії та як давати зворотний зв’язок».\n"
+"– «Завтра ми розглянемо специфіку семінарів Carpentry та навчальних практик».\n"
+"---"
+
+#: instructor-training/_episodes/12-homework.md:16
+msgid ""
+"Today we have focused on understanding some core findings of pedagogical research about how the learning process\n"
+"works and the importance of creating a positive classroom environment. We also introduced the idea of lesson study\n"
+"and gave some opportunities to practice teaching. Tomorrow we will continue our discussions of\n"
+"how we build teaching skill and will have more chances for practice and feedback. We will also\n"
+"look in some depth at how the Carpentries operate to prepare you for the logistics of teaching a workshop."
+msgstr ""
+"Сьогодні ми зосередилися на розумінні деяких основних результатів педагогічних досліджень про те, як відбувається процес навчання\n"
+"та про важливість створення позитивного середовища в аудиторії. Ми також розглянули концепцію навчальних  уроків\n"
+"і окреслили певні можливості для практики викладання. Завтра ми продовжимо наше обговорення\n"
+"розвитку навичок викладання та матимемо більше часу для практики та зворотного зв’язку. Ми також \n"
+"подивимось детальніше, як організовані  семінари Carpentry, щоб підготувати вас до прийнятої логістики викладання."
+
+#: instructor-training/_episodes/12-homework.md:22
+msgid "To prepare for tomorrow, please:"
+msgstr "Щоб підготуватися до завтра, будь ласка:"
+
+# ordered list
+#: instructor-training/_episodes/12-homework.md:24
+msgid ""
+"1.  Read about the two types of Carpentry workshops: [self-organized][dc-"
+"self] and "
+msgstr ""
+"1.  Прочитайте про два типи семінарів Carpentry: [self-organized][dc-self] "
+"та "
+
+#: instructor-training/_episodes/12-homework.md:25
+msgid ""
+"    [centrally-organized][dc-central] and the checklists\n"
+"    these pages link to. These summarize commonly asked questions about organizing and running workshops.\n"
+"    When you arrive tomorrow, we will ask you to add one question about our operations to a list.\n"
+"    We will then do our best to answer all of those questions during the day."
+msgstr ""
+"    [centrally-organized][dc-central] та списки контрольних питань,\n"
+"на які ці сторінки посилаються. Тут узагальнено поширені запитання щодо організації та проведення семінарів.\n"
+"Коли ви приїдете завтра, ми попросимо вас додати одне запитання про форму та зміст семінарів до списку.\n"
+"Потім ми зробимо все можливе, щоб відповісти на всі ці запитання протягом дня."
+
+# ordered list
+#: instructor-training/_episodes/12-homework.md:30
+msgid "2.  Prepare for the [live coding exercises]({{ page.root }}/14-live/)."
+msgstr ""
+"2.  Підготуйтеся до [live coding exercises]({{ page.root }}/14-live/)."
+
+#: instructor-training/_episodes/12-homework.md:31
+msgid ""
+"    If you haven't already, pick an episode from an existing Software Carpentry, Data Carpentry, or Library Carpentry lesson and \n"
+"    read through it carefully.\n"
+"    Tomorrow, you will use this to practice live coding for 3 minutes in groups of three.\n"
+"    Your group members will comment on the delivery and content.\n"
+"    The episodes we recommend were listed in the welcome message\n"
+"    sent to you before the start of this course, and are:\n"
+"    *   Data Carpentry\n"
+"        *   [Faceting and Clustering in OpenRefine](<{{ site.dc_site }}/OpenRefine-ecology-lesson/01-working-with-openrefine>)\n"
+"        *   [Basic Queries in SQL](<{{ site.dc_site }}/sql-ecology-lesson/01-sql-basic-queries/>)\n"
+"        *   [Starting with Data in R](<{{ site.dc_site }}/R-ecology-lesson/02-starting-with-data.html>)\n"
+"        *   [Starting with Data in Python](<{{ site.dc_site }}/python-ecology-lesson/02-starting-with-data/>)"
+msgstr ""
+"    Якщо ви ще цього не зробили, виберіть епізод із наявних уроків Software Carpentry, Data Carpentry, or Library Carpentry та \n"
+"    уважно прочитайте його.\n"
+"    Завтра ви використовуватимете це, щоб практикувати програмування в реальному часі протягом 3 хвилин у групах по три людини.\n"
+"   Члени вашої групи коментуватимуть форму та вміст програми.\n"
+"    Епізоди, які ми рекомендуємо, були перелічені у вітальному повідомленні,\n"
+"надісланому вам перед початком цього курсу та є такими:\n"
+"    *   Data Carpentry\n"
+"        *   [Фасетування та кластеризація у OpenRefine](<{{ site.dc_site }}/OpenRefine-ecology-lesson/01-working-with-openrefine>)\n"
+"        *   [Базові запити  SQL](<{{ site.dc_site }}/sql-ecology-lesson/01-sql-basic-queries/>)\n"
+"        *   [Початок роботи з даними в R](<{{ site.dc_site }}/R-ecology-lesson/02-starting-with-data.html>)\n"
+"        *   [Початок роботи з даними в Python](<{{ site.dc_site }}/python-ecology-lesson/02-starting-with-data/>)"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:43
+msgid "    *   Library Carpentry"
+msgstr "    *   Library Carpentry"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:44
+msgid ""
+"        *   [Working with Files and Directories in the Unix "
+"Shell](https://librarycarpentry.github.io/lc-shell/03-working-with-files-"
+"and-folders/index.html)"
+msgstr ""
+"        *   [Робота з файлами та каталогами в Unix "
+"Shell](https://librarycarpentry.github.io/lc-shell/03-working-with-files-"
+"and-folders/index.html)"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:45
+msgid ""
+"        *   [Faceting and filtering in Open "
+"Refine](https://librarycarpentry.github.io/lc-open-refine/04-faceting-and-"
+"filtering/index.html)"
+msgstr ""
+"        *   [Фасетування та кластеризація у Open "
+"Refine](https://librarycarpentry.github.io/lc-open-refine/04-faceting-and-"
+"filtering/index.html)"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:46
+msgid ""
+"        *   [For loops in Python](https://librarycarpentry.github.io/lc-"
+"python-intro/12-for-loops/index.html)        "
+msgstr ""
+"        *   [Цикл For у Python](https://librarycarpentry.github.io/lc-"
+"python-intro/12-for-loops/index.html)        "
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:48
+msgid "    *   Software Carpentry"
+msgstr "    *   Software Carpentry"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:49
+msgid ""
+"        *   [Working with Files and Directories in the Unix Shell](<{{ "
+"site.swc_pages }}/shell-novice/03-create/>)"
+msgstr ""
+"        *   [Робота з файлами та каталогами в Unix Shell](<{{ site.swc_pages"
+" }}/shell-novice/03-create/>)"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:50
+msgid ""
+"        *   [Tracking Changes in Git](<{{ site.swc_pages }}/git-"
+"novice/04-changes/>)"
+msgstr ""
+"        *   [Відстеження змін в Git](<{{ site.swc_pages }}/git-"
+"novice/04-changes/>)"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:51
+msgid ""
+"        *   [Selecting Data in SQL](<{{ site.swc_pages }}/sql-novice-"
+"survey/01-select/>)"
+msgstr ""
+"        *   [Вибір даних у SQL](<{{ site.swc_pages }}/sql-novice-"
+"survey/01-select/>)"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:52
+msgid ""
+"        *   [Repeating Actions with Loops in Python](<{{ site.swc_pages "
+"}}/python-novice-inflammation/02-loop/>)"
+msgstr ""
+"        *   [Повторення дій за допомогою циклів у Python](<{{ site.swc_pages"
+" }}/python-novice-inflammation/02-loop/>)"
+
+# unordered list
+#: instructor-training/_episodes/12-homework.md:53
+msgid ""
+"        *   [Exploring Data Frames in R](<{{ site.swc_pages }}/r-novice-"
+"gapminder/05-data-structures-part2/>)"
+msgstr ""
+"        *   [Дослідження фреймів даних в R](<{{ site.swc_pages }}/r-novice-"
+"gapminder/05-data-structures-part2/>)"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/12-homework.md:57
+msgid "> ## Feedback"
+msgstr "> ## Зворотній зв'язок"
+
+#: instructor-training/_episodes/12-homework.md:58
+msgid ""
+">\n"
+"> The Trainer(s) will ask for feedback on the day in some form.  \n"
+">\n"
+"> This exercise should take 5 minutes.  "
+msgstr ""
+">\n"
+">Тренер(и) запитає(ють) відгук про день у певній формі.\n"
+">\n"
+"> Ця вправа займає 5 хвилин."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/12-homework.md:64
+msgid "> ## Reflecting on the Day"
+msgstr "> ## Розмірковуючи про день."
+
+#: instructor-training/_episodes/12-homework.md:65
+msgid ""
+">\n"
+"> Before we wrap up for the day, take 5 minutes to think over\n"
+"> everything we covered today.  On a piece of paper, write\n"
+"> down something that captures what you want to remember about\n"
+"> the day.  The Trainers won't look at this - it's just for you.  \n"
+">\n"
+"> If you don't know where to start, consider\n"
+"> the following list for a starting point:\n"
+">\n"
+"> * draw a concept map, connecting the material\n"
+"> * draw pictures or a comic depicting one of the day's concepts\n"
+"> * write an outline of the topics we covered\n"
+"> * write a paragraph or “journal” entry about your\n"
+"> experience of the training today\n"
+"> * write down one thing that struck you the most\n"
+">\n"
+"> This exercise should take about 10 minutes."
+msgstr ""
+">\n"
+"> Перш ніж завершити день, виділіть 5 хвилин на роздуми про \n"
+"> все, що ми розглянули сьогодні. На аркуші паперу зафіксуйте\n"
+"> те,  що ви хочете запам’ятати\n"
+"> з цього дня. Тренери не дивитимуться на це - це лише для вас.\n"
+">\n"
+"> Якщо ви не знаєте, з чого почати, розгляньте\n"
+"> наступний список як відправну точку:\n"
+">\n"
+"> * намалювати концептуальну карту, що узагальнює матеріал\n"
+"> * намалювати рисунки або комікси, що зображують одне з понять дня\n"
+"> * написати план тем, які ми розглядали\n"
+"> * написати абзац або запис у «журналі» про ваш\n"
+"> досвід тренінгу сьогодні\n"
+"> * записати те, що вас найбільше вразило\n"
+">"
+
+#: instructor-training/_episodes/12-homework.md:84
+msgid ""
+"[dc-self]: {{ site.dc_site }}/self-organized-workshops/\n"
+"[dc-central]: {{ site.dc_site }}/workshops-host/"
+msgstr ""
+"[dc-self]: {{ site.dc_site }}/self-organized-workshops/\n"
+"[dc-central]: {{ site.dc_site }}/workshops-host/"

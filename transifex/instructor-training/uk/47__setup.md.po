@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:13+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/setup.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Setup\n"
+"root: .\n"
+"training_site: https://carpentries.github.io/instructor-training\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: Налаштування\n"
+"root: .\n"
+"training_site: https://carpentries.github.io/instructor-training\n"
+"---"
+
+# ordered list
+#: instructor-training/setup.md:8
+msgid ""
+"1.  Please read [\"The Science of Learning\"]({{ page.training_site "
+"}}/files/papers/science-of-learning-2015.pdf), which provides a brief "
+"overview of some key evidence-based results in teaching."
+msgstr ""
+"1. Будь ласка, прочитайте [\"The Science of Learning\"]({{ "
+"page.training_site }}/files/papers/science-of-learning-2015.pdf), що містить"
+" короткий огляд деяких ключових результатів теорії та практики викладання, "
+"заснованих на фактичних даних. "
+
+# ordered list
+#: instructor-training/setup.md:10
+msgid ""
+"2.  Please go to the [Software Carpentry lessons page]({{ site.swc_site "
+"}}/lessons/)"
+msgstr ""
+"2. Будь ласка, продивіться [Software Carpentry lessons page]({{ "
+"site.swc_site }}/lessons/)"
+
+#: instructor-training/setup.md:11
+msgid ""
+"    and the [Data Carpentry lessons page]({{ site.dc_site}}/lessons/),\n"
+"    have a look at what we currently teach,\n"
+"    and then choose *one* episode from the list at the bottom of this page and read through it carefully.\n"
+"    You will be using your selected episode for several in-class exercises,\n"
+"    so be sure you are comfortable with the content."
+msgstr ""
+"та [Data Carpentry lessons page]({{ site.dc_site}}/lessons/),\n"
+"познайомтеся, що ми зараз викладаємо,\n"
+"а потім виберіть *один* епізод зі списку внизу цієї сторінки та уважно прочитайте його.\n"
+"Ви будете використовувати вибраний епізод для кількох вправ у класі,\n"
+"тож переконайтеся, що вам подобається вміст."
+
+# ordered list
+#: instructor-training/setup.md:17
+msgid ""
+"3.  We will be recording one another teaching in pairs or threes during the "
+"class,"
+msgstr ""
+"3.  Ми будемо записувати один одного, навчаючись парами чи трійками під час "
+"семінару,"
+
+#: instructor-training/setup.md:18
+msgid ""
+"    so please bring a cell phone or hand-held camera that can record audio and video.\n"
+"    It doesn't have to be high-quality, but it should be good enough that you can understand what someone is saying."
+msgstr ""
+"тому візьміть із собою мобільний телефон або ручну камеру, яка може записувати аудіо та відео.\n"
+"Це не обов’язково має бути відео високої якості, але воно повинно бути достатньо хорошим, щоб ви могли зрозуміти, що саме хтось говорить."
+
+# ordered list
+#: instructor-training/setup.md:21
+msgid ""
+"4.  Please also bring a laptop powerful enough to teach on so that you can "
+"take part in all of the practical exercises"
+msgstr ""
+"4. Будь ласка, візьміть із собою достатньо потужний ноутбук для навчання, "
+"щоб ви могли брати участь у всіх практичних вправах"
+
+#: instructor-training/setup.md:22
+msgid "    (a tablet won't be sufficient)."
+msgstr "(планшета буде недостатньо)."
+
+#: instructor-training/setup.md:25
+msgid ""
+"After this course is over,\n"
+"you will be asked to do three short follow-up exercises online in order to finish qualifying as an instructor:\n"
+"the details are available on [the checkout checklist]({{ page.training_site }}/checkout/).\n"
+"If you have any questions about the workshop, the reading material, or anything else, please [get in touch](mailto:checkout@carpentries.org)."
+msgstr ""
+"Після закінчення цього курсу,\n"
+"вам буде запропоновано виконати три короткі додаткові вправи онлайн, щоб завершити кваліфікацію інструктора:\n"
+"деталі доступні в [the checkout checklist]({{ page.training_site }}/checkout/).\n"
+"Якщо у вас виникли запитання щодо семінару, матеріалів для читання чи будь-чого іншого, [get in touch] (mailto:checkout@carpentries.org)."
+
+#: instructor-training/setup.md:30
+msgid ""
+"If you are interested in doing more reading, we have [some recommendations]("
+" {{ page.training_site }}/reference)."
+msgstr ""
+"If you are interested in doing more reading, we have [some recommendations]( {{ page.training_site }}/reference).\n"
+"Якщо вам цікаво прочитати більше, у нас є [some recommendations]( {{ page.training_site }}/reference)."
+
+#: instructor-training/setup.md:32
+msgid ""
+"Episodes\n"
+"--------"
+msgstr ""
+
+#: instructor-training/setup.md:35
+msgid ""
+"Please read through *one* of the episodes below carefully, so that you can "
+"do some exercises based on it on the first day of the class."
+msgstr ""
+
+#: instructor-training/setup.md:37
+msgid "**Data Carpentry**"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:39
+msgid ""
+"* [Faceting and Clustering in OpenRefine]({{ site.dc_site }}/OpenRefine-"
+"ecology-lesson/01-working-with-openrefine/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:40
+msgid ""
+"* [Basic Queries in SQL]({{ site.dc_site }}/sql-ecology-lesson/01-sql-basic-"
+"queries/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:41
+msgid ""
+"* [Starting with Data in R]({{ site.dc_site }}/R-ecology-lesson/02-starting-"
+"with-data.html)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:42
+msgid ""
+"* [Starting with Data in Python]({{ site.dc_site }}/python-ecology-"
+"lesson/02-starting-with-data)"
+msgstr ""
+
+#: instructor-training/setup.md:44
+msgid "**Software Carpentry**"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:46
+msgid ""
+"* [Working with Files and Directories in the Unix Shell]({{ site.swc_pages "
+"}}/shell-novice/03-create/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:47
+msgid ""
+"* [Tracking Changes in Git]({{ site.swc_pages }}/git-novice/04-changes/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:48
+msgid ""
+"* [Selecting Data in SQL]({{ site.swc_pages }}/sql-novice-survey/01-select/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:49
+msgid ""
+"* [Repeating Actions with Loops in Python]({{ site.swc_pages }}/python-"
+"novice-inflammation/02-loop/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:50
+msgid ""
+"* [Exploring Data Frames in R]({{ site.swc_pages }}/r-novice-"
+"gapminder/05-data-structures-part2/)"
+msgstr ""
+
+#: instructor-training/setup.md:52
+msgid "**Library Carpentry**"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:54
+msgid ""
+"* [Working with Files and Directories](https://librarycarpentry.org/lc-"
+"shell/03-working-with-files-and-folders/index.html)  "
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:55
+msgid ""
+"* [Automating the Tedious with Loops](https://librarycarpentry.github.io/lc-"
+"shell/04-loops/index.html)"
+msgstr ""
+
+# unordered list
+#: instructor-training/setup.md:56
+msgid ""
+"* [Importing Data into OpenRefine](https://librarycarpentry.org/lc-open-"
+"refine/02-importing-data/index.html)"
+msgstr ""

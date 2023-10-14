@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# Olexandr Konovalov, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:29+0000\n"
+"Last-Translator: Olexandr Konovalov, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: instructor-training/README.md:1
+msgid ""
+"[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-instructor--training-E01563.svg)](https://swcarpentry.slack.com/messages/C0CP2ERHA) "
+msgstr ""
+"[![Створіть у нас обліковий запис Slack](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-instructor--training-E01563.svg)](https://swcarpentry.slack.com/messages/C0CP2ERHA) "
+
+#: instructor-training/README.md:4
+msgid ""
+"instructor-training\n"
+"==================="
+msgstr ""
+"тренінг інструкторів\n"
+"==================="
+
+#: instructor-training/README.md:7
+msgid ""
+"The instructor training course for The Carpentries which includes [Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site].\n"
+"Please see <https://carpentries.github.io/instructor-training/> for a rendered version of this material,\n"
+"[the lesson template documentation][lesson-example]\n"
+"for instructions on formatting, building, and submitting material,\n"
+"or run `make` in this directory for a list of helpful commands."
+msgstr ""
+"Курс підготовки інструкторів для  семінарів Carpentry, який включає [Software Carpentry][swc-site], [Data Carpentry][dc-site], and [Library Carpentry][lc-site].\n"
+"Перегляньте <https://carpentries.github.io/instructor-training/> для актуальної версії цього матеріалу,\n"
+"[the lesson template documentation][lesson-example]\n"
+"для інструкцій щодо форматування, створення та подання матеріалу,\n"
+"або запустіть `make` у цьому каталозі, щоб отримати список корисних команд."
+
+#: instructor-training/README.md:13
+msgid "**Maintainer(s):**"
+msgstr "**Координатор(и)**"
+
+# unordered list
+#: instructor-training/README.md:15
+msgid "* [Rayna Harris][harris_rayna]"
+msgstr "* [Rayna Harris][harris_rayna]"
+
+# unordered list
+#: instructor-training/README.md:16
+msgid "* [Christina Koch][koch_christina]"
+msgstr "* [Christina Koch][koch_christina]"
+
+# unordered list
+#: instructor-training/README.md:17
+msgid "* [Karen Word][word_karen]"
+msgstr "* [Karen Word][word_karen]"
+
+#: instructor-training/README.md:19
+msgid ""
+"[dc-site]: http://datacarpentry.org\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example\n"
+"[swc-site]: http://software-carpentry.org\n"
+"[lc-site]: https://librarycarpentry.org\n"
+"[koch_christina]: https://carpentries.org/instructors/\n"
+"[harris_rayna]: https://carpentries.org/instructors/\n"
+"[word_karen]: https://carpentries.org/team/"
+msgstr ""
+"[dc-site]: http://datacarpentry.org\n"
+"[lesson-example]: https://carpentries.github.io/lesson-example\n"
+"[swc-site]: http://software-carpentry.org\n"
+"[lc-site]: https://librarycarpentry.org\n"
+"[koch_christina]: https://carpentries.org/instructors/\n"
+"[harris_rayna]: https://carpentries.org/instructors/\n"
+"[word_karen]: https://carpentries.org/team/"

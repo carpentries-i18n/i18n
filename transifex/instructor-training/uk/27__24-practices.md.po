@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 21:33+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/24-practices.md:1
+msgid ""
+"---\n"
+"title: \"Putting It Together\"\n"
+"teaching: 5\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"How are the teaching practices we've learned used in our workshops?\"\n"
+"objectives:\n"
+"- \"Organize your knowledge of teaching practices and create a plan for using these practices in a Carpentries workshop.\"\n"
+"keypoints:\n"
+"- \"Having a plan makes it easier for you to remember to implement the important teaching practices you've learned.\"\n"
+"\n"
+"---"
+msgstr ""
+
+#: instructor-training/_episodes/24-practices.md:14
+msgid ""
+"We're almost done with our training!  At this point, we've covered many, many topics\n"
+"around teaching and learning, especially in the context of Carpentries workshops."
+msgstr ""
+
+#: instructor-training/_episodes/24-practices.md:17
+msgid ""
+"Carpentries instructors use a set of teaching techniques based on evidence from\n"
+"educational research. We've talked about some of these techniques explicitly\n"
+"(e.g. participatory live coding and formative assessment), and others we've been modeling throughout\n"
+"the workshop, without necessarily calling attention to what we were doing. Some of\n"
+"these teaching techniques are implemented at particular points in a workshop, while\n"
+"others are used throughout. Let's put together everything we've learned and organize\n"
+"these practices in terms of what parts of a workshop we need to be conscious of each\n"
+"of these strategies. In other words, let's put down on paper some of our mental model\n"
+"about teaching and learning, specifically in the Carpentries context.  "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/24-practices.md:27
+msgid "> ## Picking up the Pieces (optional)"
+msgstr ""
+
+#: instructor-training/_episodes/24-practices.md:28
+msgid ""
+">\n"
+"> In small groups or on your own, make a list of all the concepts and skills you've\n"
+"> encountered in this training.  Your list can include everything from\n"
+"> educational/teaching theories to specific in-classroom practices.  \n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Compare your list of topics with the list below.  What's missing, either in your\n"
+"> > list or the one below?  "
+msgstr ""
+
+#: instructor-training/_episodes/24-practices.md:40
+msgid "Here is a non-exhaustive list of topics:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:42
+msgid "* novice, competent practitioner, expert"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:43
+msgid "* mental model"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:44
+msgid "* formative assessment"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:45
+msgid "* blind spot"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:46
+msgid "* short-term and long-term memory"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:47
+msgid "* cognitive load"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:48
+msgid "* motivation"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:49
+msgid "* demotivation"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:50
+msgid "* error-framing"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:51
+msgid "* life-long learning"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:52
+msgid "* feedback"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:53
+msgid "* lesson study"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:54
+msgid "* Code of Conduct"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:55
+msgid "* concept maps"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:56
+msgid "* Multiple Choice Question (MCQ)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:57
+msgid "* peer instruction"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:58
+msgid "* going slowly"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:59
+msgid "* \"just\""
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:60
+msgid "* accessibility"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:61
+msgid "* sticky notes"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:62
+msgid "* one-up, one-down"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:63
+msgid "* pre- and post-workshop surveys"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:64
+msgid "* participatory live coding"
+msgstr ""
+
+# unordered list
+#: instructor-training/_episodes/24-practices.md:65
+msgid "* introductions"
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/24-practices.md:68
+msgid "> ## Organize Your Knowledge"
+msgstr ""
+
+#: instructor-training/_episodes/24-practices.md:69
+msgid ""
+">\n"
+"> Let's put the pieces together by creating a visual organization of information.  \n"
+"> We suggest doing this in two ways:\n"
+">\n"
+"> 1. If you are comfortable with / like concept maps, trying integrating all the\n"
+"> topics above into a single concept map.  \n"
+"> 2. Use the provided handout to organize topics.  Here are two examples:\n"
+">   - [Handout One](../files/handouts/Wrap-Up-doc.pdf) (with example content: [example](../files/handouts/Wrap-Up-doc-example.pdf))\n"
+">   - [Handout Two](../files/handouts/Carpentries_teaching_practices.pdf)\n"
+">\n"
+"> Work on this on your own.  There's no \"right answer\" -- this is about you building\n"
+"> up a mental model, moving from \"novice\" to \"competent practitioner\".\n"
+">\n"
+"> Once you've organized your thoughts, move to the next exercise.  "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/24-practices.md:85
+msgid "> ## Parting Thoughts"
+msgstr ""
+
+#: instructor-training/_episodes/24-practices.md:86
+msgid ""
+">\n"
+"> If you didn't think about these issues when organizing your topics in the previous\n"
+"> exercise, now consider:\n"
+"> 1. What is your mental model of teaching?\n"
+"> 2. Can you identify why each topic above applies to teaching for the Carpentries?  "
+msgstr ""
+
+#: instructor-training/_episodes/24-practices.md:93
+msgid ""
+"While there are many ways to\n"
+"think about the practice of teaching, we hope that this training has provided a model of\n"
+"teaching that is **learner-centered**.  In other words, teaching is not really about the\n"
+"teacher, but the learners!  The more we know about learner's backgrounds, motivations,\n"
+"and how they learn (educational psychology) and what interventions can address these\n"
+"issues, the more effective our teaching can be.  This also means that our model of teaching\n"
+"doesn't mean you need to be an expert in the content you're teaching or that you have\n"
+"to have a certain kind of personality -- ANYONE can learn, practice and improve their\n"
+"teaching, as with any skill.  "
+msgstr ""

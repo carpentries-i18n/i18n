@@ -1,0 +1,528 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:11+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/01-welcome.md:1
+msgid ""
+"---\n"
+"title: \"Welcome\"\n"
+"start: true\n"
+"teaching: 10\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"Who are we and how do we approach teaching?\"\n"
+"- \"What should you expect from this workshop?\"\n"
+"objectives:\n"
+"- \"Introduce yourself to your fellow workshop participants.\"\n"
+"- \"Describe what will and will not be covered in this workshop.\"\n"
+"- \"Understand that the Carpentries are communities of volunteers who develop lessons and teach workshops on basic computing and data skills for researchers.\"\n"
+"keypoints:\n"
+"- \"The Carpentries are communities of practice. We strive to provide a welcoming environment for all learners and take our Code of Conduct seriously.\"\n"
+"- \"This episode sets the stage for the entire workshop. The introductions and exercises help everyone begin to develop a relationship and trust.\"\n"
+"- \"This workshop will cover general teaching pedagogy and how it applies specifically to the Carpentries.\"\n"
+"- \"Learner motivation and prior knowledge vary widely, but can be assessed with a quick multiple choice question.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Вітаємо\"\n"
+"start: true\n"
+"teaching: 10\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"Хто ми і як підходимо до навчання?\"\n"
+"- \"Чого очікувати від цього семінару?\"\n"
+"цілі:\n"
+"- «Представтеся своїм колегам-учасникам семінару».\n"
+"- «Опишіть, що буде, а що не буде розглянуто на цьому семінарі».\n"
+"– «Зрозумійте, що Carpentries – це спільноти волонтерів, які розробляють уроки та проводять семінари з базових навичок програмування та обробки даних для дослідників».\n"
+"Ключові моменти:\n"
+"– «Carpentries — це спільноти практиків. Ми прагнемо створити комфортне середовище для всіх слухачів і серйозно ставимося до нашого Кодексу поведінки».\n"
+"– «Цей епізод закладає основу для всього семінару. Знайомство та вправи допомагають кожному почати розвивати стосунки та довіру».\n"
+"- «Цей семінар охоплюватиме загальну педагогіку викладання та її застосування конкретно до Carpentries».\n"
+"- «Мотивація слухача та попередні знання дуже відрізняються, але їх можна оцінити за допомогою швидкого питання з множинним вибором».\n"
+"\n"
+"---"
+
+# header
+#: instructor-training/_episodes/01-welcome.md:20
+msgid "## Before The Course Begins"
+msgstr "## Перед початком курсу"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/01-welcome.md:22
+msgid "> ## Getting to know each other"
+msgstr "> ## Знайомство"
+
+#: instructor-training/_episodes/01-welcome.md:23
+msgid ""
+">\n"
+"> If the trainer has chosen an [icebreaker question]({{training_site}}/instructor-training/icebreakers/index.html),\n"
+"> participate by writing your answers in the course's shared notes."
+msgstr ""
+">\n"
+"> Якщо тренер вибрав [криголамне запитання]({{training_site}}/instructor-training/icebreakers/index.html),\n"
+"> беріть участь, записуючи свої відповіді в спільних нотатках курсу."
+
+# SC/DC Template label
+#: instructor-training/_episodes/01-welcome.md:26
+#: instructor-training/_episodes/01-welcome.md:78
+#: instructor-training/_episodes/02-practice-learning.md:112
+#: instructor-training/_episodes/02-practice-learning.md:269
+#: instructor-training/_episodes/02-practice-learning.md:307
+#: instructor-training/_episodes/02-practice-learning.md:343
+#: instructor-training/_episodes/02-practice-learning.md:351
+#: instructor-training/_episodes/02-practice-learning.md:403
+#: instructor-training/_episodes/02-practice-learning.md:420
+#: instructor-training/_episodes/03-expertise.md:48
+#: instructor-training/_episodes/03-expertise.md:121
+#: instructor-training/_episodes/03-expertise.md:136
+#: instructor-training/_episodes/03-expertise.md:155
+#: instructor-training/_episodes/03-expertise.md:198
+#: instructor-training/_episodes/05-memory.md:57
+#: instructor-training/_episodes/05-memory.md:68
+#: instructor-training/_episodes/05-memory.md:100
+#: instructor-training/_episodes/05-memory.md:201
+#: instructor-training/_episodes/05-memory.md:403
+#: instructor-training/_episodes/06-feedback.md:103
+#: instructor-training/_episodes/08-motivation.md:86
+#: instructor-training/_episodes/08-motivation.md:139
+#: instructor-training/_episodes/08-motivation.md:164
+#: instructor-training/_episodes/08-motivation.md:185
+#: instructor-training/_episodes/08-motivation.md:206
+#: instructor-training/_episodes/08-motivation.md:351
+#: instructor-training/_episodes/08-motivation.md:403
+#: instructor-training/_episodes/08-motivation.md:444
+#: instructor-training/_episodes/09-mindset.md:65
+#: instructor-training/_episodes/09-mindset.md:107
+#: instructor-training/_episodes/09-mindset.md:142
+#: instructor-training/_episodes/09-mindset.md:179
+#: instructor-training/_episodes/11-practice-teaching.md:103
+#: instructor-training/_episodes/11-practice-teaching.md:146
+#: instructor-training/_episodes/11-practice-teaching.md:222
+#: instructor-training/_episodes/11-practice-teaching.md:233
+#: instructor-training/_episodes/11-practice-teaching.md:251
+#: instructor-training/_episodes/12-homework.md:62
+#: instructor-training/_episodes/12-homework.md:82
+#: instructor-training/_episodes/13-second-welcome.md:52
+#: instructor-training/_episodes/14-live.md:81
+#: instructor-training/_episodes/14-live.md:111
+#: instructor-training/_episodes/14-live.md:167
+#: instructor-training/_episodes/15-lesson-study.md:69
+#: instructor-training/_episodes/15-lesson-study.md:127
+#: instructor-training/_episodes/15-lesson-study.md:152
+#: instructor-training/_episodes/15-lesson-study.md:184
+#: instructor-training/_episodes/17-performance.md:30
+#: instructor-training/_episodes/18-management.md:39
+#: instructor-training/_episodes/18-management.md:222
+#: instructor-training/_episodes/18-management.md:240
+#: instructor-training/_episodes/20-checkout.md:55
+#: instructor-training/_episodes/20-checkout.md:67
+#: instructor-training/_episodes/20-checkout.md:112
+#: instructor-training/_episodes/21-carpentries.md:242
+#: instructor-training/_episodes/21-carpentries.md:250
+#: instructor-training/_episodes/21-carpentries.md:316
+#: instructor-training/_episodes/21-carpentries.md:321
+#: instructor-training/_episodes/23-introductions.md:266
+#: instructor-training/_episodes/24-practices.md:38
+#: instructor-training/_episodes/24-practices.md:83
+#: instructor-training/_episodes/24-practices.md:91
+#: instructor-training/_episodes/25-wrap-up.md:24
+#: instructor-training/_episodes/25-wrap-up.md:32
+#: instructor-training/_episodes/25-wrap-up.md:40
+#: instructor-training/_extras/checkout.md:47
+msgid "{: .challenge}"
+msgstr "{: .challenge}"
+
+# header
+#: instructor-training/_episodes/01-welcome.md:28
+msgid "## Code of Conduct"
+msgstr "## Кодекс поведінки"
+
+#: instructor-training/_episodes/01-welcome.md:30
+msgid ""
+"To make clear what is expected, everyone participating in Carpentries activities is required\n"
+"to conform to our [Code of Conduct]({{ site.coc }}). This Code of Conduct applies to all spaces managed by the Carpentries including, but not limited to workshops, email lists, online forums and on GitHub. Please review\n"
+"[the Code of Conduct]({{ site.coc }}) to familiarise yourself with it."
+msgstr ""
+"Для розуміння правил та обмежень усі, хто бере участь у заходах Carpenters\n"
+"мають відповідати нашому [Кодексу поведінки]({{ site.coc }}). Цей Кодекс поведінки застосовується до всіх середовищ, якими керує Carpentries, включаючи, але не обмежуючись, семінари, списки розсилки, онлайн-форуми та GitHub. Будь ласка, завантажте\n"
+"[Кодекс поведінки]({{ site.coc }}) та ознайомтеся з ним."
+
+# header
+#: instructor-training/_episodes/01-welcome.md:34
+msgid "## Introductions"
+msgstr "## Введення"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/01-welcome.md:36
+msgid "> Introductions set the stage for learning."
+msgstr "> Введення створюють основу для навчання."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/01-welcome.md:37
+msgid "> — Tracy Teal, Executive Director, The Carpentries"
+msgstr "> — Tracy Teal, Виконавчий директор, The Carpentries"
+
+# SC/DC Template label
+#: instructor-training/_episodes/01-welcome.md:38
+msgid "{: .testimonial}"
+msgstr "{: .testimonial}"
+
+#: instructor-training/_episodes/01-welcome.md:40
+msgid ""
+"Hello everyone, and welcome to the the Carpentries\n"
+"instructor training.  We're very pleased to have you with us."
+msgstr ""
+"Привіт усім, і ласкаво просимо до навчання\n"
+" інструкторів Carpenters. Ми дуже раді, що ви з нами."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/01-welcome.md:43
+msgid "> ## Today's Trainers"
+msgstr "> ## Сьогоднішні тренери"
+
+#: instructor-training/_episodes/01-welcome.md:44
+msgid ""
+">\n"
+"> To begin class, each Trainer should give a brief introduction of themselves.\n"
+">\n"
+"> (For some guidelines on introducing yourself, see some content from\n"
+"> later in the workshop: [Workshop Introductions](http://carpentries.github.io/instructor-training/23-introductions/index.html))"
+msgstr ""
+">\n"
+"> Щоб почати заняття, кожен тренер повинен коротко представитися.\n"
+">\n"
+"> (Для ознайомлення з деякими вказівками щодо самопредставлення перегляньте вміст \n"
+">  [Ведення в семінар](http://carpentries.github.io/instructor-training/23-introductions/index.html))"
+
+# SC/DC Template label
+#: instructor-training/_episodes/01-welcome.md:49
+#: instructor-training/_episodes/23-introductions.md:36
+#: instructor-training/_episodes/23-introductions.md:67
+msgid "{: .discussion}"
+msgstr "{: .discussion}"
+
+#: instructor-training/_episodes/01-welcome.md:51
+msgid "Now we would like to get to know all of you."
+msgstr "Тепер ми хочемо познайомитися з усіма вами."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/01-welcome.md:53
+msgid "> ## Reviewing Carpentries Experience and Goals"
+msgstr "> ## Огляд досвіду та цілей Carpentry"
+
+#: instructor-training/_episodes/01-welcome.md:54
+msgid ""
+">\n"
+"> Please answer the following questions in the shared notes document:\n"
+">\n"
+"> *Have you ever participated in a Software Carpentry, Data Carpentry, or Library Carpentry Workshop?*\n"
+">\n"
+"> 1.  Yes, I have taken a workshop.\n"
+"> 2.  Yes, I have been a workshop helper.\n"
+"> 3.  Yes, I organized a workshop.\n"
+"> 4.  No, but I am familiar with what is taught at a workshop.\n"
+"> 5.  No, and I am not familiar with what is taught at a workshop.\n"
+">\n"
+"> *Which of these most accurately describes your teaching experience?*\n"
+">\n"
+"> 1.  I have been a graduate or undergraduate teaching assistant for a university/college course.\n"
+"> 2.  I have not had any teaching experience in the past.\n"
+"> 3.  I have taught a seminar, workshop, or other short or informal course.\n"
+"> 4.  I have been the instructor-of-record for my own university/college course.\n"
+"> 5.  I have taught at the primary or secondary education level.\n"
+"> 6.  I have taught informally through outreach programs, hackathons, libraries, laboratory demonstrations, and similar activities.\n"
+">\n"
+"> **Why are you taking this course? What goals do you have for today and tomorrow?**\n"
+">\n"
+"> If time permits, the trainer may have you discuss these answers in small groups\n"
+"> (in breakout rooms if online), or all together as a group."
+msgstr ""
+">\n"
+"> Будь ласка, дайте відповіді на такі запитання в документі спільного використання:\n"
+">\n"
+"> *Чи брали ви коли-небудь участь у семінарі Carpentry з програмного забезпечення, даних або бібліотек Carpentry?*\n"
+">\n"
+"> 1.  Так, я пройшов семінар.\n"
+"> 2.  Так, я був помічником на семінарі.\n"
+"> 3.  Так, я організував семінар.\n"
+"> 4.  Ні, але я знайомий з тим, що викладають на семінарі.\n"
+"> 5.  Ні, та я не знайомий з тим, що викладають на семінарі..\n"
+">\n"
+"> *Що з цього найточніше описує ваш педагогічний досвід??*\n"
+">\n"
+"> 1. Я був асистентом викладача в університеті/коледжі.\n"
+"> 2. Я не мав досвіду викладання в минулому.\n"
+"> 3.  Я проводив семінар, воркшоп або інший короткий чи неформальний курс.\n"
+"> 4. Я був зареєстрованим викладачем свого курсу в університеті/коледжі.\n"
+"> 5. Я викладав на рівні початкової або середньої освіти.\n"
+"> 6. Я викладав неформально за допомогою інформаційних програм, хакатонів, бібліотек, лабораторних демонстрацій тощо.\n"
+">\n"
+"> **Чому ви проходите цей курс? Які у вас цілі на сьогодні і завтра?**\n"
+">\n"
+"> Якщо дозволяє час, тренер може попросити вас обговорити ці відповіді в малих групах\n"
+"> (у сеансах підключення, якщо онлайн), або всі разом як група."
+
+#: instructor-training/_episodes/01-welcome.md:80
+msgid ""
+"To make sure everyone has the\n"
+"same context, we'll give a brief overview of the Carpentries\n"
+"organization before starting the training."
+msgstr ""
+"Щоб переконатися, що всі  мають\n"
+"однаковий контекст, ми дамо короткий огляд \n"
+"організації Carpentry перед початком навчання"
+
+# header
+#: instructor-training/_episodes/01-welcome.md:84
+msgid "## A Brief Overview of the Carpentries"
+msgstr "## короткий огляд Carpentries"
+
+#: instructor-training/_episodes/01-welcome.md:86
+msgid ""
+"Software Carpentry, Data Carpentry, and Library Carpentry\n"
+"are official Lesson Programs of the Carpentries.\n"
+"Together, they comprise communities of volunteer researchers, educators, and more who develop\n"
+"lessons and teach intensive one to two day workshops on basic computing and data skills for\n"
+"researchers.\n"
+"* Software Carpentry focuses on helping researchers develop foundational\n"
+"computational skills\n"
+"* Data Carpentry focuses on helping\n"
+"researchers work effectively with their data through its lifecycle\n"
+"* Library Carpentry focuses on teaching data skills to people working in library- and information-related roles."
+msgstr ""
+"Програмне забезпечення Carpentry, дані  Carpentry і бібліотека  Carpentry\n"
+"є офіційними програмами уроків Carpentries.\n"
+"Ці програми об'єднують спільноти волонтерів-дослідників, викладачів тощо, які розвивають\n"
+"уроки та викладають інтенсивні одно-дводенні семінари з базових навичок програмування та обробки даних для\n"
+"дослідників.\n"
+"* Програмне забезпечення Carpentry зосереджується на допомозі дослідникам у розробці фундаментальних\n"
+"навичок програмування\n"
+"* Дані Carpentry фокусуються на допомозі\n"
+"дослідникам ефективно працювати зі своїми даними протягом їх життєвого циклу\n"
+"* Бібліотека Carpentry зосереджується на навчанні навичкам обробки даних для людей, які працюють у бібліотеці та в галузі інформаційного забезпечення."
+
+#: instructor-training/_episodes/01-welcome.md:97
+msgid ""
+"The main goal of these organizations is not to teach specific skills, per se - although those\n"
+"are covered - but rather, to convey best practices that will enable\n"
+"researchers to be more productive and do better research."
+msgstr ""
+"Основна мета цих програм не полягає в тому, щоб навчати конкретним навичкам, як таким - хоча й тим\n"
+"охоплюються, а скоріше, щоб передати найкращі практики, які дозволять\n"
+"дослідникам бути більш продуктивними та проводити кращі дослідження."
+
+# header
+#: instructor-training/_episodes/01-welcome.md:101
+msgid "## Instructor Training Workshop Overview"
+msgstr "## Огляд тренінгу для інструкторів"
+
+#: instructor-training/_episodes/01-welcome.md:103
+msgid ""
+"The goal of this two-day training is to provide you with the skills and information you need\n"
+"to become a certified Carpentries instructor. Our expectations of certified Carpentries\n"
+"instructors is that they:"
+msgstr ""
+"Мета цього дводенного тренінгу — надати вам необхідні навички та інформацію,\n"
+"що необхідні для того, щоб стати сертифікованим інструктором Carpentry. Наші очікування від сертифікованих\n"
+"інструкторів Carpentry полягає в тому, що вони:"
+
+# unordered list
+#: instructor-training/_episodes/01-welcome.md:107
+msgid ""
+"- be familiar with and understand how to apply research-based teaching "
+"principles,"
+msgstr ""
+"- знати та розуміти, як застосовувати науково-обґрунтовані принципи "
+"навчання,"
+
+#: instructor-training/_episodes/01-welcome.md:108
+msgid ""
+"especially as they apply to the Carpentries audience.\n"
+"- understand the importance of a respectful and inclusive classroom environment; commit to\n"
+"creating such an environment; and be able to\n"
+"identify and implement Carpentries policies and general practices to accomplish this.\n"
+"- practice and develop skills in the teaching methods used in Carpentries workshops\n"
+"- learn enough about the Carpentries organization to know where to go for help,\n"
+"how to start organizing a workshop, and how to get involved with community activities."
+msgstr ""
+"особливо якщо вони стосуються аудиторії Carpentry.\n"
+"- розуміти важливість створення поважного та інклюзивного середовища в аудиторії; готовність взяти на себе зобов'язання\n"
+"створення такого середовища; і вміти\n"
+"визначати та впроваджувати політику та загальні практики Carpentry для досягнення цього.\n"
+"- практикувати та розвивати навички в методах навчання, які використовуються в семінарах Carpentry\n"
+"- знати достатньо про організацію Carpentries, щоб орієнтуватися, куди звернутися за допомогою,\n"
+"як розпочати організацію семінару та як долучитися до громадської діяльності."
+
+#: instructor-training/_episodes/01-welcome.md:116
+msgid "These four goals are broken down into four main modules of content:"
+msgstr ""
+"Зміст тренінгу розбитий на чотири основні модулі згідно цих чотирьохи цілей:"
+
+# header
+#: instructor-training/_episodes/01-welcome.md:118
+msgid "### How Learning Works"
+msgstr "### Як працює навчання"
+
+#: instructor-training/_episodes/01-welcome.md:120
+msgid ""
+"One of our main emphases will be discussing the \"best practices\" of teaching. We\n"
+"will be introducing you to a handful of key educational research\n"
+"findings and demonstrating how they can be used to help people learn better and faster."
+msgstr ""
+"Одним із наших головних акцентів буде обговорення «найкращих практик» викладання. Ми\n"
+"познайомимо вас із кількома ключовими освітніми дослідженнями\n"
+"визначимо та продемонструємо, як їх можна використовувати, щоб допомогти людям навчатися краще та швидше."
+
+# header
+#: instructor-training/_episodes/01-welcome.md:124
+msgid "### Building Teaching Skill"
+msgstr "### Формування навичок викладання"
+
+#: instructor-training/_episodes/01-welcome.md:126
+msgid ""
+"Just like learning a new language, a musical instrument,\n"
+"or a sport, teaching is a skill that requires practice and feedback.\n"
+"We will have many opportunities to practice and give each other feedback throughout this workshop.\n"
+"We welcome questions and dialogue\n"
+"at any point. We'll be using the Etherpad to help facilitate discussion.\n"
+"Please feel free to ask questions verbally or to put them into the notes or chat box\n"
+"of the Etherpad."
+msgstr ""
+"Так само, як вивчення нової мови, музичного інструменту,\n"
+"або виду спорту, навчання – це навичка, яка потребує практики та зворотного зв’язку.\n"
+"Протягом цього семінару ми матимемо багато можливостей попрактикуватися та надати один одному зворотний зв’язок.\n"
+"Ми вітаємо запитання та діалог\n"
+"протягом семінару. Ми будемо використовувати Etherpad, щоб полегшити обговорення.\n"
+"Будь ласка, не соромтеся задавати запитання усно або залишати їх у нотатках чи вікні чату\n"
+"Etherpad."
+
+# header
+#: instructor-training/_episodes/01-welcome.md:134
+msgid "### Creating a Positive Learning Environment"
+msgstr "### Створення позитивного навчального середовища"
+
+#: instructor-training/_episodes/01-welcome.md:136
+msgid ""
+"One part of making this a productive two days for all of us is a\n"
+"community effort to treat one another with kindness and respect.  This\n"
+"training, as in all Carpentries workshops, is subject to\n"
+"the [Code of Conduct]({{ site.coc }}).  We will be able to\n"
+"give our best effort (and have the most fun!) if everyone abides by these guidelines.\n"
+"We will also be discussing and practicing teaching techniques to create a positive and\n"
+"welcoming environment in your classrooms."
+msgstr ""
+"Щоб зробити ці два дні продуктивними для всіх нас, необхідні:\n"
+"спільні зусилля ставитися один до одного ввічливо та з повагою. Цей\n"
+"тренінг, як і всі семінари Carpentry, підлягає\n"
+"[Кодексу поведінки]({{ site.coc }}). Ми зможемо\n"
+"досягти найкращого результату  (і отримати максимум задоволення!), якщо всі дотримуватимуться цих правил.\n"
+"Ми також будемо обговорювати та практикувати методи навчання для створення позитивного та\n"
+"приємного середовища  у ваших аудиторіях."
+
+# header
+#: instructor-training/_episodes/01-welcome.md:144
+msgid "### Carpentry History and Culture"
+msgstr "### Історія та культура Carpentry"
+
+#: instructor-training/_episodes/01-welcome.md:146
+msgid ""
+"We will be introducing you to the teaching practices that have been\n"
+"adopted by the Carpentries communities, and our\n"
+"overall philosophy and procedures in order\n"
+"to prepare you to teach Carpentries workshops.\n"
+"The greatest asset of the Carpentries is people like\n"
+"yourselves - people who want to help researchers learn about these ideas\n"
+"and share their own experience and enthusiasm.  We hope that this training\n"
+"gives everyone a chance to meet new people and share ideas."
+msgstr ""
+"Ми познайомимо вас із практикою викладання, яка була\n"
+"прийнята спільнотами Carpenters і нашою\n"
+"загальною філософією та процедурами для\n"
+"того, щоб підготувати вас до викладання на семінарах Carpentry.\n"
+"Найбільше надбання Carpentry – це люди,\n"
+"як і ви самі - люди, які хочуть допомогти дослідникам дізнатися про ці ідеї\n"
+"і поділитися власним досвідом та ентузіазмом. Сподіваємося, що цей тренінг\n"
+"дає кожному можливість познайомитися з новими людьми та поділитися ідеями."
+
+#: instructor-training/_episodes/01-welcome.md:155
+msgid ""
+"To orient yourself, there is a schedule on the workshop webpage which is "
+"linked through this workshop's Etherpad."
+msgstr ""
+"Щоб зорієнтуватися, на веб-сторінці семінару є розклад, посилання на який "
+"здійснюється через сторінку Etherpad семінару."
+
+# header
+#: instructor-training/_episodes/01-welcome.md:157
+msgid "## What We Leave Out"
+msgstr "## Що ми залишаємо поза увагою"
+
+#: instructor-training/_episodes/01-welcome.md:159
+msgid ""
+"We will **not** be going over Data Carpentry, Library Carpentry, or Software Carpentry workshop content in detail (although you will get\n"
+"familiarity with some of the content through the exercises),\n"
+"This workshop is a significant requirement for becoming a certified Carpentries instructor.\n"
+"The additional steps for certification will require that you dig into the workshop content yourself. We'll talk about that more tomorrow afternoon."
+msgstr ""
+"Ми **не** будемо детально розглядати зміст семінарів Data Carpentry, Library Carpentry або Software Carpentry (хоча ви зможете\n"
+"познайомитись з частиною змісту цих програм за допомогою вправ).\n"
+"Цей семінар є важливою вимогою для того, щоб стати сертифікованим інструктором Carpentry.\n"
+"Додаткові кроки для сертифікації вимагатимуть від вас самостійного вивчення вмісту семінару. Ми поговоримо про це більше завтра вдень."
+
+#: instructor-training/_episodes/01-welcome.md:164
+msgid ""
+"We also do not discuss how to develop lessons.  Many of the ideas we\n"
+"present can be applied to lesson development, and we will briefly touch on a method\n"
+"of lesson design called \"Reverse Instructional Design\", but it won't be an emphasis\n"
+"of this particular course."
+msgstr ""
+"Ми також не обговорюємо, як розвивати уроки. Багато ідей, які ми\n"
+"презентуємо, можна застосувати до розробки уроку, і ми коротко торкнемося методу\n"
+"дизайну уроку під назвою «Зворотний навчальний дизайн», але це не буде акцент\n"
+"цього конкретного курсу."
+
+#: instructor-training/_episodes/01-welcome.md:169
+msgid ""
+"If there's a particular topic that you would like us to address, let the trainers\n"
+"know."
+msgstr ""
+"Якщо є конкретна тема, яку б ви хотіли запропонувати до розгляду, дайте тренерам\n"
+"знати."
+
+# header
+#: instructor-training/_episodes/01-welcome.md:172
+msgid "## Let's Get Started"
+msgstr "## Давайте почнемо"
+
+#: instructor-training/_episodes/01-welcome.md:174
+msgid ""
+"Now that we have a road map of what we're covering\n"
+"ready to begin our training. Our goal is that by the end, you will\n"
+"have acquired some new knowledge, confidence, and skills that you can\n"
+"use in your teaching practice in general and in teaching Carpentries\n"
+"workshops specifically."
+msgstr ""
+"Тепер, коли у нас є дорожня карта того, що ми покриваємо,\n"
+"ми готові розпочати наше навчання. Наша мета полягає в тому, щоб ви це зробили\n"
+"придбали деякі нові знання, впевненість і навички, які ви можете\n"
+"використовувати у своїй викладацькій практиці загалом і під час проведення семінарів Carpentry."

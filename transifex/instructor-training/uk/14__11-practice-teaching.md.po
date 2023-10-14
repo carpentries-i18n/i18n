@@ -1,0 +1,705 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Maryna Novozhylova, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 19:02+0000\n"
+"Last-Translator: Maryna Novozhylova, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_episodes/11-practice-teaching.md:1
+msgid ""
+"---\n"
+"title: \"Teaching is a Skill\"\n"
+"block: \"Building Teaching Skill\"\n"
+"teaching: 15\n"
+"exercises: 55\n"
+"questions:\n"
+"- \"How can I improve my teaching?\"\n"
+"objectives:\n"
+"- \"Use peer-to-peer lesson practice to transform your instruction.\"\n"
+"- \"Give thoughtful and useful feedback.\"\n"
+"- \"Incorporate feedback into your teaching practices.\"\n"
+"keypoints:\n"
+"- \"Like all other skills, good teaching requires practice and feedback.\"\n"
+"- \"Lesson study is essential to transferring skills among teachers.\"\n"
+"- \"Feedback is most effective when those involved share ground rules and expectations.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Викладання – це навичка\"\n"
+"block: \"Формування навичок викладання\"\n"
+"teaching: 15\n"
+"exercises: 55\n"
+"questions:\n"
+"- \"Як я можу покращити своє вміння викладати?\"\n"
+"objectives:\n"
+"- «Використовуйте практику викладання \"рівний-до -рівного\", щоб трансформувати ваші інструкції».\n"
+"- «надайвате вдумливий і корисний зворотній зв'язок».\n"
+"- «Включіть зворотній зв'язок у свою практику викладання».\n"
+"keypoints:\n"
+"- «Як і всі інші навички, якісне викладання потребує практики та зворотного зв’язку».\n"
+"- «Навчання на уроках має важливе значення для передачі навичок між вчителями».\n"
+"– «Зворотний зв’язок є найефективнішим, коли учасники діляться основними правилами та очікуваннями».\n"
+"---"
+
+#: instructor-training/_episodes/11-practice-teaching.md:18
+msgid ""
+"So far, we've focused on how we can be effective instructors by understanding\n"
+"how people learn and how to create a positive classroom environment, covering\n"
+"two of our primary goals in helping you become a certified Carpentries instructor.\n"
+"Now our focus will shift to developing additional teaching skills that you can\n"
+"use in a Carpentries workshop setting, starting with the process of \"lesson study\",\n"
+"or teaching observation and feedback."
+msgstr ""
+"Поки що ми зосереджувалися на тому, як ми можемо бути ефективними інструкторами завдяки розумінню\n"
+"як люди навчаються та як створити позитивне середовище в класі, висвітлюючи\n"
+"дві наші головні цілі, щоб допомогти вам стати сертифікованим інструктором спільноти Carpentry.\n"
+"Тепер ми зосередимося на розвитку додаткових навичок викладання, які ви можете\n"
+"використати в умовах семінарів Carpentry, починаючи з процесу «вивчення уроку»,\n"
+"або спостереження за навчанням та зворотнім зв'язком."
+
+# header
+#: instructor-training/_episodes/11-practice-teaching.md:25
+msgid "## Lesson Study: Applying a Growth Mindset to Teaching"
+msgstr ""
+"## Lesson Study: Дослідження уроку: Застосування концепції мислення "
+"зростання до викладання"
+
+#: instructor-training/_episodes/11-practice-teaching.md:27
+msgid ""
+"We've seen that providing opportunities for practice\n"
+"and giving useful feedback to learners are essential components in the learning\n"
+"process. Learning to teach is no different."
+msgstr ""
+"Ми бачили, що надання можливостей для практики\n"
+"та забезпечення слухачам корисного зворотного зв'язку є важливими компонентами процесу навчання.\n"
+"Навчання викладанню нічим не відрізняється."
+
+#: instructor-training/_episodes/11-practice-teaching.md:31
+msgid ""
+"However, many people assume that teachers are born, not made.  From politicians\n"
+"to researchers and teachers themselves, most reformers have designed systems to\n"
+"find and promote those who can teach and eliminate those who can't.\n"
+"As Elizabeth Green describes in *[Building a Better Teacher][worldcat-babt]*, though,\n"
+"that assumption is wrong, which is why educational reforms based on it have repeatedly failed."
+msgstr ""
+"Однак багато людей вважають, що вчителями народжуються, а не стають. Від політиків\n"
+"для самих дослідників і викладачів більшість реформаторів розробили системи, щоб\n"
+"знаходити і підтримувати тих, хто може навчати, і виключати тих, хто не може.\n"
+"Однак, як описує Елізабет Грін у *[Building a Better Teacher][worldcat-babt]*,\n"
+"це припущення є хибним, тому освітні реформи, засновані на ньому, неодноразово зазнавали невдачі."
+
+#: instructor-training/_episodes/11-practice-teaching.md:37
+msgid ""
+"To assume that teaching is an \"inherited\" or innate skill is to take on a fixed\n"
+"mindset about teaching. A growth mindset believes that anyone can become a better\n"
+"teacher by the same methods we use to learn any subject -- reflective practice.\n"
+"More specifically, instructors develop teaching skill\n"
+"over time through practice and improve most when given feedback on their performance\n"
+"from other instructors who share their pedagogical model."
+msgstr ""
+"Припускати, що викладання є «успадкованою» або вродженою навичкою, означає прийняти концепцію фіксованого\n"
+"мислення. Мислення зростання вірить, що будь-хто може стати кращим\n"
+"вчителем за тими ж методами, які ми використовуємо для вивчення будь-якого предмету -- рефлексивна практика.\n"
+"Зокрема, інструктори розвивають навички викладання\n"
+"з плином часу через практику та покращуються найбільше, коли отримують відгуки про їх продуктивність\n"
+"від інших інструкторів, які поділяють їх педагогічну модель."
+
+#: instructor-training/_episodes/11-practice-teaching.md:44
+msgid ""
+"We know that teachers can learn how to teach because of research done on\n"
+"the Japanese method of jugyokenkyu or \"lesson study.\""
+msgstr ""
+"Ми знаємо, що вчителі можуть навчитися викладати завдяки проведеним дослідженням\n"
+"за японським методом jugyokenkyu або «вивчення уроку»."
+
+#: instructor-training/_episodes/11-practice-teaching.md:47
+msgid ""
+"In the 1980s and 90s, an educational psychologist named James Stigler observed\n"
+"teachers in the US and Japan. In the [OECD's annual rankings][oecd-pisa] of countries' educational\n"
+"achievements, Japanese students routinely test near the top in reading, math and science, while\n"
+"American students rank at or below average."
+msgstr ""
+"У 1980-90-х роках педагог-психолог Джеймс Стіглер вивчав досвід\n"
+"вчителів у США та Японії. У [щорічному рейтингу ОЕСР] [oecd-pisa] освітніх країн\n"
+"досягнень, японські студенти регулярно демострують найкращі знання з читання, математики та природничих наук\n"
+"Американські студенти мають рейтинг на рівні або нижче середнього."
+
+#: instructor-training/_episodes/11-practice-teaching.md:52
+msgid ""
+"Looking at differences in teaching methods, Stigler found that American teachers met at most once\n"
+"a year to exchange ideas about teaching, compared to the weekly or even daily meetings of Japanese\n"
+"teachers. During these meetings, teachers in the US described their lessons to each other, but they did\n"
+"not observe each others' teaching in practice. In contrast, Japanese teachers regularly conducted lesson study:\n"
+"observing each other at work, discussing the lesson afterward, and studying curriculum materials with their\n"
+"colleagues."
+msgstr ""
+"Розглядаючи відмінності в методах навчання, Стіглер виявив, що американські вчителі зустрічалися щонайбільше один раз\n"
+"на рік, щоб обмінятися думками про викладання, порівняно з тижневими чи навіть щоденними зустрічами японських\n"
+"вчителів. Під час цих зустрічей вчителі в США описували один одному свої уроки, але вони це робили,\n"
+"не спостерігаючи за викладанням один одного на практиці. Навпаки, японські вчителі регулярно проводили уроки,\n"
+"спостерігаючи один за одним за роботою, обговорювали уроки після цього та вивчали разом  навчальні матеріали\n"
+"колег."
+
+#: instructor-training/_episodes/11-practice-teaching.md:59
+msgid ""
+"The situation is different in many English-language school systems:\n"
+"in the US, Canada, the UK, Australia, and elsewhere, where often\n"
+"what happens in the classroom stays in the classroom.\n"
+"Teachers aren't able to watch each other's lessons on a regular basis,\n"
+"so they can't borrow each other's good ideas.\n"
+"The result is that *every teacher has to invent teaching on their own*.\n"
+"They may get lesson plans and assignments from colleagues,\n"
+"the school board,\n"
+"a textbook publisher,\n"
+"or the Internet,\n"
+"but each teacher has to figure out on their own how to combine that with\n"
+"the theory they've learned in their educational programs\n"
+"to deliver an actual lesson in an actual classroom for actual learners.\n"
+"When teachers don't observe each other teaching, the tricks and techniques that each instructor\n"
+"has painstakingly incorporated into their practice don't have the opportunity to spread, limiting\n"
+"forward momentum on system-wide improvements to teaching."
+msgstr ""
+"У багатьох англомовних шкільних системах ситуація інша:\n"
+"у США, Канаді, Великобританії, Австралії та інших країнах часто\n"
+"те, що відбувається в класі, залишається в класі.\n"
+"Вчителі не можуть регулярно спостерігати за уроками один одного,\n"
+"тому вони не можуть запозичити гарні ідеї у колег.\n"
+"Результатом є те, що *кожен вчитель повинен винаходити стратегії викладання самостійно*.\n"
+"Вони можуть отримати плани уроків і завдання від колег,\n"
+"шкільної ради,\n"
+"видавця підручників,\n"
+"або Інтернету,\n"
+"але кожен учитель повинен сам з’ясувати, як поєднати це з\n"
+"теорією, яку вони вивчали в своїх освітніх програмах\n"
+"провести справжній урок у реальному класі для справжніх учнів.\n"
+"Коли вчителі не спостерігають за технлогією викладання один одного, трюками та техніками кожного інструктора,\n"
+"які тот включив в свою практику, то вони не мають можливості розвиватися, обмежуючи\n"
+"просування імпульсу для загальносистемних удосконалень викладання."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:76
+msgid "> ## Reading It Isn't Enough"
+msgstr "> ## Читати недостатньо "
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:77
+msgid ""
+"> Several research studies (in [2007][fincher-warren], [2012][fincher-"
+"stories], and [2015][barker-practice]) have shown"
+msgstr ""
+"> Кілька досліджень (такі, як [2007][fincher-warren], [2012][fincher-"
+"stories], and [2015][barker-practice]) показали"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:78
+msgid ""
+"> that teachers don't adopt instructional practices based on reports about "
+"the effectiveness of those practices."
+msgstr ""
+"> що вчителі не сприймають навчальні практики на основі звітів про "
+"ефективність цих практик."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:79
+msgid "> Social norms, institutional"
+msgstr "> Соціальні норми, інституційна"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:80
+msgid ""
+"> culture, and lack of time and support prevent many teachers from moving "
+"out of"
+msgstr ""
+"> культура, брак часу та підтримки заважає багатьом вчителям розвивати"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:81
+msgid ""
+"> their accustomed teaching habits. Change in teaching doesn't come about "
+"through reading about new teaching practices, but by seeing"
+msgstr ""
+"> набуті раніше звички викладання. Зміни у викладанні відбуваються не через "
+"читання про нові практики викладання, а завдяки можливості"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:82
+msgid ""
+"> these practices in action, practicing them and getting feedback from other"
+" instructors."
+msgstr ""
+"> спостереження за цими практиками в дії, беручи в них участь і отримуючи "
+"зворотній зв'язок від інших інструкторів."
+
+#: instructor-training/_episodes/11-practice-teaching.md:85
+msgid ""
+"Therefore, just like other disciplines (sports and music are two good examples), teachers benefit from closely\n"
+"observing the work of others.  The Carpentries pedagogical model supports lesson\n"
+"study by providing many opportunities for our instructors\n"
+"to learn from each other. In this training workshop, you will have opportunities to practice teaching for one another\n"
+"and to give each other feedback.  You'll also have the opportunity to practice in front of an experienced instructor\n"
+"as part of your instructor training checkout. In addition, Carpentries instructors always teach in pairs (or more),\n"
+"giving you the opportunity to learn by observing and to get feedback from your fellow instructors."
+msgstr ""
+"Тому, як і в інших дисциплінах (спорт і музика – два гарних приклади), вчителі отримують велику користь\n"
+"спостерігаючи за роботою інших. Педагогічна модель, що реалізується у  Carpentries, підтримує процес\n"
+"навчання, надаючи багато можливостей для наших інструкторів\n"
+"вчитися один у одного. На цьому навчальному семінарі ви матимете можливість попрактикуватися в навчанні один для одного\n"
+"і давати один одному зворотний зв’язок. Ви також матимете можливість потренуватися перед досвідченим інструктором\n"
+"у рамках перевірки навчання інструктора. Крім того, інструктори Carpentries завжди навчаються парами (або більше),\n"
+"що дає вам можливість навчатися, спостерігаючи та отримуючи відгуки від ваших колег-інструкторів."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:93
+msgid "> ## Giving Feedback"
+msgstr "> ## Надання зворотнього зв'язку"
+
+#: instructor-training/_episodes/11-practice-teaching.md:94
+msgid ""
+">\n"
+"> We'll start by observing some examples of teaching and providing some feedback.\n"
+">\n"
+"> Watch this [example teaching video][bad-teaching-video] as a group\n"
+"> and then give feedback on it. Put your feedback in the Etherpad.\n"
+"> Organize your feedback along two axes:\n"
+"> positive vs. negative\n"
+"> and content (what was said) vs. presentation (how it was said).\n"
+"> This exercise should take about 10 minutes."
+msgstr ""
+">\n"
+"> Почнемо з огляду деяких прикладів викладання та надамо певний зворотній зв'язок.\n"
+">\n"
+"> Перегляньте цей [приклад навчального відео][bad-teaching-video] у групі,\n"
+"> а потім надайте відгук про це. Розмістіть свій відгук в Etherpad.\n"
+"> Організуйте свій відгук за двома осями:\n"
+"> позитивне проти негативного\n"
+"> і зміст (що було сказано) проти презентації (як це було сказано).\n"
+"> Ця вправа займає близько 10 хвилин."
+
+#: instructor-training/_episodes/11-practice-teaching.md:105
+msgid ""
+"Now that you've had some practice observing teaching and giving feedback, "
+"let's practice with each other."
+msgstr ""
+"Тепер, коли ви трохи потренувалися спостерігати за викладанням і давати "
+"відгук, попрактикуйтеся один з одним."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:107
+msgid "> ## Feedback on Yourself"
+msgstr "> ## Відгук про себе"
+
+#: instructor-training/_episodes/11-practice-teaching.md:108
+msgid ""
+">\n"
+"> The goal of this exercise is to practice giving and receiving feedback, so don't be\n"
+"> overly concerned about creating a perfectly polished presentation.\n"
+"> We don't give you a lot of time to prep and the teaching time is short, so embrace\n"
+"> the challenge (and improvisation) of the exercise and see what you can learn by\n"
+"> watching other people teach, thinking about how to give them feedback, and how it\n"
+"> feels to get feedback on your own teaching.\n"
+">\n"
+"> **Trainings where trainees are co-located:**\n"
+"> 1.  Split into groups of three.\n"
+"> 2.  Individually, spend 5 minutes preparing to teach a 90-second segment of\n"
+">     the lesson episode you chose before the start of the training course. You will not\n"
+">     be live coding; you can use a whiteboard or other visual aids if available (but\n"
+">     this is not required!). We recommend using this 90 second teaching moment\n"
+">     to introduce the topic of your lesson.\n"
+"> 3.  Get together with your group and have each person teach their segment to the group,\n"
+">     while one person records this (video and audio)\n"
+">     using a cell phone or some other handheld device.\n"
+">     Keep a strict time limit of 90 seconds per person.\n"
+"> 3.  After the first person finishes,\n"
+">     rotate roles\n"
+">     (they become the videographer,\n"
+">     the audience becomes the instructor,\n"
+">     the person who was recording becomes the audience)\n"
+">     and then rotate roles again.\n"
+"> 4.  After everyone in the group of three has finished teaching,\n"
+">     watch the videos as a group.\n"
+">     Everyone gives feedback on all three videos,\n"
+">     i.e., people give feedback on themselves as well as on others.\n"
+"> 5.  After everyone has given feedback on all of the videos,\n"
+">     return to the main group and put everyone's feedback about you into the Etherpad.\n"
+">\n"
+"> **Distributed trainings:**\n"
+"> Your Trainer will split the group into virtual break-out rooms. Follow the instructions above\n"
+"> but do not record each other. Instead, give each person feedback immediately after they finish their\n"
+"> turn teaching.\n"
+">\n"
+"> This exercise should take about 25 minutes."
+msgstr ""
+">\n"
+"> Мета цієї вправи — потренуватися надсилати та отримувати зворотний зв’язок, тож не варто\n"
+"> надмірно опікуватися створенням ідеально відшліфованої презентації.\n"
+"> Ми не даємо вам багато часу на підготовку, до того ж час викладання короткий, тож сприймайтецю вправу як\n"
+"> виклик (та імпровізацію) та подивіться, чому ви можете навчитися,\n"
+"> спостерігати за викладанням інших людей, думати про те, як дати їм зворотний зв’язок і як це відчувається,\n"
+">коли отримуєш зворотний зв’язок щодо свого власного викладання.\n"
+">\n"
+"> **Тренінги, де стажери співпрацюють:**\n"
+"> 1. Розділіться на групи по троє.\n"
+"> 2. Індивідуально витратить 5 хвилин на підготовку до викладання 90-секундного сегменту\n"
+"> епізоду уроку, який ви обрали перед початком тренування. Ви не будете зобов'язані\n"
+"> кодувати вживу; ви можете використовувати дошку або інші наочні посібники, якщо вони доступні (але\n"
+"> це не обов'язково!). Ми рекомендуємо використовувати цей навчальний фрагмент тривалістю 90 секунд,\n"
+"> щоб представити тему уроку.\n"
+"> 3. Зберіться зі своєю групою та попросіть кожного викласти групі свій сегмент,\n"
+"> поки одна особа записує це (відео та аудіо)\n"
+"> за допомогою мобільного телефону або іншого портативного пристрою.\n"
+"> Дотримуйтеся суворого обмеження часу в 90 секунд на особу.\n"
+"> 3. Після того, як перша особа закінчить,\n"
+"> поміняйтеся ролями\n"
+"> (вона стає відеооператором,\n"
+"> аудиторія стає інструктором,\n"
+"> людина, яка записувала, стає аудиторією)\n"
+"> а потім знову поміняйте ролі.\n"
+"> 4. Після того, як усі в групі з трьох осіб закінчать викладання,\n"
+"> продивіться відео групою.\n"
+"> Кожен залишає відгуки про всі три відео,\n"
+"> тобто учасники дають відгук як про себе, так і про інших.\n"
+"> 5. Після того, як кожен залишить відгук про всі відео,\n"
+"> поверніться до основної групи та додайте всі відгуки про себе в Etherpad.\n"
+">\n"
+"> **Розподілені тренінги:**\n"
+"> Ваш тренер розділить групу на віртуальні кімнати. Дотримуйтесь інструкцій вище\n"
+"> але не записуйте один одного. Натомість надсилайте кожному учаснику відгук одразу після того, як він закінчить\n"
+"> викладання.\n"
+">\n"
+"> Ця вправа займає близько 25 хвилин."
+
+# header
+#: instructor-training/_episodes/11-practice-teaching.md:148
+msgid "## Feedback Is Hard"
+msgstr "## Зворотній зв'язок - це важко"
+
+#: instructor-training/_episodes/11-practice-teaching.md:150
+msgid ""
+"Sometimes it can be hard to receive feedback, especially negative feedback."
+msgstr "Іноді буває важко отримати відгук, особливо негативний."
+
+#: instructor-training/_episodes/11-practice-teaching.md:152
+msgid ""
+"![Feedback Feelings](../fig/deathbulge-jerk.jpg \"Comic from "
+"http://www.deathbulge.com/comics/155\")"
+msgstr ""
+
+#: instructor-training/_episodes/11-practice-teaching.md:154
+msgid ""
+"Feedback is most effective when the people involved\n"
+"share ground rules and expectations. In Carpentries teaching, we use the 2x2\n"
+"paradigm for feedback. Each person giving feedback is expected to provide at least one\n"
+"piece of negative and one piece of positive feedback each for content and delivery. This\n"
+"helps overcome two common tendencies when giving feedback on teaching: to focus on the content\n"
+"(even though delivery is at least as important) and to either provide only negative or\n"
+"only positive feedback."
+msgstr ""
+"Зворотний зв’язок є найбільш ефективним, якщо учасники\n"
+"діляться основними правилами та очікуваннями. Викладаючи на семінарах Carpentry, ми використовуємо 2x2\n"
+"парадигму зворотного зв'язку. Очікується, що кожен учасник надасть принаймні один\n"
+"один негативний і один позитивний відгуки щодо вмісту та форми викладання. Це\n"
+"допомагає подолати дві загальні тенденції під час надання зворотного зв’язку щодо викладання: зосереджуватися тільки на змісті\n"
+"(хоча презентація є принаймні такою ж важливою) і або надавати лише негативні чи\n"
+"тільки позитивні відгуки."
+
+#: instructor-training/_episodes/11-practice-teaching.md:162
+msgid ""
+"Here is a list of different\n"
+"ways that you can set the stage for receiving or providing feedback\n"
+"in a way that facilitates growth."
+msgstr ""
+"Ось список різних\n"
+"засобів, за допомогою яких ви можете створити основу для отримання або надання зворотного зв’язку\n"
+"у спосіб, який сприяє зростанню."
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:166
+msgid ""
+"*   Initiate feedback as the instructor. It's better to ask for feedback "
+"than to receive it unwillingly."
+msgstr ""
+"*   Ініціюйте зворотний зв’язок як інструктор. Краще попросити відгук, ніж "
+"отримати його проти волі."
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:168
+msgid ""
+"*   Ask for and give specific feedback. See a great example of this from"
+msgstr ""
+"*   Попросіть і надайте конкретний відгук. Дивіться чудовий приклад цього у"
+
+#: instructor-training/_episodes/11-practice-teaching.md:169
+msgid ""
+"  this Lunar Baboon comic: ![Giving Good Feedback](../fig/feedback-"
+"artwork.jpg \"Comic from http://www.lunarbaboon.com/comics/feedback.html\")"
+msgstr ""
+"  коміксі Lunar Baboon: ![Giving Good Feedback](../fig/feedback-artwork.jpg "
+"\"Comic from http://www.lunarbaboon.com/comics/feedback.html\")"
+
+#: instructor-training/_episodes/11-practice-teaching.md:171
+msgid ""
+"  As an instructor one way to get specific feedback is to provide questions that\n"
+"  focus the responses.  Writing your own feedback questions allows you to frame\n"
+"  feedback in a way that is helpful to you - the questions below\n"
+"  reveal what didn't work in your teaching, but read as professional suggestions rather than personal judgments.\n"
+"  For example:"
+msgstr ""
+" Один із способів отримати конкретні відгуки – це поставити запитання, які задають рамки відповідей з позиції інструктора. Написання власних запитань для зворотного зв’язку дає змогу сформулювати зворотний зв’язок у зручний для вас спосіб – як приклад, запитання нижче показують, що не спрацювало у вашому викладанні, але сприймаються як професійні пропозиції, а не особисті судження.\n"
+"Наприклад:"
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:177
+msgid ""
+"* \"What is one thing I could have done as an instructor to make this lesson"
+" more effective?\""
+msgstr ""
+"* \"Що я міг би зробити як інструктор, щоб зробити цей урок ефективнішим?\""
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:178
+msgid ""
+"* \"If you could pick one thing from the lesson to go over again, what would"
+" it be?\""
+msgstr ""
+"* \"Якби ви могли вибрати один фрагмент з уроку, щоб повторити його ще раз, "
+"що б це було?\""
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:180
+msgid "* Balance positive and negative feedback."
+msgstr "* Збалансуйте позитивний і негативний відгук."
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:181
+msgid ""
+"    * Ask for or give \"compliment sandwiches\" (one positive, one negative,"
+" one positive)"
+msgstr ""
+"    * Попросіть або надайте так званий \"сендвіч з похвалою\" (один "
+"позитивний відгук, один негативний відгук, один позитивний відгук)"
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:182
+msgid "    * Ask for both types of feedback, and give both types."
+msgstr "    * Попросіть обидва типи відгуків і надайте обидва типи."
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:184
+msgid ""
+"* When sharing negative feedback, provide a clear next step to follow that "
+"will help the recipient improve."
+msgstr ""
+"* Надсилаючи негативний відгук, чітко вкажіть наступний крок, який допоможе "
+"одержувачу покращитися."
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:186
+msgid ""
+"* Communicate expectations. If your teaching feedback is taking the form of "
+"an"
+msgstr ""
+"* Комунікуйте очікування. Якщо зворотній зв'язок про ваше викладання набуває"
+" форму "
+
+#: instructor-training/_episodes/11-practice-teaching.md:187
+msgid ""
+"  observation (and you're comfortable enough with the observer), tell\n"
+"  that person how they can best communicate their feedback to you."
+msgstr ""
+"спостереження (а ви досить комфортно спілкуєтесь із спостерігачем), дайте знати\n"
+"цій людині, як вона може найкраще повідомити вам свої відгуки"
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:190
+msgid ""
+"* When giving feedback, remember that giving and receiving feedback is a "
+"skill that requires practice, so don't"
+msgstr ""
+"* Коли ви надсилаєте зворотній зв’язок, пам’ятайте, що надсилання та "
+"отримання зворотного зв’язку – це навичка, яка потребує практики, тому не "
+"робіть цього"
+
+#: instructor-training/_episodes/11-practice-teaching.md:191
+msgid ""
+"be frustrated if your feedback is rejected but try to think about why the recipient might not have been comfortable\n"
+"with the feedback you gave."
+msgstr ""
+"засмучуйтесь, якщо ваш відгук буде відхилено, але спробуйте подумати, чому одержувачу було некомфортно\n"
+"з вашим відгуком."
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:194
+msgid "* Use a feedback translator.  Have a fellow"
+msgstr "* Використовуйте тлумачення зворотнього зв'язку. Нехай"
+
+#: instructor-training/_episodes/11-practice-teaching.md:195
+msgid ""
+"  instructor (or other trusted person in the room) read over all the feedback and give\n"
+"  an executive summary.   It can be easier to hear \"It sounds like most people\n"
+"  are following, so you could speed up\" than to read several notes all saying, \"this is\n"
+"  too slow\" or \"this is boring\"."
+msgstr ""
+"інструктор (або інша довірена особа в кімнаті) прочитає всі відгуки та "
+"надасть резюме. Може бути легше почути: «Схоже, більшість людей встигають "
+"слідкувати, тож ви могли б пришвидшитися», ніж прочитати кілька нотаток із "
+"словами «це надто повільно» або «це нудно»."
+
+#: instructor-training/_episodes/11-practice-teaching.md:200
+msgid ""
+"This is part of the reason for the Carpentries' rule,\n"
+"\"Never teach alone.\"\n"
+"Having another instructor in the classroom saves your voice\n"
+"(it's hard to talk for two days straight),\n"
+"but more importantly,\n"
+"it's a chance for instructors to learn from one another and be a supportive voice\n"
+"in the room."
+msgstr ""
+"Важливою частиною правил  Carpentries є таке:\n"
+"«Ніколи не навчай сам».\n"
+"Наявність іншого викладача в аудиторії збереже ваш голос\n"
+"(важко говорити два дні поспіль),\n"
+"але важливішою\n"
+"є можливість для інструкторів вчитися один в одного та бути голосом підтримки\n"
+"в аудиторії. "
+
+#: instructor-training/_episodes/11-practice-teaching.md:208
+msgid ""
+"Finally, be kind to yourself. If you're a self-critical person,\n"
+"it's OK to remind yourself:"
+msgstr ""
+"Нарешті, будьте добрими до себе. Якщо ви самокритична людина,\n"
+"можна нагадати собі:"
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:211
+msgid "*   The feedback isn't personal."
+msgstr "*  Зворотній зв'язок не про особістість."
+
+# unordered list
+#: instructor-training/_episodes/11-practice-teaching.md:212
+msgid "*   There are always positives along with the negatives."
+msgstr "*  Поряд з негативом завжди є позитив."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:214
+msgid "> ## Feedback on Feedback (Optional)"
+msgstr "> ## Зворотній зв'язок на зворотній зв'язок (опціонально)"
+
+#: instructor-training/_episodes/11-practice-teaching.md:215
+msgid ""
+">\n"
+"> Watch either this [scipy tutorial][scipy-video-1] (8:40)\n"
+"> or this [other tutorial][scipy-video-2] (11:42).\n"
+"> For each, give feedback following the 2x2\n"
+"> model. Put your feedback in the Etherpad.\n"
+">\n"
+"> This exercise and discussion should take about 15 minutes."
+msgstr ""
+">\n"
+"> Перегляньте це [scipy tutorial][scipy-video-1] (8:40)\n"
+"> або це відео [other tutorial][scipy-video-2] (11:42).\n"
+"> Для кожного відео надішліть відгук відповідно до 2x2\n"
+"> моделі. Розмістіть свій відгук в Etherpad.\n"
+">\n"
+"> Ця вправа та обговорення мають тривати приблизно 15 хвилин."
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:224
+msgid "> ## Using Feedback"
+msgstr "> ## Використання зворотного зв'язку"
+
+#: instructor-training/_episodes/11-practice-teaching.md:225
+msgid ""
+">\n"
+"> Look back at the feedback you received on your teaching in an earlier exercise.\n"
+"> How do you feel about this feedback? Is it fair and reasonable? Do you agree with it?\n"
+">\n"
+"> Identify at least one specific change you will make to your teaching based on this feedback.\n"
+"> Describe your change in the Etherpad.\n"
+">\n"
+"> This exercise should take about 5 minutes."
+msgstr ""
+">\n"
+"> Зверніть увагу на відгуки, які ви отримали щодо свого викладання під час попередньої вправи.\n"
+"> Як ви ставитеся до цього відгуку? Чи це справедливо і розумно? Ви згодні з цим?\n"
+">\n"
+"> Визначте принаймні одну конкретну зміну, яку ви внесете у своє навчання на основі цього відгуку.\n"
+"> Опишіть свою зміну в Etherpad.\n"
+">\n"
+"> Ця вправа займає близько 5 хвилин."
+
+#: instructor-training/_episodes/11-practice-teaching.md:235
+msgid ""
+"Hopefully you were able to identify at least one helpful comment in the feedback you received and are able to\n"
+"use it to start (or continue) the process of improving your teaching. Remember, teaching is a skill that is learned.\n"
+"If you notice yourself feeling hurt or threatened by the feedback you got, or rejecting it as unfair or wrong,\n"
+"pause and try to consider the feedback from a growth mindset - that through practice and feedback, your skills\n"
+"are going to improve. By strengthening your growth mindset with respect to teaching, you can\n"
+"transform getting feedback from an unpleasant experience to a richly rewarding one. You'll have more opportunities to\n"
+"practice teaching and to get and give feedback tomorrow."
+msgstr ""
+"Сподіваємось, ви змогли визначити принаймні один корисний коментар у відгуках, які ви отримали, і можете \n"
+"використати його, щоб розпочати (або продовжити) процес покращення вашого навчання. Пам’ятайте, викладання – це навичка, якій навчаються.\n"
+"Якщо ви помітили, що відчуваєте образу чи загрозу через отриманий відгук або відкидаєте його як несправедливий чи неправильний,\n"
+"зробіть паузу та спробуйте врахувати зворотний зв’язок на основі мислення зростання – саме через практику та зворотний зв’язок ваші навички\n"
+"мають покращитися. Зміцнюючи своє мислення зростання щодо навчання, ви можете\n"
+"перетворити отримання зворотного зв’язку з неприємного досвіду на такий, що буде щедро винагороджений. У вас буде більше можливостей\n"
+"попрактикуватися у викладанні, а завтра отримати і надати зворотній зв'язок."
+
+# header
+#: instructor-training/_episodes/11-practice-teaching.md:244
+msgid "## Optional Exercises"
+msgstr "## Опціональні вправи"
+
+# blockquote, which can be cascaded
+#: instructor-training/_episodes/11-practice-teaching.md:246
+msgid "> ## Skill Acquisition: What level are your teaching skills?"
+msgstr "> ## Набуття навичок: Який рівень ваших навичок викладання?"
+
+#: instructor-training/_episodes/11-practice-teaching.md:247
+msgid ""
+">\n"
+"> As with computational skills, people have a tendency to think of teaching as something you are \"just good at\" or not. However, teaching is a skill, and expertise develops with attentive practice.\n"
+"> Examine the descriptions of \"novice,\" \"competent practitioner,\" and \"expert.\" Where do you think you fall with regard to teaching? What have you learned about teaching? What are you aware of that you still need to learn?\n"
+"> Discuss with a partner and then write some thoughts in the Etherpad."
+msgstr ""
+">\n"
+"> Як і з навичками програмування, люди схильні думати про викладання як про те, що ви «просто вмієте» чи ні. Проте викладання — це навичка, а досвід розвивається завдяки уважній практиці.\n"
+"> Розгляньте описи «новачок», «компетентний практик» і «експерт». Як ви думаєте, до якої групи ви належите щодо викладання? Що ви дізналися про викладання? Ви знаєте, що вам ще потрібно вивчити?\n"
+"> Обговоріть із партнером, а потім запишіть деякі думки в Etherpad."
+
+#: instructor-training/_episodes/11-practice-teaching.md:253
+msgid ""
+"[worldcat-babt]: https://www.worldcat.org/title/building-a-better-teacher-how-teaching-works-and-how-to-teach-it-to-everyone/oclc/953075081\n"
+"[bad-teaching-video]: https://www.youtube.com/watch?v=-ApVt04rB4U\n"
+"[scipy-video-1]: https://vimeo.com/139316669\n"
+"[scipy-video-2]: https://vimeo.com/139181120\n"
+"[oecd-pisa]: http://www.oecd.org/pisa/\n"
+"[fincher-warren]: {{ page.root }}/files/papers/fincher-warrens-questions-2007.pdf\n"
+"[fincher-stories]: {{ page.root }}/files/papers/fincher-stories-change-2012.pdf\n"
+"[barker-practice]: {{ page.root }}/files/papers/barker-practice-adoption-2015.pdf"
+msgstr ""
+"[worldcat-babt]: https://www.worldcat.org/title/building-a-better-teacher-how-teaching-works-and-how-to-teach-it-to-everyone/oclc/953075081\n"
+"[bad-teaching-video]: https://www.youtube.com/watch?v=-ApVt04rB4U\n"
+"[scipy-video-1]: https://vimeo.com/139316669\n"
+"[scipy-video-2]: https://vimeo.com/139181120\n"
+"[oecd-pisa]: http://www.oecd.org/pisa/\n"
+"[fincher-warren]: {{ page.root }}/files/papers/fincher-warrens-questions-2007.pdf\n"
+"[fincher-stories]: {{ page.root }}/files/papers/fincher-stories-change-2012.pdf\n"
+"[barker-practice]: {{ page.root }}/files/papers/barker-practice-adoption-2015.pdf"

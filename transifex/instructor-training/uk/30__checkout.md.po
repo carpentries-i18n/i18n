@@ -1,0 +1,576 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2019-08-08 21:31:48+0100\n"
+"PO-Revision-Date: 2019-08-11 20:22+0000\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: instructor-training/_extras/checkout.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Checkout Procedure\"\n"
+"calendar: https://calendar.google.com/calendar/embed?src=oseuuoht0tvjbokgg3noh8c47g%40group.calendar.google.com\n"
+"demopad: https://pad.carpentries.org/teaching-demos\n"
+"discussionpad: http://pad.software-carpentry.org/community-discussions\n"
+"---"
+msgstr ""
+
+# header
+#: instructor-training/_extras/checkout.md:9
+msgid "## Brief Overview and Rationale"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:11
+msgid ""
+"After you have completed the two-day instructor training workshop,\n"
+"you must go through these three steps to complete your training and be\n"
+"fully certified as a Carpentries instructor:"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:15
+msgid ""
+"1.  Make (and [send us a link to](mailto:{{ site.email }})) a [contribution "
+"to a lesson's content, exercises, or instructor's guide](#lesson-change)."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:16
+msgid ""
+"2.  Take part in an online [community discussion session](#discussion-"
+"session)."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:17
+msgid "3.  Teach a short [demonstration lesson](#demo-lesson) online."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:19
+msgid ""
+"Tasks are listed in the order most of our instructor trainees complete the checkout process, but\n"
+"you can complete them in any order. Trainees will receive a certificate of completion approximately \n"
+"two weeks after completing all the requirements. "
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:23
+msgid ""
+"These checkout steps aim to introduce you to key components of being a Carpentries instructor that are difficult to fully cover in the classroom\n"
+"setting of the two-day training.  These are:"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:26
+msgid ""
+"1.  Contributing to our lesson materials.  As our materials are developed by"
+" the"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:27
+msgid ""
+"    community, we want to ensure that all instructors know where and how to contribute\n"
+"    to our materials, particularly so that you can contribute in the future."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:30
+msgid "2.  Participating in the larger Carpentry instructor community.  We"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:31
+msgid ""
+"    include the community discussion session in the checkout because we hear\n"
+"    from many instructors that one of their favorite aspects of being a\n"
+"    Carpentry instructor is meeting and talking with other instructors in the community."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:35
+msgid ""
+"3.  Practicing and confirming the skills you need to teach on your own.  "
+"Before"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:36
+msgid ""
+"    signing up for a workshop, you will have practiced preparing a lesson and\n"
+"    doing a brief session of live coding."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:40
+msgid ""
+"Trainees will have three months to complete the checkout exercises. Extensions may be granted at the discretion of Carpentries staff\n"
+"and must be requested before the three months are up. To request an extension, please [contact us](mailto:{{ site.email }})."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_extras/checkout.md:44
+msgid "> ## Submit an application  "
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_extras/checkout.md:45
+msgid ""
+"> To help us track your progress through the checkout process and make sure "
+"you get the credit you deserve, you will need to submit an application in "
+"our database management system (AMY)."
+msgstr ""
+
+# blockquote, which can be cascaded
+#: instructor-training/_extras/checkout.md:46
+msgid ""
+"> If you haven't already, please fill out [the online application "
+"form](https://amy.software-carpentry.org/forms/request_training/). For group"
+" name, please enter the name your instructor provides."
+msgstr ""
+
+# header
+#: instructor-training/_extras/checkout.md:49
+msgid "## Part 1: Submit a Small Contribution to One of Our Lessons"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:50
+msgid "<a name=\"lesson-change\"></a>"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:52
+msgid ""
+"Our lessons are maintained and improved by the people who teach them,\n"
+"so this part of the checkout procedure gives you a chance to familiarize yourself\n"
+"with our collaborative curriculum development process."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:56
+msgid ""
+"Trainees must make a contribution to a lesson's content, exercises, or "
+"instructor's guide by doing one of the following:"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:58
+msgid ""
+"1. Providing substantive feedback on an existing issue or pull request "
+"(preferred)."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:59
+msgid "2. Submitting a change to fix an existing issue."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:60
+msgid ""
+"3. Proof-reading a lesson and adding a new issue describing something to be "
+"improved."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:62
+msgid ""
+"Contributions to Data Carpentry and Library Carpentry materials may be "
+"submitted through GitHub or by [email](mailto:{{ site.email }}). "
+"Contributions to Software Carpentry materials must be submitted through "
+"GitHub."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:64
+msgid ""
+"Each lesson has a CONTRIBUTING.md file in its repository on GitHub. This file explains best practices for contributing\n"
+"to that lesson. You can access a lesson's GitHub repository by clicking on the GitHub kitty icon in the \"Repository\" column for that lesson on the lesson page. The lesson pages can be found at:  "
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/checkout.md:67
+msgid "* [https://datacarpentry.org/lessons/]({{ site.dc_site }}/lessons/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/checkout.md:68
+msgid ""
+"* [https://software-carpentry.org/lessons/]({{ site.swc_site }}/lessons/)"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/checkout.md:69
+msgid ""
+"* [https://librarycarpentry.org/lessons/]({{ site.lc_site }}/lessons/) "
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:71
+msgid ""
+"Please follow the guidelines in the appropriate CONTRIBUTING.md file when "
+"making lesson contributions."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:73
+msgid "Please note that:"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:75
+msgid ""
+"1.  If you submit your contribution through GitHub, you need to [send "
+"us](mailto:{{ site.email }})"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:76
+msgid ""
+"    a link to the pull request or issue so that we can track your progress "
+"through checkout."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:78
+msgid ""
+"2.  **Your contribution doesn't need to be accepted in order for you to "
+"become an instructor**:"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:79
+msgid ""
+"    the point is to make sure that you understand the process and have met "
+"the people who review material."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:81
+msgid ""
+"3.  Be sure to format your submission in the same way as the content that's "
+"already there."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:82
+msgid ""
+"    The `CONTRIBUTING.md` file in each lesson has guidelines\n"
+"    (and improvements to these guidelines are welcome)."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:85
+msgid "4.  The lesson maintainers get many pull requests,"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:86
+msgid ""
+"    so please take some time to write a good commit message to help them understand what you're doing.\n"
+"    For example:"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:89
+msgid ""
+"    ~~~\n"
+"    Add a 'commit --amend' exercise"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:92
+msgid ""
+"    Everybody will botch a commit message at some point.  This\n"
+"    exercise introduces them to an easy way to fix those mistakes.\n"
+"    ~~~"
+msgstr ""
+
+# SC/DC Template label
+#: instructor-training/_extras/checkout.md:95
+#: instructor-training/_extras/checkout.md:102
+msgid "    {: .source}"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:97
+msgid "    will make life much easier for the maintainer than:"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:99
+msgid ""
+"    ~~~\n"
+"    Instructor-training assignment\n"
+"    ~~~"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:104
+msgid ""
+"5.  We do *not* want exercises or other material that introduce new "
+"concepts:"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:105
+msgid "    our lessons are already full to bursting."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:107
+msgid ""
+"6.  We are happy to accept contributions of new diagrams for any of our "
+"lessons."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:108
+msgid ""
+"    Please use SVG (scalable vector graphics),\n"
+"    since vector formats are easier to manipulate than raster formats.\n"
+"    SVG files can be produced using [Inkscape](https://inkscape.org/)\n"
+"    as well as other graphics programs."
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:113
+msgid ""
+"7.  We also appreciate improvements to our lessons' learning objectives."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:114
+msgid ""
+"    In particular,\n"
+"    we would like our current learning objectives to be checked against the actual lesson content,\n"
+"    and to be framed in terms of observables\n"
+"    (e.g., \"Learner will be able to do X\") rather than intangibles (e.g., \"Learner will appreciate X\")."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:119
+msgid ""
+"For more details on the workflow of how to contribute via GitHub, see this\n"
+"community [contributed guide](https://github.com/dmgt/swc_github_flow/blob/master/for_novice_contributors.md)"
+msgstr ""
+
+# header
+#: instructor-training/_extras/checkout.md:122
+msgid "## Part 2: Take Part in An Online Community Discussion Session"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:123
+msgid "<a name=\"discussion-session\"></a>"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:125
+msgid ""
+"The next step is to take part in an hour-long community discussion session\n"
+"led by an experienced instructor.\n"
+"These sessions gives you a chance to ask questions about the material\n"
+"you plan on teaching\n"
+"and to clarify anything that may be unclear about our operations in general."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:132
+msgid ""
+"Our community discussion sessions are run as video conferences several times per week:\n"
+"please see our [Community Calendar]({{page.calendar}}) for times.\n"
+"You can sign up for a session on [the community discussions Etherpad]({{page.discussionpad}});\n"
+"if none of the available times work for you,\n"
+"or if you need any special arrangements,\n"
+"please [let us know](mailto:{{ site.email }})"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:139
+msgid ""
+"The link to connect to the video conference is at the top of the Etherpad.\n"
+"Please be sure to use a headset with a built-in microphone during the session\n"
+"rather than open-air speakers and your laptop's built-in microphone,\n"
+"since the latter often lead to audio quality problems."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:144
+msgid ""
+"To prepare for your session,\n"
+"pick one lesson that you plan on teaching and read the whole lesson.\n"
+"As you are reading, make notes about the following:"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:148
+msgid ""
+"1.  Was there anything that you found unclear in the material? Did you get "
+"stuck anywhere?"
+msgstr ""
+
+# ordered list
+#: instructor-training/_extras/checkout.md:149
+msgid ""
+"2.  Did you feel like you would like to change the flow or present the "
+"concepts differently?"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:150
+msgid ""
+"    If so, what and why?\n"
+"3.  What are some misconceptions that the learners may have when learning this material?\n"
+"    Which bits of the lesson may be tricky and if poorly explained,\n"
+"    may lead the learners to broken mental models?\n"
+"4.  What prior knowledge do learners need to have before participating in this lesson?\n"
+"    If you were to list any prerequisites, what would they be?"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:157
+msgid ""
+"The first two questions are intended to help you become more comfortable\n"
+"with our collaborative lesson development methods.\n"
+"The third and fourth question refer back to the instructor training course,\n"
+"and are meant to give you a chance to apply some of what you've learned to these specific lessons."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:162
+msgid ""
+"During the session,\n"
+"you are expected to ask questions to show that you've thought about what you're going to teach\n"
+"(including questions you had while reading through your chosen lesson),\n"
+"and about how our workshops are run in general."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:167
+msgid "Sample questions include:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/checkout.md:169
+msgid ""
+"*   What were the most interesting or surprising things existing instructors"
+" learned"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:170
+msgid ""
+"    when they attended or taught their first workshop?\n"
+"*   What pre- and during-workshop responsibilities did each instructor have?\n"
+"*   What lessons did people teach?\n"
+"*   How did instructors test installation of the required software?\n"
+"*   How long did lessons actually take to teach?\n"
+"    (Alternatively, how far did instructors actually get?)\n"
+"*   Did people adapt or modify the lesson material?\n"
+"    If so, how and why?\n"
+"*   Where in the material are learners most likely to misunderstand things or get lost,\n"
+"    and why?"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:181
+msgid "Trainees may also ask about:"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/checkout.md:183
+msgid "*   material in the lessons that they don't understand,"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/checkout.md:184
+msgid ""
+"*   how teaching these workshops has helped people's own work or careers, "
+"and"
+msgstr ""
+
+# unordered list
+#: instructor-training/_extras/checkout.md:185
+msgid "*   anything else that comes to mind."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:187
+msgid ""
+"If the discussion leader feels that you have adequately participated in the conversation,\n"
+"they will notify the training coordinator."
+msgstr ""
+
+# header
+#: instructor-training/_extras/checkout.md:190
+msgid "## Part 3: Teach a Short Demonstration Lesson"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:191
+msgid "<a name=\"demo-lesson\"></a>"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:193
+msgid ""
+"The final step is to sign up for a 5-minute demonstration online using\n"
+"[the teaching demo schedule Etherpad]({{page.demopad}})\n"
+"(or add yourself to the top of the pad if none of the available times work for you)."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:197
+msgid ""
+"The link to connect to the video conference is at the top of the Etherpad. \n"
+"Please be sure to use a headset with a built-in microphone during the session\n"
+"rather than open-air speakers and your laptop's built-in microphone,\n"
+"since the latter often lead to audio quality problems.\n"
+"The instructor leading the session will post other information\n"
+"in [the Etherpad]({{page.demopad}}) shortly before it begins."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:204
+msgid ""
+"If you want to do your demonstration in a language other than English,\n"
+"please let us know in advance so that we can attempt to find someone to moderate.\n"
+"We may not be able to accommodate all languages."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:208
+msgid ""
+"For your teaching demonstration, you will prepare to teach a lesson from one of the\n"
+"Carpentries lesson programs. You will be asked to teach a short segment from your chosen lesson from this \n"
+"[list of suggested episodes](https://carpentries.github.io/instructor-training/demo_lessons/index.html). \n"
+"The host of the session will pick a segment of the lesson for you to teach on the day of the \n"
+"demonstration, so you must be prepared to teach any part of your chosen lesson."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:214
+msgid ""
+"You can refer to the lists of [Software Carpentry lessons](https://software-carpentry.org/lessons/), [Data Carpentry lessons](http://www.datacarpentry.org/lessons/), and [Library Carpentry lessons](https://librarycarpentry.org/lessons/) on the websites.\n"
+"A lesson corresponds to a single line in the lesson table and a single repository in GitHub. Some lessons have supplementary modules.\n"
+"You do not need to be prepared to teach the supplementary modules for your teaching demonstration.  "
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:218
+msgid ""
+"_Please note that you only need to demonstrate your ability to teach one lesson; once certified you can teach any lesson if you have the relevant expertise. \n"
+"You can indicate the lessons you are comfortable teaching when you update \n"
+"[your instructor profile](https://amy.software-carpentry.org/workshops/trainee-dashboard/)._ "
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:222
+msgid ""
+"For your demonstration(s), you will screen-share\n"
+"and live code as if your computer was plugged into a projector\n"
+"and you were standing in front of a class.\n"
+"You may use whatever notes you want,\n"
+"provided they are not visible on your screen.\n"
+"Please teach as you would in an actual workshop.\n"
+"When your five minutes are up,\n"
+"the trainer leading the session will call time,\n"
+"and then you and everyone else taking part in the session will give feedback on your teaching\n"
+"in the session's Etherpad.\n"
+"Note that people are required to give feedback on themselves as well as on others;\n"
+"note also that it's useful to organize your feedback along the two axes of positive vs. negative\n"
+"and content vs. presentation,\n"
+"just as you will have done during the two-day class."
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:237
+msgid ""
+"If all goes well,\n"
+"we will send you your certificate\n"
+"and instructions on how to add yourself to the teaching roster and our website.\n"
+"If for any reason the trainer leading the session feels that you should try again,\n"
+"you will be told what to focus on\n"
+"and when and where to sign up for another session. Here is a [rubric](https://carpentries.github.io/instructor-training/demos_rubric/) made available to Trainers to aid with scoring. "
+msgstr ""
+
+# header
+#: instructor-training/_extras/checkout.md:244
+msgid "## Contacting Us"
+msgstr ""
+
+#: instructor-training/_extras/checkout.md:246
+msgid ""
+"If you have any questions or suggestions about any of the above,\n"
+"please [contact us](mailto:{{ site.email }})."
+msgstr ""
