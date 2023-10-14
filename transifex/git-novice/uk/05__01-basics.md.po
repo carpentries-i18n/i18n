@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Olexandr Konovalov, 2023
+# Sofiia Matios, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Sofiia Matios, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: git-novice/_episodes/01-basics.md:1
+msgid ""
+"---\n"
+"title: Automated Version Control\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"What is version control and why should I use it?\"\n"
+"objectives:\n"
+"- \"Understand the benefits of an automated version control system.\"\n"
+"- \"Understand the basics of how automated version control systems work.\"\n"
+"keypoints:\n"
+"- \"Version control is like an unlimited 'undo'.\"\n"
+"- \"Version control also allows many people to work in parallel.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: Автоматизоване управління версіями\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Що таке контроль версій і чому ми маємо його використовувати?\"\n"
+"objectives:\n"
+"- \"Зрозуміти переваги автоматизованої системи управління версіями.\"\n"
+"- \"Зрозуміти основи роботи автоматизованих систем управління версіями.\"\n"
+"keypoints:\n"
+"- \"Контроль версій схожий на необмежене 'скасування' (undo).\"\n"
+"- \"Контроль версій також дозволяє багатьом людям працювати паралельно.\"\n"
+"---"
+
+#: git-novice/_episodes/01-basics.md:15
+msgid ""
+"We'll start by exploring how version control can be used\n"
+"to keep track of what one person did and when.\n"
+"Even if you aren't collaborating with other people,\n"
+"automated version control is much better than this situation:"
+msgstr ""
+"Ми почнемо з розгляду того, як контроль версій може бути використаний\n"
+"для відстеження того, що і коли зробив один користувач.\n"
+"Навіть якщо ви не співпрацюєте з іншими людьми,\n"
+"автоматизований контроль версій набагато краще, ніж ця ситуація:"
+
+#: git-novice/_episodes/01-basics.md:20
+msgid ""
+"![\"Piled Higher and Deeper\" by Jorge Cham, "
+"http://www.phdcomics.com](../fig/phd101212s.png)"
+msgstr ""
+"![\"Piled Higher and Deeper\", Jorge Cham, "
+"http://www.phdcomics.com](../fig/phd101212s.png)"
+
+#: git-novice/_episodes/01-basics.md:22
+msgid "\"Piled Higher and Deeper\" by Jorge Cham, http://www.phdcomics.com"
+msgstr "\"Piled Higher and Deeper\",  Jorge Cham, http://www.phdcomics.com"
+
+#: git-novice/_episodes/01-basics.md:24
+msgid ""
+"We've all been in this situation before: it seems unnecessary to have\n"
+"multiple nearly-identical versions of the same document. Some word\n"
+"processors let us deal with this a little better, such as Microsoft\n"
+"Word's \n"
+"[Track Changes](https://support.office.com/en-us/article/Track-changes-in-Word-197ba630-0f5f-4a8e-9a77-3712475e806a), \n"
+"Google Docs' [version history](https://support.google.com/docs/answer/190843?hl=en), or \n"
+"LibreOffice's [Recording and Displaying Changes](https://help.libreoffice.org/Common/Recording_and_Displaying_Changes)."
+msgstr ""
+"Ми всі були в цій ситуації раніше: здається непотрібним мати кілька\n"
+"майже ідентичних версій одного документа. Деякі\n"
+"текстові процесори дозволяють нам впоратися з цим трохи краще, наприклад, Microsoft \n"
+"Word може \n"
+"[відстежувати зміни](https://support.office.com/en-us/article/Track-changes-in-Word-197ba630-0f5f-4a8e-9a77-3712475e806a), \n"
+"Google Docs підтримує [історію версій](https://support.google.com/docs/answer/190843?hl=en), а \n"
+"LibreOffice - [запис та відображення змін](https://help.libreoffice.org/Common/Recording_and_Displaying_Changes)."
+
+#: git-novice/_episodes/01-basics.md:32
+msgid ""
+"Version control systems start with a base version of the document and\n"
+"then record changes you make each step of the way. You can\n"
+"think of it as a recording of your progress: you can rewind to start at the base\n"
+"document and play back each change you made, eventually arriving at your\n"
+"more recent version."
+msgstr ""
+"Системи управління версіями починають з зберігання базової (тобто початкової) версії документа, а\n"
+"потім записують зміни, які ви робите на кожному етапі редагування. Ви можете\n"
+"думати про це як про запис вашого прогресу: ви можете перемотати його назад, щоб почати з базової версії\n"
+"документу та відтворити кожну внесену вами зміну, в кінцевому підсумку \n"
+"прийшовши до вашої більш пізньої версії."
+
+#: git-novice/_episodes/01-basics.md:38
+msgid "![Changes Are Saved Sequentially](../fig/play-changes.svg)"
+msgstr "![Зміни зберігаються послідовно](../fig/play-changes.svg)"
+
+#: git-novice/_episodes/01-basics.md:40
+msgid ""
+"Once you think of changes as separate from the document itself, you\n"
+"can then think about \"playing back\" different sets of changes on the base document, ultimately\n"
+"resulting in different versions of that document. For example, two users can make independent\n"
+"sets of changes on the same document. "
+msgstr ""
+"Якщо ви будете розглядати зміни, як щось окреме від самого документу, ви\n"
+"можете уявити собі процес «відтворення» різних наборів змін на базовому документі, який, зрештою, \n"
+"призведе до різних версій цього документа. Наприклад, два користувача можуть робити незалежні\n"
+"набори змін у одному документі."
+
+#: git-novice/_episodes/01-basics.md:45
+msgid "![Different Versions Can be Saved](../fig/versions.svg)"
+msgstr "![Різні версії можуть бути збережені](../fig/versions.svg)"
+
+#: git-novice/_episodes/01-basics.md:47
+msgid ""
+"Unless multiple users make changes to the same section of the document - a conflict - you can \n"
+"incorporate two sets of changes into the same base document."
+msgstr ""
+"Якщо немає конфліктів, тобто немає ситуації, коли декілька користувачів вносять зміни до одного й того ж розділу документа, то буде можливо \n"
+"включити два набори змін до одного базового документа."
+
+#: git-novice/_episodes/01-basics.md:50
+msgid "![Multiple Versions Can be Merged](../fig/merge.svg)"
+msgstr "![Різні версії можуть бути об'єднані](../fig/merge.svg)"
+
+#: git-novice/_episodes/01-basics.md:52
+msgid ""
+"A version control system is a tool that keeps track of these changes for us,\n"
+"effectively creating different versions of our files. It allows us to decide\n"
+"which changes will be made to the next version (each record of these changes is\n"
+"called a [commit]({{ page.root }}{% link reference.md %}#commit)), and keeps useful metadata\n"
+"about them. The complete history of commits for a particular project and their\n"
+"metadata make up a [repository]({{ page.root }}{% link reference.md %}#repository).\n"
+"Repositories can be kept in sync across different computers, facilitating\n"
+"collaboration among different people."
+msgstr ""
+"Система управління версіями - це інструмент, який відстежує ці зміни для нас, \n"
+"по суті створюючи різні версії наших файлів. Це дозволяє нам вирішити,\n"
+"які зміни будуть внесені до наступної версії (кожен запис цих змін\n"
+"називається [коміт]({{ page.root }}{% link reference.md %}#commit)), і зберігає корисні метадані\n"
+"про зміни. Повна історія комітів для конкретного проєкту та їх\n"
+"метадані складають [репозиторій]({{ page.root }}{% link reference.md %}#repository).\n"
+"Репозиторії, які знаходяться на різних комп'ютерах, можуть бути синхронізовані, що сприяє\n"
+"співпраці між різними людьми."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/01-basics.md:61
+msgid "> ## The Long History of Version Control Systems"
+msgstr "> ## Давня Історія Систем Управління Версіями"
+
+#: git-novice/_episodes/01-basics.md:62
+msgid ""
+">\n"
+"> Automated version control systems are nothing new.\n"
+"> Tools like [RCS](https://en.wikipedia.org/wiki/Revision_Control_System), [CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System), or [Subversion](https://en.wikipedia.org/wiki/Apache_Subversion) have been around since the early 1980s and are used by \n"
+"> many large companies.\n"
+"> However, many of these are now considered legacy systems (i.e., outdated) due to various \n"
+"> limitations in their capabilities.\n"
+"> More modern systems, such as Git and [Mercurial](https://swcarpentry.github.io/hg-novice/),\n"
+"> are *distributed*, meaning that they do not need a centralized server to host the repository.\n"
+"> These modern systems also include powerful merging tools that make it possible for \n"
+"> multiple authors to work on\n"
+"> the same files concurrently."
+msgstr ""
+">\n"
+"> Автоматизовані системи управління версіями не є чимось новим.\n"
+"> Інструменти, такі як [RCS](https://en.wikipedia.org/wiki/Revision_Control_System), [CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System), або [Subversion](https://en.wikipedia.org/wiki/Apache_Subversion) існують з початку 1980-х років і використовуються \n"
+"> багатьма великими компаніями.\n"
+"> Однак багато з них зараз вважаються застарілими системами через різні \n"
+"> обмеження у своїх можливостях.\n"
+"> Більш сучасні системи, такі як Git та [Mercurial](https://swcarpentry.github.io/hg-novice/),\n"
+"> є *розподіленими*, що означає, що їм не потрібен централізований сервер для розміщення репозиторію.\n"
+"> Ці сучасні системи також включають потужні інструменти злиття змін (merging), які дозволяють багатьом \n"
+"> авторам працювати над одними й тими ж файлами\n"
+"> одночасно."
+
+# SC/DC Template label
+#: git-novice/_episodes/01-basics.md:73 git-novice/_episodes/02-setup.md:45
+#: git-novice/_episodes/02-setup.md:76 git-novice/_episodes/02-setup.md:105
+#: git-novice/_episodes/02-setup.md:134 git-novice/_episodes/02-setup.md:168
+#: git-novice/_episodes/02-setup.md:190 git-novice/_episodes/04-changes.md:204
+#: git-novice/_episodes/04-changes.md:355
+#: git-novice/_episodes/04-changes.md:494
+#: git-novice/_episodes/04-changes.md:509
+#: git-novice/_episodes/04-changes.md:562
+#: git-novice/_episodes/04-changes.md:610
+#: git-novice/_episodes/05-history.md:305
+#: git-novice/_episodes/05-history.md:338 git-novice/_episodes/07-github.md:89
+#: git-novice/_episodes/07-github.md:137 git-novice/_episodes/07-github.md:145
+#: git-novice/_episodes/07-github.md:336 git-novice/_episodes/07-github.md:359
+#: git-novice/_episodes/07-github.md:372 git-novice/_episodes/07-github.md:426
+#: git-novice/_episodes/08-collab.md:26 git-novice/_episodes/08-collab.md:145
+#: git-novice/_episodes/08-collab.md:188 git-novice/_episodes/10-open.md:101
+#: git-novice/_episodes/13-hosting.md:70
+#: git-novice/_episodes/14-supplemental-rstudio.md:69
+#: git-novice/_episodes/14-supplemental-rstudio.md:115
+#: git-novice/_episodes/14-supplemental-rstudio.md:133
+#: git-novice/_extras/discuss.md:114
+msgid "{: .callout}"
+msgstr "{: .callout}"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/01-basics.md:75
+msgid "> ## Paper Writing"
+msgstr "> ## Написання Статті"
+
+#: git-novice/_episodes/01-basics.md:76
+msgid ""
+">\n"
+"> *   Imagine you drafted an excellent paragraph for a paper you are writing, but later ruin \n"
+">     it. How would you retrieve the *excellent* version of your conclusion? Is it even possible?\n"
+">\n"
+"> *   Imagine you have 5 co-authors. How would you manage the changes and comments \n"
+">     they make to your paper?  If you use LibreOffice Writer or Microsoft Word, what happens if \n"
+">     you accept changes made using the `Track Changes` option? Do you have a \n"
+">     history of those changes?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > *   Recovering the excellent version is only possible if you created a copy\n"
+"> >     of the old version of the paper. The danger of losing good versions\n"
+"> >     often leads to the problematic workflow illustrated in the PhD Comics\n"
+"> >     cartoon at the top of this page.\n"
+"> >     \n"
+"> > *   Collaborative writing with traditional word processors is cumbersome.\n"
+"> >     Either every collaborator has to work on a document sequentially\n"
+"> >     (slowing down the process of writing), or you have to send out a\n"
+"> >     version to all collaborators and manually merge their comments into\n"
+"> >     your document. The 'track changes' or 'record changes' option can\n"
+"> >     highlight changes for you and simplifies merging, but as soon as you\n"
+"> >     accept changes you will lose their history. You will then no longer\n"
+"> >     know who suggested that change, why it was suggested, or when it was\n"
+"> >     merged into the rest of the document. Even online word processors like\n"
+"> >     Google Docs or Microsoft Office Online do not fully resolve these\n"
+"> >     problems."
+msgstr ""
+">\n"
+"> *   Уявіть, що ви склали чудовий абзац для статті, яку ви пишете, але пізніше ви зіпсували \n"
+">    його. Як би ви отримали попередню *чудову* версію вашого висновку? Чи можливо це взагалі?\n"
+">\n"
+"> *   Уявіть, що у вас є 5 співавторів. Як би ви відстежували зміни та коментарі, \n"
+">     які вони вносять до вашої статті? Якщо ви використовуєте LibreOffice Writer або Microsoft Word, що станеться, якщо \n"
+">     ви приймете зміни, внесені за допомогою опції `Відстежувати зміни` (\"Track Changes\")? Чи будете ви мати \n"
+">     історію цих змін?\n"
+">\n"
+"> > ## Відповідь\n"
+"> >\n"
+"> > *   Відновити чудову версію можливо тільки якщо ви створили копію\n"
+"> >     старої версії статті. Небезпека втрати хороших версій часто\n"
+"> >     призводить до проблемного робочого процесу, проілюстрованого у коміксі з PhD Comics\n"
+"> >     на початку цієї сторінки.\n"
+"> >     \n"
+"> > *   Спільна робота над документами за допомогою традиційних текстових процесорів є громіздкою.\n"
+"> >     Або кожен співробітник повинен працювати над документом послідовно\n"
+"> >     (сповільнюючи процес написання), або ви повинні відправляти \n"
+"> >     нову версію всім співробітникам і вручну додавати їх коментарі\n"
+"> >     у документ. Режими 'відстеження змін' ('track changes') або 'запису змін' ('record changes') можуть \n"
+"> >     зробити зміни більш помітними та спростити їх додавання, але як тільки ви\n"
+"> >     погоджуєтесь прийняти зміни, ви втрачаєте їх історію. Після цього ви більше не будете знати хто\n"
+"> >     запропонував цю зміну, чому вона була запропонована, або коли вона була\n"
+"> >     додана до документу. Навіть текстові онлайн-процесори, такі як\n"
+"> >     Google Docs або Microsoft Office Online, не вирішують повністю ці\n"
+"> >     проблеми."
+
+# SC/DC Template label
+#: git-novice/_episodes/01-basics.md:103 git-novice/_episodes/03-create.md:167
+#: git-novice/_episodes/03-create.md:202
+#: git-novice/_episodes/04-changes.md:632
+#: git-novice/_episodes/04-changes.md:665
+#: git-novice/_episodes/04-changes.md:728
+#: git-novice/_episodes/04-changes.md:781
+#: git-novice/_episodes/05-history.md:388
+#: git-novice/_episodes/05-history.md:424
+#: git-novice/_episodes/05-history.md:481
+#: git-novice/_episodes/06-ignore.md:179 git-novice/_episodes/06-ignore.md:203
+#: git-novice/_episodes/06-ignore.md:236 git-novice/_episodes/06-ignore.md:260
+#: git-novice/_episodes/06-ignore.md:289 git-novice/_episodes/06-ignore.md:309
+#: git-novice/_episodes/06-ignore.md:329 git-novice/_episodes/07-github.md:416
+#: git-novice/_episodes/07-github.md:440 git-novice/_episodes/07-github.md:452
+#: git-novice/_episodes/07-github.md:501 git-novice/_episodes/08-collab.md:209
+#: git-novice/_episodes/09-conflict.md:506
+#: git-novice/_episodes/09-conflict.md:547
+#: git-novice/_episodes/14-supplemental-rstudio.md:150
+#: git-novice/_extras/discuss.md:504
+msgid "> {: .solution}"
+msgstr "> {: .solution}"
+
+# SC/DC Template label
+#: git-novice/_episodes/01-basics.md:104 git-novice/_episodes/03-create.md:168
+#: git-novice/_episodes/03-create.md:203
+#: git-novice/_episodes/04-changes.md:633
+#: git-novice/_episodes/04-changes.md:666
+#: git-novice/_episodes/04-changes.md:729
+#: git-novice/_episodes/04-changes.md:782
+#: git-novice/_episodes/05-history.md:389
+#: git-novice/_episodes/05-history.md:425
+#: git-novice/_episodes/05-history.md:482
+#: git-novice/_episodes/05-history.md:492
+#: git-novice/_episodes/05-history.md:500
+#: git-novice/_episodes/05-history.md:541
+#: git-novice/_episodes/06-ignore.md:180 git-novice/_episodes/06-ignore.md:204
+#: git-novice/_episodes/06-ignore.md:237 git-novice/_episodes/06-ignore.md:261
+#: git-novice/_episodes/06-ignore.md:290 git-novice/_episodes/06-ignore.md:310
+#: git-novice/_episodes/06-ignore.md:330 git-novice/_episodes/07-github.md:417
+#: git-novice/_episodes/07-github.md:441 git-novice/_episodes/07-github.md:453
+#: git-novice/_episodes/07-github.md:502 git-novice/_episodes/08-collab.md:193
+#: git-novice/_episodes/08-collab.md:210 git-novice/_episodes/08-collab.md:221
+#: git-novice/_episodes/08-collab.md:228
+#: git-novice/_episodes/09-conflict.md:337
+#: git-novice/_episodes/09-conflict.md:507
+#: git-novice/_episodes/09-conflict.md:548 git-novice/_episodes/10-open.md:109
+#: git-novice/_episodes/10-open.md:121 git-novice/_episodes/10-open.md:133
+#: git-novice/_episodes/11-licensing.md:66
+#: git-novice/_episodes/11-licensing.md:79
+#: git-novice/_episodes/13-hosting.md:78 git-novice/_episodes/13-hosting.md:85
+#: git-novice/_episodes/14-supplemental-rstudio.md:151
+#: git-novice/_extras/discuss.md:505
+msgid "{: .challenge}"
+msgstr "{: .challenge}"

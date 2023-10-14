@@ -1,0 +1,1264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sofiia Matios, 2023
+# Olexandr Konovalov, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Olexandr Konovalov, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: git-novice/_episodes/07-github.md:1
+msgid ""
+"---\n"
+"title: Remotes in GitHub\n"
+"teaching: 45\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How do I share my changes with others on the web?\"\n"
+"objectives:\n"
+"- \"Explain what remote repositories are and why they are useful.\"\n"
+"- \"Push to or pull from a remote repository.\"\n"
+"keypoints:\n"
+"- \"A local Git repository can be connected to one or more remote repositories.\"\n"
+"- \"Use the SSH protocol to connect to remote repositories.\"\n"
+"- \"`git push` copies changes from a local repository to a remote repository.\"\n"
+"- \"`git pull` copies changes from a remote repository to a local repository.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: Віддалені сховища в GitHub\n"
+"teaching: 45\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Як поділитися своїми змінами з іншими в мережі?\"\n"
+"objectives:\n"
+"- \"Пояснення, що таке віддалені репозиторії і чому вони корисні.\"\n"
+"- \"Відправляти зміни до віддаленого репозиторію або отрмимувати зміни з нього.\"\n"
+"keypoints:\n"
+"- \"Локальний репозиторій Git можна підключити до одного або декількох віддалених репозиторіїв.\"\n"
+"- \"Використання протоколу SSH для підключення до віддалених репозиторіїв.\"\n"
+"- \"`git push` копіює зміни з локального репозиторію до віддаленого репозиторію.\"\n"
+"- \"`git pull` копіює зміни з віддаленого репозиторію в локальний репозиторій.\"\n"
+"---"
+
+#: git-novice/_episodes/07-github.md:17
+msgid ""
+"Version control really comes into its own when we begin to collaborate with\n"
+"other people.  We already have most of the machinery we need to do this; the\n"
+"only thing missing is to copy changes from one repository to another."
+msgstr ""
+"Контроль версій дійсно вступає в свою силу, коли ми починаємо співпрацювати з\n"
+"іншими людьми. У нас вже є велика частина техніки, яка нам потрібна для цього;\n"
+"єдине, чого не вистачає - копіювати зміни з одного репозиторію в інший."
+
+#: git-novice/_episodes/07-github.md:21
+msgid ""
+"Systems like Git allow us to move work between any two repositories.  In\n"
+"practice, though, it's easiest to use one copy as a central hub, and to keep it\n"
+"on the web rather than on someone's laptop.  Most programmers use hosting\n"
+"services like [GitHub](https://github.com), [Bitbucket](https://bitbucket.org) or\n"
+"[GitLab](https://gitlab.com/) to hold those main copies; we'll explore the pros\n"
+"and cons of this in a later episode."
+msgstr ""
+"Такі системи, як Git, дозволяють переміщати роботу між будь-якими двома репозиторіями.\n"
+"Однак, практично найпростіше використовувати одну копію в якості центрального вузла, і зберегти його\n"
+"в мережі, аніж на чиємусь ноутбуці. Багато програмістів використовують хостинг сервіси, такі як\n"
+"[GitHub](https://github.com), [Bitbucket](https://bitbucket.org) або\n"
+"[GitLab](https://gitlab.com/) щоб зберігати основні копії; ми вивчимо плюси\n"
+"та мінуси цього в іншому епізоді."
+
+#: git-novice/_episodes/07-github.md:28
+msgid ""
+"Let's start by sharing the changes we've made to our current project with the\n"
+"world. To this end we are going to create a *remote* repository that will be linked to our *local* repository."
+msgstr ""
+"Почнемо з обміну змінами, які ми внесли до нашого поточного проєкту зі\n"
+"світом. З цією метою ми збираємося створити *віддалений* репозиторій, який буде пов'язаний з нашим *локальним* репозиторієм."
+
+# header
+#: git-novice/_episodes/07-github.md:31
+msgid "## 1. Create a remote repository"
+msgstr "## 1. Створіть віддалений репозиторій"
+
+#: git-novice/_episodes/07-github.md:32
+msgid ""
+"Log in to [GitHub](https://github.com), then click on the icon in the top right corner to\n"
+"create a new repository called `planets`:"
+msgstr ""
+"Увійдіть до [GitHub](https://github.com), потім натисніть на значок у верхньому правому куті, щоб\n"
+"створити новий репозиторій під назвою `planets`:"
+
+#: git-novice/_episodes/07-github.md:35
+msgid ""
+"![Creating a Repository on GitHub (Step 1)](../fig/github-create-"
+"repo-01.png)"
+msgstr ""
+"![Створення репозиторію у GitHub (Крок 1)](../fig/github-create-repo-01.png)"
+
+#: git-novice/_episodes/07-github.md:37
+msgid "Name your repository \"planets\" and then click \"Create Repository\"."
+msgstr ""
+"Назвіть ваш репозиторій \"planets\" і потім натисніть на \"Create "
+"Repository\"."
+
+#: git-novice/_episodes/07-github.md:39
+msgid ""
+"Note: Since this repository will be connected to a local repository, it needs to be empty. Leave \n"
+"\"Initialize this repository with a README\" unchecked, and keep \"None\" as options for both \"Add \n"
+".gitignore\" and \"Add a license.\" See the \"GitHub License and README files\" exercise below for a full \n"
+"explanation of why the repository needs to be empty."
+msgstr ""
+"Зауважте: Оскільки цей репозиторій буде підʼєднано до локального репозиторію, він має бути порожнім. Залиште \n"
+"\"Initialize this repository with a README\" непозначеним, та залиште \"None\" як опції для обох \"Add \n"
+".gitignore\" та \"Add a license.\" Ознайомтеся із вправою \"GitHub License and README files\" нижче для повного\n"
+"пояснення чому репозиторій повинен бути порожнім."
+
+#: git-novice/_episodes/07-github.md:44
+msgid ""
+"![Creating a Repository on GitHub (Step 2)](../fig/github-create-"
+"repo-02.png)"
+msgstr ""
+"![Створення репозиторію у GitHub (Крок 2)](../fig/github-create-repo-02.png)"
+
+#: git-novice/_episodes/07-github.md:46
+msgid ""
+"As soon as the repository is created, GitHub displays a page with a URL and some\n"
+"information on how to configure your local repository:"
+msgstr ""
+"Як тільки репозиторій створено, GitHub відображає сторінку з URL і певною\n"
+"інформацією про те, як налаштувати локальний репозиторій:"
+
+#: git-novice/_episodes/07-github.md:49
+msgid ""
+"![Creating a Repository on GitHub (Step 3)](../fig/github-create-"
+"repo-03.png)"
+msgstr ""
+"![Створення репозиторію у GitHub (Крок 3)](../fig/github-create-repo-03.png)"
+
+#: git-novice/_episodes/07-github.md:51
+msgid "This effectively does the following on GitHub's servers:"
+msgstr "Це ефективно робить наступне на серверах GitHub:"
+
+# code block
+#: git-novice/_episodes/07-github.md:53
+msgid ""
+"~~~\n"
+"$ mkdir planets\n"
+"$ cd planets\n"
+"$ git init\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ mkdir planets\n"
+"$ cd planets\n"
+"$ git init\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:60
+msgid ""
+"If you remember back to the earlier [episode](../04-changes/) where we added and\n"
+"committed our earlier work on `mars.txt`, we had a diagram of the local repository\n"
+"which looked like this:"
+msgstr ""
+"Якщо ви пам'ятаєте, у одному з попередніх [епізодів](../04-changes/), де ми додавали та\n"
+"зберігали нашу попередню роботу над `mars.txt`, в нас була діаграма, яка зображувала локальний репозиторій,\n"
+"та виглядала так:"
+
+#: git-novice/_episodes/07-github.md:64
+msgid ""
+"![The Local Repository with Git Staging Area](../fig/git-staging-area.svg)"
+msgstr ""
+"![Локальний репозиторій із зоною стейджингу](../fig/git-staging-area.svg)"
+
+#: git-novice/_episodes/07-github.md:66
+msgid "Now that we have two repositories, we need a diagram like this:"
+msgstr "Тепер, коли ми маємо два репозиторії, нам потрібна така діаграма:"
+
+#: git-novice/_episodes/07-github.md:68
+msgid ""
+"![Freshly-Made GitHub Repository](../fig/git-freshly-made-github-repo.svg)"
+msgstr ""
+"![Freshly-Made GitHub Repository](../fig/git-freshly-made-github-repo.svg)"
+
+#: git-novice/_episodes/07-github.md:70
+msgid ""
+"Note that our local repository still contains our earlier work on `mars.txt`, but the\n"
+"remote repository on GitHub appears empty as it doesn't contain any files yet."
+msgstr ""
+"Зауважте, що наш локальний репозиторій все ще містить нашу попередню роботу над `mars.txt`, але\n"
+"віддалений репозиторій на GitHub зображується порожнім, оскільки він ще не містить жодних файлів."
+
+# header
+#: git-novice/_episodes/07-github.md:73
+msgid "## 2. Connect local to remote repository"
+msgstr "## 2. Підʼєднання локального репозиторію до віддаленого"
+
+#: git-novice/_episodes/07-github.md:74
+msgid ""
+"Now we connect the two repositories.  We do this by making the\n"
+"GitHub repository a [remote]({{ page.root}}{% link reference.md %}#remote) for the local repository.\n"
+"The home page of the repository on GitHub includes the URL string we need to\n"
+"identify it:"
+msgstr ""
+"Тепер підключаємо два сховища. Ми можемо це зробити за допомогою\n"
+"GitHub репозиторію [remote]({{ page.root}}{% link reference.md %}#remote) для локального репозиторію.\n"
+"Домашня сторінка репозиторію на GitHub включає рядок URL, який нам потрібен\n"
+"щоб ідентифікувати його:"
+
+#: git-novice/_episodes/07-github.md:79
+msgid ""
+"![Where to Find Repository URL on GitHub](../fig/github-find-repo-"
+"string.png)"
+msgstr ""
+"![Where to Find Repository URL on GitHub](../fig/github-find-repo-"
+"string.png)"
+
+#: git-novice/_episodes/07-github.md:81
+msgid ""
+"Click on the 'SSH' link to change the [protocol]({{ page.root }}{% link "
+"reference.md %}#protocol) from HTTPS to SSH."
+msgstr ""
+"Натисніть на посилання 'SSH', щоб змінити [protocol]({{ page.root }}{% link "
+"reference.md %}#protocol) від HTTPS до SSH."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:83
+msgid "> ## HTTPS vs. SSH"
+msgstr "> ## HTTPS в порівнянні з SSH"
+
+#: git-novice/_episodes/07-github.md:84
+msgid ""
+">\n"
+"> We use SSH here because, while it requires some additional configuration, it is a \n"
+"> security protocol widely used by many applications.  The steps below describe SSH at a \n"
+"> minimum level for GitHub. A supplemental episode to this lesson discusses advanced setup \n"
+"> and concepts of SSH and key pairs, and other material supplemental to git related SSH. "
+msgstr ""
+">\n"
+"> Ми тут використовуємо SSH тому що, поки він вимагає додаткову конфігурацію, це \n"
+"> протокол безпеки, який широко використовується багатьма програмами.  Кроки нижче описують SSH на \n"
+"> мінімальному рівні GitHub. Додатковий епізод до цього уроку обговорює розширені налаштування \n"
+"> і концепції SSH і пари ключів, а також інші матеріали, що доповнюють git пов'язані SSH. "
+
+#: git-novice/_episodes/07-github.md:91
+msgid ""
+"![Changing the Repository URL on GitHub](../fig/github-change-repo-"
+"string.png)"
+msgstr ""
+"![Changing the Repository URL on GitHub](../fig/github-change-repo-"
+"string.png)"
+
+#: git-novice/_episodes/07-github.md:93
+msgid ""
+"Copy that URL from the browser, go into the local `planets` repository, and run\n"
+"this command:"
+msgstr ""
+"Скопіюйте цю URL-адресу з браузера, зайдіть в локальне сховище `planets` репозиторію, та запустіть\n"
+"цю команду:"
+
+# code block
+#: git-novice/_episodes/07-github.md:96
+msgid ""
+"~~~\n"
+"$ git remote add origin git@github.com:vlad/planets.git\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git remote add origin git@github.com:vlad/planets.git\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:101
+msgid ""
+"Make sure to use the URL for your repository rather than Vlad's: the only\n"
+"difference should be your username instead of `vlad`."
+msgstr ""
+"Переконайтеся, що використовуєте URL-адресу для вашого сховища, а нет Vlad's: єдиною\n"
+"відмінністю має бути ваше ім'я користувача замість `vlad`."
+
+#: git-novice/_episodes/07-github.md:104
+msgid ""
+"`origin` is a local name used to refer to the remote repository. It could be called\n"
+"anything, but `origin` is a convention that is often used by default in git\n"
+"and GitHub, so it's helpful to stick with this unless there's a reason not to."
+msgstr ""
+"`origin` - локальна назва, що використовується для позначення віддаленого репозиторію. Його модна було б назвати\n"
+"як завгодно, але `origin` - це конвенція, яка часто використовується за замовчуванням в git\n"
+"та GitHub, так що корисно дотримуватися цього, якщо немає особливої причини змінювати."
+
+#: git-novice/_episodes/07-github.md:108
+msgid "We can check that the command has worked by running `git remote -v`:"
+msgstr ""
+"Ми можемо перевірити, що команда працювала, запустивши `git remote -v`:"
+
+# code block
+#: git-novice/_episodes/07-github.md:110
+msgid ""
+"~~~\n"
+"$ git remote -v\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git remote -v\n"
+"~~~"
+
+# code block
+#: git-novice/_episodes/07-github.md:115
+msgid ""
+"~~~\n"
+"origin   git@github.com:vlad/planets.git (fetch)\n"
+"origin   git@github.com:vlad/planets.git (push)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"origin   git@github.com:vlad/planets.git (fetch)\n"
+"origin   git@github.com:vlad/planets.git (push)\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:121
+msgid ""
+"We'll discuss remotes in more detail in the next episode, while\n"
+"talking about how they might be used for collaboration."
+msgstr ""
+"Більш детально ми обговоримо віддалені файли в наступному епізоді, поки поговоримо про те,\n"
+"як вони можуть бути використані для співпраці."
+
+# header
+#: git-novice/_episodes/07-github.md:124
+msgid "## 3. SSH Background and Setup"
+msgstr "## 3. SSH Фон та Налаштування"
+
+#: git-novice/_episodes/07-github.md:125
+msgid ""
+"Before Dracula can connect to a remote repository, he needs to set up a way "
+"for his computer to authenticate with GitHub so it knows it’s him trying to "
+"connect to his remote repository. "
+msgstr ""
+"Перед тим, як Dracula може під`єднатися до віддаленого репозиторію, йому "
+"потрібно налаштувати спосіб автентифікації свого комп'ютера за допомогою "
+"GitHub, щоб він знав, що це він намагається під`єднатися до його віддаленого"
+" репозиторію. "
+
+#: git-novice/_episodes/07-github.md:127
+msgid ""
+"We are going to set up the method that is commonly used by many different "
+"services to authenticate access on the command line.  This method is called "
+"Secure Shell Protocol (SSH).  SSH is a cryptographic network protocol that "
+"allows secure communication between computers using an otherwise insecure "
+"network.  "
+msgstr ""
+"Ми збираємося налаштувати метод, який зазвичай використовується багатьма "
+"різними службами для автентифікації доступу в командному рядку. Цей метод "
+"називається Secure Shell Protocol (SSH).  SSH це протокол криптографічної "
+"мережі, який дозволяє безпечний зв'язок між комп'ютерами за допомогою "
+"використання іншої небезпечної мережі.  "
+
+#: git-novice/_episodes/07-github.md:129
+msgid ""
+"SSH uses what is called a key pair. This is two keys that work together to "
+"validate access. One key is publicly known and called the public key, and "
+"the other key called the private key is kept private. Very descriptive "
+"names."
+msgstr ""
+"SSH використовує те, що називається ключовою парою. Це два ключі, які "
+"працюють разом для перевірки доступу. Один ключ публічно відомий і "
+"називається відкритим ключем, а інший - приватним ключем. Дуже описові "
+"назви."
+
+#: git-novice/_episodes/07-github.md:131
+msgid ""
+"You can think of the public key as a padlock, and only you have the key (the"
+" private key) to open it. You use the public key where you want a secure "
+"method of communication, such as your GitHub account.  You give this "
+"padlock, or public key, to GitHub and say “lock the communications to my "
+"account with this so that only computers that have my private key can unlock"
+" communications and send git commands as my GitHub account.”  "
+msgstr ""
+"Ви можете думати про відкритий ключ як замок, і тільки у вас є ключ "
+"(приватний ключ), щоб відчинити його. Ви використовуєте відкритий ключ, де "
+"ви хочете безпечний спосіб зв'язку, наприклад, ваш GitHub акаунт.  Ви даєте "
+"цей висячий замок або відкритий ключ GitHub і говорите: \"Заблокувати "
+"повідомлення до мого облікового запису, так що тільки комп'ютери, які мають "
+"мій закритий ключ можуть розблокувати зв'язок і відправити git команди, як "
+"мій GitHub акаунт.”  "
+
+#: git-novice/_episodes/07-github.md:133
+msgid ""
+"What we will do now is the minimum required to set up the SSH keys and add "
+"the public key to a GitHub account."
+msgstr ""
+"Те, що ми будемо робити зараз, це мінімум, необхідний для налаштування SSH-"
+"ключів і додавання відкритого ключа до GitHub акаунту."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:135
+msgid "> ## Advanced SSH"
+msgstr "> ## Розширений SSH"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:136
+msgid ""
+"> A supplemental episode in this lesson discusses SSH and key pairs in more "
+"depth and detail. "
+msgstr ""
+"> Додатковий епізод в цьому уроці обговорює SSH і ключові пари більш глибоко"
+" і детально. "
+
+#: git-novice/_episodes/07-github.md:139
+msgid ""
+"The first thing we are going to do is check if this has already been done on"
+" the computer you’re on.  Because generally speaking, this setup only needs "
+"to happen once and then you can forget about it. "
+msgstr ""
+"Перше, що ми збираємося зробити, це перевірити, чи це вже зроблено на "
+"комп'ютері, на якому ви працюєте зараз.  Тому що взагалі кажучи, ця "
+"установка повинна відбутися тільки один раз, і тоді ви можете забути про це."
+" "
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:141
+msgid "> ## Keeping your keys secure"
+msgstr "> ## Дотримання ключів захищеними"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:142
+msgid ""
+"> You shouldn't really forget about your SSH keys, since they keep your "
+"account secure. It’s good "
+msgstr ""
+"> Ви не повинні забувати про ваші SSH ключі, так як вони тримають ваш "
+"обліковий запис в безпеці. Це хороша"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:143
+msgid ""
+">  practice to audit your secure shell keys every so often. Especially if "
+"you are using multiple "
+msgstr ""
+">  практика перевіряти захищені ключі shell. Особливо, якщо ви "
+"використовуєте кілька"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:144
+msgid ">  computers to access your account."
+msgstr ">  комп'ютерів для доступу до облікового запису."
+
+#: git-novice/_episodes/07-github.md:147
+msgid ""
+"We will run the list command to check what key pairs already exist on your "
+"computer."
+msgstr ""
+"Ми запустимо команду списку (list - ls), щоб перевірити, які пари ключів вже"
+" існують на вашому комп'ютері."
+
+# code block
+#: git-novice/_episodes/07-github.md:149 git-novice/_episodes/07-github.md:225
+msgid ""
+"~~~\n"
+"ls -al ~/.ssh\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"ls -al ~/.ssh\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:154
+msgid ""
+"Your output is going to look a little different depending on whether or not "
+"SSH has ever been set up on the computer you are using. "
+msgstr ""
+"Ваш результат буде виглядати трохи інакше в залежності від того, чи був "
+"коли-небудь SSH встановлений на комп'ютері, який ви використовуєте чи ні."
+
+#: git-novice/_episodes/07-github.md:156
+msgid "Dracula has not set up SSH on his computer, so his output is "
+msgstr ""
+"Dracula не налаштував SSH на його комп`ютері, тож його результат виглядає "
+"так"
+
+# code block
+#: git-novice/_episodes/07-github.md:158
+msgid ""
+"~~~\n"
+"ls: cannot access '/c/Users/Vlad Dracula/.ssh': No such file or directory\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"ls: cannot access '/c/Users/Vlad Dracula/.ssh': No such file or directory\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:163
+msgid ""
+"If SSH has been set up on the computer you're using, the public and private key pairs will be listed. The file names are either `id_ed25519`/`id_ed25519.pub` or `id_rsa`/`id_rsa.pub` depending on how the key pairs were set up.  \n"
+"Since they don’t exist on Dracula’s computer, he uses this command to create them. "
+msgstr ""
+"Якщо SSH було встановлено на комп'ютері, який ви використовуєте, пари відкритих і приватних ключів будуть перераховані. Назви файлів будуть або `id_ed25519`/`id_ed25519.pub`, або `id_rsa`/`id_rsa.pub` залежно від того, як були створені пари ключів.  \n"
+"Так як вони не існують на комп`ютері Dracula, він використовує цюкоманду, щоб створити їх. "
+
+# header
+#: git-novice/_episodes/07-github.md:166
+msgid "### 3.1 Create an SSH key pair"
+msgstr "### 3.1 Створення пари ключів SSH"
+
+#: git-novice/_episodes/07-github.md:167
+msgid ""
+"To create an SSH key pair Vlad uses this command, where the `-t` option "
+"specifies which type of algorithm to use and `-C` attaches a comment to the "
+"key (here, Vlad's email):  "
+msgstr ""
+"Для створення пари ключів SSH Vlad використовує цю команду, де параметр `-t`"
+" визначає який тип алгоритму використати, та `-C` прикріплює коментар до "
+"ключа (тут електронна пошта Vlad):  "
+
+# code block
+#: git-novice/_episodes/07-github.md:169
+msgid ""
+"~~~\n"
+"$ ssh-keygen -t ed25519 -C \"vlad@tran.sylvan.ia\"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ ssh-keygen -t ed25519 -C \"vlad@tran.sylvan.ia\"\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:174
+msgid ""
+"If you are using a legacy system that doesn't support the Ed25519 algorithm, use:\n"
+"`$ ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"`"
+msgstr ""
+"Якщо ви використовуєте застарілу систему, яка не підтримує Ed25519 алгоритм, використовуйте:\n"
+"`$ ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"`"
+
+# code block
+#: git-novice/_episodes/07-github.md:177
+msgid ""
+"~~~\n"
+"Generating public/private ed25519 key pair.\n"
+"Enter file in which to save the key (/c/Users/Vlad Dracula/.ssh/id_ed25519):\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Generating public/private ed25519 key pair.\n"
+"Enter file in which to save the key (/c/Users/Vlad Dracula/.ssh/id_ed25519):\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:183
+msgid "We want to use the default file, so just press <kbd>Enter</kbd>."
+msgstr ""
+"Ми хочемо використовувати типовий файл, тому просто натисніть "
+"<kbd>Enter</kbd>."
+
+# code block
+#: git-novice/_episodes/07-github.md:185
+msgid ""
+"~~~\n"
+"Created directory '/c/Users/Vlad Dracula/.ssh'.\n"
+"Enter passphrase (empty for no passphrase):\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Created directory '/c/Users/Vlad Dracula/.ssh'.\n"
+"Enter passphrase (empty for no passphrase):\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:191
+msgid ""
+"Now, it is prompting Dracula for a passphrase.  Since he is using his lab’s "
+"laptop that other people sometimes have access to, he wants to create a "
+"passphrase.  Be sure to use something memorable or save your passphrase "
+"somewhere, as there is no \"reset my password\" option. "
+msgstr ""
+"Тепер це спонукає Dracula до пароля.  Оскільки він використовує ноутбук "
+"своєї лабораторії, до якого іноді мають доступ інші люди, він хоче свторити "
+"пароль.  Обов'язково використовуйте щось що запам'ятовується або збережіть "
+"пароль десь, оскільки немає опції «скинути мій пароль». "
+
+# code block
+#: git-novice/_episodes/07-github.md:193
+msgid ""
+"~~~\n"
+"Enter same passphrase again:\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Enter same passphrase again:\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:198
+msgid ""
+"After entering the same passphrase a second time, we receive the "
+"confirmation"
+msgstr "Після введення того ж пароля вдруге ми отримуємо підтвердження"
+
+# code block
+#: git-novice/_episodes/07-github.md:200
+msgid ""
+"~~~\n"
+"Your identification has been saved in /c/Users/Vlad Dracula/.ssh/id_ed25519\n"
+"Your public key has been saved in /c/Users/Vlad Dracula/.ssh/id_ed25519.pub\n"
+"The key fingerprint is:\n"
+"SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o vlad@tran.sylvan.ia\n"
+"The key's randomart image is:\n"
+"+--[ED25519 256]--+\n"
+"|^B== o.          |\n"
+"|%*=.*.+          |\n"
+"|+=.E =.+         |\n"
+"| .=.+.o..        |\n"
+"|....  . S        |\n"
+"|.+ o             |\n"
+"|+ =              |\n"
+"|.o.o             |\n"
+"|oo+.             |\n"
+"+----[SHA256]-----+\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Your identification has been saved in /c/Users/Vlad Dracula/.ssh/id_ed25519\n"
+"Your public key has been saved in /c/Users/Vlad Dracula/.ssh/id_ed25519.pub\n"
+"The key fingerprint is:\n"
+"SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o vlad@tran.sylvan.ia\n"
+"The key's randomart image is:\n"
+"+--[ED25519 256]--+\n"
+"|^B== o.          |\n"
+"|%*=.*.+          |\n"
+"|+=.E =.+         |\n"
+"| .=.+.o..        |\n"
+"|....  . S        |\n"
+"|.+ o             |\n"
+"|+ =              |\n"
+"|.o.o             |\n"
+"|oo+.             |\n"
+"+----[SHA256]-----+\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:220
+msgid ""
+"The \"identification\" is actually the private key. You should never share it.  The public key is appropriately named.  The \"key fingerprint\" \n"
+"is a shorter version of a public key."
+msgstr ""
+"\"identification\" насправді є приватним ключем. Ви ніколи не повинні ділитися ним. Відкритий ключ названий відповідним чином. \"key fingerprint\" \n"
+"є коротшою версією відкритого ключа."
+
+#: git-novice/_episodes/07-github.md:223
+msgid ""
+"Now that we have generated the SSH keys, we will find the SSH files when we "
+"check."
+msgstr ""
+"Тепер, коли ми створили ключі SSH, ми знайдемо файли SSH при перевірці."
+
+# code block
+#: git-novice/_episodes/07-github.md:230
+msgid ""
+"~~~\n"
+"drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ./\n"
+"drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ../\n"
+"-rw-r--r-- 1 Vlad Dracula 197121 419 Jul 16 14:48 id_ed25519\n"
+"-rw-r--r-- 1 Vlad Dracula 197121 106 Jul 16 14:48 id_ed25519.pub\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ./\n"
+"drwxr-xr-x 1 Vlad Dracula 197121   0 Jul 16 14:48 ../\n"
+"-rw-r--r-- 1 Vlad Dracula 197121 419 Jul 16 14:48 id_ed25519\n"
+"-rw-r--r-- 1 Vlad Dracula 197121 106 Jul 16 14:48 id_ed25519.pub\n"
+"~~~"
+
+# header
+#: git-novice/_episodes/07-github.md:238
+msgid "### 3.2 Copy the public key to GitHub"
+msgstr "### 3.2 Копіювання відкритого ключа на GitHub"
+
+#: git-novice/_episodes/07-github.md:239
+msgid ""
+"Now we have a SSH key pair and we can run this command to check if GitHub "
+"can read our authentication.  "
+msgstr ""
+"Тепер у нас є пара ключів SSH, і ми можемо запустити цю команду, щоб "
+"перевірити, чи може GitHub читати нашу автентифікацію.  "
+
+# code block
+#: git-novice/_episodes/07-github.md:241
+msgid ""
+"~~~\n"
+"ssh -T git@github.com\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"ssh -T git@github.com\n"
+"~~~"
+
+# code block
+#: git-novice/_episodes/07-github.md:247
+msgid ""
+"~~~\n"
+"The authenticity of host 'github.com (192.30.255.112)' can't be established.\n"
+"RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.\n"
+"This key is not known by any other names\n"
+"Are you sure you want to continue connecting (yes/no/[fingerprint])? y\n"
+"Please type 'yes', 'no' or the fingerprint: yes\n"
+"Warning: Permanently added 'github.com' (RSA) to the list of known hosts.\n"
+"git@github.com: Permission denied (publickey).\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"The authenticity of host 'github.com (192.30.255.112)' can't be established.\n"
+"RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.\n"
+"This key is not known by any other names\n"
+"Are you sure you want to continue connecting (yes/no/[fingerprint])? y\n"
+"Please type 'yes', 'no' or the fingerprint: yes\n"
+"Warning: Permanently added 'github.com' (RSA) to the list of known hosts.\n"
+"git@github.com: Permission denied (publickey).\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:258
+msgid "Right, we forgot that we need to give GitHub our public key!  "
+msgstr "Так, ми забули, що нам потрібно надати GitHub наш відкритий ключ!  "
+
+#: git-novice/_episodes/07-github.md:260
+msgid ""
+"First, we need to copy the public key.  Be sure to include the `.pub` at the"
+" end, otherwise you’re looking at the private key. "
+msgstr ""
+"По-перше, нам потрібно скопіювати відкритий ключ.  Не забудьте включити "
+"«.pub» в кінці, в іншому випадку ви дивитеся на приватний ключ. "
+
+# code block
+#: git-novice/_episodes/07-github.md:262
+msgid ""
+"~~~\n"
+"cat ~/.ssh/id_ed25519.pub\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"cat ~/.ssh/id_ed25519.pub\n"
+"~~~"
+
+# code block
+#: git-novice/_episodes/07-github.md:267
+msgid ""
+"~~~\n"
+"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI vlad@tran.sylvan.ia\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI vlad@tran.sylvan.ia\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:272
+msgid ""
+"Now, going to GitHub.com, click on your profile icon in the top right corner to get the drop-down menu.  Click \"Settings,\" then on the \n"
+"settings page, click \"SSH and GPG keys,\" on the left side \"Account settings\" menu.  Click the \"New SSH key\" button on the right side. Now, \n"
+"you can add the title (Dracula uses the title \"Vlad's Lab Laptop\" so he can remember where the original key pair\n"
+"files are located), paste your SSH key into the field, and click the \"Add SSH key\" to complete the setup."
+msgstr ""
+"Тепер, перейшовши в GitHub.com, натисніть на значок профілю в правому верхньому куті, щоб отримати спадне меню.  Натисніть \"Settings,\" потім на \n"
+"сторінці налаштувань, натисніть \"SSH and GPG keys,\" ліворуч меню \"Account settings\".  Натисніть \"New SSH key\" кнопку з правого боку. Тепер, \n"
+"ви можете додати заголовок (Dracula використовує заголовок \"Vlad's Lab Laptop\", таким чином, він запам`ятає де розташовані оригінальні ключові пари файлів),\n"
+"вставте SSH ключ в поле, і натисніть кнопку \"Add SSH key\", щоб завершити налаштування."
+
+#: git-novice/_episodes/07-github.md:277
+msgid ""
+"Now that we’ve set that up, let’s check our authentication again from the command line. \n"
+"~~~\n"
+"$ ssh -T git@github.com\n"
+"~~~\n"
+"{: .language-bash}"
+msgstr ""
+"Тепер, коли ми встановили це, давайте перевіримо нашу аутентифікацію знову з командного рядка. \n"
+"~~~\n"
+"$ ssh -T git@github.com\n"
+"~~~\n"
+"{: .language-bash}"
+
+# code block
+#: git-novice/_episodes/07-github.md:283
+msgid ""
+"~~~\n"
+"Hi Vlad! You've successfully authenticated, but GitHub does not provide shell access.\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Hi Vlad! You've successfully authenticated, but GitHub does not provide shell access.\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:288
+msgid ""
+"Good! This output confirms that the SSH key works as intended. We are now "
+"ready to push our work to the remote repository."
+msgstr ""
+"Добре! Цей результат підтверджує, що ключ SSH працює за призначенням. Тепер "
+"ми готові завантажити нашу роботу до віддаленого репозиторію."
+
+# header
+#: git-novice/_episodes/07-github.md:290
+msgid "## 4. Push local changes to a remote"
+msgstr "## 4. Завантаження локальних змін на віддалений репозиторій"
+
+#: git-novice/_episodes/07-github.md:292
+msgid ""
+"Now that authentication is setup, we can return to the remote.  This command will push the changes from\n"
+"our local repository to the repository on GitHub:"
+msgstr ""
+"Тепер, коли аутентифікація налаштована, ми можемо повернутися до віддаленого репозиторію.  Ця команда завантажить зміни з\n"
+"нашого локального репозиторію до репозиторію на GitHub:"
+
+# code block
+#: git-novice/_episodes/07-github.md:295 git-novice/_episodes/08-collab.md:90
+#: git-novice/_episodes/09-conflict.md:68
+#: git-novice/_episodes/09-conflict.md:120
+#: git-novice/_episodes/09-conflict.md:249
+msgid ""
+"~~~\n"
+"$ git push origin main\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git push origin main\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:300
+msgid ""
+"Since Dracula set up a passphrase, it will prompt him for it.  If you completed advanced settings for your authentication, it \n"
+"will not prompt for a passphrase. "
+msgstr ""
+"Оскільки Dracula встановив парольну фразу, вона підкаже йому про це.  Якщо ви виконали додаткові налаштування для автентифікації, команда \n"
+"не запитає пароль. "
+
+# code block
+#: git-novice/_episodes/07-github.md:303
+msgid ""
+"~~~\n"
+"Enumerating objects: 16, done.\n"
+"Counting objects: 100% (16/16), done.\n"
+"Delta compression using up to 8 threads.\n"
+"Compressing objects: 100% (11/11), done.\n"
+"Writing objects: 100% (16/16), 1.45 KiB | 372.00 KiB/s, done.\n"
+"Total 16 (delta 2), reused 0 (delta 0)\n"
+"remote: Resolving deltas: 100% (2/2), done.\n"
+"To https://github.com/vlad/planets.git\n"
+" * [new branch]      main -> main\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Enumerating objects: 16, done.\n"
+"Counting objects: 100% (16/16), done.\n"
+"Delta compression using up to 8 threads.\n"
+"Compressing objects: 100% (11/11), done.\n"
+"Writing objects: 100% (16/16), 1.45 KiB | 372.00 KiB/s, done.\n"
+"Total 16 (delta 2), reused 0 (delta 0)\n"
+"remote: Resolving deltas: 100% (2/2), done.\n"
+"To https://github.com/vlad/planets.git\n"
+" * [new branch]      main -> main\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:317
+msgid ""
+">\n"
+"> If the network you are connected to uses a proxy, there is a chance that your\n"
+"> last command failed with \"Could not resolve hostname\" as the error message. To\n"
+"> solve this issue, you need to tell Git about the proxy:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global http.proxy http://user:password@proxy.url\n"
+"> $ git config --global https.proxy https://user:password@proxy.url\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> When you connect to another network that doesn't use a proxy, you will need to\n"
+"> tell Git to disable the proxy using:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global --unset http.proxy\n"
+"> $ git config --global --unset https.proxy\n"
+"> ~~~\n"
+"> {: .language-bash}"
+msgstr ""
+">\n"
+"> Якщо мережа, до якої ви підключені, використовує проксі, є шанс, що ваша\n"
+"> остання команда зазнала невдачі з \"Could not resolve hostname\" як повідомлення про помилку. Щоб\n"
+"> вирішити це питання, потрібно розповісти Git про проксі:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global http.proxy http://user:password@proxy.url\n"
+"> $ git config --global https.proxy https://user:password@proxy.url\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Коли ви підключаєтеся до іншої мережі, яка не використовує проксі, вам потрібно буде\n"
+"> сказати Git відключити проксі за допомогою:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global --unset http.proxy\n"
+"> $ git config --global --unset https.proxy\n"
+"> ~~~\n"
+"> {: .language-bash}"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:338
+msgid "> ## Password Managers"
+msgstr "> ## Менеджери паролів"
+
+#: git-novice/_episodes/07-github.md:339
+msgid ""
+">\n"
+"> If your operating system has a password manager configured, `git push` will\n"
+"> try to use it when it needs your username and password.  For example, this\n"
+"> is the default behavior for Git Bash on Windows. If you want to type your\n"
+"> username and password at the terminal instead of using a password manager,\n"
+"> type:\n"
+">\n"
+"> ~~~\n"
+"> $ unset SSH_ASKPASS\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> in the terminal, before you run `git push`.  Despite the name, [Git uses\n"
+"> `SSH_ASKPASS` for all credential\n"
+"> entry](https://git-scm.com/docs/gitcredentials#_requesting_credentials), so\n"
+"> you may want to unset `SSH_ASKPASS` whether you are using Git via SSH or\n"
+"> https.\n"
+">\n"
+"> You may also want to add `unset SSH_ASKPASS` at the end of your `~/.bashrc`\n"
+"> to make Git default to using the terminal for usernames and passwords."
+msgstr ""
+">\n"
+"> Якщо у вашій операційній системі налаштовано менеджер паролів, `git push`\n"
+"> спробує використати його, коли йому потріне ім`я користувача і пароль.  Наприклад, це\n"
+"> є типовою поведінкою для Git Bash на Windows. Якщо ви хочете ввести своє ім`я користувача\n"
+"> та пароль в терміналі замість використання менеджера паролів,\n"
+"> введіть:\n"
+">\n"
+"> ~~~\n"
+"> $ unset SSH_ASKPASS\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> в терміналі, перед `git push`.  Незважаючи на ім`я, [Git використовує\n"
+"> `SSH_ASKPASS` для всіх облікових\n"
+"> записів](https://git-scm.com/docs/gitcredentials#_requesting_credentials), тож\n"
+"> ви можете скасувати `SSH_ASKPASS` незважаючи на те, чи ви використовуєте Git через SSH або\n"
+"> https.\n"
+">\n"
+"> Ви також можете додати `unset SSH_ASKPASS` в кінці вашого `~/.bashrc`\n"
+"> щоб зробити Git типовим для використання термінала для імен користувачів та паролів."
+
+#: git-novice/_episodes/07-github.md:361
+msgid "Our local and remote repositories are now in this state:"
+msgstr "Наші локальні та віддалені сховища зараз у такому стані:"
+
+#: git-novice/_episodes/07-github.md:363
+msgid ""
+"![GitHub Repository After First Push](../fig/github-repo-after-first-"
+"push.svg)"
+msgstr ""
+"![GitHub Repository After First Push](../fig/github-repo-after-first-"
+"push.svg)"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:365
+msgid "> ## The '-u' Flag"
+msgstr "> ## Опція '-u'"
+
+#: git-novice/_episodes/07-github.md:366
+msgid ""
+">\n"
+"> You may see a `-u` option used with `git push` in some documentation.  This\n"
+"> option is synonymous with the `--set-upstream-to` option for the `git branch`\n"
+"> command, and is used to associate the current branch with a remote branch so\n"
+"> that the `git pull` command can be used without any arguments. To do this,\n"
+"> simply use `git push -u origin main` once the remote has been set up."
+msgstr ""
+">\n"
+"> Ви можете побачити опцію «-u», який використовується з «git push» у деякій документації.  Ця\n"
+"> опція є синонімом опції `--set-upstream-to` для команди `git branch`\n"
+">  і використовується для зв`язку поточної гілки з віддаленою гілкою так, що\n"
+"> команда `git pull` може будти використана без будь-яких аргументів. Щоб зробити це,\n"
+"> просто використайте `git push -u origin main` після налаштування пульта дистанційного керування."
+
+#: git-novice/_episodes/07-github.md:374
+msgid ""
+"We can pull changes from the remote repository to the local one as well:"
+msgstr "Ми також можемо переносити зміни з віддаленого сховища на локальний:"
+
+# code block
+#: git-novice/_episodes/07-github.md:376 git-novice/_episodes/08-collab.md:149
+#: git-novice/_episodes/09-conflict.md:145
+#: git-novice/_episodes/09-conflict.md:271
+msgid ""
+"~~~\n"
+"$ git pull origin main\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git pull origin main\n"
+"~~~"
+
+# code block
+#: git-novice/_episodes/07-github.md:381
+msgid ""
+"~~~\n"
+"From https://github.com/vlad/planets\n"
+" * branch            main     -> FETCH_HEAD\n"
+"Already up-to-date.\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"From https://github.com/vlad/planets\n"
+" * branch            main     -> FETCH_HEAD\n"
+"Already up-to-date.\n"
+"~~~"
+
+#: git-novice/_episodes/07-github.md:388
+msgid ""
+"Pulling has no effect in this case because the two repositories are already\n"
+"synchronized.  If someone else had pushed some changes to the repository on\n"
+"GitHub, though, this command would download them to our local repository."
+msgstr ""
+"Перетягування не має ніякого ефекту в цьому випадку, тому що два сховища вже\n"
+"синхронізовані.  Якщо хтось ще завантажив якісь зміни до репозиторію на\n"
+"GitHub, хоч ця команда завантажить їх у наш локальний репозиторій."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:392
+msgid "> ## GitHub GUI"
+msgstr "> ## GitHub GUI"
+
+#: git-novice/_episodes/07-github.md:393
+msgid ""
+">\n"
+"> Browse to your `planets` repository on GitHub.\n"
+"> Under the Code tab, find and click on the text that says \"XX commits\" (where \"XX\" is some number).\n"
+"> Hover over, and click on, the three buttons to the right of each commit.\n"
+"> What information can you gather/explore from these buttons?\n"
+"> How would you get that same information in the shell?\n"
+">\n"
+"> > ## Solution\n"
+"> > The left-most button (with the picture of a clipboard) copies the full identifier of the commit \n"
+"> > to the clipboard. In the shell, ```git log``` will show you the full commit identifier for each \n"
+"> > commit.\n"
+"> >\n"
+"> > When you click on the middle button, you'll see all of the changes that were made in that \n"
+"> > particular commit. Green shaded lines indicate additions and red ones removals. In the shell we \n"
+"> > can do the same thing with ```git diff```. In particular, ```git diff ID1..ID2``` where ID1 and \n"
+"> > ID2 are commit identifiers (e.g. ```git diff a3bf1e5..041e637```) will show the differences \n"
+"> > between those two commits.\n"
+"> >\n"
+"> > The right-most button lets you view all of the files in the repository at the time of that \n"
+"> > commit. To do this in the shell, we'd need to checkout the repository at that particular time. \n"
+"> > We can do this with ```git checkout ID``` where ID is the identifier of the commit we want to \n"
+"> > look at. If we do this, we need to remember to put the repository back to the right state \n"
+"> > afterwards!"
+msgstr ""
+">\n"
+"> Перегляньте ваш репозиторій `planets` на GitHub.\n"
+"> Під вкладкою Code, знайдіть та натисніть на текст, який говорить \"XX commits\" (де \"XX\" це якесь число).\n"
+"> Наведіть курсор і натисніть на три кнопки праворуч від кожного коміту.\n"
+"> Яку інформацію ви можете зібрати/вивчити з цих кнопок?\n"
+"> Як би ви отримали ту саму інформацію в shell?\n"
+">\n"
+"> > ## Відповідь\n"
+"> > Ліва кнопка (з зображенням буфера обміну) копіює повний ідентифікатор коміту \n"
+"> > в буфер обміну. В shell, ```git log``` покаже вам повний ідентифікатор коміту для кожного \n"
+"> > коміту.\n"
+"> >\n"
+"> > Коли ви натиснете на середню кнопку, ви побачите всі зміни, які були зроблені в цьому \n"
+"> > конкретному коміті. Зелені затінені лінії вказують на додавання та видалення червоних. В shell ми \n"
+"> > можемо зробити ту саму річ з ```git diff```. А саме, ```git diff ID1..ID2```, де ID1 та \n"
+"> > ID2 ідентифікатори комітів (наприклад, ```git diff a3bf1e5..041e637```) покаже відмінності \n"
+"> > між двома комітами.\n"
+"> >\n"
+"> > Найправіша кнопка дозволяє переглядати всі файли в сховищі під час цього\n"
+"> > коміту. Для того, щоб зробити це в shell, нам потрібно було б перевірити репозиторій в той конкретний час. \n"
+"> > Ми можемо зробити це за допомогою ```git checkout ID```, де ID - ідентифікатор коміту, на який ми хочемо подивитися. \n"
+"> > Якщо ми зробимо це, нам потрібно пам`ятати про повернення репозиторію в потрібний стан\n"
+"> > після цього! "
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:419
+msgid "> ## Uploading files directly in GitHub browser"
+msgstr "> ## Завантаження файлів безпосередньо в браузері GitHub"
+
+#: git-novice/_episodes/07-github.md:420
+msgid ""
+">\n"
+"> Github also allows you to skip the command line and upload files directly to \n"
+"> your repository without having to leave the browser. There are two options. \n"
+"> First you can click the \"Upload files\" button in the toolbar at the top of the\n"
+"> file tree. Or, you can drag and drop files from your desktop onto the file \n"
+"> tree. You can read more about this [on this GitHub page](https://help.github.com/articles/adding-a-file-to-a-repository/)"
+msgstr ""
+">\n"
+"> Github також дозволяє нам пропустити командний рядок ізавантажити файли безпосередньо до \n"
+"> вашого репозиторію без необхідності залишати браузер. Є два варіанти. \n"
+"> Перший - ви можете натиснути кнопку \"Upload files\" на панелі інструментів у верхній частині\n"
+"> дерева файлів. Або, можна перетягувати файли з робочого стору до дерева файлівю \n"
+"> Ви можете більше прочитати про це [на цій GitHub сторінці](https://help.github.com/articles/adding-a-file-to-a-repository/)"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:428
+msgid "> ## GitHub Timestamp"
+msgstr "> ## Часова Мітка GitHub"
+
+#: git-novice/_episodes/07-github.md:429
+msgid ""
+">\n"
+"> Create a remote repository on GitHub. Push the contents of your local\n"
+"> repository to the remote. Make changes to your local repository and push these\n"
+"> changes. Go to the repo you just created on GitHub and check the\n"
+"> [timestamps]({{ page.root }}{% link reference.md %}#timestamp) of the files. How does GitHub\n"
+"> record times, and why?\n"
+">\n"
+"> > ## Solution\n"
+"> > GitHub displays timestamps in a human readable relative format (i.e. \"22 hours ago\" or \"three \n"
+"> > weeks ago\"). However, if you hover over the timestamp, you can see the exact time at which the \n"
+"> > last change to the file occurred."
+msgstr ""
+">\n"
+"> Створіть віддалений репозиторій на GitHub. Відправте  вміст вашого локального сховища\n"
+"> до віддаленого. Внесіть зміни до вашого локального сховища та відправте ці зміни.\n"
+"> Перейдіть до щойно створеного на GitHub репо і перевірте\n"
+"> [часові мітки]({{ page.root }}{% link reference.md %}#timestamp) файлів. Як GitHub\n"
+"> записує час і чому?\n"
+">\n"
+"> > ## Відповідь\n"
+"> > GitHub відображає мітки часу у відносному форматі, що читається людиною (наприклад, \"22 години назад\" або \"три \n"
+"> > тижні тому\"). Однак, якщо ви наведете курсор на мітку часу, ви можете побачити точний час, в який\n"
+"> > остання зміна файлу відбулася. "
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:443
+msgid "> ## Push vs. Commit"
+msgstr "> ## Відправлення змін vs. Коміт"
+
+#: git-novice/_episodes/07-github.md:444
+msgid ""
+">\n"
+"> In this episode, we introduced the \"git push\" command.\n"
+"> How is \"git push\" different from \"git commit\"?\n"
+">\n"
+"> > ## Solution\n"
+"> > When we push changes, we're interacting with a remote repository to update it with the changes \n"
+"> > we've made locally (often this corresponds to sharing the changes we've made with others). \n"
+"> > Commit only updates your local repository."
+msgstr ""
+">\n"
+"> В цьому епізоді, ми познайомилися з командою \"git push\".\n"
+"> Як \"git push\" відрізняється \"git commit\"?\n"
+">\n"
+"> > ## Відповідь\n"
+"> > Коли ми відправляємо зміни, ми взаємодіємо з віддаленим репозиторієм, щоб оновити його зі змінами, \n"
+"> > ми зробили локально (часто це відповідає обміну змінами, які ми зробили з іншими). \n"
+"> > Commit оновлює лише локальний репозиторій."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/07-github.md:455
+msgid "> ## GitHub License and README files"
+msgstr "> ## GitHub Ліцензія та файли README"
+
+#: git-novice/_episodes/07-github.md:456
+msgid ""
+">\n"
+"> In this episode we learned about creating a remote repository on GitHub, but when you initialized \n"
+"> your GitHub repo, you didn't add a README.md or a license file. If you had, what do you think \n"
+"> would have happened when you tried to link your local and remote repositories?\n"
+">\n"
+"> > ## Solution\n"
+"> > In this case, we'd see a merge conflict due to unrelated histories. When GitHub creates a \n"
+"> > README.md file, it performs a commit in the remote repository. When you try to pull the remote \n"
+"> > repository to your local repository, Git detects that they have histories that do not share a \n"
+"> > common origin and refuses to merge.\n"
+"> > ~~~\n"
+"> > $ git pull origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > warning: no common commits\n"
+"> > remote: Enumerating objects: 3, done.\n"
+"> > remote: Counting objects: 100% (3/3), done.\n"
+"> > remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\n"
+"> > Unpacking objects: 100% (3/3), done.\n"
+"> > From https://github.com/vlad/planets\n"
+"> >  * branch            main     -> FETCH_HEAD\n"
+"> >  * [new branch]      main     -> origin/main\n"
+"> > fatal: refusing to merge unrelated histories\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > You can force git to merge the two repositories with the option `--allow-unrelated-histories`. \n"
+"> > Be careful when you use this option and carefully examine the contents of local and remote \n"
+"> > repositories before merging.\n"
+"> > ~~~\n"
+"> > $ git pull --allow-unrelated-histories origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > From https://github.com/vlad/planets\n"
+"> >  * branch            main     -> FETCH_HEAD\n"
+"> > Merge made by the 'recursive' strategy.\n"
+"> > README.md | 1 +\n"
+"> > 1 file changed, 1 insertion(+)\n"
+"> > create mode 100644 README.md\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> У цьому епізоді ми дізналися про створення віддаленого репозиторію на GitHub, але коли ми ініціалізували наш \n"
+"> GitHub репо, ми не додали README.md або файл ліцензії. Якщо б ми це зробили, що, на вашу думку, \n"
+"> сталося б, коли ми намагалися зв`язати локальні та віддалені репозиторії?\n"
+">\n"
+"> > ## Відповідь\n"
+"> > У цьому випадку ми побачимо конфлікт злиття через неспоріднені історії. Коли GitHub створює \n"
+"> > README.md файл, він виконує коміт у віддаленому репозиторії. Коли ви намагаєтеся витягнути віддалений \n"
+"> > репозиторій до вашого локального репозиторію, Git виявляє, що у них є історії, які не мають спільного\n"
+"> > походження і відмовляється від злиття..\n"
+"> > ~~~\n"
+"> > $ git pull origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > warning: no common commits\n"
+"> > remote: Enumerating objects: 3, done.\n"
+"> > remote: Counting objects: 100% (3/3), done.\n"
+"> > remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0\n"
+"> > Unpacking objects: 100% (3/3), done.\n"
+"> > From https://github.com/vlad/planets\n"
+"> >  * branch            main     -> FETCH_HEAD\n"
+"> >  * [new branch]      main     -> origin/main\n"
+"> > fatal: refusing to merge unrelated histories\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > Ви можете змусити git об'єднати два сховища з опцією `--allow-unrelated-histories`. \n"
+"> > Будьте обережні, коли ви використовуєте цей параметр і уважно вивчіть вміст локальних і віддалених \n"
+"> > репозиторіїв перед об'єднанням..\n"
+"> > ~~~\n"
+"> > $ git pull --allow-unrelated-histories origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > From https://github.com/vlad/planets\n"
+"> >  * branch            main     -> FETCH_HEAD\n"
+"> > Merge made by the 'recursive' strategy.\n"
+"> > README.md | 1 +\n"
+"> > 1 file changed, 1 insertion(+)\n"
+"> > create mode 100644 README.md\n"
+"> > ~~~\n"
+"> > {: .output}"

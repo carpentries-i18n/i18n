@@ -1,0 +1,550 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sofiia Matios, 2023
+# Olexandr Konovalov, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Olexandr Konovalov, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: git-novice/_episodes/02-setup.md:1
+msgid ""
+"---\n"
+"title: Setting Up Git\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How do I get set up to use Git?\"\n"
+"objectives:\n"
+"- \"Configure `git` the first time it is used on a computer.\"\n"
+"- \"Understand the meaning of the `--global` configuration flag.\"\n"
+"keypoints:\n"
+"-   \"Use `git config` with the `--global` option to configure a user name, email address, editor, and other preferences once per machine.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: Налаштування Git\n"
+"teaching: 5\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"Як налаштувати Git для використання?\"\n"
+"objectives:\n"
+"- \"Налаштування `git` під час його першого використання на комп'ютері.\"\n"
+"- \"Розуміння значення конфігураційного параметра `--global`.\"\n"
+"keypoints:\n"
+"-   \"Користування `git config` з параметром ` -- global` для налаштування імені користувача, адреси електронної пошти, редактора та інших параметрів раз на комп'ютер.\"\n"
+"---"
+
+#: git-novice/_episodes/02-setup.md:14
+msgid ""
+"When we use Git on a new computer for the first time,\n"
+"we need to configure a few things. Below are a few examples\n"
+"of configurations we will set as we get started with Git:"
+msgstr ""
+"Коли ми користуємося Git на новому комп'ютері вперше,\n"
+"нам потрібно налаштувати декілька речей. Нижче наведено кілька прикладів\n"
+"з налаштувань, які ми встановимо, коли почнемо працювати з Git:"
+
+# unordered list
+#: git-novice/_episodes/02-setup.md:18
+msgid "*   our name and email address,"
+msgstr "*   ваше ім'я та адреса електронної пошти,"
+
+# unordered list
+#: git-novice/_episodes/02-setup.md:19
+msgid "*   what our preferred text editor is,"
+msgstr "*   ваш основний текстовий редактор,"
+
+# unordered list
+#: git-novice/_episodes/02-setup.md:20
+msgid ""
+"*   and that we want to use these settings globally (i.e. for every "
+"project)."
+msgstr ""
+"*   і що ми хочемо використовувати ці параметри глобально (тобто для кожного"
+" проєкту)."
+
+#: git-novice/_episodes/02-setup.md:22
+msgid ""
+"On a command line, Git commands are written as `git verb options`,\n"
+"where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So here is how\n"
+"Dracula sets up his new laptop:"
+msgstr ""
+"В командному рядку (command line), команди Git виглядають як `git verb options`,\n"
+"де `verb` - це те що ми фактично хочемо зробити, та `options` - це додаткова інформація, яка може бути потрібна для `verb`. Ось як\n"
+"Dracula налаштовує свій новий ноутбук:"
+
+# code block
+#: git-novice/_episodes/02-setup.md:26
+msgid ""
+"~~~\n"
+"$ git config --global user.name \"Vlad Dracula\"\n"
+"$ git config --global user.email \"vlad@tran.sylvan.ia\"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git config --global user.name \"Vlad Dracula\"\n"
+"$ git config --global user.email \"vlad@tran.sylvan.ia\"\n"
+"~~~"
+
+#: git-novice/_episodes/02-setup.md:30 git-novice/_episodes/02-setup.md:114
+#: git-novice/_episodes/02-setup.md:144 git-novice/_episodes/03-create.md:44
+#: git-novice/_episodes/03-create.md:53 git-novice/_episodes/03-create.md:68
+#: git-novice/_episodes/03-create.md:76 git-novice/_episodes/04-changes.md:27
+#: git-novice/_episodes/04-changes.md:38 git-novice/_episodes/04-changes.md:53
+#: git-novice/_episodes/04-changes.md:66 git-novice/_episodes/04-changes.md:79
+#: git-novice/_episodes/04-changes.md:102
+#: git-novice/_episodes/04-changes.md:109
+#: git-novice/_episodes/04-changes.md:132
+#: git-novice/_episodes/04-changes.md:162
+#: git-novice/_episodes/04-changes.md:177
+#: git-novice/_episodes/04-changes.md:214
+#: git-novice/_episodes/04-changes.md:228
+#: git-novice/_episodes/04-changes.md:256
+#: git-novice/_episodes/04-changes.md:290
+#: git-novice/_episodes/04-changes.md:312
+#: git-novice/_episodes/04-changes.md:369
+#: git-novice/_episodes/04-changes.md:381
+#: git-novice/_episodes/04-changes.md:405
+#: git-novice/_episodes/04-changes.md:417
+#: git-novice/_episodes/04-changes.md:439
+#: git-novice/_episodes/04-changes.md:452
+#: git-novice/_episodes/04-changes.md:465
+#: git-novice/_episodes/05-history.md:31 git-novice/_episodes/05-history.md:46
+#: git-novice/_episodes/05-history.md:70 git-novice/_episodes/05-history.md:79
+#: git-novice/_episodes/05-history.md:101
+#: git-novice/_episodes/05-history.md:142
+#: git-novice/_episodes/05-history.md:164
+#: git-novice/_episodes/05-history.md:191
+#: git-novice/_episodes/05-history.md:212
+#: git-novice/_episodes/05-history.md:232
+#: git-novice/_episodes/05-history.md:237
+#: git-novice/_episodes/05-history.md:247
+#: git-novice/_episodes/05-history.md:266 git-novice/_episodes/06-ignore.md:23
+#: git-novice/_episodes/06-ignore.md:30 git-novice/_episodes/06-ignore.md:57
+#: git-novice/_episodes/06-ignore.md:76 git-novice/_episodes/06-ignore.md:100
+#: git-novice/_episodes/06-ignore.md:113 git-novice/_episodes/06-ignore.md:130
+#: git-novice/_episodes/07-github.md:58 git-novice/_episodes/07-github.md:99
+#: git-novice/_episodes/07-github.md:113 git-novice/_episodes/07-github.md:152
+#: git-novice/_episodes/07-github.md:172 git-novice/_episodes/07-github.md:228
+#: git-novice/_episodes/07-github.md:244 git-novice/_episodes/07-github.md:265
+#: git-novice/_episodes/07-github.md:298 git-novice/_episodes/07-github.md:379
+#: git-novice/_episodes/08-collab.md:50 git-novice/_episodes/08-collab.md:69
+#: git-novice/_episodes/08-collab.md:80 git-novice/_episodes/08-collab.md:93
+#: git-novice/_episodes/08-collab.md:152
+#: git-novice/_episodes/09-conflict.md:29
+#: git-novice/_episodes/09-conflict.md:44
+#: git-novice/_episodes/09-conflict.md:60
+#: git-novice/_episodes/09-conflict.md:71
+#: git-novice/_episodes/09-conflict.md:94
+#: git-novice/_episodes/09-conflict.md:110
+#: git-novice/_episodes/09-conflict.md:123
+#: git-novice/_episodes/09-conflict.md:148
+#: git-novice/_episodes/09-conflict.md:175
+#: git-novice/_episodes/09-conflict.md:205
+#: git-novice/_episodes/09-conflict.md:223
+#: git-novice/_episodes/09-conflict.md:240
+#: git-novice/_episodes/09-conflict.md:252
+#: git-novice/_episodes/09-conflict.md:274
+#: git-novice/_episodes/09-conflict.md:297 git-novice/_extras/discuss.md:23
+#: git-novice/_extras/discuss.md:47 git-novice/_extras/discuss.md:57
+#: git-novice/_extras/discuss.md:64 git-novice/_extras/discuss.md:71
+#: git-novice/_extras/discuss.md:90 git-novice/_extras/discuss.md:100
+#: git-novice/_extras/discuss.md:148 git-novice/_extras/discuss.md:166
+#: git-novice/_extras/discuss.md:182 git-novice/_extras/discuss.md:232
+#: git-novice/_extras/discuss.md:241 git-novice/_extras/discuss.md:256
+#: git-novice/_extras/discuss.md:276 git-novice/_extras/discuss.md:290
+#: git-novice/_extras/discuss.md:298 git-novice/_extras/discuss.md:321
+#: git-novice/_extras/discuss.md:339 git-novice/_extras/discuss.md:350
+#: git-novice/_extras/discuss.md:358 git-novice/_extras/discuss.md:369
+#: git-novice/_extras/discuss.md:384 git-novice/_extras/discuss.md:399
+#: git-novice/_extras/discuss.md:407 git-novice/_extras/discuss.md:435
+#: git-novice/_extras/discuss.md:455 git-novice/setup.md:15
+msgid "{: .language-bash}"
+msgstr "{: .language-bash}"
+
+#: git-novice/_episodes/02-setup.md:32
+msgid ""
+"Please use your own name and email address instead of Dracula's. This user name and email will be associated with your subsequent Git activity,\n"
+"which means that any changes pushed to\n"
+"[GitHub](https://github.com/),\n"
+"[BitBucket](https://bitbucket.org/),\n"
+"[GitLab](https://gitlab.com/) or\n"
+"another Git host server\n"
+"after this lesson will include this information."
+msgstr ""
+"Будь ласка, використовуйте своє власне ім'я та електронну пошту замість \"Dracula\". Ці ім'я користувача та електронна пошта будуть асоційовані з вашою подальшою діяльністю Git,\n"
+"а це означає, що будь-які зміни надіслані в\n"
+"[GitHub](https://github.com/),\n"
+"[BitBucket](https://bitbucket.org/),\n"
+"[GitLab](https://gitlab.com/) або\n"
+"інший Git хост-сервер\n"
+"після цього уроку будуть містити цю інформацію."
+
+#: git-novice/_episodes/02-setup.md:40
+msgid ""
+"For this lesson, we will be interacting with [GitHub](https://github.com/) "
+"and so the email address used should be the same as the one used when "
+"setting up your GitHub account. If you are concerned about privacy, please "
+"review [GitHub's instructions for keeping your email address private][git-"
+"privacy]. "
+msgstr ""
+"В цьому уроці ми будемо працювати з [GitHub](https://github.com/), тож "
+"використовувана електронна пошта повинна бути такою ж, як і та, яка "
+"використовується для налаштування вашого GitHub акаунту. Якщо вас турбує "
+"конфіденційнйсть вашої електронної адреси, будь ласка перегляньте [GitHub's "
+"instructions for keeping your email address private][git-privacy]. "
+
+#: git-novice/_episodes/02-setup.md:42
+msgid ""
+">## Keeping your email private\n"
+">\n"
+">If you elect to use a private email address with GitHub, then use that same email address for the `user.email` value, e.g. `username@users.noreply.github.com` replacing `username` with your GitHub one."
+msgstr ""
+">## Збереження конфіденційності вашої електронної адреси\n"
+">\n"
+">Якщо ви вирішили приховати власну електронну адресу на GitHub, тоді використовуйте для `user.email` електронну адресу у вигляді `username@users.noreply.github.com` замінивши `username` вашим ім'ям користувача GitHub."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/02-setup.md:48
+msgid "> ## Line Endings"
+msgstr "> ## Закінчення рядків"
+
+#: git-novice/_episodes/02-setup.md:49
+msgid ""
+">\n"
+"> As with other keys, when you hit <kbd>Enter</kbd> or <kbd>↵</kbd> or on Macs, <kbd>Return</kbd> on your keyboard,\n"
+"> your computer encodes this input as a character.\n"
+"> Different operating systems use different character(s) to represent the end of a line.\n"
+"> (You may also hear these referred to as newlines or line breaks.)\n"
+"> Because Git uses these characters to compare files,\n"
+"> it may cause unexpected issues when editing a file on different machines. \n"
+"> Though it is beyond the scope of this lesson, you can read more about this issue \n"
+"> [in the Pro Git book](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).\n"
+">\n"
+"> You can change the way Git recognizes and encodes line endings\n"
+"> using the `core.autocrlf` command to `git config`.\n"
+"> The following settings are recommended:\n"
+">\n"
+"> On macOS and Linux:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global core.autocrlf input\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> And on Windows:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global core.autocrlf false\n"
+"> ~~~\n"
+"> {: .language-bash}"
+msgstr ""
+">\n"
+"> Як і з іншими ключами, коли ви вводите <kbd>Enter</kbd> або <kbd> "
+"</kbd>, або <kbd>Return</kbd> на Macs на вашій клавіатурі,\n"
+"> ваш комп'ютер кодує це як символ.\n"
+"> Різні операційні системи використовують різні символ(и) для репрезентації кінця рядку.\n"
+"> (Ви також можете почути про це як \"нові рядки\" або \"розриви рядків\".)\n"
+"> Тому що Git використовує ці символи для порівняння файлів,\n"
+"> це може спричинити несподівані проблеми під час редагування файлу на різних машинах.\n"
+"> Хоча це поза межами цього уроку, ви можете більше прочитати про це питання \n"
+"> [у посібнику \"Pro Git\"](https://www.git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#_core_autocrlf).\n"
+">\n"
+"> Ви можете змінити спосіб розпізнавання закінчень рядків в Git\n"
+"> використовуючи `core.autocrlf` команду до `git config`.\n"
+"> Рекомендовані такі параметри:\n"
+">\n"
+"> Для macOS та Linux:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global core.autocrlf input\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Для Windows:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global core.autocrlf false\n"
+"> ~~~\n"
+"> {: .language-bash}"
+
+#: git-novice/_episodes/02-setup.md:78
+msgid ""
+"Dracula also has to set his favorite text editor, following this table:"
+msgstr ""
+"Dracula також повинен налаштувати його улюблений текстовий редактор, як "
+"наведено в таблиці нижче:"
+
+#: git-novice/_episodes/02-setup.md:80
+msgid ""
+"| Editor             | Configuration command                            |\n"
+"|:-------------------|:-------------------------------------------------|\n"
+"| Atom | `$ git config --global core.editor \"atom --wait\"`|\n"
+"| nano               | `$ git config --global core.editor \"nano -w\"`    |\n"
+"| BBEdit (Mac, with command line tools) | `$ git config --global core.editor \"bbedit -w\"`    |\n"
+"| Sublime Text (Mac) | `$ git config --global core.editor \"/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w\"` |\n"
+"| Sublime Text (Win, 32-bit install) | `$ git config --global core.editor \"'c:/program files (x86)/sublime text 3/sublime_text.exe' -w\"` |\n"
+"| Sublime Text (Win, 64-bit install) | `$ git config --global core.editor \"'c:/program files/sublime text 3/sublime_text.exe' -w\"` |\n"
+"| Notepad (Win)    | `$ git config --global core.editor \"c:/Windows/System32/notepad.exe\"`|\n"
+"| Notepad++ (Win, 32-bit install)    | `$ git config --global core.editor \"'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin\"`|\n"
+"| Notepad++ (Win, 64-bit install)    | `$ git config --global core.editor \"'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin\"`|\n"
+"| Kate (Linux)       | `$ git config --global core.editor \"kate\"`       |\n"
+"| Gedit (Linux)      | `$ git config --global core.editor \"gedit --wait --new-window\"`   |\n"
+"| Scratch (Linux)       | `$ git config --global core.editor \"scratch-text-editor\"`  |\n"
+"| Emacs              | `$ git config --global core.editor \"emacs\"`   |\n"
+"| Vim                | `$ git config --global core.editor \"vim\"`   |\n"
+"| VS Code                | `$ git config --global core.editor \"code --wait\"`   |"
+msgstr ""
+"| Редактор             | Команда для налаштування                            |\n"
+"|:-------------------|:-------------------------------------------------|\n"
+"| Atom | `$ git config --global core.editor \"atom --wait\"`|\n"
+"| nano               | `$ git config --global core.editor \"nano -w\"`    |\n"
+"| BBEdit (Mac, with command line tools) | `$ git config --global core.editor \"bbedit -w\"`    |\n"
+"| Sublime Text (Mac) | `$ git config --global core.editor \"/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w\"` |\n"
+"| Sublime Text (Win, 32-bit install) | `$ git config --global core.editor \"'c:/program files (x86)/sublime text 3/sublime_text.exe' -w\"` |\n"
+"| Sublime Text (Win, 64-bit install) | `$ git config --global core.editor \"'c:/program files/sublime text 3/sublime_text.exe' -w\"` |\n"
+"| Notepad (Win)    | `$ git config --global core.editor \"c:/Windows/System32/notepad.exe\"`|\n"
+"| Notepad++ (Win, 32-bit install)    | `$ git config --global core.editor \"'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin\"`|\n"
+"| Notepad++ (Win, 64-bit install)    | `$ git config --global core.editor \"'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin\"`|\n"
+"| Kate (Linux)       | `$ git config --global core.editor \"kate\"`       |\n"
+"| Gedit (Linux)      | `$ git config --global core.editor \"gedit --wait --new-window\"`   |\n"
+"| Scratch (Linux)       | `$ git config --global core.editor \"scratch-text-editor\"`  |\n"
+"| Emacs              | `$ git config --global core.editor \"emacs\"`   |\n"
+"| Vim                | `$ git config --global core.editor \"vim\"`   |\n"
+"| VS Code                | `$ git config --global core.editor \"code --wait\"`   |"
+
+#: git-novice/_episodes/02-setup.md:98
+msgid ""
+"It is possible to reconfigure the text editor for Git whenever you want to "
+"change it."
+msgstr ""
+"Ви можете переналаштувати текстовий редактор для Git у будь-який момент."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/02-setup.md:100
+msgid "> ## Exiting Vim"
+msgstr "> ## Вихід з Vim"
+
+#: git-novice/_episodes/02-setup.md:101
+msgid ""
+">\n"
+"> Note that Vim is the default editor for many programs. If you haven't used Vim before and wish to exit a session without saving\n"
+"your changes, press <kbd>Esc</kbd> then type `:q!` and hit <kbd>Enter</kbd> or <kbd>↵</kbd> or on Macs, <kbd>Return</kbd>.\n"
+"> If you want to save your changes and quit, press <kbd>Esc</kbd> then type `:wq` and hit <kbd>Enter</kbd> or <kbd>↵</kbd> or on Macs, <kbd>Return</kbd>."
+msgstr ""
+">\n"
+"> Зауважте, що Vim є стандартним редактором для багатьох програм. Якщо ви до цього не користувалися Vim і хочете вийти з сесії не зберігаючи ваших змін,\n"
+"натисніть <kbd>Esc</kbd> потім надрукуйте `:q!` та натисніть <kbd>Enter</kbd> або <kbd> "
+"</kbd>, або <kbd>Return</kbd> на Macs.\n"
+"> Якщо ви хочете зберегти свої зміни та вийти, натисніть<kbd>Esc</kbd> потім надрукуйте `:wq` та натисніть <kbd>Enter</kbd> або <kbd> "
+"</kbd>, або <kbd>Return</kbd> на Macs."
+
+#: git-novice/_episodes/02-setup.md:107
+msgid ""
+"Git (2.28+) allows configuration of the name of the branch created when you\n"
+"initialize any new repository.  Dracula decides to use that feature to set it to `main` so \n"
+"it matches the cloud service he will eventually use. "
+msgstr ""
+"Git (2.28+) надає вам змогу обрати назву гілки, яку буде створено під час\n"
+"ініціалізації будь-якої нової репозиторії.  Dracula вирішив використати цю можливість, щоб назвати її `main`, щоб це відповідало хмарному сервісу, який він в кінцевому підсумку використовуватиме."
+
+# code block
+#: git-novice/_episodes/02-setup.md:111
+msgid ""
+"~~~\n"
+"$ git config --global init.defaultBranch main\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git config --global init.defaultBranch main\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/02-setup.md:116
+msgid "> ## Default Git branch naming"
+msgstr "> ## Найменування гілки Git за замовчуванням"
+
+#: git-novice/_episodes/02-setup.md:117
+msgid ""
+">\n"
+"> Source file changes are associated with a \"branch.\" \n"
+"> For new learners in this lesson, it's enough to know that branches exist, and this lesson uses one branch.  \n"
+"> By default, Git will create a branch called `master` \n"
+"> when you create a new repository with `git init` (as explained in the next Episode). This term evokes \n"
+"> the racist practice of human slavery and the \n"
+"> [software development community](https://github.com/github/renaming)  has moved to adopt \n"
+"> more inclusive language. \n"
+"> \n"
+"> In 2020, most Git code hosting services transitioned to using `main` as the default \n"
+"> branch. As an example, any new repository that is opened in GitHub and GitLab default \n"
+"> to `main`.  However, Git has not yet made the same change.  As a result, local repositories \n"
+"> must be manually configured have the same main branch name as most cloud services.  \n"
+"> \n"
+"> For versions of Git prior to 2.28, the change can be made on an individual repository level.  The \n"
+"> command for this is in the next episode.  Note that if this value is unset in your local Git \n"
+"> configuration, the `init.defaultBranch` value defaults to `master`."
+msgstr ""
+">\n"
+"> Зміни у змісті репозиторію пов’язані з \"гілкою\".\n"
+"> Для початківців у цьому уроці буде достатньо знати, що гілки існують, і що в цьому уроці використовується тільки одна гілка.  \n"
+"> За замовчуванням, Git створить гілку під назвою `master` \n"
+"> коли ви створюєте нову репозиторію за допомогою `git init` (пояснено в наступному Епізоді). Цей термін нагадує про \n"
+"> расистську практику людського рабства, тому у \n"
+"> [спільноті розробників програмного забезпечення](https://github.com/github/renaming)  вирішили використовувати \n"
+"> більш інклюзивну мову. \n"
+"> \n"
+"> В 2020, більшість сервісів хостингу коду Git перейшли до використання `main` як стандартної \n"
+"> гілки. Наприклад, будь-яка нова репозиторія створена у GitHub та GitLab за замовчуванням буде мати назву\n"
+"> `main`.  Однак в Git такої ж зміни ще не було застосовано. В результаті локальні репозиторії \n"
+"> повинні бути налаштовані вручну, мати ту саму назву головної гілки як і більшість хмарних сервісів.  \n"
+"> \n"
+"> Для версій Git до 2.28, зміну можна зробити на індивідуальному рівні репозиторії. \n"
+"> Команду для цього можна знайти в наступному епізоді. Зауважте, якщо це значення не встановлено у вашій локальній системі Git, \n"
+"> то `init.defaultBranch` за замовчуванням буде `master`."
+
+#: git-novice/_episodes/02-setup.md:136
+msgid ""
+"The five commands we just ran above only need to be run once: the flag `--global` tells Git\n"
+"to use the settings for every project, in your user account, on this computer."
+msgstr ""
+"П'ять команд, які ми щойно запускаємо вище, потрібно запускати лише один раз: параметр `--global` каже Git\n"
+"використовувати ці налаштування для кожного проєкту у вашому обліковому записі користувача на цьому комп'ютері."
+
+#: git-novice/_episodes/02-setup.md:139
+msgid "You can check your settings at any time:"
+msgstr "Ви можете перевірити ваші налаштування у будь-яку мить:"
+
+# code block
+#: git-novice/_episodes/02-setup.md:141
+msgid ""
+"~~~\n"
+"$ git config --list\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git config --list\n"
+"~~~"
+
+#: git-novice/_episodes/02-setup.md:146
+msgid ""
+"You can change your configuration as many times as you want: use the\n"
+"same commands to choose another editor or update your email address."
+msgstr ""
+"Ви можете змінити ваші налаштування стільки разів, скільки забажаєте: використовуйте\n"
+"ті ж самі команди, щоб обрати інший текстовий редактор або оновити вашу електронну адресу."
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/02-setup.md:149 git-novice/_episodes/07-github.md:316
+msgid "> ## Proxy"
+msgstr "> ## Проксі-сервер"
+
+#: git-novice/_episodes/02-setup.md:150
+msgid ""
+">\n"
+"> In some networks you need to use a\n"
+"> [proxy](https://en.wikipedia.org/wiki/Proxy_server). If this is the case, you\n"
+"> may also need to tell Git about the proxy:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global http.proxy proxy-url\n"
+"> $ git config --global https.proxy proxy-url\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> To disable the proxy, use\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global --unset http.proxy\n"
+"> $ git config --global --unset https.proxy\n"
+"> ~~~\n"
+"> {: .language-bash}"
+msgstr ""
+">\n"
+"> В деяких мережах потрібно використовувати\n"
+"> [проксі-сервер](https://en.wikipedia.org/wiki/Proxy_server). Якщо це так, \n"
+"> вам також може знадобитися повідомити про це Git:\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global http.proxy proxy-url\n"
+"> $ git config --global https.proxy proxy-url\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Щоб вимкнути проксі, скористайтеся\n"
+">\n"
+"> ~~~\n"
+"> $ git config --global --unset http.proxy\n"
+"> $ git config --global --unset https.proxy\n"
+"> ~~~\n"
+"> {: .language-bash}"
+
+# blockquote, which can be cascaded
+#: git-novice/_episodes/02-setup.md:170
+msgid "> ## Git Help and Manual"
+msgstr "> ## Довідка про Git та посібник користувача"
+
+#: git-novice/_episodes/02-setup.md:171
+msgid ""
+">\n"
+"> Always remember that if you forget the subcommands or options of a `git` command, you can access the\n"
+"> relevant list of options typing `git <command> -h` or access the corresponding Git manual by typing\n"
+"> `git <command> --help`, e.g.:\n"
+">\n"
+"> ~~~\n"
+"> $ git config -h\n"
+"> $ git config --help\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> While viewing the manual, remember the `:` is a prompt waiting for commands and you can press <kbd>Q</kbd> to exit the manual.\n"
+">\n"
+"> More generally, you can get the list of available `git` commands and further resources of the Git manual typing:\n"
+">\n"
+"> ~~~\n"
+"> $ git help\n"
+"> ~~~\n"
+"> {: .language-bash}"
+msgstr ""
+">\n"
+"> Завжди пам'ятайте: якщо ви забули підкоманди або параметри команди `git`, ви можете отримати \n"
+"> відповідний список параметрів, надрукувавши `git <command> -h` або подивитись у документації Git, ввівши\n"
+"> `git <command> --help`, e.g.:\n"
+">\n"
+"> ~~~\n"
+"> $ git config -h\n"
+"> $ git config --help\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+">\n"
+"> Під час перегляду документації запам’ ятайте, що `:`  — це підказка, яка очікує на команди, і ви можете натиснути кнопку <kbd>Q</kbd> щоб вийти з посібника.\n"
+">\n"
+"> Більш загально можна отримати список доступних `git` команд і подальші ресурси за допомогою цієї команди:\n"
+">\n"
+"> ~~~\n"
+"> $ git help\n"
+"> ~~~\n"
+"> {: .language-bash}"
+
+#: git-novice/_episodes/02-setup.md:192
+msgid ""
+"[git-privacy]: https://help.github.com/articles/keeping-your-email-address-"
+"private/"
+msgstr ""
+"[git-privacy]: https://help.github.com/articles/keeping-your-email-address-"
+"private/"

@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Sofiia Matios, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Sofiia Matios, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: git-novice/README.md:1
+msgid ""
+"[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--git-E01563.svg)](https://swcarpentry.slack.com/messages/C91JS49HD) "
+msgstr ""
+"[![Створіть з нами обліковий запис Slack](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/) \n"
+" [![Slack Status](https://img.shields.io/badge/Slack_Channel-swc--git-E01563.svg)](https://swcarpentry.slack.com/messages/C91JS49HD) "
+
+#: git-novice/README.md:4
+msgid ""
+"git-novice\n"
+"=========="
+msgstr ""
+"git-novice\n"
+"=========="
+
+#: git-novice/README.md:7
+msgid ""
+"An introduction to version control for novices using Git.\n"
+"Please see <https://swcarpentry.github.io/git-novice/> for a rendered version of this material,\n"
+"[the lesson template documentation][lesson-example]\n"
+"for instructions on formatting, building, and submitting material,\n"
+"or run `make` in this directory for a list of helpful commands."
+msgstr ""
+"Вступ до управління версіями для новачків за допомогою Git.\n"
+"Будь ласка, перегляньте <https://swcarpentry.github.io/git-novice/> для візуалізованої версії цього матеріалу,\n"
+"[шаблон уроку документації][lesson-example]\n"
+"для інструкцій з форматування, побудови та подачі матеріалу,\n"
+"або запустіть `make` у цому репозиторії для списку корисних команд."
+
+#: git-novice/README.md:13
+msgid "Maintainers:"
+msgstr "Супроводжувачі:"
+
+# unordered list
+#: git-novice/README.md:15
+msgid "* [Nima Hejazi][hejazi_nima]: [@nhejazi](https://github.com/nhejazi)"
+msgstr "* [Nima Hejazi][hejazi_nima]: [@nhejazi](https://github.com/nhejazi)"
+
+# unordered list
+#: git-novice/README.md:16
+msgid "* [Kat Koziar][koziar_kat]: [@kekoziar](https://github.com/kekoziar)"
+msgstr "* [Kat Koziar][koziar_kat]: [@kekoziar](https://github.com/kekoziar)"
+
+# unordered list
+#: git-novice/README.md:17
+msgid "* [Madicken Munk][munk_madicken]: [@munkm](https://github.com/munkm)"
+msgstr "* [Madicken Munk][munk_madicken]: [@munkm](https://github.com/munkm)"
+
+#: git-novice/README.md:19
+msgid ""
+"Alumni maintainers:\n"
+"* [Ivan Gonzalez][gonzalez_ivan]: [@iglpdc](https://github.com/iglpdc)\n"
+"* [Daisie Huang][huang_daisie]: [@daisieh](https://github.com/daisieh)"
+msgstr ""
+"Супроводжувачі-випускники:\n"
+"* [Ivan Gonzalez][gonzalez_ivan]: [@iglpdc](https://github.com/iglpdc)\n"
+"* [Daisie Huang][huang_daisie]: [@daisieh](https://github.com/daisieh)"
+
+#: git-novice/README.md:23
+msgid ""
+"[gonzalez_ivan]: https://carpentries.org/instructors/#iglpdc\n"
+"[hejazi_nima]: https://carpentries.org/instructors/#nhejazi\n"
+"[huang_daisie]: https://software-carpentry.org/team/#huang_daisie\n"
+"[koziar_kat]: https://carpentries.org/instructors/#kekoziar\n"
+"[munk_madicken]: https://carpentries.org/instructors/#munkm\n"
+"[lesson-example]: https://swcarpentry.github.io/lesson-example"
+msgstr ""
+"[gonzalez_ivan]: https://carpentries.org/instructors/#iglpdc\n"
+"[hejazi_nima]: https://carpentries.org/instructors/#nhejazi\n"
+"[huang_daisie]: https://software-carpentry.org/team/#huang_daisie\n"
+"[koziar_kat]: https://carpentries.org/instructors/#kekoziar\n"
+"[munk_madicken]: https://carpentries.org/instructors/#munkm\n"
+"[lesson-example]: https://swcarpentry.github.io/lesson-example"

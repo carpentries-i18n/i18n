@@ -1,0 +1,611 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/09-conflict.md:1
+# Front Matter
+msgid "---\n"
+"title: Conflicts\n"
+"teaching: 15\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"What do I do when my changes conflict with someone else's?\"\n"
+"objectives:\n"
+"- \"Explain what conflicts are and when they can occur.\"\n"
+"- \"Resolve conflicts resulting from a merge.\"\n"
+"keypoints:\n"
+"- \"Conflicts occur when two or more people change the same lines of the same file.\"\n"
+"- \"The version control system does not allow people to overwrite each other's changes blindly, but highlights conflicts so that they can be resolved.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:15
+msgid "As soon as people can work in parallel, they'll likely step on each other's\n"
+"toes.  This will even happen with a single person: if we are working on\n"
+"a piece of software on both our laptop and a server in the lab, we could make\n"
+"different changes to each copy.  Version control helps us manage these\n"
+"[conflicts]({{ page.root}}{% link reference.md %}#conflict) by giving us tools to\n"
+"[resolve]({{ page.root }}{% link reference.md %}#resolve) overlapping changes."
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:22
+msgid "To see how we can resolve conflicts, we must first create one.  The file\n"
+"`mars.txt` currently looks like this in both partners' copies of our `planets`\n"
+"repository:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:38
+msgid "Let's add a line to the collaborator's copy only:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:46
+# code block
+msgid "~~~\n"
+"Cold and dry, but everything is my favorite color\n"
+"The two moons may be a problem for Wolfman\n"
+"But the Mummy will appreciate the lack of humidity\n"
+"This line added to Wolfman's copy\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:54
+msgid "and then push the change to GitHub:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:56
+# code block
+msgid "~~~\n"
+"$ git add mars.txt\n"
+"$ git commit -m \"Add a line in our home copy\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:62
+# code block
+msgid "~~~\n"
+"[main 5ae9631] Add a line in our home copy\n"
+" 1 file changed, 1 insertion(+)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:73
+# code block
+msgid "~~~\n"
+"Enumerating objects: 5, done.\n"
+"Counting objects: 100% (5/5), done.\n"
+"Delta compression using up to 8 threads\n"
+"Compressing objects: 100% (3/3), done.\n"
+"Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.\n"
+"Total 3 (delta 2), reused 0 (delta 0)\n"
+"remote: Resolving deltas: 100% (2/2), completed with 2 local objects.\n"
+"To https://github.com/vlad/planets.git\n"
+"   29aba7c..dabb4c8  main -> main\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:86
+msgid "Now let's have the owner\n"
+"make a different change to their copy\n"
+"*without* updating from GitHub:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:96
+# code block
+msgid "~~~\n"
+"Cold and dry, but everything is my favorite color\n"
+"The two moons may be a problem for Wolfman\n"
+"But the Mummy will appreciate the lack of humidity\n"
+"We added a different line in the other copy\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:104
+msgid "We can commit the change locally:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:106
+# code block
+msgid "~~~\n"
+"$ git add mars.txt\n"
+"$ git commit -m \"Add a line in my copy\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:112
+# code block
+msgid "~~~\n"
+"[main 07ebc69] Add a line in my copy\n"
+" 1 file changed, 1 insertion(+)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:118
+msgid "but Git won't let us push it to GitHub:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:125
+# code block
+msgid "~~~\n"
+"To https://github.com/vlad/planets.git\n"
+" ! [rejected]        main -> main (fetch first)\n"
+"error: failed to push some refs to 'https://github.com/vlad/planets.git'\n"
+"hint: Updates were rejected because the remote contains work that you do\n"
+"hint: not have locally. This is usually caused by another repository pushing\n"
+"hint: to the same ref. You may want to first integrate the remote changes\n"
+"hint: (e.g., 'git pull ...') before pushing again.\n"
+"hint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:137
+msgid "![The Conflicting Changes](../fig/conflict.svg)"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:139
+msgid "Git rejects the push because it detects that the remote repository has new updates that have not been\n"
+"incorporated into the local branch.\n"
+"What we have to do is pull the changes from GitHub,\n"
+"[merge]({{ page.root }}{% link reference.md %}#merge) them into the copy we're currently working in, and then push that.\n"
+"Let's start by pulling:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:150
+# code block
+msgid "~~~\n"
+"remote: Enumerating objects: 5, done.\n"
+"remote: Counting objects: 100% (5/5), done.\n"
+"remote: Compressing objects: 100% (1/1), done.\n"
+"remote: Total 3 (delta 2), reused 3 (delta 2), pack-reused 0\n"
+"Unpacking objects: 100% (3/3), done.\n"
+"From https://github.com/vlad/planets\n"
+" * branch            main     -> FETCH_HEAD\n"
+"    29aba7c..dabb4c8  main     -> origin/main\n"
+"Auto-merging mars.txt\n"
+"CONFLICT (content): Merge conflict in mars.txt\n"
+"Automatic merge failed; fix conflicts and then commit the result.\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:165
+msgid "The `git pull` command updates the local repository to include those\n"
+"changes already included in the remote repository.\n"
+"After the changes from remote branch have been fetched, Git detects that changes made to the local copy \n"
+"overlap with those made to the remote repository, and therefore refuses to merge the two versions to\n"
+"stop us from trampling on our previous work. The conflict is marked in\n"
+"in the affected file:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:177
+# code block
+msgid "~~~\n"
+"Cold and dry, but everything is my favorite color\n"
+"The two moons may be a problem for Wolfman\n"
+"But the Mummy will appreciate the lack of humidity\n"
+"<<<<<<< HEAD\n"
+"We added a different line in the other copy\n"
+"=======\n"
+"This line added to Wolfman's copy\n"
+">>>>>>> dabb4c8c450e8475aee9b14b4383acc99f42af1d\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:189
+msgid "Our change is preceded by `<<<<<<< HEAD`.\n"
+"Git has then inserted `=======` as a separator between the conflicting changes\n"
+"and marked the end of the content downloaded from GitHub with `>>>>>>>`.\n"
+"(The string of letters and digits after that marker\n"
+"identifies the commit we've just downloaded.)"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:195
+msgid "It is now up to us to edit this file to remove these markers\n"
+"and reconcile the changes.\n"
+"We can do anything we want: keep the change made in the local repository, keep\n"
+"the change made in the remote repository, write something new to replace both,\n"
+"or get rid of the change entirely.\n"
+"Let's replace both so that the file looks like this:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:207
+#: git-novice/_episodes/09-conflict.md:299
+# code block
+msgid "~~~\n"
+"Cold and dry, but everything is my favorite color\n"
+"The two moons may be a problem for Wolfman\n"
+"But the Mummy will appreciate the lack of humidity\n"
+"We removed the conflict on this line\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:215
+msgid "To finish merging,\n"
+"we add `mars.txt` to the changes being made by the merge\n"
+"and then commit:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:219
+# code block
+msgid "~~~\n"
+"$ git add mars.txt\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:225
+# code block
+msgid "~~~\n"
+"On branch main\n"
+"All conflicts fixed but you are still merging.\n"
+"  (use \"git commit\" to conclude merge)\n"
+"\n"
+"Changes to be committed:\n"
+"\n"
+"	modified:   mars.txt\n"
+"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:237
+# code block
+msgid "~~~\n"
+"$ git commit -m \"Merge changes from GitHub\"\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:242
+# code block
+msgid "~~~\n"
+"[main 2abf2b1] Merge changes from GitHub\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:247
+msgid "Now we can push our changes to GitHub:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:254
+# code block
+msgid "~~~\n"
+"Enumerating objects: 10, done.\n"
+"Counting objects: 100% (10/10), done.\n"
+"Delta compression using up to 8 threads\n"
+"Compressing objects: 100% (6/6), done.\n"
+"Writing objects: 100% (6/6), 645 bytes | 645.00 KiB/s, done.\n"
+"Total 6 (delta 4), reused 0 (delta 0)\n"
+"remote: Resolving deltas: 100% (4/4), completed with 2 local objects.\n"
+"To https://github.com/vlad/planets.git\n"
+"   dabb4c8..2abf2b1  main -> main\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:267
+msgid "Git keeps track of what we've merged with what,\n"
+"so we don't have to fix things by hand again\n"
+"when the collaborator who made the first change pulls again:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:276
+# code block
+msgid "~~~\n"
+"remote: Enumerating objects: 10, done.\n"
+"remote: Counting objects: 100% (10/10), done.\n"
+"remote: Compressing objects: 100% (2/2), done.\n"
+"remote: Total 6 (delta 4), reused 6 (delta 4), pack-reused 0\n"
+"Unpacking objects: 100% (6/6), done.\n"
+"From https://github.com/vlad/planets\n"
+" * branch            main     -> FETCH_HEAD\n"
+"    dabb4c8..2abf2b1  main     -> origin/main\n"
+"Updating dabb4c8..2abf2b1\n"
+"Fast-forward\n"
+" mars.txt | 2 +-\n"
+" 1 file changed, 1 insertion(+), 1 deletion(-)\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:292
+msgid "We get the merged file:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:307
+msgid "We don't need to merge again because Git knows someone has already done that."
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:309
+msgid "Git's ability to resolve conflicts is very useful, but conflict resolution\n"
+"costs time and effort, and can introduce errors if conflicts are not resolved\n"
+"correctly. If you find yourself resolving a lot of conflicts in a project,\n"
+"consider these technical approaches to reducing them:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:314
+# unordered list
+msgid "- Pull from upstream more frequently, especially before starting new work"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:315
+# unordered list
+msgid "- Use topic branches to segregate work, merging to main when complete"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:316
+# unordered list
+msgid "- Make smaller more atomic commits"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:317
+# unordered list
+msgid "- Where logically appropriate, break large files into smaller ones so that it is"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:318
+msgid "  less likely that two authors will alter the same file simultaneously"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:320
+msgid "Conflicts can also be minimized with project management strategies:"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:322
+# unordered list
+msgid "- Clarify who is responsible for what areas with your collaborators"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:323
+# unordered list
+msgid "- Discuss what order tasks should be carried out in with your collaborators so"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:324
+msgid "  that tasks expected to change the same lines won't be worked on simultaneously\n"
+"- If the conflicts are stylistic churn (e.g. tabs vs. spaces), establish a\n"
+"  project convention that is governing and use code style tools (e.g.\n"
+"  `htmltidy`, `perltidy`, `rubocop`, etc.) to enforce, if necessary"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:329
+# blockquote, which can be cascaded
+msgid "> ## Solving Conflicts that You Create"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:330
+msgid ">\n"
+"> Clone the repository created by your instructor.\n"
+"> Add a new file to it,\n"
+"> and modify an existing file (your instructor will tell you which one).\n"
+"> When asked by your instructor,\n"
+"> pull her changes from the repository to create a conflict,\n"
+"> then resolve it."
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:339
+# blockquote, which can be cascaded
+msgid "> ## Conflicts on Non-textual files"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:340
+msgid ">\n"
+"> What does Git do\n"
+"> when there is a conflict in an image or some other non-textual file\n"
+"> that is stored in version control?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > Let's try it. Suppose Dracula takes a picture of Martian surface and\n"
+"> > calls it `mars.jpg`.\n"
+"> >\n"
+"> > If you do not have an image file of Mars available, you can create\n"
+"> > a dummy binary file like this:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ head -c 1024 /dev/urandom > mars.jpg\n"
+"> > $ ls -lh mars.jpg\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > -rw-r--r-- 1 vlad 57095 1.0K Mar  8 20:24 mars.jpg\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > `ls` shows us that this created a 1-kilobyte file. It is full of\n"
+"> > random bytes read from the special file, `/dev/urandom`.\n"
+"> >\n"
+"> > Now, suppose Dracula adds `mars.jpg` to his repository:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git add mars.jpg\n"
+"> > $ git commit -m \"Add picture of Martian surface\"\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > [main 8e4115c] Add picture of Martian surface\n"
+"> >  1 file changed, 0 insertions(+), 0 deletions(-)\n"
+"> >  create mode 100644 mars.jpg\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > Suppose that Wolfman has added a similar picture in the meantime.\n"
+"> > His is a picture of the Martian sky, but it is *also* called `mars.jpg`.\n"
+"> > When Dracula tries to push, he gets a familiar message:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git push origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > To https://github.com/vlad/planets.git\n"
+"> >  ! [rejected]        main -> main (fetch first)\n"
+"> > error: failed to push some refs to 'https://github.com/vlad/planets.git'\n"
+"> > hint: Updates were rejected because the remote contains work that you do\n"
+"> > hint: not have locally. This is usually caused by another repository pushing\n"
+"> > hint: to the same ref. You may want to first integrate the remote changes\n"
+"> > hint: (e.g., 'git pull ...') before pushing again.\n"
+"> > hint: See the 'Note about fast-forwards' in 'git push --help' for details.\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > We've learned that we must pull first and resolve any conflicts:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git pull origin main\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > When there is a conflict on an image or other binary file, git prints\n"
+"> > a message like this:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git pull origin main\n"
+"> > remote: Counting objects: 3, done.\n"
+"> > remote: Compressing objects: 100% (3/3), done.\n"
+"> > remote: Total 3 (delta 0), reused 0 (delta 0)\n"
+"> > Unpacking objects: 100% (3/3), done.\n"
+"> > From https://github.com/vlad/planets.git\n"
+"> >  * branch            main     -> FETCH_HEAD\n"
+"> >    6a67967..439dc8c  main     -> origin/main\n"
+"> > warning: Cannot merge binary files: mars.jpg (HEAD vs. 439dc8c08869c342438f6dc4a2b615b05b93c76e)\n"
+"> > Auto-merging mars.jpg\n"
+"> > CONFLICT (add/add): Merge conflict in mars.jpg\n"
+"> > Automatic merge failed; fix conflicts and then commit the result.\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > The conflict message here is mostly the same as it was for `mars.txt`, but\n"
+"> > there is one key additional line:\n"
+"> >\n"
+"> > ~~~\n"
+"> > warning: Cannot merge binary files: mars.jpg (HEAD vs. 439dc8c08869c342438f6dc4a2b615b05b93c76e)\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > Git cannot automatically insert conflict markers into an image as it does\n"
+"> > for text files. So, instead of editing the image file, we must check out\n"
+"> > the version we want to keep. Then we can add and commit this version.\n"
+"> >\n"
+"> > On the key line above, Git has conveniently given us commit identifiers\n"
+"> > for the two versions of `mars.jpg`. Our version is `HEAD`, and Wolfman's\n"
+"> > version is `439dc8c0...`. If we want to use our version, we can use\n"
+"> > `git checkout`:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git checkout HEAD mars.jpg\n"
+"> > $ git add mars.jpg\n"
+"> > $ git commit -m \"Use image of surface instead of sky\"\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > [main 21032c3] Use image of surface instead of sky\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > If instead we want to use Wolfman's version, we can use `git checkout` with\n"
+"> > Wolfman's commit identifier, `439dc8c0`:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git checkout 439dc8c0 mars.jpg\n"
+"> > $ git add mars.jpg\n"
+"> > $ git commit -m \"Use image of sky instead of surface\"\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > [main da21b34] Use image of sky instead of surface\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > We can also keep *both* images. The catch is that we cannot keep them\n"
+"> > under the same name. But, we can check out each version in succession\n"
+"> > and *rename* it, then add the renamed versions. First, check out each\n"
+"> > image and rename it:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git checkout HEAD mars.jpg\n"
+"> > $ git mv mars.jpg mars-surface.jpg\n"
+"> > $ git checkout 439dc8c0 mars.jpg\n"
+"> > $ mv mars.jpg mars-sky.jpg\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > Then, remove the old `mars.jpg` and add the two new files:\n"
+"> >\n"
+"> > ~~~\n"
+"> > $ git rm mars.jpg\n"
+"> > $ git add mars-surface.jpg\n"
+"> > $ git add mars-sky.jpg\n"
+"> > $ git commit -m \"Use two images: surface and sky\"\n"
+"> > ~~~\n"
+"> > {: .language-bash}\n"
+"> >\n"
+"> > ~~~\n"
+"> > [main 94ae08c] Use two images: surface and sky\n"
+"> >  2 files changed, 0 insertions(+), 0 deletions(-)\n"
+"> >  create mode 100644 mars-sky.jpg\n"
+"> >  rename mars.jpg => mars-surface.jpg (100%)\n"
+"> > ~~~\n"
+"> > {: .output}\n"
+"> >\n"
+"> > Now both images of Mars are checked into the repository, and `mars.jpg`\n"
+"> > no longer exists."
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:509
+# blockquote, which can be cascaded
+msgid "> ## A Typical Work Session"
+msgstr ""
+
+#: git-novice/_episodes/09-conflict.md:510
+msgid ">\n"
+"> You sit down at your computer to work on a shared project that is tracked in a\n"
+"> remote Git repository. During your work session, you take the following\n"
+"> actions, but not in this order:\n"
+">\n"
+"> - *Make changes* by appending the number `100` to a text file `numbers.txt`\n"
+"> - *Update remote* repository to match the local repository\n"
+"> - *Celebrate* your success with some fancy beverage(s)\n"
+"> - *Update local* repository to match the remote repository\n"
+"> - *Stage changes* to be committed\n"
+"> - *Commit changes* to the local repository\n"
+">\n"
+"> In what order should you perform these actions to minimize the chances of\n"
+"> conflicts? Put the commands above in order in the *action* column of the table\n"
+"> below. When you have the order right, see if you can write the corresponding\n"
+"> commands in the *command* column. A few steps are populated to get you\n"
+"> started.\n"
+">\n"
+"> |order|action . . . . . . . . . . |command . . . . . . . . . . |\n"
+"> |-----|---------------------------|----------------------------|\n"
+"> |1    |                           |                            |\n"
+"> |2    |                           | `echo 100 >> numbers.txt`  |\n"
+"> |3    |                           |                            |\n"
+"> |4    |                           |                            |\n"
+"> |5    |                           |                            |\n"
+"> |6    | Celebrate!                | `AFK`                      |\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > |order|action . . . . . . |command . . . . . . . . . . . . . . . . . . . |\n"
+"> > |-----|-------------------|----------------------------------------------|\n"
+"> > |1    | Update local      | `git pull origin main`                     |\n"
+"> > |2    | Make changes      | `echo 100 >> numbers.txt`                    |\n"
+"> > |3    | Stage changes     | `git add numbers.txt`                        |\n"
+"> > |4    | Commit changes    | `git commit -m \"Add 100 to numbers.txt\"`     |\n"
+"> > |5    | Update remote     | `git push origin main`                     |\n"
+"> > |6    | Celebrate!        | `AFK`                                        |"
+msgstr ""
+

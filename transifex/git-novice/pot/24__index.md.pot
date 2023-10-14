@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/index.md:1
+# Front Matter
+msgid "---\n"
+"layout: lesson\n"
+"root: .  # Is the only page that doesn't follow the pattern /:path/index.html\n"
+"permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html\n"
+"---"
+msgstr ""
+
+#: git-novice/index.md:7
+msgid "Wolfman and Dracula have been hired by Universal Missions (a space\n"
+"services spinoff from Euphoric State University) to investigate if it\n"
+"is possible to send their next planetary lander to Mars.  They want to\n"
+"be able to work on the plans at the same time, but they have run into\n"
+"problems doing this in the past.  If they take turns, each one will\n"
+"spend a lot of time waiting for the other to finish, but if they work\n"
+"on their own copies and email changes back and forth things will be\n"
+"lost, overwritten, or duplicated."
+msgstr ""
+
+#: git-novice/index.md:16
+msgid "A colleague suggests using [version control]({{ page.root }}{% link reference.md %}#version-control) to\n"
+"manage their work. Version control is better than mailing files back and forth:"
+msgstr ""
+
+#: git-novice/index.md:19
+# unordered list
+msgid "*   Nothing that is committed to version control is ever lost, unless"
+msgstr ""
+
+#: git-novice/index.md:20
+msgid "    you work really, really hard at it. Since all old versions of\n"
+"    files are saved, it's always possible to go back in time to see\n"
+"    exactly who wrote what on a particular day, or what version of a\n"
+"    program was used to generate a particular set of results."
+msgstr ""
+
+#: git-novice/index.md:25
+# unordered list
+msgid "*   As we have this record of who made what changes when, we know who to ask"
+msgstr ""
+
+#: git-novice/index.md:26
+msgid "    if we have questions later on, and, if needed, revert to a previous\n"
+"    version, much like the \"undo\" feature in an editor."
+msgstr ""
+
+#: git-novice/index.md:29
+# unordered list
+msgid "*   When several people collaborate in the same project, it's possible to"
+msgstr ""
+
+#: git-novice/index.md:30
+msgid "    accidentally overlook or overwrite someone's changes. The version control\n"
+"    system automatically notifies users whenever there's a conflict between one\n"
+"    person's work and another's."
+msgstr ""
+
+#: git-novice/index.md:34
+msgid "Teams are not the only ones to benefit from version control: lone\n"
+"researchers can benefit immensely.  Keeping a record of what was\n"
+"changed, when, and why is extremely useful for all researchers if they\n"
+"ever need to come back to the project later on (e.g., a year later,\n"
+"when memory has faded)."
+msgstr ""
+
+#: git-novice/index.md:40
+msgid "Version control is the lab notebook of the digital world: it's what\n"
+"professionals use to keep track of what they've done and to\n"
+"collaborate with other people.  Every large software development\n"
+"project relies on it, and most programmers use it for their small jobs\n"
+"as well.  And it isn't just for software: books,\n"
+"papers, small data sets, and anything that changes over time or needs\n"
+"to be shared can and should be stored in a version control system."
+msgstr ""
+
+#: git-novice/index.md:48
+# blockquote, which can be cascaded
+msgid "> ## Prerequisites"
+msgstr ""
+
+#: git-novice/index.md:49
+msgid ">\n"
+"> In this lesson we use Git from the Unix Shell.\n"
+"> Some previous experience with the shell is expected,\n"
+"> *but isn't mandatory*."
+msgstr ""
+
+#: git-novice/index.md:53
+# SC/DC Template label
+msgid "{: .prereq}"
+msgstr ""
+

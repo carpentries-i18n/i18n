@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/CODE_OF_CONDUCT.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Contributor Code of Conduct\"\n"
+"---"
+msgstr ""
+
+#: git-novice/CODE_OF_CONDUCT.md:5
+msgid "As contributors and maintainers of this project,\n"
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
+msgstr ""
+
+#: git-novice/CODE_OF_CONDUCT.md:8
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+
+#: git-novice/CODE_OF_CONDUCT.md:11
+msgid "[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html\n"
+"[coc-reporting]: https://docs.carpentries.org/topic_folders/policies/incident-reporting.html"
+msgstr ""
+

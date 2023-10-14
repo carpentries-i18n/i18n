@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: git-novice/_episodes/12-citation.md:1
+# Front Matter
+msgid "---\n"
+"title: Citation\n"
+"teaching: 2\n"
+"exercises: 0\n"
+"questions:\n"
+"- \"How can I make my work easier to cite?\"\n"
+"objectives:\n"
+"- \"Make your work easy to cite\"\n"
+"keypoints:\n"
+"- \"Add a CITATION file to a repository to explain how you want your work cited.\"\n"
+"---"
+msgstr ""
+
+#: git-novice/_episodes/12-citation.md:13
+msgid "You may want to include a file called `CITATION` or `CITATION.txt`\n"
+"that describes how to reference your project;\n"
+"the [one for Software\n"
+"Carpentry](https://github.com/swcarpentry/website/blob/gh-pages/CITATION)\n"
+"states:"
+msgstr ""
+
+#: git-novice/_episodes/12-citation.md:19
+# code block
+msgid "~~~\n"
+"To reference Software Carpentry in publications, please cite both of the following:\n"
+"\n"
+"Greg Wilson: \"Software Carpentry: Getting Scientists to Write Better\n"
+"Code by Making Them More Productive\".  Computing in Science &\n"
+"Engineering, Nov-Dec 2006.\n"
+"\n"
+"Greg Wilson: \"Software Carpentry: Lessons Learned\". arXiv:1307.5448,\n"
+"July 2013.\n"
+"\n"
+"@article{wilson-software-carpentry-2006,\n"
+"    author =  {Greg Wilson},\n"
+"    title =   {Software Carpentry: Getting Scientists to Write Better Code by Making Them More Productive},\n"
+"    journal = {Computing in Science \\& Engineering},\n"
+"    month =   {November--December},\n"
+"    year =    {2006},\n"
+"}\n"
+"\n"
+"@online{wilson-software-carpentry-2013,\n"
+"  author      = {Greg Wilson},\n"
+"  title       = {Software Carpentry: Lessons Learned},\n"
+"  version     = {1},\n"
+"  date        = {2013-07-20},\n"
+"  eprinttype  = {arxiv},\n"
+"  eprint      = {1307.5448}\n"
+"}\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/12-citation.md:46
+#: git-novice/_episodes/12-citation.md:56
+# SC/DC Template label
+msgid "{: .source}"
+msgstr ""
+
+#: git-novice/_episodes/12-citation.md:48
+msgid "More detailed advice, and other ways to make your code citable can be found\n"
+"[at the Software Sustainability Institute blog](https://www.software.ac.uk/how-cite-and-describe-software) and in:"
+msgstr ""
+
+#: git-novice/_episodes/12-citation.md:51
+# code block
+msgid "~~~\n"
+"Smith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working Group. (2016) Software citation\n"
+"principles. [PeerJ Computer Science 2:e86](https://peerj.com/articles/cs-86/)\n"
+"https://doi.org/10.7717/peerj-cs.8\n"
+"~~~"
+msgstr ""
+
+#: git-novice/_episodes/12-citation.md:59
+msgid "There is also an [`@software{...`](https://www.google.com/search?q=git+citation+%22%40software%7B%22)\n"
+"[BibTeX](https://www.ctan.org/pkg/bibtex) entry type in case\n"
+"no \"umbrella\" citation like a paper or book exists for the project you want to\n"
+"make citable."
+msgstr ""
+

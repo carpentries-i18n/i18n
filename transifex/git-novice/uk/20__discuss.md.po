@@ -1,0 +1,1058 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Olexandr Konovalov, 2023
+# Sofiia Matios, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-02-12 20:18:53+0000\n"
+"PO-Revision-Date: 2023-02-12 20:20+0000\n"
+"Last-Translator: Sofiia Matios, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: git-novice/_extras/discuss.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: Discussion\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: Обговорення\n"
+"---"
+
+# header
+#: git-novice/_extras/discuss.md:6
+msgid "## Frequently Asked Questions"
+msgstr "## Часті запитання"
+
+#: git-novice/_extras/discuss.md:8
+msgid ""
+"People often have questions about Git beyond the scope of the core material.\n"
+"Students who have completed the rest of the lessons might find value in looking through the following topics."
+msgstr ""
+"У людей часто виникають питання про Git, що виходять за рамки основного матеріалу.\n"
+"Студенти, які завершили решту уроків, можуть знайти цінність у перегляді наступних тем."
+
+#: git-novice/_extras/discuss.md:11
+msgid ""
+"Note that since this material isn't essential for basic Git usage, it won't "
+"be covered by the instructor."
+msgstr ""
+"Зауважте, що оскільки цей матеріал не є важливим для базового використання "
+"Git, він не буде покритий інструктором."
+
+# header
+#: git-novice/_extras/discuss.md:13
+msgid "## More Advanced Git Configuration"
+msgstr "## Додаткові налаштування Git"
+
+#: git-novice/_extras/discuss.md:15
+msgid ""
+"In [Setting Up Git]({{ page.root }}/02-setup/),\n"
+"we used `git config --global` to set some default options for Git.\n"
+"It turns out that these configuration options get stored in your home directory\n"
+"in a plain text file called `.gitconfig`."
+msgstr ""
+"В [Налаштування Git]({{ page.root }}/02-setup/),\n"
+"ми використовували `git config --global`, щоб встановити деякі параметри за замовчуванням для Git.\n"
+"Виявляється, ці параметри конфігурації зберігаються у вашій домашній директорії \n"
+"у звичайному текстовому файлі під назвою  `.gitconfig`."
+
+# code block
+#: git-novice/_extras/discuss.md:20
+msgid ""
+"~~~\n"
+"$ cat ~/.gitconfig\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ cat ~/.gitconfig\n"
+"~~~"
+
+# code block
+#: git-novice/_extras/discuss.md:25
+msgid ""
+"~~~\n"
+"[user]\n"
+"\tname = Vlad Dracula\n"
+"\temail = vlad@tran.sylvan.ia\n"
+"[color]\n"
+"\tui = true\n"
+"[core]\n"
+"\teditor = nano\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"[user]\n"
+"\tname = Vlad Dracula\n"
+"\temail = vlad@tran.sylvan.ia\n"
+"[color]\n"
+"\tui = true\n"
+"[core]\n"
+"\teditor = nano\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:36
+msgid ""
+"This file can be opened in your preferred text editor.\n"
+"(Note that it is recommended to continue using the `git config` command,\n"
+"as this helps avoid introducing syntax errors.)"
+msgstr ""
+"Цей файл можна відкрити у бажаному текстовому редакторі.\n"
+"(Зауважте, що рекомендується продовжити використання команди `git config`,\n"
+"оскільки це допомагає уникнути введення синтаксичних помилок.)"
+
+#: git-novice/_extras/discuss.md:40
+msgid ""
+"Eventually, you will want to start customizing Git's behaviour.\n"
+"This can be done by adding more entries to your `.gitconfig`.\n"
+"The available options are described in the manual:"
+msgstr ""
+"Зрештою, ви захочете почати налаштовувати поведінку Git.\n"
+"Це можна зробити, додавши більше записів до вашого `.gitconfig`.\n"
+"Доступні параметри описані в посібнику:"
+
+# code block
+#: git-novice/_extras/discuss.md:44
+msgid ""
+"~~~\n"
+"$ git config --help\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git config --help\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:49
+msgid ""
+"In particular, you might find it useful to add aliases.\n"
+"These are like shortcuts for longer Git commands.\n"
+"For example, if you get sick of typing `git checkout` all the time,\n"
+"you could run the command:"
+msgstr ""
+"Зокрема, вам може знадобитися додати псевдоніми.\n"
+"Це як ярлики для довших команд Git.\n"
+"Наприклад, якщо вам набридло вводити `git checkout` весь час,\n"
+"ви можете запустити команду:"
+
+# code block
+#: git-novice/_extras/discuss.md:54
+msgid ""
+"~~~\n"
+"$ git config --global alias.co checkout\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git config --global alias.co checkout\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:59
+msgid ""
+"Now if we return to the example from [Exploring History]({{ page.root "
+"}}/05-history/) where we ran:"
+msgstr ""
+"Тепер, якщо ми повернемося до прикладу з [Досліджуючи історію]({{ page.root "
+"}}/05-history/), де ми запустили:"
+
+#: git-novice/_extras/discuss.md:66
+msgid "we could now instead type:"
+msgstr "ми могли б тепер надрукувати:"
+
+# code block
+#: git-novice/_extras/discuss.md:68
+msgid ""
+"~~~\n"
+"$ git co f22b25e mars.txt\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git co f22b25e mars.txt\n"
+"~~~"
+
+# header
+#: git-novice/_extras/discuss.md:73
+msgid "## Styling Git's Log"
+msgstr "## Стиль Git's Log"
+
+#: git-novice/_extras/discuss.md:75
+msgid ""
+"A good target for customization is output from the log.\n"
+"The default log is quite verbose but gives no graphical hints\n"
+"such as information about which commits were done locally\n"
+"and which were pulled from remotes."
+msgstr ""
+"Гарною метою для налаштування є результат log.\n"
+"Типовий log досить багатослівний, але не дає графічних підказок, \n"
+"таких як інформація про те, які коміти були зроблені локально\n"
+"і які були витягнуті з віддалених."
+
+#: git-novice/_extras/discuss.md:80
+msgid ""
+"You can use `git log --help` and `git config --help` to look for different ways to change\n"
+"the log output.\n"
+"Try the following commands and see what effect they have:"
+msgstr ""
+"Ви можете використовувати `git log --help` та `git config --help` для пошуку різних способів зміни результату\n"
+"log.\n"
+"Спробуйте наступні команди і подивіться, який ефект вони мають:"
+
+# code block
+#: git-novice/_extras/discuss.md:84
+msgid ""
+"~~~\n"
+"$ git config --global alias.lg \"log --graph\"\n"
+"$ git config --global log.abbrevCommit true\n"
+"$ git config --global format.pretty oneline\n"
+"$ git lg\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git config --global alias.lg \"log --graph\"\n"
+"$ git config --global log.abbrevCommit true\n"
+"$ git config --global format.pretty oneline\n"
+"$ git lg\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:92
+msgid ""
+"If you don't like the effects,\n"
+"you can undo them with:"
+msgstr ""
+"Якщо вам не подобаються ефекти,\n"
+"ви можете скасувати їх за допомогою:"
+
+# code block
+#: git-novice/_extras/discuss.md:95
+msgid ""
+"~~~\n"
+"$ git config --global --unset alias.lg\n"
+"$ git config --global --unset log.abbrevCommit\n"
+"$ git config --global --unset format.pretty\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git config --global --unset alias.lg\n"
+"$ git config --global --unset log.abbrevCommit\n"
+"$ git config --global --unset format.pretty\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: git-novice/_extras/discuss.md:102
+msgid "> ## Undoing Git Configuration Changes"
+msgstr "> ## Скасування змін конфігурації Git"
+
+#: git-novice/_extras/discuss.md:103
+msgid ""
+">\n"
+"> You can use the `--unset` flag to delete unwanted options from `.gitconfig`.\n"
+"> Another way to roll back changes is to store your `.gitconfig` using Git.\n"
+">\n"
+"> For hints on what you might want to configure,\n"
+"> go to GitHub and search for \"gitconfig\".\n"
+"> You will find hundreds of repositories in which people have stored\n"
+"> their own Git configuration files.\n"
+"> Sort them by the number of stars and have a look at the top few.\n"
+"> If you find some you like,\n"
+"> please check that they're covered by an open source license before you clone them."
+msgstr ""
+">\n"
+"> Ви можете використовувати прапорець `--unset` для видалення небажаних параметрів з `.gitconfig`.\n"
+"> Інщий спосіб повернути зміни - зберігати ваш `.gitconfig` за допомогою Git.\n"
+">\n"
+"> Щоб отримати підказки щодо того, що ви можете налаштувати,\n"
+"> перейдіть до GitHub та знайдіть \"gitconfig\".\n"
+"> Ви знайдете сотні репозиторіїв, в яких люди зберегли\n"
+"> свої власні файли конфігурації Git.\n"
+"> Сортувати їх за кількістю зірок і подивитися на кілька найкращих.\n"
+"> Якщо ви знайдете ті, які вам подобаються,\n"
+"> будь ласка, перевірте, що вони охоплені ліцензією з відкритим вихідним кодом, перш ніж клонувати їх."
+
+# header
+#: git-novice/_extras/discuss.md:116
+msgid "## Non-text Files"
+msgstr "## Нетекстові файли"
+
+#: git-novice/_extras/discuss.md:118
+msgid ""
+"Recall when we discussed [Conflicts]({{ page.root }}/09-conflict/)\n"
+"there was a challenge that asked,\n"
+"\"What does Git do\n"
+"when there is a conflict in an image or some other non-textual file\n"
+"that is stored in version control?\""
+msgstr ""
+"Пригадайте, коли ми обговорювали [Конфлікти]({{ page.root }}/09-conflict/)\n"
+"була задача, яка запитувала,\n"
+"\"Що робить Git\n"
+"коли виникає конфлікт у зображенні або якомусь інщому нетекстовому файлі,\n"
+"що зберігається у контролі версій?\""
+
+#: git-novice/_extras/discuss.md:124
+msgid "We will now revisit this in more detail."
+msgstr "Тепер ми переглянемо це більш детально."
+
+#: git-novice/_extras/discuss.md:126
+msgid ""
+"Many people want to version control non-text files, such as images, PDFs and Microsoft Office or LibreOffice documents.\n"
+"It is true that Git can handle these filetypes (which fall under the banner of \"binary\" file types).\n"
+"However, just because it *can* be done doesn't mean it *should* be done."
+msgstr ""
+"Багато людей хочуть керувати версіями нетекстових файлів, таких як зображення, PDF-файли та документи Microsoft Office або LibreOffice.\n"
+"Це правда, що Git може обробляти ці типи файлів (які потрапляють під банер «бінарних» типів файлів).\n"
+"Однак тільки тому, що це *можна* зробити, не означає, що це *слід* зробити."
+
+#: git-novice/_extras/discuss.md:130
+msgid ""
+"Much of Git's magic comes from being able to do line-by-line comparisons (\"diffs\") between files.\n"
+"This is generally easy for programming source code and marked up text.\n"
+"For non-text files, a diff can usually only detect that the files have changed\n"
+"but can't say how or where."
+msgstr ""
+"Велика частина магії Git походить від можливості робити порівняння по черзі («diffs») між файлами.\n"
+"Це, як правило, легко для програмування вихідного коду і розміченого тексту.\n"
+"Для нетекстових файлів різниця зазвичай може виявляти лише те, що файли змінилися\n"
+"але не можуть сказати, як і де."
+
+#: git-novice/_extras/discuss.md:135
+msgid ""
+"This has various impacts on Git's performance and will make it difficult to\n"
+"compare different versions of your project."
+msgstr ""
+"Це має різний вплив на продуктивність Git і ускладнить\n"
+"порівняння різних версій вашого проєкту."
+
+#: git-novice/_extras/discuss.md:138
+msgid ""
+"For a basic example to show the difference it makes,\n"
+"we're going to go see what would have happened if Dracula had tried\n"
+"using outputs from a word processor instead of plain text."
+msgstr ""
+"Для базового прикладу, щоб показати різницю, яку він робить,\n"
+"ми підемо подивитися, що б сталося, якби Dracula had спробував\n"
+"використання результатів з текстового процесора замість звичайного тексту."
+
+#: git-novice/_extras/discuss.md:142
+msgid "Create a new directory and go into it:"
+msgstr "Створіть нову директорію і перейдіть в неї:"
+
+# code block
+#: git-novice/_extras/discuss.md:144
+msgid ""
+"~~~\n"
+"$ mkdir planets-nontext\n"
+"$ cd planets-nontext\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ mkdir planets-nontext\n"
+"$ cd planets-nontext\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:150
+msgid ""
+"Use a program such as Microsoft Word or LibreOffice Writer to create a new document.\n"
+"Enter the same text that we began with before:"
+msgstr ""
+"Для створення нового документа використовуйте програму, таку як Microsoft Word або LibreOffice Writer.\n"
+"Введіть той самий текст, з якого ми починали раніше:"
+
+#: git-novice/_extras/discuss.md:158
+msgid ""
+"Save the document into the `planets-nontext` directory with the name of `mars.doc`.\n"
+"Back in the terminal, run the usual commands for setting up a new Git repository:"
+msgstr ""
+"Збережіть документ у директорії `planets-nontext` зщ назвою `mars.doc`.\n"
+"Знову в терміналі запустіть звичайні команди для налаштування нового репозиторію Git:"
+
+# code block
+#: git-novice/_extras/discuss.md:161
+msgid ""
+"~~~\n"
+"$ git init\n"
+"$ git add mars.doc\n"
+"$ git commit -m \"Starting to think about Mars\"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git init\n"
+"$ git add mars.doc\n"
+"$ git commit -m \"Starting to think about Mars\"\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:168
+msgid ""
+"Then make the same changes to `mars.doc` that we (or Vlad) previously made "
+"to `mars.txt`."
+msgstr ""
+"Потім внесіть ті ж зміни в `mars.doc`, які ми (або Vlad) раніше зробили в "
+"`mars.txt`."
+
+#: git-novice/_extras/discuss.md:176
+msgid ""
+"Save and close the word processor.\n"
+"Now see what Git thinks of your changes:"
+msgstr ""
+"Збережіть і закрийте текстовий процесор.\n"
+"Тепер подивіться, що Git думає про ваші зміни:"
+
+# code block
+#: git-novice/_extras/discuss.md:184
+msgid ""
+"~~~\n"
+"diff --git a/mars.doc b/mars.doc\n"
+"index 53a66fd..6e988e9 100644\n"
+"Binary files a/mars.doc and b/mars.doc differ\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"diff --git a/mars.doc b/mars.doc\n"
+"index 53a66fd..6e988e9 100644\n"
+"Binary files a/mars.doc and b/mars.doc differ\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:191
+msgid "Compare this to the earlier `git diff` obtained when using text files:"
+msgstr ""
+"Порівняйте це з попереднім `git diff`, отриманим при використанні текстових "
+"файлів:"
+
+#: git-novice/_extras/discuss.md:204
+msgid ""
+"Notice how plain text files give a much more informative diff.\n"
+"You can see exactly which lines changed and what the changes were."
+msgstr ""
+"Зверніть увагу, як звичайні файли дають набагато більш інофрмативну різницю (diff).\n"
+"Ви можете побачити, які саме лінії змінилися і які були зміни."
+
+#: git-novice/_extras/discuss.md:207
+msgid ""
+"An uninformative `git diff` is not the only consequence of using Git on binary files.\n"
+"However, most of the other problems boil down to whether or not a good diff is possible."
+msgstr ""
+"Неінформативний `git diff` не є єдиним наслідком використання Git на бінарних файлах.\n"
+"Однак більшість інших проблем зводяться до того, чи можлива хороша різниця (diff)."
+
+#: git-novice/_extras/discuss.md:210
+msgid ""
+"This isn't to say you should *never* use Git on binary files.\n"
+"A rule of thumb is that it's OK if the binary file won't change very often,\n"
+"and if it does change, you don't care about merging in small differences between versions."
+msgstr ""
+"Це не означає, що ви повинні *ніколи* використовувати Git на бінарних файлах.\n"
+"Великим правилом є те, що це нормально, якщо бінарний файл не змінюється дуже часто,\n"
+"і якщо він змінюється, вам не важливо об'єднуватися в невеликі відмінності між версіями."
+
+#: git-novice/_extras/discuss.md:214
+msgid ""
+"We've already seen how a word processed report will fail this test.\n"
+"An example that passes the test is a logo for your organization or project.\n"
+"Even though a logo will be stored in a binary format such as `jpg` or `png`,\n"
+"you can expect it will remain fairly static through the lifetime of your repository.\n"
+"On the rare occasion that branding does change,\n"
+"you will probably just want to replace the logo completely rather than merge little differences in."
+msgstr ""
+"Ми вже бачили, як опрацьований словесний репорт провалить цей тест.\n"
+"Прикладом, який проходить тест, є логотип для вашої організації або проєкту.\n"
+"Незважаючи на те, що логотип буде зберігатися в бінарному форматі, такому як `jpg` або `png`,\n"
+"ви можете очікувати, що він залишиться досить статичним протягом усього життя вашого репозиторію.\n"
+"У рідкісних випадках, коли брендинг змінюється,\n"
+"ви, ймовірно, просто хочете замінити логотип повністю, а не об'єднати невеликі відмінності."
+
+# header
+#: git-novice/_extras/discuss.md:221
+msgid "## Removing a File"
+msgstr "## Видалення файлу"
+
+#: git-novice/_extras/discuss.md:223
+msgid ""
+"Adding and modifying files are not the only actions one might take\n"
+"when working on a project.  It might be required to remove a file\n"
+"from the repository."
+msgstr ""
+"Додавання та зміна файлів - це не єдині дії, які можна виконати\n"
+"під час роботи над проєктом. Можливо, буде потрібно видалити файл\n"
+"зі сховища."
+
+#: git-novice/_extras/discuss.md:227
+msgid "Create a new file for the planet Nibiru:"
+msgstr "Створіть новий файл для планети Nibiru:"
+
+# code block
+#: git-novice/_extras/discuss.md:229
+msgid ""
+"~~~\n"
+"$ echo \"This is another name for fake planet X\" > nibiru.txt\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ echo \"This is another name for fake planet X\" > nibiru.txt\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:234
+msgid "Now add to the repository like you have learned earlier:"
+msgstr "Тепер додайте в репозиторій, як ви навчилися раніше:"
+
+# code block
+#: git-novice/_extras/discuss.md:236
+msgid ""
+"~~~\n"
+"$ git add nibiru.txt\n"
+"$ git commit -m 'adding info on nibiru'\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git add nibiru.txt\n"
+"$ git commit -m 'adding info on nibiru'\n"
+"$ git status\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:249
+msgid ""
+"Nibiru is not a real planet.  That was a silly idea.  Let us remove\n"
+"it from the disk and let Git know about it:"
+msgstr ""
+"Nibiru - не справжня планета. Це була дурна ідея. Давайте видалимо \n"
+"її з диска і нехай Git знає про це:"
+
+# code block
+#: git-novice/_extras/discuss.md:252 git-novice/_extras/discuss.md:317
+msgid ""
+"~~~\n"
+"$ git rm nibiru.txt\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git rm nibiru.txt\n"
+"$ git status\n"
+"~~~"
+
+# code block
+#: git-novice/_extras/discuss.md:258 git-novice/_extras/discuss.md:323
+msgid ""
+"~~~\n"
+"On branch main\n"
+"Changes to be committed:\n"
+"   (use \"git reset HEAD <file>...\" to unstage)\n"
+"\n"
+"   deleted:    nibiru.txt\n"
+"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"On branch main\n"
+"Changes to be committed:\n"
+"   (use \"git reset HEAD <file>...\" to unstage)\n"
+"\n"
+"   deleted:    nibiru.txt\n"
+"\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:268
+msgid ""
+"The change has been staged.  Now commit the removal, and remove the\n"
+"file from the repository itself.  Note that the file will be removed\n"
+"in the new commit.  The previous commit will still\n"
+"have the file, if you were to retrieve that specific commit."
+msgstr ""
+"Зміна була перенесена у зону стейджингу. Тепер закомітьте видалення та видаліть\n"
+"файл з самого репозиторію.  Зауважте, що файл буде вилучено\n"
+"у новому коміті.  Попередній коміт все одно\n"
+"матиме файл, якщо ви хочете отримати цей конкретний коміт."
+
+# code block
+#: git-novice/_extras/discuss.md:273
+msgid ""
+"~~~\n"
+"$ git commit -m 'Removing info on Nibiru.  It is not a real planet!'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git commit -m 'Removing info on Nibiru.  It is not a real planet!'\n"
+"~~~"
+
+# header
+#: git-novice/_extras/discuss.md:278
+msgid "## Removing a File with Unix"
+msgstr "## Видалення файлу за допомогою Unix"
+
+#: git-novice/_extras/discuss.md:280
+msgid ""
+"Sometimes we might forget to remove the file through Git. If you removed the\n"
+"file with Unix `rm` instead of using `git rm`, no worries,\n"
+"Git is smart enough to notice the missing file. Let us recreate the file and\n"
+"commit it again."
+msgstr ""
+"Іноді ми можемо забути видалити файл через Git. Якщо ви видалили\n"
+"файл за допомогою Unix `rm` замість використання `git rm`, не хвилюйтеся,\n"
+"Git досить розумний, щоб помітити відсутній файл. Давайте відтворимо файл і\n"
+"закомітимо його знову."
+
+# code block
+#: git-novice/_extras/discuss.md:285
+msgid ""
+"~~~\n"
+"$ echo \"This is another name for fake planet X\" > nibiru.txt\n"
+"$ git add nibiru.txt\n"
+"$ git commit -m 'adding nibiru again'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ echo \"This is another name for fake planet X\" > nibiru.txt\n"
+"$ git add nibiru.txt\n"
+"$ git commit -m 'adding nibiru again'\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:292
+msgid "Now we remove the file with Unix `rm`:"
+msgstr "Тепер ми видаляємо файл за допомогою Unix `rm`:"
+
+# code block
+#: git-novice/_extras/discuss.md:294
+msgid ""
+"~~~\n"
+"$ rm nibiru.txt\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ rm nibiru.txt\n"
+"$ git status\n"
+"~~~"
+
+# code block
+#: git-novice/_extras/discuss.md:300
+msgid ""
+"~~~\n"
+"On branch main\n"
+"Changes not staged for commit:\n"
+"   (use \"git add/rm <file>...\" to update what will be committed)\n"
+"   (use \"git checkout -- <file>...\" to discard changes in working directory)\n"
+"\n"
+"    deleted:    nibiru.txt\n"
+"\n"
+"no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"On branch main\n"
+"Changes not staged for commit:\n"
+"   (use \"git add/rm <file>...\" to update what will be committed)\n"
+"   (use \"git checkout -- <file>...\" to discard changes in working directory)\n"
+"\n"
+"    deleted:    nibiru.txt\n"
+"\n"
+"no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:312
+msgid ""
+"See how Git has noticed that the file `nibiru.txt` has been removed\n"
+"from the disk.  The next step is to \"stage\" the removal of the file\n"
+"from the repository.  This is done with the command `git rm` just as\n"
+"before."
+msgstr ""
+"Дивіться, як Git помітив, що файл `nibiru.txt` був видалений\n"
+"з диска. Наступним кроком є \"стейджинг\" видалення файлу\n"
+"з репозиторію.  Це робиться за допомогою команди `git rm` так само, як і\n"
+"раніше."
+
+#: git-novice/_extras/discuss.md:333
+msgid ""
+"The change that was made in Unix has now been staged and needs to be\n"
+"committed."
+msgstr ""
+"Зміна, яка була зроблена в Unix, тепер була перенесена в зону стейджингу і повинна бути\n"
+"закомічена."
+
+# code block
+#: git-novice/_extras/discuss.md:336
+msgid ""
+"~~~\n"
+"$ git commit -m 'Removing info on Nibiru, again!'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git commit -m 'Removing info on Nibiru, again!'\n"
+"~~~"
+
+# header
+#: git-novice/_extras/discuss.md:341
+msgid "## Renaming a File"
+msgstr "## Видалення файлу"
+
+#: git-novice/_extras/discuss.md:343
+msgid "Another common change when working on a project is to rename a file."
+msgstr ""
+"Іншою поширеною зміною під час роботи над проєктом є перейменування файлу."
+
+#: git-novice/_extras/discuss.md:345
+msgid "Create a file for the planet Krypton:"
+msgstr "Створіть файл для планети Krypton:"
+
+# code block
+#: git-novice/_extras/discuss.md:347
+msgid ""
+"~~~\n"
+"$ echo \"Superman's home planet\" > krypton.txt\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ echo \"Superman's home planet\" > krypton.txt\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:352
+msgid "Add it to the repository:"
+msgstr "Додайте його до репозиторію:"
+
+# code block
+#: git-novice/_extras/discuss.md:354
+msgid ""
+"~~~\n"
+"$ git add krypton.txt\n"
+"$ git commit -m 'Adding planet Krypton'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git add krypton.txt\n"
+"$ git commit -m 'Adding planet Krypton'\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:360
+msgid ""
+"We all know that Superman moved to Earth.  Not that he had much\n"
+"choice.  Now his home planet is Earth."
+msgstr ""
+"Всі ми знаємо, що Superman переїхав на Earth. Не те, щоб у нього було багато\n"
+"вибору. Тепер його рідна планета - Earth."
+
+#: git-novice/_extras/discuss.md:363
+msgid "Rename the file `krypton.txt` to `earth.txt` with Git:"
+msgstr "Переіменуйте файл `krypton.txt` на `earth.txt` за допомогою Git:"
+
+# code block
+#: git-novice/_extras/discuss.md:365
+msgid ""
+"~~~\n"
+"$ git mv krypton.txt earth.txt\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git mv krypton.txt earth.txt\n"
+"$ git status\n"
+"~~~"
+
+# code block
+#: git-novice/_extras/discuss.md:371
+msgid ""
+"~~~\n"
+"On branch main\n"
+"Changes to be committed:\n"
+"  (use \"git reset HEAD <file>...\" to unstage)\n"
+"\n"
+"\trenamed:    krypton.txt -> earth.txt\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"On branch main\n"
+"Changes to be committed:\n"
+"  (use \"git reset HEAD <file>...\" to unstage)\n"
+"\n"
+"\trenamed:    krypton.txt -> earth.txt\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:379
+msgid "The final step is commit our change to the repository:"
+msgstr "Останнім кроком є внесення змін до репозиторію:"
+
+# code block
+#: git-novice/_extras/discuss.md:381
+msgid ""
+"~~~\n"
+"$ git commit -m 'Superman's home is now Earth'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git commit -m 'Superman's home is now Earth'\n"
+"~~~"
+
+# header
+#: git-novice/_extras/discuss.md:386
+msgid "## Renaming a File with Unix"
+msgstr "## Переіменування файлу за допомогою Unix"
+
+#: git-novice/_extras/discuss.md:388
+msgid ""
+"If you forgot to use Git and you used Unix `mv` instead\n"
+"of `git mv`, you will have a touch more work to do but Git will\n"
+"be able to deal with it. Let's try again renaming the file,\n"
+"this time with Unix `mv`. First, we need to recreate the\n"
+"`krypton.txt` file:"
+msgstr ""
+"Якщо ви забули використовувати Git і використовували Unix `mv` замість\n"
+"`git mv`, у вас буде більше роботи, але Git зможе\n"
+"впоратися з цим. Давайте спробуємо ще раз перейменувати файл,\n"
+"цього разу за допомогою Unix `mv`. По-перше, нам потрібно відтворити\n"
+"файл `krypton.txt`:"
+
+# code block
+#: git-novice/_extras/discuss.md:394
+msgid ""
+"~~~\n"
+"$ echo \"Superman's home planet\" > krypton.txt\n"
+"$ git add krypton.txt\n"
+"$ git commit -m 'Adding planet Krypton again.'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ echo \"Superman's home planet\" > krypton.txt\n"
+"$ git add krypton.txt\n"
+"$ git commit -m 'Adding planet Krypton again.'\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:401
+msgid "Let us rename the file and see what Git can figured out by itself:"
+msgstr ""
+"Давайте перейменуємо файл і подивимося, що Git може з'ясувати сам по собі:"
+
+# code block
+#: git-novice/_extras/discuss.md:403
+msgid ""
+"~~~\n"
+"$ mv krypton.txt earth.txt\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ mv krypton.txt earth.txt\n"
+"$ git status\n"
+"~~~"
+
+# code block
+#: git-novice/_extras/discuss.md:409
+msgid ""
+"~~~\n"
+"On branch main\n"
+"Changes not staged for commit:\n"
+"  (use \"git add/rm <file>...\" to update what will be committed)\n"
+"  (use \"git checkout -- <file>...\" to discard changes in working directory)\n"
+"\n"
+"        deleted:    krypton.txt\n"
+"\n"
+"Untracked files:\n"
+"  (use \"git add <file>...\" to include in what will be committed)\n"
+"\n"
+"    earth.txt\n"
+"\n"
+"no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"On branch main\n"
+"Changes not staged for commit:\n"
+"  (use \"git add/rm <file>...\" to update what will be committed)\n"
+"  (use \"git checkout -- <file>...\" to discard changes in working directory)\n"
+"\n"
+"        deleted:    krypton.txt\n"
+"\n"
+"Untracked files:\n"
+"  (use \"git add <file>...\" to include in what will be committed)\n"
+"\n"
+"    earth.txt\n"
+"\n"
+"no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:426
+msgid ""
+"Git has noticed that the file `krypton.txt` has disappeared from the\n"
+"file system and a new file `earth.txt` has showed up."
+msgstr ""
+"Git помітив, що файл `krypton.txt` зник з\n"
+"файлової системи і з`явився новий файл `earth.txt`."
+
+#: git-novice/_extras/discuss.md:429
+msgid "Add those changes to the staging area:"
+msgstr "Додайте ці зміни в зону стейджингу:"
+
+# code block
+#: git-novice/_extras/discuss.md:431
+msgid ""
+"~~~\n"
+"$ git add krypton.txt earth.txt\n"
+"$ git status\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git add krypton.txt earth.txt\n"
+"$ git status\n"
+"~~~"
+
+# code block
+#: git-novice/_extras/discuss.md:437
+msgid ""
+"~~~\n"
+"On branch main\n"
+"Changes to be committed:\n"
+"  (use \"git reset HEAD <file>...\" to unstage)\n"
+"\n"
+"    renamed:    krypton.txt -> earth.txt\n"
+"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"On branch main\n"
+"Changes to be committed:\n"
+"  (use \"git reset HEAD <file>...\" to unstage)\n"
+"\n"
+"    renamed:    krypton.txt -> earth.txt\n"
+"\n"
+"~~~"
+
+#: git-novice/_extras/discuss.md:447
+msgid ""
+"Notice how Git has now figured out that the `krypton.txt` has not\n"
+"disappeared - it has simply been renamed."
+msgstr ""
+"Зверніть увагу, як Git тепер зрозумів, що `krypton.txt` не\n"
+"зник - його просто перейменували."
+
+#: git-novice/_extras/discuss.md:450
+msgid "The final step, as before, is to commit our change to the repository:"
+msgstr "Останнім кроком, як і раніше, є внесення змін до репозиторію:"
+
+# code block
+#: git-novice/_extras/discuss.md:452
+msgid ""
+"~~~\n"
+"$ git commit -m 'Superman's home is Earth, told you before.'\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"$ git commit -m 'Superman's home is Earth, told you before.'\n"
+"~~~"
+
+# header
+#: git-novice/_extras/discuss.md:457
+msgid "## Further .gitignore concepts"
+msgstr "## Більше концептів .gitignore"
+
+#: git-novice/_extras/discuss.md:459
+msgid ""
+"For additional documentation on .gitignore, please reference\n"
+"[the official git documentation](https://git-scm.com/docs/gitignore)."
+msgstr ""
+"Для додаткової документації на .gitignore, будь ласка, посилання\n"
+"[офіційна документація git](https://git-scm.com/docs/gitignore)."
+
+#: git-novice/_extras/discuss.md:462
+msgid ""
+"In the ignore exercise, learners were presented with two variations of ignoring\n"
+"nested files. Depending on the organization of your repository, one may suit\n"
+"your needs over another. Keep in mind that the way that Git travels along\n"
+"directory paths can be confusing. "
+msgstr ""
+"У вправі на ігнорування, учням були прелставлені дві варіації ігнорування\n"
+"вкладених файлів. Залежно від організації вашого репозиторію може задовольнити ваші потреби\n"
+"над іншим. Майте на увазі, що шлях, яким Git подорожує по\n"
+"шляхах директорій може бути заплутаним. "
+
+#: git-novice/_extras/discuss.md:467
+msgid ""
+"Sometimes the `**` pattern comes in handy, too, which matches multiple\n"
+"directory levels. E.g. `**/results/plots/*` would make git ignore the\n"
+"`results/plots` directory in any root directory.  "
+msgstr ""
+"Іноді `**` шаблон стає теж в нагоді, який відповідає кратному\n"
+"рівню директорій. Наприклад, `**/results/plots/*` змусить git ігнорувати\n"
+"директорію `results/plots` у будь-якій кореневій директорії."
+
+# blockquote, which can be cascaded
+#: git-novice/_extras/discuss.md:471
+msgid "> ## Ignoring Nested Files: Challenge Problem"
+msgstr "> ## Ігнорування вкладених файлів: проблема задачі"
+
+#: git-novice/_extras/discuss.md:472
+msgid ""
+">\n"
+"> Given a directory structure that looks like:\n"
+">\n"
+"> ~~~\n"
+"> results/data\n"
+"> results/plots\n"
+"> results/run001.log\n"
+"> results/run002.log\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> \n"
+"> And a .gitignore that looks like:\n"
+">\n"
+"> ~~~\n"
+"> *.dat\n"
+"> ~~~"
+msgstr ""
+">\n"
+"> Враховуючи структуру директорій, яка виглядає як:\n"
+">\n"
+"> ~~~\n"
+"> results/data\n"
+"> results/plots\n"
+"> results/run001.log\n"
+"> results/run002.log\n"
+"> ~~~\n"
+"> {: .language-bash}\n"
+"> \n"
+"> Та .gitignore, яка виглядає так:\n"
+">\n"
+"> ~~~\n"
+"> *.dat\n"
+"> ~~~"
+
+#: git-novice/_extras/discuss.md:489
+msgid ""
+">\n"
+"> How would you track all of the contents of `results/data/`, including `*.dat`\n"
+"> files, but ignore the rest of `results/`?\n"
+">\n"
+"> > ## Solution\n"
+"> >\n"
+"> > To do this, your .gitignore would look like this:\n"
+"> >\n"
+"> > ~~~\n"
+"> > *.dat                 # ignore the .dat files\n"
+"> > results/*             # ignore the files in the results directory\n"
+"> > !results/data/        # do not ignore the files in results/data\n"
+"> > !results/data/*       # do not ignore the .dat files in reults/data\n"
+"> > ~~~\n"
+"> > {: .output}"
+msgstr ""
+">\n"
+"> HЯк би ви відстежували весь вміст `results/data/`, включаючи файли `*.dat`,\n"
+"> але ігноруючи інші `results/`?\n"
+">\n"
+"> > ## Відповідь\n"
+"> >\n"
+"> > Для цього ваш .gitignore буде виглядати так:\n"
+"> >\n"
+"> > ~~~\n"
+"> > *.dat                 # ігноруйте файли .dat\n"
+"> > results/*             # ігноруйте файли в директорії\n"
+"> > !results/data/        # не ігноруйте файли в results/data\n"
+"> > !results/data/*       # не ігноруйте файли .dat в reults/data\n"
+"> > ~~~\n"
+"> > {: .output}"
