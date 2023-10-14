@@ -22,3 +22,6 @@
 [submodule "python-novice-gapminder"]
 	url = https://github.com/carpentries-i18n/python-novice-gapminder.git
 	path = python-novice-gapminder
+[submodule "gap-lesson"]
+	url = https://github.com/carpentries-i18n/gap-lesson.git
+	path = gap-lesson

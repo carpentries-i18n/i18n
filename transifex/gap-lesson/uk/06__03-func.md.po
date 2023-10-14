@@ -1,0 +1,965 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Maryna Raievska, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
+"PO-Revision-Date: 2023-02-12 17:54+0000\n"
+"Last-Translator: Maryna Raievska, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/"
+"teams/98915/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: gap-lesson/_episodes/03-func.md:1
+msgid ""
+"---\n"
+"title: \"Functions in GAP\"\n"
+"teaching: 40\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"Functions as a way of code re-use\"\n"
+"objectives:\n"
+"- \"Using command line for prototyping\"\n"
+"- \"Creating functions\"\n"
+"- \"Reading GAP code from a file\"\n"
+"keypoints:\n"
+"- \"Command line is good for prototyping; functions are good for repeated "
+"calculations.\"\n"
+"- \"Informative function names and comments will make code more readable to "
+"your future self and to others.\"\n"
+"- \"Beware of undeclared local variables!\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Функції в GAP\"\n"
+"teaching: 40\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"Функції як спосіб повторного використання коду\"\n"
+"objectives:\n"
+"- \"Використання командного рядка для прототипування\"\n"
+"- \"Створення функцій\"\n"
+"- \"Читання GAP-коду з файлу\"\n"
+"keypoints:\n"
+"- \"Командний рядок добре підходить для прототипування; функції підходять "
+"для повторних обчислень.\"\n"
+"- \"Інформативні назви функцій і коментарі зроблять код більш читабельним "
+"для вас і інших.\"\n"
+"- \"Остерігайтеся неоголошених локальних змінних!\"\n"
+"---"
+
+#: gap-lesson/_episodes/03-func.md:17
+msgid ""
+"Just to remind us of our task: for a finite group _G_, we would like to "
+"calculate\n"
+"the average order of its elements (that is, the sum of the orders of its "
+"elements\n"
+"divided by the order of the group)."
+msgstr ""
+"Просто нагадаємо наше завдання: для скінченної групи _G_ ми хотіли б "
+"обчислити\n"
+" середній порядок її елементів (тобто суму порядків її елементів,\n"
+" поділену на порядок групи)."
+
+#: gap-lesson/_episodes/03-func.md:21
+msgid ""
+"We begin with a very straightforward approach, iterating\n"
+"over all elements of the group in question:"
+msgstr ""
+"Ми починаємо з дуже прямого підходу, повторюючи\n"
+" всі елементи групи, про яку йдеться:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:24
+msgid ""
+"~~~\n"
+"S:=SymmetricGroup(10);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"S:=SymmetricGroup(10);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:29
+msgid ""
+"~~~\n"
+"Sym( [ 1 .. 10 ] )\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Sym( [ 1 .. 10 ] )\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:34
+msgid ""
+"~~~\n"
+"sum:=0;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"sum:=0;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:44
+msgid ""
+"~~~\n"
+"for g in S do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"sum/Size(S);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"for g in S do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"sum/Size(S);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:52 gap-lesson/_episodes/03-func.md:66
+msgid ""
+"~~~\n"
+"39020911/3628800\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"39020911/3628800\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:57
+msgid ""
+"Now assume that we would like to save this fragment of GAP code and later\n"
+"repeat this calculation for some other groups. We may even reformat it to "
+"fit\n"
+"it into one line and use a double semicolon to suppress the output of `sum`:"
+msgstr ""
+"Тепер припустімо, що ми хочемо зберегти цей фрагмент коду GAP і пізніше\n"
+"повторити цей розрахунок для деяких інших груп. Ми навіть можемо "
+"переформатувати його,\n"
+"щоб помістити його в один рядок, і використати подвійну крапку з комою, щоб "
+"закоментувати вивід `sum`:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:61 gap-lesson/_episodes/03-func.md:86
+msgid ""
+"~~~\n"
+"sum:=0;; for g in S do sum := sum + Order(g); od; sum/Size(S);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"sum:=0;; for g in S do sum := sum + Order(g); od; sum/Size(S);\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:71
+msgid ""
+"Now we may easily copy and paste it into the GAP session the next time we "
+"need it.\n"
+"But here we see the first inconvenience: the code expects that the group in "
+"question\n"
+"must be stored in a variable named `S`, so either we have to reset `S` each\n"
+"time, or we need to edit the code:"
+msgstr ""
+"Тепер ми можемо легко скопіювати та вставити його в сеанс GAP наступного "
+"разу, коли він нам знадобиться.\n"
+"Але тут ми бачимо першу незручність: код очікує, що група, про яку йде "
+"мова,\n"
+"має бути збережена в змінній з іменем `S`, тому або ми повинні скидати `S` "
+"кожного\n"
+"разу, або нам потрібно редагувати код:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:76
+msgid ""
+"~~~\n"
+"S:=AlternatingGroup(10);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"S:=AlternatingGroup(10);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:81 gap-lesson/_episodes/06-attributes.md:36
+msgid ""
+"~~~\n"
+"Alt( [ 1 .. 10 ] )\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Alt( [ 1 .. 10 ] )\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:91
+msgid ""
+"~~~\n"
+"2587393/259200\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"2587393/259200\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: gap-lesson/_episodes/03-func.md:96
+msgid "> ## This works only for rapid prototyping"
+msgstr "> ## Це працює лише для швидкого прототипування"
+
+#: gap-lesson/_episodes/03-func.md:97
+msgid ""
+">\n"
+"> * one could accidentally copy and paste only a part of the code, and\n"
+"> incomplete input may trigger a break loop;\n"
+"> * even more dangerous: one could forget to reset `sum` to zero prior to "
+"the new\n"
+"> calculation and obtain incorrect results;\n"
+"> * the group in question may have a different variable name, so the code "
+"will\n"
+"> have to be changed;\n"
+"> * **last, but not least:** when GAP code is pasted into the interpreter, "
+"it is evaluated line\n"
+"> by line. If you have a long file with many commands, and a syntax error "
+"is\n"
+"> in line _N_, this error will be reported only when GAP completes\n"
+"> the evaluation of all preceding lines, and that might be quite time-"
+"consuming."
+msgstr ""
+">\n"
+"> * можна випадково скопіювати та вставити лише частину коду,\n"
+"> а неповне введення може викликати цикл розриву;\n"
+"> * ще небезпечніше: можна забути скинути `sum` на нуль перед новим\n"
+"> обчисленням і отримати неправильні результати;\n"
+"> * група, про яку йде мова, може мати іншу назву змінної, тому код\n"
+"> доведеться змінити;\n"
+"> * **останнє, але не менш важливе:** коли код GAP вставляється в "
+"інтерпретатор, він оцінюється рядок\n"
+"> за рядком. Якщо у вас є довгий файл із багатьма командами, а синтаксична "
+"помилка міститься\n"
+"> в рядку _N_, про цю помилку буде повідомлено лише тоді, коли GAP "
+"завершить\n"
+"> оцінку всіх попередніх рядків, а це може зайняти досить багато часу."
+
+#: gap-lesson/_episodes/03-func.md:110
+msgid ""
+"That is why we need to give our GAP code more structure by organising it\n"
+"into functions:"
+msgstr ""
+"Ось чому нам потрібно надати нашому коду GAP більше структури, організувавши "
+"його\n"
+"у функції:"
+
+# unordered list
+#: gap-lesson/_episodes/03-func.md:113
+msgid "* functions are parsed first and may be called later;"
+msgstr "* функції аналізуються спочатку і можуть бути викликані пізніше;"
+
+# unordered list
+#: gap-lesson/_episodes/03-func.md:114
+msgid ""
+"* any **syntax** errors will be detected in the parsing stage, and not at "
+"the time"
+msgstr ""
+"* будь-які **синтаксичні** помилки будуть виявлені на етапі аналізу, а не "
+"під час"
+
+#: gap-lesson/_episodes/03-func.md:115
+msgid ""
+"  of the call;\n"
+"* functions may have local variables, and this prevents them\n"
+"  being accidentally overwritten just because of reusing the same name of "
+"the\n"
+"  variable to store something else."
+msgstr ""
+"виклику;\n"
+"*функції можуть мати локальні змінні, і це запобігає їх\n"
+"випадковому перезапису лише через повторне використання того самого імені\n"
+"змінної для зберігання чогось іншого."
+
+#: gap-lesson/_episodes/03-func.md:120
+msgid ""
+"The following function takes an argument `G` and computes the average order\n"
+"of its elements:"
+msgstr ""
+"Наступна функція приймає аргумент `G` і обчислює середній порядок\n"
+"його елементів:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:123 gap-lesson/_episodes/03-func.md:428
+msgid ""
+"~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"local sum, g;\n"
+"sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"local sum, g;\n"
+"sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:135
+msgid ""
+"~~~\n"
+"function( G ) ... end\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"function( G ) ... end\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:140
+msgid "Now we can apply it to another group, passing the group as an argument:"
+msgstr ""
+"Тепер ми можемо застосувати це до іншої групи, передавши групу як аргумент:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:142
+msgid ""
+"~~~\n"
+"A:=AlternatingGroup(10); AvgOrdOfGroup(A); time;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"A:=AlternatingGroup(10); AvgOrdOfGroup(A); time;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:147
+msgid ""
+"~~~\n"
+"Alt( [ 1 .. 10 ] )\n"
+"2587393/259200\n"
+"837\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Alt( [ 1 .. 10 ] )\n"
+"2587393/259200\n"
+"837\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:154
+msgid ""
+"The example above also demonstrates `time` -- this is the variable which "
+"stores\n"
+"the CPU time in milliseconds spent by the last command."
+msgstr ""
+"Наведений вище приклад також демонструє `time` - це змінна, яка зберігає\n"
+" час процесора в мілісекундах, витрачений на виконання останньої команди."
+
+#: gap-lesson/_episodes/03-func.md:157
+msgid ""
+"Thus, we may now create new groups and reuse `AvgOrdOfGroup` to calculate "
+"the average\n"
+"order of their elements in the same GAP session. Our next goal is to make "
+"it\n"
+"reusable for calculations in future sessions."
+msgstr ""
+"Таким чином, тепер ми можемо створювати нові групи та повторно "
+"використовувати `AvgOrdOfGroup` для обчислення середнього\n"
+"порядку їхніх елементів у тому самому сеансі GAP. Наша наступна мета — "
+"зробити цю функцію\n"
+"придатною для повторного використання для обчислень у майбутніх сесіях."
+
+#: gap-lesson/_episodes/03-func.md:161
+msgid ""
+"Using a text editor (for example, the one that you may have used for "
+"previous\n"
+"Software Carpentry lessons), create a text file called `avgord.g` "
+"containing\n"
+"the following function code and comments (a good chance to practise using "
+"them!):"
+msgstr ""
+"Використовуючи текстовий редактор (наприклад, той, який ви, можливо, "
+"використовували на попередніх\n"
+" уроках Software Carpentry), створіть текстовий файл під назвою `avgord.g`, "
+"що містить\n"
+" наступний код функції та коментарі (хороший шанс попрактикуватися в їх "
+"використанні!):"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:165
+msgid ""
+"~~~\n"
+"#####################################################################\n"
+"#\n"
+"# AvgOrdOfGroup(G)\n"
+"#\n"
+"# Calculating the average order of an element of G, where G meant to\n"
+"# be a group but in fact may be any collection of objects having\n"
+"# multiplicative order\n"
+"#\n"
+"AvgOrdOfGroup := function(G)\n"
+"local sum, g;\n"
+"sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"#####################################################################\n"
+"#\n"
+"# AvgOrdOfGroup(G)\n"
+"#\n"
+"# Обчислення середнього порядку елемента G, де G \n"
+"# означає групу, але насправді може бути будь-якою колекцією об’єктів із\n"
+"# мультиплікативним порядком\n"
+"#\n"
+"AvgOrdOfGroup := function(G)\n"
+"local sum, g;\n"
+"sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:185
+msgid ""
+"Now start a new GAP session and create another group, for example "
+"`MathieuGroup(11)`:"
+msgstr ""
+"Тепер почніть новий сеанс GAP і створіть іншу групу, наприклад,  "
+"`MathieuGroup(11)`:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:187
+msgid ""
+"~~~\n"
+"M11:=MathieuGroup(11);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"M11:=MathieuGroup(11);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:192
+msgid ""
+"~~~\n"
+"Group([ (1,2,3,4,5,6,7,8,9,10,11), (3,7,11,8)(4,10,5,6) ])\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Group([ (1,2,3,4,5,6,7,8,9,10,11), (3,7,11,8)(4,10,5,6) ])\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:197
+msgid ""
+"Clearly, `AvgOrdOfGroup` is not defined in this session, so an attempt to\n"
+"call this function results in an error:"
+msgstr ""
+"Очевидно, що `AvgOrdOfGroup` не визначено в цьому сеансі, тому спроба\n"
+"викликати цю функцію призводить до помилки:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:200 gap-lesson/_episodes/03-func.md:222
+#: gap-lesson/_episodes/03-func.md:373 gap-lesson/_episodes/03-func.md:403
+msgid ""
+"~~~\n"
+"AvgOrdOfGroup(M11);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"AvgOrdOfGroup(M11);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:205
+msgid ""
+"~~~\n"
+"Error, Variable: 'AvgOrdOfGroup' must have a value\n"
+"not in any function at line 2 of *stdin*\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Error, Variable: 'AvgOrdOfGroup' must have a value\n"
+"not in any function at line 2 of *stdin*\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:211
+msgid ""
+"To be available, it should first be loaded using the function `Read`. Below\n"
+"we assume that the file is in the current directory, so no path is needed."
+msgstr ""
+"Щоб бути доступною, її потрібно спочатку завантажити за допомогою функції "
+"`Read`. Нижче\n"
+"ми припускаємо, що файл знаходиться в поточному каталозі, тому шлях не "
+"потрібен."
+
+# code block
+#: gap-lesson/_episodes/03-func.md:214 gap-lesson/_episodes/03-func.md:257
+#: gap-lesson/_episodes/03-func.md:323
+msgid ""
+"~~~\n"
+"Read(\"avgord.g\");\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Read(\"avgord.g\");\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:219
+msgid ""
+"This loads the file into GAP, and the function `AvgOrdOfGroup` is now\n"
+"available:"
+msgstr ""
+"Це завантажує файл у GAP, і функція `AvgOrdOfGroup` тепер\n"
+"доступна:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:227
+msgid ""
+"~~~\n"
+"53131/7920\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"53131/7920\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:232
+msgid ""
+"In this example of using `Read`, a new GAP session was started to make it "
+"clear\n"
+"that `AvgOrdOfGroup` did not exist before the call of `Read` and was loaded\n"
+"from the file. However, a file with a function like this could be read "
+"multiple\n"
+"times in the same GAP session (later you will see cases when re-reading a\n"
+"file is more complicated). Calling `Read` again executes all code in the "
+"file\n"
+"being read. This means that if the code of the function has been modified, "
+"and\n"
+"it has no errors (but possibly has warnings), the function will be\n"
+"overwritten. **Never ignore the warnings!**"
+msgstr ""
+"У цьому прикладі, використовуючи `Read`, було розпочато новий сеанс GAP, щоб "
+"було зрозуміло,\n"
+"що `AvgOrdOfGroup` не існувало до виклику `Read` і було завантажено\n"
+"з файлу. Однак файл із такою функцією можна прочитати кілька разів\n"
+"під час одного сеансу GAP (пізніше ви побачите випадки, коли повторне "
+"читання\n"
+"файлу є складнішим). Це означає, що якщо код функції було змінено і\n"
+"в ньому немає помилок (але, можливо, є попередження), функція буде\n"
+"перезаписана. **Ніколи не ігноруйте попередження!**"
+
+#: gap-lesson/_episodes/03-func.md:241
+msgid "For example, let us edit the file and replace the line"
+msgstr "Наприклад, давайте відредагуємо файл і замінимо рядок"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:243
+msgid ""
+"~~~\n"
+"return sum/Size(G);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"return sum/Size(G);\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:248
+msgid "by the line with a deliberate syntax error:"
+msgstr "рядком із навмисною синтаксичною помилкою:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:250
+msgid ""
+"~~~\n"
+"return Float(sum/Size(G);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"return Float(sum/Size(G);\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:255
+msgid "Now read this file with"
+msgstr "Тепер прочитайте цей файл"
+
+#: gap-lesson/_episodes/03-func.md:262
+msgid "and you will see an error message:"
+msgstr "і Ви побачите повідомлення про помилку:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:264
+msgid ""
+"~~~\n"
+"Syntax error: ) expected in avgord.g line 7\n"
+"return Float(sum/Size(G);\n"
+"                        ^\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Syntax error: ) expected in avgord.g line 7\n"
+"return Float(sum/Size(G);\n"
+"                        ^\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:271
+msgid ""
+"Since there was an error, the `AvgOrdOfGroup` function in our session was "
+"not\n"
+"redefined, and remains the same as last time it was successfully read:"
+msgstr ""
+"Оскільки сталася помилка, функція `AvgOrdOfGroup` у нашому сеансі не була\n"
+"перевизначена та залишається такою ж, як і минулого разу, коли її успішно "
+"прочитали:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:274 gap-lesson/_episodes/03-func.md:356
+msgid ""
+"~~~\n"
+"Print(AvgOrdOfGroup);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Print(AvgOrdOfGroup);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:279
+msgid ""
+"~~~\n"
+"function ( G )\n"
+"    for g  in G  do\n"
+"        sum := sum + Order( g );\n"
+"    od;\n"
+"    return sum / Size( G );\n"
+"end\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"function ( G )\n"
+"    for g  in G  do\n"
+"        sum := sum + Order( g );\n"
+"    od;\n"
+"    return sum / Size( G );\n"
+"end\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:289
+msgid ""
+"Now correct the error by adding the missing closing bracket,\n"
+"read the file again and recalculate the average order of an element for "
+"`M11`:"
+msgstr ""
+"Тепер виправте помилку, додавши відсутню закриваючу дужку, прочитайте файл "
+"ще раз і перерахуйте середній порядок елемента для `M11`:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:292
+msgid ""
+"~~~\n"
+"Read(\"avgord.g\");\n"
+"AvgOrdOfGroup(M11);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Read(\"avgord.g\");\n"
+"AvgOrdOfGroup(M11);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:298
+msgid ""
+"~~~\n"
+"6.70846\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"6.70846\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:303
+msgid ""
+"Now let's see an example of a _warning_. Since it is only a warning, it "
+"will\n"
+"redefine the function, and this may cause some unexpected result. To see "
+"what\n"
+"could happen, first edit the file to roll back the change in the type of "
+"the\n"
+"result (so it will return a rational instead of a float), and then comment\n"
+"out two lines as follows:"
+msgstr ""
+"Тепер давайте розглянемо приклад _попередження_. Оскільки це лише "
+"попередження, це\n"
+"призведе до перевизначення функції, і це може призвести до несподіваного "
+"результату. Щоб побачити, що\n"
+" може статися, спочатку відредагуйте файл, щоб відкотити зміни в типі\n"
+"результату (тобто він повертатиме раціональне значення замість числа з "
+"плаваючою точкою), а потім закоментуйте\n"
+"два рядки наступним чином:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:309
+msgid ""
+"~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"# local sum, g;\n"
+"# sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"# local sum, g;\n"
+"# sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:321
+msgid "Now, when you read the file, you will see warnings:"
+msgstr "Тепер, коли ви прочитаєте файл, ви побачите попередження:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:328
+msgid ""
+"~~~\n"
+"Syntax error: warning: unbound global variable in avgord.g line 4\n"
+"for g in G do\n"
+"       ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 5\n"
+"  sum := sum + Order(g);\n"
+"       ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 5\n"
+"  sum := sum + Order(g);\n"
+"             ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 7\n"
+"return sum/Size(G);\n"
+"          ^\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Syntax error: warning: unbound global variable in avgord.g line 4\n"
+"for g in G do\n"
+"       ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 5\n"
+"  sum := sum + Order(g);\n"
+"       ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 5\n"
+"  sum := sum + Order(g);\n"
+"             ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 7\n"
+"return sum/Size(G);\n"
+"          ^\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:344
+msgid ""
+"These warnings mean that because `g` and `sum` are not declared as `local`\n"
+"variables, GAP will expect them to be global variables at the time when\n"
+"the function will be called. Because they did not exist when `Read`\n"
+"was called, a warning was displayed. However, if they happened to exist\n"
+"by that time, there would be no warning, and any call to `AvgOrdOfGroup` "
+"would\n"
+"overwrite them! This shows how important it is to\n"
+"declare local variables. Let us investigate what happened in slightly\n"
+"more detail:"
+msgstr ""
+"Ці попередження означають, що оскільки `g` і `sum` не оголошено як "
+"`локальні`\n"
+" змінні, GAP очікує, що вони будуть глобальними змінними\n"
+"під час виклику функції. Оскільки вони не існували під час виклику `Read`,\n"
+"відображалося попередження. Однак, якби вони існували\n"
+"до того моменту, попередження не було б, і будь-який виклик `AvgOrdOfGroup`\n"
+"перезаписав би їх! Це показує, наскільки важливим є\n"
+"оголошення локальних змінних. Давайте розберемося трохи детальніше,\n"
+" що сталося:"
+
+#: gap-lesson/_episodes/03-func.md:353
+msgid ""
+"The function is now redefined, as we can see from its output (or can\n"
+"inspect with `PageSource(AvgOrdOfGroup)` which will also display any "
+"comments):"
+msgstr ""
+"Функцію тепер перевизначено, як ми бачимо з її виводу (або перевіряємо за "
+"допомогою `PageSource(AvgOrdOfGroup)`, який також відображатиме будь-які "
+"коментарі):"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:361
+msgid ""
+"~~~\n"
+"function ( G )\n"
+"    for g in G  do\n"
+"        sum := sum + Order( g );\n"
+"    od;\n"
+"    return sum / Size( G );\n"
+"end\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"function ( G )\n"
+"    for g in G  do\n"
+"        sum := sum + Order( g );\n"
+"    od;\n"
+"    return sum / Size( G );\n"
+"end\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:371
+msgid "but an attempt to run it results in a break loop:"
+msgstr "але спроба запустити його призводить до розриву циклу:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:378
+msgid ""
+"~~~\n"
+"Error, Variable: 'sum' must have an assigned value in\n"
+"  sum := sum + Order( g ); called from\n"
+"<function \"AvgOrdOfGroup\">( <arguments> )\n"
+" called from read-eval loop at line 24 of *stdin*\n"
+"you can 'return;' after assigning a value\n"
+"brk>\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"Error, Variable: 'sum' must have an assigned value in\n"
+"  sum := sum + Order( g ); called from\n"
+"<function \"AvgOrdOfGroup\">( <arguments> )\n"
+" called from read-eval loop at line 24 of *stdin*\n"
+"you can 'return;' after assigning a value\n"
+"brk>\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:388
+msgid "which you can exit using `quit;`."
+msgstr "з якого можна вийти за допомогою `quit;`."
+
+#: gap-lesson/_episodes/03-func.md:390
+msgid "What happens next demonstrates how things may go wrong:"
+msgstr "Те, що відбувається далі, демонструє, як все може піти не так:"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:392
+msgid ""
+"~~~\n"
+"sum:=2^64; g:=[1];\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"sum:=2^64; g:=[1];\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:397
+msgid ""
+"~~~\n"
+"18446744073709551616\n"
+"[ 1 ]\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"18446744073709551616\n"
+"[ 1 ]\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:408
+msgid ""
+"~~~\n"
+"18446744073709604747/7920\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"18446744073709604747/7920\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:413
+msgid ""
+"~~~\n"
+"sum; g;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"sum; g;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/03-func.md:418
+msgid ""
+"~~~\n"
+"18446744073709604747\n"
+"(1,2)(3,10,5,6,8,9)(4,7,11)\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"18446744073709604747\n"
+"(1,2)(3,10,5,6,8,9)(4,7,11)\n"
+"~~~"
+
+#: gap-lesson/_episodes/03-func.md:424
+msgid ""
+"Now, before reading the next part of the lesson, please\n"
+"revert the last change by uncommenting the two commented lines, so that\n"
+"you have initial version of `AvgOrdOfGroup` in the file `avgord.g` again:"
+msgstr ""
+"Тепер, перш ніж читати наступну частину уроку, будь ласка,\n"
+"скасуйте останню зміну, розкоментувавши два рядки з коментарями, щоб\n"
+" у вас знову була початкова версія `AvgOrdOfGroup` у файлі `avgord.g`:"
+
+# blockquote, which can be cascaded
+#: gap-lesson/_episodes/03-func.md:440
+msgid "> ## Paths"
+msgstr "> ## Шляхи"
+
+#: gap-lesson/_episodes/03-func.md:441
+msgid ""
+">\n"
+"> * It is important to know how to specify paths to files in all operating\n"
+"> systems and where to find your home and current directory.\n"
+">\n"
+"> * It is useful to know that path and filename completion is activated by\n"
+"> pressing Esc two or four times."
+msgstr ""
+">\n"
+"> * Важливо знати, як вказувати шляхи до файлів у всіх операційних\n"
+"> системах і де знайти свій домашній і поточний каталог.\n"
+">\n"
+"> * Корисно знати, що завершення шляху та імені файлу активується\n"
+"> натисканням Esc два або чотири рази."

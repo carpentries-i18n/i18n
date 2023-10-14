@@ -1,0 +1,456 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# IrynaRaievska, 2023
+# Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023
+# Olexandr Konovalov, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
+"PO-Revision-Date: 2023-10-14 13:23+0100\n"
+"Last-Translator: Olexandr Konovalov, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/"
+"teams/98915/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# header
+#: gap-lesson/CONTRIBUTING.md:1
+msgid "# Contributing"
+msgstr "# Внески до проєкту"
+
+#: gap-lesson/CONTRIBUTING.md:3
+msgid ""
+"[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source "
+"projects,\n"
+"and we welcome contributions of all kinds:\n"
+"new lessons,\n"
+"fixes to existing material,\n"
+"bug reports,\n"
+"and reviews of proposed changes are all welcome."
+msgstr ""
+"[Software Carpentry][swc-site] та [Data Carpentry][dc-site] є проєктами з "
+"відкритим вихідним кодом,\n"
+"і ми вітаємо будь-які внески:\n"
+"нові уроки,\n"
+"виправлення наявного матеріалу,\n"
+"повідомлення про помилки\n"
+"та рецензування запропонованих змін - все це вітається."
+
+# header
+#: gap-lesson/CONTRIBUTING.md:10
+msgid "## Contributor Agreement"
+msgstr "## Угода про участь в проєкті"
+
+#: gap-lesson/CONTRIBUTING.md:12
+msgid ""
+"By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE."
+"md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly "
+"as we can,\n"
+"and help you become a member of our community.\n"
+"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
+"agrees to abide by our [code of conduct](CONDUCT.md)."
+msgstr ""
+"Роблячи свій внесок,\n"
+"ви погоджуєтеся, що ми можемо розповсюджувати вашу роботу на умовах [нашої "
+"ліцензії] (LICENSE.md).\n"
+"В обмін на це\n"
+"ми розглянемо ваші зауваження та/або оцінимо вашу пропозицію щодо змін "
+"настільки швидко, наскільки це буде можливо,\n"
+"і допоможемо вам стати членом нашої спільноти.\n"
+"Кожен, хто бере участь у [Software Carpentry][swc-site] та [Data Carpentry]"
+"[dc-site],\n"
+"погоджується дотримуватися нашого [кодексу поведінки] (CONDUCT.md)."
+
+# header
+#: gap-lesson/CONTRIBUTING.md:20
+msgid "## How to Contribute"
+msgstr "## Як зробити внесок"
+
+#: gap-lesson/CONTRIBUTING.md:22
+msgid ""
+"The easiest way to get started is to file an issue\n"
+"to tell us about a spelling mistake,\n"
+"some awkward wording,\n"
+"or a factual error.\n"
+"This is a good way to introduce yourself\n"
+"and to meet some of our community members."
+msgstr ""
+"Найпростіший спосіб почати - це подати заявку про проблему,\n"
+"щоб повідомити нам про орфографічну помилку,\n"
+"певне некоректне формулювання\n"
+"або фактичну помилку.\n"
+"Це хороший спосіб заявити про себе\n"
+"і познайомитися з деякими членами нашої спільноти."
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:29
+msgid "1.  If you do not have a [GitHub][github] account,"
+msgstr "1.  Якщо у вас немає облікового запису [GitHub][github],"
+
+#: gap-lesson/CONTRIBUTING.md:30
+msgid ""
+"    you can [send us comments by email][contact].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other "
+"methods described below."
+msgstr ""
+"    ви можете [надіслати нам коментарі електронною поштою][contact].\n"
+"    Однак,\n"
+"    ми зможемо відповісти швидше, якщо ви скористаєтеся одним з інших "
+"способів, описаних нижче."
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:34
+msgid "2.  If you have a [GitHub][github] account,"
+msgstr "2.  Якщо у вас є обліковий запис [GitHub][github],"
+
+#: gap-lesson/CONTRIBUTING.md:35
+msgid ""
+"    or are willing to [create one][github-join],\n"
+"    but do not know how to use Git,\n"
+"    you can report problems or suggest improvements by [creating an issue]"
+"[issues].\n"
+"    This allows us to assign the item to someone\n"
+"    and to respond to it in a threaded discussion."
+msgstr ""
+"    або ви хочете [створити його][github-join],\n"
+"    але не знаєте, як користуватися Git'ом,\n"
+"    ви можете повідомити про проблеми або запропонувати покращення, "
+"[створивши запит][issues].\n"
+"    Це дозволяє нам призначити цей запит комусь\n"
+"    і відповісти на нього в потоковому обговоренні."
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:41
+msgid "3.  If you are comfortable with Git,"
+msgstr "3.  Якщо вам зручно працювати з Git'ом,"
+
+#: gap-lesson/CONTRIBUTING.md:42
+msgid ""
+"    and would like to add or change material,\n"
+"    you can submit a pull request (PR).\n"
+"    Instructions for doing this are [included below](#using-github)."
+msgstr ""
+"    і ви хотіли б додати або змінити матеріал,\n"
+"    ви можете подати запит на зміни (англ. pull request, PR).\n"
+"    Інструкції, як це зробити, [наведені нижче](#використання-github)."
+
+# header
+#: gap-lesson/CONTRIBUTING.md:46
+msgid "## Where to Contribute"
+msgstr "## Де робити внески"
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:48
+msgid "1.  If you wish to change this lesson,"
+msgstr "1.  Якщо ви хочете змінити цей урок,"
+
+#: gap-lesson/CONTRIBUTING.md:49
+msgid ""
+"    please work in <https://github.com/carpentries-incubator/gap-lesson/>,\n"
+"    which can be viewed at <http://carpentries-incubator.github.io/gap-"
+"lesson/>."
+msgstr ""
+"    будь ласка, працюйте в <https://github.com/carpentries-incubator/gap-"
+"lesson/>,\n"
+"    який можна переглянути на <http://carpentries-incubator.github.io/gap-"
+"lesson/>."
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:52
+msgid "2.  If you wish to change the example lesson,"
+msgstr "2.  Якщо ви бажаєте змінити шаблон уроку,"
+
+#: gap-lesson/CONTRIBUTING.md:53
+msgid ""
+"    please work in <https://github.com/carpentries/lesson-example>,\n"
+"    which documents the format of our lessons\n"
+"    and can be viewed at <https://swcarpentry.github.io/lesson-example>."
+msgstr ""
+"    будь ласка, працюйте в <https://github.com/swcarpentry/lesson-example>,\n"
+"    який документує формат наших уроків\n"
+"    і з яким можна ознайомитись за посиланням <https://swcarpentry.github.io/"
+"lesson-example>."
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:57
+msgid "3.  If you wish to change the template used for workshop websites,"
+msgstr ""
+"3.  Якщо ви бажаєте змінити шаблон, який використовується для веб-сайтів "
+"семінарів,"
+
+#: gap-lesson/CONTRIBUTING.md:58
+msgid ""
+"    please work in <https://github.com/carpentries/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop "
+"websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-"
+"template>\n"
+"    provide more background on our design choices."
+msgstr ""
+"    будь ласка, працюйте в <https://github.com/swcarpentry/workshop-"
+"template>.\n"
+"    На головній сторінці цього репозиторію пояснюється, як налаштувати веб-"
+"сайти семінарів,\n"
+"    а додаткові сторінки у  <https://swcarpentry.github.io/workshop-"
+"template>\n"
+"    надають більше інформації про наш вибір дизайну."
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:63
+msgid "4.  If you wish to change CSS style files, tools,"
+msgstr "4. Якщо ви хочете змінити файли стилів CSS, інструменти,"
+
+#: gap-lesson/CONTRIBUTING.md:64
+msgid ""
+"    or HTML boilerplate for lessons or workshops stored in `_includes` or "
+"`_layouts`,\n"
+"    please work in <https://github.com/swcarpentry/styles>."
+msgstr ""
+"    або HTML-шаблон для уроків чи семінарів, що зберігається в `_includes` "
+"або `_layouts`,\n"
+"    будь ласка, працюйте в <https://github.com/swcarpentry/styles>."
+
+# header
+#: gap-lesson/CONTRIBUTING.md:67
+msgid "## What to Contribute"
+msgstr "## Які внески робити"
+
+#: gap-lesson/CONTRIBUTING.md:69
+msgid ""
+"There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas,\n"
+"please see [the list of issues for this repository][issues],\n"
+"or the issues for [Data Carpentry][dc-issues]\n"
+"and [Software Carpentry][swc-issues] projects."
+msgstr ""
+"Існує багато способів зробити свій внесок,\n"
+"від написання нових завдань та покращення тих, що вже існують,\n"
+"до оновлення або заповнення документації\n"
+"та подання [звітів про помилки][issues]\n"
+"про речі, які не працюють, незрозумілі або відсутні.\n"
+"Якщо ви шукаєте ідеї,\n"
+"будь ласка, перегляньте [перелік проблем для цього репозиторію][issues],\n"
+"або перелік проблем для проєктів [Data Carpentry][dc-issues]\n"
+"та [Software Carpentry][swc-issues]."
+
+#: gap-lesson/CONTRIBUTING.md:79
+msgid ""
+"Comments on issues and reviews of pull requests are just as welcome:\n"
+"we are smarter together than we are on our own.\n"
+"Reviews from novices and newcomers are particularly valuable:\n"
+"it's easy for people who have been using these lessons for a while\n"
+"to forget how impenetrable some of this material can be,\n"
+"so fresh eyes are always welcome."
+msgstr ""
+"Також вітаються коментарі щодо проблем та рецензування запитів на зміни:\n"
+"разом ми розумніші, ніж поодинці.\n"
+"Особливо цінні відгуки від початковців і новоприбулих:\n"
+"людям, які користуються цими уроками вже деякий час, легко\n"
+"забути, наскільки непроникним може бути деякий матеріал,\n"
+"тому свіжий погляд завжди вітається."
+
+# header
+#: gap-lesson/CONTRIBUTING.md:86
+msgid "## What *Not* to Contribute"
+msgstr "## Які внески *не слід* робити"
+
+#: gap-lesson/CONTRIBUTING.md:88
+msgid ""
+"Our lessons already contain more material than we can cover in a typical "
+"workshop,\n"
+"so we are usually *not* looking for more concepts or tools to add to them.\n"
+"As a rule,\n"
+"if you want to introduce a new idea,\n"
+"you must (a) estimate how long it will take to teach\n"
+"and (b) explain what you would take out to make room for it.\n"
+"The first encourages contributors to be honest about requirements;\n"
+"the second, to think hard about priorities."
+msgstr ""
+"Наші уроки вже містять більше матеріалу, ніж ми можемо охопити на типовому "
+"семінарі,\n"
+"тому ми зазвичай *не* шукаємо більше понять чи інструментів, щоб додати до "
+"уроків.\n"
+"Як правило,\n"
+"якщо ви хочете представити нову ідею,\n"
+"ви повинні (а) оцінити, скільки часу знадобиться на викладання\n"
+"і (б) пояснити, що ви вилучите, щоб звільнити місце для цього.\n"
+"Перше заохочує авторів бути чесними щодо вимог;\n"
+"друге - добре подумати про пріоритети."
+
+#: gap-lesson/CONTRIBUTING.md:97
+msgid ""
+"We are also not looking for exercises or other material that only run on one "
+"platform.\n"
+"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux "
+"users;\n"
+"in order to be usable,\n"
+"our lessons must run equally well on all three."
+msgstr ""
+"Ми також не шукаємо завдання чи інші матеріали, які працюють лише на одній "
+"платформі.\n"
+"На наших семінарах зазвичай присутні користувачі Windows, macOS та Linux;\n"
+"для того, щоб бути корисними,\n"
+"наші уроки повинні однаково добре працювати на всіх трьох платформах."
+
+# header
+#: gap-lesson/CONTRIBUTING.md:102
+msgid "## Using GitHub"
+msgstr "## Використання GitHub"
+
+#: gap-lesson/CONTRIBUTING.md:104
+msgid ""
+"If you choose to contribute via GitHub,\n"
+"you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"In brief:"
+msgstr ""
+"Якщо ви вирішили зробити свій внесок через GitHub,\n"
+"вам варто ознайомитися зі статтею\n"
+"[Як зробити внесок у проєкт з відкритим вихідним кодом на GitHub][how-"
+"contribute].\n"
+"Якщо коротко:"
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:109
+msgid ""
+"1.  The published copy of the lesson is in the `gh-pages` branch of the "
+"repository"
+msgstr "1. Опублікована копія уроку знаходиться у гілці `gh-pages` репозиторію"
+
+#: gap-lesson/CONTRIBUTING.md:110
+msgid ""
+"    (so that GitHub will regenerate it automatically).\n"
+"    Please create all branches from that,\n"
+"    and merge the [master repository][repo]'s `gh-pages` branch into your "
+"`gh-pages` branch\n"
+"    before starting work.\n"
+"    Please do *not* work directly in your `gh-pages` branch,\n"
+"    since that will make it difficult for you to work on other contributions."
+msgstr ""
+"     (для того, щоб GitHub автоматично згенерував урок).\n"
+"    Будь ласка, створюйте всі гілки звідти,\n"
+"    і об'єднайте гілку `gh-pages` [головного репозиторію][repo] з вашою "
+"гілкою `gh-pages`\n"
+"    перед початком роботи.\n"
+"    Будь ласка, *не* працюйте безпосередньо у вашій гілці `gh-pages`,\n"
+"    оскільки це може ускладнити вашу роботу над іншими внесками."
+
+# ordered list
+#: gap-lesson/CONTRIBUTING.md:117
+msgid "2.  We use [GitHub flow][github-flow] to manage changes:"
+msgstr ""
+"2.  Ми використовуємо [GitHub flow][github-flow] для керування змінами:"
+
+#: gap-lesson/CONTRIBUTING.md:118
+msgid ""
+"    1.  Create a new branch in your desktop copy of this repository for each "
+"significant change.\n"
+"    2.  Commit the change in that branch.\n"
+"    3.  Push that branch to your fork of this repository on GitHub.\n"
+"    4.  Submit a pull request from that branch to the [master repository]"
+"[repo].\n"
+"    5.  If you receive feedback,\n"
+"        make changes on your desktop and push to your branch on GitHub:\n"
+"        the pull request will update automatically."
+msgstr ""
+"    1. Створюйте нову гілку у Вашій копії цього репозиторію для кожної "
+"значної зміни.\n"
+"    2. Зафіксуйте зміни у цій гілці.\n"
+"    3. Перенесіть цю гілку до Вашого розгалуження цього репозиторію на "
+"GitHub.\n"
+"    4. Надішліть запит на зміни з цієї гілки до [головного репозиторію]"
+"[repo].\n"
+"    5. Якщо Ви отримаєте зворотній зв'язок,\n"
+"        внесіть зміни в локальній копії та перенесіть до своєї гілки на "
+"GitHub:\n"
+"       запит на зміни буде оновлено автоматично."
+
+#: gap-lesson/CONTRIBUTING.md:126
+msgid ""
+"Each lesson has two maintainers who review issues and pull requests\n"
+"or encourage others to do so.\n"
+"The maintainers are community volunteers,\n"
+"and have final say over what gets merged into the lesson."
+msgstr ""
+"За кожний урок відповідають два супровідника, які переглядають проблеми і "
+"задовільняють запити на зміни\n"
+"або заохочують до цього інших.\n"
+"Супровідники є волонтерами спільноти,\n"
+"і мають вирішальне слово щодо того, що буде додано до уроку."
+
+# header
+#: gap-lesson/CONTRIBUTING.md:131
+msgid "## Other Resources"
+msgstr "## Інші ресурси"
+
+#: gap-lesson/CONTRIBUTING.md:133
+msgid ""
+"General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-"
+"site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][contact]."
+msgstr ""
+"Загальне обговорення [Software Carpentry][swc-site] та [Data Carpentry][dc-"
+"site]\n"
+"відбувається у [дискусійному списку розсилки][discuss-list],\n"
+"до якого може приєднатися кожен охочий.\n"
+"Ви також можете [зв'язатися з нами електронною поштою][contact]."
+
+#: gap-lesson/CONTRIBUTING.md:138
+msgid ""
+"[contact]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[example-site]: https://carpentries.github.io/lesson-example\n"
+"[github]: http://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[issues]: https://github.com/carpentries-incubator/gap-lesson/issues/\n"
+"[repo]: https://github.com/carpentries-incubator/gap-lesson/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: http://software-carpentry.org/lessons/\n"
+"[swc-site]: http://software-carpentry.org/"
+msgstr ""
+"[contact]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[example-site]: https://swcarpentry.github.io/lesson-example/\n"
+"[github]: http://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-"
+"source-project-on-github\n"
+"[issues]: https://github.com/alex-konovalov/gap-lesson/issues/\n"
+"[repo]: https://github.com/alex-konovalov/gap-lesson/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: http://software-carpentry.org/lessons/\n"
+"[swc-site]: http://software-carpentry.org/"

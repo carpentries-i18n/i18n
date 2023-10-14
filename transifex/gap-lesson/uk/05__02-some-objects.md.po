@@ -1,0 +1,556 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Maryna Raievska, 2023
+# IrynaRaievska, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
+"PO-Revision-Date: 2023-02-12 17:54+0000\n"
+"Last-Translator: IrynaRaievska, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/"
+"teams/98915/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: gap-lesson/_episodes/02-some-objects.md:1
+msgid ""
+"---\n"
+"title: \"Some more GAP objects\"\n"
+"teaching: 15\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"Further examples of objects and operations with them\"\n"
+"objectives:\n"
+"- \"See examples of types that are built-in in GAP but may be missing in "
+"other systems\"\n"
+"- \"See examples of list arithmetic\"\n"
+"keypoints:\n"
+"- \"GAP has a plethora of various immediate, positional and component "
+"objects.\"\n"
+"- \"List arithmetic is very flexible and powerful.\"\n"
+"- \"Objects like lists and records are good to keep structured and related "
+"data.\"\n"
+"---"
+msgstr ""
+"---\n"
+"title: \"Ще декілька об’єктів GAP\"\n"
+"teaching: 15\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"Подальші приклади об'єктів і операцій з ними\"\n"
+"objectives:\n"
+"- \"Перегляньте приклади типів, які вбудовані в GAP, але можуть бути "
+"відсутні в інших системах\"\n"
+"- \"Подивіться приклади арифметики списку\"\n"
+"keypoints:\n"
+"- \"GAP має безліч різноманітних безпосередніх, позиційних і складових "
+"об'єктів.\"\n"
+"- \"Арифметика списків є дуже гнучкою та потужною.\"\n"
+"- \"Такі об’єкти, як списки та записи, підходять для зберігання "
+"структурованих і пов’язаних даних.\"\n"
+"---"
+
+#: gap-lesson/_episodes/02-some-objects.md:16
+msgid "So far we have met three types of GAP types:"
+msgstr "Наразі ми познайомилися з трьома типами GAP:"
+
+# unordered list
+#: gap-lesson/_episodes/02-some-objects.md:18
+msgid "* simple objects such as integers, rationals, booleans, permutations;"
+msgstr ""
+"* такі прості об'єкти, як цілі числа, раціональні числа, булеві значення, "
+"перестановки;"
+
+# unordered list
+#: gap-lesson/_episodes/02-some-objects.md:20
+msgid "* composite objects such as _lists_;"
+msgstr "* такі складені об'єкти, як _lists_;"
+
+# unordered list
+#: gap-lesson/_episodes/02-some-objects.md:22
+msgid "* objects with more complex internal representation, such as groups."
+msgstr "* такі об’єкти з більш складним внутрішнім представленням, як групи."
+
+#: gap-lesson/_episodes/02-some-objects.md:24
+msgid ""
+"In this section, we will demonstrate some other examples of basic objects\n"
+"that exist in GAP (the system is extendable, so one can introduce new types\n"
+"of objects, but this is beyond the scope of this lesson!)."
+msgstr ""
+"У цьому розділі ми продемонструємо деякі інші приклади базових об’єктів,\n"
+"які існують у GAP (система розширювана, тому можна вводити нові типи\n"
+"об’єктів, але це виходить за рамки цього уроку!)."
+
+#: gap-lesson/_episodes/02-some-objects.md:28
+msgid ""
+"Some other simple objects are floats, cyclotomics and finite field elements:"
+msgstr ""
+"Деякі інші прості об'єкти - це floats, cyclotomics and finite field elements:"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:30
+msgid ""
+"~~~\n"
+"1.15; Float(1232/3456567);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"1.15; Float(1232/3456567);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:35
+msgid ""
+"~~~\n"
+"1.15\n"
+"0.000356423\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"1.15\n"
+"0.000356423\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:41
+msgid ""
+"~~~\n"
+"E(4); E(4)^2; E(6);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"E(4); E(4)^2; E(6);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:46
+msgid ""
+"~~~\n"
+"E(4)\n"
+"-1\n"
+"-E(3)^2\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"E(4)\n"
+"-1\n"
+"-E(3)^2\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:53
+msgid ""
+"~~~\n"
+"AsList(GF(2)); Z(5); Z(5)^4;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"AsList(GF(2)); Z(5); Z(5)^4;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:58
+msgid ""
+"~~~\n"
+"[ 0*Z(2), Z(2)^0 ]\n"
+"Z(5)\n"
+"Z(5)^0\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"[ 0*Z(2), Z(2)^0 ]\n"
+"Z(5)\n"
+"Z(5)^0\n"
+"~~~"
+
+#: gap-lesson/_episodes/02-some-objects.md:65
+msgid ""
+"You already know about lists.\n"
+"Another type of composite objects is **records**. While a list contains "
+"subobjects indexed\n"
+"by their positions in the list, a record contains subobjects, called "
+"_record\n"
+"components_, which are indexed by their names. Elements of a record are "
+"accessed with `.`"
+msgstr ""
+"Ви вже знаєте про списки.\n"
+"Іншим типом складених об’єктів є **записи**. У той час як список містить "
+"субоб’єкти, проіндексовані\n"
+"за їх позиціями в списку, запис містить субоб’єкти, які називаються "
+"_компонентами\n"
+"запису_, які індексуються за своїми іменами. Elements of a record are "
+"accessed with `.`"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:70
+msgid ""
+"~~~\n"
+"date:= rec(year:= 2015, month:= \"Nov\", day:= 17);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"date:= rec(year:= 2015, month:= \"Nov\", day:= 17);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:75
+msgid ""
+"~~~\n"
+"rec( day := 17, month := \"Nov\", year := 2015 )\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"rec( day := 17, month := \"Nov\", year := 2015 )\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:80
+msgid ""
+"~~~\n"
+"date.year;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"date.year;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:85
+msgid ""
+"~~~\n"
+"2015\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"2015\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:90
+msgid ""
+"~~~\n"
+"date.time:= rec(hour:= 14, minute:= 55, second:= 12);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"date.time:= rec(hour:= 14, minute:= 55, second:= 12);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:95
+msgid ""
+"~~~\n"
+"rec( hour := 14, minute := 55, second := 12 )\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"rec( hour := 14, minute := 55, second := 12 )\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:100
+msgid ""
+"~~~\n"
+"date;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"date;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:105
+msgid ""
+"~~~\n"
+"rec( day := 17, month := \"Nov\",\n"
+"  time := rec( hour := 14, minute := 55, second := 12 ), year := 2015 )\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"rec( day := 17, month := \"Nov\",\n"
+"  time := rec( hour := 14, minute := 55, second := 12 ), year := 2015 )\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:111
+msgid ""
+"~~~\n"
+"RecNames(date);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"RecNames(date);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:116
+msgid ""
+"~~~\n"
+"[ \"time\", \"year\", \"month\", \"day\" ]\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"[ \"time\", \"year\", \"month\", \"day\" ]\n"
+"~~~"
+
+#: gap-lesson/_episodes/02-some-objects.md:121
+msgid ""
+"Next, there are **strings** and **characters**. While strings are printed\n"
+"specially by GAP, a string is really just a list of characters, and any\n"
+"function which takes a list will also take a string. In contrast, "
+"characters\n"
+"are simple objects like integers."
+msgstr ""
+"Далі є **рядки** та **символи**. Хоча GAP спеціально друкує\n"
+"рядки, насправді рядок — це лише список символів, і будь-яка\n"
+"функція, яка приймає список, також прийматиме рядок. Навпаки, символи\n"
+"є простими об’єктами, такими як цілі числа."
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:126
+msgid ""
+"~~~\n"
+"gap> w:=\"supercalifragilisticexpialidocious\"; Length(w);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"gap> w:=\"supercalifragilisticexpialidocious\"; Length(w);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:131
+msgid ""
+"~~~\n"
+"\"supercalifragilisticexpialidocious\"\n"
+"34\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"\"supercalifragilisticexpialidocious\"\n"
+"34\n"
+"~~~"
+
+#: gap-lesson/_episodes/02-some-objects.md:137
+msgid "Strings are denoted by double quotes, and characters by single ones."
+msgstr "Рядки позначаються подвійними лапками, а символи одинарними."
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:139
+msgid ""
+"~~~\n"
+"gap> \"s\" in w; 's' in w; IsSubset(w,\"s\");  IsSubset(w,['s','f']); "
+"['c','a','t'] = \"cat\";\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"gap> \"s\" in w; 's' in w; IsSubset(w,\"s\");  IsSubset(w,['s','f']); "
+"['c','a','t'] = \"cat\";\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:144
+msgid ""
+"~~~\n"
+"false\n"
+"true\n"
+"true\n"
+"true\n"
+"true\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"false\n"
+"true\n"
+"true\n"
+"true\n"
+"true\n"
+"~~~"
+
+#: gap-lesson/_episodes/02-some-objects.md:153
+msgid "Note that"
+msgstr "Зауважте, що"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:155
+msgid ""
+"~~~\n"
+"gap> PositionSublist(w,\"sf\"); PositionSublist(w,\"fr\");\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"gap> PositionSublist(w,\"sf\"); PositionSublist(w,\"fr\");\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:160
+msgid ""
+"~~~\n"
+"fail\n"
+"10\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"fail\n"
+"10\n"
+"~~~"
+
+#: gap-lesson/_episodes/02-some-objects.md:166
+msgid ""
+"Be careful! Some operations may create a new list, while others are\n"
+"destructive. For example:"
+msgstr ""
+"Будьте обережні! Деякі операції можуть створити новий список, тоді як інші "
+"є\n"
+"деструктивними. Наприклад:"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:169
+msgid ""
+"~~~\n"
+"gap> SortedList(w); w;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"gap> SortedList(w); w;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:174
+msgid ""
+"~~~\n"
+"\"aaacccdeefgiiiiiiillloopprrssstuux\"\n"
+"\"supercalifragilisticexpialidocious\"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"\"aaacccdeefgiiiiiiillloopprrssstuux\"\n"
+"\"supercalifragilisticexpialidocious\"\n"
+"~~~"
+
+#: gap-lesson/_episodes/02-some-objects.md:180
+msgid "but"
+msgstr "але"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:182
+msgid ""
+"~~~\n"
+"gap> Sort(w); w;\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"gap> Sort(w); w;\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:187
+msgid ""
+"~~~\n"
+"\"aaacccdeefgiiiiiiillloopprrssstuux\"\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"\"aaacccdeefgiiiiiiillloopprrssstuux\"\n"
+"~~~"
+
+#: gap-lesson/_episodes/02-some-objects.md:192
+msgid ""
+"Which letter occurs in \"supercalifragilisticexpialidocious\" most often?"
+msgstr ""
+"Яка літера зустрічається у \"supercalifragilisticexpialidocious\" найчастіше?"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:194
+msgid ""
+"~~~\n"
+"gap> c := Collected(w);\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"gap> c := Collected(w);\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:199
+msgid ""
+"~~~\n"
+"[ [ 'a', 3 ], [ 'c', 3 ], [ 'd', 1 ], [ 'e', 2 ], [ 'f', 1 ], [ 'g', 1 ],\n"
+"  [ 'i', 7 ], [ 'l', 3 ], [ 'o', 2 ], [ 'p', 2 ], [ 'r', 2 ], [ 's', 3 ],\n"
+"  [ 't', 1 ], [ 'u', 2 ], [ 'x', 1 ] ]\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"[ [ 'a', 3 ], [ 'c', 3 ], [ 'd', 1 ], [ 'e', 2 ], [ 'f', 1 ], [ 'g', 1 ],\n"
+"  [ 'i', 7 ], [ 'l', 3 ], [ 'o', 2 ], [ 'p', 2 ], [ 'r', 2 ], [ 's', 3 ],\n"
+"  [ 't', 1 ], [ 'u', 2 ], [ 'x', 1 ] ]\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:206
+msgid ""
+"~~~\n"
+"gap> k := Maximum( List( c, v -> v[2] ) ); Filtered( c, v -> v[2] = 7 );\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"gap> k := Maximum( List( c, v -> v[2] ) ); Filtered( c, v -> v[2] = 7 );\n"
+"~~~"
+
+# code block
+#: gap-lesson/_episodes/02-some-objects.md:211
+msgid ""
+"~~~\n"
+"7\n"
+"[ [ 'i', 7 ] ]\n"
+"~~~"
+msgstr ""
+"~~~\n"
+"7\n"
+"[ [ 'i', 7 ] ]\n"
+"~~~"
+
+# blockquote, which can be cascaded
+#: gap-lesson/_episodes/02-some-objects.md:217
+msgid "> ## Finding the most common letter(s) in a list using only one pass"
+msgstr ""
+"> ## Пошук найпоширеніших букв у списку за допомогою лише одного проходу"
+
+#: gap-lesson/_episodes/02-some-objects.md:218
+msgid ""
+">\n"
+"> The command\n"
+">\n"
+"> `k := Maximum( List( c, v -> v[2] ) ); Filtered( c, v -> v[2] = 7 );`\n"
+">\n"
+"> iterates over the list `c` twice (in `List` and in `Filtered`), and\n"
+"> it also iterates over another list of the same length as `c` in the call\n"
+"> to `Maximum`. If the list is long, this will impose certain performance\n"
+"> and memory penalties. Try to write code that finds the letters that occur "
+"most\n"
+"> in `c` without producing an intermediate list."
+msgstr ""
+">\n"
+"> Команда\n"
+">\n"
+"> `k := Maximum( List( c, v -> v[2] ) ); Filtered( c, v -> v[2] = 7 );`\n"
+">\n"
+"> двічі перебирає список `c` (у `List` і `Filtered`), а\n"
+"> також перебирає інший список такої ж довжини, що й `c ` у виклику\n"
+" > `Maximum`. Якщо список довгий, це призведе до певного зниження\n"
+"продуктивності та пам’яті. Спробуйте написати код, який знаходить літери, "
+"які найчастіше трапляються\n"
+"> в `c`, не створюючи проміжного списку."

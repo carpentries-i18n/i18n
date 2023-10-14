@@ -1,0 +1,111 @@
+[main]
+host = https://www.transifex.com
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_00__CODE_OF_CONDUCT]
+file_filter  = <lang>/00__CODE_OF_CONDUCT.md.po
+source_file  = pot/00__CODE_OF_CONDUCT.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_01__CONTRIBUTING]
+file_filter  = <lang>/01__CONTRIBUTING.md.po
+source_file  = pot/01__CONTRIBUTING.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_02__LICENSE]
+file_filter  = <lang>/02__LICENSE.md.po
+source_file  = pot/02__LICENSE.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_03__README]
+file_filter  = <lang>/03__README.md.po
+source_file  = pot/03__README.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_04__01-command-line]
+file_filter  = <lang>/04__01-command-line.md.po
+source_file  = pot/04__01-command-line.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_05__02-some-objects]
+file_filter  = <lang>/05__02-some-objects.md.po
+source_file  = pot/05__02-some-objects.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_06__03-func]
+file_filter  = <lang>/06__03-func.md.po
+source_file  = pot/06__03-func.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_07__04-testing]
+file_filter  = <lang>/07__04-testing.md.po
+source_file  = pot/07__04-testing.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_08__05-small-groups]
+file_filter  = <lang>/08__05-small-groups.md.po
+source_file  = pot/08__05-small-groups.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_09__06-attributes]
+file_filter  = <lang>/09__06-attributes.md.po
+source_file  = pot/09__06-attributes.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_10__about]
+file_filter  = <lang>/10__about.md.po
+source_file  = pot/10__about.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_11__discuss]
+file_filter  = <lang>/11__discuss.md.po
+source_file  = pot/11__discuss.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_12__figures]
+file_filter  = <lang>/12__figures.md.po
+source_file  = pot/12__figures.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_13__guide]
+file_filter  = <lang>/13__guide.md.po
+source_file  = pot/13__guide.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_14__aio]
+file_filter  = <lang>/14__aio.md.po
+source_file  = pot/14__aio.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_15__index]
+file_filter  = <lang>/15__index.md.po
+source_file  = pot/15__index.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_16__reference]
+file_filter  = <lang>/16__reference.md.po
+source_file  = pot/16__reference.md.pot
+type         = PO
+minimum_perc = 0
+
+[o:carpentries-i18n:p:gap-lesson:r:pot_17__setup]
+file_filter  = <lang>/17__setup.md.po
+source_file  = pot/17__setup.md.pot
+type         = PO
+minimum_perc = 0
+

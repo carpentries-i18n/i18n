@@ -1,0 +1,609 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Maryna Raievska, 2023
+# IrynaRaievska, 2023
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
+"PO-Revision-Date: 2023-02-12 17:54+0000\n"
+"Last-Translator: IrynaRaievska, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/"
+"teams/98915/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+# Front Matter
+#: gap-lesson/_extras/guide.md:1
+msgid ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"permalink: /guide/\n"
+"---"
+msgstr ""
+"---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"permalink: /guide/\n"
+"---"
+
+# header
+#: gap-lesson/_extras/guide.md:7
+msgid "## Overall"
+msgstr "## Загальний"
+
+# unordered list
+#: gap-lesson/_extras/guide.md:9
+msgid ""
+"* For the first lesson, good to have access to Windows (VM or remote "
+"desktop) to"
+msgstr ""
+"* Для першого уроку добре мати доступ до Windows (VM або віддаленого "
+"робочого столу), щоб"
+
+#: gap-lesson/_extras/guide.md:10
+msgid "demonstrate some Windows-specific aspects of working with GAP."
+msgstr "продемонструвати деякі специфічні для Windows аспекти роботи з GAP."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:12
+msgid ""
+"* Before start, check that everyone has installed GAP and knows how to start "
+"it."
+msgstr ""
+"* Перед початком перевірте, чи всі встановили GAP і знають, як його "
+"запустити."
+
+#: gap-lesson/_extras/guide.md:13
+msgid ""
+"Also remind that it's not advised to install in in the path with spaces, e."
+"g. in\n"
+"\"My Documents\"."
+msgstr ""
+"Також нагадайте, що не рекомендується встановлювати в шляху з пробілами, "
+"напр. в\n"
+"\"Мої документи\"."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:16
+msgid ""
+"* It is important that learners will understand how to operate with files"
+msgstr "* Важливо, щоб студенти зрозуміли, як працювати з файлами,"
+
+#: gap-lesson/_extras/guide.md:17
+msgid ""
+"located in different directories. `ChangeDirectoryCurrent` is the function\n"
+"from the IO package (requires compulation), which should be available if\n"
+"GAP is properly installed (i.e. installed following instructions for the\n"
+"workshop). In case of any problems, the first step of troubleshooting is\n"
+"to check whether `LoadPackage(\"io\");` returns `fail`. If so, the remedy\n"
+"for Windows users is to type full paths to files. Linux and OS X users\n"
+"are less affected as for the, the way how they should start GAP is to\n"
+"navigate to the needed directory in the Terminal and start GAP from there."
+msgstr ""
+"розташованими в різних каталогах. `ChangeDirectoryCurrent` — це функція\n"
+"з пакета IO (вимагає обчислення), яка має бути доступною, якщо\n"
+"GAP встановлено належним чином (тобто встановлено згідно з інструкціями\n"
+"для семінару). У разі будь-яких проблем першим кроком усунення несправностей "
+"є\n"
+"перевірка того, чи `LoadPackage(\"io\");` повертає `fail`. Якщо так, "
+"виправленням\n"
+"для користувачів Windows є введення повних шляхів до файлів. Користувачі "
+"Linux і OS X\n"
+"постраждали менше, тому що GAP потрібно запускати шляхом переходу\n"
+"до потрібного каталогу в терміналі та запуску GAP звідти."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:26
+msgid ""
+"* Help to adjust terminal settings, especially show to Windows users that "
+"they"
+msgstr ""
+"* Допоможіть налаштувати параметри терміналу, особливо покажіть користувачам "
+"Windows, що вони"
+
+#: gap-lesson/_extras/guide.md:27
+msgid ""
+"can permanently change colours and fonts in mintty shell (the one started "
+"with\n"
+"`gap.bat`)."
+msgstr ""
+"можуть постійно змінювати кольори та шрифти в м’якій оболонці (той, що "
+"починається з\n"
+"`gap.bat`)."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:30
+msgid ""
+"* Explain how to copy and paste input and output (especially on Windows)."
+msgstr ""
+"* Поясніть, як копіювати та вставляти введення та виведення (особливо у "
+"Windows)."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:32
+msgid ""
+"* Explain how to read lesson pages: GAP input is types without GAP prompt."
+msgstr ""
+"* Поясніть, як читати сторінки уроку: введення GAP – це типи без підказки "
+"GAP."
+
+#: gap-lesson/_extras/guide.md:33
+msgid ""
+"GAP output is ion blue colour. Errors are displayed in red. GAP promts is\n"
+"not displayed, unless this is really necessary (e.g. to demonstrate how the\n"
+"multi-line input works)."
+msgstr ""
+"Вивід GAP має іонно-синій колір. Помилки відображаються червоним кольором. "
+"Підказки GAP\n"
+"не відображаються, окрім випадків, коли це справді необхідно (наприклад, щоб "
+"продемонструвати, як\n"
+"працює багаторядковий ввід)."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:37
+msgid "* It is important that instructor starts GAP with `-r` option to avoid"
+msgstr "* Важливо, щоб інструктор починав GAP з параметра `-r`, щоб уникнути"
+
+#: gap-lesson/_extras/guide.md:38
+msgid ""
+"interfering with own GAP settings e.g. locally installed packages and\n"
+"other content of `.gap` directory."
+msgstr ""
+"втручання у власні налаштування GAP, напр. локально встановлені пакунки та\n"
+"інший вміст каталогу `.gap`."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:41
+msgid ""
+"* To use color prompt when GAP is started with `-r` option to ignore all user"
+msgstr ""
+"* Щоб використовувати колірну підказку, коли GAP запускається з опцією `-r`, "
+"щоб ігнорувати всі параметри користувача,"
+
+#: gap-lesson/_extras/guide.md:42
+msgid "preferences, including this (if set), call `ColorPrompt(true);`."
+msgstr "включаючи це (якщо встановлено), викличте `ColorPrompt(true);`."
+
+# header
+#: gap-lesson/_extras/guide.md:44 gap-lesson/reference.md:6
+msgid "## [First session with GAP](01-command-line.html)"
+msgstr "## [Перша сесія з GAP](01-command-line.html)"
+
+# unordered list
+#: gap-lesson/_extras/guide.md:46
+msgid ""
+"* Emphasize that the banner contains version info useful for citing GAP or"
+msgstr ""
+"* Підкресліть, що банер містить інформацію про версію, корисну для цитування "
+"GAP або"
+
+#: gap-lesson/_extras/guide.md:47
+msgid ""
+"reporting bugs. Selection of packages may differ, but missing **IO** and\n"
+"**Browse** packages indicate that these and perhaps some other packages\n"
+"that require compilation were not compiled."
+msgstr ""
+"повідомлення про помилки. Вибір пакетів може відрізнятися, але відсутність "
+"пакетів **IO** і\n"
+"**Browse** означає, що ці та, можливо, деякі інші пакети,\n"
+"які потребують компіляції, не були скомпільовані."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:51
+msgid ""
+"* A second call to `LogTo(\"logfile\");` will not open the new file but will "
+"report"
+msgstr ""
+"* Другий виклик `LogTo(\"logfile\");` не відкриє новий файл, але повідомить,"
+
+#: gap-lesson/_extras/guide.md:52
+msgid ""
+"that GAP is already logging to another file. In this case, either ignore it "
+"if\n"
+"you would like to continue logging to the file already in use, or call "
+"`LogTo();`\n"
+"to close the current log file and then call `LogTo` with an argument to "
+"start\n"
+"logging to a new file."
+msgstr ""
+"що GAP вже веде журнал до іншого файлу. У цьому випадку або проігноруйте "
+"його, якщо ви хочете продовжити ведення журналу, який уже використовується, "
+"або викличте `LogTo();`, щоб закрити поточний файл журналу, а потім викличте "
+"`LogTo` з аргументом, щоб почати запис в новому файлі."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:57
+msgid ""
+"* Showing an example of the error with `factorial`, mention that such error"
+msgstr ""
+"* Показуючи приклад помилки з `факторіалом`, згадайте, що така помилка також"
+
+#: gap-lesson/_extras/guide.md:58
+msgid ""
+"also happens if e.g. some file has to be read or some package should be "
+"loaded\n"
+"to define the function."
+msgstr ""
+"трапляється, якщо, наприклад, для визначення функції потрібно прочитати "
+"якийсь файл або завантажити\n"
+"якийсь пакет."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:61
+msgid ""
+"* Discuss why it's a bad practice to Google for the GAP manual instead of"
+msgstr ""
+"Обговоріть, чому використання посібника GAP у Google є поганою практикою "
+"замість"
+
+#: gap-lesson/_extras/guide.md:62
+msgid "using the GAP help system."
+msgstr "використання довідкової системи GAP."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:64
+msgid ""
+"* Be aware that help selection screen will look differently if **Browse**"
+msgstr ""
+"* Майте на увазі, що екран вибору довідки виглядатиме інакше, якщо пакет "
+"**Огляд**"
+
+#: gap-lesson/_extras/guide.md:65
+msgid "package is not compiled."
+msgstr "не скомпільовано."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:67
+msgid ""
+"* Explain how to switch to view HTML version of the Manual with MathJax "
+"support."
+msgstr ""
+"* Поясніть, як перейти до перегляду HTML-версії посібника з підтримкою "
+"MathJax."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:69
+msgid ""
+"* Give a hint that the sitemap on the [GAP website](http://www.gap-system."
+"org)"
+msgstr ""
+"* Дайте підказку, що на карті сайту на [веб-сайті GAP](http://www.gap-system."
+"org)"
+
+#: gap-lesson/_extras/guide.md:70
+msgid ""
+"shows the [Search the GAP web site](http://www.gap-system.org/search.html) "
+"page\n"
+"which allows some specific search requests."
+msgstr ""
+"показано [Пошук на веб-сайті GAP](http://www.gap-system.org/search.html), \n"
+"яка дозволяє виконувати певні пошукові запити."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:73
+msgid ""
+"* Draw attention to the difference between `AsList` and `AsSSortedList`."
+msgstr "* Зверніть увагу на різницю між `AsList` і `AsSSortedList`."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:75
+msgid ""
+"* Help to call `WriteGapIniFile` and customise GAP e.g. to use browser as a"
+msgstr ""
+"* Допоможе викликати `WriteGapIniFile` і налаштувати GAP, наприклад, "
+"використовуючи браузер як"
+
+#: gap-lesson/_extras/guide.md:76
+msgid "viewer."
+msgstr "засіб перегляду."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:78
+msgid ""
+"* Demonstrating how to type `Sum( List( elts, Order ) ) / Length( elts );`"
+msgstr "* Демонстрація друку `Sum( List( elts, Order ) ) / Length( elts );`"
+
+#: gap-lesson/_extras/guide.md:79
+msgid ""
+"show how to assemble this command using command line editing and moving\n"
+"around the line, perhaps executing partial command to see their results,\n"
+"instead of typing the whole command from first to last character "
+"sequentially."
+msgstr ""
+"покажіть, як зібрати цю команду за допомогою редагування командного рядка та "
+"переміщення\n"
+"по рядку, можливо, виконавши часткову команду, щоб побачити їхні "
+"результати,\n"
+"замість того, щоб вводити всю команду послідовно від першого до останнього "
+"символу."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:83
+msgid ""
+"* Use Etherpad to vote for approaches to calculate the average order of a "
+"list."
+msgstr ""
+"* Використовуйте Etherpad для голосування за підходи до обчислення "
+"середнього порядку списку."
+
+#: gap-lesson/_extras/guide.md:84
+msgid ""
+"After that discuss situations when each of them may be more preferable than "
+"others."
+msgstr ""
+"Після цього обговоріть ситуації, коли кожен з них може бути кращим за інші."
+
+# ordered list
+#: gap-lesson/_extras/guide.md:86
+msgid "1.  Solution of the challenge: `Filtered( elts, g -> 2^g = 2 );` and"
+msgstr "1.  Рішення виклику: `Filtered( elts, g -> 2^g = 2 );` and"
+
+#: gap-lesson/_extras/guide.md:87
+msgid "`Filtered( elts, g -> (1,2)^g = (1,2) );`."
+msgstr "`Filtered( elts, g -> (1,2)^g = (1,2) );`."
+
+# header
+#: gap-lesson/_extras/guide.md:90 gap-lesson/reference.md:21
+msgid "## [Some more GAP objects](02-some-objects.html)"
+msgstr "## [Ще декілька об’єктів GAP](02-some-objects.html)"
+
+# unordered list
+#: gap-lesson/_extras/guide.md:92
+msgid ""
+"* Floats, cyclotomics, finite fields elements are not used further in the"
+msgstr ""
+"* Число з плаваючою комою, цикломатичні числа, елементи скінченних полів далі"
+
+#: gap-lesson/_extras/guide.md:93
+msgid "lesson, but we mention them briefly to show that they exist."
+msgstr ""
+"в уроці не використовуються, але ми згадуємо їх коротко, щоб показати, що "
+"вони існують."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:95
+msgid "* Emphasize that organising complex objects into nested records may"
+msgstr ""
+"* Підкресліть, що організація складних об’єктів у вкладені записи може бути"
+
+#: gap-lesson/_extras/guide.md:96
+msgid "be more efficient than nested lists."
+msgstr "більш ефективною, ніж вкладені списки."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:98
+msgid ""
+"* Beware that `w:=\"supercalifragilisticexpialidocious\"; IsSubset(w,'s');`"
+msgstr ""
+"* Стережіться цього `w:=\"supercalifragilisticexpialidocious\"; "
+"IsSubset(w,'s');`"
+
+#: gap-lesson/_extras/guide.md:99
+msgid ""
+"results in a no-method-found error. This may be a good moment to introduce\n"
+"this special kind of error messages."
+msgstr ""
+"призводить до помилки методу не знайдено. Це може бути вдалим моментом для "
+"представлення\n"
+"цього особливого виду повідомлень про помилки."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:102
+msgid "* For extending GAP with new types of objects, refer to"
+msgstr "* Щоб розширити GAP за допомогою нових типів об’єктів, зверніться до"
+
+#: gap-lesson/_extras/guide.md:103
+msgid ""
+"[Creating New Objects](http://www.gap-system.org/Manuals/doc/ref/chap79."
+"html)\n"
+"and [Examples of Extending the System](http://www.gap-system.org/Manuals/doc/"
+"ref/chap80.html)\n"
+"of the GAP Reference Manual.\n"
+"Also, the [Circle package](http://www.gap-system.org/Packages/circle.html)\n"
+"provides an example of extending GAP with new multiplicative objects."
+msgstr ""
+"[Створення нових об'єктів](http://www.gap-system.org/Manuals/doc/ref/chap79."
+"html)\n"
+"та [Приклади розширення системи](http://www.gap-system.org/Manuals/doc/ref/"
+"chap80.html)\n"
+"з довідкового посібника GAP.\n"
+"Також [пакет Circle](http://www.gap-system.org/Packages/circle.html)\n"
+"надає приклад розширення GAP новими мультиплікативними об’єктами."
+
+# ordered list
+#: gap-lesson/_extras/guide.md:109 gap-lesson/_extras/guide.md:153
+msgid "1.  Solution of the challenge:"
+msgstr "1.  Розв'язання завдання:"
+
+#: gap-lesson/_extras/guide.md:110
+msgid ""
+"`r:=c[1]; for i in [2..Length(c)] do if c[i][2]>r[2] then r:=c[i]; fi; od; r;"
+"`"
+msgstr ""
+"`r:=c[1]; for i in [2..Length(c)] do if c[i][2]>r[2] then r:=c[i]; fi; od; r;"
+"`"
+
+# header
+#: gap-lesson/_extras/guide.md:113 gap-lesson/reference.md:42
+msgid "## [Functions in GAP](03-func.html)"
+msgstr "## [Функції в GAP](03-func.html)"
+
+# unordered list
+#: gap-lesson/_extras/guide.md:115
+msgid ""
+"* Spend some time on the structure of the GAP function: keywords `function`,"
+msgstr ""
+"* Приділіть деякий час структурі функції GAP: ключові слова `function`,"
+
+#: gap-lesson/_extras/guide.md:116
+msgid ""
+"`local`, `return`, `end`, and other language constructions exposed there."
+msgstr "`local`, `return`, `end` та інші мовні конструкції, представлені там."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:118
+msgid ""
+"* Tell how to explore the break loop while showing an example of an error"
+msgstr ""
+"* Розкажіть, як досліджувати цикл розриву, показуючи приклад повідомлення про"
+
+#: gap-lesson/_extras/guide.md:119
+msgid "message."
+msgstr "помилку."
+
+# header
+#: gap-lesson/_extras/guide.md:122 gap-lesson/reference.md:47
+msgid "## [Using regression tests](04-testing.html)"
+msgstr "## [Використання регресійних тестів](04-testing.html)"
+
+# unordered list
+#: gap-lesson/_extras/guide.md:124
+msgid ""
+"* Learners may need help with formatting the test because of misplaced "
+"comments"
+msgstr ""
+"* Студентам може знадобитися допомога з форматуванням тесту через недоречні "
+"коментарі"
+
+#: gap-lesson/_extras/guide.md:125
+msgid "and/or different formatting of the output."
+msgstr "та/або інше форматування вихідних даних."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:127
+msgid ""
+"* Cover aspects of making test files reproducible: random vs explicit "
+"examples,"
+msgstr ""
+"* Розглянемо аспекти створення тестових файлів, які можна відтворити: "
+"випадкові чи явні приклади,"
+
+#: gap-lesson/_extras/guide.md:128
+msgid "suppressing output with double semicolon, etc."
+msgstr "коментування виводу за допомогою подвійної крапки з комою тощо."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:130
+msgid "* Refer to other options of `Test` such as comparing the output up to"
+msgstr ""
+"* Зверніться до інших параметрів `Тесту`, таких як порівняння результату з"
+
+#: gap-lesson/_extras/guide.md:131
+msgid "whitespaces, displaying the progress of the test, etc."
+msgstr "пробілами, відображення прогресу тесту тощо."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:133
+msgid "* Mention `TestDirectory` function to run a collection of tests."
+msgstr "* Згадайте функцію `TestDirectory`, щоб запустити колекцію тестів."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:135
+msgid "* Mention profiling and code coverage tools."
+msgstr "* Згадайте інструменти профілювання та покриття коду."
+
+# header
+#: gap-lesson/_extras/guide.md:138 gap-lesson/reference.md:52
+msgid "## [Small groups search](05-small-groups.html)"
+msgstr "## [Пошук малими групами](05-small-groups.html)"
+
+# unordered list
+#: gap-lesson/_extras/guide.md:140
+msgid ""
+"* Give an overview of `SmallGroup`, `AllSmallGroups`, `NrSmallGroups` and"
+msgstr "* Дайте огляд `SmallGroup`, `AllSmallGroups`, `NrSmallGroups` та"
+
+#: gap-lesson/_extras/guide.md:141
+msgid "`SmallGroupsInformation` with some examples."
+msgstr "`SmallGroupsInformation` з деякими прикладами."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:143
+msgid ""
+"* Discuss, why iterating is better than AllSmallGroups exhausting memory"
+msgstr ""
+"Обговоріть, чому ітерація краща, ніж AllSmallGroups, що виснажує пам’ять"
+
+#: gap-lesson/_extras/guide.md:144
+msgid "  (mention the concept of self-learning objects)."
+msgstr "(згадайте концепцію об’єктів, що самонавчаються)."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:146
+msgid ""
+"* A side question is how to convert a pc group, returned by `SmallGroup`, to"
+msgstr ""
+"* Побічне питання полягає в тому, як перетворити pc групу, повернуту "
+"`SmallGroup`,"
+
+#: gap-lesson/_extras/guide.md:147
+msgid "some other representation, e.g. permutation or fp group."
+msgstr "на інше представлення, наприклад. перестановка або fp група."
+
+# unordered list
+#: gap-lesson/_extras/guide.md:149
+msgid ""
+"* Live coding is preferred way to teach how to develop most of the functions"
+msgstr ""
+"* Програмування на льоту є кращим способом навчання, яке розвиває більшість "
+"функцій"
+
+#: gap-lesson/_extras/guide.md:150
+msgid "from this lesson."
+msgstr "з цього уроку."
+
+#: gap-lesson/_extras/guide.md:154
+msgid ""
+"`Sum(List(Filtered([1..2000], n -> not IsPrimePowerInt(n)),NrSmallGroups)); "
+"NrSmallGroups(1536); last2-last;`.\n"
+"In addition to `SmallGroup(105,1)` and `SmallGroup(357,1)`, another\n"
+"group is `SmallGroup(1785,1)`."
+msgstr ""
+"`Sum(List(Filtered([1..2000], n -> not IsPrimePowerInt(n)),NrSmallGroups)); "
+"NrSmallGroups(1536); last2-last;`.\n"
+"In addition to `SmallGroup(105,1)` та `SmallGroup(357,1)`, інша група є "
+"`SmallGroup(1785,1)`."
+
+# header
+#: gap-lesson/_extras/guide.md:158 gap-lesson/reference.md:57
+msgid "## [Attributes and Methods](06-attributes.html)"
+msgstr "## [Атрибути та методи](06-attributes.html)"
+
+# unordered list
+#: gap-lesson/_extras/guide.md:160
+msgid "* Why it is not a good idea to declare `Random` as an attribute?"
+msgstr "* Чому не варто оголошувати `Random` як атрибут?"
+
+# ordered list
+#: gap-lesson/_extras/guide.md:162
+msgid ""
+"1.  Ideas for the challenge: try `k:=1` and then `k:=k+1;n:=2^k;"
+"AvgOrdOfCollection(DihedralGroup(n));time;AvgOrdOfGroup(DihedralGroup(n));"
+"time;`."
+msgstr ""
+"1.  Ідеї для завдання: спробуйте `k:=1`, а потім `k:=k+1;n:=2^k;"
+"AvgOrdOfCollection(DihedralGroup(n));time;AvgOrdOfGroup(DihedralGroup(n));"
+"time;`."
+
+#: gap-lesson/_extras/guide.md:163
+msgid ""
+"Even for `k=20`, the 1st function takes about 15s and the 2nd - about 115s\n"
+"on a MacBook Pro."
+msgstr ""
+"Навіть для `k=20` перша функція займає приблизно 15 секунд, а друга – "
+"приблизно 115 секунд\n"
+"на MacBook Pro."

@@ -1,0 +1,5072 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n\n"
+"Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
+"POT-Creation-Date: 2023-10-14 13:03:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gap-lesson/CODE_OF_CONDUCT.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Contributor Code of Conduct\"\n"
+"---"
+msgstr ""
+
+#: gap-lesson/CODE_OF_CONDUCT.md:5
+msgid "As contributors and maintainers of this project,\n"
+"we pledge to follow the [Carpentry Code of Conduct][coc]."
+msgstr ""
+
+#: gap-lesson/CODE_OF_CONDUCT.md:8
+msgid "Instances of abusive, harassing, or otherwise unacceptable behavior\n"
+"may be reported by following our [reporting guidelines][coc-reporting]."
+msgstr ""
+
+#: gap-lesson/CODE_OF_CONDUCT.md:11
+#: gap-lesson/_extras/figures.md:68
+msgid "{% include links.md %}"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:1
+# header
+msgid "# Contributing"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:3
+msgid "[Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,\n"
+"and we welcome contributions of all kinds:\n"
+"new lessons,\n"
+"fixes to existing material,\n"
+"bug reports,\n"
+"and reviews of proposed changes are all welcome."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:10
+# header
+msgid "## Contributor Agreement"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:12
+msgid "By contributing,\n"
+"you agree that we may redistribute your work under [our license](LICENSE.md).\n"
+"In exchange,\n"
+"we will address your issues and/or assess your change proposal as promptly as we can,\n"
+"and help you become a member of our community.\n"
+"Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"agrees to abide by our [code of conduct](CONDUCT.md)."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:20
+# header
+msgid "## How to Contribute"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:22
+msgid "The easiest way to get started is to file an issue\n"
+"to tell us about a spelling mistake,\n"
+"some awkward wording,\n"
+"or a factual error.\n"
+"This is a good way to introduce yourself\n"
+"and to meet some of our community members."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:29
+# ordered list
+msgid "1.  If you do not have a [GitHub][github] account,"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:30
+msgid "    you can [send us comments by email][contact].\n"
+"    However,\n"
+"    we will be able to respond more quickly if you use one of the other methods described below."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:34
+# ordered list
+msgid "2.  If you have a [GitHub][github] account,"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:35
+msgid "    or are willing to [create one][github-join],\n"
+"    but do not know how to use Git,\n"
+"    you can report problems or suggest improvements by [creating an issue][issues].\n"
+"    This allows us to assign the item to someone\n"
+"    and to respond to it in a threaded discussion."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:41
+# ordered list
+msgid "3.  If you are comfortable with Git,"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:42
+msgid "    and would like to add or change material,\n"
+"    you can submit a pull request (PR).\n"
+"    Instructions for doing this are [included below](#using-github)."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:46
+# header
+msgid "## Where to Contribute"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:48
+# ordered list
+msgid "1.  If you wish to change this lesson,"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:49
+msgid "    please work in <https://github.com/carpentries-incubator/gap-lesson/>,\n"
+"    which can be viewed at <http://carpentries-incubator.github.io/gap-lesson/>."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:52
+# ordered list
+msgid "2.  If you wish to change the example lesson,"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:53
+msgid "    please work in <https://github.com/carpentries/lesson-example>,\n"
+"    which documents the format of our lessons\n"
+"    and can be viewed at <https://swcarpentry.github.io/lesson-example>."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:57
+# ordered list
+msgid "3.  If you wish to change the template used for workshop websites,"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:58
+msgid "    please work in <https://github.com/carpentries/workshop-template>.\n"
+"    The home page of that repository explains how to set up workshop websites,\n"
+"    while the extra pages in <https://carpentries.github.io/workshop-template>\n"
+"    provide more background on our design choices."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:63
+# ordered list
+msgid "4.  If you wish to change CSS style files, tools,"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:64
+msgid "    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,\n"
+"    please work in <https://github.com/swcarpentry/styles>."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:67
+# header
+msgid "## What to Contribute"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:69
+msgid "There are many ways to contribute,\n"
+"from writing new exercises and improving existing ones\n"
+"to updating or filling in the documentation\n"
+"and and submitting [bug reports][issues]\n"
+"about things that don't work, aren't clear, or are missing.\n"
+"If you are looking for ideas,\n"
+"please see [the list of issues for this repository][issues],\n"
+"or the issues for [Data Carpentry][dc-issues]\n"
+"and [Software Carpentry][swc-issues] projects."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:79
+msgid "Comments on issues and reviews of pull requests are just as welcome:\n"
+"we are smarter together than we are on our own.\n"
+"Reviews from novices and newcomers are particularly valuable:\n"
+"it's easy for people who have been using these lessons for a while\n"
+"to forget how impenetrable some of this material can be,\n"
+"so fresh eyes are always welcome."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:86
+# header
+msgid "## What *Not* to Contribute"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:88
+msgid "Our lessons already contain more material than we can cover in a typical workshop,\n"
+"so we are usually *not* looking for more concepts or tools to add to them.\n"
+"As a rule,\n"
+"if you want to introduce a new idea,\n"
+"you must (a) estimate how long it will take to teach\n"
+"and (b) explain what you would take out to make room for it.\n"
+"The first encourages contributors to be honest about requirements;\n"
+"the second, to think hard about priorities."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:97
+msgid "We are also not looking for exercises or other material that only run on one platform.\n"
+"Our workshops typically contain a mixture of Windows, Mac OS X, and Linux users;\n"
+"in order to be usable,\n"
+"our lessons must run equally well on all three."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:102
+# header
+msgid "## Using GitHub"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:104
+msgid "If you choose to contribute via GitHub,\n"
+"you may want to look at\n"
+"[How to Contribute to an Open Source Project on GitHub][how-contribute].\n"
+"In brief:"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:109
+# ordered list
+msgid "1.  The published copy of the lesson is in the `gh-pages` branch of the repository"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:110
+msgid "    (so that GitHub will regenerate it automatically).\n"
+"    Please create all branches from that,\n"
+"    and merge the [master repository][repo]'s `gh-pages` branch into your `gh-pages` branch\n"
+"    before starting work.\n"
+"    Please do *not* work directly in your `gh-pages` branch,\n"
+"    since that will make it difficult for you to work on other contributions."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:117
+# ordered list
+msgid "2.  We use [GitHub flow][github-flow] to manage changes:"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:118
+msgid "    1.  Create a new branch in your desktop copy of this repository for each significant change.\n"
+"    2.  Commit the change in that branch.\n"
+"    3.  Push that branch to your fork of this repository on GitHub.\n"
+"    4.  Submit a pull request from that branch to the [master repository][repo].\n"
+"    5.  If you receive feedback,\n"
+"        make changes on your desktop and push to your branch on GitHub:\n"
+"        the pull request will update automatically."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:126
+msgid "Each lesson has two maintainers who review issues and pull requests\n"
+"or encourage others to do so.\n"
+"The maintainers are community volunteers,\n"
+"and have final say over what gets merged into the lesson."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:131
+# header
+msgid "## Other Resources"
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:133
+msgid "General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]\n"
+"happens on the [discussion mailing list][discuss-list],\n"
+"which everyone is welcome to join.\n"
+"You can also [reach us by email][contact]."
+msgstr ""
+
+#: gap-lesson/CONTRIBUTING.md:138
+msgid "[contact]: mailto:admin@software-carpentry.org\n"
+"[dc-issues]: https://github.com/issues?q=user%3Adatacarpentry\n"
+"[dc-lessons]: http://datacarpentry.org/lessons/\n"
+"[dc-site]: http://datacarpentry.org/\n"
+"[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss\n"
+"[example-site]: https://carpentries.github.io/lesson-example\n"
+"[github]: http://github.com\n"
+"[github-flow]: https://guides.github.com/introduction/flow/\n"
+"[github-join]: https://github.com/join\n"
+"[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github\n"
+"[issues]: https://github.com/carpentries-incubator/gap-lesson/issues/\n"
+"[repo]: https://github.com/carpentries-incubator/gap-lesson/\n"
+"[swc-issues]: https://github.com/issues?q=user%3Aswcarpentry\n"
+"[swc-lessons]: http://software-carpentry.org/lessons/\n"
+"[swc-site]: http://software-carpentry.org/"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Licenses\"\n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:6
+# header
+msgid "## Instructional Material"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:8
+msgid "All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is\n"
+"made available under the [Creative Commons Attribution\n"
+"license][cc-by-human]. The following is a human-readable summary of\n"
+"(and not a substitute for) the [full legal text of the CC BY 4.0\n"
+"license][cc-by-legal]."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:14
+msgid "You are free:"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:16
+# unordered list
+msgid "* to **Share**---copy and redistribute the material in any medium or format"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:17
+# unordered list
+msgid "* to **Adapt**---remix, transform, and build upon the material"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:19
+msgid "for any purpose, even commercially."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:21
+msgid "The licensor cannot revoke these freedoms as long as you follow the\n"
+"license terms."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:24
+msgid "Under the following terms:"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:26
+# unordered list
+msgid "* **Attribution**---You must give appropriate credit (mentioning that"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:27
+msgid "  your work is derived from work that is Copyright © Software\n"
+"  Carpentry and, where practical, linking to\n"
+"  http://software-carpentry.org/), provide a [link to the\n"
+"  license][cc-by-human], and indicate if changes were made. You may do\n"
+"  so in any reasonable manner, but not in any way that suggests the\n"
+"  licensor endorses you or your use."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:34
+msgid "**No additional restrictions**---You may not apply legal terms or\n"
+"technological measures that legally restrict others from doing\n"
+"anything the license permits.  With the understanding that:"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:38
+msgid "Notices:"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:40
+# unordered list
+msgid "* You do not have to comply with the license for elements of the"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:41
+msgid "  material in the public domain or where your use is permitted by an\n"
+"  applicable exception or limitation.\n"
+"* No warranties are given. The license may not give you all of the\n"
+"  permissions necessary for your intended use. For example, other\n"
+"  rights such as publicity, privacy, or moral rights may limit how you\n"
+"  use the material."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:48
+# header
+msgid "## Software"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:50
+msgid "Except where otherwise noted, the example programs and other software\n"
+"provided by Software Carpentry and Data Carpentry are made available under the\n"
+"[OSI][osi]-approved\n"
+"[MIT license][mit-license]."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:55
+msgid "Permission is hereby granted, free of charge, to any person obtaining\n"
+"a copy of this software and associated documentation files (the\n"
+"\"Software\"), to deal in the Software without restriction, including\n"
+"without limitation the rights to use, copy, modify, merge, publish,\n"
+"distribute, sublicense, and/or sell copies of the Software, and to\n"
+"permit persons to whom the Software is furnished to do so, subject to\n"
+"the following conditions:"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:63
+msgid "The above copyright notice and this permission notice shall be\n"
+"included in all copies or substantial portions of the Software."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:66
+msgid "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n"
+"EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n"
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n"
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\n"
+"LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n"
+"OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\n"
+"WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:74
+# header
+msgid "## Trademark"
+msgstr ""
+
+#: gap-lesson/LICENSE.md:76
+msgid "\"Software Carpentry\" and \"Data Carpentry\" and their respective logos\n"
+"are registered trademarks of [Community Initiatives][CI]."
+msgstr ""
+
+#: gap-lesson/LICENSE.md:79
+msgid "[cc-by-human]: https://creativecommons.org/licenses/by/4.0/\n"
+"[cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode\n"
+"[mit-license]: https://opensource.org/licenses/mit-license.html\n"
+"[ci]: http://communityin.org/\n"
+"[osi]: https://opensource.org"
+msgstr ""
+
+#: gap-lesson/README.md:1
+msgid "[![Build Status](https://travis-ci.org/alex-konovalov/gap-lesson.svg?branch=gh-pages)](https://travis-ci.org/alex-konovalov/gap-lesson)\n"
+"[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.597073.svg)](https://doi.org/10.5281/zenodo.597073)"
+msgstr ""
+
+#: gap-lesson/README.md:4
+msgid "This is the Carpentries-style lesson on the computational algebra system [GAP](http://www.gap-system.org)."
+msgstr ""
+
+#: gap-lesson/README.md:6
+msgid "Its development was started by Olexandr Konovalov for the Software Carpentry\n"
+"workshop organised as a part of the [First CoDiMa Training School in Computational\n"
+"Discrete Mathematics](http://www.codima.ac.uk/school2015/) in 2015. Since then, it\n"
+"has had several releases, produced in collaboration with further contributors, and has\n"
+"been taught by different instructors at more than ten different events, the full list\n"
+"of which is available on the GAP lesson wiki\n"
+"[here](https://github.com/carpentries-incubator/gap-lesson/wiki)."
+msgstr ""
+
+#: gap-lesson/README.md:14
+msgid "This lesson is made available under the Creative Commons Attribution\n"
+"license. A human-readable summary of (and not a substitute for) the\n"
+"full legal text of the CC BY 4.0 license can be found in the `LICENSE.md`\n"
+"file [here](https://github.com/carpentries-incubator/gap-lesson/blob/gh-pages/LICENSE.md)."
+msgstr ""
+
+#: gap-lesson/README.md:19
+msgid "If you use this lesson to teach GAP users, we would appreciate information\n"
+"about the event where it was taught and the number of learners attending,\n"
+"so that we can add it to the list at the GAP lesson wiki\n"
+"[here](https://github.com/carpentries-incubator/gap-lesson/wiki). You can\n"
+"submit it to the [issue tracker](https://github.com/carpentries-incubator/gap-lesson/issues)\n"
+"or send by email to obk1@st-andrews.ac.uk. We also\n"
+"encourage you to collect and share the feedback using\n"
+"[sticky notes as minute cards](https://carpentries.github.io/instructor-training/06-feedback/index.html)\n"
+"(in full or in the form of a summary). This will help us in further lesson development,\n"
+"to which you are welcome to contribute following the guidelines\n"
+"[here](https://github.com/carpentries-incubator/gap-lesson/blob/gh-pages/CONTRIBUTING.md)."
+msgstr ""
+
+#: gap-lesson/README.md:31
+msgid "This lesson is published on Zenodo [here](https://doi.org/10.5281/zenodo.597073).\n"
+"To cite it, please use the format suggested there."
+msgstr ""
+
+#: gap-lesson/README.md:34
+msgid "We acknowledge financial support from [CCP-CoDiMa](https://www.codima.ac.uk/)\n"
+"(Collaborative Computational Project in the area of Computational Discrete Mathematics\n"
+"[EP/M022641/1](http://gow.epsrc.ac.uk/NGBOViewGrant.aspx?GrantRef=EP/M022641/1))\n"
+"and from [OpenDreamKit](http://opendreamkit.org/) [Horizon 2020](https://ec.europa.eu/programmes/horizon2020/)\n"
+"[European Research Infrastructures](https://ec.europa.eu/programmes/horizon2020/en/h2020-section/european-research-infrastructures-including-e-infrastructures)\n"
+"project (#<a href=\"http://cordis.europa.eu/project/rcn/198334_en.html\">676541</a>)."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:1
+# Front Matter
+msgid "---\n"
+"title: \"First session with GAP\"\n"
+"teaching: 30\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Working with the GAP command line\"\n"
+"objectives:\n"
+"- \"Time-saving tips and tricks\"\n"
+"- \"Using GAP's help system\"\n"
+"- \"Basic objects and constructions in the GAP language\"\n"
+"keypoints:\n"
+"- \"Remember that GAP is case-sensitive!\"\n"
+"- \"Do not panic if you see `Error, Variable: 'FuncName' must have a value`.\"\n"
+"- \"Care about names of variables and functions.\"\n"
+"- \"Use command line editing.\"\n"
+"- \"Use autocompletion instead of typing names of functions and variables in full.\"\n"
+"- \"Use `?` and `??` to view help pages.\"\n"
+"- \"Set the default help format to HTML using `SetHelpViewer`.\"\n"
+"- \"Use the `LogTo` function to save all GAP input and output into a text file.\"\n"
+"- \"If calculation takes too long, press <Control>-C to interrupt it.\"\n"
+"- \"Read 'A First Session with GAP' from the GAP Tutorial.\"\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:24
+msgid "If GAP is installed correctly you should be able to start it. Exactly how \n"
+"you start GAP will depend on your operating system and how you installed\n"
+"GAP. GAP starts with the *banner* displaying information about the version of\n"
+"the system and loaded components, and then displays the command line prompt\n"
+"`gap>`, for example:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:30
+# code block
+msgid "~~~\n"
+" ┌───────┐   GAP 4.9.2 of 04-Jul-2018\n"
+" │  GAP  │   https://www.gap-system.org\n"
+" └───────┘   Architecture: x86_64-apple-darwin16.7.0-default64\n"
+" Configuration:  gmp 6.1.2, readline\n"
+" Loading the library and packages ...\n"
+" Packages:   AClib 1.3, Alnuth 3.1.0, AtlasRep 1.5.1, AutPGrp 1.9, \n"
+"             Browse 1.8.8, CRISP 1.4.4, Cryst 4.1.17, CrystCat 1.1.8, \n"
+"             CTblLib 1.2.2, FactInt 1.6.2, FGA 1.4.0, GAPDoc 1.6.1, IO 4.5.1, \n"
+"             IRREDSOL 1.4, LAGUNA 3.9.0, Polenta 1.3.8, Polycyclic 2.14, \n"
+"             PrimGrp 3.3.1, RadiRoot 2.8, ResClasses 4.7.1, SmallGrp 1.3, \n"
+"             Sophus 1.24, SpinSym 1.5, TomLib 1.2.6, TransGrp 2.0.2, \n"
+"             utils 0.54\n"
+" Try '??help' for help. See also '?copyright', '?cite' and '?authors'\n"
+"gap> \n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:46
+#: gap-lesson/_episodes/01-command-line.md:69
+#: gap-lesson/_episodes/01-command-line.md:113
+#: gap-lesson/_episodes/01-command-line.md:130
+#: gap-lesson/_episodes/01-command-line.md:169
+#: gap-lesson/_episodes/01-command-line.md:182
+#: gap-lesson/_episodes/01-command-line.md:198
+#: gap-lesson/_episodes/01-command-line.md:212
+#: gap-lesson/_episodes/01-command-line.md:236
+#: gap-lesson/_episodes/01-command-line.md:248
+#: gap-lesson/_episodes/01-command-line.md:260
+#: gap-lesson/_episodes/01-command-line.md:276
+#: gap-lesson/_episodes/01-command-line.md:291
+#: gap-lesson/_episodes/01-command-line.md:355
+#: gap-lesson/_episodes/01-command-line.md:405
+#: gap-lesson/_episodes/01-command-line.md:420
+#: gap-lesson/_episodes/01-command-line.md:437
+#: gap-lesson/_episodes/01-command-line.md:454
+#: gap-lesson/_episodes/01-command-line.md:469
+#: gap-lesson/_episodes/01-command-line.md:496
+#: gap-lesson/_episodes/01-command-line.md:526
+#: gap-lesson/_episodes/01-command-line.md:544
+#: gap-lesson/_episodes/01-command-line.md:561
+#: gap-lesson/_episodes/01-command-line.md:574
+#: gap-lesson/_episodes/01-command-line.md:607
+#: gap-lesson/_episodes/01-command-line.md:619
+#: gap-lesson/_episodes/01-command-line.md:631
+#: gap-lesson/_episodes/01-command-line.md:643
+#: gap-lesson/_episodes/01-command-line.md:655
+#: gap-lesson/_episodes/02-some-objects.md:39
+#: gap-lesson/_episodes/02-some-objects.md:51
+#: gap-lesson/_episodes/02-some-objects.md:63
+#: gap-lesson/_episodes/02-some-objects.md:78
+#: gap-lesson/_episodes/02-some-objects.md:88
+#: gap-lesson/_episodes/02-some-objects.md:98
+#: gap-lesson/_episodes/02-some-objects.md:109
+#: gap-lesson/_episodes/02-some-objects.md:119
+#: gap-lesson/_episodes/02-some-objects.md:135
+#: gap-lesson/_episodes/02-some-objects.md:151
+#: gap-lesson/_episodes/02-some-objects.md:164
+#: gap-lesson/_episodes/02-some-objects.md:178
+#: gap-lesson/_episodes/02-some-objects.md:190
+#: gap-lesson/_episodes/02-some-objects.md:204
+#: gap-lesson/_episodes/02-some-objects.md:215
+#: gap-lesson/_episodes/03-func.md:32
+#: gap-lesson/_episodes/03-func.md:42
+#: gap-lesson/_episodes/03-func.md:55
+#: gap-lesson/_episodes/03-func.md:69
+#: gap-lesson/_episodes/03-func.md:84
+#: gap-lesson/_episodes/03-func.md:94
+#: gap-lesson/_episodes/03-func.md:138
+#: gap-lesson/_episodes/03-func.md:152
+#: gap-lesson/_episodes/03-func.md:195
+#: gap-lesson/_episodes/03-func.md:230
+#: gap-lesson/_episodes/03-func.md:287
+#: gap-lesson/_episodes/03-func.md:301
+#: gap-lesson/_episodes/03-func.md:369
+#: gap-lesson/_episodes/03-func.md:401
+#: gap-lesson/_episodes/03-func.md:411
+#: gap-lesson/_episodes/03-func.md:422
+#: gap-lesson/_episodes/04-testing.md:79
+#: gap-lesson/_episodes/04-testing.md:141
+#: gap-lesson/_episodes/04-testing.md:205
+#: gap-lesson/_episodes/04-testing.md:235
+#: gap-lesson/_episodes/05-small-groups.md:61
+#: gap-lesson/_episodes/05-small-groups.md:81
+#: gap-lesson/_episodes/05-small-groups.md:91
+#: gap-lesson/_episodes/05-small-groups.md:127
+#: gap-lesson/_episodes/05-small-groups.md:137
+#: gap-lesson/_episodes/05-small-groups.md:182
+#: gap-lesson/_episodes/05-small-groups.md:228
+#: gap-lesson/_episodes/05-small-groups.md:244
+#: gap-lesson/_episodes/05-small-groups.md:259
+#: gap-lesson/_episodes/05-small-groups.md:272
+#: gap-lesson/_episodes/05-small-groups.md:351
+#: gap-lesson/_episodes/05-small-groups.md:377
+#: gap-lesson/_episodes/05-small-groups.md:460
+#: gap-lesson/_episodes/05-small-groups.md:486
+#: gap-lesson/_episodes/06-attributes.md:39
+#: gap-lesson/_episodes/06-attributes.md:52
+#: gap-lesson/_episodes/06-attributes.md:78
+#: gap-lesson/_episodes/06-attributes.md:92
+#: gap-lesson/_episodes/06-attributes.md:126
+#: gap-lesson/_episodes/06-attributes.md:164
+#: gap-lesson/_episodes/06-attributes.md:222
+#: gap-lesson/_episodes/06-attributes.md:232
+#: gap-lesson/_extras/discuss.md:172
+#: gap-lesson/_extras/discuss.md:182
+# SC/DC Template label
+msgid "{: .output}"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:48
+msgid "To leave GAP, type `quit;` at the GAP prompt. Remember that all GAP commands,\n"
+"including this one, must be finished with a semicolon! Practice entering\n"
+"`quit;` to leave GAP, and then starting a new GAP session. Before continuing, you\n"
+"may wish to enter the following command to display GAP prompts and user inputs\n"
+"in different colours:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:54
+# code block
+msgid "~~~\n"
+" ColorPrompt(true);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:57
+#: gap-lesson/_episodes/01-command-line.md:64
+#: gap-lesson/_episodes/01-command-line.md:77
+#: gap-lesson/_episodes/01-command-line.md:93
+#: gap-lesson/_episodes/01-command-line.md:108
+#: gap-lesson/_episodes/01-command-line.md:125
+#: gap-lesson/_episodes/01-command-line.md:143
+#: gap-lesson/_episodes/01-command-line.md:164
+#: gap-lesson/_episodes/01-command-line.md:177
+#: gap-lesson/_episodes/01-command-line.md:193
+#: gap-lesson/_episodes/01-command-line.md:205
+#: gap-lesson/_episodes/01-command-line.md:229
+#: gap-lesson/_episodes/01-command-line.md:243
+#: gap-lesson/_episodes/01-command-line.md:255
+#: gap-lesson/_episodes/01-command-line.md:271
+#: gap-lesson/_episodes/01-command-line.md:286
+#: gap-lesson/_episodes/01-command-line.md:312
+#: gap-lesson/_episodes/01-command-line.md:374
+#: gap-lesson/_episodes/01-command-line.md:393
+#: gap-lesson/_episodes/01-command-line.md:400
+#: gap-lesson/_episodes/01-command-line.md:412
+#: gap-lesson/_episodes/01-command-line.md:431
+#: gap-lesson/_episodes/01-command-line.md:448
+#: gap-lesson/_episodes/01-command-line.md:462
+#: gap-lesson/_episodes/01-command-line.md:489
+#: gap-lesson/_episodes/01-command-line.md:510
+#: gap-lesson/_episodes/01-command-line.md:521
+#: gap-lesson/_episodes/01-command-line.md:539
+#: gap-lesson/_episodes/01-command-line.md:556
+#: gap-lesson/_episodes/01-command-line.md:569
+#: gap-lesson/_episodes/01-command-line.md:602
+#: gap-lesson/_episodes/01-command-line.md:614
+#: gap-lesson/_episodes/01-command-line.md:626
+#: gap-lesson/_episodes/01-command-line.md:638
+#: gap-lesson/_episodes/01-command-line.md:650
+#: gap-lesson/_episodes/02-some-objects.md:33
+#: gap-lesson/_episodes/02-some-objects.md:44
+#: gap-lesson/_episodes/02-some-objects.md:56
+#: gap-lesson/_episodes/02-some-objects.md:73
+#: gap-lesson/_episodes/02-some-objects.md:83
+#: gap-lesson/_episodes/02-some-objects.md:93
+#: gap-lesson/_episodes/02-some-objects.md:103
+#: gap-lesson/_episodes/02-some-objects.md:114
+#: gap-lesson/_episodes/02-some-objects.md:129
+#: gap-lesson/_episodes/02-some-objects.md:142
+#: gap-lesson/_episodes/02-some-objects.md:158
+#: gap-lesson/_episodes/02-some-objects.md:172
+#: gap-lesson/_episodes/02-some-objects.md:185
+#: gap-lesson/_episodes/02-some-objects.md:197
+#: gap-lesson/_episodes/02-some-objects.md:209
+#: gap-lesson/_episodes/03-func.md:27
+#: gap-lesson/_episodes/03-func.md:37
+#: gap-lesson/_episodes/03-func.md:50
+#: gap-lesson/_episodes/03-func.md:64
+#: gap-lesson/_episodes/03-func.md:79
+#: gap-lesson/_episodes/03-func.md:89
+#: gap-lesson/_episodes/03-func.md:133
+#: gap-lesson/_episodes/03-func.md:145
+#: gap-lesson/_episodes/03-func.md:183
+#: gap-lesson/_episodes/03-func.md:190
+#: gap-lesson/_episodes/03-func.md:203
+#: gap-lesson/_episodes/03-func.md:217
+#: gap-lesson/_episodes/03-func.md:225
+#: gap-lesson/_episodes/03-func.md:246
+#: gap-lesson/_episodes/03-func.md:253
+#: gap-lesson/_episodes/03-func.md:260
+#: gap-lesson/_episodes/03-func.md:277
+#: gap-lesson/_episodes/03-func.md:296
+#: gap-lesson/_episodes/03-func.md:319
+#: gap-lesson/_episodes/03-func.md:326
+#: gap-lesson/_episodes/03-func.md:359
+#: gap-lesson/_episodes/03-func.md:376
+#: gap-lesson/_episodes/03-func.md:395
+#: gap-lesson/_episodes/03-func.md:406
+#: gap-lesson/_episodes/03-func.md:416
+#: gap-lesson/_episodes/03-func.md:438
+#: gap-lesson/_episodes/04-testing.md:58
+#: gap-lesson/_episodes/04-testing.md:74
+#: gap-lesson/_episodes/04-testing.md:129
+#: gap-lesson/_episodes/04-testing.md:136
+#: gap-lesson/_episodes/04-testing.md:160
+#: gap-lesson/_episodes/04-testing.md:168
+#: gap-lesson/_episodes/04-testing.md:221
+#: gap-lesson/_episodes/04-testing.md:230
+#: gap-lesson/_episodes/05-small-groups.md:69
+#: gap-lesson/_episodes/05-small-groups.md:76
+#: gap-lesson/_episodes/05-small-groups.md:86
+#: gap-lesson/_episodes/05-small-groups.md:115
+#: gap-lesson/_episodes/05-small-groups.md:122
+#: gap-lesson/_episodes/05-small-groups.md:132
+#: gap-lesson/_episodes/05-small-groups.md:167
+#: gap-lesson/_episodes/05-small-groups.md:174
+#: gap-lesson/_episodes/05-small-groups.md:200
+#: gap-lesson/_episodes/05-small-groups.md:207
+#: gap-lesson/_episodes/05-small-groups.md:237
+#: gap-lesson/_episodes/05-small-groups.md:252
+#: gap-lesson/_episodes/05-small-groups.md:267
+#: gap-lesson/_episodes/05-small-groups.md:289
+#: gap-lesson/_episodes/05-small-groups.md:296
+#: gap-lesson/_episodes/05-small-groups.md:329
+#: gap-lesson/_episodes/05-small-groups.md:336
+#: gap-lesson/_episodes/05-small-groups.md:372
+#: gap-lesson/_episodes/05-small-groups.md:439
+#: gap-lesson/_episodes/06-attributes.md:34
+#: gap-lesson/_episodes/06-attributes.md:44
+#: gap-lesson/_episodes/06-attributes.md:69
+#: gap-lesson/_episodes/06-attributes.md:87
+#: gap-lesson/_episodes/06-attributes.md:104
+#: gap-lesson/_episodes/06-attributes.md:118
+#: gap-lesson/_episodes/06-attributes.md:147
+#: gap-lesson/_episodes/06-attributes.md:156
+#: gap-lesson/_episodes/06-attributes.md:183
+#: gap-lesson/_episodes/06-attributes.md:197
+#: gap-lesson/_episodes/06-attributes.md:217
+#: gap-lesson/_episodes/06-attributes.md:227
+#: gap-lesson/_extras/discuss.md:159
+#: gap-lesson/_extras/discuss.md:167
+#: gap-lesson/_extras/discuss.md:177
+# SC/DC Template label
+msgid "{: .source}"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:59
+msgid "The easiest way to start trying GAP out is as a calculator:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:61
+#: gap-lesson/_episodes/01-command-line.md:105
+# code block
+msgid "~~~\n"
+"( 1 + 2^32 ) / (1 - 2*3*107 );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:66
+#: gap-lesson/_episodes/01-command-line.md:110
+# code block
+msgid "~~~\n"
+"-6700417\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:71
+msgid "If you want to record what you did in a GAP session, so you can look over it\n"
+"later, you can enable logging with the `LogTo` function, like this."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:74
+# code block
+msgid "~~~\n"
+"LogTo(\"gap-intro.log\");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:79
+msgid "This will create a file file `gap-intro.log` in the current directory which\n"
+"will contain all subsequent input and output that appears on your terminal.\n"
+"To stop logging, you can call `LogTo` without arguments, as in `LogTo();`,\n"
+"or leave GAP. Note that `LogTo` blanks the file before starting, if it\n"
+"already exists!"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:85
+msgid "It can be useful to leave some comments in the log file in case you\n"
+"return to it in the future. A comment in GAP starts with the symbol `#` and\n"
+"continues to the end of the line. You can enter the following after the\n"
+"GAP prompt:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:90
+# code block
+msgid "~~~\n"
+"# GAP Software Carpentry Lesson\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:95
+msgid "then after pressing the Return key, GAP will display a new prompt but the comment\n"
+"will be written to the log file."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:98
+msgid "The log file records all interaction with GAP that happens after the call\n"
+"to `LogTo`, but not before. We can repeat our calculation from above\n"
+"if we want to record it as well. Instead of retyping it, we will use the Up and Down\n"
+"arrow keys to scroll the *command line history*. Repeat this until you see\n"
+"the formula again, then press Return (the location of the cursor in the command\n"
+"line does not matter):"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:115
+msgid "You can also edit existing commands. Press Up once more, and then use the\n"
+"Left and Right arrow keys, Delete or Backspace to edit it and replace\n"
+"32 by 64 (some other useful shortcuts are\n"
+"Ctrl-A and Ctrl-E to move the cursor to the beginning and end of the\n"
+"line, respectively). Now press the Return key (at any position of the\n"
+"cursor in the command line):"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:122
+# code block
+msgid "~~~\n"
+"( 1 + 2^64 ) / (1 - 2*3*107 );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:127
+#: gap-lesson/_episodes/01-command-line.md:166
+# code block
+msgid "~~~\n"
+"-18446744073709551617/641\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:132
+msgid "It is useful to know that if the command line history is long, one could\n"
+"perform a partial search by typing the initial part of the command and using\n"
+"Up and Down arrow keys after that, to scroll only the lines that begin with\n"
+"the same string."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:137
+msgid "If you want to store a value for later use, you can assign it to a name\n"
+"using `:=` "
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:140
+# code block
+msgid "~~~\n"
+"universe := 6*7;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:145
+# blockquote, which can be cascaded
+msgid "> ## `:=`, `=` and `<>`"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:146
+msgid ">\n"
+"> * In other languages you might be more familiar with using `=`, to assign\n"
+">   variables, but GAP uses `:=`.\n"
+">\n"
+"> * GAP uses `=` to compare if two things are the same (where other languages might\n"
+">   use `==`).\n"
+">\n"
+"> * Finally, GAP uses `<>` to check if two things are not equal (rather than the `!=`\n"
+">   you might have seen before)."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:155
+#: gap-lesson/_episodes/01-command-line.md:222
+#: gap-lesson/_episodes/01-command-line.md:481
+#: gap-lesson/_episodes/01-command-line.md:586
+#: gap-lesson/_episodes/03-func.md:108
+#: gap-lesson/_episodes/03-func.md:447
+#: gap-lesson/_episodes/05-small-groups.md:97
+#: gap-lesson/_episodes/05-small-groups.md:144
+#: gap-lesson/_episodes/05-small-groups.md:307
+#: gap-lesson/_episodes/06-attributes.md:24
+#: gap-lesson/_episodes/06-attributes.md:176
+#: gap-lesson/_episodes/06-attributes.md:207
+# SC/DC Template label
+msgid "{: .callout}"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:157
+msgid "Whitespace characters (i.e. Spaces, Tabs and Returns) are insignificant in GAP,\n"
+"except if they occur inside a string. For example, the previous input\n"
+"could be typed without spaces:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:161
+# code block
+msgid "~~~\n"
+"(1+2^64)/(1-2*3*107);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:171
+msgid "Whitespace symbols are often used to format more complicated commands for\n"
+"better readability. For example, the following input which creates a 3×3 matrix:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:174
+# code block
+msgid "~~~\n"
+"m:=[[1,2,3],[4,5,6],[7,8,9]];\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:179
+#: gap-lesson/_episodes/01-command-line.md:195
+# code block
+msgid "~~~\n"
+"[ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ] ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:184
+msgid "We can instead write our matrix over 3 lines. In this case, instead of the full prompt\n"
+"`gap>`, a partial prompt `>` will be displayed until the user finishes\n"
+"the input with a semicolon:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:188
+# code block
+msgid "~~~\n"
+"gap> m:=[[ 1, 2, 3 ],\n"
+">        [ 4, 5, 6 ],\n"
+">        [ 7, 8, 9 ]];\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:200
+msgid "You can use `Display` to pretty-print variables, including this matrix:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:202
+# code block
+msgid "~~~\n"
+"Display(m);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:207
+# code block
+msgid "~~~\n"
+"[ [  1,  2,  3 ],\n"
+"  [  4,  5,  6 ],\n"
+"  [  7,  8,  9 ] ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:214
+msgid "In general GAP functions like `LogTo` and `Display` are called using brackets,\n"
+"which contain a (possibly empty) list of arguments."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:217
+# blockquote, which can be cascaded
+msgid "> ## Functions are also GAP objects"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:218
+msgid ">\n"
+"> Check what happens if you forget to add brackets,\n"
+"> e.g. type `LogTo;` and `Factorial;`\n"
+"> We will explain the differences in these outputs later."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:224
+msgid "Here are some examples of calling other GAP functions:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:226
+# code block
+msgid "~~~\n"
+"Factorial(100);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:231
+# code block
+msgid "~~~\n"
+"93326215443944152681699238856266700490715968264381621468\\\n"
+"59296389521759999322991560894146397615651828625369792082\\\n"
+"7223758251185210916864000000000000000000000000\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:238
+msgid "(the exact width of output will depend on your terminal settings),"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:240
+# code block
+msgid "~~~\n"
+"Determinant(m);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:245
+#: gap-lesson/_episodes/03-func.md:39
+# code block
+msgid "~~~\n"
+"0\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:250
+msgid "and"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:252
+# code block
+msgid "~~~\n"
+"Factors(2^64-1);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:257
+# code block
+msgid "~~~\n"
+"[ 3, 5, 17, 257, 641, 65537, 6700417 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:262
+msgid "Functions may be combined in various ways, and may be\n"
+"used as arguments of other functions, for example, the\n"
+"`Filtered` function takes a list and a function, returning\n"
+"all elements of the list which satisfy the function.\n"
+"`IsEvenInt`, unsurprisingly, checks if an integer is even!"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:268
+# code block
+msgid "~~~\n"
+"Filtered( [2,9,6,3,4,5], IsEvenInt);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:273
+# code block
+msgid "~~~\n"
+"[ 2, 6, 4 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:279
+msgid "A useful time-saving feature of the GAP command-line interfaces is completion\n"
+"of identifiers when the Tab key is pressed. For example, type `Fib` and then\n"
+"press the Tab key to complete the input to `Fibonacci`:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:283
+# code block
+msgid "~~~\n"
+"Fibonacci(100);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:288
+# code block
+msgid "~~~\n"
+"354224848179261915075\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:293
+msgid "In the case that a unique completion is not possible, GAP will try to perform\n"
+"partial completion, and pressing the Tab key second time will display all possible\n"
+"completions of the identifier. Try, for example, to enter `GroupHomomorphismByImages`\n"
+"or `NaturalHomomorphismByNormalSubgroup` using completion."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:298
+msgid "The way functions are named in GAP will hopefully help you to memorise or even guess names\n"
+"of library functions. If a variable name consists of several words then the\n"
+"first letter of each word is capitalised (remember that GAP is case-sensitive!).\n"
+"Further details on naming conventions used in GAP are documented in the GAP\n"
+"manual [here](http://www.gap-system.org/Manuals/doc/ref/chap5.html#X81F732457F7BC851).\n"
+"Functions with names in `ALL_CAPITAL_LETTERS` are internal functions not intended\n"
+"for general use. Use them with extreme care!"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:306
+msgid "It is important to remember that GAP is case-sensitive. For example, the following\n"
+"input causes an error:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:309
+# code block
+msgid "~~~\n"
+"factorial(100);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:314
+# code block
+msgid "~~~\n"
+"Error, Variable: 'factorial' must have a value\n"
+"not in any function at line 14 of *stdin*\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:318
+#: gap-lesson/_episodes/03-func.md:209
+#: gap-lesson/_episodes/03-func.md:269
+#: gap-lesson/_episodes/03-func.md:342
+#: gap-lesson/_episodes/03-func.md:386
+# SC/DC Template label
+msgid "{: .error}"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:320
+msgid "because the name of the GAP library function is `Factorial`. Using lowercase\n"
+"instead of uppercase or vice versa also affects name completion."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:323
+msgid "Now let's consider the following problem: for a finite group _G_, calculate the\n"
+"average order of its elements (that is, the sum of orders of its elements divided\n"
+"by the order of the group). Where to start?"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:327
+msgid "Enter `?Group`, and you will see all help entries, starting with `Group`:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:329
+# code block
+msgid "~~~\n"
+"┌──────────────────────────────────────────────────────────────────────────────┐\n"
+"│   Choose an entry to view, 'q' for none (or use ?<nr> later):                │\n"
+"│[1]    AutoDoc (not loaded): @Group                                           │\n"
+"│[2]    loops (not loaded): group                                              │\n"
+"│[3]    polycyclic: Group                                                      │\n"
+"│[4]    RCWA (not loaded): Group                                               │\n"
+"│[5]    Tutorial: Groups and Homomorphisms                                     │\n"
+"│[6]    Tutorial: Group Homomorphisms by Images                                │\n"
+"│[7]    Tutorial: group general mapping                                        │\n"
+"│[8]    Tutorial: GroupHomomorphismByImages vs. GroupGeneralMappingByImages    │\n"
+"│[9]    Tutorial: group general mapping single-valued                          │\n"
+"│[10]   Tutorial: group general mapping total                                  │\n"
+"│[11]   Reference: Groups                                                      │\n"
+"│[12]   Reference: Group Elements                                              │\n"
+"│[13]   Reference: Group Properties                                            │\n"
+"│[14]   Reference: Group Homomorphisms                                         │\n"
+"│[15]   Reference: GroupHomomorphismByFunction                                 │\n"
+"│[16]   Reference: Group Automorphisms                                         │\n"
+"│[17]   Reference: Groups of Automorphisms                                     │\n"
+"│[18]   Reference: Group Actions                                               │\n"
+"│[19]   Reference: Group Products                                              │\n"
+"│[20]   Reference: Group Libraries                                             │\n"
+"│ > > >                                                                        │\n"
+"└─────────────── [ <Up>/<Down> select, <Return> show, q quit ] ────────────────┘\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:357
+msgid "You may use arrow keys to move up and down the list, and open help pages by\n"
+"pressing Return key. For this exercise, open `Tutorial: Groups and Homomorphisms`\n"
+"first. Note the navigation instructions at the bottom of the screen. Look at\n"
+"first two pages, then press `q` to return to the selection menu. Next, navigate to\n"
+"`Reference: Groups` and open it. Within two first pages you will find the\n"
+"function `Group` and mentioning of `Order`."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:364
+msgid "GAP manual comes in several formats: text is good to view in a terminal,\n"
+"PDF is good for printing and HTML (especially with MathJax support) is\n"
+"very efficient for exploring with a browser. If you are running GAP on your\n"
+"own computer, you can set the help viewer to the default browser. If you are\n"
+"running GAP on a remote machine, this (probably) will not work. (see\n"
+"`?WriteGapIniFile` on how to make this setting permanent):"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:371
+# code block
+msgid "~~~\n"
+"SetHelpViewer(\"browser\");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:376
+msgid "After that, invoke the help again, and see the difference!"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:378
+msgid "Let's now copy the following input from the first example of the GAP Reference\n"
+"manual chapter on groups. It shows how to create permutations, and assign values\n"
+"to variables. This is `Reference: Groups`. You can select it by typing `?11`, where\n"
+"you replace `11` with whatever number appears before `Reference: Groups` on your machine."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:383
+msgid "If you are viewing the GAP documentation in a terminal, you might find it helpful to\n"
+"open two copies of GAP, one for reading documentation and one for writing code!"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:386
+msgid "This guide shows how permutations in GAP are written in cycle notation, and also\n"
+"shows common functions which are used with groups. Also, in some places two semi-colons\n"
+"are used at the end of a line. This stops GAP from showing the result of a computation."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:390
+# code block
+msgid "~~~\n"
+"a:=(1,2,3);;b:=(2,3,4);;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:395
+msgid "Next, let `G` be a group generated by `a` and `b`:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:397
+# code block
+msgid "~~~\n"
+"G:=Group(a,b);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:402
+# code block
+msgid "~~~\n"
+"Group([ (1,2,3), (2,3,4) ])\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:407
+msgid "We may explore some properties of `G` and its generators:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:409
+# code block
+msgid "~~~\n"
+"Size(G); IsAbelian(G); StructureDescription(G); Order(a);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:414
+# code block
+msgid "~~~\n"
+"12\n"
+"false\n"
+"\"A4\"\n"
+"3\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:422
+msgid "Our next task is to find out how to obtain a list of `G`'s elements and their orders.\n"
+"Enter `?elements` and explore the list of help topics. After inspection,\n"
+"the entry from the Tutorial does not seem relevant, but the entry from the\n"
+"Reference manual is. It also explains the difference between using `AsSSortedList`\n"
+"and `AsList`. So, this is the list of elements of `G`:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:428
+# code block
+msgid "~~~\n"
+"AsList(G);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:433
+#: gap-lesson/_episodes/01-command-line.md:450
+# code block
+msgid "~~~\n"
+"[ (), (2,3,4), (2,4,3), (1,2)(3,4), (1,2,3), (1,2,4), (1,3,2), (1,3,4),\n"
+"  (1,3)(2,4), (1,4,2), (1,4,3), (1,4)(2,3) ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:439
+msgid "The returned object is a _list_. We would like to assign it to a variable\n"
+"to explore and reuse. We forgot to do it when we were calculating it. Of\n"
+"course, we may use the command line history to restore the last command, edit\n"
+"it and call again. But instead, we will use `last` which is a special variable\n"
+"holding the last result returned by GAP:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:445
+# code block
+msgid "~~~\n"
+"elts:=last;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:456
+msgid "This is a list. Lists in GAP are indexed from 1.\n"
+"The following commands are (hopefully!) self-explanatory:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:459
+# code block
+msgid "~~~\n"
+"gap> elts[1]; elts[3]; Length(elts);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:464
+# code block
+msgid "~~~\n"
+"()\n"
+"(2,4,3)\n"
+"12\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:471
+# blockquote, which can be cascaded
+msgid "> ## Lists are more than arrays"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:472
+msgid ">\n"
+"> * May contain holes or be empty\n"
+">\n"
+"> * May dynamically change their length (with `Add`, `Append` or direct assigment)\n"
+">\n"
+"> * Not required to contain objects of the same type\n"
+">\n"
+">\n"
+"> * See more in [GAP Tutorial: Lists and Records](http://www.gap-system.org/Manuals/doc/tut/chap3.html)"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:483
+msgid "Many functions in GAP refer to `Set`s. A set in GAP is just a list that happens to have\n"
+"no repetitions, no holes, and elements in increasing order. Here are some examples:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:486
+# code block
+msgid "~~~\n"
+"gap> IsSet([1,3,5]); IsSet([1,5,3]); IsSet([1,3,3]);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:491
+# code block
+msgid "~~~\n"
+"true\n"
+"false\n"
+"false\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:498
+msgid "Now let us consider an interesting calculation -- the average order of elements\n"
+"of `G`. There are many different ways to do this, we will consider a few of them\n"
+"here."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:502
+msgid "A `for` loop in GAP allows you to do something for every member of a collection.\n"
+"The general form of a `for` loop is:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:505
+# code block
+msgid "~~~\n"
+"for val in collection do\n"
+"  <something with val>\n"
+"od;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:512
+msgid "For example, to find the average order of our group `G` we can do."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:514
+# code block
+msgid "~~~\n"
+"s:=0;;\n"
+"for g in elts do\n"
+"  s := s + Order(g);\n"
+"od;\n"
+"s/Length(elts);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:523
+#: gap-lesson/_episodes/01-command-line.md:541
+#: gap-lesson/_episodes/01-command-line.md:558
+#: gap-lesson/_episodes/01-command-line.md:571
+# code block
+msgid "~~~\n"
+"31/12\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:528
+msgid "Actually, we can just directly loop over the elements of `G` (in general GAP\n"
+"will let you loop over most types of object). We have to switch to using `Size`\n"
+"instead of `Length`, as groups don't have a length!"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:532
+# code block
+msgid "~~~\n"
+"s:=0;;\n"
+"for g in G do\n"
+"  s := s + Order(g);\n"
+"od;\n"
+"s/Size(G);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:546
+msgid "There are other ways of looping. For example, we can instead loop over a range of integers,\n"
+"and accept `elts` like an array:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:549
+# code block
+msgid "~~~\n"
+"s:=0;;\n"
+"for i in [ 1 .. Length(elts) ] do\n"
+"  s := s + Order( elts[i] );\n"
+"od;\n"
+"s/Length(elts);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:563
+msgid "However, often there are more compact ways of doing things. Here is a very\n"
+"short way:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:566
+# code block
+msgid "~~~\n"
+"Sum( List( elts, Order ) ) / Length( elts );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:576
+msgid "Let's break this last part down:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:578
+# unordered list
+msgid "* `Order` finds the order of a single permutation."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:579
+# unordered list
+msgid "* `List(L,F)` makes a new list where the function `F` is applied to each"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:580
+msgid "   member of the list `L`.\n"
+"* `Sum(L)` adds up the members of a list `L`."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:583
+# blockquote, which can be cascaded
+msgid "> ## Which approach is best?"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:584
+msgid ">\n"
+"> Compare these approaches. Which one would you prefer to use?"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:589
+msgid "GAP has very helpful list manipulation tools. We will now show a few more examples."
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:591
+msgid "Sometimes, GAP does not have the exact function we want.\n"
+"For example, `NrMovedPoints` gives the number of moved points of a permutation,\n"
+"but what if we want to find all permutations which move `4` points? This is where\n"
+"GAP's arrow notation comes in. `g -> e` makes a new function which takes one argument `g`,\n"
+"and returns the value of the expression `e`. Here are some examples:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:597
+# unordered list
+msgid "* finding all elements of `G` with no fixed points:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:599
+# code block
+msgid "~~~\n"
+"Filtered( elts, g -> NrMovedPoints(g) = 4 );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:604
+# code block
+msgid "~~~\n"
+"[ (1,2)(3,4), (1,3)(2,4), (1,4)(2,3) ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:609
+# unordered list
+msgid "* finding a permutation in `G` that conjugates (1,2) to (2,3)"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:611
+# code block
+msgid "~~~\n"
+"First( elts, g -> (1,2)^g = (2,3) );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:616
+# code block
+msgid "~~~\n"
+"(1,2,3)\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:621
+msgid "Let's check this (remember that in GAP permutations are multiplied from left to right!):"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:623
+# code block
+msgid "~~~\n"
+"(1,2,3)^-1*(1,2)*(1,2,3)=(2,3);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:628
+#: gap-lesson/_episodes/04-testing.md:76
+#: gap-lesson/_episodes/04-testing.md:138
+#: gap-lesson/_episodes/04-testing.md:232
+# code block
+msgid "~~~\n"
+"true\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:633
+# unordered list
+msgid "* checking whether all elements of `G` move the point 1 to 2:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:635
+# code block
+msgid "~~~\n"
+"ForAll( elts, g -> 1^g <> 2 );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:640
+#: gap-lesson/_episodes/01-command-line.md:652
+# code block
+msgid "~~~\n"
+"false\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:645
+# unordered list
+msgid "* checking whether there is an element in `G` which moves exactly two points:"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:647
+# code block
+msgid "~~~\n"
+"ForAny( elts, g -> NrMovedPoints(g) = 2 );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:657
+# blockquote, which can be cascaded
+msgid "> ## Use list operations to select from `elts` the stabiliser of the point 2 and the centraliser of the permutation (1,2)"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:658
+msgid ">\n"
+"> * `Filtered( elts, g -> 2^g = 2 );`\n"
+">\n"
+"> * `Filtered( elts, g -> (1,2)^g = (1,2) );`"
+msgstr ""
+
+#: gap-lesson/_episodes/01-command-line.md:662
+#: gap-lesson/_episodes/02-some-objects.md:228
+#: gap-lesson/_episodes/05-small-groups.md:499
+#: gap-lesson/_episodes/06-attributes.md:241
+# SC/DC Template label
+msgid "{: .challenge}"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Some more GAP objects\"\n"
+"teaching: 15\n"
+"exercises: 5\n"
+"questions:\n"
+"- \"Further examples of objects and operations with them\"\n"
+"objectives:\n"
+"- \"See examples of types that are built-in in GAP but may be missing in other systems\"\n"
+"- \"See examples of list arithmetic\"\n"
+"keypoints:\n"
+"- \"GAP has a plethora of various immediate, positional and component objects.\"\n"
+"- \"List arithmetic is very flexible and powerful.\"\n"
+"- \"Objects like lists and records are good to keep structured and related data.\"\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:16
+msgid "So far we have met three types of GAP types:"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:18
+# unordered list
+msgid "* simple objects such as integers, rationals, booleans, permutations;"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:20
+# unordered list
+msgid "* composite objects such as _lists_;"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:22
+# unordered list
+msgid "* objects with more complex internal representation, such as groups."
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:24
+msgid "In this section, we will demonstrate some other examples of basic objects\n"
+"that exist in GAP (the system is extendable, so one can introduce new types\n"
+"of objects, but this is beyond the scope of this lesson!)."
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:28
+msgid "Some other simple objects are floats, cyclotomics and finite field elements:"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:30
+# code block
+msgid "~~~\n"
+"1.15; Float(1232/3456567);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:35
+# code block
+msgid "~~~\n"
+"1.15\n"
+"0.000356423\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:41
+# code block
+msgid "~~~\n"
+"E(4); E(4)^2; E(6);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:46
+# code block
+msgid "~~~\n"
+"E(4)\n"
+"-1\n"
+"-E(3)^2\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:53
+# code block
+msgid "~~~\n"
+"AsList(GF(2)); Z(5); Z(5)^4;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:58
+# code block
+msgid "~~~\n"
+"[ 0*Z(2), Z(2)^0 ]\n"
+"Z(5)\n"
+"Z(5)^0\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:65
+msgid "You already know about lists.\n"
+"Another type of composite objects is **records**. While a list contains subobjects indexed\n"
+"by their positions in the list, a record contains subobjects, called _record\n"
+"components_, which are indexed by their names. Elements of a record are accessed with `.`"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:70
+# code block
+msgid "~~~\n"
+"date:= rec(year:= 2015, month:= \"Nov\", day:= 17);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:75
+# code block
+msgid "~~~\n"
+"rec( day := 17, month := \"Nov\", year := 2015 )\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:80
+# code block
+msgid "~~~\n"
+"date.year;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:85
+# code block
+msgid "~~~\n"
+"2015\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:90
+# code block
+msgid "~~~\n"
+"date.time:= rec(hour:= 14, minute:= 55, second:= 12);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:95
+# code block
+msgid "~~~\n"
+"rec( hour := 14, minute := 55, second := 12 )\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:100
+# code block
+msgid "~~~\n"
+"date;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:105
+# code block
+msgid "~~~\n"
+"rec( day := 17, month := \"Nov\",\n"
+"  time := rec( hour := 14, minute := 55, second := 12 ), year := 2015 )\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:111
+# code block
+msgid "~~~\n"
+"RecNames(date);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:116
+# code block
+msgid "~~~\n"
+"[ \"time\", \"year\", \"month\", \"day\" ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:121
+msgid "Next, there are **strings** and **characters**. While strings are printed\n"
+"specially by GAP, a string is really just a list of characters, and any\n"
+"function which takes a list will also take a string. In contrast, characters\n"
+"are simple objects like integers."
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:126
+# code block
+msgid "~~~\n"
+"gap> w:=\"supercalifragilisticexpialidocious\"; Length(w);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:131
+# code block
+msgid "~~~\n"
+"\"supercalifragilisticexpialidocious\"\n"
+"34\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:137
+msgid "Strings are denoted by double quotes, and characters by single ones."
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:139
+# code block
+msgid "~~~\n"
+"gap> \"s\" in w; 's' in w; IsSubset(w,\"s\");  IsSubset(w,['s','f']); ['c','a','t'] = \"cat\";\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:144
+# code block
+msgid "~~~\n"
+"false\n"
+"true\n"
+"true\n"
+"true\n"
+"true\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:153
+msgid "Note that"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:155
+# code block
+msgid "~~~\n"
+"gap> PositionSublist(w,\"sf\"); PositionSublist(w,\"fr\");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:160
+# code block
+msgid "~~~\n"
+"fail\n"
+"10\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:166
+msgid "Be careful! Some operations may create a new list, while others are\n"
+"destructive. For example:"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:169
+# code block
+msgid "~~~\n"
+"gap> SortedList(w); w;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:174
+# code block
+msgid "~~~\n"
+"\"aaacccdeefgiiiiiiillloopprrssstuux\"\n"
+"\"supercalifragilisticexpialidocious\"\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:180
+msgid "but"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:182
+# code block
+msgid "~~~\n"
+"gap> Sort(w); w;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:187
+# code block
+msgid "~~~\n"
+"\"aaacccdeefgiiiiiiillloopprrssstuux\"\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:192
+msgid "Which letter occurs in \"supercalifragilisticexpialidocious\" most often?"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:194
+# code block
+msgid "~~~\n"
+"gap> c := Collected(w);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:199
+# code block
+msgid "~~~\n"
+"[ [ 'a', 3 ], [ 'c', 3 ], [ 'd', 1 ], [ 'e', 2 ], [ 'f', 1 ], [ 'g', 1 ],\n"
+"  [ 'i', 7 ], [ 'l', 3 ], [ 'o', 2 ], [ 'p', 2 ], [ 'r', 2 ], [ 's', 3 ],\n"
+"  [ 't', 1 ], [ 'u', 2 ], [ 'x', 1 ] ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:206
+# code block
+msgid "~~~\n"
+"gap> k := Maximum( List( c, v -> v[2] ) ); Filtered( c, v -> v[2] = 7 );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:211
+# code block
+msgid "~~~\n"
+"7\n"
+"[ [ 'i', 7 ] ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:217
+# blockquote, which can be cascaded
+msgid "> ## Finding the most common letter(s) in a list using only one pass"
+msgstr ""
+
+#: gap-lesson/_episodes/02-some-objects.md:218
+msgid ">\n"
+"> The command\n"
+">\n"
+"> `k := Maximum( List( c, v -> v[2] ) ); Filtered( c, v -> v[2] = 7 );`\n"
+">\n"
+"> iterates over the list `c` twice (in `List` and in `Filtered`), and\n"
+"> it also iterates over another list of the same length as `c` in the call\n"
+"> to `Maximum`. If the list is long, this will impose certain performance\n"
+"> and memory penalties. Try to write code that finds the letters that occur most\n"
+"> in `c` without producing an intermediate list."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Functions in GAP\"\n"
+"teaching: 40\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"Functions as a way of code re-use\"\n"
+"objectives:\n"
+"- \"Using command line for prototyping\"\n"
+"- \"Creating functions\"\n"
+"- \"Reading GAP code from a file\"\n"
+"keypoints:\n"
+"- \"Command line is good for prototyping; functions are good for repeated calculations.\"\n"
+"- \"Informative function names and comments will make code more readable to your future self and to others.\"\n"
+"- \"Beware of undeclared local variables!\"\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:17
+msgid "Just to remind us of our task: for a finite group _G_, we would like to calculate\n"
+"the average order of its elements (that is, the sum of the orders of its elements\n"
+"divided by the order of the group)."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:21
+msgid "We begin with a very straightforward approach, iterating\n"
+"over all elements of the group in question:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:24
+# code block
+msgid "~~~\n"
+"S:=SymmetricGroup(10);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:29
+# code block
+msgid "~~~\n"
+"Sym( [ 1 .. 10 ] )\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:34
+# code block
+msgid "~~~\n"
+"sum:=0;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:44
+# code block
+msgid "~~~\n"
+"for g in S do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"sum/Size(S);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:52
+#: gap-lesson/_episodes/03-func.md:66
+# code block
+msgid "~~~\n"
+"39020911/3628800\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:57
+msgid "Now assume that we would like to save this fragment of GAP code and later\n"
+"repeat this calculation for some other groups. We may even reformat it to fit\n"
+"it into one line and use a double semicolon to suppress the output of `sum`:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:61
+#: gap-lesson/_episodes/03-func.md:86
+# code block
+msgid "~~~\n"
+"sum:=0;; for g in S do sum := sum + Order(g); od; sum/Size(S);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:71
+msgid "Now we may easily copy and paste it into the GAP session the next time we need it.\n"
+"But here we see the first inconvenience: the code expects that the group in question\n"
+"must be stored in a variable named `S`, so either we have to reset `S` each\n"
+"time, or we need to edit the code:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:76
+# code block
+msgid "~~~\n"
+"S:=AlternatingGroup(10);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:81
+#: gap-lesson/_episodes/06-attributes.md:36
+# code block
+msgid "~~~\n"
+"Alt( [ 1 .. 10 ] )\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:91
+# code block
+msgid "~~~\n"
+"2587393/259200\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:96
+# blockquote, which can be cascaded
+msgid "> ## This works only for rapid prototyping"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:97
+msgid ">\n"
+"> * one could accidentally copy and paste only a part of the code, and\n"
+"> incomplete input may trigger a break loop;\n"
+"> * even more dangerous: one could forget to reset `sum` to zero prior to the new\n"
+"> calculation and obtain incorrect results;\n"
+"> * the group in question may have a different variable name, so the code will\n"
+"> have to be changed;\n"
+"> * **last, but not least:** when GAP code is pasted into the interpreter, it is evaluated line\n"
+"> by line. If you have a long file with many commands, and a syntax error is\n"
+"> in line _N_, this error will be reported only when GAP completes\n"
+"> the evaluation of all preceding lines, and that might be quite time-consuming."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:110
+msgid "That is why we need to give our GAP code more structure by organising it\n"
+"into functions:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:113
+# unordered list
+msgid "* functions are parsed first and may be called later;"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:114
+# unordered list
+msgid "* any **syntax** errors will be detected in the parsing stage, and not at the time"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:115
+msgid "  of the call;\n"
+"* functions may have local variables, and this prevents them\n"
+"  being accidentally overwritten just because of reusing the same name of the\n"
+"  variable to store something else."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:120
+msgid "The following function takes an argument `G` and computes the average order\n"
+"of its elements:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:123
+#: gap-lesson/_episodes/03-func.md:428
+# code block
+msgid "~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"local sum, g;\n"
+"sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:135
+# code block
+msgid "~~~\n"
+"function( G ) ... end\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:140
+msgid "Now we can apply it to another group, passing the group as an argument:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:142
+# code block
+msgid "~~~\n"
+"A:=AlternatingGroup(10); AvgOrdOfGroup(A); time;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:147
+# code block
+msgid "~~~\n"
+"Alt( [ 1 .. 10 ] )\n"
+"2587393/259200\n"
+"837\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:154
+msgid "The example above also demonstrates `time` -- this is the variable which stores\n"
+"the CPU time in milliseconds spent by the last command."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:157
+msgid "Thus, we may now create new groups and reuse `AvgOrdOfGroup` to calculate the average\n"
+"order of their elements in the same GAP session. Our next goal is to make it\n"
+"reusable for calculations in future sessions."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:161
+msgid "Using a text editor (for example, the one that you may have used for previous\n"
+"Software Carpentry lessons), create a text file called `avgord.g` containing\n"
+"the following function code and comments (a good chance to practise using them!):"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:165
+# code block
+msgid "~~~\n"
+"#####################################################################\n"
+"#\n"
+"# AvgOrdOfGroup(G)\n"
+"#\n"
+"# Calculating the average order of an element of G, where G meant to\n"
+"# be a group but in fact may be any collection of objects having\n"
+"# multiplicative order\n"
+"#\n"
+"AvgOrdOfGroup := function(G)\n"
+"local sum, g;\n"
+"sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:185
+msgid "Now start a new GAP session and create another group, for example `MathieuGroup(11)`:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:187
+# code block
+msgid "~~~\n"
+"M11:=MathieuGroup(11);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:192
+# code block
+msgid "~~~\n"
+"Group([ (1,2,3,4,5,6,7,8,9,10,11), (3,7,11,8)(4,10,5,6) ])\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:197
+msgid "Clearly, `AvgOrdOfGroup` is not defined in this session, so an attempt to\n"
+"call this function results in an error:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:200
+#: gap-lesson/_episodes/03-func.md:222
+#: gap-lesson/_episodes/03-func.md:373
+#: gap-lesson/_episodes/03-func.md:403
+# code block
+msgid "~~~\n"
+"AvgOrdOfGroup(M11);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:205
+# code block
+msgid "~~~\n"
+"Error, Variable: 'AvgOrdOfGroup' must have a value\n"
+"not in any function at line 2 of *stdin*\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:211
+msgid "To be available, it should first be loaded using the function `Read`. Below\n"
+"we assume that the file is in the current directory, so no path is needed."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:214
+#: gap-lesson/_episodes/03-func.md:257
+#: gap-lesson/_episodes/03-func.md:323
+# code block
+msgid "~~~\n"
+"Read(\"avgord.g\");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:219
+msgid "This loads the file into GAP, and the function `AvgOrdOfGroup` is now\n"
+"available:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:227
+# code block
+msgid "~~~\n"
+"53131/7920\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:232
+msgid "In this example of using `Read`, a new GAP session was started to make it clear\n"
+"that `AvgOrdOfGroup` did not exist before the call of `Read` and was loaded\n"
+"from the file. However, a file with a function like this could be read multiple\n"
+"times in the same GAP session (later you will see cases when re-reading a\n"
+"file is more complicated). Calling `Read` again executes all code in the file\n"
+"being read. This means that if the code of the function has been modified, and\n"
+"it has no errors (but possibly has warnings), the function will be\n"
+"overwritten. **Never ignore the warnings!**"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:241
+msgid "For example, let us edit the file and replace the line"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:243
+# code block
+msgid "~~~\n"
+"return sum/Size(G);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:248
+msgid "by the line with a deliberate syntax error:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:250
+# code block
+msgid "~~~\n"
+"return Float(sum/Size(G);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:255
+msgid "Now read this file with"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:262
+msgid "and you will see an error message:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:264
+# code block
+msgid "~~~\n"
+"Syntax error: ) expected in avgord.g line 7\n"
+"return Float(sum/Size(G);\n"
+"                        ^\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:271
+msgid "Since there was an error, the `AvgOrdOfGroup` function in our session was not\n"
+"redefined, and remains the same as last time it was successfully read:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:274
+#: gap-lesson/_episodes/03-func.md:356
+# code block
+msgid "~~~\n"
+"Print(AvgOrdOfGroup);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:279
+# code block
+msgid "~~~\n"
+"function ( G )\n"
+"    for g  in G  do\n"
+"        sum := sum + Order( g );\n"
+"    od;\n"
+"    return sum / Size( G );\n"
+"end\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:289
+msgid "Now correct the error by adding the missing closing bracket,\n"
+"read the file again and recalculate the average order of an element for `M11`:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:292
+# code block
+msgid "~~~\n"
+"Read(\"avgord.g\");\n"
+"AvgOrdOfGroup(M11);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:298
+# code block
+msgid "~~~\n"
+"6.70846\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:303
+msgid "Now let's see an example of a _warning_. Since it is only a warning, it will\n"
+"redefine the function, and this may cause some unexpected result. To see what\n"
+"could happen, first edit the file to roll back the change in the type of the\n"
+"result (so it will return a rational instead of a float), and then comment\n"
+"out two lines as follows:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:309
+# code block
+msgid "~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"# local sum, g;\n"
+"# sum := 0;\n"
+"for g in G do\n"
+"  sum := sum + Order(g);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:321
+msgid "Now, when you read the file, you will see warnings:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:328
+# code block
+msgid "~~~\n"
+"Syntax error: warning: unbound global variable in avgord.g line 4\n"
+"for g in G do\n"
+"       ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 5\n"
+"  sum := sum + Order(g);\n"
+"       ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 5\n"
+"  sum := sum + Order(g);\n"
+"             ^\n"
+"Syntax error: warning: unbound global variable in avgord.g line 7\n"
+"return sum/Size(G);\n"
+"          ^\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:344
+msgid "These warnings mean that because `g` and `sum` are not declared as `local`\n"
+"variables, GAP will expect them to be global variables at the time when\n"
+"the function will be called. Because they did not exist when `Read`\n"
+"was called, a warning was displayed. However, if they happened to exist\n"
+"by that time, there would be no warning, and any call to `AvgOrdOfGroup` would\n"
+"overwrite them! This shows how important it is to\n"
+"declare local variables. Let us investigate what happened in slightly\n"
+"more detail:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:353
+msgid "The function is now redefined, as we can see from its output (or can\n"
+"inspect with `PageSource(AvgOrdOfGroup)` which will also display any comments):"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:361
+# code block
+msgid "~~~\n"
+"function ( G )\n"
+"    for g in G  do\n"
+"        sum := sum + Order( g );\n"
+"    od;\n"
+"    return sum / Size( G );\n"
+"end\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:371
+msgid "but an attempt to run it results in a break loop:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:378
+# code block
+msgid "~~~\n"
+"Error, Variable: 'sum' must have an assigned value in\n"
+"  sum := sum + Order( g ); called from\n"
+"<function \"AvgOrdOfGroup\">( <arguments> )\n"
+" called from read-eval loop at line 24 of *stdin*\n"
+"you can 'return;' after assigning a value\n"
+"brk>\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:388
+msgid "which you can exit using `quit;`."
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:390
+msgid "What happens next demonstrates how things may go wrong:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:392
+# code block
+msgid "~~~\n"
+"sum:=2^64; g:=[1];\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:397
+# code block
+msgid "~~~\n"
+"18446744073709551616\n"
+"[ 1 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:408
+# code block
+msgid "~~~\n"
+"18446744073709604747/7920\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:413
+# code block
+msgid "~~~\n"
+"sum; g;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:418
+# code block
+msgid "~~~\n"
+"18446744073709604747\n"
+"(1,2)(3,10,5,6,8,9)(4,7,11)\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:424
+msgid "Now, before reading the next part of the lesson, please\n"
+"revert the last change by uncommenting the two commented lines, so that\n"
+"you have initial version of `AvgOrdOfGroup` in the file `avgord.g` again:"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:440
+# blockquote, which can be cascaded
+msgid "> ## Paths"
+msgstr ""
+
+#: gap-lesson/_episodes/03-func.md:441
+msgid ">\n"
+"> * It is important to know how to specify paths to files in all operating\n"
+"> systems and where to find your home and current directory.\n"
+">\n"
+"> * It is useful to know that path and filename completion is activated by\n"
+"> pressing Esc two or four times."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Using regression tests\"\n"
+"teaching: 40\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"Test-driven development\"\n"
+"objectives:\n"
+"- \"Be able to create and run test files\"\n"
+"- \"Understand how test discrepancies and runtime regressions\n"
+" can be identified and interpreted\"\n"
+"- \"Understand how to adjust tests to check randomised algorithms\"\n"
+"- \"Learn the 'Make it right, then make it fast' concept\"\n"
+"keypoints:\n"
+"- \"It is easy to create a test file by copying and pasting a GAP session.\"\n"
+"- \"Writing a good and comprehensive test suite requires some effort.\"\n"
+"- \"Make it right, then make it fast!\"\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:19
+msgid "The code of `AvgOrdOfGroup` is very simple, and nothing could possibly go wrong\n"
+"with it. By iterating over the group instead of creating a list of its elements,\n"
+"it avoids running out of memory\n"
+"(calling `AsList(SymmetricGroup(11))` already results in exceeding the permitted\n"
+"memory). That said, the computation still takes time, with several minutes\n"
+"needed to calculate the average order of an\n"
+"element of `SymmetricGroup(11)`. But at least we are confident that it is\n"
+"correct."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:28
+msgid "Now we would like to write a better version of this function using some\n"
+"theoretical facts we know from Group Theory. We may put\n"
+"`avgord.g` under version control to revert changes if need be;\n"
+"we may create a new function to keep the old one around and compare the\n"
+"results of both; but this could be made even more efficient if we\n"
+"use **regression testing**: this is the term for testing based on\n"
+"rerunning previously completed tests to check that new changes do not\n"
+"impact their correctness or worsen their performance."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:37
+msgid "To start with, we need to create a **test file**. The test file looks\n"
+"exactly like a GAP session, so it is easy to create it by copying and\n"
+"pasting a GAP session with all GAP prompts, inputs and outputs into a\n"
+"text file (a test file could be also created from a log file with a\n"
+"GAP session recorded with the help of `LogTo`). During the test, GAP will\n"
+"run all inputs from the test file, compare the outputs with those in the test\n"
+"file and report any differences."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:45
+msgid "GAP test files are just text files, but the common practice is to name\n"
+"them with the extension `.tst`. Now create the file `avgord.tst` in the current directory (to\n"
+"avoid typing the full path) with the following content:"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:49
+# code block
+msgid "~~~\n"
+"# tests for average order of a group element\n"
+"\n"
+"# permutation group\n"
+"gap> S:=SymmetricGroup(9);\n"
+"Sym( [ 1 .. 9 ] )\n"
+"gap> AvgOrdOfGroup(S);\n"
+"3291487/362880\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:60
+msgid "As you see, the test file may include comments, with certain rules specifying\n"
+"where they may be placed, because one should be able to distinguish comments\n"
+"in the test file from GAP output started with `#`. For that purpose,\n"
+"lines at the beginning of the test file that start with `#`, and one empty line\n"
+"together with one or more lines starting with `#`, are considered as comments.\n"
+"All other lines are interpreted as GAP output from the preceding GAP input."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:67
+msgid "To run the test, one should use the function `Test`, as documented\n"
+"[here](http://www.gap-system.org/Manuals/doc/ref/chap7.html#X87712F9D8732193C).\n"
+"For example (assuming that the function `AvgOrdOfGroup` is already loaded):"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:71
+#: gap-lesson/_episodes/04-testing.md:133
+# code block
+msgid "~~~\n"
+"Test(\"avgord.tst\");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:81
+msgid "In this case, `Test` reported no discrepancies and returned `true`, so we\n"
+"conclude that the test has passed."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:84
+msgid "We will not cover the topic of writing a good and comprehensive test suite here,\n"
+"nor will we cover the various options of the `Test` function, allowing us, for\n"
+"example, to ignore differences in the output formatting, or to display the progress\n"
+"of the test, as these are described in its documentation."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:89
+msgid "Instead, we will now add more groups to `avgord.tst`, to demonstrate that the\n"
+"code also works with other kinds of groups, and to show various ways of\n"
+"combining commands in the test file:"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:93
+# code block
+msgid "~~~\n"
+"# tests for average order of a group element\n"
+"\n"
+"# permutation group\n"
+"gap> S:=SymmetricGroup(9);\n"
+"Sym( [ 1 .. 9 ] )\n"
+"gap> AvgOrdOfGroup(S);\n"
+"3291487/362880\n"
+"\n"
+"# pc group\n"
+"gap> D:=DihedralGroup(512);\n"
+"<pc group of size 512 with 9 generators>\n"
+"gap> AvgOrdOfGroup(D);\n"
+"44203/512\n"
+"gap> G:=TrivialGroup();; # suppress output\n"
+"gap> AvgOrdOfGroup(G);\n"
+"1\n"
+"\n"
+"# fp group\n"
+"gap> F:=FreeGroup(\"a\",\"b\");\n"
+"<free group on the generators [ a, b ]>\n"
+"gap> G:=F/ParseRelators(GeneratorsOfGroup(F),\"a^8=b^2=1, b^-1ab=a^-1\");\n"
+"<fp group on the generators [ a, b ]>\n"
+"gap> IsFinite(G);\n"
+"true\n"
+"gap> AvgOrdOfGroup(G);\n"
+"59/16\n"
+"\n"
+"# finite matrix group over integers\n"
+"gap> AvgOrdOfGroup( Group( [[0,-1],[1,0]] ) );\n"
+"11/4\n"
+"\n"
+"# matrix group over a finite field\n"
+"gap> AvgOrdOfGroup(SL(2,5));\n"
+"221/40\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:131
+msgid "Let us test the extended version of the test again and check that it works:"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:143
+msgid "Now we will work on a better implementation. Of course, the order of an element\n"
+"is an invariant of a conjugacy class of elements of a group, so we need only to\n"
+"know the orders of conjugacy classes of elements and their representatives. The\n"
+"following code, which we add into `avgord.g`, reads into GAP and redefines\n"
+"`AvgOrdOfGroup` without any syntax errors:"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:149
+# code block
+msgid "~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"local cc, sum, c;\n"
+"cc:=ConjugacyClasses(G);\n"
+"sum:=0;\n"
+"for c in cc do\n"
+"  sum := sum + Order( Representative(c) ) * Size(cc);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:162
+msgid "but when we run the test, here comes a surprise!"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:164
+#: gap-lesson/_episodes/04-testing.md:226
+# code block
+msgid "~~~\n"
+"Read(\"avgord.g\");\n"
+"Test(\"avgord.tst\");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:170
+# code block
+msgid "~~~\n"
+"########> Diff in avgord.tst, line 6:\n"
+"# Input is:\n"
+"AvgOrdOfGroup(S);\n"
+"# Expected output:\n"
+"3291487/362880\n"
+"# But found:\n"
+"11/672\n"
+"########\n"
+"########> Diff in avgord.tst, line 12:\n"
+"# Input is:\n"
+"AvgOrdOfGroup(D);\n"
+"# Expected output:\n"
+"44203/512\n"
+"# But found:\n"
+"2862481/512\n"
+"########\n"
+"########> Diff in avgord.tst, line 23:\n"
+"# Input is:\n"
+"AvgOrdOfGroup(G);\n"
+"# Expected output:\n"
+"59/16\n"
+"# But found:\n"
+"189/16\n"
+"########\n"
+"########> Diff in avgord.tst, line 29:\n"
+"# Input is:\n"
+"AvgOrdOfGroup(SL(2,5));\n"
+"# Expected output:\n"
+"221/40\n"
+"# But found:\n"
+"69/20\n"
+"########\n"
+"false\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:207
+msgid "Indeed, we made a typo (deliberately) and replaced `Size(c)` by `Size(cc)`.\n"
+"The correct version of course should look as follows:"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:210
+# code block
+msgid "~~~\n"
+"AvgOrdOfGroup := function(G)\n"
+"local cc, sum, c;\n"
+"cc:=ConjugacyClasses(G);\n"
+"sum:=0;\n"
+"for c in cc do\n"
+"  sum := sum + Order( Representative(c) ) * Size(c);\n"
+"od;\n"
+"return sum/Size(G);\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:223
+msgid "Now we will fix this in `avgord.g`, and read and test it again to check that\n"
+"the tests run correctly."
+msgstr ""
+
+#: gap-lesson/_episodes/04-testing.md:237
+msgid "Thus, the approach 'Make it right, then make it fast' helped detect a bug\n"
+"immediately after it has been introduced."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Small groups search\"\n"
+"teaching: 40\n"
+"exercises: 15\n"
+"questions:\n"
+"- \"Modular programming: putting functions together\"\n"
+"- \"How to check some conjecture for all groups of a given order\"\n"
+"objectives:\n"
+"- \"Using the Small Groups Library\"\n"
+"- \"Designing a system of functions to fit together\"\n"
+"keypoints:\n"
+"- \"Organise the code into functions.\"\n"
+"- \"Create small groups one by one instead of producing a huge list of them.\"\n"
+"- \"Using `SmallGroupsInformation` may help to reduce the search space.\"\n"
+"- \"GAP is not a magic tool: theoretical knowledge may help much more than the brute-force approach.\"\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:18
+msgid "In this section, we wish to discover some non-trivial groups with an interesting\n"
+"property: namely, that the average order of their elements is an integer."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:21
+msgid "The GAP distribution includes a number of data libraries (see an overview\n"
+"[here](http://www.gap-system.org/Datalib/datalib.html)). One of them is\n"
+"the [Small Groups Library](http://www.gap-system.org/Packages/sgl.html) by\n"
+"Hans Ulrich Besche, Bettina Eick and Eamonn O'Brien."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:26
+msgid "This library provides various utilities to determine which information\n"
+"is stored there and submit queries to search for groups with desired\n"
+"properties. The key functions are `SmallGroup`, `AllSmallGroups`,\n"
+"`NrSmallGroups`, `SmallGroupsInformation` and `IdGroup`. For example:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:31
+# code block
+msgid "~~~\n"
+"gap> NrSmallGroups(64);\n"
+"267\n"
+"gap> SmallGroupsInformation(64);\n"
+"\n"
+"  There are 267 groups of order 64.\n"
+"  They are sorted by their ranks.\n"
+"     1 is cyclic.\n"
+"     2 - 54 have rank 2.\n"
+"     55 - 191 have rank 3.\n"
+"     192 - 259 have rank 4.\n"
+"     260 - 266 have rank 5.\n"
+"     267 is elementary abelian.\n"
+"\n"
+"  For the selection functions the values of the following attributes\n"
+"  are precomputed and stored:\n"
+"     IsAbelian, PClassPGroup, RankPGroup, FrattinifactorSize and\n"
+"     FrattinifactorId.\n"
+"\n"
+"  This size belongs to layer 2 of the SmallGroups library.\n"
+"  IdSmallGroup is available for this size.\n"
+"\n"
+"gap> G:=SmallGroup(64,2);\n"
+"<pc group of size 64 with 6 generators>\n"
+"gap> AllSmallGroups(Size,64,NilpotencyClassOfGroup,5);\n"
+"[ <pc group of size 64 with 6 generators>, <pc group of size 64 with 6 generators>,\n"
+"  <pc group of size 64 with 6 generators> ]\n"
+"gap> List(last,IdGroup);\n"
+"[ [ 64, 52 ], [ 64, 53 ], [ 64, 54 ] ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:63
+msgid "We would like to use our own testing function, which we will create here,\n"
+"using inline notation (available for one-argument functions):"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:66
+# code block
+msgid "~~~\n"
+"TestOneGroup := G -> IsInt( AvgOrdOfGroup(G) );\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:71
+msgid "Now try, for example"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:73
+# code block
+msgid "~~~\n"
+"List([TrivialGroup(),Group((1,2))],TestOneGroup);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:78
+# code block
+msgid "~~~\n"
+"[ true, false ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:83
+# code block
+msgid "~~~\n"
+"gap> AllSmallGroups(Size,24,TestOneGroup,true);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:88
+# code block
+msgid "~~~\n"
+"[ ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:93
+# blockquote, which can be cascaded
+msgid "> ## Modular programming begins here"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:94
+msgid ">\n"
+"> Why is returning booleans a good design decision for such functions,\n"
+"> instead of just printing information or returning a string such as `\"YES\"` ?"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:99
+msgid "This is a simple example of a function which tests all groups of a given order.\n"
+"It creates one group at a time, checks the desired property, and returns as soon\n"
+"as an example is discovered. Otherwise it returns `fail` which is a special kind\n"
+"of boolean variable in GAP."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:104
+# code block
+msgid "~~~\n"
+"TestOneOrderEasy := function(n)\n"
+"local i;\n"
+"for i in [1..NrSmallGroups(n)] do\n"
+"  if TestOneGroup( SmallGroup( n, i ) ) then\n"
+"    return [n,i];\n"
+"  fi;\n"
+"od;\n"
+"return fail;\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:117
+#: gap-lesson/_episodes/05-small-groups.md:169
+msgid "For example,"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:119
+# code block
+msgid "~~~\n"
+"TestOneOrderEasy(1);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:124
+# code block
+msgid "~~~\n"
+"[ 1, 1 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:129
+# code block
+msgid "~~~\n"
+"TestOneOrderEasy(24);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:134
+#: gap-lesson/_extras/discuss.md:169
+# code block
+msgid "~~~\n"
+"fail\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:139
+# blockquote, which can be cascaded
+msgid "> ## `AllSmallGroups` runs out of memory -- what to do?"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:140
+msgid ">\n"
+"> * Use iteration over `[1..NrSmallGroups(n)]` as shown in the function above\n"
+"> * Use `IdsOfAllSmallGroups` which accepts same arguments as `AllSmallGroups`\n"
+"> but returns ids instead of groups."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:146
+msgid "Iterating over `[1..NrSmallGroups(n)]` gives you more flexibility if you need\n"
+"more control over the progress of calculation. For example, the next version\n"
+"of our testing function prints additional information about the number of the\n"
+"group being tested. It also supplies the testing function as an argument (why do\n"
+"you think this is better?)."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:152
+# code block
+msgid "~~~\n"
+"TestOneOrder := function(f,n)\n"
+"local i, G;\n"
+"for i in [1..NrSmallGroups(n)] do\n"
+"  Print(n, \":\", i, \"/\", NrSmallGroups(n), \"\\r\");\n"
+"  G := SmallGroup( n, i );\n"
+"  if f(G) then\n"
+"    Print(\"\\n\");\n"
+"    return [n,i];\n"
+"  fi;\n"
+"od;\n"
+"Print(\"\\n\");\n"
+"return fail;\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:171
+# code block
+msgid "~~~\n"
+"TestOneOrder(TestOneGroup,64);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:176
+msgid "will display a changing counter during calculation and then return `fail`:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:178
+# code block
+msgid "~~~\n"
+"64:267/267\n"
+"fail\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:184
+msgid "The next step is to integrate `TestOneOrder` into a function which will test\n"
+"all orders from 2 to `n` and stop as soon as it finds an example of a\n"
+"group with the average order of an element being an integer:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:188
+# code block
+msgid "~~~\n"
+"TestAllOrders:=function(f,n)\n"
+"local i, res;\n"
+"for i in [2..n] do\n"
+"  res:=TestOneOrder(f,i);\n"
+"  if res <> fail then\n"
+"    return res;\n"
+"  fi;\n"
+"od;\n"
+"return fail;\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:202
+msgid "It reports that there is such a group of order 105:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:204
+# code block
+msgid "~~~\n"
+"TestAllOrders(TestOneGroup,128);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:209
+# code block
+msgid "~~~\n"
+"2:1/1\n"
+"3:1/1\n"
+"4:2/2\n"
+"5:1/1\n"
+"6:2/2\n"
+"7:1/1\n"
+"8:5/5\n"
+"...\n"
+"...\n"
+"...\n"
+"100:16/16\n"
+"101:1/1\n"
+"102:4/4\n"
+"103:1/1\n"
+"104:14/14\n"
+"105:1/2\n"
+"[ 105, 1 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:230
+msgid "To explore it further, we can get its `StructureDescription` (see\n"
+"[here](http://www.gap-system.org/Manuals/doc/ref/chap39.html#X87BF1B887C91CA2E)\n"
+"for the explanation of the notation it uses):"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:234
+# code block
+msgid "~~~\n"
+"G:=SmallGroup(105,1); AvgOrdOfGroup(G); StructureDescription(G);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:239
+# code block
+msgid "~~~\n"
+"<pc group of size 105 with 3 generators>\n"
+"17\n"
+"\"C5 x (C7 : C3)\"\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:246
+msgid "and then convert it to a finitely presented group to see its generators and relators:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:248
+# code block
+msgid "~~~\n"
+"H:=SimplifiedFpGroup(Image(IsomorphismFpGroup(G)));\n"
+"RelatorsOfFpGroup(H);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:254
+# code block
+msgid "~~~\n"
+"<fp group on the generators [ F1, F2, F3 ]>\n"
+"[ F1^3, F2^-1*F1^-1*F2*F1, F3^-1*F2^-1*F3*F2, F3^-1*F1^-1*F3*F1*F3^-1, F2^5,\n"
+"  F3^7 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:261
+msgid "Now we want to try larger groups, starting from order 106 (we check that\n"
+"the other group of order 105 possesses no such property)"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:264
+# code block
+msgid "~~~\n"
+"List(AllSmallGroups(105),AvgOrdOfGroup);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:269
+# code block
+msgid "~~~\n"
+"[ 17, 301/5 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:274
+msgid "With a little modification, we add an extra argument specifying the order from\n"
+"which to start:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:277
+# code block
+msgid "~~~\n"
+"TestRangeOfOrders:=function(f,n1,n2)\n"
+"local n, res;\n"
+"for n in [n1..n2] do\n"
+"  res:=TestOneOrder(f,n);\n"
+"  if res <> fail then\n"
+"    return res;\n"
+"  fi;\n"
+"od;\n"
+"return fail;\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:291
+msgid "But now we call it with"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:293
+# code block
+msgid "~~~\n"
+"TestRangeOfOrders(TestOneGroup,106,256);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:298
+msgid "and discover that testing 2328 groups of order 128 and additionally 56092 groups\n"
+"of order 256 already takes too long."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:301
+#: gap-lesson/_episodes/06-attributes.md:234
+# blockquote, which can be cascaded
+msgid "> ## Don't panic!"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:302
+msgid ">\n"
+"> You can interrupt GAP by pressing Ctrl-C once. After that, GAP will enter\n"
+"> a break loop, designated by the break prompt `brk>`. You can leave it by\n"
+"> typing `quit;` (beware of pressing Ctrl-C twice within a second -- that will\n"
+"> terminate GAP session completely)."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:309
+msgid "This is another situation where theoretical knowledge helps much more than the\n"
+"brute-force approach. If the group is a _p_-group, then the order of each\n"
+"conjugacy class of a non-identity element of the group is divisible by _p_;\n"
+"therefore, the average order of a group element may not be an integer. Therefore,\n"
+"_p_-groups can be excluded from calculation. So, the new version of the code is"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:315
+# code block
+msgid "~~~\n"
+"TestRangeOfOrders:=function(f,n1,n2)\n"
+"local n, res;\n"
+"for n in [n1..n2] do\n"
+"  if not IsPrimePowerInt(n) then\n"
+"     res:=TestOneOrder(f,n);\n"
+"     if res <> fail then\n"
+"       return res;\n"
+"     fi;\n"
+"   fi;\n"
+"od;\n"
+"return fail;\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:331
+msgid "and using it we are able to discover a group of order 357 with the same property:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:333
+# code block
+msgid "~~~\n"
+"gap> TestRangeOfOrders(TestOneGroup,106,512);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:338
+# code block
+msgid "~~~\n"
+"106:2/2\n"
+"108:45/45\n"
+"...\n"
+"350:10/10\n"
+"351:14/14\n"
+"352:195/195\n"
+"354:4/4\n"
+"355:2/2\n"
+"356:5/5\n"
+"357:1/2\n"
+"[ 357, 1 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:353
+msgid "The next function shows even further flexibility: it is variadic, i.e.\n"
+"it may accept two or more arguments, the first two of which will be assigned to\n"
+"the variables `f` and `n`, and the rest of which will be available in the list `r`\n"
+"(this is indicated by `...` after `r`). The first argument is the testing\n"
+"function, the second is the order to check, and the third and the fourth\n"
+"are the numbers of the first and last groups of this order that should be\n"
+"checked. By default, the last two are equal to 1 and `NrSmallGroups(n)`\n"
+"respectively. This function also shows how to validate the input and\n"
+"produce user-friendly error messages in case of invalid arguments."
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:363
+msgid "In addition, this function demonstrates how to use `Info` messages that\n"
+"may be switched on and off by setting appropriate `Info` level. The need\n"
+"we address here is to be able to switch the levels of verbosity of the\n"
+"output without error-prone approach of walking through the code and commenting\n"
+"`Print` statements in and out. It is achieved by creating an info class:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:369
+# code block
+msgid "~~~\n"
+"gap> InfoSmallGroupsSearch := NewInfoClass(\"InfoSmallGroupsSearch\");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:374
+# code block
+msgid "~~~\n"
+"InfoSmallGroupsSearch\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:379
+msgid "Now instead of `Print(\"something\");` one could use\n"
+"`Info( InfoSmallGroupsSearch, infolevel, \"something\" );`\n"
+"where `infolevel` is a positive integer specifying the level of verbosity.\n"
+"This level could be changed to `n` using the command\n"
+"`SetInfoLevel( InfoSmallGroupsSearch, n);`. See actual calls of `Info` in\n"
+"the code below:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:386
+# code block
+msgid "~~~\n"
+"TestOneOrderVariadic := function(f,n,r...)\n"
+"local n1, n2, i;\n"
+"\n"
+"if not Length(r) in [0..2] then\n"
+"  Error(\"The number of arguments must be 2,3 or 4\\n\" );\n"
+"fi;\n"
+"\n"
+"if not IsFunction( f ) then\n"
+"  Error(\"The first argument must be a function\\n\" );\n"
+"fi;\n"
+"\n"
+"if not IsPosInt( n ) then\n"
+"  Error(\"The second argument must be a positive integer\\n\" );\n"
+"fi;\n"
+"\n"
+"if IsBound(r[1]) then\n"
+"  n1:=r[1];\n"
+"  if not n1 in [1..NrSmallGroups(n)] then\n"
+"    Error(\"The 3rd argument, if present, must belong to \", [1..NrSmallGroups(n)], \"\\n\" );\n"
+"  fi;\n"
+"else\n"
+"  n1:=1;\n"
+"fi;\n"
+"\n"
+"if IsBound(r[2]) then\n"
+"  n2:=r[2];\n"
+"  if not n2 in [1..NrSmallGroups(n)] then\n"
+"    Error(\"The 4th argument, if present, must belong to \", [1..NrSmallGroups(n)], \"\\n\" );\n"
+"  elif n2 < n1 then\n"
+"    Error(\"The 4th argument, if present, must be greater or equal to the 3rd \\n\" );\n"
+"  fi;\n"
+"else\n"
+"  n2:=NrSmallGroups(n);\n"
+"fi;\n"
+"\n"
+"Info( InfoSmallGroupsSearch, 1,\n"
+"      \"Checking groups \", n1, \" ... \", n2, \" of order \", n );\n"
+"for i in [n1..n2] do\n"
+"  if InfoLevel( InfoSmallGroupsSearch ) > 1 then\n"
+"    Print(i, \"/\", NrSmallGroups(n), \"\\r\");\n"
+"  fi;\n"
+"  if f(SmallGroup(n,i)) then\n"
+"    Info( InfoSmallGroupsSearch, 1,\n"
+"          \"Discovered counterexample: SmallGroup( \", n, \", \", i, \" )\" );\n"
+"    return [n,i];\n"
+"  fi;\n"
+"od;\n"
+"Info( InfoSmallGroupsSearch, 1,\n"
+"      \"Search completed - no counterexample discovered\" );\n"
+"return fail;\n"
+"end;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:441
+msgid "The following example demonstrates how the output may now be controlled\n"
+"by switching the info level for `InfoSmallGroupsSearch`:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:444
+# code block
+msgid "~~~\n"
+"gap> TestOneOrderVariadic(IsIntegerAverageOrder,24);\n"
+"fail\n"
+"gap> SetInfoLevel( InfoSmallGroupsSearch, 1 );\n"
+"gap> TestOneOrderVariadic(IsIntegerAverageOrder,24);\n"
+"#I  Checking groups 1 ... 15 of order 24\n"
+"#I  Search completed - no counterexample discovered\n"
+"fail\n"
+"gap> TestOneOrderVariadic(IsIntegerAverageOrder,357);\n"
+"#I  Checking groups 1 ... 2 of order 357\n"
+"#I  Discovered counterexample: SmallGroup( 357, 1 )\n"
+"[ 357, 1 ]\n"
+"gap> SetInfoLevel( InfoSmallGroupsSearch, 0);\n"
+"gap> TestOneOrderVariadic(IsIntegerAverageOrder,357);\n"
+"[ 357, 1 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:462
+msgid "Of course, this now introduces some complication for the test file,\n"
+"which compares the actual output with the reference output. To resolve\n"
+"this problem, we will decide to run the tests at info level 0 to suppress  \n"
+"all additional outputs. Because the tests may have been started in the\n"
+"GAP session with a different info level, we will remember that info level\n"
+"to restore it after the test:"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:469
+# code block
+msgid "~~~\n"
+"# Finding groups with integer average order\n"
+"gap> INFO_SSS:=InfoLevel(InfoSmallGroupsSearch);;\n"
+"gap> SetInfoLevel( InfoSmallGroupsSearch, 0);\n"
+"gap> res:=[];;\n"
+"gap> for n in [1..360] do\n"
+">      if not IsPrimePowerInt(n) then\n"
+">        t := TestOneOrderVariadic( IsIntegerAverageOrder,n,1,NrSmallGroups(n) );\n"
+">        if t <> fail then\n"
+">          Add(res,t);\n"
+">        fi;\n"
+">      fi;\n"
+">    od;\n"
+"gap> res;\n"
+"[ [ 1, 1 ], [ 105, 1 ], [ 357, 1 ] ]\n"
+"gap> SetInfoLevel( InfoSmallGroupsSearch, INFO_SSS);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:488
+# blockquote, which can be cascaded
+msgid "> ## Does the Small Groups Library contain another group with this property?"
+msgstr ""
+
+#: gap-lesson/_episodes/05-small-groups.md:489
+msgid ">\n"
+"> * What can you say about the order of the groups with this property?\n"
+">\n"
+"> * Can you estimate how long it may take to check all 408641062 groups of order 1536?\n"
+">\n"
+"> * How many groups of order not higher than 2000 might you be able to check,\n"
+">   excluding _p_-groups and those of order 1536?\n"
+">\n"
+"> * Can you find another group with this property in the Small Groups Library\n"
+">   (of order not equal to 1536)?"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:1
+# Front Matter
+msgid "---\n"
+"title: \"Attributes and Methods\"\n"
+"teaching: 40\n"
+"exercises: 10\n"
+"questions:\n"
+"- \"How to record information in GAP objects\"\n"
+"objectives:\n"
+"- \"Declaring an attribute\"\n"
+"- \"Installing a method\"\n"
+"- \"Understanding method selection\"\n"
+"- \"Using debugging tools\"\n"
+"keypoints:\n"
+"- \"_Positional_ objects may accumulate information about themselves during their lifetime.\"\n"
+"- \"This means that next time the stored information may be retrieved at zero cost.\"\n"
+"- \"_Methods_ are bunches of functions; GAP's _method selection_ will choose the most efficient method based on the type of all arguments.\"\n"
+"- \"'No-method-found' is a special kind of error with useful debugging tools helping to understand it.\"\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:19
+# blockquote, which can be cascaded
+msgid "> ## Which function is faster?"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:20
+msgid ">\n"
+"> Try to repeatedly calculate `AvgOrdOfGroup(M11)` and `AvgOrdOfCollection(M11)`\n"
+"> and compare runtimes. Do this for a new copy of `M11` and for the one for which\n"
+"> this parameter has already been observed. What do you observe?"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:26
+msgid "Of course, for any given group the average order of its elements needs to\n"
+"be calculated only once, as the next time it will return the same value.\n"
+"However, as we see from the runtimes below, each new call of `AvgOrdOfGroup`\n"
+"will repeat the same computation again, with slightly varying runtime:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:31
+# code block
+msgid "~~~\n"
+"A:=AlternatingGroup(10);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:41
+# code block
+msgid "~~~\n"
+"AvgOrdOfCollection(A); time; AvgOrdOfCollection(A); time;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:46
+# code block
+msgid "~~~\n"
+"2587393/259200\n"
+"8226\n"
+"2587393/259200\n"
+"8118\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:54
+msgid "In the last example, the group in question was the same -- we haven't\n"
+"constructed another copy of `AlternatingGroup(10)`; however, the result\n"
+"of the calculation was not stored in `A`."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:58
+msgid "If you need to reuse this value, one option could be to store it in some\n"
+"variable, but then you should be careful about matching such variables\n"
+"with corresponding groups, and the code could become quite convoluted\n"
+"and unreadable. On the other hand, GAP has the notion of an _attribute_ -- a\n"
+"data structure that is used to accumulate information that an object learns about itself\n"
+"during its lifetime. Consider the following example:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:65
+# code block
+msgid "~~~\n"
+"G:=Group([ (1,2,3,4,5,6,7,8,9,10,11), (3,7,11,8)(4,10,5,6) ]);\n"
+"gap> NrConjugacyClasses(G);time;NrConjugacyClasses(G);time;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:71
+# code block
+msgid "~~~\n"
+"Group([ (1,2,3,4,5,6,7,8,9,10,11), (3,7,11,8)(4,10,5,6) ])\n"
+"10\n"
+"39\n"
+"10\n"
+"0\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:80
+msgid "In this case, the group `G` has 10 conjugacy classes, and it took 39 ms to\n"
+"establish that in the first call. The second call has zero cost since the\n"
+"result was stored in `G`, since `NrConjugacyClasses` is an attribute:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:84
+# code block
+msgid "~~~\n"
+"NrConjugacyClasses;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:89
+# code block
+msgid "~~~\n"
+"<Attribute \"NrConjugacyClasses\">\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:94
+msgid "Our goal is now to learn how to create own attributes."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:96
+msgid "Since we already have a function `AvgOrdOfCollection` which\n"
+"does the calculation, the simplest way to turn it into\n"
+"an attribute is as follows:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:100
+# code block
+msgid "~~~\n"
+"AverageOrder := NewAttribute(\"AverageOrder\", IsCollection);\n"
+"InstallMethod( AverageOrder, \"for a collection\", [IsCollection], AvgOrdOfCollection);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:106
+msgid "In this example, first we declared an attribute `AverageOrder` for\n"
+"objects in the category `IsCollection`, and then installed the function\n"
+"`AvgOrdOfCollection` as a method for this attribute. Instead of calling\n"
+"the function `AvgOrdOfCollection`, we may now call `AverageOrder`."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:111
+msgid "Now we may check that subsequent calls of `AverageOrder` with the same argument\n"
+"are performed at zero cost. In this example the time is reduced from more than\n"
+"16 seconds to zero:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:115
+#: gap-lesson/_episodes/06-attributes.md:153
+# code block
+msgid "~~~\n"
+"S:=SymmetricGroup(10);; AverageOrder(S); time; AverageOrder(S); time;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:120
+# code block
+msgid "~~~\n"
+"39020911/3628800\n"
+"16445\n"
+"39020911/3628800\n"
+"0\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:128
+msgid "You may wonder why we have declared the operation for a collection and not only\n"
+"for a group, and why we have installed the inefficient `AvgOrdOfCollection`.\n"
+"After all, we have already developed the much more efficient `AvgOrdOfGroup`."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:132
+msgid "Imagine that you would like to be able to compute an average order\n"
+"both for a group and for a list which consists of objects having a multiplicative\n"
+"order. You may have a special function for each case, as we have. If it\n"
+"could happen that you don't know in advance the type of the object in question,\n"
+"you may add checks into the code and dispatch to a suitable function. This could\n"
+"quickly become complicated if you have several different functions for various\n"
+"types of objects. Instead of that, attributes are bunches of functions, called\n"
+"_methods_, and GAP's _method selection_ will choose the most efficient method\n"
+"based on the type of all arguments."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:142
+msgid "To illustrate this, we will now install a method for `AverageOrder` for a group:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:144
+# code block
+msgid "~~~\n"
+"InstallMethod( AverageOrder, [IsGroup], AvgOrdOfGroup);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:149
+msgid "If you apply it to a group whose `AverageOrder` has already been computed, nothing\n"
+"will happen, since GAP will use the stored value. However, for a newly created group,\n"
+"this new method will be called:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:158
+# code block
+msgid "~~~\n"
+"39020911/3628800\n"
+"26\n"
+"39020911/3628800\n"
+"0\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:166
+# blockquote, which can be cascaded
+msgid "> ## Which method is being called"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:167
+msgid ">\n"
+"> * Try to call `AverageOrder` for a collection which is not a group\n"
+">   (a list of group elements and/or a conjugacy class of group elements).\n"
+">\n"
+"> * Debugging tools like `TraceMethods` may help you see which method is\n"
+">   being called.\n"
+">\n"
+"> * `ApplicableMethod` in combination with `PageSource` may point you to\n"
+">   the source code with all the comments."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:178
+msgid "A _property_ is a boolean-valued attribute. It can be created using `NewProperty`"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:180
+# code block
+msgid "~~~\n"
+"IsIntegerAverageOrder := NewProperty(\"IsIntegerAverageOrder\", IsCollection);\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:185
+msgid "Now we will install a method for `IsIntegerAverageOrder` for a collection.\n"
+"Observe that it is never necessary to create\n"
+"a function first and then install it as a method. The following method installation\n"
+"instead creates a new function as one of its arguments:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:190
+# code block
+msgid "~~~\n"
+"InstallMethod( IsIntegerAverageOrder,\n"
+"  \"for a collection\",\n"
+"  [IsCollection],\n"
+"  coll -> IsInt( AverageOrder( coll ) )\n"
+");\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:199
+msgid "Note that because `AverageOrder` is an attribute it will take care of the selection of\n"
+"the most suitable method."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:202
+# blockquote, which can be cascaded
+msgid "> ## Does such a method always exist?"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:203
+msgid ">\n"
+"> No. \"No-method-found\" is a special kind of error, and there are tools to\n"
+"> investigate such errors: see `?ShowArguments`, `?ShowDetails`, `?ShowMethods`\n"
+"> and `?ShowOtherMethods`."
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:209
+msgid "The following calculation shows that despite our success with calculating\n"
+"the average order for large permutation groups via conjugacy classes of\n"
+"elements, for pc groups from the Small Groups Library it could be faster\n"
+"to iterate over their elements than to calculate conjugacy classes:"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:214
+# code block
+msgid "~~~\n"
+"l:=List([1..1000],i->SmallGroup(1536,i));; List(l,AvgOrdOfGroup);;time;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:219
+# code block
+msgid "~~~\n"
+"56231\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:224
+# code block
+msgid "~~~\n"
+"l:=List([1..1000],i->SmallGroup(1536,i));; List(l,AvgOrdOfCollection);;time;\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:229
+# code block
+msgid "~~~\n"
+"9141\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_episodes/06-attributes.md:235
+msgid ">\n"
+"> * Install a method for `IsPcGroup` that iterates over the group elements\n"
+">   instead of calculations its conjugacy classes.\n"
+">\n"
+"> * Estimate practical boundaries of its feasibility. Can you find an example\n"
+">   of a pc group where iterating is slower than calculating conjugacy classes?"
+msgstr ""
+
+#: gap-lesson/_extras/about.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: About\n"
+"permalink: /about/\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_extras/about.md:6
+msgid "{% include carpentries.html %}"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: Discussion\n"
+"permalink: /discuss/\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:7
+# header
+msgid "## Ten hints for GAP beginners"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:9
+# ordered list
+msgid "1. **Remember that GAP is case-sensitive!** That means that `ABC`, `Abc` and `abc`"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:10
+msgid "are three different identifiers. A call to `SymmetricGroup(3)` works, but\n"
+"`Symmetricgroup(3)` will cause an error."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:13
+# ordered list
+msgid "2. An error message **`“Error, Variable: 'FuncName' must have a value”`** in a"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:14
+msgid "function call usually points to a typo in the function name (see the previous hint),\n"
+"or to some package that must be loaded in advance using\n"
+"[**`LoadPackage`**](http://www.gap-system.org/Manuals/doc/ref/chap76.html#X79B373A77B29D1F5)."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:18
+# ordered list
+msgid "3. **Do not hesitate to use longer and more informative variable names where"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:19
+msgid "appropriate.** For example, `x` looks perfectly suitable for `List([1..10], x -> x^2)`,\n"
+"while `ConClassesReps` may be more informative than just `x` for a list of\n"
+"representatives of conjugacy classes of a group."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:23
+# ordered list
+msgid "4. **Use command line editing:** scroll the history of commands and navigate within"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:24
+msgid "the command line using arrow keys to edit it."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:26
+# ordered list
+msgid "5. **Use autocompletion instead of typing names of functions and variables in full.**"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:27
+msgid "Type the initial part of the identifier and then press `<Tab>`. It will be\n"
+"completed if its unique completion is possible. If not, you may press `<Tab>`\n"
+"again to see all possible suggestions."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:31
+# ordered list
+msgid "6. **To view help pages, use `?` and `??` commands**. This will search not only"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:32
+msgid "in the GAP manuals, but also in the manuals of all GAP packages available\n"
+"in your GAP installation."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:35
+# ordered list
+msgid "7. **Set default help format to HTML.** Use"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:36
+msgid "[**`SetHelpViewer`**](http://www.gap-system.org/Manuals/doc/ref/chap2.html#X87C1BFB2826488B0)\n"
+"to view it with your preferred browser."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:39
+# ordered list
+msgid "8. **Use [**`LogTo`**](http://www.gap-system.org/Manuals/doc/ref/chap9.html#X79813A6686894960)"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:40
+msgid "to save all GAP input and output into a text file.** It should be called before\n"
+"calculations, not after!"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:43
+# ordered list
+msgid "9. **If the calculation takes too long, press `<Control>-C` to interrupt it**."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:44
+msgid "Then type quit; to leave the break loop."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:46
+# ordered list
+msgid "10. **Read [A First Session with GAP](http://www.gap-system.org/Manuals/doc/tut/chap2.html)**"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:47
+msgid "from the GAP Tutorial."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:50
+# header
+msgid "## Writing programs in GAP"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:52
+# unordered list
+msgid "* Use direct calculations in the command line for object exploration and prototyping,"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:53
+msgid "then think how to organise your code to make it reusable."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:55
+# unordered list
+msgid "* Use [**`LogTo`**](http://www.gap-system.org/Manuals/doc/ref/chap9.html#X79813A6686894960)"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:56
+msgid "to save inputs and outputs to a logfile which then you can edit in a text editor."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:58
+# unordered list
+msgid "* Save code in text files and use"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:59
+msgid "[**`Read`**](http://www.gap-system.org/Manuals/doc/ref/chap9.html#X8373AC6B7D5F9167)\n"
+"to load them. Find some advanced text editor to edit these files."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:62
+# unordered list
+msgid "* Make your code modular and reusable by organising it into functions."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:64
+# unordered list
+msgid "* Write comments in the code – this will help you when you will return to it after a while."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:66
+# unordered list
+msgid "* Understand [break loops](http://www.gap-system.org/Manuals/doc/ref/chap6.html#X8593B49F8705B486):"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:67
+msgid "you may [explore variables](http://www.gap-system.org/Manuals/doc/ref/chap6.html#X7EE5CF2C8419F061)\n"
+"on the current break level and use\n"
+"[**`Where`**](http://www.gap-system.org/Manuals/doc/ref/chap6.html#X7A7FFA2B7C1EF5A3)\n"
+"to show the last commands before the error occurred."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:72
+# unordered list
+msgid "* Use [preferences mechanism](http://www.gap-system.org/Manuals/doc/ref/chap3.html#X7FD66F977A3B02DF)"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:73
+msgid "to customise GAP, for example, to set help viewer to HTML or to make command line history available\n"
+"after quitting GAP in the next GAP session."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:76
+# unordered list
+msgid "* Understand the theory behind calculations: theoretical improvements could improve"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:77
+msgid "the performance much more than highly optimised code which still does a brute-force calculation."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:79
+# unordered list
+msgid "* Implementing algorithms, do not forget corner cases. For example, does the implementation"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:80
+msgid "work on a trivial group or an identity element?"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:82
+# unordered list
+msgid "* Do not rely that GAP functions return results in a particular order, unless this"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:83
+msgid "is documented. For example, dependently on the method, it may be not guaranteed\n"
+"that conjugacy classes or irreducible characters are listed in some particular\n"
+"order, or that the first element in their list is the conjugacy class of an identity\n"
+"element or the trivial character."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:88
+# unordered list
+msgid "* Don't ask for more than you need as this may have performance implications."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:89
+msgid "For example:"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:91
+# unordered list
+msgid "    * If the property is an invariant of a conjugacy class (of elements or of"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:92
+msgid "      subgroups), you may be interested only at looking at the representatives\n"
+"      of conjugacy classes."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:95
+# unordered list
+msgid "    * If you are interested in a list of elements of a collection, without a"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:96
+msgid "      particular order, use `AsList` instead of `AsSSortedList`."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:98
+# unordered list
+msgid "    * Do not calculate conjugacy classes of all subgroups, if e.g. you are"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:99
+msgid "      interested only in normal or maximal subgroups - there are special\n"
+"      methods to compute them."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:102
+# unordered list
+msgid "    * If you are looking for _p_-subgroups, first you may calculate"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:103
+msgid "      a Sylow _p_-subgroup of a group, and then look at its subgroups\n"
+"      and their conjugates."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:106
+# unordered list
+msgid "    * Representation matters: it may be worth to convert a group from fp group"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:107
+msgid "      to an isomorphic pc group or a permutation group to use faster methods."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:109
+# unordered list
+msgid "* See [GAP Frequently Asked Questions](http://www.gap-system.org/Faq/faq.html) for further hints."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:111
+# header
+msgid "## Stay in touch"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:113
+# unordered list
+msgid "* Subscribe to the **[GAP Forum](http://mail.gap-system.org/mailman/listinfo/forum)**."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:115
+# unordered list
+msgid "* If you are on Twitter, follow **[gap_system](https://twitter.com/gap_system)**."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:117
+# unordered list
+msgid "* If you need help, choose among these three options, dependently on the question:"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:119
+# unordered list
+msgid "    * ask questions in the [GAP Forum](http://www.gap-system.org/Contacts/Forum/forum.html)"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:121
+# unordered list
+msgid "    * send them to the [GAP Support](http://www.gap-system.org/Contacts/People/supportgroup.html)"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:123
+# unordered list
+msgid "    * post them at the [Mathematics Q&A site](http://math.stackexchange.com/questions/tagged/gap?sort=frequent&pageSize=50)"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:126
+# header
+msgid "## Contributing to GAP"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:128
+# unordered list
+msgid "* If you think that you’ve found a bug: please"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:129
+msgid "[create an issue on GitHub](https://github.com/gap-system/gap/issues) or\n"
+"report it by email to [GAP Support](http://www.gap-system.org/Contacts/People/supportgroup.html)."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:132
+# unordered list
+msgid "* Please cite GAP if you use it. This helps for the community to grow,"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:133
+msgid "and this will help you in return.\n"
+"[This page](http://www.gap-system.org/Contacts/cite.html)\n"
+"suggests how to cite GAP, and the function\n"
+"[**`Cite`**](http://www.gap-system.org/Manuals/doc/ref/chap76.html#X79637D9A7B1AD7F7)\n"
+"will help to generate citation sample for precisely the same version of GAP that is used."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:139
+# unordered list
+msgid "* Consider sharing your GAP developments with others, from sharing your code by"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:140
+msgid "available means to organising it into a GAP package, submitted for the redistribution\n"
+"with GAP and optionally for the refereeing."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:143
+# unordered list
+msgid "* Contribute to the further development of this lesson itself."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:146
+# header
+msgid "## Tips and tricks"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:148
+# unordered list
+msgid "* This is a simples approach to call GAP from a shell script. Create the shell"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:149
+msgid "script called `check-one-order.sh` with the following content:"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:151
+# code block
+msgid "~~~\n"
+"#!/bin/sh\n"
+"\n"
+"gap -r -b -q avgord.g << EOI\n"
+"TestOneOrderEasy( $1 );\n"
+"quit;\n"
+"EOI\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:161
+msgid "and make it executable using `chmod u+x check-one-order.sh`. Now you may call\n"
+"it as follows:"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:164
+# code block
+msgid "~~~\n"
+"$ ./check-one-order.sh 24\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:174
+# code block
+msgid "~~~\n"
+"$ ./check-one-order.sh 105\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:179
+# code block
+msgid "~~~\n"
+"[ 105, 1 ]\n"
+"~~~"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:184
+# unordered list
+msgid "* Reading data files"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:186
+msgid "GAP can read any valid GAP input from the code using `Read`. The contents will\n"
+"be read and evaluated in the main read-evaluate-print loop, but the results will\n"
+"not printed. Sometimes you may want to read the content of the file as a function\n"
+"and return that function - for that purpose you may find `ReadAsFunction` useful.\n"
+"But what to do if you have some a data file coming from other source, and it is\n"
+"not a valid GAP input? Sometimes you may have control over the tool that exports\n"
+"data, and may be able to tweak it to generate GAP input file. But where to look\n"
+"if this option is not possible?"
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:195
+msgid "`ReadCSV( filename[, nohead][, separator] )` reads a file in a CSV (comma\n"
+"separated values) format and returns its entries as a list of records\n"
+"(see [here](http://www.gap-system.org/Manuals/doc/ref/chap10.html#X848DD7DC79363341)).\n"
+"The entries of the first line of the file will be used for the names\n"
+"of the record components (blanks will be translated into underscores).\n"
+"One could also indicate that the first line contains data instead of\n"
+"field names, and also specify a custom separator. Conversely, `PrintCSV`\n"
+"may be used to output CSV files."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:204
+msgid "To read arbitrary (binary or text) files as strings, use the `StringFile`\n"
+"function provided by the GAPDoc package (see\n"
+"[here](http://www.gap-system.org/Manuals/pkg/GAPDoc-1.5.1/doc/chap6.html#X7E14D32181FBC3C3)).\n"
+"It will return the content of the file as a string.\n"
+"After that, you may use various string manipulation tools (see\n"
+"[Strings and Characters](http://www.gap-system.org/Manuals/doc/ref/chap27.htmlGAPDoc)\n"
+"in the GAP reference manual) to process it in the way you need. GAPDoc package\n"
+"also provides the `FileString` function which writes the content of a string\n"
+"into a file."
+msgstr ""
+
+#: gap-lesson/_extras/discuss.md:214
+msgid "If you need to organise reading/writing line by line, instead of reading or\n"
+"writing the whole file/string at once, we suggest to look at the functionality\n"
+"provided by the IO package\n"
+"(see [here](http://www.gap-system.org/Manuals/pkg/io-4.4.6/doc/chap4.html)),\n"
+"in particular at `IO_ReadLine` and `IO_WriteLine`."
+msgstr ""
+
+#: gap-lesson/_extras/figures.md:1
+# Front Matter
+msgid "---\n"
+"title: Figures\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_extras/figures.md:5
+#: gap-lesson/aio.md:13
+msgid "{% include base_path.html %}"
+msgstr ""
+
+#: gap-lesson/_extras/figures.md:7
+# inline html
+msgid "<script>\n"
+"  window.onload = function() {\n"
+"    var lesson_episodes = [\n"
+"    {% for episode in site.episodes %}\n"
+"    \"{{ episode.url }}\"{% unless forloop.last %},{% endunless %}\n"
+"    {% endfor %}\n"
+"    ];\n"
+"\n"
+"    var xmlHttp = [];  /* Required since we are going to query every episode. */\n"
+"    for (i=0; i < lesson_episodes.length; i++) {\n"
+"\n"
+"      xmlHttp[i] = new XMLHttpRequest();\n"
+"      xmlHttp[i].episode = lesson_episodes[i];  /* To enable use this later. */\n"
+"      xmlHttp[i].onreadystatechange = function() {\n"
+"\n"
+"        if (this.readyState == 4 && this.status == 200) {\n"
+"          var parser = new DOMParser();\n"
+"          var htmlDoc = parser.parseFromString(this.responseText,\"text/html\");\n"
+"          var htmlDocArticle = htmlDoc.getElementsByTagName(\"article\")[0];\n"
+"\n"
+"          var article_here = document.getElementById(this.episode);\n"
+"          var images = htmlDocArticle.getElementsByTagName(\"img\");\n"
+"\n"
+"          if (images.length > 0) {\n"
+"            var h1text = htmlDocArticle.getElementsByTagName(\"h1\")[0].innerHTML;\n"
+"\n"
+"            var htitle = document.createElement('h2');\n"
+"            htitle.innerHTML = h1text;\n"
+"            article_here.appendChild(htitle);\n"
+"\n"
+"            var image_num = 0;\n"
+"            for (let image of images) {\n"
+"              image_num++;\n"
+"\n"
+"              var title = document.createElement('p');\n"
+"              title.innerHTML = \"<strong>Figure \" + image_num + \".</strong> \" + image.alt;\n"
+"              article_here.appendChild(title);\n"
+"\n"
+"              article_here.appendChild(image.cloneNode(false));\n"
+"\n"
+"              if (image_num < images.length) {\n"
+"                var hr = document.createElement('hr');\n"
+"                article_here.appendChild(hr);\n"
+"              }\n"
+"            }\n"
+"          }\n"
+"        }\n"
+"      }\n"
+"      episode_url = \"{{ relative_root_path }}\" + lesson_episodes[i];\n"
+"      xmlHttp[i].open(\"GET\", episode_url);\n"
+"      xmlHttp[i].send(null);\n"
+"    }\n"
+"  }\n"
+"</script>"
+msgstr ""
+
+#: gap-lesson/_extras/figures.md:61
+msgid "{% comment %}\n"
+"Create anchor for each one of the episodes.\n"
+"{% endcomment %}\n"
+"{% for episode in site.episodes %}\n"
+"<article id=\"{{ episode.url }}\" class=\"figures\"></article>\n"
+"{% endfor %}"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: \"Instructor Notes\"\n"
+"permalink: /guide/\n"
+"---"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:7
+# header
+msgid "## Overall"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:9
+# unordered list
+msgid "* For the first lesson, good to have access to Windows (VM or remote desktop) to"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:10
+msgid "demonstrate some Windows-specific aspects of working with GAP."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:12
+# unordered list
+msgid "* Before start, check that everyone has installed GAP and knows how to start it."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:13
+msgid "Also remind that it's not advised to install in in the path with spaces, e.g. in\n"
+"\"My Documents\"."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:16
+# unordered list
+msgid "* It is important that learners will understand how to operate with files"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:17
+msgid "located in different directories. `ChangeDirectoryCurrent` is the function\n"
+"from the IO package (requires compulation), which should be available if\n"
+"GAP is properly installed (i.e. installed following instructions for the\n"
+"workshop). In case of any problems, the first step of troubleshooting is\n"
+"to check whether `LoadPackage(\"io\");` returns `fail`. If so, the remedy\n"
+"for Windows users is to type full paths to files. Linux and OS X users\n"
+"are less affected as for the, the way how they should start GAP is to\n"
+"navigate to the needed directory in the Terminal and start GAP from there."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:26
+# unordered list
+msgid "* Help to adjust terminal settings, especially show to Windows users that they"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:27
+msgid "can permanently change colours and fonts in mintty shell (the one started with\n"
+"`gap.bat`)."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:30
+# unordered list
+msgid "* Explain how to copy and paste input and output (especially on Windows)."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:32
+# unordered list
+msgid "* Explain how to read lesson pages: GAP input is types without GAP prompt."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:33
+msgid "GAP output is ion blue colour. Errors are displayed in red. GAP promts is\n"
+"not displayed, unless this is really necessary (e.g. to demonstrate how the\n"
+"multi-line input works)."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:37
+# unordered list
+msgid "* It is important that instructor starts GAP with `-r` option to avoid"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:38
+msgid "interfering with own GAP settings e.g. locally installed packages and\n"
+"other content of `.gap` directory."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:41
+# unordered list
+msgid "* To use color prompt when GAP is started with `-r` option to ignore all user"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:42
+msgid "preferences, including this (if set), call `ColorPrompt(true);`."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:44
+#: gap-lesson/reference.md:6
+# header
+msgid "## [First session with GAP](01-command-line.html)"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:46
+# unordered list
+msgid "* Emphasize that the banner contains version info useful for citing GAP or"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:47
+msgid "reporting bugs. Selection of packages may differ, but missing **IO** and\n"
+"**Browse** packages indicate that these and perhaps some other packages\n"
+"that require compilation were not compiled."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:51
+# unordered list
+msgid "* A second call to `LogTo(\"logfile\");` will not open the new file but will report"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:52
+msgid "that GAP is already logging to another file. In this case, either ignore it if\n"
+"you would like to continue logging to the file already in use, or call `LogTo();`\n"
+"to close the current log file and then call `LogTo` with an argument to start\n"
+"logging to a new file."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:57
+# unordered list
+msgid "* Showing an example of the error with `factorial`, mention that such error"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:58
+msgid "also happens if e.g. some file has to be read or some package should be loaded\n"
+"to define the function."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:61
+# unordered list
+msgid "* Discuss why it's a bad practice to Google for the GAP manual instead of"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:62
+msgid "using the GAP help system."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:64
+# unordered list
+msgid "* Be aware that help selection screen will look differently if **Browse**"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:65
+msgid "package is not compiled."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:67
+# unordered list
+msgid "* Explain how to switch to view HTML version of the Manual with MathJax support."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:69
+# unordered list
+msgid "* Give a hint that the sitemap on the [GAP website](http://www.gap-system.org)"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:70
+msgid "shows the [Search the GAP web site](http://www.gap-system.org/search.html) page\n"
+"which allows some specific search requests."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:73
+# unordered list
+msgid "* Draw attention to the difference between `AsList` and `AsSSortedList`."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:75
+# unordered list
+msgid "* Help to call `WriteGapIniFile` and customise GAP e.g. to use browser as a"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:76
+msgid "viewer."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:78
+# unordered list
+msgid "* Demonstrating how to type `Sum( List( elts, Order ) ) / Length( elts );`"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:79
+msgid "show how to assemble this command using command line editing and moving\n"
+"around the line, perhaps executing partial command to see their results,\n"
+"instead of typing the whole command from first to last character sequentially."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:83
+# unordered list
+msgid "* Use Etherpad to vote for approaches to calculate the average order of a list."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:84
+msgid "After that discuss situations when each of them may be more preferable than others."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:86
+# ordered list
+msgid "1.  Solution of the challenge: `Filtered( elts, g -> 2^g = 2 );` and"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:87
+msgid "`Filtered( elts, g -> (1,2)^g = (1,2) );`."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:90
+#: gap-lesson/reference.md:21
+# header
+msgid "## [Some more GAP objects](02-some-objects.html)"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:92
+# unordered list
+msgid "* Floats, cyclotomics, finite fields elements are not used further in the"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:93
+msgid "lesson, but we mention them briefly to show that they exist."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:95
+# unordered list
+msgid "* Emphasize that organising complex objects into nested records may"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:96
+msgid "be more efficient than nested lists."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:98
+# unordered list
+msgid "* Beware that `w:=\"supercalifragilisticexpialidocious\"; IsSubset(w,'s');`"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:99
+msgid "results in a no-method-found error. This may be a good moment to introduce\n"
+"this special kind of error messages."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:102
+# unordered list
+msgid "* For extending GAP with new types of objects, refer to"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:103
+msgid "[Creating New Objects](http://www.gap-system.org/Manuals/doc/ref/chap79.html)\n"
+"and [Examples of Extending the System](http://www.gap-system.org/Manuals/doc/ref/chap80.html)\n"
+"of the GAP Reference Manual.\n"
+"Also, the [Circle package](http://www.gap-system.org/Packages/circle.html)\n"
+"provides an example of extending GAP with new multiplicative objects."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:109
+#: gap-lesson/_extras/guide.md:153
+# ordered list
+msgid "1.  Solution of the challenge:"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:110
+msgid "`r:=c[1]; for i in [2..Length(c)] do if c[i][2]>r[2] then r:=c[i]; fi; od; r;`"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:113
+#: gap-lesson/reference.md:42
+# header
+msgid "## [Functions in GAP](03-func.html)"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:115
+# unordered list
+msgid "* Spend some time on the structure of the GAP function: keywords `function`,"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:116
+msgid "`local`, `return`, `end`, and other language constructions exposed there."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:118
+# unordered list
+msgid "* Tell how to explore the break loop while showing an example of an error"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:119
+msgid "message."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:122
+#: gap-lesson/reference.md:47
+# header
+msgid "## [Using regression tests](04-testing.html)"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:124
+# unordered list
+msgid "* Learners may need help with formatting the test because of misplaced comments"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:125
+msgid "and/or different formatting of the output."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:127
+# unordered list
+msgid "* Cover aspects of making test files reproducible: random vs explicit examples,"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:128
+msgid "suppressing output with double semicolon, etc."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:130
+# unordered list
+msgid "* Refer to other options of `Test` such as comparing the output up to"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:131
+msgid "whitespaces, displaying the progress of the test, etc."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:133
+# unordered list
+msgid "* Mention `TestDirectory` function to run a collection of tests."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:135
+# unordered list
+msgid "* Mention profiling and code coverage tools."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:138
+#: gap-lesson/reference.md:52
+# header
+msgid "## [Small groups search](05-small-groups.html)"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:140
+# unordered list
+msgid "* Give an overview of `SmallGroup`, `AllSmallGroups`, `NrSmallGroups` and"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:141
+msgid "`SmallGroupsInformation` with some examples."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:143
+# unordered list
+msgid "* Discuss, why iterating is better than AllSmallGroups exhausting memory"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:144
+msgid "  (mention the concept of self-learning objects)."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:146
+# unordered list
+msgid "* A side question is how to convert a pc group, returned by `SmallGroup`, to"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:147
+msgid "some other representation, e.g. permutation or fp group."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:149
+# unordered list
+msgid "* Live coding is preferred way to teach how to develop most of the functions"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:150
+msgid "from this lesson."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:154
+msgid "`Sum(List(Filtered([1..2000], n -> not IsPrimePowerInt(n)),NrSmallGroups)); NrSmallGroups(1536); last2-last;`.\n"
+"In addition to `SmallGroup(105,1)` and `SmallGroup(357,1)`, another\n"
+"group is `SmallGroup(1785,1)`."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:158
+#: gap-lesson/reference.md:57
+# header
+msgid "## [Attributes and Methods](06-attributes.html)"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:160
+# unordered list
+msgid "* Why it is not a good idea to declare `Random` as an attribute?"
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:162
+# ordered list
+msgid "1.  Ideas for the challenge: try `k:=1` and then `k:=k+1;n:=2^k;AvgOrdOfCollection(DihedralGroup(n));time;AvgOrdOfGroup(DihedralGroup(n));time;`."
+msgstr ""
+
+#: gap-lesson/_extras/guide.md:163
+msgid "Even for `k=20`, the 1st function takes about 15s and the 2nd - about 115s\n"
+"on a MacBook Pro."
+msgstr ""
+
+#: gap-lesson/aio.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"permalink: /aio/\n"
+"permalink: /aio/index.html\n"
+"---"
+msgstr ""
+
+#: gap-lesson/aio.md:7
+msgid "{% comment %}\n"
+"As a maintainer, you don't need to edit this file.\n"
+"If you notice that something doesn't work, please\n"
+"open an issue: https://github.com/carpentries/styles/issues/new\n"
+"{% endcomment %}"
+msgstr ""
+
+#: gap-lesson/aio.md:15
+msgid "{% include aio-script.md %}"
+msgstr ""
+
+#: gap-lesson/index.md:1
+# Front Matter
+msgid "---\n"
+"layout: lesson\n"
+"root: .\n"
+"---"
+msgstr ""
+
+#: gap-lesson/index.md:6
+msgid "[GAP](http://www.gap-system.org) is a system for discrete computational algebra,\n"
+"with particular emphasis on Computational Group Theory. GAP provides a\n"
+"programming language, a library of thousands of functions implementing algebraic\n"
+"algorithms written in the GAP language as well as large data libraries of algebraic\n"
+"objects, for example the [Small Groups Library](http://www.gap-system.org/Packages/sgl.html)\n"
+"which contains, among others, all 423 164 062 groups of order at most 2000 except 1024."
+msgstr ""
+
+#: gap-lesson/index.md:13
+msgid "This lesson gives an introduction to GAP. It is centred around a common task of\n"
+"searching in the Small Groups Library for interesting examples and counterexamples,\n"
+"and a particular research problem in which we will be interested is to **find\n"
+"examples of non-trivial groups such that the average order of their elements is an integer**."
+msgstr ""
+
+#: gap-lesson/index.md:18
+msgid "The lesson will lead the learner along the path from working in the GAP command\n"
+"line and exploring algebraic objects interactively to saving the GAP code into\n"
+"files, creating functions and regression tests, and further to performing\n"
+"comprehensive search and extending the system by adding new attributes."
+msgstr ""
+
+#: gap-lesson/index.md:23
+msgid "On this path, the learner will become familiar with:"
+msgstr ""
+
+#: gap-lesson/index.md:25
+# unordered list
+msgid "* basic constructions of the GAP programming language,"
+msgstr ""
+
+#: gap-lesson/index.md:27
+# unordered list
+msgid "* ways to find necessary information in the GAP system, and"
+msgstr ""
+
+#: gap-lesson/index.md:29
+# unordered list
+msgid "* good design practices to organise GAP code into complex programs."
+msgstr ""
+
+#: gap-lesson/index.md:31
+# blockquote, which can be cascaded
+msgid "> ## Prerequisites"
+msgstr ""
+
+#: gap-lesson/index.md:32
+msgid ">\n"
+"> The lesson is oriented on learners possessing the minimal theoretical\n"
+"> background (at least at the level of an undergraduate group theory course)\n"
+"> and willing to learn how concepts from abstract algebra may be\n"
+"> explored using computational tools.\n"
+"> No previous experience of working with GAP is required.\n"
+">\n"
+"> Learners only need to understand the concepts of files and directories\n"
+"> (including home and working directories) and know how to start GAP."
+msgstr ""
+
+#: gap-lesson/index.md:41
+# SC/DC Template label
+msgid "{: .prereq}"
+msgstr ""
+
+#: gap-lesson/index.md:43
+# blockquote, which can be cascaded
+msgid "> ## Getting ready"
+msgstr ""
+
+#: gap-lesson/index.md:44
+# blockquote, which can be cascaded
+msgid "> 1. In your home directory, create a new directory called `avgord`."
+msgstr ""
+
+#: gap-lesson/index.md:45
+# blockquote, which can be cascaded
+msgid "> 2. Start GAP:"
+msgstr ""
+
+#: gap-lesson/index.md:46
+# blockquote, which can be cascaded
+msgid "> * on Linux and OS X, call `path-to-your-gap-installation/gap-4.X.Y/bin/gap.sh`"
+msgstr ""
+
+#: gap-lesson/index.md:47
+# blockquote, which can be cascaded
+msgid ">    (edit the path as necessary);"
+msgstr ""
+
+#: gap-lesson/index.md:48
+# blockquote, which can be cascaded
+msgid "> * on Windows, call it via the appropriate menu or"
+msgstr ""
+
+#: gap-lesson/index.md:49
+# blockquote, which can be cascaded
+msgid ">    by double-clicking on the `gap-4.X.Y/bin/gap.bat` file in your GAP installation."
+msgstr ""
+
+#: gap-lesson/index.md:50
+# blockquote, which can be cascaded
+msgid "> 3. Set your current directory to `avgord` calling `ChangeDirectoryCurrent` from"
+msgstr ""
+
+#: gap-lesson/index.md:51
+# blockquote, which can be cascaded
+msgid ">    the IO package (if GAP is installed correctly, by default it should be loaded"
+msgstr ""
+
+#: gap-lesson/index.md:52
+# blockquote, which can be cascaded
+msgid ">    when GAP starts):"
+msgstr ""
+
+#: gap-lesson/index.md:53
+# blockquote, which can be cascaded
+msgid "> * on Linux and OS X, call `ChangeDirectoryCurrent(\"/home/username/avgord\");`"
+msgstr ""
+
+#: gap-lesson/index.md:54
+# blockquote, which can be cascaded
+msgid ">    (edit the path as necessary; remember to type the full path to your home"
+msgstr ""
+
+#: gap-lesson/index.md:55
+# blockquote, which can be cascaded
+msgid ">    directory instead of `~`)."
+msgstr ""
+
+#: gap-lesson/index.md:56
+# blockquote, which can be cascaded
+msgid "> * on Windows, call `ChangeDirectoryCurrent(\"C:/Users/username/avgord\");`"
+msgstr ""
+
+#: gap-lesson/index.md:57
+# blockquote, which can be cascaded
+msgid ">    (edit the path as necessary; remember to use `/` instead of `\\`);"
+msgstr ""
+
+#: gap-lesson/index.md:58
+# blockquote, which can be cascaded
+msgid "> 4. Verify that your current directory is set up properly: call `DirectoryCurrent();`"
+msgstr ""
+
+#: gap-lesson/index.md:59
+# blockquote, which can be cascaded
+msgid ">    on Windows or `Exec(\"pwd\");` on Linux and OS X and check that the path in the"
+msgstr ""
+
+#: gap-lesson/index.md:60
+# blockquote, which can be cascaded
+msgid ">    output points to the `avgord` directory."
+msgstr ""
+
+#: gap-lesson/index.md:61
+# SC/DC Template label
+msgid "{: .checklist}"
+msgstr ""
+
+#: gap-lesson/index.md:63
+msgid "[contributing]: {{ site.github.repository_url }}/blob/gh-pages/CONTRIBUTING.md\n"
+"[styles]: https://github.com/swcarpentry/styles/"
+msgstr ""
+
+#: gap-lesson/reference.md:1
+# Front Matter
+msgid "---\n"
+"layout: reference\n"
+"permalink: /reference/\n"
+"---"
+msgstr ""
+
+#: gap-lesson/reference.md:8
+# unordered list
+msgid "* [GAP Tutorial: A First session with GAP](http://www.gap-system.org/Manuals/doc/tut/chap2.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:10
+# unordered list
+msgid "* [GAP Reference Manual: Naming Conventions](https://plus.google.com/events/cfm3tc375c142qtodvlvcfs82l4)"
+msgstr ""
+
+#: gap-lesson/reference.md:12
+# unordered list
+msgid "* [GAP Reference Manual: The Help System](http://www.gap-system.org/Manuals/doc/ref/chap2.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:14
+# unordered list
+msgid "* [GAP Tutorial: Lists and Records](http://www.gap-system.org/Manuals/doc/tut/chap3.htm)"
+msgstr ""
+
+#: gap-lesson/reference.md:16
+# unordered list
+msgid "* [GAP Reference Manual: Strings and Characters](http://www.gap-system.org/Manuals/doc/ref/chap27.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:18
+# unordered list
+msgid "* [GAP Reference Manual: The Programming Language]( http://www.gap-system.org/Manuals/doc/ref/chap4.html#X7FE7C0C17E1ED118)"
+msgstr ""
+
+#: gap-lesson/reference.md:23
+# unordered list
+msgid "* [Integers](http://www.gap-system.org/Manuals/doc/ref/chap14.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:25
+# unordered list
+msgid "* [Rationals](http://www.gap-system.org/Manuals/doc/ref/chap17.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:27
+# unordered list
+msgid "* [Cyclotomic numbers](http://www.gap-system.org/Manuals/doc/ref/chap18.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:29
+# unordered list
+msgid "* [Floats](http://www.gap-system.org/Manuals/doc/ref/chap19.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:31
+# unordered list
+msgid "* [Finite Field Elements](http://www.gap-system.org/Manuals/doc/ref/chap59.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:33
+# unordered list
+msgid "* [Permutations](http://www.gap-system.org/Manuals/doc/ref/chap42.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:35
+# unordered list
+msgid "* [Lists](http://www.gap-system.org/Manuals/doc/ref/chap21.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:37
+# unordered list
+msgid "* [Records](http://www.gap-system.org/Manuals/doc/ref/chap29.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:39
+# unordered list
+msgid "* [Strings and Characters](http://www.gap-system.org/Manuals/doc/ref/chap27.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:44
+# unordered list
+msgid "* [GAP Tutorial: Functions](http://www.gap-system.org/Manuals/doc/tut/chap4.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:49
+# unordered list
+msgid "* [GAP Reference Manual: Test](http://www.gap-system.org/Manuals/doc/ref/chap7.html#X87712F9D8732193C)"
+msgstr ""
+
+#: gap-lesson/reference.md:54
+# unordered list
+msgid "* [GAP Reference Manual: Group Libraries](http://www.gap-system.org/Manuals/doc/ref/chap50.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:59
+# unordered list
+msgid "* [GAP Tutorial: Operations and Methods](http://www.gap-system.org/Manuals/doc/tut/chap8.html)"
+msgstr ""
+
+#: gap-lesson/reference.md:61
+# unordered list
+msgid "* [GAP Reference Manual: Adding a new Attribute](http://www.gap-system.org/Manuals/doc/ref/chap80.html#X874AF11D864AEC1B)"
+msgstr ""
+
+#: gap-lesson/reference.md:63
+# header
+msgid "## Glossary"
+msgstr ""
+
+#: gap-lesson/reference.md:65
+msgid "Attribute\n"
+":    Operation (normally, one-argument), the result of which is stored in its\n"
+"     argument and cannot be changed any more."
+msgstr ""
+
+#: gap-lesson/reference.md:69
+msgid "List\n"
+":    Data structure whose elements are indexed by their _position_ in the list."
+msgstr ""
+
+#: gap-lesson/reference.md:72
+msgid "Method\n"
+":    Function that will be called for an operation for arguments of the\n"
+"     specified type."
+msgstr ""
+
+#: gap-lesson/reference.md:76
+msgid "Operation\n"
+":    GAP function for which several _methods_ may be available (the particular\n"
+"     method that will be used depends on the type of the arguments)."
+msgstr ""
+
+#: gap-lesson/reference.md:80
+msgid "Property\n"
+":    Boolean-valued attribute"
+msgstr ""
+
+#: gap-lesson/reference.md:83
+msgid "Record\n"
+":    Data structure which is a collection of _components_, each having a unique\n"
+"     _name_, which is an _identifier_ that distinguishes this component, and a\n"
+"     _value_, which is an object of arbitrary type."
+msgstr ""
+
+#: gap-lesson/reference.md:88
+msgid "Regression testing\n"
+":    Testing based on rerunning previously completed tests to check that new\n"
+"     changes do not impact their correctness or worsen their performance."
+msgstr ""
+
+#: gap-lesson/setup.md:1
+# Front Matter
+msgid "---\n"
+"layout: page\n"
+"title: Setup\n"
+"permalink: /setup/\n"
+"---"
+msgstr ""
+
+#: gap-lesson/setup.md:7
+# header
+msgid "## Windows"
+msgstr ""
+
+#: gap-lesson/setup.md:9
+msgid "From the [GAP Downloads page](http://www.gap-system.org/Releases/),\n"
+"download the `.exe` installer and double click on the file to run it.\n"
+"When you are asked for the installation path, note that it should\n"
+"not contain spaces. For example, you may install GAP 4.X.Y in `C:\\gap-4.X.Y`\n"
+"(default), `D:\\gap-4.X.Y` or `C:\\Math\\GAP\\gap-4.X.Y`, but you must not\n"
+"install it in a directory such as `C:\\Program Files\\gap-4.X.Y` or\n"
+"`C:\\Users\\alice\\My Documents\\gap-4.X.Y`."
+msgstr ""
+
+#: gap-lesson/setup.md:17
+# header
+msgid "## OS X"
+msgstr ""
+
+#: gap-lesson/setup.md:19
+msgid "On OS X, you need to install GAP from source as explained\n"
+"at the [GAP Downloads page](http://www.gap-system.org/Releases/).\n"
+"Download one of the archives provided there, unpack it and run\n"
+"`./configure && make` in the unpacked directory. Then change to the\n"
+"`pkg` subdirectory and call `../bin/BuildPackages.sh` to run the\n"
+"script which will build most of the packages that require compilation\n"
+"(provided sufficiently many libraries, headers and tools are available)."
+msgstr ""
+
+#: gap-lesson/setup.md:27
+msgid "Alternatively, you may also install GAP using [Homebrew](http://brew.sh/).\n"
+"After installing Homebrew, follow the instructions for the\n"
+"[GAP Homebrew tap](https://github.com/gap-system/homebrew-gap)."
+msgstr ""
+
+#: gap-lesson/setup.md:31
+# header
+msgid "## Linux"
+msgstr ""
+
+#: gap-lesson/setup.md:33
+msgid "On Linux, you need to install GAP from source as explained at the\n"
+"[GAP Downloads page](http://www.gap-system.org/Releases/).\n"
+"Download one of the archives provided there, unpack it and run\n"
+"`./configure && make` in the unpacked directory. Then change to the\n"
+"`pkg` subdirectory and call `../bin/BuildPackages.sh` to run the\n"
+"script which will build most of the packages that require compilation\n"
+"(provided sufficiently many libraries, headers and tools are available)."
+msgstr ""
+
