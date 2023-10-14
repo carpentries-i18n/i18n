@@ -4,8 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Марина Новожилова, 2022
+# Maryna Novozhylova, 2022
 # David PS <dps.helio@gmail.com>, 2022
+# Mariya Spatar, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: David PS <dps.helio@gmail.com>, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Mariya Spatar, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -243,8 +244,8 @@ msgstr "## Використовуйте `elif` для визначення до�
 msgid ""
 "*   May want to provide several alternative choices, each with its own test."
 msgstr ""
-"*   Може знадобитися надати кілька альтернативних варіантів, кожен зі своєю "
-"перевіркою."
+"*   Може знадобитися надати кілька альтернативних варіантів, кожен з яких "
+"має своєю перевірку."
 
 # unordered list
 #: python-novice-gapminder/_episodes/13-conditionals.md:85

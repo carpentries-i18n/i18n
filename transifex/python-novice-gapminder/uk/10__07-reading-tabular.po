@@ -4,7 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Марина Новожилова, 2022
+# Maryna Novozhylova, 2022
+# Mariya Spatar, 2023
 # 
 msgid ""
 msgstr ""
@@ -12,8 +13,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: Марина Новожилова, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Mariya Spatar, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -230,7 +231,7 @@ msgstr "*  Заголовки рядків є числами (0 і 1 у цьом
 # unordered list
 #: python-novice-gapminder/_episodes/07-reading-tabular.md:77
 msgid "*   Really want to index by country."
-msgstr "*   Насправді краще індексувати за країнами."
+msgstr "*   Насправді краще індексувати за назвами країн."
 
 # unordered list
 #: python-novice-gapminder/_episodes/07-reading-tabular.md:78

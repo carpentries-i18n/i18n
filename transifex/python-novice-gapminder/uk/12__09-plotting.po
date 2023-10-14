@@ -4,9 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Марина Новожилова, 2022
+# Maryna Novozhylova, 2022
 # Olexandr Konovalov, 2022
 # Ольга Чуб, 2022
+# Mariya Spatar, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: Ольга Чуб, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Mariya Spatar, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -151,7 +152,7 @@ msgid ""
 "*   This implicitly uses "
 "[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
 msgstr ""
-"*   Це неявно використовує "
+"*   Це опосередковано використовує "
 "[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
 
 # unordered list
@@ -161,8 +162,7 @@ msgid ""
 "`integer` data type, since they represent numerical values"
 msgstr ""
 "*   Перед побудовою графіка ми перетворюємо заголовки стовпців з типу даних "
-"\"string\" на тип даних \"integer\", оскільки вони представляють числові "
-"значення."
+"\"string\" на \"integer\", оскільки вони представляють числові значення."
 
 # code block
 #: python-novice-gapminder/_episodes/09-plotting.md:48
@@ -194,8 +194,8 @@ msgstr ""
 "\n"
 "# Вилучаємо рік з останніх 4 символів назви кожного стовпця\n"
 "# Поточні назви стовпців структуровані як 'gdpPercap_(year)', \n"
-"# тому ми зберігаємо частину назви (рік) лише для ясності під час побудови ВВП за роками\n"
-"# Для цього ми використовуємо strip(), яка видаляє з рядка символи, зазначені як аргумент\n"
+"# тому ми зберігаємо частину назви (рік) лише для чіткості під час побудови ВВП за роками\n"
+"# Для цього ми використовуємо strip(), яка видаляє з рядка символи, що зазначені як аргумент\n"
 "# Цей метод працює з рядками, тому ми викликаємо str перед strip()\n"
 "\n"
 "years = data.columns.str.strip('gdpPercap_')\n"
@@ -257,7 +257,8 @@ msgstr ""
 #: python-novice-gapminder/_episodes/09-plotting.md:84
 msgid "*   For example, do a bar plot using a fancier style."
 msgstr ""
-"*  Наприклад, створіть стовпчикову діаграму, використовуючи вишуканий стиль."
+"*  Наприклад, створіть стовпчикову діаграму, використовуючи більш вишуканий "
+"стиль."
 
 # code block
 #: python-novice-gapminder/_episodes/09-plotting.md:86
@@ -327,7 +328,7 @@ msgstr ""
 msgid ""
 "![GDP formatted plot for Australia](../fig/9_gdp_australia_formatted.svg)"
 msgstr ""
-"![Отформатований графік для ВВП "
+"![Відформатований графік ВВП для "
 "Австралії](../fig/9_gdp_australia_formatted.svg)"
 
 # header
@@ -379,7 +380,7 @@ msgid ""
 "> Often when plotting multiple datasets on the same figure it is desirable "
 "to have "
 msgstr ""
-"> Часто при побудові  графіків з кількох наборів даних разом бажано мати "
+"> Часто при побудові графіків з кількох наборів даних разом бажано мати "
 
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/09-plotting.md:132
@@ -436,7 +437,7 @@ msgid ""
 "*   Plot a scatter plot correlating the GDP of Australia and New Zealand\n"
 "*   Use either `plt.scatter` or `DataFrame.plot.scatter`"
 msgstr ""
-"![Отформатований графік ВВП Австралії та Нової Зеландії](../fig/9_gdp_australia_nz_formatted.svg)\n"
+"![Відформатований графік ВВП Австралії та Нової Зеландії](../fig/9_gdp_australia_nz_formatted.svg)\n"
 "*   Побудуємо точкову діаграму співвідношення ВВП Австралії та Нової Зеландії\n"
 "*   Використаємо `plt.scatter` або `DataFrame.plot.scatter`"
 
@@ -470,7 +471,7 @@ msgid ""
 "![GDP correlation using "
 "data.T.plot.scatter](../fig/9_gdp_correlation_data.svg)"
 msgstr ""
-"![ВВП залежності на основі "
+"![Кореляція ВВП на основі "
 "data.T.plot.scatter](../fig/9_gdp_correlation_data.svg)"
 
 # blockquote, which can be cascaded
@@ -507,7 +508,7 @@ msgid ""
 "> > ![Minima Maxima Solution](../fig/9_minima_maxima_solution.png)"
 msgstr ""
 ">\n"
-"> Заповніть порожні поля нижче, щоб побудувати графік мінімального ВВП на душу населення в часі\n"
+"> Заповніть порожні поля нижче, щоб побудувати графік мінімального ВВП на душу населення протягом часу\n"
 "> для всіх країн Європи.\n"
 "> Потім побудуйте графік максимального ВВП на душу населення в Європі.\n"
 ">\n"
@@ -574,8 +575,8 @@ msgstr ""
 "> >\n"
 "> > ![Кореляції Рішення 1](../fig/9_correlations_solution1.svg)\n"
 "> >\n"
-"> > Жодних особливих кореляцій між мінімальними та максимальними значеннями ВВП не видно\n"
-"> > з року в рік. Здається, доля азіатських країн не зростає і не падає разом."
+"> > Жодних особливих кореляцій між мінімальними та максимальними значеннями ВВП не простежується\n"
+"> > з року в рік. Здається, статки азіатських країн не зростає і не падає разом."
 
 #: python-novice-gapminder/_episodes/09-plotting.md:222
 msgid ""
@@ -622,7 +623,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/09-plotting.md:244
 msgid "> ## More Correlations"
-msgstr "> ## Більше залежностей"
+msgstr "> ## Більше кореляцій"
 
 #: python-novice-gapminder/_episodes/09-plotting.md:245
 msgid ""
@@ -658,8 +659,8 @@ msgid ""
 msgstr ""
 ">\n"
 "> Ця невеличка програма створює графік, який демонструє\n"
-"> кореляцію між ВВП between GDP і очікуваною тривалістю життя на 2007 рік,\n"
-"> причому розмір маркера є нормалізованим за кількістю  населення:\n"
+"> кореляцію між ВВП  і очікуваною тривалістю життя на 2007 рік,\n"
+"> нормалізуючи розмір маркерів за чисельністю населення:\n"
 ">\n"
 "> ~~~\n"
 "> data_all = pd.read_csv('data/gapminder_all.csv', index_col='country')\n"
@@ -672,9 +673,9 @@ msgstr ""
 "> поясніть кожний аргумент функції `plot`.\n"
 ">\n"
 "> > ## Рішення\n"
-"> > ![Більше залежностей Рішення](../fig/9_more_correlations_solution.svg)\n"
+"> > ![Більше кореляцій Рішення](../fig/9_more_correlations_solution.svg)\n"
 "> >\n"
-"> > Багато корисної інформації шодо функції  plot  -\n"
+"> > Багато корисної інформації щодо функції  plot  -\n"
 "> > help(data_all.plot).\n"
 "> >\n"
 "> > kind - Як уже було показано, цей параметр визначає тип графіку, який буде створено.\n"

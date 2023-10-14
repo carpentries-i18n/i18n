@@ -4,8 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Марина Новожилова, 2022
-# Olexandr Konovalov, 2022
+# Maryna Novozhylova, 2022
+# Olexandr Konovalov, 2023
+# Mariya Spatar, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: Olexandr Konovalov, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Mariya Spatar, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,7 +72,7 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:22
 msgid "## A list stores many values in a single structure."
-msgstr "## Список зберігає багато значень в одній структурі."
+msgstr "## Список є структурою даних, яка містить в собі багато значень."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:24
@@ -93,7 +94,7 @@ msgstr ""
 "    було б принаймні так само повільно, як робити їх вручну.\n"
 "*   Використовуйте *список* для зберігання багатьох значень разом.\n"
 "    *   Список позначається квадратними дужками `[...]`.\n"
-"    *   Значення розділені комами `,`.\n"
+"    *   Значення розділяються комами `,`.\n"
 "*   Використовуйте `len`, щоб дізнатися, скільки значень у списку."
 
 # code block
@@ -128,12 +129,12 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:43
 msgid "## Use an item's index to fetch it from a list."
-msgstr "## Використовуйте індекс елемента, щоб отримати його зі списку."
+msgstr "## Щоб отримати елемент списку, використовуйте його індекс."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:45
 msgid "*   Just like strings."
-msgstr "*   Так само, як при опрацюванні рядків."
+msgstr "*   Це робиться так само, як і при роботі з рядками."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:47
@@ -172,8 +173,8 @@ msgstr "## Значення елементів списків можна зам�
 msgid ""
 "*   Use an index expression on the left of assignment to replace a value."
 msgstr ""
-"*   Використовуйте вираз індексу ліворуч від знаку присвоєння, щоб замінити "
-"значення."
+"*   Використовуйте індексний вираз ліворуч від знаку присвоєння, щоб "
+"замінити значення."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:62
@@ -209,7 +210,7 @@ msgstr "## Додавання елементів до списку подовж�
 #: python-novice-gapminder/_episodes/11-lists.md:74
 msgid "*   Use `list_name.append` to add items to the end of a list."
 msgstr ""
-"*   Використовуйте `list_name.append`, щоб додати елементи в кінець списку."
+"*  Щоб додати елементи в кінець списку, використовуйте `list_name.append`."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:76
@@ -247,33 +248,41 @@ msgstr ""
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:90
 msgid "*   `append` is a *method* of lists."
-msgstr "*   `append` є *методом* списку."
+msgstr "*   `append` є *методом*, який належить до списків."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:91
 msgid "    *   Like a function, but tied to a particular object."
-msgstr "    *   Як функція, але прив’язаний до певного об’єкта."
+msgstr ""
+"    *   Методи подібні функціям, але вони прив’язані до певних об’єктів."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:92
 msgid "*   Use `object_name.method_name` to call methods."
-msgstr "*   Використовуйте `object_name.method_name` для виклику методів."
+msgstr ""
+"*   Для виклику методів використовується синтаксис  "
+"`object_name.method_name` ."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:93
 msgid ""
 "    *   Deliberately resembles the way we refer to things in a library."
-msgstr "    *   Спеціально  нагадує те, як ми називаємо складові бібліотеки."
+msgstr ""
+"    *   Такий запис навмисно нагадує те, як ми посилаємось на щось визначене"
+" у будь-якій бібліотеці."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:94
 msgid "*   We will meet other methods of lists as we go along."
-msgstr "*   По ходу роботи ми познайомимося з іншими методами списків."
+msgstr ""
+"*   По ходу роботи ми познайомимося з іншими методами, визначеними для "
+"списків."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:95
 msgid "    *   Use `help(list)` for a preview."
-msgstr "    *  Використовуйте `help(list)` для попереднього перегляду."
+msgstr ""
+"    *  Якщо бажаєте подивитись на них зараз, використовуйте `help(list)`."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:96
@@ -281,8 +290,8 @@ msgid ""
 "*   `extend` is similar to `append`, but it allows you to combine two lists."
 "  For example:"
 msgstr ""
-"*  метод `extend` схожий на `append`, але він дозволяє об’єднувати два "
-"списки. Наприклад:"
+"*  `extend` - це метод, схожий на `append`, але він дозволяє об’єднувати два"
+" списки. Наприклад:"
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:98
@@ -334,7 +343,7 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:118
 msgid "## Use `del` to remove items from a list entirely."
-msgstr "## Використовуйте `del`, щоб повністю видалити елементи зі списку."
+msgstr "## Щоб повністю видалити елементи зі списку, використовуйте `del`."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:120
@@ -347,7 +356,7 @@ msgstr ""
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:121
 msgid "*   Not a function or a method, but a statement in the language."
-msgstr "*   Це оператор мови, а не функція і не метод."
+msgstr "*   `del` - це оператор мови програмування, а не функція і не метод."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:123
@@ -383,32 +392,32 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:136
 msgid "## The empty list contains no values."
-msgstr "## Порожній список не містить значень."
+msgstr "## Порожній список не містить жодних значень."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:138
 msgid ""
 "*   Use `[]` on its own to represent a list that doesn't contain any values."
 msgstr ""
-"*   Використовуйте `[]`, щоб представити список, який не містить жодних "
-"значень."
+"*   Щоб створити список, який не містить жодних значень, використовуйте "
+"`[]`."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:139
 msgid "    *   \"The zero of lists.\""
-msgstr "    *   \"Нуль списків.\""
+msgstr "    *  Порожній список - це \"нуль списків.\""
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:140
 msgid "*   Helpful as a starting point for collecting values"
-msgstr "*   Є корисним як початкова точка для збору значень"
+msgstr "*   Він є корисним як початкова точка для збору значень"
 
 #: python-novice-gapminder/_episodes/11-lists.md:141
 msgid ""
 "        (which we will see in the [next episode]({% link _episodes/12-for-"
 "loops.md %})."
 msgstr ""
-"        (ми це побачимо в [наступному_параграфі]({% link _episodes/12-for-"
+"        (ми це побачимо в [наступному епізоді]({% link _episodes/12-for-"
 "loops.md %})."
 
 # header
@@ -443,7 +452,7 @@ msgid ""
 "*   Get single characters from a character string using indexes in square "
 "brackets."
 msgstr ""
-"*   Отримати окремі символи з рядка символів  можна за допомогою індексів у "
+"*   Отримати окремі символи з рядка символів можна за допомогою індексів у "
 "квадратних дужках."
 
 # code block
@@ -489,7 +498,7 @@ msgstr "*   Неможливо змінити символи в рядку пі�
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:171
 msgid "    *   *Immutable*: can't be changed after creation."
-msgstr "    *   *Незмінний*: не можна змінити після створення."
+msgstr "    *   *Незмінний* - тобто який не можна змінити після створення."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:172
@@ -547,8 +556,8 @@ msgid ""
 "*   Python reports an `IndexError` if we attempt to access a value that "
 "doesn't exist."
 msgstr ""
-"*   Python повідомляє про помилку IndexError, якщо ми намагаємося отримати "
-"доступ до значення, якого не існує."
+"*   Python повідомляє про помилку `IndexError`, якщо ми намагаємося отримати"
+" доступ до значення, якого не існує."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:190
@@ -576,7 +585,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"print('99м елементом елемента є:', element[99])\n"
+"print('99м елементом списку element є:', element[99])\n"
 "~~~"
 
 #: python-novice-gapminder/_episodes/11-lists.md:197
@@ -746,7 +755,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/11-lists.md:277
 msgid "> ## Working With the End"
-msgstr "> ## Почати з кінця"
+msgstr "> ## Початок з кінця"
 
 #: python-novice-gapminder/_episodes/11-lists.md:278
 msgid ""
@@ -845,7 +854,7 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-python}\n"
 ">\n"
-"> 1.  Якщо ми пишемо фрагмент як `low:high:stride`, що робить `stride`\n"
+"> 1.  Якщо ми пишемо фрагмент як `low:high:stride`, що робить `stride`?\n"
 "> 2. Яка команда дозволить вибрати всі елементи з парними номерами з колекції?\n"
 ">\n"
 "> > ## Рішення\n"
@@ -905,7 +914,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/11-lists.md:355
 msgid "> ## Sort and Sorted"
-msgstr "> ## Сортувати і бути відсортованим"
+msgstr "> ## Сортування на місці чи у новий список"
 
 #: python-novice-gapminder/_episodes/11-lists.md:356
 msgid ""
@@ -982,7 +991,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/11-lists.md:393
 msgid "> ## Copying (or Not)"
-msgstr "> ## Копіювання (чи Ні)"
+msgstr "> ## Копіювання (чи ні)"
 
 #: python-novice-gapminder/_episodes/11-lists.md:394
 msgid ""

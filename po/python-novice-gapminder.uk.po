@@ -5,6 +5,8 @@
 # 
 # Translators:
 # David PS <dps.helio@gmail.com>, 2022.
+# Mariya Spatar, 2023.
+# Maryna Novozhylova, 2022.
 # Oleksandr Miroshkin <miroshkinan@gmail.com>, 2023.
 # Olexandr Konovalov, 2022.
 # Olexandr Konovalov, 2023.
@@ -316,11 +318,11 @@ msgstr ""
 #: python-novice-gapminder/_episodes/01-run-quit.md:90
 msgid ""
 "<p align='center'>\n"
-"  <img alt=\"JupyterLab landing page\" src=\"../fig/0_jupyterlab_landing_page.png\" width=\"750\"/>\n"
+"  <img alt=\"JupyterLab landing page\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_landing_page.png\" width=\"750\"/>\n"
 "</p>"
 msgstr ""
 "<p align='center'>\n"
-"  <img alt=\"JupyterLab landing page\" src=\"../fig/0_jupyterlab_landing_page.png\" width=\"750\"/>\n"
+"  <img alt=\"JupyterLab landing page\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_landing_page.png\" width=\"750\"/>\n"
 "</p>"
 
 # header
@@ -435,11 +437,11 @@ msgstr "Нижче наведено скриншот панелі меню за 
 #: python-novice-gapminder/_episodes/01-run-quit.md:120
 msgid ""
 "<p align='center'>\n"
-"    <img alt=\"JupyterLab Menu Bar\" src=\"../fig/0_jupyterlab_menu_bar.png\" width=\"750\"/>\n"
+"    <img alt=\"JupyterLab Menu Bar\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_menu_bar.png\" width=\"750\"/>\n"
 "</p>"
 msgstr ""
 "<p align='center'>\n"
-"    <img alt=\"JupyterLab Menu Bar\" src=\"../fig/0_jupyterlab_menu_bar.png\" width=\"750\"/>\n"
+"    <img alt=\"JupyterLab Menu Bar\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_menu_bar.png\" width=\"750\"/>\n"
 "</p>"
 
 # header
@@ -462,11 +464,11 @@ msgstr ""
 #: python-novice-gapminder/_episodes/01-run-quit.md:131
 msgid ""
 "<p align='center'>\n"
-"    <img alt=\"JupyterLab Left Side Bar\" src=\"../fig/0_jupyterlab_left_side_bar.png\" width=\"250\"/>\n"
+"    <img alt=\"JupyterLab Left Side Bar\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_left_side_bar.png\" width=\"250\"/>\n"
 "</p>"
 msgstr ""
 "<p align='center'>\n"
-"    <img alt=\"JupyterLab Left Side Bar\" src=\"../fig/0_jupyterlab_left_side_bar.png\" width=\"250\"/>\n"
+"    <img alt=\"JupyterLab Left Side Bar\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_left_side_bar.png\" width=\"250\"/>\n"
 "</p>"
 
 #: python-novice-gapminder/_episodes/01-run-quit.md:135
@@ -495,11 +497,11 @@ msgstr ""
 #: python-novice-gapminder/_episodes/01-run-quit.md:144
 msgid ""
 "<p align='center'>\n"
-"    <img alt=\"JupyterLab Main Work Area\" src=\"../fig/0_jupyterlab_main_work_area.png\" width=\"750\"/>\n"
+"    <img alt=\"JupyterLab Main Work Area\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_main_work_area.png\" width=\"750\"/>\n"
 "</p>"
 msgstr ""
 "<p align='center'>\n"
-"    <img alt=\"JupyterLab Main Work Area\" src=\"../fig/0_jupyterlab_main_work_area.png\" width=\"750\"/>\n"
+"    <img alt=\"JupyterLab Main Work Area\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_main_work_area.png\" width=\"750\"/>\n"
 "</p>"
 
 #: python-novice-gapminder/_episodes/01-run-quit.md:148
@@ -607,11 +609,11 @@ msgstr ""
 #: python-novice-gapminder/_episodes/01-run-quit.md:173
 msgid ""
 "<p align='center'>\n"
-"    <img alt=\"Example Jupyter Notebook\" src=\"../fig/0_jupyterlab_notebook_screenshot.png\" width=\"750\"/>\n"
+"    <img alt=\"Example Jupyter Notebook\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_notebook_screenshot.png\" width=\"750\"/>\n"
 "</p>"
 msgstr ""
 "<p align='center'>\n"
-"    <img alt=\"Example Jupyter Notebook\" src=\"../fig/0_jupyterlab_notebook_screenshot.png\" width=\"750\"/>\n"
+"    <img alt=\"Example Jupyter Notebook\" src=\"{{ site.baseurl }}/fig/0_jupyterlab_notebook_screenshot.png\" width=\"750\"/>\n"
 "</p>"
 
 # blockquote, which can be cascaded
@@ -643,7 +645,7 @@ msgid ""
 "> example from the [official documentation][jupyterlab].\n"
 "> \n"
 "> <p align='center'>\n"
-">    <img alt=\"Multi-panel JupyterLab\" src=\"../fig/0_multipanel_jupyterlab_screenshot.png\" width=\"750\"/>\n"
+">    <img alt=\"Multi-panel JupyterLab\" src=\"{{ site.baseurl }}/fig/0_multipanel_jupyterlab_screenshot.png\" width=\"750\"/>\n"
 "> </p>\n"
 ">\n"
 "> First, create a text file, Python console, and terminal window and arrange then into three \n"
@@ -663,7 +665,7 @@ msgstr ""
 "> приклад з [official documentation][jupyterlab].\n"
 "> \n"
 "> <p align='center'>\n"
-">    <img alt=\"Multi-panel JupyterLab\" src=\"../fig/0_multipanel_jupyterlab_screenshot.png\" width=\"750\"/>\n"
+">    <img alt=\"Multi-panel JupyterLab\" src=\"{{ site.baseurl }}/fig/0_multipanel_jupyterlab_screenshot.png\" width=\"750\"/>\n"
 "> </p>\n"
 ">\n"
 "> Спочатку створіть текстовий файл, консоль Python і вікно терміналу, а потім розділіть їх на три \n"
@@ -2146,8 +2148,8 @@ msgstr ""
 "    позиції."
 
 #: python-novice-gapminder/_episodes/02-variables.md:134
-msgid "![an illustration of indexing](../fig/2_indexing.svg)"
-msgstr "![Ілюстрація індексації](../fig/2_indexing.svg)"
+msgid "![an illustration of indexing]({{ site.baseurl }}/fig/2_indexing.svg)"
+msgstr "![Ілюстрація індексації]({{ site.baseurl }}/fig/2_indexing.svg)"
 
 # code block
 #: python-novice-gapminder/_episodes/02-variables.md:136
@@ -2768,7 +2770,7 @@ msgid ""
 "label."
 msgstr ""
 "    *   Але запамʼятайте: *значення* має свій тип, а *змінна* тільки вказує "
-"на будь-яке значення."
+"на деяке значення."
 
 # code block
 #: python-novice-gapminder/_episodes/03-types-conversion.md:37
@@ -3101,8 +3103,8 @@ msgid ""
 "*   Some types can be converted to other types by using the type name as a "
 "function."
 msgstr ""
-"*   Деякі типи можуть бути перетворені на інші типи за допомогою функції, "
-"яка має те ж саме імʼя, що і потрібний тип."
+"*   Перетворення типу виконується за допомогою функції, яка має те ж саме "
+"імʼя, що і потрібний тип."
 
 # code block
 #: python-novice-gapminder/_episodes/03-types-conversion.md:160
@@ -3183,7 +3185,7 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/03-types-conversion.md:187
 msgid "## Variables only change value when something is assigned to them."
-msgstr "## Змінні можуть змінити своє значення тільки через присвоювання."
+msgstr "## Змінні можуть набути своє значення тільки через присвоювання."
 
 # unordered list
 #: python-novice-gapminder/_episodes/03-types-conversion.md:189
@@ -3331,7 +3333,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/03-types-conversion.md:251
 msgid "> ## Choose a Type"
-msgstr "> ## Як вибрати тип"
+msgstr "> ## Вибір типу"
 
 #: python-novice-gapminder/_episodes/03-types-conversion.md:252
 msgid ""
@@ -3660,7 +3662,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/03-types-conversion.md:401
 msgid "> ## Arithmetic with Different Types"
-msgstr "> ## Аріфметичні дії з різними типами"
+msgstr "> ## Арифметичні дії з різними типами"
 
 #: python-novice-gapminder/_episodes/03-types-conversion.md:402
 msgid ""
@@ -4775,7 +4777,7 @@ msgstr ""
 ">\n"
 "> Бібліотека — це набір модулів, але ці терміни часто вважаються \n"
 "> взаємозамінними, особливо тому, що багато бібліотек складаються лише з одного\n"
-"> модуля, тому не хвилюйтеся, якщо ви їх змішуєте."
+"> модуля, тому не хвилюйтеся, якщо ви їх плутаєте."
 
 # header
 #: python-novice-gapminder/_episodes/06-libraries.md:38
@@ -5778,7 +5780,7 @@ msgstr "*  Заголовки рядків є числами (0 і 1 у цьом
 # unordered list
 #: python-novice-gapminder/_episodes/07-reading-tabular.md:77
 msgid "*   Really want to index by country."
-msgstr "*   Насправді краще індексувати за країнами."
+msgstr "*   Насправді краще індексувати за назвами країн."
 
 # unordered list
 #: python-novice-gapminder/_episodes/07-reading-tabular.md:78
@@ -6639,7 +6641,7 @@ msgstr ""
 "в якому значенні використовується `i`.\n"
 "Пам’ятайте, що DataFrame використовує *індекс* як спосіб ідентифікації рядків таблиці;\n"
 "крім того, рядок має *позицію* всередині таблиці, а також *мітку*, яка\n"
-"унікально ідентифікує  *входження* значення у DataFrame."
+"унікально ідентифікує  *введення* значення у DataFrame."
 
 # header
 #: python-novice-gapminder/_episodes/08-data-frames.md:42
@@ -6700,7 +6702,7 @@ msgid ""
 "*   Can specify location by row name analogously to 2D version of dictionary"
 " keys."
 msgstr ""
-"*    Можна вказати позицію за допомогою імені рядка аналогічно 2D-версії "
+"*    Можна вказати позицію за допомогою імені рядка аналогічно до 2D-версії "
 "ключів словника."
 
 # code block
@@ -7185,7 +7187,7 @@ msgid ""
 "split themselves according to their GDP."
 msgstr ""
 "Наприклад, скажімо, ми хочемо мати більш чітке уявлення про те, як європейські країни\n"
-"поділяються відповідно до свого ВВП."
+"розподілені відповідно до свого ВВП. "
 
 # ordered list
 #: python-novice-gapminder/_episodes/08-data-frames.md:253
@@ -7204,7 +7206,7 @@ msgid ""
 msgstr ""
 "   на тих, у кого ВВП *вищий* за середній європейський, та тих, у кого ВВП *нижчий*.\n"
 "2.  Потім ми оцінюємо *показник заможності* на основі історичних значень (з 1962 по 2007 рік),\n"
-"    де ми враховуємо, скільки разів країна брала участь у групах з *нижчим* або *вищим* ВВП"
+"    де ми враховуємо, скільки разів країна була у групах з *нижчим* або *вищим* ВВП"
 
 # code block
 #: python-novice-gapminder/_episodes/08-data-frames.md:258
@@ -7393,7 +7395,7 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-python}\n"
 ">\n"
-"> Напишіть вираз для визначення ВВП Сербії на душу населення у 2007 році."
+"> Напишіть вираз для визначення ВВП на душу населення в Сербії у 2007 році."
 
 #: python-novice-gapminder/_episodes/08-data-frames.md:343
 msgid ""
@@ -8022,10 +8024,10 @@ msgstr ""
 
 #: python-novice-gapminder/_episodes/09-plotting.md:41
 msgid ""
-"![Simple Position-Time Plot](../fig/9_simple_position_time_plot.svg)\n"
+"![Simple Position-Time Plot]({{ site.baseurl }}/fig/9_simple_position_time_plot.svg)\n"
 "## Plot data directly from a [`Pandas dataframe`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)."
 msgstr ""
-"![Simple Position-Time Plot](../fig/9_simple_position_time_plot.svg)\n"
+"![Simple Position-Time Plot]({{ site.baseurl }}/fig/9_simple_position_time_plot.svg)\n"
 "## Побудова графіків безпосередньо з [`Pandas dataframe`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)."
 
 # unordered list
@@ -8044,7 +8046,7 @@ msgid ""
 "*   This implicitly uses "
 "[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
 msgstr ""
-"*   Це неявно використовує "
+"*   Це опосередковано використовує "
 "[`matplotlib.pyplot`](https://matplotlib.org/api/pyplot_api.html)."
 
 # unordered list
@@ -8054,8 +8056,7 @@ msgid ""
 "`integer` data type, since they represent numerical values"
 msgstr ""
 "*   Перед побудовою графіка ми перетворюємо заголовки стовпців з типу даних "
-"\"string\" на тип даних \"integer\", оскільки вони представляють числові "
-"значення."
+"\"string\" на \"integer\", оскільки вони представляють числові значення."
 
 # code block
 #: python-novice-gapminder/_episodes/09-plotting.md:48
@@ -8087,8 +8088,8 @@ msgstr ""
 "\n"
 "# Вилучаємо рік з останніх 4 символів назви кожного стовпця\n"
 "# Поточні назви стовпців структуровані як 'gdpPercap_(year)', \n"
-"# тому ми зберігаємо частину назви (рік) лише для ясності під час побудови ВВП за роками\n"
-"# Для цього ми використовуємо strip(), яка видаляє з рядка символи, зазначені як аргумент\n"
+"# тому ми зберігаємо частину назви (рік) лише для чіткості під час побудови ВВП за роками\n"
+"# Для цього ми використовуємо strip(), яка видаляє з рядка символи, що зазначені як аргумент\n"
 "# Цей метод працює з рядками, тому ми викликаємо str перед strip()\n"
 "\n"
 "years = data.columns.str.strip('gdpPercap_')\n"
@@ -8102,10 +8103,10 @@ msgstr ""
 
 #: python-novice-gapminder/_episodes/09-plotting.md:69
 msgid ""
-"![GDP plot for Australia](../fig/9_gdp_australia.svg)\n"
+"![GDP plot for Australia]({{ site.baseurl }}/fig/9_gdp_australia.svg)\n"
 "## Select and transform data, then plot it."
 msgstr ""
-"![Графік ВВП Австралії](../fig/9_gdp_australia.svg)\n"
+"![Графік ВВП Австралії]({{ site.baseurl }}/fig/9_gdp_australia.svg)\n"
 "## Виберіть і трансформуйте дані, а потім будуйте графік»"
 
 # unordered list
@@ -8140,17 +8141,18 @@ msgstr ""
 
 #: python-novice-gapminder/_episodes/09-plotting.md:81
 msgid ""
-"![GDP plot for Australia and New Zealand](../fig/9_gdp_australia_nz.svg)\n"
+"![GDP plot for Australia and New Zealand]({{ site.baseurl }}/fig/9_gdp_australia_nz.svg)\n"
 "## Many styles of plot are available."
 msgstr ""
-"![Графіки ВВП для Австралії та Нової Зеландії](../fig/9_gdp_australia_nz.svg)\n"
+"![Графіки ВВП для Австралії та Нової Зеландії]({{ site.baseurl }}/fig/9_gdp_australia_nz.svg)\n"
 "## Доступно багато типів графіків."
 
 # unordered list
 #: python-novice-gapminder/_episodes/09-plotting.md:84
 msgid "*   For example, do a bar plot using a fancier style."
 msgstr ""
-"*  Наприклад, створіть стовпчикову діаграму, використовуючи вишуканий стиль."
+"*  Наприклад, створіть стовпчикову діаграму, використовуючи більш вишуканий "
+"стиль."
 
 # code block
 #: python-novice-gapminder/_episodes/09-plotting.md:86
@@ -8168,8 +8170,8 @@ msgstr ""
 "~~~"
 
 #: python-novice-gapminder/_episodes/09-plotting.md:93
-msgid "![GDP barplot for Australia](../fig/9_gdp_bar.svg)"
-msgstr "![ Стовпчикова діаграма для ВВП Австралії](../fig/9_gdp_bar.svg)"
+msgid "![GDP barplot for Australia]({{ site.baseurl }}/fig/9_gdp_bar.svg)"
+msgstr "![ Стовпчикова діаграма для ВВП Австралії]({{ site.baseurl }}/fig/9_gdp_bar.svg)"
 
 # header
 #: python-novice-gapminder/_episodes/09-plotting.md:95
@@ -8218,10 +8220,10 @@ msgstr ""
 
 #: python-novice-gapminder/_episodes/09-plotting.md:109
 msgid ""
-"![GDP formatted plot for Australia](../fig/9_gdp_australia_formatted.svg)"
+"![GDP formatted plot for Australia]({{ site.baseurl }}/fig/9_gdp_australia_formatted.svg)"
 msgstr ""
-"![Отформатований графік для ВВП "
-"Австралії](../fig/9_gdp_australia_formatted.svg)"
+"![Відформатований графік ВВП для "
+"Австралії]({{ site.baseurl }}/fig/9_gdp_australia_formatted.svg)"
 
 # header
 #: python-novice-gapminder/_episodes/09-plotting.md:111
@@ -8272,7 +8274,7 @@ msgid ""
 "> Often when plotting multiple datasets on the same figure it is desirable "
 "to have "
 msgstr ""
-"> Часто при побудові  графіків з кількох наборів даних разом бажано мати "
+"> Часто при побудові графіків з кількох наборів даних разом бажано мати "
 
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/09-plotting.md:132
@@ -8325,11 +8327,11 @@ msgstr ""
 
 #: python-novice-gapminder/_episodes/09-plotting.md:156
 msgid ""
-"![GDP formatted plot for Australia and New Zealand](../fig/9_gdp_australia_nz_formatted.svg)\n"
+"![GDP formatted plot for Australia and New Zealand]({{ site.baseurl }}/fig/9_gdp_australia_nz_formatted.svg)\n"
 "*   Plot a scatter plot correlating the GDP of Australia and New Zealand\n"
 "*   Use either `plt.scatter` or `DataFrame.plot.scatter`"
 msgstr ""
-"![Отформатований графік ВВП Австралії та Нової Зеландії](../fig/9_gdp_australia_nz_formatted.svg)\n"
+"![Відформатований графік ВВП Австралії та Нової Зеландії]({{ site.baseurl }}/fig/9_gdp_australia_nz_formatted.svg)\n"
 "*   Побудуємо точкову діаграму співвідношення ВВП Австралії та Нової Зеландії\n"
 "*   Використаємо `plt.scatter` або `DataFrame.plot.scatter`"
 
@@ -8346,13 +8348,13 @@ msgstr ""
 
 #: python-novice-gapminder/_episodes/09-plotting.md:165
 msgid ""
-"![GDP correlation using plt.scatter](../fig/9_gdp_correlation_plt.svg)\n"
+"![GDP correlation using plt.scatter]({{ site.baseurl }}/fig/9_gdp_correlation_plt.svg)\n"
 "~~~\n"
 "data.T.plot.scatter(x = 'Australia', y = 'New Zealand')\n"
 "~~~\n"
 "{: .language-python}"
 msgstr ""
-"![Співвідношення ВВП  з використанням plt.scatter](../fig/9_gdp_correlation_plt.svg)\n"
+"![Співвідношення ВВП  з використанням plt.scatter]({{ site.baseurl }}/fig/9_gdp_correlation_plt.svg)\n"
 "~~~\n"
 "data.T.plot.scatter(x = 'Австралія', y = 'Нова Зеландія')\n"
 "~~~\n"
@@ -8361,10 +8363,10 @@ msgstr ""
 #: python-novice-gapminder/_episodes/09-plotting.md:171
 msgid ""
 "![GDP correlation using "
-"data.T.plot.scatter](../fig/9_gdp_correlation_data.svg)"
+"data.T.plot.scatter]({{ site.baseurl }}/fig/9_gdp_correlation_data.svg)"
 msgstr ""
-"![ВВП залежності на основі "
-"data.T.plot.scatter](../fig/9_gdp_correlation_data.svg)"
+"![Кореляція ВВП на основі "
+"data.T.plot.scatter]({{ site.baseurl }}/fig/9_gdp_correlation_data.svg)"
 
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/09-plotting.md:173
@@ -8397,10 +8399,10 @@ msgid ""
 "> > plt.xticks(rotation=90)\n"
 "> > ~~~\n"
 "> > {: .language-python}\n"
-"> > ![Minima Maxima Solution](../fig/9_minima_maxima_solution.png)"
+"> > ![Minima Maxima Solution]({{ site.baseurl }}/fig/9_minima_maxima_solution.png)"
 msgstr ""
 ">\n"
-"> Заповніть порожні поля нижче, щоб побудувати графік мінімального ВВП на душу населення в часі\n"
+"> Заповніть порожні поля нижче, щоб побудувати графік мінімального ВВП на душу населення протягом часу\n"
 "> для всіх країн Європи.\n"
 "> Потім побудуйте графік максимального ВВП на душу населення в Європі.\n"
 ">\n"
@@ -8423,7 +8425,7 @@ msgstr ""
 "> > plt.xticks(rotation=90)\n"
 "> > ~~~\n"
 "> > {: .language-python}\n"
-"> > ![Мінімум Максимум Рішення](../fig/9_minima_maxima_solution.png)"
+"> > ![Мінімум Максимум Рішення]({{ site.baseurl }}/fig/9_minima_maxima_solution.png)"
 
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/09-plotting.md:202
@@ -8446,7 +8448,7 @@ msgid ""
 ">\n"
 "> > ## Solution\n"
 "> >\n"
-"> > ![Correlations Solution 1](../fig/9_correlations_solution1.svg)\n"
+"> > ![Correlations Solution 1]({{ site.baseurl }}/fig/9_correlations_solution1.svg)\n"
 "> >\n"
 "> > No particular correlations can be seen between the minimum and maximum gdp values\n"
 "> > year on year. It seems the fortunes of asian countries do not rise and fall together."
@@ -8465,10 +8467,10 @@ msgstr ""
 ">\n"
 "> > ## Рішення\n"
 "> >\n"
-"> > ![Кореляції Рішення 1](../fig/9_correlations_solution1.svg)\n"
+"> > ![Кореляції Рішення 1]({{ site.baseurl }}/fig/9_correlations_solution1.svg)\n"
 "> >\n"
-"> > Жодних особливих кореляцій між мінімальними та максимальними значеннями ВВП не видно\n"
-"> > з року в рік. Здається, доля азіатських країн не зростає і не падає разом."
+"> > Жодних особливих кореляцій між мінімальними та максимальними значеннями ВВП не простежується\n"
+"> > з року в рік. Здається, статки азіатських країн не зростає і не падає разом."
 
 #: python-novice-gapminder/_episodes/09-plotting.md:222
 msgid ""
@@ -8484,7 +8486,7 @@ msgid ""
 "> ~~~\n"
 "> {: .language-python}\n"
 "> > ## Solution\n"
-"> > ![Correlations Solution 2](../fig/9_correlations_solution2.png)\n"
+"> > ![Correlations Solution 2]({{ site.baseurl }}/fig/9_correlations_solution2.png)\n"
 "> >\n"
 "> > Seems the variability in this value is due to a sharp drop after 1972.\n"
 "> > Some geopolitics at play perhaps? Given the dominance of oil producing countries,\n"
@@ -8504,7 +8506,7 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-python}\n"
 "> > ## Рішення\n"
-"> > ![Кореляції Рішення 2](../fig/9_correlations_solution2.png)\n"
+"> > ![Кореляції Рішення 2]({{ site.baseurl }}/fig/9_correlations_solution2.png)\n"
 "> >\n"
 "> > Здається, варіабельність цього значення пов’язана з різким падінням після 1972 року\n"
 "> > Можливо, якісь геополітичні фактори грають роль? Враховуючи домінування нафтовидобувних країн,\n"
@@ -8515,7 +8517,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/09-plotting.md:244
 msgid "> ## More Correlations"
-msgstr "> ## Більше залежностей"
+msgstr "> ## Більше кореляцій"
 
 #: python-novice-gapminder/_episodes/09-plotting.md:245
 msgid ""
@@ -8535,7 +8537,7 @@ msgid ""
 "> explain what each argument to `plot` does.\n"
 ">\n"
 "> > ## Solution\n"
-"> > ![More Correlations Solution](../fig/9_more_correlations_solution.svg)\n"
+"> > ![More Correlations Solution]({{ site.baseurl }}/fig/9_more_correlations_solution.svg)\n"
 "> >\n"
 "> > A good place to look is the documentation for the plot function -\n"
 "> > help(data_all.plot).\n"
@@ -8551,8 +8553,8 @@ msgid ""
 msgstr ""
 ">\n"
 "> Ця невеличка програма створює графік, який демонструє\n"
-"> кореляцію між ВВП between GDP і очікуваною тривалістю життя на 2007 рік,\n"
-"> причому розмір маркера є нормалізованим за кількістю  населення:\n"
+"> кореляцію між ВВП  і очікуваною тривалістю життя на 2007 рік,\n"
+"> нормалізуючи розмір маркерів за чисельністю населення:\n"
 ">\n"
 "> ~~~\n"
 "> data_all = pd.read_csv('data/gapminder_all.csv', index_col='country')\n"
@@ -8565,9 +8567,9 @@ msgstr ""
 "> поясніть кожний аргумент функції `plot`.\n"
 ">\n"
 "> > ## Рішення\n"
-"> > ![Більше залежностей Рішення](../fig/9_more_correlations_solution.svg)\n"
+"> > ![Більше кореляцій Рішення]({{ site.baseurl }}/fig/9_more_correlations_solution.svg)\n"
 "> >\n"
-"> > Багато корисної інформації шодо функції  plot  -\n"
+"> > Багато корисної інформації щодо функції  plot  -\n"
 "> > help(data_all.plot).\n"
 "> >\n"
 "> > kind - Як уже було показано, цей параметр визначає тип графіку, який буде створено.\n"
@@ -8795,7 +8797,7 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:22
 msgid "## A list stores many values in a single structure."
-msgstr "## Список зберігає багато значень в одній структурі."
+msgstr "## Список є структурою даних, яка містить в собі багато значень."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:24
@@ -8817,7 +8819,7 @@ msgstr ""
 "    було б принаймні так само повільно, як робити їх вручну.\n"
 "*   Використовуйте *список* для зберігання багатьох значень разом.\n"
 "    *   Список позначається квадратними дужками `[...]`.\n"
-"    *   Значення розділені комами `,`.\n"
+"    *   Значення розділяються комами `,`.\n"
 "*   Використовуйте `len`, щоб дізнатися, скільки значень у списку."
 
 # code block
@@ -8852,12 +8854,12 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:43
 msgid "## Use an item's index to fetch it from a list."
-msgstr "## Використовуйте індекс елемента, щоб отримати його зі списку."
+msgstr "## Щоб отримати елемент списку, використовуйте його індекс."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:45
 msgid "*   Just like strings."
-msgstr "*   Так само, як при опрацюванні рядків."
+msgstr "*   Це робиться так само, як і при роботі з рядками."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:47
@@ -8896,8 +8898,8 @@ msgstr "## Значення елементів списків можна зам�
 msgid ""
 "*   Use an index expression on the left of assignment to replace a value."
 msgstr ""
-"*   Використовуйте вираз індексу ліворуч від знаку присвоєння, щоб замінити "
-"значення."
+"*   Використовуйте індексний вираз ліворуч від знаку присвоєння, щоб "
+"замінити значення."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:62
@@ -8933,7 +8935,7 @@ msgstr "## Додавання елементів до списку подовж�
 #: python-novice-gapminder/_episodes/11-lists.md:74
 msgid "*   Use `list_name.append` to add items to the end of a list."
 msgstr ""
-"*   Використовуйте `list_name.append`, щоб додати елементи в кінець списку."
+"*  Щоб додати елементи в кінець списку, використовуйте `list_name.append`."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:76
@@ -8971,33 +8973,41 @@ msgstr ""
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:90
 msgid "*   `append` is a *method* of lists."
-msgstr "*   `append` є *методом* списку."
+msgstr "*   `append` є *методом*, який належить до списків."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:91
 msgid "    *   Like a function, but tied to a particular object."
-msgstr "    *   Як функція, але прив’язаний до певного об’єкта."
+msgstr ""
+"    *   Методи подібні функціям, але вони прив’язані до певних об’єктів."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:92
 msgid "*   Use `object_name.method_name` to call methods."
-msgstr "*   Використовуйте `object_name.method_name` для виклику методів."
+msgstr ""
+"*   Для виклику методів використовується синтаксис  "
+"`object_name.method_name` ."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:93
 msgid ""
 "    *   Deliberately resembles the way we refer to things in a library."
-msgstr "    *   Спеціально  нагадує те, як ми називаємо складові бібліотеки."
+msgstr ""
+"    *   Такий запис навмисно нагадує те, як ми посилаємось на щось визначене"
+" у будь-якій бібліотеці."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:94
 msgid "*   We will meet other methods of lists as we go along."
-msgstr "*   По ходу роботи ми познайомимося з іншими методами списків."
+msgstr ""
+"*   По ходу роботи ми познайомимося з іншими методами, визначеними для "
+"списків."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:95
 msgid "    *   Use `help(list)` for a preview."
-msgstr "    *  Використовуйте `help(list)` для попереднього перегляду."
+msgstr ""
+"    *  Якщо бажаєте подивитись на них зараз, використовуйте `help(list)`."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:96
@@ -9005,8 +9015,8 @@ msgid ""
 "*   `extend` is similar to `append`, but it allows you to combine two lists."
 "  For example:"
 msgstr ""
-"*  метод `extend` схожий на `append`, але він дозволяє об’єднувати два "
-"списки. Наприклад:"
+"*  `extend` - це метод, схожий на `append`, але він дозволяє об’єднувати два"
+" списки. Наприклад:"
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:98
@@ -9058,7 +9068,7 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:118
 msgid "## Use `del` to remove items from a list entirely."
-msgstr "## Використовуйте `del`, щоб повністю видалити елементи зі списку."
+msgstr "## Щоб повністю видалити елементи зі списку, використовуйте `del`."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:120
@@ -9071,7 +9081,7 @@ msgstr ""
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:121
 msgid "*   Not a function or a method, but a statement in the language."
-msgstr "*   Це оператор мови, а не функція і не метод."
+msgstr "*   `del` - це оператор мови програмування, а не функція і не метод."
 
 # code block
 #: python-novice-gapminder/_episodes/11-lists.md:123
@@ -9107,32 +9117,32 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/11-lists.md:136
 msgid "## The empty list contains no values."
-msgstr "## Порожній список не містить значень."
+msgstr "## Порожній список не містить жодних значень."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:138
 msgid ""
 "*   Use `[]` on its own to represent a list that doesn't contain any values."
 msgstr ""
-"*   Використовуйте `[]`, щоб представити список, який не містить жодних "
-"значень."
+"*   Щоб створити список, який не містить жодних значень, використовуйте "
+"`[]`."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:139
 msgid "    *   \"The zero of lists.\""
-msgstr "    *   \"Нуль списків.\""
+msgstr "    *  Порожній список - це \"нуль списків.\""
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:140
 msgid "*   Helpful as a starting point for collecting values"
-msgstr "*   Є корисним як початкова точка для збору значень"
+msgstr "*   Він є корисним як початкова точка для збору значень"
 
 #: python-novice-gapminder/_episodes/11-lists.md:141
 msgid ""
 "        (which we will see in the [next episode]({% link _episodes/12-for-"
 "loops.md %})."
 msgstr ""
-"        (ми це побачимо в [наступному_параграфі]({% link _episodes/12-for-"
+"        (ми це побачимо в [наступному епізоді]({% link _episodes/12-for-"
 "loops.md %})."
 
 # header
@@ -9167,7 +9177,7 @@ msgid ""
 "*   Get single characters from a character string using indexes in square "
 "brackets."
 msgstr ""
-"*   Отримати окремі символи з рядка символів  можна за допомогою індексів у "
+"*   Отримати окремі символи з рядка символів можна за допомогою індексів у "
 "квадратних дужках."
 
 # code block
@@ -9213,7 +9223,7 @@ msgstr "*   Неможливо змінити символи в рядку пі�
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:171
 msgid "    *   *Immutable*: can't be changed after creation."
-msgstr "    *   *Незмінний*: не можна змінити після створення."
+msgstr "    *   *Незмінний* - тобто який не можна змінити після створення."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:172
@@ -9271,8 +9281,8 @@ msgid ""
 "*   Python reports an `IndexError` if we attempt to access a value that "
 "doesn't exist."
 msgstr ""
-"*   Python повідомляє про помилку IndexError, якщо ми намагаємося отримати "
-"доступ до значення, якого не існує."
+"*   Python повідомляє про помилку `IndexError`, якщо ми намагаємося отримати"
+" доступ до значення, якого не існує."
 
 # unordered list
 #: python-novice-gapminder/_episodes/11-lists.md:190
@@ -9300,7 +9310,7 @@ msgid ""
 "~~~"
 msgstr ""
 "~~~\n"
-"print('99м елементом елемента є:', element[99])\n"
+"print('99м елементом списку element є:', element[99])\n"
 "~~~"
 
 #: python-novice-gapminder/_episodes/11-lists.md:197
@@ -9470,7 +9480,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/11-lists.md:277
 msgid "> ## Working With the End"
-msgstr "> ## Почати з кінця"
+msgstr "> ## Початок з кінця"
 
 #: python-novice-gapminder/_episodes/11-lists.md:278
 msgid ""
@@ -9569,7 +9579,7 @@ msgstr ""
 "> ~~~\n"
 "> {: .language-python}\n"
 ">\n"
-"> 1.  Якщо ми пишемо фрагмент як `low:high:stride`, що робить `stride`\n"
+"> 1.  Якщо ми пишемо фрагмент як `low:high:stride`, що робить `stride`?\n"
 "> 2. Яка команда дозволить вибрати всі елементи з парними номерами з колекції?\n"
 ">\n"
 "> > ## Рішення\n"
@@ -9629,7 +9639,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/11-lists.md:355
 msgid "> ## Sort and Sorted"
-msgstr "> ## Сортувати і бути відсортованим"
+msgstr "> ## Сортування на місці чи у новий список"
 
 #: python-novice-gapminder/_episodes/11-lists.md:356
 msgid ""
@@ -9706,7 +9716,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/11-lists.md:393
 msgid "> ## Copying (or Not)"
-msgstr "> ## Копіювання (чи Ні)"
+msgstr "> ## Копіювання (чи ні)"
 
 #: python-novice-gapminder/_episodes/11-lists.md:394
 msgid ""
@@ -10962,8 +10972,8 @@ msgstr "## Використовуйте `elif` для визначення до�
 msgid ""
 "*   May want to provide several alternative choices, each with its own test."
 msgstr ""
-"*   Може знадобитися надати кілька альтернативних варіантів, кожен зі своєю "
-"перевіркою."
+"*   Може знадобитися надати кілька альтернативних варіантів, кожен з яких "
+"має своєю перевірку."
 
 # unordered list
 #: python-novice-gapminder/_episodes/13-conditionals.md:85
@@ -16152,7 +16162,7 @@ msgid ""
 msgstr ""
 "Можна не проходити весь урок.\n"
 ":   Цей урок призначений для людей, які раніше ніколи не займалися програмуванням, \n"
-"    але в будь-якому класі можуть брати участь люди з великим досвідом.\n"
+"    але в будь-якому класі можуть брати участь люди з різним попереднім досвідом.\n"
 "    Тому ми включили достатньо матеріалу, щоб при необхідності заповнити цілий день, \n"
 "    але очікуємо, що багато пропозицій дійдуть лише до введення у Pandas."
 
@@ -16246,11 +16256,11 @@ msgid ""
 "This lesson references [JupyterLab][jupyterlab], but can be taught using a regular Python interpreter \n"
 "as well. Please note that this lesson uses Python 3 rather than Python 2."
 msgstr ""
-"Цей урок містить введення до програмування на мові Python для користувачів які не мають зовсім або мають початковий\n"
+"Цей урок містить введення до програмування на мові Python для користувачів, які не мають зовсім або мають початковий\n"
 "досвід програмування. Він використовує побудову графіків як мотиваційний приклад, та розроблений для використання на\n"
 "[Data Carpentry][dc-lessons] та [Software Carpentry][swc-lessons] тренігах. \n"
 "Цей урок використовує [JupyterLab][jupyterlab], але його також можна викладати у звичайному інтрепретаторі мови Python.\n"
-"Зверніть увагу, що він використовує Python 3 а не Python 2."
+"Зверніть увагу, що він використовує Python 3, а не Python 2."
 
 # blockquote, which can be cascaded
 #: python-novice-gapminder/index.md:13
@@ -16269,7 +16279,7 @@ msgid ""
 msgstr ""
 ">\n"
 "> **Цей урок знаходиться на початковій стадії розробки;\n"
-"> будь ласка перевірте [цю сторінку]({{ page.root }}/design/)\n"
+"> будь ласка, перевірте [цю сторінку]({{ page.root }}/design/)\n"
 "> щоб побачити що вже зроблено.\n"
 "> Ми будемо дуже вдячні за допомогу,\n"
 "> особливо за нові вправи\n"
@@ -16304,11 +16314,11 @@ msgstr ""
 "> 2. Слухачі мають встановити Python до початку тренінгу.\n"
 ">\n"
 "> 3. Слухачі мають отримати дані (gapminder) перед початком тренінгу:\n"
-">    будь ласка загрузіть та распакуйте файл \n"
+">    будь ласка, завантажте та розархівуйте файл \n"
 ">    [python-novice-gapminder-data.zip]({{page.root}}/files/python-novice-gapminder-data.zip).\n"
 ">\n"
-">    Будь ласка дивіться [the setup instructions][lesson-setup]\n"
-">    щоб знайти подальші деталі."
+">    Будь ласка, дивіться [the setup instructions][lesson-setup]\n"
+">    для отримання детальної інформації. "
 
 # SC/DC Template label
 #: python-novice-gapminder/index.md:37

@@ -4,8 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Olexandr Konovalov, 2022
-# Марина Новожилова, 2022
+# Maryna Novozhylova, 2022
+# Mariya Spatar, 2023
+# Olexandr Konovalov, 2023
 # 
 msgid ""
 msgstr ""
@@ -13,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/haiwen/seafile-docs/issues\n"
 "POT-Creation-Date: 2020-05-24 19:34:12+0100\n"
 "PO-Revision-Date: 2020-05-24 19:14+0000\n"
-"Last-Translator: Марина Новожилова, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
+"Last-Translator: Olexandr Konovalov, 2023\n"
+"Language-Team: Ukrainian (https://app.transifex.com/carpentries-i18n/teams/98915/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -140,7 +141,7 @@ msgid ""
 "label."
 msgstr ""
 "    *   Але запамʼятайте: *значення* має свій тип, а *змінна* тільки вказує "
-"на будь-яке значення."
+"на деяке значення."
 
 # code block
 #: python-novice-gapminder/_episodes/03-types-conversion.md:37
@@ -473,8 +474,8 @@ msgid ""
 "*   Some types can be converted to other types by using the type name as a "
 "function."
 msgstr ""
-"*   Деякі типи можуть бути перетворені на інші типи за допомогою функції, "
-"яка має те ж саме імʼя, що і потрібний тип."
+"*   Перетворення типу виконується за допомогою функції, яка має те ж саме "
+"імʼя, що і потрібний тип."
 
 # code block
 #: python-novice-gapminder/_episodes/03-types-conversion.md:160
@@ -555,7 +556,7 @@ msgstr ""
 # header
 #: python-novice-gapminder/_episodes/03-types-conversion.md:187
 msgid "## Variables only change value when something is assigned to them."
-msgstr "## Змінні можуть змінити своє значення тільки через присвоювання."
+msgstr "## Змінні можуть набути своє значення тільки через присвоювання."
 
 # unordered list
 #: python-novice-gapminder/_episodes/03-types-conversion.md:189
@@ -703,7 +704,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/03-types-conversion.md:251
 msgid "> ## Choose a Type"
-msgstr "> ## Як вибрати тип"
+msgstr "> ## Вибір типу"
 
 #: python-novice-gapminder/_episodes/03-types-conversion.md:252
 msgid ""
@@ -1032,7 +1033,7 @@ msgstr ""
 # blockquote, which can be cascaded
 #: python-novice-gapminder/_episodes/03-types-conversion.md:401
 msgid "> ## Arithmetic with Different Types"
-msgstr "> ## Аріфметичні дії з різними типами"
+msgstr "> ## Арифметичні дії з різними типами"
 
 #: python-novice-gapminder/_episodes/03-types-conversion.md:402
 msgid ""
